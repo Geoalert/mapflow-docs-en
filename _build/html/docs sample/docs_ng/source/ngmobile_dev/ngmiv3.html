@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>NextGIS iOS SDK &mdash; документация Mapflow 0.1</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Алфавитный указатель" href="../../../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> Mapflow
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">NextGIS iOS SDK</a><ul>
+<li><a class="reference internal" href="#intro">Intro</a></li>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#add-to-project">Add to project</a></li>
+<li><a class="reference internal" href="#sdk-api-references">SDK API References</a></li>
+<li><a class="reference internal" href="#demo-projects">Demo projects</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">Mapflow</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../../index.html">Docs</a> &raquo;</li>
+      
+    <li>NextGIS iOS SDK</li>
+      <li class="wy-breadcrumbs-aside">
+    <ul class="this-page-menu">
+    </ul>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nextgis-ios-sdk">
+<h1>NextGIS iOS SDK<a class="headerlink" href="#nextgis-ios-sdk" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="intro">
+<h2>Intro<a class="headerlink" href="#intro" title="Ссылка на этот заголовок">¶</a></h2>
+<p>NextGIS iOS SDK is a set of libraries used to support work with geodata in mobile applications for iPhone and iPad. The SDK includes:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nextgis/nextgis_datastore">nextgis_datastore</a> library</p></li>
+<li><p><a class="reference external" href="https://github.com/nextgis/ios_maplib">ios_maplib</a> library</p></li>
+</ul>
+<p>The <strong>nextgis_datastore</strong> library is written in <code class="docutils literal notranslate"><span class="pre">С++11</span></code> and based on <a class="reference external" href="http://gdal.org/">GDAL</a>. The library supports the following functionality:</p>
+<ul class="simple">
+<li><p>create, modify and delete geodata (raster and vector)</p></li>
+<li><p>edit vector geodata (modify geometry and attributes)</p></li>
+<li><p>geodata management (copy, move, various formats import/export, etc.)</p></li>
+<li><p>geodata rendering as maps using <cite>OpenGL/OpenGL ES</cite></p></li>
+<li><p>utility functions (network requests, oAuth2, json)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nextgis.com</span></code>/<code class="docutils literal notranslate"><span class="pre">NextGIS</span> <span class="pre">Web</span></code> integration (under development)</p></li>
+</ul>
+<p>The library has <code class="docutils literal notranslate"><span class="pre">С</span> <span class="pre">API</span></code> and bindings to android java/kotlin programming languages using <code class="docutils literal notranslate"><span class="pre">jni</span></code>.</p>
+<p>The <strong>ios_maplib</strong> library is written in <code class="docutils literal notranslate"><span class="pre">Swift</span></code> and acts as easy wrapper around C API nextgis_datastore.</p>
+</div>
+<div class="section" id="install">
+<h2>Install<a class="headerlink" href="#install" title="Ссылка на этот заголовок">¶</a></h2>
+<p>To use SDK the <strong class="program">Xcode 8</strong> or higher required. Also the <code class="docutils literal notranslate"><span class="pre">Carthage</span></code> utility required.  Carthage is intended to be the simplest way to add frameworks to your Cocoa application. To install Carthage follow instruction at <a class="reference external" href="https://github.com/Carthage/Carthage/">Cathage site</a>.</p>
+<p>In your project folder create <code class="docutils literal notranslate"><span class="pre">Cartfile</span></code> with following text:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>github <span class="s2">&quot;nextgis/ios_maplib&quot;</span>
+</pre></div>
+</div>
+<p>In terminal execute command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>carthage update --platform <span class="s2">&quot;iOS&quot;</span>
+</pre></div>
+</div>
+<p>The command will download and install all necessary components.</p>
+</div>
+<div class="section" id="add-to-project">
+<h2>Add to project<a class="headerlink" href="#add-to-project" title="Ссылка на этот заголовок">¶</a></h2>
+<p>To display current location on the map you need to add to Info.plist following pair fr key-value with <code class="docutils literal notranslate"><span class="pre">String</span></code> type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Privacy - Location When In Use Usage Description <span class="p">|</span> String <span class="p">|</span> Shows your location on the map
+</pre></div>
+</div>
+<p>In your project <code class="docutils literal notranslate"><span class="pre">General</span> <span class="pre">settings</span></code> tab in <code class="docutils literal notranslate"><span class="pre">Linked</span> <span class="pre">Frameworks</span> <span class="pre">and</span> <span class="pre">Libraries</span></code> section, drag &amp; drop``ngstore.framework`` and <code class="docutils literal notranslate"><span class="pre">ngmaplib.framework</span></code> from <code class="docutils literal notranslate"><span class="pre">Carthage/Build/iOS</span></code> folder.</p>
+<div class="figure align-center" id="ngmobdev-linked-frameworks-xcode">
+<a class="reference internal image-reference" href="../../../../_images/linked_frameworks_xcode.png"><img alt="../../../../_images/linked_frameworks_xcode.png" src="../../../../_images/linked_frameworks_xcode.png" style="width: 15cm;" /></a>
+<p class="caption"><span class="caption-text"><strong>Linked Frameworks and Libraries</strong> section in <strong>General settings</strong> tab.</span><a class="headerlink" href="#ngmobdev-linked-frameworks-xcode" title="Постоянная ссылка на рисунок">¶</a></p>
+</div>
+<p>Next you need to setup copying of <code class="docutils literal notranslate"><span class="pre">ngstore.framework</span></code> and <code class="docutils literal notranslate"><span class="pre">ngmaplib.framework</span></code> to building directory. In <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Phases</span></code> tab click the <code class="docutils literal notranslate"><span class="pre">+</span></code> icon and in context menu select <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Run</span> <span class="pre">Script</span> <span class="pre">Phase</span></code>. In  <code class="docutils literal notranslate"><span class="pre">Run</span> <span class="pre">Script</span></code> section add following text to the script area below the <code class="docutils literal notranslate"><span class="pre">Shell</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/usr/local/bin/carthage copy-frameworks
+</pre></div>
+</div>
+<p>Next add following lines to <code class="docutils literal notranslate"><span class="pre">Input</span> <span class="pre">Files</span></code> field:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="k">$(</span>SRCROOT<span class="k">)</span>/Carthage/Build/iOS/ngstore.framework
+<span class="k">$(</span>SRCROOT<span class="k">)</span>/Carthage/Build/iOS/ngmaplib.framework
+</pre></div>
+</div>
+<div class="figure align-center" id="ngmobdev-build-run-script-xcode">
+<a class="reference internal image-reference" href="../../../../_images/build_run_script_xcode.png"><img alt="../../../../_images/build_run_script_xcode.png" src="../../../../_images/build_run_script_xcode.png" style="width: 15cm;" /></a>
+<p class="caption"><span class="caption-text"><strong>Build Phases</strong> tab.</span><a class="headerlink" href="#ngmobdev-build-run-script-xcode" title="Постоянная ссылка на рисунок">¶</a></p>
+</div>
+<p>The details see in <a class="reference external" href="https://github.com/Carthage/Carthage/">Carthage</a> documentaion.</p>
+<p>The library was build with disabled <strong>bitcode</strong> option, so you need to disable it in your project as well. In your project settings select <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Settings</span></code> tab and set option <code class="docutils literal notranslate"><span class="pre">Enable</span> <span class="pre">bitcode</span> <span class="pre">NO</span></code> for both build types (<strong>Debug</strong> and <strong>Release</strong>).</p>
+<div class="figure align-center" id="ngmobdev-bitcode-disable-xcode">
+<a class="reference internal image-reference" href="../../../../_images/bitcode_disable_xcode.png"><img alt="../../../../_images/bitcode_disable_xcode.png" src="../../../../_images/bitcode_disable_xcode.png" style="width: 15cm;" /></a>
+<p class="caption"><span class="caption-text"><strong>Build Settings</strong> tab.</span><a class="headerlink" href="#ngmobdev-bitcode-disable-xcode" title="Постоянная ссылка на рисунок">¶</a></p>
+</div>
+<p>In the end add to your View controller the <code class="docutils literal notranslate"><span class="pre">GLK</span> <span class="pre">View</span></code> and set as a custom class <code class="docutils literal notranslate"><span class="pre">MapView</span></code> class from <code class="docutils literal notranslate"><span class="pre">ngmaplib</span></code> module or some derived class.</p>
+<div class="figure align-center" id="ngmobdev-storyboard-xcode">
+<a class="reference internal image-reference" href="../../../../_images/storyboard_xcode.png"><img alt="../../../../_images/storyboard_xcode.png" src="../../../../_images/storyboard_xcode.png" style="width: 15cm;" /></a>
+<p class="caption"><span class="caption-text">Map view form setup.</span><a class="headerlink" href="#ngmobdev-storyboard-xcode" title="Постоянная ссылка на рисунок">¶</a></p>
+</div>
+</div>
+<div class="section" id="sdk-api-references">
+<h2>SDK API References<a class="headerlink" href="#sdk-api-references" title="Ссылка на этот заголовок">¶</a></h2>
+<p>The SDK API reference can be found in <a class="reference internal" href="swift_api.html"><span class="doc">documentation</span></a>.</p>
+</div>
+<div class="section" id="demo-projects">
+<h2>Demo projects<a class="headerlink" href="#demo-projects" title="Ссылка на этот заголовок">¶</a></h2>
+<p>See demo projects at this <a class="reference internal" href="ios_demos.html"><span class="doc">page</span></a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, G.Potapov.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a> modified by <a href="http://nextgis.com">NextGIS</a> .
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book">  <a href="http://docs.geoalert.io">RU</a></span>
+      Geoalert     
+    </span>
+
+  </div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
