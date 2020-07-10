@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Get started &mdash; документация Mapflow 0.1</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Алфавитный указатель" href="../genindex.html" />
+    <link rel="search" title="Поиск" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Get started</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mapflow</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>Get started</li>
+      <li class="wy-breadcrumbs-aside">
+    <ul class="this-page-menu">
+    </ul>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="get-started">
+<h1>Get started<a class="headerlink" href="#get-started" title="Ссылка на этот заголовок">¶</a></h1>
+<p>We are happy that you interested in Earth Observation Data analysis and want to try our product.</p>
+<p>Please follow the steps below.</p>
+<p>If you have any questions or suggestions about the process, reach us on the <a class="reference external" href="https://forum.deeppavlov.ai">telegram</a> or via <a class="reference external" href="mailto:hello&#37;&#52;&#48;geoalert&#46;io">email</a>.</p>
+<ol class="arabic">
+<li><p>Don’t start the coding first.
+You should do a quick search over <a class="reference external" href="https://github.com/deepmipt/DeepPavlov/issues?q=is%3Aissue">existing issues</a>
+for the project to see if your suggestion was already discussed or even resolved.
+If nothing relevant was found, please create a new one and state what exactly you would like
+to implement or fix.
+You may proceed with coding once someone on our team accepts your offer.</p></li>
+<li><p><a class="reference external" href="https://guides.github.com/activities/forking/">Fork</a> the
+<a class="reference external" href="https://github.com/deepmipt/DeepPavlov">DeepPavlov repository</a></p></li>
+<li><p>Checkout the <code class="docutils literal notranslate"><span class="pre">dev</span></code> branch from
+<a class="reference external" href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork">the upstream</a>
+as a base for your code:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/&lt;OWNER&gt;/&lt;REPOSITORY&gt;.git
+<span class="nb">cd</span> &lt;REPOSITORY&gt;
+git remote add upstream https://github.com/deepmipt/DeepPavlov.git
+git fetch upstream
+git checkout -b dev --track upstream/dev
+</pre></div>
+</div>
+</div></blockquote>
+<p>afterwards to sync the <code class="docutils literal notranslate"><span class="pre">dev</span></code> branch with external updates you can run:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout dev
+git fetch upstream
+git pull
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Create a new branch and switch</strong> to it. Give it a meaningful name:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout -b what_my_code_does_branch
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Write readable code</strong> and keep it
+<a class="reference external" href="https://www.python.org/dev/peps/pep-0008/">PEP8</a>-ed, <strong>add docstrings</strong>
+and keep them consistent with the
+<a class="reference external" href="http://google.github.io/styleguide/pyguide.html#381-docstrings">Google Style</a>.
+Pay attention that we support typing annotations in every function
+declaration.</p>
+<p>Accompany your code with <strong>clear comments</strong> to let other people understand the
+flow of your mind.</p>
+<p>If you create new models, refer to the <span class="xref std std-doc">Register your model</span> section to add it to the DeepPavlov registry of
+models.</p>
+</li>
+<li><p>We ask you to <strong>add some tests</strong>. This will help us maintain the
+framework, and this will help users to understand the feature you introduce.
+Examples of implemented tests are available in <a class="reference external" href="https://github.com/deepmipt/DeepPavlov/tree/dev/tests">tests/</a>
+directory.</p></li>
+<li><p>Please, <strong>update the documentation</strong>, if you committed significant changes
+to our code.</p></li>
+<li><p><strong>Commit your changes and push</strong> your feature branch to your GitHub fork:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git add my_files
+git commit -m <span class="s2">&quot;fix: resolve issue #271&quot;</span>
+git push origin what_my_code_does_branch
+</pre></div>
+</div>
+<p>Follow the <a class="reference external" href="https://seesparkbox.com/foundry/semantic_commit_messages">semantic commit notation</a>
+for the name of the commit.</p>
+</div></blockquote>
+</li>
+<li><p>Create a new <a class="reference external" href="https://github.com/deepmipt/DeepPavlov/pulls">pull request</a>
+to get your feature branch merged into dev for others to use.
+Don’t forget to <a class="reference external" href="https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls">reference</a>
+the GitHub issue associated with your task in the description.</p></li>
+<li><p><strong>Relax and wait</strong> : )</p></li>
+</ol>
+<p>Some time after that your commit will be assigned to somebody from our team
+to check your code.
+After a code review and a successful completion of all tests, your pull request will be approved and
+pushed into the framework.</p>
+<p>If you still have any questions, either on the contribution process or about
+the framework itself, please share them with us on our forum <a class="reference external" href="https://forum.deeppavlov.ai/">https://forum.deeppavlov.ai/</a>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+        <p>Contact us at <a href="https://geoalert.io">geoalert.io</a> and on:</p>
+        <p>
+            <a href="https://twitter.com/geoalertinc"><img style="width: 30px; height: 30px; margin-right: 20px" src="../_static/social/Twitter_Social_Icon_Circle_Color.svg" alt="twitter"></a>
+            <a href="https://www.facebook.com/GeoAlertLtd/"><img style="width: 30px; height: 30px; margin-right: 20px" src="../_static/social/f_logo_RGB-Blue_58.png" alt="facebook"></a>
+            <a href="https://medium.com/geoalert-platform-urban-monitoring"><img style="width: 30px; height: 30px;" src="../_static/social/Medium_Monogram.svg" alt="medium"></a>
+        </p>
+    
+    <p>
+        
+        &copy; Авторские права 2020, Geoalert
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book">  <a href="https://docs.mapflow.ai/ru/">RU</a></span>
+      Geoalert   
+    </span>
+
+  </div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

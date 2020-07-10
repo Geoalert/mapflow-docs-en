@@ -1,47 +1,45 @@
-.. NextGIS documentation master file, created by
+.. Geoalert documentation master file, created by
    sphinx-quickstart on Thu Apr  2 20:31:31 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. toctree::
-   :numbered:
-   :hidden:
-   :maxdepth: 2
-
-   /docs_ngcom/source/toc
   
+.. toctree::
+   :glob:
+   :maxdepth: 1
 
 *****************
 Platform
 *****************
 
-1. :doc:`Get Started with Mapflow</docs_ngcom/source/toc>`
+1. :doc:`Get Started with Mapflow <docs_userguides/get_started>`
+2. :doc:`User guides <docs_userguides/source/toc>`
 
 *****************
 Platform tools
 *****************
 
-2. :doc:`Mapflow processing</docs_ngweb/source/toc>`
-3. :doc:`Mapflow wizzard</docs_ngqgis/source/toc>`
+3. :doc:`Mapflow batch processing <docs_batch/source/>`
+4. :doc:`Dataloader <docs_mapflow/source/>`
 
 *****************
 Data Pipelines
 *****************
 
-4. :doc:`Urban Mapping</docs_ngweb/source/toc>`
-5. :doc:`Forest</docs_ngqgis/source/toc>`
+5. :doc:`Urban Mapping <docs_um/source/toc>`
+6. :doc:`Forest Mapping <docs_forest/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-6. :ref:`Mapflow API<https://github.com/Geoalert/platform-api>`
+7. `Mapflow API <https://github.com/Geoalert/platform-api/>`_
 
 *************
 Additional
 *************
 
-7. :doc:`Glossary <glossary>`
+8. :doc:`About Earth Observation analysis technologies <about/toc>`
 
 ******************
 PDFs
@@ -51,12 +49,6 @@ PDFs
 * :download:`Mapflow data processing`
 * :download:`Urban Mapping`
 
-*******
-Search
-*******
-
-* :ref:`genindex`
-* :ref:`search`
 
 
 .. only:: html

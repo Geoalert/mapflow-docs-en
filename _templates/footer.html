@@ -13,21 +13,44 @@
   <hr/>
 
   <div role="contentinfo">
+    {%- block extrafooter %}
+        <p>Contact us at <a href="https://geoalert.io">geoalert.io</a> and on:</p>
+        <p>
+            <a href="https://twitter.com/geoalertinc"><img style="width: 30px; height: 30px; margin-right: 20px" src="{{ pathto('_static/social/Twitter_Social_Icon_Circle_Color.svg', 1) }}" alt="twitter"></a>
+            <a href="https://www.facebook.com/GeoAlertLtd/"><img style="width: 30px; height: 30px; margin-right: 20px" src="{{ pathto('_static/social/f_logo_RGB-Blue_58.png', 1) }}" alt="facebook"></a>
+            <a href="https://medium.com/geoalert-platform-urban-monitoring"><img style="width: 30px; height: 30px;" src="{{ pathto('_static/social/Medium_Monogram.svg', 1) }}" alt="medium"></a>
+        </p>
+    {% endblock %}
     <p>
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+        {% set path = pathto('copyright') %}
+        {% set copyright = copyright|e %}
+        &copy; <a href="{{ path }}">{% trans %}Copyright{% endtrans %}</a> {{ copyright }}
       {%- else %}
-        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+        {% set copyright = copyright|e %}
+        &copy; {% trans %}Copyright{% endtrans %} {{ copyright }}
       {%- endif %}
     {%- endif %}
 
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+    {%- if build_id and build_url %}
+      <span class="build">
+        {# Translators: Build is a noun, not a verb #}
+        {% trans %}Build{% endtrans %}
+        <a href="{{ build_url }}">{{ build_id }}</a>.
+      </span>
+    {%- elif commit %}
+      <span class="commit">
+        {% trans %}Revision{% endtrans %} <code>{{ commit }}</code>.
+      </span>
+    {%- elif last_updated %}
+      <span class="lastupdated">
+        {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+      </span>
     {%- endif %}
     </p>
   </div>
 
-  {% trans %}Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a> modified by <a href="http://nextgis.com">NextGIS</a> {% endtrans %}.
+  {% trans %}Built with <a href="http://sphinx-doc.org/">Sphinx</a>{% endtrans %}.
   
 </footer>

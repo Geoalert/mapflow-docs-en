@@ -14,12 +14,19 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sys
+import os
+import shlex
+import sphinx_rtd_theme
+
+sys.path.insert(2, os.path.abspath('_ext'))
+
 
 # -- Project information -----------------------------------------------------
 
 project = 'Mapflow'
-copyright = '2020, G.Potapov'
-author = 'G.Potapov'
+copyright = '2020, Geoalert'
+author = 'Geoalert team'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
@@ -31,6 +38,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  'edit_on_github'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,7 +64,23 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_rtd_theme'
 
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
+html_theme_options = {
+    'collapse_navigation': False,
+    'display_version': True,
+    'logo_only': True,
+}
+
+html_logo = '_static/logo.png'
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# -- Options for Edit on github ----------------------------------------------
+edit_on_gitlab_user = ''
+edit_on_github_branch = 'master'
