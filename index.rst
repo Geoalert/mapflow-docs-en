@@ -8,6 +8,12 @@
    :glob:
    :maxdepth: 1
 
+-----------
+Online docs
+-----------
+ 
+https://geoalert-projects.gitlab.io/docs/
+
 *****************
 Platform
 *****************
