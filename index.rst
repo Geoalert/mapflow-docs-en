@@ -6,7 +6,7 @@
   
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 3
 
 ---------------------
 Temporary online docs
