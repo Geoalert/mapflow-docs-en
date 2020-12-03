@@ -6,6 +6,7 @@ pages:
   stage: build_doc
   script:
   - pip install Sphinx sphinx_rtd_theme
+  - pip install sphinxemoji
   - apk add --no-cache make
   - make html
   - mkdir public/ || true
