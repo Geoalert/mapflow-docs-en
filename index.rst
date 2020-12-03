@@ -8,45 +8,45 @@
    :glob:
    :maxdepth: 1
 
-*****************
-Platform
-*****************
+---------------------
+Temporary online docs
+---------------------
+ 
+https://geoalert-projects.gitlab.io/docs/
 
-1. :doc:`Get Started with Mapflow <docs_userguides/get_started>`
-2. :doc:`User guides <docs_userguides/source/toc>`
-
-*****************
-Platform tools
-*****************
-
-3. :doc:`Mapflow batch processing <docs_batch/source/>`
-4. :doc:`Dataloader <docs_mapflow/source/>`
 
 *****************
-Data Pipelines
+Platform UI
 *****************
 
-5. :doc:`Urban Mapping <docs_um/source/toc>`
-6. :doc:`Forest Mapping <docs_forest/source/toc>`
+#. :doc:`Getting Started with Mapflow UI <docs_userguides/get_started>`
 
-***********************
-Developer documentation
-***********************
 
-7. `Mapflow API <https://github.com/Geoalert/platform-api/>`_
+*****************
+Platform services
+*****************
 
-*************
-Additional
-*************
+#. :doc:`Mapflow API <docs_api/processing_api>`
 
-8. :doc:`About Earth Observation analysis technologies <about/toc>`
+*****************
+Mapping Pipelines
+*****************
+
+#. :doc:`Urban Mapping <docs_um/classes>`
+#. :doc:`Forest Mapping`
+
+**********
+References
+**********
+
+#. :doc:`Earth Observation analysis technologies`
 
 ******************
 PDFs
 ******************
 
-* :download:`Mapflow Web documentation`
-* :download:`Mapflow data processing`
+* :download:`Mapflow User Guide`
+* :download:`Mapflow Data processing`
 * :download:`Urban Mapping`
 
 
@@ -55,5 +55,3 @@ PDFs
 
    This documentation is distributed under the terms of Creative Commons License
    **"Attribution-NoDerivs" СC BY-ND**
-
-   .. image:: _static/cc_by.png
