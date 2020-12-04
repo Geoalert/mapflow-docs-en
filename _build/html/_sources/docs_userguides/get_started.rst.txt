@@ -29,8 +29,46 @@ Let's look at each step you need to proceed to define your data processing flow:
    :width: 15cm
 
 
-1. Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from.
-Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
+1.1. Select data source - at this step you define the **geographic area** and the **satellite/aerial image** you want to extract features from.
+
+.. HINT::
+   Try GeoJSON - it's the most popular format for geographic object to display them on web maps.
+
+.. code:: json
+
+    {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            37.490057513654946,
+            55.923029653520395
+          ],
+          [
+            37.490057513654946,
+            55.949815087874605
+          ],
+          [
+            37.54308202484029,
+            55.949815087874605
+          ],
+          [
+            37.54308202484029,
+            55.923029653520395
+          ],
+          [
+            37.490057513654946,
+            55.923029653520395
+          ]
+        ]
+      ]
+    }
+
+
+:download:`Download GeoJSON <_downloads/buildings_aoi.geojson>`.
+
+
+1.2. Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
 
  .. IMPORTANT:: 
   * Currently the only one source by default is selected (**Mapbox Satellite**) using Mapflow Web App. See **API DOC** if you want to define your own input data source or upload GeoTIFF image
@@ -49,10 +87,11 @@ Mapflow is connected to global data sources including commercial data providers,
  .. IMPORTANT::
     Building Heights option is limited by the minumum area of the processing (~70 sq.km)
 
- .. CAUTION::
-    After you choose the Mapping model and the processing params – you will see the total score of your processing cost
 
 3. Run the processing and take a break |:coffee:| |:slight_smile:|
+
+ .. CAUTION::
+    After you choose the Mapping model and the processing params – you will see the total score of your processing cost
 
 
 Working with results
@@ -76,55 +115,6 @@ After you're done with the processing you can preview generated features in inte
    :width: 20cm
 
 #. Download and check **GeoJSON** - a geodata format that's natively supported by Web-Map tools like **Leaflet** (https://leafletjs.com/) or GIS apps like **QGIS** (https://qgis.org/).
-
-
-  .. code:: json
-
-        {
-          "type": "FeatureCollection",
-          "features": [
-            {
-              "type": "Feature",
-              "properties": {
-                "in_zkh": false,
-                "processing_date": "2020-11-17",
-                "id": 256899,
-                "class_id": "103"
-              },
-              "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                  [
-                    [
-                      37.51397341489792,
-                      55.92332193129306
-                    ],
-                    [
-                      37.51390904188156,
-                      55.923422621896684
-                    ],
-                    [
-                      37.513286769390106,
-                      55.92329337719366
-                    ],
-                    [
-                      37.51338869333267,
-                      55.92313557784403
-                    ],
-                    [
-                      37.51380711793899,
-                      55.92323025753092
-                    ],
-                    [
-                      37.51397341489792,
-                      55.92332193129306
-                    ]
-                  ]
-                ]
-              }
-            }
-          ]
-        }
 
 
 Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology. 

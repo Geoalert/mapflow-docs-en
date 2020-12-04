@@ -152,8 +152,42 @@ Using Mapflow you run your flows through all of available Earth Observation &amp
 <div class="figure align-center" id="ui-mapflow-run-flow">
 <a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="../_images/ui_flow_basic.png" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
 </div>
-<p>1. Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from.
-Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
+<p>1.1. Select data source - at this step you define the <strong>geographic area</strong> and the <strong>satellite/aerial image</strong> you want to extract features from.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Try GeoJSON - it’s the most popular format for geographic object to display them on web maps.</p>
+</div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">[</span>
+      <span class="p">[</span>
+        <span class="mf">37.490057513654946</span><span class="p">,</span>
+        <span class="mf">55.923029653520395</span>
+      <span class="p">],</span>
+      <span class="p">[</span>
+        <span class="mf">37.490057513654946</span><span class="p">,</span>
+        <span class="mf">55.949815087874605</span>
+      <span class="p">],</span>
+      <span class="p">[</span>
+        <span class="mf">37.54308202484029</span><span class="p">,</span>
+        <span class="mf">55.949815087874605</span>
+      <span class="p">],</span>
+      <span class="p">[</span>
+        <span class="mf">37.54308202484029</span><span class="p">,</span>
+        <span class="mf">55.923029653520395</span>
+      <span class="p">],</span>
+      <span class="p">[</span>
+        <span class="mf">37.490057513654946</span><span class="p">,</span>
+        <span class="mf">55.923029653520395</span>
+      <span class="p">]</span>
+    <span class="p">]</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">GeoJSON</span></code>.</p>
+<p>1.2. Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
 <blockquote>
 <div><div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -175,14 +209,16 @@ Mapflow is connected to global data sources including commercial data providers,
 <p class="admonition-title">Important</p>
 <p>Building Heights option is limited by the minumum area of the processing (~70 sq.km)</p>
 </div>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>After you choose the Mapping model and the processing params – you will see the total score of your processing cost</p>
-</div>
 </div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>Run the processing and take a break ☕ 🙂</p></li>
 </ol>
+<blockquote>
+<div><div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>After you choose the Mapping model and the processing params – you will see the total score of your processing cost</p>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="working-with-results">
 <h3>Working with results<a class="headerlink" href="#working-with-results" title="Permalink to this headline">¶</a></h3>
@@ -200,55 +236,6 @@ Mapflow is connected to global data sources including commercial data providers,
 <ol class="arabic simple">
 <li><p>Download and check <strong>GeoJSON</strong> - a geodata format that’s natively supported by Web-Map tools like <strong>Leaflet</strong> (<a class="reference external" href="https://leafletjs.com/">https://leafletjs.com/</a>) or GIS apps like <strong>QGIS</strong> (<a class="reference external" href="https://qgis.org/">https://qgis.org/</a>).</p></li>
 </ol>
-<blockquote>
-<div><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;FeatureCollection&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;features&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;Feature&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;properties&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;in_zkh&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;processing_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-11-17&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">256899</span><span class="p">,</span>
-        <span class="nt">&quot;class_id&quot;</span><span class="p">:</span> <span class="s2">&quot;103&quot;</span>
-      <span class="p">},</span>
-      <span class="nt">&quot;geometry&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="p">[</span>
-          <span class="p">[</span>
-            <span class="p">[</span>
-              <span class="mf">37.51397341489792</span><span class="p">,</span>
-              <span class="mf">55.92332193129306</span>
-            <span class="p">],</span>
-            <span class="p">[</span>
-              <span class="mf">37.51390904188156</span><span class="p">,</span>
-              <span class="mf">55.923422621896684</span>
-            <span class="p">],</span>
-            <span class="p">[</span>
-              <span class="mf">37.513286769390106</span><span class="p">,</span>
-              <span class="mf">55.92329337719366</span>
-            <span class="p">],</span>
-            <span class="p">[</span>
-              <span class="mf">37.51338869333267</span><span class="p">,</span>
-              <span class="mf">55.92313557784403</span>
-            <span class="p">],</span>
-            <span class="p">[</span>
-              <span class="mf">37.51380711793899</span><span class="p">,</span>
-              <span class="mf">55.92323025753092</span>
-            <span class="p">],</span>
-            <span class="p">[</span>
-              <span class="mf">37.51397341489792</span><span class="p">,</span>
-              <span class="mf">55.92332193129306</span>
-            <span class="p">]</span>
-          <span class="p">]</span>
-        <span class="p">]</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div></blockquote>
 <p>Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology.
 You are able to analyse it, modify, publish and do what you want.</p>
 <ol class="arabic simple">
