@@ -84,7 +84,6 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Getting started</a><ul>
-<li><a class="reference internal" href="#mapping-models">Mapping models</a></li>
 <li><a class="reference internal" href="#mapflow-ui">Mapflow UI</a><ul>
 <li><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
 <li><a class="reference internal" href="#working-with-results">Working with results</a></li>
@@ -145,37 +144,6 @@
 <p>Mapflow is powered by the engine that enables and operates data processing pipelines (we call “flows”).
 Using Mapflow you run your flows through all of available Earth Observation &amp; Mapping components - as simple as that.</p>
 <p>If you have any questions or suggestions about the process, reach us on <a class="reference external" href="https://t.me/geoalert">telegram</a> or via <a class="reference external" href="mailto:hello&#37;&#52;&#48;geoalert&#46;io">email</a>.</p>
-<div class="section" id="mapping-models">
-<h2>Mapping models<a class="headerlink" href="#mapping-models" title="Permalink to this headline">¶</a></h2>
-<p>Mapflow enables to detect and extract features in satellite and aerial images powered by semantic segmentation and other deep learning techniques.
-It is connected to global data sources including commercial satellites however supports uploading your own georeferenced images.
-Find your way to use Mapflow looking at the basic use case scenarios:</p>
-<p>🏠 <strong>Buildings</strong>
-Extracting of roofprints of buildings from imagery of high resolution</p>
-<p>Additional options:</p>
-<ul class="simple">
-<li><p><strong>Classification by types of buildings</strong> – typology of buildings is represented by the main classes (see <a class="reference external" href="https://mapflow.ai">reference</a>)</p></li>
-<li><p><strong>Building heights</strong></p></li>
-</ul>
-<p>Building height estimation by the length of the shadow and the visible part of the wall. Requires additional input data according to satellite imagery metadata
-Shift to the building footprint</p>
-<p>🎄 <strong>Forest</strong>
-Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights</p>
-<p>Additional options:</p>
-<ul class="simple">
-<li><p><strong>Classification by heights</strong> – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by default 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties</p></li>
-<li><p><strong>Classification by overgrowth density</strong> – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.</p></li>
-</ul>
-<p>🚗 <strong>Roads</strong>
-Extracting the road mask from satellite images of high spatial resolution</p>
-<p>Additional options:</p>
-<ul class="simple">
-<li><p>Classification by road pavement</p></li>
-<li><p>Transfomation into graph</p></li>
-</ul>
-<p>🏗️ <strong>Construction</strong>
-Detection of the construction sites by classification of tiles of hi-resolution satellite images</p>
-</div>
 <div class="section" id="mapflow-ui">
 <h2>Mapflow UI<a class="headerlink" href="#mapflow-ui" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="how-to-run-your-flow">
@@ -184,9 +152,8 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <div class="figure align-center" id="ui-mapflow-run-flow">
 <a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="../_images/ui_flow_basic.png" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
 </div>
-<ol class="arabic simple">
-<li><p>Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from</p></li>
-</ol>
+<p>1. Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from.
+Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
 <blockquote>
 <div><div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -200,9 +167,9 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="../_images/ui_map_select_source.png" src="../_images/ui_map_select_source.png" style="width: 20cm;" /></a>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>Select one of Mapping Models</p></li>
-<li><p>Select the additional options available for the Model (e.g. “Typology” and “Heights” for the “Building” model)</p></li>
+<li><p>Select one of the <strong>Mapping models</strong> (<a class="reference internal" href="pipelines.html"><span class="doc">See Models description</span></a>)</p></li>
 </ol>
+<p>2.1. Select the additional options available for the Model (e.g. “Typology” and “Heights” for the “Building” model)</p>
 <blockquote>
 <div><div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -213,8 +180,8 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <p>After you choose the Mapping model and the processing params – you will see the total score of your processing cost</p>
 </div>
 </div></blockquote>
-<ol class="arabic simple" start="4">
-<li><p>Run the processing and take a break <a href="#id2"><span class="problematic" id="id3">|:coffee:||</span></a>:slight_smile:|</p></li>
+<ol class="arabic simple" start="3">
+<li><p>Run the processing and take a break ☕ 🙂</p></li>
 </ol>
 </div>
 <div class="section" id="working-with-results">
@@ -285,7 +252,7 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <p>Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology.
 You are able to analyse it, modify, publish and do what you want.</p>
 <ol class="arabic simple">
-<li><p>This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - <a class="reference external" href="http://geojson.io/#id=gist:Godnik/ee1894445fbcb1e0ecb8833377c136ed&amp;map=14/55.9366/37.5167">geosjon.io</a></p></li>
+<li><p>This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - <a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a></p></li>
 </ol>
 <p>This is another way to preview results and save them in preferable formats (CSV, KML, GeoJSON, TopoJSON, WKT, Shapefile). Pretty cool! 🙂</p>
 <div class="figure align-center" id="id1">

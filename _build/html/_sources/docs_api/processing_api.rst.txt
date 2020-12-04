@@ -345,7 +345,6 @@ wdName
 source_type
 """""""""""
 
-
    .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
 
    .. csv-table::

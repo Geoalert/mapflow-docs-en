@@ -1,0 +1,2 @@
+Roads,Description,"Model input, min. GSD m/px"
+Segmentation,Extract roads from high-resolution satellite imagery,"RGB, 1"

@@ -15,48 +15,6 @@ Using Mapflow you run your flows through all of available Earth Observation & Ma
 
 If you have any questions or suggestions about the process, reach us on `telegram <https://t.me/geoalert>`_ or via `email <mailto:hello@geoalert.io>`_.
 
-
-Mapping models
---------------
-
-Mapflow enables to detect and extract features in satellite and aerial images powered by semantic segmentation and other deep learning techniques. 
-It is connected to global data sources including commercial satellites however supports uploading your own georeferenced images.
-Find your way to use Mapflow looking at the basic use case scenarios:
-
-|:house:| **Buildings** 
-Extracting of roofprints of buildings from imagery of high resolution
-
-Additional options:
-
-* **Classification by types of buildings** – typology of buildings is represented by the main classes (see `reference <https://mapflow.ai>`_)
-
-* **Building heights**
-Building height estimation by the length of the shadow and the visible part of the wall. Requires additional input data according to satellite imagery metadata
-Shift to the building footprint
-
-|:christmas_tree:| **Forest** 
-Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights
-
-Additional options:
-
-* **Classification by heights** – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by default 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties
-
-* **Classification by overgrowth density** – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.
-
-|:red_car:| **Roads** 
-Extracting the road mask from satellite images of high spatial resolution
-
-Additional options:
-
-* Classification by road pavement
-* Transfomation into graph
-
-
-|:building_construction:| **Construction** 
-Detection of the construction sites by classification of tiles of hi-resolution satellite images
-
-
-
 Mapflow UI
 -----------
 
@@ -71,8 +29,8 @@ Let's look at each step you need to proceed to define your data processing flow:
    :width: 15cm
 
 
-
-1. Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from
+1. Select data source - at this step you define the geographic area and the satellite/aerial image you want to extract features from.
+Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
 
  .. IMPORTANT:: 
   * Currently the only one source by default is selected (**Mapbox Satellite**) using Mapflow Web App. See **API DOC** if you want to define your own input data source or upload GeoTIFF image
@@ -84,9 +42,9 @@ Let's look at each step you need to proceed to define your data processing flow:
    :width: 20cm
 
 
-2. Select one of Mapping Models
+2. Select one of the **Mapping models** (:doc:`See Models description <pipelines>`)
 
-3. Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model)
+2.1. Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model)
 
  .. IMPORTANT::
     Building Heights option is limited by the minumum area of the processing (~70 sq.km)
@@ -94,7 +52,7 @@ Let's look at each step you need to proceed to define your data processing flow:
  .. CAUTION::
     After you choose the Mapping model and the processing params – you will see the total score of your processing cost
 
-4. Run the processing and take a break |:coffee:||:slight_smile:|
+3. Run the processing and take a break |:coffee:| |:slight_smile:|
 
 
 Working with results
@@ -172,7 +130,7 @@ After you're done with the processing you can preview generated features in inte
 Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology. 
 You are able to analyse it, modify, publish and do what you want.
 
-#. This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - `geosjon.io <http://geojson.io/#id=gist:Godnik/ee1894445fbcb1e0ecb8833377c136ed&map=14/55.9366/37.5167>`_ 
+#. This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_ 
 
 This is another way to preview results and save them in preferable formats (CSV, KML, GeoJSON, TopoJSON, WKT, Shapefile). Pretty cool! |:slight_smile:|
 

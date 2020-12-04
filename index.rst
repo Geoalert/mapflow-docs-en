@@ -19,7 +19,7 @@ https://geoalert-projects.gitlab.io/docs/
 Platform UI
 *****************
 
-#. :doc:`Getting Started with Mapflow UI <docs_userguides/get_started>`
+* :doc:`Getting Started with Mapflow UI <docs_userguides/get_started>`
 
 
 *****************
@@ -27,17 +27,17 @@ Platform services
 *****************
 
 #. :doc:`Mapflow API <docs_api/processing_api>`
+#. :doc:`Mapping Models pipelines <docs_userguides/pipelines>`
 
 *****************
-Mapping Pipelines
+Urban Mapping
 *****************
 
-#. :doc:`Urban Mapping <docs_um/classes>`
-#. :doc:`Forest Mapping`
+* :doc:`Urban Mapping classes <docs_um/classes>`
 
-**********
-References
-**********
+*******************
+Education materials
+*******************
 
 #. :doc:`Earth Observation analysis technologies`
 
