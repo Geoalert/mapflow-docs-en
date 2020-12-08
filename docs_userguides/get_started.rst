@@ -2,21 +2,20 @@
 Getting started
 =====================
 
-We are happy that you are interested in Earth Observation Data analysis and Mapping - so you want to use it in your applications.
+We are happy that you are interested in Earth Observation Data analysis and Mapping.
 
-The Earth Observation & Mapping is powered by three main components:
+The Earth Observation to Mapping process is going through the following main stages:
 
 * EO data access (e.g. satellite or aerial imagery service)
-* EO data processing and analysis –  here comes `Mapflow <https://mapflow.ai>`_ |:boom:|
-* GIS – check results and put them into you application
+* EO data processing and analysis (here comes `Mapflow <https://mapflow.ai>`_ |:boom:|)
+* GIS – check and edit results to use them in you application
 
-Mapflow is powered by the engine that enables and operates data processing pipelines (we call "flows").
-Using Mapflow you run your flows through all of available Earth Observation & Mapping components - as simple as that.
+Mapflow is powered by the engine that enables and operates data processing pipelines (we call **"flows"**).
+Using Mapflow you run your flows and get progress at every stage - as simple as that.
 
-If you have any questions or suggestions about the process, reach us on `telegram <https://t.me/geoalert>`_ or via `email <mailto:hello@geoalert.io>`_.
 
-Mapflow UI
------------
+Mapflow Web UI
+--------------
 
 How to run your flow
 ^^^^^^^^^^^^^^^^^^^^
@@ -32,7 +31,10 @@ Let's look at each step you need to proceed to define your data processing flow:
 1.1. Select data source - at this step you define the **geographic area** and the **satellite/aerial image** you want to extract features from.
 
 .. HINT::
-   Try GeoJSON - it's the most popular format for geographic object to display them on web maps.
+   Try GeoJSON - it's the most popular format for geographic object to display them on web maps. To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file.
+   In addition to coordinates in GeoJSON you may see the **properties** of the objects that typicaly refer to the attributes in GIS terminology. 
+
+GeoJSON sample:
 
 .. code:: json
 
@@ -65,14 +67,14 @@ Let's look at each step you need to proceed to define your data processing flow:
     }
 
 
-:download:`Download GeoJSON <_downloads/buildings_aoi.geojson>`.
+:download:`Download GeoJSON <_static/_downloads/buildings_aoi.geojson>`
 
 
 1.2. Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
 
  .. IMPORTANT:: 
   * Currently the only one source by default is selected (**Mapbox Satellite**) using Mapflow Web App. See **API DOC** if you want to define your own input data source or upload GeoTIFF image
-  * To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file
+
 
 .. figure:: _static/ui_map_select_source.png
    :name: UI Mapflow – define AOI
@@ -116,8 +118,6 @@ After you're done with the processing you can preview generated features in inte
 
 #. Download and check **GeoJSON** - a geodata format that's natively supported by Web-Map tools like **Leaflet** (https://leafletjs.com/) or GIS apps like **QGIS** (https://qgis.org/).
 
-
-Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology. 
 You are able to analyse it, modify, publish and do what you want.
 
 #. This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_ 
@@ -134,5 +134,5 @@ Working with API
 ^^^^^^^^^^^^^^^^
 
 Mapflow platform provides Rest API to query for running processings and getting results.
-If you are developing application and want to use API - check :doc:`../docs_api/processing_api`
+If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io
 

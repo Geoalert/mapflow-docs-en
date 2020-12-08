@@ -84,7 +84,7 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Getting started</a><ul>
-<li><a class="reference internal" href="#mapflow-ui">Mapflow UI</a><ul>
+<li><a class="reference internal" href="#mapflow-web-ui">Mapflow Web UI</a><ul>
 <li><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
 <li><a class="reference internal" href="#working-with-results">Working with results</a></li>
 <li><a class="reference internal" href="#working-with-api">Working with API</a></li>
@@ -134,18 +134,17 @@
             
   <div class="section" id="getting-started">
 <h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<p>We are happy that you are interested in Earth Observation Data analysis and Mapping - so you want to use it in your applications.</p>
-<p>The Earth Observation &amp; Mapping is powered by three main components:</p>
+<p>We are happy that you are interested in Earth Observation Data analysis and Mapping.</p>
+<p>The Earth Observation to Mapping process is going through the following main stages:</p>
 <ul class="simple">
 <li><p>EO data access (e.g. satellite or aerial imagery service)</p></li>
-<li><p>EO data processing and analysis –  here comes <a class="reference external" href="https://mapflow.ai">Mapflow</a> 💥</p></li>
-<li><p>GIS – check results and put them into you application</p></li>
+<li><p>EO data processing and analysis (here comes <a class="reference external" href="https://mapflow.ai">Mapflow</a> 💥)</p></li>
+<li><p>GIS – check and edit results to use them in you application</p></li>
 </ul>
-<p>Mapflow is powered by the engine that enables and operates data processing pipelines (we call “flows”).
-Using Mapflow you run your flows through all of available Earth Observation &amp; Mapping components - as simple as that.</p>
-<p>If you have any questions or suggestions about the process, reach us on <a class="reference external" href="https://t.me/geoalert">telegram</a> or via <a class="reference external" href="mailto:hello&#37;&#52;&#48;geoalert&#46;io">email</a>.</p>
-<div class="section" id="mapflow-ui">
-<h2>Mapflow UI<a class="headerlink" href="#mapflow-ui" title="Permalink to this headline">¶</a></h2>
+<p>Mapflow is powered by the engine that enables and operates data processing pipelines (we call <strong>“flows”</strong>).
+Using Mapflow you run your flows and get progress at every stage - as simple as that.</p>
+<div class="section" id="mapflow-web-ui">
+<h2>Mapflow Web UI<a class="headerlink" href="#mapflow-web-ui" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="how-to-run-your-flow">
 <h3>How to run your flow<a class="headerlink" href="#how-to-run-your-flow" title="Permalink to this headline">¶</a></h3>
 <p>Let’s look at each step you need to proceed to define your data processing flow:</p>
@@ -155,8 +154,10 @@ Using Mapflow you run your flows through all of available Earth Observation &amp
 <p>1.1. Select data source - at this step you define the <strong>geographic area</strong> and the <strong>satellite/aerial image</strong> you want to extract features from.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Try GeoJSON - it’s the most popular format for geographic object to display them on web maps.</p>
+<p>Try GeoJSON - it’s the most popular format for geographic object to display them on web maps. To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file.
+In addition to coordinates in GeoJSON you may see the <strong>properties</strong> of the objects that typicaly refer to the attributes in GIS terminology.</p>
 </div>
+<p>GeoJSON sample:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
   <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="p">[</span>
@@ -186,14 +187,13 @@ Using Mapflow you run your flows through all of available Earth Observation &amp
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">GeoJSON</span></code>.</p>
+<p><a class="reference download internal" download="" href="../_downloads/c427956472fef5645726a978c5763d83/buildings_aoi.geojson"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">GeoJSON</span></code></a></p>
 <p>1.2. Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
 <blockquote>
 <div><div class="admonition important">
 <p class="admonition-title">Important</p>
 <ul class="simple">
 <li><p>Currently the only one source by default is selected (<strong>Mapbox Satellite</strong>) using Mapflow Web App. See <strong>API DOC</strong> if you want to define your own input data source or upload GeoTIFF image</p></li>
-<li><p>To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file</p></li>
 </ul>
 </div>
 </div></blockquote>
@@ -236,8 +236,7 @@ Using Mapflow you run your flows through all of available Earth Observation &amp
 <ol class="arabic simple">
 <li><p>Download and check <strong>GeoJSON</strong> - a geodata format that’s natively supported by Web-Map tools like <strong>Leaflet</strong> (<a class="reference external" href="https://leafletjs.com/">https://leafletjs.com/</a>) or GIS apps like <strong>QGIS</strong> (<a class="reference external" href="https://qgis.org/">https://qgis.org/</a>).</p></li>
 </ol>
-<p>Here you will see coordinates and additional properties of the object that typicaly refer to the attributes in GIS terminology.
-You are able to analyse it, modify, publish and do what you want.</p>
+<p>You are able to analyse it, modify, publish and do what you want.</p>
 <ol class="arabic simple">
 <li><p>This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - <a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a></p></li>
 </ol>
@@ -249,7 +248,7 @@ You are able to analyse it, modify, publish and do what you want.</p>
 <div class="section" id="working-with-api">
 <h3>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h3>
 <p>Mapflow platform provides Rest API to query for running processings and getting results.
-If you are developing application and want to use API - check <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a></p>
+If you are developing application and want to use API - check <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a> and contact us at <a class="reference external" href="mailto:help&#37;&#52;&#48;geoalert&#46;io">help<span>&#64;</span>geoalert<span>&#46;</span>io</a></p>
 </div>
 </div>
 </div>

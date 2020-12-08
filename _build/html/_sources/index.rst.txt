@@ -6,24 +6,19 @@
   
 .. toctree::
    :glob:
-   :maxdepth: 3
+   :maxdepth: 2
+   
 
----------------------
-Temporary online docs
----------------------
- 
-https://geoalert-projects.gitlab.io/docs/
+****************************
+Getting Started with Mapflow
+****************************
 
-
-*****************
-Platform UI
-*****************
-
-* :doc:`Getting Started with Mapflow UI <docs_userguides/get_started>`
+#. :doc:`Mapflow UI <docs_userguides/get_started>`
+#. :doc:`Mapflow Tariffs <docs_userguides/prices>`
 
 
 *****************
-Platform services
+Mapflow services
 *****************
 
 #. :doc:`Mapflow API <docs_api/processing_api>`
@@ -39,15 +34,15 @@ Urban Mapping
 Education materials
 *******************
 
-#. :doc:`Earth Observation analysis technologies`
+* :doc:`Earth Observation analysis technologies`
 
 ******************
 PDFs
 ******************
 
-* :download:`Mapflow User Guide`
-* :download:`Mapflow Data processing`
-* :download:`Urban Mapping`
+* :download:`Mapflow User Guide <docs_userguides/_static/_downloads/get_started.pdf>`
+* :download:`Mapflow Data pipelines <docs_userguides/_static/_downloads/pipelines.pdf>`
+* :download:`Mapflow tariffs <docs_userguides/_static/_downloads/prices.pdf>`
 
 
 

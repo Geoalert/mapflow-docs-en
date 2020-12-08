@@ -23,7 +23,7 @@ Returns the project with the specified ID.
 Response example:
 
 .. code:: json
-    
+
     {
         "id": "546d148f-19a1-40d8-8f16-d1e6dabfd204",
         "name": "test",
