@@ -20,6 +20,8 @@ Mapflow Web UI
 How to run your flow
 ^^^^^^^^^^^^^^^^^^^^
 
+Open Web App following the link https://app.mapflow.ai/ 
+
 Let's look at each step you need to proceed to define your data processing flow: 
 
 .. figure:: _static/ui_flow_basic.png
@@ -32,7 +34,7 @@ Let's look at each step you need to proceed to define your data processing flow:
 
 .. HINT::
    Try GeoJSON - it's the most popular format for geographic object to display them on web maps. To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file.
-   In addition to coordinates in GeoJSON you may see the **properties** of the objects that typicaly refer to the attributes in GIS terminology. 
+   In addition to coordinates in GeoJSON you may see the **properties** of the objects that typically refer to the attributes in GIS terminology. 
 
 GeoJSON sample:
 
@@ -109,7 +111,7 @@ After you're done with the processing you can preview generated features in inte
    :width: 10cm
 
 
-#. An interactive map (View on the map) shows you the features mask placed over the input image. This's the fastest way to preview the output results.
+#. An interactive map (View on the map) shows you the features mask placed over the input image. This is the fastest way to preview the output results.
 
 .. figure:: _static/preview_map.png
    :name: Preview map
@@ -133,6 +135,6 @@ This is another way to preview results and save them in preferable formats (CSV,
 Working with API
 ^^^^^^^^^^^^^^^^
 
-Mapflow platform provides Rest API to query for running processings and getting results.
+Mapflow platform provides a Rest API to query for running processings and getting results.
 If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io
 
