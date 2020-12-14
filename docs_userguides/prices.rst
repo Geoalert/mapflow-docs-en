@@ -1,7 +1,9 @@
 Mapflow tariffs
 ===============
 
-Each user gets free credis to get started with functionality and features.
+.. IMPORTANT::
+   Each user gets free balance of credis to get started with functionality and features of Mapflow
+
 The price in credits is counted as USD 0.1 per sq.km
 
 See information on the tariff plans:

@@ -20,6 +20,8 @@ Mapflow Web UI
 How to run your flow
 ^^^^^^^^^^^^^^^^^^^^
 
+Open Web App following the link https://app.mapflow.ai/ 
+
 Let's look at each step you need to proceed to define your data processing flow: 
 
 .. figure:: _static/ui_flow_basic.png

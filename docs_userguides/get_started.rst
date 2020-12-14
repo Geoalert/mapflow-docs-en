@@ -20,7 +20,7 @@ Mapflow Web UI
 How to run your flow
 ^^^^^^^^^^^^^^^^^^^^
 
-Open Web App following the link https://app.mapflow.ai/ 
+1.0. Open Web App following the link https://app.mapflow.ai/ 
 
 Let's look at each step you need to proceed to define your data processing flow: 
 
@@ -74,7 +74,7 @@ GeoJSON sample:
 
 1.2. Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
 
- .. IMPORTANT:: 
+.. IMPORTANT:: 
   * Currently the only one source by default is selected (**Mapbox Satellite**) using Mapflow Web App. See **API DOC** if you want to define your own input data source or upload GeoTIFF image
 
 
@@ -88,13 +88,13 @@ GeoJSON sample:
 
 2.1. Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model)
 
- .. IMPORTANT::
+.. IMPORTANT::
     Building Heights option is limited by the minumum area of the processing (~70 sq.km)
 
 
 3. Run the processing and take a break |:coffee:| |:slight_smile:|
 
- .. CAUTION::
+.. CAUTION::
     After you choose the Mapping model and the processing params – you will see the total score of your processing cost
 
 
