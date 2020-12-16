@@ -1,0 +1,21 @@
+CLASS_ID,CLASS NAME,Класс (рус),DESCRIPTION,Описание рус,Visual,OSM refereral tag
+Buildings and Construction,,,,,,
+101,Apartment building ,Многоквартиное жилое здание,Roof footprints of the multistorey apartment buildings,Жилые многоквартирные здания в разных типах застройки.  ,,"building=yes,
+building=residential,
+building=appartments,"
+901,building shadow,Тень здания,Shadows of multi-storey buildings,Тень от зданий,,
+902,building wall,Стена здания,Walls of multi-storey buildings,Стены зданий,,
+102,House,Частный дом,Mostly private houses (usually represents a single household),Малоэтажная застройка. Не принципиальна высота зданий,,"building=house,
+building=residential"
+103,Industrial building,Промышленное здание,"Mostly industrial (Plants, large hangars, warehouses, etc.)","Промышленные здания.
+Заводы, порты и т.д. характерные наличием промышленной инфраструктуры.
+Очевидно отличаются размером кроме прочих иных признаков",,building=industrial
+104,Commercial building,Коммерческое здание,"Offices, retail, etc.","Офисные помещения, бизнес-центры, торговые центры.
+Характерны наличием парковок в офисные часы",,building=commercial
+105,Other non-residential buildings,Прочие нежилые здания,"Garages, transformer boxes, small hangars, etc.","Прочие здания. Не попало ни в один из вышеперечисленных классов, предположительно является нежилым типом",,
+106,Construction site,Строительная площадка,,"Строй площадка, строительный полигон",,landuse=construction
+107,Constructing building,Строящееся здание,Construction is in progress,Строящееся здание,,building=construction
+108,Pit,Котлован,,Строительный котлован либо карьер,,
+110,Religious buildings,Культовые сооружения,,,,building=religious
+111,Apartment block,"Блокированная застройка, кварталы террасного типа, плотно прилегающие строения без просветов","Merged buildings in high density construction areas, apartment blocks",Не характерно для РФ. ,,
+112,Civic building,"Административное здание, общественные места","Civic buildings, public places like hospitals, government, schools etc.","Больницы, школы, дет. сады и т.д.",,building=civic

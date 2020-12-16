@@ -9,7 +9,7 @@ Here we aim to assign classes to the natural and man-made objects that have a cl
    .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|p{3cm}|
 
    .. csv-table::
-      :file: _static/classes_um.csv 
+      :file: _static/csv/classes_um.csv 
       :header-rows: 1 
       :class: longtable
       :widths: 1 1 1 1

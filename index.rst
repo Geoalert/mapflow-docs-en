@@ -7,7 +7,7 @@
 .. toctree::
    :glob:
    :maxdepth: 2
-   
+
 
 ****************************
 Getting Started with Mapflow
@@ -24,16 +24,11 @@ Mapflow services
 #. :doc:`Mapflow API <docs_api/processing_api>`
 #. :doc:`Mapping Models pipelines <docs_userguides/pipelines>`
 
-*****************
-Urban Mapping
-*****************
+********************
+Reference materials 
+********************
 
 * :doc:`Urban Mapping classes <docs_um/classes>`
-
-*******************
-Education materials
-*******************
-
 * :doc:`Earth Observation analysis technologies`
 
 ******************

@@ -147,7 +147,7 @@ Using Mapflow you run your flows and get progress at every stage - as simple as 
 <h2>Mapflow Web UI<a class="headerlink" href="#mapflow-web-ui" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="how-to-run-your-flow">
 <h3>How to run your flow<a class="headerlink" href="#how-to-run-your-flow" title="Permalink to this headline">¶</a></h3>
-<p>Open Web App following the link <a class="reference external" href="https://app.mapflow.ai/">https://app.mapflow.ai/</a></p>
+<p>1.0. Open Web App following the link <a class="reference external" href="https://app.mapflow.ai/">https://app.mapflow.ai/</a></p>
 <p>Let’s look at each step you need to proceed to define your data processing flow:</p>
 <div class="figure align-center" id="ui-mapflow-run-flow">
 <a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="../_images/ui_flow_basic.png" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
@@ -190,14 +190,12 @@ In addition to coordinates in GeoJSON you may see the <strong>properties</strong
 </div>
 <p><a class="reference download internal" download="" href="../_downloads/c427956472fef5645726a978c5763d83/buildings_aoi.geojson"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">GeoJSON</span></code></a></p>
 <p>1.2. Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
-<blockquote>
-<div><div class="admonition important">
+<div class="admonition important">
 <p class="admonition-title">Important</p>
 <ul class="simple">
 <li><p>Currently the only one source by default is selected (<strong>Mapbox Satellite</strong>) using Mapflow Web App. See <strong>API DOC</strong> if you want to define your own input data source or upload GeoTIFF image</p></li>
 </ul>
 </div>
-</div></blockquote>
 <div class="figure align-center" id="ui-mapflow-define-aoi">
 <a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="../_images/ui_map_select_source.png" src="../_images/ui_map_select_source.png" style="width: 20cm;" /></a>
 </div>
@@ -205,21 +203,17 @@ In addition to coordinates in GeoJSON you may see the <strong>properties</strong
 <li><p>Select one of the <strong>Mapping models</strong> (<a class="reference internal" href="pipelines.html"><span class="doc">See Models description</span></a>)</p></li>
 </ol>
 <p>2.1. Select the additional options available for the Model (e.g. “Typology” and “Heights” for the “Building” model)</p>
-<blockquote>
-<div><div class="admonition important">
+<div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Building Heights option is limited by the minumum area of the processing (~70 sq.km)</p>
 </div>
-</div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>Run the processing and take a break ☕ 🙂</p></li>
 </ol>
-<blockquote>
-<div><div class="admonition caution">
+<div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>After you choose the Mapping model and the processing params – you will see the total score of your processing cost</p>
 </div>
-</div></blockquote>
 </div>
 <div class="section" id="working-with-results">
 <h3>Working with results<a class="headerlink" href="#working-with-results" title="Permalink to this headline">¶</a></h3>
