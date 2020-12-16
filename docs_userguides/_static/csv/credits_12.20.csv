@@ -1,11 +1,11 @@
-Tariffs,"Free, 0$",50$,90$,800$
-Credits,1000,500,1000,10000
-Services,,,,
-Buildings,5,5,5,5
-Building classification,5,5,5,5
-Building heights,n/a,10,10,10
-Roads,5,5,5,5
-Road classification,5,5,5,5
-Forest,5,5,5,5
-Forest classification,n/a,10,10,10
-Construction,n/a,2,2,2
+Tariffs,50$,90$,800$
+Credits,500,1000,10000
+Services,,,
+Buildings,5,5,5
+Building classification,5,5,5
+Building heights,10,10,10
+Roads,5,5,5
+Road classification,5,5,5
+Forest,5,5,5
+Forest classification,10,10,10
+Construction,2,2,2
