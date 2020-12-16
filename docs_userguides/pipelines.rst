@@ -8,10 +8,9 @@ Extracting of roofprints of buildings from imagery of high resolution
 
 Additional options:
 
-* **Classification by types of buildings** – typology of buildings is represented by the main classes (see `reference <https://mapflow.ai>`_)
+* **Classification by types of buildings** – typology of buildings is represented by the main classes (see `reference <https://docs.mapflow.ai/docs_um/classes.html>`_)
 
-* **Building heights**
-Building height estimation by the length of the shadow and the visible part of the wall.
+* **Building heights** - building height estimation by the length of the shadow and the visible part of the wall.
 Shift to the building footprint
 
 |:christmas_tree:| **Forest** 
@@ -19,7 +18,7 @@ Extracting the forest masks from RGB images of high resolution (2 meters) withou
 
 Additional options:
 
-* **Classification by heights** – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by default 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties
+* **Classification by heights** – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties
 
 * **Classification by overgrowth density** – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.
 
