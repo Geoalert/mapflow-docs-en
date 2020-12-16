@@ -6,6 +6,8 @@ Mapflow tariffs
 
 The price in credits is counted as USD 0.1 per sq.km
 
+1 Credit = 0.1$
+
 See information on the tariff plans:
 
    .. tabularcolumns:: |p{7cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|
