@@ -1,19 +1,29 @@
-.. Geoalert documentation master file, created by
-   sphinx-quickstart on Thu Apr  2 20:31:31 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Geoalert documentation master file
 
-  
+
 .. toctree::
    :glob:
    :maxdepth: 2
 
+*****************
+Welcome!
+*****************
+
+We are happy that you are interested in Earth Observation Data analysis and Mapping!
+The Earth Observation to Mapping process is going through the following main stages:
+
+	* EO data access (e.g. satellite or aerial imagery)
+	* EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes in game |:boom:|
+	* GIS – check and edit results to use them in you application
+
+Mapflow is powered by the engine that operates data processing pipelines (we call "flows").
+Using Mapflow you run your flows getting all power of semnatic imagery analysis.
 
 ****************************
 Getting Started with Mapflow
 ****************************
 
-#. :doc:`Mapflow UI <docs_userguides/get_started>`
+#. :doc:`Mapflow UI <docs_userguides/get_started>` |:diamonds:|
 #. :doc:`Mapflow Tariffs <docs_userguides/prices>`
 
 

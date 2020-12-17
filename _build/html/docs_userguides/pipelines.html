@@ -137,16 +137,14 @@
 Extracting of roofprints of buildings from imagery of high resolution</p>
 <p>Additional options:</p>
 <ul class="simple">
-<li><p><strong>Classification by types of buildings</strong> – typology of buildings is represented by the main classes (see <a class="reference external" href="https://mapflow.ai">reference</a>)</p></li>
-<li><p><strong>Building heights</strong></p></li>
+<li><p><strong>Classification by types of buildings</strong> – typology of buildings is represented by the main classes (see <a class="reference external" href="https://docs.mapflow.ai/docs_um/classes.html">reference</a>)</p></li>
+<li><p><strong>Building heights</strong> - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint</p></li>
 </ul>
-<p>Building height estimation by the length of the shadow and the visible part of the wall.
-Shift to the building footprint</p>
 <p>🎄 <strong>Forest</strong>
 Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights</p>
 <p>Additional options:</p>
 <ul class="simple">
-<li><p><strong>Classification by heights</strong> – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by default 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties</p></li>
+<li><p><strong>Classification by heights</strong> – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties</p></li>
 <li><p><strong>Classification by overgrowth density</strong> – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.</p></li>
 </ul>
 <p>🚗 <strong>Roads</strong>
@@ -179,7 +177,7 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <tbody>
 <tr class="row-even"><td><p>Segmentation</p></td>
 <td><p>Extract roof contours (roofprints) from high-resolution satellite imagery</p></td>
-<td><p>0.5</p></td>
+<td><p>RGB 0.5</p></td>
 </tr>
 <tr class="row-odd"><td><p>Classification</p></td>
 <td><p>Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential</p></td>
@@ -214,8 +212,8 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 <td><p>RGB, 2</p></td>
 </tr>
 <tr class="row-odd"><td><p>Classification</p></td>
-<td><p>Classify the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by default 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties</p></td>
-<td><p>RGB, 2</p></td>
+<td><p>Classify the areas of vegetation and shrub vegetation by height.</p></td>
+<td><p>RGB, 0.5</p></td>
 </tr>
 </tbody>
 </table>

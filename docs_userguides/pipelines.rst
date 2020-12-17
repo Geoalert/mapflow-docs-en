@@ -10,8 +10,7 @@ Additional options:
 
 * **Classification by types of buildings** – typology of buildings is represented by the main classes (see `reference <https://docs.mapflow.ai/docs_um/classes.html>`_)
 
-* **Building heights** - building height estimation by the length of the shadow and the visible part of the wall.
-Shift to the building footprint
+* **Building heights** - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint
 
 |:christmas_tree:| **Forest** 
 Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights
