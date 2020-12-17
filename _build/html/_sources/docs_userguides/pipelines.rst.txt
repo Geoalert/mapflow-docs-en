@@ -53,7 +53,7 @@ Buildings
 Forest
 """"""
 
-   .. tabularcolumns:: |p{2cm}|p{3cm}|p{3cm}|
+   .. tabularcolumns:: |p{2cm}|p{5cm}|p{3cm}|
 
    .. csv-table::
       :file: _static/csv/forest.csv 
@@ -65,7 +65,7 @@ Forest
 Roads
 """""
 
-   .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
+   .. tabularcolumns:: |p{2cm}|p{5cm}|p{2cm}|
 
    .. csv-table::
       :file: _static/csv/roads.csv 
