@@ -6,7 +6,7 @@
    :maxdepth: 3
 
 *****************
-Welcome!
+Welcome
 *****************
 
 We are happy that you are interested in Earth Observation Data analysis and Mapping!
