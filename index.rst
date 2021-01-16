@@ -6,13 +6,13 @@
    :maxdepth: 3
 
 *****************
-Welcome!
+Welcome
 *****************
 
 We are happy that you are interested in Earth Observation Data analysis and Mapping!
 The Earth Observation to Mapping process is going through the following main stages:
 
-	* EO data access (e.g. satellite or aerial imagery)
+   * EO data access (e.g. satellite or aerial imagery)
 	* EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes in game |:boom:|
 	* GIS – check and edit results to use them in you application
 
@@ -39,7 +39,6 @@ Reference materials
 ********************
 
 * :doc:`Urban Mapping classes <docs_um/classes>`
-* :doc:`Earth Observation analysis technologies`
 
 ******************
 PDFs
