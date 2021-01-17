@@ -75,14 +75,14 @@ Our platform is very easy to use. The step-by-step process of starting processin
 
 2. AI model
 
- Select one of the **Mapping models** (:doc:`See Models description <pipelines>`)
+ Select one of the **Mapping models** (:doc:`See Models description <pipelines>`).
 
 3. Options
 
- Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model)
+ Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model).
 
  .. important:: 
-   Building Heights option is limited by the minumum area of the processing (from 50 sq.km)
+   Building Heights option is limited by the minumum area of the processing (from 50 sq.km).
  
 4. Run the processing
 
@@ -99,7 +99,7 @@ When this panel is opened, the status is displayed, and the previously selected 
 .. figure:: _static/preview_button.png
    :alt: Preview results
    :align: center
-   :width: 10cm
+   :width: 7cm
 
 After finishing the processing, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
@@ -107,29 +107,29 @@ After finishing the processing, you can view the results on an interactive map o
 
 Options for displaying processing results:
 
-1. Download ** GeoJSON ** - a geodata format that is natively supported by web map libraries like **Leaflet** (https://leafletjs.com/) or GIS like **QGIS** (https : //qgis.org/).
+1. Download **GeoJSON** - a geodata format that is natively supported by web map libraries like **Leaflet** (https://leafletjs.com/) or GIS like **QGIS** (https : //qgis.org/).
 
-2. "Open in geojson.io" - viewing results in an external application using a direct link from Mapflow - example: `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_.
+2. "Open with geojson.io" - viewing results in an external application using a direct link from Mapflow - example: `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_.
 
  .. note::
   Also, by clicking the link geojsonn.io `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_, you are given the opportunity to view the results and save them in other formats (CSV, KML, GeoJSON, topojson, WKT, Shapefile). To do this, select Save and the format you want in the menu bar.
 
-.. figure:: _static/geojson.io.png
+ .. figure:: _static/geojson.io.png
    :name: Preview map
    :align: center
-   :width: 20cm
+   :width: 15cm
 
-3. "View on map" shows the result of processing on top of the original image. This is the fastest way to view the results.
+3. "View on the map" shows the result of processing on top of the original image. This is the fastest way to view the results.
 
 .. figure:: _static/preview_map.png
    :alt: Preview map
    :align: center
-   :width: 20cm
+   :width: 15cm
 
 
 Working with API
 ^^^^^^^^^^^^^^^^
 
 Mapflow platform provides a Rest API to query for running processings and getting results.
-If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io
+If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io.
 
