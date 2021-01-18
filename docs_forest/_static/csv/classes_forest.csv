@@ -1,0 +1,4 @@
+CLASS_ID,DENSITY,Description
+00m-04m,-,low vegetation
+04m-10m,dense/sparse,medium forest
+10m-99m,dense/sparse,high forest

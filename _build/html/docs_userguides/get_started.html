@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Getting started &mdash; Mapflow 0.1 documentation</title>
+  <title>Mapflow Web UI &mdash; Mapflow 0.1 documentation</title>
   
 
   
@@ -84,10 +84,9 @@
             
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Getting started</a><ul>
-<li><a class="reference internal" href="#mapflow-web-ui">Mapflow Web UI</a><ul>
+<li><a class="reference internal" href="#">Mapflow Web UI</a><ul>
 <li><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
-<li><a class="reference internal" href="#working-with-results">Working with results</a></li>
+<li><a class="reference internal" href="#working-with-results">Working with results</a><ul>
 <li><a class="reference internal" href="#working-with-api">Working with API</a></li>
 </ul>
 </li>
@@ -120,7 +119,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Getting started</li>
+    <li>Mapflow Web UI</li>
       <li class="wy-breadcrumbs-aside">
     <ul class="this-page-menu">
         <li><a href="https://github.com/Geoalert/mapflow-docs-en/edit/main/docs_userguides/get_started.rst"
@@ -133,118 +132,93 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="getting-started">
-<h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<p>We are happy that you are interested in Earth Observation Data analysis and Mapping.</p>
-<p>The Earth Observation to Mapping process is going through the following main stages:</p>
-<ul class="simple">
-<li><p>EO data access (e.g. satellite or aerial imagery service)</p></li>
-<li><p>EO data processing and analysis (here comes <a class="reference external" href="https://mapflow.ai">Mapflow</a> 💥)</p></li>
-<li><p>GIS – check and edit results to use them in you application</p></li>
-</ul>
-<p>Mapflow is powered by the engine that enables and operates data processing pipelines (we call <strong>“flows”</strong>).
-Using Mapflow you run your flows and get progress at every stage - as simple as that.</p>
-<div class="section" id="mapflow-web-ui">
-<h2>Mapflow Web UI<a class="headerlink" href="#mapflow-web-ui" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="mapflow-web-ui">
+<h1>Mapflow Web UI<a class="headerlink" href="#mapflow-web-ui" title="Permalink to this headline">¶</a></h1>
+<p>Go to <a class="reference external" href="https://app.mapflow.ai">Mapflow</a> and register or login using your Google account.
+Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, <strong>flows</strong>.</p>
 <div class="section" id="how-to-run-your-flow">
-<h3>How to run your flow<a class="headerlink" href="#how-to-run-your-flow" title="Permalink to this headline">¶</a></h3>
-<p>1.0. Open Web App following the link <a class="reference external" href="https://app.mapflow.ai/">https://app.mapflow.ai/</a></p>
-<p>Let’s look at each step you need to proceed to define your data processing flow:</p>
-<div class="figure align-center" id="ui-mapflow-run-flow">
-<a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="../_images/ui_flow_basic.png" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
+<h2>How to run your flow<a class="headerlink" href="#how-to-run-your-flow" title="Permalink to this headline">¶</a></h2>
+<p>Mapflow is designed to be intuitive. Here is our step-by-step user guide:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="UI Mapflow – run a flow" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
 </div>
-<p>1.1. Select data source - at this step you define the <strong>geographic area</strong> and the <strong>satellite/aerial image</strong> you want to extract features from.</p>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
-<p>Try GeoJSON - it’s the most popular format for geographic object to display them on web maps. To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file.
-In addition to coordinates in GeoJSON you may see the <strong>properties</strong> of the objects that typically refer to the attributes in GIS terminology.</p>
+<ol class="arabic simple">
+<li><p>Data source</p></li>
+</ol>
+<blockquote>
+<div><p>To specify your area of interest (AOI), you can either upload your own <a class="reference external" href="https://geojson.org">GeoJSON</a> file, or draw the area directly on the map (“Draw rectangle”).</p>
+<blockquote>
+<div><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="UI Mapflow – define AOI" src="../_images/ui_map_select_source.png" style="width: 15cm;" /></a>
 </div>
-<p>GeoJSON sample:</p>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">[</span>
-      <span class="p">[</span>
-        <span class="mf">37.490057513654946</span><span class="p">,</span>
-        <span class="mf">55.923029653520395</span>
-      <span class="p">],</span>
-      <span class="p">[</span>
-        <span class="mf">37.490057513654946</span><span class="p">,</span>
-        <span class="mf">55.949815087874605</span>
-      <span class="p">],</span>
-      <span class="p">[</span>
-        <span class="mf">37.54308202484029</span><span class="p">,</span>
-        <span class="mf">55.949815087874605</span>
-      <span class="p">],</span>
-      <span class="p">[</span>
-        <span class="mf">37.54308202484029</span><span class="p">,</span>
-        <span class="mf">55.923029653520395</span>
-      <span class="p">],</span>
-      <span class="p">[</span>
-        <span class="mf">37.490057513654946</span><span class="p">,</span>
-        <span class="mf">55.923029653520395</span>
-      <span class="p">]</span>
-    <span class="p">]</span>
-  <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-<p><a class="reference download internal" download="" href="../_downloads/c427956472fef5645726a978c5763d83/buildings_aoi.geojson"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">GeoJSON</span></code></a></p>
-<p>1.2. Mapflow is connected to global data sources including commercial data providers, however it’s possible to upload your own georeferenced images.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<ul class="simple">
-<li><p>Currently the only one source by default is selected (<strong>Mapbox Satellite</strong>) using Mapflow Web App. See <strong>API DOC</strong> if you want to define your own input data source or upload GeoTIFF image</p></li>
-</ul>
-</div>
-<div class="figure align-center" id="ui-mapflow-define-aoi">
-<a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="../_images/ui_map_select_source.png" src="../_images/ui_map_select_source.png" style="width: 20cm;" /></a>
-</div>
+</div></blockquote>
+<p>Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. <a class="reference external" href="https://leafletjs.com/">Leaflet</a> or <a class="reference external" href="https://docs.mapbox.com/mapbox.js/">Mapbox</a>) and GIS like <a class="reference external" href="https://qgis.org/">QGIS</a> or the ArcGIS Suite.
+As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a>.</p>
+</div></blockquote>
 <ol class="arabic simple" start="2">
-<li><p>Select one of the <strong>Mapping models</strong> (<a class="reference internal" href="pipelines.html"><span class="doc">See Models description</span></a>)</p></li>
+<li><p>AI model</p></li>
 </ol>
-<p>2.1. Select the additional options available for the Model (e.g. “Typology” and “Heights” for the “Building” model)</p>
+<blockquote>
+<div><p>Select one of the AI models (<a class="reference internal" href="pipelines.html"><span class="doc">See Model description</span></a>).</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Options</p></li>
+</ol>
+<blockquote>
+<div><p>Select the additional options available for the model (e.g. “Typology” and “Heights” for the “Buildings” model).</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Building Heights option is limited by the minumum area of the processing (~70 sq.km)</p>
+<p>The <strong>Building heights</strong> option requires a minumum area of 50 sq.km.</p>
 </div>
-<ol class="arabic simple" start="3">
-<li><p>Run the processing and take a break ☕ 🙂</p></li>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Run the flow</p></li>
 </ol>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>After you choose the Mapping model and the processing params – you will see the total score of your processing cost</p>
+<blockquote>
+<div><div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (<a class="reference internal" href="prices.html"><span class="doc">See the tariff plan</span></a>).</p>
 </div>
+</div></blockquote>
 </div>
 <div class="section" id="working-with-results">
-<h3>Working with results<a class="headerlink" href="#working-with-results" title="Permalink to this headline">¶</a></h3>
-<p>The main stages of the processing are displayed and all your results are saved in the “Jobs History”.</p>
-<p>After you’re done with the processing you can preview generated features in interactive map or download them in vector (GeoJSON).</p>
-<div class="figure align-center" id="preview-results">
-<a class="reference internal image-reference" href="../_images/preview_button.png"><img alt="../_images/preview_button.png" src="../_images/preview_button.png" style="width: 10cm;" /></a>
+<h2>Working with results<a class="headerlink" href="#working-with-results" title="Permalink to this headline">¶</a></h2>
+<p>The flow’s results are saved in the “Job history” panel.
+When this panel is opened, the status is displayed, and the previously selected processing parameters are highlighted in the main window.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/preview_button.png"><img alt="Preview results" src="../_images/preview_button.png" style="width: 7cm;" /></a>
 </div>
+<p>Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Click “use as template” on an existing flow to use its parameters as a starting point for a new flow.</p>
+</div>
+</div></blockquote>
+<p>Options for viewing the processing results are:</p>
 <ol class="arabic simple">
-<li><p>An interactive map (View on the map) shows you the features mask placed over the input image. This is the fastest way to preview the output results.</p></li>
+<li><p>Download as GeoJSON.</p></li>
+<li><p>“Open with geojson.io” - view the results in the browser using <a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geojson.io</a>.</p></li>
 </ol>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a> also allows you to save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). To do this, click “Save” and the format of your preference in the menu bar.</p>
+</div>
 <div class="figure align-center" id="preview-map">
-<a class="reference internal image-reference" href="../_images/preview_map.png"><img alt="../_images/preview_map.png" src="../_images/preview_map.png" style="width: 20cm;" /></a>
+<a class="reference internal image-reference" href="../_images/geojson.io.png"><img alt="../_images/geojson.io.png" src="../_images/geojson.io.png" style="width: 15cm;" /></a>
 </div>
-<ol class="arabic simple">
-<li><p>Download and check <strong>GeoJSON</strong> - a geodata format that’s natively supported by Web-Map tools like <strong>Leaflet</strong> (<a class="reference external" href="https://leafletjs.com/">https://leafletjs.com/</a>) or GIS apps like <strong>QGIS</strong> (<a class="reference external" href="https://qgis.org/">https://qgis.org/</a>).</p></li>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>“View on the map” - use the Maplfow’s built-in result viewer, along with the source imagery.</p></li>
 </ol>
-<p>You are able to analyse it, modify, publish and do what you want.</p>
-<ol class="arabic simple">
-<li><p>This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - <a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a></p></li>
-</ol>
-<p>This is another way to preview results and save them in preferable formats (CSV, KML, GeoJSON, TopoJSON, WKT, Shapefile). Pretty cool! 🙂</p>
-<div class="figure align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/geojson.io.png"><img alt="../_images/geojson.io.png" src="../_images/geojson.io.png" style="width: 20cm;" /></a>
-</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/preview_map.png"><img alt="Preview map" src="../_images/preview_map.png" style="width: 15cm;" /></a>
 </div>
 <div class="section" id="working-with-api">
 <h3>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h3>
-<p>Mapflow platform provides a Rest API to query for running processings and getting results.
-If you are developing application and want to use API - check <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a> and contact us at <a class="reference external" href="mailto:help&#37;&#52;&#48;geoalert&#46;io">help<span>&#64;</span>geoalert<span>&#46;</span>io</a></p>
+<p>Mapflow platform provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
+If you are developing application and want to use our API - check <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a> and contact us at <a class="reference external" href="mailto:help&#37;&#52;&#48;geoalert&#46;io">help<span>&#64;</span>geoalert<span>&#46;</span>io</a>.</p>
 </div>
 </div>
 </div>
