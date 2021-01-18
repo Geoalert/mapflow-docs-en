@@ -24,12 +24,12 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     :align: center
     :width: 15cm
     
- Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_ and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
+ Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
  As to the source data, currently we only support RGB imagery. By default, Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use :doc:`../docs_api/processing_api`. 
 
 2. AI model
 
- Select one of the **Mapping models** (:doc:`See Model description <pipelines>`).
+ Select one of the AI models (:doc:`See Model description <pipelines>`).
 
 3. Options
 
@@ -41,7 +41,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 4. Run the flow
 
  .. attention::
-   Once you have selected the mapping model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (:doc:`See the tariff plan <prices>`).
+   Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (:doc:`See the tariff plan <prices>`).
 
 
 Working with results
