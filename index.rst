@@ -13,8 +13,8 @@ We are happy that you are interested in Earth Observation Data analysis and Mapp
 The Earth Observation to Mapping process is going through the following main stages:
 
    * EO data access (e.g. satellite or aerial imagery)
-	* EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes in game |:boom:|
-	* GIS – check and edit results to use them in you application
+   * EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes in game |:boom:|
+   * GIS – check and edit results to use them in you application
 
 Mapflow is powered by the engine that operates data processing pipelines (we call "flows").
 Using Mapflow you run your flows getting all power of semnatic imagery analysis.

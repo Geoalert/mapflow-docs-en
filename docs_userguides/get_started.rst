@@ -1,140 +1,89 @@
 
-Getting started
-=====================
-
-We are happy that you are interested in Earth Observation Data analysis and Mapping.
-
-The Earth Observation to Mapping process is going through the following main stages:
-
-* EO data access (e.g. satellite or aerial imagery service)
-* EO data processing and analysis (here comes `Mapflow <https://mapflow.ai>`_ |:boom:|)
-* GIS – check and edit results to use them in you application
-
-Mapflow is powered by the engine that enables and operates data processing pipelines (we call **"flows"**).
-Using Mapflow you run your flows and get progress at every stage - as simple as that.
-
-
 Mapflow Web UI
---------------
+================
+
+Go to `Mapflow <https://app.mapflow.ai>` and register or login using your Google account.
+Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**. 
 
 How to run your flow
-^^^^^^^^^^^^^^^^^^^^
+---------------------
 
-1.0. Open Web App following the link https://app.mapflow.ai/ 
-
-Let's look at each step you need to proceed to define your data processing flow: 
+Mapflow is designed to be intuitive. Here is our step-by-step user guide: 
 
 .. figure:: _static/ui_flow_basic.png
-   :name: UI Mapflow – run flow
+   :alt: UI Mapflow – run a flow
    :align: center
    :width: 15cm
 
+1. Data source
 
-1.1. Select data source - at this step you define the **geographic area** and the **satellite/aerial image** you want to extract features from.
+ To specify your area of interest (AOI), you can either upload your own `GeoJSON <https://geojson.org>` file, or draw the area directly on the map ("Draw rectangle").
+   
+  .. figure:: _static/ui_map_select_source.png
+    :alt: UI Mapflow – define AOI
+    :align: center
+    :width: 15cm
+    
+ Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. 
+ As to the source data, currently we only support RGB imagery. By default, Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>` imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use :doc:`../docs_api/processing_api`. 
 
-.. HINT::
-   Try GeoJSON - it's the most popular format for geographic object to display them on web maps. To define area on the map, you either draw a rectangle or drop your polygon coordinates in GeoJSON file.
-   In addition to coordinates in GeoJSON you may see the **properties** of the objects that typically refer to the attributes in GIS terminology. 
+2. AI model
 
-GeoJSON sample:
+ Select one of the **Mapping models** (:doc:`See Model description <pipelines>`).
 
-.. code:: json
+3. Options
 
-    {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            37.490057513654946,
-            55.923029653520395
-          ],
-          [
-            37.490057513654946,
-            55.949815087874605
-          ],
-          [
-            37.54308202484029,
-            55.949815087874605
-          ],
-          [
-            37.54308202484029,
-            55.923029653520395
-          ],
-          [
-            37.490057513654946,
-            55.923029653520395
-          ]
-        ]
-      ]
-    }
+ Select the additional options available for the model (e.g. "Typology" and "Heights" for the "Building" model).
 
+ .. important:: 
+   The **Building Heights** option requires a minumum area of 50 sq.km.
+ 
+4. Run the processing
 
-:download:`Download GeoJSON <_static/_downloads/buildings_aoi.geojson>`
-
-
-1.2. Mapflow is connected to global data sources including commercial data providers, however it's possible to upload your own georeferenced images.
-
-.. IMPORTANT:: 
-  * Currently the only one source by default is selected (**Mapbox Satellite**) using Mapflow Web App. See **API DOC** if you want to define your own input data source or upload GeoTIFF image
-
-
-.. figure:: _static/ui_map_select_source.png
-   :name: UI Mapflow – define AOI
-   :align: center
-   :width: 20cm
-
-
-2. Select one of the **Mapping models** (:doc:`See Models description <pipelines>`)
-
-2.1. Select the additional options available for the Model (e.g. "Typology" and "Heights" for the "Building" model)
-
-.. IMPORTANT::
-    Building Heights option is limited by the minumum area of the processing (~70 sq.km)
-
-
-3. Run the processing and take a break |:coffee:| |:slight_smile:|
-
-.. CAUTION::
-    After you choose the Mapping model and the processing params – you will see the total score of your processing cost
+ .. attention::
+   Once you have selected the mapping model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (:doc:`See the tariff plan <prices>`).
 
 
 Working with results
-^^^^^^^^^^^^^^^^^^^^
+---------------------
 
-The main stages of the processing are displayed and all your results are saved in the "Jobs History".
-
-After you're done with the processing you can preview generated features in interactive map or download them in vector (GeoJSON).
+The processing results are saved in the "Job history" panel.
+When this panel is opened, the status is displayed, and the previously selected processing parameters are highlighted in the main window.
 
 .. figure:: _static/preview_button.png
-   :name: Preview results
+   :alt: Preview results
    :align: center
-   :width: 10cm
+   :width: 7cm
 
+Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
-#. An interactive map (View on the map) shows you the features mask placed over the input image. This is the fastest way to preview the output results.
+ .. important:: Click "use as template" on an existing flow.
+
+Options for viewing the processing results are:
+
+1. Download **GeoJSON** - a geodata format that is natively supported by web map libraries like **Leaflet** (https://leafletjs.com/) or GIS like **QGIS** (https : //qgis.org/).
+
+2. "Open with geojson.io" - viewing results in an external application using a direct link from Mapflow - example: `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_.
+
+ .. note::
+  Also, by clicking the link geojson.io `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_, you are given the opportunity to view the results and save them in other formats (CSV, KML, GeoJSON, topojson, WKT, Shapefile). To do this, select Save and the format of your preference in the menu bar.
+
+ .. figure:: _static/geojson.io.png
+   :name: Preview map
+   :align: center
+   :width: 15cm
+
+3. "View on the map" shows the processing result on top of the original image. This is the fastest way to view the results.
 
 .. figure:: _static/preview_map.png
-   :name: Preview map
+   :alt: Preview map
    :align: center
-   :width: 20cm
-
-#. Download and check **GeoJSON** - a geodata format that's natively supported by Web-Map tools like **Leaflet** (https://leafletjs.com/) or GIS apps like **QGIS** (https://qgis.org/).
-
-You are able to analyse it, modify, publish and do what you want.
-
-#. This option allows to open the GeoJSON in external viewer, you get the direct link from Mapflow - `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_ 
-
-This is another way to preview results and save them in preferable formats (CSV, KML, GeoJSON, TopoJSON, WKT, Shapefile). Pretty cool! |:slight_smile:|
-
-.. figure:: _static/geojson.io.png
-   :name: Preview map
-   :align: center
-   :width: 20cm
+   :width: 15cm
 
 
 Working with API
 ^^^^^^^^^^^^^^^^
 
 Mapflow platform provides a Rest API to query for running processings and getting results.
-If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io
+If you are developing application and want to use API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io.
 
