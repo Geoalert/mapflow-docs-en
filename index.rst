@@ -39,6 +39,7 @@ Reference materials
 ********************
 
 * :doc:`Urban Mapping classes <docs_um/classes>`
+* :doc:`Forest Mapping classes <docs_forest/classes>`
 
 ******************
 PDFs
