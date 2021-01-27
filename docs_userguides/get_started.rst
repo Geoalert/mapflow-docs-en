@@ -18,7 +18,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 1. Data source
 
  To specify your area of interest (AOI), you can either upload your own `GeoJSON <https://geojson.org>`_ file, or draw the area directly on the map ("Draw rectangle").
-   
+ 
   .. figure:: _static/ui_map_select_source.png
     :alt: UI Mapflow – define AOI
     :align: center
