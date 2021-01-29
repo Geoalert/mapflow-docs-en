@@ -24,8 +24,11 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     :align: center
     :width: 15cm
     
- Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
- As to the source data, currently we only support RGB imagery. By default, Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use :doc:`../docs_api/processing_api`. 
+ .. attention:: 
+   Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
+ 
+ .. important:: 
+   As to the source data, currently we only support RGB imagery. By default, Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use :doc:`../docs_api/processing_api`. 
 
 2. AI model
 
@@ -57,7 +60,7 @@ When this panel is opened, the status is displayed, and the previously selected 
 
 Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
- .. note:: Click "use as template" on an existing flow to use its parameters as a starting point for a new flow.
+ ..important:: Click "use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
 
 Options for viewing the processing results are:
 
@@ -85,5 +88,5 @@ Working with API
 ^^^^^^^^^^^^^^^^
 
 Mapflow platform provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
-If you are developing application and want to use our API - check :doc:`../docs_api/processing_api` and contact us at help@geoalert.io.
+If you are developing application and want to use our API, - check out :doc:`../docs_api/processing_api`.
 

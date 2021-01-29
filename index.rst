@@ -31,7 +31,7 @@ Getting Started with Mapflow
 Mapflow services
 *****************
 
-#. :doc:`Mapflow API <docs_api/processing_api>`
+#. :doc:`Geoalert API <docs_api/processing_api>`
 #. :doc:`Mapping Models pipelines <docs_userguides/pipelines>`
 
 ********************
