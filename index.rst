@@ -1,10 +1,6 @@
 .. Geoalert documentation master file
 
 
-.. toctree::
-   :glob:
-   :maxdepth: 3
-
 *****************
 Welcome
 *****************
@@ -23,24 +19,46 @@ Using Mapflow you run your flows getting all power of semnatic imagery analysis.
 Getting Started with Mapflow
 ****************************
 
-#. :doc:`Mapflow UI <docs_userguides/get_started>` |:diamonds:|
-#. :doc:`Mapflow Tariffs <docs_userguides/prices>`
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   docs_userguides/get_started
+   docs_userguides/prices
 
 
 *****************
 Mapflow services
 *****************
 
-#. :doc:`Geoalert API <docs_api/processing_api>`
-#. :doc:`Mapping Models pipelines <docs_userguides/pipelines>`
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   docs_api/processing_api
+   docs_userguides/pipelines
 
 ********************
 Reference materials 
 ********************
 
-* :doc:`Urban Mapping classes <docs_um/classes>`
-* :doc:`Forest Mapping classes <docs_forest/classes>`
+.. toctree::
+   :glob:
+   :maxdepth: 1
 
+   docs_um/classes
+   docs_forest/classes
+
+***************************
+Frequently asked questions
+***************************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   
+   docs_faq.rst
+   
 ******************
 PDFs
 ******************
