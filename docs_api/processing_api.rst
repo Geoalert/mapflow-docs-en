@@ -94,9 +94,9 @@ Request body example:
 
 
 //Name of the project
-//Arbitrary description of this project. Optional
+//Arbitrary description of this project.
 
-Response: the newly created project
+Response: the newly created project.
 
 Delete project
 """"""""""""""
@@ -114,9 +114,11 @@ Get processing
 ``GET https://api.mapflow.ai/processings/{processingId}``
 
 Returns the processing with the specified id.  
+
 Response example:
 
 .. code:: json
+
     {
         "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
         "name": "Buildings Detection4",
@@ -229,7 +231,7 @@ To process a user-provided raster (see `Upload GeoTIFF for processing` section),
             "url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"
         }
 
-Response: the newly created processing
+Response: the newly created processing.
 
 Restart processing
 ^^^^^^^^^^^^^^^^^^
