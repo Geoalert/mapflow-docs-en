@@ -13,6 +13,10 @@ Additional options:
 
 * **Building heights** - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.
 
+|:cityscape:| **High-density housing**
+
+Our "high-density housing" AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc.
+
 |:christmas_tree:| **Forest** 
 
 Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights.
