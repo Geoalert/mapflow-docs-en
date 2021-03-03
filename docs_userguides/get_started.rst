@@ -83,6 +83,12 @@ Options for viewing the processing results are:
    :align: center
    :width: 15cm
 
+4. "Open with kepler.gl" - view the results using web tool which is open-sourced by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial datasets.
+
+.. figure:: _static/kepler_gl.png
+   :alt: Preview map
+   :align: center
+   :width: 15cm
 
 Working with API
 ^^^^^^^^^^^^^^^^
