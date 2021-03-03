@@ -15,7 +15,7 @@ Additional options:
 
 |:cityscape:| **High-density housing**
 
-High-density housing AI-mapping model improves buildings automatic mapping in areas with terraced and other similar densely standing buildings, such as in the Middle East, in Africa etc.
+Our "high-density housing" AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc.
 
 |:christmas_tree:| **Forest** 
 
