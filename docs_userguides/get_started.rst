@@ -60,7 +60,8 @@ When this panel is opened, the status is displayed, and the previously selected 
 
 Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
- ..important:: Click "use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
+ .. important:: 
+  Click "use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
 
 Options for viewing the processing results are:
 
@@ -78,17 +79,20 @@ Options for viewing the processing results are:
 
 3. "View on the map" - use our custom viewer, which displays the results on top of the source satellite images.
 
-.. figure:: _static/preview_map.png
+ .. figure:: _static/preview_map.png
    :alt: Preview map
    :align: center
    :width: 15cm
 
-4. "Open with kepler.gl" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
+4. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
 
-.. figure:: _static/kepler_gl.png
+ .. figure:: _static/kepler_gl.png
    :alt: Preview map
    :align: center
    :width: 15cm
+
+ .. note::
+   You can find detailed information about kepler.gl in the `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
 
 Working with API
 ^^^^^^^^^^^^^^^^
