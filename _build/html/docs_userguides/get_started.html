@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mapflow tariffs" href="prices.html" />
+    <link rel="prev" title="Welcome" href="../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,18 +84,30 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Mapflow Web UI</a><ul>
-<li><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
-<li><a class="reference internal" href="#working-with-results">Working with results</a><ul>
-<li><a class="reference internal" href="#working-with-api">Working with API</a></li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Mapflow Web UI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#working-with-results">Working with results</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#working-with-api">Working with API</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="prices.html">Mapflow tariffs</a></li>
 </ul>
-</div>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_api/processing_api.html">Geoalert API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pipelines.html">Mapping Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pipelines.html#models-reference">Models reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_um/classes.html">Urban Mapping classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_forest/classes.html">Forest Mapping classes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_faq.html">Mapflow FAQ</a></li>
+</ul>
+
             
           
         </div>
@@ -152,8 +166,14 @@ Mapflow processes imagery and extracts vector objects from it. So as a user, you
 <a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="UI Mapflow – define AOI" src="../_images/ui_map_select_source.png" style="width: 15cm;" /></a>
 </div>
 </div></blockquote>
-<p>Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. <a class="reference external" href="https://leafletjs.com/">Leaflet</a> or <a class="reference external" href="https://docs.mapbox.com/mapbox.js/">Mapbox</a>) and GIS like <a class="reference external" href="https://qgis.org/">QGIS</a> or the ArcGIS Suite.
-As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a>.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. <a class="reference external" href="https://leafletjs.com/">Leaflet</a> or <a class="reference external" href="https://docs.mapbox.com/mapbox.js/">Mapbox</a>) and GIS like <a class="reference external" href="https://qgis.org/">QGIS</a> or the ArcGIS Suite.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Geoalert API</span></a>.</p>
+</div>
 </div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>AI model</p></li>
@@ -190,10 +210,7 @@ When this panel is opened, the status is displayed, and the previously selected 
 </div>
 <p>Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).</p>
 <blockquote>
-<div><div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Click “use as template” on an existing flow to use its parameters as a starting point for a new flow.</p>
-</div>
+<div><p>..important:: Click “use as template” on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).</p>
 </div></blockquote>
 <p>Options for viewing the processing results are:</p>
 <ol class="arabic simple">
@@ -203,22 +220,28 @@ When this panel is opened, the status is displayed, and the previously selected 
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a> also allows you to save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). To do this, click “Save” and the format of your preference in the menu bar.</p>
+<p><a class="reference external" href="http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D">geosjon.io</a> also allows you to save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Just click “Save” and select the format of your preference in the menu bar.</p>
 </div>
 <div class="figure align-center" id="preview-map">
 <a class="reference internal image-reference" href="../_images/geojson.io.png"><img alt="../_images/geojson.io.png" src="../_images/geojson.io.png" style="width: 15cm;" /></a>
 </div>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>“View on the map” - use the Maplfow’s built-in result viewer, along with the source imagery.</p></li>
+<li><p>“View on the map” - use our custom viewer, which displays the results on top of the source satellite images.</p></li>
 </ol>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="../_images/preview_map.png"><img alt="Preview map" src="../_images/preview_map.png" style="width: 15cm;" /></a>
 </div>
+<ol class="arabic simple" start="4">
+<li><p>“Open with kepler.gl” - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/kepler_gl.png"><img alt="Preview map" src="../_images/kepler_gl.png" style="width: 15cm;" /></a>
+</div>
 <div class="section" id="working-with-api">
 <h3>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h3>
 <p>Mapflow platform provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
-If you are developing application and want to use our API - check <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Mapflow API</span></a> and contact us at <a class="reference external" href="mailto:help&#37;&#52;&#48;geoalert&#46;io">help<span>&#64;</span>geoalert<span>&#46;</span>io</a>.</p>
+If you are developing application and want to use our API, - check out <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Geoalert API</span></a>.</p>
 </div>
 </div>
 </div>
@@ -228,6 +251,15 @@ If you are developing application and want to use our API - check <a class="refe
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prices.html" class="btn btn-neutral float-right" title="Mapflow tariffs">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral" title="Welcome"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

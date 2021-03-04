@@ -7,13 +7,13 @@ Building classification,5,5,5
 ,$0.50,$0.45,$0.40
 Building heights,10,10,10
 ,$1.00,$0.90,$0.80
-Roads,5,5,5
-,$0.50,$0.45,$0.40
-Road classification,5,5,5
-,$0.50,$0.45,$0.40
+Building  high-density housing,2,2,2
+,$0.20,$0.18,$0.16
+Roads,2,2,2
+,$0.20,$0.18,$0.16
 Forest,5,5,5
 ,$0.50,$0.45,$0.40
 Forest classification,10,10,10
-,$0.50,$0.45,$0.40
+,$1.00,$0.90,$0.80
 Construction,2,2,2
-,$0.50,$0.45,$0.40
+,$0.20,$0.18,$0.16
