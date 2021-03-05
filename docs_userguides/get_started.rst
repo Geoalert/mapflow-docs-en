@@ -34,13 +34,24 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
  Select one of the AI models (:doc:`See Model description <pipelines>`).
 
-3. Options
+3. Post-processing
 
- Select the additional options available for the model (e.g. "Typology" and "Heights" for the "Buildings" model).
+ In this step, you can select additional processing options. Different AI models have their own options.
 
- .. important:: 
-   The **Building heights** option requires a minumum area of 50 sq.km.
+ AI model "Buildings":
+
+ * *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-reidential (see `Urban Mapping classes <https://docs.mapflow.ai/docs_um/classes.html>`_).
+ * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
+ * *Simplification* - simplification and polygonization of building contours.
+ * *Building heights* - for each building, we estimate its height using its wall's and shadow's length. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to footprints.
  
+ .. important:: 
+   **Building heights** option requires a minumum area of 50 sq.km.
+ 
+ AI model "Forest":
+
+ * *Tree heights* - classify vegetation by height: 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Clasification is dones per vegetated area, and not per single tree (see `Forest Mapping classes <https://docs.mapflow.ai/docs_forest/classes.html>`_).
+
 4. Run the flow
 
  .. attention::
