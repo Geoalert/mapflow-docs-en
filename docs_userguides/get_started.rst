@@ -36,21 +36,21 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 3. Post-processing
 
- You can select additional processing options in this step. Different AI models have their own post-processing functions.
+ In this step, you can select additional processing options. Different AI models have their own options.
 
  AI model "Buildings":
 
- * *Classification* - here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-reidential (see `Urban Mapping classes <https://docs.mapflow.ai/docs_um/classes.html>`_).
- * *Merge with OSM* - merge objects with Openstreetmap buildings by spatial intersection. The automatic polygons after processing are compared with Opensrteetmap objects and also compare it by IOU with predicted polygons and set to replace predicted polygons with OSM ones for a more visual result.
+ * *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-reidential (see `Urban Mapping classes <https://docs.mapflow.ai/docs_um/classes.html>`_).
+ * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
  * *Simplification* - simplification and polygonization of building contours.
- * *Building heights* - for each building, we estimate its heigt using it's wall's and shadow's lengths. If height detection option is selected, all roof contours are shifted accordinly, i.e. converted to footprints.
+ * *Building heights* - for each building, we estimate its height using its wall's and shadow's length. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to footprints.
  
  .. important:: 
-   The **Building heights** option requires a minumum area of 50 sq.km.
+   **Building heights** option requires a minumum area of 50 sq.km.
  
  AI model "Forest":
 
- * *Tree heights* - classify the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: by defoult 0-4 m, 4-10 m, 10+ m. Forest areas of each heightclass are poligonized in separate features, the height class is indicated in its properties (see `Forest Mapping classes <https://docs.mapflow.ai/docs_forest/classes.html>`_).
+ * *Tree heights* - classify vegetation by height: 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Clasification is dones per vegetated area, and not per single tree (see `Forest Mapping classes <https://docs.mapflow.ai/docs_forest/classes.html>`_).
 
 4. Run the flow
 
