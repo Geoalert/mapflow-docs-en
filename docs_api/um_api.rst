@@ -2,12 +2,12 @@ Geoalert Urban Mapping API
 ==========================
 
  .. attention::
-    This API to ready-to-use data service. It provides access to validated datasets according to the current coverage of "urban mapping" project. To start using the API, please, send us a request to help@geoalert.io.
+    This API serves ready-to-use datasets. It provides access to validated datasets within the current coverage of "Urban mapping". To start using the API, please, send us a request to help@geoalert.io.
 
 Authorization
 --------------
 
-The API uses the ``Basic Auth`` authorization method, for details about how it, click `here <https://en.wikipedia.org/wiki/Basic_access_authentication>`_.
+The API uses the (`Basic Auth <https://en.wikipedia.org/wiki/Basic_access_authentication>`_) authorization method.
 
 
 Geospatial data
@@ -30,14 +30,31 @@ or
 ``polygon`` in the geojson format  
 ``srid`` specifies the projection of the bbox/polygon (optional)
 
-Request example (default projection, polygon):
+
+.. important:: 
+ 	``POST`` requests are also supported (with the same endpoint url). ``Bbox`` or ``polygon`` is then supplied in the request body. Other request parameters work as with ``GET`` requests. This option may be useful for querying features by a complex polygon, which doesn't fit into ``GET`` request limits.
+
+
+**Request example** (default projection, polygon, returns centroids):
 
 .. code:: json
 
 	https://urban-mapping.geoalert.io/geojson?polygon={"type":"Polygon","coordinates":[[[37.29962647696191,55.64732925994261],[37.29962647696191,55.579658422801145],[37.39575684805566,55.579658422801145],[37.39575684805566,55.64732925994261],[37.29962647696191,55.64732925994261]]]}
 
-Request example (mercator projection, bbox):
+**Request example** (mercator projection, bbox):
 
 .. code:: json
 
-	https://urban-mapping.geoalert.io/geojson?srid=3857&bbox=[4152175.426194705, 7475188.589286174, 4162876.6101546297, 7488526.850721938]
+	https://urban-mapping.geoalert.io/geojson?points=true&srid=3857&bbox=[4152175.426194705, 7475188.589286174, 4162876.6101546297, 7488526.850721938]
+
+API reference
+-------------
+
+
+   .. tabularcolumns:: |p{5cm}|p{5cm}|p{5cm}|p{12cm}|
+
+   .. csv-table::
+      :file: _static/api_ref_um1.csv 
+      :header-rows: 1 
+      :class: longtable
+      :widths: 1 1 1 1
