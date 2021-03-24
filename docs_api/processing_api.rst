@@ -131,8 +131,8 @@ Response example:
         },
         "rasterLayer": {
             "id": "f56ba4c8-30cb-4a54-9aca-cb66214ea2f8",
-            "tileJsonUrl": "http://localhost:8500/api/v0/cogs/tiles.json?uri=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20",
-            "tileUrl": "http://localhost:8500/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20"
+            "tileJsonUrl": "http://localhost:8500/api/v0/cogs/tiles.json?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20",
+            "tileUrl": "http://localhost:8500/api/v0/cogs/tiles/{z}/{x}/{y}.png?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20"
         },
         "workflowDef": {
             "id": "9b70a8fc-6e63-4929-b287-c2307d06e678",
@@ -312,7 +312,7 @@ Upload GeoTIFF for processing
 
 ``POST https://api.mapflow.ai/rest/rasters``
 
-Can be used to upload a raster for further processing. Returns URI to the uploaded raster. This URI can be referenced when starting a processing.  
+Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
 The request is a multipart request whith the only part "file" - which contains the raster.
 Request example with ``cURL``:  
 
@@ -328,7 +328,7 @@ Request example with ``cURL``:
 
 Response example:  
 
-``{"uri": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
+``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
 
 
 API reference

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Mapflow API &mdash; Mapflow 0.1 documentation</title>
+  <title>Geoalert API &mdash; Mapflow 0.1 documentation</title>
   
 
   
@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mapping Models" href="../docs_userguides/pipelines.html" />
+    <link rel="prev" title="Mapflow tariffs" href="../docs_userguides/prices.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,42 +84,54 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Mapflow API</a><ul>
-<li><a class="reference internal" href="#authorization">Authorization</a></li>
-<li><a class="reference internal" href="#api-methods">API Methods</a></li>
-<li><a class="reference internal" href="#projects">Projects</a><ul>
-<li><a class="reference internal" href="#get-project">Get project</a></li>
-<li><a class="reference internal" href="#get-default-demo-project">Get default (demo) project</a></li>
-<li><a class="reference internal" href="#get-all-projects">Get all projects</a></li>
-<li><a class="reference internal" href="#post-project">Post project</a></li>
-<li><a class="reference internal" href="#delete-project">Delete project</a></li>
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_userguides/get_started.html">Mapflow Web UI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_userguides/prices.html">Mapflow tariffs</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Geoalert API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#authorization">Authorization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#api-methods">API Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#projects">Projects</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#get-project">Get project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-default-demo-project">Get default (demo) project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-all-projects">Get all projects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#post-project">Post project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-project">Delete project</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#processings">Processings</a><ul>
-<li><a class="reference internal" href="#get-processing">Get processing</a></li>
-<li><a class="reference internal" href="#get-all-processings">Get all processings</a></li>
-<li><a class="reference internal" href="#post-processing">Post processing</a><ul>
-<li><a class="reference internal" href="#restart-processing">Restart processing</a></li>
-<li><a class="reference internal" href="#delete-processing">Delete processing</a></li>
-<li><a class="reference internal" href="#get-processing-aois">Get processing AOIs</a></li>
-<li><a class="reference internal" href="#downloading-processing-results">Downloading processing results</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a class="reference internal" href="#upload-geotiff-for-processing">Upload GeoTIFF for processing</a></li>
-<li><a class="reference internal" href="#api-reference">API reference</a><ul>
-<li><a class="reference internal" href="#wdname">wdName</a></li>
-<li><a class="reference internal" href="#source-type">source_type</a></li>
-<li><a class="reference internal" href="#status">status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#processings">Processings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#get-processing">Get processing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-all-processings">Get all processings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#post-processing">Post processing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#restart-processing">Restart processing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#delete-processing">Delete processing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#get-processing-aois">Get processing AOIs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#downloading-processing-results">Downloading processing results</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-geotiff-for-processing">Upload GeoTIFF for processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#api-reference">API reference</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#wdname">wdName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#source-type">source_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#status">status</a></li>
 </ul>
-</div>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_userguides/pipelines.html">Mapping Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_userguides/pipelines.html#models-reference">Models reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_um/classes.html">Urban Mapping classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_forest/classes.html">Forest Mapping classes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_faq.html">Mapflow FAQ</a></li>
+</ul>
+
             
           
         </div>
@@ -143,7 +157,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Mapflow API</li>
+    <li>Geoalert API</li>
       <li class="wy-breadcrumbs-aside">
     <ul class="this-page-menu">
         <li><a href="https://github.com/Geoalert/mapflow-docs-en/edit/main/docs_api/processing_api.rst"
@@ -156,11 +170,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="mapflow-api">
-<h1>Mapflow API<a class="headerlink" href="#mapflow-api" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="geoalert-api">
+<h1>Geoalert API<a class="headerlink" href="#geoalert-api" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>This API is separate from Mapflow. The projects and processings that you create in Mapflow won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, please, send us a request to <a class="reference external" href="mailto:help&#37;&#52;&#48;geoalert&#46;io">help<span>&#64;</span>geoalert<span>&#46;</span>io</a>.</p>
+</div>
+</div></blockquote>
 <div class="section" id="authorization">
 <h2>Authorization<a class="headerlink" href="#authorization" title="Permalink to this headline">¶</a></h2>
-<p>The API uses <code class="docutils literal notranslate"><span class="pre">Basic</span> <span class="pre">Auth</span></code> authorization method. Valid login and password are to be used for every API call. The client should provide <cite>Authorization</cite> header.</p>
+<p>The API uses the <code class="docutils literal notranslate"><span class="pre">Basic</span> <span class="pre">Auth</span></code> authorization method, for details about how it works, click <a class="reference external" href="https://en.wikipedia.org/wiki/Basic_access_authentication">here</a>.</p>
 </div>
 <div class="section" id="api-methods">
 <h2>API Methods<a class="headerlink" href="#api-methods" title="Permalink to this headline">¶</a></h2>
@@ -169,7 +189,7 @@
 <h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="get-project">
 <h3>Get project<a class="headerlink" href="#get-project" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://mapflow.ai/api/{projectId}</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/{projectId}</span></code></p>
 <p>Returns the project with the specified ID.</p>
 <p>Response example:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -207,18 +227,18 @@
 </div>
 <div class="section" id="get-default-demo-project">
 <h3>Get default (demo) project<a class="headerlink" href="#get-default-demo-project" title="Permalink to this headline">¶</a></h3>
-<p>Default (demo) project is created for each authorized user after the first login.</p>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://mapflow.ai/api/projects/default</span></code></p>
+<p>Default (demo) project is created for each user upon registration.</p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/projects/default</span></code></p>
 <p>Returns the name and ID of the user’s default project.</p>
 </div>
 <div class="section" id="get-all-projects">
 <h3>Get all projects<a class="headerlink" href="#get-all-projects" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://platform.geoalert.io/rest/projects</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/rest/projects</span></code></p>
 <p>Returns the list of all user’s projects.</p>
 </div>
 <div class="section" id="post-project">
 <h3>Post project<a class="headerlink" href="#post-project" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://mapflow.ai/api/projects/</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://api.mapflow.ai/projects/</span></code></p>
 <p>Creates a new project, and returns its immediate state.</p>
 <p>Request body example:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -228,12 +248,12 @@
 </pre></div>
 </div>
 <p>//Name of the project
-//Arbitrary description of this project. Optional</p>
-<p>Response: the newly created project</p>
+//Arbitrary description of this project.</p>
+<p>Response: the newly created project.</p>
 </div>
 <div class="section" id="delete-project">
 <h3>Delete project<a class="headerlink" href="#delete-project" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">DELETE</span> <span class="pre">https://mapflow.ai/api/projects/{projectId}</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">DELETE</span> <span class="pre">https://api.mapflow.ai/projects/{projectId}</span></code></p>
 <p>Deletes the project. Cascade deletes any child entities.</p>
 </div>
 </div>
@@ -241,18 +261,59 @@
 <h2>Processings<a class="headerlink" href="#processings" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="get-processing">
 <h3>Get processing<a class="headerlink" href="#get-processing" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://mapflow.ai/api/processings/{processingId}</span></code></p>
-<p>Returns the processing with the specified id.
-Response example:</p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/processings/{processingId}</span></code></p>
+<p>Returns the processing with the specified id.</p>
+<p>Response example:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;b86127bb-38bc-43e7-9fa9-54b37a0e17af&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Buildings Detection4&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;projectId&quot;</span><span class="p">:</span> <span class="s2">&quot;b041da8c-3af3-4269-b4b2-6e3cfe26520c&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;vectorLayer&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;098ff0e4-ac3e-45f9-a049-cf84ac45e5c1&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Buildings Detection4&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;tileJsonUrl&quot;</span><span class="p">:</span> <span class="s2">&quot;http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c.json&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;tileUrl&quot;</span><span class="p">:</span> <span class="s2">&quot;http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c/tiles/{z}/{x}/{y}.vector.pbf&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;rasterLayer&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;f56ba4c8-30cb-4a54-9aca-cb66214ea2f8&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;tileJsonUrl&quot;</span><span class="p">:</span> <span class="s2">&quot;http://localhost:8500/api/v0/cogs/tiles.json?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;tileUrl&quot;</span><span class="p">:</span> <span class="s2">&quot;http://localhost:8500/api/v0/cogs/tiles/{z}/{x}/{y}.png?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;workflowDef&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;9b70a8fc-6e63-4929-b287-c2307d06e678&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Buildings Detection&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;created&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-05-06T23:08:50.412Z&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;updated&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-05-06T23:08:50.412Z&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;externalWfIds&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">146923</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;aoiCount&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nt">&quot;aoiArea&quot;</span><span class="p">:</span> <span class="mi">265197</span><span class="p">,</span>
+    <span class="nt">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;OK&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;percentCompleted&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
+    <span class="nt">&quot;params&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;source_type&quot;</span><span class="p">:</span> <span class="s2">&quot;tif&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;s3://mapflow-rasters/7689666a-a707-4307-8c76-bf8c2ee3e0e4/raster.tif&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;zoom&quot;</span><span class="p">:</span> <span class="s2">&quot;18&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;meta&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;test&quot;</span><span class="p">:</span> <span class="s2">&quot;test&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;created&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-05-06T23:13:57.239Z&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;updated&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-05-06T23:13:57.239Z&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="get-all-processings">
 <h3>Get all processings<a class="headerlink" href="#get-all-processings" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://mapflow.ai/api/processings</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/processings</span></code></p>
 <p>Returns the list of this user’s processings.</p>
 </div>
 <div class="section" id="post-processing">
 <h3>Post processing<a class="headerlink" href="#post-processing" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://platform.geoalert.io/rest/processings</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://api.mapflow.ai/rest/processings</span></code></p>
 <p>Creates and runs a processing, and returns its immediate state
 Request body example:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span>{
@@ -309,20 +370,20 @@ Request body example:</p>
 </pre></div>
 </div>
 </div></blockquote>
-<p>Response: the newly created processing</p>
+<p>Response: the newly created processing.</p>
 <div class="section" id="restart-processing">
 <h4>Restart processing<a class="headerlink" href="#restart-processing" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://platform.geoalert.io/rest/processings/{processingId}/restart</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://api.mapflow.ai/rest/processings/{processingId}/restart</span></code></p>
 <p>Restarts failed partitions of this processing. Doesn’t restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.</p>
 </div>
 <div class="section" id="delete-processing">
 <h4>Delete processing<a class="headerlink" href="#delete-processing" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">DELETE</span> <span class="pre">https://platform.geoalert.io/rest/processings/{processingId}</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">DELETE</span> <span class="pre">https://api.mapflow.ai/rest/processings/{processingId}</span></code></p>
 <p>Deletes this processing. Cascade deletes any child entities.</p>
 </div>
 <div class="section" id="get-processing-aois">
 <h4>Get processing AOIs<a class="headerlink" href="#get-processing-aois" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://platform.geoalert.io/rest/processings/{processingId}/aois</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/rest/processings/{processingId}/aois</span></code></p>
 <p>Returns a list of the defined geographical areas for processing in GeoJSON.</p>
 <p>Response example:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
@@ -368,20 +429,20 @@ Request body example:</p>
 </div>
 <div class="section" id="downloading-processing-results">
 <h4>Downloading processing results<a class="headerlink" href="#downloading-processing-results" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://platform.geoalert.io/rest/processings/{processingId}/result</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">https://api.mapflow.ai/rest/processings/{processingId}/result</span></code></p>
 <p>Returns geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.</p>
 </div>
 </div>
 </div>
 <div class="section" id="upload-geotiff-for-processing">
 <h2>Upload GeoTIFF for processing<a class="headerlink" href="#upload-geotiff-for-processing" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://platform.geoalert.io/rest/rasters</span></code></p>
-<p>Can be used to upload a raster for further processing. Returns URI to the uploaded raster. This URI can be referenced when starting a processing.
+<p><code class="docutils literal notranslate"><span class="pre">POST</span> <span class="pre">https://api.mapflow.ai/rest/rasters</span></code></p>
+<p>Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.
 The request is a multipart request whith the only part “file” - which contains the raster.
 Request example with <code class="docutils literal notranslate"><span class="pre">cURL</span></code>:</p>
 <blockquote>
 <div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST <span class="se">\</span>
-https://mapflow.ai/api/rasters <span class="se">\</span>
+https://api.mapflow.ai/rasters <span class="se">\</span>
 -H <span class="s1">&#39;authorization: &lt;Insert auth header value&gt;&#39;</span> <span class="se">\</span>
 -H <span class="s1">&#39;content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW&#39;</span> <span class="se">\</span>
 -F <span class="nv">file</span><span class="o">=</span>@custom_raster.tif
@@ -389,7 +450,7 @@ https://mapflow.ai/api/rasters <span class="se">\</span>
 </div>
 </div></blockquote>
 <p>Response example:</p>
-<p><code class="docutils literal notranslate"><span class="pre">{&quot;uri&quot;:</span> <span class="pre">&quot;s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif&quot;}</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">{&quot;url&quot;:</span> <span class="pre">&quot;s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif&quot;}</span></code></p>
 </div>
 <div class="section" id="api-reference">
 <h2>API reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h2>
@@ -443,7 +504,8 @@ https://mapflow.ai/api/rasters <span class="se">\</span>
 <tbody>
 <tr class="row-even"><td><p>source_type</p></td>
 <td><p>XYZ</p></td>
-<td><p>The URI to the imagery service in “XYZ” format, e.g. “<a class="reference external" href="https://tile.openstreetmap.org">https://tile.openstreetmap.org</a>/{z}/{x}/{y}.png”</p></td>
+<td><p>The URL to the imagery service in “XYZ” format, 
+e.g. “<a class="reference external" href="https://tile.openstreetmap.org">https://tile.openstreetmap.org</a>/{z}/{x}/{y}.png”</p></td>
 </tr>
 <tr class="row-odd"><td><p>source_type</p></td>
 <td><p>TMS</p></td>
@@ -451,11 +513,12 @@ https://mapflow.ai/api/rasters <span class="se">\</span>
 </tr>
 <tr class="row-even"><td><p>source_type</p></td>
 <td><p>WMS</p></td>
-<td><p>The URI to the imagery service in “WMS” format, e.g. “<a class="reference external" href="https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer">https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer</a>”</p></td>
+<td><p>The URL to the imagery service in “WMS” format, 
+e.g. “<a class="reference external" href="https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer">https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer</a>”</p></td>
 </tr>
 <tr class="row-odd"><td><p>source_type</p></td>
 <td><p>TIF</p></td>
-<td><p>Single image in GeoTIFF format</p></td>
+<td><p>File of image in GeoTIFF format</p></td>
 </tr>
 </tbody>
 </table>
@@ -505,6 +568,15 @@ https://mapflow.ai/api/rasters <span class="se">\</span>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../docs_userguides/pipelines.html" class="btn btn-neutral float-right" title="Mapping Models">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../docs_userguides/prices.html" class="btn btn-neutral" title="Mapflow tariffs"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

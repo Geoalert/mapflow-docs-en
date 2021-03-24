@@ -1,0 +1,4 @@
+PARAM,TYPE,VALUE,Description
+polygon / bbox*,geographical,,Geometry of the requested area in GeoJSON
+srid,string,4326 (default) / 3857,Area of request projection coortdinates
+points,boolean,true / false (default),Returns polygons centroids instead of full geometry
