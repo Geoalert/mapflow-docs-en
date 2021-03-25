@@ -52,6 +52,7 @@ Response body example
 ---------------------
 
 .. code:: json
+
    {
     "type":"FeatureCollection",
     "features": [
