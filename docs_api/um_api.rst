@@ -64,21 +64,20 @@ Response body example
             },
             "properties":  {
 	    	"id": <int> # sequential feature id,
-		"shape_type": <string> # auxillary field, should be ignored,
-                "population": <float> # estimated number of inhabitants,
+		"processing_date": <date> # the date the processing was ran in our platform (not the image capture date),
+		"ground_area": <float> # total area of the building's footprint,
+		"height": <int>,
+		"volume": <float> # building_height multiplied by ground_area,
+                "estimated_population": <int>,
+		"residential_floor_count": <int> # for buildings taller than 15m, (height / 3) - 1 since those usually have an attic; otherwise, (height / 3) 
 		"in_zkh": <bool> # whether a match was found in the Reforma GKH database (if false, the fields below will be empty),
-                "living_quarters_count": <int> # number of residential units,
-                "area_total": <float> # total floor area of the building, sq. m,
-                "project_type": <string> # arbitrary string,
-                "floor_count_max": <int> # max number of floors for multipart buildings,
-                "floor_count_min": <int> # min of floors for multipart buildings,
-                "processing_date": <date> # the date the processing was ran in our platform (not the image capture date),
-                "is_alarm": <bool> whether the building is decrepit and scheduled for demolishing,
-                "area_residential": # total floor area of residential units, sq. m,
-                "built_year": <int> # the year the building was built,
-                "house_type": <string> # arbitrary string like "duplex", etc., in Russian,
-                "quarters_count": <int> # total number of units,
-                    
+                "unit_count_residential": <int>,
+		"unit_count_total": <int>,
+                "floor_area_total": <float> # sum of areas of all floors (as reported by Reforma GKH), sq. m,
+		"floor_area_residential": <float> # total floor area of residential units (as reported by Reforma GKH), sq. m,
+                "is_rundown": <bool> whether the building is to be demolished,
+                "year_of_construction": <int>,   
+		"project_type": <string> # aribitrary string: building type or project series
        }
    }
 
