@@ -22,30 +22,47 @@ How to install the plugin
 How to connect to Maxar SecureWatch
 ------------------------------------
 
-SecureWatch is a service that provides flexible access to optical images from the world leader in remote sensing, MAXAR. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the shooting date and time, shooting angle and cloud cover, spatial resolution, image processing level, etc.
+.. note::
+ SecureWatch is a service that provides flexible access to optical images from the world leader in remote sensing, MAXAR. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the shooting date and time, shooting angle and cloud cover, spatial resolution, image processing level, etc.
 
-You need a login, password and Connect ID to use the SecureWatch resources in our plugin.
+1. On the *Processing* tab, in the *Imagery source* drop-down list, select *Custom (in setting)*.
+ 
+ .. figure:: _static/Geoalert_processing.png
+         :alt: Processing dialog
+         :align: center
+         :width: 15cm
 
-Just go to the `official SecureWatch website <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_  and register.
+2. Go to the *Setting* tab.
+ 
+3. Enter your SecureWatch account information in the *Login* and *Password*.
+ 
+.. important:: 
+  If you don't have an account, register on the `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_.
+ 
+4. Select *Maxar Securewatch*. Enter your *Connect ID*:
 
-After registration, you will be offered 2 high-resolution mosaic options, Vivid and SecureWatch, which one to use is up to you.
+     1.Go to the `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_.
 
-You can switch between mosaics by clicking on the name of one of them on the top panel.
+     2.In the title bar select your name, then select **View Profile**. The **User Profile** dialog box will open.
+ 
+     3.Copy your connection ID from the **Current Connect ID**.
+     
+     .. figure:: _static/SecureWatch_user_profile.jpg
+         :alt: Your user profile in SecureWatch
+         :align: center
+         :width: 15cm
 
-.. figure:: _static/SecureWatch_view.jpg
-   :alt: SecureWatch view
-   :align: center
-   :width: 15cm
+     .. attention::
+         The **Connect ID** is different for each mosaic. Therefore, initially choose the one that suits you. To do this, close the *User Profile* window and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**) by clicking on the name of one of them.
+ 
+     4. Return to QGIS to **Geoalert plugin**, paste the copied ID in the *Connect ID*.
+     
+     5. Click *Get standart* layer Maxar.
 
-Go to User Profile to find out your Connect ID.
-
-.. figure:: _static/SecureWatch_user_profile.jpg
-   :alt: Your user profile in SecureWatch
-   :align: center
-   :width: 15cm
-
-.. attention:: 
- Please note that the Connect ID is different for each mosaic. Therefore, initially choose the one that suits you.
+     6. In the *Custom* active area, click *Connect satellite imagery provider*.
+     
+     Now the Maxar layer is displayed in your raster layers list.
+     
 
 How to use other imagery services
 ------------------------------------
