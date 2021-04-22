@@ -26,7 +26,7 @@ SecureWatch is a service that provides flexible access to optical images from th
 
 You need a login, password and Connect ID to use the SecureWatch resources in our plugin.
 
-Just go to the official SecureWatch website and register.
+Just go to the `official SecureWatch website <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_  and register.
 
 After registration, you will be offered 2 high-resolution mosaic options, Vivid and SecureWatch, which one to use is up to you.
 
