@@ -86,7 +86,7 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Mapflow Web UI</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-run-your-flow">How to run your flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-run-your-mapping-flow">How to run your mapping flow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#working-with-results">Working with results</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#working-with-api">Working with API</a></li>
 </ul>
@@ -96,9 +96,12 @@
 <li class="toctree-l1"><a class="reference internal" href="prices.html">Mapflow tariffs</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../docs_api/processing_api.html">Geoalert API</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipelines.html">Mapping Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs_api/processing_api.html">Processing API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pipelines.html">AI-Mapping Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pipelines.html#models-reference">Models reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs_api/qgis_mapflow.html">QGIS</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../docs_um/classes.html">Urban Mapping classes</a></li>
@@ -150,8 +153,8 @@
 <h1>Mapflow Web UI<a class="headerlink" href="#mapflow-web-ui" title="Permalink to this headline">¶</a></h1>
 <p>Go to <a class="reference external" href="https://app.mapflow.ai">Mapflow</a> and register or login using your Google account.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, <strong>flows</strong>.</p>
-<div class="section" id="how-to-run-your-flow">
-<h2>How to run your flow<a class="headerlink" href="#how-to-run-your-flow" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-to-run-your-mapping-flow">
+<h2>How to run your mapping flow<a class="headerlink" href="#how-to-run-your-mapping-flow" title="Permalink to this headline">¶</a></h2>
 <p>Mapflow is designed to be intuitive. Here is our step-by-step user guide:</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="UI Mapflow – run a flow" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
@@ -172,7 +175,7 @@ Mapflow processes imagery and extracts vector objects from it. So as a user, you
 </div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Geoalert API</span></a>.</p>
+<p>As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Processing API</span></a>.</p>
 </div>
 </div></blockquote>
 <ol class="arabic simple" start="2">
@@ -262,8 +265,8 @@ When this panel is opened, the status is displayed, and the previously selected 
 </div></blockquote>
 <div class="section" id="working-with-api">
 <h3>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h3>
-<p>Mapflow platform provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
-If you are developing application and want to use our API, - check out <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Geoalert API</span></a>.</p>
+<p>Mapflow provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
+If you are developing application and want to use our API, - check out <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Processing API</span></a>.</p>
 </div>
 </div>
 </div>

@@ -5,8 +5,8 @@ Mapflow Web UI
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your Google account.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**. 
 
-How to run your flow
----------------------
+How to run your mapping flow
+----------------------------
 
 Mapflow is designed to be intuitive. Here is our step-by-step user guide: 
 
@@ -108,6 +108,6 @@ Options for viewing the processing results are:
 Working with API
 ^^^^^^^^^^^^^^^^
 
-Mapflow platform provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
+Mapflow provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
 If you are developing application and want to use our API, - check out :doc:`../docs_api/processing_api`.
 
