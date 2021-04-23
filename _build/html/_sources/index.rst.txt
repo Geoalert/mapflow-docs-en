@@ -38,6 +38,17 @@ Mapflow services
    docs_api/processing_api
    docs_userguides/pipelines
 
+*****************
+Use with GIS...
+*****************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   docs_api/qgis_mapflow
+
+
 ********************
 Reference materials 
 ********************

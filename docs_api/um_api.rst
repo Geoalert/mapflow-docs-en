@@ -1,5 +1,5 @@
-Geoalert Urban Mapping API
-==========================
+Urban Mapping API
+=================
 
  .. attention::
     This API serves ready-to-use datasets. It provides access to validated datasets within the current coverage of "Urban mapping". To start using the API, please, send us a request to help@geoalert.io.

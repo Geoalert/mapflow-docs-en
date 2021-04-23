@@ -1,8 +1,10 @@
-Geoalert API
+.. _processing-api:
+
+Processing API
 ==============
 
  .. attention::
-    This API is separate from Mapflow. The projects and processings that you create in Mapflow won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, please, send us a request to help@geoalert.io.
+    The projects and processings that you create in Mapflow Web UI won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, please, send us a request to help@geoalert.io
 
 Authorization
 --------------
