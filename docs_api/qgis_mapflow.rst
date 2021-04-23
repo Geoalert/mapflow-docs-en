@@ -16,9 +16,66 @@ User interface
 --------------
 
 
+Geoalert plugin working window is divided into 2 tabs:
+
+- **Processing**;
+- **Settings**;
+
+.. figure:: _static/qgis/geoalert_interface.png
+         :alt: Geoalert plugin interface
+         :align: center
+         :width: 15cm
 
 
+**Processing**
 
+In this tab, the user is given the opportunity to log into his `mapflow.ai account <https://mapflow.ai/en>`_, generate and run his processing in QGIS.
+
+You must fill in the *Login* and *Password* fields to log into your account. By choosing *Save Login / Password* the user's personal data will be saved so as not to enter them when the plugin is restarted. When you press the *Connect button*, you will be connected to your account and you can start composing a processing request.
+
+.. figure:: _static/qgis/account_login_box.png
+         :alt: Account login field mapflow.ia
+         :align: center
+         :width: 15cm
+
+At the bottom of the window, you will be able to view and information about all previously performed processings: their name, processing type, status, creation date and processing ID.
+
+.. figure:: _static/qgis/processing_area.png
+         :alt: Processing area
+         :align: center
+         :width: 15cm
+
+
+Let's consider the area of ​​processing parameters.
+
+.. figure:: _static/qgis/processing_parameters.png
+         :alt: The area of ​​processing parameters
+         :align: center
+         :width: 15cm
+
+The *Processing name* field corresponds to the name of the processing.
+
+*AOI layer* - area for processing. This layer is automatically displayed in the drop-down list from the list of QGIS raster layers, load this layer into QGIS or draw it.
+
+.. figure:: _static/qgis/aoi_layer.png
+         :alt: AOI layer
+         :align: center
+         :width: 15cm
+ 
+*AI model* - processing type. In the drop-down list, you can select the following processing types:
+
+.. figure:: _static/qgis/ai_model.png
+         :alt: Processing type
+         :align: center
+         :width: 15cm
+
+*Imagery source* - background. Mapbox Satellite is selected by default, you can also select Custom and Open new .tif from the drop-down list.
+
+The *Start processing* button will start a new processing.
+         
+Using the *Delete* button, you can delete processing from the processing window.
+
+The *Load processing results* button allows you to upload the resulting processing result as a layer to QGIS. 
 
 How to install the plugin
 --------------------------
@@ -41,7 +98,7 @@ How to connect to Maxar SecureWatch
 
 1. On the **Processing** tab, in the *Imagery source* drop-down list, select *Custom (in setting)*.
  
- .. figure:: _static/Geoalert_processing.png
+ .. figure:: _static/qgis/Geoalert_processing.png
          :alt: Processing dialog
          :align: center
          :width: 15cm
@@ -61,7 +118,7 @@ How to connect to Maxar SecureWatch
  
      3.Copy your **Current Cnnect ID**.
      
-     .. figure:: _static/SecureWatch_user_profile.jpg
+     .. figure:: _static/qgis/SecureWatch_user_profile.jpg
          :alt: Your user profile in SecureWatch
          :align: center
          :width: 15cm
@@ -71,9 +128,7 @@ How to connect to Maxar SecureWatch
  
      4. Return to QGIS to **Geoalert plugin**, paste the copied ID in the *Connect ID* input.
      
-     5. Click *Get URL*.
-
-     6. 
+     5. Click *Get URL*. 
      
      Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
      
