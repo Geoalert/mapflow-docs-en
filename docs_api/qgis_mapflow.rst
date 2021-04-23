@@ -13,7 +13,9 @@ Know more on QGIS `official site <https://www.qgis.org/>`_. It has an interface 
 
 
 User interface
----------------
+--------------
+
+
 
 
 
@@ -21,10 +23,10 @@ User interface
 How to install the plugin
 --------------------------
 
-You have to add external repository from our site, click Plugins --> Manage... --> Add… and fill out the form with a name and the `URL to repository <https://qgis.mapflow.ai/mapflow.xml>`_. 
+You have to add external repository from our site, click *Plugins* --> *Manage...* --> *Add…* and fill out the form with a name and the `URL to repository <https://qgis.mapflow.ai/mapflow.xml>`_. 
 
  .. figure:: _static/qgis/add_repo.png
-         :alt: Processing dialog
+         :alt: Add repo
          :align: center
          :width: 15cm
 
@@ -91,3 +93,10 @@ All formats represent the most widely used protocols to fetch gereferenced image
 
 How to process your own imagery data
 ------------------------------------
+
+You can upload your local raster in GeoTIF format (*Open new .tif*). Every file added as raster layer into QGIS is visible in the drop-down list and can be selected for uploading.
+
+ .. figure:: _static/qgis/upload_tif.png
+         :alt: Upload TIF, select from list
+         :align: center
+         :width: 15cm
