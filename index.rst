@@ -39,7 +39,7 @@ Mapflow services
    docs_userguides/pipelines
 
 *****************
-Use with...
+Use with GIS...
 *****************
 
 .. toctree::
