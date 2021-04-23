@@ -64,10 +64,11 @@ The *Processing name* field corresponds to the name of the processing.
  
 *AI model* - processing type. In the drop-down list, you can select the following processing types:
 
-.. figure:: _static/qgis/ai_model.png
-         :alt: Processing type
-         :align: center
-         :width: 15cm
+- *Building Detection*;
+- *Roads Detection*; 
+- *Forest Detection*;
+- *Buildings detection With Heights*;
+- *Forest Detection With Heights*.
 
 *Imagery source* - background. Mapbox Satellite is selected by default, you can also select Custom and Open new .tif from the drop-down list.
 
