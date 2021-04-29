@@ -9,74 +9,113 @@ What is QGIS
 ---------------
 
 QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse data, and compose printable maps. Get a first impression with a more detailed feature list.
-Know more on QGIS `official site <https://www.qgis.org/>`_. It has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our app enables connection to Mapflow :doc:`processing_api` to run AI-mapping processings and download output data as QGIS layers.
+Know more on QGIS `official site <https://www.qgis.org/>`_. 
+
+It has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our app enables connection to Mapflow :doc:`processing_api` to run AI-mapping processings and download output data as QGIS layers.
 
 
 User interface
 --------------
 
 
-Geoalert plugin working window is divided into 2 tabs:
+Geoalert plugin working window is divided into 3 tabs:
 
-- **Processing**;
-- **Settings**;
+- Processing;
+- Settings;
+- Help.
 
-.. figure:: _static/qgis/geoalert_interface.png
-         :alt: Geoalert plugin interface
+1.Processing
+~~~~~~~~~~~~~
+
+.. figure:: _static/qgis/processing_tab.png
+         :alt: Veiw of the processing tab
          :align: center
          :width: 15cm
 
 
-**Processing**
+**1.1. User authorization area**
 
-In this tab, the user is given the opportunity to log into his `mapflow.ai account <https://mapflow.ai/en>`_, generate and run his processing in QGIS.
+    *Login/Password*. You need to enter Login and Password. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and write to the support service on the platform's website a request to provide access to the API for working with the plugin.
 
-You must fill in the *Login* and *Password* fields to log into your account. By choosing *Save Login / Password* the user's personal data will be saved so as not to enter them when the plugin is restarted. When you press the *Connect button*, you will be connected to your account and you can start composing a processing request.
+    *Save Login/Password*. User's personal data can be saved for further use of the plugin when it is restarted.
 
-.. figure:: _static/qgis/account_login_box.png
-         :alt: Account login field mapflow.ia
+    *Connect*. User account login button.
+
+
+**1.2. Processing parameters area**
+
+    *Processing name*. The name of the treatment.
+
+    *AOI layer*. The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, load this layer into QGIS or draw it.
+
+    *AI model*. Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios):
+    
+    - *Building Detection*;
+    - *Roads Detection*;
+    - *Forest Detection*;
+    - *Buildings detection With Heights*;
+    - *Forest Detection With Heights*.
+
+    *Imagery source*. Substrate. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif.
+
+    *Update image in cache*. Refresh the processing image in the cache.
+
+    *Start processing*. New processing start button.
+
+**1.3. Display unit and work with processing**
+
+    The processing window consists of:
+
+    - *Processing*. The degree of completion of processing in percent.
+    - *Name*. The name of the treatment.
+    - *Status*. Processing status.
+    - *Created*. The date the treatment was created.
+    - *ID*. Processing ID.
+    - *AI model*. User-selected processing type in the AI ​​model field.
+
+    *Delete*. Button for deleting previously performed processing from the processing window.
+
+    *Load processing results*. A button that allows you to upload the resulting processing result as a layer to QGIS.
+
+2.Settings
+~~~~~~~~~~~
+
+.. figure:: _static/qgis/settings_tab.png
+         :alt: Veiw of the settings tab
          :align: center
          :width: 15cm
 
-At the bottom of the window, you will be able to view and information about all previously performed processings: their name, processing type, status, creation date and processing ID.
+*Destination folder*. Path to the directory into which the processing result will be loaded.
+    
+*Geoalert platform url*. Geoalert Platform URL.
+    
+*Custom Imagery provider URL*. Satellite imagery provider URL.
+    
+*Raster tile type*. Raster tile type. You can choose xyz, tms, wms.
+    
+*Max zoom 14*. Zoom size 14 is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to Maxar SecureWatch. Viewing data from this service is possible from zoom 9. You can use the zoom up to maximum 18 zoom by unchecking the box).
+    
+*Preview*. Button to preview the background of the specified satellite imagery and geospatial data provider.
+    
+**Maxar SecureWatch settings**
+    
+*Login/Password*. Login credentials for your SecureWatch account.
+    
+*Save Login/Password*. The user's personal data can be saved for further connectivity to SecureWatch resources.
+    
+*Connect ID*. The identifier for the connection to SecureWatch resources.
+    
+*Get URL*. Button to get the URL of the satellite imagery provider Maxar.
+    
+*AOI layer*. The area for which meta data will be presented.
+    
+*Get image metadata*. Button to start collecting meta-data for the selected area.
+    
+3. Help
+~~~~~~~~
 
-.. figure:: _static/qgis/processing_area.png
-         :alt: Processing area
-         :align: center
-         :width: 15cm
-
-
-Let's consider the area of ​​processing parameters.
-
-.. figure:: _static/qgis/processing_parameters.png
-         :alt: The area of ​​processing parameters
-         :align: center
-         :width: 15cm
-
-The *Processing name* field corresponds to the name of the processing.
-
-*AOI layer* - area for processing. This layer is automatically displayed in the drop-down list from the list of QGIS raster layers, load this layer into QGIS or draw it.
-
-.. figure:: _static/qgis/aoi_layer.png
-         :alt: AOI layer
-         :align: center
-         :width: 15cm
- 
-*AI model* - processing type. In the drop-down list, you can select the following processing types:
-
-- *Building Detection*;
-- *Roads Detection*; 
-- *Forest Detection*;
-- *Buildings detection With Heights*;
-- *Forest Detection With Heights*.
-
-*Imagery source* - background. Mapbox Satellite is selected by default, you can also select Custom and Open new .tif from the drop-down list.
-
-The *Start processing* button will start a new processing.
-         
-Using the *Delete* button, you can delete processing from the processing window.
-
-The *Load processing results* button allows you to upload the resulting processing result as a layer to QGIS. 
+The tab contains all useful links for working with this plugin.
+    
 
 How to install the plugin
 --------------------------
@@ -139,9 +178,9 @@ How to use other imagery services
 
 You can enter your custom imagery source URL in one of the following formats:
 
-* XYZ
-* TMS
-* WMS
+* XYZ;
+* TMS;
+* WMS.
 
 All formats represent the most widely used protocols to fetch gereferenced imagery via http:
 (There is one more type that is supported in the Mapflow which is *quadkey*)
