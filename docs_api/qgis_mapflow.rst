@@ -107,6 +107,8 @@ Geoalert plugin working window is divided into 3 tabs:
 *Connect ID*. The identifier for the connection to SecureWatch resources.
     
 *Get URL*. Button to get the URL of the satellite imagery provider Maxar.
+
+*Feature ID*. Image ID obtained from the meta-data that intersects with the selected  AOI layer.
     
 *AOI layer*. The area for which meta-data will be presented.
     
@@ -179,31 +181,31 @@ How to find and process the image by Feature ID using Maxar SecureWatch
 
 You can use SW to discover and get processed aby avaialble image for you area of interest.
 
-1. Go to *Maxar SecureWatch* setiings
+1. Go to *Maxar SecureWatch* setiings.
 
-2. Select the vector layer with the boundary of your area of interest using "AOi layer" 
+2. Select the vector layer with the boundary of your area of interest using *AOi layer*.
 
 .. note::
-    You have to upload from the file with coordinates or to create the new one area using QGIS
+    You have to upload from the file with coordinates or to create the new one area using QGIS.
 
      .. figure:: _static/qgis/add_SW_WFS.png
          :alt: Get specific image from SW
          :align: center
          :width: 15cm    
 
-3. "Get image metadata", to view meta-data of all avaialble images intesecting your AOI
+3. *Get image metadata*, to view meta-data of all avaialble images intesecting your AOI.
 
-4. Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes 
+4. Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes.
 
 .. note::
-    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes
+    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes.
 
-5. Press *Get URL* to generate the URL request to the selected image ("Feature ID")
+5. Press *Get URL* to generate the URL request to the selected image (*Feature ID*).
 
-6. Press *Preview*, to view the selected image in the form of new raster layer
+6. Press *Preview*, to view the selected image in the form of new raster layer.
 
 .. attention::
-    "max zoom 14" checkbox is avtive to prevent the paid streaming сon the side of SecureWatch. If you like to view the full resolution image - uncheck it and press *Preview* button
+    "max zoom 14" checkbox is avtive to prevent the paid streaming сon the side of SecureWatch. If you like to view the full resolution image - uncheck it and press *Preview* button.
      
 
 How to use other imagery services
@@ -213,10 +215,10 @@ You can enter your custom imagery source URL in one of the following formats:
 
 * XYZ;
 * TMS;
-* WMS.
+* WMS;
+* Quadkey.
 
-All formats represent the most widely used protocols to fetch gereferenced imagery via http:
-(There is one more type that is supported in the Mapflow which is *quadkey*)
+All formats represent the most widely used protocols to fetch gereferenced imagery via http.
 
 
 How to process your own imagery data

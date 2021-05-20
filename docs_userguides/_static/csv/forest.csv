@@ -1,3 +1,3 @@
 Forest,Description,"Model input, min. GSD m/px"
 Segmentation,Extract segmentation masks of forested areas from high-resolution RGB images,"RGB, 2"
-Classification,"Classify the areas of vegetation and shrub vegetation by height.","RGB, 0.5"
+Classification,"Classify the areas of vegetation and shrub vegetation by height and vegetation density.","RGB, 0.5"

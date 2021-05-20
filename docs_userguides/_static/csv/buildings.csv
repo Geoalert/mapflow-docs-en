@@ -2,3 +2,5 @@ Buildings,Description,"Model input, min. GSD m/px"
 Segmentation,Extract roof contours (roofprints) from high-resolution satellite imagery, RGB 0.5
 Classification,Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential,RGB 0.5
 Building heights,"For each building, we estimate its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to footprints",RGB 0.5
+Merge with OSM, "Replacing the outlines of buildings of our model with the outlines from OSM", RGB 0.5
+Simplifiation, "Conturs correction of buildings", RGB 0.5
