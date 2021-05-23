@@ -95,6 +95,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#buildings">Buildings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#forest">Forest</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#roads">Roads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#high-density-housing">High-density housing</a></li>
 </ul>
 </li>
 </ul>
@@ -154,8 +155,10 @@
 <p>Extracting of roofprints of buildings from imagery of high resolution.</p>
 <p>Additional options:</p>
 <ul class="simple">
-<li><p><strong>Classification by types of buildings</strong> – typology of buildings is represented by the main classes (see <a class="reference external" href="https://docs.mapflow.ai/docs_um/classes.html">reference</a>).</p></li>
-<li><p><strong>Building heights</strong> - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.</p></li>
+<li><p><em>Classification by types of buildings</em> – typology of buildings is represented by the main classes (see <a class="reference external" href="https://docs.mapflow.ai/docs_um/classes.html">reference</a>).</p></li>
+<li><p><em>Building heights</em> - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.</p></li>
+<li><p><em>Simplification</em> - The algorithm allows you to correct the irregularities of the contours of our model.</p></li>
+<li><p><em>Merge with OSM</em> - This option allows you to replace the obtained data of our model with data from the OSM, if the polygons of the OSM buildings and the model overlap significantly (Jaccard coefficients - more than 0.7).</p></li>
 </ul>
 <p>🏙️ <strong>High-density housing</strong></p>
 <p>Our “high-density housing” AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc.</p>
@@ -163,16 +166,10 @@
 <p>Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights.</p>
 <p>Additional options:</p>
 <ul class="simple">
-<li><p><strong>Classification by heights</strong> – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties.</p></li>
-<li><p><strong>Classification by overgrowth density</strong> – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.</p></li>
+<li><p><em>Classification by heights</em> – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m, and division of classes in 4+ m according to the density of vegetation into: dense and sparse. Forest areas of each height class are polygonized in separate features. The height class and density of vegetation are specified in the polygon properties.</p></li>
 </ul>
 <p>🚗 <strong>Roads</strong></p>
 <p>Extracting the road mask from satellite images of high spatial resolution.</p>
-<p>Additional options:</p>
-<ul class="simple">
-<li><p>Classification by road pavement.</p></li>
-<li><p>Transfomation into graph.</p></li>
-</ul>
 <p>🏗️ <strong>Construction</strong></p>
 <p>Detection of the construction sites by classification of tiles of hi-resolution satellite images.</p>
 </div>
@@ -206,6 +203,14 @@
 <td><p>For each building, we estimate its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to footprints</p></td>
 <td><p>RGB 0.5</p></td>
 </tr>
+<tr class="row-odd"><td><p>Merge with OSM</p></td>
+<td><p>Replacing the outlines of buildings of our model with the outlines from OSM</p></td>
+<td><p>RGB 0.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Simplifiation</p></td>
+<td><p>Conturs correction of buildings</p></td>
+<td><p>RGB 0.5</p></td>
+</tr>
 </tbody>
 </table>
 </div></blockquote>
@@ -231,7 +236,7 @@
 <td><p>RGB, 2</p></td>
 </tr>
 <tr class="row-odd"><td><p>Classification</p></td>
-<td><p>Classify the areas of vegetation and shrub vegetation by height.</p></td>
+<td><p>Classify the areas of vegetation and shrub vegetation by height and vegetation density.</p></td>
 <td><p>RGB, 0.5</p></td>
 </tr>
 </tbody>
@@ -261,6 +266,11 @@
 </tbody>
 </table>
 </div></blockquote>
+</div>
+<div class="section" id="high-density-housing">
+<h2>High-density housing<a class="headerlink" href="#high-density-housing" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div></div></blockquote>
 </div>
 </div>
 
