@@ -9,9 +9,13 @@ Extracting of roofprints of buildings from imagery of high resolution.
 
 Additional options:
 
-* **Classification by types of buildings** – typology of buildings is represented by the main classes (see `reference <https://docs.mapflow.ai/docs_um/classes.html>`_).
+* *Classification by types of buildings* – typology of buildings is represented by the main classes (see `reference <https://docs.mapflow.ai/docs_um/classes.html>`_).
 
-* **Building heights** - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.
+* *Building heights* - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.
+
+* *Simplification* - The algorithm allows you to correct the irregularities of the contours of our model.
+
+* *Merge with OSM* - This option allows you to replace the obtained data of our model with data from the OSM, if the polygons of the OSM buildings and the model overlap significantly (Jaccard coefficients - more than 0.7).
 
 |:cityscape:| **High-density housing**
 
@@ -23,19 +27,11 @@ Extracting the forest masks from RGB images of high resolution (2 meters) withou
 
 Additional options:
 
-* **Classification by heights** – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in separate features, the height class is indicated in its properties.
-
-* **Classification by overgrowth density** – classification of the area of vegetations and shrub vegetation into classes according to the density and height: high forest, low (growing) forest, open woodland, shrub.
+* *Classification by heights* – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m, and division of classes in 4+ m according to the density of vegetation into: dense and sparse. Forest areas of each height class are polygonized in separate features. The height class and density of vegetation are specified in the polygon properties.
 
 |:red_car:| **Roads** 
 
 Extracting the road mask from satellite images of high spatial resolution.
-
-Additional options:
-
-* Classification by road pavement.
-* Transfomation into graph.
-
 
 |:building_construction:| **Construction** 
 
@@ -83,3 +79,13 @@ Roads
 
 
 
+High-density housing
+"""""""""""""""""""""
+     
+   .. tabularcolumns:: |p{3cm}|p{5cm}|p{3cm}|
+     
+   .. csv-table::
+      :file: _static/csv/high-density_housing.csv 
+      :header-rows: 1 
+      :class: longtable
+      :widths: 1 1 1

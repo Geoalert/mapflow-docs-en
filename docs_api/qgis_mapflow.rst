@@ -44,9 +44,9 @@ Geoalert plugin working window is divided into 3 tabs:
 
 **1.2. Processing parameters area**
 
-    *Processing name*. The name of the treatment.
+    *Processing name*.
 
-    *AOI layer*. The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, load this layer into QGIS or draw it.
+    *AOI layer*. The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, to add new AOI - upload it into QGIS or create a new layer using polygon tool.
 
     *AI model*. Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios):
     
@@ -54,17 +54,18 @@ Geoalert plugin working window is divided into 3 tabs:
     - *Roads Detection*;
     - *Forest Detection*;
     - *Buildings detection With Heights*;
-    - *Forest Detection With Heights*.
+    - *Forest Detection With Heights*;
+    - *Construction Detection*;
 
-    *Imagery source*. Substrate. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif.
+    *Imagery source*. Base imagery to be processed. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif.
 
     *Update image in cache*. Refresh the processing image in the cache.
 
-    *Start processing*. New processing start button.
+    *Start processing*.
 
-**1.3. Display unit and work with processing**
+**1.3. Display output and work with processing**
 
-    The processing window consists of:
+    The processing dialog consists of:
 
     - *Processing*. The degree of completion of processing in percent.
     - *Name*. The name of the treatment.
@@ -73,9 +74,9 @@ Geoalert plugin working window is divided into 3 tabs:
     - *ID*. Processing ID.
     - *AI model*. User-selected processing type in the AI ​​model field.
 
-    *Delete*. Button for deleting previously performed processing from the processing window.
+    *Delete*. Button for deleting previously performed processing from the processings list.
 
-    *Load processing results*. A button that allows you to upload the resulting processing result as a layer to QGIS.
+    *Load processing results*. A button that allows you to upload the resulting processing result as a layer into QGIS.
 
 2.Settings
 ~~~~~~~~~~~
@@ -106,15 +107,17 @@ Geoalert plugin working window is divided into 3 tabs:
 *Connect ID*. The identifier for the connection to SecureWatch resources.
     
 *Get URL*. Button to get the URL of the satellite imagery provider Maxar.
+
+*Feature ID*. Image ID obtained from the meta-data that intersects with the selected  AOI layer.
     
-*AOI layer*. The area for which meta data will be presented.
+*AOI layer*. The area for which meta-data will be presented.
     
 *Get image metadata*. Button to start collecting meta-data for the selected area.
     
 3. Help
 ~~~~~~~~
 
-The tab contains all useful links for working with this plugin.
+The tab contains all useful links about this plugin.
     
 
 How to install the plugin
@@ -134,7 +137,7 @@ How to connect to Maxar SecureWatch
 ------------------------------------
 
 .. note::
- SecureWatch is a service that provides flexible access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc.
+ SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
 
 1. On the **Processing** tab, in the *Imagery source* drop-down list, select *Custom (in setting)*.
  
@@ -156,7 +159,7 @@ How to connect to Maxar SecureWatch
 
      2.In the title bar select your name, then select **View Profile**. The **User Profile** dialog box will open.
  
-     3.Copy your **Current Cnnect ID**.
+     3.Copy your **Current Connect ID**.
      
      .. figure:: _static/qgis/SecureWatch_user_profile.jpg
          :alt: Your user profile in SecureWatch
@@ -171,6 +174,38 @@ How to connect to Maxar SecureWatch
      5. Click *Get URL*. 
      
      Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
+
+
+How to find and process the image by Feature ID using Maxar SecureWatch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use SW to discover and get processed aby avaialble image for you area of interest.
+
+1. Go to *Maxar SecureWatch* setiings.
+
+2. Select the vector layer with the boundary of your area of interest using *AOi layer*.
+
+.. note::
+    You have to upload from the file with coordinates or to create the new one area using QGIS.
+
+     .. figure:: _static/qgis/add_SW_WFS.png
+         :alt: Get specific image from SW
+         :align: center
+         :width: 15cm    
+
+3. *Get image metadata*, to view meta-data of all avaialble images intesecting your AOI.
+
+4. Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes.
+
+.. note::
+    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes.
+
+5. Press *Get URL* to generate the URL request to the selected image (*Feature ID*).
+
+6. Press *Preview*, to view the selected image in the form of new raster layer.
+
+.. attention::
+    "max zoom 14" checkbox is avtive to prevent the paid streaming сon the side of SecureWatch. If you like to view the full resolution image - uncheck it and press *Preview* button.
      
 
 How to use other imagery services
@@ -180,10 +215,10 @@ You can enter your custom imagery source URL in one of the following formats:
 
 * XYZ;
 * TMS;
-* WMS.
+* WMS;
+* Quadkey.
 
-All formats represent the most widely used protocols to fetch gereferenced imagery via http:
-(There is one more type that is supported in the Mapflow which is *quadkey*)
+All formats represent the most widely used protocols to fetch gereferenced imagery via http.
 
 
 How to process your own imagery data

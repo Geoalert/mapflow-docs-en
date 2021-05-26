@@ -350,14 +350,28 @@ wdName
 
 source_type
 """""""""""
+.. list-table::
+   :widths: 10 10 30
+   :header-rows: 1
 
-   .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
-
-   .. csv-table::
-      :file: _static/api_ref_source.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - KEY
+     - VALUE
+     - DESCRIPTION
+   * - source_type
+     - XYZ
+     - The URL to the imagery service in “XYZ” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
+   * - source_type
+     - TMS
+     - The similar to XYZ with reverse Y coordinate
+   * - source_type
+     - WMS
+     - The URL to the imagery service in “WMS” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
+   * - source_type
+     - Quadkey
+     - The one-dimensional index key that usually preserves the proximity of tiles in XY space (Bing Maps tile format)
+   * - source_type
+     - TIF/TIFF
+     - File of image in georeferenced TIFF (GeoTIFF) format
 
 
 

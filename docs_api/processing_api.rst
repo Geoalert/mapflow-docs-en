@@ -20,7 +20,7 @@ Projects
 Get project
 """""""""""
 
-``GET https://api.mapflow.ai/{projectId}`` 
+``GET https://api.mapflow.ai/rest/{projectId}`` 
 
 Returns the project with the specified ID.  
 
@@ -65,7 +65,7 @@ Get default (demo) project
 
 Default (demo) project is created for each user upon registration.
 
-``GET https://api.mapflow.ai/projects/default`` 
+``GET https://api.mapflow.ai/rest/projects/default`` 
 
 Returns the name and ID of the user's default project.  
 
@@ -80,7 +80,7 @@ Returns the list of all user's projects.
 Post project
 """"""""""""
 
-``POST https://api.mapflow.ai/projects/``
+``POST https://api.mapflow.ai/rest/projects``
 
 Creates a new project, and returns its immediate state.  
 
@@ -103,7 +103,7 @@ Response: the newly created project.
 Delete project
 """"""""""""""
 
-``DELETE https://api.mapflow.ai/projects/{projectId}`` 
+``DELETE https://api.mapflow.ai/rest/projects/{projectId}`` 
 
 Deletes the project. Cascade deletes any child entities.
 
@@ -113,7 +113,7 @@ Processings
 Get processing
 """"""""""""""
 
-``GET https://api.mapflow.ai/processings/{processingId}``
+``GET https://api.mapflow.ai/rest/processings/{processingId}``
 
 Returns the processing with the specified id.  
 
@@ -165,7 +165,7 @@ Response example:
 Get all processings
 """""""""""""""""""
 
-``GET https://api.mapflow.ai/processings``
+``GET https://api.mapflow.ai/rest/processings``
 
 Returns the list of this user's processings.  
 
@@ -350,14 +350,28 @@ wdName
 
 source_type
 """""""""""
+.. list-table::
+   :widths: 10 10 30
+   :header-rows: 1
 
-   .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
-
-   .. csv-table::
-      :file: _static/api_ref_source.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - KEY
+     - VALUE
+     - DESCRIPTION
+   * - source_type
+     - XYZ
+     - The URL to the imagery service in “XYZ” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
+   * - source_type
+     - TMS
+     - The similar to XYZ with reverse Y coordinate
+   * - source_type
+     - WMS
+     - The URL to the imagery service in “WMS” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
+   * - source_type
+     - Quadkey
+     - The one-dimensional index key that usually preserves the proximity of tiles in XY space (Bing Maps tile format)
+   * - source_type
+     - TIF/TIFF
+     - File of image in georeferenced TIFF (GeoTIFF) format
 
 
 
