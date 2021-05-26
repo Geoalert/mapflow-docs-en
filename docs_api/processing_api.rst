@@ -20,7 +20,7 @@ Projects
 Get project
 """""""""""
 
-``GET https://api.mapflow.ai/{projectId}`` 
+``GET https://api.mapflow.ai/rest/{projectId}`` 
 
 Returns the project with the specified ID.  
 
@@ -65,7 +65,7 @@ Get default (demo) project
 
 Default (demo) project is created for each user upon registration.
 
-``GET https://api.mapflow.ai/projects/default`` 
+``GET https://api.mapflow.ai/rest/projects/default`` 
 
 Returns the name and ID of the user's default project.  
 
@@ -80,7 +80,7 @@ Returns the list of all user's projects.
 Post project
 """"""""""""
 
-``POST https://api.mapflow.ai/projects/``
+``POST https://api.mapflow.ai/rest/projects``
 
 Creates a new project, and returns its immediate state.  
 
@@ -103,7 +103,7 @@ Response: the newly created project.
 Delete project
 """"""""""""""
 
-``DELETE https://api.mapflow.ai/projects/{projectId}`` 
+``DELETE https://api.mapflow.ai/rest/projects/{projectId}`` 
 
 Deletes the project. Cascade deletes any child entities.
 
@@ -113,7 +113,7 @@ Processings
 Get processing
 """"""""""""""
 
-``GET https://api.mapflow.ai/processings/{processingId}``
+``GET https://api.mapflow.ai/rest/processings/{processingId}``
 
 Returns the processing with the specified id.  
 
@@ -165,7 +165,7 @@ Response example:
 Get all processings
 """""""""""""""""""
 
-``GET https://api.mapflow.ai/processings``
+``GET https://api.mapflow.ai/rest/processings``
 
 Returns the list of this user's processings.  
 
