@@ -338,15 +338,22 @@ API reference
 
 wdName
 """"""
+.. list-table::
+   :widths: 10 10 30
+   :header-rows: 1
 
-   .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
-
-   .. csv-table::
-      :file: _static/api_ref_wdname.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
-
+   * - KEY
+     - VALUE
+     - MODEL input resolution (m/px)
+   * - wdName
+     - Buildings Detection
+     - 0.5
+   * - wdName
+     - IN_PROGRESS
+     - Forest Detection
+   * - wdName
+     - Roads Detection
+     - 0.5
 
 source_type
 """""""""""
@@ -374,14 +381,24 @@ source_type
      - File of image in georeferenced TIFF (GeoTIFF) format
 
 
-
 status
 """"""
+.. list-table::
+   :widths: 10 10 30
+   :header-rows: 1
 
-   .. tabularcolumns:: |p{5cm}|p{7cm}|p{7cm}|
-
-   .. csv-table::
-      :file: _static/api_ref_status.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - KEY
+     - VALUE
+     - Description
+   * - status
+     - UNPROCESSED
+     - The processing is not started yet
+   * - status
+     - IN_PROGRESS
+     - The processing is going (or is in the queu)
+   * - status
+     - FAILED
+     - The processing ended unsuccessfuly - change wrong params or try to restart
+   * - status
+     - OK
+     - The processing is finished at 100 percent completed 
