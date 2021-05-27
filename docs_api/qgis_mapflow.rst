@@ -2,7 +2,7 @@ QGIS
 =============
 
  .. attention::
-    This application enables to use Mapflow processing capabilities in QGIS (qgis.org). To start using you need :doc:`processing_api` access, please, send us a request to **help@geoalert.io**
+    Mapflow can be used via `QGIS <https://www.qgis.org/>`_. For this, you will need to obtain credentials for our :doc:`processing_api`. Please, send us a request to **help@geoalert.io**
 
 
 What is QGIS
@@ -218,13 +218,13 @@ You can enter your custom imagery source URL in one of the following formats:
 * WMS;
 * Quadkey.
 
-All formats represent the most widely used protocols to fetch gereferenced imagery via http.
+All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.
 
 
-How to process your own imagery data
+How to process your own imagery
 ------------------------------------
 
-You can upload your local raster in GeoTIF format (*Open new .tif*). Every file added as raster layer into QGIS is visible in the drop-down list and can be selected for uploading.
+You can upload your own GeoTIFF (*Open new .tif*). All raster layers currently loaded in your QGIS are visible in the drop-down list and can be selected for upload.
 
  .. figure:: _static/qgis/upload_tif.png
          :alt: Upload TIF, select from list
