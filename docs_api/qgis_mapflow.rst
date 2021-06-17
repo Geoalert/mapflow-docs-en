@@ -14,9 +14,55 @@ Know more on QGIS `official site <https://www.qgis.org/>`_.
 It has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our app enables connection to Mapflow :doc:`processing_api` to run AI-mapping processings and download output data as QGIS layers.
 
 
+How to install the plugin
+--------------------------
+
+You have to add external repository from our site. For this click *Plugins* --> *Manage...* --> *Settings* --> *Add…* and fill out the form with a name and the `URL to repository <https://qgis.mapflow.ai/mapflow.xml>`_. 
+
+.. figure:: _static/qgis/add_repo.png
+         :alt: Add repo
+         :align: center
+         :width: 15cm
+
+Go to the Not installed (or All) tab and enter Geoalert MapFlow in the search box. Click Install Plugin. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
+
+The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check the box Geoalert.
+
+
 User interface
 --------------
 
+You need to log in with your account to use the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and write to the support service on the platform's website a request to provide access to the API for working with the plugin.
+
+Login window
+~~~~~~~~~~~~
+
+.. figure:: _static/qgis/login_window.png
+         :alt: Login window
+         :align: center
+         :width: 10cm
+
+  
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Name of the field / button
+     - Description
+   * - Login/Pssword
+     - Fields for entering user account data.
+   * - Server
+     - Select the platform to which the plugin will address to start processing.
+   * - Remember me
+     - Saving the user's personal data for using the plugin when you later log out of your account.   
+   * - Log in
+     - User account login button.
+   * - Cancel
+     - Button to close the plugin authorization window.
+
+
+Geoalert plugin
+~~~~~~~~~~~~
 
 Geoalert plugin working window is divided into 3 tabs:
 
@@ -33,50 +79,37 @@ Geoalert plugin working window is divided into 3 tabs:
          :width: 15cm
 
 
-**1.1. User authorization area**
 
-    *Login/Password*. You need to enter Login and Password. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and write to the support service on the platform's website a request to provide access to the API for working with the plugin.
+**Processing parameters area**
 
-    *Save Login/Password*. User's personal data can be saved for further use of the plugin when it is restarted.
+.. csv-table::
+    :file: _static/qgis/processing_parameters_area.csv 
+    :header-rows: 1 
+    :class: longtable
+    :widths: 1 3  
 
-    *Connect*. User account login button.
 
+**Display output and work with processing**
 
-**1.2. Processing parameters area**
+.. list-table::
+   :widths: auto
+   :header-rows: 1
 
-    *Processing name*.
+   * - Name of the field / button
+     - Description
+   * - Name
+     - Processing name.
+   * - Model
+     - User-selected processing type in the Model field.
+   * - Status
+     - Processing status: IN_PROGRESS, OK, FAILED. 
+   * - Progress
+     - The degree of completeness of processing as a percentage.
+   * - Created
+     - The date the processing was created.
+  
 
-    *AOI layer*. The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, to add new AOI - upload it into QGIS or create a new layer using polygon tool.
-
-    *AI model*. Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios):
-    
-    - *Building Detection*;
-    - *Roads Detection*;
-    - *Forest Detection*;
-    - *Buildings detection With Heights*;
-    - *Forest Detection With Heights*;
-    - *Construction Detection*;
-
-    *Imagery source*. Base imagery to be processed. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif.
-
-    *Update image in cache*. Refresh the processing image in the cache.
-
-    *Start processing*.
-
-**1.3. Display output and work with processing**
-
-    The processing dialog consists of:
-
-    - *Processing*. The degree of completion of processing in percent.
-    - *Name*. The name of the treatment.
-    - *Status*. Processing status.
-    - *Created*. The date the treatment was created.
-    - *ID*. Processing ID.
-    - *AI model*. User-selected processing type in the AI ​​model field.
-
-    *Delete*. Button for deleting previously performed processing from the processings list.
-
-    *Load processing results*. A button that allows you to upload the resulting processing result as a layer into QGIS.
+To unload the processing results, double-click on the completed processing.
 
 2.Settings
 ~~~~~~~~~~~
@@ -86,51 +119,54 @@ Geoalert plugin working window is divided into 3 tabs:
          :align: center
          :width: 15cm
 
-*Destination folder*. Path to the directory into which the processing result will be loaded.
-    
-*Geoalert platform url*. Geoalert Platform URL.
-    
-*Custom Imagery provider URL*. Satellite imagery provider URL.
-    
-*Raster tile type*. Raster tile type. You can choose xyz, tms, wms.
-    
-*Max zoom 14*. Zoom size 14 is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to Maxar SecureWatch. Viewing data from this service is possible from zoom 9. You can use the zoom up to maximum 18 zoom by unchecking the box).
-    
-*Preview*. Button to preview the background of the specified satellite imagery and geospatial data provider.
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Name of the field / button
+     - Description
+   * - Output directory
+     - Path to the directory into which the processing result will be loaded.
+   * - Custom imagery provider URL
+     - Satellite imagery provider URL.
+   * - Source type
+     - Raster tile type. You can choose xyz, tms, wms.
+   * - Preview
+     - The degree of completeness of processing as a percentage.
+   * - Max zoom 14
+     - Zoom size 14 is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to Maxar SecureWatch. Viewing data from this service is possible from zoom 9. You can use the zoom up to maximum 18 zoom by unchecking the box).
+
+     
     
 **Maxar SecureWatch settings**
-    
-*Login/Password*. Login credentials for your SecureWatch account.
-    
-*Save Login/Password*. The user's personal data can be saved for further connectivity to SecureWatch resources.
-    
-*Connect ID*. The identifier for the connection to SecureWatch resources.
-    
-*Get URL*. Button to get the URL of the satellite imagery provider Maxar.
 
-*Feature ID*. Image ID obtained from the meta-data that intersects with the selected  AOI layer.
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Name of the field / button
+     - Description
+   * - Login/Password
+     - Login credentials for your SecureWatch account.
+   * - Save Login/Password
+     - The user's personal data can be saved for further connectivity to SecureWatch resources.
+   * - Connect ID
+     - The identifier for the connection to SecureWatch resources.
+   * - Get URL
+     - Button to get the URL of the satellite imagery provider Maxar.
+   * - Feature ID
+     - Image ID obtained from the meta-data that intersects with the selected  AOI layer.
+   * - AOI layer
+     - he area for which meta-data will be presented.
+   * - Get image metadata
+     - Button to start collecting meta-data for the selected area. 
+
     
-*AOI layer*. The area for which meta-data will be presented.
-    
-*Get image metadata*. Button to start collecting meta-data for the selected area.
-    
-3. Help
+1. Help
 ~~~~~~~~
 
 The tab contains all useful links about this plugin.
-    
-
-How to install the plugin
---------------------------
-
-You have to add external repository from our site, click *Plugins* --> *Manage...* --> *Add…* and fill out the form with a name and the `URL to repository <https://qgis.mapflow.ai/mapflow.xml>`_. 
-
- .. figure:: _static/qgis/add_repo.png
-         :alt: Add repo
-         :align: center
-         :width: 15cm
-
-You will be able to see then if the newer version of the app is available and to check the changelog for details.
 
   
 How to connect to Maxar SecureWatch
@@ -139,10 +175,10 @@ How to connect to Maxar SecureWatch
 .. note::
  SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
 
-1. On the **Processing** tab, in the *Imagery source* drop-down list, select *Custom (in setting)*.
+1. On the **Processing** tab, in the *Imagery source* drop-down list, select *Custom URL (in setting)*.
  
- .. figure:: _static/qgis/Geoalert_processing.png
-         :alt: Processing dialog
+.. figure:: _static/qgis/use_maxar_sw.png
+         :alt: Use Maxar SecureWatch
          :align: center
          :width: 15cm
 
