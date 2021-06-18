@@ -66,9 +66,13 @@ Geoalert plugin
 
 Geoalert plugin working window is divided into 3 tabs:
 
-- Processing;
-- Settings;
-- Help.
+:ref:`Processing`
+
+:ref:`Settings`
+
+:ref:`Help`
+
+.. _Processing:
 
 1.Processing
 ~~~~~~~~~~~~~
@@ -110,6 +114,8 @@ Geoalert plugin working window is divided into 3 tabs:
   
 
 To unload the processing results, double-click on the completed processing.
+
+.. _Settings:
 
 2.Settings
 ~~~~~~~~~~~
@@ -162,7 +168,9 @@ To unload the processing results, double-click on the completed processing.
    * - Get image metadata
      - Button to start collecting meta-data for the selected area. 
 
-    
+
+.. _Help:
+
 1. Help
 ~~~~~~~~
 
