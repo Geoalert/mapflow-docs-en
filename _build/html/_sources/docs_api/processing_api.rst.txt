@@ -20,7 +20,7 @@ Projects
 Get project
 """""""""""
 
-``GET https://api.mapflow.ai/rest/{projectId}`` 
+``GET https://api.mapflow.ai/rest/projects/{projectId}`` 
 
 Returns the project with the specified ID.  
 
