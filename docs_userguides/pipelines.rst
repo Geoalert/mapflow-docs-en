@@ -45,47 +45,71 @@ Models reference
 Buildings
 """""""""
 
-   .. tabularcolumns:: |p{2cm}|p{5cm}|p{3cm}|
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
 
-   .. csv-table::
-      :file: _static/csv/buildings.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - Model
+     - Description
+     - Model input, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - Extract roof contours (roofprints) from high-resolution satellite imagery
+     - RGB 0.5
+     - 18
+   * - Classification
+     - Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential
+     - RGB 0.5
+     - 18
+   * - Building heights
+     - For each building, model estimates its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
+     - RGB 0.5
+     - 18
 
 
 Forest
 """"""
 
-   .. tabularcolumns:: |p{2cm}|p{5cm}|p{3cm}|
-
-   .. csv-table::
-      :file: _static/csv/forest.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - Model
+     - Description
+     - Model input, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - Extract segmentation masks of forested areas from high-resolution RGB images
+     - RGB, 2
+     - 16
+   * - Classification
+     - Classify the areas of vegetation and shrub vegetation by height and vegetation density
+     - RGB, 0.5
+     - 18
 
 
 Roads
 """""
 
-   .. tabularcolumns:: |p{2cm}|p{5cm}|p{2cm}|
-
-   .. csv-table::
-      :file: _static/csv/roads.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - Model
+     - Description
+     - Model input, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - Extract road mask from high-resolution satellite imagery
+     - RGB, 1
+     - 17
 
 
 
 High-density housing
 """""""""""""""""""""
      
-   .. tabularcolumns:: |p{3cm}|p{5cm}|p{3cm}|
-     
-   .. csv-table::
-      :file: _static/csv/high-density_housing.csv 
-      :header-rows: 1 
-      :class: longtable
-      :widths: 1 1 1
+   * - Model
+     - Description
+     - Model input, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - Extraction and instance detection of the building roofprints in the areas of high density housing
+     - RGB 0.5
+     - 18
+   * - Building heights
+     - For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
+     - RGB 0.5
+     - 18
