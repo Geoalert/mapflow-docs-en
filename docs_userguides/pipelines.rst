@@ -70,6 +70,10 @@ Buildings
 Forest
 """"""
 
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
+
    * - Model
      - Description
      - Model input, GSD m/px
@@ -87,6 +91,10 @@ Forest
 Roads
 """""
 
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
+
    * - Model
      - Description
      - Model input, GSD m/px
@@ -100,6 +108,10 @@ Roads
 
 High-density housing
 """""""""""""""""""""
+
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
      
    * - Model
      - Description
