@@ -17,18 +17,41 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 1. Data source
 
- To specify your area of interest (AOI), you can either upload your own `GeoJSON <https://geojson.org>`_ file, or draw the area directly on the map ("Draw rectangle").
+  1.1. Select raster source
+
+    -Default
+
+    Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery by default. To specify your area of interest (AOI), you can either upload your own `GeoJSON <https://geojson.org>`_ file, or draw the area directly on the map ("Draw rectangle").
  
+    -URL
+
+    You can use the satellite imagery data source that you need, specify its URL on this tab.  Besides select XYZ or TMS presentation formats by changing the position of the *Y origin top* slider. The choice of the required projection and zoom is also available. (What image zoom is required for high-quality processing in Mapflow can be seen on the page: doc: `Description of models <pipelines>`_).
+
+
+  .. figure:: _static/select_raster_source.png
+    :alt: UI Mapflow – select source
+    :align: center
+    :width: 7cm
+    
+
+  1.2. Specify area of interest
+
+  This tab displays the type of data source, as well as buttons:
+
+  - replce selected source;
+  - toggle source layer visibility;
+  - change source layer opacity;
+
   .. figure:: _static/ui_map_select_source.png
-    :alt: UI Mapflow – define AOI
+    :alt: UI Mapflow – select source
     :align: center
     :width: 15cm
-    
+
  .. attention:: 
    Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
  
  .. important:: 
-   As to the source data, currently we only support RGB imagery. By default, Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use :doc:`../docs_api/processing_api`. 
+   As to the source data, currently we only support RGB imagery. If you would like to upload your own GeoTIFF you can use `Geoalert API <https://ru.docs.mapflow.ai/docs_api/processing_api.html>`_ or our `Mpflow plugin <https://ru.docs.mapflow.ai/docs_api/qgis_mapflow.html>`_ for QGIS . 
 
 2. AI model
 
