@@ -37,6 +37,10 @@ Extracting the road mask from satellite images of high spatial resolution.
 
 Detection of the construction sites by classification of tiles of hi-resolution satellite images.
 
+|:corn:| **Agriculture fields** 
+
+Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
+
 
 Models reference
 ================
@@ -125,3 +129,19 @@ High-density housing
      - For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
      - RGB 0.5
      - 18
+
+Agriculture fileds
+"""""
+
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
+
+   * - Model
+     - Description
+     - Model input, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
+     - RGB, 1.2
+     - 17
