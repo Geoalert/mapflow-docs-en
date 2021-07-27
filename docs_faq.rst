@@ -25,11 +25,11 @@ Satellite imagery
 
 **Can I choose another satellite mosaic like Yandex or Google?**
 
-    When using the `Geoalert API <https://ru.docs.mapflow.ai/docs_api/processing_api.html>`_ the user has the ability to set his own XYZ or TMS layers. Under a separate user license, we provide Maxar SecureWatch, a service that contains an enhanced version of Vivid Basic and updates.
+    Yes, the user has the ability to set his own XYZ or TMS layers. Under a separate user license, we provide Maxar SecureWatch, a service that contains an enhanced version of Vivid Basic and updates.
 
 **Can I upload my own images for processing?**
 
-    Yes, but only when using the `Geoalert API <https://ru.docs.mapflow.ai/docs_api/processing_api.html>`_. It is planned to add this functionality to Mapflow Web in the next releases.
+    Yes, but only when using the `Geoalert API <https://ru.docs.mapflow.ai/docs_api/processing_api.html>`_ or `plugin Mapflow for QGIS <docs_api/qgis_mapflow>`_. It is planned to add this functionality to Mapflow Web in the next releases.
 
 
 **Can I buy satellite imagery from you?**
@@ -101,8 +101,8 @@ Support and other questions
 
 **Do you have GIS integration?**
 
-    Yes, we do. At the moment the plugin for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_ is at the final stage of development. Once it is ready, all information about it will appear here, as well as on the Mapflow website.
-
+    Yes, we do. Our `plugin Mapflow <docs_api/qgis_mapflow>`_for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_. 
+    
 **I have another question, where can I ask it?**
 
     You can ask your question on the Mapflow website in the online chat, where we will answer your questions in real time. Also, you can write to us at help@geoalert.io.
