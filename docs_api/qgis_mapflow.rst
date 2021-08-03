@@ -32,7 +32,7 @@ The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automaticall
 User interface
 --------------
 
-You need to log in with your account to use the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and write to the support service on the platform's website a request to provide access to the API for working with the plugin.
+You need to log in with your account to use the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and obtain API token for working with the plugin.
 
 Login window
 ~~~~~~~~~~~~

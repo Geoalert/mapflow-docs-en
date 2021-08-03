@@ -96,6 +96,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#forest">Forest</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#roads">Roads</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#high-density-housing">High-density housing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#agriculture-fileds">Agriculture fileds</a></li>
 </ul>
 </li>
 </ul>
@@ -172,6 +173,8 @@
 <p>Extracting the road mask from satellite images of high spatial resolution.</p>
 <p>🏗️ <strong>Construction</strong></p>
 <p>Detection of the construction sites by classification of tiles of hi-resolution satellite images.</p>
+<p>🌽 <strong>Agriculture fields</strong></p>
+<p>Extraction and instance separation of agriculture fileds from high-resolution satellite imagery</p>
 </div>
 <div class="section" id="models-reference">
 <h1>Models reference<a class="headerlink" href="#models-reference" title="Permalink to this headline">¶</a></h1>
@@ -291,6 +294,31 @@
 <td><p>For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints</p></td>
 <td><p>RGB 0.5</p></td>
 <td><p>18</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="agriculture-fileds">
+<h2>Agriculture fileds<a class="headerlink" href="#agriculture-fileds" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 57%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Model</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Model input, GSD m/px</p></th>
+<th class="head"><p>Model input, zoom</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Segmentation</p></td>
+<td><p>Extraction and instance separation of agriculture fileds from high-resolution satellite imagery</p></td>
+<td><p>RGB, 1.2</p></td>
+<td><p>17</p></td>
 </tr>
 </tbody>
 </table>

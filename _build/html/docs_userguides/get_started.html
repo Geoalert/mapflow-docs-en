@@ -86,11 +86,19 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Mapflow Web UI</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-run-your-mapping-flow">How to run your mapping flow</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#working-with-results">Working with results</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#working-with-api">Working with API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-run-your-mapping-flow">How to run your mapping flow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-source">1. Data source</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#select-raster-source">1.1. Select raster source</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#specify-area-of-interest">1.2. Specify area of interest</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#ai-model">2. AI model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#post-processing">3. Post-processing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#run-the-flow">4. Run the flow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#working-with-results">Working with results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#working-with-api">Working with API</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="prices.html">Mapflow tariffs</a></li>
@@ -159,39 +167,64 @@ Mapflow processes imagery and extracts vector objects from it. So as a user, you
 <div class="figure align-center">
 <a class="reference internal image-reference" href="../_images/ui_flow_basic.png"><img alt="UI Mapflow – run a flow" src="../_images/ui_flow_basic.png" style="width: 15cm;" /></a>
 </div>
-<ol class="arabic simple">
-<li><p>Data source</p></li>
-</ol>
+<div class="section" id="data-source">
+<h3>1. Data source<a class="headerlink" href="#data-source" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="select-raster-source">
+<h4>1.1. Select raster source<a class="headerlink" href="#select-raster-source" title="Permalink to this headline">¶</a></h4>
 <blockquote>
-<div><p>To specify your area of interest (AOI), you can either upload your own <a class="reference external" href="https://geojson.org">GeoJSON</a> file, or draw the area directly on the map (“Draw rectangle”).</p>
+<div><blockquote>
+<div><ul class="simple">
+<li><p>Default</p></li>
+</ul>
+<p>Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery by default. To specify your area of interest (AOI), you can either upload your own <a class="reference external" href="https://geojson.org">GeoJSON</a> file, or draw the area directly on the map (<em>“Draw rectangle”</em>).</p>
+<ul class="simple">
+<li><p>URL</p></li>
+</ul>
+</div></blockquote>
+<p>The interface of this tab allows you to:</p>
 <blockquote>
-<div><div class="figure align-center">
-<a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="UI Mapflow – define AOI" src="../_images/ui_map_select_source.png" style="width: 15cm;" /></a>
+<div><ul class="simple">
+<li><p>Specify the XYZ link to the source of the images. The link is automatically checked for validity;</p></li>
+<li><p>If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting;</p></li>
+<li><p>Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page <a class="reference internal" href="pipelines.html"><span class="doc">Model description</span></a>), but sometimes it can be useful to play around with the scales and compare the results;</p></li>
+<li><p>Return to default source.</p></li>
+</ul>
+</div></blockquote>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>As to the source data, currently we only support RGB imagery. If you would like to upload your own GeoTIFF you can use <a class="reference external" href="../docs_api/processing_api">API</a> or our <a class="reference external" href="../docs_api/qgis_mapflow">Mpflow plugin</a> for QGIS .</p>
 </div>
+</div></blockquote>
+</div>
+<div class="section" id="specify-area-of-interest">
+<h4>1.2. Specify area of interest<a class="headerlink" href="#specify-area-of-interest" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><blockquote>
+<div><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ui_map_select_source.png"><img alt="Select custom XYZ" src="../_images/ui_map_select_source.png" style="width: 15cm;" /></a>
+</div>
+<p>This tab is used to add a processing area. The user can draw the area using a rectangular frame or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - <a class="reference external" href="http://geojson.io/">geojson.io</a>).</p>
 </div></blockquote>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <p>Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. <a class="reference external" href="https://leafletjs.com/">Leaflet</a> or <a class="reference external" href="https://docs.mapbox.com/mapbox.js/">Mapbox</a>) and GIS like <a class="reference external" href="https://qgis.org/">QGIS</a> or the ArcGIS Suite.</p>
 </div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>As to the source data, currently we only support RGB imagery. By default, Mapflow uses <a class="reference external" href="https://mapbox.com/maps/satellite">Mapbox Satellite</a> imagery. Currently, this is the only available source when using the web app. If you would like to upload your own GeoTIFF or choose another satellite imagery mosaic as a service, you can use <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Processing API</span></a>.</p>
+</div></blockquote>
 </div>
-</div></blockquote>
-<ol class="arabic simple" start="2">
-<li><p>AI model</p></li>
-</ol>
+</div>
+<div class="section" id="ai-model">
+<h3>2. AI model<a class="headerlink" href="#ai-model" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div><p>Select one of the AI models (<a class="reference internal" href="pipelines.html"><span class="doc">See Model description</span></a>).</p>
+<div><p>Select one of the AI models (see <a class="reference internal" href="pipelines.html"><span class="doc">Model description</span></a>).</p>
 </div></blockquote>
-<ol class="arabic simple" start="3">
-<li><p>Post-processing</p></li>
-</ol>
+</div>
+<div class="section" id="post-processing">
+<h3>3. Post-processing<a class="headerlink" href="#post-processing" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>In this step, you can select additional processing options. Different AI models have their own options.</p>
 <p>AI model “Buildings”:</p>
 <ul class="simple">
-<li><p><em>Classification</em> - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-reidential (see <a class="reference external" href="https://docs.mapflow.ai/docs_um/classes.html">Urban Mapping classes</a>).</p></li>
+<li><p><em>Classification</em> - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-reidential (see <a class="reference external" href="../docs_um/classes">Urban Mapping classes</a>).</p></li>
 <li><p><em>Merge with OSM</em> - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.</p></li>
 <li><p><em>Simplification</em> - simplification and polygonization of building contours.</p></li>
 <li><p><em>Building heights</em> - for each building, we estimate its height using its wall’s and shadow’s length. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to footprints.</p></li>
@@ -205,15 +238,16 @@ Mapflow processes imagery and extracts vector objects from it. So as a user, you
 <li><p><em>Tree heights</em> - classify vegetation by height: 0-4 m for shrub (“low vegetation”), 4-10 m for regular forest (“medium forest”), 10+ m for area with tall trees (“high forest”). Clasification is dones per vegetated area, and not per single tree (see <a class="reference external" href="https://docs.mapflow.ai/docs_forest/classes.html">Forest Mapping classes</a>).</p></li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="4">
-<li><p>Run the flow</p></li>
-</ol>
+</div>
+<div class="section" id="run-the-flow">
+<h3>4. Run the flow<a class="headerlink" href="#run-the-flow" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (<a class="reference internal" href="prices.html"><span class="doc">See the tariff plan</span></a>).</p>
+<p>Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (See the <a class="reference internal" href="prices.html"><span class="doc">tariff plan</span></a>).</p>
 </div>
 </div></blockquote>
+</div>
 </div>
 <div class="section" id="working-with-results">
 <h2>Working with results<a class="headerlink" href="#working-with-results" title="Permalink to this headline">¶</a></h2>
@@ -263,11 +297,11 @@ When this panel is opened, the status is displayed, and the previously selected 
 <p>You can find detailed information about kepler.gl in the <a class="reference external" href="https://docs.kepler.gl/docs/user-guides/j-get-started">user manual</a>.</p>
 </div>
 </div></blockquote>
+</div>
 <div class="section" id="working-with-api">
-<h3>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h3>
+<h2>Working with API<a class="headerlink" href="#working-with-api" title="Permalink to this headline">¶</a></h2>
 <p>Mapflow provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
 If you are developing application and want to use our API, - check out <a class="reference internal" href="../docs_api/processing_api.html"><span class="doc">Processing API</span></a>.</p>
-</div>
 </div>
 </div>
 
