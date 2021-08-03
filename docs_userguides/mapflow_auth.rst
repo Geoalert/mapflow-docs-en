@@ -23,3 +23,6 @@ Authorization in a Web application and obtaining an API token
     :alt: Preview map
     :align: center
     :width: 15cm
+
+.. attention:: 
+  Make sure you save the token, otherwise you will need to reissueit.
