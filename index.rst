@@ -23,6 +23,7 @@ Getting Started with Mapflow
    :glob:
    :maxdepth: 1
 
+   docs_userguides/mapflow_auth
    docs_userguides/get_started
    docs_userguides/prices
 
