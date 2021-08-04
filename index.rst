@@ -48,6 +48,7 @@ Use with GIS...
    :maxdepth: 1
 
    docs_api/qgis_mapflow
+   docs_kepler
 
 
 ********************
