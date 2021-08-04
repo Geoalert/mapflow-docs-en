@@ -1,16 +1,20 @@
 How to view results using Kepler.gl
 ====================================
 
-**Kepler.gl** is an open source web tool developed by Uber. It is a simple yet powerful tool for displaying and exploring geodatasets.
+**Kepler.gl** is an open source tool designed for geospatial data analysis. It is a simple yet powerful for displaying and exploring geodatasets.
 
-That to view the data of the processing result, select the required processing and press the button *"Open in kepler.gl"*.
+To view the processing results in the Mapflow, select the required processing and press the button *"Open in kepler.gl"*.
 
-You can also change the visual display of data, set filters, and choose a map style.
+.. note ::
+   You can share your processing view in Kepler by copying this URL (right click on *"Open in kepler.gl"* --> Copy Link Address)
+
+Using the Kepler you can change the visual properties of data, set filters, and choose a background map.
+
 
 Layers tab
 ^^^^^^^^^^
 
-Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, click on the eye icon.
+Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, click on the *eye* icon.
 
 .. figure:: _static/kepler/view_layer_settings.png
     :alt: View layer settings
@@ -31,6 +35,7 @@ These settings allow you to choose a more suitable type of received data:
     :align: center
     :width: 15cm
 
+
 Filters tab
 ^^^^^^^^^^^^
 
@@ -41,6 +46,7 @@ This tab allows you to add a filter of interest by a specific attribute of the l
     :align: center
     :width: 15cm
 
+
 Interaction tab
 ^^^^^^^^^^^^^^^
 
@@ -50,6 +56,7 @@ You can select or remove attributes that will be visible in the menu that appear
     :alt: Interaction panel
     :align: center
     :width: 15cm
+
 
 Base map tab
 ^^^^^^^^^^^^
