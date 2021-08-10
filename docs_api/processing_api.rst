@@ -4,7 +4,7 @@ Processing API
 ==============
 
  .. attention::
-    The projects and processings that you create in Mapflow Web UI won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, please, send us a request to help@geoalert.io
+    The projects and processings that you create in Mapflow Web UI won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, use the Mapflow login and API token, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../docs_userguides/mapflow_auth>`).
 
 Authorization
 --------------

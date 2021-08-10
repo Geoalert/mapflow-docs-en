@@ -2,7 +2,7 @@ QGIS
 =============
 
  .. attention::
-    Mapflow can be used via `QGIS <https://www.qgis.org/>`_. For this, you will need to obtain credentials for our :doc:`processing_api`. Please, send us a request to **help@geoalert.io**
+    Mapflow can be used via `QGIS <https://www.qgis.org/>`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API <../docs_userguides/mapflow_auth>`).
 
 
 What is QGIS

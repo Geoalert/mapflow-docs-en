@@ -134,3 +134,11 @@ Working with API
 Mapflow provides a REST API which, for example, allows you to query for currently running flows and fetch the results.
 If you are developing application and want to use our API, - check out :doc:`../docs_api/processing_api`.
 
+
+The service uses the **Basic Auth** authorization type - use the Mapflow login and API token, which must be generated in the `profile settings <https://app.mapflow.ai/account>`_.
+
+.. figure:: _static/api_token.png
+  :alt: Preview map
+  :align: center
+  :width: 15cm
+
