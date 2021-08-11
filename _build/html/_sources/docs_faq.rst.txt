@@ -93,15 +93,15 @@ Support and other questions
 
 **Do you have any documentation on working with the platform?**
 
-    `Yes, we do <https://ru.docs.mapflow.ai/index.html>`_.
+   :doc:`Yes, we do <index.html>`.
 
 **Do you have an API?**
 
-    `Yes, we do <https://ru.docs.mapflow.ai/docs_api/processing_api.html>`_.
+    :doc:`Yes, we do <../docs_api/processing_api>`.
 
 **Do you have GIS integration?**
 
-    Yes, we do. Our `plugin Mapflow <docs_api/qgis_mapflow>`_for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_. 
+    Yes, we do. Our :doc:`plugin Mapflow <docs_api/qgis_mapflow>` for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_. 
     
 **I have another question, where can I ask it?**
 
