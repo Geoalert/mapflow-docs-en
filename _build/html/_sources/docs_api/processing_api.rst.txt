@@ -16,7 +16,7 @@ Processing API
 Authorization
 --------------
 
-The API uses the ``Basic Auth`` authorization method, for details about how it works, click `here <https://en.wikipedia.org/wiki/Basic_access_authentication>`_.
+The API uses the ``Basic Auth`` authorization method, for details about how it works, click :doc:`here <../docs_userguides/mapflow_auth>`.
 
 API Methods
 -----------
