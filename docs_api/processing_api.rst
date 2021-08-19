@@ -84,8 +84,8 @@ Get all projects
 Returns the list of all user's projects.  
 
 
-Post project
-""""""""""""
+Create project
+""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/projects``
 
@@ -97,13 +97,17 @@ Request body example:
 
     {
         "name": "test",          
-        "description": "test"
+        "description": "test",
+        "addDefaultWds": true
     }
 
 
 
 //Name of the project
-//Arbitrary description of this project.
+
+//Arbitrary description of this project
+
+//Add default processing :doc:`pipelines <../docs_userguides/pipelines>` to the project
 
 Response: the newly created project.
 

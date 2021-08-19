@@ -97,13 +97,17 @@ Request body example:
 
     {
         "name": "test",          
-        "description": "test"
+        "description": "test",
+        "addDefaultWds": true
     }
 
 
 
 //Name of the project
-//Arbitrary description of this project.
+
+//Arbitrary description of this project
+
+//Add default processing :doc:`pipelines <../docs_userguides/pipelines>` to the project
 
 Response: the newly created project.
 
