@@ -350,66 +350,51 @@ API reference
 wdName
 """"""
 .. list-table::
-   :widths: 10 10 30
+   :widths: 10 30
    :header-rows: 1
 
-   * - KEY
-     - VALUE
+   * - VALUE
      - MODEL input resolution (m/px)
-   * - wdName
-     - Buildings Detection
-     - 0.5
-   * - wdName
-     - Forest Detection
-     - 0.5
-   * - wdName
-     - Roads Detection
-     - 0.5
+   * - Buildings Detection
+     - Detects buildings & classifies them
+   * - Forest Detection
+     - Detects tree-like vegetation
+   * - Roads Detection
+     - Detects roads and returns them as lines
 
 source_type
 """""""""""
 .. list-table::
-   :widths: 10 10 30
+   :widths: 10 30
    :header-rows: 1
 
-   * - KEY
-     - VALUE
+   * - VALUE
      - DESCRIPTION
-   * - source_type
-     - XYZ
+   * - XYZ
      - The URL to the imagery service in “XYZ” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
-   * - source_type
-     - TMS
+   * - TMS
      - The similar to XYZ with reverse Y coordinate
-   * - source_type
-     - WMS
+   * - WMS
      - The URL to the imagery service in “WMS” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
-   * - source_type
-     - Quadkey
+   * - Quadkey
      - The one-dimensional index key that usually preserves the proximity of tiles in XY space (Bing Maps tile format)
-   * - source_type
-     - TIF/TIFF
+   * - TIF/TIFF
      - File of image in georeferenced TIFF (GeoTIFF) format
 
 
 status
 """"""
 .. list-table::
-   :widths: 10 10 30
+   :widths: 10 30
    :header-rows: 1
 
-   * - KEY
-     - VALUE
+   * - VALUE
      - Description
-   * - status
-     - UNPROCESSED
+   * - UNPROCESSED
      - The processing is not started yet
-   * - status
-     - IN_PROGRESS
-     - The processing is going (or is in the queu)
-   * - status
-     - FAILED
+   * - IN_PROGRESS
+     - The processing is going (or is in the queue)
+   * - FAILED
      - The processing ended unsuccessfuly - change wrong params or try to restart
-   * - status
-     - OK
+   * - OK
      - The processing is finished at 100 percent completed 
