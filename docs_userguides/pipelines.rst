@@ -55,19 +55,19 @@ Buildings
 
    * - Model
      - Description
-     - Model input, GSD m/px
+     - Channel composition, GSD m/px
      - Model input, zoom
    * - Segmentation
      - Extract roof contours (roofprints) from high-resolution satellite imagery
-     - RGB 0.5
+     - RGB, 0.5
      - 18
    * - Classification
      - Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential
-     - RGB 0.5
+     - RGB, 0.5
      - 18
    * - Building heights
      - For each building, model estimates its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
-     - RGB 0.5
+     - RGB, 0.5
      - 18
 
 
@@ -80,7 +80,7 @@ Forest
 
    * - Model
      - Description
-     - Model input, GSD m/px
+     - Channel composition, GSD m/px
      - Model input, zoom
    * - Segmentation
      - Extract segmentation masks of forested areas from high-resolution RGB images
@@ -101,7 +101,7 @@ Roads
 
    * - Model
      - Description
-     - Model input, GSD m/px
+     - Channel composition, GSD m/px
      - Model input, zoom
    * - Segmentation
      - Extract road mask from high-resolution satellite imagery
@@ -119,19 +119,19 @@ High-density housing
      
    * - Model
      - Description
-     - Model input, GSD m/px
+     - Channel composition, GSD m/px
      - Model input, zoom
    * - Segmentation
      - Extraction and instance detection of the building roofprints in the areas of high density housing
-     - RGB 0.5
+     - RGB, 0.5
      - 18
    * - Building heights
      - For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
-     - RGB 0.5
+     - RGB, 0.5
      - 18
 
-Agriculture fileds
-"""""
+Construction
+"""""""""""""
 
 .. list-table::
    :widths: 10 40 10 10
@@ -139,7 +139,23 @@ Agriculture fileds
 
    * - Model
      - Description
-     - Model input, GSD m/px
+     - Channel composition, GSD m/px
+     - Model input, zoom
+   * - Segmentation
+     - The model highlights areas in the satellite image that contain construction sites and buildings under construction
+     - RGB, 0.5
+     - 18
+
+Agriculture fileds
+"""""""""""""""""""
+
+.. list-table::
+   :widths: 10 40 10 10
+   :header-rows: 1
+
+   * - Model
+     - Description
+     - Channel composition, GSD m/px
      - Model input, zoom
    * - Segmentation
      - Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
