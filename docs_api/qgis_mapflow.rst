@@ -274,3 +274,6 @@ You can upload your own GeoTIFF (*Open new .tif*). All raster layers currently l
          :alt: Upload TIF, select from list
          :align: center
          :width: 15cm
+
+.. important::
+  You must follow the requirements specified on the page with :doc:`the description of models <../docs_userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.

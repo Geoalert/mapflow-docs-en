@@ -3,15 +3,18 @@
 Processing API
 ==============
 
- .. attention::
+.. attention::
     The projects and processings that you create in Mapflow Web UI won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. To start using the API, use the Mapflow login and API token, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../docs_userguides/mapflow_auth>`).
 
- .. note::
+.. note::
     .. figure:: _static/postman_logo.png
        :alt: Preview results
        :align: left
        :width: 1cm
    Check and run this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
+
+.. important::
+  You must follow the requirements specified on the page with :doc:`the description of models <../docs_userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 Authorization
 --------------
