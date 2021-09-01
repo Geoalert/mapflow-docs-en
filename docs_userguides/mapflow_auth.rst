@@ -19,10 +19,10 @@ Authorization in a Web application and obtaining an API token
 
 2. Go to `user profile settings <https://app.mapflow.ai/account>`_ to generate a new API token.
 
-.. figure:: _static/api_token.png
+.. figure:: _static/api_tab.png
     :alt: Preview map
     :align: center
-    :width: 15cm
+    :width: 8cm
 
 .. attention:: 
   Make sure you save the token, otherwise you will need to reissueit.

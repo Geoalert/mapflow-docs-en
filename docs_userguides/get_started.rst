@@ -95,7 +95,8 @@ When this panel is opened, the status is displayed, and the previously selected 
 Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
  .. important:: 
-  Click "use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
+  - Click "Use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
+  - Click "Source details" on the existing flow to view information about job sourse details, such as *Area of interest* in geojson format and *Source image url*.
 
 Options for viewing the processing results are:
 
@@ -137,10 +138,10 @@ If you are developing application and want to use our API, - check out :doc:`../
 .. important::
   You must follow the requirements specified on the page with :doc:`the description of models <pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
-The service uses the **Basic Auth** authorization type - use the Mapflow login and API token, which must be generated in the `profile settings <https://app.mapflow.ai/account>`_.
+The service uses the **Basic Auth** authorization type - use the Mapflow login and API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
-.. figure:: _static/api_token.png
+.. figure:: _static/api_tab.png
   :alt: Preview map
   :align: center
-  :width: 15cm
+  :width: 8cm
 

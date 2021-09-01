@@ -4,6 +4,8 @@ QGIS
  .. attention::
     Mapflow can be used via `QGIS <https://www.qgis.org/>`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API <../docs_userguides/mapflow_auth>`).
 
+    In the `API tab <https://app.mapflow.ai/account/api>`_ of the profile settings is specified the area limit for processing provided to you (initially 100 km\: sup: `2`) and the total area of ​​already completed processing.
+
 
 What is QGIS
 ---------------
