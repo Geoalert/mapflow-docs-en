@@ -39,11 +39,12 @@ Detection of the construction sites by classification of tiles of hi-resolution 
 
 |:corn:| **Agriculture fields** 
 
-Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
+Extraction and instance separation of agriculture fileds from high-resolution satellite imagery.
 
+.. _Models reference:
 
 Models reference
-================
+----------------
 
 
 Buildings
