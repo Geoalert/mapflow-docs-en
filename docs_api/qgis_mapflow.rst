@@ -19,16 +19,9 @@ It has an interface for external Python plugins that allows to connect more apps
 How to install the plugin
 --------------------------
 
-You have to add external repository from our site. For this click *Plugins* --> *Manage...* --> *Settings* --> *Add…* and fill out the form with a name and the `URL to repository <https://qgis.mapflow.ai/mapflow.xml>`_. 
+Click *Plugins* --> *Manage...*, go to the Not installed (or All) tab and enter MapFlow in the search box. Click Install Plugin. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
 
-.. figure:: _static/qgis/add_repo.png
-         :alt: Add repo
-         :align: center
-         :width: 15cm
-
-Go to the Not installed (or All) tab and enter Geoalert MapFlow in the search box. Click Install Plugin. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
-
-The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check the box Geoalert.
+The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check the box Mapflow.
 
 
 User interface
