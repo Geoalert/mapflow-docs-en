@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/kepler/kepler.rst:2
+msgid "How to view results using Kepler.gl"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:4
+msgid ""
+"**Kepler.gl** is an open source tool designed for geospatial data "
+"analysis. It is a simple yet powerful for displaying and exploring "
+"geodatasets."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:6
+msgid ""
+"To view the processing results in the Mapflow, select the required "
+"processing and press the button *\"Open in kepler.gl\"*."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:9
+msgid ""
+"You can share your processing view in Kepler by copying this URL (right "
+"click on *\"Open in kepler.gl\"* --> Copy Link Address)"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:11
+msgid ""
+"Using the Kepler you can change the visual properties of data, set "
+"filters, and choose a background map."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:15
+msgid "Layers tab"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:17
+msgid ""
+"Click on the layer name to bring up the *Layer settings* from the drop-"
+"down menu. To hide all data, click on the *eye* icon."
+msgstr ""
+
+msgid "View layer settings"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:25
+msgid "These settings allow you to choose a more suitable type of received data:"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:28
+msgid ""
+"*Fill color.* You can choose any color from the palette for polygons, and"
+" also hide the display of data by changing the position of the slider. "
+"You can change the transparency of polygons (property *Opacity*) in the "
+"additional settings of this function."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:29
+msgid ""
+"*Stroke color.* You can choose any color from the palette for outlining "
+"polygons, as well as completely remove the stroke. You can change the "
+"transparency of the stroke (property *Opacity*) In the additional "
+"settings of this function."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:30
+msgid "*Stroke width.* Controls the thickness of the stroke."
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:31
+msgid ""
+"*Height.* Allows you to view data with heights in 3D format. Set the "
+"desired coefficient and select the attribute of the layer with heights."
+msgstr ""
+
+msgid "3D buildings"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:40
+msgid "Filters tab"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:42
+msgid ""
+"This tab allows you to add a filter of interest by a specific attribute "
+"of the layer (as in this case, the filter is set by classes with "
+"different typology of buildings)."
+msgstr ""
+
+msgid "Filter panel"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:51
+msgid "Interaction tab"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:53
+msgid ""
+"You can select or remove attributes that will be visible in the menu that"
+" appears when you hover over an object. It is also possible to turn on "
+"the panel indicating longitude and latitude."
+msgstr ""
+
+msgid "Interaction panel"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:62
+msgid "Base map tab"
+msgstr ""
+
+#: ../../source/kepler/kepler.rst:64
+msgid ""
+"Here you can choose the styles of the map, as well as choose to display "
+"its various layers."
+msgstr ""
+

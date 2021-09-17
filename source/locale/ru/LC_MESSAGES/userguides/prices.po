@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/prices.rst:2
+msgid "Mapflow tariffs"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:5
+msgid ""
+"Each user gets free balance of credis to get started with functionality "
+"and features of Mapflow"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:7
+msgid "The price in credits is counted as USD 0.1 per sq.km"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:9
+msgid "1 Credit = 0.1$"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:11
+msgid "See information on the tariff plans:"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Tariffs"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "50$"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "90$"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "800$"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Credits"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "500"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "1000"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "10000"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Services"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Buildings"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "5"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.50"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.45"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.40"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Building classification"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Building heights"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "10"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$1.00"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.90"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.80"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Building  high-density housing"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "2"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.20"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.18"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.16"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Roads"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Forest"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Forest classification"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Construction"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "$0.5"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+msgid "Agriculture fields"
+msgstr ""
+

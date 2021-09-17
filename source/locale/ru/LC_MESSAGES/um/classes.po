@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/um/classes.rst:3
+msgid "Urban Mapping classes"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "CLASS_ID"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "CLASS NAME"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "OSM refereral tag"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "101"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Apartment building"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Roof footprints of the multistorey apartment buildings"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "building=yes building=residential building=appartments"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "102"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "House"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Mostly private houses (usually represents a single household)"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "building=house building=residential"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "103"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Industrial building"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Mostly industrial (Plants, large hangars, warehouses, etc.)"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "building=industrial"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "104"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Commercial building"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Offices, retail, etc."
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "building=commercial"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "105"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Other non-residential buildings"
+msgstr ""
+
+#: ../../source/um/_static/csv/classes_um.csv:1
+msgid "Garages, transformer boxes, small hangars, etc."
+msgstr ""
+

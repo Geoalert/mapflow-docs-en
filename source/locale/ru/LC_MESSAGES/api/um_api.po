@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/api/um_api.rst:2
+msgid "Urban Mapping API"
+msgstr ""
+
+#: ../../source/api/um_api.rst:5
+msgid ""
+"This API serves ready-to-use datasets. It provides access to validated "
+"datasets within the current coverage of \"Urban mapping\". To start using"
+" the API, please, send us a request to help@geoalert.io."
+msgstr ""
+
+#: ../../source/api/um_api.rst:8
+msgid "Authorization"
+msgstr ""
+
+#: ../../source/api/um_api.rst:10
+msgid ""
+"The API uses the (`Basic Auth "
+"<https://en.wikipedia.org/wiki/Basic_access_authentication>`_) "
+"authorization method."
+msgstr ""
+
+#: ../../source/api/um_api.rst:14
+msgid "Geospatial data"
+msgstr ""
+
+#: ../../source/api/um_api.rst:16
+msgid ""
+"The output data is in geographic coordinate reference system ``EPSG: "
+"4326`` by default. * Data format - ``GeoJSON``"
+msgstr ""
+
+#: ../../source/api/um_api.rst:21
+msgid "Querying features with http service"
+msgstr ""
+
+#: ../../source/api/um_api.rst:22
+msgid "The endpoint is: ``https://urban-mapping.geoalert.io/geojson``."
+msgstr ""
+
+#: ../../source/api/um_api.rst:25
+msgid ""
+"The service streams geojson features, producing a chunked stream as an "
+"http response. It should be safe to fetch reasonably large pieces of "
+"data."
+msgstr ""
+
+#: ../../source/api/um_api.rst:27
+msgid ""
+"The target area is specified by request params: ``bbox`` in the format "
+"``[xmin, ymin, xmax, ymax]`` or ``polygon`` in the geojson format "
+"``srid`` specifies the projection of the bbox/polygon (optional)"
+msgstr ""
+
+#: ../../source/api/um_api.rst:35
+msgid ""
+"``POST`` requests are also supported (with the same endpoint url). "
+"``Bbox`` or ``polygon`` is then supplied in the request body. Other "
+"request parameters work as with ``GET`` requests. This option may be "
+"useful for querying features by a complex polygon, which doesn't fit into"
+" ``GET`` request limits."
+msgstr ""
+
+#: ../../source/api/um_api.rst:38
+msgid "**Request example** (default projection, polygon, returns centroids):"
+msgstr ""
+
+#: ../../source/api/um_api.rst:44
+msgid "**Request example** (mercator projection, bbox):"
+msgstr ""
+
+#: ../../source/api/um_api.rst:52
+msgid "Response body example"
+msgstr ""
+
+#: ../../source/api/um_api.rst:86
+msgid "API reference"
+msgstr ""
+

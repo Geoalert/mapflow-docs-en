@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/index.rst:6
+msgid "Welcome"
+msgstr "Добро пожаловать!"
+
+#: ../../source/index.rst:8
+msgid ""
+"We are happy that you are interested in Earth Observation Data analysis "
+"and Mapping! The Earth Observation to Mapping process is going through "
+"the following main stages:"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "EO data access (e.g. satellite or aerial imagery)"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid ""
+"EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ "
+"comes in game |:boom:|"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid "GIS – check and edit results to use them in you application"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid ""
+"Mapflow is powered by the engine that operates data processing pipelines "
+"(we call \"flows\"). Using Mapflow you run your flows getting all power "
+"of semnatic imagery analysis."
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "Getting Started with Mapflow"
+msgstr ""
+
+#: ../../source/index.rst:32
+msgid "Mapflow services"
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid "Use with GIS..."
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid "Reference materials"
+msgstr ""
+
+#: ../../source/index.rst:67
+msgid "Frequently asked questions"
+msgstr ""
+
+#: ../../source/index.rst:77
+msgid "PDFs"
+msgstr ""
+
+#: ../../source/index.rst:79
+msgid ""
+":download:`Mapflow User Guide "
+"<userguides/_static/_downloads/get_started.pdf>`"
+msgstr ""
+
+#: ../../source/index.rst:80
+msgid ""
+":download:`Mapflow Data pipelines "
+"<userguides/_static/_downloads/pipelines.pdf>`"
+msgstr ""
+
+#: ../../source/index.rst:81
+msgid ":download:`Mapflow tariffs <userguides/_static/_downloads/prices.pdf>`"
+msgstr ""
+
+#: ../../source/index.rst:87
+msgid ""
+"This documentation is distributed under the terms of Creative Commons "
+"License **\"Attribution-NoDerivs\" СC BY-ND**"
+msgstr ""
+

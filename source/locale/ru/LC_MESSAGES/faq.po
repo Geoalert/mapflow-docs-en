@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/faq.rst:2
+msgid "Mapflow FAQ"
+msgstr ""
+
+#: ../../source/faq.rst:5
+msgid "Payment"
+msgstr ""
+
+#: ../../source/faq.rst:6
+msgid "**How are payments made for using the platform? How much is it?**"
+msgstr ""
+
+#: ../../source/faq.rst:8
+msgid ""
+"In accordance with the User Agreement, the cost of the Services is "
+"determined in conventional units, Credits, where 1 Credit is equal to USD"
+" 0.1. To make a payment, go to the Settings of your personal account, or "
+"click on the balance icon and select the required number of credits (the "
+"equivalent in Russian rubles is displayed under the nominal value of "
+"credits). Our `tariffs "
+"<https://docs.mapflow.ai/userguides/prices.html>`_."
+msgstr ""
+
+#: ../../source/faq.rst:10
+msgid ""
+"**Can I get spent funds if I’m not satisfied with the processing "
+"results?**"
+msgstr ""
+
+#: ../../source/faq.rst:12
+msgid ""
+"The funds spent are not refundable. Upon registration, we give you 500 "
+"credits to test Mapflow functionality. For a more detailed solution to "
+"the issue, you can write to us at help@geoalert.io."
+msgstr ""
+
+#: ../../source/faq.rst:14
+msgid ""
+"**I represent a company and would like to perform large volumes of "
+"processing, do you have corporate rates?**"
+msgstr ""
+
+#: ../../source/faq.rst:16
+msgid ""
+"We don’t, but you can email us at help@geoalert.io to discuss this issue "
+"privately."
+msgstr ""
+
+#: ../../source/faq.rst:20
+msgid "Satellite imagery"
+msgstr ""
+
+#: ../../source/faq.rst:22
+msgid ""
+"**What satellite imagery do you use? What are their resolution, alignment"
+" accuracy and other characteristics?**"
+msgstr ""
+
+#: ../../source/faq.rst:24
+msgid ""
+"Currently, we only support RGB or PAN images as raw data. By default, "
+"Mapflow uses the `Mapbox Satellite "
+"<https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which "
+"primarily consists of **Vivid Basic** imagery from Maxar. These images "
+"have a spatial resolution of 0.5m, the georeferencing accuracy is about "
+"3-5m and the age is no more than two years. A complete list of "
+"specifications can be found `here "
+"<https://cdn1-originals.webdamdb.com/13264_94721902?cache=1596135643"
+"&response-content-disposition=inline;filename=10009-ds-"
+"imagerybasemaps-07-2020.pdf&response-content-"
+"type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFscy53ZWJkYW1kYi5jb20vMTMyNjRfOTQ3MjE5MDI~Y2FjaGU9MTU5NjEzNTY0MyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZTtmaWxlbmFtZT0xMDAwOS1kcy1pbWFnZXJ5YmFzZW1hcHMtMDctMjAyMC5wZGYmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uL3BkZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MjE0NzQxNDQwMH19fV19&Signature=UXBlDqy95IXlX6saByLkbIJs6E2kRhhCpGbgfZSzvZO69NmERBUUG2wWv1Ax4mC5kg7Zfet6hcIltSGE7qUiidd~gT8Cjo8RCcBp4IFoxZ8Hi8v3y3MCbGcRbwFugwA1-rfnG6bdGjtgIX1AuFKekobv1njziOw3IrihyBTytV9g7mQHELLYuSuHwuzBb~z2~uw1ySdDUjGUlFYMxxV5Ispg6pvhws98Yv~e31ARjwirUyUCDOCVko1Ch9"
+"~MoSbWEU-"
+"Zt8Iq~oPhSiWOOPL2Ihr~SxEsP4p4nKJNzdF8ShexLxXSxRaiMR2~3595LoIk9pO~XvRZm~VjSFDo~DKNOA__"
+"&Key-Pair-Id=APKAI2ASI2IOLRFF2RHA>`_."
+msgstr ""
+
+#: ../../source/faq.rst:26
+msgid "**Can I choose another satellite mosaic like Yandex or Google?**"
+msgstr ""
+
+#: ../../source/faq.rst:28
+msgid ""
+"Yes, the user has the ability to set his own XYZ or TMS layers. Under a "
+"separate user license, we provide Maxar SecureWatch, a service that "
+"contains an enhanced version of Vivid Basic and updates."
+msgstr ""
+
+#: ../../source/faq.rst:30
+msgid "**Can I upload my own images for processing?**"
+msgstr ""
+
+#: ../../source/faq.rst:32
+msgid ""
+"Yes, but only when using the `Geoalert API "
+"<https://ru.docs.mapflow.ai/api/processing_api.html>`_ or `plugin Mapflow"
+" for QGIS <api/qgis_mapflow>`_. It is planned to add this functionality "
+"to Mapflow Web in the next releases."
+msgstr ""
+
+#: ../../source/faq.rst:35
+msgid "**Can I buy satellite imagery from you?**"
+msgstr ""
+
+#: ../../source/faq.rst:37
+msgid ""
+"No, you can’t.  We only sell vector data that we have extracted from "
+"images."
+msgstr ""
+
+#: ../../source/faq.rst:39
+msgid "**Can you control the channels of the RGB data used?**"
+msgstr ""
+
+#: ../../source/faq.rst:41
+msgid ""
+"In the current version, the Mapflow platform uses only the standard set "
+"and configuration of RGB channels."
+msgstr ""
+
+#: ../../source/faq.rst:44
+msgid "**Can I use non-RGB data like radar data?**"
+msgstr ""
+
+#: ../../source/faq.rst:46
+msgid "No, you can’t. We currently don’t support SAR imagery as raw data."
+msgstr ""
+
+#: ../../source/faq.rst:49
+msgid "Vector data"
+msgstr ""
+
+#: ../../source/faq.rst:51
+msgid "**Can I download the results in a format other than GeoJSON?**"
+msgstr ""
+
+#: ../../source/faq.rst:53
+msgid ""
+"Yes, you can. To do this, in your *Project* in the *Results* tab, select "
+"*“Open in geojson.io”*, then, in the menu bar, select *Save* and the "
+"format you need (you can save in formats: CSV, KML, GeoJSON, TopoJSON, "
+"WKT, Shapefile)."
+msgstr ""
+
+#: ../../source/faq.rst:55
+msgid "**Can I load a processing area from a format other than GeoJSON?**"
+msgstr ""
+
+#: ../../source/faq.rst:57
+msgid ""
+"No, you can’t, the platform currently only supports **GeoJSON**. You can "
+"use geojson.io or the QGIS desktop application to convert your dataset to"
+" GeoJSON."
+msgstr ""
+
+#: ../../source/faq.rst:59
+msgid "**Is it possible to process multiple areas in one treatment?**"
+msgstr ""
+
+#: ../../source/faq.rst:61
+msgid ""
+"Only one area can be drawn or loaded for one processing at the moment. If"
+" your GeoJSON has multiple scopes in the FeatureCollection, only the "
+"first one will be used. If you want to process multiple areas, you can "
+"split them into separate files and start processing for each."
+msgstr ""
+
+#: ../../source/faq.rst:63
+msgid ""
+"**Results contain gaps / false contours / inaccuracies / errors in "
+"classification and / or heights. Why?**"
+msgstr ""
+
+#: ../../source/faq.rst:65
+#, python-format
+msgid ""
+"The images are processed by artificial intelligence, so inaccuracies may "
+"occur. We are constantly improving our models and neural networks, but "
+"100% of the result can be achieved only by combining automatic processing"
+" with subsequent validation."
+msgstr ""
+
+#: ../../source/faq.rst:69
+msgid "Projects and treatments"
+msgstr ""
+
+#: ../../source/faq.rst:71
+msgid ""
+"**What is a “project”? Do I have to create every new treatment in a new "
+"project?**"
+msgstr ""
+
+#: ../../source/faq.rst:73
+msgid ""
+"**Project** allows you to collect all logically related processing for a "
+"more efficient and faster search for the one you need. It's like a folder"
+" on your computer. One project can have many treatments."
+msgstr ""
+
+#: ../../source/faq.rst:75
+msgid ""
+"**Immediately after registration, I got a project called “Demo "
+"processings”. What is it and why?**"
+msgstr ""
+
+#: ../../source/faq.rst:77
+msgid ""
+"This project allows you to get acquainted with the capabilities of "
+"Mapflow without using Credits. In the History of treatments, you can "
+"select the treatment you are interested in and see its results. It is "
+"also possible to view the selected processing parameters, to do this, "
+"click **use as template**."
+msgstr ""
+
+#: ../../source/faq.rst:79
+msgid "**Can I rename a project/processing?**"
+msgstr ""
+
+#: ../../source/faq.rst:81
+msgid ""
+"It isn't possible to rename a project/processing at the moment. Planned "
+"for the next release."
+msgstr ""
+
+#: ../../source/faq.rst:83
+msgid "**Are there any restrictions on the processing area?**"
+msgstr ""
+
+#: ../../source/faq.rst:85
+msgid ""
+"Yes, the processing area must be at least 1 sq. km and no more than 100 "
+"sq. km. If you need to process a large area, you can divide the area to "
+"be treated into several smaller areas, one per file, and start processing"
+" for each."
+msgstr ""
+
+#: ../../source/faq.rst:87
+msgid ""
+"**Why are the options for Building heights and Forest heights only "
+"available when processing over 50 sq. km?**"
+msgstr ""
+
+#: ../../source/faq.rst:89
+msgid ""
+"Calculating heights requires additional resources from us. At this stage,"
+" we can perform a limited number of such processing. In the future, we "
+"are going to reduce this limitation or completely remove it."
+msgstr ""
+
+#: ../../source/faq.rst:92
+msgid "Support and other questions"
+msgstr ""
+
+#: ../../source/faq.rst:94
+msgid "**Do you have any documentation on working with the platform?**"
+msgstr ""
+
+#: ../../source/faq.rst:96
+msgid ":doc:`Yes, we do <index.html>`."
+msgstr ""
+
+#: ../../source/faq.rst:98
+msgid "**Do you have an API?**"
+msgstr ""
+
+#: ../../source/faq.rst:100
+msgid ":doc:`Yes, we do <../api/processing_api>`."
+msgstr ""
+
+#: ../../source/faq.rst:102
+msgid "**Do you have GIS integration?**"
+msgstr ""
+
+#: ../../source/faq.rst:104
+msgid ""
+"Yes, we do. Our :doc:`plugin Mapflow <api/qgis_mapflow>` for the open GIS"
+" `QGIS <https://qgis.org/ru/site/forusers/download.html>`_."
+msgstr ""
+
+#: ../../source/faq.rst:106
+msgid "**I have another question, where can I ask it?**"
+msgstr ""
+
+#: ../../source/faq.rst:108
+msgid ""
+"You can ask your question on the Mapflow website in the online chat, "
+"where we will answer your questions in real time. Also, you can write to "
+"us at help@geoalert.io."
+msgstr ""
+

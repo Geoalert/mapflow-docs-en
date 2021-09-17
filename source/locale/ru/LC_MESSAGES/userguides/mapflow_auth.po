@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/mapflow_auth.rst:2
+msgid "Authorization to work with Mapflow API"
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:4
+msgid ""
+"To access the platform from external applications such as :doc:`plugin "
+"for QGIS <../api/qgis_mapflow>` you need to get the **API token**. Token "
+"must be passed in the **Basic Auth** authorization parameters as a "
+"password, and as a login you must transfer your login from your account "
+"to Mapflow.ai."
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:8
+msgid "An example of authorization in an application for QGIS:"
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst
+msgid "Preview map"
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:16
+msgid "Authorization in a Web application and obtaining an API token"
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:18
+msgid ""
+"Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a "
+"new account or sign in using your Google account."
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:20
+msgid ""
+"Go to `user profile settings <https://app.mapflow.ai/account>`_ to "
+"generate a new API token."
+msgstr ""
+
+#: ../../source/userguides/mapflow_auth.rst:28
+msgid "Make sure you save the token, otherwise you will need to reissueit."
+msgstr ""
+

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/forest/classes.rst:3
+msgid "Forest Mapping classes"
+msgstr ""
+
+#: ../../source/forest/classes.rst:5
+msgid ""
+"Here is presented a list of classes for Foret vegetation Mapping Model. "
+"There two options for forest semantic classification:"
+msgstr ""
+
+#: ../../source/forest/classes.rst:8
+msgid ""
+"Classification by heights – classification the areas of vegetation and "
+"shrub vegetation by height classes according to the specified thresholds:"
+" 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized "
+"in separate features, the height class is indicated in its properties. "
+"Heights thresholds are customizable values in the processing pipeline."
+msgstr ""
+
+#: ../../source/forest/classes.rst:10
+msgid ""
+"Classification by overgrowth density – classification of the area of "
+"vegetations and shrub vegetation into classes according to the density "
+"and height: high forest, low (growing) forest, open woodland, shrub."
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "CLASS_ID"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "DENSITY"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "00m-04m"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "low vegetation"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "04m-10m"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "dense/sparse"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "medium forest"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "10m-99m"
+msgstr ""
+
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+msgid "high forest"
+msgstr ""
+

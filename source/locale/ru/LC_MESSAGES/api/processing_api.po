@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/api/processing_api.rst:4
+msgid "Processing API"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:7
+msgid ""
+"The projects and processings that you create in Mapflow Web UI won’t be "
+"available via the API and vice versa. Neither can your Mapflow credits be"
+" used to run processings via the API. To start using the API, use the "
+"Mapflow login and API token, which you need to generate in the `profile "
+"settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to "
+"work with the Mapflow API <../userguides/mapflow_auth>`)."
+msgstr ""
+
+#: ../../source/api/processing_api.rst
+msgid "Preview results"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:14
+msgid ""
+"Check and run this `Postman collection for API "
+"<https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:17
+msgid ""
+"You must follow the requirements specified on the page with :doc:`the "
+"description of models <../userguides/pipelines>` when uploading your own "
+"images for processing through the API of the Mapflow platform. Send a "
+"request using data preprocessing to help@geoalert.io."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:20
+msgid "Authorization"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:22
+msgid ""
+"The API uses the ``Basic Auth`` authorization method, for details about "
+"how it works, click :doc:`here <../userguides/mapflow_auth>`."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:25
+msgid "API Methods"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:28
+msgid "Projects"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:31
+msgid "Get project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:33
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:35
+msgid "Returns the project with the specified ID."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:37
+#: ../../source/api/processing_api.rst:134
+#: ../../source/api/processing_api.rst:273
+#: ../../source/api/processing_api.rst:345
+msgid "Response example:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:74
+msgid "Get default (demo) project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:76
+msgid "Default (demo) project is created for each user upon registration."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:78
+msgid "``GET https://api.mapflow.ai/rest/projects/default``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:80
+msgid "Returns the name and ID of the user's default project."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:83
+msgid "Get all projects"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:85
+msgid "``GET https://api.mapflow.ai/rest/projects``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:87
+msgid "Returns the list of all user's projects."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:91
+msgid "Create project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:93
+msgid "``POST https://api.mapflow.ai/rest/projects``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:95
+msgid "Creates a new project, and returns its immediate state."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:97
+msgid "Request body example:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:109
+msgid "//Name of the project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:111
+msgid "//Arbitrary description of this project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:113
+msgid ""
+"//Add default processing :doc:`pipelines <../userguides/pipelines>` to "
+"the project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:115
+msgid "Response: the newly created project."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:118
+msgid "Delete project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:120
+msgid "``DELETE https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:122
+msgid "Deletes the project. Cascade deletes any child entities."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:125
+msgid "Processings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:128
+msgid "Get processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:130
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:132
+msgid "Returns the processing with the specified id."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:180
+msgid "Get all processings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:182
+msgid "``GET https://api.mapflow.ai/rest/processings``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:184
+msgid "Returns the list of this user's processings."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:187
+msgid "Post processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:189
+msgid "``POST https://api.mapflow.ai/rest/processings``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:191
+msgid ""
+"Creates and runs a processing, and returns its immediate state Request "
+"body example:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:241
+msgid ""
+"To process a user-provided raster (see `Upload GeoTIFF for processing` "
+"section), set parameters as follows:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:250
+msgid "Response: the newly created processing."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:253
+msgid "Restart processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:255
+msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:257
+msgid ""
+"Restarts failed partitions of this processing. Doesn't restart non-failed"
+" partitions. Each workflow is restarted from the first failed stage. "
+"Thus, the least possible amount of work is performed to try and bring the"
+" processing into successful state."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:260
+msgid "Delete processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:262
+msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:264
+msgid "Deletes this processing. Cascade deletes any child entities."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:267
+msgid "Get processing AOIs"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:269
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:271
+msgid ""
+"Returns a list of the defined geographical areas for processing in "
+"GeoJSON."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:319
+msgid "Downloading processing results"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:321
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:323
+msgid ""
+"Returns geojson results of this processing as an octet stream. Should "
+"only be called on a successfully completed processing."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:327
+msgid "Upload GeoTIFF for processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:329
+msgid "``POST https://api.mapflow.ai/rest/rasters``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:331
+msgid ""
+"Can be used to upload a raster for further processing. Returns url to the"
+" uploaded raster. This url can be referenced when starting a processing. "
+"The request is a multipart request whith the only part \"file\" - which "
+"contains the raster. Request example with ``cURL``:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:347
+msgid ""
+"``{\"url\": \"s3://mapflow-"
+"rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif\"}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:351
+msgid "API reference"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:354
+msgid "wdName"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:359
+#: ../../source/api/processing_api.rst:374
+#: ../../source/api/processing_api.rst:394
+msgid "VALUE"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:360
+msgid "MODEL input resolution (m/px)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:361
+msgid "Buildings Detection"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:362
+msgid "Detects buildings & classifies them"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:363
+msgid "Forest Detection"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:364
+msgid "Detects tree-like vegetation"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:365
+msgid "Roads Detection"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:366
+msgid "Detects roads and returns them as lines"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:369
+msgid "source_type"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:375
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:376
+msgid "XYZ"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:377
+msgid ""
+"The URL to the imagery service in “XYZ” format, e.g. "
+"`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
+"<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:378
+msgid "TMS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:379
+msgid "The similar to XYZ with reverse Y coordinate"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:380
+msgid "WMS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:381
+msgid ""
+"The URL to the imagery service in “WMS” format, e.g. "
+"`https://services.nationalmap.gov/arcgis/services/ "
+"USGSNAIPImagery/ImageServer/WMSServer "
+"<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:382
+msgid "Quadkey"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:383
+msgid ""
+"The one-dimensional index key that usually preserves the proximity of "
+"tiles in XY space (Bing Maps tile format)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:384
+msgid "TIF/TIFF"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:385
+msgid "File of image in georeferenced TIFF (GeoTIFF) format"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:389
+msgid "status"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:395
+msgid "Description"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:396
+msgid "UNPROCESSED"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:397
+msgid "The processing is not started yet"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:398
+msgid "IN_PROGRESS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:399
+msgid "The processing is going (or is in the queue)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:400
+msgid "FAILED"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:401
+msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:402
+msgid "OK"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:403
+msgid "The processing is finished at 100 percent completed"
+msgstr ""
+

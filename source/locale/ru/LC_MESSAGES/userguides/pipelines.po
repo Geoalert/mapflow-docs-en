@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/pipelines.rst:1
+msgid ""
+"The core of the Mapflow are the Mapping Models. Mapflow enables to detect"
+" and extract features in satellite and aerial images powered by semantic "
+"segmentation and other deep learning techniques."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:4
+msgid "AI-Mapping Models"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:6
+msgid "|:house:| **Buildings**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:8
+msgid "Extracting of roofprints of buildings from imagery of high resolution."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:10
+#: ../../source/userguides/pipelines.rst:28
+msgid "Additional options:"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:12
+msgid ""
+"*Classification by types of buildings* – typology of buildings is "
+"represented by the main classes (see `reference "
+"<https://docs.mapflow.ai/um/classes.html>`_)."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:14
+msgid ""
+"*Building heights* - building height estimation by the length of the "
+"shadow and the visible part of the wall. Shift to the building footprint."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:16
+msgid ""
+"*Simplification* - The algorithm allows you to correct the irregularities"
+" of the contours of our model."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:18
+msgid ""
+"*Merge with OSM* - This option allows you to replace the obtained data of"
+" our model with data from the OSM, if the polygons of the OSM buildings "
+"and the model overlap significantly (Jaccard coefficients - more than "
+"0.7)."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:20
+msgid "|:cityscape:| **High-density housing**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:22
+msgid ""
+"Our \"high-density housing\" AI model is designed for areas with terraced"
+" or otherwise densely built buildings, common in the Middle East, parts "
+"of Africa, etc."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:24
+msgid "|:christmas_tree:| **Forest**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:26
+msgid ""
+"Extracting the forest masks from RGB images of high resolution (2 meters)"
+" without classification by type, density and heights."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:30
+msgid ""
+"*Classification by heights* – classification the areas of vegetation and "
+"shrub vegetation by height classes according to the specified thresholds:"
+" 0-4 m, 4-10 m, 10+ m, and division of classes in 4+ m according to the "
+"density of vegetation into: dense and sparse. Forest areas of each height"
+" class are polygonized in separate features. The height class and density"
+" of vegetation are specified in the polygon properties."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:32
+msgid "|:red_car:| **Roads**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:34
+msgid "Extracting the road mask from satellite images of high spatial resolution."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:36
+msgid "|:building_construction:| **Construction**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:38
+msgid ""
+"Detection of the construction sites by classification of tiles of hi-"
+"resolution satellite images."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:40
+msgid "|:corn:| **Agriculture fields**"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:42
+msgid ""
+"Extraction and instance separation of agriculture fileds from high-"
+"resolution satellite imagery."
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:47
+msgid "Models reference"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:51
+msgid "Buildings"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:57
+#: ../../source/userguides/pipelines.rst:82
+#: ../../source/userguides/pipelines.rst:103
+#: ../../source/userguides/pipelines.rst:121
+#: ../../source/userguides/pipelines.rst:141
+#: ../../source/userguides/pipelines.rst:157
+msgid "Model"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:58
+#: ../../source/userguides/pipelines.rst:83
+#: ../../source/userguides/pipelines.rst:104
+#: ../../source/userguides/pipelines.rst:122
+#: ../../source/userguides/pipelines.rst:142
+#: ../../source/userguides/pipelines.rst:158
+msgid "Description"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:59
+#: ../../source/userguides/pipelines.rst:84
+#: ../../source/userguides/pipelines.rst:105
+#: ../../source/userguides/pipelines.rst:123
+#: ../../source/userguides/pipelines.rst:143
+#: ../../source/userguides/pipelines.rst:159
+msgid "Channel composition, GSD m/px"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:60
+#: ../../source/userguides/pipelines.rst:85
+#: ../../source/userguides/pipelines.rst:106
+#: ../../source/userguides/pipelines.rst:124
+#: ../../source/userguides/pipelines.rst:144
+#: ../../source/userguides/pipelines.rst:160
+msgid "Model input, zoom"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:61
+#: ../../source/userguides/pipelines.rst:86
+#: ../../source/userguides/pipelines.rst:107
+#: ../../source/userguides/pipelines.rst:125
+#: ../../source/userguides/pipelines.rst:145
+#: ../../source/userguides/pipelines.rst:161
+msgid "Segmentation"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:62
+msgid "Extract roof contours (roofprints) from high-resolution satellite imagery"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:63
+#: ../../source/userguides/pipelines.rst:67
+#: ../../source/userguides/pipelines.rst:71
+#: ../../source/userguides/pipelines.rst:92
+#: ../../source/userguides/pipelines.rst:127
+#: ../../source/userguides/pipelines.rst:131
+#: ../../source/userguides/pipelines.rst:147
+msgid "RGB, 0.5"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:64
+#: ../../source/userguides/pipelines.rst:68
+#: ../../source/userguides/pipelines.rst:72
+#: ../../source/userguides/pipelines.rst:93
+#: ../../source/userguides/pipelines.rst:128
+#: ../../source/userguides/pipelines.rst:132
+#: ../../source/userguides/pipelines.rst:148
+msgid "18"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:65
+#: ../../source/userguides/pipelines.rst:90
+msgid "Classification"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:66
+msgid ""
+"Here are the types that we currently recognize: apartment buildings; "
+"single-household dwellings; industrial; commercial; other non-residential"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:69
+#: ../../source/userguides/pipelines.rst:129
+msgid "Building heights"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:70
+msgid ""
+"For each building, model estimates its height using its wall’s and "
+"shadow’s lengths. If height detection option is selected, all roof "
+"contours are shifted accordingly, i.e. converted to building footprints"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:76
+msgid "Forest"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:87
+msgid ""
+"Extract segmentation masks of forested areas from high-resolution RGB "
+"images"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:88
+msgid "RGB, 2"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:89
+msgid "16"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:91
+msgid ""
+"Classify the areas of vegetation and shrub vegetation by height and "
+"vegetation density"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:97
+msgid "Roads"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:108
+msgid "Extract road mask from high-resolution satellite imagery"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:109
+msgid "RGB, 1"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:110
+#: ../../source/userguides/pipelines.rst:164
+msgid "17"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:115
+msgid "High-density housing"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:126
+msgid ""
+"Extraction and instance detection of the building roofprints in the areas"
+" of high density housing"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:130
+msgid ""
+"For each building instance, model predicts its height. If height "
+"detection option is selected, all roof contours are shifted accordingly, "
+"i.e. converted to building footprints"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:135
+msgid "Construction"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:146
+msgid ""
+"The model highlights areas in the satellite image that contain "
+"construction sites and buildings under construction"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:151
+msgid "Agriculture fileds"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:162
+msgid ""
+"Extraction and instance separation of agriculture fileds from high-"
+"resolution satellite imagery"
+msgstr ""
+
+#: ../../source/userguides/pipelines.rst:163
+msgid "RGB, 1.2"
+msgstr ""
+
