@@ -1,11 +1,11 @@
 Name of the field / button, Description
-Processing name, Name of your processing
-AOI layer, "The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, to add new AOI - upload it into QGIS or create a new layer using polygon tool. Select the one of them if the vector layer consists of several polygons."
-Model, "Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Buildings detection With Heights, Forest Detection With Heights, Construction Detection"
-Imagery source, "Base imagery to be processed. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif."
+Name, Name of your processing
+Area, "The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, to add new AOI - upload it into QGIS or create a new layer using polygon tool. Select the one of them if the vector layer consists of several polygons."
+Mapflow Model, "Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
+Imagery source, "Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the MAXAR company. You can open your image through the additional options button."
 Update image in cache, "This function allows you to update the processing image in the cache if the area of ​​the previous processing is used in this processing with the replacement of the background."
-Aoi area, "Automatic calculation of the area of ​​the selected processing area."
-Use image extent as AOI, "This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer Processing area for this image but takes its extent."
+Processing area, "Automatic calculation of the area of ​​the selected processing area."
+Use image extent, "This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer processing area for this image but takes its extent."
 Start processing, "New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
 Log out, "Sign out of the user's billing record."
 Delete, "Button for deleting previously performed processing from the processings list."
