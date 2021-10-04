@@ -171,23 +171,24 @@ How to connect to Maxar SecureWatch
  SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
 
 
-* **Free using Maxar SecureWatch for image processing by the Mapflow**
+* **Use of embedded Maxar SecureWatch for image processing by Mapflow**
 
   On the **Processing** tab, in the *Remote sensing data* drop-down list, select the required Maxar product (SecureWatch, Vivid or Basemaps), specify all processing parameters and click the *Start processing*.
 
 * **Maxar preview**
 
   1. Select the required Maxar product in the drop-down list on the **Data sources** tab;
-  2. Leave the value *Max zoom* - 14;
-  3. Click on the *View*.
+  2. Select your AOI in the Area drop-down list and click on the *Get Metadata*.
+  3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
+
+.. important:: 
+   In the free tariff plan the *Max zoom* is limited to 13 and processing can be started using SecureWatch. If you want to use this data provider - you have to switch to the paid tariff plan - pls request us at help@geoalert.io
+
 
 
 * **Using your SecureWatch account for image processing by the Mapflow**
 
    1. Open the block *Authorization* on the *Providers* tab and enter *Login / Password* from your Maxar SecureWatch account;
-
-      .. important ::
-        If you do not have an account yet, register on the official website `SecureWatch <https://explore.maxar.com/securewatch-demo>`_.
 
    2. Select the Maxar SecureWatch from the drop-down list above;
 
