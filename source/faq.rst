@@ -58,7 +58,7 @@ Vector data
 
 **Is it possible to process multiple areas in one treatment?**
 
-    Only one area can be drawn or loaded for one processing at the moment. If your GeoJSON has multiple scopes in the FeatureCollection, only the first one will be used. If you want to process multiple areas, you can split them into separate files and start processing for each.
+    Only one area can be drawn or loaded for one processing at the moment. If your GeoJSON has multiple scopes in the FeatureCollection, only the first one will be used (if you start processing via :doc:`our plugin for QGIS <api/qgis_mapflow>`, use the *Select object (s)* tool to select one area from the loaded layer with multiple areas). If you want to process multiple areas, you can split them into separate files and start processing for each.
 
 **Results contain gaps / false contours / inaccuracies / errors in classification and / or heights. Why?**
 
@@ -78,11 +78,11 @@ Projects and treatments
 
 **Can I rename a project/processing?**
 
-    It isn't possible to rename a project/processing at the moment. Planned for the next release.
+    It is possible to rename a project at the moment. You need to go to the map of all projects and click *Edit* on the card with the desired project. It isn't possible to rename the processing. This function is planned for the next releases.
 
 **Are there any restrictions on the processing area?**
 
-    Yes, the processing area must be at least 1 sq. km and no more than 100 sq. km. If you need to process a large area, you can divide the area to be treated into several smaller areas, one per file, and start processing for each.
+    Yes, the processing area must be at least 1 sq. km and no more than 90 sq. km. If you need to process a large area, you can divide the area to be treated into several smaller areas, one per file, and start processing for each.
 
 **Why are the options for Building heights and Forest heights only available when processing over 50 sq. km?**
 
@@ -93,7 +93,7 @@ Support and other questions
 
 **Do you have any documentation on working with the platform?**
 
-   :doc:`Yes, we do <index.html>`.
+   :doc:`Yes, we do <index>`.
 
 **Do you have an API?**
 
@@ -101,7 +101,11 @@ Support and other questions
 
 **Do you have GIS integration?**
 
-    Yes, we do. Our :doc:`plugin Mapflow <api/qgis_mapflow>` for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_. 
+    Yes, we do. Our :doc:`plugin Mapflow <api/qgis_mapflow>` for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_.
+
+**What is API token and why do I need it?**
+
+     The API token is used as password in external applications that use the resources of the Mapflow platform. It is passed as the Basic Auth authorization parameter. Currently this application is :doc:`plugin for QGIS <api/qgis_mapflow>`.
     
 **I have another question, where can I ask it?**
 
