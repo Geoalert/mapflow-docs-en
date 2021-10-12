@@ -9,7 +9,7 @@ Extracting of roofprints of buildings from imagery of high resolution.
 
 Additional options:
 
-* *Classification by types of buildings* – typology of buildings is represented by the main classes (see `reference <https://docs.mapflow.ai/um/classes.html>`_).
+* *Classification by types of buildings* – typology of buildings is represented by the main classes (see :doc:`reference <../um/classes>`).
 
 * *Building heights* - building height estimation by the length of the shadow and the visible part of the wall. Shift to the building footprint.
 

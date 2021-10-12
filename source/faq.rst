@@ -5,7 +5,7 @@ Payment
 ---------
 **How are payments made for using the platform? How much is it?**
 
-    In accordance with the User Agreement, the cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits (the equivalent in Russian rubles is displayed under the nominal value of credits). Our `tariffs <https://docs.mapflow.ai/userguides/prices.html>`_.
+    In accordance with the User Agreement, the cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits (the equivalent in Russian rubles is displayed under the nominal value of credits). Our :doc:`tariffs </userguides/prices>`.
 
 **Can I get spent funds if I’m not satisfied with the processing results?**
     
@@ -29,7 +29,7 @@ Satellite imagery
 
 **Can I upload my own images for processing?**
 
-    Yes, but only when using the `Geoalert API <https://ru.docs.mapflow.ai/api/processing_api.html>`_ or `plugin Mapflow for QGIS <api/qgis_mapflow>`_. It is planned to add this functionality to Mapflow Web in the next releases.
+    Yes, but only when using the :doc:`Geoalert API </api/processing_api>` or :doc:`plugin Mapflow for QGIS <api/qgis_mapflow>`. It is planned to add this functionality to Mapflow Web in the next releases.
 
 
 **Can I buy satellite imagery from you?**
@@ -97,7 +97,7 @@ Support and other questions
 
 **Do you have an API?**
 
-    :doc:`Yes, we do <../api/processing_api>`.
+    :doc:`Yes, we do <api/processing_api>`.
 
 **Do you have GIS integration?**
 

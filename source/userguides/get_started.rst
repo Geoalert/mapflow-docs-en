@@ -136,7 +136,7 @@ Mapflow provides a REST API which, for example, allows you to query for currentl
 If you are developing application and want to use our API, - check out :doc:`../api/processing_api`.
 
 .. important::
-  You must follow the requirements specified on the page with :doc:`the description of models <pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
+  You must follow the requirements specified with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 The service uses the **Basic Auth** authorization type - use the Mapflow login and API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
