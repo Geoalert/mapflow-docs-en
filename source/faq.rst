@@ -109,4 +109,4 @@ Support and other questions
     
 **I have another question, where can I ask it?**
 
-    You can ask your question on the Mapflow website in the online chat, where we will answer your questions in real time. Also, you can write to us at help@geoalert.io.
+    You can ask your question on the Mapflow website in the online chat, where we will answer your questions in real time. Also, you can write to us at help@geoalert.io and `here <https://stackoverflow.com/c/geoalert/questio>`_.

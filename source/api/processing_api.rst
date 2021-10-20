@@ -335,7 +335,7 @@ Request example with ``cURL``:
     .. code:: bash
 
           curl -X POST \
-          https://api.mapflow.ai/rasters \
+          https://api.mapflow.ai/rest/rasters \
           -H 'authorization: <Insert auth header value>' \
           -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
           -F file=@custom_raster.tif
