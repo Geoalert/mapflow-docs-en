@@ -35,8 +35,8 @@ Login window
 .. figure:: _static/qgis/login_window.png
          :alt: Login window
          :align: center
-         :width: 7cm
-
+         :width: 9cm
+|
   
 .. list-table::
    :widths: auto
@@ -44,8 +44,8 @@ Login window
 
    * - Name of the field / button
      - Description
-   * - Login / Token
-     - Fields for entering user account data.
+   * - Token
+     - Field for entering :doc:`API token <../userguides/mapflow_auth>`.
    * - Log in
      - User account login button.
    * - Cancel
@@ -53,7 +53,7 @@ Login window
 
 
 Geoalert plugin
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 Geoalert plugin working window is divided into 3 tabs:
 
@@ -72,7 +72,7 @@ Geoalert plugin working window is divided into 3 tabs:
          :alt: Veiw of the processing tab
          :align: center
          :width: 15cm
-
+|
 
 
 **Processing parameters area**
@@ -115,7 +115,7 @@ To unload the processing results, double-click on the completed processing.
          :alt: Veiw of the providers tab
          :align: center
          :width: 15cm
-
+|
 
 .. list-table::
    :widths: auto
@@ -267,6 +267,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
          :alt: Upload TIF, select from list
          :align: center
          :width: 15cm
+|
 
 .. important::
   You must follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.

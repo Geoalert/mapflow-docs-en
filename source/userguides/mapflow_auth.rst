@@ -10,7 +10,7 @@ Token must be passed in the **Basic Auth** authorization parameters as a passwor
  .. figure:: _static/api_token_login.png
   :alt: Preview map
   :align: center
-  :width: 12cm
+  :width: 10cm
 
 Authorization in a Web application and obtaining an API token
 -------------------------------------------------------------

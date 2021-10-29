@@ -14,6 +14,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
    :alt: UI Mapflow – run a flow
    :align: center
    :width: 15cm
+|
 
 1. Data source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -29,8 +30,8 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
   The interface of this tab allows you to:
 
-    * Specify the XYZ link to the source of the images. The link is automatically checked for validity;
-    * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting;
+    * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
+    * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting. An example of such an open source that supports TMS is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS format (for example, https://tiles.openaerialmap.org/{z}/{x}/{y}.png);
     * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
     * Return to default source.
 
@@ -44,6 +45,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
    :alt: Select custom XYZ
    :align: center
    :width: 15cm
+  |
 
   This tab is used to add a processing area. The user can draw the area using a rectangular frame or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
@@ -91,6 +93,7 @@ When this panel is opened, the status is displayed, and the previously selected 
    :alt: Preview results
    :align: center
    :width: 7cm
+|
 
 Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
@@ -111,6 +114,7 @@ Options for viewing the processing results are:
    :name: Preview map
    :align: center
    :width: 15cm
+|
 
 3. "View on the map" - use our custom viewer, which displays the results on top of the source satellite images.
 
@@ -118,6 +122,7 @@ Options for viewing the processing results are:
    :alt: Preview map
    :align: center
    :width: 15cm
+|
 
 4. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
 
@@ -125,6 +130,7 @@ Options for viewing the processing results are:
    :alt: Preview map
    :align: center
    :width: 15cm
+|
 
  .. note::
    You can find detailed information about kepler.gl in the `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
@@ -138,7 +144,7 @@ If you are developing application and want to use our API, - check out :doc:`../
 .. important::
   You must follow the requirements specified with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
-The service uses the **Basic Auth** authorization type - use the Mapflow login and API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
+The service uses the **Basic Auth** authorization type - use the API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
 .. figure:: _static/api_tab.png
   :alt: Preview map
