@@ -1,5 +1,5 @@
-QGIS
-=============
+Mapflow – QGIS
+==============
 
  .. attention::
     Mapflow can be used via `QGIS <https://www.qgis.org/>`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
@@ -8,26 +8,28 @@ QGIS
 
 
 What is QGIS
----------------
+-------------
 
-QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse data, and compose printable maps. Get a first impression with a more detailed feature list.
-Know more on QGIS `official site <https://www.qgis.org/>`_. 
+QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list.
+Know more on QGIS and istall `official site <https://www.qgis.org/>`_. 
 
-It has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our app enables connection to Mapflow :doc:`processing_api` to run AI-mapping processings and download output data as QGIS layers.
+QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our "Mapflow - QGIS" app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace.
 
 
 How to install the plugin
 --------------------------
 
-Click *Plugins* --> *Manage...*, go to the *Not installed* (or *All*) tab and enter MapFlow in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
+Click *Plugins* --> *Manage...*, go to the *Not installed* (or *All*) tab and enter "MapFlow" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
 
-The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check the box Mapflow.
+The plugin icon has appeared in the QGIS Toolbar. 
+.. hint::
+   If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.
 
 
 User interface
 --------------
 
-You need to log in with your account to use the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and obtain :doc:`API token <../userguides/mapflow_auth>` for working with the plugin.
+You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and obtain :doc:`API token <../userguides/mapflow_auth>`.
 
 Login window
 ~~~~~~~~~~~~
@@ -36,7 +38,7 @@ Login window
          :alt: Login window
          :align: center
          :width: 9cm
-|
+
   
 .. list-table::
    :widths: auto
@@ -45,17 +47,17 @@ Login window
    * - Name of the field / button
      - Description
    * - Token
-     - Field for entering :doc:`API token <../userguides/mapflow_auth>`.
+     - Enter your :doc:`API token <../userguides/mapflow_auth>` here.
    * - Log in
      - User account login button.
    * - Cancel
-     - Button to close the plugin authorization window.
+     - Button to close the authorization window.
 
 
-Geoalert plugin
+Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
-Geoalert plugin working window is divided into 3 tabs:
+Main plugin workspace is divided into 3 tabs:
 
 :ref:`Processing`
 
@@ -72,19 +74,19 @@ Geoalert plugin working window is divided into 3 tabs:
          :alt: Veiw of the processing tab
          :align: center
          :width: 15cm
+
 |
 
-
-**Processing parameters area**
+**Processing parameters**
 
 .. csv-table::
     :file: _static/qgis/processing_parameters_area.csv 
     :header-rows: 1 
     :class: longtable
     :widths: 1 3  
+|
 
-
-**Display output and work with processing**
+**Start processings and display the output on the map**
 
 .. list-table::
    :widths: auto
@@ -101,10 +103,10 @@ Geoalert plugin working window is divided into 3 tabs:
    * - Progress
      - The degree of completeness of processing as a percentage.
    * - Created
-     - The date the processing was created.
+     - The date-time of the processing creation.
   
 
-To unload the processing results, double-click on the completed processing.
+To download the processing results, double-click on the completed processing.
 
 .. _Providers:
 
@@ -115,7 +117,9 @@ To unload the processing results, double-click on the completed processing.
          :alt: Veiw of the providers tab
          :align: center
          :width: 15cm
+
 |
+
 
 .. list-table::
    :widths: auto
@@ -128,17 +132,22 @@ To unload the processing results, double-click on the completed processing.
    * - Additional sources of images
      - Drop-down list with additional satellite imagery providers.
    * - "Add" button
-     - Button for adding a source of satellite images. You must specify *Name*, *URL* and *Type* of the source in the window that appears, press *Ok* and this provider will appear in the drop-down list of the source of satellite images.
+     - Button for adding a source of satellite images. 
    * - "Delete" button
      - Button for deleting the source of satellite images.
    * - "Edit" button
      - Button for changing the parameters of the source of satellite images.
    * - Preview
      - A button to preview the background of the specified satellite imagery and geospatial provider.
-   * - Max zoom 14
-     - Zoom size 14 is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to Maxar SecureWatch).
+   * - Max zoom
+     - Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**).
 
-     
+
+.. hint::
+    You can define your own source of data in XYZ format. Here is the example: http://``your_site.xyz``/``{z}``/``{x}``/``{y}``
+
+    Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
+
     
 **Maxar SecureWatch settings**
 
@@ -148,12 +157,12 @@ To unload the processing results, double-click on the completed processing.
 
    * - Name of the field / button
      - Description
-   * - Authorisarion
-     - *Login / Password* credentials for your SecureWatch account. If you are not using your SecureWatch account, the fields must be empty to run zoom 14 processing, get metadata and preview the satellite imagery and geospatial provider Maxar's background.
+   * - Authorisation
+     - *Login / Password* credentials for your SecureWatch account. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited up to 13, but you can get metadata and preview the satellite imagery on the map.
    * - Area
-     - The area for which meta-data will be presented.
+     - The area for which metadata will be presented.
    * - Get metadata
-     - Button to start collecting metadata for the selected area. After clicking it, a table will appear below with all the images intersecting with the selected processing area.
+     - Use to collect metadata for the selected area. After clicking it, a list will be shown with all the images intersecting with your selected area of processing.
 
 
 .. _Help:
@@ -182,7 +191,7 @@ How to connect to Maxar SecureWatch
   3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
 .. important:: 
-   In the free tariff plan the *Max zoom* is limited to 13 and processing can be started using SecureWatch. If you want to use this data provider - you have to switch to the paid tariff plan - pls request us at help@geoalert.io
+   In the free tariff plan the *Max zoom* is limited up to 13 and processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the Premium tariff plan - pls request us at help@geoalert.io
 
 
 
@@ -219,11 +228,11 @@ Now the Maxar layer is available for preview in your raster layers list and for 
 How to find and process the image by Feature ID using Maxar SecureWatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use SW to discover and get processed aby avaialble image for you area of interest.
+You can use SW to discover avaialble images for you area of interest.
 
 1. Go to the *Providers* tab.
 2. Select Maxar SecureWatch from the dropdown list.
-3. In the Maxar SecureWatch block select the vector layer with the boundary of your area of interest.
+3. In the Maxar SecureWatch option select the vector layer with the boundary of your area of interest.
 
 .. note::
     You have to create the new one area (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, in the created layer using the tool *Add polygon feature* draw an area of ​​interest) or to upload from the file with coordinates using QGIS. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
@@ -242,7 +251,7 @@ You can use SW to discover and get processed aby avaialble image for you area of
 6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
 
 .. attention::
-    "max zoom 14" checkbox is avtive to prevent the paid streaming сon the side of SecureWatch.
+    "max zoom 13" checkbox is active to prevent the paid streaming on the side of SecureWatch.
      
 
 How to use other imagery services
