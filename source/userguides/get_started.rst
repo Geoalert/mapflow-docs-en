@@ -11,9 +11,9 @@ How to run your mapping flow
 Mapflow is designed to be intuitive. Here is our step-by-step user guide: 
 
 .. figure:: _static/ui_flow_basic.png
-   :alt: UI Mapflow – run a flow
-   :align: center
-   :width: 15cm
+  :alt: UI Mapflow – run a flow
+  :align: center
+  :width: 18cm
 |
 
 1. Data source
@@ -33,6 +33,8 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
     * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting. An example of such an open source that supports TMS is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS format (for example, https://tiles.openaerialmap.org/{z}/{x}/{y}.png);
     * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+    * Set source image coordinate reference system (espg:3857 or espg:3395);
+    * Reset all entered custom parameters;
     * Return to default source.
 
   .. important:: 
@@ -79,31 +81,57 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 4. Run the flow
 ^^^^^^^^^^^^^^^^
- .. attention::
+
+At this step, you can set the name of your processing or use the initially generated one (the button allows you to generate variants of the name).
+
+The "Start processing" will start processing.
+
+The "Clear Selection" will clear the previously selected processing parameters.
+
+.. attention::
    Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (See the :doc:`tariff plan <prices>`).
 
 
-Working with results
----------------------
+Processing history
+-------------------
 
-The flow's results are saved in the "Job history" panel.
-When this panel is opened, the status is displayed, and the previously selected processing parameters are highlighted in the main window.
 
-.. figure:: _static/preview_button.png
-   :alt: Preview results
-   :align: center
-   :width: 7cm
+In this tab, a card is created with your started processing. The card displays the name and icon of the selected model, status, creation date and processing cost.
+
+After successful ended of processing, the card can be opened to view more detailed information about the processing parameters - AI Model, Post-processing, Area, Data Source.
+
+.. figure:: _static/processing_card.png
+    :alt: Processing card
+    :align: center
+    :width: 8cm
 |
 
-Once the flow has finished, you can view the results on an interactive map or download it as vector geodata (GeoJSON).
 
- .. important:: 
-  - Click "Use as template" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
-  - Click "Source details" on the existing flow to view information about job sourse details, such as *Area of interest* in geojson format and *Source image url*.
+Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
 
-Options for viewing the processing results are:
+.. figure:: _static/preview_map.png
+    :alt: Preview results
+    :align: center
+    :width: 18cm
+|
+.. important:: 
+  Please rate the quality of the received processing results! Your assessment is important for further improving the Mapflow models.
 
-1. Download as GeoJSON.
+The Additional parameters button includes:
+
+.. figure:: _static/additional_parameters.png
+    :alt: Additional parameters
+    :align: center
+    :width: 8cm
+|
+
+- Click "Duplicate" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
+- Click "Source details" on the existing flow to view information about job sourse details, such as *Area of interest* in geojson format and *Source image url*.
+
+
+Options for actions with processing results will become available in the Additional parameters upon completion of processing:
+
+1. Download GeoJSON.
 
 2. "Open with geojson.io" - view the results in the browser using `geojson.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_.
 
@@ -116,15 +144,7 @@ Options for viewing the processing results are:
    :width: 15cm
 |
 
-3. "View on the map" - use our custom viewer, which displays the results on top of the source satellite images.
-
- .. figure:: _static/preview_map.png
-   :alt: Preview map
-   :align: center
-   :width: 15cm
-|
-
-4. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
+3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
 
  .. figure:: _static/kepler_gl.png
    :alt: Preview map
