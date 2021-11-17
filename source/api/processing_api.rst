@@ -373,16 +373,16 @@ source_type
 
    * - VALUE
      - DESCRIPTION
-   * - XYZ
-     - The URL to the imagery service in “XYZ” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
-   * - TMS
-     - The similar to XYZ with reverse Y coordinate
-   * - WMS
-     - The URL to the imagery service in “WMS” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
+   * - xyz
+     - The URL to the imagery service in “xyz” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
+   * - tms
+     - The similar to "xyz" with reverse "y" coordinate
+   * - wms
+     - The URL to the imagery service in “wms” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
    * - Quadkey
-     - The one-dimensional index key that usually preserves the proximity of tiles in XY space (Bing Maps tile format)
-   * - TIF/TIFF
-     - File of image in georeferenced TIFF (GeoTIFF) format
+     - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
+   * - tif/tiff
+     - File of image in georeferenced tiff (GeoTIFF) format
 
 
 status
