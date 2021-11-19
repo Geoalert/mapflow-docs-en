@@ -3,7 +3,7 @@ The core of the Mapflow are the Mapping Models. Mapflow enables to detect and ex
 AI-Mapping Models
 =================
 
-|:house:| **Buildings** 
+|:house:| :doc:`Buildings <buildings_changelog>`
 
 Extracting of roofprints of buildings from imagery of high resolution.
 
