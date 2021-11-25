@@ -22,8 +22,9 @@ How to install the plugin
 Click *Plugins* --> *Manage...*, go to the *Not installed* (or *All*) tab and enter "MapFlow" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
 
 The plugin icon has appeared in the QGIS Toolbar. 
+
 .. hint::
-   If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.
+  If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.
 
 
 User interface
@@ -89,7 +90,7 @@ Main plugin workspace is divided into 3 tabs:
 **Start processings and display the output on the map**
 
 .. list-table::
-   :widths: auto
+   :widths: 5 10
    :header-rows: 1
 
    * - Name of the field / button
@@ -257,14 +258,26 @@ You can use SW to discover avaialble images for you area of interest.
 How to use other imagery services
 ------------------------------------
 
-You can enter your custom imagery source URL in one of the following formats:
+Click on the *Add* in the *Data source* tab and enter the appropriate data in the opened window.
 
-* XYZ;
-* TMS;
-* WMS;
-* Quadkey.
+ .. figure:: _static/qgis/custom_imagery_source.png
+      :alt: Custom imagery service
+      :align: center
+      :width: 10cm
 
-All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+ 
+   * - Name of the field / button
+     - Description
+   * - Name
+     - Name of other imagery data provider
+   * - URL
+     - URL of the imagery data provider
+   * - Type
+     - Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP (see :ref:`source-type`).
 
 
 How to process your own imagery

@@ -365,6 +365,8 @@ wdName
    * - Roads Detection
      - Detects roads and returns them as lines
 
+.. _source-type:
+
 source_type
 """""""""""
 .. list-table::
