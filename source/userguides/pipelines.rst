@@ -3,7 +3,7 @@ The core of the Mapflow are the Mapping Models. Mapflow enables to detect and ex
 AI-Mapping Models
 =================
 
-|:house:| :doc:`Buildings <buildings_changelog>`
+|:house:| :doc:`Buildings <models_changelog/buildings_model>`
 
 Extracting of roofprints of buildings from imagery of high resolution.
 
@@ -17,11 +17,11 @@ Additional options:
 
 * *Merge with OSM* - This option allows you to replace the obtained data of our model with data from the OSM, if the polygons of the OSM buildings and the model overlap significantly (Jaccard coefficients - more than 0.7).
 
-|:cityscape:| **High-density housing**
+|:cityscape:| :doc:`High-density housing <models_changelog/hd_housing_model>`
 
 Our "high-density housing" AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc.
 
-|:christmas_tree:| **Forest** 
+|:christmas_tree:| :doc:`Forest <models_changelog/forest_model>`
 
 Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights.
 
@@ -29,15 +29,15 @@ Additional options:
 
 * *Classification by heights* – classification the areas of vegetation and shrub vegetation by height classes according to the specified thresholds: 0-4 m, 4-10 m, 10+ m, and division of classes in 4+ m according to the density of vegetation into: dense and sparse. Forest areas of each height class are polygonized in separate features. The height class and density of vegetation are specified in the polygon properties.
 
-|:red_car:| **Roads** 
+|:red_car:| :doc:`Roads <models_changelog/roads_model>`
 
 Extracting the road mask from satellite images of high spatial resolution.
 
-|:building_construction:| **Construction** 
+|:building_construction:| :doc:`Construction <models_changelog/construction_model>`
 
 Detection of the construction sites by classification of tiles of hi-resolution satellite images.
 
-|:corn:| **Agriculture fields** 
+|:corn:| :doc:`Agriculture fields <models_changelog/agriculture_fields_model>`
 
 Extraction and instance separation of agriculture fileds from high-resolution satellite imagery.
 
