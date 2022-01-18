@@ -39,8 +39,8 @@ Login window
          :alt: Login window
          :align: center
          :width: 9cm
+|
 
-  
 .. list-table::
    :widths: auto
    :header-rows: 1
@@ -63,6 +63,8 @@ Main plugin workspace is divided into 3 tabs:
 :ref:`Processing`
 
 :ref:`Providers`
+
+:ref:`Settings`
 
 :ref:`Help`
 
@@ -103,6 +105,8 @@ Main plugin workspace is divided into 3 tabs:
      - Processing status: IN_PROGRESS, OK, FAILED. 
    * - Progress
      - The degree of completeness of processing as a percentage.
+   * - Area
+     - The processing area.
    * - Created
      - The date-time of the processing creation.
   
@@ -114,7 +118,7 @@ To download the processing results, double-click on the completed processing.
 2. Providers
 ~~~~~~~~~~~~~
 
-.. figure:: _static/qgis/Providers_tab.png
+.. figure:: _static/qgis/providers_tab.png
          :alt: Veiw of the providers tab
          :align: center
          :width: 15cm
@@ -140,6 +144,8 @@ To download the processing results, double-click on the completed processing.
      - Button for changing the parameters of the source of satellite images.
    * - Preview
      - A button to preview the background of the specified satellite imagery and geospatial provider.
+   * - Image ID
+     - Image ID from the *Imagery catalog* of the selected image of specified satellite image source.
    * - Max zoom
      - Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**).
 
@@ -150,7 +156,7 @@ To download the processing results, double-click on the completed processing.
     Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
 
     
-**Maxar SecureWatch settings**
+**Setting parameters for additional satellite imagery providers**
 
 .. list-table::
    :widths: auto
@@ -159,21 +165,37 @@ To download the processing results, double-click on the completed processing.
    * - Name of the field / button
      - Description
    * - Authorisation
-     - *Login / Password* credentials for your SecureWatch account. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited up to 13, but you can get metadata and preview the satellite imagery on the map.
+     - *Login / Password* credentials for your account of the satellite imgery provider. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited up to 13, but you can get metadata and preview the satellite imagery on the map.
    * - Area
      - The area for which metadata will be presented.
-   * - Get metadata
+   * - Use canvas extent
+     - The processing area will be taken from the QGIS image search workspace of the specified satellite imagery provider.
+   * - Period of time (From...To)
+     - The images will be provided for specified time period.
+   * - Search imagery
      - Use to collect metadata for the selected area. After clicking it, a list will be shown with all the images intersecting with your selected area of processing.
 
+.. _Settings:
+
+3. Settings
+~~~~~~~~~~~~~
 
 .. _Help:
 
-3. Help
+4. Help
 ~~~~~~~~
 
 The tab contains all useful links about this plugin.
 
-  
+Caching
+---------
+
+The option *Use cache* is enabled by default.
+
+ When processing is restarted using the same source of satellite images and the same processing area (the polygon must be identical to the old polygon), the images are not downloaded again, but the ones downloaded during the previous processing are reused. This speeds up the processing process, due to the fact that the images are not re-downloaded, and also reduces the traffic of the source of satellite images.
+
+ Disable the *Use cache* option if need to work with constantly updated satellite imagery source data for the same area. Then, at each start of processing, actual satellite images will be used.
+
 How to connect to Maxar SecureWatch
 ------------------------------------
 
@@ -188,7 +210,7 @@ How to connect to Maxar SecureWatch
 * **Maxar preview**
 
   1. Select the required Maxar product in the drop-down list on the **Data sources** tab;
-  2. Select your AOI in the Area drop-down list and click on the *Get Metadata*.
+  2. Select your AOI in the Area drop-down list and click on the *Search imagery*.
   3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
 .. important:: 
@@ -198,7 +220,7 @@ How to connect to Maxar SecureWatch
 
 * **Using your SecureWatch account for image processing by the Mapflow**
 
-   1. Open the block *Authorization* on the *Providers* tab and enter *Login / Password* from your Maxar SecureWatch account;
+   1. Check *Use imagery providercredentials* on the *Providers* tab and enter *Login / Password* from your Maxar SecureWatch account;
 
    2. Select the Maxar SecureWatch from the drop-down list above;
 
@@ -233,17 +255,17 @@ You can use SW to discover avaialble images for you area of interest.
 
 1. Go to the *Providers* tab.
 2. Select Maxar SecureWatch from the dropdown list.
-3. In the Maxar SecureWatch option select the vector layer with the boundary of your area of interest.
+3. In the *Maxar SecureWatch imagery Catalog* select the vector layer with the boundary of your area of interest.
 
 .. note::
-    You have to create the new one area (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, in the created layer using the tool *Add polygon feature* draw an area of ​​interest) or to upload from the file with coordinates using QGIS. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
+    You have to create the new one area (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, in the created layer using the tool *Add polygon feature* draw an area of interest) or to upload from the file with coordinates using QGIS. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
 
      .. figure:: _static/qgis/add_SW_WFS.png
          :alt: Get specific image from SW
          :align: center
          :width: 15cm    
 
-4. *Get metadata*, to view meta-data of all avaialble images intesecting your AOI.
+4. *Search imagery*, to view meta-data of all avaialble images intesecting your AOI.
 5. Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes.
 
 .. note::
@@ -267,7 +289,7 @@ Click on the *Add* in the *Data source* tab and enter the appropriate data in th
 
 
 .. list-table::
-   :widths: auto
+   :widths: 10 30
    :header-rows: 1
  
    * - Name of the field / button
@@ -293,6 +315,6 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 
 .. important::
   You should follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. 
-  You can use our `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ to convert your data to 8 bit. Make sure that your imagery is georeferenced in GEORGAPHIC or PROJECTED coordinate system.
+  You can use our `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ to convert your data to 8 bit. Make sure that your imagery is georeferenced in geographic or projected coordinate system.
 
   Send a request using data preprocessing to help@geoalert.io.
