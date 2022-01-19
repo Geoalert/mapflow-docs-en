@@ -132,8 +132,6 @@ To download the processing results, double-click on the completed processing.
 
    * - Name of the field / button
      - Description
-   * - Output directory
-     - Path to the directory into which the processing result will be loaded.
    * - Additional sources of images
      - Drop-down list with additional satellite imagery providers.
    * - "Add" button
@@ -162,18 +160,18 @@ To download the processing results, double-click on the completed processing.
    :widths: auto
    :header-rows: 1
 
-   * - Name of the field / button
+   * - Name of the field/button
      - Description
    * - Authorisation
-     - *Login / Password* credentials for your account of the satellite imgery provider. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited up to 13, but you can get metadata and preview the satellite imagery on the map.
+     - *Login/Password* credentials for your account of the satellite imgery provider. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited to 12, but you can get metadata and preview the satellite imagery on the map.
    * - Area
      - The area for which metadata will be presented.
    * - Use canvas extent
      - The processing area will be taken from the QGIS image search workspace of the specified satellite imagery provider.
    * - Period of time (From...To)
-     - The images will be provided for specified time period.
+     - The images will be provided for the specified time period.
    * - Search imagery
-     - Use to collect metadata for the selected area. After clicking it, a list will be shown with all the images intersecting with your selected area of processing.
+     - Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area.
 
 .. _Settings:
 
@@ -192,9 +190,9 @@ Caching
 
 The option *Use cache* is enabled by default.
 
- When processing is restarted using the same source of satellite images and the same processing area (the polygon must be identical to the old polygon), the images are not downloaded again, but the ones downloaded during the previous processing are reused. This speeds up the processing process, due to the fact that the images are not re-downloaded, and also reduces the traffic of the source of satellite images.
-
- Disable the *Use cache* option if need to work with constantly updated satellite imagery source data for the same area. Then, at each start of processing, actual satellite images will be used.
+ If *Use cache* is checked, every time you process, the imagery used for it will be cached (saved in Mapflow). If you later start a new processing for the exact same area (the polygon(s) must be identical to the old one(s)) and using the same source of satellite imagery (same provider URL), that cached imagery will be used. This speeds up the processing by removing the download stage, and also reduces the provider traffic. 
+ 
+ Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
 
 How to connect to Maxar SecureWatch
 ------------------------------------
