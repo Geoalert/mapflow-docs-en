@@ -178,6 +178,8 @@ To download the processing results, double-click on the completed processing.
 3. Settings
 ~~~~~~~~~~~~~
 
+This tab contains *Output directory* where the processing result will be loaded.
+
 .. _Help:
 
 4. Help
