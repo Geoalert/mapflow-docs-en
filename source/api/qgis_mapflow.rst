@@ -118,7 +118,7 @@ To download the processing results, double-click on the completed processing.
 2. Providers
 ~~~~~~~~~~~~~
 
-.. figure:: _static/qgis/providers_tab.png
+.. figure:: _static/qgis/Providers_tab.png
          :alt: Veiw of the providers tab
          :align: center
          :width: 15cm
