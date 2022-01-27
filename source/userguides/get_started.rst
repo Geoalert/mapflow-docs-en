@@ -31,7 +31,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
   The interface of this tab allows you to:
 
     * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
-    * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting. An example of such an open source that supports TMS is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS format (for example, https://tiles.openaerialmap.org/{z}/{x}/{y}.png);
+    * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting. An example of such an open source that supports TMS is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
     * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
     * Set source image coordinate reference system (espg:3857 or espg:3395);
     * Reset all entered custom parameters;

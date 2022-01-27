@@ -280,13 +280,25 @@ You can use SW to discover avaialble images for you area of interest.
 How to use other imagery services
 ------------------------------------
 
-Click on the *Add* in the *Data source* tab and enter the appropriate data in the opened window.
+For example, let's use the `Openaerialmap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
+As soon as your aerial image published on Openaerialmap it's presented on the public map and can be fetched using TMS/WMTS protocols.
+
+Select the image and copy link to TMS.
+
+  .. figure:: _static/qgis/search_openaerialmap_image.png
+         :alt: Search for imagery in Openaerialmap 
+         :align: center
+         :width: 15cm
+  |
+Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
+
+For start processing for this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
 
  .. figure:: _static/qgis/custom_imagery_source.png
-      :alt: Custom imagery service
-      :align: center
-      :width: 10cm
-
+         :alt: Custom imagery service
+         :align: center
+         :width: 15cm
+ |
 
 .. list-table::
    :widths: 10 30
