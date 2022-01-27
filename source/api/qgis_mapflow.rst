@@ -196,8 +196,12 @@ The option *Use cache* is enabled by default.
  
  Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
 
+
+Use additional satellite imagery providers
+-------------------------------------------
+
 How to connect to Maxar SecureWatch
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
  SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
@@ -247,14 +251,27 @@ How to connect to Maxar SecureWatch
      
 Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
 
+Sentinel-2
+~~~~~~~~~~~~
 
-How to find and process the image by Feature ID using Maxar SecureWatch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sentinel-2 is a project of the European Space Agency (ESA). Equipped with an opto-electronic multispectral sensor for broadband multispectral imaging with frequent repetition of medium and low resolution. The bandwidth of survey of 290 km and the high repeatability of the survey make it possible to monitor changes in the state of the earth's surface.
 
-You can use SW to discover avaialble images for you area of interest.
+Images of this product are 100x100 km\ :sup:`2` orthoimages in UTM/WGS84 projection.
+
+Our plugin has a built-in ability to receive Sentinel-2 images for the required shooting period and further start processing based on the received images.
+
+ .. figure:: _static/qgis/add_sentinel2.png
+          :alt: Get specific image from Sentinel-2
+          :align: center
+          :width: 15cm
+
+How to find and process the image by Feature ID using Maxar SecureWatch or Sentinel-2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use SW or Sentinel-2 to discover avaialble images for you area of interest.
 
 1. Go to the *Providers* tab.
-2. Select Maxar SecureWatch from the dropdown list.
+2. Select Maxar SecureWatch/Sentinel-2 from the dropdown list.
 3. In the *Maxar SecureWatch imagery Catalog* select the vector layer with the boundary of your area of interest.
 
 .. note::
@@ -265,8 +282,8 @@ You can use SW to discover avaialble images for you area of interest.
          :align: center
          :width: 15cm    
 
-4. *Search imagery*, to view meta-data of all avaialble images intesecting your AOI.
-5. Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes.
+4. *Search imagery*, to view meta-data of all avaialble images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming a imagery catalog with the necessary parameters.
+5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata/Sentinel-2 metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
 .. note::
     Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes.
