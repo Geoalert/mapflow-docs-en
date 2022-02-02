@@ -49,6 +49,7 @@ Use with GIS...
 
    api/qgis_mapflow
    kepler/kepler
+   userguides/iterative_mapping
 
 
 ********************
