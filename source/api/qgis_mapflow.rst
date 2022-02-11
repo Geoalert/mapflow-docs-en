@@ -346,4 +346,6 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
   You should follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. 
   You can use our `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ to convert your data to 8 bit. Make sure that your imagery is georeferenced in geographic or projected coordinate system.
 
+  Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+  
   Send a request using data preprocessing to help@geoalert.io.

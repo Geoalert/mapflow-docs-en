@@ -61,17 +61,17 @@ Buildings
      - Model input, data type
    * - Segmentation
      - Extract roof contours (roofprints) from high-resolution satellite imagery
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
    * - Classification
      - Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
    * - Building heights
      - For each building, model estimates its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
 
@@ -90,12 +90,12 @@ Forest
      - Model input, data type
    * - Segmentation
      - Extract segmentation masks of forested areas from high-resolution RGB images
-     - RGB, 2
+     - RGB `*`_, 2
      - 16
      - Unsigned integer, 8 bit
    * - Classification
      - Classify the areas of vegetation and shrub vegetation by height and vegetation density
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
 
@@ -114,7 +114,7 @@ Roads
      - Model input, data type
    * - Segmentation
      - Extract road mask from high-resolution satellite imagery
-     - RGB, 1
+     - RGB `*`_, 1
      - 17
      - Unsigned integer, 8 bit
 
@@ -134,12 +134,12 @@ High-density housing
      - Model input, data type
    * - Segmentation
      - Extraction and instance detection of the building roofprints in the areas of high density housing
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
    * - Building heights
      - For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
 
@@ -157,7 +157,7 @@ Construction
      - Model input, data type
    * - Segmentation
      - The model highlights areas in the satellite image that contain construction sites and buildings under construction
-     - RGB, 0.5
+     - RGB `*`_, 0.5
      - 18
      - Unsigned integer, 8 bit
 
@@ -175,6 +175,11 @@ Agriculture fileds
      - Model input, data type
    * - Segmentation
      - Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
-     - RGB, 1.2
+     - RGB `*`_, 1.2
      - 17
      - Unsigned integer, 8 bit
+
+
+.. _*:
+
+\* Mapflow.ai can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
