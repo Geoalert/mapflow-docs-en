@@ -1,4 +1,4 @@
-Mapflow tariffs
+Mapflow credits
 ===============
 
 .. IMPORTANT::
