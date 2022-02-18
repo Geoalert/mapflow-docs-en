@@ -4,7 +4,7 @@ Processing API
 ==============
 
 .. attention::
-    The projects and processings that you create in Mapflow Web UI won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
+    The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_ won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
 
 .. note::
     .. figure:: _static/postman_logo.png
@@ -62,7 +62,7 @@ Response example:
         "workflowDefs": [
             {
                 "id": "084474b5-e001-456f-a486-f62f5ee1ffe1",
-                "name": "Buildings Detection",
+                "name": "🏠 Buildings",
                 "created": "2020-08-11T19:57:40.974170Z",
                 "updated": "2020-08-11T19:57:40.974172Z"
             }
@@ -70,10 +70,10 @@ Response example:
     }
 
 
-Get default (demo) project
-""""""""""""""""""""""""""
+Get default project
+"""""""""""""""""""
 
-Default (demo) project is created for each user upon registration.
+Default project is created for each user upon registration.
 
 ``GET https://api.mapflow.ai/rest/projects/default`` 
 
@@ -137,11 +137,11 @@ Response example:
 
     {
         "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
-        "name": "Buildings Detection4",
+        "name": "Test processing",
         "projectId": "b041da8c-3af3-4269-b4b2-6e3cfe26520c",
         "vectorLayer": {
             "id": "098ff0e4-ac3e-45f9-a049-cf84ac45e5c1",
-            "name": "Buildings Detection4",
+            "name": "Buildings Detection",
             "tileJsonUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c.json",
             "tileUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c/tiles/{z}/{x}/{y}.vector.pbf"
         },
@@ -197,8 +197,8 @@ Request body example:
         "name": "Test",                                      #Name of this processing. Optional.
         "description": "A simple test",                      #Arbitrary description of this processing. Optional.
         "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", #Project id. Optional. If not set, this user's default project will be used.
-        "wdName": "Buildings Detection",                     #The name of a workflow definition.
-                                                             #Could be "Buildings Detection", or "Forest Detection", etc. See ref. below
+        "wdName": "🏠 Buildings",                            #The name of a workflow definition.
+                                                             #Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
         "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      #Workflow definition id. Either wdName or wdId may be specified.
         "geometry": {                                        #A geojson geometry of the area of interest.
             "type": "Polygon",
@@ -228,8 +228,8 @@ Request body example:
             ]
         },
         "params": {                           #Arbitrary string parameters of this processing. Optional.
-            "source_type": "wms",
-            "url": "https://catalog.data.gov/dataset/usgs-naip-imagery-overlay-map-service-from-the-national-map/resource/776e4050-213c-4203-91b8-657d8fa4b009",
+            "source_type": "xyz",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
             "partition_size": "0.1"           #Max partition size in degrees (both dimensions). Defaults to DEFAULT_PARTITION_SIZE=0.1.
         },
         "meta": {                             #Arbitrary string key-value pairs for this processing (metadata). Optional.
@@ -353,19 +353,31 @@ API reference
 wdName
 """"""
 .. list-table::
-   :widths: 10 30
+   :widths: 10 20 10
    :header-rows: 1
 
    * - VALUE
-     - MODEL input resolution (m/px)
-   * - Buildings Detection
+     - DESCRIPTION
+     - MODEL resolution (m/px), num of input bands
+   * - 🏠 Buildings
      - Detects buildings & classifies them
-   * - Forest Detection
+     - 0.5, 3 (RGB)
+   * - 🌲 Forest
      - Detects tree-like vegetation
-   * - Roads Detection
-     - Detects roads and returns them as lines
+     - 2, 3 (RGB)
+   * - 🚗 Roads
+     - Detects roads and returns them as polygons / linestrings
+     - 1, 3 (RGB)
+   * - 🚜 Fields (hi-res)
+     - Detects cropland fields
+     - 0.5, 3 (RGB)
+   * - 🚜 Fields (Sentinel-2)
+     - Detects cropland fields using free Sentinel-2 imagery
+     - 10 m/px, 10 (multispectral)
+   * - 🏗️ Construction
+     - Detects cropland fields
+     - 0.5, 3 (RGB)
 
-.. _source-type:
 
 source_type
 """""""""""
