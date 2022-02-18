@@ -21,35 +21,49 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 1.1. Select raster source
 """""""""""""""""""""""""""
+.. figure:: _static/select_provider.png
+    :alt: Select provider
+    :align: center
+    :width: 13cm
 
-    - Default
+|
 
-    Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ imagery by default. To specify your area of interest (AOI), you can either upload your own `GeoJSON <https://geojson.org>`_ file, or draw the area directly on the map (*"Draw rectangle"*).
+    - Imagery providers
+
+     Here you can select one of the providers:
+
+      * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
+      * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
+      
+        .. figure:: _static/image_metadata.png
+          :alt: Search image metadata
+          :align: center
+          :width: 15cm
  
-    - URL
+    - Custom URL
 
   The interface of this tab allows you to:
 
     * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
-    * If the source type supports the TMS standard, i.e. it has an inverted beginning of the Y coordinate - select the appropriate setting. An example of such an open source that supports TMS is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
+    * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
     * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
     * Set source image coordinate reference system (espg:3857 or espg:3395);
     * Reset all entered custom parameters;
-    * Return to default source.
+    * Return to defult Imagery providers.
 
   .. important:: 
-    As to the source data, currently we only support RGB imagery. If you would like to upload your own GeoTIFF you can use `API <../api/processing_api>`_ or our `Mpflow plugin <../api/qgis_mapflow>`_ for QGIS . 
+    Mapflow support RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected. If you would like to upload your own GeoTIFF you can use `API <../api/processing_api>`_ or our `Mapflow plugin <../api/qgis_mapflow>`_ for QGIS . 
  
 1.2. Specify area of interest
 """""""""""""""""""""""""""""""
 
   .. figure:: _static/ui_map_select_source.png
-   :alt: Select custom XYZ
+   :alt: Select AOI
    :align: center
    :width: 15cm
   |
 
-  This tab is used to add a processing area. The user can draw the area using a rectangular frame or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+  This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
  .. attention:: 
    Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
@@ -89,7 +103,7 @@ The "Start processing" will start processing.
 The "Clear Selection" will clear the previously selected processing parameters.
 
 .. attention::
-   Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (See the :doc:`tariff plan <prices>`).
+   Once you have selected the model and the processing parameters, you will see the total cost of your flow counted in Mapflow credits (our local currency units). Upon registration, you receive 500 credits for free for testing the platform (See the :doc:`Mapflow credits <prices>`).
 
 
 Processing history
