@@ -349,3 +349,15 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
   Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
   
   Send a request using data preprocessing to help@geoalert.io.
+
+
+Proxy-settings
+--------------
+
+If you behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for correct plugin working.
+
+ .. figure:: _static/qgis/proxy_settings.png
+         :alt: Proxy settings
+         :align: center
+         :width: 15cm
+|
