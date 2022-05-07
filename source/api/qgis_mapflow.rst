@@ -17,7 +17,7 @@ QGIS has an interface for external Python plugins that allows to connect more ap
 
 
 How to install the plugin
---------------------------
+-------------------------
 
 Click *Plugins* --> *Manage...*, go to the *Not installed* (or *All*) tab and enter "MapFlow" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
 
@@ -27,13 +27,10 @@ The plugin icon has appeared in the QGIS Toolbar.
   If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.
 
 
-User interface
---------------
+How to login
+------------
 
-You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://mapflow.ai/en>`_, register and obtain :doc:`API token <../userguides/mapflow_auth>`.
-
-Login window
-~~~~~~~~~~~~
+You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_. Enter you token to get to the main User interface.
 
 .. figure:: _static/qgis/login_window.png
          :alt: Login window
@@ -41,18 +38,9 @@ Login window
          :width: 9cm
 |
 
-.. list-table::
-   :widths: auto
-   :header-rows: 1
 
-   * - Name of the field / button
-     - Description
-   * - Token
-     - Enter your :doc:`API token <../userguides/mapflow_auth>` here.
-   * - Log in
-     - User account login button.
-   * - Cancel
-     - Button to close the authorization window.
+User interface
+--------------
 
 
 Mapflow plugin

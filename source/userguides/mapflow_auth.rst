@@ -1,16 +1,15 @@
-Authorization to work with Mapflow API
-======================================
+Authorization to Mapflow API
+============================
 
-To access the platform from external applications such as :doc:`plugin for QGIS <../api/qgis_mapflow>` you need to get the **API token**.
-Token must be passed in the **Basic Auth** authorization parameters as a password, and as a login you must transfer your login from your account to Mapflow.ai.
+To access from external applications such as :doc:`plugin for QGIS <../api/qgis_mapflow>` you need to get **API token**. Users can register and obtain token at 
+`https://app.mapflow.ai/account/api <https://app.mapflow.ai/account/api>`_.
+Token must be passed in the **Basic Auth** parameters like in the example:
 
-.. note::
-    An example of authorization in an application for QGIS:
+.. code:: curl
 
- .. figure:: _static/api_token_login.png
-  :alt: Preview map
-  :align: center
-  :width: 10cm
+    curl --location --request GET 'https://api.mapflow.ai/rest/projects/default' \
+    --header 'Authorization: Basic <YOUR TOKEN>'  
+
 
 Authorization in a Web application and obtaining an API token
 -------------------------------------------------------------
@@ -25,4 +24,12 @@ Authorization in a Web application and obtaining an API token
     :width: 8cm
 
 .. attention:: 
-  Make sure you save the token, otherwise you will need to reissueit.
+  Make sure you save the token, otherwise you will need to reissue it.
+
+.. note::
+    An example of authorization in an :doc:`application for QGIS <../api/qgis_mapflow>`:
+
+ .. figure:: _static/api_token_login.png
+  :alt: Preview map
+  :align: center
+  :width: 10cm
