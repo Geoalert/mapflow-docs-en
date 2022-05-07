@@ -64,7 +64,7 @@ html_theme_options = {
     'display_version': False,
     'logo_only': True,
 }
-html_logo = '_static/logo_mapflow.svg'
+html_logo = '_static/logo_mapflow.png'
 
 # To show the same sidebar for each page
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
