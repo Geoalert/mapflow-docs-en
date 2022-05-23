@@ -24,7 +24,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 .. figure:: _static/select_provider.png
     :alt: Select provider
     :align: center
-    :width: 13cm
+    :width: 18cm
 
 |
 
@@ -42,17 +42,42 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
  
     - Custom URL
 
-  The interface of this tab allows you to:
+    The interface of this tab allows you to:
 
-    * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
-    * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
-    * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
-    * Set source image coordinate reference system (espg:3857 or espg:3395);
-    * Reset all entered custom parameters;
-    * Return to defult Imagery providers.
 
-  .. important:: 
-    Mapflow support RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected. If you would like to upload your own GeoTIFF you can use `API <../api/processing_api>`_ or our `Mapflow plugin <../api/qgis_mapflow>`_ for QGIS . 
+      * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
+      * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
+      * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+      * Set source image coordinate reference system (espg:3857 or espg:3395);
+      * Reset all entered custom parameters;
+      * Return to defult Imagery providers.
+
+
+  - GeoTIFF
+
+    Here you can upload your own image in GeoTiff format.
+
+    .. important:: 
+      Currently a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
+      
+      The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI.
+
+    Image upload capabilities:
+
+      - The uploaded images must have the area more than 1 sq.km.
+      - The file size must be less than 512 mb.
+      - The image must be georeferenced and the CRS must be one of:
+
+        - WGS84 (EPSG: 4326)
+        - Web mercator (EPSG: 3857)
+        - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
+      
+
+    .. note:: 
+      If your image doesn't meet the parameters, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which has more capabilities. 
+      
+      Mapflow support RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+
  
 1.2. Specify area of interest
 """""""""""""""""""""""""""""""
