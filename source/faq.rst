@@ -9,7 +9,7 @@ Payment
 
 **Can I get spent funds if I’m not satisfied with the processing results?**
     
-    The funds spent are not refundable. Upon registration, we give you 500 credits to test Mapflow functionality. For a more detailed solution to the issue, you can write to us at help@geoalert.io.
+    The funds spent are not refundable. Upon registration, we give you 250 credits to test Mapflow functionality. For a more detailed solution to the issue, you can write to us at help@geoalert.io.
 
 **I represent a company and would like to perform large volumes of processing, do you have corporate rates?**
 
