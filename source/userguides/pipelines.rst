@@ -21,6 +21,10 @@ Additional options:
 
 Our "high-density housing" AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc.
 
+|:cityscape:| :doc:`Buildings (Aerial imagery) <models_changelog/buildings_aerial_imagery_model>`
+
+This model designed to detect not only big buildings, but also small buildings like garages and sheds in very high resolution aerial data.
+
 |:christmas_tree:| :doc:`Forest <models_changelog/forest_model>`
 
 Extracting the forest masks from RGB images of high resolution (2 meters) without classification by type, density and heights.
@@ -73,6 +77,25 @@ Buildings
      - For each building, model estimates its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
      - RGB `*`_, 0.5
      - 18
+     - Unsigned integer, 8 bit
+
+
+Buildings (Aerial imagery)
+"""""""""""""""""""""""""""
+
+.. list-table::
+   :widths: 10 40 10 10 10
+   :header-rows: 1
+
+   * - Model
+     - Description
+     - Channel composition, GSD m/px
+     - Model input, zoom
+     - Model input, data type
+   * - Segmentation
+     - Extract roof contours (roofprints) from very high-resolution aerial imagery
+     - RGB `*`_, 0.1
+     - 20
      - Unsigned integer, 8 bit
 
 
