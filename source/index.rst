@@ -62,6 +62,7 @@ Reference materials
 
    um/classes
    forest/classes
+   requirements
 
 ***************************
 Frequently asked questions
