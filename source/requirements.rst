@@ -77,7 +77,16 @@ In case of non-compliance with any requirements, the following errors occur:
      - You XYZ basemap link doesn't match the format, it must be a link containing '{x}', '{y}', '{z}' placeholders.
    * - source-validator.UnhandledException
      - Internal error in process of data source validation. We are working on the fix, our support will contact you.
- 
+   * - source-validator.internalError
+     - Internal error in process of data source validation. We are working on the fix, our support will contact you.
+   * - data-loader.internalError
+     - Internal error in process of loading data. We are working on the fix, our support will contact you.
+   * - raster-processor.internalError
+     - Internal error in process of data preparation. We are working on the fix, our support will contact you.
+   * - inference.internalError
+     - Internal error in process of data processing. We are working on the fix, our support will contact you.
+   * - vector-processor.internalError
+     - Internal error in process of saving the results. We are working on the fix, our support will contact you.
 
 
 
