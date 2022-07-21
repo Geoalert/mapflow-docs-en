@@ -79,7 +79,7 @@ In case of non-compliance with any requirements, the following errors occur:
      - Internal error in process of data source validation. We are working on the fix, our support will contact you.
    * - source-validator.internalError
      - Internal error in process of data source validation. We are working on the fix, our support will contact you.
-   * - data-loader.internalError
+   * - dataloader.internalError
      - Internal error in process of loading data. We are working on the fix, our support will contact you.
    * - raster-processor.internalError
      - Internal error in process of data preparation. We are working on the fix, our support will contact you.
