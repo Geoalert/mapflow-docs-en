@@ -175,6 +175,29 @@ Response example:
         "updated": "2020-05-06T23:13:57.239Z"
     }
 
+If the processing ends with an error, the response includes the error code and parameters in the messages section. 
+If different processing areas ends with the same errors, no duplicate errors are output. 
+
+Example of an erroneous handling response:
+
+
+.. code:: json
+  
+    {
+        "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
+        <...>,
+        "status":"FAILED",
+        "percentCompleted":0,
+        "messages":[{
+            "code": "source-validator.PixelSizeTooHigh",
+            "parameters": {
+                "max_res": "1.2",
+                "level": "error",
+                "actual_res": "5.620983603290215"
+             }
+        }
+        ]
+    }
 
 Get all processings
 """""""""""""""""""
