@@ -3,7 +3,7 @@
 Error messages in API
 ==============
 
-.. list-table:: This is a list of messages and parameters that can be in the `messages` section of the response for failed processings.
+.. list-table:: List of messages and parameters that can be in the `messages` section of the response for failed processings.
    :widths: 15 15 25
    :header-rows: 1
 
@@ -39,6 +39,10 @@ Error messages in API
      - {min_zoom},  {actual_zoom}
      - Zoom must be not lower than {min_zoom}, got {actual_zoom}
 
+   * - source-validator.UrlBlacklisted
+     - {url}
+     - The specified basemap {url} is forbidden for processing because it contains a map, not satellite image. Our models are suited for satellite imagery.
+  
    * - source-validator.ImageMetadataMustBeDict
      - 
      - Image metadata must be a dict (json)

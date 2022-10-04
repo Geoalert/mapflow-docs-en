@@ -136,44 +136,63 @@ Response example:
 .. code:: json
 
     {
-        "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
-        "name": "Test processing",
-        "projectId": "b041da8c-3af3-4269-b4b2-6e3cfe26520c",
+        "id":"998194d7-dbe1-464d-acb2-4298e55e1996",
+        "name":"err",
+        "description":"",
+        "projectId":"598ab24e-6ea1-42ad-a67d-eefb4cf10d84",
         "vectorLayer": {
-            "id": "098ff0e4-ac3e-45f9-a049-cf84ac45e5c1",
-            "name": "Buildings Detection",
-            "tileJsonUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c.json",
-            "tileUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c/tiles/{z}/{x}/{y}.vector.pbf"
+            "id": "544a7a6b-bc7f-4fbe-9caf-b2990e8616f9",
+            "name": "err",
+            "tileJsonUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
+            "tileUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
         },
         "rasterLayer": {
-            "id": "f56ba4c8-30cb-4a54-9aca-cb66214ea2f8",
-            "tileJsonUrl": "http://localhost:8500/api/v0/cogs/tiles.json?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20",
-            "tileUrl": "http://localhost:8500/api/v0/cogs/tiles/{z}/{x}/{y}.png?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20"
+            "id": "0ffc6ri8-b080-41e8-957c-3dd07f933f0a",
+            "tileJsonUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c",
+            "tileUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c"
         },
         "workflowDef": {
-            "id": "9b70a8fc-6e63-4929-b287-c2307d06e678",
+            "id": "e973aa99-3422-46b3-a968-d8a252b64345",
             "name": "Buildings Detection",
-            "created": "2020-05-06T23:08:50.412Z",
-            "updated": "2020-05-06T23:08:50.412Z"
+            "description": "",
+            "created": "2022-07-06T14:15:11.187892Z",
+            "updated":"2022-07-06T14:15:11.187894Z"
         },
-        "externalWfIds": [
-            146923
-        ],
-        "aoiCount": 1,
-        "aoiArea": 265197,
-        "status": "OK",
-        "percentCompleted": 100,
-        "params": {
-            "source_type": "tif",
-            "url": "s3://mapflow-rasters/7689666a-a707-4307-8c76-bf8c2ee3e0e4/raster.tif",
-            "zoom": "18"
-        },
-        "meta": {
-            "test": "test"
-        },
-        "created": "2020-05-06T23:13:57.239Z",
-        "updated": "2020-05-06T23:13:57.239Z"
+        "aoiCount":1,
+        "aoiArea":798784,
+        "status":"OK",
+        "percentCompleted":100,
+        "params":{"partition_size":"0.05"},
+        "meta":{},
+        "messages":[],
+        "created":"2022-08-11T13:49:17.386035Z",
+        "updated":"2022-08-11T13:49:17.386035Z"
     }
+
+If the processing failed, the response also contains the code and parameters of the error in the `messages` section.
+If different AOIs failed with the same error, only one of the repeated errors is returned.
+Example of the failed processing response:
+
+.. code:: json
+
+    {
+        "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
+        <...>,
+        "status":"FAILED",
+        "percentCompleted":0,
+        "messages":[{
+            "code": "source-validator.PixelSizeTooHigh",
+            "parameters": {
+                "max_res": "1.2",
+                "level": "error",
+                "actual_res": "5.620983603290215"
+             }
+        }
+        ]
+    }
+
+Possible error codes, their parameters and descriptions see in the :doc:`table <error_messages>``
+
 
 
 Get all processings
