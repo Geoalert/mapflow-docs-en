@@ -190,9 +190,6 @@ Example of the failed processing response:
         ]
     }
 
-Possible error codes, their parameters and descriptions see in the :doc:`table <error_messages>``
-
-
 
 Get all processings
 """""""""""""""""""
