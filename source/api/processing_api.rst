@@ -136,56 +136,47 @@ Response example:
 .. code:: json
 
     {
-        "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
-        "name": "Test processing",
-        "projectId": "b041da8c-3af3-4269-b4b2-6e3cfe26520c",
+        "id":"998194d7-dbe1-464d-acb2-4298e55e1996",
+        "name":"err",
+        "description":"",
+        "projectId":"598ab24e-6ea1-42ad-a67d-eefb4cf10d84",
         "vectorLayer": {
-            "id": "098ff0e4-ac3e-45f9-a049-cf84ac45e5c1",
-            "name": "Buildings Detection",
-            "tileJsonUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c.json",
-            "tileUrl": "http://localhost:8600/api/layers/7448c462-6078-49d6-b64a-289c4320508c/tiles/{z}/{x}/{y}.vector.pbf"
+            "id": "544a7a6b-bc7f-4fbe-9caf-b2990e8616f9",
+            "name": "err",
+            "tileJsonUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
+            "tileUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
         },
         "rasterLayer": {
-            "id": "f56ba4c8-30cb-4a54-9aca-cb66214ea2f8",
-            "tileJsonUrl": "http://localhost:8500/api/v0/cogs/tiles.json?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20",
-            "tileUrl": "http://localhost:8500/api/v0/cogs/tiles/{z}/{x}/{y}.png?url=s3://mapflow-rasters/4f64797d-bfb2-4433-bf56-3bcfd790ee20"
+            "id": "0ffc6ri8-b080-41e8-957c-3dd07f933f0a",
+            "tileJsonUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c",
+            "tileUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c"
         },
         "workflowDef": {
-            "id": "9b70a8fc-6e63-4929-b287-c2307d06e678",
+            "id": "e973aa99-3422-46b3-a968-d8a252b64345",
             "name": "Buildings Detection",
-            "created": "2020-05-06T23:08:50.412Z",
-            "updated": "2020-05-06T23:08:50.412Z"
+            "description": "",
+            "created": "2022-07-06T14:15:11.187892Z",
+            "updated":"2022-07-06T14:15:11.187894Z"
         },
-        "externalWfIds": [
-            146923
-        ],
-        "aoiCount": 1,
-        "aoiArea": 265197,
-        "status": "OK",
-        "percentCompleted": 100,
-        "params": {
-            "source_type": "tif",
-            "url": "s3://mapflow-rasters/7689666a-a707-4307-8c76-bf8c2ee3e0e4/raster.tif",
-            "zoom": "18"
-        },
-        "meta": {
-            "test": "test"
-        },
-        "created": "2020-05-06T23:13:57.239Z",
-        "updated": "2020-05-06T23:13:57.239Z"
+        "aoiCount":1,
+        "aoiArea":798784,
+        "status":"OK",
+        "percentCompleted":100,
+        "params":{"partition_size":"0.05"},
+        "meta":{},
+        "messages":[],
+        "created":"2022-08-11T13:49:17.386035Z",
+        "updated":"2022-08-11T13:49:17.386035Z"
     }
 
-If the processing ends with an error, the response includes the error code and parameters in the messages section. 
-If different processing areas ends with the same errors, no duplicate errors are output. 
-
-Example of an erroneous handling response:
-
+If the processing failed, the response also contains the code and parameters of the error in the `messages` section.
+If different AOIs failed with the same error, only one of the repeated errors is returned.
+Example of the failed processing response:
 
 .. code:: json
-  
+
     {
         "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
-        <...>,
         "status":"FAILED",
         "percentCompleted":0,
         "messages":[{
@@ -199,6 +190,7 @@ Example of an erroneous handling response:
         ]
     }
 
+
 Get all processings
 """""""""""""""""""
 
@@ -211,19 +203,18 @@ Post processing
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-Creates and runs a processing, and returns its immediate state  
-Request body example:
+Creates and runs a processing, and returns its immediate state.
+Request body sample:
 
 .. code:: json
 
     {
-        "name": "Test",                                      #Name of this processing. Optional.
-        "description": "A simple test",                      #Arbitrary description of this processing. Optional.
-        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", #Project id. Optional. If not set, this user's default project will be used.
-        "wdName": "🏠 Buildings",                            #The name of a workflow definition.
-                                                             #Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
-        "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      #Workflow definition id. Either wdName or wdId may be specified.
-        "geometry": {                                        #A geojson geometry of the area of interest.
+        "name": "Test",                                      //Name of this processing. Optional.
+        "description": "A simple test",                      //Arbitrary description of this processing. Optional.
+        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be used.
+        "wdName": "🏠 Buildings",                            //The name of a workflow (AI model). Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
+        "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      //Workflow definition id. Either wdName or wdId may be specified.
+        "geometry": {                                        //A geojson geometry of the area of processing.
             "type": "Polygon",
             "coordinates": [
               [
@@ -275,7 +266,7 @@ Response: the newly created processing.
 Restart processing
 ^^^^^^^^^^^^^^^^^^
 
-``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``  
+``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
@@ -293,11 +284,9 @@ Get processing AOIs
 
 Returns a list of the defined geographical areas for processing in GeoJSON.  
 
-Response example:
-
+Response sample:
 
 .. code:: json
-
     [
         {
             "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
@@ -343,31 +332,99 @@ Downloading processing results
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
-Returns geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
+Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
 
 
-Upload GeoTIFF for processing
------------------------------
+Upload images (GeoTiff) for processing
+--------------------------------------
 
-``POST https://api.mapflow.ai/rest/rasters``
-
-Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
+Can be used to upload a raster to the platform's catalog for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
 The request is a multipart request whith the only part "file" - which contains the raster.
-Request example with ``cURL``:  
+All payloads should be ``application/json``, except ``/mosaic/{id}/image`` that accepts multipart/form-data
 
-    .. code:: bash
+Create and view image mosaic
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-          curl -X POST \
-          https://api.mapflow.ai/rest/rasters \
-          -H 'authorization: <Insert auth header value>' \
-          -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-          -F file=@custom_raster.tif
+Request: 
+
+``POST https://api.mapflow.ai/rest/mosaic``
+
+.. code:: json
+    
+    {
+      "tags": ["test", "mosaic"],
+      "shared" : true,
+    }
 
 
+Response:
 
-Response example:  
+``GET https://api.mapflow.ai/rest/mosaic``
 
-``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
+.. code:: json
+
+    {
+      "id": $uuid,
+      "tags": ["autumn", "summer"],
+      "shared": false,
+      "memory_used": 10000000 //in bytes
+    }
+
+Update existing mosaic
+^^^^^^^^^^^^^^^^^^^^^^
+
+``PUT https://api.mapflow.ai/rest/mosaic/{id}``
+
+Response - Image, returned from Create/Update/Rertieve methods:
+
+.. code:: json
+  
+  {
+    "id": $uuid,
+    "image_url": "http://...",
+    "preview_url": "http://...",
+    "uploaded_at": "2020-08-11T19:57:40.974170Z",
+    "memory_used": 10000000,
+    "footprint": { //Geometry as in GeoJSON. 
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                52.591552734375,
+                57.076574722762075
+              ],
+              [
+                52.03125,
+                56.77680831656842
+              ],
+              [
+                52.55859375,
+                56.668302075770065
+              ],
+              [
+                53.0419921875,
+                56.77078840398196
+              ],
+              [
+                52.591552734375,
+                57.076574722762075
+              ]
+            ]
+          ]
+    },
+    "filename": "raster.tif",
+    "checksum": $sha1_checksum,
+    "metadata": {
+      "dtypes": ["uint8", "uint8", "uint8"],
+      "width": 4096,
+      "height": 3851,
+      "nodata": 0.0,
+      "count": 3,
+      "crs": "",
+      "pixel_size": [0.1201, 0.1201]    
+    }
+  }
+
 
 
 API reference
@@ -437,4 +494,4 @@ status
    * - FAILED
      - The processing ended unsuccessfuly - change wrong params or try to restart
    * - OK
-     - The processing is finished at 100 percent completed 
+     - The processing is finished at 100 percent completed      

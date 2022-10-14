@@ -5,15 +5,14 @@ Payment
 ---------
 **How are payments made for using the platform? How much is it?**
 
-    In accordance with the User Agreement, the cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits (the equivalent in Russian rubles is displayed under the nominal value of credits). Our :doc:`tariffs </userguides/prices>`.
+    The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits (the equivalent in Russian rubles is displayed under the nominal value of credits). Our :doc:`tariffs </userguides/prices>`.
 
-**Can I get spent funds if I’m not satisfied with the processing results?**
-    
-    The funds spent are not refundable. Upon registration, we give you 250 credits to test Mapflow functionality. For a more detailed solution to the issue, you can write to us at help@geoalert.io.
+.. warning::
+    Online payments are temmporarly terminnated. We are working on replacing the payment provider, in the meanwhile reach out to get the quotation and pay by invoice.
 
 **I represent a company and would like to perform large volumes of processing, do you have corporate rates?**
 
-    We don’t, but you can email us at help@geoalert.io to discuss this issue privately.
+    Check our commercial plans for enterprise. You can email us at help@geoalert.io to discuss this issue privately.
 
 
 Satellite imagery
