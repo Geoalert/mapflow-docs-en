@@ -1,10 +1,10 @@
 .. _error-messages:
 
 Error messages in API
-==============
+---------------------
 
-.. list-table:: List of messages and parameters that can be in the `messages` section of the response for failed processings.
-   :widths: 15 15 25
+.. list-table:: List of messages and parameters that can be found in the `messages` section in case of the failed processings.
+   :widths: 10 15 40
    :header-rows: 1
 
    * - Error code

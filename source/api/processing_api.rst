@@ -177,7 +177,6 @@ Example of the failed processing response:
 
     {
         "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
-        <...>,
         "status":"FAILED",
         "percentCompleted":0,
         "messages":[{
@@ -207,19 +206,18 @@ Post processing
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-Creates and runs a processing, and returns its immediate state  
-Request body example:
+Creates and runs a processing, and returns its immediate state.
+Request body sample:
 
 .. code:: json
 
     {
-        "name": "Test",                                      #Name of this processing. Optional.
-        "description": "A simple test",                      #Arbitrary description of this processing. Optional.
-        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", #Project id. Optional. If not set, this user's default project will be used.
-        "wdName": "🏠 Buildings",                            #The name of a workflow definition.
-                                                             #Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
-        "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      #Workflow definition id. Either wdName or wdId may be specified.
-        "geometry": {                                        #A geojson geometry of the area of interest.
+        "name": "Test",                                      //Name of this processing. Optional.
+        "description": "A simple test",                      //Arbitrary description of this processing. Optional.
+        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be used.
+        "wdName": "🏠 Buildings",                            //The name of a workflow (AI model). Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
+        "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      //Workflow definition id. Either wdName or wdId may be specified.
+        "geometry": {                                        //A geojson geometry of the area of processing.
             "type": "Polygon",
             "coordinates": [
               [
@@ -271,7 +269,7 @@ Response: the newly created processing.
 Restart processing
 ^^^^^^^^^^^^^^^^^^
 
-``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``  
+``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
@@ -289,11 +287,9 @@ Get processing AOIs
 
 Returns a list of the defined geographical areas for processing in GeoJSON.  
 
-Response example:
-
+Response sample:
 
 .. code:: json
-
     [
         {
             "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
@@ -339,31 +335,99 @@ Downloading processing results
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
-Returns geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
+Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
 
 
-Upload GeoTIFF for processing
------------------------------
+Upload images (GeoTiff) for processing
+--------------------------------------
 
-``POST https://api.mapflow.ai/rest/rasters``
-
-Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
+Can be used to upload a raster to the platform's catalog for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
 The request is a multipart request whith the only part "file" - which contains the raster.
-Request example with ``cURL``:  
+All payloads should be ``application/json``, except ``/mosaic/{id}/image`` that accepts multipart/form-data
 
-    .. code:: bash
+Create and view image mosaic
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-          curl -X POST \
-          https://api.mapflow.ai/rest/rasters \
-          -H 'authorization: <Insert auth header value>' \
-          -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-          -F file=@custom_raster.tif
+Request: 
+
+``POST https://api.mapflow.ai/rest/mosaic``
+
+.. code:: json
+    
+    {
+      "tags": ["test", "mosaic"],
+      "shared" : true,
+    }
 
 
+Response:
 
-Response example:  
+``GET https://api.mapflow.ai/rest/mosaic``
 
-``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
+.. code:: json
+
+    {
+      "id": $uuid,
+      "tags": ["autumn", "summer"],
+      "shared": false,
+      "memory_used": 10000000 //in bytes
+    }
+
+Update existing mosaic
+^^^^^^^^^^^^^^^^^^^^^^
+
+``PUT https://api.mapflow.ai/rest/mosaic/{id}``
+
+Response - Image, returned from Create/Update/Rertieve methods:
+
+.. code:: json
+  
+  {
+    "id": $uuid,
+    "image_url": "http://...",
+    "preview_url": "http://...",
+    "uploaded_at": "2020-08-11T19:57:40.974170Z",
+    "memory_used": 10000000,
+    "footprint": { //Geometry as in GeoJSON. 
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                52.591552734375,
+                57.076574722762075
+              ],
+              [
+                52.03125,
+                56.77680831656842
+              ],
+              [
+                52.55859375,
+                56.668302075770065
+              ],
+              [
+                53.0419921875,
+                56.77078840398196
+              ],
+              [
+                52.591552734375,
+                57.076574722762075
+              ]
+            ]
+          ]
+    },
+    "filename": "raster.tif",
+    "checksum": $sha1_checksum,
+    "metadata": {
+      "dtypes": ["uint8", "uint8", "uint8"],
+      "width": 4096,
+      "height": 3851,
+      "nodata": 0.0,
+      "count": 3,
+      "crs": "",
+      "pixel_size": [0.1201, 0.1201]    
+    }
+  }
+
 
 
 API reference

@@ -51,7 +51,6 @@ Use with GIS...
    kepler/kepler
    userguides/iterative_mapping
 
-
 ********************
 Reference materials 
 ********************
@@ -63,6 +62,7 @@ Reference materials
    um/classes
    forest/classes
    requirements
+   api/error_messages
 
 ***************************
 Frequently asked questions
@@ -81,8 +81,6 @@ PDFs
 * :download:`Mapflow User Guide <userguides/_static/_downloads/get_started.pdf>`
 * :download:`Mapflow Data pipelines <userguides/_static/_downloads/pipelines.pdf>`
 * :download:`Mapflow tariffs <userguides/_static/_downloads/prices.pdf>`
-
-
 
 .. only:: html
 
