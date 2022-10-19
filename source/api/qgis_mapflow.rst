@@ -36,6 +36,7 @@ You need to log in with your credentials to start using the plugin. Go to `mapfl
          :alt: Login window
          :align: center
          :width: 9cm
+
 |
 
 
@@ -75,7 +76,9 @@ Main plugin workspace is divided into 3 tabs:
     :header-rows: 1 
     :class: longtable
     :widths: 1 3  
+
 |
+
 
 **Start processings and display the output on the map**
 
@@ -294,7 +297,9 @@ Select the image and copy link to TMS.
          :alt: Search for imagery in Openaerialmap 
          :align: center
          :width: 15cm
+
   |
+
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
 
 For start processing for this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
@@ -303,6 +308,7 @@ For start processing for this data source, go to the *Processing* tab, fill in a
          :alt: Custom imagery service
          :align: center
          :width: 15cm
+
  |
 
 .. list-table::
@@ -316,7 +322,7 @@ For start processing for this data source, go to the *Processing* tab, fill in a
    * - URL
      - URL of the imagery data provider
    * - Type
-     - Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP (see :ref:`source-type`).
+     - Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.
 
 
 How to process your own imagery
@@ -328,6 +334,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
          :alt: Upload TIF, select from list
          :align: center
          :width: 15cm
+
 |
 
 .. important::
@@ -348,4 +355,5 @@ If you behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will pl
          :alt: Proxy settings
          :align: center
          :width: 15cm
+
 |

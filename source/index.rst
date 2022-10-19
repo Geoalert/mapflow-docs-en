@@ -64,6 +64,16 @@ Reference materials
    requirements
    api/error_messages
 
+********************
+Mapflow models 
+********************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   userguides/models_changelog/index
+
 ***************************
 Frequently asked questions
 ***************************

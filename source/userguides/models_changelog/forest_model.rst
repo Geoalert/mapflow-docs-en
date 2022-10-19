@@ -1,5 +1,5 @@
 Forest
-=======
+------
 
 Forest Segmentation. The model is trained on high-resolution data (2m ) for central and boreal Russia in summer period.
 

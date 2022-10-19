@@ -4,7 +4,7 @@ Error messages in API
 ---------------------
 
 .. list-table:: List of messages and parameters that can be found in the `messages` section in case of the failed processings.
-   :widths: 10 15 40
+   :widths: 10 20 30
    :header-rows: 1
 
    * - Error code
@@ -12,7 +12,7 @@ Error messages in API
      - Description
      
    * - source-validator.UrlMustBeString
-     - {url_type}
+     - url_type
      - Key 'url' in your request must be a string, got {url_type} instead.  
 
    * - source-validator.UrlMustBeLink
@@ -20,27 +20,27 @@ Error messages in API
      - Your URL must be a link starting with "http://" or "https://".
 
    * - source-validator.UrlFormatInvalid
-     - {parse_error_message}
+     - parse_error_message
      - Format of 'url' is invalid and cannot be parsed. Error: {parse_error_message}
 
    * - source-validator.ZoomMustBeInteger
-     - {actual_zoom}
+     - actual_zoom
      - Zoom must be either empty, or integer, got {actual_zoom}
 
    * - source-validator.InvalidZoomValue
-     - {actual_zoom}  
+     - actual_zoom}
      - Zoom must be between 0 and 22, got {actual_zoom}
 
    * - source-validator.TooHighZoom
-     - {max_zoom}, {actual_zoom}
+     - max_zoom, actual_zoom
      - Zoom must be not higher than {max_zoom}, got {actual_zoom}
 
    * - source-validator.TooLowZoom
-     - {min_zoom},  {actual_zoom}
+     - min_zoom,  actual_zoom
      - Zoom must be not lower than {min_zoom}, got {actual_zoom}
 
    * - source-validator.UrlBlacklisted
-     - {url}
+     - url
      - The specified basemap {url} is forbidden for processing because it contains a map, not satellite image. Our models are suited for satellite imagery.
   
    * - source-validator.ImageMetadataMustBeDict
@@ -52,7 +52,7 @@ Error messages in API
      - Image metadata must have keys: crs, transform, dtype, count
 
    * - source-validator.S3URLError
-     - {actual_s3_link}
+     - actual_s3_link
      - URL of the image at s3 storage must be a string starting with s3://, got {actual_s3_link}
 
    * - source-validator.LocalRequestKeyError
@@ -60,27 +60,35 @@ Error messages in API
      - Request must contain either 'profile' or 'url' keys
 
    * - source-validator.ReadFromS3Failed
-     - {s3_link}
+     - s3_link
      - Failed to read file from {s3_link}.
+ 
+   * - source-validator.ImageReadError
+     -
+     - We could not open and read the image you have uploaded
+ 
+   * - source-validator.BadImageProfile
+     - profile, required_keys
+     - Image profile (metadata) must have keys {required_keys}, got profile {profile }
 
    * - source-validator.DtypeNotAllowed
-     - {required_dtypes}, {request_dtype}
+     - required_dtypes, request_dtype
      - Image data type (Dtype) must be one of {required_dtypes}, got {request_dtype} 
 
    * - source-validator.NChannelsNotAllowed
-     - {required_nchannels}, {real_nchannels}
+     - required_nchannels, real_nchannels
      - Number of channels in image must be one of {required_nchannels}. Got {real_nchannels} 
 
    * - source-validator.PixelSizeTooLow
-     - {actual_res}, {min_res}
+     - actual_res, min_res
      - Spatial resolution of you image is too low: pixel size is {actual_res}, maximum allowed pixel size is {max_res} 
 
    * - source-validator.PixelSizeTooHigh
-     - {actual_res}, {max_res}
+     - actual_res, max_res
      - Spatial resolution of you image is too low: pixel size is {actual_res}, maximum allowed pixel size is {max_res} 
 
    * - source-validator.ImageCheckError
-     - {checked_param}, {message}, {metadata}
+     - checked_param, message, metadata
      - Error occurred during image {checked_param} check: {message}. Image metadata = {metadata}.
 
    * - source-validator.QuadkeyLinkFormatError
@@ -92,15 +100,19 @@ Error messages in API
      - Sentinel_L2A request must contain field named 'url' with string value
 
    * - source-validator.SentinelInputStringFormatError
-     - {input_string}
+     - input_string
      - Input string {input_string} is of unknown format. It must represent Sentinel-2 granule ID
 
    * - source-validator.GridCellOutOfBound
-     - {actual_cell}, {allowed_cells} 
+     - actual_cell, allowed_cells 
      - Selected Sentinel-2 image cell is {actual_cell}, this model is for the cells: {allowed_cells}
 
+   * - source-validator.AOINotInCell
+     - actual_cell
+     - AOI does not intersect the selected Sentinel-2 granule {actual_cell}
+   
    * - source-validator.MonthOutOfBounds
-     - {actual_month},{allowed_months}
+     - actual_month, allowed_months
      - Selected Sentinel-2 image month is {actual_month}, this model is for: {allowed_months}
 
    * - source-validator.TMSLinkFormatError
@@ -108,11 +120,11 @@ Error messages in API
      - You request TMS basemap link doesn't match the format, it must be a link containing '{x}', '{y}', '{z}' placeholders, correct it and start processing again.
 
    * - source-validator.RequirementsMustBeDict
-     - {requirements_type}
+     - requirements_type
      - Requirements must be dict, got {requirements_type}.
 
    * - source-validator.RequestMustBeDict
-     - {request_type}
+     - request_type
      - Request must be dict, got {request_type}.
 
    * - source-validator.RequestMustHaveSourceType
@@ -120,20 +132,24 @@ Error messages in API
      - Request must contain \"source_type\" key
 
    * - source-validator.SourceTypeIsNotAllowed
-     - {source_type},{allowed_sources}
+     - source_type, allowed_sources
      - Source type {source_type} is not allowed. Use one of: {allowed_sources}
 
    * - source-validator.RequiredSectionMustBeDict
-     - {required_section_type}
+     - required_section_type
      - "Required" section of the requirements must contain dict, not {required_section_type}
 
    * - source-validator.RecommendedSectionMustBeDict
-     - {recommended_section_type}
+     - recommended_section_type
      - "Recommended" section of the requirements must contain dict, not {recommended_section_type}
 
    * - source-validator.XYZLinkFormatError
      - 
      - You XYZ basemap link doesn't match the format, it must be a link containing '{x}', '{y}', '{z}' placeholders.
+
+   * - source-validator.TaskMustContainAoi
+     -
+     - Task for source-validation must contain area of interest ('geometry' section)
 
    * - source-validator.UnhandledException
      - 

@@ -11,6 +11,7 @@ Processing API
        :alt: Preview results
        :align: left
        :width: 1cm
+
    Check and run this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
 
 .. important::
@@ -143,13 +144,13 @@ Response example:
         "vectorLayer": {
             "id": "544a7a6b-bc7f-4fbe-9caf-b2990e8616f9",
             "name": "err",
-            "tileJsonUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
-            "tileUrl": "https://vector-internal.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
+            "tileJsonUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
+            "tileUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
         },
         "rasterLayer": {
             "id": "0ffc6ri8-b080-41e8-957c-3dd07f933f0a",
-            "tileJsonUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c",
-            "tileUrl": "https://rasters-internal.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c"
+            "tileJsonUrl": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c",
+            "tileUrl": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c"
         },
         "workflowDef": {
             "id": "e973aa99-3422-46b3-a968-d8a252b64345",
@@ -190,6 +191,7 @@ Example of the failed processing response:
         ]
     }
 
+Possible error codes, parameters and desctiptions see in :doc:`Error Messages</api/error_messages>`
 
 Get all processings
 """""""""""""""""""
@@ -287,6 +289,7 @@ Returns a list of the defined geographical areas for processing in GeoJSON.
 Response sample:
 
 .. code:: json
+
     [
         {
             "id": "b86127bb-38bc-43e7-9fa9-54b37a0e17af",
@@ -320,9 +323,7 @@ Response sample:
                 ]
             },
             "area": 265197,
-            "externalWfIds": [
-                "146923"
-            ]
+            "messages": []
         }
     ]
 
@@ -427,8 +428,8 @@ Response - Image, returned from Create/Update/Rertieve methods:
 
 
 
-API reference
--------------
+Parameter values
+----------------
 
 wdName
 """"""
