@@ -1,5 +1,5 @@
 Buildings (Aerial imagery)
-=========================
+--------------------------
 
 This model is specifically designed to make use of very high resolution aerial imagery (10 cm per pixel) for extraction of small buildings and structures. It is best suited for rural and suburban residential areas.
 
