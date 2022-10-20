@@ -339,92 +339,26 @@ Returns Geojson results of this processing as an octet stream. Should only be ca
 Upload images (GeoTiff) for processing
 --------------------------------------
 
-Can be used to upload a raster to the platform's catalog for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
+``POST https://api.mapflow.ai/rest/rasters``
+
+Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
 The request is a multipart request whith the only part "file" - which contains the raster.
-All payloads should be ``application/json``, except ``/mosaic/{id}/image`` that accepts multipart/form-data
+Request example with ``cURL``:  
 
-Create and view image mosaic
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .. code:: bash
 
-Request: 
-
-``POST https://api.mapflow.ai/rest/mosaic``
-
-.. code:: json
-    
-    {
-      "tags": ["test", "mosaic"],
-      "shared" : true,
-    }
+          curl -X POST \
+          https://api.mapflow.ai/rest/rasters \
+          -H 'authorization: <Insert auth header value>' \
+          -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+          -F file=@custom_raster.tif
 
 
-Response:
 
-``GET https://api.mapflow.ai/rest/mosaic``
+Response example:  
 
-.. code:: json
+``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
 
-    {
-      "id": $uuid,
-      "tags": ["autumn", "summer"],
-      "shared": false,
-      "memory_used": 10000000 //in bytes
-    }
-
-Update existing mosaic
-^^^^^^^^^^^^^^^^^^^^^^
-
-``PUT https://api.mapflow.ai/rest/mosaic/{id}``
-
-Response - Image, returned from Create/Update/Rertieve methods:
-
-.. code:: json
-  
-  {
-    "id": $uuid,
-    "image_url": "http://...",
-    "preview_url": "http://...",
-    "uploaded_at": "2020-08-11T19:57:40.974170Z",
-    "memory_used": 10000000,
-    "footprint": { //Geometry as in GeoJSON. 
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                52.591552734375,
-                57.076574722762075
-              ],
-              [
-                52.03125,
-                56.77680831656842
-              ],
-              [
-                52.55859375,
-                56.668302075770065
-              ],
-              [
-                53.0419921875,
-                56.77078840398196
-              ],
-              [
-                52.591552734375,
-                57.076574722762075
-              ]
-            ]
-          ]
-    },
-    "filename": "raster.tif",
-    "checksum": $sha1_checksum,
-    "metadata": {
-      "dtypes": ["uint8", "uint8", "uint8"],
-      "width": 4096,
-      "height": 3851,
-      "nodata": 0.0,
-      "count": 3,
-      "crs": "",
-      "pixel_size": [0.1201, 0.1201]    
-    }
-  }
 
 
 
