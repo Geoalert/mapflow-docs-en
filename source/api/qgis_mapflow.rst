@@ -79,6 +79,23 @@ Main plugin workspace is divided into 3 tabs:
 
 |
 
+* **How to add a new AOI**
+
+The plugin has several built-in options for adding AOI.
+
+   1. Create new AOI from the map extent using the "+" button;
+
+   2. Upload the existing AOI using the "+" button;
+
+   3. Use the extent of the uploaded image;
+
+  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one.
+
+  .. figure:: _static/qgis/AOI_button.png
+         :alt: Veiw of the aoi 
+         :align: center
+         :width: 15cm
+|
 
 **Start processings and display the output on the map**
 
@@ -328,7 +345,7 @@ For start processing for this data source, go to the *Processing* tab, fill in a
 How to process your own imagery
 ------------------------------------
 
-You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS are visible in the drop-down list and can be selected for upload. Opening files from the *Additional options* button also adds it to the list of QGIS layers with a choice.
+You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. Opening files from the *Additional options* button (3) also adds it to the list of QGIS layers with a choice.
 
  .. figure:: _static/qgis/upload_tif.png
          :alt: Upload TIF, select from list
