@@ -361,7 +361,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
     * **Check the data type** 
           The Data type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto8bit`.
 
-          If you are familiar with GitHub, you can use our `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ to convert your data to 8 bit. 
+          Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
     * **Check the number of channels**  
           Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not
           tuned for such kind of data, so the quality of the result may be worse than expected.
