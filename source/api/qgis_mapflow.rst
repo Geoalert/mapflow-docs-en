@@ -355,12 +355,28 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 |
 
 .. important::
-  You should follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. 
-  You can use our `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ to convert your data to 8 bit. Make sure that your imagery is georeferenced in geographic or projected coordinate system.
 
-  Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+  Please, follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform.
+
+    * **Check the data type** 
+          The Data type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto8bit`.
+
+          Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
+    * **Check the number of channels**  
+          Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not
+          tuned for such kind of data, so the quality of the result may be worse than expected.
+    * **Check the projection and georeference** 
+          Make sure that your imagery is georeferenced in geographic or projected coordinate system.
+    * **Check the resolution**
+          The resolution restrictions vary for different models, see :ref:`Models reference`   
   
-  Send a request using data preprocessing to help@geoalert.io.
+
+  You could send a request using data preprocessing to help@geoalert.io
+
+
+|
+
+
 
 
 Proxy-settings
@@ -374,3 +390,5 @@ If you behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will pl
          :width: 15cm
 
 |
+
+.. include:: howto8bit.rst
