@@ -115,6 +115,21 @@ Request body example:
 
 Response: the newly created project.
 
+Rename project
+""""""""""""""
+
+``PUT https://api.mapflow.ai/rest/projects/{projectId}``
+
+Request body example:
+
+.. code:: json
+
+    {
+      "name": "new name (optional)",
+      "description": "new description (optional)"
+    }
+
+
 Delete project
 """"""""""""""
 
@@ -124,6 +139,20 @@ Deletes the project. Cascade deletes any child entities.
 
 Processings
 -----------
+
+Get all processings
+"""""""""""""""""""
+
+``GET https://api.mapflow.ai/rest/processings``
+
+Returns the list of the user's processings by the Default project
+
+Get all processings by Project Id
+"""""""""""""""""""""""""""""""""
+
+``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``
+
+Returns the list of the user's processings by user's project
 
 Get processing
 """"""""""""""
@@ -192,13 +221,7 @@ Example of the failed processing response:
     }
 
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages</api/error_messages>`
-
-Get all processings
-"""""""""""""""""""
-
-``GET https://api.mapflow.ai/rest/processings``
-
-Returns the list of this user's processings.  
+ 
 
 Post processing
 """""""""""""""
@@ -265,22 +288,38 @@ To process a user-provided raster (see `Upload GeoTIFF for processing` section),
 
 Response: the newly created processing.
 
+
+Rename processing
+"""""""""""""""""
+
+``PUT https://api.mapflow.ai/rest/processing/{processingId}``
+
+Request body example:
+
+.. code:: json
+
+    {
+      "name": "new name (optional)",
+      "description": "new description (optional)"
+    }
+
+
 Restart processing
-^^^^^^^^^^^^^^^^^^
+""""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
 Delete processing
-^^^^^^^^^^^^^^^^^
+""""""""""""""""""
 
 ``DELETE https://api.mapflow.ai/rest/processings/{processingId}``
 
 Deletes this processing. Cascade deletes any child entities.
 
 Get processing AOIs
-^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``  
 
@@ -329,7 +368,7 @@ Response sample:
 
 
 Downloading processing results
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
