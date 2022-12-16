@@ -74,6 +74,17 @@ Mapflow models
 
    userguides/models_changelog/index
 
+************
+User guides
+************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   userguides/howto8bit
+   userguides/howto-image
+
 ***************************
 Frequently asked questions
 ***************************

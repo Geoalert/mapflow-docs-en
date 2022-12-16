@@ -95,7 +95,7 @@ The plugin has several built-in options for adding AOI.
          :alt: Veiw of the aoi 
          :align: center
          :width: 15cm
-|
+
 
 **Start processings and display the output on the map**
 
@@ -342,10 +342,10 @@ For start processing for this data source, go to the *Processing* tab, fill in a
      - Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.
 
 
-How to process your own imagery
-------------------------------------
+How to upload your image
+-------------------------
 
-You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. Opening files from the *Additional options* button (3) also adds it to the list of QGIS layers with a choice.
+You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. Opening files from the *Additional options* button (3) also adds it to the tree of QGIS layers.
 
  .. figure:: _static/qgis/upload_tif.png
          :alt: Upload TIF, select from list
@@ -359,7 +359,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
   Please, follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform.
 
     * **Check the data type** 
-          The Data type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto8bit`.
+          The Data type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`../userguides/howto8bit`.
 
           Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
     * **Check the number of channels**  
