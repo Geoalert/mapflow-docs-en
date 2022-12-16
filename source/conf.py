@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # -- Project information -----------------------------------------------------
 
 project = 'Mapflow'
-copyright = '2021, Geoalert'
+copyright = '2021-2022, Geoalert'
 author = 'Geoalert'
 
 
