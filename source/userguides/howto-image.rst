@@ -77,7 +77,7 @@ Alternatively: use the `preprocessing script <https://github.com/Geoalert/mapflo
 You can reduce the size of the image using GDAL translate. (https://gdal.org/)
 E.g. using JPEG compression.
 ``gdal_translate -co compress=JPEG input.tif output.tif``
-By default the compression quality is 75% (``gdal_translate -co compress=JPEG -co jpeg_quality = 75 input.tif output.tif``) but it doesn’t really impact the quality of the Mapflow mask whenever the resolution of the input iage meets the recommended params.
+By default the compression quality is 75% (``gdal_translate -co compress=JPEG -co jpeg_quality=75 input.tif output.tif``) but it doesn’t really impact the quality of the Mapflow mask whenever the resolution of the input iage meets the recommended params.
 
 The same can be done using QGIS interface:
 
