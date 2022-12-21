@@ -666,3 +666,6 @@ Response example:
 ``maxResolution`` - optional, defines the maximum allowed resolution in m / pixel
 
 ``minResolution`` - optional, defines the minimum allowed resolution in m / pixel
+
+
+.. include:: error_messages.rst

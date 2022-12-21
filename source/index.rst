@@ -48,21 +48,7 @@ Use with GIS...
    :maxdepth: 1
 
    api/qgis_mapflow
-   kepler/kepler
    userguides/iterative_mapping
-
-********************
-Reference materials 
-********************
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   um/classes
-   forest/classes
-   requirements
-   api/error_messages
 
 ********************
 Mapflow models 
@@ -82,8 +68,19 @@ User guides
    :glob:
    :maxdepth: 1
 
-   userguides/howto8bit
-   userguides/howto-image
+   userguides/howto
+
+********************
+Reference materials 
+********************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   um/classes
+   forest/classes
+   userguides/requirements
 
 ***************************
 Frequently asked questions
@@ -94,6 +91,7 @@ Frequently asked questions
    :maxdepth: 1
    
    faq.rst
+   
    
 ******************
 PDFs

@@ -390,5 +390,3 @@ If you behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will pl
          :width: 15cm
 
 |
-
-.. include:: howto8bit.rst

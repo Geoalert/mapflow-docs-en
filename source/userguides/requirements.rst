@@ -1,7 +1,7 @@
 Requirements for using the platform
 ====================================
 
-Follow the requirements listed on the page with :doc:`Models reference <userguides/pipelines>` to process images with the Mapflow platform.
+Follow the requirements listed on the page with :doc:`Models reference <pipelines>` to process images with the Mapflow platform.
 
 .. note::
     Please pay attention to the following:
