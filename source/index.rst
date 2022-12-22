@@ -97,9 +97,9 @@ Frequently asked questions
 PDFs
 ******************
 
-* :download:`Mapflow User Guide <userguides/_static/_downloads/get_started.pdf>`
-* :download:`Mapflow Data pipelines <userguides/_static/_downloads/pipelines.pdf>`
-* :download:`Mapflow tariffs <userguides/_static/_downloads/prices.pdf>`
+* :download:`Mapflow User Guides <userguides/_static/_downloads/user_guides.pdf>`
+* :download:`Mapflow AI-Mapping models <userguides/_static/_downloads/pipelines.pdf>`
+* :download:`Mapflow Customization <userguides/_static/_downloads/mapflow_custom.pdf>`
 
 .. only:: html
 
