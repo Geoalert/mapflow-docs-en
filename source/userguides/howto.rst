@@ -175,7 +175,7 @@ These settings allow you to choose a more suitable type of received data:
 
 
 Filters tab
-^^^^^^^^^^^^
+^^^^^^^^^^^
 
 This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, the filter is set by classes with different typology of buildings).
 

@@ -62,7 +62,7 @@ version = '0'
 
 html_theme_options = {
     'display_version': False,
-    'logo_only': True,
+    'logo_only': True
 }
 html_logo = '_static/logo_mapflow.png'
 
@@ -76,8 +76,8 @@ html_static_path = ['_static']
 html_css_files = ['globals.css']
 
 # -- Options for Edit on github ----------------------------------------------
-edit_on_gitlab_user = ''
-edit_on_github_branch = 'main'
+edit_on_gitlab_user = 'geoalert'
+edit_on_github_branch = 'main/source'
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.

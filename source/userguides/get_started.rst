@@ -9,57 +9,55 @@ How to run your mapping flow
 
 Mapflow is designed to be intuitive. Here is our step-by-step user guide: 
 
-.. figure:: _static/ui_flow_basic.png
-  :alt: UI Mapflow – run a flow
-  :align: center
-  :width: 18cm
-|
+  .. image:: _static/ui_flow_basic.png
+    :alt: UI Mapflow – run a flow
+    :align: center
+    :width: 18cm
+
 
 1. Data source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.1. Select raster source
 """""""""""""""""""""""""""
-.. figure:: _static/select_provider.png
-    :alt: Select provider
-    :align: center
-    :width: 18cm
+  .. image:: _static/select_provider.png
+      :alt: Select provider
+      :align: center
+      :scale: 60
 
-|
+- Imagery providers
 
-    - Imagery providers
+  Here you can select one of the providers:
 
-     Here you can select one of the providers:
-
-      * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
-      * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
-      
-        .. figure:: _static/image_metadata.png
-          :alt: Search image metadata
-          :align: center
-          :width: 15cm
- 
-    - Custom URL
-
-    The interface of this tab allows you to:
+  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
+  * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
+  
+    .. image:: _static/image_metadata.png
+        :alt: Search image metadata
+        :align: center
+        :width: 15cm
 
 
-      * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
-      * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
-      * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
-      * Set source image coordinate reference system (espg:3857 or espg:3395);
-      * Reset all entered custom parameters;
-      * Return to defult Imagery providers.
+- Custom URL
+
+The interface of this tab allows you to:
+
+  * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
+  * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
+  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+  * Set source image coordinate reference system (espg:3857 or espg:3395);
+  * Reset all entered custom parameters;
+  * Return to defult Imagery providers.
 
 
-  - GeoTIFF
+- GeoTIFF
 
-    Here you can upload your own image in GeoTiff format.
+  Here you can upload your own image in GeoTiff format.
 
     .. important:: 
       Currently a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
       
-      The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI.
+The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI.
 
     Image upload capabilities:
 
@@ -81,13 +79,13 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 1.2. Specify area of interest
 """""""""""""""""""""""""""""""
 
-  .. figure:: _static/ui_map_select_source.png
+  .. image:: _static/ui_map_select_source.png
    :alt: Select AOI
    :align: center
    :width: 15cm
-  |
+ 
 
-  This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
  .. attention:: 
    Be aware that for now, only a single area can be drawn or uploaded per flow. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start a flow for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
@@ -138,30 +136,30 @@ In this tab, a card is created with your started processing. The card displays t
 
 After successful ended of processing, the card can be opened to view more detailed information about the processing parameters - AI Model, Post-processing, Area, Data Source.
 
-.. figure:: _static/processing_card.png
-    :alt: Processing card
-    :align: center
-    :width: 8cm
-|
+  .. image:: _static/processing_card.png
+      :alt: Processing card
+      :align: center
+      :width: 8cm
 
 
 Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
 
-.. figure:: _static/preview_map.png
-    :alt: Preview results
-    :align: center
-    :width: 18cm
-|
+  .. image:: _static/preview_map.png
+      :alt: Preview results
+      :align: center
+      :width: 18cm
+
+
 .. important:: 
   Please rate the quality of the received processing results! Your assessment is important for further improving the Mapflow models.
 
 The Additional parameters button includes:
 
-.. figure:: _static/additional_parameters.png
-    :alt: Additional parameters
-    :align: center
-    :width: 8cm
-|
+  .. image:: _static/additional_parameters.png
+      :alt: Additional parameters
+      :align: center
+      :width: 8cm
+
 
 - Click "Duplicate" on an existing flow to use its parameters as a starting point for a new flow (on restart with the same parameters, a new processing is started).
 - Click "Source details" on the existing flow to view information about job sourse details, such as *Area of interest* in geojson format and *Source image url*.
@@ -176,19 +174,19 @@ Options for actions with processing results will become available in the Additio
  .. note::
   `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_ also allows you to save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Just click "Save" and select the format of your preference in the menu bar.
 
- .. figure:: _static/geojson.io.png
-   :name: Preview map
-   :align: center
-   :width: 15cm
-|
+  .. image:: _static/geojson.io.png
+    :name: Preview map
+    :align: center
+    :width: 15cm
+
 
 3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
 
- .. figure:: _static/kepler_gl.png
-   :alt: Preview map
-   :align: center
-   :width: 15cm
-|
+  .. image:: _static/kepler_gl.png
+    :alt: Preview map
+    :align: center
+    :width: 15cm
+
 
  .. note::
    You can find detailed information about kepler.gl in the `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
@@ -204,8 +202,8 @@ If you are developing application and want to use our API, - check out :doc:`../
 
 The service uses the **Basic Auth** authorization type - use the API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
-.. figure:: _static/api_tab.png
-  :alt: Preview map
-  :align: center
-  :width: 8cm
+  .. image:: _static/api_tab.png
+    :alt: Preview map
+    :align: center
+    :width: 8cm
 
