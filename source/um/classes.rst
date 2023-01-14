@@ -55,7 +55,7 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
     :align: center
     :width: 20cm
 
-    Urban Mapping classes in Evergis online
+    Urban Mapping classes in Carto
 
 
 .. figure:: _static/img/Evergis.png
@@ -63,4 +63,4 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
     :align: center
     :width: 20cm
 
-    Urban Mapping classes in Carto
+    Urban Mapping classes in Evergis Online
