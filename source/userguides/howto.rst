@@ -56,7 +56,7 @@ Processing with Mapflow Web
 
 1. Select raster source – you can either use Custom URL (see below how to publish your image with Openaerialmap and get the TMS link) or upload your image as GeoTIFF.
 
-    .. image:: _static/select_provider_2.png
+.. image:: _static/select_provider_2.png
             :align: center
             :class: with-border
             :scale: 50
@@ -116,7 +116,7 @@ Preparing and optimizing the large size images
 Here are few tips on how to prepare and optimize your data and reduce the image size to upload it faster and not to exceed the Mapflow upload limit.
 
 Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 bit. 
-The type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto8bit`.
+The type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto`.
 Alternatively: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ for preparing your image for Mapflow processing.
 
 You can reduce the size of the image using GDAL translate. (https://gdal.org/)
