@@ -30,7 +30,7 @@ Mapflow-QGIS pricing model
    Mapflow-QGIS has another pricing which is per sq.km
 
 We are working an universal billing solution which will allow to charge in credits for all processing and imagery access services using Mapflow.
-In the meanwhile beware of the temporary procing model for Mapflow-QGIS:
+In the meanwhile beware of the temporary pricing model for Mapflow-QGIS:
 
    .. tabularcolumns:: |p{7cm}|p{2cm}|p{2cm}|p{2cm}|
 
