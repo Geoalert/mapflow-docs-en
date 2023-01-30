@@ -28,8 +28,19 @@ Getting Started with Mapflow
 
 
 *****************
-Mapflow services
+Mapflow AI models
 *****************
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   userguides/pipelines
+   userguides/models_changelog/index
+
+*************
+Mapflow API
+*************
 
 .. toctree::
    :glob:
@@ -37,7 +48,7 @@ Mapflow services
 
    userguides/mapflow_auth
    api/processing_api
-   userguides/pipelines
+   api/data_api
 
 *****************
 Use with GIS...
@@ -49,16 +60,6 @@ Use with GIS...
 
    api/qgis_mapflow
    userguides/iterative_mapping
-
-********************
-Mapflow models 
-********************
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   userguides/models_changelog/index
 
 ************
 User guides
