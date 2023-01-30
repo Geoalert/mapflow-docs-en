@@ -14,12 +14,7 @@ Mapflow Data API
 .. note::
     Data API allows to manage your imagery, organise it into collections (mosaics), reuse for processings with Mapflow and preview them as XYZ layers.
     👉 To use the imagery processing API see :doc:`this documentation <processing_api>`
-
-.. note::
-    What is "mosaic"? This is the collection of single images, aimed at instant preview and processing. It's helpful in such cases as mosaicing the number of single aerial images covering some area or batching the large ortho-plan for faster uploading and optimized storing it in the cloud.
-
-.. attention::
-    ⚠️ The uploaded images are required to have the same georeference system, number of bands, and spatial resolution.    
+ 
 
 Authorization
 --------------
@@ -29,10 +24,16 @@ The API uses the ``Basic Auth`` authorization method, for details about how it w
 Manage Imagery Mosaics
 ----------------------
 
+.. note::
+    What is "mosaic"? This is the collection of single images, aimed at instant preview and processing. It's helpful in such cases as mosaicing the number of single aerial images covering some area or batching the large ortho-plan for faster uploading and optimized storing it in the cloud.
+
+
 Create mosaic
 '''''''''''''
 
 ``POST https://api.mapflow.ai/rest/rasters/mosaic`` 
+
+Creates the mosaic (the empty collection of images) and returns its ID.
 
 .. code:: bash
 
@@ -47,7 +48,22 @@ Create mosaic
         ]
     }'
 
-Creates the mosaic (the empty collection of images) and returns its ID. 
+Creates mosaic and uploads images to the mosaic
+''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. code:: bash
+
+    curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic/mosaic?name={name}&tags={tag1}&tags={tag2}' \
+    --header 'Content-Type: multipart/form-data' \
+    --header 'Authorization: Basic <Basic Auth>' \
+    --form 'file=@"/path/to/file"'
+
+
+Get mosaic
+'''''''''''
+
+``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}`` 
+
 
 Update mosaic
 ''''''''''''''
@@ -68,42 +84,16 @@ Update mosaic
 Upload images to the existing mosaic
 ''''''''''''''''''''''''''''''''''''''
 
-``POST https://api.mapflow.ai/rest/rasters/{mosaic_id}/image`` 
-
-Creates mosaic and uploads images to the mosaic.
-
-.. code:: bash
-
-    curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic?name={name}&tags={tag1}&tags={tag2}' \
-    --header 'Content-Type: multipart/form-data' \
-    --header 'Authorization: Basic <Basic Auth>' \
-    --form 'file=@"/path/to/file"'
-
-Get mosaic
-'''''''''''
-
-``GET https://api.mapflow.ai/rest/rasters/{mosaic_id}`` 
-
-Delete mosaic
-''''''''''''''
-
-``DELETE https://api.mapflow.ai/rest/rasters/{mosaic_id}`` 
-
 .. attention::
-    Deleting mosaic also deletes all linked images and they cannot be restored
+    ⚠️ The uploaded images are required to have the same georeference system, number of bands, and spatial resolution.   
 
-Manage Images
--------------
+``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/image`` 
 
-Get image metadata by image ID
-''''''''''''''''''''''''''''''''
-
-``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``
 
 Link image to the existing mosaic
 ''''''''''''''''''''''''''''''''''''
 
-``POST https://api.mapflow.ai/rest/rasters/{mosaic_id}/link-image``
+``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``
 
 .. code:: bash
 
@@ -122,6 +112,25 @@ Response example:
     "message": "File successfully linked to a mosaic",
     "mosaic_id": "6ee95ae6-f26e-41bd-8cb1-39bea545119f"
     }
+
+
+Delete mosaic
+''''''''''''''
+
+.. attention::
+    Deleting mosaic also deletes all linked images and they cannot be restored
+
+
+``DELETE https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}`` 
+
+
+Manage Images
+-------------
+
+Get image metadata by image ID
+''''''''''''''''''''''''''''''''
+
+``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``
 
 Delete image
 ''''''''''''
