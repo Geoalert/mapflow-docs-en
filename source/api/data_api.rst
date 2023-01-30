@@ -36,14 +36,14 @@ Create mosaic
 
 .. code:: bash
 
-    curl --location --request PUT 'https://whitemaps-production.mapflow.ai/rest/rasters/mosaic' \
+    curl --location --request POST 'https://whitemaps-production.mapflow.ai/rest/rasters/mosaic' \
     --header 'Content-Type: application/json' \
     --header 'Authorization: Basic <Basic Auth>' \
     --data-raw '{
-    "name": "new-mosaic-name",
+    "name": "mosaic-name",
     "tags": [
-        "new-tag-1",
-        "new-tag-2"
+        "tag-1",
+        "tag-2"
         ]
     }'
 
