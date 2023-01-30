@@ -37,7 +37,7 @@ Creates the mosaic (the empty collection of images) and returns its ID.
 
 .. code:: bash
 
-    curl --location --request POST 'https://whitemaps-production.mapflow.ai/rest/rasters/mosaic' \
+    curl --location --request POST 'https://api.mapflow.ai/rest/rasters/mosaic' \
     --header 'Content-Type: application/json' \
     --header 'Authorization: Basic <Basic Auth>' \
     --data-raw '{
@@ -70,7 +70,7 @@ Update mosaic
 
 .. code:: bash
 
-    curl --location --request PUT 'https://whitemaps-production.mapflow.ai/rest/rasters/mosaic/{mosaic_id}' \
+    curl --location --request PUT 'https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}' \
     --header 'Content-Type: application/json' \
     --header 'Authorization: Basic <Basic Auth>' \
     --data-raw '{
