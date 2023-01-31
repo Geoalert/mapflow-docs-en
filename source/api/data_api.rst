@@ -173,10 +173,152 @@ Response example:
     Mapflow Storage
 
 Get user's storage limits
--------------------------
+'''''''''''''''''''''''''
 
 ``GET https://api.mapflow.ai/rest/rasters/memory``
 
 This method allows to check user's storage usage against the available limit.
+
+
+
+Search Imagery
+--------------
+
+.. note::
+    This is the early version of the Mapflow API to search for available satellite images provided by external data providers.
+    The API aims to perform as a middle-tear between multiple data source and a :doc:`Mapflow Processing API <processing_api>`.
+
+Get metadata of available images
+'''''''''''''''''''''''''''''''''
+
+``POST https://api.mapflow.ai/catalog/meta``
+
+Returns a list of the images in GeoJSON, filtered by metadata. E.g.:
+
+.. code:: json
+
+      { "aoi": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    37.34396696090698,
+                    55.6731196654679
+                  ],
+                  [
+                    37.35926628112793,
+                    55.6731196654679
+                  ],
+                  [
+                    37.35926628112793,
+                    55.67997991819218
+                  ],
+                  [
+                    37.34396696090698,
+                    55.67997991819218
+                  ],
+                  [
+                    37.34396696090698,
+                    55.6731196654679
+                  ]
+                ]
+              ]
+          },
+        "acquisitionDateFrom": "2021-01-01T00:00:00Z", 
+        "acquisitionDateTo": "2022-01-01T00:00:00Z",
+        "maxCloudCover": 0.1,
+        "maxResolution": 0.31,
+        "minResolution": 0.3
+      }
+
+
+Response example:
+
+.. code:: json
+
+    { "images": [
+            {
+                "id": "a518230a236664891bfb2d8041028a59",
+                "footprint": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                37.2883723,
+                                55.96500262
+                            ],
+                            [
+                                37.3950109,
+                                55.96416162
+                            ],
+                            [
+                                37.50164951,
+                                55.96332062
+                            ],
+                            [
+                                37.50141629,
+                                55.72561772
+                            ],
+                            [
+                                37.50118307,
+                                55.48791481
+                            ],
+                            [
+                                37.39506886,
+                                55.48708936
+                            ],
+                            [
+                                37.28895464,
+                                55.48626391
+                            ],
+                            [
+                                37.28866347,
+                                55.72563326
+                            ],
+                            [
+                                37.2883723,
+                                55.96500262
+                            ]
+                        ]
+                    ]
+                },
+                "pixelResolution": 0.31,
+                "acquisitionDate": "2021-07-07T08:42:03Z",
+                "productType": "Pan Sharpened Natural Color",
+                "sensor": "WV03_VNIR",
+                "colorBandOrder": "RGB",
+                "cloudCover": 0.0,
+                "offNadirAngle": 6.471679
+            }
+        ]
+    }
+
+``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) to search imagery for. Currently the only type ``Polygon`` is supported.
+
+.. important::
+
+    The size of the area cannot exceed the size of processing AOI limit assigned to the specific user.
+
+``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time format in UTC time zone according to ISO-8601. Determines the time range that the imagery acquisition date corresponds to.
+
+``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number in the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter defines the maximum area of an image (in pixels) that was classified as covered by clouds.
+
+``maxResolution`` - optional, defines the maximum allowed resolution in m / pixel
+
+``minResolution`` - optional, defines the minimum allowed resolution in m / pixel
+
+
+Get metadata by image ID
+'''''''''''''''''''''''''
+
+``GET https://api.mapflow.ai/rest/catalog/mets/{image_id}``
+
+.. code:: bash
+
+    curl --location --request GET 'https://api.mapflow.ai/rest/catalog/mets/{image_id}' \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: Basic <Basic Auth>'
+
+You can get ``image_id`` from ``processing.params.url``
 
 

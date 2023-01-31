@@ -290,7 +290,7 @@ Example of the failed processing response:
         ]
     }
 
-Possible error codes, parameters and desctiptions see in :doc:`Error Messages</api/error_messages>`
+Possible error codes, parameters and desctiptions see in :doc:`Error Messages </api/error_messages>`
  
 
 Post processing
@@ -381,6 +381,20 @@ Restart processing
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
+Move processing to another project
+""""""""""""""""""""""""""""""""""
+
+``PUT https://api.mapflow.ai/rest/processings/{processing_id}``
+
+Links processing to another project by project ID
+
+.. code:: bash
+  
+  curl --location --request PUT 'https://api.mapflow.ai/rest/processings/{processing_id}' \ 
+  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Basic <Basic Auth>' \ 
+  --data-raw '{ "projectId": {new_project_id} }'
+
 Delete processing
 """"""""""""""""""
 
@@ -448,6 +462,9 @@ Returns Geojson results of this processing as an octet stream. Should only be ca
 Upload images (GeoTiff) for processing
 --------------------------------------
 
+.. warning::
+   This is the legacy method and is going to be deprecated. Use the new :doc:`Data management API <data_api>` instead.
+
 ``POST https://api.mapflow.ai/rest/rasters``
 
 Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
@@ -467,7 +484,6 @@ Request example with ``cURL``:
 Response example:  
 
 ``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
-
 
 
 
@@ -542,130 +558,7 @@ status
 
 
 
-Search Imagery
---------------
 
-This is the early version of the Mapflow API to search for available satellite images provided by different data providers.
-The API aims to perform as a middle-tear between multiple data source and Mapflow processsings.
-
-Get metadata pof available images
-"""""""""""""""""""""""""""""""""
-
-``POST https://api.mapflow.ai/catalog/meta``
-
-Returns a list of the images in GeoJSON, filtered by metadata. E.g.:
-
-.. code:: json
-
-      { "aoi": {
-              "type": "Polygon",
-              "coordinates": [
-                [
-                  [
-                    37.34396696090698,
-                    55.6731196654679
-                  ],
-                  [
-                    37.35926628112793,
-                    55.6731196654679
-                  ],
-                  [
-                    37.35926628112793,
-                    55.67997991819218
-                  ],
-                  [
-                    37.34396696090698,
-                    55.67997991819218
-                  ],
-                  [
-                    37.34396696090698,
-                    55.6731196654679
-                  ]
-                ]
-              ]
-          },
-        "acquisitionDateFrom": "2021-01-01T00:00:00Z", 
-        "acquisitionDateTo": "2022-01-01T00:00:00Z",
-        "maxCloudCover": 0.1,
-        "maxResolution": 0.31,
-        "minResolution": 0.3
-      }
-
-
-Response example:
-
-.. code:: json
-
-    { "images": [
-            {
-                "id": "a518230a236664891bfb2d8041028a59",
-                "footprint": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                37.2883723,
-                                55.96500262
-                            ],
-                            [
-                                37.3950109,
-                                55.96416162
-                            ],
-                            [
-                                37.50164951,
-                                55.96332062
-                            ],
-                            [
-                                37.50141629,
-                                55.72561772
-                            ],
-                            [
-                                37.50118307,
-                                55.48791481
-                            ],
-                            [
-                                37.39506886,
-                                55.48708936
-                            ],
-                            [
-                                37.28895464,
-                                55.48626391
-                            ],
-                            [
-                                37.28866347,
-                                55.72563326
-                            ],
-                            [
-                                37.2883723,
-                                55.96500262
-                            ]
-                        ]
-                    ]
-                },
-                "pixelResolution": 0.31,
-                "acquisitionDate": "2021-07-07T08:42:03Z",
-                "productType": "Pan Sharpened Natural Color",
-                "sensor": "WV03_VNIR",
-                "colorBandOrder": "RGB",
-                "cloudCover": 0.0,
-                "offNadirAngle": 6.471679
-            }
-        ]
-    }
-
-``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) to search imagery for. Currently the only type ``Polygon`` is supported.
-
-.. important::
-
-    The size of the area cannot exceed the size of processing AOI limit assigned to the specific user.
-
-``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time format in UTC time zone according to ISO-8601. Determines the time range that the imagery acquisition date corresponds to.
-
-``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number in the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter defines the maximum area of an image (in pixels) that was classified as covered by clouds.
-
-``maxResolution`` - optional, defines the maximum allowed resolution in m / pixel
-
-``minResolution`` - optional, defines the minimum allowed resolution in m / pixel
 
 
 .. include:: error_messages.rst
