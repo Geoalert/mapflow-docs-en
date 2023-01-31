@@ -311,11 +311,11 @@ Response example:
 Get metadata by image ID
 '''''''''''''''''''''''''
 
-``GET https://api.mapflow.ai/rest/catalog/mets/{image_id}``
+``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``
 
 .. code:: bash
 
-    curl --location --request GET 'https://api.mapflow.ai/rest/catalog/mets/{image_id}' \
+    curl --location --request GET 'https://api.mapflow.ai/rest/catalog/meta/{image_id}' \
     --header 'Content-Type: application/json' \
     --header 'Authorization: Basic <Basic Auth>'
 

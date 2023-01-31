@@ -393,7 +393,7 @@ Links processing to another project by project ID
   curl --location --request PUT 'https://api.mapflow.ai/rest/processings/{processing_id}' \ 
   --header 'Content-Type: application/json' \ 
   --header 'Authorization: Basic <Basic Auth>' \ 
-  --data-raw '{ "projectId": {new_project_id} }'
+  --data-raw '{"projectId": "new_project_id"}'
 
 Delete processing
 """"""""""""""""""
