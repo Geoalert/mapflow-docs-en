@@ -39,7 +39,7 @@ Creates the mosaic (the empty collection of images) and returns its ID.
 
     curl --location --request POST 'https://api.mapflow.ai/rest/rasters/mosaic' \
     --header 'Content-Type: application/json' \
-    --header 'Authorization: Basic <Basic Auth>' \
+    --header 'Authorization: Basic <YOUR TOKEN>' \
     --data-raw '{
     "name": "mosaic-name",
     "tags": [
@@ -55,7 +55,7 @@ Creates mosaic and uploads images to the mosaic
 
     curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic/mosaic?name={name}&tags={tag1}&tags={tag2}' \
     --header 'Content-Type: multipart/form-data' \
-    --header 'Authorization: Basic <Basic Auth>' \
+    --header 'Authorization: Basic <YOUR TOKEN>' \
     --form 'file=@"/path/to/file"'
 
 
@@ -72,7 +72,7 @@ Update mosaic
 
     curl --location --request PUT 'https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}' \
     --header 'Content-Type: application/json' \
-    --header 'Authorization: Basic <Basic Auth>' \
+    --header 'Authorization: Basic <YOUR TOKEN>' \
     --data-raw '{
     "name": "new-mosaic-name",
     "tags": [
@@ -99,7 +99,7 @@ Link image to the existing mosaic
 
     curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image' \
     --header 'Content-Type: application/json' \
-    --header 'Authorization: Basic <Basic Auth>' \
+    --header 'Authorization: Basic <YOUR TOKEN>' \
     --data-raw '{
     "url": "s3://users-data/user@email.com_045b8085-0ab8-42dc-8c65-c366cbaab5e0/8b6e9f1e-8ee6-4c15-9b39-c3bd6431f3f6/cog/area-5911389.tif"
     }'
@@ -148,7 +148,7 @@ E.g.:
 
     curl --location --request GET 'https://api.mapflow.ai/rest/rasters/image/{image_id}/preview/s' \
     --header 'Content-Type: image/jpg' \
-    --header 'Authorization: Basic <Basic Auth>'
+    --header 'Authorization: Basic <YOUR TOKEN>'
 
 Response example:
 
@@ -317,7 +317,7 @@ Get metadata by image ID
 
     curl --location --request GET 'https://api.mapflow.ai/rest/catalog/meta/{image_id}' \
     --header 'Content-Type: application/json' \
-    --header 'Authorization: Basic <Basic Auth>'
+    --header 'Authorization: Basic <YOUR TOKEN>'
 
 You can get ``image_id`` from ``processing.params.url``
 

@@ -5,7 +5,7 @@ To access from external applications such as :doc:`plugin for QGIS <../api/qgis_
 `https://app.mapflow.ai/account/api <https://app.mapflow.ai/account/api>`_.
 Token must be passed in the **Basic Auth** parameters like in the example:
 
-.. code:: curl
+.. code:: bash
 
     curl --location --request GET 'https://api.mapflow.ai/rest/projects/default' \
     --header 'Authorization: Basic <YOUR TOKEN>'  
@@ -23,10 +23,12 @@ Authorization in a Web application and obtaining an API token
     :align: center
     :width: 8cm
 
-.. attention:: 
+.. attention::
+
   Make sure you save the token, otherwise you will need to reissue it.
 
 .. note::
+    
     An example of authorization in an :doc:`application for QGIS <../api/qgis_mapflow>`:
 
  .. figure:: _static/api_token_login.png
