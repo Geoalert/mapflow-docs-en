@@ -290,7 +290,7 @@ Example of the failed processing response:
         ]
     }
 
-Possible error codes, parameters and desctiptions see in :doc:`Error Messages </api/error_messages>`
+Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
  
 
 Post processing
@@ -555,9 +555,6 @@ status
      - The processing ended unsuccessfuly - change wrong params or try to restart
    * - OK
      - The processing is finished at 100 percent completed      
-
-
-
 
 
 
