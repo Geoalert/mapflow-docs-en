@@ -39,3 +39,6 @@ In the meanwhile beware of the temporary pricing model for Mapflow-QGIS:
       :header-rows: 1 
       :class: longtable
       :widths: 1 1 1 1
+   
+.. note::
+   See also – :doc:`*How to buy credits for using the platform? How much is it?* <../faq>`

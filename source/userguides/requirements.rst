@@ -11,7 +11,7 @@ Follow the requirements listed on the page with :doc:`Models reference <pipeline
 
 In case of non-compliance with any requirements, the system reports an error. 
 If you are using Mapflow Web or Mapflow QGIS plugin, the error messages are shown in the user interface.
-If you use API, see errors description in :doc:`API docs <api/error_messages>`.
+For more details, see :doc:`errors description <../api/error_messages>`.
 
 
 
