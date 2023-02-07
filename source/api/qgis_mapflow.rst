@@ -196,7 +196,7 @@ The option *Use cache* is enabled by default.
  Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
 
 
-Use additional satellite imagery providers
+Use comercail satellite imagery providers
 -------------------------------------------
 
 How to connect to Maxar SecureWatch
