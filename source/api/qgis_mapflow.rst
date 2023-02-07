@@ -222,6 +222,7 @@ How to connect to Maxar SecureWatch
 
 
 * **Using your SecureWatch account for image processing by the Mapflow**
+
 .. figure:: _static/qgis/addnewprovider.png
          :alt: Veiw of the providers tab
          :align: center
@@ -249,14 +250,14 @@ How to connect to Maxar SecureWatch
 
       2. In the upper menu select **Use With** >> **Web Services** >> **WMTS**
 
-      3. Copy the WMTS url.
+      3. Copy the WMTS (or TMS) url.
 
         .. figure:: _static/qgis/SecureWatch_user_profile.png
          :alt: Your user profile in SecureWatch
          :align: center
          :width: 15cm
-      
-        The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one that suits you. To do this, close the *User Profile* window and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**) by clicking on the name of one of them.
+
+        The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
      
 
   4. Click *Preview*. 

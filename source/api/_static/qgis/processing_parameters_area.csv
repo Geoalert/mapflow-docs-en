@@ -7,5 +7,4 @@ Processing area, "Automatic calculation of the area of the selected processing a
 Use image extent, "This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer processing area for this image but takes its extent."
 Start processing, "New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
 Log out, "Sign out of the user's billing record."
-Delete, "Button for deleting previously performed processing from the processings list."\
-\
+Delete, "Button for deleting previously performed processing from the processings list."
