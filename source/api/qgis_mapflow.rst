@@ -154,24 +154,6 @@ To download the processing results, double-click on the completed processing.
      - Image ID from the *Imagery catalog* of the selected image of specified satellite image source.
    * - Max zoom
      - Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**).
-
-
-.. hint::
-    You can define your own source of data in XYZ format. Here is the example: http://``your_site.xyz``/``{z}``/``{x}``/``{y}``
-
-    Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
-
-    
-**Setting parameters for additional satellite imagery providers**
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Name of the field/button
-     - Description
-   * - Authorisation
-     - *Login/Password* credentials for your account of the satellite imgery provider. If you are not using your SecureWatch account or Mapflow Premium, the zoom number is limited to 12, but you can get metadata and preview the satellite imagery on the map.
    * - Area
      - The area for which metadata will be presented.
    * - Use canvas extent
@@ -180,6 +162,15 @@ To download the processing results, double-click on the completed processing.
      - The images will be provided for the specified time period.
    * - Search imagery
      - Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area.
+   * - Additional Filters
+     - Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.
+
+
+.. hint::
+    You can define your own source of data in XYZ format. Here is the example: http://``your_site.xyz``/``{z}``/``{x}``/``{y}``
+
+    Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
+
 
 .. _Settings:
 
@@ -205,7 +196,7 @@ The option *Use cache* is enabled by default.
  Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
 
 
-Use additional satellite imagery providers
+Use comercail satellite imagery providers
 -------------------------------------------
 
 How to connect to Maxar SecureWatch
@@ -217,7 +208,7 @@ How to connect to Maxar SecureWatch
 
 * **Use of embedded Maxar SecureWatch for image processing by Mapflow**
 
-  On the **Processing** tab, in the *Remote sensing data* drop-down list, select the required Maxar product (SecureWatch, Vivid or Basemaps), specify all processing parameters and click the *Start processing*.
+  On the **Processing** tab, in the *Remote sensing data* drop-down list, select the required Maxar product (SecureWatch, Vivid), specify all processing parameters and click the *Start processing*.
 
 * **Maxar preview**
 
@@ -232,27 +223,41 @@ How to connect to Maxar SecureWatch
 
 * **Using your SecureWatch account for image processing by the Mapflow**
 
-   1. Check *Use imagery providercredentials* on the *Providers* tab and enter *Login / Password* from your Maxar SecureWatch account;
+.. figure:: _static/qgis/addnewprovider.png
+         :alt: Veiw of the providers tab
+         :align: center
+         :width: 15cm
 
-   2. Select the Maxar SecureWatch from the drop-down list above;
+|
 
-   3. Click *Edit* button and enter your *Connect ID*. Click the *OK* after.
+
+   1. Click *+* button on the *Providers* tab, choose Maxar WMTS option in the dropdown list;
+
+   2.  Enter *Login / Password* from your Maxar SecureWatch account;
+
+   3.  Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)
+
+   4.  Optional: specify the coordinate system;
+
+   5.  Optional: Check *Save login and password*
+
+
 
   .. hint::
-       How to find out your Connect ID:
+       How to find out Maxar WMTS:
 
-      1. Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_.
+      1. Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login.
 
-      2. In the title bar, select your name, then select **View Profile**. The **User Profile** dialog box will open.
+      2. In the upper menu select **Use With** >> **Web Services** >> **WMTS**
 
-      3. Copy your Current Connect ID.
+      3. Copy the WMTS (or TMS) url.
 
-        .. figure:: _static/qgis/SecureWatch_user_profile.jpg
+        .. figure:: _static/qgis/SecureWatch_user_profile.png
          :alt: Your user profile in SecureWatch
          :align: center
          :width: 15cm
-      
-        The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one that suits you. To do this, close the *User Profile* window and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**) by clicking on the name of one of them.
+
+        The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
      
 
   4. Click *Preview*. 
@@ -280,7 +285,7 @@ You can use SW or Sentinel-2 to discover avaialble images for you area of intere
 
 1. Go to the *Providers* tab.
 2. Select Maxar SecureWatch/Sentinel-2 from the dropdown list.
-3. In the *Maxar SecureWatch imagery Catalog* select the vector layer with the boundary of your area of interest.
+3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
 
 .. note::
     You have to create the new one area (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, in the created layer using the tool *Add polygon feature* draw an area of interest) or to upload from the file with coordinates using QGIS. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
@@ -359,7 +364,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
   Please, follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform.
 
     * **Check the data type** 
-          The Data type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
+          The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
 
           Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
     * **Check the number of channels**  
