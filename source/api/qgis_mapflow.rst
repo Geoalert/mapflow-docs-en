@@ -196,7 +196,7 @@ The option *Use cache* is enabled by default.
  Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
 
 
-Use comercail satellite imagery providers
+Use commercial satellite imagery providers
 -------------------------------------------
 
 How to connect to Maxar SecureWatch
@@ -387,7 +387,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 Proxy-settings
 --------------
 
-If you behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for correct plugin working.
+If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for plugin connection.
 
  .. figure:: _static/qgis/proxy_settings.png
          :alt: Proxy settings
