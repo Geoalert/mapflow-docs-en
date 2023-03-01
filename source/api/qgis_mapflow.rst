@@ -63,7 +63,7 @@ Main plugin workspace is divided into 3 tabs:
 ~~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/processing_tab.png
-         :alt: Veiw of the processing tab
+         :alt: View of the processing tab
          :align: center
          :width: 15cm
 
@@ -92,7 +92,7 @@ The plugin has several built-in options for adding AOI.
   Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one.
 
   .. figure:: _static/qgis/AOI_button.png
-         :alt: Veiw of the aoi 
+         :alt: View of the aoi 
          :align: center
          :width: 15cm
 
@@ -127,7 +127,7 @@ To download the processing results, double-click on the completed processing.
 ~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/Providers_tab.png
-         :alt: Veiw of the providers tab
+         :alt: View of the providers tab
          :align: center
          :width: 15cm
 
@@ -186,15 +186,6 @@ This tab contains *Output directory* where the processing result will be loaded.
 
 The tab contains all useful links about this plugin.
 
-Caching
----------
-
-The option *Use cache* is enabled by default.
-
- If *Use cache* is checked, every time you process, the imagery used for it will be cached (saved in Mapflow). If you later start a new processing for the exact same area (the polygon(s) must be identical to the old one(s)) and using the same source of satellite imagery (same provider URL), that cached imagery will be used. This speeds up the processing by removing the download stage, and also reduces the provider traffic. 
- 
- Remember, however, to uncheck *Use cache* if you instead want to process the same area using newer imagery that the provider has made available since you last processed it, otherwise the you'll get the same results.
-
 
 Use commercial satellite imagery providers
 -------------------------------------------
@@ -224,7 +215,7 @@ How to connect to Maxar SecureWatch
 * **Using your SecureWatch account for image processing by the Mapflow**
 
 .. figure:: _static/qgis/addnewprovider.png
-         :alt: Veiw of the providers tab
+         :alt: View of the providers tab
          :align: center
          :width: 15cm
 
@@ -281,7 +272,7 @@ Our plugin has a built-in ability to receive Sentinel-2 images for the required 
 How to find and process the image by Feature ID using Maxar SecureWatch or Sentinel-2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use SW or Sentinel-2 to discover avaialble images for you area of interest.
+You can use SW or Sentinel-2 to discover available images for you area of interest.
 
 1. Go to the *Providers* tab.
 2. Select Maxar SecureWatch/Sentinel-2 from the dropdown list.
@@ -295,11 +286,11 @@ You can use SW or Sentinel-2 to discover avaialble images for you area of intere
          :align: center
          :width: 15cm    
 
-4. *Search imagery*, to view meta-data of all avaialble images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming a imagery catalog with the necessary parameters.
+4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
 5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata/Sentinel-2 metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
 .. note::
-    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes.
+    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.
 
 6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
 
@@ -311,7 +302,7 @@ How to use other imagery services
 ------------------------------------
 
 For example, let's use the `Openaerialmap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
-As soon as your aerial image published on Openaerialmap it's presented on the public map and can be fetched using TMS/WMTS protocols.
+As soon as your aerial image is published on Openaerialmap it's presented on the public map and can be fetched using TMS/WMTS protocols.
 
 Select the image and copy link to TMS.
 
@@ -324,7 +315,7 @@ Select the image and copy link to TMS.
 
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
 
-For start processing for this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
+To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
 
  .. figure:: _static/qgis/custom_imagery_source.png
          :alt: Custom imagery service

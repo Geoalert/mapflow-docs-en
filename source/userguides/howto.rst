@@ -85,7 +85,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 Processing with Mapflow – QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In case you are already used to working with QGIS you need to install the Mapflow plugin. You can upload your own GeoTIFF (up to 2 GB). All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
+In case you are already used to working with QGIS you need to install the Mapflow plugin. You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px.). All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
 Open files in the Additional options (3) also adds your item to the tree of QGIS layers.
 
     .. image:: _static/select_raster_qgis.png
@@ -94,13 +94,13 @@ Open files in the Additional options (3) also adds your item to the tree of QGIS
 
 .. important::
 
-    Please, consider the requirements specified on the page with Models reference when uploading your own images for AI-mapping processing.
+    Please, consider the requirements specified on the page with Models reference when uploading your own images for AI-mapping processing. Contact us if you have a large dataset of images or your file size exceeds our limits.
 
 Use Openaerialmap as an imagery publication tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `OpenAeriaMap <https://map.openaerialmap.org>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with geospatial data.
-As soon as your aerial image published on Openaerialmap it’s displayed on the public map and can be streamed using TMS/WMTS protocols or downloaded as GeoTIFF file. 
+As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be streamed using TMS/WMTS protocols or downloaded as GeoTIFF file. 
 Both ways are OK to work with Mapflow.
 
     .. image:: _static/oam_search.png
