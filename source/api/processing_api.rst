@@ -262,7 +262,6 @@ Response example:
         "aoiArea":798784,
         "status":"OK",
         "percentCompleted":100,
-        "params":{"partition_size":"0.05"},
         "meta":{},
         "messages":[],
         "created":"2022-08-11T13:49:17.386035Z",
@@ -339,7 +338,6 @@ Request body sample:
         "params": {                           #Arbitrary string parameters of this processing. Optional.
             "source_type": "xyz",
             "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-            "partition_size": "0.1"           #Max partition size in degrees (both dimensions). Defaults to DEFAULT_PARTITION_SIZE=0.1.
         },
         "meta": {                             #Arbitrary string key-value pairs for this processing (metadata). Optional.
             "test": "test"
