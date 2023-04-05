@@ -30,7 +30,7 @@ The plugin icon has appeared in the QGIS Toolbar.
 How to login
 ------------
 
-You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_. Enter you token to get to the main User interface.
+You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_.
 
 .. figure:: _static/qgis/login_window.png
          :alt: Login window
@@ -47,7 +47,50 @@ User interface
 Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
-Main plugin workspace is divided into 3 tabs:
+Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.
+
+.. figure:: _static/qgis/main_window.png
+         :alt: View of the main window
+         :align: center
+         :width: 20cm
+
+|
+
+Processing controls panel allows to start new processing and/or rate finished processings, and includes following:
+
+**Processing controls panel**
+
+.. csv-table::
+    :file: _static/qgis/processing_controls_panel.csv 
+    :header-rows: 1 
+    :class: longtable
+    :widths: 1 3  
+
+|
+
+How to run the processing
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To start the processing you need to select the **Polygon Area** (AOI) on a Map.
+
+The plugin has several built-in options for creating AOI.
+
+   1. Create new AOI from the map extent using the "+" button;
+
+   2. Upload the existing AOI using the "+" button;
+
+   3. Use the extent of the uploaded image;
+
+  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
+
+  .. figure:: _static/qgis/AOI_button.png
+         :alt: View of the aoi 
+         :align: center
+         :width: 15cm
+
+
+
+Tabs section contains 4 tabs:
 
 :ref:`Processing`
 
@@ -69,34 +112,6 @@ Main plugin workspace is divided into 3 tabs:
 
 |
 
-**Processing parameters**
-
-.. csv-table::
-    :file: _static/qgis/processing_parameters_area.csv 
-    :header-rows: 1 
-    :class: longtable
-    :widths: 1 3  
-
-|
-
-* **How to add a new AOI**
-
-The plugin has several built-in options for adding AOI.
-
-   1. Create new AOI from the map extent using the "+" button;
-
-   2. Upload the existing AOI using the "+" button;
-
-   3. Use the extent of the uploaded image;
-
-  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one.
-
-  .. figure:: _static/qgis/AOI_button.png
-         :alt: View of the aoi 
-         :align: center
-         :width: 15cm
-
-
 **Start processings and display the output on the map**
 
 .. list-table::
@@ -108,11 +123,11 @@ The plugin has several built-in options for adding AOI.
    * - Name
      - Processing name.
    * - Model
-     - User-selected processing type in the Mapflow model field.
+     - User-selected item from the list of available models.
    * - Status
      - Processing status: IN_PROGRESS, OK, FAILED. 
    * - Progress
-     - The degree of completeness of processing as a percentage.
+     - The percentage of completeness of the processing.
    * - Area
      - The processing area.
    * - Created
@@ -120,6 +135,12 @@ The plugin has several built-in options for adding AOI.
   
 
 To download the processing results, double-click on the completed processing.
+
+This tab contains also two buttons: *Download results* and *Delete* buttons.
+
+*Download results* - downloading the results of completed processing. 
+
+*Delete* - delete selected processing/processings. 
 
 .. _Providers:
 
@@ -167,7 +188,7 @@ To download the processing results, double-click on the completed processing.
 
 
 .. hint::
-    You can define your own source of data in XYZ format. Here is the example: http://``your_site.xyz``/``{z}``/``{x}``/``{y}``
+    You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
     Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
 
@@ -177,14 +198,18 @@ To download the processing results, double-click on the completed processing.
 3. Settings
 ~~~~~~~~~~~~~
 
-This tab contains *Output directory* where the processing result will be loaded.
+This tab contains *Output directory* and *Logout* button. 
+
+*Output directory* - Define where the processing results will be loaded.
+
+*Logout* button - Sign out from your Mapflow account.
 
 .. _Help:
 
 4. Help
 ~~~~~~~~
 
-The tab contains all useful links about this plugin.
+The tab contains all useful links to this plugin documentation.
 
 
 Use commercial satellite imagery providers
@@ -208,7 +233,7 @@ How to connect to Maxar SecureWatch
   3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
 .. important:: 
-   In the free tariff plan the *Max zoom* is limited up to 13 and processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the Premium tariff plan - pls request us at help@geoalert.io
+   In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote.
 
 
 
@@ -255,27 +280,14 @@ How to connect to Maxar SecureWatch
      
 Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
 
-Sentinel-2
-~~~~~~~~~~~~
 
-Sentinel-2 is a project of the European Space Agency (ESA). Equipped with an opto-electronic multispectral sensor for broadband multispectral imaging with frequent repetition of medium and low resolution. The bandwidth of survey of 290 km and the high repeatability of the survey make it possible to monitor changes in the state of the earth's surface.
-
-Images of this product are 100x100 km\ :sup:`2` orthoimages in UTM/WGS84 projection.
-
-Our plugin has a built-in ability to receive Sentinel-2 images for the required shooting period and further start processing based on the received images.
-
- .. figure:: _static/qgis/add_sentinel2.png
-          :alt: Get specific image from Sentinel-2
-          :align: center
-          :width: 15cm
-
-How to find and process the image by Feature ID using Maxar SecureWatch or Sentinel-2
+How to find and process the image by Feature ID using Maxar SecureWatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use SW or Sentinel-2 to discover available images for you area of interest.
+You can use SW to discover available images for you area of interest.
 
 1. Go to the *Providers* tab.
-2. Select Maxar SecureWatch/Sentinel-2 from the dropdown list.
+2. Select Maxar SecureWatch from the dropdown list.
 3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
 
 .. note::
@@ -287,7 +299,7 @@ You can use SW or Sentinel-2 to discover available images for you area of intere
          :width: 15cm    
 
 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
-5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata/Sentinel-2 metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
+5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
 .. note::
     Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.

@@ -1,0 +1,14 @@
+Name of the field / button,Description
+Processing name,Name of your processing
+Area,The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers.
+Use image extent,This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer processing area for this image but takes its extent.
+Processing area,Automatic calculation of the area of the selected processing area.
+Mapflow Model,"Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
+Imagery source,"Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the MAXAR company. You can open your image through the additional options button."
+Select local raster,Select your local raster for processing
+Image ID,Image ID selected from providers for processing 
+Processing limit,Remaining area available for processing 
+Start processing,"New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
+Radio buttons for rating,Rating variants for rating the finished processing 
+Feedback field,Feedback for rating 
+Submit,Submitting the rating for selected processing with selected ratings and provided feedback 
