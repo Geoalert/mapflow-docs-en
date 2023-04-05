@@ -47,32 +47,21 @@ User interface
 Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
-Main plugin workspace is divided into 3 tabs:
+Main plugin workspace is divided into two main parts: left part contains processing controls panel and right part contains tabs section.
 
-:ref:`Processing`
-
-:ref:`Providers`
-
-:ref:`Settings`
-
-:ref:`Help`
-
-.. _Processing:
-
-1. Processing
-~~~~~~~~~~~~~~
-
-.. figure:: _static/qgis/processing_tab.png
-         :alt: View of the processing tab
+.. figure:: _static/qgis/main_window.png
+         :alt: View of the main window
          :align: center
-         :width: 15cm
+         :width: 20cm
 
 |
 
-**Processing parameters**
+Processing controls panel allows to start new processing and/or rate finished processings, and includes following:
+
+**Processing controls panel**
 
 .. csv-table::
-    :file: _static/qgis/processing_parameters_area.csv 
+    :file: _static/qgis/processing_controls_panel.csv 
     :header-rows: 1 
     :class: longtable
     :widths: 1 3  
@@ -97,6 +86,29 @@ The plugin has several built-in options for adding AOI.
          :width: 15cm
 
 
+
+Tabs section contains 4 tabs:
+
+:ref:`Processing`
+
+:ref:`Providers`
+
+:ref:`Settings`
+
+:ref:`Help`
+
+.. _Processing:
+
+1. Processing
+~~~~~~~~~~~~~~
+
+.. figure:: _static/qgis/processing_tab.png
+         :alt: View of the processing tab
+         :align: center
+         :width: 15cm
+
+|
+
 **Start processings and display the output on the map**
 
 .. list-table::
@@ -120,6 +132,12 @@ The plugin has several built-in options for adding AOI.
   
 
 To download the processing results, double-click on the completed processing.
+
+This tab contains also two buttons: *Download results* and *Delete* buttons.
+
+*Download results* - downloading the results of completed processing. 
+
+*Delete* - delete selected processing/processings. 
 
 .. _Providers:
 
@@ -177,7 +195,11 @@ To download the processing results, double-click on the completed processing.
 3. Settings
 ~~~~~~~~~~~~~
 
-This tab contains *Output directory* where the processing result will be loaded.
+This tab contains *Output directory* and *Logout* button. 
+
+*Output directory* - where the processing result will be loaded.
+
+*Logout* button - Sign out of the user's billing record.
 
 .. _Help:
 
@@ -255,27 +277,14 @@ How to connect to Maxar SecureWatch
      
 Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
 
-Sentinel-2
-~~~~~~~~~~~~
 
-Sentinel-2 is a project of the European Space Agency (ESA). Equipped with an opto-electronic multispectral sensor for broadband multispectral imaging with frequent repetition of medium and low resolution. The bandwidth of survey of 290 km and the high repeatability of the survey make it possible to monitor changes in the state of the earth's surface.
-
-Images of this product are 100x100 km\ :sup:`2` orthoimages in UTM/WGS84 projection.
-
-Our plugin has a built-in ability to receive Sentinel-2 images for the required shooting period and further start processing based on the received images.
-
- .. figure:: _static/qgis/add_sentinel2.png
-          :alt: Get specific image from Sentinel-2
-          :align: center
-          :width: 15cm
-
-How to find and process the image by Feature ID using Maxar SecureWatch or Sentinel-2
+How to find and process the image by Feature ID using Maxar SecureWatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use SW or Sentinel-2 to discover available images for you area of interest.
+You can use SW to discover available images for you area of interest.
 
 1. Go to the *Providers* tab.
-2. Select Maxar SecureWatch/Sentinel-2 from the dropdown list.
+2. Select Maxar SecureWatch from the dropdown list.
 3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
 
 .. note::
@@ -287,7 +296,7 @@ You can use SW or Sentinel-2 to discover available images for you area of intere
          :width: 15cm    
 
 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
-5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata/Sentinel-2 metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
+5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
 .. note::
     Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.
