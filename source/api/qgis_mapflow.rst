@@ -1,11 +1,18 @@
-Mapflow – QGIS
-==============
+Mapflow <> QGIS
+===============
 
- .. attention::
+.. attention::
     Mapflow can be used via `QGIS <https://www.qgis.org/>`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
 
     In the `API tab <https://app.mapflow.ai/account/api>`_ of the profile settings is specified the area limit for processing provided to you (initially 25 km\ :sup:`2`) and the total area of ​​already completed processing.
 
+.. note::
+      .. figure:: _static/github_logo.png
+       :alt: Preview results
+       :align: left
+       :width: 1cm
+       
+  Join Mapflow <> QGIS `open source project on Github <https://github.com/Geoalert/mapflow-qgis>`_. 
 
 What is QGIS
 -------------
