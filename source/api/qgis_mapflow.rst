@@ -30,7 +30,7 @@ The plugin icon has appeared in the QGIS Toolbar.
 How to login
 ------------
 
-You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_. Enter you token to get to the main User interface.
+You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_.
 
 .. figure:: _static/qgis/login_window.png
          :alt: Login window
@@ -47,7 +47,7 @@ User interface
 Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
-Main plugin workspace is divided into two main parts: left part contains processing controls panel and right part contains tabs section.
+Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.
 
 .. figure:: _static/qgis/main_window.png
          :alt: View of the main window
@@ -68,9 +68,12 @@ Processing controls panel allows to start new processing and/or rate finished pr
 
 |
 
-* **How to add a new AOI**
+How to run the processing
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The plugin has several built-in options for adding AOI.
+To start the processing you need to select the **Polygon Area** (AOI) on a Map.
+
+The plugin has several built-in options for creating AOI.
 
    1. Create new AOI from the map extent using the "+" button;
 
@@ -78,7 +81,7 @@ The plugin has several built-in options for adding AOI.
 
    3. Use the extent of the uploaded image;
 
-  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one.
+  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
 
   .. figure:: _static/qgis/AOI_button.png
          :alt: View of the aoi 
@@ -120,11 +123,11 @@ Tabs section contains 4 tabs:
    * - Name
      - Processing name.
    * - Model
-     - User-selected processing type in the Mapflow model field.
+     - User-selected item from the list of available models.
    * - Status
      - Processing status: IN_PROGRESS, OK, FAILED. 
    * - Progress
-     - The degree of completeness of processing as a percentage.
+     - The percentage of completeness of the processing.
    * - Area
      - The processing area.
    * - Created
@@ -185,7 +188,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 
 .. hint::
-    You can define your own source of data in XYZ format. Here is the example: http://``your_site.xyz``/``{z}``/``{x}``/``{y}``
+    You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
     Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
 
@@ -197,16 +200,16 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 This tab contains *Output directory* and *Logout* button. 
 
-*Output directory* - where the processing result will be loaded.
+*Output directory* - Define where the processing results will be loaded.
 
-*Logout* button - Sign out of the user's billing record.
+*Logout* button - Sign out from your Mapflow account.
 
 .. _Help:
 
 4. Help
 ~~~~~~~~
 
-The tab contains all useful links about this plugin.
+The tab contains all useful links to this plugin documentation.
 
 
 Use commercial satellite imagery providers
@@ -230,7 +233,7 @@ How to connect to Maxar SecureWatch
   3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
 .. important:: 
-   In the free tariff plan the *Max zoom* is limited up to 13 and processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the Premium tariff plan - pls request us at help@geoalert.io
+   In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote.
 
 
 
