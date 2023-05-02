@@ -61,17 +61,17 @@ Buildings
    * - Model
      - Description
      - Channel composition, GSD m/px
-     - Model input, zoom
+     - Model input, min-max Zoom
      - Model input, data type
    * - Segmentation
      - Extract roof contours (roofprints) from high-resolution satellite imagery
      - RGB `*`_, 0.5
-     - 18
+     - 17–18
      - Unsigned integer, 8 bit
    * - Classification
      - Here are the types that we currently recognize: apartment buildings; single-household dwellings; industrial; commercial; other non-residential
      - RGB `*`_, 0.5
-     - 18
+     - 17–18
      - Unsigned integer, 8 bit
    * - Building heights
      - For each building, model estimates its height using its wall’s and shadow’s lengths. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
@@ -90,7 +90,7 @@ Buildings (Aerial imagery)
    * - Model
      - Description
      - Channel composition, GSD m/px
-     - Model input, zoom
+     - Model input, min-max Zoom
      - Model input, data type
    * - Segmentation
      - Extract roof contours (roofprints) from very high-resolution aerial imagery
@@ -109,17 +109,17 @@ Forest
    * - Model
      - Description
      - Channel composition, GSD m/px
-     - Model input, zoom
+     - Model input, min-max Zoom
      - Model input, data type
    * - Segmentation
      - Extract segmentation masks of forested areas from high-resolution RGB images
      - RGB `*`_, 2
-     - 16
+     - 17 – 18 
      - Unsigned integer, 8 bit
    * - Classification
      - Classify the areas of vegetation and shrub vegetation by height and vegetation density
      - RGB `*`_, 0.5
-     - 18
+     - 17 – 18
      - Unsigned integer, 8 bit
 
 
@@ -133,12 +133,12 @@ Roads
    * - Model
      - Description
      - Channel composition, GSD m/px
-     - Model input, zoom
+     - Model input, min-max Zoom
      - Model input, data type
    * - Segmentation
      - Extract road mask from high-resolution satellite imagery
      - RGB `*`_, 1
-     - 17
+     - 17 – 18
      - Unsigned integer, 8 bit
 
 
