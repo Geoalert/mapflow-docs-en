@@ -174,13 +174,13 @@ Options for actions with processing results will become available in the Additio
  .. note::
   `geosjon.io <http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_ also allows you to save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Just click "Save" and select the format of your preference in the menu bar.
 
-  .. image:: _static/geojson.io.png
+.. image:: _static/geojson.io.png
     :name: Preview map
     :align: center
     :width: 15cm
 
 
-3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an open-source web tool made by Uber. It is a simple but powerful tool for data scientists to explore and analyse geospatial data.
+3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using an this embedded app. It is a simple but powerful tool for geospatial data visualisation and analysis.
 
   .. image:: _static/kepler_gl.png
     :alt: Preview map
@@ -188,8 +188,24 @@ Options for actions with processing results will become available in the Additio
     :width: 15cm
 
 
- .. note::
-   You can find detailed information about kepler.gl in the `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
+
+
+  *You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.*
+
+
+Team accounts
+--------------
+
+User can run a Team account to invite collaborators and set up Mapflow limits.
+Currently you need to reach out to us to create a Team and assign an Admin role to your registered Mapflow account.
+
+  .. image:: _static/team_accounts.png
+    :alt: Preview map
+    :align: center
+    :width: 15cm
+
+After the Team is created the Admin user can invite new team members and manage their limits in the Mapflow settings. Only Admin user gets acces to the Team profile.  
+
 
 Working with API
 -----------------

@@ -22,6 +22,53 @@ Authorization
 
 The API uses the ``Basic Auth`` authorization method, for details about how it works, click :doc:`here <../userguides/mapflow_auth>`.
 
+User status
+-----------
+
+Returns user status for the the given account.
+
+.. note::
+  If user account is linked to the Team - returns Team's description
+
+Response example:
+
+.. code:: json
+
+    {
+      "email": "user@geoalert.io",
+      "processedArea": 45221388394,
+      "remainingArea": 54778611606,
+      "areaLimit": 100000000000,
+      "memoryLimit": 1000000000,
+      "models": [
+          {
+              "id": "30ddfd15-04aa-47f6-9ceb-68ce709fd710",
+              "name": "🏠 Buildings",
+              "description": "",
+              "created": "2023-02-01T08:17:03.871690Z",
+              "updated": "2023-05-11T14:24:31.456180Z",
+              "pricePerSqKm": 13.0
+          },
+          {
+              "id": "5d47a57c-3274-4014-aa04-daac416782f7",
+              "name": "🚗 Roads",
+              "description": "",
+              "created": "2023-02-01T08:17:03.371720Z",
+              "updated": "2023-05-11T14:24:31.605710Z",
+              "pricePerSqKm": 5.0
+          }
+      ],
+      "teams": [
+          {
+              "teamId": "a6c5a4cf-c693-4441-8bef-028ac0f2d5d9",
+              "name": "My Geoalert Team",
+              "role": "OWNER",
+              "activeUntil": null,
+              "creditsLimit": null
+          }
+      ]
+  }
+
 API Methods
 -----------
 
@@ -305,9 +352,8 @@ Request body sample:
     {
         "name": "Test",                                      //Name of this processing. Optional.
         "description": "A simple test",                      //Arbitrary description of this processing. Optional.
-        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be used.
+        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be applied.
         "wdName": "🏠 Buildings",                            //The name of a workflow (AI model). Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
-        "wdId": "009a89fc-bdf9-408b-ad04-e33bb1cdedda",      //Workflow definition id. Either wdName or wdId may be specified.
         "geometry": {                                        //A geojson geometry of the area of processing.
             "type": "Polygon",
             "coordinates": [
@@ -339,7 +385,7 @@ Request body sample:
             "source_type": "xyz",
             "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         },
-        "meta": {                             #Arbitrary string key-value pairs for this processing (metadata). Optional.
+        "meta": {                             #Arbitrary string key-value for this processing (metadata). Optional.
             "test": "test"
         }
     }
