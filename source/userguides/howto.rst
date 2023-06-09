@@ -162,7 +162,6 @@ Click on the layer name to bring up the *Layer settings* from the drop-down menu
 
 These settings allow you to choose a more suitable type of received data:
 
-
 * *Fill color.* You can choose any color from the palette for polygons, and also hide the display of data by changing the position of the slider. You can change the transparency of polygons (property *Opacity*) in the additional settings of this function.
 * *Stroke color.* You can choose any color from the palette for outlining polygons, as well as completely remove the stroke. You can change the transparency of the stroke (property *Opacity*) In the additional settings of this function.
 * *Stroke width.* Controls the thickness of the stroke.
@@ -196,8 +195,8 @@ You can select or remove attributes that will be visible in the menu that appear
     :width: 15cm
 
 
-Base map tab
-^^^^^^^^^^^^
+Basemap tab
+^^^^^^^^^^^
 
 Here you can choose the styles of the map, as well as choose to display its various layers.
 
