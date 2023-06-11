@@ -50,7 +50,6 @@ You need to log in with your credentials to start using the plugin. Go to `mapfl
 User interface
 --------------
 
-
 Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
@@ -69,16 +68,16 @@ Processing controls panel allows to start new processing and/or rate finished pr
 
 .. csv-table::
     :file: _static/qgis/processing_controls_panel.csv 
-    :header-rows: 1 
+    :header-rows: 1
     :class: longtable
-    :widths: 1 3  
 
-|
+Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
+
 
 How to run the processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To start the processing you need to select the **Polygon Area** (AOI) on a Map.
+To start the processing you need to add the **Polygon Area** (AOI).
 
 The plugin has several built-in options for creating AOI.
 
@@ -94,7 +93,6 @@ The plugin has several built-in options for creating AOI.
          :alt: View of the aoi 
          :align: center
          :width: 15cm
-
 
 
 Tabs section contains 4 tabs:
@@ -128,7 +126,7 @@ Tabs section contains 4 tabs:
    * - Name of the field / button
      - Description
    * - Name
-     - Processing name.
+     - Your processing name.
    * - Model
      - User-selected item from the list of available models.
    * - Status
@@ -136,12 +134,12 @@ Tabs section contains 4 tabs:
    * - Progress
      - The percentage of completeness of the processing.
    * - Area
-     - The processing area.
+     - The processing area (AOI).
    * - Created
      - The date-time of the processing creation.
   
-
-To download the processing results, double-click on the completed processing.
+.. hint::
+    To download the processing results, you can double-click on the completed processing in the list.
 
 This tab contains also two buttons: *Download results* and *Delete* buttons.
 
@@ -151,8 +149,8 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 .. _Providers:
 
-2. Providers
-~~~~~~~~~~~~~
+2. Imagery search
+~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/Providers_tab.png
          :alt: View of the providers tab
@@ -168,12 +166,6 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
    * - Name of the field / button
      - Description
-   * - Additional sources of images
-     - Drop-down list with additional satellite imagery providers.
-   * - "Add" button
-     - Button for adding a source of satellite images. 
-   * - "Delete" button
-     - Button for deleting the source of satellite images.
    * - "Edit" button
      - Button for changing the parameters of the source of satellite images.
    * - Preview
@@ -205,19 +197,34 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 3. Settings
 ~~~~~~~~~~~~~
 
-This tab contains *Output directory* and *Logout* button. 
+*Edit imagery providers available to the plugin*
 
-*Output directory* - Define where the processing results will be loaded.
+.. list-table::
+   :widths: auto
+   :header-rows: 1
 
-*Logout* button - Sign out from your Mapflow account.
+   * - Name of the field / button
+     - Description
+   * - Imagery providers
+     - Drop-down list with additional satellite imagery providers.
+   * - "Add" button
+     - Button for adding a source of images. 
+   * - "Delete" button
+     - Button for deleting the custom data provider.
+   * - "Edit" button
+     - Opens dialog to edit custom data provider
+
+
+This tab contains also *Output directory* button. 
+
+*Output directory* - set uo where the processing results will be loaded on your local disk.
 
 .. _Help:
 
 4. Help
 ~~~~~~~~
 
-The tab contains all useful links to this plugin documentation.
-
+The tab contains all useful links to the plugin documentation.
 
 Use commercial satellite imagery providers
 -------------------------------------------
@@ -249,7 +256,7 @@ How to connect to Maxar SecureWatch
 .. figure:: _static/qgis/addnewprovider.png
          :alt: View of the providers tab
          :align: center
-         :width: 15cm
+         :width: 10cm
 
 |
 
@@ -289,7 +296,7 @@ Now the Maxar layer is available for preview in your raster layers list and for 
 
 
 How to find and process the image by Feature ID using Maxar SecureWatch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can use SW to discover available images for you area of interest.
 

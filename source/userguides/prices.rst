@@ -1,14 +1,30 @@
-Mapflow tariffs
+Mapflow pricing
 ===============
 
-.. important::
-   To subscribe for one of **Mapflow commercial plans** – see `Mapflow plans <https://mapflow.ai/pricing>`_ 
 
-Mapflow credits
----------------
+How to top up your balance
+--------------------------
 
 .. note::
    Each user gets free balance of credis to get started with functionality and features of Mapflow
+
+In order to top up you balance with more credits go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
+You will be asked to pay online.
+
+.. image:: _static/topup.png
+   :alt: Top up you balance
+   :align: center
+   :width: 15cm
+   :class: with-border no-scaled-link
+
+|
+
+.. important::
+   If you want to buy a custom number of credits, use another payment method or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_. 
+
+
+Mapflow credits
+---------------
 
 The price in credits is counted as:
 1 Credit = 0.1$ with the progressive discount depending on the number of credits.
@@ -23,13 +39,13 @@ See information on the tariff plans:
       :class: longtable
       :widths: 1 1 1 1
 
-Mapflow-QGIS pricing model
+Mapflow-QGIS billing
 --------------------------
 
 .. warning::
    Mapflow-QGIS has another pricing which is per sq.km.
-   The universal billing solution will allow to charge in credits for all processing and imagery access services using Mapflow.
-   In the meanwhile contact us at help@geoalert.io if you want to assign your credits for Mapflow-QGIS usage
+   We are switching all applications to the universal billing which will allow to charge in credits for all processing and imagery access services using Mapflow.
+   In the meanwhile contact us at help@geoalert.io if you have buy credits and wnat to assign your credits to Mapflow-QGIS usage
 
 
 .. list-table::
@@ -48,6 +64,3 @@ Mapflow-QGIS pricing model
      - 10
      - 20
      - 200
-   
-.. note::
-   See also – :doc:`*How to buy credits for using the platform? How much is it?* <../faq>`

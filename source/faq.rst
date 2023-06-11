@@ -5,9 +5,9 @@ Payment
 ---------
 **How to buy credits for using the platform? How much is it?**
 
-    The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits ($50, $90 or $800). See :doc:`Mapflow tariffs </userguides/prices>`.
+    The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits ($50, $90 or $800). See :doc:`Mapflow prices </userguides/prices>`.
 
-**I represent a company and would like to perform large volumes of processing. Do you have corporate rates?**
+**I represent a company and would like to perform large volume of processing. Do you have corporate rates?**
 
     Check our `commercial plans <https://mapflow.ai/pricing>`_ for Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry and get the quotation.
 
