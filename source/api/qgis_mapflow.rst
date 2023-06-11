@@ -59,6 +59,7 @@ Main plugin workspace has two sections: left sidebar with the processing control
          :alt: View of the main window
          :align: center
          :width: 20cm
+         :class: no-scaled-link 
 
 |
 
@@ -93,6 +94,7 @@ The plugin has several built-in options for creating AOI.
          :alt: View of the aoi 
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
 
 Tabs section contains 4 tabs:
@@ -114,6 +116,7 @@ Tabs section contains 4 tabs:
          :alt: View of the processing tab
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
 |
 
@@ -257,6 +260,7 @@ How to connect to Maxar SecureWatch
          :alt: View of the providers tab
          :align: center
          :width: 10cm
+         :class: with-border no-scaled-link 
 
 |
 
@@ -286,6 +290,7 @@ How to connect to Maxar SecureWatch
          :alt: Your user profile in SecureWatch
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
         The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
      
@@ -310,7 +315,7 @@ You can use SW to discover available images for you area of interest.
      .. figure:: _static/qgis/add_SW_WFS.png
          :alt: Get specific image from SW
          :align: center
-         :width: 15cm    
+         :width: 15cm
 
 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
 5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
@@ -373,8 +378,8 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
          :alt: Upload TIF, select from list
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
-|
 
 .. important::
 
@@ -396,9 +401,6 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
   You could send a request using data preprocessing to help@geoalert.io
 
 
-|
-
-
 
 
 Proxy-settings
@@ -410,5 +412,4 @@ If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and wil
          :alt: Proxy settings
          :align: center
          :width: 15cm
-
-|
+         

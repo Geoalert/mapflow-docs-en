@@ -1,5 +1,5 @@
-Mapflow Web
-===========
+Mapflow Web - Get started
+=========================
 
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your Google account.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**.
@@ -19,12 +19,13 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.1. Select the raster source
-"""""""""""""""""""""""""""”””””””””
+"""""""""""""""""""""""""""""
 
 .. image:: _static/select_provider.png
     :alt: Select provider
     :align: center
     :scale: 60
+    :class: with-border no-scaled-link
 
 - Imagery providers
 
@@ -32,10 +33,11 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
  * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
-    .. image:: _static/image_metadata.png
-       :alt: Search image metadata
-       :align: center
-       :width: 15cm
+.. image:: _static/image_metadata.png
+    :alt: Search image metadata
+    :align: center
+    :width: 15cm
+    :class: with-border no-scaled-link
 
 
 - Custom URL
@@ -76,12 +78,13 @@ The processing AOI must be located in the area of this extent, otherwise the are
      Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
 1.2. Specify the area of interest
-"""""""""""""""""""""""""""""""”””’””””
+"""""""""""""""""""""""""""""""""
 
- .. image:: _static/ui_map_select_source.png
+.. image:: _static/ui_map_select_source.png
   :alt: Select AOI
   :align: center
   :width: 15cm
+  :class: with-border no-scaled-link  
 
 This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
@@ -140,6 +143,7 @@ After the successful processing completion, the card can be opened to view more 
      :alt: Processing card
      :align: center
      :width: 8cm
+     :class: with-border no-scaled-link 
 
 
 Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
@@ -221,7 +225,7 @@ Allows to download results as a file in GeoJSON format.
    :align: center
    :width: 15cm
 
-
+|
 
 3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using this embedded app. It is a simple but powerful tool for geospatial data visualization and analysis.
 
@@ -266,5 +270,6 @@ The service uses the **Basic Auth** authorization type - use the API token, whic
    :alt: Preview map
    :align: center
    :width: 8cm
+   :class: no-scaled-link 
 
 
