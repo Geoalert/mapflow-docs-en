@@ -60,7 +60,7 @@ Mapflow-QGIS billing
      - 50
      - 100
      - 1000
-   * - Premium satellite imagery, sq.km
-     - 10
-     - 20
-     - 200
+   * - Premium satellite imagery cost, credits / sq.km
+     - 40
+     - 40
+     - 40
