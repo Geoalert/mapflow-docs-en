@@ -118,7 +118,6 @@ Tabs section contains 4 tabs:
          :width: 15cm
          :class: with-border no-scaled-link 
 
-|
 
 **Start processings and display the output on the map**
 
@@ -192,7 +191,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 .. hint::
     You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
-    Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
+    Check for free aerial images and try XYZ links at  `OpenAerialMap <https://openaerialmap.org>`_.
 
 
 .. _Settings:
@@ -271,10 +270,9 @@ How to connect to Maxar SecureWatch
 
    3.  Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)
 
-   4.  Optional: specify the coordinate system;
+   4.  Optional: specify the coordinate system (default epsg:3857);
 
    5.  Optional: Check *Save login and password*
-
 
 
   .. hint::
@@ -327,7 +325,7 @@ You can use SW to discover available images for you area of interest.
 6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
 
 .. attention::
-    "max zoom 13" checkbox is active to prevent the paid streaming on the side of SecureWatch.
+    "max zoom 12" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch.
      
 
 How to use other imagery services
@@ -343,7 +341,7 @@ Select the image and copy link to TMS.
          :align: center
          :width: 15cm
 
-  |
+|
 
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
 

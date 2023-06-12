@@ -33,6 +33,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
  * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
+
 .. image:: _static/image_metadata.png
     :alt: Search image metadata
     :align: center
