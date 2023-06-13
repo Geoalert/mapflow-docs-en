@@ -386,8 +386,9 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 
     * **Check the data type** 
           The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
-
           Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
+    * **Check the image size**
+          Both sides image dimension mmust not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom <https://geoalert.io/#contacts>`_.
     * **Check the number of channels**  
           Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not
           tuned for such kind of data, so the quality of the result may be worse than expected.

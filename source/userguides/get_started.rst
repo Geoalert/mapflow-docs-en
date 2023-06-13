@@ -1,10 +1,10 @@
-Mapflow Web - Get started
-=========================
+Mapflow - Get started
+======================
 
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your Google account.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**.
 
-How to run your mapping flow
+How to run your mapping flow in Web app
 ---------------------------------------
 
 Mapflow is designed to be intuitive. Here is our step-by-step user guide:
@@ -16,7 +16,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 
 1. Data source
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 1.1. Select the raster source
 """""""""""""""""""""""""""""
@@ -27,7 +27,10 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     :scale: 60
     :class: with-border no-scaled-link
 
-- Imagery providers
+|
+
+Imagery providers
+~~~~~~~~~~~~~~~~~~
 
  Here you can select one of the providers:
 
@@ -40,8 +43,10 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     :width: 15cm
     :class: with-border no-scaled-link
 
+|
 
-- Custom URL
+Custom URL
+~~~~~~~~~~~~~
 
 The interface of this tab allows you to:
 
@@ -53,12 +58,13 @@ The interface of this tab allows you to:
  * Return to default Imagery providers.
 
 
-- GeoTIFF
+Upload GeoTIFF
+~~~~~~~~~~~~~~~~~~
 
  Here you can upload your own image in GeoTiff format.
 
-   .. important::
-     Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
+.. warning::
+    Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
     
 The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI.
 
@@ -66,6 +72,7 @@ The processing AOI must be located in the area of this extent, otherwise the are
 
      - The uploaded images must have the area of more than 1 sq.km.
      - The file size must be less than 512 mb.
+     - Both sides image dimensions must not exceed 30.000x30.000 pixels
      - The image must be georeferenced and the CRS must be one of:
 
        - WGS84 (EPSG: 4326)
@@ -73,10 +80,10 @@ The processing AOI must be located in the area of this extent, otherwise the are
        - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
     
 
-   .. note::
-     If your image doesn't meet the parameters, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which has more capabilities.
+.. hint::
+    If your image doesn't meet the parameters above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities.
     
-     Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
 1.2. Specify the area of interest
 """""""""""""""""""""""""""""""""
@@ -86,6 +93,8 @@ The processing AOI must be located in the area of this extent, otherwise the are
   :align: center
   :width: 15cm
   :class: with-border no-scaled-link  
+
+|
 
 This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
