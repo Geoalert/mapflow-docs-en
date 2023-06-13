@@ -71,7 +71,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 .. important::
 
     Image upload requirements:
-    The file size must be less than 512 mb.
+    The file size must be less than 512 mb. Both sides image dimmesions must not exceed 30.000x30.000
 
     The image must be georeferenced and the CRS must be one of:
     * WGS84 (EPSG: 4326)
@@ -150,7 +150,7 @@ Using the Kepler you can change the visual properties of data, set filters, and 
 
 
 Layers tab
-^^^^^^^^^^
+~~~~~~~~~~
 
 Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, click on the *eye* icon.
 
@@ -174,7 +174,7 @@ These settings allow you to choose a more suitable type of received data:
 
 
 Filters tab
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, the filter is set by classes with different typology of buildings).
 
@@ -185,7 +185,7 @@ This tab allows you to add a filter of interest by a specific attribute of the l
 
 
 Interaction tab
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 You can select or remove attributes that will be visible in the menu that appears when you hover over an object. It is also possible to turn on the panel indicating longitude and latitude.
 
@@ -196,7 +196,7 @@ You can select or remove attributes that will be visible in the menu that appear
 
 
 Basemap tab
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 Here you can choose the styles of the map, as well as choose to display its various layers.
 
