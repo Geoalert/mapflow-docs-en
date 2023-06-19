@@ -31,7 +31,8 @@ extensions = [
   'edit_on_github',
   'sphinxemoji.sphinxemoji',
   'sphinx_rtd_theme',
-  'rst2pdf.pdfbuilder'
+  'rst2pdf.pdfbuilder',
+  'sphinxnotes.strike',
 ]
 
 pdf_documents = [
