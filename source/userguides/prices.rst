@@ -9,7 +9,7 @@ Mapflow credits
 
 .. note::
    Each user gets free balance of **250** credits to get started with functionality and features of Mapflow
-   You can always buy more in your `account <https://app.mapflow.ai/account/balance>` section.
+   You can always buy more in your `account <https://app.mapflow.ai/account/balance>`_ section.
 
 The price in credits is counted as:
 1 Credit = 0.1$ with the progressive discount depending on the amount of credits you buy:
@@ -54,6 +54,12 @@ Cost of processing consists of **data cost** and **processing cost**
 
 ``Cost = Area * (Processing Price + Data Price)``
 
+.. note::
+    all the processings having area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
+
+.. note::
+    total processing cost is rounded up to the nearest integer number of credits
+
 Processing price
 ~~~~~~~~~~~~~~~~
 
@@ -79,23 +85,19 @@ therefore we scale prices depending on the imagery resolution for a more accurat
   :file: _static/csv/data_prices.csv
   :header-rows: 1
   :class: longtable
-  :widths: 20 10 10 10 10 10
+  :widths: 20 10 10 10
 
-Note: Most default models work at 18 zoom. Exception is Fields high-res model (17 zoom).
-
-.. note::
-    all the processings having area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
-
-.. note::
-    total processing cost is rounded up to the nearest integer number of credits
+.. note:: Most default models work at 18 zoom. Exception is Fields high-res model (17 zoom).
+          `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
 
 Example
+-------
 
-I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom
-(35 credits for per sq.km) with Buildings model
+I want to process 3.3 sq.km of Maxar SecureWatch data at 18 zoom
+(72 credits for per sq.km) with Buildings model
 (13 credit per sq.km).
-Cost = 3.4*(13+35) = 163.2 => 164 credits after rounding
+Cost = 3.3*(13+72) = 280.5, rounded up to **281 credits**.
 
 I want to process 0.01 sq.km of my own imagery
 with the Forest model.
-Area is rounded up to 1 sq.km, so the cost will be 1*8 = 8 credits
+Area is rounded up to 1 sq.km, so the cost will be 1*(8+0) = **8 credits**
