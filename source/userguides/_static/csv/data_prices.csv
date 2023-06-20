@@ -1,7 +1,7 @@
-Data Provider, 18 zoom,17 zoom ,16 zoom, 15 zoom, 14 zoom
-Mapbox, 0, 0, 0, 0, 0
-Arcgis Satellite, 0, 0, 0, 0, 0
-Your basemap, 0, 0, 0, 0, 0
-Your TIFF imagery, 0, 0, 0, 0, 0
-Maxar SecureWatch, 64, 16, 4, 1, 0.25
-Maxar Vivid, 32, 8, 2, 0.5. 0.125
+Data Provider, 18 zoom, 17 zoom, 16 zoom
+Mapbox, 0, 0, 0
+Arcgis Satellite, 0, 0, 0
+Your basemap, 0, 0, 0
+Your TIFF imagery, 0, 0, 0
+Maxar SecureWatch, 72, 18, 4.5
+Maxar Vivid, 36, 9, 2.25
