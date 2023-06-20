@@ -48,6 +48,8 @@ The price in credits is counted as:
      - | :del:`$1000`
        | $800
 
+All prices below are given in Mapflow credits
+
 Maflow Web models pricing
 -------------------------
 
