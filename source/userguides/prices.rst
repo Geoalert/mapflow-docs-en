@@ -27,11 +27,11 @@ Mapflow credits
 ---------------
 
 .. note::
-   Each user gets free balance of **250** credits to get started with functionality and features of Mapflow
-   You can always buy more in your `account <https://app.mapflow.ai/account/balance>`_ section.
+   Each user gets the free balance of **250** credits to get started with Mapflow AI.
+   You can always buy more in your `account profile <https://app.mapflow.ai/account/balance>`_.
 
 The price in credits is counted as:
-1 Credit = 0.1$ with the progressive discount depending on the amount of credits you buy:
+1 Credit = 0.1$ with the progressive discount depending on the number of credits you buy:
 
 .. list-table::
    :widths: 30 15 15 15
@@ -57,16 +57,16 @@ Maflow Web models pricing
   :class: longtable
   :widths: 1 1 1
 
-Mapflow Web also shows transparent price breakdown during processing creation.
+Mapflow Web also provides a transparent price breakdown in the processing pipeline.
 
-Mapflow-QGIS models pricing
----------------------------
+Mapflow-QGIS / API models pricing
+----------------------------------
 
 .. warning::
-   Mapflow-QGIS has slightly different set of models, and you cannot choose the model options.
-   All models are launched with postprocessing options turned ON.
-   If you want to customize your experience, for example to have a basic model with lower price,
-   apply for `Mapflow Premium <https://mapflow.ai/pricing>`_.
+   Mapflow-QGIS plugin has a slightly different set of models, and you cannot choose the model options.
+   All models are launched with postprocessing options **turned ON**.
+   If you want to customize your workflow, for example to have a basic model with another set of options, consider
+   applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_.
    Also, Mapflow QGIS provides access to paid imagery services, so the cost calculation is a bit more complex.
 
 Cost of processing consists of **data cost** and **processing cost**
@@ -74,10 +74,8 @@ Cost of processing consists of **data cost** and **processing cost**
 ``Cost = Area * (Processing Price + Data Price)``
 
 .. note::
-    all the processings having area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
-
-.. note::
-    total processing cost is rounded up to the nearest integer number of credits
+   * All the processings having an area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
+   * Total processing cost is rounded up to the nearest integer number of credits
 
 Processing price
 ~~~~~~~~~~~~~~~~
@@ -93,12 +91,8 @@ processing cost is the same as in Mapflow Web with the options, where applicable
 
 Data price
 ~~~~~~~~~~
-Data price when using data providers (Mapbox, Arcgis Satellite), your basemap links, and your uploaded imagery is zero.
-
-If you are using paid providers (Maxar SecureWatch, and others that might be available),
-the cost of the data depends on the zoom level, changing 4-fold with each zoom level. We partner with streaming data providers,
-which means that the cost of the service depends on the traffic,
-therefore we scale prices depending on the imagery resolution for a more accurate pricing model.
+When using default data providers (Mapbox, Arcgis Satellite), your own TMS, and your uploaded imagery the price is zero.
+If you are using commercial providers (Maxar SecureWatch, and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic therefore we scale prices depending on the imagery resolution for a more accurate pricing model.
 
 .. csv-table::
   :file: _static/csv/data_prices.csv
@@ -106,17 +100,19 @@ therefore we scale prices depending on the imagery resolution for a more accurat
   :class: longtable
   :widths: 20 10 10 10
 
-.. note:: Most default models work at 18 zoom. Exception is Fields high-res model (17 zoom).
-          `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
+.. note::
+   * Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
 
-Example
--------
+.. epigraph::
+    I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom
+    (35 credits per sq.km) with Buildings model
+    (13 credits per sq.km).
+    
+``Cost = 3.4*(13+35) = 163.2 => 164 credits``
 
-I want to process 3.3 sq.km of Maxar SecureWatch data at 18 zoom
-(72 credits for per sq.km) with Buildings model
-(13 credit per sq.km).
-Cost = 3.3*(13+72) = 280.5, rounded up to **281 credits**.
-
-I want to process 0.01 sq.km of my own imagery
-with the Forest model.
-Area is rounded up to 1 sq.km, so the cost will be 1*(8+0) = **8 credits**
+.. epigraph::
+    I want to process 0.01 sq.km of my own imagery
+    with the Forest model.
+    Area is rounded up to 1 sq.km, so the cost will be 
+    
+``Cost = 1*8 = 8 credits``
