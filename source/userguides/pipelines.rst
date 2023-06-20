@@ -173,12 +173,7 @@ High-density housing
      - 18–19
      - 0.3
      - Unsigned integer, 8 bit
-   * - Building heights
-     - For each building instance, model predicts its height. If height detection option is selected, all roof contours are shifted accordingly, i.e. converted to building footprints
-     - RGB `*`_, 0.5
-     - 18
-     - 0.3
-     - Unsigned integer, 8 bit
+
 
 Construction
 """""""""""""
