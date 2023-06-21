@@ -64,7 +64,7 @@ Processing price
 ~~~~~~~~~~~~~~~~
 
 As all the model options are turned on for Mapflow QGIS,
-processing cost is the same as in Mapflow Web with the options, where applicable:
+processing cost is the same as in Mapflow Web with the options, where it's applicable:
 
 .. csv-table::
   :file: _static/csv/api_processing_prices.csv
@@ -74,7 +74,7 @@ processing cost is the same as in Mapflow Web with the options, where applicable
 
 Data price
 ~~~~~~~~~~
-When using default data providers (Mapbox, Arcgis Satellite), your own TMS, and your uploaded imagery the price is zero.
+When using default data providers (Mapbox, Arcgis Satellite), your own TMS, or your uploaded imagery the price is zero.
 If you are using commercial providers (Maxar SecureWatch, and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic therefore we scale prices depending on the imagery resolution for a more accurate pricing model.
 
 .. csv-table::
@@ -84,18 +84,16 @@ If you are using commercial providers (Maxar SecureWatch, and others that might 
   :widths: 20 10 10 10
 
 .. note::
-   * Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
+   Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
 
 .. epigraph::
-    I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom
+    *I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom
     (35 credits per sq.km) with Buildings model
-    (13 credits per sq.km).
-    
-``Cost = 3.4*(13+35) = 163.2 => 164 credits``
+    (13 credits per sq.km).*
+    ``Cost = 3.4*(13+35) = 163.2 => 164 credits``
 
 .. epigraph::
-    I want to process 0.01 sq.km of my own imagery
+    *I want to process 0.01 sq.km of my own imagery
     with the Forest model.
-    Area is rounded up to 1 sq.km, so the cost will be 
-    
-``Cost = 1*8 = 8 credits``
+    Area is rounded up to 1 sq.km, so the cost will be:* 
+    ``Cost = 1*8 = 8 credits``
