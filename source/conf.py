@@ -32,6 +32,7 @@ extensions = [
   'sphinxemoji.sphinxemoji',
   'sphinx_rtd_theme',
   'rst2pdf.pdfbuilder',
+  'sphinxnotes.strike',
   'sphinx_favicon'
 ]
 

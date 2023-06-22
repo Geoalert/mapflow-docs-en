@@ -32,12 +32,6 @@ To build EN docs:
 
     make -e BUILDDIR="build/docs/en" html
 
-To build RU docs:
-
-    make -e BUILDDIR="build/docs/ru" SPHINXOPTS="-D language='ru'" html
-
-**RU docs translation is not used for now!**
-
 ## Internatization
 
 ### Translate the docs
