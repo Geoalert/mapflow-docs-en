@@ -26,10 +26,6 @@ You will be asked to pay online.
 Mapflow credits
 ---------------
 
-.. note::
-   Each user gets the free balance of **250** credits to get started with Mapflow AI.
-   You can always buy more in your `account profile <https://app.mapflow.ai/account/balance>`_.
-
 The price in credits is counted as:
 1 Credit = 0.1$ with the progressive discount depending on the number of credits you buy:
 
