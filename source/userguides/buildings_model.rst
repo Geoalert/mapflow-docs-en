@@ -1,5 +1,5 @@
-Buildings
----------
+🏠 Buildings
+------------
 
 Extracting of rooftops of buildings from imagery of high resolution.
 High performance deep learning model is trained to detect the buildings roofs. 
@@ -20,23 +20,23 @@ The model does not extract the footprints directly, because they are not clearly
 
 A sample of processing result with different options for Prague, Chech Republic.
 
-.. figure:: ../_static/processing_result/buildings_model_7.png
+.. figure:: _static/processing_result/buildings_model_7.png
    :alt: Processing result of buildings model
    :align: center
-   :width: 18cm
+   :width: 15cm
    
    Result without postprocessing: irregular building shapes, but best fit to the actual rooftop contour seen in the image.
 
-.. figure:: ../_static/processing_result/buildings_model_8.png
+.. figure:: _static/processing_result/buildings_model_8.png
    :alt: Processing result of buildings model
    :align: center
-   :width: 18cm
+   :width: 15cm
    
    Result with simplification: most of the buildings become rectangular.
 
-.. figure:: ../_static/processing_result/buildings_model_10.png
+.. figure:: _static/processing_result/buildings_model_10.png
    :alt: Processing result of buildings model
    :align: center
-   :width: 18cm
+   :width: 15cm
    
    Result merged with OSM: some of the buildings imported from OSM have more accurate shape, but may be shifted from the image position.

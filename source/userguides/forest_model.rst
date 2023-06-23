@@ -1,5 +1,5 @@
-Forest
-------
+🌲 Forest
+---------
 
 Forest Segmentation. The model is trained on high-resolution data (0.6 m) for different areas and climate zones.
 
@@ -12,7 +12,7 @@ This model can be used to spped up trees detection and area estimation in forest
 
 **Processing results samples**
 
-.. figure:: ../_static/processing_result/forest_model_2.png
+.. figure:: _static/processing_result/forest_model_2.png
    :alt: Processing result of forest model
    :align: center
    :width: 18cm

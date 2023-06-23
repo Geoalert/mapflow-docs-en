@@ -1,5 +1,5 @@
-Forest with heights [Mapflow API/QGIS only]
--------------------------------------------
+🌲↕️ Forest with heights (Mapflow API/QGIS only)
+-------------------------------------------------
 
 This model is not available in Mapflow Web. Use `Mapflow QGIS` or API to get access to forest height estimation.
 
@@ -16,7 +16,7 @@ This postprocessing is available for processings 50 sq.km and more.
 
 **Processing results samples**
 
-.. figure:: ../_static/processing_result/forest_model_2.png
+.. figure:: _static/processing_result/forest_model_2.png
    :alt: Processing result of forest model
    :align: center
    :width: 18cm

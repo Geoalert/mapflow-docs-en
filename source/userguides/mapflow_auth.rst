@@ -31,11 +31,10 @@ Authorization in a Web application and obtaining an API token
     :width: 8cm
 
 
-.. note::
-    
+.. note::    
     An example of authorization in an :doc:`application for QGIS <../api/qgis_mapflow>`:
 
  .. figure:: _static/api_token_login.png
-  :alt: Preview map
-  :align: center
-  :width: 10cm
+    :alt: Preview map
+    :align: center
+    :width: 10cm
