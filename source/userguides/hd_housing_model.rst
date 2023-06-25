@@ -1,4 +1,4 @@
-🏘 High-density housing (Mapflow Web only)
+🏘 High-density housing (Mapflow Web)
 -------------------------------------------
 
 Our “high-density housing” AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc. This model, just like the regular building model, detects the building roofs.

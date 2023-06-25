@@ -10,20 +10,23 @@ We do not recommend using this model in areas with high-dense urban buildings. U
     .. figure:: _static/processing_result/aerial_model_1.png
         :alt: Processing result of Buildings (Aerial) model
         :align: center
-        :width: 18cm
+        :width: 15cm
+        :class: with-border no-scaled-link
     
         Processing example rural residential area with a Building model (Aerial photo)
 
     .. figure:: _static/processing_result/aerial_model_2.png
         :alt: Processing result of Buildings (Aerial) model
         :align: center
-        :width: 18cm
+        :width: 15cm
+        :class: with-border no-scaled-link
 
         Standard model for buildings segmentation, with polygon simplification
 
     .. figure:: _static/processing_result/aerial_model_3.png
         :alt: Processing result of Buildings (Aerial) model
         :align: center
-        :width: 18cm
+        :width: 15cm
+        :class: with-border no-scaled-link
         
         Objects that have been detected in an aerial image by the Building (Aerial imagery) model as opposed to the standard model Buildings.

@@ -1,4 +1,4 @@
-🌲↕️ Forest with heights (Mapflow API/QGIS only)
+🌲↕️ Forest with heights (API/QGIS)
 -------------------------------------------------
 
 This model is not available in Mapflow Web. Use `Mapflow QGIS` or API to get access to forest height estimation.

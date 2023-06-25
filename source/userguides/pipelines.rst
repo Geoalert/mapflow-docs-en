@@ -1,7 +1,7 @@
 The core of the Mapflow are the Mapping Models. Mapflow enables to detect and extract features in satellite and aerial images powered by semantic segmentation and other deep learning techniques. 
 
 .. note::
-    For the data requirements – see :doc:`model requirements <requirements>` and :doc:`price list <prices>` for breakdown of the processings billing.
+    For the data requirements – see :ref:`model requirements`. For the breakdown of the Mapflow processings billing – see :doc:`Mapflow pricing <prices>`.
 
 AI-Mapping Models
 =================

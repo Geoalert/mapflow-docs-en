@@ -8,13 +8,15 @@ Model for fields segmentation allows to detect the agricultural fields and delin
 .. figure:: _static/processing_result/agriculture_fields_5.png
    :alt: Processing result of agriculture fields model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    Processing result sample for Europe (Belgium)
 
 .. figure:: _static/processing_result/agriculture_fields_11.png
    :alt: Processing result of agriculture fields model
    :align: center
-   :width: 18cm 
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    Processing result sample for Asia (Northern India)

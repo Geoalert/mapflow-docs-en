@@ -49,7 +49,7 @@ How to process your own UAV imagery with Mapflow
 Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a deeply integrated part of the geomatic industry over the last ten years. This is owing to their increasing usability, falling hardware costs, and easing government regulations. Yet, as more data is available with UAV surveys, more data need to be processed operatively. 
 To process your UAV data you might be looking for some cloud or desktop software to create a mosaic or orthophoto.  Do you know that you can easily publish your data with Openaerialmap and analyze (say detect and calculate some objects and calculate their areas) with Mapflow QGIS or Mapflow Web? 
 
-Let’s take the “UAV buildings” :doc:`models_changelog/buildings_aerial_imagery_model` model that extracts the detailed building outlines (the recommended image resolution is 10 cm).
+Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` model that extracts the detailed building outlines (the recommended image resolution is 10 cm).
 
 Processing with Mapflow Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -150,7 +150,7 @@ Using the Kepler you can change the visual properties of data, set filters, and 
 
 
 Layers tab
-^^^^^^^^^^
+~~~~~~~~~~~~
 
 Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, click on the *eye* icon.
 
@@ -175,7 +175,7 @@ These settings allow you to choose a more suitable type of received data:
 
 
 Filters tab
-^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, the filter is set by classes with different typology of buildings).
 
@@ -186,7 +186,7 @@ This tab allows you to add a filter of interest by a specific attribute of the l
 
 
 Interaction tab
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 You can select or remove attributes that will be visible in the menu that appears when you hover over an object. It is also possible to turn on the panel indicating longitude and latitude.
 
@@ -197,7 +197,7 @@ You can select or remove attributes that will be visible in the menu that appear
 
 
 Base map tab
-^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 Here you can choose the styles of the map, as well as choose to display its various layers.
 
