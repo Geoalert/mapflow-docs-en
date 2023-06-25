@@ -1,5 +1,5 @@
-Roads
------
+🚗 Roads
+--------
 
 Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\
 
@@ -15,14 +15,14 @@ In version 1.1 we added the road graph postprocessing:
 
 **Processing results samples**
 
-.. figure:: ../_static/processing_result/roads_model_6.png
+.. figure:: _static/processing_result/roads_model_6.png
    :alt: Processing result of roads model
    :align: center
    :width: 18cm
    
    Optimal conditions for the model: rural/suburban territory, Russia
 
-.. figure:: ../_static/processing_result/roads_model_9.png
+.. figure:: _static/processing_result/roads_model_9.png
    :alt: Processing result of roads model
    :align: center
    :width: 18cm

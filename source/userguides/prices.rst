@@ -1,12 +1,12 @@
 Mapflow pricing
 ===============
 
-
 How to top up your balance
 --------------------------
 
 .. note::
-   Each user gets free balance of credis to get started with functionality and features of Mapflow
+   Each user gets the free balance of **250** credits to get started with Mapflow AI.
+   You can always buy more in your `account profile <https://app.mapflow.ai/account/balance>`_.
 
 In order to top up you balance with more credits go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
 You will be asked to pay online.

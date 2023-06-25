@@ -70,14 +70,13 @@ The processing AOI must be located in the area of this extent, otherwise the are
 
    Image upload capabilities:
 
-     - The uploaded images must have the area of more than 1 sq.km.
-     - The file size must be less than 512 mb.
-     - Both sides image dimensions must not exceed 30.000x30.000 pixels
-     - The image must be georeferenced and the CRS must be one of:
-
-       - WGS84 (EPSG: 4326)
-       - Web mercator (EPSG: 3857)
-       - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
+  - The uploaded images must have the area of more than 1 sq.km.
+  - The file size must be less than 512 mb.
+  - Both sides image dimensions must not exceed 30.000x30.000 pixels
+  - The image must be georeferenced and the CRS must be one of:
+    - WGS84 (EPSG: 4326)
+    - Web mercator (EPSG: 3857)
+    - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
     
 
 .. hint::
@@ -272,7 +271,7 @@ Mapflow provides a REST API which, for example, allows you to query for currentl
 If you are developing an application and want to use our API, - check out :doc:`../api/processing_api`.
 
 .. important::
- You must follow the requirements specified with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
+  You must follow the requirements specified with :ref:`Model requirements` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 The service uses the **Basic Auth** authorization type - use the API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
@@ -281,5 +280,4 @@ The service uses the **Basic Auth** authorization type - use the API token, whic
    :align: center
    :width: 8cm
    :class: no-scaled-link 
-
 

@@ -1,21 +1,26 @@
 Requirements for using the platform
 ====================================
 
+Upload GeoTIFF requirements
+----------------------------
+
 .. note::
     Please pay attention to the following:
 
     * Images you upload must be in `Uint8` format. If your image is not of this type, please use our `image preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to translate it to the appropriate format;
     * Your imagery must be georeferenced in geographic or projected coordinate system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;
     * Your image is supposed to be RGB composite, RGBa and Singleband will work as well*;
-    * Each Mapflow model has its recommendations for the spatial resolution of the input data, see model requirements below
+    * Each Mapflow model has its recommendations for the spatial resolution of the input data, see :ref:`Model requirements` below
 
 In case of non-compliance with any requirements, the system reports an error. 
 If you are using Mapflow Web or Mapflow QGIS plugin, the error messages are shown in the user interface.
 For more details, see :doc:`errors description <../api/error_messages>`.
 
+.. _Model requirements:
 
 Model requirements
-""""""""""""""""""
+-------------------
+
 The table below lists model requirements for spatial resolution of the input imagery.
 
 **"Required"** means that the imagery with resolution outside of this range will

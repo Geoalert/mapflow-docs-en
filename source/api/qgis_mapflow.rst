@@ -107,6 +107,7 @@ Tabs section contains 4 tabs:
 
 :ref:`Help`
 
+
 .. _Processing:
 
 1. Processing
@@ -382,7 +383,7 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 
 .. important::
 
-  Please, follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform.
+  Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images for processing through the API of the Mapflow platform.
 
     * **Check the data type** 
           The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
@@ -395,12 +396,16 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
     * **Check the projection and georeference** 
           Make sure that your imagery is georeferenced in geographic or projected coordinate system.
     * **Check the resolution**
-          The resolution restrictions vary for different models, see :ref:`Models reference`   
+          The resolution restrictions vary for different models, see :ref:`Model requirements`   
   
+<<<<<<< HEAD
+You can send a request for data preprocessing to help@geoalert.io
+=======
 
   You could send a request using data preprocessing to help@geoalert.io
 
 
+>>>>>>> main
 
 
 Proxy-settings
