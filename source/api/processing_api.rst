@@ -1,5 +1,6 @@
 .. _processing-api:
 
+======================
 Mapflow Processing API
 ======================
 
@@ -15,27 +16,27 @@ Mapflow Processing API
    Check and run this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
 
 .. important::
-  You must follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
+  You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 Authorization
---------------
+=============
 
 The API uses the ``Basic Auth`` authorization method, for details about how it works, click :doc:`here <../userguides/mapflow_auth>`.
+
+API Methods
+===========
 
 User status
 -----------
 
-Returns user status for the the given account.
-
-.. note::
-  If user account is linked to the Team - returns Team's description
+Returns user status for the the given user account. If user account is linked to the Team - returns Team's description as well
 
 Response example:
 
 .. code:: json
 
     {
-      "email": "user@geoalert.io",
+      "email": "admin@geoalert.io",
       "processedArea": 45221388394,
       "remainingArea": 54778611606,
       "areaLimit": 100000000000,
@@ -68,9 +69,6 @@ Response example:
           }
       ]
   }
-
-API Methods
------------
 
 Projects
 --------
@@ -339,12 +337,12 @@ Example of the failed processing response:
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
  
 
-Post processing
-"""""""""""""""
+Create processing
+"""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-Creates and runs a processing, and returns its immediate state.
+Runs a processing, and returns its immediate state.
 Request body sample:
 
 .. code:: json
@@ -425,7 +423,7 @@ Restart processing
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
-Move processing to another project
+Link processing to another project
 """"""""""""""""""""""""""""""""""
 
 ``PUT https://api.mapflow.ai/rest/processings/{processing_id}``
@@ -503,8 +501,8 @@ Downloading processing results
 Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
 
 
-Upload images (GeoTiff) for processing
---------------------------------------
+Upload images for processing
+----------------------------
 
 .. warning::
    This is the legacy method and is going to be deprecated. Use the new :doc:`Data management API <data_api>` instead.
@@ -534,8 +532,8 @@ Response example:
 Parameter values
 ----------------
 
-wdName
-""""""
+Default AI models
+""""""""""""""""""
 .. list-table::
    :widths: 10 20 10
    :header-rows: 1
@@ -571,12 +569,12 @@ source_type
 
    * - VALUE
      - DESCRIPTION
-   * - xyz
+   * - XYZ
      - The URL to the imagery service in “xyz” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
-   * - tms
+   * - TMS
      - The similar to "xyz" with reverse "y" coordinate
-   * - wms
-     - The URL to the imagery service in “wms” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
+   * - WMS
+     - (❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
    * - Quadkey
      - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
    * - tif/tiff

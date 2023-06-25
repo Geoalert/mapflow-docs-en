@@ -1,15 +1,30 @@
 Mapflow pricing
 ===============
 
-.. important::
-   To subscribe for one of **Mapflow commercial plans** – see `Mapflow plans <https://mapflow.ai/pricing>`_ 
-
-Mapflow credits
----------------
+How to top up your balance
+--------------------------
 
 .. note::
    Each user gets the free balance of **250** credits to get started with Mapflow AI.
    You can always buy more in your `account profile <https://app.mapflow.ai/account/balance>`_.
+
+In order to top up you balance with more credits go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
+You will be asked to pay online.
+
+.. image:: _static/topup.png
+   :alt: Top up you balance
+   :align: center
+   :width: 15cm
+   :class: with-border no-scaled-link
+
+|
+
+.. important::
+   If you want to buy a custom number of credits, use another payment method or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_.
+
+
+Mapflow credits
+---------------
 
 The price in credits is counted as:
 1 Credit = 0.1$ with the progressive discount depending on the number of credits you buy:

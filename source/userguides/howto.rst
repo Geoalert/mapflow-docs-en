@@ -71,7 +71,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 .. important::
 
     Image upload requirements:
-    The file size must be less than 512 mb.
+    The file size must be less than 512 mb. Both sides image dimmesions must not exceed 30.000x30.000
 
     The image must be georeferenced and the CRS must be one of:
     * WGS84 (EPSG: 4326)
@@ -161,7 +161,6 @@ Click on the layer name to bring up the *Layer settings* from the drop-down menu
 
 
 These settings allow you to choose a more suitable type of received data:
-
 
 * *Fill color.* You can choose any color from the palette for polygons, and also hide the display of data by changing the position of the slider. You can change the transparency of polygons (property *Opacity*) in the additional settings of this function.
 * *Stroke color.* You can choose any color from the palette for outlining polygons, as well as completely remove the stroke. You can change the transparency of the stroke (property *Opacity*) In the additional settings of this function.

@@ -50,7 +50,6 @@ You need to log in with your credentials to start using the plugin. Go to `mapfl
 User interface
 --------------
 
-
 Mapflow plugin
 ~~~~~~~~~~~~~~~~
 
@@ -60,6 +59,7 @@ Main plugin workspace has two sections: left sidebar with the processing control
          :alt: View of the main window
          :align: center
          :width: 20cm
+         :class: no-scaled-link 
 
 |
 
@@ -69,16 +69,16 @@ Processing controls panel allows to start new processing and/or rate finished pr
 
 .. csv-table::
     :file: _static/qgis/processing_controls_panel.csv 
-    :header-rows: 1 
+    :header-rows: 1
     :class: longtable
-    :widths: 1 3  
 
-|
+Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
+
 
 How to run the processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To start the processing you need to select the **Polygon Area** (AOI) on a Map.
+To start the processing you need to add the **Polygon Area** (AOI).
 
 The plugin has several built-in options for creating AOI.
 
@@ -94,7 +94,7 @@ The plugin has several built-in options for creating AOI.
          :alt: View of the aoi 
          :align: center
          :width: 15cm
-
+         :class: with-border no-scaled-link 
 
 
 Tabs section contains 4 tabs:
@@ -117,8 +117,8 @@ Tabs section contains 4 tabs:
          :alt: View of the processing tab
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
-|
 
 **Start processings and display the output on the map**
 
@@ -129,7 +129,7 @@ Tabs section contains 4 tabs:
    * - Name of the field / button
      - Description
    * - Name
-     - Processing name.
+     - Your processing name.
    * - Model
      - User-selected item from the list of available models.
    * - Status
@@ -137,12 +137,12 @@ Tabs section contains 4 tabs:
    * - Progress
      - The percentage of completeness of the processing.
    * - Area
-     - The processing area.
+     - The processing area (AOI).
    * - Created
      - The date-time of the processing creation.
   
-
-To download the processing results, double-click on the completed processing.
+.. hint::
+    To download the processing results, you can double-click on the completed processing in the list.
 
 This tab contains also two buttons: *Download results* and *Delete* buttons.
 
@@ -152,8 +152,8 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 .. _Providers:
 
-2. Providers
-~~~~~~~~~~~~~
+2. Imagery search
+~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/Providers_tab.png
          :alt: View of the providers tab
@@ -169,12 +169,6 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
    * - Name of the field / button
      - Description
-   * - Additional sources of images
-     - Drop-down list with additional satellite imagery providers.
-   * - "Add" button
-     - Button for adding a source of satellite images. 
-   * - "Delete" button
-     - Button for deleting the source of satellite images.
    * - "Edit" button
      - Button for changing the parameters of the source of satellite images.
    * - Preview
@@ -198,7 +192,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 .. hint::
     You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
-    Check for free aerial images and try XYZ links at  `Open aerial Map <https://tiles.openaerialmap.org>`_.
+    Check for free aerial images and try XYZ links at  `OpenAerialMap <https://openaerialmap.org>`_.
 
 
 .. _Settings:
@@ -206,19 +200,34 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 3. Settings
 ~~~~~~~~~~~~~
 
-This tab contains *Output directory* and *Logout* button. 
+*Edit imagery providers available to the plugin*
 
-*Output directory* - Define where the processing results will be loaded.
+.. list-table::
+   :widths: auto
+   :header-rows: 1
 
-*Logout* button - Sign out from your Mapflow account.
+   * - Name of the field / button
+     - Description
+   * - Imagery providers
+     - Drop-down list with additional satellite imagery providers.
+   * - "Add" button
+     - Button for adding a source of images. 
+   * - "Delete" button
+     - Button for deleting the custom data provider.
+   * - "Edit" button
+     - Opens dialog to edit custom data provider
+
+
+This tab contains also *Output directory* button. 
+
+*Output directory* - set uo where the processing results will be loaded on your local disk.
 
 .. _Help:
 
 4. Help
 ~~~~~~~~
 
-The tab contains all useful links to this plugin documentation.
-
+The tab contains all useful links to the plugin documentation.
 
 Use commercial satellite imagery providers
 -------------------------------------------
@@ -250,7 +259,8 @@ How to connect to Maxar SecureWatch
 .. figure:: _static/qgis/addnewprovider.png
          :alt: View of the providers tab
          :align: center
-         :width: 15cm
+         :width: 10cm
+         :class: with-border no-scaled-link 
 
 |
 
@@ -261,10 +271,9 @@ How to connect to Maxar SecureWatch
 
    3.  Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)
 
-   4.  Optional: specify the coordinate system;
+   4.  Optional: specify the coordinate system (default epsg:3857);
 
    5.  Optional: Check *Save login and password*
-
 
 
   .. hint::
@@ -280,6 +289,7 @@ How to connect to Maxar SecureWatch
          :alt: Your user profile in SecureWatch
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
         The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
      
@@ -290,7 +300,7 @@ Now the Maxar layer is available for preview in your raster layers list and for 
 
 
 How to find and process the image by Feature ID using Maxar SecureWatch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can use SW to discover available images for you area of interest.
 
@@ -299,12 +309,13 @@ You can use SW to discover available images for you area of interest.
 3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
 
 .. note::
-    You have to create the new one area (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, in the created layer using the tool *Add polygon feature* draw an area of interest) or to upload from the file with coordinates using QGIS. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
+    To define the imagery search area you can create the new polygon (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
+    Alternatively, you can check the option "use canvas extent".
 
      .. figure:: _static/qgis/add_SW_WFS.png
          :alt: Get specific image from SW
          :align: center
-         :width: 15cm    
+         :width: 15cm
 
 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
 5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
@@ -315,7 +326,7 @@ You can use SW to discover available images for you area of interest.
 6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
 
 .. attention::
-    "max zoom 13" checkbox is active to prevent the paid streaming on the side of SecureWatch.
+    "max zoom 12" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch.
      
 
 How to use other imagery services
@@ -331,7 +342,7 @@ Select the image and copy link to TMS.
          :align: center
          :width: 15cm
 
-  |
+|
 
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
 
@@ -367,8 +378,8 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
          :alt: Upload TIF, select from list
          :align: center
          :width: 15cm
+         :class: with-border no-scaled-link 
 
-|
 
 .. important::
 
@@ -376,8 +387,9 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 
     * **Check the data type** 
           The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
-
           Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
+    * **Check the image size**
+          Both sides image dimension mmust not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom <https://geoalert.io/#contacts>`_.
     * **Check the number of channels**  
           Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not
           tuned for such kind of data, so the quality of the result may be worse than expected.
@@ -386,7 +398,14 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
     * **Check the resolution**
           The resolution restrictions vary for different models, see :ref:`Model requirements`   
   
+<<<<<<< HEAD
 You can send a request for data preprocessing to help@geoalert.io
+=======
+
+  You could send a request using data preprocessing to help@geoalert.io
+
+
+>>>>>>> main
 
 
 Proxy-settings
@@ -398,5 +417,4 @@ If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and wil
          :alt: Proxy settings
          :align: center
          :width: 15cm
-
-|
+         

@@ -70,14 +70,13 @@ The processing AOI must be located in the area of this extent, otherwise the are
 
    Image upload capabilities:
 
-     - The uploaded images must have the area of more than 1 sq.km.
-     - The file size must be less than 512 mb.
-     - Both sides image dimensions must not exceed 30.000x30.000 pixels
-     - The image must be georeferenced and the CRS must be one of:
-
-       - WGS84 (EPSG: 4326)
-       - Web mercator (EPSG: 3857)
-       - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
+  - The uploaded images must have the area of more than 1 sq.km.
+  - The file size must be less than 512 mb.
+  - Both sides image dimensions must not exceed 30.000x30.000 pixels
+  - The image must be georeferenced and the CRS must be one of:
+    - WGS84 (EPSG: 4326)
+    - Web mercator (EPSG: 3857)
+    - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
     
 
 .. hint::

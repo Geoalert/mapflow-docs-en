@@ -33,12 +33,30 @@ extensions = [
   'sphinx_rtd_theme',
   'rst2pdf.pdfbuilder',
   'sphinxnotes.strike',
+  'sphinx_favicon'
 ]
 
 pdf_documents = [
   ('userguides/get_started', u'get_started', u'Getting Started with Mapflow UI', u'Geoalert'),
   ('userguides/pipelines', u'pipelines', u'Mapping models pipelines', u'Geoalert'),
   ('userguides/prices', u'prices', u'Mapflow tariffs', u'Geoalert')
+]
+
+
+favicons = [
+   {
+      "sizes": "16x16",
+      "href": "https://mapflow.ai/favicon/favicon-16x16.png",
+   },
+   {
+      "sizes": "32x32",
+      "href": "https://mapflow.ai/favicon/favicon-32x32.png",
+   },
+   {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "apple-touch-icon.png",  # use a local file in _static
+   },
 ]
 
 # Add any paths that contain templates here, relative to this directory.
