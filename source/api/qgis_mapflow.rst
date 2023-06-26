@@ -332,7 +332,7 @@ You can use SW to discover available images for you area of interest.
 How to use other imagery services
 ------------------------------------
 
-For example, let's use the `Openaerialmap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
+For example, let's use the `OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
 As soon as your aerial image is published on Openaerialmap it's presented on the public map and can be fetched using TMS/WMTS protocols.
 
 Select the image and copy link to TMS.
