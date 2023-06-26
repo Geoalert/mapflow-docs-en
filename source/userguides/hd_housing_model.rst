@@ -12,12 +12,14 @@ Processing result sample for dense urban development area (Tunisia, Africa):
 .. figure:: _static/processing_result/high-density_housing_1.png
    :alt: Processing result of high-density housing model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    Standard model for buildings segmentation, with polygon simplification
 .. figure:: _static/processing_result/high-density_housing_2.png
    :alt: Processing result of high-density housing model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    High density buildings model

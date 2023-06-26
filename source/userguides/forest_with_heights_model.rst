@@ -16,9 +16,10 @@ This postprocessing is available for processings 50 sq.km and more.
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/forest_model_2.png
+.. figure:: _static/processing_result/forest_w_heights_model.png
    :alt: Processing result of forest model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
-   Processing results for central Russia (Tatarstan)
+   Sample of results for **Forest with heights** mask in raster format

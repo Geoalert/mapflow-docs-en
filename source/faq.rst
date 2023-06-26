@@ -12,30 +12,31 @@ Payment
     Check our `commercial plans <https://mapflow.ai/pricing>`_ for Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry and get the quotation.
 
 
+.. _Satellite imagery:
+
 Satellite imagery
 ------------------
 
 **What satellite imagery do you use? What are their resolution, alignment accuracy and other characteristics?**
 
-    Currently, we only support RGB or PAN images as raw data. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of **Vivid Basic** imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of specifications can be found `here <https://content.cdntwrk.com/files/aT0xMzU5MTQ1JnY9MiZpc3N1ZU5hbWU9aW1hZ2VyeS1iYXNlbWFwcyZjbWQ9ZCZzaWc9ODIwZWU1NGQ1Mjc4ZTYyNzJlMDBjZjM4ZDI3YjNhMjI%253D>`_.
+    Currently, we only support RGB or PAN images as raw data. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of **Vivid Basic** imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`.
 
-**Can I choose another satellite mosaic like Yandex or Google?**
+**Can I choose another satellite mosaic?**
 
-    Yes, the user has the ability to set his own XYZ or TMS layers. Under a separate user license, we provide Maxar SecureWatch, a service that contains an enhanced version of Vivid Basic and updates.
+    Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide Maxar SecureWatch, a service that contains basemaps and imagery updates. We are continuosly working on adding more commercial providers.
 
 **Can I upload my own images for processing?**
 
     Yes, but only when using the :doc:`Geoalert API </api/processing_api>` or :doc:`plugin Mapflow for QGIS <api/qgis_mapflow>`. It is planned to add this functionality to Mapflow Web in the next releases.
 
 
-**Can I buy satellite imagery from you?**
+**Can I buy satellite imagery from you? How can I validate the results?**
 
-    No, you can’t.  We provide service to extract vector data from geospatial images.
+    You can't buy as we don't resell iamges. We provide service to extract data from images. However you can preview input images as XYZ layer to conduct the results validation.   
 
 **Can you control the channels of the RGB data used?**
 
     In the current version, the Mapflow platform uses only the standard set and configuration of RGB channels.
-
 
 **Can I use non-RGB data like radar data?**
 
