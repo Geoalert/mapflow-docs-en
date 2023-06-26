@@ -15,6 +15,7 @@ This model can be used to spped up trees detection and area estimation in forest
 .. figure:: _static/processing_result/forest_model_2.png
    :alt: Processing result of forest model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
-   Processing results for central Russia (Tatarstan)
+   Sample of processing results for solid **Forest** mask

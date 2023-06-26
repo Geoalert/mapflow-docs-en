@@ -10,9 +10,9 @@ How to run your mapping flow in Web app
 Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
  .. image:: _static/ui_flow_basic.png
-   :alt: UI Mapflow – run a flow
-   :align: center
-   :width: 18cm
+    :alt: UI Mapflow – run a flow
+    :align: center
+    :width: 18cm
 
 
 1. Data source
@@ -32,18 +32,21 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 Imagery providers
 ~~~~~~~~~~~~~~~~~~
 
- Here you can select one of the providers:
+ Here you can select one of the default providers:
 
- * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of high resolution satellite imagery, the main providers of which are NASA and USGS;
- * `World imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. You can view the metadata (date, resolution, and precision) of any image. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click. In the appearing window contains all information of this image.
+ * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
+ * `World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. 
+ 
+ .. hint::
+    You can chack the World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.
 
-.. image:: _static/image_metadata.png
-    :alt: Search image metadata
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
+    .. image:: _static/image_metadata.png
+        :alt: Search image metadata
+        :align: center
+        :width: 15cm
+        :class: with-border
 
-|
+To read more about satellite images check :ref:`Satellite imagery`
 
 Custom URL
 ~~~~~~~~~~~~~
@@ -259,9 +262,10 @@ Once the Team is created the Owner can invite new members, and assign and manage
    :align: center
    :width: 15cm
 
+|
 
 .. warning::
-    If the members' email is already registered as a Mapflow account, the Team Owner should reach out to Support (help@geoalert.io) to link the account.
+    If the members' email is already registered as a Mapflow account, the Team Owner should reach out to Support (help@geoalert.io) to ask to link the account.
 
 
 Working with API

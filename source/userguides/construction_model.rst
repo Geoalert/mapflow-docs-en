@@ -8,6 +8,7 @@ This model outlines the areas in the satellite image that contain construction s
 .. figure:: _static/processing_result/construction_model.png
    :alt: Processing result of construction model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
-   Processing result sample for a rapidly developing area with a lot of construction sites.
+   Processing result sample for a rapidly developing area with construction sites

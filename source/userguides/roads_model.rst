@@ -18,13 +18,15 @@ In version 1.1 we added the road graph postprocessing:
 .. figure:: _static/processing_result/roads_model_6.png
    :alt: Processing result of roads model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    Optimal conditions for the model: rural/suburban territory, Russia
 
 .. figure:: _static/processing_result/roads_model_9.png
    :alt: Processing result of roads model
    :align: center
-   :width: 18cm
+   :width: 15cm
+   :class: with-border no-scaled-link
    
    More complex environment - urban territory in Prague, Chech Republic
