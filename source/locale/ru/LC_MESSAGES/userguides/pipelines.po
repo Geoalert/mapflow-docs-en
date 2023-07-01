@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,291 +21,631 @@ msgstr ""
 msgid ""
 "The core of the Mapflow are the Mapping Models. Mapflow enables to detect"
 " and extract features in satellite and aerial images powered by semantic "
-"segmentation and other deep learning techniques."
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:4
-msgid "AI-Mapping Models"
+"segmentation and other deep learning techniques. See :doc:`requirements "
+"<requirements>` page to better understand what data to use with each "
+"model, and :doc:`price list <prices>` for breakdown of the processings "
+"billing."
 msgstr ""
 
 #: ../../source/userguides/pipelines.rst:6
-msgid "|:house:| **Buildings**"
+msgid ""
+"For the data requirements – see :ref:`model requirements`. For the "
+"breakdown of the Mapflow processings billing – see :doc:`Mapflow pricing "
+"<prices>`."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:8
-msgid "Extracting of roofprints of buildings from imagery of high resolution."
+#: ../../source/userguides/pipelines.rst:9
+msgid "AI-Mapping Models"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:10
-#: ../../source/userguides/pipelines.rst:28
-msgid "Additional options:"
+#: ../../source/userguides/buildings_model.rst:2
+msgid "🏠 Buildings"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:12
+#: ../../source/userguides/buildings_model.rst:4
+msgid ""
+"Extracting of rooftops of buildings from imagery of high resolution. High"
+" performance deep learning model is trained to detect the buildings "
+"roofs. Three different models are used for different geographic regions "
+"for better fit to the various urban environments around the world. The "
+"decision is automatic, based on the location of your AOI."
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:8
+msgid ""
+"*Note:* The building candidates with area less than 25 sq.m. are removed "
+"to avoid clutter"
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:10
+msgid ""
+"The model does not extract the footprints directly, because they are not "
+"clearly visible in the images, but we can obtain them, just like human "
+"cartographers, by moving the roof to the bottom of the wall (see "
+"Additional options)."
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:12
+msgid "**Additional options:**"
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:14
 msgid ""
 "*Classification by types of buildings* – typology of buildings is "
-"represented by the main classes (see `reference "
-"<https://docs.mapflow.ai/um/classes.html>`_)."
+"represented by the main classes (see :doc:`reference "
+"<../../um/classes>`)."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:14
+#: ../../source/userguides/buildings_model.rst:15
 msgid ""
-"*Building heights* - building height estimation by the length of the "
-"shadow and the visible part of the wall. Shift to the building footprint."
+"*Building heights [Mapflow Web only]* - building height estimation by the"
+" length of the shadow and the visible part of the wall. This option also "
+"provides building footprints instead of roofs. See our `article "
+"<https://medium.com/geoalert-platform-urban-monitoring/buildings-height-"
+"estimation-7babe6420893>`_ for some details on the technology."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:16
+#: ../../source/userguides/buildings_model.rst:16
 msgid ""
-"*Simplification* - The algorithm allows you to correct the irregularities"
-" of the contours of our model."
+"*Simplification* - the algorithm corrects the irregularities of the "
+"contours of our model. The irregular geometries are replaced with "
+"rectangles, circles or arbitary polygons with 90 degree angles, which "
+"fits better to the original shape. Also the corrected buildings are "
+"rotated to align with the nearest roads. This option produces much more "
+"map-friendly shapes which look better and are easier to edit, but some "
+"shape accuracy can be lost. See our `blog post <https://medium.com"
+"/geoalert-platform-urban-monitoring/urban-mapping-going-over-post-"
+"processing-issues-f89170131b56>`_ for more information and some visuals."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:18
+#: ../../source/userguides/buildings_model.rst:17
 msgid ""
-"*Merge with OSM* - This option allows you to replace the obtained data of"
-" our model with data from the OSM, if the polygons of the OSM buildings "
-"and the model overlap significantly (Jaccard coefficients - more than "
-"0.7)."
+"*Merge with OSM [Mapflow Web only]* - some of the areas have great "
+"coverage of OpenStreetMap data, and if you prefer human-annotated data, "
+"you can select this option. In this case, we check for each building "
+"whether it has a good corresponding object in OSM (Jaccard index more "
+"than 0.7) and if there is one, we replace our result with OSM contour. "
+"This makes the result not based on the image, so the buildings can be "
+"shifted from actual positions, and some changes that have occurred after "
+"OSM mapping may be lost."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:20
-msgid "|:cityscape:| **High-density housing**"
+#: ../../source/userguides/agriculture_fields_model.rst:6
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:8
+#: ../../source/userguides/buildings_model.rst:19
+#: ../../source/userguides/construction_model.rst:6
+#: ../../source/userguides/forest_model.rst:13
+#: ../../source/userguides/forest_with_heights_model.rst:17
+#: ../../source/userguides/hd_housing_model.rst:8
+#: ../../source/userguides/roads_model.rst:16
+msgid "**Processing results samples**"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:22
+#: ../../source/userguides/buildings_model.rst:21
 msgid ""
-"Our \"high-density housing\" AI model is designed for areas with terraced"
-" or otherwise densely built buildings, common in the Middle East, parts "
-"of Africa, etc."
+"A sample of processing result with different options for Prague, Chech "
+"Republic."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:24
-msgid "|:christmas_tree:| **Forest**"
+#: ../../source/userguides/buildings_model.rst:29
+#: ../../source/userguides/buildings_model.rst:37
+#: ../../source/userguides/buildings_model.rst:45
+msgid "Processing result of buildings model"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:26
+#: ../../source/userguides/buildings_model.rst:29
 msgid ""
-"Extracting the forest masks from RGB images of high resolution (2 meters)"
-" without classification by type, density and heights."
+"Result without postprocessing: irregular building shapes, but best fit to"
+" the actual rooftop contour seen in the image."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:30
+#: ../../source/userguides/buildings_model.rst:37
+msgid "Result with simplification: most of the buildings become rectangular."
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:45
 msgid ""
-"*Classification by heights* – classification the areas of vegetation and "
-"shrub vegetation by height classes according to the specified thresholds:"
-" 0-4 m, 4-10 m, 10+ m, and division of classes in 4+ m according to the "
-"density of vegetation into: dense and sparse. Forest areas of each height"
-" class are polygonized in separate features. The height class and density"
-" of vegetation are specified in the polygon properties."
+"Result merged with OSM: some of the buildings imported from OSM have more"
+" accurate shape, but may be shifted from the image position."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:32
-msgid "|:red_car:| **Roads**"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:2
+msgid "🏠 Buildings (Aerial imagery)"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:34
-msgid "Extracting the road mask from satellite images of high spatial resolution."
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:36
-msgid "|:building_construction:| **Construction**"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:38
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:4
 msgid ""
-"Detection of the construction sites by classification of tiles of hi-"
-"resolution satellite images."
+"This model is specifically designed to make use of very high resolution "
+"aerial imagery (10 cm per pixel) for extraction of small buildings and "
+"structures. It is best suited for rural and suburban residential areas."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:40
-msgid "|:corn:| **Agriculture fields**"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:42
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:6
 msgid ""
-"Extraction and instance separation of agriculture fileds from high-"
-"resolution satellite imagery."
+"We do not recommend using this model in areas with high-dense urban "
+"buildings. Use :doc:`Buildings model <buildings_model>` instead, even for"
+" aerial imagery."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:47
-msgid "Models reference"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst
+msgid "Processing result of Buildings (Aerial) model"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:51
-msgid "Buildings"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:57
-#: ../../source/userguides/pipelines.rst:82
-#: ../../source/userguides/pipelines.rst:103
-#: ../../source/userguides/pipelines.rst:121
-#: ../../source/userguides/pipelines.rst:141
-#: ../../source/userguides/pipelines.rst:157
-msgid "Model"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:58
-#: ../../source/userguides/pipelines.rst:83
-#: ../../source/userguides/pipelines.rst:104
-#: ../../source/userguides/pipelines.rst:122
-#: ../../source/userguides/pipelines.rst:142
-#: ../../source/userguides/pipelines.rst:158
-msgid "Description"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:59
-#: ../../source/userguides/pipelines.rst:84
-#: ../../source/userguides/pipelines.rst:105
-#: ../../source/userguides/pipelines.rst:123
-#: ../../source/userguides/pipelines.rst:143
-#: ../../source/userguides/pipelines.rst:159
-msgid "Channel composition, GSD m/px"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:60
-#: ../../source/userguides/pipelines.rst:85
-#: ../../source/userguides/pipelines.rst:106
-#: ../../source/userguides/pipelines.rst:124
-#: ../../source/userguides/pipelines.rst:144
-#: ../../source/userguides/pipelines.rst:160
-msgid "Model input, zoom"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:61
-#: ../../source/userguides/pipelines.rst:86
-#: ../../source/userguides/pipelines.rst:107
-#: ../../source/userguides/pipelines.rst:125
-#: ../../source/userguides/pipelines.rst:145
-#: ../../source/userguides/pipelines.rst:161
-msgid "Segmentation"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:62
-msgid "Extract roof contours (roofprints) from high-resolution satellite imagery"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:63
-#: ../../source/userguides/pipelines.rst:67
-#: ../../source/userguides/pipelines.rst:71
-#: ../../source/userguides/pipelines.rst:92
-#: ../../source/userguides/pipelines.rst:127
-#: ../../source/userguides/pipelines.rst:131
-#: ../../source/userguides/pipelines.rst:147
-msgid "RGB, 0.5"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:64
-#: ../../source/userguides/pipelines.rst:68
-#: ../../source/userguides/pipelines.rst:72
-#: ../../source/userguides/pipelines.rst:93
-#: ../../source/userguides/pipelines.rst:128
-#: ../../source/userguides/pipelines.rst:132
-#: ../../source/userguides/pipelines.rst:148
-msgid "18"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:65
-#: ../../source/userguides/pipelines.rst:90
-msgid "Classification"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:66
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:16
 msgid ""
-"Here are the types that we currently recognize: apartment buildings; "
-"single-household dwellings; industrial; commercial; other non-residential"
+"Processing example rural residential area with a Building model (Aerial "
+"photo)"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:69
-#: ../../source/userguides/pipelines.rst:129
-msgid "Building heights"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:24
+#: ../../source/userguides/hd_housing_model.rst:18
+msgid "Standard model for buildings segmentation, with polygon simplification"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:70
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:32
 msgid ""
-"For each building, model estimates its height using its wall’s and "
-"shadow’s lengths. If height detection option is selected, all roof "
-"contours are shifted accordingly, i.e. converted to building footprints"
+"Objects that have been detected in an aerial image by the Building "
+"(Aerial imagery) model as opposed to the standard model Buildings."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:76
-msgid "Forest"
+#: ../../source/userguides/hd_housing_model.rst:2
+msgid "🏘 High-density housing (Mapflow Web)"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:87
+#: ../../source/userguides/hd_housing_model.rst:4
 msgid ""
-"Extract segmentation masks of forested areas from high-resolution RGB "
-"images"
+"Our “high-density housing” AI model is designed for areas with terraced "
+"or otherwise densely built buildings, common in the Middle East, parts of"
+" Africa, etc. This model, just like the regular building model, detects "
+"the building roofs."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:88
-msgid "RGB, 2"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:89
-msgid "16"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:91
+#: ../../source/userguides/hd_housing_model.rst:6
 msgid ""
-"Classify the areas of vegetation and shrub vegetation by height and "
-"vegetation density"
+"Firstly, the building blocks are segmented as a whole, and then each "
+"block is divided into individual houses with rectangular grid or Voronoi "
+"diagram, based on the detected individual roof markers."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:97
-msgid "Roads"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:108
-msgid "Extract road mask from high-resolution satellite imagery"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:109
-msgid "RGB, 1"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:110
-#: ../../source/userguides/pipelines.rst:164
-msgid "17"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:115
-msgid "High-density housing"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:126
+#: ../../source/userguides/hd_housing_model.rst:10
 msgid ""
-"Extraction and instance detection of the building roofprints in the areas"
-" of high density housing"
+"Processing result sample for dense urban development area (Tunisia, "
+"Africa):"
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:130
+#: ../../source/userguides/hd_housing_model.rst:18
+#: ../../source/userguides/hd_housing_model.rst:25
+msgid "Processing result of high-density housing model"
+msgstr ""
+
+#: ../../source/userguides/hd_housing_model.rst:25
+msgid "High density buildings model"
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:2
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:4
 msgid ""
-"For each building instance, model predicts its height. If height "
-"detection option is selected, all roof contours are shifted accordingly, "
-"i.e. converted to building footprints"
+"Forest Segmentation. The model is trained on high-resolution data (0.6 m)"
+" for different areas and climate zones."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:135
-msgid "Construction"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:146
+#: ../../source/userguides/forest_model.rst:7
 msgid ""
-"The model highlights areas in the satellite image that contain "
-"construction sites and buildings under construction"
+"The result includes all areas covered with tree and shrub vegetation, "
+"including sparse forest and shrublands."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:151
-msgid "Agriculture fileds"
-msgstr ""
-
-#: ../../source/userguides/pipelines.rst:162
+#: ../../source/userguides/forest_model.rst:7
 msgid ""
-"Extraction and instance separation of agriculture fileds from high-"
-"resolution satellite imagery"
+"Model resolution allows to detect large individual trees and narrow tree "
+"lines."
 msgstr ""
 
-#: ../../source/userguides/pipelines.rst:163
-msgid "RGB, 1.2"
+#: ../../source/userguides/forest_model.rst:9
+msgid ""
+"The model is robust to region change, and performs well in most "
+"environments, including urban. The image should be taken in active "
+"vegetation period, because leafless trees or vegetation covered with snow"
+" are not target class."
 msgstr ""
+
+#: ../../source/userguides/forest_model.rst:11
+msgid ""
+"This model can be used to spped up trees detection and area estimation in"
+" forest inventory assessment."
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:21
+#: ../../source/userguides/forest_with_heights_model.rst:25
+msgid "Processing result of forest model"
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:21
+msgid "Sample of processing results for solid **Forest** mask"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:2
+msgid "🌲↕️ Forest with heights (API/QGIS)"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:4
+msgid ""
+"This model is not available in Mapflow Web. Use `Mapflow QGIS` or API to "
+"get access to forest height estimation."
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:6
+msgid ""
+"Forest Segmentation follows the usual forest segmentation model, with "
+"additional separation of forest height classes. Additionally we use "
+"models for density and height estimation, dividing the forested area into"
+" the following classes:"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:9
+msgid "Shrubs lower than 4 meters;"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:10
+msgid "Forest from 4 to 10 meters high;"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:11
+msgid "Forest more than 10 meters high;"
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:13
+msgid ""
+"This model can be used as a decision support for the forest growth "
+"clearing."
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:15
+msgid "This postprocessing is available for processings 50 sq.km and more."
+msgstr ""
+
+#: ../../source/userguides/forest_with_heights_model.rst:25
+msgid "Sample of results for **Forest with heights** mask in raster format"
+msgstr ""
+
+#: ../../source/userguides/construction_model.rst:2
+msgid "🏗️ Constructions"
+msgstr ""
+
+#: ../../source/userguides/construction_model.rst:4
+msgid ""
+"This model outlines the areas in the satellite image that contain "
+"construction sites and buildings under construction. The current model "
+"dataset is limitted to some countries and the work od extending it is in "
+"progress."
+msgstr ""
+
+#: ../../source/userguides/construction_model.rst:14
+msgid "Processing result of construction model"
+msgstr ""
+
+#: ../../source/userguides/construction_model.rst:14
+msgid ""
+"Processing result sample for a rapidly developing area with construction "
+"sites"
+msgstr ""
+
+#: ../../source/userguides/agriculture_fields_model.rst:2
+msgid "|:tractor:| Agriculture fields"
+msgstr ""
+
+#: ../../source/userguides/agriculture_fields_model.rst:4
+msgid ""
+"Model for fields segmentation allows to detect the agricultural fields "
+"and delineate the nearby fields from each other, if there is a visual "
+"boundary (forest line, road, different crop stage). The model is trained "
+"on the high resolution data (1-1.2 m), primarily for Europe, Russia. It "
+"performs better with larger fields with active vegetation. Smaller and "
+"terrace fields (typical for Asia) are delineated not so good. Fields "
+"without vegetation, especially in winter period, are not target class."
+msgstr ""
+
+#: ../../source/userguides/agriculture_fields_model.rst:14
+#: ../../source/userguides/agriculture_fields_model.rst:22
+msgid "Processing result of agriculture fields model"
+msgstr ""
+
+#: ../../source/userguides/agriculture_fields_model.rst:14
+msgid "Processing result sample for Europe (Belgium)"
+msgstr ""
+
+#: ../../source/userguides/agriculture_fields_model.rst:22
+msgid "Processing result sample for Asia (Northern India)"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:2
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:4
+msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:6
+msgid ""
+"The model is trained primarily for rural and suburban areas. Multi-task "
+"learning is applied in order to improve the road mask connectivity, "
+"especially in the spots obscured by trees or buildings. Best suited for "
+"areas with low urbanization, and can fail in cities where wide roads with"
+" sidewalks and complex crossroads are present. We extract the road "
+"central line in order to decrease the clutter and optimize the extracted "
+"road network, and then the road lines are inflated back to polygonal "
+"object."
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:9
+msgid "In version 1.1 we added the road graph postprocessing:"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:11
+msgid "geometry simplification;"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:12
+msgid "merging of the gaps;"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:13
+msgid "removal of double edges;"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:14
+msgid "removal of detached and too short segments;"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:24
+#: ../../source/userguides/roads_model.rst:32
+msgid "Processing result of roads model"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:24
+msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+msgstr ""
+
+#: ../../source/userguides/roads_model.rst:32
+msgid "More complex environment - urban territory in Prague, Chech Republic"
+msgstr ""
+
+#~ msgid ""
+#~ "The core of the Mapflow are the"
+#~ " Mapping Models. Mapflow enables to "
+#~ "detect and extract features in satellite"
+#~ " and aerial images powered by "
+#~ "semantic segmentation and other deep "
+#~ "learning techniques."
+#~ msgstr ""
+
+#~ msgid "|:house:| **Buildings**"
+#~ msgstr ""
+
+#~ msgid "Extracting of roofprints of buildings from imagery of high resolution."
+#~ msgstr ""
+
+#~ msgid "Additional options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Classification by types of buildings* –"
+#~ " typology of buildings is represented "
+#~ "by the main classes (see `reference "
+#~ "<https://docs.mapflow.ai/um/classes.html>`_)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Building heights* - building height "
+#~ "estimation by the length of the "
+#~ "shadow and the visible part of the"
+#~ " wall. Shift to the building "
+#~ "footprint."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Simplification* - The algorithm allows "
+#~ "you to correct the irregularities of "
+#~ "the contours of our model."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Merge with OSM* - This option "
+#~ "allows you to replace the obtained "
+#~ "data of our model with data from"
+#~ " the OSM, if the polygons of "
+#~ "the OSM buildings and the model "
+#~ "overlap significantly (Jaccard coefficients -"
+#~ " more than 0.7)."
+#~ msgstr ""
+
+#~ msgid "|:cityscape:| **High-density housing**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our \"high-density housing\" AI model"
+#~ " is designed for areas with terraced"
+#~ " or otherwise densely built buildings, "
+#~ "common in the Middle East, parts "
+#~ "of Africa, etc."
+#~ msgstr ""
+
+#~ msgid "|:christmas_tree:| **Forest**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extracting the forest masks from RGB "
+#~ "images of high resolution (2 meters) "
+#~ "without classification by type, density "
+#~ "and heights."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Classification by heights* – classification"
+#~ " the areas of vegetation and shrub"
+#~ " vegetation by height classes according "
+#~ "to the specified thresholds: 0-4 m, "
+#~ "4-10 m, 10+ m, and division of "
+#~ "classes in 4+ m according to the"
+#~ " density of vegetation into: dense "
+#~ "and sparse. Forest areas of each "
+#~ "height class are polygonized in separate"
+#~ " features. The height class and "
+#~ "density of vegetation are specified in"
+#~ " the polygon properties."
+#~ msgstr ""
+
+#~ msgid "|:red_car:| **Roads**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extracting the road mask from satellite"
+#~ " images of high spatial resolution."
+#~ msgstr ""
+
+#~ msgid "|:building_construction:| **Construction**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Detection of the construction sites by"
+#~ " classification of tiles of hi-"
+#~ "resolution satellite images."
+#~ msgstr ""
+
+#~ msgid "|:corn:| **Agriculture fields**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extraction and instance separation of "
+#~ "agriculture fileds from high-resolution "
+#~ "satellite imagery."
+#~ msgstr ""
+
+#~ msgid "Models reference"
+#~ msgstr ""
+
+#~ msgid "Buildings"
+#~ msgstr ""
+
+#~ msgid "Model"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Channel composition, GSD m/px"
+#~ msgstr ""
+
+#~ msgid "Model input, zoom"
+#~ msgstr ""
+
+#~ msgid "Segmentation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extract roof contours (roofprints) from "
+#~ "high-resolution satellite imagery"
+#~ msgstr ""
+
+#~ msgid "RGB, 0.5"
+#~ msgstr ""
+
+#~ msgid "18"
+#~ msgstr ""
+
+#~ msgid "Classification"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here are the types that we "
+#~ "currently recognize: apartment buildings; "
+#~ "single-household dwellings; industrial; "
+#~ "commercial; other non-residential"
+#~ msgstr ""
+
+#~ msgid "Building heights"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For each building, model estimates its"
+#~ " height using its wall’s and shadow’s"
+#~ " lengths. If height detection option "
+#~ "is selected, all roof contours are "
+#~ "shifted accordingly, i.e. converted to "
+#~ "building footprints"
+#~ msgstr ""
+
+#~ msgid "Forest"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extract segmentation masks of forested "
+#~ "areas from high-resolution RGB images"
+#~ msgstr ""
+
+#~ msgid "RGB, 2"
+#~ msgstr ""
+
+#~ msgid "16"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Classify the areas of vegetation and "
+#~ "shrub vegetation by height and "
+#~ "vegetation density"
+#~ msgstr ""
+
+#~ msgid "Roads"
+#~ msgstr ""
+
+#~ msgid "Extract road mask from high-resolution satellite imagery"
+#~ msgstr ""
+
+#~ msgid "RGB, 1"
+#~ msgstr ""
+
+#~ msgid "17"
+#~ msgstr ""
+
+#~ msgid "High-density housing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extraction and instance detection of the"
+#~ " building roofprints in the areas of"
+#~ " high density housing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For each building instance, model "
+#~ "predicts its height. If height detection"
+#~ " option is selected, all roof "
+#~ "contours are shifted accordingly, i.e. "
+#~ "converted to building footprints"
+#~ msgstr ""
+
+#~ msgid "Construction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The model highlights areas in the "
+#~ "satellite image that contain construction "
+#~ "sites and buildings under construction"
+#~ msgstr ""
+
+#~ msgid "Agriculture fileds"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extraction and instance separation of "
+#~ "agriculture fileds from high-resolution "
+#~ "satellite imagery"
+#~ msgstr ""
+
+#~ msgid "RGB, 1.2"
+#~ msgstr ""
 

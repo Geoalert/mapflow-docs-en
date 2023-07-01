@@ -1,7 +1,7 @@
-.. _data-api:
+.. _Data API:
 
 Mapflow Data API
-================
+==================
 
 .. note::
     .. figure:: _static/postman_logo.png
@@ -16,20 +16,15 @@ Mapflow Data API
     👉 To use the imagery processing API see :doc:`this documentation <processing_api>`
  
 
-Authorization
---------------
-The API uses the ``Basic Auth`` authorization method, for details about how it works, click :doc:`here <../userguides/mapflow_auth>`.
-
-
 Manage Imagery Mosaics
-----------------------
+-------------------------
 
 .. note::
     What is "mosaic"? This is the collection of single images, aimed at instant preview and processing. It's helpful in such cases as mosaicing the number of single aerial images covering some area or batching the large ortho-plan for faster uploading and optimizing its storage in the cloud.
 
 
 Create mosaic
-'''''''''''''
+^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/rasters/mosaic`` 
 
@@ -49,7 +44,7 @@ Creates the mosaic (the empty collection of images) and returns its ID.
     }'
 
 Creates mosaic and uploads images to the mosaic
-''''''''''''''''''''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
@@ -60,13 +55,13 @@ Creates mosaic and uploads images to the mosaic
 
 
 Get mosaic
-'''''''''''
+^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}`` 
 
 
 Update mosaic
-''''''''''''''
+^^^^^^^^^^^^^^^
 
 .. code:: bash
 
@@ -82,7 +77,7 @@ Update mosaic
     }'
 
 Upload images to the existing mosaic
-''''''''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. attention::
     ⚠️ The uploaded images are required to have the same georeference system, number of bands, and spatial resolution.   
@@ -91,7 +86,7 @@ Upload images to the existing mosaic
 
 
 Link image to the existing mosaic
-''''''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``
 
@@ -115,7 +110,7 @@ Response example:
 
 
 Delete mosaic
-''''''''''''''
+^^^^^^^^^^^^^^^
 
 .. attention::
     Deleting mosaic also deletes all linked images and they cannot be restored
@@ -125,20 +120,20 @@ Delete mosaic
 
 
 Manage Images
--------------
+---------------
 
 Get image metadata by image ID
-''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``
 
 Delete image
-''''''''''''
+^^^^^^^^^^^^^^^
 
 ``DELETE https://api.mapflow.ai/rest/rasters/image/{image_id}``
 
 Get image preview
-''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``
 
@@ -173,7 +168,7 @@ Response example:
     Mapflow Storage
 
 Get user's storage limits
-'''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/rasters/memory``
 
@@ -182,14 +177,14 @@ This method allows to check user's storage usage against the available limit.
 
 
 Search Imagery
---------------
+----------------
 
 .. note::
     This is the early version of the Mapflow API to search for available satellite images provided by external data providers.
     The API aims to perform as a middle-tear between multiple data source and a :doc:`Mapflow Processing API <processing_api>`.
 
 Get metadata of available images
-'''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/catalog/meta``
 
@@ -309,7 +304,7 @@ Response example:
 
 
 Get metadata by image ID
-'''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``
 

@@ -43,11 +43,9 @@ Mapflow API
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
 
-   userguides/mapflow_auth
-   api/processing_api
-   api/data_api
+   api/mapflow_api
 
 *****************
 Use with GIS...

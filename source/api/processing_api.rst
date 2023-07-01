@@ -1,8 +1,7 @@
 .. _processing-api:
 
-======================
-Mapflow Processing API
-======================
+Mapflow processing API
+========================
 
 .. attention::
     The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_ won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
@@ -18,16 +17,9 @@ Mapflow Processing API
 .. important::
   You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
-Authorization
-=============
-
-The API uses the ``Basic Auth`` authorization method, for details about how it works, click :doc:`here <../userguides/mapflow_auth>`.
-
-API Methods
-===========
 
 User status
------------
+-------------
 
 Returns user status for the the given user account. If user account is linked to the Team - returns Team's description as well
 
@@ -71,10 +63,10 @@ Response example:
   }
 
 Projects
---------
+---------
 
 Get project
-"""""""""""
+^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/projects/{projectId}`` 
 
@@ -117,7 +109,7 @@ Response example:
 
 
 Get default project
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^
 
 .. important::
 
@@ -196,7 +188,7 @@ Returns the name and ID of the user's default project and the user's account set
   }
 
 Get all projects
-""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/projects`` 
 
@@ -204,7 +196,7 @@ Returns the list of all user's projects.
 
 
 Create project
-""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/projects``
 
@@ -231,7 +223,7 @@ Request body example:
 Response: the newly created project.
 
 Rename project
-""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^
 
 ``PUT https://api.mapflow.ai/rest/projects/{projectId}``
 
@@ -246,31 +238,31 @@ Request body example:
 
 
 Delete project
-""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``DELETE https://api.mapflow.ai/rest/projects/{projectId}`` 
 
 Deletes the project. Cascade deletes any child entities.
 
 Processings
------------
+------------
 
 Get all processings
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings``
 
 Returns the list of the user's processings by the Default project
 
 Get all processings by Project Id
-"""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``
 
 Returns the list of the user's processings by user's project
 
-Get processing
-""""""""""""""
+Get processing by Id
+^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}``
 
@@ -338,7 +330,7 @@ Possible error codes, parameters and desctiptions see in :doc:`Error Messages <e
  
 
 Create processing
-"""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
 
@@ -402,7 +394,7 @@ Response: the newly created processing.
 
 
 Rename processing
-"""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``PUT https://api.mapflow.ai/rest/processing/{processingId}``
 
@@ -417,14 +409,14 @@ Request body example:
 
 
 Restart processing
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
 Link processing to another project
-""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``PUT https://api.mapflow.ai/rest/processings/{processing_id}``
 
@@ -438,14 +430,14 @@ Links processing to another project by project ID
   --data-raw '{"projectId": "new_project_id"}'
 
 Delete processing
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``DELETE https://api.mapflow.ai/rest/processings/{processingId}``
 
 Deletes this processing. Cascade deletes any child entities.
 
 Get processing AOIs
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``  
 
@@ -494,18 +486,18 @@ Response sample:
 
 
 Downloading processing results
-""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
 Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
 
 
-Upload images for processing
+Upload images
 ----------------------------
 
 .. warning::
-   This is the legacy method and is going to be deprecated. Use the new :doc:`Data management API <data_api>` instead.
+   This is the legacy method and is going to be deprecated. Use the new :ref:`Data API` instead.
 
 ``POST https://api.mapflow.ai/rest/rasters``
 
@@ -533,7 +525,7 @@ Parameter values
 ----------------
 
 Default AI models
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 .. list-table::
    :widths: 10 20 10
    :header-rows: 1
@@ -562,7 +554,7 @@ Default AI models
 
 
 source_type
-"""""""""""
+^^^^^^^^^^^^^^^^^^^
 .. list-table::
    :widths: 10 30
    :header-rows: 1
@@ -582,7 +574,8 @@ source_type
 
 
 status
-""""""
+^^^^^^^^^^^^^^^^^^
+
 .. list-table::
    :widths: 10 30
    :header-rows: 1

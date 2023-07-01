@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,10 @@ msgstr ""
 
 #: ../../source/um/classes.rst:3
 msgid "Urban Mapping classes"
+msgstr ""
+
+#: ../../source/um/classes.rst:6
+msgid "Reference"
 msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
@@ -111,5 +115,67 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Garages, transformer boxes, small hangars, etc."
+msgstr ""
+
+#: ../../source/um/classes.rst:18
+msgid "Urban Mapping visualization with ArcGIS Online, Carto, and EverGIS online"
+msgstr ""
+
+#: ../../source/um/classes.rst:20
+msgid ""
+"Mapflow Web easily processes imagery and extracts vector objects that can"
+" be downloaded in **GeoJSON** format. We recommend using GeoJSON since it"
+" is a de-facto standard in web mapping. It is natively supported by web "
+"mapping frameworks (e.g. Leaflet or Mapbox) and GIS software like QGIS or"
+" the ArcGIS Suite."
+msgstr ""
+
+#: ../../source/um/classes.rst:24
+msgid ""
+"GeoJSON is an open standard format designed for representing simple "
+"geographical features, along with their non-spatial attributes. It is "
+"based on the JSON format. The features include points, linestrings "
+"(Mapflow roads), polygons (Mapflow buildings footprints, forest and field"
+" masks), or multi-part collections of these types. Mapflow allows "
+"different options for actions with processing results stored in GeoJSON. "
+"You are able to download or “Open with **geojson.io**”."
+msgstr ""
+
+#: ../../source/um/classes.rst:-1 ../../source/um/classes.rst:33
+#: ../../source/um/classes.rst:50 ../../source/um/classes.rst:58
+#: ../../source/um/classes.rst:66
+msgid "Interaction panel"
+msgstr ""
+
+#: ../../source/um/classes.rst:33
+msgid "Open with geojson.io"
+msgstr ""
+
+#: ../../source/um/classes.rst:36
+msgid ""
+"`Geojson.io <https://geojson.io>`_ allows you to view and save the "
+"results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click"
+" “Save” and select the format in the menu bar."
+msgstr ""
+
+#: ../../source/um/classes.rst:43
+msgid ""
+"Using GeoJSON allows you to use only drag&drop to visualize Mapflow "
+"output results in numerous Web-GIS without converting data formats. `See "
+"this video <https://youtu.be/ZG5fVut87ZQ>`_ about how to upload and style"
+" a building classification results with ArcGIS online, Carto, and Evergis"
+" online."
+msgstr ""
+
+#: ../../source/um/classes.rst:50
+msgid "Urban Mapping classes in ArcGIS online"
+msgstr ""
+
+#: ../../source/um/classes.rst:58
+msgid "Urban Mapping classes in Carto"
+msgstr ""
+
+#: ../../source/um/classes.rst:66
+msgid "Urban Mapping classes in Evergis Online"
 msgstr ""
 

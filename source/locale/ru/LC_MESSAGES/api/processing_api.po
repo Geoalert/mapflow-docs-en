@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,210 +17,265 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/api/processing_api.rst:4
-msgid "Processing API"
+#: ../../source/api/processing_api.rst:5
+msgid "Mapflow Processing API"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:7
+#: ../../source/api/processing_api.rst:8
 msgid ""
-"The projects and processings that you create in Mapflow Web UI won’t be "
-"available via the API and vice versa. Neither can your Mapflow credits be"
-" used to run processings via the API. To start using the API, use the "
-"Mapflow login and API token, which you need to generate in the `profile "
-"settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to "
-"work with the Mapflow API <../userguides/mapflow_auth>`)."
+"The projects and processings that you create in `Mapflow.ai "
+"<https://app.mapflow.ai/>`_ won’t be available via the API and vice "
+"versa. Neither can your Mapflow credits be used to run processings via "
+"the API. Use the API token to start using the API, which you need to "
+"generate in the `profile settings <https://app.mapflow.ai/account>`_ (see"
+" :doc:`authorization to work with the Mapflow API "
+"<../userguides/mapflow_auth>`)."
 msgstr ""
 
 #: ../../source/api/processing_api.rst
 msgid "Preview results"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:14
+#: ../../source/api/processing_api.rst:16
 msgid ""
 "Check and run this `Postman collection for API "
 "<https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:17
+#: ../../source/api/processing_api.rst:19
 msgid ""
-"You must follow the requirements specified on the page with :doc:`the "
+"You should follow the requirements specified on the page with :doc:`the "
 "description of models <../userguides/pipelines>` when uploading your own "
 "images for processing through the API of the Mapflow platform. Send a "
 "request using data preprocessing to help@geoalert.io."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:20
+#: ../../source/api/processing_api.rst:22
 msgid "Authorization"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:22
+#: ../../source/api/processing_api.rst:24
 msgid ""
 "The API uses the ``Basic Auth`` authorization method, for details about "
 "how it works, click :doc:`here <../userguides/mapflow_auth>`."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:25
+#: ../../source/api/processing_api.rst:27
 msgid "API Methods"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:28
-msgid "Projects"
+#: ../../source/api/processing_api.rst:30
+msgid "User status"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:31
-msgid "Get project"
+#: ../../source/api/processing_api.rst:32
+msgid ""
+"Returns user status for the the given user account. If user account is "
+"linked to the Team - returns Team's description as well"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:33
-msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}``"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:35
-msgid "Returns the project with the specified ID."
-msgstr ""
-
-#: ../../source/api/processing_api.rst:37
-#: ../../source/api/processing_api.rst:134
-#: ../../source/api/processing_api.rst:273
-#: ../../source/api/processing_api.rst:345
+#: ../../source/api/processing_api.rst:34
+#: ../../source/api/processing_api.rst:83
+#: ../../source/api/processing_api.rst:279
+#: ../../source/api/processing_api.rst:526
 msgid "Response example:"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:74
-msgid "Get default (demo) project"
+msgid "Projects"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:76
-msgid "Default (demo) project is created for each user upon registration."
+#: ../../source/api/processing_api.rst:77
+msgid "Get project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:78
+#: ../../source/api/processing_api.rst:79
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:81
+msgid "Returns the project with the specified ID."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:120
+msgid "Get default project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:124
+msgid "Default project is created for each user upon registration."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:126
 msgid "``GET https://api.mapflow.ai/rest/projects/default``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:80
-msgid "Returns the name and ID of the user's default project."
+#: ../../source/api/processing_api.rst:128
+msgid ""
+"Returns the name and ID of the user's default project and the user's "
+"account settings."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:83
+#: ../../source/api/processing_api.rst:199
 msgid "Get all projects"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:85
+#: ../../source/api/processing_api.rst:201
 msgid "``GET https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:87
+#: ../../source/api/processing_api.rst:203
 msgid "Returns the list of all user's projects."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:91
+#: ../../source/api/processing_api.rst:207
 msgid "Create project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:93
+#: ../../source/api/processing_api.rst:209
 msgid "``POST https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:95
+#: ../../source/api/processing_api.rst:211
 msgid "Creates a new project, and returns its immediate state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:97
+#: ../../source/api/processing_api.rst:213
+#: ../../source/api/processing_api.rst:238
+#: ../../source/api/processing_api.rst:409
 msgid "Request body example:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:109
+#: ../../source/api/processing_api.rst:225
 msgid "//Name of the project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:111
+#: ../../source/api/processing_api.rst:227
 msgid "//Arbitrary description of this project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:113
+#: ../../source/api/processing_api.rst:229
 msgid ""
 "//Add default processing :doc:`pipelines <../userguides/pipelines>` to "
 "the project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:115
+#: ../../source/api/processing_api.rst:231
 msgid "Response: the newly created project."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:118
+#: ../../source/api/processing_api.rst:234
+msgid "Rename project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:236
+msgid "``PUT https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:249
 msgid "Delete project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:120
+#: ../../source/api/processing_api.rst:251
 msgid "``DELETE https://api.mapflow.ai/rest/projects/{projectId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:122
+#: ../../source/api/processing_api.rst:253
 msgid "Deletes the project. Cascade deletes any child entities."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:125
+#: ../../source/api/processing_api.rst:256
 msgid "Processings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:128
-msgid "Get processing"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:130
-msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}``"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:132
-msgid "Returns the processing with the specified id."
-msgstr ""
-
-#: ../../source/api/processing_api.rst:180
+#: ../../source/api/processing_api.rst:259
 msgid "Get all processings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:182
+#: ../../source/api/processing_api.rst:261
 msgid "``GET https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:184
-msgid "Returns the list of this user's processings."
+#: ../../source/api/processing_api.rst:263
+msgid "Returns the list of the user's processings by the Default project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:187
-msgid "Post processing"
+#: ../../source/api/processing_api.rst:266
+msgid "Get all processings by Project Id"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:189
+#: ../../source/api/processing_api.rst:268
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:270
+msgid "Returns the list of the user's processings by user's project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:273
+msgid "Get processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:275
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:277
+msgid "Returns the processing with the specified id."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:316
+msgid ""
+"If the processing failed, the response also contains the code and "
+"parameters of the error in the `messages` section. If different AOIs "
+"failed with the same error, only one of the repeated errors is returned. "
+"Example of the failed processing response:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:337
+msgid ""
+"Possible error codes, parameters and desctiptions see in :doc:`Error "
+"Messages <error_messages>`"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:341
+msgid "Create processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:343
 msgid "``POST https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:191
-msgid ""
-"Creates and runs a processing, and returns its immediate state Request "
-"body example:"
+#: ../../source/api/processing_api.rst:345
+msgid "Runs a processing, and returns its immediate state. Request body sample:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:241
+#: ../../source/api/processing_api.rst:392
 msgid ""
 "To process a user-provided raster (see `Upload GeoTIFF for processing` "
 "section), set parameters as follows:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:250
+#: ../../source/api/processing_api.rst:401
 msgid "Response: the newly created processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:253
+#: ../../source/api/processing_api.rst:405
+msgid "Rename processing"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:407
+msgid "``PUT https://api.mapflow.ai/rest/processing/{processingId}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:420
 msgid "Restart processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:255
+#: ../../source/api/processing_api.rst:422
 msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:257
+#: ../../source/api/processing_api.rst:424
 msgid ""
 "Restarts failed partitions of this processing. Doesn't restart non-failed"
 " partitions. Each workflow is restarted from the first failed stage. "
@@ -228,55 +283,77 @@ msgid ""
 " processing into successful state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:260
+#: ../../source/api/processing_api.rst:427
+msgid "Link processing to another project"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:429
+msgid "``PUT https://api.mapflow.ai/rest/processings/{processing_id}``"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:431
+msgid "Links processing to another project by project ID"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:441
 msgid "Delete processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:262
+#: ../../source/api/processing_api.rst:443
 msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:264
+#: ../../source/api/processing_api.rst:445
 msgid "Deletes this processing. Cascade deletes any child entities."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:267
+#: ../../source/api/processing_api.rst:448
 msgid "Get processing AOIs"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:269
+#: ../../source/api/processing_api.rst:450
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:271
+#: ../../source/api/processing_api.rst:452
 msgid ""
 "Returns a list of the defined geographical areas for processing in "
 "GeoJSON."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:319
+#: ../../source/api/processing_api.rst:454
+msgid "Response sample:"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:497
 msgid "Downloading processing results"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:321
+#: ../../source/api/processing_api.rst:499
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:323
+#: ../../source/api/processing_api.rst:501
 msgid ""
-"Returns geojson results of this processing as an octet stream. Should "
+"Returns Geojson results of this processing as an octet stream. Should "
 "only be called on a successfully completed processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:327
-msgid "Upload GeoTIFF for processing"
+#: ../../source/api/processing_api.rst:505
+msgid "Upload images for processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:329
+#: ../../source/api/processing_api.rst:508
+msgid ""
+"This is the legacy method and is going to be deprecated. Use the new "
+":doc:`Data management API <data_api>` instead."
+msgstr ""
+
+#: ../../source/api/processing_api.rst:510
 msgid "``POST https://api.mapflow.ai/rest/rasters``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:331
+#: ../../source/api/processing_api.rst:512
 msgid ""
 "Can be used to upload a raster for further processing. Returns url to the"
 " uploaded raster. This url can be referenced when starting a processing. "
@@ -284,148 +361,879 @@ msgid ""
 "contains the raster. Request example with ``cURL``:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:347
+#: ../../source/api/processing_api.rst:528
 msgid ""
 "``{\"url\": \"s3://mapflow-"
 "rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif\"}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:351
-msgid "API reference"
+#: ../../source/api/processing_api.rst:533
+msgid "Parameter values"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:354
-msgid "wdName"
+#: ../../source/api/processing_api.rst:536
+msgid "Default AI models"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:359
-#: ../../source/api/processing_api.rst:374
-#: ../../source/api/processing_api.rst:394
+#: ../../source/api/processing_api.rst:541
+#: ../../source/api/processing_api.rst:570
+#: ../../source/api/processing_api.rst:590
 msgid "VALUE"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:360
-msgid "MODEL input resolution (m/px)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:361
-msgid "Buildings Detection"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:362
-msgid "Detects buildings & classifies them"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:363
-msgid "Forest Detection"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:364
-msgid "Detects tree-like vegetation"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:365
-msgid "Roads Detection"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:366
-msgid "Detects roads and returns them as lines"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:369
-msgid "source_type"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:375
+#: ../../source/api/processing_api.rst:542
+#: ../../source/api/processing_api.rst:571
 msgid "DESCRIPTION"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:376
+#: ../../source/api/processing_api.rst:543
+msgid "MODEL resolution (m/px), num of input bands"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:544
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:545
+msgid "Detects buildings & classifies them"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:546
+#: ../../source/api/processing_api.rst:555
+#: ../../source/api/processing_api.rst:561
+msgid "0.5, 3 (RGB)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:547
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:548
+msgid "Detects tree-like vegetation"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:549
+msgid "2, 3 (RGB)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:550
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:551
+msgid "Detects roads and returns them as polygons / linestrings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:552
+msgid "1, 3 (RGB)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:553
+msgid "🚜 Fields (hi-res)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:554
+#: ../../source/api/processing_api.rst:560
+msgid "Detects cropland fields"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:556
+msgid "🚜 Fields (Sentinel-2)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:557
+msgid "Detects cropland fields using free Sentinel-2 imagery"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:558
+msgid "10 m/px, 10 (multispectral)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:559
+msgid "🏗️ Construction"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:565
+msgid "source_type"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:572
 msgid "XYZ"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:377
+#: ../../source/api/processing_api.rst:573
 msgid ""
-"The URL to the imagery service in “XYZ” format, e.g. "
+"The URL to the imagery service in “xyz” format, e.g. "
 "`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
 "<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:378
+#: ../../source/api/processing_api.rst:574
 msgid "TMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:379
-msgid "The similar to XYZ with reverse Y coordinate"
+#: ../../source/api/processing_api.rst:575
+msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:380
+#: ../../source/api/processing_api.rst:576
 msgid "WMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:381
+#: ../../source/api/processing_api.rst:577
 msgid ""
-"The URL to the imagery service in “WMS” format, e.g. "
+"(❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. "
 "`https://services.nationalmap.gov/arcgis/services/ "
 "USGSNAIPImagery/ImageServer/WMSServer "
 "<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:382
+#: ../../source/api/processing_api.rst:578
 msgid "Quadkey"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:383
+#: ../../source/api/processing_api.rst:579
 msgid ""
 "The one-dimensional index key that usually preserves the proximity of "
-"tiles in XY space (Bing Maps tile format)"
+"tiles in \"xy\" space (Bing Maps tile format)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:384
-msgid "TIF/TIFF"
+#: ../../source/api/processing_api.rst:580
+msgid "tif/tiff"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:385
-msgid "File of image in georeferenced TIFF (GeoTIFF) format"
+#: ../../source/api/processing_api.rst:581
+msgid "File of image in georeferenced tiff (GeoTIFF) format"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:389
+#: ../../source/api/processing_api.rst:585
 msgid "status"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:395
+#: ../../source/api/error_messages.rst:12
+#: ../../source/api/processing_api.rst:591
 msgid "Description"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:396
+#: ../../source/api/processing_api.rst:592
 msgid "UNPROCESSED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:397
+#: ../../source/api/processing_api.rst:593
 msgid "The processing is not started yet"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:398
+#: ../../source/api/processing_api.rst:594
 msgid "IN_PROGRESS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:399
+#: ../../source/api/processing_api.rst:595
 msgid "The processing is going (or is in the queue)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:400
+#: ../../source/api/processing_api.rst:596
 msgid "FAILED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:401
+#: ../../source/api/processing_api.rst:597
 msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:402
+#: ../../source/api/processing_api.rst:598
 msgid "OK"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:403
+#: ../../source/api/processing_api.rst:599
 msgid "The processing is finished at 100 percent completed"
 msgstr ""
+
+#: ../../source/api/error_messages.rst:4
+msgid "Error messages in API"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:6
+msgid ""
+"List of messages and parameters that can be found in the `messages` "
+"section in case of the failed processings."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:10
+msgid "Error code"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:11
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:14
+msgid "source-validator.UrlMustBeString"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:15
+msgid "url_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:16
+msgid "Key 'url' in your request must be a string, got {url_type} instead."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:18
+msgid "source-validator.UrlMustBeLink"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:20
+msgid "Your URL must be a link starting with \"http://\" or \"https://\"."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:22
+msgid "source-validator.UrlFormatInvalid"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:23
+msgid "parse_error_message"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:24
+msgid ""
+"Format of 'url' is invalid and cannot be parsed. Error: "
+"{parse_error_message}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:26
+msgid "source-validator.ZoomMustBeInteger"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:27
+msgid "actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:28
+msgid "Zoom must be either empty, or integer, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:30
+msgid "source-validator.InvalidZoomValue"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:31
+msgid "actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:32
+msgid "Zoom must be between 0 and 22, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:34
+msgid "source-validator.TooHighZoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:35
+msgid "max_zoom, actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:36
+msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:38
+msgid "source-validator.TooLowZoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:39
+msgid "min_zoom,  actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:40
+msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:42
+msgid "source-validator.UrlBlacklisted"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:43
+msgid "url"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:44
+msgid ""
+"The specified basemap {url} is forbidden for processing because it "
+"contains a map, not satellite image. Our models are suited for satellite "
+"imagery."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:46
+msgid "source-validator.ImageMetadataMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:48
+msgid "Image metadata must be a dict (json)"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:50
+msgid "source-validator.ImageMetadataKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:52
+msgid "Image metadata must have keys: crs, transform, dtype, count"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:54
+msgid "source-validator.S3URLError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:55
+msgid "actual_s3_link"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:56
+msgid ""
+"URL of the image at s3 storage must be a string starting with s3://, got "
+"{actual_s3_link}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:58
+msgid "source-validator.LocalRequestKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:60
+msgid "Request must contain either 'profile' or 'url' keys"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:62
+msgid "source-validator.ReadFromS3Failed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:63
+msgid "s3_link"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:64
+msgid "Failed to read file from {s3_link}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:66
+msgid "source-validator.ImageReadError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:68
+msgid "We could not open and read the image you have uploaded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:70
+msgid "source-validator.BadImageProfile"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:71
+msgid "profile, required_keys"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:72
+msgid ""
+"Image profile (metadata) must have keys {required_keys}, got profile "
+"{profile }"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:74
+msgid "source-validator.DtypeNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:75
+msgid "required_dtypes, request_dtype"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:76
+msgid ""
+"Image data type (Dtype) must be one of {required_dtypes}, got "
+"{request_dtype}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:78
+msgid "source-validator.NChannelsNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:79
+msgid "required_nchannels, real_nchannels"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:80
+msgid ""
+"Number of channels in image must be one of {required_nchannels}. Got "
+"{real_nchannels}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:82
+msgid "source-validator.PixelSizeTooLow"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:83
+msgid "actual_res, min_res"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:84
+#: ../../source/api/error_messages.rst:88
+msgid ""
+"Spatial resolution of you image is too low: pixel size is {actual_res}, "
+"maximum allowed pixel size is {max_res}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:86
+msgid "source-validator.PixelSizeTooHigh"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:87
+msgid "actual_res, max_res"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:90
+msgid "source-validator.ImageCheckError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:91
+msgid "checked_param, message, metadata"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:92
+msgid ""
+"Error occurred during image {checked_param} check: {message}. Image "
+"metadata = {metadata}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:94
+msgid "source-validator.QuadkeyLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:96
+msgid ""
+"Your 'url' doesn't match the format, Quadkey basemap must be a link "
+"containing \"q\" placeholder."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:98
+msgid "source-validator.SentinelInputStringKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:100
+msgid "Sentinel_L2A request must contain field named 'url' with string value"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:102
+msgid "source-validator.SentinelInputStringFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:103
+msgid "input_string"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:104
+msgid ""
+"Input string {input_string} is of unknown format. It must represent "
+"Sentinel-2 granule ID"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:106
+msgid "source-validator.GridCellOutOfBound"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:107
+msgid "actual_cell, allowed_cells"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:108
+msgid ""
+"Selected Sentinel-2 image cell is {actual_cell}, this model is for the "
+"cells: {allowed_cells}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:110
+msgid "source-validator.AOINotInCell"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:111
+msgid "actual_cell"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:112
+msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:114
+msgid "source-validator.MonthOutOfBounds"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:115
+msgid "actual_month, allowed_months"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:116
+msgid ""
+"Selected Sentinel-2 image month is {actual_month}, this model is for: "
+"{allowed_months}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:118
+msgid "source-validator.TMSLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:120
+msgid ""
+"You request TMS basemap link doesn't match the format, it must be a link "
+"containing '{x}', '{y}', '{z}' placeholders, correct it and start "
+"processing again."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:122
+msgid "source-validator.RequirementsMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:123
+msgid "requirements_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:124
+msgid "Requirements must be dict, got {requirements_type}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:126
+msgid "source-validator.RequestMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:127
+msgid "request_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:128
+msgid "Request must be dict, got {request_type}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:130
+msgid "source-validator.RequestMustHaveSourceType"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:132
+msgid "Request must contain \\\"source_type\\\" key"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:134
+msgid "source-validator.SourceTypeIsNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:135
+msgid "source_type, allowed_sources"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:136
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:138
+msgid "source-validator.RequiredSectionMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:139
+msgid "required_section_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:140
+msgid ""
+"\"Required\" section of the requirements must contain dict, not "
+"{required_section_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:142
+msgid "source-validator.RecommendedSectionMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:143
+msgid "recommended_section_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:144
+msgid ""
+"\"Recommended\" section of the requirements must contain dict, not "
+"{recommended_section_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:146
+msgid "source-validator.XYZLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:148
+msgid ""
+"You XYZ basemap link doesn't match the format, it must be a link "
+"containing '{x}', '{y}', '{z}' placeholders."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:150
+msgid "source-validator.TaskMustContainAoi"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:152
+msgid ""
+"Task for source-validation must contain area of interest ('geometry' "
+"section)"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:154
+msgid "source-validator.UnhandledException"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:156
+#: ../../source/api/error_messages.rst:160
+msgid ""
+"Internal error in process of data source validation. We are working on "
+"the fix, our support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:158
+msgid "source-validator.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:162
+msgid "dataloader.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:164
+#: ../../source/api/error_messages.rst:168
+#: ../../source/api/error_messages.rst:196
+#: ../../source/api/error_messages.rst:200
+#: ../../source/api/error_messages.rst:204
+msgid ""
+"Internal error in process of loading data. We are working on the fix, our"
+" support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:166
+msgid "dataloader.InternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:170
+msgid "dataloader.UnknownSourceType"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:171
+msgid "allowed_source_types, real_source_types"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:172
+msgid ""
+"Wrong source type {real_source_type}. Specify one of the allowed types "
+"{allowed_source_types}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:174
+msgid "dataloader.MemoryLimitExceeded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:175
+msgid "allowed_size, estimated_size"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:176
+msgid ""
+"Your data loading task requires {estimated_size} MB of memory, which "
+"exceeded allowed memory limit {allowed_size}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:178
+msgid "dataloader.LoaderArgsError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:179
+msgid "argument_name, argument_type, expected_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:180
+msgid ""
+"Dataloader argument {argument_name} has type {argument_type}, excpected "
+"to be {expected_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:182
+msgid "dataloader.WrongChannelsNum"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:183
+msgid "expected_nchannels, real_nchannels"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:184
+msgid ""
+"Loaded tile has {real_nchannels} channels, required number is "
+"{expected_nchannels}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:186
+msgid "dataloader.WrongTileSize"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:187
+msgid "expected_size, real_size"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:188
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:190
+msgid "dataloader.TileNotLoaded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:191
+msgid "tile_location, status"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:192
+msgid ""
+"Tile at location {tile_location} cannot be loaded, server response is "
+"{status}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:194
+msgid "dataloader.CrsIsNotSupported"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:198
+msgid "dataloader.MaploaderInternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:202
+msgid "dataloader.SentinelLoaderInternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:206
+msgid "raster-processor.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:208
+msgid ""
+"Internal error in process of data preparation. We are working on the fix,"
+" our support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:210
+msgid "inference.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:212
+#: ../../source/api/error_messages.rst:216
+msgid ""
+"Internal error in process of data processing. We are working on the fix, "
+"our support will contact you"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:214
+msgid "vector-processor.internalError"
+msgstr ""
+
+#~ msgid "Processing API"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The projects and processings that you"
+#~ " create in Mapflow Web UI won’t "
+#~ "be available via the API and vice"
+#~ " versa. Neither can your Mapflow "
+#~ "credits be used to run processings "
+#~ "via the API. To start using the"
+#~ " API, use the Mapflow login and "
+#~ "API token, which you need to "
+#~ "generate in the `profile settings "
+#~ "<https://app.mapflow.ai/account>`_ (see "
+#~ ":doc:`authorization to work with the "
+#~ "Mapflow API <../userguides/mapflow_auth>`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must follow the requirements "
+#~ "specified on the page with :doc:`the "
+#~ "description of models <../userguides/pipelines>` "
+#~ "when uploading your own images for "
+#~ "processing through the API of the "
+#~ "Mapflow platform. Send a request using"
+#~ " data preprocessing to help@geoalert.io."
+#~ msgstr ""
+
+#~ msgid "Get default (demo) project"
+#~ msgstr ""
+
+#~ msgid "Default (demo) project is created for each user upon registration."
+#~ msgstr ""
+
+#~ msgid "Returns the name and ID of the user's default project."
+#~ msgstr ""
+
+#~ msgid "Returns the list of this user's processings."
+#~ msgstr ""
+
+#~ msgid "Post processing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates and runs a processing, and "
+#~ "returns its immediate state Request body"
+#~ " example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns geojson results of this "
+#~ "processing as an octet stream. Should"
+#~ " only be called on a successfully "
+#~ "completed processing."
+#~ msgstr ""
+
+#~ msgid "Upload GeoTIFF for processing"
+#~ msgstr ""
+
+#~ msgid "API reference"
+#~ msgstr ""
+
+#~ msgid "wdName"
+#~ msgstr ""
+
+#~ msgid "MODEL input resolution (m/px)"
+#~ msgstr ""
+
+#~ msgid "Buildings Detection"
+#~ msgstr ""
+
+#~ msgid "Forest Detection"
+#~ msgstr ""
+
+#~ msgid "Roads Detection"
+#~ msgstr ""
+
+#~ msgid "Detects roads and returns them as lines"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The URL to the imagery service in"
+#~ " “XYZ” format, e.g. "
+#~ "`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
+#~ "<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
+#~ msgstr ""
+
+#~ msgid "The similar to XYZ with reverse Y coordinate"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The URL to the imagery service in"
+#~ " “WMS” format, e.g. "
+#~ "`https://services.nationalmap.gov/arcgis/services/ "
+#~ "USGSNAIPImagery/ImageServer/WMSServer "
+#~ "<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The one-dimensional index key that "
+#~ "usually preserves the proximity of tiles"
+#~ " in XY space (Bing Maps tile "
+#~ "format)"
+#~ msgstr ""
+
+#~ msgid "TIF/TIFF"
+#~ msgstr ""
+
+#~ msgid "File of image in georeferenced TIFF (GeoTIFF) format"
+#~ msgstr ""
 

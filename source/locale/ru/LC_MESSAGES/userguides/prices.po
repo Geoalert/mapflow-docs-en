@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,148 +18,460 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/userguides/prices.rst:2
-msgid "Mapflow tariffs"
+msgid "Mapflow pricing"
 msgstr ""
 
 #: ../../source/userguides/prices.rst:5
+msgid "How to top up your balance"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:8
 msgid ""
-"Each user gets free balance of credis to get started with functionality "
-"and features of Mapflow"
-msgstr ""
-
-#: ../../source/userguides/prices.rst:7
-msgid "The price in credits is counted as USD 0.1 per sq.km"
-msgstr ""
-
-#: ../../source/userguides/prices.rst:9
-msgid "1 Credit = 0.1$"
+"Each user gets the free balance of **250** credits to get started with "
+"Mapflow AI. You can always buy more in your `account profile "
+"<https://app.mapflow.ai/account/balance>`_."
 msgstr ""
 
 #: ../../source/userguides/prices.rst:11
-msgid "See information on the tariff plans:"
+msgid ""
+"In order to top up you balance with more credits go to `your Mapflow "
+"profile <https://app.mapflow.ai/account/balance>`_ and choose one of the "
+"options. You will be asked to pay online."
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Tariffs"
+#: ../../source/userguides/prices.rst:-1
+msgid "Top up you balance"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "50$"
+#: ../../source/userguides/prices.rst:23
+msgid ""
+"If you want to buy a custom number of credits, use another payment method"
+" or consider using Mapflow on a large scale, check `Mapflow commercial "
+"plans <https://mapflow.ai/pricing>`_."
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "90$"
+#: ../../source/userguides/prices.rst:27
+msgid "Mapflow credits"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "800$"
+#: ../../source/userguides/prices.rst:29
+msgid ""
+"The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
+"discount depending on the number of credits you buy:"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Credits"
+#: ../../source/userguides/prices.rst:36
+msgid "Mapflow Credits"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/prices.rst:37
 msgid "500"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/prices.rst:38
 msgid "1000"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/prices.rst:39
 msgid "10000"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Services"
+#: ../../source/userguides/prices.rst:40
+msgid "You pay"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/prices.rst:41
+msgid "$50"
+msgstr ""
+
+#: ../../source/userguides/prices.rst
+msgid ":del:`$100`"
+msgstr ""
+
+#: ../../source/userguides/prices.rst
+msgid "$90"
+msgstr ""
+
+#: ../../source/userguides/prices.rst
+msgid ":del:`$1000`"
+msgstr ""
+
+#: ../../source/userguides/prices.rst
+msgid "$800"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:47
+msgid "All prices below are given in Mapflow credits"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:50
+msgid "Maflow Web models pricing"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Model"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Base price"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Options"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
 msgid "Buildings"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
 msgid "5"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.50"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv
+#: ../../source/userguides/_static/csv/web_processing_prices.csv
+msgid "Classification: 5"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.45"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv
+#: ../../source/userguides/_static/csv/web_processing_prices.csv
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Simplification: 3"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.40"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv
+msgid "Heights estimation: 20"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Building classification"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "High-density housing"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Building heights"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "\\-"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "10"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Buildings (Aerial imagery)"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$1.00"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "25"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.90"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Constructions"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.80"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "4"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Building  high-density housing"
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Agriculture fields"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "2"
-msgstr ""
-
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.20"
-msgstr ""
-
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.18"
-msgstr ""
-
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.16"
-msgstr ""
-
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Roads"
-msgstr ""
-
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
 msgid "Forest"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Forest classification"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "8"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Construction"
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+#: ../../source/userguides/_static/csv/web_processing_prices.csv:1
+msgid "Roads"
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "$0.5"
+#: ../../source/userguides/prices.rst:58
+msgid ""
+"Mapflow Web also provides a transparent price breakdown in the processing"
+" pipeline."
 msgstr ""
 
-#: ../../source/userguides/_static/csv/credits_12.20.csv:1
-msgid "Agriculture fields"
+#: ../../source/userguides/prices.rst:61
+msgid "Mapflow-QGIS / API models pricing"
 msgstr ""
+
+#: ../../source/userguides/prices.rst:64
+msgid ""
+"Mapflow-QGIS plugin has a slightly different set of models, and you "
+"cannot choose the model options. All models are launched with "
+"postprocessing options **turned ON**. If you want to customize your "
+"workflow, for example to have a basic model with another set of options, "
+"consider applying for `Mapflow Premium plan "
+"<https://mapflow.ai/pricing>`_. Also, Mapflow QGIS provides access to "
+"paid imagery services, so the cost calculation is a bit more complex."
+msgstr ""
+
+#: ../../source/userguides/prices.rst:70
+msgid "Cost of processing consists of **data cost** and **processing cost**"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:72
+msgid "``Cost = Area * (Processing Price + Data Price)``"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:75
+msgid ""
+"All the processings having an area less than 1 sq.km are rounded up to 1 "
+"sq.km before price calculation!"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:76
+msgid ""
+"Total processing cost is rounded up to the nearest integer number of "
+"credits"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:79
+msgid "Processing price"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:81
+msgid ""
+"As all the model options are turned on for Mapflow QGIS, processing cost "
+"is the same as in Mapflow Web with the options, where it's applicable:"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Total price"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Price breakdown"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "13"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Model: 5"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Model: 8"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Forest with heigths"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "28"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv
+msgid "Heights estimations: 20"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Fields (hi-res)"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/api_processing_prices.csv:1
+msgid "Model: 4"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:91
+msgid "Data price"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:92
+msgid ""
+"When using default data providers (Mapbox, Arcgis Satellite), your own "
+"TMS, or your uploaded imagery the price is zero. If you are using "
+"commercial providers (Maxar SecureWatch, and others that might be "
+"available), the cost of the data depends on the zoom level. We partner "
+"with streaming data providers, which means that the cost of the service "
+"depends on the paid traffic therefore we scale prices depending on the "
+"imagery resolution for a more accurate pricing model."
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Data Provider"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "18 zoom"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "17 zoom"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "16 zoom"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Mapbox"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "0"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Arcgis Satellite"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Your basemap"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Your TIFF imagery"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Maxar SecureWatch"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "72"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "18"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "4.5"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "Maxar Vivid"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "36"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "9"
+msgstr ""
+
+#: ../../source/userguides/_static/csv/data_prices.csv:1
+msgid "2.25"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:102
+msgid ""
+"Most default models work at 18 zoom. The exceptions are Fields high-res "
+"model (17 zoom) and Segment-anything that has an optional zoom. `What is "
+"zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:105
+msgid ""
+"*I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom (35 "
+"credits per sq.km) with Buildings model (13 credits per sq.km).* ``Cost ="
+" 3.4*(13+35) = 163.2 => 164 credits``"
+msgstr ""
+
+#: ../../source/userguides/prices.rst:111
+msgid ""
+"*I want to process 0.01 sq.km of my own imagery with the Forest model. "
+"Area is rounded up to 1 sq.km, so the cost will be:* ``Cost = 1*8 = 8 "
+"credits``"
+msgstr ""
+
+#~ msgid "Mapflow tariffs"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each user gets free balance of "
+#~ "credis to get started with functionality"
+#~ " and features of Mapflow"
+#~ msgstr ""
+
+#~ msgid "The price in credits is counted as USD 0.1 per sq.km"
+#~ msgstr ""
+
+#~ msgid "1 Credit = 0.1$"
+#~ msgstr ""
+
+#~ msgid "See information on the tariff plans:"
+#~ msgstr ""
+
+#~ msgid "Tariffs"
+#~ msgstr ""
+
+#~ msgid "50$"
+#~ msgstr ""
+
+#~ msgid "90$"
+#~ msgstr ""
+
+#~ msgid "800$"
+#~ msgstr ""
+
+#~ msgid "Credits"
+#~ msgstr ""
+
+#~ msgid "Services"
+#~ msgstr ""
+
+#~ msgid "$0.50"
+#~ msgstr ""
+
+#~ msgid "$0.45"
+#~ msgstr ""
+
+#~ msgid "$0.40"
+#~ msgstr ""
+
+#~ msgid "Building classification"
+#~ msgstr ""
+
+#~ msgid "Building heights"
+#~ msgstr ""
+
+#~ msgid "10"
+#~ msgstr ""
+
+#~ msgid "$1.00"
+#~ msgstr ""
+
+#~ msgid "$0.90"
+#~ msgstr ""
+
+#~ msgid "$0.80"
+#~ msgstr ""
+
+#~ msgid "Building  high-density housing"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "$0.20"
+#~ msgstr ""
+
+#~ msgid "$0.18"
+#~ msgstr ""
+
+#~ msgid "$0.16"
+#~ msgstr ""
+
+#~ msgid "Forest classification"
+#~ msgstr ""
+
+#~ msgid "Construction"
+#~ msgstr ""
+
+#~ msgid "$0.5"
+#~ msgstr ""
 

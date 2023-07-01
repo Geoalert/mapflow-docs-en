@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:20+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/get_started.rst:3
-msgid "Mapflow Web UI"
+#: ../../source/userguides/get_started.rst:2
+msgid "Mapflow - Get started"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:5
+#: ../../source/userguides/get_started.rst:4
 msgid ""
 "Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using "
 "your Google account. Mapflow processes imagery and extracts vector "
@@ -29,14 +29,15 @@ msgid ""
 "**flows**."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:9
-msgid "How to run your mapping flow"
+#: ../../source/userguides/get_started.rst:8
+msgid "How to run your mapping flow in Web app"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:11
+#: ../../source/userguides/get_started.rst:10
 msgid "Mapflow is designed to be intuitive. Here is our step-by-step user guide:"
 msgstr ""
 
+#: ../../source/userguides/get_started.rst:12
 msgid "UI Mapflow – run a flow"
 msgstr ""
 
@@ -45,42 +46,79 @@ msgid "1. Data source"
 msgstr ""
 
 #: ../../source/userguides/get_started.rst:22
-msgid "1.1. Select raster source"
+msgid "1.1. Select the raster source"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:24
-msgid "Default"
-msgstr ""
-
-#: ../../source/userguides/get_started.rst:26
-msgid ""
-"Mapflow uses `Mapbox Satellite <https://mapbox.com/maps/satellite>`_ "
-"imagery by default. To specify your area of interest (AOI), you can "
-"either upload your own `GeoJSON <https://geojson.org>`_ file, or draw the"
-" area directly on the map (*\"Draw rectangle\"*)."
-msgstr ""
-
-#: ../../source/userguides/get_started.rst:28
-msgid "URL"
-msgstr ""
-
-#: ../../source/userguides/get_started.rst:30
-msgid "The interface of this tab allows you to:"
-msgstr ""
-
-#: ../../source/userguides/get_started.rst:32
-msgid ""
-"Specify the XYZ link to the source of the images. The link is "
-"automatically checked for validity;"
+#: ../../source/userguides/get_started.rst:-1
+msgid "Select provider"
 msgstr ""
 
 #: ../../source/userguides/get_started.rst:33
-msgid ""
-"If the source type supports the TMS standard, i.e. it has an inverted "
-"beginning of the Y coordinate - select the appropriate setting;"
+msgid "Imagery providers"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:34
+#: ../../source/userguides/get_started.rst:35
+msgid "Here you can select one of the default providers:"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:37
+msgid ""
+"`Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider "
+"of global high resolution satellite imagery. The date of the image and "
+"updates cannot be chosen."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:38
+msgid ""
+"`World Imagery "
+"<https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_"
+" is a provider of full coverage of the whole world with high and medium "
+"resolution satellite and aerial imagery by ESRI. The frequency of "
+"updating images is 3-5 years."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:41
+msgid ""
+"You can chack the World Imagery metadata (date, resolution, and "
+"precision) by location. To do this, follow this `link "
+"<https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_,"
+" zoom in, choose the point on the map and click."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst
+msgid "Search image metadata"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:49
+msgid "To read more about satellite images check :ref:`Satellite imagery`"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:52
+msgid "Custom URL"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:54
+msgid "The interface of this tab allows you to:"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:56
+msgid ""
+"Specify the XYZ link to the source of the images. The link is "
+"automatically checked for validity (for example, OpenStreetMap - "
+"https://tile.openstreetmap.org/{z}/{x}/{y}.png);"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:57
+msgid ""
+"Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An "
+"example of such an open source that supports TMS/WMAT is `OpenAeriaMap "
+"<https://map.openaerialmap.org>`_, where you can select a specific "
+"satellite image and copy its link in TMS/WMTS format (see example `here "
+"<https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в"
+"-mapflow-ai-73d98c048c2f>`_);"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:58
 msgid ""
 "Set the scale (Zoom), which will be processed. All Mapflow models have "
 "their recommended input resolution (see on the page :doc:`Model "
@@ -88,41 +126,100 @@ msgid ""
 "with the scales and compare the results;"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:35
-msgid "Return to default source."
+#: ../../source/userguides/get_started.rst:59
+msgid "Set source image coordinate reference system (espg:3857 or espg:3395);"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:38
+#: ../../source/userguides/get_started.rst:60
+msgid "Reset all entered custom parameters;"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:61
+msgid "Return to default Imagery providers."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:65
+msgid "Upload GeoTIFF"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:67
+msgid "Here you can upload your own image in GeoTiff format."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:70
 msgid ""
-"As to the source data, currently we only support RGB imagery. If you "
-"would like to upload your own GeoTIFF you can use `API "
-"<../api/processing_api>`_ or our `Mpflow plugin <../api/qgis_mapflow>`_ "
-"for QGIS ."
+"Currently, a preview of the uploaded image is not possible after loading "
+"the image, you will see only the area of its extent."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:41
-msgid "1.2. Specify area of interest"
+#: ../../source/userguides/get_started.rst:72
+msgid ""
+"The processing AOI must be located in the area of this extent, otherwise "
+"the area will be cut off by the extent boundaries. The processing area is"
+" calculated by the intersection of the image extent and the AOI."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst
-msgid "Select custom XYZ"
+#: ../../source/userguides/get_started.rst:74
+msgid "Image upload capabilities:"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:48
+#: ../../source/userguides/get_started.rst:76
+msgid "The uploaded images must have the area of more than 1 sq.km."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:77
+msgid "The file size must be less than 512 mb."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:78
+msgid "Both sides image dimensions must not exceed 30.000x30.000 pixels"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:79
+msgid ""
+"The image must be georeferenced and the CRS must be one of: - WGS84 "
+"(EPSG: 4326) - Web mercator (EPSG: 3857) - `UTM "
+"<https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any "
+"zone)"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:86
+msgid ""
+"If your image doesn't meet the parameters above, we suggest to use "
+":doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin "
+"<../api/qgis_mapflow>` which have more capabilities."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:88
+msgid ""
+"Mapflow supports RGB imagery and also process single-band (panchromatic) "
+"imagery, but the NN models are not tuned for such kind of data, so the "
+"quality of the result may be worse than expected."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:91
+msgid "1.2. Specify the area of interest"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:-1
+msgid "Select AOI"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:101
 msgid ""
 "This tab is used to add a processing area. The user can draw the area "
-"using a rectangular frame or download it in GeoJSON format (draw and "
-"download, as well as view the data structure, follow this link - "
-"`geojson.io <http://geojson.io/>`_)."
+"using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON "
+"format (draw and download, as well as view the data structure, follow "
+"this link - `geojson.io <http://geojson.io/>`_)."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:51
+#: ../../source/userguides/get_started.rst:104
 msgid ""
 "Be aware that for now, only a single area can be drawn or uploaded per "
-"flow. If your GeoJSON file has multiple areas within its "
+"processing. If your GeoJSON file has multiple areas within its "
 "FeatureCollection, only the first one will be used. If you want to "
 "process multiple AOIs, you can split them into separate GeoJSON files and"
-" start a flow for each one separately. Batch processing may become "
+" start processing for each one separately. Batch processing may become "
 "available in the future releases. Other spatial data formats may also "
 "become available for upload in the future, although we recommend using "
 "GeoJSON since it is a de-facto standard in web mapping. It is natively "
@@ -132,47 +229,47 @@ msgid ""
 "<https://qgis.org/>`_ or the ArcGIS Suite."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:55
+#: ../../source/userguides/get_started.rst:107
 msgid "2. AI model"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:57
+#: ../../source/userguides/get_started.rst:109
 msgid "Select one of the AI models (see :doc:`Model description <pipelines>`)."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:60
-msgid "3. Post-processing"
+#: ../../source/userguides/get_started.rst:112
+msgid "3. Post-processing options"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:62
+#: ../../source/userguides/get_started.rst:114
 msgid ""
 "In this step, you can select additional processing options. Different AI "
 "models have their own options."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:64
+#: ../../source/userguides/get_started.rst:116
 msgid "AI model \"Buildings\":"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:66
+#: ../../source/userguides/get_started.rst:118
 msgid ""
 "*Classification* - we currently recognize the following building types: "
 "apartment buildings, single-household dwellings, industrial, commercial, "
-"other non-reidential (see `Urban Mapping classes <../um/classes>`_)."
+"other non-residential (see `Urban Mapping classes <../um/classes>`_)."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:67
+#: ../../source/userguides/get_started.rst:119
 msgid ""
 "*Merge with OSM* - compare the results with the buildings in "
 "OpenStreetMap and, if a sufficient overlap has been found, use the ones "
 "from the OSM instead."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:68
+#: ../../source/userguides/get_started.rst:120
 msgid "*Simplification* - simplification and polygonization of building contours."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:69
+#: ../../source/userguides/get_started.rst:121
 msgid ""
 "*Building heights* - for each building, we estimate its height using its "
 "wall's and shadow's length. If this option is selected, all roof contours"
@@ -180,78 +277,219 @@ msgid ""
 "footprints."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:72
-msgid "**Building heights** option requires a minumum area of 50 sq.km."
+#: ../../source/userguides/get_started.rst:124
+msgid "**Building heights** option requires a minimum area of 50 sq.km."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:74
-msgid "AI model \"Forest\":"
-msgstr ""
-
-#: ../../source/userguides/get_started.rst:76
+#: ../../source/userguides/get_started.rst:126
 msgid ""
-"*Tree heights* - classify vegetation by height: 0-4 m for shrub (\"low "
+"AI model \"Forest with heights\" – classification by heights is currently"
+" available only in :doc:`Mapflow for QGIS and API <../api/qgis_mapflow>`:"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:128
+msgid ""
+"Classifies vegetation by height: by default 0-4 m for shrub (\"low "
 "vegetation\"), 4-10 m for regular forest (\"medium forest\"), 10+ m for "
-"area with tall trees (\"high forest\"). Clasification is dones per "
+"area with tall trees (\"high forest\"). Clasification is done per "
 "vegetated area, and not per single tree (see `Forest Mapping classes "
 "<https://docs.mapflow.ai/forest/classes.html>`_)."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:79
-msgid "4. Run the flow"
+#: ../../source/userguides/get_started.rst:131
+msgid "4. Run the processing"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:81
+#: ../../source/userguides/get_started.rst:133
 msgid ""
-"Once you have selected the model and the processing parameters, you will "
-"see the total cost of your flow counted in Mapflow credits (our local "
-"currency units). Upon registration, you receive 500 credits for free for "
-"testing the platform (See the :doc:`tariff plan <prices>`)."
+"At this step, you can set the name of your processing or use the "
+"initially generated one (the button allows you to generate variants of "
+"the name)."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:85
-msgid "Working with results"
+#: ../../source/userguides/get_started.rst:135
+msgid "The \"Start processing\" will start processing."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:87
+#: ../../source/userguides/get_started.rst:137
 msgid ""
-"The flow's results are saved in the \"Job history\" panel. When this "
-"panel is opened, the status is displayed, and the previously selected "
-"processing parameters are highlighted in the main window."
+"The \"Clear Selection\" will clear the previously selected processing "
+"parameters."
 msgstr ""
 
+#: ../../source/userguides/get_started.rst:140
+msgid ""
+"Once you have selected the model and the processing parameters, you will "
+"see the total cost of your processing counted in Mapflow credits (our "
+"local currency units). Upon registration, you receive 250 credits for "
+"free for testing the platform (See the :doc:`Mapflow credits <prices>`)."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:144
+msgid "View the results"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:146
+msgid ""
+"In the \"Processing history\" you see the progress of processing as well "
+"as view and get the processing results. Each running processing displays "
+"the selected model, the status, the creation date and the processing "
+"cost."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:150
+msgid "View on the map"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:152
+msgid ""
+"After the successful processing completion, the card can be opened to "
+"view more detailed information about the processing parameters - AI "
+"Model, Post-processing, Area, Data Source."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:154
+msgid "Processing card"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:161
+msgid ""
+"Click the \"View on the Map\" to quickly view the processing result on "
+"the built-in interactive map."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:163
+#: ../../source/userguides/get_started.rst:173
 msgid "Preview results"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:95
+#: ../../source/userguides/get_started.rst:169
+msgid "Feature attributes"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:171
 msgid ""
-"Once the flow has finished, you can view the results on an interactive "
-"map or download it as vector geodata (GeoJSON)."
+"Depending on the model and the options applied the extracted features "
+"might contain the semantic information that is written in the feature "
+"properties in GeoJSON."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:98
+#: ../../source/userguides/get_started.rst:178
 msgid ""
-"Click \"Use as template\" on an existing flow to use its parameters as a "
-"starting point for a new flow (on restart with the same parameters, a new"
-" processing is started)."
+"E.g. \"Buildings\" model with \"simplification\" and \"classification\" "
+"options:"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:99
+#: ../../source/userguides/get_started.rst:185
+msgid "PROPERTY"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:186
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:187
+msgid "Area"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:188
+msgid "Feature area in meters"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:189
+msgid "Class_id"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:190
+msgid "Buildings typology (see the :doc:`../um/classes`)"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:191
+msgid "Shape_type"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:192
 msgid ""
-"Click \"Source details\" on the existing flow to view information about "
-"job sourse details, such as *Area of interest* in geojson format and "
-"*Source image url*."
+"The geometry primitive depending on the polygonization algorithm that's "
+"been applied to the feature mask"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:101
-msgid "Options for viewing the processing results are:"
+#: ../../source/userguides/get_started.rst:193
+msgid "Processing_date"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:103
-msgid "Download as GeoJSON."
+#: ../../source/userguides/get_started.rst:194
+msgid "The date of the processing completion"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:105
+#: ../../source/userguides/get_started.rst:195
+msgid "Simplification_score"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:196
+msgid ""
+"The score is counted by the intersection of the pixel feature and "
+"polygonized feature. The higher score - the closer polygonized feature to"
+" the pixel one."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:201
+msgid "Rate the processing"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:204
+msgid ""
+"We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment "
+"is important for further improvement of the Mapflow AI models. We review "
+"all the user's feedback and get back to you if any issues."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:207
+msgid "Interact with the processing results"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:209
+msgid "The Processing menu includes the items as follows:"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:211
+msgid "Additional parameters"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:217
+msgid ""
+"Click \"Duplicate\" on an existing processing to use its parameters as a "
+"starting point for a new one (on restart with the same parameters, new "
+"processing is started)."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:218
+msgid ""
+"Click \"Source details\" on the existing processing to view information "
+"about source details and AOI."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:221
+msgid ""
+"If you want to duplicate processing to change some params, like choosing "
+"another AI mapping model for the same AOI - use Duplicate"
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:223
+msgid "Download GeoJSON."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:225
+msgid "Allows to download results as a file in GeoJSON format."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:228
+msgid ""
+"This option is not available in the free plan. Only paying users (see "
+"`pricing <https://mapflow.ai/pricing>`_) can use this option."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:230
 #, python-format
 msgid ""
 "\"Open with geojson.io\" - view the results in the browser using "
@@ -259,63 +497,314 @@ msgid ""
 "<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:108
-#, python-format
+#: ../../source/userguides/get_started.rst:233
 msgid ""
-"`geosjon.io "
-"<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_"
-" also allows you to save the results in a different format (CSV, KML, "
-"TopoJSON, WKT, Shapefile). Just click \"Save\" and select the format of "
-"your preference in the menu bar."
+"The geosjon.io app allows you to save the results in a different GIS-"
+"compatible format (CSV, KML, TopoJSON, WKT, Shapefile). Just click "
+"\"Save\" and select the format of your preference in the menu bar."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:115
+#: ../../source/userguides/get_started.rst:242
 msgid ""
-"\"View on the map\" - use our custom viewer, which displays the results "
-"on top of the source satellite images."
+"\"Open with `kepler.gl <https://kepler.geoalert.io/>`_\" - view the "
+"results using this embedded app. It is a simple but powerful tool for "
+"geospatial data visualization and analysis."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst
+#: ../../source/userguides/get_started.rst:-1
+#: ../../source/userguides/get_started.rst:244
+#: ../../source/userguides/get_started.rst:282
 msgid "Preview map"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:122
+#: ../../source/userguides/get_started.rst:250
 msgid ""
-"\"Open with `kepler.gl <https://kepler.geoalert.io/>`_\" - view the "
-"results using an open-source web tool made by Uber. It is a simple but "
-"powerful tool for data scientists to explore and analyse geospatial data."
+"You can find detailed information about Kepler.gl in their `user manual "
+"<https://docs.kepler.gl/docs/user-guides/j-get-started>`_.*"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:130
-msgid ""
-"You can find detailed information about kepler.gl in the `user manual "
-"<https://docs.kepler.gl/docs/user-guides/j-get-started>`_."
+#: ../../source/userguides/get_started.rst:254
+msgid "Team accounts"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:133
+#: ../../source/userguides/get_started.rst:256
+msgid ""
+"Users can run a Team account to invite collaborators and set up Mapflow "
+"limits. Currently, you need to reach out to us to create a Team and "
+"assign an Owner role to your existing Mapflow account. Once the Team is "
+"created the Owner can invite new members, and assign and manage their "
+"limits. Only the Owner gets access to the Team profile."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:268
+msgid ""
+"If the members' email is already registered as a Mapflow account, the "
+"Team Owner should reach out to Support (help@geoalert.io) to ask to link "
+"the account."
+msgstr ""
+
+#: ../../source/userguides/get_started.rst:272
 msgid "Working with API"
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:135
+#: ../../source/userguides/get_started.rst:274
 msgid ""
 "Mapflow provides a REST API which, for example, allows you to query for "
-"currently running flows and fetch the results. If you are developing "
+"currently running flows and fetch the results. If you are developing an "
 "application and want to use our API, - check out "
 ":doc:`../api/processing_api`."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:139
+#: ../../source/userguides/get_started.rst:278
 msgid ""
-"You must follow the requirements specified on the page with :doc:`the "
-"description of models <pipelines>` when uploading your own images for "
-"processing through the API of the Mapflow platform. Send a request using "
-"data preprocessing to help@geoalert.io."
+"You must follow the requirements specified with :ref:`Model requirements`"
+" when uploading your own images for processing through the API of the "
+"Mapflow platform. Send a request using data preprocessing to "
+"help@geoalert.io."
 msgstr ""
 
-#: ../../source/userguides/get_started.rst:141
+#: ../../source/userguides/get_started.rst:280
 msgid ""
-"The service uses the **Basic Auth** authorization type - use the Mapflow "
-"login and API token, which must be generated in the `api tab "
+"The service uses the **Basic Auth** authorization type - use the API "
+"token, which must be generated in the `api tab "
 "<https://app.mapflow.ai/account/api>`_ of the profile settings."
 msgstr ""
+
+#~ msgid "Mapflow Web UI"
+#~ msgstr ""
+
+#~ msgid "How to run your mapping flow"
+#~ msgstr ""
+
+#~ msgid "1.1. Select raster source"
+#~ msgstr ""
+
+#~ msgid "Default"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mapflow uses `Mapbox Satellite "
+#~ "<https://mapbox.com/maps/satellite>`_ imagery by "
+#~ "default. To specify your area of "
+#~ "interest (AOI), you can either upload"
+#~ " your own `GeoJSON <https://geojson.org>`_ "
+#~ "file, or draw the area directly on"
+#~ " the map (*\"Draw rectangle\"*)."
+#~ msgstr ""
+
+#~ msgid "URL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Specify the XYZ link to the source"
+#~ " of the images. The link is "
+#~ "automatically checked for validity;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the source type supports the "
+#~ "TMS standard, i.e. it has an "
+#~ "inverted beginning of the Y coordinate"
+#~ " - select the appropriate setting;"
+#~ msgstr ""
+
+#~ msgid "Return to default source."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As to the source data, currently "
+#~ "we only support RGB imagery. If "
+#~ "you would like to upload your own"
+#~ " GeoTIFF you can use `API "
+#~ "<../api/processing_api>`_ or our `Mpflow "
+#~ "plugin <../api/qgis_mapflow>`_ for QGIS ."
+#~ msgstr ""
+
+#~ msgid "1.2. Specify area of interest"
+#~ msgstr ""
+
+#~ msgid "Select custom XYZ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This tab is used to add a "
+#~ "processing area. The user can draw "
+#~ "the area using a rectangular frame "
+#~ "or download it in GeoJSON format "
+#~ "(draw and download, as well as "
+#~ "view the data structure, follow this "
+#~ "link - `geojson.io <http://geojson.io/>`_)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Be aware that for now, only a "
+#~ "single area can be drawn or "
+#~ "uploaded per flow. If your GeoJSON "
+#~ "file has multiple areas within its "
+#~ "FeatureCollection, only the first one "
+#~ "will be used. If you want to "
+#~ "process multiple AOIs, you can split "
+#~ "them into separate GeoJSON files and "
+#~ "start a flow for each one "
+#~ "separately. Batch processing may become "
+#~ "available in the future releases. Other"
+#~ " spatial data formats may also become"
+#~ " available for upload in the future,"
+#~ " although we recommend using GeoJSON "
+#~ "since it is a de-facto standard"
+#~ " in web mapping. It is natively "
+#~ "supported by web mapping frameworks  "
+#~ "(e.g. `Leaflet <https://leafletjs.com/>`_ or "
+#~ "`Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and "
+#~ "GIS like `QGIS <https://qgis.org/>`_ or "
+#~ "the ArcGIS Suite."
+#~ msgstr ""
+
+#~ msgid "3. Post-processing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Classification* - we currently recognize "
+#~ "the following building types: apartment "
+#~ "buildings, single-household dwellings, "
+#~ "industrial, commercial, other non-reidential"
+#~ " (see `Urban Mapping classes "
+#~ "<../um/classes>`_)."
+#~ msgstr ""
+
+#~ msgid "**Building heights** option requires a minumum area of 50 sq.km."
+#~ msgstr ""
+
+#~ msgid "AI model \"Forest\":"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Tree heights* - classify vegetation by"
+#~ " height: 0-4 m for shrub (\"low "
+#~ "vegetation\"), 4-10 m for regular forest"
+#~ " (\"medium forest\"), 10+ m for area"
+#~ " with tall trees (\"high forest\"). "
+#~ "Clasification is dones per vegetated "
+#~ "area, and not per single tree (see"
+#~ " `Forest Mapping classes "
+#~ "<https://docs.mapflow.ai/forest/classes.html>`_)."
+#~ msgstr ""
+
+#~ msgid "4. Run the flow"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have selected the model "
+#~ "and the processing parameters, you will"
+#~ " see the total cost of your "
+#~ "flow counted in Mapflow credits (our "
+#~ "local currency units). Upon registration, "
+#~ "you receive 500 credits for free "
+#~ "for testing the platform (See the "
+#~ ":doc:`tariff plan <prices>`)."
+#~ msgstr ""
+
+#~ msgid "Working with results"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The flow's results are saved in "
+#~ "the \"Job history\" panel. When this "
+#~ "panel is opened, the status is "
+#~ "displayed, and the previously selected "
+#~ "processing parameters are highlighted in "
+#~ "the main window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the flow has finished, you "
+#~ "can view the results on an "
+#~ "interactive map or download it as "
+#~ "vector geodata (GeoJSON)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click \"Use as template\" on an "
+#~ "existing flow to use its parameters "
+#~ "as a starting point for a new "
+#~ "flow (on restart with the same "
+#~ "parameters, a new processing is "
+#~ "started)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click \"Source details\" on the existing"
+#~ " flow to view information about job"
+#~ " sourse details, such as *Area of "
+#~ "interest* in geojson format and *Source"
+#~ " image url*."
+#~ msgstr ""
+
+#~ msgid "Options for viewing the processing results are:"
+#~ msgstr ""
+
+#~ msgid "Download as GeoJSON."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`geosjon.io "
+#~ "<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_"
+#~ " also allows you to save the "
+#~ "results in a different format (CSV, "
+#~ "KML, TopoJSON, WKT, Shapefile). Just "
+#~ "click \"Save\" and select the format "
+#~ "of your preference in the menu "
+#~ "bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"View on the map\" - use our "
+#~ "custom viewer, which displays the "
+#~ "results on top of the source "
+#~ "satellite images."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"Open with `kepler.gl "
+#~ "<https://kepler.geoalert.io/>`_\" - view the "
+#~ "results using an open-source web "
+#~ "tool made by Uber. It is a "
+#~ "simple but powerful tool for data "
+#~ "scientists to explore and analyse "
+#~ "geospatial data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can find detailed information about"
+#~ " kepler.gl in the `user manual "
+#~ "<https://docs.kepler.gl/docs/user-guides/j-get-started>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mapflow provides a REST API which, "
+#~ "for example, allows you to query "
+#~ "for currently running flows and fetch"
+#~ " the results. If you are developing"
+#~ " application and want to use our "
+#~ "API, - check out :doc:`../api/processing_api`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must follow the requirements "
+#~ "specified on the page with :doc:`the "
+#~ "description of models <pipelines>` when "
+#~ "uploading your own images for processing"
+#~ " through the API of the Mapflow "
+#~ "platform. Send a request using data "
+#~ "preprocessing to help@geoalert.io."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The service uses the **Basic Auth** "
+#~ "authorization type - use the Mapflow "
+#~ "login and API token, which must be"
+#~ " generated in the `api tab "
+#~ "<https://app.mapflow.ai/account/api>`_ of the "
+#~ "profile settings."
+#~ msgstr ""
 

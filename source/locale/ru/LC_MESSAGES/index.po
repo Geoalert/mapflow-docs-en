@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 17:17+0300\n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,44 +54,70 @@ msgid "Getting Started with Mapflow"
 msgstr ""
 
 #: ../../source/index.rst:32
-msgid "Mapflow services"
+msgid "Mapflow AI models"
 msgstr ""
 
-#: ../../source/index.rst:44
+#: ../../source/index.rst:42
+msgid "Mapflow API"
+msgstr ""
+
+#: ../../source/index.rst:54
 msgid "Use with GIS..."
 msgstr ""
 
-#: ../../source/index.rst:56
+#: ../../source/index.rst:65
+msgid "User guides"
+msgstr ""
+
+#: ../../source/index.rst:75
 msgid "Reference materials"
 msgstr ""
 
-#: ../../source/index.rst:67
+#: ../../source/index.rst:87
 msgid "Frequently asked questions"
 msgstr ""
 
-#: ../../source/index.rst:77
+#: ../../source/index.rst:98
 msgid "PDFs"
 msgstr ""
 
-#: ../../source/index.rst:79
+#: ../../source/index.rst:100
 msgid ""
-":download:`Mapflow User Guide "
-"<userguides/_static/_downloads/get_started.pdf>`"
+":download:`Mapflow User Guides "
+"<userguides/_static/_downloads/user_guides.pdf>`"
 msgstr ""
 
-#: ../../source/index.rst:80
+#: ../../source/index.rst:101
 msgid ""
-":download:`Mapflow Data pipelines "
+":download:`Mapflow AI-Mapping models "
 "<userguides/_static/_downloads/pipelines.pdf>`"
 msgstr ""
 
-#: ../../source/index.rst:81
-msgid ":download:`Mapflow tariffs <userguides/_static/_downloads/prices.pdf>`"
+#: ../../source/index.rst:102
+msgid ""
+":download:`Mapflow Customization "
+"<userguides/_static/_downloads/mapflow_custom.pdf>`"
 msgstr ""
 
-#: ../../source/index.rst:87
+#: ../../source/index.rst:106
 msgid ""
 "This documentation is distributed under the terms of Creative Commons "
 "License **\"Attribution-NoDerivs\" СC BY-ND**"
 msgstr ""
+
+#~ msgid "Mapflow services"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Mapflow User Guide "
+#~ "<userguides/_static/_downloads/get_started.pdf>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Mapflow Data pipelines "
+#~ "<userguides/_static/_downloads/pipelines.pdf>`"
+#~ msgstr ""
+
+#~ msgid ":download:`Mapflow tariffs <userguides/_static/_downloads/prices.pdf>`"
+#~ msgstr ""
 

@@ -1,0 +1,605 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/api/error_messages.rst:4
+msgid "Error messages in API"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:6
+msgid ""
+"List of messages and parameters that can be found in the `messages` "
+"section in case of the failed processings."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:10
+msgid "Error code"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:11
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:12
+msgid "Description"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:14
+msgid "source-validator.UrlMustBeString"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:15
+msgid "url_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:16
+msgid "Key 'url' in your request must be a string, got {url_type} instead."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:18
+msgid "source-validator.UrlMustBeLink"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:20
+msgid "Your URL must be a link starting with \"http://\" or \"https://\"."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:22
+msgid "source-validator.UrlFormatInvalid"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:23
+msgid "parse_error_message"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:24
+msgid ""
+"Format of 'url' is invalid and cannot be parsed. Error: "
+"{parse_error_message}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:26
+msgid "source-validator.ZoomMustBeInteger"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:27
+msgid "actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:28
+msgid "Zoom must be either empty, or integer, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:30
+msgid "source-validator.InvalidZoomValue"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:31
+msgid "actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:32
+msgid "Zoom must be between 0 and 22, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:34
+msgid "source-validator.TooHighZoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:35
+msgid "max_zoom, actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:36
+msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:38
+msgid "source-validator.TooLowZoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:39
+msgid "min_zoom,  actual_zoom"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:40
+msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:42
+msgid "source-validator.UrlBlacklisted"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:43
+msgid "url"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:44
+msgid ""
+"The specified basemap {url} is forbidden for processing because it "
+"contains a map, not satellite image. Our models are suited for satellite "
+"imagery."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:46
+msgid "source-validator.ImageMetadataMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:48
+msgid "Image metadata must be a dict (json)"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:50
+msgid "source-validator.ImageMetadataKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:52
+msgid "Image metadata must have keys: crs, transform, dtype, count"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:54
+msgid "source-validator.S3URLError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:55
+msgid "actual_s3_link"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:56
+msgid ""
+"URL of the image at s3 storage must be a string starting with s3://, got "
+"{actual_s3_link}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:58
+msgid "source-validator.LocalRequestKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:60
+msgid "Request must contain either 'profile' or 'url' keys"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:62
+msgid "source-validator.ReadFromS3Failed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:63
+msgid "s3_link"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:64
+msgid "Failed to read file from {s3_link}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:66
+msgid "source-validator.ImageReadError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:68
+msgid "We could not open and read the image you have uploaded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:70
+msgid "source-validator.BadImageProfile"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:71
+msgid "profile, required_keys"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:72
+msgid ""
+"Image profile (metadata) must have keys {required_keys}, got profile "
+"{profile }"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:74
+msgid "source-validator.DtypeNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:75
+msgid "required_dtypes, request_dtype"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:76
+msgid ""
+"Image data type (Dtype) must be one of {required_dtypes}, got "
+"{request_dtype}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:78
+msgid "source-validator.NChannelsNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:79
+msgid "required_nchannels, real_nchannels"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:80
+msgid ""
+"Number of channels in image must be one of {required_nchannels}. Got "
+"{real_nchannels}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:82
+msgid "source-validator.PixelSizeTooLow"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:83
+msgid "actual_res, min_res"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:84
+#: ../../source/api/error_messages.rst:88
+msgid ""
+"Spatial resolution of you image is too low: pixel size is {actual_res}, "
+"maximum allowed pixel size is {max_res}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:86
+msgid "source-validator.PixelSizeTooHigh"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:87
+msgid "actual_res, max_res"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:90
+msgid "source-validator.ImageCheckError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:91
+msgid "checked_param, message, metadata"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:92
+msgid ""
+"Error occurred during image {checked_param} check: {message}. Image "
+"metadata = {metadata}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:94
+msgid "source-validator.QuadkeyLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:96
+msgid ""
+"Your 'url' doesn't match the format, Quadkey basemap must be a link "
+"containing \"q\" placeholder."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:98
+msgid "source-validator.SentinelInputStringKeyError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:100
+msgid "Sentinel_L2A request must contain field named 'url' with string value"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:102
+msgid "source-validator.SentinelInputStringFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:103
+msgid "input_string"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:104
+msgid ""
+"Input string {input_string} is of unknown format. It must represent "
+"Sentinel-2 granule ID"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:106
+msgid "source-validator.GridCellOutOfBound"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:107
+msgid "actual_cell, allowed_cells"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:108
+msgid ""
+"Selected Sentinel-2 image cell is {actual_cell}, this model is for the "
+"cells: {allowed_cells}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:110
+msgid "source-validator.AOINotInCell"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:111
+msgid "actual_cell"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:112
+msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:114
+msgid "source-validator.MonthOutOfBounds"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:115
+msgid "actual_month, allowed_months"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:116
+msgid ""
+"Selected Sentinel-2 image month is {actual_month}, this model is for: "
+"{allowed_months}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:118
+msgid "source-validator.TMSLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:120
+msgid ""
+"You request TMS basemap link doesn't match the format, it must be a link "
+"containing '{x}', '{y}', '{z}' placeholders, correct it and start "
+"processing again."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:122
+msgid "source-validator.RequirementsMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:123
+msgid "requirements_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:124
+msgid "Requirements must be dict, got {requirements_type}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:126
+msgid "source-validator.RequestMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:127
+msgid "request_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:128
+msgid "Request must be dict, got {request_type}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:130
+msgid "source-validator.RequestMustHaveSourceType"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:132
+msgid "Request must contain \\\"source_type\\\" key"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:134
+msgid "source-validator.SourceTypeIsNotAllowed"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:135
+msgid "source_type, allowed_sources"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:136
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:138
+msgid "source-validator.RequiredSectionMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:139
+msgid "required_section_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:140
+msgid ""
+"\"Required\" section of the requirements must contain dict, not "
+"{required_section_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:142
+msgid "source-validator.RecommendedSectionMustBeDict"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:143
+msgid "recommended_section_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:144
+msgid ""
+"\"Recommended\" section of the requirements must contain dict, not "
+"{recommended_section_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:146
+msgid "source-validator.XYZLinkFormatError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:148
+msgid ""
+"You XYZ basemap link doesn't match the format, it must be a link "
+"containing '{x}', '{y}', '{z}' placeholders."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:150
+msgid "source-validator.TaskMustContainAoi"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:152
+msgid ""
+"Task for source-validation must contain area of interest ('geometry' "
+"section)"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:154
+msgid "source-validator.UnhandledException"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:156
+#: ../../source/api/error_messages.rst:160
+msgid ""
+"Internal error in process of data source validation. We are working on "
+"the fix, our support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:158
+msgid "source-validator.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:162
+msgid "dataloader.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:164
+#: ../../source/api/error_messages.rst:168
+#: ../../source/api/error_messages.rst:196
+#: ../../source/api/error_messages.rst:200
+#: ../../source/api/error_messages.rst:204
+msgid ""
+"Internal error in process of loading data. We are working on the fix, our"
+" support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:166
+msgid "dataloader.InternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:170
+msgid "dataloader.UnknownSourceType"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:171
+msgid "allowed_source_types, real_source_types"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:172
+msgid ""
+"Wrong source type {real_source_type}. Specify one of the allowed types "
+"{allowed_source_types}."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:174
+msgid "dataloader.MemoryLimitExceeded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:175
+msgid "allowed_size, estimated_size"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:176
+msgid ""
+"Your data loading task requires {estimated_size} MB of memory, which "
+"exceeded allowed memory limit {allowed_size}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:178
+msgid "dataloader.LoaderArgsError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:179
+msgid "argument_name, argument_type, expected_type"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:180
+msgid ""
+"Dataloader argument {argument_name} has type {argument_type}, excpected "
+"to be {expected_type}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:182
+msgid "dataloader.WrongChannelsNum"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:183
+msgid "expected_nchannels, real_nchannels"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:184
+msgid ""
+"Loaded tile has {real_nchannels} channels, required number is "
+"{expected_nchannels}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:186
+msgid "dataloader.WrongTileSize"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:187
+msgid "expected_size, real_size"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:188
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:190
+msgid "dataloader.TileNotLoaded"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:191
+msgid "tile_location, status"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:192
+msgid ""
+"Tile at location {tile_location} cannot be loaded, server response is "
+"{status}"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:194
+msgid "dataloader.CrsIsNotSupported"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:198
+msgid "dataloader.MaploaderInternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:202
+msgid "dataloader.SentinelLoaderInternalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:206
+msgid "raster-processor.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:208
+msgid ""
+"Internal error in process of data preparation. We are working on the fix,"
+" our support will contact you."
+msgstr ""
+
+#: ../../source/api/error_messages.rst:210
+msgid "inference.internalError"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:212
+#: ../../source/api/error_messages.rst:216
+msgid ""
+"Internal error in process of data processing. We are working on the fix, "
+"our support will contact you"
+msgstr ""
+
+#: ../../source/api/error_messages.rst:214
+msgid "vector-processor.internalError"
+msgstr ""
+
