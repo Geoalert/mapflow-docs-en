@@ -11,7 +11,7 @@ Yet there is one difference in the model workflow:
 - if you run this model using GTIFF file — the original resolution of the image will be used
 - if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox Satellite) — you need to define the Zoom (image resolution) in the model options which will be used to download data and apply the model 
 
-.. figure:: _static/processing_result/sam_options.png
+.. figure:: _static/processing_result/sam_options.jpg
    :alt: SAM options - zoom levels
    :align: center
    :width: 15cm
@@ -40,7 +40,7 @@ SAM options – semantic classification
    * - Aero
      - Houses, trees, vehicles, roof structures, etc.
 
-.. figure:: _static/processing_result/sam_14.png
+.. figure:: _static/processing_result/sam_14.jpg
    :alt: SAM options - zoom levels
    :align: center
    :width: 15cm
@@ -48,7 +48,7 @@ SAM options – semantic classification
 
    E.g. Result – SAM (zoom 14)
 
-.. figure:: _static/processing_result/sam_16.png
+.. figure:: _static/processing_result/sam_16.jpg
    :alt: SAM options - zoom levels
    :align: center
    :width: 15cm
@@ -56,7 +56,7 @@ SAM options – semantic classification
 
    E.g. Result – SAM (zoom 16)
 
-.. figure:: _static/processing_result/sam_18.png
+.. figure:: _static/processing_result/sam_18.jpg
    :alt: SAM options - zoom levels
    :align: center
    :width: 15cm
@@ -73,7 +73,7 @@ SAM options – semantic classification
 
    E.g. Result – SAM Aero (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping. 
 
-.. figure:: _static/processing_result/sam_aero_containers.png
+.. figure:: _static/processing_result/sam_aero_containers.jpg
    :alt: SAM options - zoom levels
    :align: center
    :width: 15cm

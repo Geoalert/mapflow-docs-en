@@ -5,7 +5,7 @@ Model for fields segmentation allows to detect the agricultural fields and delin
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/agriculture_fields_5.png
+.. figure:: _static/processing_result/agriculture_fields_5.jpg
    :alt: Processing result of agriculture fields model
    :align: center
    :width: 15cm
@@ -13,7 +13,7 @@ Model for fields segmentation allows to detect the agricultural fields and delin
    
    Processing result sample for Europe (Belgium)
 
-.. figure:: _static/processing_result/agriculture_fields_11.png
+.. figure:: _static/processing_result/agriculture_fields_11.jpg
    :alt: Processing result of agriculture fields model
    :align: center
    :width: 15cm

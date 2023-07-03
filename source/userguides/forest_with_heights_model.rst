@@ -16,7 +16,7 @@ This postprocessing is available for processings 50 sq.km and more.
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/forest_w_heights_model.png
+.. figure:: _static/processing_result/forest_w_heights_model.jpg
    :alt: Processing result of forest model
    :align: center
    :width: 15cm

@@ -20,7 +20,7 @@ The model does not extract the footprints directly, because they are not clearly
 
 A sample of processing result with different options for Prague, Chech Republic.
 
-.. figure:: _static/processing_result/buildings_model_7.png
+.. figure:: _static/processing_result/buildings_model_7.jpg
    :alt: Processing result of buildings model
    :align: center
    :width: 15cm
@@ -28,7 +28,7 @@ A sample of processing result with different options for Prague, Chech Republic.
    
    Result without postprocessing: irregular building shapes, but best fit to the actual rooftop contour seen in the image.
 
-.. figure:: _static/processing_result/buildings_model_8.png
+.. figure:: _static/processing_result/buildings_model_8.jpg
    :alt: Processing result of buildings model
    :align: center
    :width: 15cm
@@ -36,7 +36,7 @@ A sample of processing result with different options for Prague, Chech Republic.
    
    Result with simplification: most of the buildings become rectangular.
 
-.. figure:: _static/processing_result/buildings_model_10.png
+.. figure:: _static/processing_result/buildings_model_10.jpg
    :alt: Processing result of buildings model
    :align: center
    :width: 15cm

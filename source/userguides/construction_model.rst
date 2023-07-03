@@ -5,7 +5,7 @@ This model outlines the areas in the satellite image that contain construction s
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/construction_model.png
+.. figure:: _static/processing_result/construction_model.jpg
    :alt: Processing result of construction model
    :align: center
    :width: 15cm

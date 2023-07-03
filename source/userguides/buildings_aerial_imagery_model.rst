@@ -7,7 +7,7 @@ We do not recommend using this model in areas with high-dense urban buildings. U
 
 **Processing results samples**
 
-    .. figure:: _static/processing_result/aerial_model_1.png
+    .. figure:: _static/processing_result/aerial_model_1.jpg
         :alt: Processing result of Buildings (Aerial) model
         :align: center
         :width: 15cm
@@ -15,7 +15,7 @@ We do not recommend using this model in areas with high-dense urban buildings. U
     
         Processing example rural residential area with a Building model (Aerial photo)
 
-    .. figure:: _static/processing_result/aerial_model_2.png
+    .. figure:: _static/processing_result/aerial_model_2.jpg
         :alt: Processing result of Buildings (Aerial) model
         :align: center
         :width: 15cm
@@ -23,7 +23,7 @@ We do not recommend using this model in areas with high-dense urban buildings. U
 
         Standard model for buildings segmentation, with polygon simplification
 
-    .. figure:: _static/processing_result/aerial_model_3.png
+    .. figure:: _static/processing_result/aerial_model_3.jpg
         :alt: Processing result of Buildings (Aerial) model
         :align: center
         :width: 15cm

@@ -9,14 +9,14 @@ Firstly, the building blocks are segmented as a whole, and then each block is di
 
 Processing result sample for dense urban development area (Tunisia, Africa):
 
-.. figure:: _static/processing_result/high-density_housing_1.png
+.. figure:: _static/processing_result/high-density_housing_1.jpg
    :alt: Processing result of high-density housing model
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
    
    Standard model for buildings segmentation, with polygon simplification
-.. figure:: _static/processing_result/high-density_housing_2.png
+.. figure:: _static/processing_result/high-density_housing_2.jpg
    :alt: Processing result of high-density housing model
    :align: center
    :width: 15cm
