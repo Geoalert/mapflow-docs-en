@@ -16,3 +16,4 @@ AI-Mapping Models
 .. include:: construction_model.rst
 .. include:: agriculture_fields_model.rst
 .. include:: roads_model.rst
+.. include:: sam_model.rst

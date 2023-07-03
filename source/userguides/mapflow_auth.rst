@@ -20,14 +20,14 @@ Token must be passed in the **Basic Auth** parameters like in the example:
 
     Make sure you save the token, otherwise you will need to reissue it.
 
-Authorization and obtaining an API token
-------------------------------------------
+Obtaining an API token
+-------------------------
 
 1. Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a new account or sign in using your Google account.
 
 2. Go to `user profile settings <https://app.mapflow.ai/account>`_ to generate a new API token.
 
-.. figure:: _static/api_tab.png
+.. figure:: ../userguides/_static/api_tab.png
     :alt: Preview map
     :align: center
     :width: 8cm

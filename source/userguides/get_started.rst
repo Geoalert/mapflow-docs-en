@@ -4,7 +4,7 @@ Mapflow - Get started
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your Google account.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**.
 
-How to run your mapping flow in Web app
+How to run your AI mapping in Web app
 ---------------------------------------
 
 Mapflow is designed to be intuitive. Here is our step-by-step user guide:
@@ -28,6 +28,8 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
     :class: with-border no-scaled-link
 
 |
+
+.. _Imagery basemaps:
 
 Imagery providers
 ~~~~~~~~~~~~~~~~~~

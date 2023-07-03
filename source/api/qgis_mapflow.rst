@@ -2,9 +2,7 @@ Mapflow <> QGIS
 ===============
 
 .. attention::
-    Mapflow can be used via `QGIS <https://www.qgis.org/>`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
-
-    In the `API tab <https://app.mapflow.ai/account/api>`_ of the profile settings is specified the area limit for processing provided to you (initially 25 km\ :sup:`2`) and the total area of ​​already completed processing.
+    Mapflow can be used via QGIS. You need to autohorise :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>` and get `API token <https://app.mapflow.ai/account/api>`_ to login.
 
 .. note::
       .. figure:: _static/github_logo.png
@@ -17,7 +15,7 @@ Mapflow <> QGIS
 What is QGIS
 -------------
 
-QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list.
+QGIS (`qgis.org <https://www.qgis.org/>`_) is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list.
 Know more on QGIS and istall `official site <https://www.qgis.org/>`_. 
 
 QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our "Mapflow - QGIS" app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace.
@@ -26,12 +24,10 @@ QGIS has an interface for external Python plugins that allows to connect more ap
 How to install the plugin
 -------------------------
 
-Click *Plugins* --> *Manage...*, go to the *Not installed* (or *All*) tab and enter "MapFlow" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
+Click *Plugins* -–> *Manage...*, go to the *Not installed* (or *All*) tab and enter "MapFlow" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.
 
 The plugin icon has appeared in the QGIS Toolbar. 
-
-.. hint::
-  If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.
+If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow checkbox is activated.
 
 
 How to login
