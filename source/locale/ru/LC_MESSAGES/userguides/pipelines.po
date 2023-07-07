@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-03 20:30+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -412,6 +412,130 @@ msgstr ""
 
 #: ../../source/userguides/roads_model.rst:32
 msgid "More complex environment - urban territory in Prague, Chech Republic"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:2
+msgid "✨ Segment anything"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:4
+msgid ""
+"The “Segment Anything” (originaly introduced by Meta as *universal "
+"segmentation model*) is available as yet another experimental model in "
+"Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There"
+" are the same steps required to launch this model:"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:6
+msgid "Select your data source"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:7
+msgid ""
+"Select your geographical area - either polygon, or GeoJSON file, or your "
+"image extent"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:9
+msgid "Yet there is one difference in the model workflow:"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:11
+msgid ""
+"if you run this model using GTIFF file — the original resolution of the "
+"image will be used"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:12
+msgid ""
+"if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox "
+"Satellite) — you need to define the Zoom (image resolution) in the model "
+"options which will be used to download data and apply the model"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:-1
+#: ../../source/userguides/sam_model.rst:49
+#: ../../source/userguides/sam_model.rst:57
+#: ../../source/userguides/sam_model.rst:65
+#: ../../source/userguides/sam_model.rst:74
+#: ../../source/userguides/sam_model.rst:82
+msgid "SAM options - zoom levels"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:22
+msgid ""
+"Depending on the input resolution, the SAM model will interpret and "
+"generate different objects. It can be empirically classified by the zoom "
+"levels as follows."
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:26
+msgid "SAM options – semantic classification"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:32
+msgid "ZOOM LEVELS"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:33
+msgid "SEMANTIC OBJECTS"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:34
+msgid "14"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:35
+msgid "Land use, forests, parks, fields, bodies of water"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:36
+msgid "16"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:37
+msgid "Small fields, large buildings, lawns, plots"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:38
+msgid "18"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:39
+msgid "Farms, buildings, groups of trees, etc."
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:40
+msgid "Aero"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:41
+msgid "Houses, trees, vehicles, roof structures, etc."
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:49
+msgid "E.g. Result – SAM (zoom 14)"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:57
+msgid "E.g. Result – SAM (zoom 16)"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:65
+msgid "E.g. Result – SAM (zoom 18)"
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:74
+msgid ""
+"E.g. Result – SAM Aero (zoom 20), single trees. Some polygons are not "
+"very accurate and some target objects are missing, but the overall result"
+" is relevant and can be used for more accurate mapping."
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:82
+msgid ""
+"E.g. Result – SAM Aero (zoom 20), containers. Appropriate for small "
+"typicall objects, requires little manual cleaning."
 msgstr ""
 
 #~ msgid ""

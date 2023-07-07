@@ -4,12 +4,12 @@
 The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model: 
 
 1. Select your data source 
-2. Select your geographical area - either polygon, or GeoJSON file, or your image extent
+2. Select your geographical area - either polygon, GeoJSON file, or your image extent
 
 Yet there is one difference in the model workflow:
 
 - if you run this model using GTIFF file — the original resolution of the image will be used
-- if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox Satellite) — you need to define the Zoom (image resolution) in the model options which will be used to download data and apply the model 
+- if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input
 
 .. figure:: _static/processing_result/sam_options.jpg
    :alt: SAM options - zoom levels
@@ -81,5 +81,7 @@ SAM options – semantic classification
 
    E.g. Result – SAM Aero (zoom 20), containers. Appropriate for small typicall objects, requires little manual cleaning. 
 
+.. note::
+   ❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified.
 
 

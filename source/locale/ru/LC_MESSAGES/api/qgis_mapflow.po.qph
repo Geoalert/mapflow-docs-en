@@ -1,0 +1,1135 @@
+<!DOCTYPE QPH>
+<QPH language="ru" sourcelanguage="en">
+<phrase>
+    <source>Mapflow &lt;&gt; QGIS</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Mapflow can be used via QGIS. You need to autohorise :doc:`authorization to work with the Mapflow API &lt;../userguides/mapflow_auth&gt;` and get `API token &lt;https://app.mapflow.ai/account/api&gt;`_ to login.</source>
+    <target>Mapflow можно использовать через QGIS. Вам необходимо авторизовать :doc:`авторизацию для работы с Mapflow API &lt;../userguides/mapflow_auth&gt;` и получить `API-токен &lt;https://app.mapflow.ai/account/api&gt;`_ для входа в систему.</target>
+</phrase>
+<phrase>
+    <source>Preview results</source>
+    <target>Просмотр результатов</target>
+</phrase>
+<phrase>
+    <source>Join Mapflow &lt;&gt; QGIS `open source project on Github &lt;https://github.com/Geoalert/mapflow-qgis&gt;`_.</source>
+    <target>Присоединяйтесь к Mapflow &lt;&gt; QGIS `open source project on Github &lt;https://github.com/Geoalert/mapflow-qgis&gt;`_.</target>
+</phrase>
+<phrase>
+    <source>What is QGIS</source>
+    <target>QGIS – ГИС с открытым исходным кодом</target>
+</phrase>
+<phrase>
+    <source>QGIS (`qgis.org &lt;https://www.qgis.org/&gt;`_) is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list. Know more on QGIS and istall `official site &lt;https://www.qgis.org/&gt;`_.</source>
+    <target>QGIS (`qgis.org &lt;https://www.qgis.org/&gt;`_) — ведущая и самая популярная настольная ГИС с открытым исходным кодом. Пользователи могут визуализировать, управлять, редактировать, анализировать геоданные и составлять карты для печати. Узнайте больше о QGIS и установите программу через официальный сайт &lt;https://www.qgis.org/&gt;`_.</target>
+</phrase>
+<phrase>
+    <source>QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our &quot;Mapflow - QGIS&quot; app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace.</source>
+    <target>QGIS имеет интерфейс для внешних плагинов Python, который позволяет подключать больше приложений и расширять основные функциональные возможности. Наше приложение «Mapflow — QGIS» позволяет подключаться к Mapflow :doc:`processing_api`, чтобы запускать AI-картографические обработки и добавлять выходные результаты в виде слоев в рабочее пространство QGIS.</target>
+</phrase>
+<phrase>
+    <source>How to install the plugin</source>
+    <target>Как установить плагин</target>
+</phrase>
+<phrase>
+    <source>Click *Plugins* -–&gt; *Manage...*, go to the *Not installed* (or *All*) tab and enter &quot;MapFlow&quot; in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.</source>
+    <target>Нажмите *Плагины* --&gt; *Управление...*, перейдите на вкладку *Не установлены* (или *Все*) и введите «Mapflow» в поле поиска. Нажмите *Установить плагин*. Затем вы сможете увидеть, доступна ли более новая версия приложения (на вкладке Upgradeable), и проверить подробности в журнале изменений.</target>
+</phrase>
+<phrase>
+    <source>The plugin icon has appeared in the QGIS Toolbar. If the icon isn&apos;t automatically displayed, right-click on the Toolbar and check if the Mapflow checkbox is activated.</source>
+    <target>Значок плагина появился на панели инструментов QGIS. Если значок не отображается автоматически, щелкните правой кнопкой мыши на панели инструментов и проверьте, установлен ли флажок Mapflow.</target>
+</phrase>
+<phrase>
+    <source>How to login</source>
+    <target>Вход и авторизация</target>
+</phrase>
+<phrase>
+    <source>You need to log in with your credentials to start using the plugin. Go to `mapflow.ai &lt;https://app.mapflow.ai/&gt;`_, register and obtain `API token &lt;https://app.mapflow.ai/account/api&gt;`_.</source>
+    <target>Вам необходимо войти в систему с вашими учетными данными, чтобы начать использовать плагин. Перейдите на `mapflow.ai &lt;https://app.mapflow.ai/&gt;`_, зарегистрируйтесь и получите токен API &lt;https://app.mapflow.ai/account/api&gt;`_.</target>
+</phrase>
+<phrase>
+    <source>Login window</source>
+    <target>Окно входа</target>
+</phrase>
+<phrase>
+    <source>User interface</source>
+    <target>Пользовательский интерфейс</target>
+</phrase>
+<phrase>
+    <source>Mapflow plugin</source>
+    <target>Плагин Mapflow</target>
+</phrase>
+<phrase>
+    <source>Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.</source>
+    <target>Основное рабочее пространство плагина состоит из двух разделов: левой боковой панели с элементами управления обработкой и раздела вкладок.</target>
+</phrase>
+<phrase>
+    <source>View of the main window</source>
+    <target>Основное рабочее окно</target>
+</phrase>
+<phrase>
+    <source>Processing controls panel allows to start new processing and/or rate finished processings, and includes following:</source>
+    <target>Панель управления обработкой позволяет начать новую обработку и/или оценить законченную обработку и включает в себя следующее:</target>
+</phrase>
+<phrase>
+    <source>**Processing controls panel**</source>
+    <target>**Панель запуска обработки**</target>
+</phrase>
+<phrase>
+    <source>Name of the field / button</source>
+    <target>Имя поля / элемента</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Описание</target>
+</phrase>
+<phrase>
+    <source>Processing name</source>
+    <target>Имя обработки</target>
+</phrase>
+<phrase>
+    <source>Name of your processing</source>
+    <target>Задайте имя обработки</target>
+</phrase>
+<phrase>
+    <source>Area</source>
+    <target>Область</target>
+</phrase>
+<phrase>
+    <source>The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers.</source>
+    <target>Область обработки. Этот слой автоматически отображается в выпадающем списке из списка векторных слоев QGIS.</target>
+</phrase>
+<phrase>
+    <source>Data source</source>
+    <target>Источник данных</target>
+</phrase>
+<phrase>
+    <source>Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button.</source>
+    <target>Базовые изображения для обработки. По умолчанию выбран Mapbox, в выпадающем списке также можно выбрать спутниковые снимки коммерческих поставщиков. Вы можете открыть свое изображение через кнопку дополнительных опций.</target>
+</phrase>
+<phrase>
+    <source>Use image extent</source>
+    <target>Использовать экстент изображения</target>
+</phrase>
+<phrase>
+    <source>This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer processing area for this image but takes its extent.</source>
+    <target>Эта область становится активной, если выполняется обработка файла .tif. Позволяет не создавать для данного изображения дополнительную область обработки векторного слоя, а берет ее экстент.</target>
+</phrase>
+<phrase>
+    <source>Processing area</source>
+    <target>Площадь области обработки</target>
+</phrase>
+<phrase>
+    <source>Automatic calculation of the area of the selected processing area.</source>
+    <target>Автоматический расчет площади по области обработки.</target>
+</phrase>
+<phrase>
+    <source>AI Model</source>
+    <target>Модель ИИ</target>
+</phrase>
+<phrase>
+    <source>Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection.</source>
+    <target>Тип обработки. В выпадающем списке вы можете выбрать следующие типы обработки (список сценариев обработки по умолчанию): Распознавание зданий, Распознавание дорог, Распознавание леса, Распознавание леса с высотами, Распознавание строительства, Распознавание полей.</target>
+</phrase>
+<phrase>
+    <source>Your balance</source>
+    <target>Ваш баланс</target>
+</phrase>
+<phrase>
+    <source>Remaining area available for processing</source>
+    <target>Лимит площади, доступный для обработки</target>
+</phrase>
+<phrase>
+    <source>Start processing</source>
+    <target>Начать обработку</target>
+</phrase>
+<phrase>
+    <source>New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing.</source>
+    <target>Кнопка запуска обработки. После нажатия на нее вы увидите уведомление об успешном начале обработки, либо о неверно выбранных параметрах. Ообработка появится в списке обработок после успешного запуска.</target>
+</phrase>
+<phrase>
+    <source>Stars for rating</source>
+    <target>Рейтинг</target>
+</phrase>
+<phrase>
+    <source>Rating scores for the finished processing</source>
+    <target>Оценка выполненной обработки</target>
+</phrase>
+<phrase>
+    <source>Feedback field</source>
+    <target>Форма обратной связи</target>
+</phrase>
+<phrase>
+    <source>Comments about rating</source>
+    <target>Комментарии по поводу оценки</target>
+</phrase>
+<phrase>
+    <source>Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session.</source>
+    <target>Ваш текущий баланс отображается на панели инструментов. Он также содержит меню для доступа к вашему личному профилю на Mapflow.ai: пополнить баланс; открыть историю платежей; выйти из текущего сеанса.</target>
+</phrase>
+<phrase>
+    <source>How to run the processing</source>
+    <target>Как запускать обработку</target>
+</phrase>
+<phrase>
+    <source>To start the processing you need to add the **Polygon Area** (AOI).</source>
+    <target>Для запуска обработки выберите или создайте **полигон** (AOI).</target>
+</phrase>
+<phrase>
+    <source>The plugin has several built-in options for creating AOI.</source>
+    <target>Плагин имеет несколько встроенных опций для создания AOI.</target>
+</phrase>
+<phrase>
+    <source>Create new AOI from the map extent using the &quot;+&quot; button;</source>
+    <target>Создать новую область (AOI) из экстента карты с помощью кнопки «+»;</target>
+</phrase>
+<phrase>
+    <source>Upload the existing AOI using the &quot;+&quot; button;</source>
+    <target>Загрузите существующую область с помощью кнопки «+»;</target>
+</phrase>
+<phrase>
+    <source>Use the extent of the uploaded image;</source>
+    <target>Используйте экстент загруженного изображения;</target>
+</phrase>
+<phrase>
+    <source>Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.</source>
+    <target>Кроме того, вы можете создать новый векторный слой или добавить существующий AOI в проект QGIS. Если векторный слой состоит из нескольких полигонов, выберите один из них.</target>
+</phrase>
+<phrase>
+    <source>View of the aoi</source>
+    <target>Просмотр AOI</target>
+</phrase>
+<phrase>
+    <source>Tabs section contains 4 tabs:</source>
+    <target>Панель содержит 4 вкладки:</target>
+</phrase>
+<phrase>
+    <source>:ref:`Processing`</source>
+    <target>:ref:`Обработка`</target>
+</phrase>
+<phrase>
+    <source>:ref:`Providers`</source>
+    <target>:ref:`Поиск снимков`</target>
+</phrase>
+<phrase>
+    <source>:ref:`Settings`</source>
+    <target>:ref:`Настройки`</target>
+</phrase>
+<phrase>
+    <source>:ref:`Help`</source>
+    <target>:ref:`Помощь`</target>
+</phrase>
+<phrase>
+    <source>1. Processing</source>
+    <target>1. Обработка</target>
+</phrase>
+<phrase>
+    <source>View of the processing tab</source>
+    <target>Вид панели обработок</target>
+</phrase>
+<phrase>
+    <source>**Start processings and display the output on the map**</source>
+    <target>**Начать обработку и отобразить результат на карте**</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Название</target>
+</phrase>
+<phrase>
+    <source>Your processing name.</source>
+    <target>Название вашей обработки.</target>
+</phrase>
+<phrase>
+    <source>Model</source>
+    <target>Модель</target>
+</phrase>
+<phrase>
+    <source>User-selected item from the list of available models.</source>
+    <target>Выбранная модель ИИ из списка доступных.</target>
+</phrase>
+<phrase>
+    <source>Status</source>
+    <target>Статус</target>
+</phrase>
+<phrase>
+    <source>Processing status: IN_PROGRESS, OK, FAILED.</source>
+    <target>Статус обработки: IN_PROGRESS, OK, FAILED.</target>
+</phrase>
+<phrase>
+    <source>Progress</source>
+    <target>Прогресс</target>
+</phrase>
+<phrase>
+    <source>The percentage of completeness of the processing.</source>
+    <target>Процент выполненной обработки.</target>
+</phrase>
+<phrase>
+    <source>The processing area (AOI).</source>
+    <target>Область обработки (AOI).</target>
+</phrase>
+<phrase>
+    <source>Created</source>
+    <target>Дата</target>
+</phrase>
+<phrase>
+    <source>The date-time of the processing creation.</source>
+    <target>Дата-время создания обработки.</target>
+</phrase>
+<phrase>
+    <source>To download the processing results, you can double-click on the completed processing in the list.</source>
+    <target>Для загрузки результатов обработки можно дважды щелкнуть по выполненной обработке в списке.</target>
+</phrase>
+<phrase>
+    <source>This tab contains also two buttons: *Download results* and *Delete* buttons.</source>
+    <target>Эта вкладка также содержит две кнопки: *Загрузка результатов* и *Удалить*.</target>
+</phrase>
+<phrase>
+    <source>*Download results* - downloading the results of completed processing.</source>
+    <target>*Загрузка результатов* - загрузка результатов завершенной обработки.</target>
+</phrase>
+<phrase>
+    <source>*Delete* - delete selected processing/processings.</source>
+    <target>*Удалить* - удаление результатов обработки.</target>
+</phrase>
+<phrase>
+    <source>2. Imagery search</source>
+    <target>2. Поиск снимков</target>
+</phrase>
+<phrase>
+    <source>View of the providers tab</source>
+    <target>Вкладка Поиска снимков</target>
+</phrase>
+<phrase>
+    <source>&quot;Edit&quot; button</source>
+    <target>&quot;Редактирование&quot;</target>
+</phrase>
+<phrase>
+    <source>Button for changing the parameters of the source of satellite images.</source>
+    <target>Редаактирование параметров провайдеров.</target>
+</phrase>
+<phrase>
+    <source>Preview</source>
+    <target>Просмотр</target>
+</phrase>
+<phrase>
+    <source>A button to preview the background of the specified satellite imagery and geospatial provider.</source>
+    <target>Превью выбранного провайдера - добавляет слой на карту QGIS.</target>
+</phrase>
+<phrase>
+    <source>Image ID</source>
+    <target>ID снимка</target>
+</phrase>
+<phrase>
+    <source>Image ID from the *Imagery catalog* of the selected image of specified satellite image source.</source>
+    <target>Идентификатор изображения из *Каталога изображений*  указанного источника изображений.</target>
+</phrase>
+<phrase>
+    <source>Max zoom</source>
+    <target>Макс зум</target>
+</phrase>
+<phrase>
+    <source>Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**).</source>
+    <target>Число Zoom выбрано по умолчанию, чтобы исключить потребление платного трафика для предварительного просмотра (актуально при подключении к **Maxar SecureWatch**).</target>
+</phrase>
+<phrase>
+    <source>The area for which metadata will be presented.</source>
+    <target>Область поиска метаданных спутниковой съемки.</target>
+</phrase>
+<phrase>
+    <source>Use canvas extent</source>
+    <target>Использовать охват карты</target>
+</phrase>
+<phrase>
+    <source>The processing area will be taken from the QGIS image search workspace of the specified satellite imagery provider.</source>
+    <target>Область обработки будет взята из охвата карты QGIS.</target>
+</phrase>
+<phrase>
+    <source>Period of time (From...To)</source>
+    <target>Интервал дат (От...До)</target>
+</phrase>
+<phrase>
+    <source>The images will be provided for the specified time period.</source>
+    <target>Изображения будут найдены в рамках указанного периода времени.</target>
+</phrase>
+<phrase>
+    <source>Search imagery</source>
+    <target>Искать снимки</target>
+</phrase>
+<phrase>
+    <source>Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area.</source>
+    <target>Скачивает метаданные снимков по выбранной области. Показывается лист найденных изображений, пересекающихся с AOI.</target>
+</phrase>
+<phrase>
+    <source>Additional Filters</source>
+    <target>Дополнительные фильтры</target>
+</phrase>
+<phrase>
+    <source>Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.</source>
+    <target>Используйте для установки минимальной степени пересечения между изображением и интересующей областью и минимального процента облачности изображения.</target>
+</phrase>
+<phrase>
+    <source>You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``</source>
+    <target>Вы можете задать свой собственный источник данных в формате XYZ. Вот пример: ``https://your_site.xyz/{z}/{x}/{y}``</target>
+</phrase>
+<phrase>
+    <source>Check for free aerial images and try XYZ links at  `OpenAerialMap &lt;https://openaerialmap.org&gt;`_.</source>
+    <target>Найдите бесплатные аэрофотоснимки и попробуйте ссылки XYZ на OpenAerialMap &lt;https://openaerialmap.org&gt;`_.</target>
+</phrase>
+<phrase>
+    <source>3. Settings</source>
+    <target>3. Настройки</target>
+</phrase>
+<phrase>
+    <source>*Edit imagery providers available to the plugin*</source>
+    <target>*Добавить или изменить провайдеров данных*</target>
+</phrase>
+<phrase>
+    <source>Imagery providers</source>
+    <target>Провайдеры</target>
+</phrase>
+<phrase>
+    <source>Drop-down list with additional satellite imagery providers.</source>
+    <target>Выпадающий список с дополнительными провайдерами спутниковых снимков.</target>
+</phrase>
+<phrase>
+    <source>&quot;Add&quot; button</source>
+    <target>&quot;Добавить&quot;</target>
+</phrase>
+<phrase>
+    <source>Button for adding a source of images.</source>
+    <target>Кнопка добавления провайдера даннных.</target>
+</phrase>
+<phrase>
+    <source>&quot;Delete&quot; button</source>
+    <target>&quot;Удалить&quot;</target>
+</phrase>
+<phrase>
+    <source>Button for deleting the custom data provider.</source>
+    <target>Кнопка удаления провайдера даннных.</target>
+</phrase>
+<phrase>
+    <source>Opens dialog to edit custom data provider</source>
+    <target>Открывает диалоговое окно для добавления пользовательского источника данных</target>
+</phrase>
+<phrase>
+    <source>This tab contains also *Output directory* button.</source>
+    <target>Эта вкладка также содержит ссылку на &quot;Рабочую папку&quot;.</target>
+</phrase>
+<phrase>
+    <source>*Output directory* - set uo where the processing results will be loaded on your local disk.</source>
+    <target>*Рабочая папка* - укажите, куда будут загружаться результаты обработки на ваш локальный диск.</target>
+</phrase>
+<phrase>
+    <source>4. Help</source>
+    <target>4. Помощь</target>
+</phrase>
+<phrase>
+    <source>The tab contains all useful links to the plugin documentation.</source>
+    <target>Вкладка содержит все полезные ссылки на документацию плагина.</target>
+</phrase>
+<phrase>
+    <source>Use commercial satellite imagery providers</source>
+    <target>Использование коммерческих провайдеров спутниковых снимков</target>
+</phrase>
+<phrase>
+    <source>How to connect to Maxar SecureWatch</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow&apos;s processings pipelines.</source>
+    <target>SecureWatch — это сервис, который обеспечивает глобальный доступ к спутниковым изображениям высокого разрешения и базовым мозаикам изображений от мирового лидера в области дистанционного зондирования MAXAR по модели подписки. Пространственное разрешение изображений варьируется в диапазоне от 30 см до 1 м. Все изображения сопровождаются метаданными, включая информацию о дате и времени получения, облачности и т. д. В приложении реализован специальный интерфейс для подключения к этому сервису и использования изображений через конвейеры обработки Mapflow.</target>
+</phrase>
+<phrase>
+    <source>**Use of embedded Maxar SecureWatch for image processing by Mapflow**</source>
+    <target>**Использование встроенного доступа Maxar SecureWatch для обработки изображений с помощью Mapflow**</target>
+</phrase>
+<phrase>
+    <source>On the **Processing** tab, in the *Remote sensing data* drop-down list, select the required Maxar product (SecureWatch, Vivid), specify all processing parameters and click the *Start processing*.</source>
+    <target>В раскрывающемся списке *Данных* выберите нужный продукт Maxar (SecureWatch, Vivid) и перейдите во вкладку &quot;Поиск снимков&quot;.</target>
+</phrase>
+<phrase>
+    <source>**Maxar preview**</source>
+    <target>**Превью и выбор снимка Maxar**</target>
+</phrase>
+<phrase>
+    <source>Select the required Maxar product in the drop-down list on the **Data sources** tab;</source>
+    <target>В раскрывающемся списке *Данных* выберите нужный продукт Maxar (SecureWatch, Vivid) и перейдите во вкладку &quot;Поиск снимков&quot;;</target>
+</phrase>
+<phrase>
+    <source>Select your AOI in the Area drop-down list and click on the *Search imagery*.</source>
+    <target>Убедитесь что вы указали AOI в списке меню &quot;Область&quot; или в охвате экрана и другие параметры поиска и нажмите  *Поиск снимков*.</target>
+</phrase>
+<phrase>
+    <source>Double click on the selected image in the search results (or click Preview button) to add it on the map.</source>
+    <target>Дважды щелкните выбранное изображение в результатах поиска (или нажмите кнопку Просмотр), чтобы добавить его на карту.</target>
+</phrase>
+<phrase>
+    <source>In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium &lt;https://mapflow.ai/pricing&gt;`_ tariff plan or `write to us &lt;https://geoalert.io/#contacts&gt;`_ to get a quote.</source>
+    <target>В бесплатном тарифном плане *Максимальный зум* ограничен до 12 и запуск обработки через SecureWatch невозможен. Если вы хотите использовать этого поставщика данных - вам необходимо перейти на тарифный план &quot;Премиум &lt;https://mapflow.ai/pricing&gt;`_ или `написать нам &lt;https://geoalert.io/#contacts&gt;` _ чтобы узнать цену.</target>
+</phrase>
+<phrase>
+    <source>**Using your SecureWatch account for image processing by the Mapflow**</source>
+    <target>**Использование вашего собственного аккаунта SecureWatch для обработки изображений с помощью Mapflow**</target>
+</phrase>
+<phrase>
+    <source>Click *+* button on the *Providers* tab, choose Maxar WMTS option in the dropdown list;</source>
+    <target>Нажмите кнопку *+* и выберите в выпадающем списке опцию Maxar WMTS;</target>
+</phrase>
+<phrase>
+    <source>Enter *Login / Password* from your Maxar SecureWatch account;</source>
+    <target>Введите *Логин/Пароль* от вашей учетной записи Maxar SecureWatch;</target>
+</phrase>
+<phrase>
+    <source>Enter WMTS URL link for Maxar Secure Watch (`SecureWatch &lt;https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session&gt;`_ - Login - Securewatch - Use with - Web Services - WMTS)</source>
+    <target>Введите URL-ссылку WMTS для Maxar Secure Watch (`SecureWatch &lt;https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session&gt;`_ — Login - Securewatch - Use with - Web Services - WMTS)</target>
+</phrase>
+<phrase>
+    <source>Optional: specify the coordinate system (default epsg:3857);</source>
+    <target>Необязательно: укажите систему координат (по умолчанию epsg:3857);</target>
+</phrase>
+<phrase>
+    <source>Optional: Check *Save login and password*</source>
+    <target>Необязательно: Отметьте *Сохранить логин и пароль*</target>
+</phrase>
+<phrase>
+    <source>How to find out Maxar WMTS:</source>
+    <target>Как найти ссылку на Maxar WMTS:</target>
+</phrase>
+<phrase>
+    <source>Go to `SecureWatch &lt;https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session&gt;`_ and login.</source>
+    <target>Перейдите на `SecureWatch &lt;https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session&gt;`_ и войдите под вашей учетной записью.</target>
+</phrase>
+<phrase>
+    <source>In the upper menu select **Use With** &gt;&gt; **Web Services** &gt;&gt; **WMTS**</source>
+    <target>В верхнем меню выберите **Use With** &gt;&gt; **Web Services** &gt;&gt; **WMTS**</target>
+</phrase>
+<phrase>
+    <source>Copy the WMTS (or TMS) url.</source>
+    <target>Скопируйте WMTS (или TMS) url.</target>
+</phrase>
+<phrase>
+    <source>Your user profile in SecureWatch</source>
+    <target>Ваш профиль на SecureWatch</target>
+</phrase>
+<phrase>
+    <source>The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).</source>
+    <target>**Connect ID** различается для каждого продукта, включенного в вашу подписку SecureWatch. Поэтому изначально выбирайте тот, который вам нужен. Для этого откройте меню *Профиль пользователя* и в строке заголовка выберите нужный из предложенных продуктов (**Vivid** или **SecureWatch**, etc).</target>
+</phrase>
+<phrase>
+    <source>Click *Preview*.</source>
+    <target>Нажмите &quot;Просмотр&quot;.</target>
+</phrase>
+<phrase>
+    <source>Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.</source>
+    <target>Теперь слой Maxar доступен для предварительного просмотра в списке растровых слоев и для картографической AI обработки с помощью Mapflow.</target>
+</phrase>
+<phrase>
+    <source>How to find and process the image by Feature ID using Maxar SecureWatch</source>
+    <target>Как найти и обработать изображение по Feature ID с помощью Maxar SecureWatch</target>
+</phrase>
+<phrase>
+    <source>You can use SW to discover available images for you area of interest.</source>
+    <target>Вы можете использовать SW, чтобы найти доступные изображения для интересующей вас области.</target>
+</phrase>
+<phrase>
+    <source>Go to the *Providers* tab.</source>
+    <target>Перейдите во вкладку *Поиск снимков*.</target>
+</phrase>
+<phrase>
+    <source>Select Maxar SecureWatch from the dropdown list.</source>
+    <target>Выберите Maxar SecureWatch в выпадающем списке.</target>
+</phrase>
+<phrase>
+    <source>In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.</source>
+    <target>В *Каталоге изображений Maxar SecureWatch* выберите векторный слой, содержащий границу интересующей вас области.</target>
+</phrase>
+<phrase>
+    <source>To define the imagery search area you can create the new polygon (*Layer -&gt; Create layer -&gt; ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide &lt;https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html&gt;`_. Alternatively, you can check the option &quot;use canvas extent&quot;.</source>
+    <target>Чтобы определить область поиска изображения, вы можете создать новый полигон (*Слой -&gt; Создать слой -&gt; ...*, выбрать *Многоугольник* в качестве типа геометрии, добавить полигон с помощью инструмента *Добавить объект полигона*) или загрузить его из файл с координатами. Если в файле более одного полигона, выберите инструментом *Выбрать объект(ы)* нужный полигон. Для получения дополнительной информации о создании и работе с векторными слоями см. `Руководство пользователя QGIS &lt;https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html&gt;`_. Кроме того, вы можете установить флажок «создать из видимой области карты».</target>
+</phrase>
+<phrase>
+    <source>Get specific image from SW</source>
+    <target>Получить определенное изображение из SW</target>
+</phrase>
+<phrase>
+    <source>*Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.</source>
+    <target>*Выполните поиск изображений*, чтобы просмотреть метаданные всех доступных изображений, пересекающих вашу область интереса. Вы можете применить поисковые фильтры и указать период, за который вы хотели бы получать изображения. Это поможет в формировании каталога снимков с необходимыми параметрами.</target>
+</phrase>
+<phrase>
+    <source>Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.</source>
+    <target>Выберите предпочтительное изображение из каталога изображений или используйте сгенерированный WFS векторный слой (*метаданные Maxar SW*) для поиска по дополнительным атрибутам. Если вы хотите заранее обработать определенное изображение, вставьте свой идентификатор изображения в поле в верхней части плагина, это облегчит поиск изображения в каталоге изображений.</target>
+</phrase>
+<phrase>
+    <source>Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.</source>
+    <target>Метаданные изображения сохраняются в виде векторного слоя. Вы можете использовать дополнительный поиск по его таблицей атрибутов.</target>
+</phrase>
+<phrase>
+    <source>Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).</source>
+    <target>Нажмите *Предварительный просмотр*, чтобы просмотреть выбранное изображение в виде нового растрового слоя (или двойной щелчок по строке в таблице).</target>
+</phrase>
+<phrase>
+    <source>&quot;max zoom 12&quot; checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch.</source>
+    <target>Флажок «max zoom 12» активен для предотвращения платного трафика на стороне Maxar SecureWatch.</target>
+</phrase>
+<phrase>
+    <source>How to use other imagery services</source>
+    <target>Как использовать другие источники данных</target>
+</phrase>
+<phrase>
+    <source>For example, let&apos;s use the `OpenAerialMap &lt;https://openaerialmap.org/&gt;`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data. As soon as your aerial image is published on Openaerialmap it&apos;s presented on the public map and can be fetched using TMS/WMTS protocols.</source>
+    <target>Например, так возможно использовать `OpenAerialMap &lt;https://openaerialmap.org/&gt;`_ — это открытая коллекция данных изображений с БПЛА, собранная пользователями. Проект поддерживается консорциумом компаний, разрабатывающих ПО с открытым исходным кодом и сервисы для работы с пространственными данными. Как только ваш аэрофотоснимок публикуется на Openaerialmap, он отображается на общедоступной карте и может быть загружен с использованием протоколов TMS/WMTS.</target>
+</phrase>
+<phrase>
+    <source>Select the image and copy link to TMS.</source>
+    <target>Выберите изображение и скопируйте ссылку в TMS.</target>
+</phrase>
+<phrase>
+    <source>Search for imagery in Openaerialmap</source>
+    <target>Поиск изображений в Openaerialmap</target>
+</phrase>
+<phrase>
+    <source>Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.</source>
+    <target>Заходим в плагин, на вкладке *Провайдеры* нажимаем кнопку *Добавить* (1) и в открывшемся окне вводим соответствующие данные (2). Нажмите *Просмотр* (3) изображения, - вы должны быть в правильном масштабе и координатах, чтобы увидеть изображение.</target>
+</phrase>
+<phrase>
+    <source>To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.</source>
+    <target>Чтобы начать обработку с использованием этого источника данных, перейдите на вкладку *Обработка*, заполните все поля параметров обработки, нажмите *Начать обработку*.</target>
+</phrase>
+<phrase>
+    <source>Custom imagery service</source>
+    <target>Пользовательский источник данных</target>
+</phrase>
+<phrase>
+    <source>Name of other imagery data provider</source>
+    <target>Название нового провайдера данных</target>
+</phrase>
+<phrase>
+    <source>URL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>URL of the imagery data provider</source>
+    <target>URL дата провайдера</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Тип</target>
+</phrase>
+<phrase>
+    <source>Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ &lt;https://en.wikipedia.org/wiki/Tiled_web_map&gt;`_, `TMS &lt;https://en.wikipedia.org/wiki/Tile_Map_Service&gt;`_, `WMS &lt;https://en.wikipedia.org/wiki/Web_Map_Tile_Service&gt;`_, `Quadkey &lt;https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system&gt;`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.</source>
+    <target>Тип источника данных. Вы можете ввести собственный URL-адрес источника изображений в одном из следующих форматов: `XYZ &lt;https://en.wikipedia.org/wiki/Tiled_web_map&gt;`_, `TMS &lt;https://en.wikipedia.org/wiki/ Tile_Map_Service&gt;`_, `WMS &lt;https://en.wikipedia.org/wiki/Web_Map_Tile_Service&gt;`_, `Quadkey &lt;https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps- тайловая система&gt;`_. Все форматы представляют собой наиболее широко используемые протоколы для получения изображений с географической привязкой через HTTP.</target>
+</phrase>
+<phrase>
+    <source>How to upload your image</source>
+    <target>Как загрузить свое изображение</target>
+</phrase>
+<phrase>
+    <source>You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. Opening files from the *Additional options* button (3) also adds it to the tree of QGIS layers.</source>
+    <target>Вы можете загрузить свой собственный файл GeoTIFF. Все растровые слои, загруженные в данный момент в QGIS (1), отображаются в раскрывающемся списке (2) и могут быть выбраны для загрузки. Открытие файлов с помощью кнопки *Дополнительные параметры* (3) также добавляет их в дерево слоев QGIS.</target>
+</phrase>
+<phrase>
+    <source>Upload TIF, select from list</source>
+    <target>Загрузить TIF, выберите из списка</target>
+</phrase>
+<phrase>
+    <source>Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images for processing through the API of the Mapflow platform.</source>
+    <target>Пожалуйста, соблюдайте требования, указанные на странице с :doc:`../userguides/requirements`, при загрузке собственных изображений для обработки через API платформы Mapflow.</target>
+</phrase>
+<phrase>
+    <source>**Check the data type**</source>
+    <target>**Проверяет тип данных**</target>
+</phrase>
+<phrase>
+    <source>The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`. Alternative option: use the `preprocessing script &lt;https://github.com/Geoalert/mapflow_data_preprocessor/&gt;`_</source>
+    <target>Тип данных должен быть байтовым (8 бит). Если тип данных Int16 или Float32 и т. д., следуйте инструкциям :doc:`../userguides/howto`. Альтернативный вариант: используйте `скрипт предварительной обработки &lt;https://github.com/Geoalert/mapflow_data_preprocessor/&gt;`_</target>
+</phrase>
+<phrase>
+    <source>**Check the image size**</source>
+    <target>**Проверяет размеры изображения**</target>
+</phrase>
+<phrase>
+    <source>Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom &lt;https://geoalert.io/#contacts&gt;`_.</source>
+    <target>Размер изображения с обеих сторон не должен превышать 30 000x30 000 пикселей. Если у вас есть изображения большего размера, вы должны либо разрезать их на более мелкие фрагменты, либо переключиться на `Mapflow custom &lt;https://geoalert.io/#contacts&gt;`_.</target>
+</phrase>
+<phrase>
+    <source>**Check the number of channels**</source>
+    <target>**Проверяет кол-во каналов изображения**</target>
+</phrase>
+<phrase>
+    <source>Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.</source>
+    <target>Обычно Mapflow обрабатывает 3-канальные изображения RGB. Платформа Mapflow также может обрабатывать одноканальные (панхроматические) изображения, но модели ИИ не настроены на такие данные, поэтому качество результата может быть хуже ожидаемого.</target>
+</phrase>
+<phrase>
+    <source>**Check the projection and georeference**</source>
+    <target>**Проверяет проекцию и географическую привязку**</target>
+</phrase>
+<phrase>
+    <source>Make sure that your imagery is georeferenced in geographic or projected coordinate system.</source>
+    <target>Убедитесь, что ваши изображения имеют географическую привязку в географической или проекционной системе координат.</target>
+</phrase>
+<phrase>
+    <source>**Check the resolution**</source>
+    <target>**Проверяет разрешение изображения**</target>
+</phrase>
+<phrase>
+    <source>The resolution restrictions vary for different models, see :ref:`Model requirements`</source>
+    <target>Ограничения по разрешению различаются для разных моделей, см. :ref:`Требования к моделям`</target>
+</phrase>
+<phrase>
+    <source>You can send a request for data preprocessing to help@geoalert.io</source>
+    <target>Вы можете отправить запрос на предобработку данных на help@geoalert.io</target>
+</phrase>
+<phrase>
+    <source>Proxy-settings</source>
+    <target>Настройки прокси</target>
+</phrase>
+<phrase>
+    <source>If you are behind a firewall, go to *QGIS* -&gt; *Preferences* -&gt; *Network* and will please adjust the proxy settings for plugin connection.</source>
+    <target>Если вы находитесь за брандмауэром, перейдите в *QGIS* -&gt; *Настройки* -&gt; *Сеть* и настройте параметры прокси для подключения плагина.</target>
+</phrase>
+<phrase>
+    <source>Proxy settings</source>
+    <target>Настройки прокси</target>
+</phrase>
+<phrase>
+    <source>QGIS</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In the `API tab &lt;https://app.mapflow.ai/account/api&gt;`_ of the profile settings is specified the area limit for processing provided to you (initially 25 km\: sup: `2`) and the total area of ​​already completed processing.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse data, and compose printable maps. Get a first impression with a more detailed feature list. Know more on QGIS `official site &lt;https://www.qgis.org/&gt;`_.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>It has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our app enables connection to Mapflow :doc:`processing_api` to run AI-mapping processings and download output data as QGIS layers.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Click *Plugins* --&gt; *Manage...*, go to the Not installed (or All) tab and enter MapFlow in the search box. Click Install Plugin. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The plugin icon has appeared in the QGIS Toolbar. If the icon isn&apos;t automatically displayed, right-click on the Toolbar and check the box Mapflow.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You need to log in with your account to use the plugin. Go to `mapflow.ai &lt;https://mapflow.ai/en&gt;`_, register and obtain API token for working with the plugin.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Login/Pssword</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Fields for entering user account data.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Server</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select the platform to which the plugin will address to start processing.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Remember me</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Saving the user&apos;s personal data for using the plugin when you later log out of your account.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Log in</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>User account login button.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Button to close the plugin authorization window.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Geoalert plugin</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Geoalert plugin working window is divided into 3 tabs:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>1.Processing</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Veiw of the processing tab</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>**Processing parameters area**</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>AOI layer</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers, to add new AOI - upload it into QGIS or create a new layer using polygon tool. Select the one of them if the vector layer consists of several polygons.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Buildings detection With Heights, Forest Detection With Heights, Construction Detection</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Imagery source</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Base imagery to be processed. By default Mapbox Satellite is selected, in the drop-down list you can also select Custom (see Settings) and Open new .tif.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Update image in cache</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>This function allows you to update the processing image in the cache if the area of ​​the previous processing is used in this processing with the replacement of the background.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Aoi area</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Automatic calculation of the area of ​​the selected processing area.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Use image extent as AOI</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer Processing area for this image but takes its extent.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Log out</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Sign out of the user&apos;s billing record.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Button for deleting previously performed processing from the processings list.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>**Display output and work with processing**</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Processing name.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>User-selected processing type in the Model field.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The degree of completeness of processing as a percentage.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The date the processing was created.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>To unload the processing results, double-click on the completed processing.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>2.Settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Veiw of the settings tab</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Output directory</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Path to the directory into which the processing result will be loaded.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Custom imagery provider URL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Satellite imagery provider URL.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Source type</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Raster tile type. You can choose xyz, tms, wms.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Max zoom 14</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Zoom size 14 is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to Maxar SecureWatch. Viewing data from this service is possible from zoom 9. You can use the zoom up to maximum 18 zoom by unchecking the box).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>**Maxar SecureWatch settings**</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Login/Password</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Login credentials for your SecureWatch account.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save Login/Password</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The user&apos;s personal data can be saved for further connectivity to SecureWatch resources.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Connect ID</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The identifier for the connection to SecureWatch resources.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Get URL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Button to get the URL of the satellite imagery provider Maxar.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Feature ID</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Image ID obtained from the meta-data that intersects with the selected  AOI layer.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>he area for which meta-data will be presented.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Get image metadata</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Button to start collecting meta-data for the selected area.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>1. Help</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The tab contains all useful links about this plugin.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>On the **Processing** tab, in the *Imagery source* drop-down list, select *Custom URL (in setting)*.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Use Maxar SecureWatch</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Go to the **Settings** tab.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Enter your SecureWatch account credentials in the *Login* and *Password*.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If you don&apos;t have an account, you need to apply to Maxar `SecureWatch &lt;https://explore.maxar.com/securewatch-demo&gt;`_.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select *Maxar Securewatch*. Enter your *Connect ID*. In order to copy your *Connect ID*:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>1.Go to `SecureWatch &lt;https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session&gt;`_.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>2.In the title bar select your name, then select **View Profile**. The **User Profile** dialog box will open.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>3.Copy your **Current Connect ID**.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one that suits you. To do this, close the *User Profile* window and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**) by clicking on the name of one of them.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Return to QGIS to **Geoalert plugin**, paste the copied ID in the *Connect ID* input.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Click *Get URL*.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You can use SW to discover and get processed aby avaialble image for you area of interest.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Go to *Maxar SecureWatch* setiings.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select the vector layer with the boundary of your area of interest using *AOi layer*.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You have to upload from the file with coordinates or to create the new one area using QGIS.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>*Get image metadata*, to view meta-data of all avaialble images intesecting your AOI.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select the prteferable image from the meta-data list or use the WFS generated vector layer (*WFS_temp*) to search through more attributes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table searching through all attributes.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Press *Get URL* to generate the URL request to the selected image (*Feature ID*).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Press *Preview*, to view the selected image in the form of new raster layer.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&quot;max zoom 14&quot; checkbox is avtive to prevent the paid streaming сon the side of SecureWatch. If you like to view the full resolution image - uncheck it and press *Preview* button.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You can enter your custom imagery source URL in one of the following formats:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>XYZ;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>TMS;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>WMS;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Quadkey.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>How to process your own imagery</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You can upload your own GeoTIFF (*Open new .tif*). All raster layers currently loaded in your QGIS are visible in the drop-down list and can be selected for upload.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You must follow the requirements specified on the page with :ref:`Models reference` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Mapflow can be used via `QGIS &lt;https://www.qgis.org/&gt;`_. You will need access to the data processing API that to use it (see :doc:`authorization to work with the Mapflow API &lt;../userguides/mapflow_auth&gt;`).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>In the `API tab &lt;https://app.mapflow.ai/account/api&gt;`_ of the profile settings is specified the area limit for processing provided to you (initially 25 km\ :sup:`2`) and the total area of ​​already completed processing.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>QGIS is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list. Know more on QGIS and istall `official site &lt;https://www.qgis.org/&gt;`_.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Click *Plugins* --&gt; *Manage...*, go to the *Not installed* (or *All*) tab and enter &quot;MapFlow&quot; in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>The plugin icon has appeared in the QGIS Toolbar.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If the icon isn&apos;t automatically displayed, right-click on the Toolbar and check if the Mapflow toolbar is activated.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Both sides image dimension mmust not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom &lt;https://geoalert.io/#contacts&gt;`_.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD You can send a request for data preprocessing to help@geoalert.io =======</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You could send a request using data preprocessing to help@geoalert.io</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&gt;&gt;&gt;&gt;&gt;&gt;&gt; main</source>
+    <target></target>
+</phrase>
+</QPH>

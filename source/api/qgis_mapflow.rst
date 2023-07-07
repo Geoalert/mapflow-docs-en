@@ -1,5 +1,5 @@
 Mapflow <> QGIS
-===============
+================
 
 .. attention::
     Mapflow can be used via QGIS. You need to autohorise :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>` and get `API token <https://app.mapflow.ai/account/api>`_ to login.
@@ -168,7 +168,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
    * - "Edit" button
      - Button for changing the parameters of the source of satellite images.
    * - Preview
-     - A button to preview the background of the specified satellite imagery and geospatial provider.
+     - A button to preview the specified satellite imagery by geospatial provider.
    * - Image ID
      - Image ID from the *Imagery catalog* of the selected image of specified satellite image source.
    * - Max zoom
@@ -176,7 +176,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
    * - Area
      - The area for which metadata will be presented.
    * - Use canvas extent
-     - The processing area will be taken from the QGIS image search workspace of the specified satellite imagery provider.
+     - The processing area will be taken from the QGIS map canvas.
    * - Period of time (From...To)
      - The images will be provided for the specified time period.
    * - Search imagery
@@ -216,7 +216,7 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 This tab contains also *Output directory* button. 
 
-*Output directory* - set uo where the processing results will be loaded on your local disk.
+*Output directory* - set up where the processing results will be loaded on your local disk.
 
 .. _Help:
 
@@ -225,8 +225,8 @@ This tab contains also *Output directory* button.
 
 The tab contains all useful links to the plugin documentation.
 
-Use commercial satellite imagery providers
--------------------------------------------
+Use of commercial satellite imagery providers
+----------------------------------------------
 
 How to connect to Maxar SecureWatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -237,13 +237,12 @@ How to connect to Maxar SecureWatch
 
 * **Use of embedded Maxar SecureWatch for image processing by Mapflow**
 
-  On the **Processing** tab, in the *Remote sensing data* drop-down list, select the required Maxar product (SecureWatch, Vivid), specify all processing parameters and click the *Start processing*.
+   In the *Data source* drop-down list, select the required Maxar product (SecureWatch, Vivid), switch to the *Imagery search* tab.
 
 * **Maxar preview**
 
-  1. Select the required Maxar product in the drop-down list on the **Data sources** tab;
-  2. Select your AOI in the Area drop-down list and click on the *Search imagery*.
-  3. Double click on the selected image in the search results (or click Preview button) to add it on the map.
+  1. Select your AOI in the Area drop-down list and click on the *Search imagery*.
+  2. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
 .. important:: 
    In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote.
@@ -261,7 +260,7 @@ How to connect to Maxar SecureWatch
 |
 
 
-   1. Click *+* button on the *Providers* tab, choose Maxar WMTS option in the dropdown list;
+   1. Click *+* button and choose Maxar WMTS option in the dropdown list;
 
    2.  Enter *Login / Password* from your Maxar SecureWatch account;
 
@@ -273,7 +272,7 @@ How to connect to Maxar SecureWatch
 
 
   .. hint::
-       How to find out Maxar WMTS:
+       How to find Maxar WMTS URL:
 
       1. Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login.
 
@@ -314,7 +313,7 @@ You can use SW to discover available images for you area of interest.
          :width: 15cm
 
 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
-5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
+5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
 .. note::
     Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.
