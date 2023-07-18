@@ -10,9 +10,9 @@ Additionally we use models for density and height estimation, dividing the fores
 * Forest from 4 to 10 meters high;
 * Forest more than 10 meters high;
 
-This model can be used as a decision support for the forest growth clearing.
+.. hint::
+   This model can be used as a decision support for the forest growth clearing. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_
 
-This postprocessing is available for processings 50 sq.km and more.
 
 **Processing results samples**
 
@@ -22,4 +22,4 @@ This postprocessing is available for processings 50 sq.km and more.
    :width: 15cm
    :class: with-border no-scaled-link
    
-   Sample of results for **Forest with heights** mask in raster format
+   Sample of results for **Forest with heights** mask (raster output)

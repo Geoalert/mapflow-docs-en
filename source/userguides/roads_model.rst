@@ -29,4 +29,4 @@ In version 1.1 we added the road graph postprocessing:
    :width: 15cm
    :class: with-border no-scaled-link
    
-   More complex environment - urban territory in Prague, Chech Republic
+   More complex environment - urban territory in Prague, Czech Republic

@@ -1,9 +1,8 @@
 🏗️ Constructions
 ----------------
 
-This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limitted to some countries and the work od extending it is in progress.
+This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limited to some countries and the work of extending it is in progress.
 
-**Processing results samples**
 
 .. figure:: _static/processing_result/construction_model.jpg
    :alt: Processing result of construction model

@@ -1,3 +1,5 @@
+.. _Buildings model:
+
 🏠 Buildings
 ------------
 
@@ -16,9 +18,7 @@ The model does not extract the footprints directly, because they are not clearly
 * *Simplification* - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. Also the corrected buildings are rotated to align with the nearest roads. This option produces much more map-friendly shapes which look better and are easier to edit, but some shape accuracy can be lost. See our `blog post <https://medium.com/geoalert-platform-urban-monitoring/urban-mapping-going-over-post-processing-issues-f89170131b56>`_ for more information and some visuals.
 * *Merge with OSM [Mapflow Web only]* - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option. In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index more than 0.7) and if there is one, we replace our result with OSM contour. This makes the result not based on the image, so the buildings can be shifted from actual positions, and some changes that have occurred after OSM mapping may be lost.
 
-**Processing results samples**
-
-A sample of processing result with different options for Prague, Chech Republic.
+A sample of processing result with different options for Prague, Czech Republic.
 
 .. figure:: _static/processing_result/buildings_model_7.jpg
    :alt: Processing result of buildings model

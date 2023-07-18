@@ -16,7 +16,7 @@ What is QGIS
 -------------
 
 QGIS (`qgis.org <https://www.qgis.org/>`_) is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list.
-Know more on QGIS and istall `official site <https://www.qgis.org/>`_. 
+Know more about QGIS and istall it from `official site <https://www.qgis.org/>`_. 
 
 QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our "Mapflow - QGIS" app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace.
 
@@ -42,12 +42,8 @@ You need to log in with your credentials to start using the plugin. Go to `mapfl
 
 |
 
-
 User interface
 --------------
-
-Mapflow plugin
-~~~~~~~~~~~~~~~~
 
 Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.
 
@@ -69,28 +65,6 @@ Processing controls panel allows to start new processing and/or rate finished pr
     :class: longtable
 
 Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
-
-
-How to run the processing
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To start the processing you need to add the **Polygon Area** (AOI).
-
-The plugin has several built-in options for creating AOI.
-
-   1. Create new AOI from the map extent using the "+" button;
-
-   2. Upload the existing AOI using the "+" button;
-
-   3. Use the extent of the uploaded image;
-
-  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
-
-  .. figure:: _static/qgis/AOI_button.png
-         :alt: View of the aoi 
-         :align: center
-         :width: 15cm
-         :class: with-border no-scaled-link 
 
 
 Tabs section contains 4 tabs:
@@ -136,15 +110,16 @@ Tabs section contains 4 tabs:
      - The processing area (AOI).
    * - Created
      - The date-time of the processing creation.
-  
-.. hint::
-    To download the processing results, you can double-click on the completed processing in the list.
+
 
 This tab contains also two buttons: *Download results* and *Delete* buttons.
 
 *Download results* - downloading the results of completed processing. 
 
 *Delete* - delete selected processing/processings. 
+
+.. hint::
+    To download the processing results, you can double-click on the completed processing in the list
 
 .. _Providers:
 
@@ -224,6 +199,29 @@ This tab contains also *Output directory* button.
 ~~~~~~~~
 
 The tab contains all useful links to the plugin documentation.
+
+
+How to run the processing
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To start the processing you need to add the Polygon **Area of Interest** (AOI).
+
+The plugin has several built-in options for creating AOI.
+
+   1. Create new AOI from the map canvas extent using the "+" button;
+
+   2. Upload the existing AOI using the "+" button;
+
+   3. Use the extent of the uploaded image;
+
+  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
+
+  .. figure:: _static/qgis/AOI_button.jpg
+         :alt: View of the aoi 
+         :align: center
+         :width: 15cm
+         :class: with-border no-scaled-link
+
 
 Use of commercial satellite imagery providers
 ----------------------------------------------
@@ -328,12 +326,12 @@ How to use other imagery services
 ------------------------------------
 
 For example, let's use the `OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
-As soon as your aerial image is published on Openaerialmap it's presented on the public map and can be fetched using TMS/WMTS protocols.
+As soon as your aerial image is published on OpenAerialMap it's presented on the public map and can be fetched using TMS/WMTS protocols.
 
 Select the image and copy link to TMS.
 
   .. figure:: _static/qgis/search_openaerialmap_image.png
-         :alt: Search for imagery in Openaerialmap 
+         :alt: Search for imagery in OpenAerialMap 
          :align: center
          :width: 15cm
 
@@ -344,7 +342,7 @@ Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the re
 To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
 
  .. figure:: _static/qgis/custom_imagery_source.png
-         :alt: Custom imagery service
+         :alt: Custom imagery source
          :align: center
          :width: 15cm
 
@@ -396,8 +394,72 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 You can send a request for data preprocessing to help@geoalert.io
 
 
+Work with results
+------------------
+
+Download the results
+~~~~~~~~~~~~~~~~~~~~~
+
+The processing results that are 100% complete can be downloaded as a vector file to your local directory and automatically added as layer to QGIS workspace.
+
+Double click on the processing name in the :ref:`Processing` Table or select it and push the button "Download results".
+The layer will appear in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder "Mapflow".
+You can work with it further as with the usual vector layer in QGIS.
+
+.. note::
+  If the default AI model is used, the plugin automatically assigns predefined styles to the vector layer. For all custom models / pipelines the single default style is assigned. You can always change it.
+
+Delete the processing
+~~~~~~~~~~~~~~~~~~~~~~
+
+To delete the processing - select it in the list, click the button "Delete" and confirm.
+
+.. warning::
+  The processing cannot be restored by user. Before the permanent deletion the data backup is **temporarily stored** on the Mapflow server in case of emergency. So if you deleted your results by mistake and want us to restore the processing – send your request to the support without delay.
+ 
+
+Review the results*
+~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+   ❗️ This option is available for the limited number of Mapflow customers who have signed up for the enterprise support
+
+If activated, every completed processing comes with the status **"Review required"**. The user can either accept the result or request the review, so the support can reprocess it and get better results, until it meets the requirements. 
+To request the **Review** of the results:
+
+.. _Review workflow:
+
+1. Select the processing with the Status **"Review required"** and click the "Review" button
+
+2. Provide comments in the Review dialogue:
+
+.. epigraph::
+  * Add your comment on why and what you want us to make a review
+  * *Optionally* Add the polygon area, highlighting the objects that are not correctly processed, weren't identified correctly, etc – it will help us to pay attention to the specific issues
+  * The processing Status will change to **"In review"**
+
+ .. figure:: _static/qgis/review_required.jpg
+         :alt: Upload TIF, select from list
+         :align: center
+         :width: 15cm
+         :class: with-border
+         
+         Select AOI and request a Review
+
+3. As soon as Review is done on our side the Status will change back to **"Review required"**. Accept the results or return to the #1
+
+
+ .. figure:: _static/qgis/review_accept.jpg
+         :alt: Upload TIF, select from list
+         :align: center
+         :width: 15cm
+         :class: with-border
+         
+         Accept the results when Review is done
+
+
 Proxy-settings
---------------
+---------------
 
 If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for plugin connection.
 

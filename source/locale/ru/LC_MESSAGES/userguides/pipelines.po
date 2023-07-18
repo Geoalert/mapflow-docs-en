@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-03 20:30+0530\n"
+"POT-Creation-Date: 2023-07-09 13:10+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -432,7 +432,7 @@ msgstr ""
 
 #: ../../source/userguides/sam_model.rst:7
 msgid ""
-"Select your geographical area - either polygon, or GeoJSON file, or your "
+"Select your geographical area - either polygon, GeoJSON file, or your "
 "image extent"
 msgstr ""
 
@@ -449,8 +449,8 @@ msgstr ""
 #: ../../source/userguides/sam_model.rst:12
 msgid ""
 "if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox "
-"Satellite) — you need to define the Zoom (image resolution) in the model "
-"options which will be used to download data and apply the model"
+"Satellite) — you need to select the Zoom level (image resolution) from "
+"the model options which will be used for the input"
 msgstr ""
 
 #: ../../source/userguides/sam_model.rst:-1
@@ -536,6 +536,15 @@ msgstr ""
 msgid ""
 "E.g. Result – SAM Aero (zoom 20), containers. Appropriate for small "
 "typicall objects, requires little manual cleaning."
+msgstr ""
+
+#: ../../source/userguides/sam_model.rst:85
+msgid ""
+"❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>`"
+" list of default models, as the zoom options are not enabled in the "
+"current plugin’s design. Yet if you work in QGIS and want to try SAM "
+"there — send us a request and we will connect corresponding workflow "
+"scenarios with all zoom options specified."
 msgstr ""
 
 #~ msgid ""
@@ -771,5 +780,20 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "RGB, 1.2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select your geographical area - either"
+#~ " polygon, or GeoJSON file, or your"
+#~ " image extent"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "if you run it via TMS (e.g. "
+#~ ":ref:`Imagery basemaps` like Mapbox Satellite)"
+#~ " — you need to define the Zoom"
+#~ " (image resolution) in the model "
+#~ "options which will be used to "
+#~ "download data and apply the model"
 #~ msgstr ""
 
