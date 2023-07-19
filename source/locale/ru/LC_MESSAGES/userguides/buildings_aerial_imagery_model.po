@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../source/userguides/buildings_aerial_imagery_model.rst:4
 msgid ""
-"This model is specifically designed to make use of very high resolution "
+"This model is specifically designed to be used on a very high resolution "
 "aerial imagery (10 cm per pixel) for extraction of small buildings and "
 "structures. It is best suited for rural and suburban residential areas."
 msgstr ""
@@ -38,27 +38,44 @@ msgid ""
 " aerial imagery."
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:8
-msgid "**Processing results samples**"
-msgstr ""
-
 #: ../../source/userguides/buildings_aerial_imagery_model.rst
 msgid "Processing result of Buildings (Aerial) model"
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:16
-msgid ""
-"Processing example rural residential area with a Building model (Aerial "
-"photo)"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:15
+msgid "Processing example – rural residential area"
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:24
-msgid "Standard model for buildings segmentation, with polygon simplification"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:23
+msgid ""
+"Small objects that have been missed by default :ref:`Buildings model` but"
+" detected using an aerial image with the Buildings (Aerial imagery)"
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:32
-msgid ""
-"Objects that have been detected in an aerial image by the Building "
-"(Aerial imagery) model as opposed to the standard model Buildings."
-msgstr ""
+#~ msgid ""
+#~ "This model is specifically designed to"
+#~ " make use of very high resolution "
+#~ "aerial imagery (10 cm per pixel) "
+#~ "for extraction of small buildings and"
+#~ " structures. It is best suited for"
+#~ " rural and suburban residential areas."
+#~ msgstr ""
+
+#~ msgid "**Processing results samples**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Processing example rural residential area "
+#~ "with a Building model (Aerial photo)"
+#~ msgstr ""
+
+#~ msgid "Standard model for buildings segmentation, with polygon simplification"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Objects that have been detected in "
+#~ "an aerial image by the Building "
+#~ "(Aerial imagery) model as opposed to "
+#~ "the standard model Buildings."
+#~ msgstr ""
 

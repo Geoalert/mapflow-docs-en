@@ -13,12 +13,13 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Language: ru\n"
+"X-Source-Language: en\n"
 
 #: ../../source/api/mapflow_api.rst:3
 msgid "Mapflow API"
@@ -26,15 +27,15 @@ msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:4
 msgid "Authorization to Mapflow API"
-msgstr ""
+msgstr "Авторизация в Mapflow API"
 
 #: ../../source/userguides/mapflow_auth.rst:6
 msgid ""
 "To access from external applications such as :doc:`plugin for QGIS "
-"<../api/qgis_mapflow>` you need to get **API token**. Users can register "
-"and obtain token at `https://app.mapflow.ai/account/api "
-"<https://app.mapflow.ai/account/api>`_. Token must be passed in the "
-"**Basic Auth** parameters like in the example:"
+"<../api/qgis_mapflow>` you need to get **API token**. Users can register and "
+"obtain token at `https://app.mapflow.ai/account/api "
+"<https://app.mapflow.ai/account/api>`_. Token must be passed in the **Basic "
+"Auth** parameters like in the example:"
 msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:17
@@ -43,8 +44,8 @@ msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:19
 msgid ""
-"You can decode it `with base64 decoder <https://www.base64decoder.io/>`_ "
-"to use in Basic Auth form"
+"You can decode it `with base64 decoder <https://www.base64decoder.io/>`_ to "
+"use in Basic Auth form"
 msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:21
@@ -57,14 +58,14 @@ msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:26
 msgid ""
-"Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a "
-"new account or sign in using your Google account."
+"Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a new "
+"account or sign in using your Google account."
 msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:28
 msgid ""
-"Go to `user profile settings <https://app.mapflow.ai/account>`_ to "
-"generate a new API token."
+"Go to `user profile settings <https://app.mapflow.ai/account>`_ to generate "
+"a new API token."
 msgstr ""
 
 #: ../../source/userguides/mapflow_auth.rst:-1
@@ -73,16 +74,16 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:4
 msgid "Mapflow processing API"
-msgstr ""
+msgstr "API обработки данных"
 
 #: ../../source/api/processing_api.rst:7
 msgid ""
 "The projects and processings that you create in `Mapflow.ai "
-"<https://app.mapflow.ai/>`_ won’t be available via the API and vice "
-"versa. Neither can your Mapflow credits be used to run processings via "
-"the API. Use the API token to start using the API, which you need to "
-"generate in the `profile settings <https://app.mapflow.ai/account>`_ (see"
-" :doc:`authorization to work with the Mapflow API "
+"<https://app.mapflow.ai/>`_ won’t be available via the API and vice versa. "
+"Neither can your Mapflow credits be used to run processings via the API. Use "
+"the API token to start using the API, which you need to generate in the "
+"`profile settings <https://app.mapflow.ai/account>`_ (see "
+":doc:`authorization to work with the Mapflow API "
 "<../userguides/mapflow_auth>`)."
 msgstr ""
 
@@ -152,8 +153,8 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:120
 msgid ""
-"Returns the name and ID of the user's default project and the user's "
-"account settings."
+"Returns the name and ID of the user's default project and the user's account "
+"settings."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:191
@@ -196,8 +197,8 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:221
 msgid ""
-"//Add default processing :doc:`pipelines <../userguides/pipelines>` to "
-"the project"
+"//Add default processing :doc:`pipelines <../userguides/pipelines>` to the "
+"project"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:223
@@ -266,10 +267,10 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:308
 msgid ""
-"If the processing failed, the response also contains the code and "
-"parameters of the error in the `messages` section. If different AOIs "
-"failed with the same error, only one of the repeated errors is returned. "
-"Example of the failed processing response:"
+"If the processing failed, the response also contains the code and parameters "
+"of the error in the `messages` section. If different AOIs failed with the "
+"same error, only one of the repeated errors is returned. Example of the "
+"failed processing response:"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:329
@@ -287,7 +288,8 @@ msgid "``POST https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:337
-msgid "Runs a processing, and returns its immediate state. Request body sample:"
+msgid ""
+"Runs a processing, and returns its immediate state. Request body sample:"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:384
@@ -318,10 +320,10 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:416
 msgid ""
-"Restarts failed partitions of this processing. Doesn't restart non-failed"
-" partitions. Each workflow is restarted from the first failed stage. "
-"Thus, the least possible amount of work is performed to try and bring the"
-" processing into successful state."
+"Restarts failed partitions of this processing. Doesn't restart non-failed "
+"partitions. Each workflow is restarted from the first failed stage. Thus, "
+"the least possible amount of work is performed to try and bring the "
+"processing into successful state."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:419
@@ -358,8 +360,7 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:444
 msgid ""
-"Returns a list of the defined geographical areas for processing in "
-"GeoJSON."
+"Returns a list of the defined geographical areas for processing in GeoJSON."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:446
@@ -376,8 +377,8 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:493
 msgid ""
-"Returns Geojson results of this processing as an octet stream. Should "
-"only be called on a successfully completed processing."
+"Returns Geojson results of this processing as an octet stream. Should only "
+"be called on a successfully completed processing."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:497
@@ -396,16 +397,16 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:504
 msgid ""
-"Can be used to upload a raster for further processing. Returns url to the"
-" uploaded raster. This url can be referenced when starting a processing. "
-"The request is a multipart request whith the only part \"file\" - which "
-"contains the raster. Request example with ``cURL``:"
+"Can be used to upload a raster for further processing. Returns url to the "
+"uploaded raster. This url can be referenced when starting a processing. The "
+"request is a multipart request whith the only part \"file\" - which contains "
+"the raster. Request example with ``cURL``:"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:520
 msgid ""
-"``{\"url\": \"s3://mapflow-"
-"rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif\"}``"
+"``{\"url\": "
+"\"s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif\"}``"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:525
@@ -535,8 +536,8 @@ msgstr ""
 
 #: ../../source/api/processing_api.rst:571
 msgid ""
-"The one-dimensional index key that usually preserves the proximity of "
-"tiles in \"xy\" space (Bing Maps tile format)"
+"The one-dimensional index key that usually preserves the proximity of tiles "
+"in \"xy\" space (Bing Maps tile format)"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:572
@@ -577,7 +578,8 @@ msgid "FAILED"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:590
-msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
+msgid ""
+"The processing ended unsuccessfuly - change wrong params or try to restart"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:591
@@ -594,8 +596,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:6
 msgid ""
-"List of messages and parameters that can be found in the `messages` "
-"section in case of the failed processings."
+"List of messages and parameters that can be found in the `messages` section "
+"in case of the failed processings."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:10
@@ -636,8 +638,7 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:24
 msgid ""
-"Format of 'url' is invalid and cannot be parsed. Error: "
-"{parse_error_message}"
+"Format of 'url' is invalid and cannot be parsed. Error: {parse_error_message}"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:26
@@ -698,9 +699,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:44
 msgid ""
-"The specified basemap {url} is forbidden for processing because it "
-"contains a map, not satellite image. Our models are suited for satellite "
-"imagery."
+"The specified basemap {url} is forbidden for processing because it contains "
+"a map, not satellite image. Our models are suited for satellite imagery."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:46
@@ -785,8 +785,7 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:76
 msgid ""
-"Image data type (Dtype) must be one of {required_dtypes}, got "
-"{request_dtype}"
+"Image data type (Dtype) must be one of {required_dtypes}, got {request_dtype}"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:78
@@ -836,8 +835,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:92
 msgid ""
-"Error occurred during image {checked_param} check: {message}. Image "
-"metadata = {metadata}."
+"Error occurred during image {checked_param} check: {message}. Image metadata "
+"= {metadata}."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:94
@@ -919,8 +918,8 @@ msgstr ""
 #: ../../source/api/error_messages.rst:120
 msgid ""
 "You request TMS basemap link doesn't match the format, it must be a link "
-"containing '{x}', '{y}', '{z}' placeholders, correct it and start "
-"processing again."
+"containing '{x}', '{y}', '{z}' placeholders, correct it and start processing "
+"again."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:122
@@ -1001,8 +1000,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:148
 msgid ""
-"You XYZ basemap link doesn't match the format, it must be a link "
-"containing '{x}', '{y}', '{z}' placeholders."
+"You XYZ basemap link doesn't match the format, it must be a link containing "
+"'{x}', '{y}', '{z}' placeholders."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:150
@@ -1011,8 +1010,7 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:152
 msgid ""
-"Task for source-validation must contain area of interest ('geometry' "
-"section)"
+"Task for source-validation must contain area of interest ('geometry' section)"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:154
@@ -1022,8 +1020,8 @@ msgstr ""
 #: ../../source/api/error_messages.rst:156
 #: ../../source/api/error_messages.rst:160
 msgid ""
-"Internal error in process of data source validation. We are working on "
-"the fix, our support will contact you."
+"Internal error in process of data source validation. We are working on the "
+"fix, our support will contact you."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:158
@@ -1040,8 +1038,8 @@ msgstr ""
 #: ../../source/api/error_messages.rst:200
 #: ../../source/api/error_messages.rst:204
 msgid ""
-"Internal error in process of loading data. We are working on the fix, our"
-" support will contact you."
+"Internal error in process of loading data. We are working on the fix, our "
+"support will contact you."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:166
@@ -1086,8 +1084,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:180
 msgid ""
-"Dataloader argument {argument_name} has type {argument_type}, excpected "
-"to be {expected_type}"
+"Dataloader argument {argument_name} has type {argument_type}, excpected to "
+"be {expected_type}"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:182
@@ -1148,8 +1146,8 @@ msgstr ""
 
 #: ../../source/api/error_messages.rst:208
 msgid ""
-"Internal error in process of data preparation. We are working on the fix,"
-" our support will contact you."
+"Internal error in process of data preparation. We are working on the fix, "
+"our support will contact you."
 msgstr ""
 
 #: ../../source/api/error_messages.rst:210
@@ -1159,8 +1157,8 @@ msgstr ""
 #: ../../source/api/error_messages.rst:212
 #: ../../source/api/error_messages.rst:216
 msgid ""
-"Internal error in process of data processing. We are working on the fix, "
-"our support will contact you"
+"Internal error in process of data processing. We are working on the fix, our "
+"support will contact you"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:214
@@ -1192,10 +1190,9 @@ msgstr ""
 #: ../../source/api/data_api.rst:23
 msgid ""
 "What is \"mosaic\"? This is the collection of single images, aimed at "
-"instant preview and processing. It's helpful in such cases as mosaicing "
-"the number of single aerial images covering some area or batching the "
-"large ortho-plan for faster uploading and optimizing its storage in the "
-"cloud."
+"instant preview and processing. It's helpful in such cases as mosaicing the "
+"number of single aerial images covering some area or batching the large "
+"ortho-plan for faster uploading and optimizing its storage in the cloud."
 msgstr ""
 
 #: ../../source/api/data_api.rst:27
@@ -1232,8 +1229,8 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:83
 msgid ""
-"⚠️ The uploaded images are required to have the same georeference system,"
-" number of bands, and spatial resolution."
+"⚠️ The uploaded images are required to have the same georeference system, "
+"number of bands, and spatial resolution."
 msgstr ""
 
 #: ../../source/api/data_api.rst:85
@@ -1245,7 +1242,8 @@ msgid "Link image to the existing mosaic"
 msgstr ""
 
 #: ../../source/api/data_api.rst:91
-msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
+msgid ""
+"``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
 msgstr ""
 
 #: ../../source/api/data_api.rst:113
@@ -1253,7 +1251,8 @@ msgid "Delete mosaic"
 msgstr ""
 
 #: ../../source/api/data_api.rst:116
-msgid "Deleting mosaic also deletes all linked images and they cannot be restored"
+msgid ""
+"Deleting mosaic also deletes all linked images and they cannot be restored"
 msgstr ""
 
 #: ../../source/api/data_api.rst:119
@@ -1286,8 +1285,7 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:138
 msgid ""
-"``GET "
-"https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
+"``GET https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
 msgstr ""
 
 #: ../../source/api/data_api.rst:140
@@ -1332,8 +1330,7 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:175
 msgid ""
-"This method allows to check user's storage usage against the available "
-"limit."
+"This method allows to check user's storage usage against the available limit."
 msgstr ""
 
 #: ../../source/api/data_api.rst:180
@@ -1344,8 +1341,8 @@ msgstr ""
 msgid ""
 "This is the early version of the Mapflow API to search for available "
 "satellite images provided by external data providers. The API aims to "
-"perform as a middle-tear between multiple data source and a :doc:`Mapflow"
-" Processing API <processing_api>`."
+"perform as a middle-tear between multiple data source and a :doc:`Mapflow "
+"Processing API <processing_api>`."
 msgstr ""
 
 #: ../../source/api/data_api.rst:187
@@ -1362,15 +1359,14 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:291
 msgid ""
-"``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon "
-"coordinates) to search imagery for. Currently the only type ``Polygon`` "
-"is supported."
+"``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) "
+"to search imagery for. Currently the only type ``Polygon`` is supported."
 msgstr ""
 
 #: ../../source/api/data_api.rst:295
 msgid ""
-"The size of the area cannot exceed the size of processing AOI limit "
-"assigned to the specific user."
+"The size of the area cannot exceed the size of processing AOI limit assigned "
+"to the specific user."
 msgstr ""
 
 #: ../../source/api/data_api.rst:297
@@ -1383,22 +1379,22 @@ msgstr ""
 #: ../../source/api/data_api.rst:299
 #, python-format
 msgid ""
-"``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number"
-" in the range 0 - 1 (corresponds to 0-100% cloud coverage). This "
-"parameter defines the maximum area of an image (in pixels) that was "
-"classified as covered by clouds."
+"``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number in "
+"the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter "
+"defines the maximum area of an image (in pixels) that was classified as "
+"covered by clouds."
 msgstr ""
 
 #: ../../source/api/data_api.rst:301
 msgid ""
-"``maxResolution`` - optional, defines the maximum allowed resolution in m"
-" / pixel"
+"``maxResolution`` - optional, defines the maximum allowed resolution in m / "
+"pixel"
 msgstr ""
 
 #: ../../source/api/data_api.rst:303
 msgid ""
-"``minResolution`` - optional, defines the minimum allowed resolution in m"
-" / pixel"
+"``minResolution`` - optional, defines the minimum allowed resolution in m / "
+"pixel"
 msgstr ""
 
 #: ../../source/api/data_api.rst:307
@@ -1412,4 +1408,3 @@ msgstr ""
 #: ../../source/api/data_api.rst:317
 msgid "You can get ``image_id`` from ``processing.params.url``"
 msgstr ""
-

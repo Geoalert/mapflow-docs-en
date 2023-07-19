@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-09 13:10+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,11 +38,11 @@ msgstr ""
 msgid "AI-Mapping Models"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:2
+#: ../../source/userguides/buildings_model.rst:4
 msgid "🏠 Buildings"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:4
+#: ../../source/userguides/buildings_model.rst:6
 msgid ""
 "Extracting of rooftops of buildings from imagery of high resolution. High"
 " performance deep learning model is trained to detect the buildings "
@@ -51,13 +51,13 @@ msgid ""
 "decision is automatic, based on the location of your AOI."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:8
+#: ../../source/userguides/buildings_model.rst:10
 msgid ""
 "*Note:* The building candidates with area less than 25 sq.m. are removed "
 "to avoid clutter"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:10
+#: ../../source/userguides/buildings_model.rst:12
 msgid ""
 "The model does not extract the footprints directly, because they are not "
 "clearly visible in the images, but we can obtain them, just like human "
@@ -65,18 +65,18 @@ msgid ""
 "Additional options)."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:12
+#: ../../source/userguides/buildings_model.rst:14
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:14
+#: ../../source/userguides/buildings_model.rst:16
 msgid ""
 "*Classification by types of buildings* – typology of buildings is "
 "represented by the main classes (see :doc:`reference "
 "<../../um/classes>`)."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:15
+#: ../../source/userguides/buildings_model.rst:17
 msgid ""
 "*Building heights [Mapflow Web only]* - building height estimation by the"
 " length of the shadow and the visible part of the wall. This option also "
@@ -85,7 +85,7 @@ msgid ""
 "estimation-7babe6420893>`_ for some details on the technology."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:16
+#: ../../source/userguides/buildings_model.rst:18
 msgid ""
 "*Simplification* - the algorithm corrects the irregularities of the "
 "contours of our model. The irregular geometries are replaced with "
@@ -98,7 +98,7 @@ msgid ""
 "processing-issues-f89170131b56>`_ for more information and some visuals."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:17
+#: ../../source/userguides/buildings_model.rst:19
 msgid ""
 "*Merge with OSM [Mapflow Web only]* - some of the areas have great "
 "coverage of OpenStreetMap data, and if you prefer human-annotated data, "
@@ -110,20 +110,9 @@ msgid ""
 "OSM mapping may be lost."
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:6
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:8
-#: ../../source/userguides/buildings_model.rst:19
-#: ../../source/userguides/construction_model.rst:6
-#: ../../source/userguides/forest_model.rst:13
-#: ../../source/userguides/forest_with_heights_model.rst:17
-#: ../../source/userguides/hd_housing_model.rst:8
-#: ../../source/userguides/roads_model.rst:16
-msgid "**Processing results samples**"
-msgstr ""
-
 #: ../../source/userguides/buildings_model.rst:21
 msgid ""
-"A sample of processing result with different options for Prague, Chech "
+"A sample of processing result with different options for Prague, Czech "
 "Republic."
 msgstr ""
 
@@ -155,7 +144,7 @@ msgstr ""
 
 #: ../../source/userguides/buildings_aerial_imagery_model.rst:4
 msgid ""
-"This model is specifically designed to make use of very high resolution "
+"This model is specifically designed to be used on a very high resolution "
 "aerial imagery (10 cm per pixel) for extraction of small buildings and "
 "structures. It is best suited for rural and suburban residential areas."
 msgstr ""
@@ -171,21 +160,14 @@ msgstr ""
 msgid "Processing result of Buildings (Aerial) model"
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:16
-msgid ""
-"Processing example rural residential area with a Building model (Aerial "
-"photo)"
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:15
+msgid "Processing example – rural residential area"
 msgstr ""
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:24
-#: ../../source/userguides/hd_housing_model.rst:18
-msgid "Standard model for buildings segmentation, with polygon simplification"
-msgstr ""
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:32
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:23
 msgid ""
-"Objects that have been detected in an aerial image by the Building "
-"(Aerial imagery) model as opposed to the standard model Buildings."
+"Small objects that have been missed by default :ref:`Buildings model` but"
+" detected using an aerial image with the Buildings (Aerial imagery)"
 msgstr ""
 
 #: ../../source/userguides/hd_housing_model.rst:2
@@ -203,23 +185,30 @@ msgstr ""
 #: ../../source/userguides/hd_housing_model.rst:6
 msgid ""
 "Firstly, the building blocks are segmented as a whole, and then each "
-"block is divided into individual houses with rectangular grid or Voronoi "
-"diagram, based on the detected individual roof markers."
+"block is attempted to be devided into individual houses based on the "
+"detection of individual roof markers with rectangular grid or Voronoi "
+"diagram."
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:10
+#: ../../source/userguides/hd_housing_model.rst:8
 msgid ""
 "Processing result sample for dense urban development area (Tunisia, "
 "Africa):"
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:18
-#: ../../source/userguides/hd_housing_model.rst:25
+#: ../../source/userguides/hd_housing_model.rst:16
+#: ../../source/userguides/hd_housing_model.rst:24
 msgid "Processing result of high-density housing model"
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:25
-msgid "High density buildings model"
+#: ../../source/userguides/hd_housing_model.rst:16
+msgid "HD buildings model, no post-processing options"
+msgstr ""
+
+#: ../../source/userguides/hd_housing_model.rst:24
+msgid ""
+"HD buildings model, instance segmentation and post-processing with grid "
+"options"
 msgstr ""
 
 #: ../../source/userguides/forest_model.rst:2
@@ -232,19 +221,19 @@ msgid ""
 " for different areas and climate zones."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:7
+#: ../../source/userguides/forest_model.rst:6
 msgid ""
 "The result includes all areas covered with tree and shrub vegetation, "
 "including sparse forest and shrublands."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:7
+#: ../../source/userguides/forest_model.rst:8
 msgid ""
-"Model resolution allows to detect large individual trees and narrow tree "
+"Model resolution allows to detect small group of trees and narrow tree "
 "lines."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:9
+#: ../../source/userguides/forest_model.rst:10
 msgid ""
 "The model is robust to region change, and performs well in most "
 "environments, including urban. The image should be taken in active "
@@ -252,18 +241,18 @@ msgid ""
 " are not target class."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:11
+#: ../../source/userguides/forest_model.rst:13
 msgid ""
-"This model can be used to spped up trees detection and area estimation in"
+"This model can be used to speed up trees detection and area estimation in"
 " forest inventory assessment."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:21
+#: ../../source/userguides/forest_model.rst:22
 #: ../../source/userguides/forest_with_heights_model.rst:25
 msgid "Processing result of forest model"
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:21
+#: ../../source/userguides/forest_model.rst:22
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr ""
 
@@ -297,18 +286,20 @@ msgstr ""
 msgid "Forest more than 10 meters high;"
 msgstr ""
 
-#: ../../source/userguides/forest_with_heights_model.rst:13
+#: ../../source/userguides/forest_with_heights_model.rst:14
 msgid ""
 "This model can be used as a decision support for the forest growth "
-"clearing."
+"clearing. See the `professional solutions by Geoalert "
+"<https://geoalert.io/solutions/power>`_"
 msgstr ""
 
-#: ../../source/userguides/forest_with_heights_model.rst:15
-msgid "This postprocessing is available for processings 50 sq.km and more."
+#: ../../source/userguides/forest_with_heights_model.rst:17
+#: ../../source/userguides/roads_model.rst:16
+msgid "**Processing results samples**"
 msgstr ""
 
 #: ../../source/userguides/forest_with_heights_model.rst:25
-msgid "Sample of results for **Forest with heights** mask in raster format"
+msgid "Sample of results for **Forest with heights** mask (raster output)"
 msgstr ""
 
 #: ../../source/userguides/construction_model.rst:2
@@ -319,15 +310,15 @@ msgstr ""
 msgid ""
 "This model outlines the areas in the satellite image that contain "
 "construction sites and buildings under construction. The current model "
-"dataset is limitted to some countries and the work od extending it is in "
+"dataset is limited to some countries and the work of extending it is in "
 "progress."
 msgstr ""
 
-#: ../../source/userguides/construction_model.rst:14
+#: ../../source/userguides/construction_model.rst:13
 msgid "Processing result of construction model"
 msgstr ""
 
-#: ../../source/userguides/construction_model.rst:14
+#: ../../source/userguides/construction_model.rst:13
 msgid ""
 "Processing result sample for a rapidly developing area with construction "
 "sites"
@@ -348,16 +339,16 @@ msgid ""
 "without vegetation, especially in winter period, are not target class."
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:14
-#: ../../source/userguides/agriculture_fields_model.rst:22
+#: ../../source/userguides/agriculture_fields_model.rst:13
+#: ../../source/userguides/agriculture_fields_model.rst:21
 msgid "Processing result of agriculture fields model"
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:14
+#: ../../source/userguides/agriculture_fields_model.rst:13
 msgid "Processing result sample for Europe (Belgium)"
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:22
+#: ../../source/userguides/agriculture_fields_model.rst:21
 msgid "Processing result sample for Asia (Northern India)"
 msgstr ""
 
@@ -411,7 +402,7 @@ msgid "Optimal conditions for the model: rural/suburban territory, Russia"
 msgstr ""
 
 #: ../../source/userguides/roads_model.rst:32
-msgid "More complex environment - urban territory in Prague, Chech Republic"
+msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr ""
 
 #: ../../source/userguides/sam_model.rst:2
@@ -795,5 +786,84 @@ msgstr ""
 #~ " (image resolution) in the model "
 #~ "options which will be used to "
 #~ "download data and apply the model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A sample of processing result with "
+#~ "different options for Prague, Chech "
+#~ "Republic."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model is specifically designed to"
+#~ " make use of very high resolution "
+#~ "aerial imagery (10 cm per pixel) "
+#~ "for extraction of small buildings and"
+#~ " structures. It is best suited for"
+#~ " rural and suburban residential areas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Processing example rural residential area "
+#~ "with a Building model (Aerial photo)"
+#~ msgstr ""
+
+#~ msgid "Standard model for buildings segmentation, with polygon simplification"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Objects that have been detected in "
+#~ "an aerial image by the Building "
+#~ "(Aerial imagery) model as opposed to "
+#~ "the standard model Buildings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Firstly, the building blocks are "
+#~ "segmented as a whole, and then "
+#~ "each block is divided into individual"
+#~ " houses with rectangular grid or "
+#~ "Voronoi diagram, based on the detected"
+#~ " individual roof markers."
+#~ msgstr ""
+
+#~ msgid "High density buildings model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Model resolution allows to detect large"
+#~ " individual trees and narrow tree "
+#~ "lines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model can be used to spped"
+#~ " up trees detection and area "
+#~ "estimation in forest inventory assessment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model can be used as a "
+#~ "decision support for the forest growth"
+#~ " clearing."
+#~ msgstr ""
+
+#~ msgid "This postprocessing is available for processings 50 sq.km and more."
+#~ msgstr ""
+
+#~ msgid "Sample of results for **Forest with heights** mask in raster format"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model outlines the areas in "
+#~ "the satellite image that contain "
+#~ "construction sites and buildings under "
+#~ "construction. The current model dataset "
+#~ "is limitted to some countries and "
+#~ "the work od extending it is in "
+#~ "progress."
+#~ msgstr ""
+
+#~ msgid "More complex environment - urban territory in Prague, Chech Republic"
 #~ msgstr ""
 

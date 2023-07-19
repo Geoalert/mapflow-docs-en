@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/buildings_model.rst:2
+#: ../../source/userguides/buildings_model.rst:4
 msgid "🏠 Buildings"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:4
+#: ../../source/userguides/buildings_model.rst:6
 msgid ""
 "Extracting of rooftops of buildings from imagery of high resolution. High"
 " performance deep learning model is trained to detect the buildings "
@@ -33,13 +33,13 @@ msgid ""
 "decision is automatic, based on the location of your AOI."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:8
+#: ../../source/userguides/buildings_model.rst:10
 msgid ""
 "*Note:* The building candidates with area less than 25 sq.m. are removed "
 "to avoid clutter"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:10
+#: ../../source/userguides/buildings_model.rst:12
 msgid ""
 "The model does not extract the footprints directly, because they are not "
 "clearly visible in the images, but we can obtain them, just like human "
@@ -47,18 +47,18 @@ msgid ""
 "Additional options)."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:12
+#: ../../source/userguides/buildings_model.rst:14
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:14
+#: ../../source/userguides/buildings_model.rst:16
 msgid ""
 "*Classification by types of buildings* – typology of buildings is "
 "represented by the main classes (see :doc:`reference "
 "<../../um/classes>`)."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:15
+#: ../../source/userguides/buildings_model.rst:17
 msgid ""
 "*Building heights [Mapflow Web only]* - building height estimation by the"
 " length of the shadow and the visible part of the wall. This option also "
@@ -67,7 +67,7 @@ msgid ""
 "estimation-7babe6420893>`_ for some details on the technology."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:16
+#: ../../source/userguides/buildings_model.rst:18
 msgid ""
 "*Simplification* - the algorithm corrects the irregularities of the "
 "contours of our model. The irregular geometries are replaced with "
@@ -80,7 +80,7 @@ msgid ""
 "processing-issues-f89170131b56>`_ for more information and some visuals."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:17
+#: ../../source/userguides/buildings_model.rst:19
 msgid ""
 "*Merge with OSM [Mapflow Web only]* - some of the areas have great "
 "coverage of OpenStreetMap data, and if you prefer human-annotated data, "
@@ -92,13 +92,9 @@ msgid ""
 "OSM mapping may be lost."
 msgstr ""
 
-#: ../../source/userguides/buildings_model.rst:19
-msgid "**Processing results samples**"
-msgstr ""
-
 #: ../../source/userguides/buildings_model.rst:21
 msgid ""
-"A sample of processing result with different options for Prague, Chech "
+"A sample of processing result with different options for Prague, Czech "
 "Republic."
 msgstr ""
 
@@ -123,4 +119,13 @@ msgid ""
 "Result merged with OSM: some of the buildings imported from OSM have more"
 " accurate shape, but may be shifted from the image position."
 msgstr ""
+
+#~ msgid "**Processing results samples**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A sample of processing result with "
+#~ "different options for Prague, Chech "
+#~ "Republic."
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -50,14 +50,11 @@ msgstr ""
 msgid "Forest more than 10 meters high;"
 msgstr ""
 
-#: ../../source/userguides/forest_with_heights_model.rst:13
+#: ../../source/userguides/forest_with_heights_model.rst:14
 msgid ""
 "This model can be used as a decision support for the forest growth "
-"clearing."
-msgstr ""
-
-#: ../../source/userguides/forest_with_heights_model.rst:15
-msgid "This postprocessing is available for processings 50 sq.km and more."
+"clearing. See the `professional solutions by Geoalert "
+"<https://geoalert.io/solutions/power>`_"
 msgstr ""
 
 #: ../../source/userguides/forest_with_heights_model.rst:17
@@ -69,6 +66,18 @@ msgid "Processing result of forest model"
 msgstr ""
 
 #: ../../source/userguides/forest_with_heights_model.rst:25
-msgid "Sample of results for **Forest with heights** mask in raster format"
+msgid "Sample of results for **Forest with heights** mask (raster output)"
 msgstr ""
+
+#~ msgid ""
+#~ "This model can be used as a "
+#~ "decision support for the forest growth"
+#~ " clearing."
+#~ msgstr ""
+
+#~ msgid "This postprocessing is available for processings 50 sq.km and more."
+#~ msgstr ""
+
+#~ msgid "Sample of results for **Forest with heights** mask in raster format"
+#~ msgstr ""
 

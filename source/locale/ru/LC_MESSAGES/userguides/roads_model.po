@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -74,6 +74,9 @@ msgid "Optimal conditions for the model: rural/suburban territory, Russia"
 msgstr ""
 
 #: ../../source/userguides/roads_model.rst:32
-msgid "More complex environment - urban territory in Prague, Chech Republic"
+msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr ""
+
+#~ msgid "More complex environment - urban territory in Prague, Chech Republic"
+#~ msgstr ""
 

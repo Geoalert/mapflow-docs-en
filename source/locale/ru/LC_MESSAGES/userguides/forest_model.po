@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -30,19 +30,19 @@ msgid ""
 " for different areas and climate zones."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:7
+#: ../../source/userguides/forest_model.rst:6
 msgid ""
 "The result includes all areas covered with tree and shrub vegetation, "
 "including sparse forest and shrublands."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:7
+#: ../../source/userguides/forest_model.rst:8
 msgid ""
-"Model resolution allows to detect large individual trees and narrow tree "
+"Model resolution allows to detect small group of trees and narrow tree "
 "lines."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:9
+#: ../../source/userguides/forest_model.rst:10
 msgid ""
 "The model is robust to region change, and performs well in most "
 "environments, including urban. The image should be taken in active "
@@ -50,21 +50,32 @@ msgid ""
 " are not target class."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:11
+#: ../../source/userguides/forest_model.rst:13
 msgid ""
-"This model can be used to spped up trees detection and area estimation in"
+"This model can be used to speed up trees detection and area estimation in"
 " forest inventory assessment."
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:13
-msgid "**Processing results samples**"
-msgstr ""
-
-#: ../../source/userguides/forest_model.rst:21
+#: ../../source/userguides/forest_model.rst:22
 msgid "Processing result of forest model"
 msgstr ""
 
-#: ../../source/userguides/forest_model.rst:21
+#: ../../source/userguides/forest_model.rst:22
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr ""
+
+#~ msgid ""
+#~ "Model resolution allows to detect large"
+#~ " individual trees and narrow tree "
+#~ "lines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model can be used to spped"
+#~ " up trees detection and area "
+#~ "estimation in forest inventory assessment."
+#~ msgstr ""
+
+#~ msgid "**Processing results samples**"
+#~ msgstr ""
 

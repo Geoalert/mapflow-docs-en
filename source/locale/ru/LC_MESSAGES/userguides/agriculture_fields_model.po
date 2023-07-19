@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-19 11:54+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -35,20 +35,19 @@ msgid ""
 "without vegetation, especially in winter period, are not target class."
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:6
-msgid "**Processing results samples**"
-msgstr ""
-
-#: ../../source/userguides/agriculture_fields_model.rst:14
-#: ../../source/userguides/agriculture_fields_model.rst:22
+#: ../../source/userguides/agriculture_fields_model.rst:13
+#: ../../source/userguides/agriculture_fields_model.rst:21
 msgid "Processing result of agriculture fields model"
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:14
+#: ../../source/userguides/agriculture_fields_model.rst:13
 msgid "Processing result sample for Europe (Belgium)"
 msgstr ""
 
-#: ../../source/userguides/agriculture_fields_model.rst:22
+#: ../../source/userguides/agriculture_fields_model.rst:21
 msgid "Processing result sample for Asia (Northern India)"
 msgstr ""
+
+#~ msgid "**Processing results samples**"
+#~ msgstr ""
 
