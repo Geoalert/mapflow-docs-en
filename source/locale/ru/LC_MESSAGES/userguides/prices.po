@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-07-27 16:20+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,7 @@ msgid ""
 "<https://app.mapflow.ai/account/balance>`_ and choose one of the options. "
 "You will be asked to pay online."
 msgstr ""
-"Чтобы пополнить свой баланс дополнительными кредитами, перейдите в свой "
+"Чтобы пополнить свой баланс дополнительными кредитами, перейдите в `свой "
 "профиль Mapflow <https://app.mapflow.ai/account/balance>`_ и выберите один "
 "из вариантов. Вам будет предложено оплатить онлайн."
 
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../source/userguides/prices.rst:27
 msgid "Mapflow credits"
-msgstr ""
+msgstr "Mapflow - кредиты"
 
 #: ../../source/userguides/prices.rst:29
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../source/userguides/prices.rst:36
 msgid "Mapflow Credits"
-msgstr ""
+msgstr "Mapflow - кредиты"
 
 #: ../../source/userguides/prices.rst:37
 msgid "500"
@@ -373,11 +373,11 @@ msgid "Your TIFF imagery"
 msgstr "Ваше изображение TIFF"
 
 #: ../../source/userguides/_static/csv/data_prices.csv:1
-msgid "Maxar SecureWatch"
+msgid "Satimagery"
 msgstr ""
 
 #: ../../source/userguides/_static/csv/data_prices.csv:1
-msgid "72"
+msgid "40"
 msgstr ""
 
 #: ../../source/userguides/_static/csv/data_prices.csv:1
@@ -518,4 +518,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "$0.5"
+#~ msgstr ""
+
+#~ msgid "Maxar SecureWatch"
+#~ msgstr ""
+
+#~ msgid "72"
 #~ msgstr ""

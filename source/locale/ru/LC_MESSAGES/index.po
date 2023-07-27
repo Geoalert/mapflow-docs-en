@@ -45,8 +45,8 @@ msgid ""
 "EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes "
 "in game |:boom:|"
 msgstr ""
-"Автоматический препроцессинг и анализ – здесь вступает в игру Mapflow "
-"<https://mapflow.ai/ru>`_ 💥"
+"Автоматический препроцессинг и анализ – здесь вступает в игру `Mapflow "
+"<https://mapflow.ai/ru>`_ |:boom:|"
 
 #: ../../source/index.rst:13
 msgid "GIS – check and edit results to use them in you application"
