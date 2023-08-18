@@ -21,7 +21,14 @@ Mapflow processing API
 User status
 -------------
 
-Returns user status for the the given user account. If user account is linked to the Team - returns Team's description as well
+Returns user status for the the given user account, including:
+* User limits
+* Default and custom user :ref:`Models`
+* User connected Data Providers, including commercial data providers if available
+
+.. note::
+  If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
+
 
 Response example:
 
@@ -40,7 +47,27 @@ Response example:
               "description": "",
               "created": "2023-02-01T08:17:03.871690Z",
               "updated": "2023-05-11T14:24:31.456180Z",
-              "pricePerSqKm": 13.0
+              "pricePerSqKm": 13.0,
+              "blocks": [
+                {
+                    "name": "Classification",
+                    "displayName": "Classification",
+                    "optional": true,
+                    "price": 3.0
+                },
+                {
+                    "name": "Simplification",
+                    "displayName": "Polygonization",
+                    "optional": true,
+                    "price": 5.0
+                },
+                {
+                    "name": "OSM",
+                    "displayName": "Merge with OSM",
+                    "optional": true,
+                    "price": 0.0
+                }
+            ]
           },
           {
               "id": "5d47a57c-3274-4014-aa04-daac416782f7",
@@ -392,6 +419,31 @@ To process a user-provided raster (see `Upload GeoTIFF for processing` section),
 
 Response: the newly created processing.
 
+
+Customize processing with the workflow options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processings``
+
+It can be customized with the optional blocks whether to enable them in the processing workflow.
+The blocks can be retrieved through the ``user/status`` request as ``{"blocks": [{"name":<>, "displayName": <>, "optional":true, "price": <>}]`` in the ``models`` list.
+
+Request body example
+
+.. code:: json
+  
+  {
+      "blocks": [
+          {
+              "name": "Simplification",
+              "enabled": false
+          },
+          {
+              "name": "OSM",
+              "enabled": false
+          }
+      ]
+  }
 
 Rename processing
 ^^^^^^^^^^^^^^^^^^^

@@ -87,7 +87,7 @@ The processing AOI must be located in the area of this extent, otherwise the are
 .. hint::
     If your image doesn't meet the parameters above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities.
     
-Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
 1.2. Specify the area of interest
 """""""""""""""""""""""""""""""""
@@ -251,6 +251,8 @@ Allows to download results as a file in GeoJSON format.
 
 You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.*
 
+
+.. _Team accounts:
 
 Team accounts
 -------------

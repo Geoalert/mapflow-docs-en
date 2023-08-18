@@ -26,6 +26,10 @@ You will be asked to pay online.
 Mapflow credits
 ---------------
 
+Cost of processing makes the sum of **data cost** and **processing cost**:
+
+``Cost = Area * (Processing Price + Data Price)``
+
 The price in credits is counted as:
 1 Credit = 0.1$ with the progressive discount depending on the number of credits you buy:
 
@@ -44,9 +48,9 @@ The price in credits is counted as:
      - | :del:`$1000`
        | $800
 
-All prices below are given in Mapflow credits
+All prices below are given in Mapflow credits. Mapflow Web also provides a transparent price breakdown in the processing pipeline.
 
-Maflow Web models pricing
+Maflow models pricing
 -------------------------
 
 .. csv-table::
@@ -55,42 +59,11 @@ Maflow Web models pricing
   :class: longtable
   :widths: 1 1 1
 
-Mapflow Web also provides a transparent price breakdown in the processing pipeline.
-
-Mapflow-QGIS / API models pricing
-----------------------------------
-
-.. warning::
-   Mapflow-QGIS plugin has a slightly different set of models, and you cannot choose the model options.
-   All models are launched with postprocessing options **turned ON**.
-   If you want to customize your workflow, for example to have a basic model with another set of options, consider
-   applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_.
-   Also, Mapflow QGIS provides access to paid imagery services, so the cost calculation is a bit more complex.
-
-Cost of processing consists of **data cost** and **processing cost**
-
-``Cost = Area * (Processing Price + Data Price)``
-
-.. note::
-   * All the processings having an area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
-   * Total processing cost is rounded up to the nearest integer number of credits
-
-Processing price
-~~~~~~~~~~~~~~~~
-
-As all the model options are turned on for Mapflow QGIS,
-processing cost is the same as in Mapflow Web with the options, where it's applicable:
-
-.. csv-table::
-  :file: _static/csv/api_processing_prices.csv
-  :header-rows: 1
-  :class: longtable
-  :widths: 1 1 1
 
 Data price
 ~~~~~~~~~~
 When using default data providers (Mapbox, Arcgis Satellite), your own TMS, or your uploaded imagery the price is zero.
-If you are using commercial providers (Maxar SecureWatch, and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic therefore we scale prices depending on the imagery resolution for a more accurate pricing model.
+If you are using commercial providers (Maxar SecureWatch, Satimagery and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic – therefore we quote the prices depending on the imagery resolution for a more accurate pricing model.
 
 .. csv-table::
   :file: _static/csv/data_prices.csv
@@ -98,8 +71,20 @@ If you are using commercial providers (Maxar SecureWatch, and others that might 
   :class: longtable
   :widths: 20 10 10 10
 
+
+.. note::
+   If you want to have a custom model with another set of options, consider
+   applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_.
+
+.. note::
+   * All the processings having an area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
+   * Total processing cost is rounded up to the nearest integer number of credits
+
 .. note::
    Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
+
+Examples of quotations
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. epigraph::
     *I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom

@@ -5,6 +5,8 @@ and :doc:`price list <prices>` for breakdown of the processings billing.
 .. note::
     For the data requirements – see :ref:`model requirements`. For the breakdown of the Mapflow processings billing – see :doc:`Mapflow pricing <prices>`.
 
+.. _Models:
+
 AI-Mapping Models
 =================
 
