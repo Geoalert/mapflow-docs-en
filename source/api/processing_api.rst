@@ -425,8 +425,8 @@ Customize processing with the workflow options
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-It can be customized with the optional blocks whether to enable them in the processing workflow.
-The blocks can be retrieved through the ``user/status`` request as ``{"blocks": [{"name":<>, "displayName": <>, "optional":true, "price": <>}]`` in the ``models`` list.
+Processing workflow can be custoized with enabling some model options.
+The "options" can be retrieved through the ``user/status`` request as ``{"blocks": [{"name":<>, "displayName": <>, "optional":true, "price": <>}]`` in the ``models`` list.
 
 Request body example
 
