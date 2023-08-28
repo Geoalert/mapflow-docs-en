@@ -23,8 +23,8 @@ User status
 
 Returns user status for the the given user account, including:
 * User limits
-* Default and custom user :ref:`Models`
-* User connected Data Providers, including commercial data providers if available
+* Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
+* Default and custom :ref:`Data Providers` (every User account is connected to the default data providers, yet specific models have to be linked to the User account by Administrator))
 
 .. note::
   If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
@@ -235,19 +235,16 @@ Request body example:
 
     {
         "name": "test",          
-        "description": "test",
-        "addDefaultWds": true
+        "description": "test"
     }
 
 
 
-//Name of the project
+Name of the project
 
-//Arbitrary description of this project
+Arbitrary description of this project
 
-//Add default processing :doc:`pipelines <../userguides/pipelines>` to the project
-
-Response: the newly created project.
+Response: *the newly created project*
 
 Rename project
 ^^^^^^^^^^^^^^^^^^^^^

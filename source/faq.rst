@@ -12,7 +12,7 @@ Payment
     Check our `commercial plans <https://mapflow.ai/pricing>`_ for Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry and get the quotation.
 
 
-.. _Satellite imagery:
+.. _Data Providers:
 
 Satellite imagery
 ------------------
