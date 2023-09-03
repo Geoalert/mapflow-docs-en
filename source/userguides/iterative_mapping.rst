@@ -1,7 +1,8 @@
 Iterative mapping tutorial
-==========================
+---------------------------
 
-If you use Mapflow for agricultural landuse management, we suggest you have a look at the methodology described below. It can help you streamline the mapping process so you could focus on the end goal and results instead. All you need is our QGIS plugin (a.k.a. Maflow for QGIS) installed. If you haven't installed it yet, :doc:`here's <../api/qgis_mapflow>` how you can do it.
+This workflow is proposed for the AI assisted mappinf of the crop fields usinf Sentine-2 images. 
+If you use Mapflow for agricultural landuse management, we suggest you have a look at the methodology described below. It can help you streamline the mapping process so you could focus on the end goal and results instead. All you need is our QGIS plugin (a.k.a. :doc:`Maflow for QGIS <../api/qgis_mapflow>`) installed. If you haven't connected the Sentinel-2 data yet, contact us.
 
 Before we begin, however: Mapflow will digitize the fields for you, but the imagery for it to work on you need to select yourself. **We strongly recommend you preview images before processing them** because their quality may vary. Ones with high cloud cover (including cloud shadows) or no-data pixels in the AOI will likely produce poor results. Here are examples of two images that will inevitably yield unsatisfactory results:
 
@@ -21,8 +22,8 @@ An example of a Sentinel-2 image that has no-data pixels for the AOI.
 
 Sometimes you may not be able to find a single suitable image for your entire AOI. In that case, we recommend you process the best available images separately and then combine the results. On average, you will need to process ten images for a territory of 1000 km\ :sup:`2`.
 
-An Iterative mapping process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is an Iterative mapping process
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Start processing on the Sentinel-2 images:
 
    * In QGIS, load your AOI as a layer;

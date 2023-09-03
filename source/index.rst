@@ -56,7 +56,6 @@ Use with GIS...
    :maxdepth: 1
 
    api/qgis_mapflow
-   userguides/iterative_mapping
 
 ************
 User guides

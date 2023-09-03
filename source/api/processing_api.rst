@@ -1,4 +1,4 @@
-.. _processing-api:
+.. _Processing API:
 
 Mapflow processing API
 ========================
