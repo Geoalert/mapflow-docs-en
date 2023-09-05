@@ -205,24 +205,15 @@ Here you can choose the styles of the map, as well as choose to display its vari
 .. include:: iterative_mapping.rst
 
 
-How to run a bulk processing using Mapflow API
+How to run bulk processing using Mapflow API
 ------------------------------------------------
 
-In case you have many polygons to process it can be boring to upload them one by one using Web or GIS user tools. In this case you'd better think of using Mapflow :ref:`Processing API`.
-In this example let's assume we have a number of polygons indicating the settlement borders and we want to extract features like "buildings" within the borders.
-To make it more realistic let's download some populated places borders for the sample area in Uzbekistan using Openstreetmap.
+In case you have multiple polygons to process or update, it can be boring to upload them one by one using Web or GIS user tools. In this case, you'd better think of using Mapflow :ref:`Processing API`.
+In this example let's assume we have a list of polygons indicating the populated places borders and we want to extract features like "buildings" with Mapflow processing API.
+
+1. To make it more realistic let's download some populated places borders for the sample area in Uzbekistan using Openstreetmap.
 To do this we can make a query with Overpass Turbo API like this:
-
-.. code:: xml
-
-    [out:xml] [timeout:25];
-    (
-        way["place"]( {{bbox}});
-    );
-    (._;>;);
-    out body;
-
-Alternatively, we can use QuickOSM plugin in QGIS which is very friendly when it comes to downloading not a very large volume of data from Openstreetmap.  
+We can use QuickOSM plugin in QGIS which is very friendly when it comes to downloading a managable volume of data from Openstreetmap.  
 
 .. figure:: _static/python_examples/quickosm.jpg
     :alt: quickosmm
@@ -230,12 +221,13 @@ Alternatively, we can use QuickOSM plugin in QGIS which is very friendly when it
     :width: 15cm
     :class: with-border no-scaled-link
 
-Let's import the required libs that we will use and enter your Mapflow token for further authorization. 
+Authorization with Mapflow token
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's  Mapflow token for further authorization. 
 
 .. code:: python
 
-    import requests
-    import json
     import base64
 
     token = input("token:") # Your Mapflow token goes here. Obtain it at https://app.mapflow.ai/account/api
@@ -243,15 +235,18 @@ Let's import the required libs that we will use and enter your Mapflow token for
     username, password = base64.b64decode(token).decode().split(':')
     print(username, password)
 
-Now you get your token decoded in a username and a password and use it for the authorization with the requests.
+Now you get your token decoded as a username and a password and use it for the authorization with the requests.
+
+Create the project (it's optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. hint::
-    To learn more about tokens and authorization see :ref:`Mapflow Auth`
-
-
-It might be useful to organise your processing with the **projects**. In this case create you project with another API request.
+   It might be useful to organise your processing with the **projects**. To do this create the new project with the following API method.
 
 .. code:: python
+
+    import requests
+    import json
 
     url = "https://api.mapflow.ai/rest/projects"
     headers = {
@@ -259,7 +254,7 @@ It might be useful to organise your processing with the **projects**. In this ca
         }
 
     payload = json.dumps({
-            "name": "Test project 111"  # Your project name
+            "name": "My new project"  # Your project name
         })
 
     response = requests.request("POST", url, headers=headers, auth=(username,password), data=payload)
@@ -270,7 +265,7 @@ It might be useful to organise your processing with the **projects**. In this ca
         print(f"Request failed")
         print(response.text)
 
-Here we get the response containing the project ID, and the description of the default AI-models as they are linked to every new project.
+Here we get the response containing the project ID, that we can use to create the processings in this specific project. 
 
 Response example:
 
@@ -278,178 +273,49 @@ Response example:
 
             {
             "id": "fb49b97e-51ec-4b31-872f-d1411284de85",
-            "name": "Test project 111",
-            "description": null,
-            "progress": {
-                "status": "UNPROCESSED",
-                "percentCompleted": 0,
-                "details": [],
-                "completionDate": null
-            },
-            "aoiCount": 0,
-            "aoiArea": 0,
-            "area": 0,
-            "user": {
-                "id": "78a0215f-243d-429c-a555-e714094da895",
-                "email": "georgy@geoalert.io",
-                "role": "USER",
-                "areaLimit": 1000000000000,
-                "aoiAreaLimit": 100000000000,
-                "processedArea": 262349176505,
-                "created": "2021-10-27T15:54:00.904095Z",
-                "updated": "2023-02-01T11:43:04.242524Z",
-                "isPremium": true,
-                "reviewWorkflowEnabled": false
-            },
-            "isDefault": false,
-            "created": "2023-09-02T12:13:30.528789Z",
-            "updated": "2023-09-02T12:13:30.528789Z",
-            "workflowDefs": [
-                {
-                    "id": "168ec337-ee9e-4fa0-bdac-af4a4361aa80",
-                    "name": "🏠 Buildings",
-                    "description": "Default model: segmentation of buildings. Classification and simplification postprocessing included. Model is selected depending on geographic position of AOI",
-                    "created": "2023-02-01T08:58:25.135947Z",
-                    "updated": "2023-08-28T14:03:57.027301Z",
-                    "pricePerSqKm": 0.0,
-                    "blocks": [
-                        {
-                            "name": "Segmentation",
-                            "displayName": "Segmentation",
-                            "optional": false,
-                            "price": 5.0
-                        },
-                        {
-                            "name": "Postprocessing1",
-                            "displayName": "",
-                            "optional": false,
-                            "price": 0.0
-                        },
-                        {
-                            "name": "Classification",
-                            "displayName": "Classification",
-                            "optional": true,
-                            "price": 3.0
-                        },
-                        {
-                            "name": "Simplification",
-                            "displayName": "Polygonization",
-                            "optional": true,
-                            "price": 5.0
-                        },
-                        {
-                            "name": "OSM",
-                            "displayName": "Merge with OSM",
-                            "optional": true,
-                            "price": 0.0
-                        },
-                        {
-                            "name": "Postprocessing2",
-                            "displayName": "",
-                            "optional": false,
-                            "price": 0.0
-                        }
-                    ]
-                },
-                {
-                    "id": "7c1c872a-2afe-4186-a459-c4e9d9d675f9",
-                    "name": "🚗 Roads",
-                    "description": "Default model: roads segementation. The road parts are connected into network when possible, then replaced with polygons for better displey",
-                    "created": "2023-02-01T08:58:24.584101Z",
-                    "updated": "2023-08-28T14:03:57.247564Z",
-                    "pricePerSqKm": 5.0,
-                    "blocks": []
-                },
-                {
-                    "id": "f711cefe-6a81-44c9-a1a9-727fb2bdbbb9",
-                    "name": "🚜 Fields (hi-res)",
-                    "description": "Default model: agriculture fields segmentation.",
-                    "created": "2023-02-01T08:58:24.933788Z",
-                    "updated": "2023-08-28T14:03:57.405171Z",
-                    "pricePerSqKm": 5.0,
-                    "blocks": []
-                },
-                {
-                    "id": "a6ccb1d4-e5aa-45a2-9526-111b67b2924b",
-                    "name": "🌲 Forest",
-                    "description": "Default model: segmentation of forested areas with assinment of height classes; thresholds are 4 and 10 meters",
-                    "created": "2023-02-01T08:58:24.377220Z",
-                    "updated": "2023-08-28T14:03:57.600319Z",
-                    "pricePerSqKm": 0.0,
-                    "blocks": [
-                        {
-                            "name": "Segmentation",
-                            "displayName": "Segmentation",
-                            "optional": false,
-                            "price": 8.0
-                        },
-                        {
-                            "name": "Heights",
-                            "displayName": "Height estimation",
-                            "optional": true,
-                            "price": 20.0
-                        },
-                        {
-                            "name": "Postprocessing",
-                            "displayName": "",
-                            "optional": false,
-                            "price": 0.0
-                        }
-                    ]
-                },
-                {
-                    "id": "b11c626e-b7de-4f67-ab2c-4567079bc0ca",
-                    "name": "🏗️ Construction sites",
-                    "description": "Default model: segmentation of possible construction sites. Sensitive to open soil + big construction equimpent",
-                    "created": "2023-02-01T08:58:25.030308Z",
-                    "updated": "2023-08-28T14:03:57.777228Z",
-                    "pricePerSqKm": 4.0,
-                    "blocks": []
-                }
-            ]
+            "name": "My new project",
+            ...
         }
 
-.. warning::
-    The custom AI-models won't be linked to the new project automatically. 
+See more in :ref:`Projects - API`
 
+Prepare AOIs for the processings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's save Openstreetmap places and the properties as a GeoJSON file as it's simple and straightforward format to be used in any application or GIS software. 
-Then we open this file and create a python dictionary to loop through all GeoJSON features that we are going to send as AOI geometries for the processing. Like this:
+Let's save areas of interest with the properties as a GeoJSON file as it's simple and straightforward format to be used in any application or GIS software. 
+Then we open this file and create a python dictionary to loop through all GeoJSON features that we are going to use as AOI geometries for creating the processing. Like this:
 
 .. code:: python
 
-    with open('/Users/work/uzb_places_select.geojson', 'r') as file:  # Define your GeoJSON file path
+    with open('<path to the file>', 'r') as file:  # Define your GeoJSON file path
     geojson_data = json.load(file)
 
     for feature in geojson_data['features']:
-        name = feature['properties']['name']
+        name = feature['properties']['name']   # Extract the "name" property from OSM data
         print(name);
 
-Display the list of all the features by their names. We will use  ``name`` to entitle the processing. The name is optional yet it's more convenient to work with the results afterwards.
-Now we are ready to create the processing for each "place" using its AOI geometry.  
+Let's check if we created the data array from our file and display all the features by their names. At the next step, we will use the ``name`` property to define the processing. The "name" is optional yet it's more convenient to work with the results afterwards.
 
+Run the Processings
+~~~~~~~~~~~~~~~~~~~~
+
+Now we are ready to create the processing for each AOI using its geometry.  
 
 .. code:: python
 
     url = "https://api.mapflow.ai/rest/processings"
-    headers = {
-        'Content-Type': 'application/json'
-        }
 
     for feature in geojson_data['features']:
-        name = feature['properties']['name']  # Extract the "place" name
+        name = feature['properties']['name']
         geometry = feature['geometry']
         payload = json.dumps({
             "name": name, 
-            "projectId": "25a24df3-15e4-42f8-b38a-f3f87f4f84d9",  # Here is our project Id to organize the processing into specific project. It's options
+            "projectId": "fb49b97e-51ec-4b31-872f-d1411284de85",  # Here is your project Id to link the processing to the specific project. 
             "wdName": "🏠 Buildings",
-            "geometry": geometry,
-            "meta": {
-                "project": "test"
-            }
+            "geometry": geometry
         })
         response = requests.request("POST", url, headers=headers, auth=(username,password), data=payload)
-    
+
         if  response.status_code == 200:
             print(f"Request successful: {name}")
         else:
@@ -457,34 +323,46 @@ Now we are ready to create the processing for each "place" using its AOI geometr
             print(response.text)
 
 
-If everything was done correctly - the list of succesfully created processing will be displayed.
+If everything was done correctly - the list of successfully created processing will be displayed.
 
 
 Download all the results using Mapflow API
 -------------------------------------------
 
-When all processings complete you can download easily the results for each processing.
+When all processings are complete you can download easily the results for each one.
 
-If you have one processing with the multiple AOIs you can run a single API call to download the results:
-``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
+If you have one processing with the multiple AOIs *(by default the number of AOIs in one processing is limited to 10)* you can run a single API call to download the results:
 
-In case of the multiple processings you might find it useful to run this kind of script.
+.. code:: bash
 
-1. Get the list of all the processing IDs and names:
+    curl --location 'whitemaps-internal.mapflow.ai/rest/processings/<ID>/result' \
+    --header 'Authorization: Basic <YOUR API TOKEN>' -O <YOUR PATH TO FILE>.geojson
+
+In case of the multiple processings, you might find it useful to run the small script.
+
+1. Get the list of all "ids" and "names" by processing:
 
 .. code:: python
 
     import requests
     import json
 
-    url = "https://api.mapflow.ai/rest/projects/25a24df3-15e4-42f8-b38a-f3f87f4f84d9/processings"
+    url = "https://api.mapflow.ai/rest/projects/fb49b97e-51ec-4b31-872f-d1411284de85/processings"
 
     response = requests.request("GET", url, auth=(username,password))
 
     json_data = response.json()
 
-    for id, name in values:
-        print(f"{id}, {name}")
+    values = []
+    for item in json_data:
+        if "id" in item and "name" in item:
+            values.append((item["id"], item["name"]))
+
+    if  response.status_code == 200:
+        for id, name in values:
+            print(f"{id}, {name}")
+    else:
+        print(response.text)
 
 
 Response example:
@@ -506,11 +384,11 @@ Response example:
 
 .. code:: python
 
-    output_json = '/Users/work/DATA/' # Define local folder to save files
+    output_json = '<path to the folder>' # Define local folder to save files
 
     for id, name in values:
         response = requests.request("GET", url + id + '/result', headers=headers)
-    
+
         if  response.status_code == 200:
             with open(output_json_file + name + '.geojson', 'w') as geojson:
                 geojson.write(response.text)    

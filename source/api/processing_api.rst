@@ -134,6 +134,7 @@ Response example:
         ]
     }
 
+.. _Projects - API:
 
 Get default project
 ^^^^^^^^^^^^^^^^^^^^^
@@ -240,11 +241,13 @@ Request body example:
 
 
 
-Name of the project
+* Name of the project
+* Arbitrary description of this project
 
-Arbitrary description of this project
+Response: *the newly created project* contains the project ID and the description of the default AI-models as they are linked to every new project.
 
-Response: *the newly created project*
+.. warning::
+    The custom AI-models won't be linked to the new project automatically. 
 
 Rename project
 ^^^^^^^^^^^^^^^^^^^^^
@@ -298,12 +301,12 @@ Response example:
 
     {
         "id":"998194d7-dbe1-464d-acb2-4298e55e1996",
-        "name":"err",
+        "name":"test",
         "description":"",
         "projectId":"598ab24e-6ea1-42ad-a67d-eefb4cf10d84",
         "vectorLayer": {
             "id": "544a7a6b-bc7f-4fbe-9caf-b2990e8616f9",
-            "name": "err",
+            "name": "test",
             "tileJsonUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
             "tileUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
         },
