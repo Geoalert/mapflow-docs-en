@@ -181,139 +181,138 @@ Search Imagery
 
 .. note::
     This is the early version of the Mapflow API to search for available satellite images provided by external data providers.
-    The API aims to perform as a middle-tear between multiple data source and a :doc:`Mapflow Processing API <processing_api>`.
+    The API aims to perform as a middle-tear between multiple imagery source and a :doc:`Mapflow Processing API <processing_api>`.
+    The API returns the search results by the imagery providers linked to the specific user. 
+    If no provider is linked to the user it returns all providers available. To run the processing one needs to get the provider linked to his user account. 
 
 Get metadata of available images
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/catalog/meta``
 
-Returns a list of the images in GeoJSON, filtered by metadata. E.g.:
+``type: application/json``
+
+
+Returns a list of the available images, filtered by metadata. 
+
+E.g.:
 
 .. code:: json
 
-      { "aoi": {
-              "type": "Polygon",
-              "coordinates": [
+    {
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
                 [
-                  [
-                    37.34396696090698,
-                    55.6731196654679
-                  ],
-                  [
-                    37.35926628112793,
-                    55.6731196654679
-                  ],
-                  [
-                    37.35926628112793,
-                    55.67997991819218
-                  ],
-                  [
-                    37.34396696090698,
-                    55.67997991819218
-                  ],
-                  [
-                    37.34396696090698,
-                    55.6731196654679
-                  ]
+                    [
+                        69.1618,
+                        41.2105
+                    ],
+                    [
+                        69.1618,
+                        41.3784
+                    ],
+                    [
+                        69.3716,
+                        41.3784
+                    ],
+                    [
+                        69.3716,
+                        41.2105
+                    ],
+                    [
+                        69.1618,
+                        41.2105
+                    ]
                 ]
-              ]
-          },
-        "acquisitionDateFrom": "2021-01-01T00:00:00Z", 
-        "acquisitionDateTo": "2022-01-01T00:00:00Z",
+            ]
+        },
+        "acquisitionDateFrom": "2023-10-01T00:00:00Z",
+        "acquisitionDateTo": "2022-10-10T00:00:00Z",
         "maxCloudCover": 0.1,
-        "maxResolution": 0.31,
+        "maxResolution": 0.5,
         "minResolution": 0.3
-      }
-
+    }
 
 Response example:
 
 .. code:: json
 
-    { "images": [
+    {
+        "images": [
             {
-                "id": "a518230a236664891bfb2d8041028a59",
+                "id": "JL1GF03D15_PMS_20230913140838_200196307_108_0001_001_L1",
                 "footprint": {
                     "type": "Polygon",
                     "coordinates": [
                         [
                             [
-                                37.2883723,
-                                55.96500262
+                                69.2325,
+                                41.5352
                             ],
                             [
-                                37.3950109,
-                                55.96416162
+                                69.3602,
+                                41.5151
                             ],
                             [
-                                37.50164951,
-                                55.96332062
+                                69.3182,
+                                41.3647
                             ],
                             [
-                                37.50141629,
-                                55.72561772
+                                69.1906,
+                                41.3848
                             ],
                             [
-                                37.50118307,
-                                55.48791481
-                            ],
-                            [
-                                37.39506886,
-                                55.48708936
-                            ],
-                            [
-                                37.28895464,
-                                55.48626391
-                            ],
-                            [
-                                37.28866347,
-                                55.72563326
-                            ],
-                            [
-                                37.2883723,
-                                55.96500262
+                                69.2325,
+                                41.5352
                             ]
                         ]
                     ]
                 },
-                "pixelResolution": 0.31,
-                "acquisitionDate": "2021-07-07T08:42:03Z",
-                "productType": "Pan Sharpened Natural Color",
-                "sensor": "WV03_VNIR",
-                "colorBandOrder": "RGB",
+                "pixelResolution": 0.0,
+                "acquisitionDate": "2023-09-13T14:08:40Z",
+                "productType": "A",
+                "sensor": "JL1GF03D15",
+                "colorBandOrder": "unknown",
                 "cloudCover": 0.0,
-                "offNadirAngle": 6.471679
+                "offNadirAngle": -12.49,
+                "previewType": "png",
+                "previewUrl": "https://home.sat-imagery.com/geoserver/rs_data/wms?SERVICE=WMS&VERSION=1.1.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=rs_data%3AJL1GF03D15_PMS_20230913140838_200196307_108_0001_001_L1&STYLES=&serverType=geoserver&crossOrigin=anonymous&tiled=false&angle=0&WIDTH=188&HEIGHT=253&SRS=EPSG%3A3857&BBOX=7702262.3596810745%2C5066284.571753241%2C7721142.145319615%2C5091606.951481916",
+                "providerName": "sat_imagery"
             }
         ]
     }
-
-``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) to search imagery for. Currently the only type ``Polygon`` is supported.
 
 .. important::
 
     The size of the area cannot exceed the size of processing AOI limit assigned to the specific user.
 
+
+    {aoi: geometry, - required, Geojson-like Polygon or Multipolygon acquisitionDateFrom: UTC time string acquisitionDateTo: UTC time stringminResolution: float, in metersmaxResolution: float, in metersmaxCloudCover: float, in percents minOffNadirAngle: float, in degrees maxOffNadirAngle: float, in degrees minAoiIntersectionPercent: float, in percents}
+
+``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) to search imagery for. Currently the only type ``Polygon`` or ``Multipolygon`` is supported.
+
 ``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time format in UTC time zone according to ISO-8601. Determines the time range that the imagery acquisition date corresponds to.
 
-``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number in the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter defines the maximum area of an image (in pixels) that was classified as covered by clouds.
+``maxCloudCover`` (optional, float) - maxCloudCover — optional, a decimal number in the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter defines the maximum area of an image (in pixels) that was classified as covered by clouds.
 
-``maxResolution`` - optional, defines the maximum allowed resolution in m / pixel
+``maxResolution`` - (optional, float) defines the maximum allowed resolution in m / pixel
 
-``minResolution`` - optional, defines the minimum allowed resolution in m / pixel
+``minResolution`` - (optional, float) defines the minimum allowed resolution in m / pixel
+
+``minOffNadirAngle`` - (optional, float) defines the minimum of off-Nadir angle of the satellite camera in degrees
+
+``maxOffNadirAngle`` - (optional, float) defines the maximum of off-Nadir angle of the satellite camera in degrees
+
+``minAoiIntersectionPercent`` - (optional, float) defines the minimum intersection of the image footprint with the AOI in percents
 
 
-Get metadata by image ID
+Run processing by image ID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``
+For detailed description how to run a processing with Mapflow API see :doc:`Mapflow Processing API <processing_api>` – "Create processing".
+To run a processing using the specific image returned by Search API define **provider** and **image ID** in the params as follows:
 
-.. code:: bash
-
-    curl --location --request GET 'https://api.mapflow.ai/rest/catalog/meta/{image_id}' \
-    --header 'Content-Type: application/json' \
-    --header 'Authorization: Basic <YOUR TOKEN>'
-
-You can get ``image_id`` from ``processing.params.url``
+``{"params": {"data_provider":<providerName>, "url":<id>}}``
 
 
