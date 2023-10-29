@@ -48,7 +48,7 @@ Imagery providers
         :width: 15cm
         :class: with-border
 
-To read more about satellite images check :ref:`Satellite imagery`
+To read more about satellite images check :ref:`Data Providers`
 
 Custom URL
 ~~~~~~~~~~~~~
@@ -139,7 +139,7 @@ The "Start processing" will start processing.
 The "Clear Selection" will clear the previously selected processing parameters.
 
 .. attention::
-  Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits (our local currency units). Upon registration, you receive 250 credits for free for testing the platform (See the :doc:`Mapflow credits <prices>`).
+   Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits (our local currency units). Upon registration, you receive 250 credits for free for testing the platform (See the :doc:`Mapflow credits <prices>`).
 
 
 View the results

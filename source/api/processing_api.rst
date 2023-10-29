@@ -24,7 +24,7 @@ User status
 Returns user status for the the given user account, including:
 * User limits
 * Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
-* Default and custom :ref:`Data Providers` (every User account is connected to the default data providers, yet specific models have to be linked to the User account by Administrator))
+* Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator))
 
 .. note::
   If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
@@ -113,7 +113,7 @@ Response example:
             "details": []
         },
         "aoiCount": 0,
-        "aoiArea": 0,
+        "area": 0,
         "user": {
             "id": "61cd6899-19e8-44a0-97db-b86f1a9b7af4",
             "login": "user@user.com",
@@ -167,7 +167,7 @@ Returns the name and ID of the user's default project and the user's account set
           "completionDate": "2022-12-20T08:14:38.882673Z"
       },
       "aoiCount": 23,
-      "aoiArea": 20885015,
+      "area": 20885015,
       "user": {
           "id": "25b12411-bd16-4a31-9842-728264a3aefd",
           "login": "test_user@test.com",
@@ -300,36 +300,51 @@ Response example:
 .. code:: json
 
     {
-        "id":"998194d7-dbe1-464d-acb2-4298e55e1996",
-        "name":"test",
-        "description":"",
-        "projectId":"598ab24e-6ea1-42ad-a67d-eefb4cf10d84",
-        "vectorLayer": {
-            "id": "544a7a6b-bc7f-4fbe-9caf-b2990e8616f9",
-            "name": "test",
-            "tileJsonUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad.json",
-            "tileUrl": "https://vector-production.mapflow.ai/api/layers/293k63cc-cde6-4f6a-80d7-b5af6b6ba2ad/tiles/{z}/{x}/{y}.vector.pbf"
-        },
-        "rasterLayer": {
-            "id": "0ffc6ri8-b080-41e8-957c-3dd07f933f0a",
-            "tileJsonUrl": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c",
-            "tileUrl": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/b1089927-cb61-473e-b9d5-caa7cbe8062c"
-        },
-        "workflowDef": {
-            "id": "e973aa99-3422-46b3-a968-d8a252b64345",
-            "name": "Buildings Detection",
-            "description": "",
-            "created": "2022-07-06T14:15:11.187892Z",
-            "updated":"2022-07-06T14:15:11.187894Z"
-        },
-        "aoiCount":1,
-        "aoiArea":798784,
-        "status":"OK",
-        "percentCompleted":100,
-        "meta":{},
-        "messages":[],
-        "created":"2022-08-11T13:49:17.386035Z",
-        "updated":"2022-08-11T13:49:17.386035Z"
+      "id": "65285409-ac88-4fc0-a937-193cf42c2343",
+      "name": "Test processing",
+      "description": null,
+      "projectId": "a45aa059-fc95-4da0-80e9-2f258fa42c3f",
+      "vectorLayer": {
+          "id": "726bdc81-4c43-44ba-9d1b-ca5ed53f23fe",
+          "name": "Test processing",
+          "tileJsonUrl": "https://app.mapflow.ai/api/layers/4f84c84a-3678-4a11-bd20-dac6f230b08f.json",
+          "tileUrl": "https://app.mapflow.ai/api/layers/4f84c84a-3678-4a11-bd20-dac6f230b08f/tiles/{z}/{x}/{y}.vector.pbf"
+      },
+      "rasterLayer": {
+          "id": "9cb1df8d-d26c-4458-8e4b-ffd03871edbf",
+          "tileJsonUrl": "https://app.mapflow.ai/api/v0/cogs/tiles.json?uri=s3://mapflow-rasters/db3f192f-010d-4fc5-9cbe-f44bc569ba59",
+          "tileUrl": "https://app.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://mapflow-rasters/db3f192f-010d-4fc5-9cbe-f44bc569ba59"
+      },
+      "workflowDef": {
+          "id": "c6a71c32-972c-4d67-95a1-e9f3dfc033c9",
+          "name": "Buildings (⭐️ Aerial imagery)",
+          "description": "Custom model: segmentation of buildings in aerial imagery at resolution 10 cm/pixel",
+          "created": "2023-02-07T12:07:35.259144Z",
+          "updated": "2023-09-01T13:03:20.905987Z",
+          "pricePerSqKm": 33.0,
+          "blocks": []
+      },
+      "aoiCount": 1,
+      "area": 12010038,
+      "cost": 1638,
+      "status": "OK",
+      "reviewStatus": null,
+      "rating": null,
+      "percentCompleted": 100,
+      "params": {
+          "url": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://mapflow-rasters/4738260d-0fab-479f-beff-633d50a388f0",
+          "source_type": "xyz",
+          "crs": "EPSG:3857"
+      },
+      "blocks": [],
+      "meta": {
+          "source": "tif",
+          "source-app": "qgis",
+          "version": "1.7.0"
+      },
+      "messages": [],
+      "created": "2023-03-29T06:48:35.103854Z",
+      "updated": "2023-07-09T13:32:25.540726Z"
     }
 
 If the processing failed, the response also contains the code and parameters of the error in the `messages` section.
