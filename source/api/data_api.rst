@@ -283,28 +283,20 @@ Response example:
         ]
     }
 
-.. important::
+.. note::
 
-    The size of the area cannot exceed the size of processing AOI limit assigned to the specific user.
+   | ``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon
+   | ``acquisitionDateFrom``: UTC time string 
+   | ``acquisitionDateTo``: UTC time string
+   | ``minResolution``: float, in meters
+   | ``maxResolution``: float, in meters
+   | ``maxCloudCover``: float, in percents 
+   | ``minOffNadirAngle``: float, in degrees
+   | ``maxOffNadirAngle``: float, in degrees
+   | ``minAoiIntersectionPercent``: float, in percents
 
-
-    {aoi: geometry, - required, Geojson-like Polygon or Multipolygon acquisitionDateFrom: UTC time string acquisitionDateTo: UTC time stringminResolution: float, in metersmaxResolution: float, in metersmaxCloudCover: float, in percents minOffNadirAngle: float, in degrees maxOffNadirAngle: float, in degrees minAoiIntersectionPercent: float, in percents}
-
-``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) to search imagery for. Currently the only type ``Polygon`` or ``Multipolygon`` is supported.
-
-``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time format in UTC time zone according to ISO-8601. Determines the time range that the imagery acquisition date corresponds to.
-
-``maxCloudCover`` (optional, float) - maxCloudCover — optional, a decimal number in the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter defines the maximum area of an image (in pixels) that was classified as covered by clouds.
-
-``maxResolution`` - (optional, float) defines the maximum allowed resolution in m / pixel
-
-``minResolution`` - (optional, float) defines the minimum allowed resolution in m / pixel
-
-``minOffNadirAngle`` - (optional, float) defines the minimum of off-Nadir angle of the satellite camera in degrees
-
-``maxOffNadirAngle`` - (optional, float) defines the maximum of off-Nadir angle of the satellite camera in degrees
-
-``minAoiIntersectionPercent`` - (optional, float) defines the minimum intersection of the image footprint with the AOI in percents
+.. warning::
+    The size of the search area cannot exceed the size of processing AOI limit assigned to the specific user.
 
 
 Run processing by image ID
