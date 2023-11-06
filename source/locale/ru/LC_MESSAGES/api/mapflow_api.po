@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 12:49+0300\n"
+"POT-Creation-Date: 2023-11-06 01:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../source/api/mapflow_api.rst:3
 msgid "Mapflow API"
@@ -111,8 +111,12 @@ msgstr ""
 #: ../../source/api/processing_api.rst:24
 msgid ""
 "Returns user status for the the given user account, including: * User "
-"limits * Default and custom user :ref:`Models` * User connected Data "
-"Providers, including commercial data providers if available"
+"limits * Default and custom :ref:`Models` (every User account is "
+"connected to the default models, yet specific models have to be linked to"
+" the User account by Administrator) * Default and custom :ref:`Data "
+"Providers` (every User account is linked to the default data providers, "
+"yet specific commercial providers have to be linked to the User account "
+"by Administrator))"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:30
@@ -122,10 +126,10 @@ msgid ""
 msgstr ""
 
 #: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:148
-#: ../../source/api/data_api.rst:230 ../../source/api/processing_api.rst:33
+#: ../../source/api/data_api.rst:237 ../../source/api/processing_api.rst:33
 #: ../../source/api/processing_api.rst:102
 #: ../../source/api/processing_api.rst:298
-#: ../../source/api/processing_api.rst:570
+#: ../../source/api/processing_api.rst:585
 msgid "Response example:"
 msgstr ""
 
@@ -145,70 +149,71 @@ msgstr ""
 msgid "Returns the project with the specified ID."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:139
+#: ../../source/api/processing_api.rst:140
 msgid "Get default project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:143
+#: ../../source/api/processing_api.rst:144
 msgid "Default project is created for each user upon registration."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:145
+#: ../../source/api/processing_api.rst:146
 msgid "``GET https://api.mapflow.ai/rest/projects/default``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:147
+#: ../../source/api/processing_api.rst:148
 msgid ""
 "Returns the name and ID of the user's default project and the user's "
 "account settings."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:218
+#: ../../source/api/processing_api.rst:219
 msgid "Get all projects"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:220
+#: ../../source/api/processing_api.rst:221
 msgid "``GET https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:222
+#: ../../source/api/processing_api.rst:223
 msgid "Returns the list of all user's projects."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:226
+#: ../../source/api/processing_api.rst:227
 msgid "Create project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:228
+#: ../../source/api/processing_api.rst:229
 msgid "``POST https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:230
+#: ../../source/api/processing_api.rst:231
 msgid "Creates a new project, and returns its immediate state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:232
+#: ../../source/api/processing_api.rst:233
 #: ../../source/api/processing_api.rst:257
-#: ../../source/api/processing_api.rst:453
+#: ../../source/api/processing_api.rst:468
 msgid "Request body example:"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:244
-msgid "//Name of the project"
+msgid "Name of the project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:246
-msgid "//Arbitrary description of this project"
+#: ../../source/api/processing_api.rst:245
+msgid "Arbitrary description of this project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:248
+#: ../../source/api/processing_api.rst:247
 msgid ""
-"//Add default processing :doc:`pipelines <../userguides/pipelines>` to "
-"the project"
+"Response: *the newly created project* contains the project ID and the "
+"description of the default AI-models as they are linked to every new "
+"project."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:250
-msgid "Response: the newly created project."
+msgid "The custom AI-models won't be linked to the new project automatically."
 msgstr ""
 
 #: ../../source/api/processing_api.rst:253
@@ -271,7 +276,7 @@ msgstr ""
 msgid "Returns the processing with the specified id."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:335
+#: ../../source/api/processing_api.rst:350
 msgid ""
 "If the processing failed, the response also contains the code and "
 "parameters of the error in the `messages` section. If different AOIs "
@@ -279,40 +284,40 @@ msgid ""
 "Example of the failed processing response:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:356
+#: ../../source/api/processing_api.rst:371
 msgid ""
 "Possible error codes, parameters and desctiptions see in :doc:`Error "
 "Messages <error_messages>`"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:360
+#: ../../source/api/processing_api.rst:375
 msgid "Create processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:362
-#: ../../source/api/processing_api.rst:426
+#: ../../source/api/processing_api.rst:377
+#: ../../source/api/processing_api.rst:441
 msgid "``POST https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:364
+#: ../../source/api/processing_api.rst:379
 msgid "Runs a processing, and returns its immediate state. Request body sample:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:411
+#: ../../source/api/processing_api.rst:426
 msgid ""
 "To process a user-provided raster (see `Upload GeoTIFF for processing` "
 "section), set parameters as follows:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:420
+#: ../../source/api/processing_api.rst:435
 msgid "Response: the newly created processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:424
+#: ../../source/api/processing_api.rst:439
 msgid "Customize processing with the workflow options"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:428
+#: ../../source/api/processing_api.rst:443
 msgid ""
 "Processing workflow can be custoized with enabling some model options. "
 "The \"options\" can be retrieved through the ``user/status`` request as "
@@ -320,27 +325,27 @@ msgid ""
 "\"price\": <>}]`` in the ``models`` list."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:431
+#: ../../source/api/processing_api.rst:446
 msgid "Request body example"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:449
+#: ../../source/api/processing_api.rst:464
 msgid "Rename processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:451
+#: ../../source/api/processing_api.rst:466
 msgid "``PUT https://api.mapflow.ai/rest/processing/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:464
+#: ../../source/api/processing_api.rst:479
 msgid "Restart processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:466
+#: ../../source/api/processing_api.rst:481
 msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:468
+#: ../../source/api/processing_api.rst:483
 msgid ""
 "Restarts failed partitions of this processing. Doesn't restart non-failed"
 " partitions. Each workflow is restarted from the first failed stage. "
@@ -348,77 +353,77 @@ msgid ""
 " processing into successful state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:471
+#: ../../source/api/processing_api.rst:486
 msgid "Link processing to another project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:473
+#: ../../source/api/processing_api.rst:488
 msgid "``PUT https://api.mapflow.ai/rest/processings/{processing_id}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:475
+#: ../../source/api/processing_api.rst:490
 msgid "Links processing to another project by project ID"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:485
+#: ../../source/api/processing_api.rst:500
 msgid "Delete processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:487
+#: ../../source/api/processing_api.rst:502
 msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:489
+#: ../../source/api/processing_api.rst:504
 msgid "Deletes this processing. Cascade deletes any child entities."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:492
+#: ../../source/api/processing_api.rst:507
 msgid "Get processing AOIs"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:494
+#: ../../source/api/processing_api.rst:509
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:496
+#: ../../source/api/processing_api.rst:511
 msgid ""
 "Returns a list of the defined geographical areas for processing in "
 "GeoJSON."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:498
+#: ../../source/api/processing_api.rst:513
 msgid "Response sample:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:541
+#: ../../source/api/processing_api.rst:556
 msgid "Downloading processing results"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:543
+#: ../../source/api/processing_api.rst:558
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:545
+#: ../../source/api/processing_api.rst:560
 msgid ""
 "Returns Geojson results of this processing as an octet stream. Should "
 "only be called on a successfully completed processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:549
+#: ../../source/api/processing_api.rst:564
 msgid "Upload images"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:552
+#: ../../source/api/processing_api.rst:567
 msgid ""
 "This is the legacy method and is going to be deprecated. Use the new "
 ":ref:`Data API` instead."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:554
+#: ../../source/api/processing_api.rst:569
 msgid "``POST https://api.mapflow.ai/rest/rasters``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:556
+#: ../../source/api/processing_api.rst:571
 msgid ""
 "Can be used to upload a raster for further processing. Returns url to the"
 " uploaded raster. This url can be referenced when starting a processing. "
@@ -426,126 +431,126 @@ msgid ""
 "contains the raster. Request example with ``cURL``:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:572
+#: ../../source/api/processing_api.rst:587
 msgid ""
 "``{\"url\": \"s3://mapflow-"
 "rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif\"}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:577
+#: ../../source/api/processing_api.rst:592
 msgid "Parameter values"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:580
+#: ../../source/api/processing_api.rst:595
 msgid "Default AI models"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:585
-#: ../../source/api/processing_api.rst:614
-#: ../../source/api/processing_api.rst:635
+#: ../../source/api/processing_api.rst:600
+#: ../../source/api/processing_api.rst:629
+#: ../../source/api/processing_api.rst:650
 msgid "VALUE"
 msgstr ""
 
-#: ../../source/api/data_api.rst:160 ../../source/api/processing_api.rst:586
-#: ../../source/api/processing_api.rst:615
+#: ../../source/api/data_api.rst:160 ../../source/api/processing_api.rst:601
+#: ../../source/api/processing_api.rst:630
 msgid "DESCRIPTION"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:587
+#: ../../source/api/processing_api.rst:602
 msgid "MODEL resolution (m/px), num of input bands"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:588
+#: ../../source/api/processing_api.rst:603
 msgid "🏠 Buildings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:589
+#: ../../source/api/processing_api.rst:604
 msgid "Detects buildings & classifies them"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:590
-#: ../../source/api/processing_api.rst:599
 #: ../../source/api/processing_api.rst:605
+#: ../../source/api/processing_api.rst:614
+#: ../../source/api/processing_api.rst:620
 msgid "0.5, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:591
+#: ../../source/api/processing_api.rst:606
 msgid "🌲 Forest"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:592
+#: ../../source/api/processing_api.rst:607
 msgid "Detects tree-like vegetation"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:593
+#: ../../source/api/processing_api.rst:608
 msgid "2, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:594
+#: ../../source/api/processing_api.rst:609
 msgid "🚗 Roads"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:595
+#: ../../source/api/processing_api.rst:610
 msgid "Detects roads and returns them as polygons / linestrings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:596
+#: ../../source/api/processing_api.rst:611
 msgid "1, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:597
+#: ../../source/api/processing_api.rst:612
 msgid "🚜 Fields (hi-res)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:598
-#: ../../source/api/processing_api.rst:604
+#: ../../source/api/processing_api.rst:613
+#: ../../source/api/processing_api.rst:619
 msgid "Detects cropland fields"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:600
+#: ../../source/api/processing_api.rst:615
 msgid "🚜 Fields (Sentinel-2)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:601
+#: ../../source/api/processing_api.rst:616
 msgid "Detects cropland fields using free Sentinel-2 imagery"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:602
+#: ../../source/api/processing_api.rst:617
 msgid "10 m/px, 10 (multispectral)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:603
+#: ../../source/api/processing_api.rst:618
 msgid "🏗️ Construction"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:609
+#: ../../source/api/processing_api.rst:624
 msgid "source_type"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:616
+#: ../../source/api/processing_api.rst:631
 msgid "XYZ"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:617
+#: ../../source/api/processing_api.rst:632
 msgid ""
 "The URL to the imagery service in “xyz” format, e.g. "
 "`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
 "<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:618
+#: ../../source/api/processing_api.rst:633
 msgid "TMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:619
+#: ../../source/api/processing_api.rst:634
 msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:620
+#: ../../source/api/processing_api.rst:635
 msgid "WMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:621
+#: ../../source/api/processing_api.rst:636
 msgid ""
 "(❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. "
 "`https://services.nationalmap.gov/arcgis/services/ "
@@ -553,62 +558,62 @@ msgid ""
 "<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:622
+#: ../../source/api/processing_api.rst:637
 msgid "Quadkey"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:623
+#: ../../source/api/processing_api.rst:638
 msgid ""
 "The one-dimensional index key that usually preserves the proximity of "
 "tiles in \"xy\" space (Bing Maps tile format)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:624
+#: ../../source/api/processing_api.rst:639
 msgid "tif/tiff"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:625
+#: ../../source/api/processing_api.rst:640
 msgid "File of image in georeferenced tiff (GeoTIFF) format"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:629
+#: ../../source/api/processing_api.rst:644
 msgid "status"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:12
-#: ../../source/api/processing_api.rst:636
+#: ../../source/api/processing_api.rst:651
 msgid "Description"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:637
+#: ../../source/api/processing_api.rst:652
 msgid "UNPROCESSED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:638
+#: ../../source/api/processing_api.rst:653
 msgid "The processing is not started yet"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:639
+#: ../../source/api/processing_api.rst:654
 msgid "IN_PROGRESS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:640
+#: ../../source/api/processing_api.rst:655
 msgid "The processing is going (or is in the queue)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:641
+#: ../../source/api/processing_api.rst:656
 msgid "FAILED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:642
+#: ../../source/api/processing_api.rst:657
 msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:643
+#: ../../source/api/processing_api.rst:658
 msgid "OK"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:644
+#: ../../source/api/processing_api.rst:659
 msgid "The processing is finished at 100 percent completed"
 msgstr ""
 
@@ -1314,7 +1319,7 @@ msgid ""
 "https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:140
+#: ../../source/api/data_api.rst:140 ../../source/api/data_api.rst:198
 msgid "E.g.:"
 msgstr ""
 
@@ -1368,73 +1373,86 @@ msgstr ""
 msgid ""
 "This is the early version of the Mapflow API to search for available "
 "satellite images provided by external data providers. The API aims to "
-"perform as a middle-tear between multiple data source and a :doc:`Mapflow"
-" Processing API <processing_api>`."
-msgstr ""
-
-#: ../../source/api/data_api.rst:187
-msgid "Get metadata of available images"
+"perform as a middle-tear between multiple imagery source and a "
+":doc:`Mapflow Processing API <processing_api>`. The API returns the "
+"search results by the imagery providers linked to the specific user. If "
+"no provider is linked to the user it returns all providers available. To "
+"run the processing one needs to get the provider linked to his user "
+"account."
 msgstr ""
 
 #: ../../source/api/data_api.rst:189
-msgid "``POST https://api.mapflow.ai/catalog/meta``"
+msgid "Get metadata of available images"
 msgstr ""
 
 #: ../../source/api/data_api.rst:191
-msgid "Returns a list of the images in GeoJSON, filtered by metadata. E.g.:"
+msgid "``POST https://api.mapflow.ai/catalog/meta``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:291
-msgid ""
-"``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon "
-"coordinates) to search imagery for. Currently the only type ``Polygon`` "
-"is supported."
+#: ../../source/api/data_api.rst:193
+msgid "``type: application/json``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:295
-msgid ""
-"The size of the area cannot exceed the size of processing AOI limit "
-"assigned to the specific user."
+#: ../../source/api/data_api.rst:196
+msgid "Returns a list of the available images, filtered by metadata."
 msgstr ""
 
-#: ../../source/api/data_api.rst:297
-msgid ""
-"``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time "
-"format in UTC time zone according to ISO-8601. Determines the time range "
-"that the imagery acquisition date corresponds to."
+#: ../../source/api/data_api.rst
+msgid "``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``acquisitionDateFrom``: UTC time string"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``acquisitionDateTo``: UTC time string"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minResolution``: float, in meters"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxResolution``: float, in meters"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxCloudCover``: float, in percents"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minAoiIntersectionPercent``: float, in percents"
 msgstr ""
 
 #: ../../source/api/data_api.rst:299
-#, python-format
 msgid ""
-"``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number"
-" in the range 0 - 1 (corresponds to 0-100% cloud coverage). This "
-"parameter defines the maximum area of an image (in pixels) that was "
-"classified as covered by clouds."
-msgstr ""
-
-#: ../../source/api/data_api.rst:301
-msgid ""
-"``maxResolution`` - optional, defines the maximum allowed resolution in m"
-" / pixel"
+"The size of the search area cannot exceed the size of processing AOI "
+"limit assigned to the specific user."
 msgstr ""
 
 #: ../../source/api/data_api.rst:303
+msgid "Run processing by image ID"
+msgstr ""
+
+#: ../../source/api/data_api.rst:305
 msgid ""
-"``minResolution`` - optional, defines the minimum allowed resolution in m"
-" / pixel"
+"For detailed description how to run a processing with Mapflow API see "
+":doc:`Mapflow Processing API <processing_api>` – \"Create processing\". "
+"To run a processing using the specific image returned by Search API "
+"define **provider** and **image ID** in the params as follows:"
 msgstr ""
 
-#: ../../source/api/data_api.rst:307
-msgid "Get metadata by image ID"
-msgstr ""
-
-#: ../../source/api/data_api.rst:309
-msgid "``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``"
-msgstr ""
-
-#: ../../source/api/data_api.rst:317
-msgid "You can get ``image_id`` from ``processing.params.url``"
+#: ../../source/api/data_api.rst:308
+msgid "``{\"params\": {\"data_provider\":<providerName>, \"url\":<id>}}``"
 msgstr ""
 
 #~ msgid ""
@@ -1442,5 +1460,93 @@ msgstr ""
 #~ "given user account. If user account "
 #~ "is linked to the Team - returns"
 #~ " Team's description as well"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns user status for the the "
+#~ "given user account, including: * User"
+#~ " limits * Default and custom user "
+#~ ":ref:`Models` * User connected Data "
+#~ "Providers, including commercial data providers"
+#~ " if available"
+#~ msgstr ""
+
+#~ msgid "//Name of the project"
+#~ msgstr ""
+
+#~ msgid "//Arbitrary description of this project"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "//Add default processing :doc:`pipelines "
+#~ "<../userguides/pipelines>` to the project"
+#~ msgstr ""
+
+#~ msgid "Response: the newly created project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the early version of the"
+#~ " Mapflow API to search for available"
+#~ " satellite images provided by external "
+#~ "data providers. The API aims to "
+#~ "perform as a middle-tear between "
+#~ "multiple data source and a :doc:`Mapflow"
+#~ " Processing API <processing_api>`."
+#~ msgstr ""
+
+#~ msgid "Returns a list of the images in GeoJSON, filtered by metadata. E.g.:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``aoi`` (required) - the geometry of "
+#~ "the area (GeoJSON, Lat Lon coordinates)"
+#~ " to search imagery for. Currently the"
+#~ " only type ``Polygon`` is supported."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size of the area cannot exceed"
+#~ " the size of processing AOI limit "
+#~ "assigned to the specific user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``acquisitionDateFrom`` <> ``acquisitionDateTo`` "
+#~ "(optional) - date/time format in UTC "
+#~ "time zone according to ISO-8601. "
+#~ "Determines the time range that the "
+#~ "imagery acquisition date corresponds to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``maxCloudCover`` (optional) - maxCloudCover —"
+#~ " optional, a decimal number in the"
+#~ " range 0 - 1 (corresponds to "
+#~ "0-100% cloud coverage). This parameter "
+#~ "defines the maximum area of an "
+#~ "image (in pixels) that was classified"
+#~ " as covered by clouds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``maxResolution`` - optional, defines the "
+#~ "maximum allowed resolution in m / "
+#~ "pixel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``minResolution`` - optional, defines the "
+#~ "minimum allowed resolution in m / "
+#~ "pixel"
+#~ msgstr ""
+
+#~ msgid "Get metadata by image ID"
+#~ msgstr ""
+
+#~ msgid "``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``"
+#~ msgstr ""
+
+#~ msgid "You can get ``image_id`` from ``processing.params.url``"
 #~ msgstr ""
 

@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2023-11-06 01:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../source/userguides/howto.rst:4
 msgid "Userguides - How To"
@@ -336,13 +336,356 @@ msgstr ""
 msgid "Interaction panel"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:199
+#: ../../source/userguides/howto.rst:200
 msgid "Base map tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:201
+#: ../../source/userguides/howto.rst:202
 msgid ""
 "Here you can choose the styles of the map, as well as choose to display "
 "its various layers."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:2
+msgid "Iterative mapping tutorial"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:4
+msgid ""
+"This workflow is proposed for the AI assisted mappinf of the crop fields "
+"usinf Sentine-2 images. If you use Mapflow for agricultural landuse "
+"management, we suggest you have a look at the methodology described "
+"below. It can help you streamline the mapping process so you could focus "
+"on the end goal and results instead. All you need is our QGIS plugin "
+"(a.k.a. :doc:`Maflow for QGIS <../api/qgis_mapflow>`) installed. If you "
+"haven't connected the Sentinel-2 data yet, contact us."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:7
+msgid ""
+"Before we begin, however: Mapflow will digitize the fields for you, but "
+"the imagery for it to work on you need to select yourself. **We strongly "
+"recommend you preview images before processing them** because their "
+"quality may vary. Ones with high cloud cover (including cloud shadows) or"
+" no-data pixels in the AOI will likely produce poor results. Here are "
+"examples of two images that will inevitably yield unsatisfactory results:"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Fields mask detected on a cloudy Sentinel-2 image"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:14
+msgid "Fields detected using a clouded Sentinel-2 image"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Sentinel-2 image with no-data to the AOI"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:21
+msgid "An example of a Sentinel-2 image that has no-data pixels for the AOI."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:23
+msgid ""
+"Sometimes you may not be able to find a single suitable image for your "
+"entire AOI. In that case, we recommend you process the best available "
+"images separately and then combine the results. On average, you will need"
+" to process ten images for a territory of 1000 km\\ :sup:`2`."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:26
+msgid "What is an Iterative mapping process"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:27
+msgid "Start processing on the Sentinel-2 images:"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:29
+msgid "In QGIS, load your AOI as a layer;"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:30
+msgid ""
+"Open the plugin and go to *Providers tab*; select Sentinel-2 in the drop-"
+"down list in the upper left corner and your AOI layer as the *Area* "
+"below;"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:31
+msgid ""
+"Adjust the search criteria: select the search period in From and To; "
+"adjust the maximum allowed cloud cover and the minimum required "
+"intersection percentage in *Additional Filters*;"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:32
+msgid ""
+"Click *Search imagery*; it may take up to a minute, depending on the size"
+" of your AOI and the search period;"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:33
+msgid ""
+"The search results will show up in the table below. Each row describes a "
+"single image. You can sort the table by date and cloud cover and you can "
+"further filter the results by adjusting the dates and the filters as you "
+"did in the previous step."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:34
+msgid ""
+"Search results have also been added to your QGIS project as a layer "
+"called *“Sentinel-2 metadata”*. The layer is synchronized with the table:"
+" every time you select a row in the table, the corresponding image is "
+"selected in the layer, and vice versa."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:35
+msgid ""
+"Now, select an image and double click on its table row. You will see it "
+"got added to the project as a raster layer. AOI have a real value "
+"(they're not black or transparent)."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:38
+msgid ""
+"This is a preview, - a coarse representation of the actual image. The "
+"image itself will have a 30-times better resolution (10m instead of 300m "
+"in the preview). You'll want an image which in which cloud don't cover "
+"your AOI and all pixels within your"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Providers tab"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:45
+msgid ""
+"Once you've made your choice, make sure the image row is selected in the "
+"table, go to *Processing tab*; type in a name for your processing, select"
+" *\"Sentinel-2 Fields\"* in the *Mapflow Model* drop-down list and check "
+"that your AOI layer is selected as the *Area* and the *Imagery source* is"
+" set to *Sentinel-2*; if everything looks good, hit *Start processing*."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Processing tab"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:55
+msgid ""
+"Repeat the same for five to ten images covering the same area so the best"
+" available image is processed for every part of your AOI."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:57
+msgid ""
+"Next, create a new polygon layer called “results” into which we'll merge "
+"the results."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:58
+msgid ""
+"Download the processing results by double-clicking the corresponding rows"
+" in the *Processings table*. Group raster and vector layer for each "
+"processing for simplicity. Create a mutually exclusive group for these "
+"groups."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Creating the mutually exclusive group"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:68
+msgid ""
+"Reorder the layers so that the best results are on top. Normally, it "
+"takes about ten seconds to determine if the results are good enough."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Rank_inference_result"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:77
+msgid ""
+"Choose the topmost result layer pair (vector and raster). Select all "
+"objects in the vector layer and copy them into the “results” layer."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Copy fields mask into result layer"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:86
+msgid ""
+"In the “results” layer, select and delete poorly digitized polygons. Now,"
+" the “results” layer has gaps which should be filled with successfully "
+"contoured polygons from the other result layers."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Find and delete bad field mask"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:95
+msgid ""
+"Select the next best processing and put its vector layer on top of the "
+"“results” layer. Select well-contoured polygons from this layer and copy "
+"them into the “results” layer."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Find and past good field mask"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:104
+msgid ""
+"If there are still gaps in the “results” layer, repeat *step #7* until "
+"you the all gaps are filled in. After several iterations, you should get "
+"fully contoured agricultural fields for your AOI."
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:-1
+msgid "Result of itaretive mapping"
+msgstr ""
+
+#: ../../source/userguides/iterative_mapping.rst:115
+msgid ""
+"Watch `this video <https://youtu.be/ZTsT27FyQPI>`_ for a visual example "
+"of this iterative markup process."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:209
+msgid "How to run bulk processing using Mapflow API"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:211
+msgid ""
+"In case you have multiple polygons to process or update, it can be boring"
+" to upload them one by one using Web or GIS user tools. In this case, "
+"you'd better think of using Mapflow :ref:`Processing API`. In this "
+"example let's assume we have a list of polygons indicating the populated "
+"places borders and we want to extract features like \"buildings\" with "
+"Mapflow processing API."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:214
+msgid ""
+"1. To make it more realistic let's download some populated places borders"
+" for the sample area in Uzbekistan using Openstreetmap. To do this we can"
+" make a query with Overpass Turbo API like this: We can use QuickOSM "
+"plugin in QGIS which is very friendly when it comes to downloading a "
+"managable volume of data from Openstreetmap."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:-1
+msgid "quickosmm"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:225
+msgid "Authorization with Mapflow token"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:227
+msgid "Let's  Mapflow token for further authorization."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:238
+msgid ""
+"Now you get your token decoded as a username and a password and use it "
+"for the authorization with the requests."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:241
+msgid "Create the project (it's optional)"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:244
+msgid ""
+"It might be useful to organise your processing with the **projects**. To "
+"do this create the new project with the following API method."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:268
+msgid ""
+"Here we get the response containing the project ID, that we can use to "
+"create the processings in this specific project."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:270 ../../source/userguides/howto.rst:368
+msgid "Response example:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:280
+msgid "See more in :ref:`Projects - API`"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:283
+msgid "Prepare AOIs for the processings"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:285
+msgid ""
+"Let's save areas of interest with the properties as a GeoJSON file as "
+"it's simple and straightforward format to be used in any application or "
+"GIS software. Then we open this file and create a python dictionary to "
+"loop through all GeoJSON features that we are going to use as AOI "
+"geometries for creating the processing. Like this:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:297
+msgid ""
+"Let's check if we created the data array from our file and display all "
+"the features by their names. At the next step, we will use the ``name`` "
+"property to define the processing. The \"name\" is optional yet it's more"
+" convenient to work with the results afterwards."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:300
+msgid "Run the Processings"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:302
+msgid "Now we are ready to create the processing for each AOI using its geometry."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:326
+msgid ""
+"If everything was done correctly - the list of successfully created "
+"processing will be displayed."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:330
+msgid "Download all the results using Mapflow API"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:332
+msgid ""
+"When all processings are complete you can download easily the results for"
+" each one."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:334
+msgid ""
+"If you have one processing with the multiple AOIs *(by default the number"
+" of AOIs in one processing is limited to 10)* you can run a single API "
+"call to download the results:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:341
+msgid ""
+"In case of the multiple processings, you might find it useful to run the "
+"small script."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:343
+msgid "Get the list of all \"ids\" and \"names\" by processing:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:383
+msgid "Save results for all the listed processings:"
 msgstr ""
 
