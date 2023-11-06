@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-06 01:28+0700\n"
-"PO-Revision-Date: 2023-11-06 19:39+0700\n"
+"PO-Revision-Date: 2023-11-07 01:42+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Перейдите на сайт `Mapflow <https://app.mapflow.ai>`_ и зарегистрируйтесь или "
 "войдите в систему, используя свой аккаунт Google. Mapflow обрабатывает снимки и "
-"извлекает из них векторные объекты. Как пользователь, вы запускаете процессы, "
+"извлекает из них векторные объекты. Как пользователь, вы запускаете процессы "
 "или, как мы их называем, **потоки**."
 
 #: ../../source/userguides/get_started.rst:8
@@ -49,11 +49,11 @@ msgstr "UI Mapflow - запуск потока"
 
 #: ../../source/userguides/get_started.rst:19
 msgid "1. Data source"
-msgstr "Источник данных"
+msgstr "1. Источник данных"
 
 #: ../../source/userguides/get_started.rst:22
 msgid "1.1. Select the raster source"
-msgstr "Выберите источник растра"
+msgstr "1.1. Выберите источник растра"
 
 #: ../../source/userguides/get_started.rst:-1
 msgid "Select provider"
@@ -227,7 +227,7 @@ msgid ""
 msgstr ""
 "Если ваше изображение не соответствует указанным выше параметрам, мы предлагаем "
 "использовать :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../"
-"api/qgis_mapflow>` которые обладают большими возможностями."
+"api/qgis_mapflow>` которые обладают бо́льшими возможностями."
 
 #: ../../source/userguides/get_started.rst:90
 msgid ""
@@ -255,9 +255,10 @@ msgid ""
 "io <http://geojson.io/>`_)."
 msgstr ""
 "Эта вкладка используется для добавления области обработки. Пользователь может "
-"нарисовать область с помощью инструмента Draw rectange / Draw polygon или "
-"загрузить ее в формате GeoJSON (нарисовать и загрузить, а также просмотреть "
-"структуру данных можно по этой ссылке - `geojson.io <http://geojson.io/>`_)."
+"нарисовать область с помощью инструмента *Нарисовать прямоугольник* / "
+"*Нарисовать многоугольник* или загрузить ее в формате GeoJSON (нарисовать и "
+"загрузить, а также просмотреть структуру данных можно по этой ссылке - `geojson."
+"io <http://geojson.io/>`_)."
 
 #: ../../source/userguides/get_started.rst:106
 msgid ""
