@@ -69,7 +69,7 @@ Error messages in API
  
    * - source-validator.BadImageProfile
      - profile, required_keys
-     - Image profile (metadata) must have keys {required_keys}, got profile {profile }
+     - Image profile (metadata) must have keys {required_keys}, got profile {profile}
 
    * - source-validator.DtypeNotAllowed
      - required_dtypes, request_dtype
@@ -81,11 +81,11 @@ Error messages in API
 
    * - source-validator.PixelSizeTooLow
      - actual_res, min_res
-     - Spatial resolution of you image is too low: pixel size is {actual_res}, maximum allowed pixel size is {max_res} 
+     - Spatial resolution of you image is too low: pixel size is {actual_res}, minimum allowed pixel size is {min_res} 
 
    * - source-validator.PixelSizeTooHigh
      - actual_res, max_res
-     - Spatial resolution of you image is too low: pixel size is {actual_res}, maximum allowed pixel size is {max_res} 
+     - Spatial resolution of you image is too high: pixel size is {actual_res}, maximum allowed pixel size is {max_res} 
 
    * - source-validator.ImageCheckError
      - checked_param, message, metadata

@@ -40,7 +40,7 @@ Imagery providers
  * `World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. 
  
  .. hint::
-    You can chack the World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.
+    You can check the World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.
 
     .. image:: _static/image_metadata.png
         :alt: Search image metadata
@@ -62,6 +62,7 @@ The interface of this tab allows you to:
  * Reset all entered custom parameters;
  * Return to default Imagery providers.
 
+.. _upload-geotiff-section:
 
 Upload GeoTIFF
 ~~~~~~~~~~~~~~~~~~
@@ -117,7 +118,7 @@ In this step, you can select additional processing options. Different AI models 
 
 AI model "Buildings":
 
-* *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see `Urban Mapping classes <../um/classes>`_).
+* *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see :doc:`../um/classes`).
 * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
 * *Simplification* - simplification and polygonization of building contours.
 * *Building heights* - for each building, we estimate its height using its wall's and shadow's length. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to footprints.
@@ -249,7 +250,7 @@ Allows to download results as a file in GeoJSON format.
    :width: 15cm
 
 
-You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.*
+You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
 
 
 .. _Team accounts:
@@ -269,7 +270,7 @@ Once the Team is created the Owner can invite new members, and assign and manage
 |
 
 .. warning::
-    If the members' email is already registered as a Mapflow account, the Team Owner should reach out to Support (help@geoalert.io) to ask to link the account.
+    If the 'members' email is already registered as a Mapflow account, the Team Owner should reach out to Support (help@geoalert.io) to ask to link the account.
 
 
 Working with API

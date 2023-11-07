@@ -24,7 +24,7 @@ User status
 Returns user status for the the given user account, including:
 * User limits
 * Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
-* Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator))
+* Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
 
 .. note::
   If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
@@ -423,7 +423,7 @@ Request body sample:
     }
 
 
-To process a user-provided raster (see `Upload GeoTIFF for processing` section), set parameters as follows:  
+To process a user-provided raster (see :ref:`Upload GeoTIFF for processing <upload-geotiff-section>` section), set parameters as follows:  
 
  .. code:: json
 
