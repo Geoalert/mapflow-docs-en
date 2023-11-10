@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-03 13:52+0530\n"
+"POT-Creation-Date: 2023-11-06 01:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Language: ru\n"
-"X-Source-Language: en\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../source/api/data_api.rst:4
 msgid "Mapflow Data API"
@@ -50,9 +49,10 @@ msgstr ""
 #: ../../source/api/data_api.rst:23
 msgid ""
 "What is \"mosaic\"? This is the collection of single images, aimed at "
-"instant preview and processing. It's helpful in such cases as mosaicing the "
-"number of single aerial images covering some area or batching the large "
-"ortho-plan for faster uploading and optimizing its storage in the cloud."
+"instant preview and processing. It's helpful in such cases as mosaicing "
+"the number of single aerial images covering some area or batching the "
+"large ortho-plan for faster uploading and optimizing its storage in the "
+"cloud."
 msgstr ""
 
 #: ../../source/api/data_api.rst:27
@@ -89,8 +89,8 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:83
 msgid ""
-"⚠️ The uploaded images are required to have the same georeference system, "
-"number of bands, and spatial resolution."
+"⚠️ The uploaded images are required to have the same georeference system,"
+" number of bands, and spatial resolution."
 msgstr ""
 
 #: ../../source/api/data_api.rst:85
@@ -102,12 +102,11 @@ msgid "Link image to the existing mosaic"
 msgstr ""
 
 #: ../../source/api/data_api.rst:91
-msgid ""
-"``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
+msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
 msgstr ""
 
 #: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:148
-#: ../../source/api/data_api.rst:230
+#: ../../source/api/data_api.rst:237
 msgid "Response example:"
 msgstr ""
 
@@ -116,8 +115,7 @@ msgid "Delete mosaic"
 msgstr ""
 
 #: ../../source/api/data_api.rst:116
-msgid ""
-"Deleting mosaic also deletes all linked images and they cannot be restored"
+msgid "Deleting mosaic also deletes all linked images and they cannot be restored"
 msgstr ""
 
 #: ../../source/api/data_api.rst:119
@@ -150,10 +148,11 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:138
 msgid ""
-"``GET https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
+"``GET "
+"https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:140
+#: ../../source/api/data_api.rst:140 ../../source/api/data_api.rst:198
 msgid "E.g.:"
 msgstr ""
 
@@ -199,7 +198,8 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:175
 msgid ""
-"This method allows to check user's storage usage against the available limit."
+"This method allows to check user's storage usage against the available "
+"limit."
 msgstr ""
 
 #: ../../source/api/data_api.rst:180
@@ -210,78 +210,160 @@ msgstr ""
 msgid ""
 "This is the early version of the Mapflow API to search for available "
 "satellite images provided by external data providers. The API aims to "
-"perform as a middle-tear between multiple data source and a :doc:`Mapflow "
-"Processing API <processing_api>`."
-msgstr ""
-
-#: ../../source/api/data_api.rst:187
-msgid "Get metadata of available images"
+"perform as a middle-tear between multiple imagery source and a "
+":doc:`Mapflow Processing API <processing_api>`. The API returns the "
+"search results by the imagery providers linked to the specific user. If "
+"no provider is linked to the user it returns all providers available. To "
+"run the processing one needs to get the provider linked to his user "
+"account."
 msgstr ""
 
 #: ../../source/api/data_api.rst:189
-msgid "``POST https://api.mapflow.ai/catalog/meta``"
+msgid "Get metadata of available images"
 msgstr ""
 
 #: ../../source/api/data_api.rst:191
-msgid "Returns a list of the images in GeoJSON, filtered by metadata. E.g.:"
+msgid "``POST https://api.mapflow.ai/catalog/meta``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:291
-msgid ""
-"``aoi`` (required) - the geometry of the area (GeoJSON, Lat Lon coordinates) "
-"to search imagery for. Currently the only type ``Polygon`` is supported."
+#: ../../source/api/data_api.rst:193
+msgid "``type: application/json``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:295
-msgid ""
-"The size of the area cannot exceed the size of processing AOI limit assigned "
-"to the specific user."
+#: ../../source/api/data_api.rst:196
+msgid "Returns a list of the available images, filtered by metadata."
 msgstr ""
 
-#: ../../source/api/data_api.rst:297
-msgid ""
-"``acquisitionDateFrom`` <> ``acquisitionDateTo`` (optional) - date/time "
-"format in UTC time zone according to ISO-8601. Determines the time range "
-"that the imagery acquisition date corresponds to."
+#: ../../source/api/data_api.rst
+msgid "``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``acquisitionDateFrom``: UTC time string"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``acquisitionDateTo``: UTC time string"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minResolution``: float, in meters"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxResolution``: float, in meters"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxCloudCover``: float, in percents"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``maxOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../../source/api/data_api.rst
+msgid "``minAoiIntersectionPercent``: float, in percents"
 msgstr ""
 
 #: ../../source/api/data_api.rst:299
-#, python-format
 msgid ""
-"``maxCloudCover`` (optional) - maxCloudCover — optional, a decimal number in "
-"the range 0 - 1 (corresponds to 0-100% cloud coverage). This parameter "
-"defines the maximum area of an image (in pixels) that was classified as "
-"covered by clouds."
-msgstr ""
-
-#: ../../source/api/data_api.rst:301
-msgid ""
-"``maxResolution`` - optional, defines the maximum allowed resolution in m / "
-"pixel"
+"The size of the search area cannot exceed the size of processing AOI "
+"limit assigned to the specific user."
 msgstr ""
 
 #: ../../source/api/data_api.rst:303
+msgid "Run processing by image ID"
+msgstr ""
+
+#: ../../source/api/data_api.rst:305
 msgid ""
-"``minResolution`` - optional, defines the minimum allowed resolution in m / "
-"pixel"
+"For detailed description how to run a processing with Mapflow API see "
+":doc:`Mapflow Processing API <processing_api>` – \"Create processing\". "
+"To run a processing using the specific image returned by Search API "
+"define **provider** and **image ID** in the params as follows:"
 msgstr ""
 
-#: ../../source/api/data_api.rst:307
-msgid "Get metadata by image ID"
-msgstr ""
-
-#: ../../source/api/data_api.rst:309
-msgid "``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``"
-msgstr ""
-
-#: ../../source/api/data_api.rst:317
-msgid "You can get ``image_id`` from ``processing.params.url``"
+#: ../../source/api/data_api.rst:308
+msgid "``{\"params\": {\"data_provider\":<providerName>, \"url\":<id>}}``"
 msgstr ""
 
 #~ msgid "Authorization"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The API uses the ``Basic Auth`` authorization method, for details about "
-#~ "how it works, click :doc:`here <../userguides/mapflow_auth>`."
+#~ "The API uses the ``Basic Auth`` "
+#~ "authorization method, for details about "
+#~ "how it works, click :doc:`here "
+#~ "<../userguides/mapflow_auth>`."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "This is the early version of the"
+#~ " Mapflow API to search for available"
+#~ " satellite images provided by external "
+#~ "data providers. The API aims to "
+#~ "perform as a middle-tear between "
+#~ "multiple data source and a :doc:`Mapflow"
+#~ " Processing API <processing_api>`."
+#~ msgstr ""
+
+#~ msgid "Returns a list of the images in GeoJSON, filtered by metadata. E.g.:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``aoi`` (required) - the geometry of "
+#~ "the area (GeoJSON, Lat Lon coordinates)"
+#~ " to search imagery for. Currently the"
+#~ " only type ``Polygon`` is supported."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size of the area cannot exceed"
+#~ " the size of processing AOI limit "
+#~ "assigned to the specific user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``acquisitionDateFrom`` <> ``acquisitionDateTo`` "
+#~ "(optional) - date/time format in UTC "
+#~ "time zone according to ISO-8601. "
+#~ "Determines the time range that the "
+#~ "imagery acquisition date corresponds to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``maxCloudCover`` (optional) - maxCloudCover —"
+#~ " optional, a decimal number in the"
+#~ " range 0 - 1 (corresponds to "
+#~ "0-100% cloud coverage). This parameter "
+#~ "defines the maximum area of an "
+#~ "image (in pixels) that was classified"
+#~ " as covered by clouds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``maxResolution`` - optional, defines the "
+#~ "maximum allowed resolution in m / "
+#~ "pixel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``minResolution`` - optional, defines the "
+#~ "minimum allowed resolution in m / "
+#~ "pixel"
+#~ msgstr ""
+
+#~ msgid "Get metadata by image ID"
+#~ msgstr ""
+
+#~ msgid "``GET https://api.mapflow.ai/rest/catalog/meta/{image_id}``"
+#~ msgstr ""
+
+#~ msgid "You can get ``image_id`` from ``processing.params.url``"
+#~ msgstr ""
+
