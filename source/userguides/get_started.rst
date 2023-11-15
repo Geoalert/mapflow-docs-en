@@ -103,6 +103,18 @@ Mapflow supports RGB imagery and also process single-band (panchromatic) imagery
 
 This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
+About *Draw Polygon* tool:
+
+There may be confusion when drawing AOI using this tool, however, everything is quite simple. The area in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted with yellow hatching):
+
+.. image:: _static/bbox_explanation.png
+  :alt: Bounding Box
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
 .. attention::
   Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
