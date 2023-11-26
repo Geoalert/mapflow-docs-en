@@ -365,7 +365,7 @@ To start processing using this data source, go to the *Processing* tab, fill in 
 How to upload your image
 -------------------------
 
-You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. Opening files from the *Additional options* button (3) also adds it to the tree of QGIS layers.
+You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload.
 
  .. figure:: _static/qgis/upload_tif.png
          :alt: Upload TIF, select from list
