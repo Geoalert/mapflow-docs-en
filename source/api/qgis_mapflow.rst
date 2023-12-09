@@ -132,7 +132,7 @@ Tabs section contains 4 tabs:
 
 .. _Providers:
 
-1. Imagery search
+2. Imagery search
 ~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/Providers_tab.png
@@ -217,7 +217,7 @@ Here you can configure how the processing results will be uploaded to QGIS. Ther
 
 .. _Help:
 
-1. Help
+4. Help
 ~~~~~~~~
 
 The tab contains all useful links to the plugin documentation.
