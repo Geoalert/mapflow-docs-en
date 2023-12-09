@@ -89,14 +89,15 @@ Tabs section contains 4 tabs:
          :width: 15cm
          :class: with-border no-scaled-link 
 
+|
 
-**Start processings and display the output on the map**
+**Explanation of the fields and buttons of this tab:**
 
-.. list-table::
+.. list-table:: Fields
    :widths: 5 10
    :header-rows: 1
 
-   * - Name of the field / button
+   * - Name of the field
      - Description
    * - Name
      - Your processing name.
@@ -111,12 +112,20 @@ Tabs section contains 4 tabs:
    * - Created
      - The date-time of the processing creation.
 
+.. list-table:: Buttons
+   :widths: 5 10
+   :header-rows: 1
 
-This tab contains also two buttons: *Download results* and *Delete* buttons.
-
-*Download results* - downloading the results of completed processing. 
-
-*Delete* - delete selected processing/processings. 
+   * - Name of the button
+     - Description
+   * - View results
+     - Shows the results of completed processing in QGIS layers.
+   * - See details
+     - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
+   * - Save results
+     - Saves processing results to GeoJSON file. 
+   * - Delete
+     - Deletes selected processing/processings.
 
 .. hint::
     To download the processing results, you can double-click on the completed processing in the list
@@ -159,7 +168,6 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
    * - Additional Filters
      - Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.
 
-
 .. hint::
     You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
@@ -171,9 +179,13 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
 3. Settings
 ~~~~~~~~~~~~~
 
-*Edit imagery providers available to the plugin*
+.. figure:: _static/qgis/settings_tab.png
+         :alt: View of the providers tab
+         :align: center
+         :width: 15cm
 
-.. list-table::
+|
+.. list-table:: Edit imagery providers available to the plugin
    :widths: auto
    :header-rows: 1
 
@@ -188,10 +200,20 @@ This tab contains also two buttons: *Download results* and *Delete* buttons.
    * - "Edit" button
      - Opens dialog to edit custom data provider
 
+Here you can configure how the processing results will be uploaded to QGIS. There are two ways:
 
-This tab contains also *Output directory* button. 
+1. ``view result as a vector layer``
+   - This is streaming vector tiles directly from our server, which allows you to view results of the processings without downloading full results file, so it will be faster for big processings.
+2. ``save local gpkg file to view results``
+   - Saving local gpkg files on your disk for further loading as QGIS layers.
 
-*Output directory* - set up where the processing results will be loaded on your local disk.
+.. warning::
+  Vector tiles are an experimental feature for us, so choose the method that is convenient for you.
+
+.. hint::
+    This tab contains also *Output directory* button. 
+
+    *Output directory* - set up where the processing results will be loaded on your local disk If the ``save local gpkg file to view result`` option is selected.
 
 .. _Help:
 
@@ -211,12 +233,14 @@ The plugin has several built-in options for creating AOI.
    1. Create new AOI from the map canvas extent using the "+" button;
 
    2. Upload the existing AOI using the "+" button;
+   
+   3. Draw AOI at the map;
 
-   3. Use the extent of the uploaded image;
+   4. Use the extent of the uploaded image.
 
-  Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
+Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
 
-  .. figure:: _static/qgis/AOI_button.jpg
+  .. figure:: _static/qgis/AOI_button.png
          :alt: View of the aoi 
          :align: center
          :width: 15cm
@@ -397,17 +421,21 @@ You can send a request for data preprocessing to help@geoalert.io
 Work with results
 ------------------
 
-Download the results
+View the results
 ~~~~~~~~~~~~~~~~~~~~~
 
-The processing results that are 100% complete can be downloaded as a vector file to your local directory and automatically added as layer to QGIS workspace.
+The processing results that are 100% complete can be downloaded as a vector file to your local directory or streaming as a vector tiles and automatically added as layer to QGIS workspace.
 
-Double click on the processing name in the :ref:`Processing` Table or select it and push the button "Download results".
+Double click on the processing name in the :ref:`Processing` Table or select it and push the button "View results".
 The layer will appear in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder "Mapflow".
 You can work with it further as with the usual vector layer in QGIS.
 
 .. note::
   If the default AI model is used, the plugin automatically assigns predefined styles to the vector layer. For all custom models / pipelines the single default style is assigned. You can always change it.
+
+Save results
+~~~~~~~~~~~~~~~~~~~~~~
+The processing results, which are 100% complete, can be downloaded in GeoJSON format, to do this, click on the ``Save results`` button, select output directory in the window that appears and name the file to be saved.
 
 Delete the processing
 ~~~~~~~~~~~~~~~~~~~~~~
