@@ -123,7 +123,7 @@ Tabs section contains 4 tabs:
    * - See details
      - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
    * - Save results
-     - Saves processing results in GeoJSON. 
+     - Saves processing results to GeoJSON file. 
    * - Delete
      - Deletes selected processing/processings.
 
