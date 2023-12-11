@@ -3,58 +3,74 @@
 # This file is distributed under the same license as the Mapflow package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow \n"
+"Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 18:04+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-12-01 18:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: ../../source/forest/classes.rst:3
 msgid "Forest Mapping classes"
-msgstr ""
+msgstr "Классы Лесного Картографирования"
 
 #: ../../source/forest/classes.rst:5
 msgid ""
 "Here is presented a list of classes for the Forest vegetation Mapping "
 "Model. There are two options for forest semantic classification:"
 msgstr ""
+"Здесь представлен список классов для Модели Картографирования Лесной "
+"растительности. Существует два варианта семантической классификации "
+"лесов:"
 
 #: ../../source/forest/classes.rst:8
 msgid ""
-"Classification by heights – classification of the areas of vegetation and"
-" shrub vegetation by height classes according to the specified "
+"Classification by heights – classification of the areas of vegetation "
+"and shrub vegetation by height classes according to the specified "
 "thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are "
 "polygonized in separate features, the height class is indicated in its "
 "properties. Heights thresholds are customizable values in the processing "
 "pipeline."
 msgstr ""
+"Классификация по высотам – классификация участков растительности и "
+"кустарниковой растительности по классам высоты в соответствии с "
+"указанными пороговыми значениями: 0-4 м, 4-10 м, 10+ м. Лесные массивы "
+"каждого класса высот полигонизируются в виде отдельных объектов, класс "
+"высот указывается в его свойствах. Пороговые значения высот - это "
+"настраиваемые значения в пайплайне обработки."
 
 #: ../../source/forest/classes.rst:10
 msgid ""
 "Classification by overgrowth density – classification of the area of "
-"vegetation and shrub vegetation into classes according to the density and"
-" height: high forest, low (growing) forest, open woodland, and shrub."
+"vegetation and shrub vegetation into classes according to the density "
+"and height: high forest, low (growing) forest, open woodland, and shrub."
 msgstr ""
+"Классификация по плотности зарослей – классификация площади "
+"растительности и кустарниковой растительности на классы в зависимости от "
+"плотности и высоты: высокий лес, низкорослый (растущий) лес, открытые "
+"лесные массивы и кустарник."
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "CLASS_ID"
-msgstr ""
+msgstr "ID_КЛАССА"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "DENSITY"
-msgstr ""
+msgstr "ПЛОТНОСТЬ"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "00m-04m"
@@ -62,7 +78,7 @@ msgstr ""
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "low vegetation"
-msgstr ""
+msgstr "низкая растительность"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "04m-10m"
@@ -70,11 +86,11 @@ msgstr ""
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "dense/sparse"
-msgstr ""
+msgstr "плотный/разреженный"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "medium forest"
-msgstr ""
+msgstr "средний лес"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "10m-99m"
@@ -82,34 +98,4 @@ msgstr ""
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "high forest"
-msgstr ""
-
-#~ msgid ""
-#~ "Here is presented a list of "
-#~ "classes for Foret vegetation Mapping "
-#~ "Model. There two options for forest "
-#~ "semantic classification:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Classification by heights – classification "
-#~ "the areas of vegetation and shrub "
-#~ "vegetation by height classes according "
-#~ "to the specified thresholds: 0-4 m, "
-#~ "4-10 m, 10+ m. Forest areas of "
-#~ "each height class are polygonized in "
-#~ "separate features, the height class is"
-#~ " indicated in its properties. Heights "
-#~ "thresholds are customizable values in "
-#~ "the processing pipeline."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Classification by overgrowth density – "
-#~ "classification of the area of "
-#~ "vegetations and shrub vegetation into "
-#~ "classes according to the density and "
-#~ "height: high forest, low (growing) "
-#~ "forest, open woodland, shrub."
-#~ msgstr ""
-
+msgstr "высокий лес"

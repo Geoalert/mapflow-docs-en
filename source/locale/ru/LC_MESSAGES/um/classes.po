@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 18:04+0530\n"
-"PO-Revision-Date: 2023-11-07 01:30+0700\n"
+"PO-Revision-Date: 2023-12-01 17:47+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -22,27 +22,27 @@ msgstr ""
 
 #: ../../source/um/classes.rst:3
 msgid "Urban Mapping classes"
-msgstr ""
+msgstr "Классы Urban Mapping"
 
 #: ../../source/um/classes.rst:6
 msgid "Reference"
-msgstr ""
+msgstr "Справка"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "CLASS_ID"
-msgstr ""
+msgstr "ID_КЛАССА"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "CLASS NAME"
-msgstr ""
+msgstr "ИМЯ КЛАССА"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "ОПИСАНИЕ"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "OSM refereral tag"
-msgstr ""
+msgstr "Ссылочный тег OSM"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "101"
@@ -50,11 +50,11 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Apartment building"
-msgstr ""
+msgstr "Многоэтажное здание"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Roof footprints of the multistorey apartment buildings"
-msgstr ""
+msgstr "Отпечатки крыш многоэтажных жилых домов"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "building=yes building=residential building=appartments"
@@ -66,11 +66,12 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "House"
-msgstr ""
+msgstr "Дом"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Mostly private houses (usually represents a single household)"
 msgstr ""
+"В основном частные дома (обычно представляет собой одно домашнее хозяйство)"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "building=house building=residential"
@@ -82,11 +83,11 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Industrial building"
-msgstr ""
+msgstr "Промышленное здание"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Mostly industrial (Plants, large hangars, warehouses, etc.)"
-msgstr ""
+msgstr "В основном промышленные (заводы, большие ангары, склады и т.д.)"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "building=industrial"
@@ -98,11 +99,11 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Commercial building"
-msgstr ""
+msgstr "Коммерческое здание"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Offices, retail, etc."
-msgstr ""
+msgstr "Офисы, розничная торговля и т.д."
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "building=commercial"
@@ -114,15 +115,16 @@ msgstr ""
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Other non-residential buildings"
-msgstr ""
+msgstr "Другие нежилые здания"
 
 #: ../../source/um/_static/csv/classes_um.csv:1
 msgid "Garages, transformer boxes, small hangars, etc."
-msgstr ""
+msgstr "Гаражи, трансформаторные будки, небольшие ангары и т.д."
 
 #: ../../source/um/classes.rst:18
 msgid "Urban Mapping visualization with ArcGIS Online, Carto, and EverGIS online"
 msgstr ""
+"Визуализация Urban Mapping с помощью ArcGIS Online, Carto и EverGIS online"
 
 #: ../../source/um/classes.rst:20
 msgid ""
@@ -132,6 +134,11 @@ msgid ""
 "frameworks (e.g. Leaflet or Mapbox) and GIS software like QGIS or the ArcGIS "
 "Suite."
 msgstr ""
+"Mapflow Web легко обрабатывает изображения и извлекает векторные объекты, "
+"которые можно загрузить в формате **GeoJSON**. Мы рекомендуем использовать "
+"GeoJSON, поскольку это стандарт де-факто в веб-картографии. Он изначально "
+"поддерживается веб-картографическими фреймворками (например, Leaflet или "
+"Mapbox) и ГИС-программным обеспечением, таким как QGIS или пакетом ArcGIS."
 
 #: ../../source/um/classes.rst:24
 msgid ""
@@ -143,16 +150,23 @@ msgid ""
 "processing results stored in GeoJSON. You are able to download or “Open with "
 "**geojson.io**”."
 msgstr ""
+"GeoJSON - это открытый стандартный формат, предназначенный для представления "
+"простых географических объектов вместе с их непространственными атрибутами. Он "
+"основан на формате JSON. К объектам относятся точки, полилинии (модель дороги "
+"Mapflow), полигоны (контуры зданий Mapflow, маски лесов и полей) или коллекции "
+"из нескольких частей этих типов. Mapflow предоставляет различные варианты "
+"действий с результатами обработки, хранящимися в GeoJSON. Вы можете загрузить "
+"или “Открыть с помощью **geojson.io**”."
 
 #: ../../source/um/classes.rst:-1 ../../source/um/classes.rst:33
 #: ../../source/um/classes.rst:50 ../../source/um/classes.rst:58
 #: ../../source/um/classes.rst:66
 msgid "Interaction panel"
-msgstr ""
+msgstr "Панель взаимодействия"
 
 #: ../../source/um/classes.rst:33
 msgid "Open with geojson.io"
-msgstr ""
+msgstr "Открыть в geojson.io"
 
 #: ../../source/um/classes.rst:36
 msgid ""
@@ -160,6 +174,9 @@ msgid ""
 "a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click “Save” and "
 "select the format in the menu bar."
 msgstr ""
+"`Geojson.io <https://geojson.io>`_ позволяет вам просматривать и сохранять "
+"результаты в разных форматах (CSV, KML, TopoJSON, WKT, Shapefile). Нажмите "
+"“Сохранить” и выберите формат в панели меню."
 
 #: ../../source/um/classes.rst:43
 msgid ""
@@ -168,15 +185,20 @@ msgid ""
 "<https://youtu.be/ZG5fVut87ZQ>`_ about how to upload and style a building "
 "classification results with ArcGIS online, Carto, and Evergis online."
 msgstr ""
+"Использование GeoJSON позволяет вам использовать только drag&drop для "
+"визуализации выходных результатов Mapflow в многочисленных веб-ГИС без "
+"преобразования форматов данных. `Смотрите это видео <https://youtu.be/"
+"ZG5fVut87ZQ>`_ о том, как загружать и оформлять результаты классификации "
+"зданий с помощью ArcGIS online, Carto и Evergis online."
 
 #: ../../source/um/classes.rst:50
 msgid "Urban Mapping classes in ArcGIS online"
-msgstr ""
+msgstr "Классы Urban Mapping в ArcGIS online"
 
 #: ../../source/um/classes.rst:58
 msgid "Urban Mapping classes in Carto"
-msgstr ""
+msgstr "Классы Urban Mapping в Carto"
 
 #: ../../source/um/classes.rst:66
 msgid "Urban Mapping classes in Evergis Online"
-msgstr ""
+msgstr "Классы Urban Mapping в Evergis Online"
