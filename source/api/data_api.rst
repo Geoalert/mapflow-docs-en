@@ -43,8 +43,8 @@ Creates the mosaic (the empty collection of images) and returns its ID.
         ]
     }'
 
-Creates mosaic and uploads images to the mosaic
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create mosaic and upload images to mosaic
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
@@ -77,7 +77,7 @@ Update mosaic
     }'
 
 Upload images to the existing mosaic
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. attention::
     ⚠️ The uploaded images are required to have the same georeference system, number of bands, and spatial resolution.   
@@ -107,6 +107,47 @@ Response example:
     "message": "File successfully linked to a mosaic",
     "mosaic_id": "6ee95ae6-f26e-41bd-8cb1-39bea545119f"
     }
+
+
+Get images by mosaic ID
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}\image``
+
+Response example:
+
+.. code:: json
+
+    [
+        {
+            "id": "6ae7f9e9-da2d-41e0-b16f-83396003af57",
+            "image_url": "s3://users-data/user@email.com_eaf9e720-c6de-4d9b-8aec-52296d43f0c4/90fe01b2-8c21-4d5b-9d4f-143b05d3e986/6ae7f9e9-da2d-41e0-b16f-83396003af57.tif",
+            "preview_url_l": "https://api.mapflow.ai/rest/rasters/image/6ae7f9e9-da2d-41e0-b16f-83396003af57/preview/l",
+            "preview_url_s": "https://api.mapflow.ai/rest/rasters/image/6ae7f9e9-da2d-41e0-b16f-83396003af57/preview/s",
+            "uploaded_at": "2023-01-26T13:58:32.122099",
+            "file_size": 68417439,
+            "footprint": "POLYGON ((1.991514383583533 48.76433046008412, 1.991514383583533 48.77553902852908, 1.968476220399751 48.77553902852908, 1.968476220399751 48.76433046008412, 1.991514383583533 48.76433046008412))",
+            "filename": "bd8b9969505748898adac2cfa80d3425.tif",
+            "checksum": "9d2d9e9bd347fc5204e5fd1add0982aadff21f17",
+            "meta_data": {
+                "crs": "EPSG:32631",
+                "count": 3,
+                "width": 5589,
+                "dtypes": [
+                    "uint8",
+                    "uint8",
+                    "uint8"
+                ],
+                "height": 4079,
+                "nodata": null,
+                "pixel_size": [
+                    0.3000000000000021,
+                    0.3000000000000457
+                ]
+            },
+            "cog_link": "s3://users-data/user@email.com_eaf9e720-c6de-4d9b-8aec-52296d43f0c4/90fe01b2-8c21-4d5b-9d4f-143b05d3e986/cog/area-1101712.tif"
+        }
+    ]
 
 
 Delete mosaic

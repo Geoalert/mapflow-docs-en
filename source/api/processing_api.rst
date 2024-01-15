@@ -369,7 +369,9 @@ Example of the failed processing response:
     }
 
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
- 
+
+
+.. _Create processing:
 
 Create processing
 ^^^^^^^^^^^^^^^^^^^
@@ -563,29 +565,10 @@ Returns Geojson results of this processing as an octet stream. Should only be ca
 Upload images
 ----------------------------
 
-.. warning::
-   This is the legacy method and is going to be deprecated. Use the new :ref:`Data API` instead.
+.. note::
 
-``POST https://api.mapflow.ai/rest/rasters``
-
-Can be used to upload a raster for further processing. Returns url to the uploaded raster. This url can be referenced when starting a processing.  
-The request is a multipart request whith the only part "file" - which contains the raster.
-Request example with ``cURL``:  
-
-    .. code:: bash
-
-          curl -X POST \
-          https://api.mapflow.ai/rest/rasters \
-          -H 'authorization: <Insert auth header value>' \
-          -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-          -F file=@custom_raster.tif
-
-
-
-Response example:  
-
-``{"url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"}``
-
+  1. Use :ref:`Data API` to create a mosaic and upload one or more images
+  2. Use s3 link from the ``"image_url"`` as an ``"url"`` param to :ref:`Create processing`
 
 
 Parameter values

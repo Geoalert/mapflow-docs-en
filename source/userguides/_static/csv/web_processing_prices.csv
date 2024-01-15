@@ -6,7 +6,7 @@ High-density housing, 5,  "\-"
 Buildings (Aerial imagery), 25, Simplification: 3
 Constructions, 4, "\-"
 Agriculture fields, 5, "\-"
-Forest, 8, "\-"
+Forest, 8, "Heights estimation: 20"
 Roads, 5, "\-"
 Segment-Anything, 1, "| Zoom 14: 1
 | Zoom 16: 3
