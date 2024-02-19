@@ -74,7 +74,7 @@ You will receive the following message, **restart** QGIS before the next steps.
 
 You will be redirected to the browser to log in/register in the mapflow system:
 
-.. figure:: _static/qgis/mapflow_login.png
+.. figure:: _static/qgis/mapflow_login.jpg
          :align: center
          :width: 18cm
 
