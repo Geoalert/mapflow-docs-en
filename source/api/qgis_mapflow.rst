@@ -35,12 +35,74 @@ How to login
 
 You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_.
 
-.. figure:: _static/qgis/login_window.png
+.. figure:: _static/qgis/login_window_w_oauth.jpg
          :alt: Login window
          :align: center
          :width: 9cm
 
 |
+
+Or you can use the `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_ protocol as a more convenient and secure way.
+
+.. warning::
+  Logging in with OAuth is a convenient feature, but still experimental for us.
+
+  Also keep in mind that at the moment this feature does not support proxies.
+
+OAuth2 setup
+~~~~~~~~~~~~
+**1. Select the** ``Use OAuth2`` **option in the login window**
+
+.. figure:: _static/qgis/login_oauth_window.jpg
+         :alt: OAuth login window
+         :align: center
+         :width: 9cm
+
+|
+
+**2. Click** ``Log in`` **button**
+
+You will receive the following message, **restart** QGIS before the next steps.
+
+.. figure:: _static/qgis/oauth_restart_qgis_message.jpg
+         :align: center
+         :width: 12cm
+
+|
+
+**3. After restarting QGIS, click** ``Log in``
+
+You will be redirected to the browser to log in/register in the mapflow system:
+
+.. figure:: _static/qgis/mapflow_login.png
+         :align: center
+         :width: 18cm
+
+|
+
+After successfully logging in, you will receive a message about the successful verification of QGIS OAuth2:
+
+.. figure:: _static/qgis/oauth_message.jpg
+         :align: center
+         :width: 15cm
+
+|
+.. note:: 
+  You can close this page
+
+**4. Go back to QGIS**
+
+OAuth login completed!
+
+.. important::
+  If you have serious problems with authorization, you can delete the authentication config by going to ``Settings -> Options -> Authentication``, select the config and remove it:
+
+  .. figure:: _static/qgis/delete_oauth_config.jpg
+         :align: center
+         :width: 18cm
+
+|
+  
 
 User interface
 --------------
@@ -179,13 +241,14 @@ Tabs section contains 4 tabs:
 3. Settings
 ~~~~~~~~~~~~~
 
-.. figure:: _static/qgis/settings_tab.png
+.. figure:: _static/qgis/settings_tab_w_projects.jpg
          :alt: View of the providers tab
          :align: center
          :width: 15cm
 
 |
 .. list-table:: Edit imagery providers available to the plugin
+   :align: center
    :widths: auto
    :header-rows: 1
 
@@ -193,6 +256,8 @@ Tabs section contains 4 tabs:
      - Description
    * - Imagery providers
      - Drop-down list with additional satellite imagery providers.
+   * - Mapflow project
+     - Drop-down list with mapflow projects on you account.
    * - "Add" button
      - Button for adding a source of images. 
    * - "Delete" button
