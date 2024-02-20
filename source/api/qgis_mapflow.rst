@@ -44,10 +44,6 @@ You need to log in with your credentials to start using the plugin. Go to `mapfl
 
 Or you can use the `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_ protocol as a more convenient and secure way.
 
-.. note::
-  
-
-
 .. warning::
   Logging in with OAuth is a convenient feature, but still experimental for us.
 
@@ -55,68 +51,8 @@ Or you can use the `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_ protocol a
 
 OAuth2 setup
 ~~~~~~~~~~~~
-**1. Select the** ``Use OAuth2`` **option in the login window**
 
-.. figure:: _static/qgis/login_oauth_window.png
-         :alt: OAuth login window
-         :align: center
-         :width: 9cm
-
-|
-
-**2. Set the master password**
-
-You will be prompted to set a new `master authentication password <https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-password>`_ - qgis feature to ensure the security of sensitive information storage.
-
-.. figure:: _static/qgis/master_password.png
-         :align: center
-         :width: 9cm
-
-|
-
-**3. Click** ``Log in`` **button**
-
-You will receive the following message, **restart** QGIS before the next steps.
-
-.. figure:: _static/qgis/oauth_restart_qgis_message.png
-         :align: center
-         :width: 12cm
-
-|
-
-**4. After restarting QGIS, click** ``Log in``
-
-You will be redirected to the browser to log in/register in the mapflow system:
-
-.. figure:: _static/qgis/mapflow_login.png
-         :align: center
-         :width: 18cm
-
-|
-
-After successfully logging in, you will receive a message about the successful verification of QGIS OAuth2:
-
-.. figure:: _static/qgis/oauth_message.png
-         :align: center
-         :width: 15cm
-
-|
-.. note:: 
-  You can close this page
-
-**5. Go back to QGIS**
-
-OAuth login completed!
-
-.. important::
-  If you have serious problems with authorization, you can delete the authentication config by going to ``Settings -> Options -> Authentication``, select the config and remove it:
-
-  .. figure:: _static/qgis/delete_oauth_config.png
-         :align: center
-         :width: 18cm
-
-|
-  
+Information on how to log in using OAuth can be found in :doc:`this section <../userguides/howto>`.
 
 User interface
 --------------
