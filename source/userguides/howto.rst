@@ -3,6 +3,13 @@
 Userguides - How To
 ===================
 
+.. _oauth2_setup:
+
+How to set up log in using OAuth2
+---------------------------------
+
+.. include:: oauth2_setup.rst
+
 How to change the data type of your image to Uint8 bit in QGIS
 --------------------------------------------------------------
 
