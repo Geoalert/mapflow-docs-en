@@ -20,7 +20,7 @@ Manage Imagery Mosaics
 -------------------------
 
 .. note::
-    What is "mosaic"? This is the collection of single images, aimed at instant preview and processing. It's helpful in such cases as mosaicing the number of single aerial images covering some area or batching the large ortho-plan for faster uploading and optimizing its storage in the cloud.
+    What is "mosaic"? This is the collection of images, aimed at instant preview and processing. It's helpful in such cases as collecting and mosaicing the number of single aerial images covering some area or batching the large orthomap for faster uploading and optimizing its storage in the cloud.
 
 
 Create mosaic

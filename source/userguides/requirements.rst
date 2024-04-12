@@ -8,8 +8,9 @@ Upload GeoTIFF requirements
     Please pay attention to the following:
 
     * Images you upload are preprocessed in `Uint8` format. If your image is not of this type and you want to preview it manually bafore uploading to the Mapflow server, please use our `image preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to translate it to the appropriate format;
-    * Your imagery must be georeferenced in geographic or projected coordinate system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;
+    * Your image must be georeferenced in geographic or projected coordinate system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;
     * Your image is supposed to be RGB composite, RGBa and Singleband will work as well*;
+    * The default limit for file size is 1Gb. If you have a bigger file – reduce its size or consider switching to the paid plan 
     * Each Mapflow model has its recommendations for the spatial resolution of the input data, see :ref:`Model requirements` below
 
 In case of non-compliance with any requirements, the system reports an error. 
