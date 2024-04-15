@@ -98,7 +98,7 @@ Tabs section contains 4 tabs:
 .. figure:: _static/qgis/processing_tab.png
          :alt: View of the processing tab
          :align: center
-         :width: 15cm
+         :width: 18cm
          :class: with-border no-scaled-link 
 
 |
@@ -132,12 +132,18 @@ Tabs section contains 4 tabs:
      - Description
    * - View results
      - Shows the results of completed processing in QGIS layers.
-   * - See details
-     - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
-   * - Save results
-     - Saves processing results to GeoJSON file. 
    * - Delete
      - Deletes selected processing/processings.
+   * - Options
+     - A list of options for working with the results of processings.
+   * - Save results
+     - Saves processing results to GeoJSON file. 
+   * - Download AOI
+     - Adds processing AOI to qgis as a layer, for further work or export.
+   * - See details
+     - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
+   * - Rename
+     - Renames your processing.
 
 .. hint::
     To download the processing results, you can double-click on the completed processing in the list
@@ -194,10 +200,10 @@ Tabs section contains 4 tabs:
 .. figure:: _static/qgis/settings_tab_w_projects.png
          :alt: View of the providers tab
          :align: center
-         :width: 15cm
+         :width: 18cm
 
 |
-.. list-table:: Edit imagery providers available to the plugin
+.. list-table:: 
    :align: center
    :widths: auto
    :header-rows: 1
@@ -206,14 +212,20 @@ Tabs section contains 4 tabs:
      - Description
    * - Imagery providers
      - Drop-down list with additional satellite imagery providers.
-   * - Mapflow project
-     - Drop-down list with mapflow projects on you account.
-   * - "Add" button
+   * - "Add provider" button
      - Button for adding a source of images. 
-   * - "Delete" button
+   * - "Delete provider" button
      - Button for deleting the custom data provider.
-   * - "Edit" button
-     - Opens dialog to edit custom data provider
+   * - "Edit provider" button
+     - Opens dialog to edit custom data provider.
+   * - Select mapflow project
+     - Drop-down list with mapflow projects on you account.
+   * - "Add project" button
+     - Button for creating your new map flow project.
+   * - "Delete project" button
+     - Button for deleting the mapflow project.
+   * - "Edit project" button
+     - Button for editing the mapflow project.
 
 Here you can configure how the processing results will be uploaded to QGIS. There are two ways:
 
