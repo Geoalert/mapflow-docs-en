@@ -5,162 +5,122 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Mapflow\n"
+"Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 11:54+0530\n"
-"PO-Revision-Date: 2023-12-10 23:39+0700\n"
+"POT-Creation-Date: 2024-04-15 14:18+0700\n"
+"PO-Revision-Date: 2024-04-19 14:28+0700\n"
 "Last-Translator: \n"
-"Language: ru\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.13.0\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/api/qgis_mapflow.rst:2
 msgid "Mapflow <> QGIS"
 msgstr ""
 
 #: ../../source/api/qgis_mapflow.rst:5
-msgid ""
-"Mapflow can be used via QGIS. You need to autohorise :doc:`authorization "
-"to work with the Mapflow API <../userguides/mapflow_auth>` and get `API "
-"token <https://app.mapflow.ai/account/api>`_ to login."
-msgstr ""
-"Mapflow можно использовать через QGIS. Необходимо пройти "
-":doc:`авторизацию для работы с Mapflow API <../userguides/mapflow_auth>` "
-"и получить `API-токен <https://app.mapflow.ai/account/api>`_ для входа в "
-"систему."
+msgid "Mapflow can be used via QGIS. You need to autohorise :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>` and get `API token <https://app.mapflow.ai/account/api>`_ to login."
+msgstr "Mapflow можно использовать через QGIS. Необходимо пройти :doc:`авторизацию для работы с Mapflow API <../userguides/mapflow_auth>` и получить `API-токен <https://app.mapflow.ai/account/api>`_ для входа в систему."
 
 #: ../../source/api/qgis_mapflow.rst
 msgid "Preview results"
 msgstr "Просмотр результатов"
 
 #: ../../source/api/qgis_mapflow.rst:13
-msgid ""
-"Join Mapflow <> QGIS `open source project on Github "
-"<https://github.com/Geoalert/mapflow-qgis>`_."
-msgstr ""
-"Присоединяйтесь к Mapflow <> QGIS `open source project on Github "
-"<https://github.com/Geoalert/mapflow-qgis>`_."
+msgid "Join Mapflow <> QGIS `open source project on Github <https://github.com/Geoalert/mapflow-qgis>`_."
+msgstr "Присоединяйтесь к Mapflow <> QGIS `open source project on Github <https://github.com/Geoalert/mapflow-qgis>`_."
 
 #: ../../source/api/qgis_mapflow.rst:16
 msgid "What is QGIS"
 msgstr "QGIS – ГИС с открытым исходным кодом"
 
 #: ../../source/api/qgis_mapflow.rst:18
-msgid ""
-"QGIS (`qgis.org <https://www.qgis.org/>`_) is the leading and most "
-"popular Open Source Desktop GIS. Users can visualize, manage, edit, "
-"analyse geodata, and compose printable maps. Get a first impression with "
-"a more detailed feature list. Know more about QGIS and istall it from "
-"`official site <https://www.qgis.org/>`_."
-msgstr ""
-"QGIS (`qgis.org <https://www.qgis.org/>`_) — ведущая и самая популярная "
-"настольная ГИС с открытым исходным кодом. Пользователи могут "
-"визуализировать, управлять, редактировать, анализировать геоданные и "
-"составлять карты для печати. Узнайте больше о QGIS и установите программу"
-" через `официальный сайт <https://www.qgis.org/>`_."
+msgid "QGIS (`qgis.org <https://www.qgis.org/>`_) is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list. Know more about QGIS and istall it from `official site <https://www.qgis.org/>`_."
+msgstr "QGIS (`qgis.org <https://www.qgis.org/>`_) — ведущая и самая популярная настольная ГИС с открытым исходным кодом. Пользователи могут визуализировать, управлять, редактировать, анализировать геоданные и составлять карты для печати. Узнайте больше о QGIS и установите программу через `официальный сайт <https://www.qgis.org/>`_."
 
 #: ../../source/api/qgis_mapflow.rst:21
-msgid ""
-"QGIS has an interface for external Python plugins that allows to connect "
-"more apps and extend core functionallity. Our \"Mapflow - QGIS\" app "
-"enables connection to Mapflow :doc:`processing_api` to run AI-mapping and"
-" add output as layers to the QGIS workspace."
-msgstr ""
-"QGIS имеет интерфейс для внешних плагинов Python, который позволяет "
-"подключать больше приложений и расширять основные функциональные "
-"возможности. Наше приложение «Mapflow — QGIS» позволяет подключаться к "
-"Mapflow :doc:`processing_api`, чтобы запускать AI-картографические "
-"обработки и добавлять выходные результаты в виде слоев в рабочее "
-"пространство QGIS."
+msgid "QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our \"Mapflow - QGIS\" app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace."
+msgstr "QGIS имеет интерфейс для внешних плагинов Python, который позволяет подключать больше приложений и расширять основные функциональные возможности. Наше приложение «Mapflow — QGIS» позволяет подключаться к Mapflow :doc:`processing_api`, чтобы запускать AI-картографические обработки и добавлять выходные результаты в виде слоев в рабочее пространство QGIS."
 
 #: ../../source/api/qgis_mapflow.rst:25
 msgid "How to install the plugin"
 msgstr "Как установить плагин"
 
 #: ../../source/api/qgis_mapflow.rst:27
-msgid ""
-"Click *Plugins* -–> *Manage...*, go to the *Not installed* (or *All*) tab"
-" and enter \"MapFlow\" in the search box. Click *Install Plugin*. You "
-"will be able to see then if the newer version of the app is available (in"
-" the Upgradeable tab) and to check the changelog for details."
-msgstr ""
-"Нажмите *Плагины* --> *Управление...*, перейдите на вкладку *Не "
-"установлены* (или *Все*) и введите «Mapflow» в поле поиска. Нажмите "
-"*Установить плагин*. Затем вы сможете увидеть, доступна ли более новая "
-"версия приложения (на вкладке Upgradeable), и проверить подробности в "
-"журнале изменений."
+msgid "Click *Plugins* -–> *Manage...*, go to the *Not installed* (or *All*) tab and enter \"MapFlow\" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details."
+msgstr "Нажмите *Плагины* --> *Управление...*, перейдите на вкладку *Не установлены* (или *Все*) и введите «Mapflow» в поле поиска. Нажмите *Установить плагин*. Затем вы сможете увидеть, доступна ли более новая версия приложения (на вкладке Upgradeable), и проверить подробности в журнале изменений."
 
 #: ../../source/api/qgis_mapflow.rst:29
-msgid ""
-"The plugin icon has appeared in the QGIS Toolbar. If the icon isn't "
-"automatically displayed, right-click on the Toolbar and check if the "
-"Mapflow checkbox is activated."
-msgstr ""
-"Значок плагина появился на панели инструментов QGIS. Если значок не "
-"отображается автоматически, щелкните правой кнопкой мыши на панели "
-"инструментов и проверьте, установлен ли флажок Mapflow."
+msgid "The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow checkbox is activated."
+msgstr "Значок плагина появился на панели инструментов QGIS. Если значок не отображается автоматически, щелкните правой кнопкой мыши на панели инструментов и проверьте, установлен ли флажок Mapflow."
 
 #: ../../source/api/qgis_mapflow.rst:34
 msgid "How to login"
 msgstr "Вход и авторизация"
 
 #: ../../source/api/qgis_mapflow.rst:36
-msgid ""
-"You need to log in with your credentials to start using the plugin. Go to"
-" `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token "
-"<https://app.mapflow.ai/account/api>`_."
-msgstr ""
-"Вам необходимо войти в систему с вашими учетными данными, чтобы начать "
-"использовать плагин. Перейдите на `mapflow.ai "
-"<https://app.mapflow.ai/>`_, зарегистрируйтесь и получите `токен API  "
-"<https://app.mapflow.ai/account/api>`_."
+msgid "You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_."
+msgstr "Вам необходимо войти в систему с вашими учетными данными, чтобы начать использовать плагин. Перейдите на `mapflow.ai <https://app.mapflow.ai/>`_, зарегистрируйтесь и получите `токен API  <https://app.mapflow.ai/account/api>`_."
 
 #: ../../source/api/qgis_mapflow.rst:-1
 msgid "Login window"
 msgstr "Окно входа"
 
-#: ../../source/api/qgis_mapflow.rst:46
+#: ../../source/api/qgis_mapflow.rst:45
+msgid "Or you can use the `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_ protocol as a more convenient and secure way."
+msgstr ""
+
+#: ../../source/api/qgis_mapflow.rst:48
+msgid "Logging in with OAuth is a convenient feature, but still experimental for us."
+msgstr ""
+
+#: ../../source/api/qgis_mapflow.rst:50
+msgid "Also keep in mind that at the moment this feature does not support proxies."
+msgstr ""
+
+#: ../../source/api/qgis_mapflow.rst:53
+msgid "OAuth2 setup"
+msgstr "Настройка OAuth2"
+
+#: ../../source/api/qgis_mapflow.rst:55
+msgid "Information on how to log in using OAuth can be found in :doc:`this section <../userguides/howto>`."
+msgstr "Информацию о том, как войти в систему с помощью OAuth, можно найти в :doc:`этой секции <../userguides/howto>`."
+
+#: ../../source/api/qgis_mapflow.rst:58
 msgid "User interface"
 msgstr "Пользовательский интерфейс"
 
-#: ../../source/api/qgis_mapflow.rst:48
-msgid ""
-"Main plugin workspace has two sections: left sidebar with the processing "
-"controls and the tabs section."
-msgstr ""
-"Основное рабочее пространство плагина состоит из двух разделов: левой "
-"боковой панели с элементами управления обработкой и раздела вкладок."
+#: ../../source/api/qgis_mapflow.rst:60
+msgid "Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section."
+msgstr "Основное рабочее пространство плагина состоит из двух разделов: левой боковой панели с элементами управления обработкой и раздела вкладок."
 
 #: ../../source/api/qgis_mapflow.rst:-1
 msgid "View of the main window"
 msgstr "Основное рабочее окно"
 
-#: ../../source/api/qgis_mapflow.rst:58
-msgid ""
-"Processing controls panel allows to start new processing and/or rate "
-"finished processings, and includes following:"
-msgstr ""
-"Панель управления обработкой позволяет начать новую обработку и/или "
-"оценить законченную обработку и включает в себя следующее:"
+#: ../../source/api/qgis_mapflow.rst:70
+msgid "Processing controls panel allows to start new processing and/or rate finished processings, and includes following:"
+msgstr "Панель управления обработкой позволяет начать новую обработку и/или оценить законченную обработку и включает в себя следующее:"
 
-#: ../../source/api/qgis_mapflow.rst:60
+#: ../../source/api/qgis_mapflow.rst:72
 msgid "**Processing controls panel**"
 msgstr "**Панель запуска обработки**"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-#: ../../source/api/qgis_mapflow.rst:99 ../../source/api/qgis_mapflow.rst:141
-#: ../../source/api/qgis_mapflow.rst:180 ../../source/api/qgis_mapflow.rst:355
+#: ../../source/api/qgis_mapflow.rst:168 ../../source/api/qgis_mapflow.rst:211
+#: ../../source/api/qgis_mapflow.rst:406
 msgid "Name of the field / button"
 msgstr "Имя поля / элемента"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-#: ../../source/api/qgis_mapflow.rst:100 ../../source/api/qgis_mapflow.rst:142
-#: ../../source/api/qgis_mapflow.rst:181 ../../source/api/qgis_mapflow.rst:356
+#: ../../source/api/qgis_mapflow.rst:113 ../../source/api/qgis_mapflow.rst:132
+#: ../../source/api/qgis_mapflow.rst:169 ../../source/api/qgis_mapflow.rst:212
+#: ../../source/api/qgis_mapflow.rst:407
 msgid "Description"
 msgstr "Описание"
 
@@ -173,46 +133,38 @@ msgid "Name of your processing"
 msgstr "Задайте имя обработки"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-#: ../../source/api/qgis_mapflow.rst:109 ../../source/api/qgis_mapflow.rst:151
+#: ../../source/api/qgis_mapflow.rst:122 ../../source/api/qgis_mapflow.rst:178
 msgid "Area"
 msgstr "Область"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-msgid ""
-"The area to be processed. This layer is automatically displayed in the "
-"drop-down list from the list of QGIS vector layers."
-msgstr ""
-"Область обработки. Этот слой автоматически отображается в выпадающем "
-"списке из списка векторных слоев QGIS."
+msgid "The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers."
+msgstr "Область обработки. Этот слой автоматически отображается в выпадающем списке из списка векторных слоев QGIS."
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
 msgid "Data source"
 msgstr "Источник данных"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-msgid ""
-"Base imagery to be processed. By default Mapbox is selected, in the drop-"
-"down list you can also select satellite images of the commercial "
-"providers. You can open your image through the additional options button."
+msgid "Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button."
+msgstr "Базовые изображения для обработки. По умолчанию выбран Mapbox, в выпадающем списке также можно выбрать спутниковые снимки коммерческих поставщиков. Вы можете открыть свое изображение через кнопку дополнительных опций."
+
+#: ../../source/api/_static/qgis/processing_controls_panel.csv:1
+#, fuzzy
+msgid "Show preview"
+msgstr "Просмотр"
+
+#: ../../source/api/_static/qgis/processing_controls_panel.csv:1
+msgid "A preview of your data source or, if it is not available, an OpenStreetMap basemap"
 msgstr ""
-"Базовые изображения для обработки. По умолчанию выбран Mapbox, в "
-"выпадающем списке также можно выбрать спутниковые снимки коммерческих "
-"поставщиков. Вы можете открыть свое изображение через кнопку "
-"дополнительных опций."
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
 msgid "Use image extent"
 msgstr "Использовать экстент изображения"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-msgid ""
-"This area becomes active if processing is performed on the .tif file. "
-"Allows you not to create an additional vector layer processing area for "
-"this image but takes its extent."
-msgstr ""
-"Эта область становится активной, если выполняется обработка файла .tif. "
-"Позволяет не создавать для данного изображения дополнительную область "
-"обработки векторного слоя, а берет ее экстент."
+msgid "This area becomes active if processing is performed on the .tif file. Allows you not to create an additional vector layer processing area for this image but takes its extent."
+msgstr "Эта область становится активной, если выполняется обработка файла .tif. Позволяет не создавать для данного изображения дополнительную область обработки векторного слоя, а берет ее экстент."
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
 msgid "Processing area"
@@ -227,16 +179,8 @@ msgid "AI Model"
 msgstr "Модель ИИ"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-msgid ""
-"Processing type. In the drop-down list, you can select the following "
-"processing types (default list of processing scenarios): Building "
-"Detection, Roads Detection, Forest Detection, Forest Detection With "
-"Heights, Construction Detection, Fields Detection."
-msgstr ""
-"Тип обработки. В выпадающем списке вы можете выбрать следующие типы "
-"обработки (список сценариев обработки по умолчанию): Распознавание "
-"зданий, Распознавание дорог, Распознавание леса, Распознавание леса с "
-"высотами, Распознавание строительства, Распознавание полей."
+msgid "Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
+msgstr "Тип обработки. В выпадающем списке вы можете выбрать следующие типы обработки (список сценариев обработки по умолчанию): Распознавание зданий, Распознавание дорог, Распознавание леса, Распознавание леса с высотами, Распознавание строительства, Распознавание полей."
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
 msgid "Your balance"
@@ -251,15 +195,8 @@ msgid "Start processing"
 msgstr "Начать обработку"
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
-msgid ""
-"New processing start button. You will see a notification about the "
-"successful start of processing, or about incorrectly selected parameters "
-"after clicking it. It will appear in the block for displaying and working"
-" with processing after a successful start of processing."
-msgstr ""
-"Кнопка запуска обработки. После нажатия на нее вы увидите уведомление об "
-"успешном начале обработки, либо о неверно выбранных параметрах. "
-"Ообработка появится в списке обработок после успешного запуска."
+msgid "New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
+msgstr "Кнопка запуска обработки. После нажатия на нее вы увидите уведомление об успешном начале обработки, либо о неверно выбранных параметрах. Ообработка появится в списке обработок после успешного запуска."
 
 #: ../../source/api/_static/qgis/processing_controls_panel.csv:1
 msgid "Stars for rating"
@@ -277,37 +214,31 @@ msgstr "Форма обратной связи"
 msgid "Comments about rating"
 msgstr "Комментарии по поводу оценки"
 
-#: ../../source/api/qgis_mapflow.rst:67
-msgid ""
-"Your current balance is dispayed in the Tob bar. It also contains menu to"
-" access you personal profile on Mapflow.ai: top up you balance; open "
-"billing history; log out of current session."
-msgstr ""
-"Ваш текущий баланс отображается на панели инструментов. Он также содержит"
-" меню для доступа к вашему личному профилю на Mapflow.ai: пополнить "
-"баланс; открыть историю платежей; выйти из текущего сеанса."
+#: ../../source/api/qgis_mapflow.rst:79
+msgid "Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session."
+msgstr "Ваш текущий баланс отображается на панели инструментов. Он также содержит меню для доступа к вашему личному профилю на Mapflow.ai: пополнить баланс; открыть историю платежей; выйти из текущего сеанса."
 
-#: ../../source/api/qgis_mapflow.rst:70
+#: ../../source/api/qgis_mapflow.rst:82
 msgid "Tabs section contains 4 tabs:"
 msgstr "Панель содержит 4 вкладки:"
 
-#: ../../source/api/qgis_mapflow.rst:72
+#: ../../source/api/qgis_mapflow.rst:84
 msgid ":ref:`Processing`"
 msgstr ""
 
-#: ../../source/api/qgis_mapflow.rst:74
+#: ../../source/api/qgis_mapflow.rst:86
 msgid ":ref:`Providers`"
 msgstr ""
 
-#: ../../source/api/qgis_mapflow.rst:76
+#: ../../source/api/qgis_mapflow.rst:88
 msgid ":ref:`Settings`"
 msgstr ""
 
-#: ../../source/api/qgis_mapflow.rst:78
+#: ../../source/api/qgis_mapflow.rst:90
 msgid ":ref:`Help`"
 msgstr ""
 
-#: ../../source/api/qgis_mapflow.rst:84
+#: ../../source/api/qgis_mapflow.rst:96
 msgid "1. Processing"
 msgstr "1. Обработка"
 
@@ -315,80 +246,131 @@ msgstr "1. Обработка"
 msgid "View of the processing tab"
 msgstr "Вид панели обработок"
 
-#: ../../source/api/qgis_mapflow.rst:93
-msgid "**Start processings and display the output on the map**"
-msgstr ""
+#: ../../source/api/qgis_mapflow.rst:106
+msgid "**Explanation of the fields and buttons of this tab:**"
+msgstr "**Пояснения к полям и кнопкам на этой вкладке:**"
 
-#: ../../source/api/qgis_mapflow.rst:101 ../../source/api/qgis_mapflow.rst:357
+#: ../../source/api/qgis_mapflow.rst:108
+msgid "Fields"
+msgstr "Поля"
+
+#: ../../source/api/qgis_mapflow.rst:112
+msgid "Name of the field"
+msgstr "Название поля"
+
+#: ../../source/api/qgis_mapflow.rst:114 ../../source/api/qgis_mapflow.rst:408
 msgid "Name"
 msgstr "Название"
 
-#: ../../source/api/qgis_mapflow.rst:102
+#: ../../source/api/qgis_mapflow.rst:115
 msgid "Your processing name."
 msgstr "Название вашей обработки."
 
-#: ../../source/api/qgis_mapflow.rst:103
+#: ../../source/api/qgis_mapflow.rst:116
 msgid "Model"
 msgstr "Модель"
 
-#: ../../source/api/qgis_mapflow.rst:104
+#: ../../source/api/qgis_mapflow.rst:117
 msgid "User-selected item from the list of available models."
 msgstr "Выбранная модель ИИ из списка доступных."
 
-#: ../../source/api/qgis_mapflow.rst:105
+#: ../../source/api/qgis_mapflow.rst:118
 msgid "Status"
 msgstr "Статус"
 
-#: ../../source/api/qgis_mapflow.rst:106
+#: ../../source/api/qgis_mapflow.rst:119
 msgid "Processing status: IN_PROGRESS, OK, FAILED."
 msgstr "Статус обработки: IN_PROGRESS, OK, FAILED."
 
-#: ../../source/api/qgis_mapflow.rst:107
+#: ../../source/api/qgis_mapflow.rst:120
 msgid "Progress"
 msgstr "Прогресс"
 
-#: ../../source/api/qgis_mapflow.rst:108
+#: ../../source/api/qgis_mapflow.rst:121
 msgid "The percentage of completeness of the processing."
 msgstr "Процент выполненной обработки."
 
-#: ../../source/api/qgis_mapflow.rst:110
+#: ../../source/api/qgis_mapflow.rst:123
 msgid "The processing area (AOI)."
 msgstr "Область обработки (AOI)."
 
-#: ../../source/api/qgis_mapflow.rst:111
+#: ../../source/api/qgis_mapflow.rst:124
 msgid "Created"
 msgstr "Дата"
 
-#: ../../source/api/qgis_mapflow.rst:112
+#: ../../source/api/qgis_mapflow.rst:125
 msgid "The date-time of the processing creation."
 msgstr "Дата-время создания обработки."
 
-#: ../../source/api/qgis_mapflow.rst:115
-#, fuzzy
-msgid ""
-"This tab contains also two buttons: *Download results* and *Delete* "
-"buttons."
-msgstr "Эта вкладка также содержит ссылку на \"Рабочую папку\"."
+#: ../../source/api/qgis_mapflow.rst:127
+msgid "Buttons"
+msgstr "Кнопки"
 
-#: ../../source/api/qgis_mapflow.rst:117
-#, fuzzy
-msgid "*Download results* - downloading the results of completed processing."
+#: ../../source/api/qgis_mapflow.rst:131
+msgid "Name of the button"
+msgstr "Название кнопки"
+
+#: ../../source/api/qgis_mapflow.rst:133
+msgid "View results"
+msgstr "Просмотр результатов"
+
+#: ../../source/api/qgis_mapflow.rst:134
+msgid "Shows the results of completed processing in QGIS layers."
 msgstr "Показывает результаты завершенной обработки в слоях QGIS."
 
-#: ../../source/api/qgis_mapflow.rst:119
-#, fuzzy
-msgid "*Delete* - delete selected processing/processings."
+#: ../../source/api/qgis_mapflow.rst:135
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../../source/api/qgis_mapflow.rst:136
+msgid "Deletes selected processing/processings."
 msgstr "Удаляет выбранную обработку/обработки."
 
-#: ../../source/api/qgis_mapflow.rst:122
-msgid ""
-"To download the processing results, you can double-click on the completed"
-" processing in the list"
-msgstr ""
-"Для загрузки результатов обработки можно дважды щелкнуть по выполненной "
-"обработке в списке"
+#: ../../source/api/qgis_mapflow.rst:137
+msgid "Options"
+msgstr "Опции"
 
-#: ../../source/api/qgis_mapflow.rst:127
+#: ../../source/api/qgis_mapflow.rst:138
+msgid "A list of options for working with the results of processings."
+msgstr "Список опций для работы с результатами обработок."
+
+#: ../../source/api/qgis_mapflow.rst:139 ../../source/api/qgis_mapflow.rst:464
+msgid "Save results"
+msgstr "Сохранить результаты"
+
+#: ../../source/api/qgis_mapflow.rst:140
+msgid "Saves processing results to GeoJSON file."
+msgstr "Сохраняет результаты обработки в файле GeoJSON."
+
+#: ../../source/api/qgis_mapflow.rst:141
+msgid "Download AOI"
+msgstr "Скачать область интереса"
+
+#: ../../source/api/qgis_mapflow.rst:142
+msgid "Adds processing AOI to qgis as a layer, for further work or export."
+msgstr "Добавляет AOI обработки в qgis в виде слоя для дальнейшей работы или экспорта."
+
+#: ../../source/api/qgis_mapflow.rst:143
+msgid "See details"
+msgstr "Подробности"
+
+#: ../../source/api/qgis_mapflow.rst:144
+msgid "Shows information about processing (*Name, Status, Model, Model options, Data provider*)."
+msgstr "Отображает информацию об обработке (*Название, Статус, Модель, Параметры модели, Источник данных*)."
+
+#: ../../source/api/qgis_mapflow.rst:145
+msgid "Rename"
+msgstr "Переименовать"
+
+#: ../../source/api/qgis_mapflow.rst:146
+msgid "Renames your processing."
+msgstr "Переименовывает вашу обработку."
+
+#: ../../source/api/qgis_mapflow.rst:149
+msgid "To download the processing results, you can double-click on the completed processing in the list"
+msgstr "Для загрузки результатов обработки можно дважды щелкнуть по выполненной обработке в списке"
+
+#: ../../source/api/qgis_mapflow.rst:154
 msgid "2. Imagery search"
 msgstr "2. Поиск снимков"
 
@@ -396,339 +378,291 @@ msgstr "2. Поиск снимков"
 msgid "View of the providers tab"
 msgstr "Вкладка Поиска снимков"
 
-#: ../../source/api/qgis_mapflow.rst:143 ../../source/api/qgis_mapflow.rst:188
+#: ../../source/api/qgis_mapflow.rst:170
 msgid "\"Edit\" button"
 msgstr "\"Редактирование\""
 
-#: ../../source/api/qgis_mapflow.rst:144
+#: ../../source/api/qgis_mapflow.rst:171
 msgid "Button for changing the parameters of the source of satellite images."
 msgstr "Редаактирование параметров провайдеров."
 
-#: ../../source/api/qgis_mapflow.rst:145
+#: ../../source/api/qgis_mapflow.rst:172
 msgid "Preview"
 msgstr "Просмотр"
 
-#: ../../source/api/qgis_mapflow.rst:146
-msgid ""
-"A button to preview the specified satellite imagery by geospatial "
-"provider."
+#: ../../source/api/qgis_mapflow.rst:173
+msgid "A button to preview the specified satellite imagery by geospatial provider."
 msgstr "Превью выбранного провайдера - добавляет слой на карту QGIS."
 
-#: ../../source/api/qgis_mapflow.rst:147
+#: ../../source/api/qgis_mapflow.rst:174
 msgid "Image ID"
 msgstr "ID снимка"
 
-#: ../../source/api/qgis_mapflow.rst:148
-msgid ""
-"Image ID from the *Imagery catalog* of the selected image of specified "
-"satellite image source."
-msgstr ""
-"Идентификатор изображения из *Каталога изображений*  указанного источника"
-" изображений."
+#: ../../source/api/qgis_mapflow.rst:175
+msgid "Image ID from the *Imagery catalog* of the selected image of specified satellite image source."
+msgstr "Идентификатор изображения из *Каталога изображений*  указанного источника изображений."
 
-#: ../../source/api/qgis_mapflow.rst:149
+#: ../../source/api/qgis_mapflow.rst:176
 msgid "Max zoom"
 msgstr "Макс зум"
 
-#: ../../source/api/qgis_mapflow.rst:150
-msgid ""
-"Zoom number is selected by default to exclude the consumption of paid "
-"traffic for preview (Relevant if connected to **Maxar SecureWatch**)."
-msgstr ""
-"Число Zoom выбрано по умолчанию, чтобы исключить потребление платного "
-"трафика для предварительного просмотра (актуально при подключении к "
-"**Maxar SecureWatch**)."
+#: ../../source/api/qgis_mapflow.rst:177
+msgid "Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**)."
+msgstr "Число Zoom выбрано по умолчанию, чтобы исключить потребление платного трафика для предварительного просмотра (актуально при подключении к **Maxar SecureWatch**)."
 
-#: ../../source/api/qgis_mapflow.rst:152
+#: ../../source/api/qgis_mapflow.rst:179
 msgid "The area for which metadata will be presented."
 msgstr "Область поиска метаданных спутниковой съемки."
 
-#: ../../source/api/qgis_mapflow.rst:153
+#: ../../source/api/qgis_mapflow.rst:180
 msgid "Use canvas extent"
 msgstr "Использовать охват карты"
 
-#: ../../source/api/qgis_mapflow.rst:154
+#: ../../source/api/qgis_mapflow.rst:181
 msgid "The processing area will be taken from the QGIS map canvas."
 msgstr "Область обработки будет создана из экстента рабочего окна QGIS."
 
-#: ../../source/api/qgis_mapflow.rst:155
+#: ../../source/api/qgis_mapflow.rst:182
 msgid "Period of time (From...To)"
 msgstr "Интервал дат (От...До)"
 
-#: ../../source/api/qgis_mapflow.rst:156
+#: ../../source/api/qgis_mapflow.rst:183
 msgid "The images will be provided for the specified time period."
 msgstr "Изображения будут найдены в рамках указанного периода времени."
 
-#: ../../source/api/qgis_mapflow.rst:157
+#: ../../source/api/qgis_mapflow.rst:184
 msgid "Search imagery"
 msgstr "Искать снимки"
 
-#: ../../source/api/qgis_mapflow.rst:158
-msgid ""
-"Use to collect metadata for the selected area. After clicking it, a list "
-"will be shown with all images intersecting your area."
-msgstr ""
-"Скачивает метаданные снимков по выбранной области. Показывается лист "
-"найденных изображений, пересекающихся с AOI."
+#: ../../source/api/qgis_mapflow.rst:185
+msgid "Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area."
+msgstr "Скачивает метаданные снимков по выбранной области. Показывается лист найденных изображений, пересекающихся с AOI."
 
-#: ../../source/api/qgis_mapflow.rst:159
+#: ../../source/api/qgis_mapflow.rst:186
 msgid "Additional Filters"
 msgstr "Дополнительные фильтры"
 
-#: ../../source/api/qgis_mapflow.rst:160
-msgid ""
-"Use to set the minimum intersection rate between the image and the area "
-"of interest and the minimum percentage of image cloudiness."
-msgstr ""
-"Используйте для установки минимальной степени пересечения между "
-"изображением и интересующей областью и минимального процента облачности "
-"изображения."
+#: ../../source/api/qgis_mapflow.rst:187
+msgid "Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness."
+msgstr "Используйте для установки минимальной степени пересечения между изображением и интересующей областью и минимального процента облачности изображения."
 
-#: ../../source/api/qgis_mapflow.rst:164
-msgid ""
-"You can define your own source of data in XYZ format. Here is the "
-"example: ``https://your_site.xyz/{z}/{x}/{y}``"
-msgstr ""
-"Вы можете задать свой собственный источник данных в формате XYZ. Вот "
-"пример: ``https://your_site.xyz/{z}/{x}/{y}``"
+#: ../../source/api/qgis_mapflow.rst:190
+msgid "You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``"
+msgstr "Вы можете задать свой собственный источник данных в формате XYZ. Вот пример: ``https://your_site.xyz/{z}/{x}/{y}``"
 
-#: ../../source/api/qgis_mapflow.rst:166
-msgid ""
-"Check for free aerial images and try XYZ links at  `OpenAerialMap "
-"<https://openaerialmap.org>`_."
-msgstr ""
-"Найдите бесплатные аэрофотоснимки и попробуйте ссылки XYZ на "
-"OpenAerialMap <https://openaerialmap.org>`_."
+#: ../../source/api/qgis_mapflow.rst:192
+msgid "Check for free aerial images and try XYZ links at  `OpenAerialMap <https://openaerialmap.org>`_."
+msgstr "Найдите бесплатные аэрофотоснимки и попробуйте ссылки XYZ на OpenAerialMap <https://openaerialmap.org>`_."
 
-#: ../../source/api/qgis_mapflow.rst:172
+#: ../../source/api/qgis_mapflow.rst:198
 msgid "3. Settings"
 msgstr "3. Настройки"
 
-#: ../../source/api/qgis_mapflow.rst:174
-#, fuzzy
-msgid "*Edit imagery providers available to the plugin*"
-msgstr "*Добавить или изменить провайдеров данных*"
-
-#: ../../source/api/qgis_mapflow.rst:182
+#: ../../source/api/qgis_mapflow.rst:213
 msgid "Imagery providers"
 msgstr "Провайдеры"
 
-#: ../../source/api/qgis_mapflow.rst:183
+#: ../../source/api/qgis_mapflow.rst:214
 msgid "Drop-down list with additional satellite imagery providers."
 msgstr "Выпадающий список с дополнительными провайдерами спутниковых снимков."
 
-#: ../../source/api/qgis_mapflow.rst:184
-msgid "\"Add\" button"
-msgstr "\"Добавить\""
+#: ../../source/api/qgis_mapflow.rst:215
+msgid "\"Add provider\" button"
+msgstr "\"Добавить источник\""
 
-#: ../../source/api/qgis_mapflow.rst:185
+#: ../../source/api/qgis_mapflow.rst:216
 msgid "Button for adding a source of images."
 msgstr "Кнопка добавления провайдера даннных."
 
-#: ../../source/api/qgis_mapflow.rst:186
-msgid "\"Delete\" button"
-msgstr "\"Удалить\""
+#: ../../source/api/qgis_mapflow.rst:217
+msgid "\"Delete provider\" button"
+msgstr "\"Удалить источник\""
 
-#: ../../source/api/qgis_mapflow.rst:187
+#: ../../source/api/qgis_mapflow.rst:218
 msgid "Button for deleting the custom data provider."
 msgstr "Кнопка удаления провайдера даннных."
 
-#: ../../source/api/qgis_mapflow.rst:189
-msgid "Opens dialog to edit custom data provider"
-msgstr ""
-"Открывает диалоговое окно для добавления пользовательского источника "
-"данных"
+#: ../../source/api/qgis_mapflow.rst:219
+msgid "\"Edit provider\" button"
+msgstr "\"Редактирование источника\""
 
-#: ../../source/api/qgis_mapflow.rst:192
+#: ../../source/api/qgis_mapflow.rst:220
+msgid "Opens dialog to edit custom data provider."
+msgstr "Открывает диалоговое окно для добавления пользовательского источника данных."
+
+#: ../../source/api/qgis_mapflow.rst:221
+msgid "Select mapflow project"
+msgstr "Выбор проекта mapflow"
+
+#: ../../source/api/qgis_mapflow.rst:222
+msgid "Drop-down list with mapflow projects on you account."
+msgstr "Выпадающий список с проектами mapflow в вашем аккаунте."
+
+#: ../../source/api/qgis_mapflow.rst:223
+msgid "\"Add project\" button"
+msgstr "\"Добавить проект\""
+
+#: ../../source/api/qgis_mapflow.rst:224
+msgid "Button for creating your new map flow project."
+msgstr "Кнопка создания вашего нового mapflow проекта."
+
+#: ../../source/api/qgis_mapflow.rst:225
+msgid "\"Delete project\" button"
+msgstr "\"Удалить проект\""
+
+#: ../../source/api/qgis_mapflow.rst:226
+msgid "Button for deleting the mapflow project."
+msgstr "Кнопка удаления mapflow проекта."
+
+#: ../../source/api/qgis_mapflow.rst:227
+msgid "\"Edit project\" button"
+msgstr "\"Редактирование проекта\""
+
+#: ../../source/api/qgis_mapflow.rst:228
+msgid "Button for editing the mapflow project."
+msgstr "Кнопка редактирования mapflow проекта."
+
+#: ../../source/api/qgis_mapflow.rst:230
+msgid "Here you can configure how the processing results will be uploaded to QGIS. There are two ways:"
+msgstr "Здесь вы можете настроить, как результаты обработки будут загружаться в QGIS. Есть два способа:"
+
+#: ../../source/api/qgis_mapflow.rst:232
+msgid "``view result as a vector layer`` - This is streaming vector tiles directly from our server, which allows you to view results of the processings without downloading full results file, so it will be faster for big processings."
+msgstr "``просмотр результатов в виде векторного слоя`` - это потоковая передача векторных фрагментов непосредственно с нашего сервера, которая позволяет просматривать результаты обработки без загрузки полного файла результатов, что ускоряет работу с большими обработками."
+
+#: ../../source/api/qgis_mapflow.rst:234
+msgid "``save local gpkg file to view results`` - Saving local gpkg files on your disk for further loading as QGIS layers."
+msgstr "``сохранять локальный файл gpkg для просмотра результатов`` - Сохранение локальных файлов pkg на вашем диске для дальнейшей загрузки в виде слоев QGIS."
+
+#: ../../source/api/qgis_mapflow.rst:238
+msgid "Vector tiles are an experimental feature for us, so choose the method that is convenient for you."
+msgstr "Векторные плитки - это экспериментальная функция для нас, поэтому выбирайте тот способ, который вам удобен."
+
+#: ../../source/api/qgis_mapflow.rst:241
 msgid "This tab contains also *Output directory* button."
 msgstr "Эта вкладка также содержит ссылку на \"Рабочую папку\"."
 
-#: ../../source/api/qgis_mapflow.rst:194
-#, fuzzy
-msgid ""
-"*Output directory* - set up where the processing results will be loaded "
-"on your local disk."
-msgstr ""
-"*Рабочая папка* - укажите, куда будут загружаться результаты обработки на"
-" ваш локальный диск если выбрана опция ``сохранять локальный файл gpkg "
-"для просмотра результатов``"
+#: ../../source/api/qgis_mapflow.rst:243
+msgid "*Output directory* - set up where the processing results will be loaded on your local disk If the ``save local gpkg file to view result`` option is selected."
+msgstr "*Рабочая папка* - укажите, куда будут загружаться результаты обработки на ваш локальный диск если выбрана опция ``сохранять локальный файл gpkg для просмотра результатов``."
 
-#: ../../source/api/qgis_mapflow.rst:199
+#: ../../source/api/qgis_mapflow.rst:248
 msgid "4. Help"
 msgstr "4. Помощь"
 
-#: ../../source/api/qgis_mapflow.rst:201
+#: ../../source/api/qgis_mapflow.rst:250
 msgid "The tab contains all useful links to the plugin documentation."
 msgstr "Вкладка содержит все полезные ссылки на документацию плагина."
 
-#: ../../source/api/qgis_mapflow.rst:205
+#: ../../source/api/qgis_mapflow.rst:254
 msgid "How to run the processing"
 msgstr "Как запускать обработку"
 
-#: ../../source/api/qgis_mapflow.rst:207
-msgid ""
-"To start the processing you need to add the Polygon **Area of Interest** "
-"(AOI)."
+#: ../../source/api/qgis_mapflow.rst:256
+msgid "To start the processing you need to add the Polygon **Area of Interest** (AOI)."
 msgstr "Для запуска обработки выберите или создайте **полигон** (AOI)."
 
-#: ../../source/api/qgis_mapflow.rst:209
+#: ../../source/api/qgis_mapflow.rst:258
 msgid "The plugin has several built-in options for creating AOI."
 msgstr "Плагин имеет несколько встроенных опций для создания AOI."
 
-#: ../../source/api/qgis_mapflow.rst:211
+#: ../../source/api/qgis_mapflow.rst:260
 msgid "Create new AOI from the map canvas extent using the \"+\" button;"
 msgstr "Создать новую область (AOI) из экстента карты с помощью кнопки «+»;"
 
-#: ../../source/api/qgis_mapflow.rst:213
+#: ../../source/api/qgis_mapflow.rst:262
 msgid "Upload the existing AOI using the \"+\" button;"
 msgstr "Загрузите существующую область с помощью кнопки «+»;"
 
-#: ../../source/api/qgis_mapflow.rst:215
-#, fuzzy
-msgid "Use the extent of the uploaded image;"
+#: ../../source/api/qgis_mapflow.rst:264
+msgid "Draw AOI at the map;"
+msgstr "Нарисовать AOI на карте;"
+
+#: ../../source/api/qgis_mapflow.rst:266
+msgid "Use the extent of the uploaded image."
 msgstr "Используйте экстент загруженного изображения."
 
-#: ../../source/api/qgis_mapflow.rst:217
-msgid ""
-"Besides, you can create a new vector layer or add existing AOI into QGIS "
-"project. If the vector layer consists of several polygons select one of "
-"them."
-msgstr ""
-"Кроме того, вы можете создать новый векторный слой или добавить "
-"существующий AOI в проект QGIS. Если векторный слой состоит из нескольких"
-" полигонов, выберите один из них."
+#: ../../source/api/qgis_mapflow.rst:268
+msgid "Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them."
+msgstr "Кроме того, вы можете создать новый векторный слой или добавить существующий AOI в проект QGIS. Если векторный слой состоит из нескольких полигонов, выберите один из них."
 
 #: ../../source/api/qgis_mapflow.rst
 msgid "View of the aoi"
 msgstr "Просмотр AOI"
 
-#: ../../source/api/qgis_mapflow.rst:227
+#: ../../source/api/qgis_mapflow.rst:278
 msgid "Use of commercial satellite imagery providers"
 msgstr "Использование коммерческих провайдеров спутниковых снимков"
 
-#: ../../source/api/qgis_mapflow.rst:230
+#: ../../source/api/qgis_mapflow.rst:281
 msgid "How to connect to Maxar SecureWatch"
 msgstr "Как подключиться к Maxar SecureWatch"
 
-#: ../../source/api/qgis_mapflow.rst:233
-msgid ""
-"SecureWatch is a service that provides global access to high-resolution "
-"satellite images and imagery basemaps from the world leader in remote "
-"sensing, MAXAR, through the subscription model. The spatial resolution of"
-" images varies in the range from 30 cm to 1 m. All images are accompanied"
-" by metadata, including information about the acquisition date and time, "
-"cloud cover etc. In our application we implemented the special interface "
-"to connect to this service and use imagery via Mapflow's processings "
-"pipelines."
-msgstr ""
-"SecureWatch — это сервис, который обеспечивает глобальный доступ к "
-"спутниковым изображениям высокого разрешения и базовым мозаикам "
-"изображений от мирового лидера в области дистанционного зондирования "
-"MAXAR по модели подписки. Пространственное разрешение изображений "
-"варьируется в диапазоне от 30 см до 1 м. Все изображения сопровождаются "
-"метаданными, включая информацию о дате и времени получения, облачности и "
-"т. д. В приложении реализован специальный интерфейс для подключения к "
-"этому сервису и использования изображений через конвейеры обработки "
-"Mapflow."
+#: ../../source/api/qgis_mapflow.rst:284
+msgid "SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines."
+msgstr "SecureWatch — это сервис, который обеспечивает глобальный доступ к спутниковым изображениям высокого разрешения и базовым мозаикам изображений от мирового лидера в области дистанционного зондирования MAXAR по модели подписки. Пространственное разрешение изображений варьируется в диапазоне от 30 см до 1 м. Все изображения сопровождаются метаданными, включая информацию о дате и времени получения, облачности и т. д. В приложении реализован специальный интерфейс для подключения к этому сервису и использования изображений через конвейеры обработки Mapflow."
 
-#: ../../source/api/qgis_mapflow.rst:236
+#: ../../source/api/qgis_mapflow.rst:287
 msgid "**Use of embedded Maxar SecureWatch for image processing by Mapflow**"
-msgstr ""
-"**Использование встроенного доступа Maxar SecureWatch для обработки "
-"изображений с помощью Mapflow**"
+msgstr "**Использование встроенного доступа Maxar SecureWatch для обработки изображений с помощью Mapflow**"
 
-#: ../../source/api/qgis_mapflow.rst:238
-msgid ""
-"In the *Data source* drop-down list, select the required Maxar product "
-"(SecureWatch, Vivid), switch to the *Imagery search* tab."
-msgstr ""
-"В раскрывающемся списке *Источник данных* выберите нужный продукт Maxar "
-"(SecureWatch, Vivid), перейдите на вкладку *Поиск снимков*."
+#: ../../source/api/qgis_mapflow.rst:289
+msgid "In the *Data source* drop-down list, select the required Maxar product (SecureWatch, Vivid), switch to the *Imagery search* tab."
+msgstr "В раскрывающемся списке *Источник данных* выберите нужный продукт Maxar (SecureWatch, Vivid), перейдите на вкладку *Поиск снимков*."
 
-#: ../../source/api/qgis_mapflow.rst:240
+#: ../../source/api/qgis_mapflow.rst:291
 msgid "**Maxar preview**"
 msgstr "**Превью и выбор снимка Maxar**"
 
-#: ../../source/api/qgis_mapflow.rst:242
-msgid ""
-"Select your AOI in the Area drop-down list and click on the *Search "
-"imagery*."
-msgstr ""
-"Убедитесь что вы указали AOI в списке меню \"Область\" или в охвате "
-"экрана и другие параметры поиска и нажмите  *Поиск снимков*."
+#: ../../source/api/qgis_mapflow.rst:293
+msgid "Select your AOI in the Area drop-down list and click on the *Search imagery*."
+msgstr "Убедитесь что вы указали AOI в списке меню \"Область\" или в охвате экрана и другие параметры поиска и нажмите  *Поиск снимков*."
 
-#: ../../source/api/qgis_mapflow.rst:243
-msgid ""
-"Double click on the selected image in the search results (or click "
-"Preview button) to add it on the map."
-msgstr ""
-"Дважды щелкните выбранное изображение в результатах поиска (или нажмите "
-"кнопку Просмотр), чтобы добавить его на карту."
+#: ../../source/api/qgis_mapflow.rst:294
+msgid "Double click on the selected image in the search results (or click Preview button) to add it on the map."
+msgstr "Дважды щелкните выбранное изображение в результатах поиска (или нажмите кнопку Просмотр), чтобы добавить его на карту."
 
-#: ../../source/api/qgis_mapflow.rst:246
-msgid ""
-"In the free tariff plan the *Max zoom* is limited up to 12 and the "
-"processing cannot be started using SecureWatch. If you want to use this "
-"data provider - you have to switch to the `Premium "
-"<https://mapflow.ai/pricing>`_ tariff plan or `write to us "
-"<https://geoalert.io/#contacts>`_ to get a quote."
-msgstr ""
-"В бесплатном тарифном плане *Максимальный зум* ограничен до 12 и запуск "
-"обработки через SecureWatch невозможен. Если вы хотите использовать этого"
-" поставщика данных - вам необходимо перейти на тарифный план \"Премиум "
-"<https://mapflow.ai/pricing>`_ или `написать нам "
-"<https://geoalert.io/#contacts>` _ чтобы узнать цену."
+#: ../../source/api/qgis_mapflow.rst:297
+msgid "In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote."
+msgstr "В бесплатном тарифном плане *Максимальный зум* ограничен до 12 и запуск обработки через SecureWatch невозможен. Если вы хотите использовать этого поставщика данных - вам необходимо перейти на тарифный план \"Премиум <https://mapflow.ai/pricing>`_ или `написать нам <https://geoalert.io/#contacts>` _ чтобы узнать цену."
 
-#: ../../source/api/qgis_mapflow.rst:250
+#: ../../source/api/qgis_mapflow.rst:301
 msgid "**Using your SecureWatch account for image processing by the Mapflow**"
-msgstr ""
-"**Использование вашего собственного аккаунта SecureWatch для обработки "
-"изображений с помощью Mapflow**"
+msgstr "**Использование вашего собственного аккаунта SecureWatch для обработки изображений с помощью Mapflow**"
 
-#: ../../source/api/qgis_mapflow.rst:261
+#: ../../source/api/qgis_mapflow.rst:312
 msgid "Click *+* button and choose Maxar WMTS option in the dropdown list;"
 msgstr "Нажмите кнопку *+* и выберите в выпадающем списке опцию Maxar WMTS;"
 
-#: ../../source/api/qgis_mapflow.rst:263
+#: ../../source/api/qgis_mapflow.rst:314
 msgid "Enter *Login / Password* from your Maxar SecureWatch account;"
 msgstr "Введите *Логин/Пароль* от вашей учетной записи Maxar SecureWatch;"
 
-#: ../../source/api/qgis_mapflow.rst:265
-msgid ""
-"Enter WMTS URL link for Maxar Secure Watch (`SecureWatch "
-"<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-"
-"session>`_ - Login - Securewatch - Use with - Web Services - WMTS)"
-msgstr ""
-"Введите URL-ссылку WMTS для Maxar Secure Watch (`SecureWatch "
-"<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-"
-"session>`_ — Login - Securewatch - Use with - Web Services - WMTS)"
+#: ../../source/api/qgis_mapflow.rst:316
+msgid "Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)"
+msgstr "Введите URL-ссылку WMTS для Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ — Login - Securewatch - Use with - Web Services - WMTS)"
 
-#: ../../source/api/qgis_mapflow.rst:267
+#: ../../source/api/qgis_mapflow.rst:318
 msgid "Optional: specify the coordinate system (default epsg:3857);"
 msgstr "Необязательно: укажите систему координат (по умолчанию epsg:3857);"
 
-#: ../../source/api/qgis_mapflow.rst:269
+#: ../../source/api/qgis_mapflow.rst:320
 msgid "Optional: Check *Save login and password*"
 msgstr "Необязательно: Отметьте *Сохранить логин и пароль*"
 
-#: ../../source/api/qgis_mapflow.rst:273
+#: ../../source/api/qgis_mapflow.rst:324
 msgid "How to find Maxar WMTS URL:"
 msgstr "Как найти ссылку на Maxar WMTS:"
 
-#: ../../source/api/qgis_mapflow.rst:275
-msgid ""
-"Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe"
-"/logout-from-ended-session>`_ and login."
-msgstr ""
-"Перейдите на `SecureWatch "
-"<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-"
-"session>`_ и войдите под вашей учетной записью."
+#: ../../source/api/qgis_mapflow.rst:326
+msgid "Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login."
+msgstr "Перейдите на `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ и войдите под вашей учетной записью."
 
-#: ../../source/api/qgis_mapflow.rst:277
+#: ../../source/api/qgis_mapflow.rst:328
 msgid "In the upper menu select **Use With** >> **Web Services** >> **WMTS**"
 msgstr "В верхнем меню выберите **Use With** >> **Web Services** >> **WMTS**"
 
-#: ../../source/api/qgis_mapflow.rst:279
+#: ../../source/api/qgis_mapflow.rst:330
 msgid "Copy the WMTS (or TMS) url."
 msgstr "Скопируйте WMTS (или TMS) url."
 
@@ -736,160 +670,75 @@ msgstr "Скопируйте WMTS (или TMS) url."
 msgid "Your user profile in SecureWatch"
 msgstr "Ваш профиль на SecureWatch"
 
-#: ../../source/api/qgis_mapflow.rst:287
-msgid ""
-"The **Connect ID** is different for each product you have in your "
-"SecureWatch subscription. Therefore, initially choose the one you want. "
-"To do this, open the *User Profile* menu and in the title bar select the "
-"required of the two suggested mosaics (**Vivid** and **SecureWatch**)."
-msgstr ""
-"**Connect ID** различается для каждого продукта, включенного в вашу "
-"подписку SecureWatch. Поэтому изначально выбирайте тот, который вам "
-"нужен. Для этого откройте меню *Профиль пользователя* и в строке "
-"заголовка выберите нужный из предложенных продуктов (**Vivid** или "
-"**SecureWatch**, etc)."
+#: ../../source/api/qgis_mapflow.rst:338
+msgid "The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**)."
+msgstr "**Connect ID** различается для каждого продукта, включенного в вашу подписку SecureWatch. Поэтому изначально выбирайте тот, который вам нужен. Для этого откройте меню *Профиль пользователя* и в строке заголовка выберите нужный из предложенных продуктов (**Vivid** или **SecureWatch**, etc)."
 
-#: ../../source/api/qgis_mapflow.rst:290
+#: ../../source/api/qgis_mapflow.rst:341
 msgid "Click *Preview*."
 msgstr "Нажмите \"Просмотр\"."
 
-#: ../../source/api/qgis_mapflow.rst:292
-msgid ""
-"Now the Maxar layer is available for preview in your raster layers list "
-"and for the AI-mapping processing using Mapflow."
-msgstr ""
-"Теперь слой Maxar доступен для предварительного просмотра в списке "
-"растровых слоев и для картографической AI обработки с помощью Mapflow."
+#: ../../source/api/qgis_mapflow.rst:343
+msgid "Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow."
+msgstr "Теперь слой Maxar доступен для предварительного просмотра в списке растровых слоев и для картографической AI обработки с помощью Mapflow."
 
-#: ../../source/api/qgis_mapflow.rst:296
+#: ../../source/api/qgis_mapflow.rst:347
 msgid "How to find and process the image by Feature ID using Maxar SecureWatch"
-msgstr ""
-"Как найти и обработать изображение по Feature ID с помощью Maxar "
-"SecureWatch"
+msgstr "Как найти и обработать изображение по Feature ID с помощью Maxar SecureWatch"
 
-#: ../../source/api/qgis_mapflow.rst:298
+#: ../../source/api/qgis_mapflow.rst:349
 msgid "You can use SW to discover available images for you area of interest."
-msgstr ""
-"Вы можете использовать SW, чтобы найти доступные изображения для "
-"интересующей вас области."
+msgstr "Вы можете использовать SW, чтобы найти доступные изображения для интересующей вас области."
 
-#: ../../source/api/qgis_mapflow.rst:300
+#: ../../source/api/qgis_mapflow.rst:351
 msgid "Go to the *Providers* tab."
 msgstr "Перейдите во вкладку *Поиск снимков*."
 
-#: ../../source/api/qgis_mapflow.rst:301
+#: ../../source/api/qgis_mapflow.rst:352
 msgid "Select Maxar SecureWatch from the dropdown list."
 msgstr "Выберите Maxar SecureWatch в выпадающем списке."
 
-#: ../../source/api/qgis_mapflow.rst:302
-msgid ""
-"In the *Maxar SecureWatch imagery Catalog* select the vector layer "
-"containing the boundary of your area of interest."
-msgstr ""
-"В *Каталоге изображений Maxar SecureWatch* выберите векторный слой, "
-"содержащий границу интересующей вас области."
+#: ../../source/api/qgis_mapflow.rst:353
+msgid "In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest."
+msgstr "В *Каталоге изображений Maxar SecureWatch* выберите векторный слой, содержащий границу интересующей вас области."
 
-#: ../../source/api/qgis_mapflow.rst:305
-msgid ""
-"To define the imagery search area you can create the new polygon (*Layer "
-"-> Create layer -> ...*, select *Polygon* as a geometry type, add polygon"
-" using the tool *Add polygon feature*) or upload it from the file with "
-"coordinates. If there is more than one polygon in the file, select with "
-"the tool *Select object(s)* the polygon you need. For more information on"
-" creating and working with vector layers, see the `QGIS User Guide "
-"<https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_."
-" Alternatively, you can check the option \"use canvas extent\"."
-msgstr ""
-"Чтобы определить область поиска изображения, вы можете создать новый "
-"полигон (*Слой -> Создать слой -> ...*, выбрать *Многоугольник* в "
-"качестве типа геометрии, добавить полигон с помощью инструмента *Добавить"
-" объект полигона*) или загрузить его из файл с координатами. Если в файле"
-" более одного полигона, выберите инструментом *Выбрать объект(ы)* нужный "
-"полигон. Для получения дополнительной информации о создании и работе с "
-"векторными слоями см. `Руководство пользователя QGIS "
-"<https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_."
-" Кроме того, вы можете установить флажок «создать из видимой области "
-"карты»."
+#: ../../source/api/qgis_mapflow.rst:356
+msgid "To define the imagery search area you can create the new polygon (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_. Alternatively, you can check the option \"use canvas extent\"."
+msgstr "Чтобы определить область поиска изображения, вы можете создать новый полигон (*Слой -> Создать слой -> ...*, выбрать *Многоугольник* в качестве типа геометрии, добавить полигон с помощью инструмента *Добавить объект полигона*) или загрузить его из файл с координатами. Если в файле более одного полигона, выберите инструментом *Выбрать объект(ы)* нужный полигон. Для получения дополнительной информации о создании и работе с векторными слоями см. `Руководство пользователя QGIS <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_. Кроме того, вы можете установить флажок «создать из видимой области карты»."
 
 #: ../../source/api/qgis_mapflow.rst
 msgid "Get specific image from SW"
 msgstr "Получить определенное изображение из SW"
 
-#: ../../source/api/qgis_mapflow.rst:313
-msgid ""
-"*Search imagery*, to view meta-data of all available images intesecting "
-"your AOI. You can apply search filters and specify the period for which "
-"you would like to receive images. This will help in forming an imagery "
-"catalog with the necessary parameters."
-msgstr ""
-"*Выполните поиск изображений*, чтобы просмотреть метаданные всех "
-"доступных изображений, пересекающих вашу область интереса. Вы можете "
-"применить поисковые фильтры и указать период, за который вы хотели бы "
-"получать изображения. Это поможет в формировании каталога снимков с "
-"необходимыми параметрами."
+#: ../../source/api/qgis_mapflow.rst:364
+msgid "*Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters."
+msgstr "*Выполните поиск изображений*, чтобы просмотреть метаданные всех доступных изображений, пересекающих вашу область интереса. Вы можете применить поисковые фильтры и указать период, за который вы хотели бы получать изображения. Это поможет в формировании каталога снимков с необходимыми параметрами."
 
-#: ../../source/api/qgis_mapflow.rst:314
-msgid ""
-"Select the prteferable image from the imagery catalog or use the WFS "
-"generated vector layer (*Maxar SW metadata*) to search through more "
-"attributes. If you want to process a specific image in advance, insert "
-"your image ID in the field on the top of the plugin, this will make it "
-"easier to find the image in the imagery catalog."
-msgstr ""
-"Выберите предпочтительное изображение из каталога изображений или "
-"используйте сгенерированный WFS векторный слой (*метаданные Maxar SW*) "
-"для поиска по дополнительным атрибутам. Если вы хотите заранее обработать"
-" определенное изображение, вставьте свой идентификатор изображения в поле"
-" ID снимка, это облегчит поиск изображения в каталоге изображений."
+#: ../../source/api/qgis_mapflow.rst:365
+msgid "Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog."
+msgstr "Выберите предпочтительное изображение из каталога изображений или используйте сгенерированный WFS векторный слой (*метаданные Maxar SW*) для поиска по дополнительным атрибутам. Если вы хотите заранее обработать определенное изображение, вставьте свой идентификатор изображения в поле ID снимка, это облегчит поиск изображения в каталоге изображений."
 
-#: ../../source/api/qgis_mapflow.rst:317
-msgid ""
-"Imagery metadata is saved in the form of vector layer. You can interact "
-"with its Attribute Table by searching through all attributes."
-msgstr ""
-"Метаданные изображения сохраняются в виде векторного слоя. Вы можете "
-"использовать дополнительный поиск по его таблицей атрибутов."
+#: ../../source/api/qgis_mapflow.rst:368
+msgid "Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes."
+msgstr "Метаданные изображения сохраняются в виде векторного слоя. Вы можете использовать дополнительный поиск по его таблицей атрибутов."
 
-#: ../../source/api/qgis_mapflow.rst:319
-msgid ""
-"Click *Preview* to view the selected image in the form of new raster "
-"layer (or double-clicking on the row in the table)."
-msgstr ""
-"Нажмите *Предварительный просмотр*, чтобы просмотреть выбранное "
-"изображение в виде нового растрового слоя (или двойной щелчок по строке в"
-" таблице)."
+#: ../../source/api/qgis_mapflow.rst:370
+msgid "Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table)."
+msgstr "Нажмите *Предварительный просмотр*, чтобы просмотреть выбранное изображение в виде нового растрового слоя (или двойной щелчок по строке в таблице)."
 
-#: ../../source/api/qgis_mapflow.rst:322
-msgid ""
-"\"max zoom 12\" checkbox is active to prevent the paid streaming on the "
-"side of Maxar SecureWatch."
-msgstr ""
-"Флажок «max zoom 12» активен для предотвращения платного трафика на "
-"стороне Maxar SecureWatch."
+#: ../../source/api/qgis_mapflow.rst:373
+msgid "\"max zoom 12\" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch."
+msgstr "Флажок «max zoom 12» активен для предотвращения платного трафика на стороне Maxar SecureWatch."
 
-#: ../../source/api/qgis_mapflow.rst:326
+#: ../../source/api/qgis_mapflow.rst:377
 msgid "How to use other imagery services"
 msgstr "Как использовать другие источники данных"
 
-#: ../../source/api/qgis_mapflow.rst:328
-msgid ""
-"For example, let's use the `OpenAerialMap <https://openaerialmap.org/>`_ "
-"is an open collection of UAV imagery data, crowdsourced by users. The "
-"project is supported by a consortium of companies developing open source "
-"software and services for working with spatial data. As soon as your "
-"aerial image is published on OpenAerialMap it's presented on the public "
-"map and can be fetched using TMS/WMTS protocols."
-msgstr ""
-"Например, так возможно использовать `OpenAerialMap "
-"<https://openaerialmap.org/>`_ — это открытая коллекция данных "
-"изображений с БПЛА, собранная пользователями. Проект поддерживается "
-"консорциумом компаний, разрабатывающих ПО с открытым исходным кодом и "
-"сервисы для работы с пространственными данными. Как только ваш "
-"аэрофотоснимок публикуется на Openaerialmap, он отображается на "
-"общедоступной карте и может быть загружен с использованием протоколов "
-"TMS/WMTS."
+#: ../../source/api/qgis_mapflow.rst:379
+msgid "For example, let's use the `OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data. As soon as your aerial image is published on OpenAerialMap it's presented on the public map and can be fetched using TMS/WMTS protocols."
+msgstr "Например, так возможно использовать `OpenAerialMap <https://openaerialmap.org/>`_ — это открытая коллекция данных изображений с БПЛА, собранная пользователями. Проект поддерживается консорциумом компаний, разрабатывающих ПО с открытым исходным кодом и сервисы для работы с пространственными данными. Как только ваш аэрофотоснимок публикуется на Openaerialmap, он отображается на общедоступной карте и может быть загружен с использованием протоколов TMS/WMTS."
 
-#: ../../source/api/qgis_mapflow.rst:331
+#: ../../source/api/qgis_mapflow.rst:382
 msgid "Select the image and copy link to TMS."
 msgstr "Выберите изображение и скопируйте ссылку в TMS."
 
@@ -897,326 +746,189 @@ msgstr "Выберите изображение и скопируйте ссыл
 msgid "Search for imagery in OpenAerialMap"
 msgstr "Поиск изображений в OpenAerialMap"
 
-#: ../../source/api/qgis_mapflow.rst:340
-msgid ""
-"Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter"
-" the relevant data in the opened window (2). Click the *Preview* (3) the "
-"image, - you must be at the correct zoom and coordinates to see the "
-"image."
-msgstr ""
-"Заходим в плагин, на вкладке *Провайдеры* нажимаем кнопку *Добавить* (1) "
-"и в открывшемся окне вводим соответствующие данные (2). Нажмите "
-"*Просмотр* (3) изображения, - вы должны быть в правильном масштабе и "
-"координатах, чтобы увидеть изображение."
+#: ../../source/api/qgis_mapflow.rst:391
+msgid "Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image."
+msgstr "Заходим в плагин, на вкладке *Провайдеры* нажимаем кнопку *Добавить* (1) и в открывшемся окне вводим соответствующие данные (2). Нажмите *Просмотр* (3) изображения, - вы должны быть в правильном масштабе и координатах, чтобы увидеть изображение."
 
-#: ../../source/api/qgis_mapflow.rst:342
-msgid ""
-"To start processing using this data source, go to the *Processing* tab, "
-"fill in all fields of processing parameters, click *Start processing*."
-msgstr ""
-"Чтобы начать обработку с использованием этого источника данных, перейдите"
-" на вкладку *Обработка*, заполните все поля параметров обработки, нажмите"
-" *Начать обработку*."
+#: ../../source/api/qgis_mapflow.rst:393
+msgid "To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*."
+msgstr "Чтобы начать обработку с использованием этого источника данных, перейдите на вкладку *Обработка*, заполните все поля параметров обработки, нажмите *Начать обработку*."
 
 #: ../../source/api/qgis_mapflow.rst
 msgid "Custom imagery source"
 msgstr "Пользовательский источник данных"
 
-#: ../../source/api/qgis_mapflow.rst:358
+#: ../../source/api/qgis_mapflow.rst:409
 msgid "Name of other imagery data provider"
 msgstr "Название нового провайдера данных"
 
-#: ../../source/api/qgis_mapflow.rst:359
+#: ../../source/api/qgis_mapflow.rst:410
 msgid "URL"
 msgstr ""
 
-#: ../../source/api/qgis_mapflow.rst:360
+#: ../../source/api/qgis_mapflow.rst:411
 msgid "URL of the imagery data provider"
 msgstr "URL дата провайдера"
 
-#: ../../source/api/qgis_mapflow.rst:361
+#: ../../source/api/qgis_mapflow.rst:412
 msgid "Type"
 msgstr "Тип"
 
-#: ../../source/api/qgis_mapflow.rst:362
-msgid ""
-"Data source type. You can enter your custom imagery source URL in one of "
-"the following formats: `XYZ "
-"<https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS "
-"<https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS "
-"<https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey "
-"<https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-"
-"system>`_. All formats represent the most widely used protocols to fetch "
-"georeferenced imagery via HTTP."
-msgstr ""
-"Тип источника данных. Вы можете ввести собственный URL-адрес источника "
-"изображений в одном из следующих форматов: `XYZ "
-"<https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS "
-"<https://en.wikipedia.org/wiki/ Tile_Map_Service>`_, `WMS "
-"<https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey "
-"<https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps- тайловая "
-"система>`_. Все форматы представляют собой наиболее широко используемые "
-"протоколы для получения изображений с географической привязкой через "
-"HTTP."
+#: ../../source/api/qgis_mapflow.rst:413
+msgid "Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP."
+msgstr "Тип источника данных. Вы можете ввести собственный URL-адрес источника изображений в одном из следующих форматов: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/ Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps- тайловая система>`_. Все форматы представляют собой наиболее широко используемые протоколы для получения изображений с географической привязкой через HTTP."
 
-#: ../../source/api/qgis_mapflow.rst:366
+#: ../../source/api/qgis_mapflow.rst:417
 msgid "How to upload your image"
 msgstr "Как загрузить свое изображение"
 
-#: ../../source/api/qgis_mapflow.rst:368
-msgid ""
-"You can upload your own GeoTIFF. All raster layers currently loaded in "
-"your QGIS (1) are visible in the drop-down list (2) and can be selected "
-"for upload. Opening files from the *Additional options* button (3) also "
-"adds it to the tree of QGIS layers."
-msgstr ""
+#: ../../source/api/qgis_mapflow.rst:419
+msgid "You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload."
+msgstr "Вы можете загрузить свой собственный геотифф. Все растровые слои, загруженные в данный момент в ваш QGIS (1), отображаются в раскрывающемся списке (2) и могут быть выбраны для загрузки."
 
 #: ../../source/api/qgis_mapflow.rst
 msgid "Upload TIF, select from list"
 msgstr "Загрузить TIF, выберите из списка"
 
-#: ../../source/api/qgis_mapflow.rst:379
-msgid ""
-"Please, follow the requirements specified on the page with "
-":doc:`../userguides/requirements` when uploading your own images for "
-"processing through the API of the Mapflow platform."
-msgstr ""
-"Пожалуйста, соблюдайте требования, указанные на странице с "
-":doc:`../userguides/requirements`, при загрузке собственных изображений "
-"для обработки через API платформы Mapflow."
+#: ../../source/api/qgis_mapflow.rst:430
+msgid "Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images for processing through the API of the Mapflow platform."
+msgstr "Пожалуйста, соблюдайте требования, указанные на странице с :doc:`../userguides/requirements`, при загрузке собственных изображений для обработки через API платформы Mapflow."
 
-#: ../../source/api/qgis_mapflow.rst:382
+#: ../../source/api/qgis_mapflow.rst:433
 msgid "**Check the data type**"
 msgstr "**Проверяет тип данных**"
 
-#: ../../source/api/qgis_mapflow.rst:382
-msgid ""
-"The Data type must be Byte (8 bit). If the Data type is Int16,  or "
-"Float32 etc, please follow the instruction :doc:`../userguides/howto`. "
-"Alternative option: use the `preprocessing script "
-"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_"
-msgstr ""
-"Тип данных должен быть байтовым (8 бит). Если тип данных Int16 или "
-"Float32 и т. д., следуйте инструкциям :doc:`../userguides/howto`. "
-"Альтернативный вариант: используйте `скрипт предварительной обработки "
-"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_"
+#: ../../source/api/qgis_mapflow.rst:433
+msgid "The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`. Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_"
+msgstr "Тип данных должен быть байтовым (8 бит). Если тип данных Int16 или Float32 и т. д., следуйте инструкциям :doc:`../userguides/howto`. Альтернативный вариант: используйте `скрипт предварительной обработки <https://github.com/Geoalert/mapflow_data_preprocessor/>`_"
 
-#: ../../source/api/qgis_mapflow.rst:384
+#: ../../source/api/qgis_mapflow.rst:435
 msgid "**Check the image size**"
 msgstr "**Проверяет размеры изображения**"
 
-#: ../../source/api/qgis_mapflow.rst:385
-msgid ""
-"Both sides image dimension must not exceed 30.000x30.000 pixels. If you "
-"have larger images you should either cut them in smaller chunks or switch"
-" to the `Mapflow custom <https://geoalert.io/#contacts>`_."
-msgstr ""
-"Размер изображения с обеих сторон не должен превышать 30 000x30 000 "
-"пикселей. Если у вас есть изображения большего размера, вы должны либо "
-"разрезать их на более мелкие фрагменты, либо переключиться на `Mapflow "
-"custom <https://geoalert.io/#contacts>`_."
+#: ../../source/api/qgis_mapflow.rst:436
+msgid "Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom <https://geoalert.io/#contacts>`_."
+msgstr "Размер изображения с обеих сторон не должен превышать 30 000x30 000 пикселей. Если у вас есть изображения большего размера, вы должны либо разрезать их на более мелкие фрагменты, либо переключиться на `Mapflow custom <https://geoalert.io/#contacts>`_."
 
-#: ../../source/api/qgis_mapflow.rst:387
+#: ../../source/api/qgis_mapflow.rst:438
 msgid "**Check the number of channels**"
 msgstr "**Проверяет кол-во каналов изображения**"
 
-#: ../../source/api/qgis_mapflow.rst:387
-msgid ""
-"Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow "
-"platform can also process single-band (panchromatic) imagery, but the NN "
-"models are not tuned for such kind of data, so the quality of the result "
-"may be worse than expected."
-msgstr ""
-"Обычно Mapflow обрабатывает 3-канальные изображения RGB. Платформа "
-"Mapflow также может обрабатывать одноканальные (панхроматические) "
-"изображения, но модели ИИ не настроены на такие данные, поэтому качество "
-"результата может быть хуже ожидаемого."
+#: ../../source/api/qgis_mapflow.rst:438
+msgid "Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected."
+msgstr "Обычно Mapflow обрабатывает 3-канальные изображения RGB. Платформа Mapflow также может обрабатывать одноканальные (панхроматические) изображения, но модели ИИ не настроены на такие данные, поэтому качество результата может быть хуже ожидаемого."
 
-#: ../../source/api/qgis_mapflow.rst:389
+#: ../../source/api/qgis_mapflow.rst:440
 msgid "**Check the projection and georeference**"
 msgstr "**Проверяет проекцию и географическую привязку**"
 
-#: ../../source/api/qgis_mapflow.rst:390
-msgid ""
-"Make sure that your imagery is georeferenced in geographic or projected "
-"coordinate system."
-msgstr ""
-"Убедитесь, что ваши изображения имеют географическую привязку в "
-"географической или проекционной системе координат."
+#: ../../source/api/qgis_mapflow.rst:441
+msgid "Make sure that your imagery is georeferenced in geographic or projected coordinate system."
+msgstr "Убедитесь, что ваши изображения имеют географическую привязку в географической или проекционной системе координат."
 
-#: ../../source/api/qgis_mapflow.rst:391
+#: ../../source/api/qgis_mapflow.rst:442
 msgid "**Check the resolution**"
 msgstr "**Проверяет разрешение изображения**"
 
-#: ../../source/api/qgis_mapflow.rst:392
-msgid ""
-"The resolution restrictions vary for different models, see :ref:`Model "
-"requirements`"
-msgstr ""
-"Ограничения по разрешению различаются для разных моделей, см. :ref:`Model"
-" requirements`"
+#: ../../source/api/qgis_mapflow.rst:443
+msgid "The resolution restrictions vary for different models, see :ref:`Model requirements`"
+msgstr "Ограничения по разрешению различаются для разных моделей, см. :ref:`Model requirements`"
 
-#: ../../source/api/qgis_mapflow.rst:394
+#: ../../source/api/qgis_mapflow.rst:445
 msgid "You can send a request for data preprocessing to help@geoalert.io"
 msgstr "Вы можете отправить запрос на предобработку данных на help@geoalert.io"
 
-#: ../../source/api/qgis_mapflow.rst:398
+#: ../../source/api/qgis_mapflow.rst:449
 msgid "Work with results"
 msgstr "Работа с результатами"
 
-#: ../../source/api/qgis_mapflow.rst:401
-#, fuzzy
-msgid "Download the results"
+#: ../../source/api/qgis_mapflow.rst:452
+msgid "View the results"
 msgstr "Просмотр результатов"
 
-#: ../../source/api/qgis_mapflow.rst:403
-#, fuzzy, python-format
-msgid ""
-"The processing results that are 100% complete can be downloaded as a "
-"vector file to your local directory and automatically added as layer to "
-"QGIS workspace."
-msgstr ""
-"Результаты обработки, завершенные на 100% можно загрузить в виде "
-"векторного файла в локальный каталог и автоматически добавить в качестве "
-"слоя в рабочее пространство QGIS."
+#: ../../source/api/qgis_mapflow.rst:454
+#, python-format
+msgid "The processing results that are 100% complete can be downloaded as a vector file to your local directory or streaming as a vector tiles and automatically added as layer to QGIS workspace."
+msgstr "Результаты обработки, завершенные на 100% можно загрузить в виде векторного файла в локальный каталог и автоматически добавить в качестве слоя в рабочее пространство QGIS."
 
-#: ../../source/api/qgis_mapflow.rst:405
-#, fuzzy
-msgid ""
-"Double click on the processing name in the :ref:`Processing` Table or "
-"select it and push the button \"Download results\". The layer will appear"
-" in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder "
-"\"Mapflow\". You can work with it further as with the usual vector layer "
-"in QGIS."
-msgstr ""
-"Дважды щелкните имя обработки в таблице :ref:`Processing` или выберите ее"
-" и нажмите кнопку \"Просмотр результатов\". Слой появится на панели "
-"«Слои» (QGIS --> Вид --> Панели --> Слои) в папке «Mapflow». Дальше с ним"
-" можно работать как с обычным векторным слоем в QGIS."
+#: ../../source/api/qgis_mapflow.rst:456
+msgid "Double click on the processing name in the :ref:`Processing` Table or select it and push the button \"View results\". The layer will appear in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder \"Mapflow\". You can work with it further as with the usual vector layer in QGIS."
+msgstr "Дважды щелкните имя обработки в таблице :ref:`Processing` или выберите ее и нажмите кнопку \"Просмотр результатов\". Слой появится на панели «Слои» (QGIS --> Вид --> Панели --> Слои) в папке «Mapflow». Дальше с ним можно работать как с обычным векторным слоем в QGIS."
 
-#: ../../source/api/qgis_mapflow.rst:410
-msgid ""
-"If the default AI model is used, the plugin automatically assigns "
-"predefined styles to the vector layer. For all custom models / pipelines "
-"the single default style is assigned. You can always change it."
-msgstr ""
-"Если используется модель AI по умолчанию, плагин автоматически добавляет "
-"стили векторному слою. Для всех пользовательских моделей/сценариев "
-"назначается единый стиль по умолчанию. Вы всегда можете изменить стили."
+#: ../../source/api/qgis_mapflow.rst:461
+msgid "If the default AI model is used, the plugin automatically assigns predefined styles to the vector layer. For all custom models / pipelines the single default style is assigned. You can always change it."
+msgstr "Если используется модель AI по умолчанию, плагин автоматически добавляет стили векторному слою. Для всех пользовательских моделей/сценариев назначается единый стиль по умолчанию. Вы всегда можете изменить стили."
 
-#: ../../source/api/qgis_mapflow.rst:413
+#: ../../source/api/qgis_mapflow.rst:465
+#, python-format
+msgid "The processing results, which are 100% complete, can be downloaded in GeoJSON format, to do this, click on the ``Save results`` button, select output directory in the window that appears and name the file to be saved."
+msgstr "Результаты обработки, которые завершены на 100%, можно загрузить в формате GeoJSON, для этого нажмите на кнопку ``Сохранить результаты``, в появившемся окне выберите выходной каталог и назовите файл для сохранения."
+
+#: ../../source/api/qgis_mapflow.rst:468
 msgid "Delete the processing"
 msgstr "Удалить обработку"
 
-#: ../../source/api/qgis_mapflow.rst:415
-msgid ""
-"To delete the processing - select it in the list, click the button "
-"\"Delete\" and confirm."
-msgstr ""
-"Чтобы удалить обработку - выберите ее в списке, нажмите кнопку "
-"\"Удалить\" и подтвердите."
+#: ../../source/api/qgis_mapflow.rst:470
+msgid "To delete the processing - select it in the list, click the button \"Delete\" and confirm."
+msgstr "Чтобы удалить обработку - выберите ее в списке, нажмите кнопку \"Удалить\" и подтвердите."
 
-#: ../../source/api/qgis_mapflow.rst:418
-msgid ""
-"The processing cannot be restored by user. Before the permanent deletion "
-"the data backup is **temporarily stored** on the Mapflow server in case "
-"of emergency. So if you deleted your results by mistake and want us to "
-"restore the processing – send your request to the support without delay."
-msgstr ""
-"Удаленная обработка не может быть восстановлена пользователем. Перед "
-"окончательным удалением резервная копия данных **временно сохраняется** "
-"на сервере Mapflow на случай чрезвычайной ситуации. Так что, если вы "
-"удалили свои результаты по ошибке и хотите, чтобы мы восстановили "
-"обработку — отправьте запрос в поддержку без промедления."
+#: ../../source/api/qgis_mapflow.rst:473
+msgid "The processing cannot be restored by user. Before the permanent deletion the data backup is **temporarily stored** on the Mapflow server in case of emergency. So if you deleted your results by mistake and want us to restore the processing – send your request to the support without delay."
+msgstr "Удаленная обработка не может быть восстановлена пользователем. Перед окончательным удалением резервная копия данных **временно сохраняется** на сервере Mapflow на случай чрезвычайной ситуации. Так что, если вы удалили свои результаты по ошибке и хотите, чтобы мы восстановили обработку — отправьте запрос в поддержку без промедления."
 
-#: ../../source/api/qgis_mapflow.rst:422
+#: ../../source/api/qgis_mapflow.rst:477
 msgid "Review the results*"
 msgstr "Валидация результатов"
 
-#: ../../source/api/qgis_mapflow.rst:425
-msgid ""
-"❗️ This option is available for the limited number of Mapflow customers "
-"who have signed up for the enterprise support"
-msgstr ""
-"❗️ Эта опция доступна для ограниченного числа клиентов Mapflow, которые "
-"подписались на корпоративную поддержку"
+#: ../../source/api/qgis_mapflow.rst:480
+msgid "❗️ This option is available for the limited number of Mapflow customers who have signed up for the enterprise support"
+msgstr "❗️ Эта опция доступна для ограниченного числа клиентов Mapflow, которые подписались на корпоративную поддержку"
 
-#: ../../source/api/qgis_mapflow.rst:427
-msgid ""
-"If activated, every completed processing comes with the status **\"Review"
-" required\"**. The user can either accept the result or request the "
-"review, so the support can reprocess it and get better results, until it "
-"meets the requirements. To request the **Review** of the results:"
-msgstr ""
-"Если активировано, каждая завершенная обработка получает статус "
-"**\"Review required\"**. Пользователь может либо принять результат, либо "
-"запросить проверку, чтобы служба поддержки могла повторно обработать его "
-"и получить лучшие результаты, пока результат не будет соответствовать "
-"требованиям. Чтобы запросить **Review** результатов:"
+#: ../../source/api/qgis_mapflow.rst:482
+msgid "If activated, every completed processing comes with the status **\"Review required\"**. The user can either accept the result or request the review, so the support can reprocess it and get better results, until it meets the requirements. To request the **Review** of the results:"
+msgstr "Если активировано, каждая завершенная обработка получает статус **\"Review required\"**. Пользователь может либо принять результат, либо запросить проверку, чтобы служба поддержки могла повторно обработать его и получить лучшие результаты, пока результат не будет соответствовать требованиям. Чтобы запросить **Review** результатов:"
 
-#: ../../source/api/qgis_mapflow.rst:432
-msgid ""
-"Select the processing with the Status **\"Review required\"** and click "
-"the \"Review\" button"
-msgstr ""
-"Выберите обработку в статусе **\"Review required\"** и нажмите кнопку "
-"\"Review\""
+#: ../../source/api/qgis_mapflow.rst:487
+msgid "Select the processing with the Status **\"Review required\"** and click the \"Review\" button"
+msgstr "Выберите обработку в статусе **\"Review required\"** и нажмите кнопку \"Review\""
 
-#: ../../source/api/qgis_mapflow.rst:434
+#: ../../source/api/qgis_mapflow.rst:489
 msgid "Provide comments in the Review dialogue:"
 msgstr "Добавьте комментарии для пояснения:"
 
-#: ../../source/api/qgis_mapflow.rst:437
+#: ../../source/api/qgis_mapflow.rst:492
 msgid "Add your comment on why and what you want us to make a review"
-msgstr ""
-"Добавьте комментарии зачем и по каким критериям вы запрашиваете валидацию"
-" результатов"
+msgstr "Добавьте комментарии зачем и по каким критериям вы запрашиваете валидацию результатов"
 
-#: ../../source/api/qgis_mapflow.rst:438
-msgid ""
-"*Optionally* Add the polygon area, highlighting the objects that are not "
-"correctly processed, weren't identified correctly, etc – it will help us "
-"to pay attention to the specific issues"
-msgstr ""
-"*Опционально* Добавьте область полигона, выделяя объекты, которые "
-"неправильно обработаны, неправильно идентифицированы и т. д. – это "
-"поможет нам обратить внимание на конкретные проблемы"
+#: ../../source/api/qgis_mapflow.rst:493
+msgid "*Optionally* Add the polygon area, highlighting the objects that are not correctly processed, weren't identified correctly, etc – it will help us to pay attention to the specific issues"
+msgstr "*Опционально* Добавьте область полигона, выделяя объекты, которые неправильно обработаны, неправильно идентифицированы и т. д. – это поможет нам обратить внимание на конкретные проблемы"
 
-#: ../../source/api/qgis_mapflow.rst:439
+#: ../../source/api/qgis_mapflow.rst:494
 msgid "The processing Status will change to **\"In review\"**"
 msgstr "Стату обработки сменится на **\"In review\"**"
 
-#: ../../source/api/qgis_mapflow.rst:447
+#: ../../source/api/qgis_mapflow.rst:502
 msgid "Select AOI and request a Review"
 msgstr "Выберите AOI и запросите валидацию"
 
-#: ../../source/api/qgis_mapflow.rst:449
-msgid ""
-"As soon as Review is done on our side the Status will change back to "
-"**\"Review required\"**. Accept the results or return to the #1"
-msgstr ""
-"Как только проверка будет завершена с нашей стороны, статус снова "
-"изменится на **\"Review required\"**. Примите результаты или вернитесь к "
-"#1"
+#: ../../source/api/qgis_mapflow.rst:504
+msgid "As soon as Review is done on our side the Status will change back to **\"Review required\"**. Accept the results or return to the #1"
+msgstr "Как только проверка будет завершена с нашей стороны, статус снова изменится на **\"Review required\"**. Примите результаты или вернитесь к #1"
 
-#: ../../source/api/qgis_mapflow.rst:458
+#: ../../source/api/qgis_mapflow.rst:513
 msgid "Accept the results when Review is done"
 msgstr "Примите результаты по итогам валидации"
 
-#: ../../source/api/qgis_mapflow.rst:462
+#: ../../source/api/qgis_mapflow.rst:517
 msgid "Proxy-settings"
 msgstr "Настройки прокси"
 
-#: ../../source/api/qgis_mapflow.rst:464
-msgid ""
-"If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* "
-"and will please adjust the proxy settings for plugin connection."
-msgstr ""
-"Если вы находитесь за брандмауэром, перейдите в *QGIS* -> *Настройки* -> "
-"*Сеть* и настройте параметры прокси для подключения плагина."
+#: ../../source/api/qgis_mapflow.rst:519
+msgid "If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for plugin connection."
+msgstr "Если вы находитесь за брандмауэром, перейдите в *QGIS* -> *Настройки* -> *Сеть* и настройте параметры прокси для подключения плагина."
 
 #: ../../source/api/qgis_mapflow.rst
-#, fuzzy
 msgid "Proxy settings"
 msgstr "Настройки прокси"
 
@@ -1256,9 +968,7 @@ msgstr "Настройки прокси"
 #~ msgid ""
 #~ "This tab contains also two buttons: "
 #~ "*Download results* and *Delete* buttons."
-#~ msgstr ""
-#~ "Эта вкладка также содержит две кнопки:"
-#~ " *Загрузка результатов* и *Удалить*."
+#~ msgstr "Эта вкладка также содержит ссылку на \"Рабочую папку\"."
 
 #~ msgid "**Explanation of the fields and buttons of this tab:**"
 #~ msgstr "**Пояснение к полям и кнопкам этой вкладки:**"
@@ -1378,3 +1088,22 @@ msgstr "Настройки прокси"
 #~ "директорию в появившемся окне и назовите"
 #~ " сохраняемый файл."
 
+#~ msgid "**Start processings and display the output on the map**"
+#~ msgstr ""
+
+#~ msgid "*Edit imagery providers available to the plugin*"
+#~ msgstr "*Добавить или изменить провайдеров данных*"
+
+#~ msgid ""
+#~ "You can upload your own GeoTIFF. "
+#~ "All raster layers currently loaded in"
+#~ " your QGIS (1) are visible in "
+#~ "the drop-down list (2) and can "
+#~ "be selected for upload. Opening files"
+#~ " from the *Additional options* button "
+#~ "(3) also adds it to the tree "
+#~ "of QGIS layers."
+#~ msgstr ""
+
+#~ msgid "Download the results"
+#~ msgstr "Просмотр результатов"
