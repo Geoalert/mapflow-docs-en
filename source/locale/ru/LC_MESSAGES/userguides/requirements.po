@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 01:28+0700\n"
-"PO-Revision-Date: 2023-11-20 17:02+0700\n"
+"POT-Creation-Date: 2024-04-15 14:18+0700\n"
+"PO-Revision-Date: 2024-04-19 13:29+0700\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.13.0\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/userguides/requirements.rst:2
 msgid "Requirements for using the platform"
@@ -49,22 +49,31 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:11
 msgid ""
-"Your imagery must be georeferenced in geographic or projected coordinate "
+"Your image must be georeferenced in geographic or projected coordinate "
 "system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;"
 msgstr ""
-"Ваши изображения должны быть привязаны к географической или проекционной "
+"Ваше изображение должно быть привязано к географической или проекционной "
 "системе координат, эллипсоиду WGS84, рекомендуется использовать UTM или "
 "Web Mercator;"
 
 #: ../../source/userguides/requirements.rst:12
 msgid ""
-"Your image is supposed to be RGB composite, RGBa and Singleband will "
-"work as well*;"
+"Your image is supposed to be RGB composite, RGBa and Singleband will work "
+"as well*;"
 msgstr ""
 "Предполагается, что ваше изображение должно быть составным RGB, также "
 "будут работать RGBa и одноканальное*;"
 
 #: ../../source/userguides/requirements.rst:13
+msgid ""
+"The default limit for file size is 1Gb. If you have a bigger file – "
+"reduce its size or consider switching to the paid plan"
+msgstr ""
+"По умолчанию размер файла ограничен 1 Гб. Если у вас файл большего "
+"размера – уменьшите его размер или подумайте о переходе на платный "
+"тарифный план"
+
+#: ../../source/userguides/requirements.rst:14
 msgid ""
 "Each Mapflow model has its recommendations for the spatial resolution of "
 "the input data, see :ref:`Model requirements` below"
@@ -72,7 +81,7 @@ msgstr ""
 "Каждая модель Mapflow имеет свои рекомендации по пространственному "
 "разрешению входных данных, смотрите :ref:`Model requirements` ниже"
 
-#: ../../source/userguides/requirements.rst:15
+#: ../../source/userguides/requirements.rst:16
 msgid ""
 "In case of non-compliance with any requirements, the system reports an "
 "error. If you are using Mapflow Web or Mapflow QGIS plugin, the error "
@@ -85,11 +94,11 @@ msgstr ""
 "дополнительной информации смотрите :doc:`сообщения об ошибках <../api/"
 "error_messages>`."
 
-#: ../../source/userguides/requirements.rst:22
+#: ../../source/userguides/requirements.rst:23
 msgid "Model requirements"
 msgstr "Требования моделей"
 
-#: ../../source/userguides/requirements.rst:24
+#: ../../source/userguides/requirements.rst:25
 msgid ""
 "The table below lists model requirements for spatial resolution of the "
 "input imagery."
@@ -97,16 +106,15 @@ msgstr ""
 "В таблице ниже перечислены требования модели к пространственному "
 "разрешению входных изображений."
 
-#: ../../source/userguides/requirements.rst:26
+#: ../../source/userguides/requirements.rst:27
 msgid ""
 "**\"Required\"** means that the imagery with resolution outside of this "
 "range will be rejected from processing and the request will fail."
 msgstr ""
 "**\"Требуемый\"** означает, что изображения с разрешением за пределами "
-"этого диапазона будут отклонены от обработки и запрос завершится "
-"неудачей."
+"этого диапазона будут отклонены от обработки и запрос завершится неудачей."
 
-#: ../../source/userguides/requirements.rst:29
+#: ../../source/userguides/requirements.rst:30
 msgid ""
 "**\"Recommended\"** means that the model is fit specifically for this "
 "spatial resolution. Any images of higher resolution will be downsampled "
@@ -123,7 +131,7 @@ msgstr ""
 "«требуемый») будут подвергнуты дополнительной выборке, но результаты "
 "будут не такими хорошими, как при рекомендуемом разрешении."
 
-#: ../../source/userguides/requirements.rst:34
+#: ../../source/userguides/requirements.rst:35
 msgid ""
 "GSD is specified in `UTM coordinate system <https://proj4.org/en/9.2/"
 "operations/projections/utm.html>`_, and may not correspond to what you "
@@ -134,7 +142,7 @@ msgstr ""
 "как «размер пикселя», если система координат вашего изображения "
 "отличается."
 
-#: ../../source/userguides/requirements.rst:37
+#: ../../source/userguides/requirements.rst:38
 msgid ""
 "`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about "
 "zoom and spatial resolution of imagery basemaps."
@@ -142,35 +150,35 @@ msgstr ""
 "`Узнайте больше <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_ о "
 "зуме и пространственном разрешении базовых карт изображений."
 
-#: ../../source/userguides/requirements.rst:43
+#: ../../source/userguides/requirements.rst:44
 msgid "Model"
 msgstr "Модель"
 
-#: ../../source/userguides/requirements.rst:44
+#: ../../source/userguides/requirements.rst:45
 msgid "Description"
 msgstr "Описание"
 
-#: ../../source/userguides/requirements.rst:45
+#: ../../source/userguides/requirements.rst:46
 msgid "Recommended zoom"
 msgstr "Рекомендуемый зум"
 
-#: ../../source/userguides/requirements.rst:46
+#: ../../source/userguides/requirements.rst:47
 msgid "Recommended GSD m/px"
 msgstr "Рекомендуемый GSD, м/пиксель"
 
-#: ../../source/userguides/requirements.rst:47
+#: ../../source/userguides/requirements.rst:48
 msgid "Required zoom range"
 msgstr "Требуемый диапазон зума"
 
-#: ../../source/userguides/requirements.rst:48
+#: ../../source/userguides/requirements.rst:49
 msgid "Required GSD range, m/px"
 msgstr "Требуемый GSD, м/пиксель"
 
-#: ../../source/userguides/requirements.rst:49
+#: ../../source/userguides/requirements.rst:50
 msgid "Buildings"
 msgstr "Здания"
 
-#: ../../source/userguides/requirements.rst:50
+#: ../../source/userguides/requirements.rst:51
 msgid ""
 "Extract roof contours, with optional classification, simplification and "
 "height estimation"
@@ -178,20 +186,12 @@ msgstr ""
 "Извлекает контуры крыши с опциональными классификацией, полигонизацией и "
 "оценкой высоты"
 
-#: ../../source/userguides/requirements.rst:51
-#: ../../source/userguides/requirements.rst:69
-#: ../../source/userguides/requirements.rst:75
-#: ../../source/userguides/requirements.rst:81
-#: ../../source/userguides/requirements.rst:87
-msgid "18"
-msgstr ""
-
 #: ../../source/userguides/requirements.rst:52
 #: ../../source/userguides/requirements.rst:70
 #: ../../source/userguides/requirements.rst:76
 #: ../../source/userguides/requirements.rst:82
 #: ../../source/userguides/requirements.rst:88
-msgid "0.5"
+msgid "18"
 msgstr ""
 
 #: ../../source/userguides/requirements.rst:53
@@ -199,46 +199,54 @@ msgstr ""
 #: ../../source/userguides/requirements.rst:77
 #: ../../source/userguides/requirements.rst:83
 #: ../../source/userguides/requirements.rst:89
-msgid "17 – 18"
+msgid "0.5"
 msgstr ""
 
 #: ../../source/userguides/requirements.rst:54
-msgid "0.3 - 1.5"
+#: ../../source/userguides/requirements.rst:72
+#: ../../source/userguides/requirements.rst:78
+#: ../../source/userguides/requirements.rst:84
+#: ../../source/userguides/requirements.rst:90
+msgid "17 – 18"
 msgstr ""
 
 #: ../../source/userguides/requirements.rst:55
+msgid "0.3 - 1.5"
+msgstr ""
+
+#: ../../source/userguides/requirements.rst:56
 msgid "High-density housing [Mapflow Web only]"
 msgstr "Плотная застройка [только в Mapflow Web]"
 
-#: ../../source/userguides/requirements.rst:56
+#: ../../source/userguides/requirements.rst:57
 msgid ""
-"Extraction and instance detection of the building roofprints in the "
-"areas of high density housing"
+"Extraction and instance detection of the building roofprints in the areas "
+"of high density housing"
 msgstr ""
 "Извлекает и детектирует отпечатки крыш зданий в районах с высокой "
 "плотностью застройки"
 
-#: ../../source/userguides/requirements.rst:57
+#: ../../source/userguides/requirements.rst:58
 msgid "19"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:58
+#: ../../source/userguides/requirements.rst:59
 msgid "0.3"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:59
+#: ../../source/userguides/requirements.rst:60
 msgid "18-19"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:60
+#: ../../source/userguides/requirements.rst:61
 msgid "0.15 - 1.2"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:61
+#: ../../source/userguides/requirements.rst:62
 msgid "Buildings (Aerial imagery)"
 msgstr "Здания (Аэрофото)"
 
-#: ../../source/userguides/requirements.rst:62
+#: ../../source/userguides/requirements.rst:63
 msgid ""
 "Extract roof contours (roofprints) from very high-resolution aerial "
 "imagery"
@@ -246,27 +254,27 @@ msgstr ""
 "Извлекает контуры крыш (отпечатков крыши) из аэрофотоснимков с очень "
 "высоким разрешением"
 
-#: ../../source/userguides/requirements.rst:63
+#: ../../source/userguides/requirements.rst:64
 msgid "20"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:64
+#: ../../source/userguides/requirements.rst:65
 msgid "0.1"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:65
+#: ../../source/userguides/requirements.rst:66
 msgid "20-21"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:66
+#: ../../source/userguides/requirements.rst:67
 msgid "0.05-0.4"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:67
+#: ../../source/userguides/requirements.rst:68
 msgid "Forest"
 msgstr "Лес"
 
-#: ../../source/userguides/requirements.rst:68
+#: ../../source/userguides/requirements.rst:69
 msgid ""
 "Extract segmentation masks of forested areas from high-resolution RGB "
 "images"
@@ -274,17 +282,17 @@ msgstr ""
 "Извлекает маски сегментации лесных массивов из изображений RGB с высоким "
 "разрешением"
 
-#: ../../source/userguides/requirements.rst:72
-#: ../../source/userguides/requirements.rst:78
-#: ../../source/userguides/requirements.rst:90
+#: ../../source/userguides/requirements.rst:73
+#: ../../source/userguides/requirements.rst:79
+#: ../../source/userguides/requirements.rst:91
 msgid "0.3 - 2.0"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:73
+#: ../../source/userguides/requirements.rst:74
 msgid "Forest with heights [Mapflow API/QGIS only]"
 msgstr "Лес с высотами"
 
-#: ../../source/userguides/requirements.rst:74
+#: ../../source/userguides/requirements.rst:75
 msgid ""
 "Extract segmentation masks of forested areas from high-resolution RGB "
 "images with separation by height classes"
@@ -292,24 +300,23 @@ msgstr ""
 "Извлечение масок сегментации лесных массивов из изображений RGB высокого "
 "разрешения с разделением по классам высоты"
 
-#: ../../source/userguides/requirements.rst:79
+#: ../../source/userguides/requirements.rst:80
 msgid "Roads"
 msgstr "Дороги"
 
-#: ../../source/userguides/requirements.rst:80
+#: ../../source/userguides/requirements.rst:81
 msgid "Extract road mask from high-resolution satellite imagery"
-msgstr ""
-"Извлекает дорожную маску из спутниковых снимков высокого разрешения"
+msgstr "Извлекает дорожную маску из спутниковых снимков высокого разрешения"
 
-#: ../../source/userguides/requirements.rst:84
+#: ../../source/userguides/requirements.rst:85
 msgid "0.3 - 1.2"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:85
+#: ../../source/userguides/requirements.rst:86
 msgid "Constructions"
 msgstr "Строительство"
 
-#: ../../source/userguides/requirements.rst:86
+#: ../../source/userguides/requirements.rst:87
 msgid ""
 "The model highlights areas in the satellite image that contain "
 "construction sites and buildings under construction"
@@ -317,11 +324,11 @@ msgstr ""
 "Модель выделяет области на спутниковом снимке, которые содержат "
 "строительные площадки и строящиеся здания"
 
-#: ../../source/userguides/requirements.rst:91
+#: ../../source/userguides/requirements.rst:92
 msgid "Agriculture fields"
 msgstr "С/Х поля"
 
-#: ../../source/userguides/requirements.rst:92
+#: ../../source/userguides/requirements.rst:93
 msgid ""
 "Extraction and instance separation of agriculture fileds from high-"
 "resolution satellite imagery"
@@ -329,23 +336,23 @@ msgstr ""
 "Извлекает и разделяет сельскохозяйственные поля из спутниковых снимков "
 "высокого разрешения"
 
-#: ../../source/userguides/requirements.rst:93
+#: ../../source/userguides/requirements.rst:94
 msgid "17"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:94
+#: ../../source/userguides/requirements.rst:95
 msgid "1.2"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:95
+#: ../../source/userguides/requirements.rst:96
 msgid "15-17"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:96
+#: ../../source/userguides/requirements.rst:97
 msgid "0.5-4.8"
 msgstr ""
 
-#: ../../source/userguides/requirements.rst:98
+#: ../../source/userguides/requirements.rst:99
 msgid ""
 "\\* Mapflow.ai can also process single-band (panchromatic) imagery, but "
 "the NN models are not tuned for such kind of data, so the quality of the "

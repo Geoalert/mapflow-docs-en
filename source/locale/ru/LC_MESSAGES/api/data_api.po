@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 01:28+0700\n"
+"POT-Creation-Date: 2024-04-15 14:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -48,11 +48,11 @@ msgstr ""
 
 #: ../../source/api/data_api.rst:23
 msgid ""
-"What is \"mosaic\"? This is the collection of single images, aimed at "
-"instant preview and processing. It's helpful in such cases as mosaicing "
-"the number of single aerial images covering some area or batching the "
-"large ortho-plan for faster uploading and optimizing its storage in the "
-"cloud."
+"What is \"mosaic\"? This is the collection of images, aimed at instant "
+"preview and processing. It's helpful in such cases as collecting and "
+"mosaicing the number of single aerial images covering some area or "
+"batching the large orthomap for faster uploading and optimizing its "
+"storage in the cloud."
 msgstr ""
 
 #: ../../source/api/data_api.rst:27
@@ -68,7 +68,7 @@ msgid "Creates the mosaic (the empty collection of images) and returns its ID."
 msgstr ""
 
 #: ../../source/api/data_api.rst:47
-msgid "Creates mosaic and uploads images to the mosaic"
+msgid "Create mosaic and upload images to mosaic"
 msgstr ""
 
 #: ../../source/api/data_api.rst:58
@@ -105,54 +105,62 @@ msgstr ""
 msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:148
-#: ../../source/api/data_api.rst:237
+#: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:117
+#: ../../source/api/data_api.rst:189 ../../source/api/data_api.rst:278
 msgid "Response example:"
 msgstr ""
 
 #: ../../source/api/data_api.rst:113
+msgid "Get images by mosaic ID"
+msgstr ""
+
+#: ../../source/api/data_api.rst:115
+msgid "``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}\\image``"
+msgstr ""
+
+#: ../../source/api/data_api.rst:154
 msgid "Delete mosaic"
 msgstr ""
 
-#: ../../source/api/data_api.rst:116
+#: ../../source/api/data_api.rst:157
 msgid "Deleting mosaic also deletes all linked images and they cannot be restored"
 msgstr ""
 
-#: ../../source/api/data_api.rst:119
+#: ../../source/api/data_api.rst:160
 msgid "``DELETE https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:123
+#: ../../source/api/data_api.rst:164
 msgid "Manage Images"
 msgstr ""
 
-#: ../../source/api/data_api.rst:126
+#: ../../source/api/data_api.rst:167
 msgid "Get image metadata by image ID"
 msgstr ""
 
-#: ../../source/api/data_api.rst:128
+#: ../../source/api/data_api.rst:169
 msgid "``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:131
+#: ../../source/api/data_api.rst:172
 msgid "Delete image"
 msgstr ""
 
-#: ../../source/api/data_api.rst:133
+#: ../../source/api/data_api.rst:174
 msgid "``DELETE https://api.mapflow.ai/rest/rasters/image/{image_id}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:136
+#: ../../source/api/data_api.rst:177
 msgid "Get image preview"
 msgstr ""
 
-#: ../../source/api/data_api.rst:138
+#: ../../source/api/data_api.rst:179
 msgid ""
 "``GET "
 "https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:140 ../../source/api/data_api.rst:198
+#: ../../source/api/data_api.rst:181 ../../source/api/data_api.rst:239
 msgid "E.g.:"
 msgstr ""
 
@@ -160,53 +168,53 @@ msgstr ""
 msgid "Image preview"
 msgstr ""
 
-#: ../../source/api/data_api.rst:159
+#: ../../source/api/data_api.rst:200
 msgid "PREVIEW TYPE"
 msgstr ""
 
-#: ../../source/api/data_api.rst:160
+#: ../../source/api/data_api.rst:201
 msgid "DESCRIPTION"
 msgstr ""
 
-#: ../../source/api/data_api.rst:161
+#: ../../source/api/data_api.rst:202
 msgid "s"
 msgstr ""
 
-#: ../../source/api/data_api.rst:162
+#: ../../source/api/data_api.rst:203
 msgid "image 256x256"
 msgstr ""
 
-#: ../../source/api/data_api.rst:163
+#: ../../source/api/data_api.rst:204
 msgid "l"
 msgstr ""
 
-#: ../../source/api/data_api.rst:164
+#: ../../source/api/data_api.rst:205
 msgid "image 1024x1024"
 msgstr ""
 
-#: ../../source/api/data_api.rst:168
+#: ../../source/api/data_api.rst:209
 msgid "Mapflow Storage"
 msgstr ""
 
-#: ../../source/api/data_api.rst:171
+#: ../../source/api/data_api.rst:212
 msgid "Get user's storage limits"
 msgstr ""
 
-#: ../../source/api/data_api.rst:173
+#: ../../source/api/data_api.rst:214
 msgid "``GET https://api.mapflow.ai/rest/rasters/memory``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:175
+#: ../../source/api/data_api.rst:216
 msgid ""
 "This method allows to check user's storage usage against the available "
 "limit."
 msgstr ""
 
-#: ../../source/api/data_api.rst:180
+#: ../../source/api/data_api.rst:221
 msgid "Search Imagery"
 msgstr ""
 
-#: ../../source/api/data_api.rst:183
+#: ../../source/api/data_api.rst:224
 msgid ""
 "This is the early version of the Mapflow API to search for available "
 "satellite images provided by external data providers. The API aims to "
@@ -218,19 +226,19 @@ msgid ""
 "account."
 msgstr ""
 
-#: ../../source/api/data_api.rst:189
+#: ../../source/api/data_api.rst:230
 msgid "Get metadata of available images"
 msgstr ""
 
-#: ../../source/api/data_api.rst:191
+#: ../../source/api/data_api.rst:232
 msgid "``POST https://api.mapflow.ai/catalog/meta``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:193
+#: ../../source/api/data_api.rst:234
 msgid "``type: application/json``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:196
+#: ../../source/api/data_api.rst:237
 msgid "Returns a list of the available images, filtered by metadata."
 msgstr ""
 
@@ -270,17 +278,17 @@ msgstr ""
 msgid "``minAoiIntersectionPercent``: float, in percents"
 msgstr ""
 
-#: ../../source/api/data_api.rst:299
+#: ../../source/api/data_api.rst:340
 msgid ""
 "The size of the search area cannot exceed the size of processing AOI "
 "limit assigned to the specific user."
 msgstr ""
 
-#: ../../source/api/data_api.rst:303
+#: ../../source/api/data_api.rst:344
 msgid "Run processing by image ID"
 msgstr ""
 
-#: ../../source/api/data_api.rst:305
+#: ../../source/api/data_api.rst:346
 msgid ""
 "For detailed description how to run a processing with Mapflow API see "
 ":doc:`Mapflow Processing API <processing_api>` – \"Create processing\". "
@@ -288,7 +296,7 @@ msgid ""
 "define **provider** and **image ID** in the params as follows:"
 msgstr ""
 
-#: ../../source/api/data_api.rst:308
+#: ../../source/api/data_api.rst:349
 msgid "``{\"params\": {\"data_provider\":<providerName>, \"url\":<id>}}``"
 msgstr ""
 
@@ -365,5 +373,20 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "You can get ``image_id`` from ``processing.params.url``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "What is \"mosaic\"? This is the "
+#~ "collection of single images, aimed at"
+#~ " instant preview and processing. It's "
+#~ "helpful in such cases as mosaicing "
+#~ "the number of single aerial images "
+#~ "covering some area or batching the "
+#~ "large ortho-plan for faster uploading"
+#~ " and optimizing its storage in the"
+#~ " cloud."
+#~ msgstr ""
+
+#~ msgid "Creates mosaic and uploads images to the mosaic"
 #~ msgstr ""
 
