@@ -462,6 +462,59 @@ Request body example
       ]
   }
 
+Processing cost
+^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processing/cost``
+
+If you want to find out the cost of processing **without creating or running it**, you can use this method.
+
+Request body example:
+
+.. code:: json
+
+  {
+    "wdId": "8cb13006-a299-4df6-b47d-91bd63de947f", 
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.29836940765381,
+              55.63619642594767
+            ],
+            [
+              37.307724952697754,
+              55.63619642594767
+            ],
+            [
+              37.307724952697754,
+              55.64024152130109
+            ],
+            [
+              37.29836940765381,
+              55.64024152130109
+            ],
+            [
+              37.29836940765381,
+              55.63619642594767
+            ]
+          ]
+        ]
+    },
+    "params": {
+    "source_type": "xyz",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    }
+  }
+
+
+.. note::
+
+  You can find out the workflow definition ``ID`` (``wdId`` param) using this method:
+  
+  ``GET api.mapflow.ai/rest/user/status``
+
 Rename processing
 ^^^^^^^^^^^^^^^^^^^
 
