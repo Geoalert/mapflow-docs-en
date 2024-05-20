@@ -371,103 +371,12 @@ Example of the failed processing response:
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
 
 
-.. _Create processing:
-
-Create processing
-^^^^^^^^^^^^^^^^^^^
-
-``POST https://api.mapflow.ai/rest/processings``
-
-Runs a processing, and returns its immediate state.
-Request body sample:
-
-.. code:: json
-
-    {
-        "name": "Test",                                      //Name of this processing. Optional.
-        "description": "A simple test",                      //Arbitrary description of this processing. Optional.
-        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be applied.
-        "wdName": "🏠 Buildings",                            //The name of a workflow (AI model). Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
-        "geometry": {                                        //A geojson geometry of the area of processing.
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  37.29836940765381,
-                  55.63619642594767
-                ],
-                [
-                  37.307724952697754,
-                  55.63619642594767
-                ],
-                [
-                  37.307724952697754,
-                  55.64024152130109
-                ],
-                [
-                  37.29836940765381,
-                  55.64024152130109
-                ],
-                [
-                  37.29836940765381,
-                  55.63619642594767
-                ]
-              ]
-            ]
-        },
-        "params": {                           #Arbitrary string parameters of this processing. Optional.
-            "source_type": "xyz",
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-        },
-        "meta": {                             #Arbitrary string key-value for this processing (metadata). Optional.
-            "test": "test"
-        }
-    }
-
-
-To process a user-provided raster (see :ref:`Upload GeoTIFF for processing <upload-geotiff-section>` section), set parameters as follows:  
-
- .. code:: json
-
-        "params": {
-            "source_type": "tif",
-            "url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"
-        }
-
-Response: the newly created processing.
-
-
-Customize processing with the workflow options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``POST https://api.mapflow.ai/rest/processings``
-
-Processing workflow can be custoized with enabling some model options.
-The "options" can be retrieved through the ``user/status`` request as ``{"blocks": [{"name":<>, "displayName": <>, "optional":true, "price": <>}]`` in the ``models`` list.
-
-Request body example
-
-.. code:: json
-  
-  {
-      "blocks": [
-          {
-              "name": "Simplification",
-              "enabled": false
-          },
-          {
-              "name": "OSM",
-              "enabled": false
-          }
-      ]
-  }
-
 Processing cost
 ^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processing/cost``
 
-If you want to find out the cost of processing **without creating or running it**, you can use this method.
+If you want to find out the cost of processing without running it, you can use this method.
 
 Request body example:
 
@@ -511,9 +420,135 @@ Request body example:
 
 .. note::
 
-  You can find out the workflow definition ``ID`` (``wdId`` param) using this method:
+  You can find out the details like workflow definition ``ID`` (``wdId``) using this method:
   
   ``GET api.mapflow.ai/rest/user/status``
+
+
+.. _Create processing:
+
+Run processing
+^^^^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processings``
+
+Runs a processing, and returns its immediate state.
+Request body sample:
+
+.. code:: json
+
+    {
+        "name": "Test",                                      //Name of this processing. Optional.
+        "description": "A simple test",                      //Arbitrary description of this processing. Optional.
+        "projectId": "20f05e39-ccea-4e26-a7f3-55b620bf4e31", //Project id. Optional. If not set, the user's default project will be applied.
+        "wdName": "🏠 Buildings",                            //The name of a workflow (AI model). Could be "🏠 Buildings", or "🌲 Forest", etc. See ref. below
+        "geometry": {                                        //A geojson geometry of the area of processing.
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  37.29836940765381,
+                  55.63619642594767
+                ],
+                [
+                  37.307724952697754,
+                  55.63619642594767
+                ],
+                [
+                  37.307724952697754,
+                  55.64024152130109
+                ],
+                [
+                  37.29836940765381,
+                  55.64024152130109
+                ],
+                [
+                  37.29836940765381,
+                  55.63619642594767
+                ]
+              ]
+            ]
+        },
+        "params": {                           //Arbitrary string parameters of this processing. Optional.
+            "source_type": "xyz",
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        },
+        "meta": {                             //Arbitrary string key-value for this processing (metadata). Optional.
+            "test": "test"
+        }
+    }
+
+
+To process a user-provided raster (see :ref:`Upload GeoTIFF for processing <upload-geotiff-section>` section), set parameters as follows:  
+
+ .. code:: json
+
+        "params": {
+            "source_type": "tif",
+            "url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"
+        }
+
+Response: the newly created processing.
+
+
+Customize processing with the options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processings``
+
+Processing workflow can be customized with enabling or disabling some model options.  The number of options depends on the model and a scenario. 
+
+Request body example
+
+.. code:: json
+  
+  {
+      "blocks": [
+          {
+              "name": "Simplification",
+              "enabled": false
+          },
+          {
+              "name": "Classification",
+              "enabled": true
+          }
+      ]
+  }
+
+The "options" can be retrieved for every model  in the ``models`` linked to the user – through the ``user/status`` request. 
+
+Response example:
+
+.. code:: json
+
+        "models": 
+        [
+
+            {
+                "id": "c2e857fe-1bf6-4e7a-b9f4-d5339c46d357",
+                "name": "Forest",
+                "description": "Default model: segmentation of forested areas with assinment of height classes; thresholds are 4 and 10 meters",
+                "created": "2023-07-26T08:14:18.739968Z",
+                "updated": "2023-08-11T04:58:40.907896Z",
+                "pricePerSqKm": 0.0,
+                "blocks": [
+                    {
+                        "name": "Segmentation",
+                        "displayName": "Segmentation",
+                        "optional": false,
+                        "price": 8.0
+                    },
+                    {
+                        "name": "Heights",
+                        "displayName": "Height estimation",
+                        "optional": true,
+                        "price": 20.0
+                    }
+                ]
+            }
+        ]
+
+
 
 Rename processing
 ^^^^^^^^^^^^^^^^^^^
