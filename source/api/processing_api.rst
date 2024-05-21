@@ -264,6 +264,58 @@ Request body example:
     }
 
 
+Share project
+^^^^^^^^^^^^^^^^
+``POST https://api.mapflow.ai/rest/projects/share``
+
+Share project with the external or a team user depending on the contribution rights.
+
+1. Share project with the external user:
+
+.. code:: json
+  
+    {
+        "projectId": "70f65cfd-285b-4f25-a058-1fd9103a78f9",
+        "email": "some-external-user@email.com",
+        "role": "readonly"
+    }
+
+2. Share project with the :ref:`team <Team accounts>` user
+  
+.. code:: json
+
+    {
+        "projectId": "70f65cfd-285b-4f25-a058-1fd9103a78f9",
+        "email": "team-user@myteam.com",
+        "role": "contributor"
+    }
+
+User role parameter:
+
+.. note::
+
+    The "readonly" role is applicable for any user. The "contributor+" role is applicable for sharing projects inside the :ref:`team <Team accounts>`.
+
+  .. list-table::
+    :widths: 10 10 50
+    :header-rows: 1
+   
+    * - KEY
+      - VALUE
+      - DESCRIPTION
+    * - role
+      - readonly
+      - User can view project, download results but can't create and run processing.
+    * - role
+      - contributor
+      - User can view project, download results and create and run processing.
+    * - role
+      - maintainer
+      - User can view project, download results, create, run and delete processing + share project.
+    * - role
+      - owner
+      - User can do everything above + assign and remove the project owner.
+
 Delete project
 ^^^^^^^^^^^^^^^^^^^
 
@@ -371,9 +423,67 @@ Example of the failed processing response:
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
 
 
+Processing cost
+^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processing/cost``
+
+If you want to find out the cost of processing without running it, you can use this method.
+Returns the cost of the processing in :ref:`credits <credits>` based on the total area
+
+Request body example:
+
+.. code:: json
+
+  {
+    "wdId": "8cb13006-a299-4df6-b47d-91bd63de947f", 
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.29836940765381,
+              55.63619642594767
+            ],
+            [
+              37.307724952697754,
+              55.63619642594767
+            ],
+            [
+              37.307724952697754,
+              55.64024152130109
+            ],
+            [
+              37.29836940765381,
+              55.64024152130109
+            ],
+            [
+              37.29836940765381,
+              55.63619642594767
+            ]
+          ]
+        ]
+    },
+    "params": {
+    "source_type": "xyz",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    }
+  }
+
+Response example:
+
+``30``
+
+.. note::
+
+  You can find out the details like workflow definition ``ID`` (``wdId``) using this method:
+  
+  ``GET api.mapflow.ai/rest/user/status``
+
+
 .. _Create processing:
 
-Create processing
+Run processing
 ^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
@@ -415,11 +525,11 @@ Request body sample:
               ]
             ]
         },
-        "params": {                           #Arbitrary string parameters of this processing. Optional.
+        "params": {                           //Arbitrary string parameters of this processing. Optional.
             "source_type": "xyz",
             "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         },
-        "meta": {                             #Arbitrary string key-value for this processing (metadata). Optional.
+        "meta": {                             //Arbitrary string key-value for this processing (metadata). Optional.
             "test": "test"
         }
     }
@@ -437,13 +547,12 @@ To process a user-provided raster (see :ref:`Upload GeoTIFF for processing <uplo
 Response: the newly created processing.
 
 
-Customize processing with the workflow options
+Customize processing with the options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-Processing workflow can be custoized with enabling some model options.
-The "options" can be retrieved through the ``user/status`` request as ``{"blocks": [{"name":<>, "displayName": <>, "optional":true, "price": <>}]`` in the ``models`` list.
+Processing workflow can be customized with enabling or disabling some model options.  The number of options depends on the model and a scenario. 
 
 Request body example
 
@@ -456,64 +565,46 @@ Request body example
               "enabled": false
           },
           {
-              "name": "OSM",
-              "enabled": false
+              "name": "Classification",
+              "enabled": true
           }
       ]
   }
 
-Processing cost
-^^^^^^^^^^^^^^^^
+The "options" can be retrieved for every model in the ``models`` linked to the user – through the ``user/status`` request. 
 
-``POST https://api.mapflow.ai/rest/processing/cost``
-
-If you want to find out the cost of processing **without creating or running it**, you can use this method.
-
-Request body example:
+Response example:
 
 .. code:: json
 
-  {
-    "wdId": "8cb13006-a299-4df6-b47d-91bd63de947f", 
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              37.29836940765381,
-              55.63619642594767
-            ],
-            [
-              37.307724952697754,
-              55.63619642594767
-            ],
-            [
-              37.307724952697754,
-              55.64024152130109
-            ],
-            [
-              37.29836940765381,
-              55.64024152130109
-            ],
-            [
-              37.29836940765381,
-              55.63619642594767
-            ]
-          ]
+        "models": 
+        [
+
+            {
+                "id": "c2e857fe-1bf6-4e7a-b9f4-d5339c46d357",
+                "name": "Forest",
+                "description": "Default model: segmentation of forested areas with assinment of height classes; thresholds are 4 and 10 meters",
+                "created": "2023-07-26T08:14:18.739968Z",
+                "updated": "2023-08-11T04:58:40.907896Z",
+                "pricePerSqKm": 0.0,
+                "blocks": [
+                    {
+                        "name": "Segmentation",
+                        "displayName": "Segmentation",
+                        "optional": false,
+                        "price": 8.0
+                    },
+                    {
+                        "name": "Heights",
+                        "displayName": "Height estimation",
+                        "optional": true,
+                        "price": 20.0
+                    }
+                ]
+            }
         ]
-    },
-    "params": {
-    "source_type": "xyz",
-    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-    }
-  }
 
 
-.. note::
-
-  You can find out the workflow definition ``ID`` (``wdId`` param) using this method:
-  
-  ``GET api.mapflow.ai/rest/user/status``
 
 Rename processing
 ^^^^^^^^^^^^^^^^^^^
@@ -620,7 +711,7 @@ Upload images
 
 .. note::
 
-  1. Use :ref:`Data API` to create a mosaic and upload one or more images
+  1. ❗️ Use :ref:`Data API` to create a mosaic and upload one or more images
   2. Use s3 link from the ``"image_url"`` as an ``"url"`` param to :ref:`Create processing`
 
 

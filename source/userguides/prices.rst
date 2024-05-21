@@ -22,11 +22,12 @@ You will be asked to pay online.
 .. important::
    If you want to buy a custom number of credits, use another payment method or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_.
 
+.. _credits:
 
 Mapflow credits
 ---------------
 
-Cost of processing makes the sum of **data cost** and **processing cost**:
+Cost of processing makes the sum of **data cost** and **processing cost** given the requested area:
 
 ``Cost = Area * (Processing Price + Data Price)``
 

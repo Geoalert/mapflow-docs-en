@@ -268,7 +268,7 @@ You can find detailed information about Kepler.gl in their `user manual <https:/
 .. _Team accounts:
 
 Team accounts
--------------
+--------------
 
 Users can run a Team account to invite collaborators and set up Mapflow limits.
 Currently, you need to reach out to us to create a Team and assign an Owner role to your existing Mapflow account.
