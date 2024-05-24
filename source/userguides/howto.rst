@@ -103,19 +103,56 @@ Open files in the Additional options (3) also adds your item to the tree of QGIS
 
     Please, consider the requirements specified on the page with Models reference when uploading your own images for AI-mapping processing. Contact us if you have a large dataset of images or your file size exceeds our limits.
 
-Use Openaerialmap as an imagery publication tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`OpenAeriaMap <https://map.openaerialmap.org>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with geospatial data.
-As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be streamed using TMS/WMTS protocols or downloaded as GeoTIFF file. 
+.. _Openaerialmap:
+
+Use Openaerialmap as an imagery publication and access service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
+As soon as your aerial image is published on OpenAerialMap it's presented on the public map and can be fetched using TMS/WMTS protocols.
+
+Select the image and copy link to TMS to connect it to Mapflow Custom URL.
+
+  .. figure:: ../api/_static/qgis/search_openaerialmap_image.png
+         :alt: Search for imagery in OpenAerialMap 
+         :align: center
+         :width: 15cm
+         :class: with-border
+
+|
+
+Your can use this service to publich your own UAV data (note that it will become publicly accessible). 
+As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be connected using TMS/WMTS or downloaded as GeoTIFF file. 
 Both ways are OK to work with Mapflow.
 
     .. image:: _static/oam_search.png
        :align: center
+       :width: 15cm
        :class: with-border
 
 1. Copy link to TMS and paste it into the “Custom imagery URL” in your new Mapflow processing. 
 2. Check if you see the image on the map, go through the next steps (AI model, processing params) to and start the processing.
+
+
+.. _Nearmap:
+
+Use Nearmap as an imagery provider
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Nearmap <https://nearmap.com>`_ provides access to its Vertical and Panorama Imagery via a Tile API. 
+
+URL format:
+
+``https://api.nearmap.com/tiles/v3/{tileResourceType}/{z}/{x}/{y}.{format}?apikey={YOUR_API_KEY}``
+
+Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/articles/84-tile-api>`_.
+
+    .. image:: _static/nearmap_custom_url.jpg
+       :align: center
+       :width: 15cm
+       :class: with-border
+
 
 Preparing and optimizing the large size images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,6 +178,11 @@ The same can be done using QGIS interface:
 Tell us if you have more tips to share with the community or if you have more questions – we are ready to help.
 
 **Run the flow!**
+
+
+How to use Nearmap as an imagery source
+
+
 
 
 How to view results using Kepler.gl

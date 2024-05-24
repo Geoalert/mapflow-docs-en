@@ -189,7 +189,10 @@ Tabs section contains 4 tabs:
 .. hint::
     You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
-    Check for free aerial images and try XYZ links at  `OpenAerialMap <https://openaerialmap.org>`_.
+.. hint::
+   1. Learn how to connect to the free imagery sources – e.g. :ref:`Openaerialmap`
+   2. Learn how to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`
+
 
 
 .. _Settings:
@@ -276,6 +279,8 @@ Besides, you can create a new vector layer or add existing AOI into QGIS project
 
 Use of commercial satellite imagery providers
 ----------------------------------------------
+
+.. _Maxar SecureWatch:
 
 How to connect to Maxar SecureWatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -376,18 +381,6 @@ You can use SW to discover available images for you area of interest.
 How to use other imagery services
 ------------------------------------
 
-For example, let's use the `OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced by users. The project is supported by a consortium of companies developing open source software and services for working with spatial data.
-As soon as your aerial image is published on OpenAerialMap it's presented on the public map and can be fetched using TMS/WMTS protocols.
-
-Select the image and copy link to TMS.
-
-  .. figure:: _static/qgis/search_openaerialmap_image.png
-         :alt: Search for imagery in OpenAerialMap 
-         :align: center
-         :width: 15cm
-
-|
-
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
 
 To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
@@ -411,6 +404,15 @@ To start processing using this data source, go to the *Processing* tab, fill in 
      - URL of the imagery data provider
    * - Type
      - Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP.
+
+
+.. hint::
+
+  Check for more imagery sources connections in the UserGuide How To:
+
+  1. How to connect to :ref:`Openaerialmap <Openaerialmap>`
+
+  2. How to connect to :ref:`Nearmap <Nearmap>`
 
 
 How to upload your image
