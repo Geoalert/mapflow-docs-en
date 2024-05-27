@@ -270,8 +270,8 @@ You can find detailed information about Kepler.gl in their `user manual <https:/
 Team accounts
 --------------
 
-Users can run a Team account to invite collaborators and set up Mapflow limits.
-Currently, you need to reach out to us to create a Team and assign an Owner role to your existing Mapflow account.
+Users can run a Team account to invite collaborators, share projects and manage Mapflow limits.
+Currently, you need to reach out to us to create a Team while we are working on a public UI. Contact us by help@geoalert.io using your corporate email linked to Mapflow account.
 Once the Team is created the Owner can invite new members, and assign and manage their limits. Only the Owner gets access to the Team profile.
 
 .. image:: _static/team_accounts.png
@@ -282,7 +282,7 @@ Once the Team is created the Owner can invite new members, and assign and manage
 |
 
 .. warning::
-    If the 'members' email is already registered as a Mapflow account, the Team Owner should reach out to Support (help@geoalert.io) to ask to link the account.
+    If the Team member's email is already registered as a Mapflow account, reach out to Support (help@geoalert.io) to ask to link the account.
 
 
 Working with API
@@ -300,5 +300,5 @@ The service uses the **Basic Auth** authorization type - use the API token, whic
    :alt: Preview map
    :align: center
    :width: 8cm
-   :class: no-scaled-link 
+   :class: with-border no-scaled-link 
 

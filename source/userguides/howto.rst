@@ -10,64 +10,65 @@ How to set up log in using OAuth2
 
 .. include:: oauth2_setup.rst
 
-How to change the data type of your image to Uint8 bit in QGIS
---------------------------------------------------------------
+.. How to change the data type of your image to Uint8 bit in QGIS
+.. --------------------------------------------------------------
 
-1. Check the data type of your image. 
-Right-click on the imagery layer - i - Information from provider. The Data type must be Byte. Follow the next steps if the Data type is Int16, Float 32 etc.
+.. 1. Check the data type of your image. 
+.. Right-click on the imagery layer - i - Information from provider. The Data type must be Byte. Follow the next steps if the Data type is Int16, Float 32 etc.
 
     
-    .. figure:: _static/information.png
+..     .. figure:: _static/information.png
 
 
   
 
-2. Right click on your image Layer Properties -  Symbology tab, then customize the display of your image. Select desired channels for Band rendering, adjust brightness and contrast. 
+.. 2. Right click on your image Layer Properties -  Symbology tab, then customize the display of your image. Select desired channels for Band rendering, adjust brightness and contrast. 
       
     
-    .. figure:: _static/symbology.png
+..     .. figure:: _static/symbology.png
 
 
 
-3. Right-click on the layer’s name, go to the  Export in the context menu, Save as…
+.. 3. Right-click on the layer’s name, go to the  Export in the context menu, Save as…
 
  
-    .. figure:: _static/export.png
+..     .. figure:: _static/export.png
     
 
 
-4. Check Output mode as Rendered Image
+.. 4. Check Output mode as Rendered Image
 
 
-    .. figure:: _static/save_raster.png
+..     .. figure:: _static/save_raster.png
     
 
 
-5. Save your image  - navigate to the desired folder, input the file name then click OK
+.. 5. Save your image  - navigate to the desired folder, input the file name then click OK
 
 
 
-6. Use the new image layer as Imagery source when using the Mapflow plugin for QGIS
+.. 6. Use the new image layer as Imagery source when using the Mapflow plugin for QGIS
 
 
-How to process your own UAV imagery with Mapflow
-------------------------------------------------
+How to process your own UAV images with Mapflow
+--------------------------------------------------
 
 Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a deeply integrated part of the geomatic industry over the last ten years. This is owing to their increasing usability, falling hardware costs, and easing government regulations. Yet, as more data is available with UAV surveys, more data need to be processed operatively. 
 To process your UAV data you might be looking for some cloud or desktop software to create a mosaic or orthophoto.  Do you know that you can easily publish your data with Openaerialmap and analyze (say detect and calculate some objects and calculate their areas) with Mapflow QGIS or Mapflow Web? 
 
 Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` model that extracts the detailed building outlines (the recommended image resolution is 10 cm).
 
-Processing with Mapflow Web
+Upload images to Mapflow Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Select raster source – you can either use Custom URL (see below how to publish your image with Openaerialmap and get the TMS link) or upload your image as GeoTIFF.
 
-.. image:: _static/select_provider_2.png
+.. figure:: _static/select_provider_2.png
             :align: center
             :class: with-border
             :scale: 50
 
+|
 .. warning::
 
     *Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.*
@@ -89,20 +90,24 @@ The processing area (AOI) must be located within the area of the image extent, o
     Mapflow supports RGB imagery and also processes single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
 
-Processing with Mapflow – QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upload images with Mapflow – QGIS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In case you are already used to working with QGIS you need to install the Mapflow plugin. You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px.). All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
-Open files in the Additional options (3) also adds your item to the tree of QGIS layers.
+You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). All raster layers loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
 
-    .. image:: _static/select_raster_qgis.png
-       :align: center
-       :class: with-border
+.. figure:: _static/select_raster_qgis.jpg
+    :align: center
+    :class: with-border
+    :width: 15cm no-scaled-link 
 
 .. important::
 
-    Please, consider the requirements specified on the page with Models reference when uploading your own images for AI-mapping processing. Contact us if you have a large dataset of images or your file size exceeds our limits.
+    Please, consider the requirements for :ref:`AI Models <Model requirements>` when uploading your own images. 
+    Contact us if you have difficulties to handle a large dataset or your file size exceeds our limits.
 
+
+How to use external data providers in Mapflow
+--------------------------------------------------
 
 .. _Openaerialmap:
 
@@ -118,18 +123,16 @@ Select the image and copy link to TMS to connect it to Mapflow Custom URL.
          :alt: Search for imagery in OpenAerialMap 
          :align: center
          :width: 15cm
-         :class: with-border
-
-|
+         :class: with-border no-scaled-link 
 
 Your can use this service to publich your own UAV data (note that it will become publicly accessible). 
 As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be connected using TMS/WMTS or downloaded as GeoTIFF file. 
 Both ways are OK to work with Mapflow.
 
-    .. image:: _static/oam_search.png
+    .. figure:: _static/oam_search.png
        :align: center
        :width: 15cm
-       :class: with-border
+       :class: with-border no-scaled-link
 
 1. Copy link to TMS and paste it into the “Custom imagery URL” in your new Mapflow processing. 
 2. Check if you see the image on the map, go through the next steps (AI model, processing params) to and start the processing.
@@ -148,11 +151,14 @@ URL format:
 
 Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/articles/84-tile-api>`_.
 
-    .. image:: _static/nearmap_custom_url.jpg
-       :align: center
-       :width: 15cm
-       :class: with-border
+    .. figure:: _static/nearmap_custom_url.jpg
+        :align: center
+        :width: 15cm
+        :class: with-border no-scaled-link
 
+
+How to optimize large image files
+------------------------------------
 
 Preparing and optimizing the large size images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -170,9 +176,10 @@ By default the compression quality is 75% (``gdal_translate -co compress=JPEG -c
 
 The same can be done using QGIS interface:
 
-    .. image:: _static/optimize_qgis.png
-       :align: center
-       :class: with-border
+    .. figure:: _static/optimize_qgis.png
+        :align: center
+        :width: 20cm
+        :class: with-border no-scaled-link
 
 
 Tell us if you have more tips to share with the community or if you have more questions – we are ready to help.
@@ -208,7 +215,7 @@ Click on the layer name to bring up the *Layer settings* from the drop-down menu
     :align: center
     :width: 15cm
 
-
+|
 These settings allow you to choose a more suitable type of received data:
 
 * *Fill color.* You can choose any color from the palette for polygons, and also hide the display of data by changing the position of the slider. You can change the transparency of polygons (property *Opacity*) in the additional settings of this function.
@@ -221,7 +228,7 @@ These settings allow you to choose a more suitable type of received data:
     :align: center
     :width: 15cm
 
-
+|
 Filters tab
 ~~~~~~~~~~~~~
 
@@ -232,7 +239,7 @@ This tab allows you to add a filter of interest by a specific attribute of the l
     :align: center
     :width: 15cm
 
-
+|
 Interaction tab
 ~~~~~~~~~~~~~~~~~
 
@@ -243,15 +250,12 @@ You can select or remove attributes that will be visible in the menu that appear
     :align: center
     :width: 15cm
     :class: with-border no-scaled-link
-
+|
 
 Base map tab
 ~~~~~~~~~~~~~~
 
 Here you can choose the styles of the map, as well as choose to display its various layers.
-
-
-.. include:: iterative_mapping.rst
 
 
 How to run bulk processing using Mapflow API
@@ -269,7 +273,7 @@ We can use QuickOSM plugin in QGIS which is very friendly when it comes to downl
     :align: center
     :width: 15cm
     :class: with-border no-scaled-link
-
+|
 Authorization with Mapflow token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -446,9 +450,3 @@ Response example:
             print(f"Request failed")
             print(response.text)
 
-
-.. figure:: _static/python_examples/sample_results.jpg
-    :alt: quickosmm
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
