@@ -143,7 +143,7 @@ Both ways are OK to work with Mapflow.
 Use Nearmap as an imagery provider
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Nearmap <https://nearmap.com>`_ provides access to its Vertical and Panorama Imagery via a Tile API. 
+`Nearmap <https://nearmap.com>`_ provides access to its Vertical and Panorama Imagery via a Tile API. If you have a subscription to their service you can use it easily with Mapflow Custom URL. 
 
 URL format:
 
@@ -154,7 +154,7 @@ Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/article
     .. figure:: _static/nearmap_custom_url.jpg
         :align: center
         :width: 15cm
-        :class: with-border no-scaled-link
+        :class: with-border
 
 
 How to optimize large image files
