@@ -217,116 +217,45 @@ This method allows to check user's storage usage against the available limit.
 
 
 
-Search Imagery
-----------------
+🔍 Search Imagery
+------------------
 
 .. note::
-    This is the early version of the Mapflow API to search for available satellite images provided by external data providers.
+    This is an early version of the Mapflow unified API to search for available satellite images provided by external data providers.
     The API aims to perform as a middle-tear between multiple imagery source and a :doc:`Mapflow Processing API <processing_api>`.
-    The API returns the search results by the imagery providers linked to the specific user. 
-    If no provider is linked to the user it returns all providers available. To run the processing one needs to get the provider linked to his user account. 
+    The API returns the search results for the imagery providers linked to the specific Mapflow user. 
+    If no provider is linked to the user it returns all providers results available. But to run the processing the user needs to get the provider linked to his account. 
 
 Get metadata of available images
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/catalog/meta``
 
-``type: application/json``
-
 
 Returns a list of the available images, filtered by metadata. 
 
-E.g.:
+E.g. request:
 
-.. code:: json
+.. code:: bash
 
-    {
-        "aoi": {
+    curl --location 'https://api.mapflow.ai/rest/catalog/meta' \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: Basic ******' \
+    --data '{
+    "aoi": {
             "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        69.1618,
-                        41.2105
-                    ],
-                    [
-                        69.1618,
-                        41.3784
-                    ],
-                    [
-                        69.3716,
-                        41.3784
-                    ],
-                    [
-                        69.3716,
-                        41.2105
-                    ],
-                    [
-                        69.1618,
-                        41.2105
-                    ]
-                ]
-            ]
+            "coordinates": [[[76.6755,43.2234],[76.6755,43.4712],[77.0163,43.4712],[77.0163,43.2234],[76.6755,43.2234]]]
         },
-        "acquisitionDateFrom": "2023-10-01T00:00:00Z",
-        "acquisitionDateTo": "2022-10-10T00:00:00Z",
-        "maxCloudCover": 0.1,
-        "maxResolution": 0.5,
-        "minResolution": 0.3
-    }
-
-Response example:
-
-.. code:: json
-
-    {
-        "images": [
-            {
-                "id": "JL1GF03D15_PMS_20230913140838_200196307_108_0001_001_L1",
-                "footprint": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                69.2325,
-                                41.5352
-                            ],
-                            [
-                                69.3602,
-                                41.5151
-                            ],
-                            [
-                                69.3182,
-                                41.3647
-                            ],
-                            [
-                                69.1906,
-                                41.3848
-                            ],
-                            [
-                                69.2325,
-                                41.5352
-                            ]
-                        ]
-                    ]
-                },
-                "pixelResolution": 0.0,
-                "acquisitionDate": "2023-09-13T14:08:40Z",
-                "productType": "A",
-                "sensor": "JL1GF03D15",
-                "colorBandOrder": "unknown",
-                "cloudCover": 0.0,
-                "offNadirAngle": -12.49,
-                "previewType": "png",
-                "previewUrl": "https://home.sat-imagery.com/geoserver/rs_data/wms?SERVICE=WMS&VERSION=1.1.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=rs_data%3AJL1GF03D15_PMS_20230913140838_200196307_108_0001_001_L1&STYLES=&serverType=geoserver&crossOrigin=anonymous&tiled=false&angle=0&WIDTH=188&HEIGHT=253&SRS=EPSG%3A3857&BBOX=7702262.3596810745%2C5066284.571753241%2C7721142.145319615%2C5091606.951481916",
-                "providerName": "sat_imagery"
-            }
-        ]
-    }
+    "acquisitionDateFrom": "2022-04-01T00:00:00Z", 
+    "acquisitionDateTo": "2022-11-01T00:00:00Z",
+    "maxCloudCover": 0.1,
+    "maxResolution": 0.5,
+    "minResolution": 0.3
+    }'
 
 .. note::
 
-   | ``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon
+   | ``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon of the area of the search
    | ``acquisitionDateFrom``: UTC time string 
    | ``acquisitionDateTo``: UTC time string
    | ``minResolution``: float, in meters
@@ -334,10 +263,86 @@ Response example:
    | ``maxCloudCover``: float, in percents 
    | ``minOffNadirAngle``: float, in degrees
    | ``maxOffNadirAngle``: float, in degrees
-   | ``minAoiIntersectionPercent``: float, in percents
+   | ``minAoiIntersectionPercent``: float, in percents – minimum intersection of the image footprint with the aoi
 
 .. warning::
     The size of the search area cannot exceed the size of processing AOI limit assigned to the specific user.
+
+1. Response example – *Scene*:
+
+.. code:: json
+
+        {
+            "id": "JL1GF03A_PMS_20220607132729_200087596_103_0002_001_L1",
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            76.5009,
+                            43.3412
+                        ],
+                        ...
+                    ]
+                ]
+            },
+            "pixelResolution": 1.06,
+            "acquisitionDate": "2022-06-07T13:27:33Z",
+            "productType": "Scene",
+            "sensor": "JL1GF03A",
+            "colorBandOrder": "B,G,R,NIR,PAN",
+            "cloudCover": 0.09,
+            "offNadirAngle": -3.91,
+            "previewType": "png",
+            "previewUrl": "https://cgwx-jpg.obs.cn-north-4.myhuaweicloud.com:443/thumbnail_mss/JL1GF03A_PMS_20220607132729_200087596_103_0002_001_L1.jpg",
+            "providerName": "CG"
+        }
+
+.. image:: _static/data_api/CG_image_preview.jpg
+   :alt: Preview image
+   :align: center
+   :width: 8cm
+   :class: with-border no-scaled-link 
+
+|
+
+2. Response example – *Mosaic*:
+
+.. code:: json
+
+        {
+            "id": "JL1KF01A_PMS04_20220717131252_200093089_101_0005_001_L1",
+            "footprint": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                76.903651508,
+                                43.252856702
+                            ],
+                            ...
+                        ]
+                    ]
+                ]
+            },
+            "pixelResolution": 0.0,
+            "acquisitionDate": "2022-07-17T00:00:00Z",
+            "productType": "Mosaic",
+            "sensor": "JL1KF01A",
+            "colorBandOrder": "RGB",
+            "cloudCover": 0.0,
+            "offNadirAngle": 3.0,
+            "previewType": "xyz",
+            "previewUrl": "https://app.mapflow.ai/tiles/charmingglobe/{z}/{x}/{-y}.png?year=2022",
+            "providerName": "CG_mosaic_2022"
+        }
+
+.. note::
+
+    There are two types of products in the Imagery Search API, available for ordering;
+    1. The **Scene** product is available by request, the workflow implementation is in progress.
+    1. The **Mosaic** product is available for instant processing if the appropriate data provider is linked to your Mapflow account. 
 
 
 Run processing by image ID

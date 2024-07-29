@@ -119,23 +119,20 @@ As soon as your aerial image is published on OpenAerialMap it's presented on the
 
 Select the image and copy link to TMS to connect it to Mapflow Custom URL.
 
-  .. figure:: ../api/_static/qgis/search_openaerialmap_image.png
+  .. figure:: ../api/_static/qgis/search_openaerialmap_image.jpg
          :alt: Search for imagery in OpenAerialMap 
          :align: center
          :width: 15cm
          :class: with-border no-scaled-link 
-
-Your can use this service to publich your own UAV data (note that it will become publicly accessible). 
-As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be connected using TMS/WMTS or downloaded as GeoTIFF file. 
-Both ways are OK to work with Mapflow.
-
-    .. figure:: _static/oam_search.png
-       :align: center
-       :width: 15cm
-       :class: with-border no-scaled-link
-
+    
 1. Copy link to TMS and paste it into the “Custom imagery URL” in your new Mapflow processing. 
 2. Check if you see the image on the map, go through the next steps (AI model, processing params) to and start the processing.
+
+
+..note::
+    Your can use this service to publish your own UAV data (note that it will become publicly accessible). 
+    As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be connected using TMS/WMTS or downloaded as GeoTIFF file. 
+    Both ways are OK to work with Mapflow.
 
 
 .. _Nearmap:

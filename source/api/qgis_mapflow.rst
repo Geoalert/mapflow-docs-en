@@ -62,8 +62,7 @@ Main plugin workspace has two sections: left sidebar with the processing control
 .. figure:: _static/qgis/main_window.png
          :alt: View of the main window
          :align: center
-         :width: 20cm
-         :class: no-scaled-link 
+         :width: 20cm no-scaled-link 
 
 |
 

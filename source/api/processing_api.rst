@@ -21,10 +21,10 @@ Mapflow processing API
 User status
 -------------
 
-Returns user status for the the given user account, including:
-* User limits
-* Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
-* Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
+Returns user status for the given user account, including:
+- User limits
+- Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
+- Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
 
 .. note::
   If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
@@ -406,18 +406,19 @@ Example of the failed processing response:
 .. code:: json
 
     {
-        "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
-        "status":"FAILED",
-        "percentCompleted":0,
-        "messages":[{
-            "code": "source-validator.PixelSizeTooHigh",
-            "parameters": {
-                "max_res": "1.2",
-                "level": "error",
-                "actual_res": "5.620983603290215"
-             }
+      "id": "6ad89b64-38fd-408f-acbb-75035ec52787",
+      "status": "FAILED",
+      "percentCompleted": 0,
+      "messages": [
+        {
+          "code": "source-validator.PixelSizeTooHigh",
+          "parameters": {
+            "max_res": "1.2",
+            "level": "error",
+            "actual_res": "5.620983603290215"
+          }
         }
-        ]
+      ]
     }
 
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
@@ -465,8 +466,7 @@ Request body example:
         ]
     },
     "params": {
-    "source_type": "xyz",
-    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    "data_provider": "Mapbox"
     }
   }
 
@@ -526,8 +526,7 @@ Request body sample:
             ]
         },
         "params": {                           //Arbitrary string parameters of this processing. Optional.
-            "source_type": "xyz",
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+            "data_provider": "Mapbox",
         },
         "meta": {                             //Arbitrary string key-value for this processing (metadata). Optional.
             "test": "test"
