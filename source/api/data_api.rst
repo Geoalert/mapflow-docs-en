@@ -232,7 +232,7 @@ Get metadata of available images
 ``POST https://api.mapflow.ai/catalog/meta``
 
 
-Returns a list of the available images, filtered by metadata. 
+Returns a list of the available images, filtered by metadata keys. 
 
 E.g. request:
 
@@ -266,7 +266,7 @@ E.g. request:
    | ``minAoiIntersectionPercent``: float, in percents – minimum intersection of the image footprint with the aoi
 
 .. warning::
-    The size of the search area cannot exceed the size of processing AOI limit assigned to the specific user.
+    The size of the search area cannot exceed the size of AOI limit assigned to the specific user.
 
 1. Response example – *Scene*:
 
