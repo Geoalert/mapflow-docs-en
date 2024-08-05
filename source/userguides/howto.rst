@@ -49,6 +49,12 @@ How to set up log in using OAuth2
 
 .. 6. Use the new image layer as Imagery source when using the Mapflow plugin for QGIS
 
+.. _qgis_plugin:
+
+How to use the Mapflow <> QGIS plugin 
+---------------------------------
+
+.. include:: qgis_plugin.rst
 
 How to process your own UAV images with Mapflow
 --------------------------------------------------

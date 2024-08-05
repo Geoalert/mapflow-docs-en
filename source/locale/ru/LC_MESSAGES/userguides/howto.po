@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-15 14:18+0700\n"
-"PO-Revision-Date: 2024-04-19 14:33+0700\n"
+"POT-Creation-Date: 2024-08-05 15:23+0700\n"
+"PO-Revision-Date: 2024-08-05 16:25+0700\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 "
-"&& (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.13.0\n"
 "X-Generator: Poedit 3.4.2\n"
 
@@ -37,722 +37,653 @@ msgstr "**1. Выберите опцию** ``Использовать OAuth2`` *
 msgid "OAuth login window"
 msgstr ""
 
-#: ../../source/userguides/oauth2_setup.rst:10
+#: ../../source/userguides/oauth2_setup.rst:11
 msgid "**2. Set the master password**"
 msgstr "**2. Установите мастер-пароль**"
 
-#: ../../source/userguides/oauth2_setup.rst:12
+#: ../../source/userguides/oauth2_setup.rst:13
 msgid ""
-"You will be prompted to set a new `master authentication password <https://docs."
-"qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
-"password>`_ - qgis feature to ensure the security of sensitive information "
-"storage."
+"You will be prompted to set a new `master authentication password <https://docs.qgis.org/3.28/en/docs/"
+"user_manual/auth_system/auth_overview.html#master-password>`_ - qgis feature to ensure the security of "
+"sensitive information storage."
 msgstr ""
-"Вам будет предложено установить новый `аутентификационный мастер-пароль "
-"<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview."
-"html#master-password>`_ - функция qgis, которая обеспечивает безопасность "
-"хранения конфиденциальной информации."
+"Вам будет предложено установить новый `аутентификационный мастер-пароль <https://docs.qgis.org/3.28/en/"
+"docs/user_manual/auth_system/auth_overview.html#master-password>`_ - функция qgis, которая обеспечивает "
+"безопасность хранения конфиденциальной информации."
 
-#: ../../source/userguides/oauth2_setup.rst:20
+#: ../../source/userguides/oauth2_setup.rst:22
 msgid "**3. Click** ``Log in`` **button**"
 msgstr "**3. Нажмите** ``Войти``"
 
-#: ../../source/userguides/oauth2_setup.rst:22
-msgid ""
-"You will receive the following message, **restart** QGIS before the next steps."
-msgstr ""
-"Вы получите следующее сообщение, **перезапустите** QGIS перед выполнением "
-"следующих шагов."
+#: ../../source/userguides/oauth2_setup.rst:24
+msgid "You will receive the following message, **restart** QGIS before the next steps."
+msgstr "Вы получите следующее сообщение, **перезапустите** QGIS перед выполнением следующих шагов."
 
-#: ../../source/userguides/oauth2_setup.rst:30
+#: ../../source/userguides/oauth2_setup.rst:33
 msgid "**4. After restarting QGIS, click** ``Log in``"
 msgstr "**4. После перезапуска QGIS, нажмите** ``Войти``"
 
-#: ../../source/userguides/oauth2_setup.rst:32
-msgid ""
-"You will be redirected to the browser to log in/register in the mapflow system:"
-msgstr ""
-"Вы будете перенаправлены в браузер для входа в систему/регистрации в системе "
-"mapflow:"
+#: ../../source/userguides/oauth2_setup.rst:35
+msgid "You will be redirected to the browser to log in/register in the mapflow system:"
+msgstr "Вы будете перенаправлены в браузер для входа в систему/регистрации в системе mapflow:"
 
-#: ../../source/userguides/oauth2_setup.rst:40
+#: ../../source/userguides/oauth2_setup.rst:44
 msgid ""
-"After successfully logging in, you will receive a message about the successful "
-"verification of QGIS OAuth2:"
-msgstr ""
-"После успешного входа в систему вы получите сообщение об успешной проверке QGIS "
+"After successfully logging in, you will receive a message about the successful verification of QGIS "
 "OAuth2:"
+msgstr "После успешного входа в систему вы получите сообщение об успешной проверке QGIS OAuth2:"
 
-#: ../../source/userguides/oauth2_setup.rst:48
+#: ../../source/userguides/oauth2_setup.rst:53
 msgid "You can close this page"
 msgstr "Можете закрыть эту страницу"
 
-#: ../../source/userguides/oauth2_setup.rst:50
+#: ../../source/userguides/oauth2_setup.rst:55
 msgid "**5. Go back to QGIS**"
 msgstr "**5. Вернитесь в QGIS**"
 
-#: ../../source/userguides/oauth2_setup.rst:52
+#: ../../source/userguides/oauth2_setup.rst:57
 msgid "OAuth login completed!"
 msgstr "Входе через OAuth завершен!"
 
-#: ../../source/userguides/oauth2_setup.rst:55
+#: ../../source/userguides/oauth2_setup.rst:60
+#, fuzzy
 msgid ""
-"If you have serious problems with authorization, you can delete the "
-"authentication config by going to ``Settings -> Options -> Authentication``, "
-"select the config and remove it:"
+"If you have problems with authorization, you can delete the current authentication config by going to "
+"``Settings -> Options -> Authentication``, select the config and remove it:"
 msgstr ""
-"Если у вас возникли серьезные проблемы с авторизацией, вы можете удалить "
-"конфигурацию аутентификации, перейдя в ``Настройки -> Параметры -> "
-"Аутентификация``, выберите конфигурацию и удалите ее:"
+"Если у вас возникли серьезные проблемы с авторизацией, вы можете удалить конфигурацию аутентификации, "
+"перейдя в ``Настройки -> Параметры -> Аутентификация``, выберите конфигурацию и удалите ее:"
 
-#: ../../source/userguides/howto.rst:14
-msgid "How to change the data type of your image to Uint8 bit in QGIS"
+#: ../../source/userguides/howto.rst:55
+msgid "How to use the Mapflow <> QGIS plugin"
+msgstr "Как пользоваться плагином Mapflow <> QGIS"
+
+#: ../../source/userguides/qgis_plugin.rst:1
+msgid "**Object detection in remote sensing images using Mapflow.ai plugin for QGIS**"
 msgstr ""
+"**Автоматизированное выделение векторных объектов по данным ДЗЗ с помощью плагина Mapflow.ai для QGIS**"
 
-#: ../../source/userguides/howto.rst:16
+#: ../../source/userguides/qgis_plugin.rst:3
 msgid ""
-"1. Check the data type of your image. Right-click on the imagery layer - i - "
-"Information from provider. The Data type must be Byte. Follow the next steps if "
-"the Data type is Int16, Float 32 etc."
+"Interpretation and subsequent digitization of satellite imagery is a rather laborious process. The use "
+"of AI-based image recognition technologies leads to a reduction in labor costs and an increase in data "
+"processing speed."
 msgstr ""
+"Дешифрирование и последующая оцифровка растровых изображений – довольно трудоемкий процесс. "
+"Использование технологий распознавания образов с помощью искусственного интеллекта ведет к снижению "
+"трудозатрат и повышению скорости обработки данных."
 
-#: ../../source/userguides/howto.rst:25
+#: ../../source/userguides/qgis_plugin.rst:5
 msgid ""
-"Right click on your image Layer Properties -  Symbology tab, then customize the "
-"display of your image. Select desired channels for Band rendering, adjust "
-"brightness and contrast."
+"In the QGIS, the process of detecting objects of various types can be automated using the Mapflow "
+"plugin. To accomplish this, you can follow the steps described below."
 msgstr ""
+"В геоинформационной системе QGIS процесс оцифровки объектов различного вида может быть автоматизирован "
+"с помощью плагина Mapflow. Для этого необходимо осуществить нижеописанные шаги."
 
-#: ../../source/userguides/howto.rst:32
+#: ../../source/userguides/qgis_plugin.rst:7
+msgid "**1. Installation of Mapflow plugin and logging in**"
+msgstr "**1. Установка плагина Mapflow для QGIS и авторизация**"
+
+#: ../../source/userguides/qgis_plugin.rst:9
 msgid ""
-"Right-click on the layer’s name, go to the  Export in the context menu, Save as…"
+"First of all, you have to install the plugin in QGIS. To do this, go to the tab called Plugins -> "
+"Manage and Install Plugins, find Mapflow using the search bar and click Install Plugin."
 msgstr ""
+"Прежде всего необходимо установить плагин в QGIS. Для этого в главном окне программы следует перейти на "
+"вкладку Plugins -> Manage and Install Plugins, найти Mapflow с помощью поисковой строки и нажать "
+"Install Plugin."
 
-#: ../../source/userguides/howto.rst:39
-msgid "Check Output mode as Rendered Image"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:46
+#: ../../source/userguides/qgis_plugin.rst:18
 msgid ""
-"Save your image  - navigate to the desired folder, input the file name then "
-"click OK"
+"After installation, the plugin icon will appear in the toolbar: |plugin_icon|. Clicking on it will open "
+"the authorization window, in which you need to click on \"Get token\"."
+msgstr ""
+"После установки иконка плагина появится в панели инструментов: |plugin_icon|. Нажав на неё, откроем "
+"окно авторизации, в котором необходимо кликнуть на «Get token»."
+
+#: ../../source/userguides/qgis_plugin.rst:20
+msgid "plugin_icon"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:50
+#: ../../source/userguides/qgis_plugin.rst:30
 msgid ""
-"Use the new image layer as Imagery source when using the Mapflow plugin for QGIS"
+"A window will open in which you have to quickly and for free register on `Mapflow.ai <https://app."
+"mapflow.ai/>`_. After that, by clicking on the user, you need to go to Settings and select the API tab."
 msgstr ""
+"Откроется окно, в котором необходимо осуществить быструю и бесплатную регистрацию на `Mapflow.ai "
+"<https://app.mapflow.ai/>`_. После чего, нажав на пользователя необходимо перейти в Настройки и выбрать "
+"вкладку API."
 
-#: ../../source/userguides/howto.rst:54
-msgid "How to process your own UAV imagery with Mapflow"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:56
+#: ../../source/userguides/qgis_plugin.rst:39
 msgid ""
-"Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a "
-"deeply integrated part of the geomatic industry over the last ten years. This "
-"is owing to their increasing usability, falling hardware costs, and easing "
-"government regulations. Yet, as more data is available with UAV surveys, more "
-"data need to be processed operatively. To process your UAV data you might be "
-"looking for some cloud or desktop software to create a mosaic or orthophoto.  "
-"Do you know that you can easily publish your data with Openaerialmap and "
-"analyze (say detect and calculate some objects and calculate their areas) with "
-"Mapflow QGIS or Mapflow Web?"
+"By clicking on the \"Reset api token\" button, you will get access to the authorization key, which must "
+"be copied and saved, as well as pasted into the authorization window in QGIS. After that - click \"Log "
+"in\"."
 msgstr ""
+"Нажав на кнопку «Сбросить api токен», мы получим доступ к ключу для авторизации, который необходимо "
+"скопировать и сохранить, а также вставить в окно авторизации в QGIS и нажать «Log in»."
 
-#: ../../source/userguides/howto.rst:59
+#: ../../source/userguides/qgis_plugin.rst:41
 msgid ""
-"Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` model that "
-"extracts the detailed building outlines (the recommended image resolution is 10 "
-"cm)."
+"Another way to log in to the plugin is using Oauth2. By checking the appropriate option in the "
+"authorization window, you will need to set a master password."
+msgstr ""
+"Иной способ авторизации в плагине – с использованием Oauth2. Отметив в окне авторизации соответствующую "
+"опцию галочкой, необходимо будет установить мастер-пароль."
+
+#: ../../source/userguides/qgis_plugin.rst:50
+msgid ""
+"Then, following the instructions, restart QGIS and click \"Log in\" again. This will redirect you to "
+"the browser, where the Mapflow authorization window will open. After successful login or registration, "
+"a page will open notifying you of this."
+msgstr ""
+"Затем, следуя инструкциям, перезапустить QGIS и снова нажать «Log in». Это перенаправит Вас в браузер, "
+"где откроется окно авторизации в Mapflow. После успешного входа или регистрации откроется страница, "
+"уведомляющая об этом."
+
+#: ../../source/userguides/qgis_plugin.rst:59
+msgid "And in QGIS the main tab of the plugin will open, so you can proceed to the next steps."
+msgstr "В QGIS откроется главное окно плагина – можно переходить к выполнению дальнейших шагов."
+
+#: ../../source/userguides/qgis_plugin.rst:61
+msgid "**2. Object recognition using Mapbox data provider**"
+msgstr "**2. Распознавание объектов по подложке Mapbox**"
+
+#: ../../source/userguides/qgis_plugin.rst:63
+msgid ""
+"In order to start processing, first you must specify its name. Next, choose the area of interest by "
+"drawing it on the map / loading from a vector file / taking the extent of the map."
+msgstr ""
+"Для того, чтобы запустить обработку, прежде всего необходимо указать её название. Далее – выбрать "
+"территорию интереса, нарисовав ее на карте / подгрузив векторный слой с границами / взяв экстент карты."
+
+#: ../../source/userguides/qgis_plugin.rst:72
+msgid ""
+"In the upper-left corner of the main QGIS window in the Browser panel, you can open the OpenStreetMap "
+"basemap and navigate around the map to identify the area of interest."
+msgstr ""
+"В левом верхнем углу в окне QGIS на панели «Browser» можно открыть подложку OpenStreetMap и "
+"сориентироваться по карте, чтобы обозначить интересующую территорию."
+
+#: ../../source/userguides/qgis_plugin.rst:81
+msgid ""
+"Let’s leave the remaining parameters as default: Mapbox data provider and a model for buildings "
+"classification. Then click \"Start processing\". A new row will appear in the processing table. Upon "
+"completion of processing (Progress – 100%), after some time, you can load the result to the map by "
+"clicking on \"View results\" (or double-clicking on the row). The raster layer and the identified "
+"objects will be displayed on the map: buildings are automatically classified by their type (where red "
+"is residential and purple is commercial)."
+msgstr ""
+"В окне плагина остальные параметры оставим дефолтными: в качестве провайдера данных – подложка с "
+"данными ДЗЗ от Mapbox, модель – для определения зданий. И нажмем «Start processing». В таблице "
+"обработок появится новая строка. По завершении обработки (Progress – 100%) спустя некоторое время можно "
+"подгрузить результат на карту, нажав на «View results» (или двойным кликом по строке). На карте "
+"отобразится растр и выделенные по нему объекты: здания, автоматически классифицированные по типу (где "
+"красный – residential, фиолетовый - commercial)."
+
+#: ../../source/userguides/qgis_plugin.rst:91
+msgid ""
+"The resulting vector objects can be saved in GeoJSON format (by clicking on the additional options next "
+"to View results) and then used for mapping, analysis, or filled with additional attribute information."
+msgstr ""
+"Полученные векторные объекты можно сохранить в формате GeoJSON (нажав на дополнительные опции рядом с "
+"View results) и далее использовать для картографирования, анализа или наполнять дополнительной "
+"атрибутивной информацией."
+
+#: ../../source/userguides/qgis_plugin.rst:100
+msgid "**3. Object recognition using your own imagery**"
+msgstr "**3. Распознавание объектов по собственным изображениям**"
+
+#: ../../source/userguides/qgis_plugin.rst:102
+msgid ""
+"Previously, we looked at one of the simplest scenarios for working with the Mapflow plugin. However, "
+"its functionality is not limited to a single data provider. In addition to the default providers, you "
+"can use the search in the imagery catalog or process your own images. After adding the image you are "
+"interested in to QGIS as a raster layer, you can select it in the \"Data source\" field and run "
+"processing. The result can look like this: the boundaries of trees of different heights, identified in "
+"your image."
+msgstr ""
+"Выше рассмотрен один из наиболее простых сценариев работы с плагином Mapflow. Однако его функционал не "
+"ограничивается одним провайдером данных. Помимо дефолтных подложек, можно воспользоваться поиском по "
+"каталогу спутниковых снимков или использовать собственные изображения. Подгрузив в QGIS интересующее "
+"нас изображение, можем выбрать его в поле «Data source» и запустить по нему обработку. Результат: "
+"границы лесов разных категорий, дифференцированных по высоте."
+
+#: ../../source/userguides/qgis_plugin.rst:112
+msgid ""
+"In this quick tutorial, we looked at the main options for detecting objects in remote sensing images "
+"with the help of the Mapflow plugin for QGIS. In addition to buildings and forest vegetation, there are "
+"models for recognizing roads or construction sites. A more extensive overview of the plugin's "
+"capabilities, as well as various options for data sources, are discussed in the documentation for :ref:"
+"`Mapflow <> QGIS`."
+msgstr ""
+"Так, были рассмотрены основные возможности автоматизации оцифровки объектов различных категорий по "
+"растровым изображениям с помощью плагина Mapflow для QGIS. Помимо зданий и лесной растительности, "
+"существуют модели для распознавания дорог или участков строительства. Более обширный обзор возможностей "
+"плагина, а также различные варианты источников данных рассмотрены в документации :ref:`Mapflow <> QGIS`."
+
+#: ../../source/userguides/howto.rst:60
+msgid "How to process your own UAV images with Mapflow"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:62
-msgid "Processing with Mapflow Web"
+msgid ""
+"Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a deeply integrated part of the "
+"geomatic industry over the last ten years. This is owing to their increasing usability, falling "
+"hardware costs, and easing government regulations. Yet, as more data is available with UAV surveys, "
+"more data need to be processed operatively. To process your UAV data you might be looking for some "
+"cloud or desktop software to create a mosaic or orthophoto.  Do you know that you can easily publish "
+"your data with Openaerialmap and analyze (say detect and calculate some objects and calculate their "
+"areas) with Mapflow QGIS or Mapflow Web?"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:64
+#: ../../source/userguides/howto.rst:65
 msgid ""
-"Select raster source – you can either use Custom URL (see below how to publish "
-"your image with Openaerialmap and get the TMS link) or upload your image as "
-"GeoTIFF."
+"Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` model that extracts the detailed "
+"building outlines (the recommended image resolution is 10 cm)."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:73
-msgid ""
-"*Currently, a preview of the uploaded image is not possible after loading the "
-"image, you will see only the area of its extent.*"
+#: ../../source/userguides/howto.rst:68
+msgid "Upload images to Mapflow Web"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:75
+#: ../../source/userguides/howto.rst:70
 msgid ""
-"2. Define the processing Area. The processing area (AOI) must be located within "
-"the area of the image extent, otherwise, the area will be cut off by the extent "
-"boundaries. The processing area size is calculated by the intersection of the "
-"image extent and the AOI."
+"Select raster source – you can either use Custom URL (see below how to publish your image with "
+"Openaerialmap and get the TMS link) or upload your image as GeoTIFF."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:80
 msgid ""
-"Image upload requirements: The file size must be less than 512 mb. Both sides "
-"image dimmesions must not exceed 30.000x30.000"
+"*Currently, a preview of the uploaded image is not possible after loading the image, you will see only "
+"the area of its extent.*"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:83
+#: ../../source/userguides/howto.rst:82
 msgid ""
-"The image must be georeferenced and the CRS must be one of: * WGS84 (EPSG: "
-"4326) * Web mercator (EPSG: 3857) * UTM (any zone)"
+"2. Define the processing Area. The processing area (AOI) must be located within the area of the image "
+"extent, otherwise, the area will be cut off by the extent boundaries. The processing area size is "
+"calculated by the intersection of the image extent and the AOI."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:88
+#: ../../source/userguides/howto.rst:87
 msgid ""
-"If your image doesn’t meet the parameters, we suggest using Mapflow API / QGIS "
-"plugin which has more capabilities. Mapflow supports RGB imagery and also "
-"processes single-band (panchromatic) imagery, but the AI models are not tuned "
-"for such kind of data, so the quality of the result may be worse than expected."
+"Image upload requirements: The file size must be less than 512 mb. Both sides image dimmesions must not "
+"exceed 30.000x30.000"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:93
-msgid "Processing with Mapflow – QGIS"
+#: ../../source/userguides/howto.rst:90
+msgid ""
+"The image must be georeferenced and the CRS must be one of: * WGS84 (EPSG: 4326) * Web mercator (EPSG: "
+"3857) * UTM (any zone)"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:95
 msgid ""
-"In case you are already used to working with QGIS you need to install the "
-"Mapflow plugin. You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 "
-"px.). All raster layers currently loaded in your QGIS (1) are visible in the "
-"drop-down list (2) and can be selected for upload. Open files in the Additional "
-"options (3) also adds your item to the tree of QGIS layers."
+"If your image doesn’t meet the parameters, we suggest using Mapflow API / QGIS plugin which has more "
+"capabilities. Mapflow supports RGB imagery and also processes single-band (panchromatic) imagery, but "
+"the AI models are not tuned for such kind of data, so the quality of the result may be worse than "
+"expected."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:104
+#: ../../source/userguides/howto.rst:100
+msgid "Upload images with Mapflow – QGIS"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:102
 msgid ""
-"Please, consider the requirements specified on the page with Models reference "
-"when uploading your own images for AI-mapping processing. Contact us if you "
-"have a large dataset of images or your file size exceeds our limits."
+"You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). All raster layers loaded "
+"in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:107
-msgid "Use Openaerialmap as an imagery publication tool"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:109
+#: ../../source/userguides/howto.rst:111
 msgid ""
-"`OpenAeriaMap <https://map.openaerialmap.org>`_ is an open collection of UAV "
-"imagery data, crowdsourced by users. The project is supported by a consortium "
-"of companies developing open source software and services for working with "
-"geospatial data. As soon as your aerial image is published on Openaerialmap "
-"it’s displayed on the public map and can be streamed using TMS/WMTS protocols "
-"or downloaded as GeoTIFF file. Both ways are OK to work with Mapflow."
+"Please, consider the requirements for :ref:`AI Models <Model requirements>` when uploading your own "
+"images. Contact us if you have difficulties to handle a large dataset or your file size exceeds our "
+"limits."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:117
-msgid ""
-"Copy link to TMS and paste it into the “Custom imagery URL” in your new Mapflow "
-"processing."
-msgstr ""
-
-#: ../../source/userguides/howto.rst:118
-msgid ""
-"Check if you see the image on the map, go through the next steps (AI model, "
-"processing params) to and start the processing."
+#: ../../source/userguides/howto.rst:116
+msgid "How to use external data providers in Mapflow"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:121
-msgid "Preparing and optimizing the large size images"
+msgid "Use Openaerialmap as an imagery publication and access service"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:123
 msgid ""
-"Here are few tips on how to prepare and optimize your data and reduce the image "
-"size to upload it faster and not to exceed the Mapflow upload limit."
+"`OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV imagery data, crowdsourced "
+"by users. The project is supported by a consortium of companies developing open source software and "
+"services for working with spatial data. As soon as your aerial image is published on OpenAerialMap it's "
+"presented on the public map and can be fetched using TMS/WMTS protocols."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:125
-msgid ""
-"Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 bit. The "
-"type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please "
-"follow the instruction :doc:`howto`. Alternatively: use the `preprocessing "
-"script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ for preparing "
-"your image for Mapflow processing."
+#: ../../source/userguides/howto.rst:126
+msgid "Select the image and copy link to TMS to connect it to Mapflow Custom URL."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:129
-msgid ""
-"You can reduce the size of the image using GDAL translate. (https://gdal.org/) "
-"E.g. using JPEG compression. ``gdal_translate -co compress=JPEG input.tif "
-"output.tif`` By default the compression quality is 75% (``gdal_translate -co "
-"compress=JPEG -co jpeg_quality=75 input.tif output.tif``) but it doesn’t really "
-"impact the quality of the Mapflow mask whenever the resolution of the input "
-"iage meets the recommended params."
+#: ../../source/userguides/howto.rst
+msgid "Search for imagery in OpenAerialMap"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:134
-msgid "The same can be done using QGIS interface:"
+msgid "Copy link to TMS and paste it into the “Custom imagery URL” in your new Mapflow processing."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:141
+#: ../../source/userguides/howto.rst:135
 msgid ""
-"Tell us if you have more tips to share with the community or if you have more "
-"questions – we are ready to help."
+"Check if you see the image on the map, go through the next steps (AI model, processing params) to and "
+"start the processing."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:143
-msgid "**Run the flow!**"
+#: ../../source/userguides/howto.rst:142
+msgid "..note::"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:139
+msgid ""
+"Your can use this service to publish your own UAV data (note that it will become publicly accessible). "
+"As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be "
+"connected using TMS/WMTS or downloaded as GeoTIFF file. Both ways are OK to work with Mapflow."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:147
-msgid "How to view results using Kepler.gl"
+msgid "Use Nearmap as an imagery provider"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:149
 msgid ""
-"**Kepler.gl** is an open source tool designed for geospatial data analysis. It "
-"is a simple yet powerful for displaying and exploring geodatasets."
+"`Nearmap <https://nearmap.com>`_ provides access to its Vertical and Panorama Imagery via a Tile API. "
+"If you have a subscription to their service you can use it easily with Mapflow Custom URL."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:151
-msgid ""
-"To view the processing results in the Mapflow, select the required processing "
-"and press the button *\"Open in kepler.gl\"*."
+msgid "URL format:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:154
-msgid ""
-"You can share your processing view in Kepler by copying the open URL (right "
-"click on *\"Open in kepler.gl\"* --> Copy Link Address)"
+#: ../../source/userguides/howto.rst:153
+msgid "``https://api.nearmap.com/tiles/v3/{tileResourceType}/{z}/{x}/{y}.{format}?apikey={YOUR_API_KEY}``"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:156
-msgid ""
-"Using the Kepler you can change the visual properties of data, set filters, and "
-"choose a background map."
+#: ../../source/userguides/howto.rst:155
+msgid "Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/articles/84-tile-api>`_."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:160
+#: ../../source/userguides/howto.rst:164
+msgid "How to optimize large image files"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:167
+msgid "Preparing and optimizing the large size images"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:169
+msgid ""
+"Here are few tips on how to prepare and optimize your data and reduce the image size to upload it "
+"faster and not to exceed the Mapflow upload limit."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:171
+msgid ""
+"Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 bit. The type must be Byte (8 "
+"bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto`. "
+"Alternatively: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ "
+"for preparing your image for Mapflow processing."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:175
+msgid ""
+"You can reduce the size of the image using GDAL translate. (https://gdal.org/) E.g. using JPEG "
+"compression. ``gdal_translate -co compress=JPEG input.tif output.tif`` By default the compression "
+"quality is 75% (``gdal_translate -co compress=JPEG -co jpeg_quality=75 input.tif output.tif``) but it "
+"doesn’t really impact the quality of the Mapflow mask whenever the resolution of the input iage meets "
+"the recommended params."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:180
+msgid "The same can be done using QGIS interface:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:188
+msgid ""
+"Tell us if you have more tips to share with the community or if you have more questions – we are ready "
+"to help."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:190
+msgid "**Run the flow!**"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:193
+msgid "How to use Nearmap as an imagery source"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:199
+msgid "How to view results using Kepler.gl"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:201
+msgid ""
+"**Kepler.gl** is an open source tool designed for geospatial data analysis. It is a simple yet powerful "
+"for displaying and exploring geodatasets."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:203
+msgid ""
+"To view the processing results in the Mapflow, select the required processing and press the button "
+"*\"Open in kepler.gl\"*."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:206
+msgid ""
+"You can share your processing view in Kepler by copying the open URL (right click on *\"Open in kepler."
+"gl\"* --> Copy Link Address)"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:208
+msgid ""
+"Using the Kepler you can change the visual properties of data, set filters, and choose a background map."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:212
 msgid "Layers tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:162
+#: ../../source/userguides/howto.rst:214
 msgid ""
-"Click on the layer name to bring up the *Layer settings* from the drop-down "
-"menu. To hide all data, click on the *eye* icon."
+"Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, "
+"click on the *eye* icon."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:-1
 msgid "View layer settings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:170
+#: ../../source/userguides/howto.rst:222
 msgid "These settings allow you to choose a more suitable type of received data:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:172
+#: ../../source/userguides/howto.rst:224
 msgid ""
-"*Fill color.* You can choose any color from the palette for polygons, and also "
-"hide the display of data by changing the position of the slider. You can change "
-"the transparency of polygons (property *Opacity*) in the additional settings of "
-"this function."
+"*Fill color.* You can choose any color from the palette for polygons, and also hide the display of data "
+"by changing the position of the slider. You can change the transparency of polygons (property "
+"*Opacity*) in the additional settings of this function."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:173
+#: ../../source/userguides/howto.rst:225
 msgid ""
-"*Stroke color.* You can choose any color from the palette for outlining "
-"polygons, as well as completely remove the stroke. You can change the "
-"transparency of the stroke (property *Opacity*) In the additional settings of "
-"this function."
+"*Stroke color.* You can choose any color from the palette for outlining polygons, as well as completely "
+"remove the stroke. You can change the transparency of the stroke (property *Opacity*) In the additional "
+"settings of this function."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:174
+#: ../../source/userguides/howto.rst:226
 msgid "*Stroke width.* Controls the thickness of the stroke."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:175
+#: ../../source/userguides/howto.rst:227
 msgid ""
-"*Height.* Allows you to view data with heights in 3D format. Set the desired "
-"coefficient and select the attribute of the layer with heights."
+"*Height.* Allows you to view data with heights in 3D format. Set the desired coefficient and select the "
+"attribute of the layer with heights."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:-1
 msgid "3D buildings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:184
+#: ../../source/userguides/howto.rst:236
 msgid "Filters tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:186
+#: ../../source/userguides/howto.rst:238
 msgid ""
-"This tab allows you to add a filter of interest by a specific attribute of the "
-"layer (as in this case, the filter is set by classes with different typology of "
-"buildings)."
+"This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, "
+"the filter is set by classes with different typology of buildings)."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:-1
 msgid "Filter panel"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:195
+#: ../../source/userguides/howto.rst:247
 msgid "Interaction tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:197
+#: ../../source/userguides/howto.rst:249
 msgid ""
-"You can select or remove attributes that will be visible in the menu that "
-"appears when you hover over an object. It is also possible to turn on the panel "
-"indicating longitude and latitude."
+"You can select or remove attributes that will be visible in the menu that appears when you hover over "
+"an object. It is also possible to turn on the panel indicating longitude and latitude."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:-1
 msgid "Interaction panel"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:207
+#: ../../source/userguides/howto.rst:259
 msgid "Base map tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:209
-msgid ""
-"Here you can choose the styles of the map, as well as choose to display its "
-"various layers."
+#: ../../source/userguides/howto.rst:261
+msgid "Here you can choose the styles of the map, as well as choose to display its various layers."
 msgstr ""
 
-#: ../../source/userguides/iterative_mapping.rst:2
-msgid "Iterative mapping tutorial"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:4
-msgid ""
-"This workflow is proposed for the AI assisted mappinf of the crop fields usinf "
-"Sentine-2 images. If you use Mapflow for agricultural landuse management, we "
-"suggest you have a look at the methodology described below. It can help you "
-"streamline the mapping process so you could focus on the end goal and results "
-"instead. All you need is our QGIS plugin (a.k.a. :doc:`Maflow for QGIS <../api/"
-"qgis_mapflow>`) installed. If you haven't connected the Sentinel-2 data yet, "
-"contact us."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:7
-msgid ""
-"Before we begin, however: Mapflow will digitize the fields for you, but the "
-"imagery for it to work on you need to select yourself. **We strongly recommend "
-"you preview images before processing them** because their quality may vary. "
-"Ones with high cloud cover (including cloud shadows) or no-data pixels in the "
-"AOI will likely produce poor results. Here are examples of two images that will "
-"inevitably yield unsatisfactory results:"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Fields mask detected on a cloudy Sentinel-2 image"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:14
-msgid "Fields detected using a clouded Sentinel-2 image"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Sentinel-2 image with no-data to the AOI"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:21
-msgid "An example of a Sentinel-2 image that has no-data pixels for the AOI."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:23
-msgid ""
-"Sometimes you may not be able to find a single suitable image for your entire "
-"AOI. In that case, we recommend you process the best available images "
-"separately and then combine the results. On average, you will need to process "
-"ten images for a territory of 1000 km\\ :sup:`2`."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:26
-msgid "What is an Iterative mapping process"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:27
-msgid "Start processing on the Sentinel-2 images:"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:29
-msgid "In QGIS, load your AOI as a layer;"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:30
-msgid ""
-"Open the plugin and go to *Providers tab*; select Sentinel-2 in the drop-down "
-"list in the upper left corner and your AOI layer as the *Area* below;"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:31
-msgid ""
-"Adjust the search criteria: select the search period in From and To; adjust the "
-"maximum allowed cloud cover and the minimum required intersection percentage in "
-"*Additional Filters*;"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:32
-msgid ""
-"Click *Search imagery*; it may take up to a minute, depending on the size of "
-"your AOI and the search period;"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:33
-msgid ""
-"The search results will show up in the table below. Each row describes a single "
-"image. You can sort the table by date and cloud cover and you can further "
-"filter the results by adjusting the dates and the filters as you did in the "
-"previous step."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:34
-msgid ""
-"Search results have also been added to your QGIS project as a layer called "
-"*“Sentinel-2 metadata”*. The layer is synchronized with the table: every time "
-"you select a row in the table, the corresponding image is selected in the "
-"layer, and vice versa."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:35
-msgid ""
-"Now, select an image and double click on its table row. You will see it got "
-"added to the project as a raster layer. AOI have a real value (they're not "
-"black or transparent)."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:38
-msgid ""
-"This is a preview, - a coarse representation of the actual image. The image "
-"itself will have a 30-times better resolution (10m instead of 300m in the "
-"preview). You'll want an image which in which cloud don't cover your AOI and "
-"all pixels within your"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Providers tab"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:45
-msgid ""
-"Once you've made your choice, make sure the image row is selected in the table, "
-"go to *Processing tab*; type in a name for your processing, select "
-"*\"Sentinel-2 Fields\"* in the *Mapflow Model* drop-down list and check that "
-"your AOI layer is selected as the *Area* and the *Imagery source* is set to "
-"*Sentinel-2*; if everything looks good, hit *Start processing*."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Processing tab"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:55
-msgid ""
-"Repeat the same for five to ten images covering the same area so the best "
-"available image is processed for every part of your AOI."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:57
-msgid ""
-"Next, create a new polygon layer called “results” into which we'll merge the "
-"results."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:58
-msgid ""
-"Download the processing results by double-clicking the corresponding rows in "
-"the *Processings table*. Group raster and vector layer for each processing for "
-"simplicity. Create a mutually exclusive group for these groups."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Creating the mutually exclusive group"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:68
-msgid ""
-"Reorder the layers so that the best results are on top. Normally, it takes "
-"about ten seconds to determine if the results are good enough."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Rank_inference_result"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:77
-msgid ""
-"Choose the topmost result layer pair (vector and raster). Select all objects in "
-"the vector layer and copy them into the “results” layer."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Copy fields mask into result layer"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:86
-msgid ""
-"In the “results” layer, select and delete poorly digitized polygons. Now, the "
-"“results” layer has gaps which should be filled with successfully contoured "
-"polygons from the other result layers."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Find and delete bad field mask"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:95
-msgid ""
-"Select the next best processing and put its vector layer on top of the "
-"“results” layer. Select well-contoured polygons from this layer and copy them "
-"into the “results” layer."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Find and past good field mask"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:104
-msgid ""
-"If there are still gaps in the “results” layer, repeat *step #7* until you the "
-"all gaps are filled in. After several iterations, you should get fully "
-"contoured agricultural fields for your AOI."
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:-1
-msgid "Result of itaretive mapping"
-msgstr ""
-
-#: ../../source/userguides/iterative_mapping.rst:115
-msgid ""
-"Watch `this video <https://youtu.be/ZTsT27FyQPI>`_ for a visual example of this "
-"iterative markup process."
-msgstr ""
-
-#: ../../source/userguides/howto.rst:216
+#: ../../source/userguides/howto.rst:265
 msgid "How to run bulk processing using Mapflow API"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:218
+#: ../../source/userguides/howto.rst:267
 msgid ""
-"In case you have multiple polygons to process or update, it can be boring to "
-"upload them one by one using Web or GIS user tools. In this case, you'd better "
-"think of using Mapflow :ref:`Processing API`. In this example let's assume we "
-"have a list of polygons indicating the populated places borders and we want to "
-"extract features like \"buildings\" with Mapflow processing API."
+"In case you have multiple polygons to process or update, it can be boring to upload them one by one "
+"using Web or GIS user tools. In this case, you'd better think of using Mapflow :ref:`Processing API`. "
+"In this example let's assume we have a list of polygons indicating the populated places borders and we "
+"want to extract features like \"buildings\" with Mapflow processing API."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:221
+#: ../../source/userguides/howto.rst:270
 msgid ""
-"1. To make it more realistic let's download some populated places borders for "
-"the sample area in Uzbekistan using Openstreetmap. To do this we can make a "
-"query with Overpass Turbo API like this: We can use QuickOSM plugin in QGIS "
-"which is very friendly when it comes to downloading a managable volume of data "
-"from Openstreetmap."
+"1. To make it more realistic let's download some populated places borders for the sample area in "
+"Uzbekistan using Openstreetmap. To do this we can make a query with Overpass Turbo API like this: We "
+"can use QuickOSM plugin in QGIS which is very friendly when it comes to downloading a managable volume "
+"of data from Openstreetmap."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:-1
 msgid "quickosmm"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:232
+#: ../../source/userguides/howto.rst:281
 msgid "Authorization with Mapflow token"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:234
+#: ../../source/userguides/howto.rst:283
 msgid "Let's  Mapflow token for further authorization."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:245
+#: ../../source/userguides/howto.rst:294
 msgid ""
-"Now you get your token decoded as a username and a password and use it for the "
-"authorization with the requests."
+"Now you get your token decoded as a username and a password and use it for the authorization with the "
+"requests."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:248
+#: ../../source/userguides/howto.rst:297
 msgid "Create the project (it's optional)"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:251
+#: ../../source/userguides/howto.rst:300
 msgid ""
-"It might be useful to organise your processing with the **projects**. To do "
-"this create the new project with the following API method."
+"It might be useful to organise your processing with the **projects**. To do this create the new project "
+"with the following API method."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:275
+#: ../../source/userguides/howto.rst:324
 msgid ""
-"Here we get the response containing the project ID, that we can use to create "
-"the processings in this specific project."
+"Here we get the response containing the project ID, that we can use to create the processings in this "
+"specific project."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:277 ../../source/userguides/howto.rst:375
+#: ../../source/userguides/howto.rst:326 ../../source/userguides/howto.rst:424
 msgid "Response example:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:287
+#: ../../source/userguides/howto.rst:336
 msgid "See more in :ref:`Projects - API`"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:290
-msgid "Prepare AOIs for the processings"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:292
-msgid ""
-"Let's save areas of interest with the properties as a GeoJSON file as it's "
-"simple and straightforward format to be used in any application or GIS "
-"software. Then we open this file and create a python dictionary to loop through "
-"all GeoJSON features that we are going to use as AOI geometries for creating "
-"the processing. Like this:"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:304
-msgid ""
-"Let's check if we created the data array from our file and display all the "
-"features by their names. At the next step, we will use the ``name`` property to "
-"define the processing. The \"name\" is optional yet it's more convenient to "
-"work with the results afterwards."
-msgstr ""
-
-#: ../../source/userguides/howto.rst:307
-msgid "Run the Processings"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:309
-msgid "Now we are ready to create the processing for each AOI using its geometry."
-msgstr ""
-
-#: ../../source/userguides/howto.rst:333
-msgid ""
-"If everything was done correctly - the list of successfully created processing "
-"will be displayed."
-msgstr ""
-
-#: ../../source/userguides/howto.rst:337
-msgid "Download all the results using Mapflow API"
-msgstr ""
-
 #: ../../source/userguides/howto.rst:339
-msgid ""
-"When all processings are complete you can download easily the results for each "
-"one."
+msgid "Prepare AOIs for the processings"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:341
 msgid ""
-"If you have one processing with the multiple AOIs *(by default the number of "
-"AOIs in one processing is limited to 10)* you can run a single API call to "
-"download the results:"
+"Let's save areas of interest with the properties as a GeoJSON file as it's simple and straightforward "
+"format to be used in any application or GIS software. Then we open this file and create a python "
+"dictionary to loop through all GeoJSON features that we are going to use as AOI geometries for creating "
+"the processing. Like this:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:348
+#: ../../source/userguides/howto.rst:353
 msgid ""
-"In case of the multiple processings, you might find it useful to run the small "
-"script."
+"Let's check if we created the data array from our file and display all the features by their names. At "
+"the next step, we will use the ``name`` property to define the processing. The \"name\" is optional yet "
+"it's more convenient to work with the results afterwards."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:350
-msgid "Get the list of all \"ids\" and \"names\" by processing:"
+#: ../../source/userguides/howto.rst:356
+msgid "Run the Processings"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:358
+msgid "Now we are ready to create the processing for each AOI using its geometry."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:382
+msgid "If everything was done correctly - the list of successfully created processing will be displayed."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:386
+msgid "Download all the results using Mapflow API"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:388
+msgid "When all processings are complete you can download easily the results for each one."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:390
+msgid ""
+"If you have one processing with the multiple AOIs *(by default the number of AOIs in one processing is "
+"limited to 10)* you can run a single API call to download the results:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:397
+msgid "In case of the multiple processings, you might find it useful to run the small script."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:399
+msgid "Get the list of all \"ids\" and \"names\" by processing:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:439
 msgid "Save results for all the listed processings:"
 msgstr ""

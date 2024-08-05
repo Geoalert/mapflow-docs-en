@@ -6,18 +6,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow\n"
+"Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-15 14:18+0700\n"
+"POT-Creation-Date: 2024-08-05 15:23+0700\n"
 "PO-Revision-Date: 2024-04-19 13:59+0700\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: ru\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.0\n"
-"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/userguides/prices.rst:2
 msgid "Mapflow pricing"
@@ -29,23 +30,23 @@ msgstr "Как пополнить баланс"
 
 #: ../../source/userguides/prices.rst:8
 msgid ""
-"Each user gets the free balance of **250** credits to get started with Mapflow "
-"AI. You can always buy more in your `account profile <https://app.mapflow.ai/"
-"account/balance>`_."
+"Each user gets the free balance of **250** credits to get started with "
+"Mapflow AI. You can always buy more in your `account profile "
+"<https://app.mapflow.ai/account/balance>`_."
 msgstr ""
-"Каждый пользователь получает стартовый баланс в размере **250** кредитов, чтобы "
-"начать работу с Mapflow AI. Вы всегда можете приобрести больше в своем `профиле "
-"учетной записи <https://app.mapflow.ai/account/balance>`_."
+"Каждый пользователь получает стартовый баланс в размере **250** кредитов,"
+" чтобы начать работу с Mapflow AI. Вы всегда можете приобрести больше в "
+"своем `профиле учетной записи <https://app.mapflow.ai/account/balance>`_."
 
 #: ../../source/userguides/prices.rst:11
 msgid ""
-"In order to top up you balance with more credits go to `your Mapflow profile "
-"<https://app.mapflow.ai/account/balance>`_ and choose one of the options. You "
-"will be asked to pay online."
+"In order to top up you balance with more credits go to `your Mapflow "
+"profile <https://app.mapflow.ai/account/balance>`_ and choose one of the "
+"options. You will be asked to pay online."
 msgstr ""
 "Чтобы пополнить свой баланс дополнительными кредитами, перейдите в `свой "
-"профиль Mapflow <https://app.mapflow.ai/account/balance>`_ и выберите один из "
-"вариантов. Вам будет предложено оплатить онлайн."
+"профиль Mapflow <https://app.mapflow.ai/account/balance>`_ и выберите "
+"один из вариантов. Вам будет предложено оплатить онлайн."
 
 #: ../../source/userguides/prices.rst:-1
 msgid "Top up you balance"
@@ -53,56 +54,61 @@ msgstr "Пополнить баланс"
 
 #: ../../source/userguides/prices.rst:23
 msgid ""
-"If you want to buy a custom number of credits, use another payment method or "
-"consider using Mapflow on a large scale, check `Mapflow commercial plans "
-"<https://mapflow.ai/pricing>`_."
+"If you want to buy a custom number of credits, use another payment method"
+" or consider using Mapflow on a large scale, check `Mapflow commercial "
+"plans <https://mapflow.ai/pricing>`_."
 msgstr ""
-"Если вы хотите купить определенное количество кредитов, использовать другой "
-"способ оплаты или рассмотреть возможность использования Mapflow в больших "
-"масштабах, проверьте `Коммерческие планы Mapflow <https://mapflow.ai/pricing>`_."
+"Если вы хотите купить определенное количество кредитов, использовать "
+"другой способ оплаты или рассмотреть возможность использования Mapflow в "
+"больших масштабах, проверьте `Коммерческие планы Mapflow "
+"<https://mapflow.ai/pricing>`_."
 
-#: ../../source/userguides/prices.rst:27
+#: ../../source/userguides/prices.rst:28
 msgid "Mapflow credits"
 msgstr "Mapflow - кредиты"
 
-#: ../../source/userguides/prices.rst:29
-msgid "Cost of processing makes the sum of **data cost** and **processing cost**:"
+#: ../../source/userguides/prices.rst:30
+#, fuzzy
+msgid ""
+"Cost of processing makes the sum of **data cost** and **processing cost**"
+" given the requested area:"
 msgstr ""
-"Стоимость обработки состоит из **стоимости данных** и **стоимости обработки**:"
+"Стоимость обработки состоит из **стоимости данных** и **стоимости "
+"обработки**:"
 
-#: ../../source/userguides/prices.rst:31
+#: ../../source/userguides/prices.rst:32
 msgid "``Cost = Area * (Processing Price + Data Price)``"
 msgstr "``Стоимость = Площадь * (Стоимость обработки + Стоимость данных)``"
 
-#: ../../source/userguides/prices.rst:33
+#: ../../source/userguides/prices.rst:34
 msgid ""
 "The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
 "discount depending on the number of credits you buy:"
 msgstr ""
-"Цена в кредитах рассчитывается как: 1 Кредит = 0.1$ с прогрессивной скидкой в "
-"зависимости от количества купленных кредитов:"
+"Цена в кредитах рассчитывается как: 1 Кредит = 0.1$ с прогрессивной "
+"скидкой в зависимости от количества купленных кредитов:"
 
-#: ../../source/userguides/prices.rst:40
+#: ../../source/userguides/prices.rst:41
 msgid "Mapflow Credits"
 msgstr "Mapflow - кредиты"
 
-#: ../../source/userguides/prices.rst:41
+#: ../../source/userguides/prices.rst:42
 msgid "500"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:42
+#: ../../source/userguides/prices.rst:43
 msgid "1000"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:43
+#: ../../source/userguides/prices.rst:44
 msgid "10000"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:44
+#: ../../source/userguides/prices.rst:45
 msgid "You pay"
 msgstr "Вы платите"
 
-#: ../../source/userguides/prices.rst:45
+#: ../../source/userguides/prices.rst:46
 msgid "$50"
 msgstr ""
 
@@ -122,15 +128,15 @@ msgstr ""
 msgid "$800"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:51
+#: ../../source/userguides/prices.rst:52
 msgid ""
-"All prices below are given in Mapflow credits. Mapflow Web also provides a "
-"transparent price breakdown in the processing pipeline."
+"All prices below are given in Mapflow credits. Mapflow Web also provides "
+"a transparent price breakdown in the processing pipeline."
 msgstr ""
-"В Mapflow Web вам показывается стоимость каждого выбранного блока пайплайна "
-"обработки."
+"В Mapflow Web вам показывается стоимость каждого выбранного блока "
+"пайплайна обработки."
 
-#: ../../source/userguides/prices.rst:54
+#: ../../source/userguides/prices.rst:55
 msgid "Maflow models pricing"
 msgstr "Стоимость моделей ИИ"
 
@@ -232,26 +238,27 @@ msgstr ""
 msgid "Zoom Aero: 20"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:64
+#: ../../source/userguides/prices.rst:65
 msgid "Data price"
 msgstr "Стоимость данных"
 
-#: ../../source/userguides/prices.rst:65
+#: ../../source/userguides/prices.rst:66
 msgid ""
-"When using default data providers (Mapbox, Arcgis Satellite), your own TMS, or "
-"your uploaded imagery the price is zero. If you are using commercial providers "
-"(Maxar SecureWatch, Satimagery and others that might be available), the cost of "
-"the data depends on the zoom level. We partner with streaming data providers, "
-"which means that the cost of the service depends on the paid traffic – "
-"therefore we quote the prices depending on the imagery resolution for a more "
-"accurate pricing model."
+"When using default data providers (Mapbox, Arcgis Satellite), your own "
+"TMS, or your uploaded imagery the price is zero. If you are using "
+"commercial providers (Maxar SecureWatch, Satimagery and others that might"
+" be available), the cost of the data depends on the zoom level. We "
+"partner with streaming data providers, which means that the cost of the "
+"service depends on the paid traffic – therefore we quote the prices "
+"depending on the imagery resolution for a more accurate pricing model."
 msgstr ""
-"При использовании поставщиков данных по умолчанию (Mapbox, Arcgis Satellite), "
-"собственного источника TMS или загруженных изображений цена равна нулю. Если вы "
-"используете коммерческих поставщиков, стоимость данных зависит от уровня "
-"масштабирования. Мы сотрудничаем с поставщиками данных, а это означает, что "
-"стоимость услуги зависит от платного трафика, поэтому мы масштабируем цены в "
-"зависимости от разрешения изображения для более точной модели ценообразования."
+"При использовании поставщиков данных по умолчанию (Mapbox, Arcgis "
+"Satellite), собственного источника TMS или загруженных изображений цена "
+"равна нулю. Если вы используете коммерческих поставщиков, стоимость "
+"данных зависит от уровня масштабирования. Мы сотрудничаем с поставщиками "
+"данных, а это означает, что стоимость услуги зависит от платного трафика,"
+" поэтому мы масштабируем цены в зависимости от разрешения изображения для"
+" более точной модели ценообразования."
 
 #: ../../source/userguides/_static/csv/data_prices.csv:1
 msgid "Data Provider"
@@ -321,59 +328,64 @@ msgstr ""
 msgid "2.25"
 msgstr ""
 
-#: ../../source/userguides/prices.rst:76
+#: ../../source/userguides/prices.rst:77
 msgid ""
 "If you want to have a custom model with another set of options, consider "
 "applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_."
 msgstr ""
-"Если вы хотите купить определенное количество кредитов, использовать другой "
-"способ оплаты или рассмотреть возможность использования Mapflow в больших "
-"масштабах, проверьте `Коммерческие планы Mapflow <https://mapflow.ai/pricing>`_."
-
-#: ../../source/userguides/prices.rst:80
-msgid ""
-"All the processings having an area less than 1 sq.km are rounded up to 1 sq.km "
-"before price calculation!"
-msgstr ""
-"Все обработки площадью менее 1 кв.км перед расчетом цены округляются до 1 кв.км!"
+"Если вы хотите купить определенное количество кредитов, использовать "
+"другой способ оплаты или рассмотреть возможность использования Mapflow в "
+"больших масштабах, проверьте `Коммерческие планы Mapflow "
+"<https://mapflow.ai/pricing>`_."
 
 #: ../../source/userguides/prices.rst:81
 msgid ""
-"Total processing cost is rounded up to the nearest integer number of credits"
+"All the processings having an area less than 1 sq.km are rounded up to 1 "
+"sq.km before price calculation!"
+msgstr ""
+"Все обработки площадью менее 1 кв.км перед расчетом цены округляются до 1"
+" кв.км!"
+
+#: ../../source/userguides/prices.rst:82
+msgid ""
+"Total processing cost is rounded up to the nearest integer number of "
+"credits"
 msgstr "Общая стоимость обработки округляется до ближайшего целого числа кредитов"
 
-#: ../../source/userguides/prices.rst:84
+#: ../../source/userguides/prices.rst:85
 msgid ""
-"Most default models work at 18 zoom. The exceptions are Fields high-res model "
-"(17 zoom) and Segment-anything that has an optional zoom. `What is zoom? "
-"<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
+"Most default models work at 18 zoom. The exceptions are Fields high-res "
+"model (17 zoom) and Segment-anything that has an optional zoom. `What is "
+"zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
 msgstr ""
-"Большинство моделей по умолчанию работают с зумом 18. Исключение составляют "
-"модель Fields (hi-res) (17 масштаб) и Segment-anything, которая имеет выбор "
-"масштабов. `Что такое зум? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
+"Большинство моделей по умолчанию работают с зумом 18. Исключение "
+"составляют модель Fields (hi-res) (17 масштаб) и Segment-anything, "
+"которая имеет выбор масштабов. `Что такое зум? "
+"<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
 
-#: ../../source/userguides/prices.rst:87
+#: ../../source/userguides/prices.rst:88
 msgid "Examples of quotations"
 msgstr "Примеры расчетов"
 
-#: ../../source/userguides/prices.rst:90
+#: ../../source/userguides/prices.rst:91
 msgid ""
-"*I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom (35 credits "
-"per sq.km) with Buildings model (13 credits per sq.km).* ``Cost = 3.4*(13+35) = "
-"163.2 => 164 credits``"
+"*I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom (35 "
+"credits per sq.km) with Buildings model (13 credits per sq.km).* ``Cost ="
+" 3.4*(13+35) = 163.2 => 164 credits``"
 msgstr ""
 "*Я хочу обработать 3,4 кв. км данных Maxar SecureWatch на 18 зуме (35 "
-"кредитов / кв. км) с моделью зданий (13 кредитов / кв. км).* ``Стоимость = "
-"3,4*(13+35) = 163,2 => 164 кредита``"
+"кредитов / кв. км) с моделью зданий (13 кредитов / кв. км).* ``Стоимость "
+"= 3,4*(13+35) = 163,2 => 164 кредита``"
 
-#: ../../source/userguides/prices.rst:96
+#: ../../source/userguides/prices.rst:97
 msgid ""
-"*I want to process 0.01 sq.km of my own imagery with the Forest model. Area is "
-"rounded up to 1 sq.km, so the cost will be:* ``Cost = 1*8 = 8 credits``"
+"*I want to process 0.01 sq.km of my own imagery with the Forest model. "
+"Area is rounded up to 1 sq.km, so the cost will be:* ``Cost = 1*8 = 8 "
+"credits``"
 msgstr ""
-"*Я хочу обработать 0,01 кв. км собственных снимков с помощью модели «Лес». "
-"Площадь округляется до 1 кв.км, значит стоимость будет:* ``Стоимость = 1*8 = 8 "
-"кредитов``"
+"*Я хочу обработать 0,01 кв. км собственных снимков с помощью модели "
+"«Лес». Площадь округляется до 1 кв.км, значит стоимость будет:* "
+"``Стоимость = 1*8 = 8 кредитов``"
 
 #~ msgid "All prices below are given in Mapflow credits"
 #~ msgstr "Все цены указаны в Mapflow credits"
@@ -382,31 +394,47 @@ msgstr ""
 #~ msgstr "Mapflow-QGIS / API стоимость моделей"
 
 #~ msgid ""
-#~ "Mapflow-QGIS plugin has a slightly different set of models, and you cannot "
-#~ "choose the model options. All models are launched with postprocessing "
-#~ "options **turned ON**. If you want to customize your workflow, for example "
-#~ "to have a basic model with another set of options, consider applying for "
-#~ "`Mapflow Premium plan <https://mapflow.ai/pricing>`_. Also, Mapflow QGIS "
-#~ "provides access to paid imagery services, so the cost calculation is a bit "
-#~ "more complex."
+#~ "Mapflow-QGIS plugin has a slightly "
+#~ "different set of models, and you "
+#~ "cannot choose the model options. All "
+#~ "models are launched with postprocessing "
+#~ "options **turned ON**. If you want "
+#~ "to customize your workflow, for example"
+#~ " to have a basic model with "
+#~ "another set of options, consider "
+#~ "applying for `Mapflow Premium plan "
+#~ "<https://mapflow.ai/pricing>`_. Also, Mapflow QGIS"
+#~ " provides access to paid imagery "
+#~ "services, so the cost calculation is "
+#~ "a bit more complex."
 #~ msgstr ""
-#~ "Плагин Mapflow-QGIS имеет немного другой набор моделей, и вы не можете "
-#~ "выбрать параметры модели. Модели запускаются с **активированными** "
-#~ "параметрами постобработки. Если вы хотите настроить свой рабочий процесс, "
-#~ "например, чтобы иметь базовую модель с другим набором опций, рассмотрите "
-#~ "возможность перехода на Mapflow Premium <https://mapflow.ai/pricing>`_. "
-#~ "Кроме того, Mapflow QGIS предоставляет доступ к платным сервисам "
-#~ "изображений, поэтому расчет стоимости немного сложнее."
+#~ "Плагин Mapflow-QGIS имеет немного другой"
+#~ " набор моделей, и вы не можете "
+#~ "выбрать параметры модели. Модели запускаются"
+#~ " с **активированными** параметрами постобработки."
+#~ " Если вы хотите настроить свой "
+#~ "рабочий процесс, например, чтобы иметь "
+#~ "базовую модель с другим набором опций,"
+#~ " рассмотрите возможность перехода на "
+#~ "Mapflow Premium <https://mapflow.ai/pricing>`_. "
+#~ "Кроме того, Mapflow QGIS предоставляет "
+#~ "доступ к платным сервисам изображений, "
+#~ "поэтому расчет стоимости немного сложнее."
 
 #~ msgid "Processing price"
 #~ msgstr "Стоимость обработки"
 
 #~ msgid ""
-#~ "As all the model options are turned on for Mapflow QGIS, processing cost is "
-#~ "the same as in Mapflow Web with the options, where it's applicable:"
+#~ "As all the model options are "
+#~ "turned on for Mapflow QGIS, processing"
+#~ " cost is the same as in Mapflow"
+#~ " Web with the options, where it's "
+#~ "applicable:"
 #~ msgstr ""
-#~ "Поскольку все параметры модели включены для Mapflow QGIS, стоимость "
-#~ "обработки такая же, как и в Mapflow Web с активными параметрами, где это "
+#~ "Поскольку все параметры модели включены "
+#~ "для Mapflow QGIS, стоимость обработки "
+#~ "такая же, как и в Mapflow Web "
+#~ "с активными параметрами, где это "
 #~ "применимо:"
 
 #~ msgid "Total price"
@@ -435,3 +463,4 @@ msgstr ""
 
 #~ msgid "Agriculture fields"
 #~ msgstr "Сельхоз поля"
+

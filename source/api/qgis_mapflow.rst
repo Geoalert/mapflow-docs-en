@@ -1,3 +1,5 @@
+.. _Mapflow <> QGIS:
+
 Mapflow <> QGIS
 ================
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-15 14:18+0700\n"
+"POT-Creation-Date: 2024-08-05 15:23+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -106,7 +106,7 @@ msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image`
 msgstr ""
 
 #: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:117
-#: ../../source/api/data_api.rst:189 ../../source/api/data_api.rst:278
+#: ../../source/api/data_api.rst:189
 msgid "Response example:"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgid ""
 "https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:181 ../../source/api/data_api.rst:239
+#: ../../source/api/data_api.rst:181
 msgid "E.g.:"
 msgstr ""
 
@@ -211,19 +211,19 @@ msgid ""
 msgstr ""
 
 #: ../../source/api/data_api.rst:221
-msgid "Search Imagery"
+msgid "🔍 Search Imagery"
 msgstr ""
 
 #: ../../source/api/data_api.rst:224
 msgid ""
-"This is the early version of the Mapflow API to search for available "
-"satellite images provided by external data providers. The API aims to "
-"perform as a middle-tear between multiple imagery source and a "
+"This is an early version of the Mapflow unified API to search for "
+"available satellite images provided by external data providers. The API "
+"aims to perform as a middle-tear between multiple imagery source and a "
 ":doc:`Mapflow Processing API <processing_api>`. The API returns the "
-"search results by the imagery providers linked to the specific user. If "
-"no provider is linked to the user it returns all providers available. To "
-"run the processing one needs to get the provider linked to his user "
-"account."
+"search results for the imagery providers linked to the specific Mapflow "
+"user. If no provider is linked to the user it returns all providers "
+"results available. But to run the processing the user needs to get the "
+"provider linked to his account."
 msgstr ""
 
 #: ../../source/api/data_api.rst:230
@@ -234,16 +234,18 @@ msgstr ""
 msgid "``POST https://api.mapflow.ai/catalog/meta``"
 msgstr ""
 
-#: ../../source/api/data_api.rst:234
-msgid "``type: application/json``"
+#: ../../source/api/data_api.rst:235
+msgid "Returns a list of the available images, filtered by metadata keys."
 msgstr ""
 
 #: ../../source/api/data_api.rst:237
-msgid "Returns a list of the available images, filtered by metadata."
+msgid "E.g. request:"
 msgstr ""
 
 #: ../../source/api/data_api.rst
-msgid "``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon"
+msgid ""
+"``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon of "
+"the area of the search"
 msgstr ""
 
 #: ../../source/api/data_api.rst
@@ -275,20 +277,44 @@ msgid "``maxOffNadirAngle``: float, in degrees"
 msgstr ""
 
 #: ../../source/api/data_api.rst
-msgid "``minAoiIntersectionPercent``: float, in percents"
-msgstr ""
-
-#: ../../source/api/data_api.rst:340
 msgid ""
-"The size of the search area cannot exceed the size of processing AOI "
-"limit assigned to the specific user."
+"``minAoiIntersectionPercent``: float, in percents – minimum intersection "
+"of the image footprint with the aoi"
 msgstr ""
 
-#: ../../source/api/data_api.rst:344
+#: ../../source/api/data_api.rst:269
+msgid ""
+"The size of the search area cannot exceed the size of AOI limit assigned "
+"to the specific user."
+msgstr ""
+
+#: ../../source/api/data_api.rst:271
+msgid "Response example – *Scene*:"
+msgstr ""
+
+#: ../../source/api/data_api.rst:-1
+#, fuzzy
+msgid "Preview image"
+msgstr "Просмотр результатов"
+
+#: ../../source/api/data_api.rst:309
+msgid "Response example – *Mosaic*:"
+msgstr ""
+
+#: ../../source/api/data_api.rst:343
+msgid ""
+"There are two types of products in the Imagery Search API, available for "
+"ordering; 1. The **Scene** product is available by request, the workflow "
+"implementation is in progress. 1. The **Mosaic** product is available for"
+" instant processing if the appropriate data provider is linked to your "
+"Mapflow account."
+msgstr ""
+
+#: ../../source/api/data_api.rst:349
 msgid "Run processing by image ID"
 msgstr ""
 
-#: ../../source/api/data_api.rst:346
+#: ../../source/api/data_api.rst:351
 msgid ""
 "For detailed description how to run a processing with Mapflow API see "
 ":doc:`Mapflow Processing API <processing_api>` – \"Create processing\". "
@@ -296,7 +322,7 @@ msgid ""
 "define **provider** and **image ID** in the params as follows:"
 msgstr ""
 
-#: ../../source/api/data_api.rst:349
+#: ../../source/api/data_api.rst:354
 msgid "``{\"params\": {\"data_provider\":<providerName>, \"url\":<id>}}``"
 msgstr ""
 
@@ -388,5 +414,43 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Creates mosaic and uploads images to the mosaic"
+#~ msgstr ""
+
+#~ msgid "Search Imagery"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the early version of the"
+#~ " Mapflow API to search for available"
+#~ " satellite images provided by external "
+#~ "data providers. The API aims to "
+#~ "perform as a middle-tear between "
+#~ "multiple imagery source and a "
+#~ ":doc:`Mapflow Processing API <processing_api>`. "
+#~ "The API returns the search results "
+#~ "by the imagery providers linked to "
+#~ "the specific user. If no provider "
+#~ "is linked to the user it returns"
+#~ " all providers available. To run the"
+#~ " processing one needs to get the "
+#~ "provider linked to his user account."
+#~ msgstr ""
+
+#~ msgid "``type: application/json``"
+#~ msgstr ""
+
+#~ msgid "Returns a list of the available images, filtered by metadata."
+#~ msgstr ""
+
+#~ msgid "``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon"
+#~ msgstr ""
+
+#~ msgid "``minAoiIntersectionPercent``: float, in percents"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size of the search area cannot"
+#~ " exceed the size of processing AOI"
+#~ " limit assigned to the specific user."
 #~ msgstr ""
 
