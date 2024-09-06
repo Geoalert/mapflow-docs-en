@@ -430,7 +430,7 @@ Processing cost
 ``POST https://api.mapflow.ai/rest/processing/cost``
 
 If you want to find out the cost of processing without running it, you can use this method.
-Returns the cost of the processing in :ref:`credits <credits>` based on the total area
+Returns the cost of the processing in :ref:`credits <credits>` given the model, the area and the data source.
 
 Request body example:
 
@@ -533,15 +533,17 @@ Request body sample:
         }
     }
 
+.. note::
 
-To process a user-provided raster (see :ref:`Upload GeoTIFF for processing <upload-geotiff-section>` section), set parameters as follows:  
+  To process a user-provided image (see :ref:`Upload image <upload-images>` section), set parameters as follows:  
 
- .. code:: json
+  .. code:: json
 
-        "params": {
-            "source_type": "tif",
-            "url": "s3://mapflow-rasters/9764750d-6047-407e-a972-5ebd6844be8a/raster.tif"
-        }
+          "params": {
+              "source_type": "tif",
+              "url": "s3://users-data/user@email.com_eaf9e720-c6de-4d9b-8aec-52296d43f0c4/1e7fc660-7d0a-4632-9e6c-e95cf20e62b9/b97e9154-a356-450c-990b-fb1692d404ec.tif"
+          }
+
 
 Response: the newly created processing.
 
@@ -704,6 +706,8 @@ Downloading processing results
 
 Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
 
+
+.. _upload-images:
 
 Upload images
 ----------------------------
