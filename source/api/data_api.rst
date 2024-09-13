@@ -48,7 +48,7 @@ Create mosaic and upload images to mosaic
 
 .. code:: bash
 
-    curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic/mosaic?name={name}&tags={tag1}&tags={tag2}' \
+    curl --location -g --request POST 'https://api.mapflow.ai/rest/rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}' \
     --header 'Content-Type: multipart/form-data' \
     --header 'Authorization: Basic <YOUR TOKEN>' \
     --form 'file=@"/path/to/file"'
