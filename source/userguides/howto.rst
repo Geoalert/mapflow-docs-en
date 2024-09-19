@@ -1,7 +1,7 @@
 .. _howto:
 
-Userguides - How To
-===================
+Userguides - How To 🙋‍♂️
+======================
 
 .. _oauth2_setup:
 
@@ -52,7 +52,7 @@ How to set up log in using OAuth2
 .. _qgis_plugin:
 
 How to use the Mapflow <> QGIS plugin 
----------------------------------
+---------------------------------------
 
 .. include:: qgis_plugin.rst
 
@@ -190,13 +190,8 @@ Tell us if you have more tips to share with the community or if you have more qu
 **Run the flow!**
 
 
-How to use Nearmap as an imagery source
-
-
-
-
 How to view results using Kepler.gl
------------------------------------
+-------------------------------------
 
 **Kepler.gl** is an open source tool designed for geospatial data analysis. It is a simple yet powerful for displaying and exploring geodatasets.
 
@@ -219,6 +214,7 @@ Click on the layer name to bring up the *Layer settings* from the drop-down menu
     :width: 15cm
 
 |
+
 These settings allow you to choose a more suitable type of received data:
 
 * *Fill color.* You can choose any color from the palette for polygons, and also hide the display of data by changing the position of the slider. You can change the transparency of polygons (property *Opacity*) in the additional settings of this function.
@@ -261,6 +257,63 @@ Base map tab
 Here you can choose the styles of the map, as well as choose to display its various layers.
 
 
+How to run Mapflow on external infrastructure
+----------------------------------------------
+
+Currently, you have to contact us if you have a request to run Mapflow (as a platform or as a separate imagery analysis workflows) on external infrastructure.
+However, we partner with cloud integrators to conduct projects for their clients.
+
+How to run Mapflow using Geocloud
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: _static/geocloud/geocloud_logo.jpg
+    :alt: create app
+    :align: center
+    :width: 5cm
+    :class: no-scaled-link
+|
+
+We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalertv>`_ who enable to work remotely with the licensed geospatial software.
+
+The generic workflow with Geocloud is as follows:
+
+-  Create an account at Geocloud and run the app "QGIS-Mapflow". 
+
+It runs the virtual machine with minimum requirements for QGIS with a preinstalled Mapflow plugin.
+Note that you have to run consequently the Storage and the Desktop to get connected to the virtual machine with a remote desktop.
+
+- Run QGIS by clicking on the "QGIS-Mapflow" icon at the desktop workspace
+
+.. figure:: _static/geocloud/create_app.jpg
+    :alt: create app
+    :align: center
+    :width: 15cm
+    :class: with-border no-scaled-link
+|
+
+- Run the plugin by clicking on the icon in the toolbar
+
+.. figure:: _static/geocloud/run_qgis.jpg
+    :alt: create app
+    :align: center
+    :width: 15cm
+    :class: with-border no-scaled-link
+|
+
+.. important::
+    ❗️ To enable Mapflow oAuth login use the master password for QGIS which is set to 123456
+
+.. note::
+    After you click  the "Login" button you will be redirected to the Mapflow login page in the browser. Use your existing `Mapflow.ai <https://app.mapflow.ai>`_ login and password or create a new account to start working with the plugin.
+    You can also use Basic auth (disable "Use OAuth" checkbox) with your Mapflow `Token <https://app.mapflow.ai/account/api>`_. 
+
+- You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in Geocloud.
+
+.. warning::
+    Note that you pay only for the uprunning time in Geocloud. You spend your regular credits for Mapflow (you get 250 credits for free upon the registration).
+    There are two prices for Storage / Computer in Geocloud - *Stopped* and *Working*. The Stopped price is applied when Storage / Computer is stopped. The Working price is applied when it is in the working mode. 👉👉 You can stop your computer while doing some long-lasting calculations in Mapflow to spend less.
+
+
 How to run bulk processing using Mapflow API
 ------------------------------------------------
 
@@ -277,10 +330,11 @@ We can use QuickOSM plugin in QGIS which is very friendly when it comes to downl
     :width: 15cm
     :class: with-border no-scaled-link
 |
+
 Authorization with Mapflow token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's  Mapflow token for further authorization. 
+Let's use Mapflow token for further authorization. 
 
 .. code:: python
 
