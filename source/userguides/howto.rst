@@ -310,7 +310,7 @@ Note that you have to run consequently the Storage and the Desktop to get connec
 - You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in Geocloud.
 
 .. warning::
-    Note that you pay only for the uprunning time in Geocloud. You spend your regular credits for Mapflow (you get 250 credits for free upon the registration).
+    Note that you pay only for the up time in Geocloud. You spend your regular credits for Mapflow (you get 250 credits for free upon the registration).
     There are two prices for Storage / Computer in Geocloud - *Stopped* and *Working*. The Stopped price is applied when Storage / Computer is stopped. The Working price is applied when it is in the working mode. 👉👉 You can stop your computer while doing some long-lasting calculations in Mapflow to spend less.
 
 
