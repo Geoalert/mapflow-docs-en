@@ -273,7 +273,7 @@ How to run Mapflow using Geocloud
     :class: no-scaled-link
 |
 
-We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalertv>`_ who enable to work remotely with the licensed geospatial software.
+We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalert>`_ who enable to work remotely with the licensed geospatial software.
 
 The generic workflow with Geocloud is as follows:
 
