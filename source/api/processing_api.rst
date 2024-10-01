@@ -4,7 +4,7 @@ Mapflow processing API
 ========================
 
 .. attention::
-    The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_ won’t be available via the API and vice versa. Neither can your Mapflow credits be used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
+    The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_  **will be available** via the API and vice versa. Also, your Mapflow credits are used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
 
 .. note::
     .. figure:: _static/postman_logo.png
