@@ -1,5 +1,8 @@
-🏘 High-density housing (Mapflow Web)
+🏘 High-density housing (DEPRECATED)
 -------------------------------------------
+.. warning::
+   This model has been deprecated as default one. it's available only by request.
+
 
 Our “high-density housing” AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc. This model, just like the regular building model, detects the building roofs.
 

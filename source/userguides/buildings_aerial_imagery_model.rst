@@ -1,5 +1,8 @@
-🏠 Buildings (Aerial imagery)
+Buildings (⭐️Aerial imagery) (DEPRECATED)
 -----------------------------
+.. warning::
+   This model has been deprecated as default one. it's available only by request.
+
 
 This model is specifically designed to be used on a very high resolution aerial imagery (10 cm per pixel) for extraction of small buildings and structures. It is best suited for rural and suburban residential areas.
 

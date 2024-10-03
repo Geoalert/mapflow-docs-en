@@ -85,7 +85,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 .. important::
 
     Image upload requirements:
-    The file size must be less than 512 mb. Both sides image dimmesions must not exceed 30.000x30.000
+    The file size must be less than 1 Gb. Both sides image dimmesions must not exceed 30.000x30.000
 
     The image must be georeferenced and the CRS must be one of:
     * WGS84 (EPSG: 4326)

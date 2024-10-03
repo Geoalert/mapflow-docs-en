@@ -1,7 +1,6 @@
 Data Provider, 18 zoom, 17 zoom, 16 zoom
 Mapbox, 0, 0, 0
-Arcgis Satellite, 0, 0, 0
+ArcGIS WorldView, 0, 0, 0
 Your basemap, 0, 0, 0
 Your TIFF imagery, 0, 0, 0
-Satimagery, 40, 18, 4.5
-Maxar Vivid, 36, 9, 2.25
+Global mosaic, 10, 2.5, 1
