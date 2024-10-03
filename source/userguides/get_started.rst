@@ -1,10 +1,10 @@
 Mapflow - Get started
 ======================
 
-Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your Google account.
+Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your email. You can also use Google account to login.
 Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**.
 
-After registration, your first *Default* project will be created for you and you will see the following:
+After registration, your first *Default* project will be created automatically and you will be redirected to the main dashboard:
 
 .. figure:: _static/main_projects.png
   :align: center
@@ -13,11 +13,11 @@ After registration, your first *Default* project will be created for you and you
 
 |
 
-.. |WEB| image:: _static/WEB.png
-  :width: 1cm
+.. .. |WEB| image:: _static/WEB.png
+..   :width: 1cm
 
 .. note::
-  For those who have already used the application, in the *Maplfow 2.0* update we combined our API and WEB systems, so projects migrated from Mapflow are signed as |WEB|:
+ Note that in the *Maplfow 2.0* update we joined all the platform's APIs, that's why the projects migrated from Mapflow Web app are temporarily marked as ``WEB``:
   
   .. figure:: _static/mapflow_2.0.png
     :align: center
@@ -61,7 +61,7 @@ Imagery providers
  Here you can select one of the default providers:
 
  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
- * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of full coverage of the whole world with high and medium resolution satellite and aerial imagery by ESRI. The frequency of updating images is 3-5 years. 
+ * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of the high and medium resolution satellite imagery and the aerial imagery, hosted by ESRI. The frequency of updating images is 3-5 years. 
  
  .. hint::
     You can check the ArcGIS World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.
@@ -76,14 +76,13 @@ To read more about satellite images check :ref:`Data Providers`
 Custom URL
 ~~~~~~~~~~~~~
 
-The interface of this tab allows you to:
+This tab allows you to:
 
- * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, OpenStreetMap - https://tile.openstreetmap.org/{z}/{x}/{y}.png);
- * Define start Y position: XYZ, TMS - top left, WMTS - bottom left. An example of such an open source that supports TMS/WMAT is `OpenAeriaMap <https://map.openaerialmap.org>`_, where you can select a specific satellite image and copy its link in TMS/WMTS format (see example `here <https://geoalert.medium.com/картирование-с-использованием-снимков-с-бпла-в-mapflow-ai-73d98c048c2f>`_);
- * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+ * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, :ref:`Openaerialmap <Openaerialmap>` - ``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``);
+ * When adding you custom tile service it might be needed to define Y position: XYZ (top left), TMS/WMTS (bottom left);
  * Set source image coordinate reference system (espg:3857 or espg:3395);
  * Reset all entered custom parameters;
- * Return to default Imagery providers.
+ ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
 
 .. _upload-geotiff-section:
 
@@ -95,12 +94,11 @@ Upload GeoTIFF
 .. warning::
     Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
     
-The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI.
+The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI. If the AOI doesn't intersect the image boundaries the error will pop up.
 
-   Image upload capabilities:
+Image upload requirements (free plan):
 
-  - The uploaded images must have the area of more than 1 sq.km.
-  - The file size must be less than 512 mb.
+  - The file size must be less than 1 Gb
   - Both sides image dimensions must not exceed 30.000x30.000 pixels
   - The image must be georeferenced and the CRS must be one of:
     - WGS84 (EPSG: 4326)
@@ -109,9 +107,9 @@ The processing AOI must be located in the area of this extent, otherwise the are
     
 
 .. hint::
-    If your image doesn't meet the parameters above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities.
+    If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
     
-Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+
 
 1.2. Specify the area of interest
 """""""""""""""""""""""""""""""""
@@ -139,7 +137,7 @@ There may be confusion when drawing AOI using this tool, however, everything is 
 |
 
 .. attention::
-  Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Batch processing may become available in the future releases. Other spatial data formats may also become available for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
+  Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
 2. AI model
 ^^^^^^^^^^^
