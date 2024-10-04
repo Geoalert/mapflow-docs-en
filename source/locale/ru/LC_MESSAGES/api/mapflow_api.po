@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 15:23+0700\n"
-"PO-Revision-Date: 2024-08-05 16:55+0700\n"
+"POT-Creation-Date: 2024-10-04 15:12+0700\n"
+"PO-Revision-Date: 2024-10-04 16:32+0700\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -90,15 +90,15 @@ msgstr ""
 #: ../../source/api/processing_api.rst:7
 msgid ""
 "The projects and processings that you create in `Mapflow.ai <https://app.mapflow."
-"ai/>`_ won’t be available via the API and vice versa. Neither can your Mapflow "
-"credits be used to run processings via the API. Use the API token to start using "
-"the API, which you need to generate in the `profile settings <https://app."
+"ai/>`_  **will be available** via the API and vice versa. Also, your Mapflow "
+"credits are used to run processings via the API. Use the API token to start "
+"using the API, which you need to generate in the `profile settings <https://app."
 "mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../"
 "userguides/mapflow_auth>`)."
 msgstr ""
 "Проекты и обработки, которые вы создаете в `Mapflow.ai <https://app.mapflow.ai/"
-">`_ не будут доступны через API, и наоборот. Ваши кредиты Mapflow также не могут "
-"быть использованы для запуска процессов через API. Используйте API токен, чтобы "
+">`_  **будут доступны** через API, и наоборот. Также, ваши кредиты Mapflow "
+"используются для запуска обработок через API. Используйте API токен, чтобы "
 "начать использовать API, который вам необходимо сгенерировать в `настройках "
 "профиля <https://app.mapflow.ai/account>`_ (см. :doc:`авторизация для работы с "
 "Mapflow API <../userguides/mapflow_auth>`)."
@@ -160,7 +160,7 @@ msgstr ""
 #: ../../source/api/data_api.rst:102 ../../source/api/data_api.rst:117
 #: ../../source/api/data_api.rst:189 ../../source/api/processing_api.rst:33
 #: ../../source/api/processing_api.rst:102 ../../source/api/processing_api.rst:350
-#: ../../source/api/processing_api.rst:473 ../../source/api/processing_api.rst:575
+#: ../../source/api/processing_api.rst:473 ../../source/api/processing_api.rst:577
 msgid "Response example:"
 msgstr "Пример ответа:"
 
@@ -225,7 +225,7 @@ msgid "Creates a new project, and returns its immediate state."
 msgstr "Создает новый проект и возвращает его текущее состояние."
 
 #: ../../source/api/processing_api.rst:233 ../../source/api/processing_api.rst:257
-#: ../../source/api/processing_api.rst:435 ../../source/api/processing_api.rst:613
+#: ../../source/api/processing_api.rst:435 ../../source/api/processing_api.rst:615
 msgid "Request body example:"
 msgstr "Пример тела запроса:"
 
@@ -291,18 +291,21 @@ msgid ""
 "The \"readonly\" role is applicable for any user. The \"contributor+\" role is "
 "applicable for sharing projects inside the :ref:`team <Team accounts>`."
 msgstr ""
+"Роль \"readonly\" применима к любому пользователю. Роль \"contributor+\" "
+"применима для проектов, которыми поделились внутри :ref:`команды <Team "
+"accounts>`."
 
 #: ../../source/api/processing_api.rst:303
 msgid "KEY"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:304 ../../source/api/processing_api.rst:726
-#: ../../source/api/processing_api.rst:755 ../../source/api/processing_api.rst:776
+#: ../../source/api/processing_api.rst:304 ../../source/api/processing_api.rst:730
+#: ../../source/api/processing_api.rst:759 ../../source/api/processing_api.rst:780
 msgid "VALUE"
 msgstr "ЗНАЧЕНИЕ"
 
 #: ../../source/api/data_api.rst:201 ../../source/api/processing_api.rst:305
-#: ../../source/api/processing_api.rst:727 ../../source/api/processing_api.rst:756
+#: ../../source/api/processing_api.rst:731 ../../source/api/processing_api.rst:760
 msgid "DESCRIPTION"
 msgstr "ОПИСАНИЕ"
 
@@ -438,11 +441,11 @@ msgstr ""
 msgid ""
 "If you want to find out the cost of processing without running it, you can use "
 "this method. Returns the cost of the processing in :ref:`credits <credits>` "
-"based on the total area"
+"given the model, the area and the data source."
 msgstr ""
 "Если вы хотите узнать стоимость обработки, не запуская ее, вы можете "
 "воспользоваться этим методом. Возвращает стоимость обработки в :ref:`кредитах "
-"<credits>` на основе общей площади"
+"<credits>` на основе общей площади."
 
 #: ../../source/api/processing_api.rst:475
 msgid "``30``"
@@ -464,7 +467,7 @@ msgstr ""
 msgid "Run processing"
 msgstr "Переименование обработки"
 
-#: ../../source/api/processing_api.rst:489 ../../source/api/processing_api.rst:552
+#: ../../source/api/processing_api.rst:489 ../../source/api/processing_api.rst:554
 msgid "``POST https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
@@ -473,24 +476,23 @@ msgid "Runs a processing, and returns its immediate state. Request body sample:"
 msgstr ""
 "Запускает обработку и возвращает ее текущее состояние. Образец тела запроса:"
 
-#: ../../source/api/processing_api.rst:537
+#: ../../source/api/processing_api.rst:538
 msgid ""
-"To process a user-provided raster (see :ref:`Upload GeoTIFF for processing "
-"<upload-geotiff-section>` section), set parameters as follows:"
+"To process a user-provided image (see :ref:`Upload image <upload-images>` "
+"section), set parameters as follows:"
 msgstr ""
 "Чтобы обработать предоставленный пользователем растр (см. раздел :ref:`Загрузка "
-"GeoTIFF для обработки <upload-geotiff-section>`), задайте параметры следующим "
-"образом:"
+"изображений <upload-images>`), задайте параметры следующим образом:"
 
-#: ../../source/api/processing_api.rst:546
+#: ../../source/api/processing_api.rst:548
 msgid "Response: the newly created processing."
 msgstr "Ответ: созданная обработка."
 
-#: ../../source/api/processing_api.rst:550
+#: ../../source/api/processing_api.rst:552
 msgid "Customize processing with the options"
 msgstr "Настройте обработку с помощью параметров рабочего процесса"
 
-#: ../../source/api/processing_api.rst:554
+#: ../../source/api/processing_api.rst:556
 msgid ""
 "Processing workflow can be customized with enabling or disabling some model "
 "options.  The number of options depends on the model and a scenario."
@@ -498,33 +500,35 @@ msgstr ""
 "Рабочий процесс обработки можно настроить, включив или отключив некоторые "
 "параметры модели.  Количество параметров зависит от модели и сценария."
 
-#: ../../source/api/processing_api.rst:556
+#: ../../source/api/processing_api.rst:558
 msgid "Request body example"
 msgstr "Пример тела запроса"
 
-#: ../../source/api/processing_api.rst:573
+#: ../../source/api/processing_api.rst:575
 msgid ""
 "The \"options\" can be retrieved for every model in the ``models`` linked to the "
 "user – through the ``user/status`` request."
 msgstr ""
+"\"Параметры\" можно получить для каждой, связанной с пользователем, модели в "
+"разделе ``models`` - с помощью запроса ``user/status``."
 
-#: ../../source/api/processing_api.rst:609
+#: ../../source/api/processing_api.rst:611
 msgid "Rename processing"
 msgstr "Переименования обработки"
 
-#: ../../source/api/processing_api.rst:611
+#: ../../source/api/processing_api.rst:613
 msgid "``PUT https://api.mapflow.ai/rest/processing/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:624
+#: ../../source/api/processing_api.rst:626
 msgid "Restart processing"
 msgstr "Перезапуск обработки"
 
-#: ../../source/api/processing_api.rst:626
+#: ../../source/api/processing_api.rst:628
 msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:628
+#: ../../source/api/processing_api.rst:630
 msgid ""
 "Restarts failed partitions of this processing. Doesn't restart non-failed "
 "partitions. Each workflow is restarted from the first failed stage. Thus, the "
@@ -536,56 +540,56 @@ msgstr ""
 "неудачного этапа. Таким образом, выполняется наименьший возможный объем работы, "
 "чтобы попытаться привести обработку в успешное состояние."
 
-#: ../../source/api/processing_api.rst:631
+#: ../../source/api/processing_api.rst:633
 msgid "Link processing to another project"
 msgstr "Связать обработку с другим проектом"
 
-#: ../../source/api/processing_api.rst:633
+#: ../../source/api/processing_api.rst:635
 msgid "``PUT https://api.mapflow.ai/rest/processings/{processing_id}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:635
+#: ../../source/api/processing_api.rst:637
 msgid "Links processing to another project by project ID"
 msgstr "Связывает обработку с другим проектом по идентификатору проекта"
 
-#: ../../source/api/processing_api.rst:645
+#: ../../source/api/processing_api.rst:647
 msgid "Delete processing"
 msgstr "Удалить обработку"
 
-#: ../../source/api/processing_api.rst:647
+#: ../../source/api/processing_api.rst:649
 msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:649
+#: ../../source/api/processing_api.rst:651
 msgid "Deletes this processing. Cascade deletes any child entities."
 msgstr "Удаляет обработку. Каскадно удаляет все дочерние объекты."
 
-#: ../../source/api/processing_api.rst:652
+#: ../../source/api/processing_api.rst:654
 msgid "Get processing AOIs"
 msgstr "Получить AOI обработки"
 
-#: ../../source/api/processing_api.rst:654
+#: ../../source/api/processing_api.rst:656
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:656
+#: ../../source/api/processing_api.rst:658
 msgid "Returns a list of the defined geographical areas for processing in GeoJSON."
 msgstr ""
 "Возвращает список определенных географических областей для обработки в GeoJSON."
 
-#: ../../source/api/processing_api.rst:658
+#: ../../source/api/processing_api.rst:660
 msgid "Response sample:"
 msgstr "Пример ответа:"
 
-#: ../../source/api/processing_api.rst:701
+#: ../../source/api/processing_api.rst:703
 msgid "Downloading processing results"
 msgstr "Загрузка результатов обработки"
 
-#: ../../source/api/processing_api.rst:703
+#: ../../source/api/processing_api.rst:705
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:705
+#: ../../source/api/processing_api.rst:707
 msgid ""
 "Returns Geojson results of this processing as an octet stream. Should only be "
 "called on a successfully completed processing."
@@ -593,17 +597,17 @@ msgstr ""
 "Возвращает результаты Geojson этой обработки в виде потока октетов. Должен "
 "вызываться только при успешно завершенной обработке."
 
-#: ../../source/api/processing_api.rst:709
+#: ../../source/api/processing_api.rst:713
 msgid "Upload images"
 msgstr "Загрузка изображений"
 
-#: ../../source/api/processing_api.rst:713
+#: ../../source/api/processing_api.rst:717
 msgid "❗️ Use :ref:`Data API` to create a mosaic and upload one or more images"
 msgstr ""
 "❗️ Используйте :ref:`Data API` для создания мозаики и загрузки одного или более "
 "изображений"
 
-#: ../../source/api/processing_api.rst:714
+#: ../../source/api/processing_api.rst:718
 msgid ""
 "Use s3 link from the ``\"image_url\"`` as an ``\"url\"`` param to :ref:`Create "
 "processing`"
@@ -611,88 +615,88 @@ msgstr ""
 "Используйте s3 ссылку из ``\"image_url\"`` как параметр ``\"url\"`` для :ref:"
 "`Create processing`"
 
-#: ../../source/api/processing_api.rst:718
+#: ../../source/api/processing_api.rst:722
 msgid "Parameter values"
 msgstr "Значения параметров"
 
-#: ../../source/api/processing_api.rst:721
+#: ../../source/api/processing_api.rst:725
 msgid "Default AI models"
 msgstr "ИИ модели по умолчанию"
 
-#: ../../source/api/processing_api.rst:728
+#: ../../source/api/processing_api.rst:732
 msgid "MODEL resolution (m/px), num of input bands"
 msgstr "Разрешение МОДЕЛИ (m/px), количество входных каналов"
 
-#: ../../source/api/processing_api.rst:729
+#: ../../source/api/processing_api.rst:733
 msgid "🏠 Buildings"
 msgstr "Здания"
 
-#: ../../source/api/processing_api.rst:730
+#: ../../source/api/processing_api.rst:734
 msgid "Detects buildings & classifies them"
 msgstr "Распознает здания и классифицирует их"
 
-#: ../../source/api/processing_api.rst:731 ../../source/api/processing_api.rst:740
-#: ../../source/api/processing_api.rst:746
+#: ../../source/api/processing_api.rst:735 ../../source/api/processing_api.rst:744
+#: ../../source/api/processing_api.rst:750
 msgid "0.5, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:732
+#: ../../source/api/processing_api.rst:736
 msgid "🌲 Forest"
 msgstr "Лес"
 
-#: ../../source/api/processing_api.rst:733
+#: ../../source/api/processing_api.rst:737
 msgid "Detects tree-like vegetation"
 msgstr "Распознает древовидную растительность"
 
-#: ../../source/api/processing_api.rst:734
+#: ../../source/api/processing_api.rst:738
 msgid "2, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:735
+#: ../../source/api/processing_api.rst:739
 msgid "🚗 Roads"
 msgstr "Дороги"
 
-#: ../../source/api/processing_api.rst:736
+#: ../../source/api/processing_api.rst:740
 msgid "Detects roads and returns them as polygons / linestrings"
 msgstr "Распознает дороги и возвращает их в виде полигонов / линий"
 
-#: ../../source/api/processing_api.rst:737
+#: ../../source/api/processing_api.rst:741
 msgid "1, 3 (RGB)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:738
+#: ../../source/api/processing_api.rst:742
 msgid "🚜 Fields (hi-res)"
 msgstr "Поля (высокого разрешения)"
 
-#: ../../source/api/processing_api.rst:739 ../../source/api/processing_api.rst:745
+#: ../../source/api/processing_api.rst:743 ../../source/api/processing_api.rst:749
 msgid "Detects cropland fields"
 msgstr "Распознает пахотные поля"
 
-#: ../../source/api/processing_api.rst:741
+#: ../../source/api/processing_api.rst:745
 msgid "🚜 Fields (Sentinel-2)"
 msgstr "Поля (Sentinel-2)"
 
-#: ../../source/api/processing_api.rst:742
+#: ../../source/api/processing_api.rst:746
 msgid "Detects cropland fields using free Sentinel-2 imagery"
 msgstr "Распознает пахотные поля с помощью бесплатных изображений Sentinel-2"
 
-#: ../../source/api/processing_api.rst:743
+#: ../../source/api/processing_api.rst:747
 msgid "10 m/px, 10 (multispectral)"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:744
+#: ../../source/api/processing_api.rst:748
 msgid "🏗️ Construction"
 msgstr "Строительство"
 
-#: ../../source/api/processing_api.rst:750
+#: ../../source/api/processing_api.rst:754
 msgid "source_type"
 msgstr "тип_источника"
 
-#: ../../source/api/processing_api.rst:757
+#: ../../source/api/processing_api.rst:761
 msgid "XYZ"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:758
+#: ../../source/api/processing_api.rst:762
 msgid ""
 "The URL to the imagery service in “xyz” format, e.g. `https://tile.openstreetmap."
 "org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
@@ -700,19 +704,19 @@ msgstr ""
 "URL на сервис изображений в формате “xyz”, например, `https://tile.openstreetmap."
 "org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
 
-#: ../../source/api/processing_api.rst:759
+#: ../../source/api/processing_api.rst:763
 msgid "TMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:760
+#: ../../source/api/processing_api.rst:764
 msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
 msgstr "Аналогично “xyz” с обратной координатой “y”"
 
-#: ../../source/api/processing_api.rst:761
+#: ../../source/api/processing_api.rst:765
 msgid "WMS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:762
+#: ../../source/api/processing_api.rst:766
 msgid ""
 "(❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. `https://"
 "services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer "
@@ -724,11 +728,11 @@ msgstr ""
 "<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/"
 "WMSServer>`_"
 
-#: ../../source/api/processing_api.rst:763
+#: ../../source/api/processing_api.rst:767
 msgid "Quadkey"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:764
+#: ../../source/api/processing_api.rst:768
 msgid ""
 "The one-dimensional index key that usually preserves the proximity of tiles in "
 "\"xy\" space (Bing Maps tile format)"
@@ -736,53 +740,53 @@ msgstr ""
 "Одномерный индексный ключ, который обычно сохраняет близость фрагментов в "
 "пространстве “xy” (формат тайлов Bing Maps)"
 
-#: ../../source/api/processing_api.rst:765
+#: ../../source/api/processing_api.rst:769
 msgid "tif/tiff"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:766
+#: ../../source/api/processing_api.rst:770
 msgid "File of image in georeferenced tiff (GeoTIFF) format"
 msgstr "Файл изображения в формате tiff с географической привязкой (GeoTIFF)"
 
-#: ../../source/api/processing_api.rst:770
+#: ../../source/api/processing_api.rst:774
 msgid "status"
 msgstr "статус"
 
-#: ../../source/api/error_messages.rst:12 ../../source/api/processing_api.rst:777
+#: ../../source/api/error_messages.rst:12 ../../source/api/processing_api.rst:781
 msgid "Description"
 msgstr "ОПИСАНИЕ"
 
-#: ../../source/api/processing_api.rst:778
+#: ../../source/api/processing_api.rst:782
 msgid "UNPROCESSED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:779
+#: ../../source/api/processing_api.rst:783
 msgid "The processing is not started yet"
 msgstr "Обработка еще не начата"
 
-#: ../../source/api/processing_api.rst:780
+#: ../../source/api/processing_api.rst:784
 msgid "IN_PROGRESS"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:781
+#: ../../source/api/processing_api.rst:785
 msgid "The processing is going (or is in the queue)"
 msgstr "Обработка выполняется (или находится в очереди)"
 
-#: ../../source/api/processing_api.rst:782
+#: ../../source/api/processing_api.rst:786
 msgid "FAILED"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:783
+#: ../../source/api/processing_api.rst:787
 msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
 msgstr ""
 "Обработка завершилась неудачно - измените неправильные параметры или попробуйте "
 "перезапустить"
 
-#: ../../source/api/processing_api.rst:784
+#: ../../source/api/processing_api.rst:788
 msgid "OK"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:785
+#: ../../source/api/processing_api.rst:789
 msgid "The processing is finished at 100 percent completed"
 msgstr "Обработка завершена на 100 процентов"
 

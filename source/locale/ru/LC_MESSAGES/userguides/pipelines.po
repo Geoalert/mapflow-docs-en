@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-15 14:18+0700\n"
-"PO-Revision-Date: 2024-04-19 13:20+0700\n"
+"POT-Creation-Date: 2024-10-04 15:12+0700\n"
+"PO-Revision-Date: 2024-10-04 15:28+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -84,6 +84,7 @@ msgstr ""
 "к нижней части стены (см. Дополнительные опции)."
 
 #: ../../source/userguides/buildings_model.rst:14
+#: ../../source/userguides/forest_model.rst:25
 msgid "**Additional options:**"
 msgstr "**Дополнительные опции**"
 
@@ -96,20 +97,6 @@ msgstr ""
 "классами (см. :doc:`справку <../../um/classes>`)."
 
 #: ../../source/userguides/buildings_model.rst:17
-msgid ""
-"*Building heights [Mapflow Web only]* - building height estimation by the "
-"length of the shadow and the visible part of the wall. This option also "
-"provides building footprints instead of roofs. See our `article <https://medium."
-"com/geoalert-platform-urban-monitoring/buildings-height-"
-"estimation-7babe6420893>`_ for some details on the technology."
-msgstr ""
-"*Высоты зданий [только в Mapflow Web]* - оценка высоты здания по длине тени и "
-"видимой части стены. Этот параметр также позволяет использовать футпринты "
-"вместо крыш. Более подробную информацию об этой технологии смотрите в нашей "
-"`статье <https://medium.com/geoalert-platform-urban-monitoring/buildings-height-"
-"estimation-7babe6420893>`_."
-
-#: ../../source/userguides/buildings_model.rst:18
 msgid ""
 "*Simplification* - the algorithm corrects the irregularities of the contours of "
 "our model. The irregular geometries are replaced with rectangles, circles or "
@@ -131,7 +118,7 @@ msgstr ""
 "urban-mapping-going-over-post-processing-issues-f89170131b56>`_ для "
 "дополнительной информации и некоторых визуализаций."
 
-#: ../../source/userguides/buildings_model.rst:19
+#: ../../source/userguides/buildings_model.rst:18
 msgid ""
 "*Merge with OSM [Mapflow Web only]* - some of the areas have great coverage of "
 "OpenStreetMap data, and if you prefer human-annotated data, you can select this "
@@ -183,94 +170,6 @@ msgstr ""
 "Результат объединения с OSM: некоторые здания, импортированные из OSM, имеют "
 "более точную форму, но могут быть смещены относительно положения изображения."
 
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:2
-msgid "🏠 Buildings (Aerial imagery)"
-msgstr "🏠 Здания (Аэрофото)"
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:4
-msgid ""
-"This model is specifically designed to be used on a very high resolution aerial "
-"imagery (10 cm per pixel) for extraction of small buildings and structures. It "
-"is best suited for rural and suburban residential areas."
-msgstr ""
-"Эта модель специально разработана для использования на аэрофотоснимках с очень "
-"высоким разрешением (10 см на пиксель) для извлечения небольших зданий и "
-"сооружений. Она лучше всего подходит для сельских и пригородных жилых районов."
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:6
-msgid ""
-"We do not recommend using this model in areas with high-dense urban buildings. "
-"Use :doc:`Buildings model <buildings_model>` instead, even for aerial imagery."
-msgstr ""
-"Мы не рекомендуем использовать эту модель в районах с высокой плотностью "
-"городской застройки. Вместо этого используйте :doc:`модель Здания "
-"<buildings_model>`, даже для аэрофотоснимков."
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst
-msgid "Processing result of Buildings (Aerial) model"
-msgstr "Результат обработки модели Здания (Аэрофото)"
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:15
-msgid "Processing example – rural residential area"
-msgstr "Пример обработки – сельский жилой район"
-
-#: ../../source/userguides/buildings_aerial_imagery_model.rst:23
-msgid ""
-"Small objects that have been missed by default :ref:`Buildings model` but "
-"detected using an aerial image with the Buildings (Aerial imagery)"
-msgstr ""
-"Небольшие объекты, которые были пропущены по умолчанию моделью :ref:`Buildings "
-"model`, но обнаружены с помощью аэрофотоснимка моделью Здания (Аэрофото)"
-
-#: ../../source/userguides/hd_housing_model.rst:2
-msgid "🏘 High-density housing (Mapflow Web)"
-msgstr "🏘 Плотная застройка (Mapflow веб)"
-
-#: ../../source/userguides/hd_housing_model.rst:4
-msgid ""
-"Our “high-density housing” AI model is designed for areas with terraced or "
-"otherwise densely built buildings, common in the Middle East, parts of Africa, "
-"etc. This model, just like the regular building model, detects the building "
-"roofs."
-msgstr ""
-"Наша ИИ-модель “плотная застройка” предназначена для районов с террасами или "
-"другими плотно застроенными зданиями, распространенных на Ближнем Востоке, в "
-"некоторых частях Африки и т.д. Эта модель, как и обычная модель здания, "
-"распознает крыши зданий."
-
-#: ../../source/userguides/hd_housing_model.rst:6
-msgid ""
-"Firstly, the building blocks are segmented as a whole, and then each block is "
-"attempted to be devided into individual houses based on the detection of "
-"individual roof markers with rectangular grid or Voronoi diagram."
-msgstr ""
-"Сначала строительные блоки сегментируются как единое целое, а затем каждый блок "
-"по возможности разделяется на отдельные дома на основе обнаружения отдельных "
-"маркеров крыши с помощью прямоугольной сетки или диаграммы Вороного."
-
-#: ../../source/userguides/hd_housing_model.rst:8
-msgid ""
-"Processing result sample for dense urban development area (Tunisia, Africa):"
-msgstr ""
-"Образец результатов обработки для района плотной городской застройки (Тунис, "
-"Африка):"
-
-#: ../../source/userguides/hd_housing_model.rst:16
-#: ../../source/userguides/hd_housing_model.rst:24
-msgid "Processing result of high-density housing model"
-msgstr "Результат обработки модели плотная застройка"
-
-#: ../../source/userguides/hd_housing_model.rst:16
-msgid "HD buildings model, no post-processing options"
-msgstr "Модель Плотная застройка, без опций постпроцессинга"
-
-#: ../../source/userguides/hd_housing_model.rst:24
-msgid ""
-"HD buildings model, instance segmentation and post-processing with grid options"
-msgstr ""
-"Модель Плотная застройка, сегментация экземпляров и постобработка с "
-"использованием параметров сетки"
-
 #: ../../source/userguides/forest_model.rst:2
 msgid "🌲 Forest"
 msgstr "🌲 Лес"
@@ -309,7 +208,7 @@ msgstr ""
 "поскольку деревья без листьев или растительность, покрытая снегом, не относятся "
 "к целевому классу."
 
-#: ../../source/userguides/forest_model.rst:13
+#: ../../source/userguides/forest_model.rst:14
 msgid ""
 "This model can be used to speed up trees detection and area estimation in "
 "forest inventory assessment."
@@ -317,52 +216,44 @@ msgstr ""
 "Эта модель может быть использована для ускорения обнаружения деревьев и оценки "
 "площади при инвентаризации лесов."
 
-#: ../../source/userguides/forest_model.rst:22
-#: ../../source/userguides/forest_with_heights_model.rst:25
+#: ../../source/userguides/forest_model.rst:23
+#: ../../source/userguides/forest_model.rst:47
 msgid "Processing result of forest model"
 msgstr "Результат обработки модели лес"
 
-#: ../../source/userguides/forest_model.rst:22
+#: ../../source/userguides/forest_model.rst:23
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr "Пример результатов обработки для сплошной **Лесной** маски"
 
-#: ../../source/userguides/forest_with_heights_model.rst:2
-msgid "🌲↕️ Forest with heights (API/QGIS)"
-msgstr "🌲↕️ Лес с высотами (API/QGIS)"
-
-#: ../../source/userguides/forest_with_heights_model.rst:4
+#: ../../source/userguides/forest_model.rst:27
 msgid ""
-"This model is not available in Mapflow Web. Use `Mapflow QGIS` or API to get "
-"access to forest height estimation."
+"*Heights* – Forest Segmentation follows the usual forest segmentation model, "
+"with additional separation of forest height classes."
 msgstr ""
-"Эта модель недоступна в Mapflow Web. Используйте `Mapflow QGIS` или API, чтобы "
-"получить доступ к оценке высоты леса."
+"*Высоты* - Сегментация лесов выполняется по обычной модели сегментации лесов с "
+"дополнительным разделением классов высоты лесов."
 
-#: ../../source/userguides/forest_with_heights_model.rst:6
+#: ../../source/userguides/forest_model.rst:29
 msgid ""
-"Forest Segmentation follows the usual forest segmentation model, with "
-"additional separation of forest height classes. Additionally we use models for "
-"density and height estimation, dividing the forested area into the following "
-"classes:"
+"Additionally we use models for density and height estimation, dividing the "
+"forested area into the following classes:"
 msgstr ""
-"Сегментация лесов выполняется по обычной модели сегментации лесов с "
-"дополнительным разделением классов высоты лесов. Кроме того, мы используем "
-"модели для оценки плотности и высоты, разделяя лесную площадь на следующие "
-"классы:"
+"Кроме того, мы используем модели для оценки плотности и высоты, разделяя лесную "
+"площадь на следующие классы:"
 
-#: ../../source/userguides/forest_with_heights_model.rst:9
+#: ../../source/userguides/forest_model.rst:31
 msgid "Shrubs lower than 4 meters;"
 msgstr "Кустарники ниже 4 метров;"
 
-#: ../../source/userguides/forest_with_heights_model.rst:10
+#: ../../source/userguides/forest_model.rst:32
 msgid "Forest from 4 to 10 meters high;"
 msgstr "Лес высотой от 4 до 10 метров;"
 
-#: ../../source/userguides/forest_with_heights_model.rst:11
+#: ../../source/userguides/forest_model.rst:33
 msgid "Forest more than 10 meters high;"
 msgstr "Лес высотой более 10 метров;"
 
-#: ../../source/userguides/forest_with_heights_model.rst:14
+#: ../../source/userguides/forest_model.rst:36
 msgid ""
 "This model can be used as a decision support for the forest growth clearing. "
 "See the `professional solutions by Geoalert <https://geoalert.io/solutions/"
@@ -372,81 +263,14 @@ msgstr ""
 "расчистке лесных зарослей. Смотрите `профессиональные решения от Geoalert "
 "<https://geoalert.io/solutions/power>`_"
 
-#: ../../source/userguides/forest_with_heights_model.rst:17
+#: ../../source/userguides/forest_model.rst:39
 #: ../../source/userguides/roads_model.rst:16
 msgid "**Processing results samples**"
 msgstr "**Образцы результатов обработки**"
 
-#: ../../source/userguides/forest_with_heights_model.rst:25
+#: ../../source/userguides/forest_model.rst:47
 msgid "Sample of results for **Forest with heights** mask (raster output)"
 msgstr "Образец результатов для маски **Леса с высотами** (растровый вывод)"
-
-#: ../../source/userguides/construction_model.rst:2
-msgid "🏗️ Constructions"
-msgstr "🏗️ Строительство"
-
-#: ../../source/userguides/construction_model.rst:4
-msgid ""
-"This model outlines the areas in the satellite image that contain construction "
-"sites and buildings under construction. The current model dataset is limited to "
-"some countries and the work of extending it is in progress."
-msgstr ""
-"Эта модель очерчивает области на спутниковом снимке, которые содержат "
-"строительные площадки и строящиеся здания. Текущий модельный набор данных "
-"ограничен некоторыми странами, и в настоящее время ведется работа по его "
-"расширению."
-
-#: ../../source/userguides/construction_model.rst:13
-msgid "Processing result of construction model"
-msgstr "Результат обработки модели строительство"
-
-#: ../../source/userguides/construction_model.rst:13
-msgid ""
-"Processing result sample for a rapidly developing area with construction sites"
-msgstr ""
-"Образец результата обработки для быстро развивающегося района со строительными "
-"площадками"
-
-#: ../../source/userguides/agriculture_fields_model.rst:2
-msgid "|:tractor:| Agriculture fields (DEPRECATED)"
-msgstr "|:tractor:| С/Х поля (УСТАРЕЛО)"
-
-#: ../../source/userguides/agriculture_fields_model.rst:5
-msgid ""
-"This model has been deprecated as default one. it's available only by request."
-msgstr ""
-"Эта модель по умолчанию признана устаревшей. Она доступна только по запросу."
-
-#: ../../source/userguides/agriculture_fields_model.rst:7
-msgid ""
-"Model for fields segmentation allows to detect the agricultural fields and "
-"delineate the nearby fields from each other, if there is a visual boundary "
-"(forest line, road, different crop stage). The model is trained on the high "
-"resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
-"with larger fields with active vegetation. Smaller and terrace fields (typical "
-"for Asia) are delineated not so good. Fields without vegetation, especially in "
-"winter period, are not target class."
-msgstr ""
-"Модель сегментации полей позволяет обнаруживать сельскохозяйственные поля и "
-"отделять близлежащие поля друг от друга, если есть визуальная граница (линия "
-"леса, дорога, разная стадия посева). Модель обучена на данных с высоким "
-"разрешением (1-1,2 м), в первую очередь для Европы, России. Она лучше работает "
-"на больших полях с активной растительностью. Поля меньшего размера и террасные "
-"поля (типичные для Азии) очерчены не так хорошо. Поля без растительности, "
-"особенно в зимний период, не относятся к целевому классу."
-
-#: ../../source/userguides/agriculture_fields_model.rst:16
-#: ../../source/userguides/agriculture_fields_model.rst:24
-msgid "Processing result of agriculture fields model"
-msgstr "Результат обработки модели С/Х поля"
-
-#: ../../source/userguides/agriculture_fields_model.rst:16
-msgid "Processing result sample for Europe (Belgium)"
-msgstr "Образец результатов обработки для Европы (Бельгия)"
-
-#: ../../source/userguides/agriculture_fields_model.rst:24
-msgid "Processing result sample for Asia (Northern India)"
-msgstr "Выборка результатов обработки для Азии (Северная Индия)"
 
 #: ../../source/userguides/roads_model.rst:2
 msgid "🚗 Roads"
@@ -508,11 +332,169 @@ msgstr "Оптимальные условия для модели: сельск�
 msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr "Более сложная среда - городская территория в Праге, Чешская Республика"
 
-#: ../../source/userguides/sam_model.rst:2
-msgid "✨ Segment anything"
-msgstr ""
+#: ../../source/userguides/construction_model.rst:2
+msgid "🏗️ Constructions"
+msgstr "🏗️ Строительство"
 
+#: ../../source/userguides/construction_model.rst:4
+msgid ""
+"This model outlines the areas in the satellite image that contain construction "
+"sites and buildings under construction. The current model dataset is limited to "
+"some countries and the work of extending it is in progress."
+msgstr ""
+"Эта модель очерчивает области на спутниковом снимке, которые содержат "
+"строительные площадки и строящиеся здания. Текущий модельный набор данных "
+"ограничен некоторыми странами, и в настоящее время ведется работа по его "
+"расширению."
+
+#: ../../source/userguides/construction_model.rst:13
+msgid "Processing result of construction model"
+msgstr "Результат обработки модели строительство"
+
+#: ../../source/userguides/construction_model.rst:13
+msgid ""
+"Processing result sample for a rapidly developing area with construction sites"
+msgstr ""
+"Образец результата обработки для быстро развивающегося района со строительными "
+"площадками"
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:2
+msgid "Buildings (⭐️Aerial imagery) (DEPRECATED)"
+msgstr "Здания (⭐️ Аэрофото) (УСТАРЕЛО)"
+
+#: ../../source/userguides/agriculture_fields_model.rst:5
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:4
+#: ../../source/userguides/hd_housing_model.rst:4
 #: ../../source/userguides/sam_model.rst:4
+msgid ""
+"This model has been deprecated as default one. it's available only by request."
+msgstr ""
+"Эта модель по умолчанию признана устаревшей. Она доступна только по запросу."
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:7
+msgid ""
+"This model is specifically designed to be used on a very high resolution aerial "
+"imagery (10 cm per pixel) for extraction of small buildings and structures. It "
+"is best suited for rural and suburban residential areas."
+msgstr ""
+"Эта модель специально разработана для использования на аэрофотоснимках с очень "
+"высоким разрешением (10 см на пиксель) для извлечения небольших зданий и "
+"сооружений. Она лучше всего подходит для сельских и пригородных жилых районов."
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:9
+msgid ""
+"We do not recommend using this model in areas with high-dense urban buildings. "
+"Use :doc:`Buildings model <buildings_model>` instead, even for aerial imagery."
+msgstr ""
+"Мы не рекомендуем использовать эту модель в районах с высокой плотностью "
+"городской застройки. Вместо этого используйте :doc:`модель Здания "
+"<buildings_model>`, даже для аэрофотоснимков."
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst
+msgid "Processing result of Buildings (Aerial) model"
+msgstr "Результат обработки модели Здания (Аэрофото)"
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:18
+msgid "Processing example – rural residential area"
+msgstr "Пример обработки – сельский жилой район"
+
+#: ../../source/userguides/buildings_aerial_imagery_model.rst:26
+msgid ""
+"Small objects that have been missed by default :ref:`Buildings model` but "
+"detected using an aerial image with the Buildings (Aerial imagery)"
+msgstr ""
+"Небольшие объекты, которые были пропущены по умолчанию моделью :ref:`Buildings "
+"model`, но обнаружены с помощью аэрофотоснимка моделью Здания (Аэрофото)"
+
+#: ../../source/userguides/hd_housing_model.rst:2
+msgid "🏘 High-density housing (DEPRECATED)"
+msgstr "🏘 Плотная застройка (Mapflow веб) (УСТАРЕЛО)"
+
+#: ../../source/userguides/hd_housing_model.rst:7
+msgid ""
+"Our “high-density housing” AI model is designed for areas with terraced or "
+"otherwise densely built buildings, common in the Middle East, parts of Africa, "
+"etc. This model, just like the regular building model, detects the building "
+"roofs."
+msgstr ""
+"Наша ИИ-модель “плотная застройка” предназначена для районов с террасами или "
+"другими плотно застроенными зданиями, распространенных на Ближнем Востоке, в "
+"некоторых частях Африки и т.д. Эта модель, как и обычная модель здания, "
+"распознает крыши зданий."
+
+#: ../../source/userguides/hd_housing_model.rst:9
+msgid ""
+"Firstly, the building blocks are segmented as a whole, and then each block is "
+"attempted to be devided into individual houses based on the detection of "
+"individual roof markers with rectangular grid or Voronoi diagram."
+msgstr ""
+"Сначала строительные блоки сегментируются как единое целое, а затем каждый блок "
+"по возможности разделяется на отдельные дома на основе обнаружения отдельных "
+"маркеров крыши с помощью прямоугольной сетки или диаграммы Вороного."
+
+#: ../../source/userguides/hd_housing_model.rst:11
+msgid ""
+"Processing result sample for dense urban development area (Tunisia, Africa):"
+msgstr ""
+"Образец результатов обработки для района плотной городской застройки (Тунис, "
+"Африка):"
+
+#: ../../source/userguides/hd_housing_model.rst:19
+#: ../../source/userguides/hd_housing_model.rst:27
+msgid "Processing result of high-density housing model"
+msgstr "Результат обработки модели плотная застройка"
+
+#: ../../source/userguides/hd_housing_model.rst:19
+msgid "HD buildings model, no post-processing options"
+msgstr "Модель Плотная застройка, без опций постпроцессинга"
+
+#: ../../source/userguides/hd_housing_model.rst:27
+msgid ""
+"HD buildings model, instance segmentation and post-processing with grid options"
+msgstr ""
+"Модель Плотная застройка, сегментация экземпляров и постобработка с "
+"использованием параметров сетки"
+
+#: ../../source/userguides/agriculture_fields_model.rst:2
+msgid "|:tractor:| Agriculture fields (DEPRECATED)"
+msgstr "|:tractor:| С/Х поля (УСТАРЕЛО)"
+
+#: ../../source/userguides/agriculture_fields_model.rst:7
+msgid ""
+"Model for fields segmentation allows to detect the agricultural fields and "
+"delineate the nearby fields from each other, if there is a visual boundary "
+"(forest line, road, different crop stage). The model is trained on the high "
+"resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
+"with larger fields with active vegetation. Smaller and terrace fields (typical "
+"for Asia) are delineated not so good. Fields without vegetation, especially in "
+"winter period, are not target class."
+msgstr ""
+"Модель сегментации полей позволяет обнаруживать сельскохозяйственные поля и "
+"отделять близлежащие поля друг от друга, если есть визуальная граница (линия "
+"леса, дорога, разная стадия посева). Модель обучена на данных с высоким "
+"разрешением (1-1,2 м), в первую очередь для Европы, России. Она лучше работает "
+"на больших полях с активной растительностью. Поля меньшего размера и террасные "
+"поля (типичные для Азии) очерчены не так хорошо. Поля без растительности, "
+"особенно в зимний период, не относятся к целевому классу."
+
+#: ../../source/userguides/agriculture_fields_model.rst:16
+#: ../../source/userguides/agriculture_fields_model.rst:24
+msgid "Processing result of agriculture fields model"
+msgstr "Результат обработки модели С/Х поля"
+
+#: ../../source/userguides/agriculture_fields_model.rst:16
+msgid "Processing result sample for Europe (Belgium)"
+msgstr "Образец результатов обработки для Европы (Бельгия)"
+
+#: ../../source/userguides/agriculture_fields_model.rst:24
+msgid "Processing result sample for Asia (Northern India)"
+msgstr "Выборка результатов обработки для Азии (Северная Индия)"
+
+#: ../../source/userguides/sam_model.rst:2
+msgid "✨ Segment anything (DEPRECATED)"
+msgstr "✨ Segment anything (УСТАРЕЛО)"
+
+#: ../../source/userguides/sam_model.rst:6
 msgid ""
 "The “Segment Anything” (originaly introduced by Meta as *universal segmentation "
 "model*) is available as yet another experimental model in Mapflow. We adjusted "
@@ -524,11 +506,11 @@ msgstr ""
 "Мы адаптировали его к рабочим процессам Mapflow, которые будут использоваться в "
 "масштабе. Для запуска этой модели требуются те же шаги:"
 
-#: ../../source/userguides/sam_model.rst:6
+#: ../../source/userguides/sam_model.rst:8
 msgid "Select your data source"
 msgstr "Выберите ваш источник данных"
 
-#: ../../source/userguides/sam_model.rst:7
+#: ../../source/userguides/sam_model.rst:9
 msgid ""
 "Select your geographical area - either polygon, GeoJSON file, or your image "
 "extent"
@@ -536,11 +518,11 @@ msgstr ""
 "Выберите свою географическую область - либо полигон, файл GeoJSON, либо экстент "
 "вашего изображения"
 
-#: ../../source/userguides/sam_model.rst:9
+#: ../../source/userguides/sam_model.rst:11
 msgid "Yet there is one difference in the model workflow:"
 msgstr "Тем не менее, есть одно отличие в рабочем процессе модели:"
 
-#: ../../source/userguides/sam_model.rst:11
+#: ../../source/userguides/sam_model.rst:13
 msgid ""
 "if you run this model using GTIFF file — the original resolution of the image "
 "will be used"
@@ -548,7 +530,7 @@ msgstr ""
 "если вы запустите эту модель с помощью файла GTIFF — будет использовано "
 "исходное разрешение изображения"
 
-#: ../../source/userguides/sam_model.rst:12
+#: ../../source/userguides/sam_model.rst:14
 msgid ""
 "if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox Satellite) — "
 "you need to select the Zoom level (image resolution) from the model options "
@@ -559,15 +541,15 @@ msgstr ""
 "изображения) из параметров модели, которые будут использоваться для ввода"
 
 #: ../../source/userguides/sam_model.rst:-1
-#: ../../source/userguides/sam_model.rst:49
-#: ../../source/userguides/sam_model.rst:57
-#: ../../source/userguides/sam_model.rst:65
-#: ../../source/userguides/sam_model.rst:74
-#: ../../source/userguides/sam_model.rst:82
+#: ../../source/userguides/sam_model.rst:51
+#: ../../source/userguides/sam_model.rst:59
+#: ../../source/userguides/sam_model.rst:67
+#: ../../source/userguides/sam_model.rst:76
+#: ../../source/userguides/sam_model.rst:84
 msgid "SAM options - zoom levels"
 msgstr "Параметры SAM - уровни масштабирования"
 
-#: ../../source/userguides/sam_model.rst:22
+#: ../../source/userguides/sam_model.rst:24
 msgid ""
 "Depending on the input resolution, the SAM model will interpret and generate "
 "different objects. It can be empirically classified by the zoom levels as "
@@ -577,63 +559,63 @@ msgstr ""
 "генерировать различные объекты. Эмпирически ее можно классифицировать по "
 "уровням масштабирования следующим образом."
 
-#: ../../source/userguides/sam_model.rst:26
+#: ../../source/userguides/sam_model.rst:28
 msgid "SAM options – semantic classification"
 msgstr "Параметры SAM – семантическая классификация"
 
-#: ../../source/userguides/sam_model.rst:32
+#: ../../source/userguides/sam_model.rst:34
 msgid "ZOOM LEVELS"
 msgstr "УРОВНИ МАСШТАБИРОВАНИЯ"
 
-#: ../../source/userguides/sam_model.rst:33
+#: ../../source/userguides/sam_model.rst:35
 msgid "SEMANTIC OBJECTS"
 msgstr "СЕМАНТИЧЕСКИЕ ОБЪЕКТЫ"
 
-#: ../../source/userguides/sam_model.rst:34
+#: ../../source/userguides/sam_model.rst:36
 msgid "14"
 msgstr "14"
 
-#: ../../source/userguides/sam_model.rst:35
+#: ../../source/userguides/sam_model.rst:37
 msgid "Land use, forests, parks, fields, bodies of water"
 msgstr "Землепользование, леса, парки, поля, водоемы"
 
-#: ../../source/userguides/sam_model.rst:36
+#: ../../source/userguides/sam_model.rst:38
 msgid "16"
 msgstr "16"
 
-#: ../../source/userguides/sam_model.rst:37
+#: ../../source/userguides/sam_model.rst:39
 msgid "Small fields, large buildings, lawns, plots"
 msgstr "Небольшие поля, большие здания, газоны, участки"
 
-#: ../../source/userguides/sam_model.rst:38
+#: ../../source/userguides/sam_model.rst:40
 msgid "18"
 msgstr "18"
 
-#: ../../source/userguides/sam_model.rst:39
+#: ../../source/userguides/sam_model.rst:41
 msgid "Farms, buildings, groups of trees, etc."
 msgstr "Фермы, здания, группы деревьев и т.д."
 
-#: ../../source/userguides/sam_model.rst:40
+#: ../../source/userguides/sam_model.rst:42
 msgid "Aero"
 msgstr "Аэро"
 
-#: ../../source/userguides/sam_model.rst:41
+#: ../../source/userguides/sam_model.rst:43
 msgid "Houses, trees, vehicles, roof structures, etc."
 msgstr "Дома, деревья, транспортные средства, конструкции крыш и т.д."
 
-#: ../../source/userguides/sam_model.rst:49
+#: ../../source/userguides/sam_model.rst:51
 msgid "E.g. Result – SAM (zoom 14)"
 msgstr "Например, результат – SAM (увеличение 14)"
 
-#: ../../source/userguides/sam_model.rst:57
+#: ../../source/userguides/sam_model.rst:59
 msgid "E.g. Result – SAM (zoom 16)"
 msgstr "Например, результат – SAM (увеличение 16)"
 
-#: ../../source/userguides/sam_model.rst:65
+#: ../../source/userguides/sam_model.rst:67
 msgid "E.g. Result – SAM (zoom 18)"
 msgstr "Например, результат – SAM (увеличение 18)"
 
-#: ../../source/userguides/sam_model.rst:74
+#: ../../source/userguides/sam_model.rst:76
 msgid ""
 "E.g. Result – SAM Aero (zoom 20), single trees. Some polygons are not very "
 "accurate and some target objects are missing, but the overall result is "
@@ -644,7 +626,7 @@ msgstr ""
 "результат релевантен и может быть использован для более точного "
 "картографирования."
 
-#: ../../source/userguides/sam_model.rst:82
+#: ../../source/userguides/sam_model.rst:84
 msgid ""
 "E.g. Result – SAM Aero (zoom 20), containers. Appropriate for small typicall "
 "objects, requires little manual cleaning."
@@ -652,7 +634,7 @@ msgstr ""
 "Например, результат – SAM Аэро (увеличение 20), контейнеры. Подходит для "
 "типичных небольших предметов, практически не требует ручной очистки."
 
-#: ../../source/userguides/sam_model.rst:85
+#: ../../source/userguides/sam_model.rst:87
 msgid ""
 "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list "
 "of default models, as the zoom options are not enabled in the current plugin’s "
@@ -665,3 +647,26 @@ msgstr ""
 "текущем дизайне плагина. Тем не менее, если вы работаете в QGIS и хотите "
 "попробовать SAM там — отправьте нам запрос, и мы подключим соответствующие "
 "сценарии рабочего процесса со всеми указанными параметрами масштабирования."
+
+#~ msgid ""
+#~ "*Building heights [Mapflow Web only]* - building height estimation by the "
+#~ "length of the shadow and the visible part of the wall. This option also "
+#~ "provides building footprints instead of roofs. See our `article <https://"
+#~ "medium.com/geoalert-platform-urban-monitoring/buildings-height-"
+#~ "estimation-7babe6420893>`_ for some details on the technology."
+#~ msgstr ""
+#~ "*Высоты зданий [только в Mapflow Web]* - оценка высоты здания по длине тени "
+#~ "и видимой части стены. Этот параметр также позволяет использовать футпринты "
+#~ "вместо крыш. Более подробную информацию об этой технологии смотрите в нашей "
+#~ "`статье <https://medium.com/geoalert-platform-urban-monitoring/buildings-"
+#~ "height-estimation-7babe6420893>`_."
+
+#~ msgid "🌲↕️ Forest with heights (API/QGIS)"
+#~ msgstr "🌲↕️ Лес с высотами (API/QGIS)"
+
+#~ msgid ""
+#~ "This model is not available in Mapflow Web. Use `Mapflow QGIS` or API to get "
+#~ "access to forest height estimation."
+#~ msgstr ""
+#~ "Эта модель недоступна в Mapflow Web. Используйте `Mapflow QGIS` или API, "
+#~ "чтобы получить доступ к оценке высоты леса."

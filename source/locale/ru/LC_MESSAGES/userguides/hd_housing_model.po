@@ -8,23 +8,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 11:54+0530\n"
+"POT-Creation-Date: 2024-10-04 15:12+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../source/userguides/hd_housing_model.rst:2
-msgid "🏘 High-density housing (Mapflow Web)"
+msgid "🏘 High-density housing (DEPRECATED)"
 msgstr ""
 
 #: ../../source/userguides/hd_housing_model.rst:4
+msgid ""
+"This model has been deprecated as default one. it's available only by "
+"request."
+msgstr ""
+
+#: ../../source/userguides/hd_housing_model.rst:7
 msgid ""
 "Our “high-density housing” AI model is designed for areas with terraced "
 "or otherwise densely built buildings, common in the Middle East, parts of"
@@ -32,7 +38,7 @@ msgid ""
 "the building roofs."
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:6
+#: ../../source/userguides/hd_housing_model.rst:9
 msgid ""
 "Firstly, the building blocks are segmented as a whole, and then each "
 "block is attempted to be devided into individual houses based on the "
@@ -40,22 +46,22 @@ msgid ""
 "diagram."
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:8
+#: ../../source/userguides/hd_housing_model.rst:11
 msgid ""
 "Processing result sample for dense urban development area (Tunisia, "
 "Africa):"
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:16
-#: ../../source/userguides/hd_housing_model.rst:24
+#: ../../source/userguides/hd_housing_model.rst:19
+#: ../../source/userguides/hd_housing_model.rst:27
 msgid "Processing result of high-density housing model"
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:16
+#: ../../source/userguides/hd_housing_model.rst:19
 msgid "HD buildings model, no post-processing options"
 msgstr ""
 
-#: ../../source/userguides/hd_housing_model.rst:24
+#: ../../source/userguides/hd_housing_model.rst:27
 msgid ""
 "HD buildings model, instance segmentation and post-processing with grid "
 "options"
@@ -77,5 +83,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "High density buildings model"
+#~ msgstr ""
+
+#~ msgid "🏘 High-density housing (Mapflow Web)"
 #~ msgstr ""
 

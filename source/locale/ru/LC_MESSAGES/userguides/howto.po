@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 15:23+0700\n"
-"PO-Revision-Date: 2024-08-05 16:25+0700\n"
+"POT-Creation-Date: 2024-10-04 15:12+0700\n"
+"PO-Revision-Date: 2024-10-04 15:45+0700\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/userguides/howto.rst:4
-msgid "Userguides - How To"
+msgid "Userguides - How To 🙋‍♂️"
 msgstr ""
 
 #: ../../source/userguides/howto.rst:9
@@ -86,7 +86,6 @@ msgid "OAuth login completed!"
 msgstr "Входе через OAuth завершен!"
 
 #: ../../source/userguides/oauth2_setup.rst:60
-#, fuzzy
 msgid ""
 "If you have problems with authorization, you can delete the current authentication config by going to "
 "``Settings -> Options -> Authentication``, select the config and remove it:"
@@ -309,7 +308,7 @@ msgstr ""
 
 #: ../../source/userguides/howto.rst:87
 msgid ""
-"Image upload requirements: The file size must be less than 512 mb. Both sides image dimmesions must not "
+"Image upload requirements: The file size must be less than 1 Gb. Both sides image dimmesions must not "
 "exceed 30.000x30.000"
 msgstr ""
 
@@ -456,42 +455,38 @@ msgstr ""
 msgid "**Run the flow!**"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:193
-msgid "How to use Nearmap as an imagery source"
-msgstr ""
-
-#: ../../source/userguides/howto.rst:199
+#: ../../source/userguides/howto.rst:194
 msgid "How to view results using Kepler.gl"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:201
+#: ../../source/userguides/howto.rst:196
 msgid ""
 "**Kepler.gl** is an open source tool designed for geospatial data analysis. It is a simple yet powerful "
 "for displaying and exploring geodatasets."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:203
+#: ../../source/userguides/howto.rst:198
 msgid ""
 "To view the processing results in the Mapflow, select the required processing and press the button "
 "*\"Open in kepler.gl\"*."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:206
+#: ../../source/userguides/howto.rst:201
 msgid ""
 "You can share your processing view in Kepler by copying the open URL (right click on *\"Open in kepler."
 "gl\"* --> Copy Link Address)"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:208
+#: ../../source/userguides/howto.rst:203
 msgid ""
 "Using the Kepler you can change the visual properties of data, set filters, and choose a background map."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:212
+#: ../../source/userguides/howto.rst:207
 msgid "Layers tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:214
+#: ../../source/userguides/howto.rst:209
 msgid ""
 "Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, "
 "click on the *eye* icon."
@@ -501,29 +496,29 @@ msgstr ""
 msgid "View layer settings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:222
+#: ../../source/userguides/howto.rst:218
 msgid "These settings allow you to choose a more suitable type of received data:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:224
+#: ../../source/userguides/howto.rst:220
 msgid ""
 "*Fill color.* You can choose any color from the palette for polygons, and also hide the display of data "
 "by changing the position of the slider. You can change the transparency of polygons (property "
 "*Opacity*) in the additional settings of this function."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:225
+#: ../../source/userguides/howto.rst:221
 msgid ""
 "*Stroke color.* You can choose any color from the palette for outlining polygons, as well as completely "
 "remove the stroke. You can change the transparency of the stroke (property *Opacity*) In the additional "
 "settings of this function."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:226
+#: ../../source/userguides/howto.rst:222
 msgid "*Stroke width.* Controls the thickness of the stroke."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:227
+#: ../../source/userguides/howto.rst:223
 msgid ""
 "*Height.* Allows you to view data with heights in 3D format. Set the desired coefficient and select the "
 "attribute of the layer with heights."
@@ -533,11 +528,11 @@ msgstr ""
 msgid "3D buildings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:236
+#: ../../source/userguides/howto.rst:232
 msgid "Filters tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:238
+#: ../../source/userguides/howto.rst:234
 msgid ""
 "This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, "
 "the filter is set by classes with different typology of buildings)."
@@ -547,11 +542,11 @@ msgstr ""
 msgid "Filter panel"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:247
+#: ../../source/userguides/howto.rst:243
 msgid "Interaction tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:249
+#: ../../source/userguides/howto.rst:245
 msgid ""
 "You can select or remove attributes that will be visible in the menu that appears when you hover over "
 "an object. It is also possible to turn on the panel indicating longitude and latitude."
@@ -561,19 +556,92 @@ msgstr ""
 msgid "Interaction panel"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:259
+#: ../../source/userguides/howto.rst:255
 msgid "Base map tab"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:261
+#: ../../source/userguides/howto.rst:257
 msgid "Here you can choose the styles of the map, as well as choose to display its various layers."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:265
-msgid "How to run bulk processing using Mapflow API"
+#: ../../source/userguides/howto.rst:261
+msgid "How to run Mapflow on external infrastructure"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:263
+msgid ""
+"Currently, you have to contact us if you have a request to run Mapflow (as a platform or as a separate "
+"imagery analysis workflows) on external infrastructure. However, we partner with cloud integrators to "
+"conduct projects for their clients."
 msgstr ""
 
 #: ../../source/userguides/howto.rst:267
+msgid "How to run Mapflow using Geocloud"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:-1
+msgid "create app"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:276
+msgid ""
+"We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalert>`_ who enable "
+"to work remotely with the licensed geospatial software."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:278
+msgid "The generic workflow with Geocloud is as follows:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:280
+msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:282
+msgid ""
+"It runs the virtual machine with minimum requirements for QGIS with a preinstalled Mapflow plugin. Note "
+"that you have to run consequently the Storage and the Desktop to get connected to the virtual machine "
+"with a remote desktop."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:285
+msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:294
+msgid "Run the plugin by clicking on the icon in the toolbar"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:304
+msgid "❗️ To enable Mapflow oAuth login use the master password for QGIS which is set to 123456"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:307
+msgid ""
+"After you click  the \"Login\" button you will be redirected to the Mapflow login page in the browser. "
+"Use your existing `Mapflow.ai <https://app.mapflow.ai>`_ login and password or create a new account to "
+"start working with the plugin. You can also use Basic auth (disable \"Use OAuth\" checkbox) with your "
+"Mapflow `Token <https://app.mapflow.ai/account/api>`_."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:310
+msgid "You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in Geocloud."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:313
+msgid ""
+"Note that you pay only for the up time in Geocloud. You spend your regular credits for Mapflow (you get "
+"250 credits for free upon the registration). There are two prices for Storage / Computer in Geocloud - "
+"*Stopped* and *Working*. The Stopped price is applied when Storage / Computer is stopped. The Working "
+"price is applied when it is in the working mode. 👉👉 You can stop your computer while doing some long-"
+"lasting calculations in Mapflow to spend less."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:318
+msgid "How to run bulk processing using Mapflow API"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:320
 msgid ""
 "In case you have multiple polygons to process or update, it can be boring to upload them one by one "
 "using Web or GIS user tools. In this case, you'd better think of using Mapflow :ref:`Processing API`. "
@@ -581,7 +649,7 @@ msgid ""
 "want to extract features like \"buildings\" with Mapflow processing API."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:270
+#: ../../source/userguides/howto.rst:323
 msgid ""
 "1. To make it more realistic let's download some populated places borders for the sample area in "
 "Uzbekistan using Openstreetmap. To do this we can make a query with Overpass Turbo API like this: We "
@@ -593,49 +661,49 @@ msgstr ""
 msgid "quickosmm"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:281
+#: ../../source/userguides/howto.rst:335
 msgid "Authorization with Mapflow token"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:283
-msgid "Let's  Mapflow token for further authorization."
+#: ../../source/userguides/howto.rst:337
+msgid "Let's use Mapflow token for further authorization."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:294
+#: ../../source/userguides/howto.rst:348
 msgid ""
 "Now you get your token decoded as a username and a password and use it for the authorization with the "
 "requests."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:297
+#: ../../source/userguides/howto.rst:351
 msgid "Create the project (it's optional)"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:300
+#: ../../source/userguides/howto.rst:354
 msgid ""
 "It might be useful to organise your processing with the **projects**. To do this create the new project "
 "with the following API method."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:324
+#: ../../source/userguides/howto.rst:378
 msgid ""
 "Here we get the response containing the project ID, that we can use to create the processings in this "
 "specific project."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:326 ../../source/userguides/howto.rst:424
+#: ../../source/userguides/howto.rst:380 ../../source/userguides/howto.rst:478
 msgid "Response example:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:336
+#: ../../source/userguides/howto.rst:390
 msgid "See more in :ref:`Projects - API`"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:339
+#: ../../source/userguides/howto.rst:393
 msgid "Prepare AOIs for the processings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:341
+#: ../../source/userguides/howto.rst:395
 msgid ""
 "Let's save areas of interest with the properties as a GeoJSON file as it's simple and straightforward "
 "format to be used in any application or GIS software. Then we open this file and create a python "
@@ -643,47 +711,47 @@ msgid ""
 "the processing. Like this:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:353
+#: ../../source/userguides/howto.rst:407
 msgid ""
 "Let's check if we created the data array from our file and display all the features by their names. At "
 "the next step, we will use the ``name`` property to define the processing. The \"name\" is optional yet "
 "it's more convenient to work with the results afterwards."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:356
+#: ../../source/userguides/howto.rst:410
 msgid "Run the Processings"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:358
+#: ../../source/userguides/howto.rst:412
 msgid "Now we are ready to create the processing for each AOI using its geometry."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:382
+#: ../../source/userguides/howto.rst:436
 msgid "If everything was done correctly - the list of successfully created processing will be displayed."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:386
+#: ../../source/userguides/howto.rst:440
 msgid "Download all the results using Mapflow API"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:388
+#: ../../source/userguides/howto.rst:442
 msgid "When all processings are complete you can download easily the results for each one."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:390
+#: ../../source/userguides/howto.rst:444
 msgid ""
 "If you have one processing with the multiple AOIs *(by default the number of AOIs in one processing is "
 "limited to 10)* you can run a single API call to download the results:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:397
+#: ../../source/userguides/howto.rst:451
 msgid "In case of the multiple processings, you might find it useful to run the small script."
 msgstr ""
 
-#: ../../source/userguides/howto.rst:399
+#: ../../source/userguides/howto.rst:453
 msgid "Get the list of all \"ids\" and \"names\" by processing:"
 msgstr ""
 
-#: ../../source/userguides/howto.rst:439
+#: ../../source/userguides/howto.rst:493
 msgid "Save results for all the listed processings:"
 msgstr ""
