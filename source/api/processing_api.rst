@@ -559,7 +559,7 @@ Response: the newly created processing.
      - Detects buildings & classifies them
      - 0.5, 1-3 (RGB)
      - 17–18
-     - Simplification, OSM
+     - Simplification, OSM, Classification
    * - 🌲 Forest
      - Detects tree-like vegetation
      - 0.5, 3 (RGB)
