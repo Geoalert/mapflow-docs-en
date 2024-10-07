@@ -103,8 +103,8 @@ You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). A
 
 .. figure:: _static/select_raster_qgis.jpg
     :align: center
-    :class: with-border
-    :width: 15cm no-scaled-link 
+    :class: with-border no-scaled-link
+    :width: 15cm
 
 .. important::
 

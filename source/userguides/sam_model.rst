@@ -1,5 +1,5 @@
 ✨ Segment anything (DEPRECATED)
----------------------
+----------------------------------
 .. warning::
    This model has been deprecated as default one. it's available only by request.
 

@@ -26,8 +26,7 @@ Returns user status for the given user account, including:
 - Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
 - Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
 
-.. note::
-  If user account is linked to the :ref:`Team accounts` - it returns Team's description as well
+If user account is added to the :ref:`Team accounts` - it returns Team's description as well
 
 
 Response example:
@@ -81,7 +80,7 @@ Response example:
       "teams": [
           {
               "teamId": "a6c5a4cf-c693-4441-8bef-028ac0f2d5d9",
-              "name": "My Geoalert Team",
+              "name": "My New Team",
               "role": "OWNER",
               "activeUntil": null,
               "creditsLimit": null
@@ -190,20 +189,6 @@ Returns the name and ID of the user's default project and the user's account set
               "description": null,
               "created": "2022-10-20T14:54:59.690562Z",
               "updated": "2022-10-20T14:54:59.690562Z"
-          },
-          {
-              "id": "495192d6-5dfc-4167-842e-3d76d8abe244",
-              "name": "🚜 Fields (Sentinel-2)",
-              "description": null,
-              "created": "2022-10-20T14:54:59.748459Z",
-              "updated": "2022-10-20T14:54:59.748459Z"
-          },
-          {
-              "id": "9c2ceb15-2063-49b2-afec-d1752cbab2e1",
-              "name": "🚗 Roads",
-              "description": null,
-              "created": "2022-10-20T14:54:59.865654Z",
-              "updated": "2022-10-20T14:54:59.865654Z"
           },
           {
               "id": "decc5854-3a92-4b25-8e5b-895de9fa4ef3",
@@ -483,7 +468,7 @@ Response example:
 
 .. _Create processing:
 
-Run processing
+Run the processing
 ^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
@@ -540,12 +525,109 @@ Request body sample:
   .. code:: json
 
           "params": {
-              "source_type": "tif",
+              "source_type": "local",
               "url": "s3://users-data/user@email.com_eaf9e720-c6de-4d9b-8aec-52296d43f0c4/1e7fc660-7d0a-4632-9e6c-e95cf20e62b9/b97e9154-a356-450c-990b-fb1692d404ec.tif"
           }
 
 
 Response: the newly created processing.
+
+
+✍️ Params to run the processing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :file: _static/csv/params_run.csv
+    :widths: 30, 20, 80
+    :header-rows: 1
+    :class: longtable
+
+
+✍️ Default AI models
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 20 10 10 20
+   :header-rows: 1
+
+   * - VALUE
+     - DESCRIPTION
+     - MODEL input (m/px), num of bands
+     - ZOOM LEVEL
+     - OPTIONS
+   * - 🏠 Buildings
+     - Detects buildings & classifies them
+     - 0.5, 1-3 (RGB)
+     - 17–18
+     - Simplification, OSM
+   * - 🌲 Forest
+     - Detects tree-like vegetation
+     - 0.5, 3 (RGB)
+     - 17-18
+     - Heights
+   * - 🚗 Roads
+     - Detects roads and returns them as polygons / linestrings
+     - 0.5, 3 (RGB)
+     - 17–18
+     - 
+   * - 🏗️ Construction
+     - Detects cropland fields
+     - 0.5, 3 (RGB)
+     - 17–18
+     - 
+
+
+✍️ Params to specify the data source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :file: _static/csv/params_ds.csv
+    :widths: 30, 20, 60, 40
+    :header-rows: 1
+    :class: longtable
+
+
+
+✍️ Params to specify the "source_type"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 30
+   :header-rows: 1
+
+   * - VALUE
+     - DESCRIPTION
+   * - XYZ
+     - The URL to the imagery service in “xyz” format
+   * - TMS
+     - The similar to "xyz" with reverse "y" coordinate
+   * - WMS
+     - (❗️❗️Deprecated) The URL to the imagery service in “wms” format
+   * - Quadkey
+     - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
+   * - local
+     - File of image in GeoTIFF format
+
+
+Processing status
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 30
+   :header-rows: 1
+
+   * - VALUE
+     - Description
+   * - UNPROCESSED
+     - The processing is not started yet
+   * - IN_PROGRESS
+     - The processing is going (or is in the queue)
+   * - FAILED
+     - The processing ended unsuccessfuly - change wrong params or try to restart
+   * - OK
+     - The processing is finished at 100 percent completed
+   * - *IN_REVIEW*
+     - The additional status enabled by request (if the results are under review)
 
 
 Customize processing with the options
@@ -716,77 +798,6 @@ Upload images
 
   1. ❗️ Use :ref:`Data API` to create a mosaic and upload one or more images
   2. Use s3 link from the ``"image_url"`` as an ``"url"`` param to :ref:`Create processing`
-
-
-Parameter values
-----------------
-
-Default AI models
-^^^^^^^^^^^^^^^^^^^
-.. list-table::
-   :widths: 10 20 10
-   :header-rows: 1
-
-   * - VALUE
-     - DESCRIPTION
-     - MODEL resolution (m/px), num of input bands
-   * - 🏠 Buildings
-     - Detects buildings & classifies them
-     - 0.5, 3 (RGB)
-   * - 🌲 Forest
-     - Detects tree-like vegetation
-     - 2, 3 (RGB)
-   * - 🚗 Roads
-     - Detects roads and returns them as polygons / linestrings
-     - 1, 3 (RGB)
-   * - 🚜 Fields (hi-res)
-     - Detects cropland fields
-     - 0.5, 3 (RGB)
-   * - 🚜 Fields (Sentinel-2)
-     - Detects cropland fields using free Sentinel-2 imagery
-     - 10 m/px, 10 (multispectral)
-   * - 🏗️ Construction
-     - Detects cropland fields
-     - 0.5, 3 (RGB)
-
-
-source_type
-^^^^^^^^^^^^^^^^^^^
-.. list-table::
-   :widths: 10 30
-   :header-rows: 1
-
-   * - VALUE
-     - DESCRIPTION
-   * - XYZ
-     - The URL to the imagery service in “xyz” format, e.g. `https://tile.openstreetmap.org/{z}/{x}/{y}.png <https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_
-   * - TMS
-     - The similar to "xyz" with reverse "y" coordinate
-   * - WMS
-     - (❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. `https://services.nationalmap.gov/arcgis/services/ USGSNAIPImagery/ImageServer/WMSServer <https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_
-   * - Quadkey
-     - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
-   * - tif/tiff
-     - File of image in georeferenced tiff (GeoTIFF) format
-
-
-status
-^^^^^^^^^^^^^^^^^^
-
-.. list-table::
-   :widths: 10 30
-   :header-rows: 1
-
-   * - VALUE
-     - Description
-   * - UNPROCESSED
-     - The processing is not started yet
-   * - IN_PROGRESS
-     - The processing is going (or is in the queue)
-   * - FAILED
-     - The processing ended unsuccessfuly - change wrong params or try to restart
-   * - OK
-     - The processing is finished at 100 percent completed      
 
 
 

@@ -1,0 +1,10 @@
+Params,Type,Description,Sample values
+name,String,Name of the featured data  provider if its available for the current account. ,"1) ""Mapbox""
+2) ""arcgis_world_imagery""
+3) ""Global mosaic 2022"""
+url,String,Custom data provider url,"""my-tile-server.com/{z}/{x}/{y}"""
+source_type,String,"Source type of the custom data provider. 
+Type  ""local"" can be specified to use a user's file from the Mapflow storage","1) ""XYZ""
+2) ""TMS""
+3) ""local"""
+zoom,String,Zoom level,"""18"""

@@ -1,0 +1,9 @@
+Params,Type,Description
+geometry*,Array,"Processing area in GeoJSON format, type – Polygon or Multipolygon."
+name,String,"Processing name. If not specified, an automatically generated ID will be assigned"
+projectId,String,"ID of the project in which the processing is created (if not specified, it is created in the user's default project)"
+wdId* /,String,Processing scenario (AI Model) ID. wdName can be specified instead
+wdName*,String,Processing scenario (AI Model) name. wdId can be specified instead
+params,Array,"Data source parameters. If not specified, the first default data source will be used."
+blocks,Array,Processing options that are specified for the Model. 
+meta,Array,Optional metadat as a key:value array
