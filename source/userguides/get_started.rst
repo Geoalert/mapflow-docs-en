@@ -26,6 +26,10 @@ After registration, your first *Default* project will be created automatically a
 
 |
 
+.. note::
+  See also about the :ref:`Team accounts` to collaborate with other users
+
+
 How to run your AI mapping in Web app
 ---------------------------------------
 
@@ -254,6 +258,23 @@ Rate the processing
 .. important::
  We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment is important for further improvement of the Mapflow AI models. We review all the user's feedback and get back to you if any issues.
 
+
+Share the results
+^^^^^^^^^^^^^^^^^^^^
+
+You can share your project with the external users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email.
+
+ .. figure:: _static/project_share/read-only.jpg
+     :alt: Share project externally
+     :align: center
+     :width: 15cm
+     :class: with-border
+|
+
+.. note::
+  To upgrade project sharing rights and provide your collaborators with the editor's access you need to switch to the :ref:`Team accounts`
+
+
 Interact with the processing results
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -302,26 +323,6 @@ Allows to download results as a file in GeoJSON format.
 You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
 
 
-.. _Team accounts:
-
-Team accounts
---------------
-
-Users can run a Team account to invite collaborators, share projects and manage Mapflow limits.
-Currently, you need to reach out to us to create a Team while we are working on a public UI. Contact us by help@geoalert.io using your corporate email linked to Mapflow account.
-Once the Team is created the Owner can invite new members, and assign and manage their limits. Only the Owner gets access to the Team profile.
-
-.. image:: _static/team_accounts.png
-   :alt: Preview map
-   :align: center
-   :width: 15cm
-
-|
-
-.. warning::
-    If the Team member's email is already registered as a Mapflow account, reach out to Support (help@geoalert.io) to ask to link the account.
-
-
 Working with API
 -----------------
 
@@ -330,8 +331,6 @@ If you are developing an application and want to use our API, - check out :doc:`
 
 .. important::
   You must follow the requirements specified with :ref:`Model requirements` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
-
-The service uses the **Basic Auth** authorization type - use the API token, which must be generated in the `api tab <https://app.mapflow.ai/account/api>`_ of the profile settings.
 
  .. image:: _static/api_tab.png
    :alt: Preview map
