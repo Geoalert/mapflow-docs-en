@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 15:23+0700\n"
+"POT-Creation-Date: 2024-10-21 23:04+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -25,6 +25,7 @@ msgid "Mapflow Data API"
 msgstr ""
 
 #: ../../source/api/data_api.rst
+#, fuzzy
 msgid "Preview results"
 msgstr "Просмотр результатов"
 
@@ -452,5 +453,11 @@ msgstr ""
 #~ "The size of the search area cannot"
 #~ " exceed the size of processing AOI"
 #~ " limit assigned to the specific user."
+#~ msgstr ""
+
+#~ msgid "Preview results"
+#~ msgstr "Просмотр результатов"
+
+#~ msgid "Просмотр результатов"
 #~ msgstr ""
 

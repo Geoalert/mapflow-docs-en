@@ -34,8 +34,8 @@ Go to *Project --  Share* and invite your specific coworkers or / and activate t
 There are four types of the project user's role:
 
 * readonly - can view the project history and the results
-* contributor – can run the workflows in the project
-* maintainer – can run the workflows, edit the project and share it with users  
+* contributor – can run the workflows in the project
+* maintainer – can run and edit the workflows, and share projects with users (up to maintainer role)
 * owner – full rights to edit all roles in the project
 
 Your collaborators will see the new shared projects in their dashboard and use them according to the role assigned.

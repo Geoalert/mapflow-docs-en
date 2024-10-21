@@ -22,9 +22,9 @@ User status
 -------------
 
 Returns user status for the given user account, including:
-- User limits
-- Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
-- Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
+  - User limits
+  - Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by Administrator)
+  - Default and custom :ref:`Data Providers` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by Administrator)
 
 If user account is added to the :ref:`Team accounts` - it returns Team's description as well
 
@@ -571,7 +571,7 @@ Response: the newly created processing.
      - 17–18
      - 
    * - 🏗️ Construction
-     - Detects cropland fields
+     - Detects construction sites
      - 0.5, 3 (RGB)
      - 17–18
      - 

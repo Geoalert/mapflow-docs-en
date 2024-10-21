@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 15:12+0700\n"
+"POT-Creation-Date: 2024-10-22 00:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,269 +54,280 @@ msgstr ""
 msgid "User status"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:24
-msgid ""
-"Returns user status for the given user account, including: - User limits "
-"- Default and custom :ref:`Models` (every User account is connected to "
-"the default models, yet specific models have to be linked to the User "
-"account by Administrator) - Default and custom :ref:`Data Providers` "
-"(every User account is linked to the default data providers, yet specific"
-" commercial providers have to be linked to the User account by "
-"Administrator)"
+#: ../../source/api/processing_api.rst:27
+msgid "Returns user status for the given user account, including:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:30
-msgid ""
-"If user account is linked to the :ref:`Team accounts` - it returns Team's"
-" description as well"
+#: ../../source/api/processing_api.rst:25
+msgid "User limits"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:33
-#: ../../source/api/processing_api.rst:102
-#: ../../source/api/processing_api.rst:350
-#: ../../source/api/processing_api.rst:473
-#: ../../source/api/processing_api.rst:577
+#: ../../source/api/processing_api.rst:26
+msgid ""
+"Default and custom :ref:`Models` (every User account is connected to the "
+"default models, yet specific models have to be linked to the User account"
+" by Administrator)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:27
+msgid ""
+"Default and custom :ref:`Data Providers` (every User account is linked to"
+" the default data providers, yet specific commercial providers have to be"
+" linked to the User account by Administrator)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:29
+msgid ""
+"If user account is added to the :ref:`Team accounts` - it returns Team's "
+"description as well"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:32
+#: ../../source/api/processing_api.rst:101
+#: ../../source/api/processing_api.rst:335
+#: ../../source/api/processing_api.rst:458
+#: ../../source/api/processing_api.rst:659
 msgid "Response example:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:93
+#: ../../source/api/processing_api.rst:92
 msgid "Projects"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:96
+#: ../../source/api/processing_api.rst:95
 msgid "Get project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:98
+#: ../../source/api/processing_api.rst:97
 msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:100
+#: ../../source/api/processing_api.rst:99
 msgid "Returns the project with the specified ID."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:140
+#: ../../source/api/processing_api.rst:139
 msgid "Get default project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:144
+#: ../../source/api/processing_api.rst:143
 msgid "Default project is created for each user upon registration."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:146
+#: ../../source/api/processing_api.rst:145
 msgid "``GET https://api.mapflow.ai/rest/projects/default``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:148
+#: ../../source/api/processing_api.rst:147
 msgid ""
 "Returns the name and ID of the user's default project and the user's "
 "account settings."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:219
+#: ../../source/api/processing_api.rst:204
 msgid "Get all projects"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:221
+#: ../../source/api/processing_api.rst:206
 msgid "``GET https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:223
+#: ../../source/api/processing_api.rst:208
 msgid "Returns the list of all user's projects."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:227
+#: ../../source/api/processing_api.rst:212
 msgid "Create project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:229
+#: ../../source/api/processing_api.rst:214
 msgid "``POST https://api.mapflow.ai/rest/projects``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:231
+#: ../../source/api/processing_api.rst:216
 msgid "Creates a new project, and returns its immediate state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:233
-#: ../../source/api/processing_api.rst:257
-#: ../../source/api/processing_api.rst:435
-#: ../../source/api/processing_api.rst:615
+#: ../../source/api/processing_api.rst:218
+#: ../../source/api/processing_api.rst:242
+#: ../../source/api/processing_api.rst:420
+#: ../../source/api/processing_api.rst:697
 msgid "Request body example:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:244
+#: ../../source/api/processing_api.rst:229
 msgid "Name of the project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:245
+#: ../../source/api/processing_api.rst:230
 msgid "Arbitrary description of this project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:247
+#: ../../source/api/processing_api.rst:232
 msgid ""
 "Response: *the newly created project* contains the project ID and the "
 "description of the default AI-models as they are linked to every new "
 "project."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:250
+#: ../../source/api/processing_api.rst:235
 msgid "The custom AI-models won't be linked to the new project automatically."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:253
+#: ../../source/api/processing_api.rst:238
 msgid "Rename project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:255
+#: ../../source/api/processing_api.rst:240
 msgid "``PUT https://api.mapflow.ai/rest/projects/{projectId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:268
+#: ../../source/api/processing_api.rst:253
 msgid "Share project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:269
+#: ../../source/api/processing_api.rst:254
 msgid "``POST https://api.mapflow.ai/rest/projects/share``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:271
+#: ../../source/api/processing_api.rst:256
 msgid ""
 "Share project with the external or a team user depending on the "
 "contribution rights."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:273
+#: ../../source/api/processing_api.rst:258
 msgid "Share project with the external user:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:283
+#: ../../source/api/processing_api.rst:268
 msgid "Share project with the :ref:`team <Team accounts>` user"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:293
+#: ../../source/api/processing_api.rst:278
 msgid "User role parameter:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:297
+#: ../../source/api/processing_api.rst:282
 msgid ""
 "The \"readonly\" role is applicable for any user. The \"contributor+\" "
 "role is applicable for sharing projects inside the :ref:`team <Team "
 "accounts>`."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:303
+#: ../../source/api/processing_api.rst:288
 msgid "KEY"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:304
-#: ../../source/api/processing_api.rst:730
-#: ../../source/api/processing_api.rst:759
-#: ../../source/api/processing_api.rst:780
+#: ../../source/api/processing_api.rst:289
+#: ../../source/api/processing_api.rst:553
+#: ../../source/api/processing_api.rst:598
+#: ../../source/api/processing_api.rst:619
 msgid "VALUE"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:305
-#: ../../source/api/processing_api.rst:731
-#: ../../source/api/processing_api.rst:760
+#: ../../source/api/processing_api.rst:290
+#: ../../source/api/processing_api.rst:554
+#: ../../source/api/processing_api.rst:599
 msgid "DESCRIPTION"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:306
-#: ../../source/api/processing_api.rst:309
-#: ../../source/api/processing_api.rst:312
-#: ../../source/api/processing_api.rst:315
+#: ../../source/api/processing_api.rst:291
+#: ../../source/api/processing_api.rst:294
+#: ../../source/api/processing_api.rst:297
+#: ../../source/api/processing_api.rst:300
 msgid "role"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:307
+#: ../../source/api/processing_api.rst:292
 msgid "readonly"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:308
+#: ../../source/api/processing_api.rst:293
 msgid ""
 "User can view project, download results but can't create and run "
 "processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:310
+#: ../../source/api/processing_api.rst:295
 msgid "contributor"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:311
+#: ../../source/api/processing_api.rst:296
 msgid "User can view project, download results and create and run processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:313
+#: ../../source/api/processing_api.rst:298
 msgid "maintainer"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:314
+#: ../../source/api/processing_api.rst:299
 msgid ""
 "User can view project, download results, create, run and delete "
 "processing + share project."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:316
+#: ../../source/api/processing_api.rst:301
 msgid "owner"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:317
+#: ../../source/api/processing_api.rst:302
 msgid "User can do everything above + assign and remove the project owner."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:320
+#: ../../source/api/processing_api.rst:305
 msgid "Delete project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:322
+#: ../../source/api/processing_api.rst:307
 msgid "``DELETE https://api.mapflow.ai/rest/projects/{projectId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:324
+#: ../../source/api/processing_api.rst:309
 msgid "Deletes the project. Cascade deletes any child entities."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:327
+#: ../../source/api/processing_api.rst:312
 msgid "Processings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:330
+#: ../../source/api/processing_api.rst:315
 msgid "Get all processings"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:332
+#: ../../source/api/processing_api.rst:317
 msgid "``GET https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:334
+#: ../../source/api/processing_api.rst:319
 msgid "Returns the list of the user's processings by the Default project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:337
+#: ../../source/api/processing_api.rst:322
 msgid "Get all processings by Project Id"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:339
+#: ../../source/api/processing_api.rst:324
 msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:341
+#: ../../source/api/processing_api.rst:326
 msgid "Returns the list of the user's processings by user's project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:344
+#: ../../source/api/processing_api.rst:329
 msgid "Get processing by Id"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:346
+#: ../../source/api/processing_api.rst:331
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:348
+#: ../../source/api/processing_api.rst:333
 msgid "Returns the processing with the specified id."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:402
+#: ../../source/api/processing_api.rst:387
 msgid ""
 "If the processing failed, the response also contains the code and "
 "parameters of the error in the `messages` section. If different AOIs "
@@ -324,102 +335,442 @@ msgid ""
 "Example of the failed processing response:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:424
+#: ../../source/api/processing_api.rst:409
 msgid ""
 "Possible error codes, parameters and desctiptions see in :doc:`Error "
 "Messages <error_messages>`"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:428
+#: ../../source/api/processing_api.rst:413
 msgid "Processing cost"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:430
+#: ../../source/api/processing_api.rst:415
 msgid "``POST https://api.mapflow.ai/rest/processing/cost``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:432
+#: ../../source/api/processing_api.rst:417
 msgid ""
 "If you want to find out the cost of processing without running it, you "
 "can use this method. Returns the cost of the processing in :ref:`credits "
 "<credits>` given the model, the area and the data source."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:475
+#: ../../source/api/processing_api.rst:460
 msgid "``30``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:479
+#: ../../source/api/processing_api.rst:464
 msgid ""
 "You can find out the details like workflow definition ``ID`` (``wdId``) "
 "using this method:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:481
+#: ../../source/api/processing_api.rst:466
 msgid "``GET api.mapflow.ai/rest/user/status``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:487
-msgid "Run processing"
+#: ../../source/api/processing_api.rst:472
+msgid "Run the processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:489
-#: ../../source/api/processing_api.rst:554
+#: ../../source/api/processing_api.rst:474
+#: ../../source/api/processing_api.rst:636
 msgid "``POST https://api.mapflow.ai/rest/processings``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:491
+#: ../../source/api/processing_api.rst:476
 msgid "Runs a processing, and returns its immediate state. Request body sample:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:538
+#: ../../source/api/processing_api.rst:523
 msgid ""
 "To process a user-provided image (see :ref:`Upload image <upload-images>`"
 " section), set parameters as follows:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:548
+#: ../../source/api/processing_api.rst:533
 msgid "Response: the newly created processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:552
-msgid "Customize processing with the options"
+#: ../../source/api/processing_api.rst:537
+msgid "✍️ Params to run the processing"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Params"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Type"
+msgstr ""
+
+#: ../../source/api/_static/csv/errors.csv:1
+#: ../../source/api/_static/csv/params_ds.csv:1
+#: ../../source/api/_static/csv/params_run.csv:1
+#: ../../source/api/processing_api.rst:620
+msgid "Description"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "geometry*"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Array"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Processing area in GeoJSON format, type – Polygon or Multipolygon."
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "name"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "String"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid ""
+"Processing name. If not specified, an automatically generated ID will be "
+"assigned"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "projectId"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid ""
+"ID of the project in which the processing is created (if not specified, "
+"it is created in the user's default project)"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "wdId* /"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Processing scenario (AI Model) ID. wdName can be specified instead"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "wdName*"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Processing scenario (AI Model) name. wdId can be specified instead"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "params"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid ""
+"Data source parameters. If not specified, the first default data source "
+"will be used."
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "blocks"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Processing options that are specified for the Model."
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "meta"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_run.csv:1
+msgid "Optional metadat as a key:value array"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:547
+msgid "✍️ Default AI models"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:555
+msgid "MODEL input (m/px), num of bands"
 msgstr ""
 
 #: ../../source/api/processing_api.rst:556
+msgid "ZOOM LEVEL"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:557
+msgid "OPTIONS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:558
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:559
+msgid "Detects buildings & classifies them"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:560
+msgid "0.5, 1-3 (RGB)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:561
+#: ../../source/api/processing_api.rst:571
+#: ../../source/api/processing_api.rst:576
+msgid "17–18"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:562
+msgid "Simplification, OSM, Classification"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:563
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:564
+msgid "Detects tree-like vegetation"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:565
+#: ../../source/api/processing_api.rst:570
+#: ../../source/api/processing_api.rst:575
+msgid "0.5, 3 (RGB)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:566
+msgid "17-18"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:567
+msgid "Heights"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:568
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:569
+msgid "Detects roads and returns them as polygons / linestrings"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:573
+msgid "🏗️ Construction"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:574
+msgid "Detects construction sites"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:581
+msgid "✍️ Params to specify the data source"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "Sample values"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid ""
+"Name of the featured data  provider if its available for the current "
+"account."
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "\"Mapbox\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:2
+msgid "\"arcgis_world_imagery\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:3
+msgid "\"Global mosaic 2022\""
+msgstr ""
+
+#: ../../source/api/_static/csv/errors.csv:1
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "url"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "Custom data provider url"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "\"my-tile-server.com/{z}/{x}/{y}\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "source_type"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid ""
+"Source type of the custom data provider.  Type  \"local\" can be "
+"specified to use a user's file from the Mapflow storage"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "\"XYZ\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:2
+msgid "\"TMS\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:3
+msgid "\"local\""
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "zoom"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "Zoom level"
+msgstr ""
+
+#: ../../source/api/_static/csv/params_ds.csv:1
+msgid "\"18\""
+msgstr ""
+
+#: ../../source/api/processing_api.rst:592
+msgid "✍️ Params to specify the \"source_type\""
+msgstr ""
+
+#: ../../source/api/processing_api.rst:600
+msgid "XYZ"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:601
+msgid "The URL to the imagery service in “xyz” format"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:602
+msgid "TMS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:603
+msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:604
+msgid "WMS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:605
+msgid "(❗️❗️Deprecated) The URL to the imagery service in “wms” format"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:606
+msgid "Quadkey"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:607
+msgid ""
+"The one-dimensional index key that usually preserves the proximity of "
+"tiles in \"xy\" space (Bing Maps tile format)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:608
+msgid "local"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:609
+msgid "File of image in GeoTIFF format"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:613
+msgid "Processing status"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:621
+msgid "UNPROCESSED"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:622
+msgid "The processing is not started yet"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:623
+msgid "IN_PROGRESS"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:624
+msgid "The processing is going (or is in the queue)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:625
+msgid "FAILED"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:626
+msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:627
+msgid "OK"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:628
+msgid "The processing is finished at 100 percent completed"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:629
+msgid "*IN_REVIEW*"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:630
+msgid "The additional status enabled by request (if the results are under review)"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:634
+msgid "Customize processing with the options"
+msgstr ""
+
+#: ../../source/api/processing_api.rst:638
 msgid ""
 "Processing workflow can be customized with enabling or disabling some "
 "model options.  The number of options depends on the model and a "
 "scenario."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:558
+#: ../../source/api/processing_api.rst:640
 msgid "Request body example"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:575
+#: ../../source/api/processing_api.rst:657
 msgid ""
 "The \"options\" can be retrieved for every model in the ``models`` linked"
 " to the user – through the ``user/status`` request."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:611
+#: ../../source/api/processing_api.rst:693
 msgid "Rename processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:613
+#: ../../source/api/processing_api.rst:695
 msgid "``PUT https://api.mapflow.ai/rest/processing/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:626
+#: ../../source/api/processing_api.rst:708
 msgid "Restart processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:628
+#: ../../source/api/processing_api.rst:710
 msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:630
+#: ../../source/api/processing_api.rst:712
 msgid ""
 "Restarts failed partitions of this processing. Doesn't restart non-failed"
 " partitions. Each workflow is restarted from the first failed stage. "
@@ -427,826 +778,647 @@ msgid ""
 " processing into successful state."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:633
+#: ../../source/api/processing_api.rst:715
 msgid "Link processing to another project"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:635
+#: ../../source/api/processing_api.rst:717
 msgid "``PUT https://api.mapflow.ai/rest/processings/{processing_id}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:637
+#: ../../source/api/processing_api.rst:719
 msgid "Links processing to another project by project ID"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:647
+#: ../../source/api/processing_api.rst:729
 msgid "Delete processing"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:649
+#: ../../source/api/processing_api.rst:731
 msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:651
+#: ../../source/api/processing_api.rst:733
 msgid "Deletes this processing. Cascade deletes any child entities."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:654
+#: ../../source/api/processing_api.rst:736
 msgid "Get processing AOIs"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:656
+#: ../../source/api/processing_api.rst:738
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:658
+#: ../../source/api/processing_api.rst:740
 msgid ""
 "Returns a list of the defined geographical areas for processing in "
 "GeoJSON."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:660
+#: ../../source/api/processing_api.rst:742
 msgid "Response sample:"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:703
+#: ../../source/api/processing_api.rst:785
 msgid "Downloading processing results"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:705
+#: ../../source/api/processing_api.rst:787
 msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:707
+#: ../../source/api/processing_api.rst:789
 msgid ""
 "Returns Geojson results of this processing as an octet stream. Should "
 "only be called on a successfully completed processing."
 msgstr ""
 
-#: ../../source/api/processing_api.rst:713
+#: ../../source/api/processing_api.rst:795
 msgid "Upload images"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:717
+#: ../../source/api/processing_api.rst:799
 msgid "❗️ Use :ref:`Data API` to create a mosaic and upload one or more images"
 msgstr ""
 
-#: ../../source/api/processing_api.rst:718
+#: ../../source/api/processing_api.rst:800
 msgid ""
 "Use s3 link from the ``\"image_url\"`` as an ``\"url\"`` param to "
 ":ref:`Create processing`"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:722
-msgid "Parameter values"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:725
-msgid "Default AI models"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:732
-msgid "MODEL resolution (m/px), num of input bands"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:733
-msgid "🏠 Buildings"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:734
-msgid "Detects buildings & classifies them"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:735
-#: ../../source/api/processing_api.rst:744
-#: ../../source/api/processing_api.rst:750
-msgid "0.5, 3 (RGB)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:736
-msgid "🌲 Forest"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:737
-msgid "Detects tree-like vegetation"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:738
-msgid "2, 3 (RGB)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:739
-msgid "🚗 Roads"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:740
-msgid "Detects roads and returns them as polygons / linestrings"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:741
-msgid "1, 3 (RGB)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:742
-msgid "🚜 Fields (hi-res)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:743
-#: ../../source/api/processing_api.rst:749
-msgid "Detects cropland fields"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:745
-msgid "🚜 Fields (Sentinel-2)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:746
-msgid "Detects cropland fields using free Sentinel-2 imagery"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:747
-msgid "10 m/px, 10 (multispectral)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:748
-msgid "🏗️ Construction"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:754
-msgid "source_type"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:761
-msgid "XYZ"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:762
-msgid ""
-"The URL to the imagery service in “xyz” format, e.g. "
-"`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
-"<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:763
-msgid "TMS"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:764
-msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:765
-msgid "WMS"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:766
-msgid ""
-"(❗️❗️Deprecated) The URL to the imagery service in “wms” format, e.g. "
-"`https://services.nationalmap.gov/arcgis/services/ "
-"USGSNAIPImagery/ImageServer/WMSServer "
-"<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:767
-msgid "Quadkey"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:768
-msgid ""
-"The one-dimensional index key that usually preserves the proximity of "
-"tiles in \"xy\" space (Bing Maps tile format)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:769
-msgid "tif/tiff"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:770
-msgid "File of image in georeferenced tiff (GeoTIFF) format"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:774
-msgid "status"
-msgstr ""
-
-#: ../../source/api/error_messages.rst:12
-#: ../../source/api/processing_api.rst:781
-msgid "Description"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:782
-msgid "UNPROCESSED"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:783
-msgid "The processing is not started yet"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:784
-msgid "IN_PROGRESS"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:785
-msgid "The processing is going (or is in the queue)"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:786
-msgid "FAILED"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:787
-msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:788
-msgid "OK"
-msgstr ""
-
-#: ../../source/api/processing_api.rst:789
-msgid "The processing is finished at 100 percent completed"
 msgstr ""
 
 #: ../../source/api/error_messages.rst:4
 msgid "Error messages in API"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:6
+#: ../../source/api/error_messages.rst:7
 msgid ""
-"List of messages and parameters that can be found in the `messages` "
-"section in case of the failed processings."
+"List of messages and params that can be found in the ``messages`` section"
+" in case of the failed processings"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:10
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Error code"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:11
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Parameters"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:14
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlMustBeString"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:15
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "url_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:16
-msgid "Key 'url' in your request must be a string, got {url_type} instead."
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "Key ‘url’ in your request must be a string, got {url_type} instead."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:18
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlMustBeLink"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:20
-msgid "Your URL must be a link starting with \"http://\" or \"https://\"."
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "Your URL must be a link starting with “http://” or “https://”."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:22
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlFormatInvalid"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:23
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "parse_error_message"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:24
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Format of 'url' is invalid and cannot be parsed. Error: "
+"Format of ‘url’ is invalid and cannot be parsed. Error: "
 "{parse_error_message}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:26
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ZoomMustBeInteger"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:27
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_zoom"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:28
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be either empty, or integer, got {actual_zoom}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:30
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.InvalidZoomValue"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:31
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_zoom}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:32
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be between 0 and 22, got {actual_zoom}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:34
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TooHighZoom"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:35
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "max_zoom, actual_zoom"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:36
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:38
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TooLowZoom"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:39
-msgid "min_zoom,  actual_zoom"
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "min_zoom, actual_zoom"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:40
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:42
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlBlacklisted"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:43
-msgid "url"
-msgstr ""
-
-#: ../../source/api/error_messages.rst:44
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "The specified basemap {url} is forbidden for processing because it "
 "contains a map, not satellite image. Our models are suited for satellite "
 "imagery."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:46
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageMetadataMustBeDict"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:48
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Image metadata must be a dict (json)"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:50
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageMetadataKeyError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:52
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Image metadata must have keys: crs, transform, dtype, count"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:54
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.S3URLError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:55
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_s3_link"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:56
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "URL of the image at s3 storage must be a string starting with s3://, got "
 "{actual_s3_link}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:58
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.LocalRequestKeyError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:60
-msgid "Request must contain either 'profile' or 'url' keys"
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "Request must contain either ‘profile’ or ‘url’ keys"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:62
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ReadFromS3Failed"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:63
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "s3_link"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:64
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Failed to read file from {s3_link}."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:66
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageReadError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:68
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "We could not open and read the image you have uploaded"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:70
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.BadImageProfile"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:71
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "profile, required_keys"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:72
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Image profile (metadata) must have keys {required_keys}, got profile "
 "{profile}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:74
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.DtypeNotAllowed"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:75
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "required_dtypes, request_dtype"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:76
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Image data type (Dtype) must be one of {required_dtypes}, got "
 "{request_dtype}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:78
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.NChannelsNotAllowed"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:79
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "required_nchannels, real_nchannels"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:80
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Number of channels in image must be one of {required_nchannels}. Got "
 "{real_nchannels}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:82
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.PixelSizeTooLow"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:83
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_res, min_res"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:84
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Spatial resolution of you image is too low: pixel size is {actual_res}, "
 "minimum allowed pixel size is {min_res}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:86
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.PixelSizeTooHigh"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:87
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_res, max_res"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:88
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Spatial resolution of you image is too high: pixel size is {actual_res}, "
 "maximum allowed pixel size is {max_res}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:90
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageCheckError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:91
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "checked_param, message, metadata"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:92
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Error occurred during image {checked_param} check: {message}. Image "
 "metadata = {metadata}."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:94
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.QuadkeyLinkFormatError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:96
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Your 'url' doesn't match the format, Quadkey basemap must be a link "
-"containing \"q\" placeholder."
+"Your ‘url’ doesn’t match the format, Quadkey basemap must be a link "
+"containing “q” placeholder."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:98
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SentinelInputStringKeyError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:100
-msgid "Sentinel_L2A request must contain field named 'url' with string value"
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "Sentinel_L2A request must contain field named ‘url’ with string value"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:102
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SentinelInputStringFormatError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:103
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "input_string"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:104
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Input string {input_string} is of unknown format. It must represent "
 "Sentinel-2 granule ID"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:106
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.GridCellOutOfBound"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:107
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_cell, allowed_cells"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:108
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Selected Sentinel-2 image cell is {actual_cell}, this model is for the "
 "cells: {allowed_cells}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:110
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.AOINotInCell"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:111
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_cell"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:112
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:114
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.MonthOutOfBounds"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:115
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_month, allowed_months"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:116
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Selected Sentinel-2 image month is {actual_month}, this model is for: "
 "{allowed_months}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:118
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TMSLinkFormatError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:120
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"You request TMS basemap link doesn't match the format, it must be a link "
-"containing '{x}', '{y}', '{z}' placeholders, correct it and start "
+"You request TMS basemap link doesn’t match the format, it must be a link "
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start "
 "processing again."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:122
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequirementsMustBeDict"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:123
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "requirements_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:124
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Requirements must be dict, got {requirements_type}."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:126
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequestMustBeDict"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:127
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "request_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:128
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Request must be dict, got {request_type}."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:130
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequestMustHaveSourceType"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:132
-msgid "Request must contain \\\"source_type\\\" key"
+#: ../../source/api/_static/csv/errors.csv:1
+msgid "Request must contain \"source_type\" key"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:134
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SourceTypeIsNotAllowed"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:135
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source_type, allowed_sources"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:136
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:138
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequiredSectionMustBeDict"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:139
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "required_section_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:140
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"\"Required\" section of the requirements must contain dict, not "
+"“Required” section of the requirements must contain dict, not "
 "{required_section_type}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:142
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RecommendedSectionMustBeDict"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:143
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "recommended_section_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:144
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"\"Recommended\" section of the requirements must contain dict, not "
+"“Recommended” section of the requirements must contain dict, not "
 "{recommended_section_type}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:146
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.XYZLinkFormatError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:148
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"You XYZ basemap link doesn't match the format, it must be a link "
-"containing '{x}', '{y}', '{z}' placeholders."
+"You XYZ basemap link doesn’t match the format, it must be a link "
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:150
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TaskMustContainAoi"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:152
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Task for source-validation must contain area of interest ('geometry' "
+"Task for source-validation must contain area of interest (‘geometry’ "
 "section)"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:154
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UnhandledException"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:156
-#: ../../source/api/error_messages.rst:160
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Internal error in process of data source validation. We are working on "
 "the fix, our support will contact you."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:158
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.internalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:162
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.internalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:164
-#: ../../source/api/error_messages.rst:168
-#: ../../source/api/error_messages.rst:196
-#: ../../source/api/error_messages.rst:200
-#: ../../source/api/error_messages.rst:204
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Internal error in process of loading data. We are working on the fix, our"
 " support will contact you."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:166
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.InternalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:170
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.UnknownSourceType"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:171
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "allowed_source_types, real_source_types"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:172
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Wrong source type {real_source_type}. Specify one of the allowed types "
 "{allowed_source_types}."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:174
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.MemoryLimitExceeded"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:175
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "allowed_size, estimated_size"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:176
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Your data loading task requires {estimated_size} MB of memory, which "
 "exceeded allowed memory limit {allowed_size}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:178
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.LoaderArgsError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:179
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "argument_name, argument_type, expected_type"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:180
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Dataloader argument {argument_name} has type {argument_type}, excpected "
 "to be {expected_type}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:182
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.WrongChannelsNum"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:183
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "expected_nchannels, real_nchannels"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:184
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Loaded tile has {real_nchannels} channels, required number is "
 "{expected_nchannels}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:186
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.WrongTileSize"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:187
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "expected_size, real_size"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:188
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:190
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.TileNotLoaded"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:191
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "tile_location, status"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:192
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Tile at location {tile_location} cannot be loaded, server response is "
 "{status}"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:194
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.CrsIsNotSupported"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:198
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.MaploaderInternalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:202
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.SentinelLoaderInternalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:206
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "raster-processor.internalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:208
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Internal error in process of data preparation. We are working on the fix,"
 " our support will contact you."
 msgstr ""
 
-#: ../../source/api/error_messages.rst:210
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "inference.internalError"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:212
-#: ../../source/api/error_messages.rst:216
+#: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Internal error in process of data processing. We are working on the fix, "
 "our support will contact you"
 msgstr ""
 
-#: ../../source/api/error_messages.rst:214
+#: ../../source/api/_static/csv/errors.csv:1
 msgid "vector-processor.internalError"
 msgstr ""
 
@@ -1542,5 +1714,150 @@ msgstr ""
 #~ "(see :ref:`Upload GeoTIFF for processing "
 #~ "<upload-geotiff-section>` section), set "
 #~ "parameters as follows:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If user account is linked to the"
+#~ " :ref:`Team accounts` - it returns "
+#~ "Team's description as well"
+#~ msgstr ""
+
+#~ msgid "Run processing"
+#~ msgstr ""
+
+#~ msgid "Parameter values"
+#~ msgstr ""
+
+#~ msgid "Default AI models"
+#~ msgstr ""
+
+#~ msgid "MODEL resolution (m/px), num of input bands"
+#~ msgstr ""
+
+#~ msgid "2, 3 (RGB)"
+#~ msgstr ""
+
+#~ msgid "1, 3 (RGB)"
+#~ msgstr ""
+
+#~ msgid "🚜 Fields (hi-res)"
+#~ msgstr ""
+
+#~ msgid "🚜 Fields (Sentinel-2)"
+#~ msgstr ""
+
+#~ msgid "Detects cropland fields using free Sentinel-2 imagery"
+#~ msgstr ""
+
+#~ msgid "10 m/px, 10 (multispectral)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The URL to the imagery service in"
+#~ " “xyz” format, e.g. "
+#~ "`https://tile.openstreetmap.org/{z}/{x}/{y}.png "
+#~ "<https://tile.openstreetmap.org/{z}/{x}/{y}.png>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(❗️❗️Deprecated) The URL to the imagery"
+#~ " service in “wms” format, e.g. "
+#~ "`https://services.nationalmap.gov/arcgis/services/ "
+#~ "USGSNAIPImagery/ImageServer/WMSServer "
+#~ "<https://services.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer>`_"
+#~ msgstr ""
+
+#~ msgid "tif/tiff"
+#~ msgstr ""
+
+#~ msgid "File of image in georeferenced tiff (GeoTIFF) format"
+#~ msgstr ""
+
+#~ msgid "status"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "List of messages and parameters that "
+#~ "can be found in the `messages` "
+#~ "section in case of the failed "
+#~ "processings."
+#~ msgstr ""
+
+#~ msgid "Key 'url' in your request must be a string, got {url_type} instead."
+#~ msgstr ""
+
+#~ msgid "Your URL must be a link starting with \"http://\" or \"https://\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Format of 'url' is invalid and "
+#~ "cannot be parsed. Error: {parse_error_message}"
+#~ msgstr ""
+
+#~ msgid "min_zoom,  actual_zoom"
+#~ msgstr ""
+
+#~ msgid "Request must contain either 'profile' or 'url' keys"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your 'url' doesn't match the format, "
+#~ "Quadkey basemap must be a link "
+#~ "containing \"q\" placeholder."
+#~ msgstr ""
+
+#~ msgid "Sentinel_L2A request must contain field named 'url' with string value"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You request TMS basemap link doesn't "
+#~ "match the format, it must be a "
+#~ "link containing '{x}', '{y}', '{z}' "
+#~ "placeholders, correct it and start "
+#~ "processing again."
+#~ msgstr ""
+
+#~ msgid "Request must contain \\\"source_type\\\" key"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"Required\" section of the requirements "
+#~ "must contain dict, not {required_section_type}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"Recommended\" section of the requirements"
+#~ " must contain dict, not "
+#~ "{recommended_section_type}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You XYZ basemap link doesn't match "
+#~ "the format, it must be a link "
+#~ "containing '{x}', '{y}', '{z}' placeholders."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Task for source-validation must contain"
+#~ " area of interest ('geometry' section)"
+#~ msgstr ""
+
+#~ msgid "Detects cropland fields"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns user status for the given "
+#~ "user account, including: - User limits"
+#~ " - Default and custom :ref:`Models` "
+#~ "(every User account is connected to "
+#~ "the default models, yet specific models"
+#~ " have to be linked to the User"
+#~ " account by Administrator) - Default "
+#~ "and custom :ref:`Data Providers` (every "
+#~ "User account is linked to the "
+#~ "default data providers, yet specific "
+#~ "commercial providers have to be linked"
+#~ " to the User account by "
+#~ "Administrator)"
 #~ msgstr ""
 

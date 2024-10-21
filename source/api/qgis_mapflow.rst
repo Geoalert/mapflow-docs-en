@@ -192,7 +192,7 @@ Tabs section contains 4 tabs:
     You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
 
 .. hint::
-   1. Learn how to connect to the free imagery sources – e.g. :ref:`Openaerialmap`
+   1. Learn how to connect to the free imagery sources – e.g. :ref:`OpenAerialMap <oae>`
    2. Learn how to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`
 
 
@@ -412,9 +412,9 @@ To start processing using this data source, go to the *Processing* tab, fill in 
 
   Check for more imagery sources connections in the UserGuide How To:
 
-  1. How to connect to :ref:`Openaerialmap <Openaerialmap>`
+  1. How to connect to :ref:`Openaerialmap <oae>`
 
-  2. How to connect to :ref:`Nearmap <Nearmap>`
+  2. How to connect to :ref:`Nearmap <Nearmap_>`
 
 
 How to upload your image

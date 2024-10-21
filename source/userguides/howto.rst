@@ -1,7 +1,7 @@
 .. _howto:
 
 Userguides - How To 🙋‍♂️
-======================
+========================
 
 .. _oauth2_setup:
 
@@ -115,7 +115,7 @@ You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). A
 How to use external data providers in Mapflow
 --------------------------------------------------
 
-.. _Openaerialmap:
+.. _oae:
 
 Use Openaerialmap as an imagery publication and access service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,7 +141,7 @@ Select the image and copy link to TMS to connect it to Mapflow Custom URL.
     Both ways are OK to work with Mapflow.
 
 
-.. _Nearmap:
+.. _Nearmap_:
 
 Use Nearmap as an imagery provider
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
