@@ -1,5 +1,5 @@
-Iterative mapping tutorial
----------------------------
+Iterative mapping tutorial (DEPRECATED)
+----------------------------------------
 
 This workflow is proposed for the AI assisted mapping of the crop fields usinf Sentine-2 images. 
 If you use Mapflow for agricultural landuse management, we suggest you have a look at the methodology described below. It can help you streamline the mapping process so you could focus on the end goal and results instead. All you need is our QGIS plugin (a.k.a. :doc:`Maflow for QGIS <../api/qgis_mapflow>`) installed. If you haven't connected the Sentinel-2 data yet, contact us.

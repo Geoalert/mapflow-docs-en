@@ -5,7 +5,7 @@ Userguides - How To 🙋‍♂️
 
 .. _oauth2_setup:
 
-How to set up log in using OAuth2
+How to log in using OAuth2
 ---------------------------------
 
 .. include:: oauth2_setup.rst
@@ -50,9 +50,6 @@ How to set up log in using OAuth2
 .. 6. Use the new image layer as Imagery source when using the Mapflow plugin for QGIS
 
 .. _qgis_plugin:
-
-How to use the Mapflow <> QGIS plugin 
----------------------------------------
 
 .. include:: qgis_plugin.rst
 
@@ -312,6 +309,12 @@ Note that you have to run consequently the Storage and the Desktop to get connec
 .. warning::
     Note that you pay only for the up time in Geocloud. You spend your regular credits for Mapflow (you get 250 credits for free upon the registration).
     There are two prices for Storage / Computer in Geocloud - *Stopped* and *Working*. The Stopped price is applied when Storage / Computer is stopped. The Working price is applied when it is in the working mode. 👉👉 You can stop your computer while doing some long-lasting calculations in Mapflow to spend less.
+
+
+How to search for images in the 🌏 Global mosaic using Mapflow –  QGIS
+-------------------------------------------------------------------------
+
+.. include:: search_mosaic.rst
 
 
 How to run bulk processing using Mapflow API

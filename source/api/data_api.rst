@@ -340,9 +340,9 @@ E.g. request:
 
 .. note::
 
-    There are two types of products in the Imagery Search API, available for ordering;
-    1. The **Scene** product is available by request, the workflow implementation is in progress.
-    1. The **Mosaic** product is available for instant processing if the appropriate data provider is linked to your Mapflow account. 
+    There are two types of products in the Imagery Search API available:
+    1. The **Scene** product is available for ordering by request.  Now you need to contact us to order the specific image.
+    2. The **Mosaic** product is available for instant analysis if the corresponding data provider is linked to your Mapflow account. 
 
 
 Run processing by image ID

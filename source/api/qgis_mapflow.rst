@@ -282,6 +282,12 @@ Besides, you can create a new vector layer or add existing AOI into QGIS project
 Use of commercial satellite imagery providers
 ----------------------------------------------
 
+How to search for specific images in the 🌏 Global mosaic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: search_mosaic.rst
+
+
 .. _Maxar SecureWatch:
 
 How to connect to Maxar SecureWatch

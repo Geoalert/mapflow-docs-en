@@ -1,4 +1,7 @@
-**Object detection in remote sensing images using Mapflow.ai plugin for QGIS**
+How to use the Mapflow <> QGIS plugin 
+---------------------------------------
+
+**Object mapping in remote sensing images using Mapflow plugin for QGIS**
 
 Interpretation and subsequent digitization of satellite imagery is a rather laborious process. The use of AI-based image recognition technologies leads to a reduction in labor costs and an increase in data processing speed.
 
