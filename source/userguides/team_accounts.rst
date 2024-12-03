@@ -6,7 +6,7 @@ Team accounts
 
 Users can switch to a Team account to invite collaborators, share projects and manage Mapflow limits.
 
-Once the Team is created, the Owner (Team Admin) can invite new members and assign and manage their limits. Only the Team Admin has access to the Team profile.
+Once the Team is created, the Owner (Team Admin) can invite new members and assign and manage their limits. The Team profile is accessible only to the Team admin.
 
 .. image:: _static/team/team_accounts.jpg
    :alt: team account
