@@ -2,9 +2,9 @@ Mapflow - Get started
 ======================
 
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your email. You can also use Google account to login.
-Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we call it, **flows**.
+Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we would call it, AI- **mapping flows**.
 
-After registration, your first *Default* project will be created automatically and you will be redirected to the main dashboard:
+Upon the registration, the *Default* project will be created automatically and you will be redirected to the main dashboard:
 
 .. figure:: _static/main_projects.png
   :align: center
@@ -13,21 +13,23 @@ After registration, your first *Default* project will be created automatically a
 
 |
 
-.. .. |WEB| image:: _static/WEB.png
-..   :width: 1cm
+You can create as many projects as you want to organise your work and share the project access with your coworkers.
 
 .. note::
- Note that in the *Maplfow 2.0* update we joined all the platform's APIs, that's why the projects migrated from Mapflow Web app are temporarily marked as ``WEB``:
-  
-  .. figure:: _static/mapflow_2.0.png
-    :align: center
-    :width: 16cm
-    :class: with-border
+  See about the Mapflow :ref:`Team accounts` to collaborate with other users. 👈
+
+When starting a new project, you can set a name, customize icons, and modify a list of available AI-mapping workflows that are enabled in your project.
+
+.. figure:: _static/custom_project.jpg
+  :alt: UI Mapflow – run a flow
+  :align: center
+  :width: 16cm
+  :class: with-border
 
 |
 
 .. note::
-  See also about the :ref:`Team accounts` to collaborate with other users
+  If your account is upgraded to the Premium or Custom – you might be able to customize your project mapping workflows and some of their options.
 
 
 How to run your AI mapping in Web app
