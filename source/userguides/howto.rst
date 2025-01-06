@@ -1,7 +1,7 @@
 .. _howto:
 
 Userguides - How To 🙋‍♂️
-===============================
+=======================
 
 .. _oauth2_setup:
 
@@ -72,6 +72,7 @@ Upload images to Mapflow Web
             :scale: 50
 
 |
+
 .. warning::
 
     *Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.*
@@ -225,6 +226,7 @@ These settings allow you to choose a more suitable type of received data:
     :width: 15cm
 
 |
+
 Filters tab
 ~~~~~~~~~~~~~
 
@@ -236,6 +238,7 @@ This tab allows you to add a filter of interest by a specific attribute of the l
     :width: 15cm
 
 |
+
 Interaction tab
 ~~~~~~~~~~~~~~~~~
 
@@ -246,6 +249,7 @@ You can select or remove attributes that will be visible in the menu that appear
     :align: center
     :width: 15cm
     :class: with-border no-scaled-link
+
 |
 
 Base map tab
@@ -268,6 +272,7 @@ How to run Mapflow using Geocloud
     :align: center
     :width: 5cm
     :class: no-scaled-link
+
 |
 
 We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalert>`_ who enable to work remotely with the licensed geospatial software.
@@ -286,6 +291,7 @@ Note that you have to run consequently the Storage and the Desktop to get connec
     :align: center
     :width: 15cm
     :class: with-border no-scaled-link
+
 |
 
 - Run the plugin by clicking on the icon in the toolbar
@@ -295,6 +301,7 @@ Note that you have to run consequently the Storage and the Desktop to get connec
     :align: center
     :width: 15cm
     :class: with-border no-scaled-link
+
 |
 
 .. important::

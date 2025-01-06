@@ -14,19 +14,21 @@ How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's metadata
     :align: center
     :width: 18cm
 
+|
+
 .. note::
 
     There are two types of products in the Imagery Search API available:
     * The **Scene** product is available for ordering by request. Now you need to contact us to order the specific image.
     * The **Mosaic** product is available for instant analysis if the corresponding data provider is linked to your Mapflow account.
 
-4. Run the processing. The resulting area of analysis will be clipped by the intersection with the area of analysis.
+1. Run the processing. The resulting area of analysis will be clipped by the intersection with the area of analysis.
 
 .. figure:: _static/search_mosaic/qgis_mosaic_results.jpg
     :alt: Get results based on Mosaic analysis
     :align: center
     :width: 18cm
+
 |
 
 To run the processing over the whole area of analysis – just clear the selection and use the **Data Source: 🌏 Global mosaic 2022** as usual.
-

@@ -81,11 +81,13 @@ Processing controls panel allows to start new processing and/or rate finished pr
 Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
 
 
-Tabs section contains 4 tabs:
+Tabs section contains 5 tabs:
 
 :ref:`Processing`
 
 :ref:`Providers`
+
+:ref:`My imagery qgis`
 
 :ref:`Settings`
 
@@ -196,10 +198,80 @@ Tabs section contains 4 tabs:
    2. Learn how to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`
 
 
+.. _My imagery qgis:
+
+3. My imagery
+~~~~~~~~~~~~~~
+
+For process multiple images on one area you can use our "My imagery" tool available in Mapflow QGIS.
+
+The main scenario of working with My imagery in QGIS:
+
+.. figure:: _static/qgis/my_imagery_scenario.png
+         :alt: My imagery main
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
+
+**Main interface:**
+
+.. figure:: _static/qgis/my_imagery_main.png
+         :alt: My imagery main
+         :align: center
+         :class: with-border
+         :width: 24cm
+
+|
+
+
+How to run the processing using My imagery
+"""""""""""""""""""""""""""""""""""""""""""
+
+1. Create the mosaic by clicking "Add mosaic"
+2. Upload your images into mosaic, click "+" on selected mosaic and choose the way of uploading - from file or QGIS raster layer
+3. Now you can preview the whole mosaic (QGIS tile layer will appear)
+4. And see the uploaded images and preview them one at a time (QGIS tile layer will appear):
+
+.. figure:: _static/qgis/my_imagery_images.png
+         :alt: My imagery main
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
+
+5. To run the processing, select the mosaic or a single image you need
+
+.. warning::
+   Make shure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected, otherwise processing will be started with specified AOI limitation.
+
+.. figure:: _static/qgis/my_imagery_run.png
+         :alt: My imagery main
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
+
+6. Click "Start processing"
+
+.. note::
+   You can delete your images from the mosaics one at a time or using multiselect:
+
+    .. figure:: _static/qgis/my_imagery_delete.png
+            :alt: My imagery main
+            :align: center
+            :class: with-border
+            :width: 12cm
+
+    |
+
 
 .. _Settings:
 
-3. Settings
+4. Settings
 ~~~~~~~~~~~~~
 
 .. figure:: _static/qgis/settings_tab_w_projects.png
@@ -208,6 +280,7 @@ Tabs section contains 4 tabs:
          :width: 18cm
 
 |
+
 .. list-table:: 
    :align: center
    :widths: auto
@@ -249,14 +322,14 @@ Here you can configure how the processing results will be uploaded to QGIS. Ther
 
 .. _Help:
 
-4. Help
+5. Help
 ~~~~~~~~
 
 The tab contains all useful links to the plugin documentation.
 
 
 How to run the processing
-~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""
 
 To start the processing you need to add the Polygon **Area of Interest** (AOI).
 
@@ -285,7 +358,7 @@ Use of commercial satellite imagery providers
 How to search for specific images in the 🌏 Global mosaic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: search_mosaic.rst
+.. include:: ../userguides/search_mosaic.rst
 
 
 .. _Maxar SecureWatch:
