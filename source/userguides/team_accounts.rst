@@ -46,7 +46,16 @@ Project sharing in the Team
 ----------------------------
 
 You can share your project with anyone in the Team and assign his role as needed. 
-Go to *Project --  Share* and invite your specific coworkers or / and activate the option "Anyone in the team".
+Go to the `Projects <https://app.mapflow.ai/en/projects>`_. 
+Click on a dot menu icon in a project card -- Share. 
+
+.. image:: _static/project_share/share-menu.jpg
+   :alt: Share project
+   :align: center
+   :width: 10cm
+|
+
+Invite your coworkers or toggle "Anyone in the team" if you want to share with all of them.
 
 .. image:: _static/project_share/share-team.jpg
    :alt: Share project
@@ -54,7 +63,7 @@ Go to *Project --  Share* and invite your specific coworkers or / and activate t
    :width: 15cm
 |
 
-There are four types of the project user's role:
+There are four types of the project user's role that can be assigned to your coworkers:
 
 * **readonly** - can view the project history and the results
 * **contributor** – can run the workflows in the project
@@ -64,4 +73,6 @@ There are four types of the project user's role:
 Your collaborators will see the new shared projects in their dashboard and use them according to the role assigned.
 
 .. note::
-    You can share your project with the non-team users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email.
+    You can share your project with any users outside your team for the view-only access. 
+    Go to the Project -- Share and enter the existing Mapflow user's email.
+    If the new user is not registered at Mapflow.ai, invite him to register first.
