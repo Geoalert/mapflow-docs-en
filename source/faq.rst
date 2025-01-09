@@ -80,6 +80,18 @@ Projects and processings
 
     Calculating heights requires additional resources from us. At this stage, we can perform a limited number of such processing. In the future, we are going to reduce this limitation or completely remove it.
 
+User data
+-------------------
+
+**What is an imagery mosaic?**
+
+    *Mosaic* - a set of images covering a specific area. Using My Imagery you collect separate aerial images in a single mosaic to analyse with the Mapflow models.
+
+**What are the limots for my data?**
+
+    Your input data must meet the :ref:`Mapflow models requirements <Model requirements>` and the :ref:`files upload requirements <Upload requirements>`. 
+
+
 Support and other questions
 ----------------------------
 

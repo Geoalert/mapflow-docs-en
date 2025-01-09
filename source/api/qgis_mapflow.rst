@@ -203,7 +203,7 @@ Tabs section contains 5 tabs:
 3. My imagery
 ~~~~~~~~~~~~~~
 
-For process multiple images on one area you can use our "My imagery" tool available in Mapflow QGIS.
+To process multiple images in one area you can use "My imagery" tool available in Mapflow QGIS.
 
 The main scenario of working with My imagery in QGIS:
 
@@ -230,9 +230,9 @@ How to run the processing using My imagery
 """""""""""""""""""""""""""""""""""""""""""
 
 1. Create the mosaic by clicking "Add mosaic"
-2. Upload your images into mosaic, click "+" on selected mosaic and choose the way of uploading - from file or QGIS raster layer
-3. Now you can preview the whole mosaic (QGIS tile layer will appear)
-4. And see the uploaded images and preview them one at a time (QGIS tile layer will appear):
+2. Upload your images into mosaic, click "+" on selected mosaic and choose the way of uploading - you can choose from the file on your device or from QGIS raster layer
+3. Now you can preview the whole mosaic (QGIS tile layer will be added)
+4. See the uploaded images and preview them one at a time (QGIS tile layer will be added):
 
 .. figure:: _static/qgis/my_imagery_images.png
          :alt: My imagery main
@@ -245,7 +245,7 @@ How to run the processing using My imagery
 5. To run the processing, select the mosaic or a single image you need
 
 .. warning::
-   Make shure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected, otherwise processing will be started with specified AOI limitation.
+   Make sure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected, otherwise processing will be started with specified AOI limitation.
 
 .. figure:: _static/qgis/my_imagery_run.png
          :alt: My imagery main
