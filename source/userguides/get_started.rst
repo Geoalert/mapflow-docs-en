@@ -32,8 +32,8 @@ When starting a new project, you can set a name, customize icons, and modify a l
   If your account is upgraded to the Premium or Custom – you might be able to customize your project mapping workflows and some of their options.
 
 
-How to run your AI mapping in Web app
----------------------------------------
+How to run your AI mapping workflow in Web app
+------------------------------------------------
 
 Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
