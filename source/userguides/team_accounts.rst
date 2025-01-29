@@ -42,7 +42,7 @@ This means the Admin has to assign and manage all the limits, including himself,
       :alt: create a team
       :align: center
       :width: 15cm
-      :class: with-border no-scaled-link
+      :class: with-border
 
 
 .. centered::

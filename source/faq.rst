@@ -11,6 +11,11 @@ Payment
 
     Check our `commercial plans <https://mapflow.ai/pricing>`_ for Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry and get the quotation.
 
+**What if I'm not satisfied with the output? Do you make a refund?**
+
+    * For Free Users: You can use evaluation credits to test our software. If you are unsatisfied with the output, we encourage you to leave feedback and rate the results. We review all ratings from free users, and if we determine the output was unsatisfactory, we may refund the evaluation credits.
+
+    * For Paid Users: If you are on a corporate plan, we commit to meeting a specific level of accuracy. If the output does not meet these requirements, we will refund your credits according to our refund policy.
 
 .. _Data Providers:
 
@@ -27,27 +32,19 @@ Satellite imagery
 
 **Can I upload my own images for processing?**
 
-    Yes, but only when using the :doc:`Geoalert API </api/processing_api>` or :doc:`plugin Mapflow for QGIS <api/qgis_mapflow>`. It is planned to add this functionality to Mapflow Web in the next releases.
+    Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <> `on how to do it.
 
 
 **Can I buy satellite imagery from you? How can I validate the results?**
 
-    You can't buy as we don't resell iamges. We provide service to extract data from images. However you can preview input images as XYZ layer to conduct the results validation.   
-
-**Can you control the channels of the RGB data used?**
-
-    In the current version, the Mapflow platform uses only the standard set and configuration of RGB channels.
+    You can't buy as we don't resell images. We provide service to extract data from images. However you can preview the input images as XYZ layer to conduct the results validation.   
 
 **Can I use non-RGB data like radar data?**
 
-    No, you can’t. We currently don’t support SAR imagery as raw data.
+    No, you can’t for default models. You can contact us about the development of the custom model.
 
 Vector data
 ------------
-
-**Can I download the results in a format other than GeoJSON?**
-
-    Yes, you can, as soon as you are a paying user. To do this, in your *Project* in the *Results* tab, select *“Open in geojson.io”*, then, in the menu bar, select *Save* and the format you need (you can save in formats: CSV, KML, GeoJSON, TopoJSON, WKT, Shapefile).
 
 **Is it possible to process multiple areas in one request?**
 
@@ -57,12 +54,13 @@ Vector data
 
     The images are processed by artificial intelligence, so inaccuracies may occur. We are constantly improving our models and neural networks, but 100% of the result can be achieved only by combining automatic processing with subsequent validation.
 
-**Do you provide validation service for autoatic results?**
+**Do you provide validation service for automatic results?**
 
     Mostly, we provide service and a reasonable customization to the project requirements (model fine-tuning). However, depending on the project requirements the validation can be provided by request, contact our `sales <https://geoalert.io/#contacts>`_.
 
+
 Projects and processings
-------------------------
+--------------------------
 
 **What is a “project”? Do I have to create every new processing in a new project?**
 
@@ -74,11 +72,7 @@ Projects and processings
 
 **Are there any restrictions on the processing area?**
 
-    Yes, the processing area must be at least 1 sq. km and no more than 50 sq. km (free account). If you need to process a large area, you can divide the area to be treated into several smaller areas, one per file, and start processing for each.
-
-**Why are the options for Building heights and Forest heights only available when processing over 50 sq. km?**
-
-    Calculating heights requires additional resources from us. At this stage, we can perform a limited number of such processing. In the future, we are going to reduce this limitation or completely remove it.
+    The processing area may be smaller but the price is rounded up to 1 sq. km. There is the default limit of no more than 50 sq. km (free account). If you need to process a large area, you can divide the area to be treated into several smaller areas, one per processing. Alternatively you can consider switching to a paid plan.
 
 User data
 -------------------
@@ -91,25 +85,25 @@ User data
 
     Your input data must meet the :ref:`Mapflow models requirements <Model requirements>` and the :ref:`files upload requirements <Upload requirements>`. 
 
+**How to delete my account?**
+
+    Currently you cannot delete your account right in the Mapflow web app. Please request us to delete your account by sending an email to help@geoalert.io or by prompting the Mapflow chatbot, and all your personal data will be completely removed.
+
 
 Support and other questions
 ----------------------------
 
-**Do you have any documentation on working with the platform?**
-
-   :doc:`Yes, we do <index>`.
-
 **Do you have an API?**
 
-    :doc:`Yes, we do <api/processing_api>`.
+    :doc:`Yes, we do <api/mapflow_api>`.
 
 **Do you have GIS integration?**
 
-    Yes, we do. Our :doc:`plugin Mapflow <api/qgis_mapflow>` for the open GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_.
+    Yes, we do. You can use our open source plugin  :doc:`plugin Mapflow <api/qgis_mapflow>` for the GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_.
 
 **What is API token and why do I need it?**
 
-     The API token is used as password in external applications that use the resources of the Mapflow platform. It is passed as the Basic Auth authorization parameter. Currently this application is :doc:`plugin for QGIS <api/qgis_mapflow>`.
+     The API token is used as password in external applications that use the resources of the Mapflow platform. It is passed as the Basic Auth authorization parameter. You can `obtain an API token in your personal Mapflow profile <https://app.mapflow.ai/account/api>`_. 
     
 **I have another question, where can I ask it?**
 
