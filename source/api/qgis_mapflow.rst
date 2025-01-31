@@ -510,22 +510,19 @@ You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS
 
 .. important::
 
-  Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images for processing through the API of the Mapflow platform.
+  Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images to the Mapflow platform. If you get the error message while uploading your data, please check the instruction :doc:`../userguides/howto`. 
 
     * **Check the data type** 
-          The Data type must be Byte (8 bit). If the Data type is Int16,  or Float32 etc, please follow the instruction :doc:`../userguides/howto`.
-          Alternative option: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 
+          Your data is supposed to be automatically converted into RGB, 8bit. To preprocess your data locally before uploading it to Mapflow you can use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_
     * **Check the image size**
-          Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow custom <https://geoalert.io/#contacts>`_.
+          Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow Premium <https://geoalert.io/#contacts>`_.
     * **Check the number of channels**  
-          Normally, the Mapflow processes 3-channel RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the NN models are not
-          tuned for such kind of data, so the quality of the result may be worse than expected.
+          Normally, the Mapflow processes 3-bands RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the  quality of the result may be worse than expected.
     * **Check the projection and georeference** 
           Make sure that your imagery is georeferenced in geographic or projected coordinate system.
     * **Check the resolution**
           The resolution restrictions vary for different models, see :ref:`Model requirements`   
   
-You can send a request for data preprocessing to help@geoalert.io
 
 
 Work with results

@@ -66,8 +66,13 @@ Imagery providers
 
  Here you can select one of the default providers:
 
- * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
- * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of the high and medium resolution satellite imagery and the aerial imagery, hosted by ESRI. The frequency of updating images is 3-5 years. 
+  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
+
+  * **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is supposed to be updated annually. 
+
+By request:
+
+  * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of the high and medium resolution satellite imagery and the aerial imagery, hosted by ESRI. The frequency of updating images is 3-5 years. 
  
  .. hint::
     You can check the ArcGIS World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.

@@ -167,7 +167,7 @@ Preparing and optimizing the large size images
 Here are few tips on how to prepare and optimize your data and reduce the image size to upload it faster and not to exceed the Mapflow upload limit.
 
 Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 bit. 
-The type must be Byte (8 bit). If the Data type is Int16 or Float32 etc, please follow the instruction :doc:`howto`.
+The data type will be automatically converted to 8 bit on the side of the Mapflow.
 Alternatively: use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ for preparing your image for Mapflow processing.
 
 You can reduce the size of the image using GDAL translate. (https://gdal.org/)
