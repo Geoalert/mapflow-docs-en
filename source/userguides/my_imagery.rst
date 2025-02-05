@@ -32,7 +32,7 @@ My imagery web
 ---------------
 
 .. note::
-     ❗️The Web app implementation is in progress. But now you can already view the list of your mosaics and, if necessary, delete unused ones.
+     ❗️The Web app implementation is in progress. But now you can already view the list of your image collections and, if necessary, delete unused ones.
 
 .. |preview| image:: _static/preview_mosaic.png
   :width: 0.6cm
@@ -40,7 +40,10 @@ My imagery web
 .. |delete| image:: _static/delete_single_mosaic.png
   :width: 0.6cm
 
-By default, we provide a free gigabyte for all new users to upload and process imagery data. If the memory limit is running out (*Memory free* at the bottom of the page), you can pay attention to our `Premium plans <https://mapflow.ai/pricing>`_ or delete unused data using this page. After viewing the information about the mosaic and previewing its images (|preview|), you can delete one mosaic at a time (|delete|) or several at once via multiselect (... -> "Delete selected mosaics").
+.. |more| image:: _static/more_menu.png
+  :width: 0.6cm
+
+By default, Mapflow provides a free 1 Gb storage for all new users to upload and process data. If the memory limit is running out (*Memory free* at the bottom of the page), you can either extend your limit by switching to the on of the `Premium plans <https://mapflow.ai/pricing>`_ or delete the unused data using this page. After viewing the information about the collection and previewing its images (|preview|), you can delete one collection at a time (|delete|) or several at once via multiselect ((|more|) -> "Delete selected mosaics").
 
 .. figure:: _static/my_imagery_page.png
          :align: center
@@ -49,7 +52,7 @@ By default, we provide a free gigabyte for all new users to upload and process i
 |
 
 .. note::
-     In your table, you can find mosaics of a kind that you did not create yourself. The fact is that these mosaics are separate GeoTIFF images that you uploaded earlier, with the UUID of your processing in the name:
+     Note that all your previously uploaded images are listed in the table as a separate collections with the UUID in its name.
      
       .. figure:: _static/uuid_mosaics.png
             :align: center
