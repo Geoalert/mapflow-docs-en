@@ -150,7 +150,7 @@ There may be confusion when drawing AOI using this tool, however, everything is 
 .. attention::
   Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
-1. AI model
+2. AI model
 ^^^^^^^^^^^
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
