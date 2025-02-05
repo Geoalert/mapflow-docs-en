@@ -208,7 +208,6 @@ To process multiple images in one area you can use "My imagery" tool available i
 The main scenario of working with My imagery in QGIS:
 
 .. figure:: _static/qgis/my_imagery_scenario.png
-         :alt: My imagery main
          :align: center
          :class: with-border
          :width: 18cm
@@ -235,7 +234,6 @@ How to run the processing using My imagery
 4. See the uploaded images and preview them one at a time (QGIS tile layer will be added):
 
 .. figure:: _static/qgis/my_imagery_images.png
-         :alt: My imagery main
          :align: center
          :class: with-border
          :width: 18cm
@@ -245,10 +243,12 @@ How to run the processing using My imagery
 5. To run the processing, select the mosaic or a single image you need
 
 .. warning::
-   Make sure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected, otherwise processing will be started with specified AOI limitation.
+   Two important points before creating a Processing:
+   
+   1. Make sure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected - this way, processing will include the entire area of the mosaic/image
+   2. if you want the Processing to be limited by AOI, you need to disable the “Use image / mosaic extent" checkbox
 
 .. figure:: _static/qgis/my_imagery_run.png
-         :alt: My imagery main
          :align: center
          :class: with-border
          :width: 18cm
@@ -261,7 +261,6 @@ How to run the processing using My imagery
    You can delete your images from the mosaics one at a time or using multiselect:
 
     .. figure:: _static/qgis/my_imagery_delete.png
-            :alt: My imagery main
             :align: center
             :class: with-border
             :width: 12cm

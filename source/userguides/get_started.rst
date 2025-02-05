@@ -118,7 +118,7 @@ Image upload requirements (free plan):
     
 
 .. hint::
-    If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
+    If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
     
 
 
@@ -150,7 +150,7 @@ There may be confusion when drawing AOI using this tool, however, everything is 
 .. attention::
   Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
-2. AI model
+1. AI model
 ^^^^^^^^^^^
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
