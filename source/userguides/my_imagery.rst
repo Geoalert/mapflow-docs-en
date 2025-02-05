@@ -54,7 +54,7 @@ By default, Mapflow provides a free 1 Gb storage for all new users to upload and
 .. note::
      Note that all your previously uploaded images are listed in the table as a separate collections with the UUID in its name.
      
-      .. figure:: _static/uuid_mosaics.png
+      .. figure:: _static/select_delete_mosaics.gif
             :align: center
             :class: with-border
             :width: 15cm
