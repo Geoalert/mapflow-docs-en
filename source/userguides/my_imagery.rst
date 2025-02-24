@@ -43,7 +43,7 @@ My imagery web
 .. |more| image:: _static/more_menu.png
   :width: 0.6cm
 
-By default, Mapflow provides a free 1 Gb storage for all new users to upload and process data. If the memory limit is running out (*Memory free* at the bottom of the page), you can either extend your limit by switching to the on of the `Premium plans <https://mapflow.ai/pricing>`_ or delete the unused data using this page. After viewing the information about the collection and previewing its images (|preview|), you can delete one collection at a time (|delete|) or several at once via multiselect ((|more|) -> "Delete selected mosaics").
+By default, Mapflow provides a free 1 Gb storage for all new users to upload and process data. If the memory limit is running out (*Memory free* at the bottom of the page), you can either extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_ or delete the unused data using this page. After viewing the information about the collection and previewing its images (|preview|), you can delete one collection at a time (|delete|) or several at once via multiselect ((|more|) -> "Delete selected mosaics").
 
 .. figure:: _static/my_imagery_page.png
          :align: center
@@ -52,7 +52,7 @@ By default, Mapflow provides a free 1 Gb storage for all new users to upload and
 |
 
 .. note::
-     Note that all your previously uploaded images are listed in the table as a separate collections with the UUID in its name.
+     Please note that the table lists all your previously uploaded images as separate collections, each with a unique UUID.
      
       .. figure:: _static/select_delete_mosaics.gif
             :align: center
