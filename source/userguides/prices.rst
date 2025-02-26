@@ -58,7 +58,7 @@ All prices below are given in Mapflow credits. Mapflow Web also provides a trans
 .. note::
    Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
 
-Maflow models pricing
+Maflow pricing
 -------------------------
 
 Default Mapflow models:
@@ -76,7 +76,7 @@ Default Mapflow models:
 
 Data price
 ~~~~~~~~~~
-When using default data providers (Mapbox, Arcgis Satellite), your own TMS, or your uploaded imagery the price is zero.
+When using default data providers (Mapbox, Arcgis WorldView Imagery), your own TMS, or your uploaded imagery the price is zero.
 If you are using connected commercial providers ("Global mosaic" and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic – therefore we quote the prices depending on the imagery resolution for a more accurate and flexible pricing model.
 
 .. csv-table::

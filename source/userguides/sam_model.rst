@@ -11,7 +11,7 @@ The “Segment Anything” (originaly introduced by Meta as *universal segmentat
 Yet there is one difference in the model workflow:
 
 - if you run this model using GTIFF file — the original resolution of the image will be used
-- if you run it via TMS (e.g. :ref:`Imagery basemaps` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input
+- if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input
 
 .. figure:: _static/processing_result/sam_options.jpg
    :alt: SAM options - zoom levels

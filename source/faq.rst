@@ -17,7 +17,7 @@ Payment
 
     * For Paid Users: If you are on a corporate plan, we commit to meeting a specific level of accuracy. If the output does not meet these requirements, we will refund your credits according to our refund policy.
 
-.. _Data Providers:
+.. _Satellite images:
 
 Satellite imagery
 ------------------
@@ -28,7 +28,7 @@ Satellite imagery
 
 **Can I choose another satellite mosaic?**
 
-    Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide Maxar SecureWatch, a service that contains basemaps and imagery updates. We are continuosly working on adding more commercial providers.
+    Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuosly working on adding more commercial providers.
 
 **Can I upload my own images for processing?**
 

@@ -32,6 +32,55 @@ When starting a new project, you can set a name, customize icons, and modify a l
   If your account is upgraded to the Premium or Custom – you might be able to customize your project mapping workflows and some of their options.
 
 
+Mapflow My account
+-----------------------
+
+This section contains tabs for user account settings and services.
+
+The following services are available here:
+
+1. User info
+^^^^^^^^^^^^^^^
+* Fill in the user profile details
+* Set up your preferred language from the available
+* Enable email notifications (about the processing status, etc.)
+
+2. Balance
+^^^^^^^^^^^^^^^^
+Top up your Mapflow account with :ref:`credits`.
+
+3. Billing history
+^^^^^^^^^^^^^^^^^^^^^^
+Here you can see your processing history with the details. If you are a Team account owner, you can search through the history of the entire team processings. 
+Use filters to sort by date and processing status. 
+To filter by the custom parameters like user email or processing name - start typing in the search input.
+
+.. figure:: _static/billing_history.jpg
+  :alt: UI Billing
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link
+
+|
+
+.. note::
+    You can export billing history as CSV.
+
+4. Team
+^^^^^^^^^^^^^
+Create and manage your :ref:`Team accounts`.
+
+
+5. My Imagery
+^^^^^^^^^^^^^^^^^^^^^
+
+Manage your :ref:`imagery collections <My imagery main>` that you can currently use in the :ref:`Maplfow QGIS plugin <My imagery qgis>`.
+
+6. API
+^^^^^^^^^^^
+Obtain or reset your :ref:`Mapflow API` token.
+
+
 How to run your AI mapping workflow in Web app
 ------------------------------------------------
 
@@ -59,12 +108,12 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 |
 
-.. _Imagery basemaps:
+.. _Imagery:
 
 Imagery providers
 ~~~~~~~~~~~~~~~~~~
-
- Here you can select one of the default providers:
+ 
+Here you can select one of the default providers:
 
   * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
 
@@ -82,7 +131,12 @@ By request:
         :align: center
         :class: with-border
 
-To read more about satellite images check :ref:`Data Providers`
+.. important::
+
+    Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable the instant imagery analysis and AI mapping.
+    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on the specific terms. We are continuosly working on adding more commercial providers.
+    For more detail about the Imagery providers cost see :ref:`Mapflow prices <credits>`.
+
 
 Custom URL
 ~~~~~~~~~~~~~
@@ -264,7 +318,11 @@ Rate the processing
 
 .. important::
  We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment is important for further improvement of the Mapflow AI models. We review all the user's feedback and get back to you if any issues.
-
+   .. figure:: _static/animation_rate.gif
+     :alt: Rate your processing
+     :align: center
+     :width: 15cm
+     :class: with-border
 
 Share the results
 ^^^^^^^^^^^^^^^^^^^^

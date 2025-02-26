@@ -1,3 +1,4 @@
+.. _Mapflow API:
 
 Mapflow API
 *********************
