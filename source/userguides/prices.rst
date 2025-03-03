@@ -74,6 +74,11 @@ Default Mapflow models:
    applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_.
 
 
+.. note::
+
+   Custom model pricing depends on the complexity of the task and the total project size. To get the quotation and apply the discount, please contact us to share your project requirements.  
+
+
 Data price
 ~~~~~~~~~~
 When using default data providers (Mapbox, Arcgis WorldView Imagery), your own TMS, or your uploaded imagery the price is zero.
@@ -83,7 +88,7 @@ If you are using connected commercial providers ("Global mosaic" and others that
   :file: _static/csv/data_prices.csv
   :header-rows: 1
   :class: longtable
-  :widths: 20 10 10 10
+  :widths: 20 10 10
 
 
 
