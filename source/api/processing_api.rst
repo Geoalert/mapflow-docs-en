@@ -18,8 +18,11 @@ Mapflow processing API
   You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 
-User status
--------------
+User
+-------
+
+Get user status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Returns user status for the given user account, including:
   - User limits
@@ -43,7 +46,7 @@ Response example:
           {
               "id": "30ddfd15-04aa-47f6-9ceb-68ce709fd710",
               "name": "🏠 Buildings",
-              "description": "",
+              "description": "Buildings detection and mapping",
               "created": "2023-02-01T08:17:03.871690Z",
               "updated": "2023-05-11T14:24:31.456180Z",
               "pricePerSqKm": 13.0,
@@ -87,6 +90,96 @@ Response example:
           }
       ]
   }
+
+
+Obtain processing statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``POST https://api.mapflow.ai/rest/processings/stats``
+
+Returns user's processing history with details. This method supports filters by date, status, etc.
+If the user is a :ref:`Team's <Team accounts>` owner, this returns the statistics by all team members.
+
+Params for processing stats:
+
+.. list-table::
+   :widths: 30 30 30
+   :header-rows: 0
+
+   * - Type
+     - JSON
+     - Returns stats in structured JSON
+
+.. list-table::
+   :widths: 30 20 40
+   :header-rows: 1
+
+   * - Filter
+     - Type
+     - Description
+   * - dateFrom, dateTo
+     - DATETIME
+     - Filters by date-time
+   * - statuses
+     - ARRAY
+     - Filters by statuses ["OK", "IN_PROGRESS", "FAILED", "CANCELED", "REFUNDED"]
+   * - terms
+     - STRING
+     - Filters by arbitrary string value
+
+
+Sample request:
+
+.. code:: bash
+
+  curl --location 'https://api.mapflow.ai/rest/processings/stats?type=JSON' \
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Basic <YOUR TOKEN>' \
+  --data '{"dateFrom":"2024-11-07T21:00:00.000Z","dateTo":"2025-02-24T21:59:59.999Z","statuses":["OK"]}'
+
+Sample response:
+
+.. code:: json
+
+      {
+        "results": [
+            {
+                "projectName": "Test,
+                "name": "test_proc",
+                "email": "user1@geoalert.io",
+                "area": "536680",
+                "cost": "0",
+                "created": "2025-02-24T13:34:34.640553Z",
+                "completionDate": "2025-02-24T13:35:31.327948Z",
+                "status": "OK",
+                "percentCompleted": "100",
+                "archived": "false",
+                "dataProvider": null,
+                "linkToMap": "https://app.mapflow.ai/projects/c77bad4b-6a2b-49ed-8af4-4d1841aec771/processings/893bcc22-8a3b-47d5-8e56-0d0a83fab25d",
+                "scenario": "🏠 Buildings"
+            },
+            {
+                "projectName": "Test new model NSPD",
+                "name": "test_proc2",
+                "email": "user2@geoalert.io",
+                "area": "450102",
+                "cost": "0",
+                "created": "2025-02-24T13:37:55.581373Z",
+                "completionDate": "2025-02-24T13:38:22.078667Z",
+                "status": "OK",
+                "percentCompleted": "100",
+                "archived": "false",
+                "dataProvider": null,
+                "linkToMap": "https://app.mapflow.ai/projects/c77bad4b-6a2b-49ed-8af4-4d1841aec771/processings/6ecbd6ae-32cd-499a-aa42-fd0e67d6f9b6",
+                "scenario": "🏠 Buildings"
+            }
+        ],
+        "total": 2,
+        "count": 2,
+        "totalCost": 0,
+        "totalArea": 986782
+    }
+
 
 Projects
 ---------
@@ -783,95 +876,6 @@ Downloading processing results
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
 Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing.
-
-
-Obtain processing statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``POST https://api.mapflow.ai/rest/processings/stats``
-
-Returns user's processing history with details. This method supports filters by date, status, etc.
-If the user is a :ref:`Team's <Team accounts>` owner, this returns the statistics by all team members.
-
-Params for processing stats:
-
-.. list-table::
-   :widths: 30 30 30
-   :header-rows: 0
-
-   * - Type
-     - JSON
-     - Returns stats in structured JSON
-
-.. list-table::
-   :widths: 30 20 40
-   :header-rows: 1
-
-   * - Filter
-     - Type
-     - Description
-   * - dateFrom, dateTo
-     - DATETIME
-     - Filters by date-time
-   * - statuses
-     - ARRAY
-     - Filters by statuses ["OK", "IN_PROGRESS", "FAILED", "CANCELED", "REFUNDED"]
-   * - terms
-     - STRING
-     - Filters by arbitrary string value
-
-
-Sample request:
-
-.. code:: bash
-
-  curl --location 'https://api.mapflow.ai/rest/processings/stats?type=JSON' \
-  --header 'Content-Type: application/json' \
-  --header 'Authorization: Basic <YOUR TOKEN>' \
-  --data '{"dateFrom":"2024-11-07T21:00:00.000Z","dateTo":"2025-02-24T21:59:59.999Z","statuses":["OK"]}'
-
-Sample response:
-
-.. code:: json
-
-      {
-        "results": [
-            {
-                "projectName": "Test,
-                "name": "test_proc",
-                "email": "user1@geoalert.io",
-                "area": "536680",
-                "cost": "0",
-                "created": "2025-02-24T13:34:34.640553Z",
-                "completionDate": "2025-02-24T13:35:31.327948Z",
-                "status": "OK",
-                "percentCompleted": "100",
-                "archived": "false",
-                "dataProvider": null,
-                "linkToMap": "https://app.mapflow.ai/projects/c77bad4b-6a2b-49ed-8af4-4d1841aec771/processings/893bcc22-8a3b-47d5-8e56-0d0a83fab25d",
-                "scenario": "🏠 Buildings"
-            },
-            {
-                "projectName": "Test new model NSPD",
-                "name": "test_proc2",
-                "email": "user2@geoalert.io",
-                "area": "450102",
-                "cost": "0",
-                "created": "2025-02-24T13:37:55.581373Z",
-                "completionDate": "2025-02-24T13:38:22.078667Z",
-                "status": "OK",
-                "percentCompleted": "100",
-                "archived": "false",
-                "dataProvider": null,
-                "linkToMap": "https://app.mapflow.ai/projects/c77bad4b-6a2b-49ed-8af4-4d1841aec771/processings/6ecbd6ae-32cd-499a-aa42-fd0e67d6f9b6",
-                "scenario": "🏠 Buildings"
-            }
-        ],
-        "total": 2,
-        "count": 2,
-        "totalCost": 0,
-        "totalArea": 986782
-    }
 
 
 .. _upload-images:
