@@ -3,6 +3,13 @@
 My imagery
 ===========
 
+.. note::
+     ❗️ Currently, you can use *My imagery* in :ref:`Maplfow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress.
+
+
+My imagery in QGIS
+----------------------
+
 "My imagery" allows you to collect images in separate collections, called "mosaic". Using this service, users can easily manage their data collections, reuse images for the next processings and analysis with Mapflow models.
 
 .. figure:: ../api/_static/qgis/my_imagery_images.png
@@ -10,9 +17,6 @@ My imagery
          :class: with-border
          :width: 18cm
 |
-
-.. note::
-     ❗️ Currently, you can use *My imagery* in :ref:`Maplfow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The Web app implementation is in progress.
 
 Basic usage:
     - Processing of multiple images at one time. If you are experiencing the processing of multiple images in one area, this tool will be helpful.
@@ -28,7 +32,10 @@ The basic scenario of working with "My imagery" service is as follows:
 .. warning::
      There are two main **restrictions on uploading images** in the free plan - the image should be no more than *1 GB* and no more than *100,000 pixels* by the side. We have no other restrictions on uploading to the mosaic, but it is important that each uploaded image has the SAME parameters as the rest of the images in the mosaic (pixel size, number of bands, georeference). For example, two images with pixel sizes of 10 cm and 1 m cannot be added to the same mosaic.
 
-My imagery web
+Read how to use it in detail in :ref:`Maplfow QGIS plugin <My imagery qgis>`.
+
+
+My imagery Web
 ---------------
 
 .. note::

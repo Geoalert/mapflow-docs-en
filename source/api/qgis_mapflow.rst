@@ -190,12 +190,6 @@ Tabs section contains 5 tabs:
    * - Additional Filters
      - Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.
 
-.. hint::
-    You can define your own source of data in XYZ format. Here is the example: ``https://your_site.xyz/{z}/{x}/{y}``
-
-.. hint::
-   1. Learn how to connect to the free imagery sources – e.g. :ref:`OpenAerialMap <oae>`
-   2. Learn how to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`
 
 
 .. _My imagery qgis:
@@ -203,7 +197,7 @@ Tabs section contains 5 tabs:
 3. My imagery
 ~~~~~~~~~~~~~~
 
-To process multiple images in one area you can use "My imagery" tool available in Mapflow QGIS.
+To upload you images and process multiple images in a one shot you can use "My imagery" tool available in Mapflow QGIS.
 
 The main scenario of working with My imagery in QGIS:
 
@@ -487,6 +481,10 @@ To start processing using this data source, go to the *Processing* tab, fill in 
 
 
 .. hint::
+    You can define your own source of data in XYZ format. The example: ``https://your_site.xyz/{z}/{x}/{y}``
+
+
+.. hint::
 
   Check for more imagery sources connections in the UserGuide How To:
 
@@ -494,17 +492,13 @@ To start processing using this data source, go to the *Processing* tab, fill in 
 
   2. How to connect to :ref:`Nearmap <Nearmap_>`
 
+  3. How to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`
+
 
 How to upload your image
 -------------------------
 
-You can upload your own GeoTIFF. All raster layers currently loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload.
-
- .. figure:: _static/qgis/upload_tif.png
-         :alt: Upload TIF, select from list
-         :align: center
-         :width: 15cm
-         :class: with-border no-scaled-link 
+You can upload your own GeoTIFF using :ref:`My Imagery qgis`.
 
 
 .. important::

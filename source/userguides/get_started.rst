@@ -108,7 +108,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 |
 
-.. _Imagery:
+.. _Imagery providers:
 
 Imagery providers
 ~~~~~~~~~~~~~~~~~~
@@ -124,12 +124,8 @@ By request:
   * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of the high and medium resolution satellite imagery and the aerial imagery, hosted by ESRI. The frequency of updating images is 3-5 years. 
  
  .. hint::
-    You can check the ArcGIS World Imagery metadata (date, resolution, and precision) by location. To do this, follow this `link <https://www.arcgis.com/apps/mapviewer/index.html?layers=10df2279f9684e4a9f6a7f08febac2a9>`_, zoom in, choose the point on the map and click.
+    You can search the ArcGIS World Imagery metadata (date, zoom level) by location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS.
 
-    .. image:: _static/image_metadata.png
-        :alt: Search image metadata
-        :align: center
-        :class: with-border
 
 .. important::
 

@@ -6,16 +6,8 @@ Mapflow processing API
 .. attention::
     The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_  **will be available** via the API and vice versa. Also, your Mapflow credits are used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`).
 
-.. note::
-    .. figure:: _static/postman_logo.png
-       :alt: Preview results
-       :align: left
-       :width: 1cm
-
-   Check and run this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
-
 .. important::
-  You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
+    You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
 
 User
