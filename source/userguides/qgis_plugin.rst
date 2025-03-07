@@ -14,7 +14,7 @@ First of all, you have to install the plugin in QGIS. To do this, go to the tab 
 .. figure:: _static/qgis_user_guide/plugin_installation.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -26,7 +26,7 @@ After installation, the plugin icon will appear in the toolbar: |plugin_icon|. C
 .. figure:: _static/qgis_user_guide/login_by_token.png
          :align: center
          :width: 9cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -35,7 +35,7 @@ A window will open in which you have to quickly and for free register on `Mapflo
 .. figure:: _static/qgis_user_guide/obtaining_token.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -46,7 +46,7 @@ Another way to log in to the plugin is using Oauth2. By checking the appropriate
 .. figure:: _static/qgis_user_guide/login_by_oauth.png
          :align: center
          :width: 9cm
-         :class: with-boarder
+         :class: with-border no-scaled-link
 
 |
 
@@ -55,7 +55,7 @@ Then, following the instructions, restart QGIS and click "Log in" again. This wi
 .. figure:: _static/qgis_user_guide/oauth_notification.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -68,7 +68,7 @@ In order to start processing, first you must specify its name. Next, choose the 
 .. figure:: _static/qgis_user_guide/create_aoi.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -77,7 +77,7 @@ In the upper-left corner of the main QGIS window in the Browser panel, you can o
 .. figure:: _static/qgis_user_guide/osm.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -87,7 +87,7 @@ A new row will appear in the processing table. Upon completion of processing (Pr
 .. figure:: _static/qgis_user_guide/viewing_the_results.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -96,7 +96,7 @@ The resulting vector objects can be saved in GeoJSON format (by clicking on the 
 .. figure:: _static/qgis_user_guide/save_results.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 
@@ -108,7 +108,7 @@ After adding the image you are interested in to QGIS as a raster layer, you can 
 .. figure:: _static/qgis_user_guide/tiff_processing.png
          :align: center
          :width: 15cm
-         :class: with-boarder
+         :class: with-border
 
 |
 

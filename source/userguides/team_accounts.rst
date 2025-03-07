@@ -34,6 +34,7 @@ If user is not registered at Mapflow, he will get an invitation by email and wil
    :alt: Invite users to team
    :align: center
    :width: 15cm
+   :class: with-border no-scaled-link
 |
 
 .. note::
@@ -50,7 +51,7 @@ This means the Admin has to assign and manage all the limits, including himself,
       :alt: create a team
       :align: center
       :width: 15cm
-      :class: with-border
+      :class: with-border no-scaled-link
 
 
 .. centered::
