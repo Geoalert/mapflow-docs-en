@@ -7,11 +7,11 @@ Imagery search
 It's powered by Mapflow API providing access to the global satellite data providers. 
 
 Imagery providers available for the search and ordering:
-- ORBVIEW (aggregates and provides satellite imagery from the leading Chinese satellite operators)
+* ORBVIEW (aggregates and provides satellite imagery from the leading Chinese satellite operators)
 
 Imagery providers supported for the account-based integration:
-- ArcGIS Worldview
-- :ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`
+* ArcGIS Worldview
+* :ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`
 
 .. note::
     Read more about how to use :ref:`Imagery providers` with Mapflow.

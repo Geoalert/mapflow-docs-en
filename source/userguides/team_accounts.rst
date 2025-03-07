@@ -8,12 +8,6 @@ Users can switch to a Team account to invite collaborators, share projects and m
 
 Once the Team is created, the creator (Team Admin) can invite new members and assign their limits. The Team profile is accessible only to the Team Admin.
 
-.. image:: _static/team/team_accounts.jpg
-   :alt: team account
-   :align: center
-   :width: 15cm
-|
-
 .. note::
    We highly encourage you to switch to the Team account if you are looking forward to working with other coworkers and managing multiple projects. Feel free to contact our support, so we can assist you in setting up a Team workflow.
 
@@ -29,8 +23,22 @@ To create a new Team enter the name and start inviting new members by their emai
    :width: 15cm
 |
 
-.. warning::
-   This is a temporary limitatiton to invite already registered users. If you want to invite user by his email that has been registered as a Mapflow account – reach out to our Support (help@geoalert.io) to assist you with this. 
+
+Inviting new team members
+---------------------------
+
+Switch to the tab **Invitations**. Enter user email associated with his Mapflow account.
+If user is not registered at Mapflow, he will get an invitation by email and will be able to join the Team following the registration.
+
+.. image:: _static/team/team_invitations.jpg
+   :alt: Invite users to team
+   :align: center
+   :width: 15cm
+|
+
+.. note::
+   As a Team admin, you will see all the invitations sent and may revoke them. As a Team member, you will see only your invitations to the Team. 
+
 
 Managing Team balance
 -------------------------
