@@ -325,11 +325,12 @@ Share the results
 
 You can share your project with the external users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email.
 
- .. figure:: _static/project_share/read-only.jpg
+.. figure:: _static/project_share/read-only.jpg
      :alt: Share project externally
      :align: center
      :width: 15cm
      :class: with-border
+
 |
 
 .. note::

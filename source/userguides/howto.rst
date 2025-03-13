@@ -1,12 +1,12 @@
 .. _howto:
 
 Userguides - How To 🙋‍♂️
-=======================
+=========================
 
 .. _oauth2_setup:
 
 How to log in using OAuth2
----------------------------------
+---------------------------
 
 .. include:: oauth2_setup.rst
 

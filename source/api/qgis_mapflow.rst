@@ -190,7 +190,20 @@ Tabs section contains 5 tabs:
    * - Additional Filters
      - Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.
 
+How to preview the search results
+"""""""""""""""""""""""""""""""""
 
+.. |preview| image:: _static/qgis/magnifier_button.png
+  :width: 0.7cm
+
+Imagery search provides the ability to preview search results with a double-click on a row in a table. You cannot open previews of certain specific parts of some data sources (e.g. ArcGIS World Imagery), but you can enable preview of the entire source! To do this, select the desired provider in the left control panel and click the "Preview" button |preview|.
+
+.. figure:: _static/qgis/preview_data_source.png
+         :align: center
+         :width: 10cm
+         :class: with-border
+
+|
 
 .. _My imagery qgis:
 
