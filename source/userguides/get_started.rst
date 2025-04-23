@@ -97,10 +97,9 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 1. Data source
 ^^^^^^^^^^^^^^^
 
-1.1. Select the raster source
-"""""""""""""""""""""""""""""
+First, you need to choose a way to set the boundaries of your processing: by **AOI** or the extent of your **GeoTIFF** image.
 
-.. image:: _static/select_provider.png
+.. image:: _static/select_data_source.png
     :alt: Select provider
     :align: center
     :scale: 60
@@ -108,11 +107,56 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 |
 
+1.1. Specify the AOI (Area Of Interest)
+""""""""""""""""""""""""""""""""""""""""
+
+.. image:: _static/ui_aoi.png
+  :alt: Select AOI
+  :align: center
+  :width: 18cm
+  :class: with-border no-scaled-link  
+
+|
+
+This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+
+About *Draw Polygon* tool:
+
+There may be confusion when drawing AOI using this tool, however, everything is quite simple. The area in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted with yellow hatching):
+
+.. image:: _static/bbox_explanation.png
+  :alt: Bounding Box
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
+.. attention::
+  Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
+
+Select imagery source
+""""""""""""""""""""""
+
+After the AOI is selected, the raster data source must be selected. Mapflow offers several options to choose from, such as: 
+
+- Imagery providers
+- Custom URL
+- Historical data
+
 .. _Imagery providers:
 
 Imagery providers
 ~~~~~~~~~~~~~~~~~~
- 
+
+.. image:: _static/imagery_providers_tab.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
 Here you can select one of the default providers:
 
   * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
@@ -133,28 +177,78 @@ By request:
     Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on the specific terms. We are continuosly working on adding more commercial providers.
     For more detail about the Imagery providers cost see :ref:`Mapflow prices <credits>`.
 
-
 Custom URL
-~~~~~~~~~~~~~
+~~~~~~~~~~~
+
+.. image:: _static/custom_url_tab.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
 
 This tab allows you to:
 
  * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, :ref:`Openaerialmap <Openaerialmap>` - ``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``);
  * When adding you custom tile service it might be needed to define Y position: XYZ (top left), TMS/WMTS (bottom left);
- * Set source image coordinate reference system (espg:3857 or espg:3395);
- * Reset all entered custom parameters;
- ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+ * Provide your authorization data for the desired source (Login + Password);
+ * Add on map to preview.
+..  * Reset all entered custom parameters.
+..  * Set source image coordinate reference system (espg:3857 or espg:3395);
+..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+
+Historical data
+~~~~~~~~~~~~~~~
+
+.. image:: _static/historical_data_tab.png
+  :alt: Imagery search tab
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link  
+
+|
+
+This tab provides access to the internal Mapflow service “Imagery search". It allows you to search for available satellite imagery over your area of analysis. After setting the desired search parameters (Date range, Clouds, Off-Nadir and other filters), the found images will appear on the map, which can be used for processing.
+
+.. image:: _static/historical_data_images.png
+  :alt: Imagery search results
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link  
+
+|
+
+.. hint::
+    See :ref:`Imagery search <Imagery search  main>` for more information and guides.
 
 .. _upload-geotiff-section:
 
-Upload GeoTIFF
-~~~~~~~~~~~~~~~~~~
+1.2. Upload GeoTIFF
+""""""""""""""""""""
+.. image:: _static/geotiff_upload.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
 
- Here you can upload your own image in GeoTiff format.
+|
+
+Here you can upload your own image in GeoTiff format.
 
 .. warning::
     Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
     
+After the image is uploaded, you need to draw/upload an AOI or click "Use Image Extent".
+
+.. image:: _static/geotiff_aoi.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
 The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI. If the AOI doesn't intersect the image boundaries the error will pop up.
 
 Image upload requirements (free plan):
@@ -169,36 +263,6 @@ Image upload requirements (free plan):
 
 .. hint::
     If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
-    
-
-
-1.2. Specify the area of interest
-"""""""""""""""""""""""""""""""""
-
-.. image:: _static/ui_map_select_source.png
-  :alt: Select AOI
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
-
-|
-
-This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or download it in GeoJSON format (draw and download, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
-
-About *Draw Polygon* tool:
-
-There may be confusion when drawing AOI using this tool, however, everything is quite simple. The area in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted with yellow hatching):
-
-.. image:: _static/bbox_explanation.png
-  :alt: Bounding Box
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
-
-|
-
-.. attention::
-  Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
 2. AI model
 ^^^^^^^^^^^
@@ -213,7 +277,7 @@ Select one of the AI models (see :doc:`Model description <pipelines>`).
 
   .. figure:: _static/link_unlink_wd.png
     :align: center
-    :width: 13cm
+    :width: 9cm
     :class: with-border
 
 |

@@ -16,8 +16,53 @@ Imagery providers supported for the account-based integration:
 .. note::
     Read more about how to use :ref:`Imagery providers` with Mapflow.
 
-.. warning::
-    Currently you can use Imagery search tools in Mapflow <> QGIS and API. The web implementation is coming soon.
+
+Using Imagery Search in Mapflow WEB
+--------------------------------------
+
+.. image:: _static/historical_data_tab.png
+  :alt: Imagery search tab
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link  
+
+|
+
+To start the processing using the Imagery Search data, you must:
+
+1. Select a date range or a specific date;
+2. Set the search parameters (Clouds, Off-Nadir, AOI/Scene intersection);
+3. Apply provider filters:
+
+    - "Mosaic" (Global mosaic 2022, ArcGIS World Imagery)
+    - "Image" (Orbview)
+    - "Available for me" - The search results will show only those providers that are connected to your account.
+
+.. note::
+    Filters and search parameters also work in real time on already found images, for example, you can hide all images from the table or leave only the results available to you.
+
+4. After clicking "Search Image", a table with search results and images extents will appear:
+
+.. figure:: _static/historical_data_images.png
+  :alt: Imagery search results
+  :align: center
+  :width: 16cm
+  :class: with-border
+
+|
+
+5. You can sort, enable or disable images on the map, and preview them if the provider supports this feature (The preview will be automatically added to the map after selecting the image in the table);
+
+.. image:: _static/search_table.png
+  :alt: Search table
+  :align: center
+  :width: 14cm
+  :class: with-border no-scaled-link  
+
+|
+
+6. In the end, you need to select the desired image by clicking on it in the table and click "Save", after that you are ready to start processing!
+
 
 Using Mapflow Imagery Search in QGIS
 --------------------------------------
