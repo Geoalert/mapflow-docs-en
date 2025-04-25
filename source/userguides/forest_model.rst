@@ -24,6 +24,7 @@ The model is robust to region change, and performs well in most environments, in
 
 **Additional options:**
 
+* *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees.
 * *Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes.
 
 Additionally we use models for density and height estimation, dividing the forested area into the following classes:
@@ -38,8 +39,17 @@ Additionally we use models for density and height estimation, dividing the fores
 
 **Processing results samples**
 
+.. figure:: _static/processing_result/forest_tree_crowns_qgis.png
+   :alt: Processing result of forest model (Tree crowns)
+   :align: center
+   :width: 15cm
+   :class: with-border no-scaled-link
+   
+   Sample of results for **Tree crowns**
+
+
 .. figure:: _static/processing_result/forest_w_heights_model.jpg
-   :alt: Processing result of forest model
+   :alt: Processing result of forest model (Heights)
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
