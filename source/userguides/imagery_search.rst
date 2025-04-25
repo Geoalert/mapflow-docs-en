@@ -4,7 +4,7 @@ Imagery search
 ================
 
 "Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
-It's powered by Mapflow API providing access to the global satellite data providers. 
+It's powered by Mapflow API providing access to the global satellite data providers and partners. 
 
 Imagery providers available for the search and ordering:
     * ORBVIEW (aggregates and provides satellite imagery from the leading Chinese satellite operators)
@@ -39,7 +39,7 @@ To start the processing using the Imagery Search data, you must:
     - "Available for me" - The search results will show only those providers that are connected to your account.
 
 .. note::
-    Filters and search parameters also work in real time on already found images, for example, you can hide all images from the table or leave only the results available to you.
+    Filters and search parameters also work in real time for the list of images; for example, you can hide all images from the table or filter only the results from the providers that are available for you.
 
 4. After clicking "Search Image", a table with search results and images extents will appear:
 
@@ -61,13 +61,11 @@ To start the processing using the Imagery Search data, you must:
 
 |
 
-6. In the end, you need to select the desired image by clicking on it in the table and click "Save", after that you are ready to start processing!
+6. At the final step, you need to select the desired image by clicking on it in the table and click "Save". Now you are ready to start processing!
 
 
 Using Mapflow Imagery Search in QGIS
 --------------------------------------
-
-By default you can search all the providers that are available for your account.
 
 1. Switch to the tab "Imagery Search". To start the search, set the dates and the product type filters ("Mosaic" – Imagery basemaps like ArcGIS or Global mosaic and/or "Images" - Satellite imagery archives)
 2. Set additional filters like a minimum intersection with your area of analysis.

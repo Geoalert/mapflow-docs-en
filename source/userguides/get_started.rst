@@ -97,7 +97,7 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 1. Data source
 ^^^^^^^^^^^^^^^
 
-First, you need to choose a way to set the boundaries of your processing: by **AOI** or the extent of your **GeoTIFF** image.
+First step is to set the area of analysis for your project: by **AOI** polygon or by the extent of your **GeoTIFF** image.
 
 .. image:: _static/select_data_source.png
     :alt: Select provider
@@ -118,22 +118,23 @@ First, you need to choose a way to set the boundaries of your processing: by **A
 
 |
 
-This tab is used to add a processing area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+This tab is used to add an area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
 About *Draw Polygon* tool:
 
-There may be confusion when drawing AOI using this tool, however, everything is quite simple. The area in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted with yellow hatching):
+.. warning::
+  The area limit in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted):
+  
+  .. image:: _static/bbox_explanation.png
+    :alt: Bounding Box
+    :align: center
+    :width: 15cm
+    :class: with-border no-scaled-link  
 
-.. image:: _static/bbox_explanation.png
-  :alt: Bounding Box
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
-
-|
+  |
 
 .. attention::
-  Be aware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first one will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
+  Beware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first feature will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
 Select imagery source
 """"""""""""""""""""""
@@ -161,11 +162,11 @@ Here you can select one of the default providers:
 
   * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
 
-  * **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is supposed to be updated annually. 
+  * **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
 
 By request:
 
-  * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of the high and medium resolution satellite imagery and the aerial imagery, hosted by ESRI. The frequency of updating images is 3-5 years. 
+  * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
  
  .. hint::
     You can search the ArcGIS World Imagery metadata (date, zoom level) by location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS.
@@ -173,9 +174,9 @@ By request:
 
 .. important::
 
-    Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable the instant imagery analysis and AI mapping.
-    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on the specific terms. We are continuosly working on adding more commercial providers.
-    For more detail about the Imagery providers cost see :ref:`Mapflow prices <credits>`.
+    Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable instant imagery analysis and AI mapping.
+    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on specific terms. We are continuously working on adding more commercial providers.
+    For more details about the Imagery providers cost, see :ref:`Mapflow prices <credits>`.
 
 Custom URL
 ~~~~~~~~~~~
