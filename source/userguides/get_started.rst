@@ -94,8 +94,8 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 |
 
-1. Data source
-^^^^^^^^^^^^^^^
+1. Specify the AOI (Area Of Interest)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First step is to set the area of analysis for your project: by **AOI** polygon or by the extent of your **GeoTIFF** image.
 
@@ -107,8 +107,8 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
-1.1. Specify the AOI (Area Of Interest)
-""""""""""""""""""""""""""""""""""""""""
+1.1. How to select AOI
+""""""""""""""""""""""""
 
 .. image:: _static/ui_aoi.png
   :alt: Select AOI
@@ -118,7 +118,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
-This tab is used to add an area. The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
 About *Draw Polygon* tool:
 
@@ -136,8 +136,11 @@ About *Draw Polygon* tool:
 .. attention::
   Beware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first feature will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
-Select imagery source
-""""""""""""""""""""""
+2. Select the imagery source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+  If you uploaded GeoTIFF - the image source is already selected.
 
 After the AOI is selected, the raster data source must be selected. Mapflow offers several options to choose from, such as: 
 
@@ -160,15 +163,15 @@ Imagery providers
 
 Here you can select one of the default providers:
 
-  * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
+* `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
 
-  * **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
+* **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
 
 By request:
 
-  * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
+* `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
  
- .. hint::
+.. hint::
     You can search the ArcGIS World Imagery metadata (date, zoom level) by location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS.
 
 
