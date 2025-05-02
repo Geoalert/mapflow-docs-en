@@ -107,7 +107,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
-1.1. How to select AOI
+1.1. Select AOI
 """"""""""""""""""""""""
 
 .. image:: _static/ui_aoi.png
@@ -136,99 +136,9 @@ About *Draw Polygon* tool:
 .. attention::
   Beware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first feature will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
-2. Select the imagery source
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. note::
-  If you uploaded GeoTIFF - the image source is already selected.
-
-After the AOI is selected, the raster data source must be selected. Mapflow offers several options to choose from, such as: 
-
-- Imagery providers
-- Custom URL
-- Historical data
-
-.. _Imagery providers:
-
-Imagery providers
-~~~~~~~~~~~~~~~~~~
-
-.. image:: _static/imagery_providers_tab.png
-  :alt: Imagery providers
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
-
-|
-
-Here you can select one of the default providers:
-
-* `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
-
-* **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
-
-By request:
-
-* `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
- 
-.. hint::
-    You can search the ArcGIS World Imagery metadata (date, zoom level) by location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS.
-
-
-.. important::
-
-    Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable instant imagery analysis and AI mapping.
-    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on specific terms. We are continuously working on adding more commercial providers.
-    For more details about the Imagery providers cost, see :ref:`Mapflow prices <credits>`.
-
-Custom URL
-~~~~~~~~~~~
-
-.. image:: _static/custom_url_tab.png
-  :alt: Imagery providers
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
-
-|
-
-This tab allows you to:
-
- * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, :ref:`Openaerialmap <Openaerialmap>` - ``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``);
- * When adding you custom tile service it might be needed to define Y position: XYZ (top left), TMS/WMTS (bottom left);
- * Provide your authorization data for the desired source (Login + Password);
- * Add on map to preview.
-..  * Reset all entered custom parameters.
-..  * Set source image coordinate reference system (espg:3857 or espg:3395);
-..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
-
-Historical data
-~~~~~~~~~~~~~~~
-
-.. image:: _static/historical_data_tab.png
-  :alt: Imagery search tab
-  :align: center
-  :width: 16cm
-  :class: with-border no-scaled-link  
-
-|
-
-This tab provides access to the internal Mapflow service “Imagery search". It allows you to search for available satellite imagery over your area of analysis. After setting the desired search parameters (Date range, Clouds, Off-Nadir and other filters), the found images will appear on the map, which can be used for processing.
-
-.. image:: _static/historical_data_images.png
-  :alt: Imagery search results
-  :align: center
-  :width: 16cm
-  :class: with-border no-scaled-link  
-
-|
-
-.. hint::
-    See :ref:`Imagery search <Imagery search  main>` for more information and guides.
-
 .. _upload-geotiff-section:
 
-1.2. Upload GeoTIFF
+1.2 Upload GeoTIFF
 """"""""""""""""""""
 .. image:: _static/geotiff_upload.png
   :alt: Imagery providers
@@ -268,8 +178,99 @@ Image upload requirements (free plan):
 .. hint::
     If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
+
+2. Select the imagery source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+  If you uploaded GeoTIFF - the image source is already selected.
+
+This tab allows you to select from:
+
+- Imagery providers
+- Custom URL
+- Historical data
+
+.. _Imagery providers:
+
+Imagery providers
+""""""""""""""""""
+
+.. image:: _static/imagery_providers_tab.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
+Here you can select one of the default providers:
+
+* `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
+
+* **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
+
+By request:
+
+* `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
+ 
+.. hint::
+    You can search the ArcGIS World Imagery metadata (date, zoom level) by location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS.
+
+
+.. important::
+
+    Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable instant imagery analysis and AI mapping.
+    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on specific terms. We are continuously working on adding more commercial providers.
+    For more details about the Imagery providers cost, see :ref:`Mapflow prices <credits>`.
+
+
+Custom URL
+""""""""""""""""""
+
+.. image:: _static/custom_url_tab.png
+  :alt: Imagery providers
+  :align: center
+  :width: 15cm
+  :class: with-border no-scaled-link  
+
+|
+
+ * Specify the XYZ link to the source of the images. The link is automatically checked for validity (for example, :ref:`Openaerialmap <Openaerialmap>` - ``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``);
+ * When adding you custom tile service it might be needed to define Y position: XYZ (top left), TMS/WMTS (bottom left);
+ * Provide your authorization data for the desired source (Login + Password);
+ * Add on map to preview.
+..  * Reset all entered custom parameters.
+..  * Set source image coordinate reference system (espg:3857 or espg:3395);
+..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
+
+Historical data
+""""""""""""""""""
+
+.. image:: _static/historical_data_tab.png
+  :alt: Imagery search tab
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link  
+
+|
+
+This tab provides access to the internal Mapflow service “Imagery search". It allows you to search for available satellite imagery over your area of analysis. After setting the desired search parameters (Date range, Clouds, Off-Nadir and other filters), the found images will appear on the map, which can be used for processing.
+
+.. image:: _static/historical_data_images.png
+  :alt: Imagery search results
+  :align: center
+  :width: 16cm
+  :class: with-border no-scaled-link  
+
+|
+
+.. hint::
+    See :ref:`Imagery search <Imagery search  main>` for more information and guides.
+
+
 2. AI model
-^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
 
@@ -320,7 +321,7 @@ The "Clear Selection" will clear the previously selected processing parameters.
 
 
 View the results
-----------------
+--------------------
 
 In the "Processing history" you see the progress of processing as well as view and get the processing results.
 Each running processing displays the selected model, the status, the creation date and the processing cost.
@@ -346,7 +347,7 @@ Click the "View on the Map" to quickly view the processing result on the built-i
      :class: with-border
 
 Feature attributes
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 Depending on the model and the options applied the extracted features might contain the semantic information that is written in the feature properties in GeoJSON.
 
