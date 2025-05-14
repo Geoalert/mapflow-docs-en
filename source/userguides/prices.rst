@@ -68,7 +68,7 @@ Default Mapflow models
   :file: _static/csv/web_processing_prices.csv
   :header-rows: 1
   :class: longtable
-  :widths: 1 1 1
+  :widths: 1 1 3
 
 .. note::
    If you want to have a custom model with another set of options, consider
