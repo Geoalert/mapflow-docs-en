@@ -57,19 +57,17 @@ OAuth2 setup
 Information on how to log in using OAuth can be found in :doc:`this section <../userguides/howto>`.
 
 User interface
---------------
+----------------
 
 Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.
 
-.. figure:: _static/qgis/main_window.png
-         :alt: View of the main window
-         :align: center
-         :width: 18cm 
-         :class: with-border no-scaled-link 
-
-|
-
 Processing controls panel allows to start new processing and/or rate finished processings, and includes following:
+
+.. figure:: _static/qgis/processing_panel.jpg
+         :alt: View of the processing panel
+         :align: center
+         :width: 8cm
+         :class: with-border
 
 **Processing controls panel**
 
@@ -77,11 +75,11 @@ Processing controls panel allows to start new processing and/or rate finished pr
     :file: _static/qgis/processing_controls_panel.csv 
     :header-rows: 1
     :class: longtable
+    :widths: 10 20
 
 Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
 
-
-Tabs section contains 5 tabs:
+The main window contains 5 tabs:
 
 :ref:`Project/Processing`
 
@@ -125,10 +123,14 @@ To go to the processing of the selected project, you need to double-click on it 
 
          Processing tab
 
-To view the processing results, click on the "View results" button. You can manage the processings using the options and buttons in the bottom panel menu (Delete, Rename, Save results, etc.). Processing search by name is available at the top of the panel.
+To view the processing results, click on the "View results" button or double-click on the processing name in the table. 
+You can manage the processings using the options and buttons in the bottom panel menu (Delete, Rename, Save results, etc.). Processing filter by name is available at the top of the panel.
 
 .. hint::
-    To download the processing results, you can double-click on the completed processing in the list
+    To download the processing results, you can double-click on the completed processing in the list. 
+    
+.. hint::   
+    By default the processing results are downloadable as vector tiles for faster preview.  To donwload the processing results as a file you havve to choose this option: Setttings --> "save rresults as a local vector file"
 
 .. **Explanation of the fields and buttons of this tab:**
 

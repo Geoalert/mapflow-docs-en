@@ -1,12 +1,10 @@
-Name of the field / button,Description
-Processing name,Name of your processing
-Area,The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers.
-Data source,"Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button."
-Zoom,Selecting the zoom for the Data source used
-Show preview,"A preview of your data source or, if it is not available, an OpenStreetMap basemap"
-Processing area,Automatic calculation of the area of the selected processing area
-AI Model,"Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
-Your balance,Remaining area available for processing
-Start processing,"New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
-Stars for rating,Rating scores for the finished processing
-Feedback field,Comments about rating
+# Name of the field / button,Description
+1 Processing name,Name of your processing
+2 Area,The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers.
+3 Data source,"Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button."
+3* Zoom,Selecting the zoom for the Data source used (currently not available in the public version)
+3* Show preview,"A preview of your data source or, if it is not available, an OpenStreetMap basemap"
+4 AI Model,"Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
+4* Your balance,Remaining area available for processing
+5 Start processing,"New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
+6 Stars for rating,Rating scores for the finished processing. Feedback field
