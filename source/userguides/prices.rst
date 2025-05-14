@@ -89,7 +89,7 @@ If you are using connected commercial providers ("Global mosaic" and others that
   :file: _static/csv/data_prices.csv
   :header-rows: 1
   :class: longtable
-  :widths: 20 10 10
+  :widths: 20 10 10 10
 
 
 
@@ -97,12 +97,12 @@ Examples of quotations
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. epigraph::
-    *I want to process 3.3 sq.km of Global Mosaic data at 18 zoom using the Buildings model*
+    *I want to process 3.3 sq.km of Paid provider data at 18 zoom using the Buildings model*
 
-    ``Cost = 3.3 * (10+5) = 50 credits``
+    ``Cost = 3.3 * (5+5) = 33 credits``
 
 .. epigraph::
-    *I want to process 0.01 sq.km of my own imagery using the Buildings Aerial model and applying the simplification option.*
+    *I want to process 0.01 sq.km of my imagery using the Buildings model and applying the Polygonization option.*
     
     Area is rounded up to 1 sq.km, so the cost will be: 
-    ``Cost = 1 * (25+3) = 28 credits``
+    ``Cost = 1 * (5+3) = 8 credits``

@@ -1,6 +1,6 @@
-Data Provider, 18 zoom, 17 zoom
-Mapbox, 0, 0
-ArcGIS WorldView, 0, 0
-Your basemap, 0, 0
-Your TIFF imagery, 0, 0
-Global mosaic 2022-2024, 10, 2.5
+Data Provider, 19 zoom, 18 zoom, 17 zoom
+Mapbox, 0, 0, 0
+ArcGIS WorldView, 0, 0, 0
+Custom URL, 0, 0, 0
+Your TIFF imagery, 0, 0, 0
+Global mosaic 2022, 18, 5, 2
