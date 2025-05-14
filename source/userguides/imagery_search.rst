@@ -71,7 +71,7 @@ Using Mapflow Imagery Search in QGIS
 2. Set additional filters like a minimum intersection with your area of analysis.
 3. If there is non-empty response, it will add the **🔎 Imagery Search metadata** layer to your QGIS project. You can select one or multiple results in the table - or use the layer's attribute table to start the analysis and processing with Mapflow models.
 
-.. figure:: _static/img_search_qgis.jpg
+.. figure:: _static/img_search_qgis.png
          :align: center
          :class: with-border no-scaled-link
          :width: 18cm

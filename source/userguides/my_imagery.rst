@@ -10,12 +10,13 @@ My imagery
 My imagery in QGIS
 ----------------------
 
-"My imagery" allows you to collect images in separate collections, called "mosaic". Using this service, users can easily manage their data collections, reuse images for the next processings and analysis with Mapflow models.
+"My imagery" allows you to collect images in separate *Imagery collections*. Using this service, users can easily manage their data collections, reuse images for the next processings and analysis with Mapflow models.
 
 .. figure:: ../api/_static/qgis/my_imagery_images.png
          :align: center
          :class: with-border
          :width: 18cm
+
 |
 
 Basic usage:
@@ -24,13 +25,13 @@ Basic usage:
     - Adding tags to the imagery collections to make them searchable in the Mapflow projects
 
 The basic scenario of working with "My imagery" service is as follows:
-    1. You are creating a mosaic (a set of images)
-    2. Optionally add tags to identify the mosaic
-    3. Upload your images to the mosaic
-    4. Start processing with Mapflow using the whole mosaic or the specific image. With both methods, you can limit the processing area by applying an AOI.
+    1. You are creating a Imagery collection (a set of images)
+    2. Optionally add tags to identify the collection
+    3. Upload your images to the collection
+    4. Start processing with Mapflow using the whole Imagery collection or the specific image. With both methods, you can limit the processing area by applying an AOI.
 
 .. warning::
-     There are two main **restrictions on uploading images** in the free plan - the image should be no more than *1 GB* and no more than *100,000 pixels* by the side. We have no other restrictions on uploading to the mosaic, but it is important that each uploaded image has the SAME parameters as the rest of the images in the mosaic (pixel size, number of bands, georeference). For example, two images with pixel sizes of 10 cm and 1 m cannot be added to the same mosaic.
+     There are two main **restrictions on uploading images** in the free plan - the image should be no more than *1 GB* and no more than *100,000 pixels* by the side. We have no other restrictions on uploading to the collection, but it is important that each uploaded image has the SAME parameters as the rest of the images in the collection (pixel size, number of bands, georeference). For example, two images with pixel sizes of 10 cm and 1 m cannot be added to the same Imagery collection.
 
 .. note::
      Read how to use it in detail in :ref:`Maplfow QGIS plugin <My imagery qgis>`.
@@ -57,6 +58,7 @@ By default, Mapflow provides a free 1 Gb storage for all new users to upload and
          :align: center
          :class: with-border
          :width: 18cm
+
 |
 
 .. note::
@@ -65,5 +67,4 @@ By default, Mapflow provides a free 1 Gb storage for all new users to upload and
       .. figure:: _static/select_delete_mosaics.gif
             :align: center
             :class: with-border
-            :width: 15cm
-      |    
+            :width: 15cm 
