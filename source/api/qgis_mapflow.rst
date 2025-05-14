@@ -57,19 +57,17 @@ OAuth2 setup
 Information on how to log in using OAuth can be found in :doc:`this section <../userguides/howto>`.
 
 User interface
---------------
+----------------
 
 Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section.
 
-.. figure:: _static/qgis/main_window.png
-         :alt: View of the main window
-         :align: center
-         :width: 20cm 
-         :class: with-border no-scaled-link 
-
-|
-
 Processing controls panel allows to start new processing and/or rate finished processings, and includes following:
+
+.. figure:: _static/qgis/processing_panel.jpg
+         :alt: View of the processing panel
+         :align: center
+         :width: 8cm
+         :class: with-border
 
 **Processing controls panel**
 
@@ -77,15 +75,15 @@ Processing controls panel allows to start new processing and/or rate finished pr
     :file: _static/qgis/processing_controls_panel.csv 
     :header-rows: 1
     :class: longtable
+    :widths: 10 20
 
 Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session. 
 
+The main window contains 5 tabs:
 
-Tabs section contains 5 tabs:
+:ref:`Project/Processing`
 
-:ref:`Processing`
-
-:ref:`Providers`
+:ref:`Imagery_search`
 
 :ref:`My imagery qgis`
 
@@ -94,76 +92,101 @@ Tabs section contains 5 tabs:
 :ref:`Help`
 
 
-.. _Processing:
+.. _Project/Processing:
 
-1. Processing
-~~~~~~~~~~~~~~
+1. Project/Processing
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This tab is divided into two parts. First, you will see a list of your projects. Here you can create, edit, and delete projects using the buttons at the bottom of the panel. Various sorting options and a search for a project by name are also available.
+
+.. figure:: _static/qgis/project_tab.png
+         :alt: View of the project tab
+         :align: center
+         :width: 18cm
+         :class: with-border no-scaled-link 
+
+         Project tab
+
+.. |right_arrow| image:: _static/qgis/right_arrow.png
+  :width: 0.7cm
+
+.. |left_arrow| image:: _static/qgis/left_arrow.png
+  :width: 0.7cm
+
+To go to the processing of the selected project, you need to double-click on it or select the project and click on |right_arrow|. To return to the list of projects, click |left_arrow|.
 
 .. figure:: _static/qgis/processing_tab.png
          :alt: View of the processing tab
          :align: center
          :width: 18cm
-         :class: with-border no-scaled-link 
+         :class: with-border no-scaled-link
 
-|
+         Processing tab
 
-**Explanation of the fields and buttons of this tab:**
-
-.. list-table:: Fields
-   :widths: 5 10
-   :header-rows: 1
-
-   * - Name of the field
-     - Description
-   * - Name
-     - Your processing name.
-   * - Model
-     - User-selected item from the list of available models.
-   * - Status
-     - Processing status: IN_PROGRESS, OK, FAILED. 
-   * - Progress
-     - The percentage of completeness of the processing.
-   * - Area
-     - The processing area (AOI).
-   * - Created
-     - The date-time of the processing creation.
-
-.. list-table:: Buttons
-   :widths: 5 10
-   :header-rows: 1
-
-   * - Name of the button
-     - Description
-   * - View results
-     - Shows the results of completed processing in QGIS layers.
-   * - Delete
-     - Deletes selected processing/processings.
-   * - Options
-     - A list of options for working with the results of processings.
-   * - Save results
-     - Saves processing results to GeoJSON file. 
-   * - Download AOI
-     - Adds processing AOI to qgis as a layer, for further work or export.
-   * - See details
-     - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
-   * - Rename
-     - Renames your processing.
+To view the processing results, click on the "View results" button or double-click on the processing name in the table. 
+You can manage the processings using the options and buttons in the bottom panel menu (Delete, Rename, Save results, etc.). Processing filter by name is available at the top of the panel.
 
 .. hint::
-    To download the processing results, you can double-click on the completed processing in the list
+    To download the processing results, you can double-click on the completed processing in the list. 
+    
+.. hint::   
+    By default the processing results are downloadable as vector tiles for faster preview.  To donwload the processing results as a file you havve to choose this option: Setttings --> "save rresults as a local vector file"
 
-.. _Providers:
+.. **Explanation of the fields and buttons of this tab:**
+
+.. .. list-table:: Fields
+..    :widths: 5 10
+..    :header-rows: 1
+
+..    * - Name of the field
+..      - Description
+..    * - Name
+..      - Your processing name.
+..    * - Model
+..      - User-selected item from the list of available models.
+..    * - Status
+..      - Processing status: IN_PROGRESS, OK, FAILED. 
+..    * - Progress
+..      - The percentage of completeness of the processing.
+..    * - Area
+..      - The processing area (AOI).
+..    * - Created
+..      - The date-time of the processing creation.
+
+.. .. list-table:: Buttons
+..    :widths: 5 10
+..    :header-rows: 1
+
+..    * - Name of the button
+..      - Description
+..    * - View results
+..      - Shows the results of completed processing in QGIS layers.
+..    * - Delete
+..      - Deletes selected processing/processings.
+..    * - Options
+..      - A list of options for working with the results of processings.
+..    * - Save results
+..      - Saves processing results to GeoJSON file. 
+..    * - Download AOI
+..      - Adds processing AOI to qgis as a layer, for further work or export.
+..    * - See details
+..      - Shows information about processing (*Name, Status, Model, Model options, Data provider*).
+..    * - Rename
+..      - Renames your processing.
+
+
+.. _Imagery_search:
 
 2. Imagery search
 ~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/qgis/Providers_tab.png
-         :alt: View of the providers tab
+.. figure:: _static/qgis/imagery_search_tab.png
+         :alt: View of the imagery search tab
          :align: center
-         :width: 15cm
+         :width: 18cm
+         :class: with-border
 
 |
-
 
 .. list-table::
    :widths: auto
@@ -171,24 +194,30 @@ Tabs section contains 5 tabs:
 
    * - Name of the field / button
      - Description
-   * - "Edit" button
-     - Button for changing the parameters of the source of satellite images.
-   * - Preview
-     - A button to preview the specified satellite imagery by geospatial provider.
-   * - Image ID
-     - Image ID from the *Imagery catalog* of the selected image of specified satellite image source.
-   * - Max zoom
-     - Zoom number is selected by default to exclude the consumption of paid traffic for preview (Relevant if connected to **Maxar SecureWatch**).
-   * - Area
-     - The area for which metadata will be presented.
-   * - Use canvas extent
-     - The processing area will be taken from the QGIS map canvas.
    * - Period of time (From...To)
      - The images will be provided for the specified time period.
-   * - Search imagery
+   * - Mosaic
+     - The search will be performed only for providers with the "Mosaic" type (ArcGIS World Imagery, Global mosaic 2022).
+   * - Image
+     - The search will be performed only for providers with the "Image" type (Orbview).
+   * - Search
      - Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area.
-   * - Additional Filters
-     - Use to set the minimum intersection rate between the image and the area of interest and the minimum percentage of image cloudiness.
+   * - Min intersection
+     - Use to set the minimum intersection rate between the image and the area of interest.
+   * - Cloud cover
+     - Use to set the minimum percentage of image cloudiness.
+   * - Providers
+     - Here you can select which providers will be searched.
+   * - "Search only..."
+     - The search results will show only those providers that are connected to your account.
+   * - Preview
+     - Click this column to preview the specified satellite imagery by geospatial provider.
+   * - Clear
+     - Deletes all search results from the table.
+
+.. hint::
+  Read more about :ref:`Imagery search <Imagery search  main>`.
+
 
 How to preview the search results
 """""""""""""""""""""""""""""""""
@@ -212,7 +241,7 @@ Imagery search provides the ability to preview search results with a double-clic
 
 To upload you images and process multiple images in a one shot you can use "My imagery" tool available in Mapflow QGIS.
 
-The main scenario of working with My imagery in QGIS:
+**The main scenario of working with My imagery in QGIS:**
 
 .. figure:: _static/qgis/my_imagery_scenario.png
          :align: center
@@ -231,13 +260,12 @@ The main scenario of working with My imagery in QGIS:
 
 |
 
-
 How to run the processing using My imagery
 """""""""""""""""""""""""""""""""""""""""""
 
-1. Create the mosaic by clicking "Add mosaic"
-2. Upload your images into mosaic, click "+" on selected mosaic and choose the way of uploading - you can choose from the file on your device or from QGIS raster layer
-3. Now you can preview the whole mosaic (QGIS tile layer will be added)
+1. Create the Imagery collection by clicking "Add collection" (You can upload your image to it instantly or do it in the next step.);
+2. Upload your images into collection, click "+" on selected collection and choose the way of uploading - you can choose from the file on your device or from QGIS raster layer;
+3. Now you can preview the whole Imagery collection (QGIS tile layer will be added);
 4. See the uploaded images and preview them one at a time (QGIS tile layer will be added):
 
 .. figure:: _static/qgis/my_imagery_images.png
@@ -247,25 +275,30 @@ How to run the processing using My imagery
 
 |
 
-5. To run the processing, select the mosaic or a single image you need
+5. To run the processing, select the collection or a single image you need. Choose custom AOI or collection/image extent through the "+" button;
 
-.. warning::
-   Two important points before creating a Processing:
-   
-   1. Make sure that the "Use image / mosaic extent" box and "🖼️ My imagery" provider is selected - this way, processing will include the entire area of the mosaic/image
-   2. if you want the Processing to be limited by AOI, you need to disable the “Use image / mosaic extent" checkbox
+.. note::
+   Selecting Collection or Image extent as a processing AOI:
+
+      .. figure:: _static/qgis/collection_or_image_extent.png
+               :align: center
+               :class: with-border
+               :width: 11cm
+
 
 .. figure:: _static/qgis/my_imagery_run.png
          :align: center
          :class: with-border
          :width: 18cm
 
+         Example of processing by Imagery collection
+
 |
 
-6. Click "Start processing"
+6. Click "Start processing".
 
-.. note::
-   You can delete your images from the mosaics one at a time or using multiselect:
+.. hint::
+   You can delete your images from the Imagery collections one at a time or using multiselect:
 
     .. figure:: _static/qgis/my_imagery_delete.png
             :align: center
@@ -280,49 +313,67 @@ How to run the processing using My imagery
 4. Settings
 ~~~~~~~~~~~~~
 
-.. figure:: _static/qgis/settings_tab_w_projects.png
-         :alt: View of the providers tab
+.. figure:: _static/qgis/settings_tab.png
+         :alt: View of the settings tab
+         :class: with-border
          :align: center
-         :width: 18cm
+         :width: 15cm
 
 |
 
-.. list-table:: 
-   :align: center
-   :widths: auto
-   :header-rows: 1
+.. .. list-table:: 
+..    :align: center
+..    :widths: auto
+..    :header-rows: 1
 
-   * - Name of the field / button
-     - Description
-   * - Imagery providers
-     - Drop-down list with additional satellite imagery providers.
-   * - "Add provider" button
-     - Button for adding a source of images. 
-   * - "Delete provider" button
-     - Button for deleting the custom data provider.
-   * - "Edit provider" button
-     - Opens dialog to edit custom data provider.
-   * - Select mapflow project
-     - Drop-down list with mapflow projects on you account.
-   * - "Add project" button
-     - Button for creating your new map flow project.
-   * - "Delete project" button
-     - Button for deleting the mapflow project.
-   * - "Edit project" button
-     - Button for editing the mapflow project.
+..    * - Name of the field / button
+..      - Description
+..    * - Imagery providers
+..      - Drop-down list with additional satellite imagery providers.
+..    * - "Add provider" button
+..      - Button for adding a source of images. 
+..    * - "Delete provider" button
+..      - Button for deleting the custom data provider.
+..    * - "Edit provider" button
+..      - Opens dialog to edit custom data provider.
+..    * - Select mapflow project
+..      - Drop-down list with mapflow projects on you account.
+..    * - "Add project" button
+..      - Button for creating your new map flow project.
+..    * - "Delete project" button
+..      - Button for deleting the mapflow project.
+..    * - "Edit project" button
+..      - Button for editing the mapflow project.
 
-Here you can configure how the processing results will be uploaded to QGIS. There are two ways:
+This tab allows you to manage many of the plugin's components: 
 
-1. ``view result as a vector layer``
-   - This is streaming vector tiles directly from our server, which allows you to view results of the processings without downloading full results file, so it will be faster for big processings.
-2. ``save local gpkg file to view results``
-   - Saving local gpkg files on your disk for further loading as QGIS layers.
+- **Add, edit, and delete data sources;**
+- **Configure columns in Processing and Imagery search tables;**
+- **Сonfigure how the processing results will be uploaded to QGIS;**
 
-.. warning::
-  Vector tiles are an experimental feature for us, so choose the method that is convenient for you.
+    There are two ways:
+
+    1. ``view result as a vector layer`` - This is streaming vector tiles directly from our server, which allows you to view results of the processings without downloading full results file, so it will be faster for big processings.
+
+    2. ``save local gpkg file to view results`` - Saving local gpkg files on your disk for further loading as QGIS layers.
+
+- **Enable or disable parameter confirmation before starting processing.**
+
+.. figure:: _static/qgis/confirm_processing.png
+         :alt: View of the processing confirmation
+         :class: with-border
+         :align: center
+         :width: 14cm
+
+         After clicking "Start processing", a confirmation of the parameters will appear
+
+|
+
+.. .. warning::
+..   Vector tiles are an experimental feature for us, so choose the method that is convenient for you.
 
 .. hint::
-    This tab contains also *Output directory* button. 
+    This tab also contains *Output directory* button. 
 
     *Output directory* - set up where the processing results will be loaded on your local disk If the ``save local gpkg file to view result`` option is selected.
 
@@ -341,13 +392,11 @@ To start the processing you need to add the Polygon **Area of Interest** (AOI).
 
 The plugin has several built-in options for creating AOI.
 
-   1. Create new AOI from the map canvas extent using the "+" button;
-
-   2. Upload the existing AOI using the "+" button;
+   1. Draw AOI at the map;
    
-   3. Draw AOI at the map;
-
-   4. Use the extent of the uploaded image.
+   2. Use imagery extent (Imagery collection or Image extent will be used if the processing is started by My imagery);
+   
+   3. Create new AOI from the map canvas extent using the "+" button.
 
 Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them.
 
@@ -511,7 +560,7 @@ To start processing using this data source, go to the *Processing* tab, fill in 
 How to upload your image
 -------------------------
 
-You can upload your own GeoTIFF using :ref:`My Imagery qgis`.
+You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`.
 
 
 .. important::
@@ -539,7 +588,7 @@ View the results
 
 The processing results that are 100% complete can be downloaded as a vector file to your local directory or streaming as a vector tiles and automatically added as layer to QGIS workspace.
 
-Double click on the processing name in the :ref:`Processing` Table or select it and push the button "View results".
+Double click on the processing name in the :ref:`Processing <Project/Processing>` table or select it and push the button "View results".
 The layer will appear in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder "Mapflow".
 You can work with it further as with the usual vector layer in QGIS.
 
