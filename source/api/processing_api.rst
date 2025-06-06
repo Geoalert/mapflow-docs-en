@@ -454,7 +454,7 @@ Response example:
       "rating": null,
       "percentCompleted": 100,
       "params": {
-          "url": "https://rasters-production.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://mapflow-rasters/4738260d-0fab-479f-beff-633d50a388f0",
+          "url": "https://app.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/0617c425-9bfa-45a3-b2ea-46020e48d775",
           "source_type": "xyz",
           "crs": "EPSG:3857"
       },
@@ -499,7 +499,7 @@ Processing cost
 
 ``POST https://api.mapflow.ai/rest/processing/cost``
 
-If you want to find out the cost of processing without running it, you can use this method.
+To find out the cost of processing without running it, you can use this method.
 Returns the cost of the processing in :ref:`credits <credits>` given the model, the area and the data source.
 
 Request body example:
@@ -553,12 +553,12 @@ Response example:
 
 .. _Create processing:
 
-Run the processing
-^^^^^^^^^^^^^^^^^^^
+▶️ Run the processing
+^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
 
-Runs a processing, and returns its immediate state.
+Runs an imagery analysis processing, and returns its immediate state.
 Request body sample:
 
 .. code:: json
@@ -596,7 +596,12 @@ Request body sample:
             ]
         },
         "params": {                           //Arbitrary string parameters of this processing. Optional.
-            "data_provider": "Mapbox",
+            "sourceParams": {
+                "dataProvider": {
+                    "providerName": "Mapbox",
+                    "zoom": 18 // optional
+                }
+            }
         },
         "meta": {                             //Arbitrary string key-value for this processing (metadata). Optional.
             "test": "test"
@@ -604,6 +609,8 @@ Request body sample:
     }
 
 .. note::
+
+
 
   To process a user-provided image (see :ref:`Upload image <upload-images>` section), set parameters as follows:  
 
@@ -617,98 +624,6 @@ Request body sample:
 
 Response: the newly created processing.
 
-
-✍️ Params to run the processing
-
-.. csv-table::
-    :file: _static/csv/params_run.csv
-    :widths: 30, 20, 80
-    :header-rows: 1
-    :class: longtable
-
-
-✍️ Default AI models
-^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table::
-   :widths: 10 20 10 10 20
-   :header-rows: 1
-
-   * - VALUE
-     - DESCRIPTION
-     - MODEL input (m/px), num of bands
-     - ZOOM LEVEL
-     - OPTIONS
-   * - 🏠 Buildings
-     - Detects buildings & classifies them
-     - 0.5, 1-3 (RGB)
-     - 17–18
-     - Simplification, OSM, Classification
-   * - 🌲 Forest
-     - Detects tree-like vegetation
-     - 0.5, 3 (RGB)
-     - 17-18
-     - Heights
-   * - 🚗 Roads
-     - Detects roads and returns them as polygons / linestrings
-     - 0.5, 3 (RGB)
-     - 17–18
-     - 
-   * - 🏗️ Construction
-     - Detects construction sites
-     - 0.5, 3 (RGB)
-     - 17–18
-     - 
-
-
-✍️ Params to specify the data source
-
-.. csv-table::
-    :file: _static/csv/params_ds.csv
-    :widths: 30, 20, 60, 40
-    :header-rows: 1
-    :class: longtable
-
-
-
-✍️ Params to specify the "source_type"
-
-.. list-table::
-   :widths: 10 30
-   :header-rows: 1
-
-   * - VALUE
-     - DESCRIPTION
-   * - XYZ
-     - The URL to the imagery service in “xyz” format
-   * - TMS
-     - The similar to "xyz" with reverse "y" coordinate
-   * - WMS
-     - (❗️❗️Deprecated) The URL to the imagery service in “wms” format
-   * - Quadkey
-     - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
-   * - local
-     - File of image in GeoTIFF format
-
-
-Processing status
-
-.. list-table::
-   :widths: 10 30
-   :header-rows: 1
-
-   * - VALUE
-     - Description
-   * - UNPROCESSED
-     - The processing is not started yet
-   * - IN_PROGRESS
-     - The processing is going (or is in the queue)
-   * - FAILED
-     - The processing ended unsuccessfuly - change wrong params or try to restart
-   * - OK
-     - The processing is finished at 100 percent completed
-   * - *IN_REVIEW*
-     - The additional status enabled by request (if the results are under review)
 
 
 Customize processing with the options
@@ -880,6 +795,160 @@ Upload images
   1. ❗️ Use :ref:`Data API` to create a mosaic and upload one or more images
   2. Use s3 link from the ``"image_url"`` as an ``"url"`` param to :ref:`Create processing`
 
+
+Reference
+--------------
+
+✍️ Params to run the processing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :file: _static/csv/params_run.csv
+    :widths: 30, 20, 80
+    :header-rows: 1
+    :class: longtable
+
+
+✍️ Params to specify the data source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :file: _static/csv/params_ds.csv
+    :widths: 30, 20, 60, 40
+    :header-rows: 1
+    :class: longtable
+
+**Create new processing with default Data provider**
+
+.. code:: json
+
+      "params": {
+        "sourceParams": {
+            "dataProvider": {
+                "providerName": "Mapbox",
+                "zoom": 18 // optional
+            }
+        }
+    }
+
+
+**Create new processing with User custom URl**
+
+.. code:: json
+  
+      "params": {
+        "sourceParams": {
+            "userDefined": {
+                "url": "https://app.mapflow.ai/api/v0/cogs/tiles/{z}/{x}/{y}.png?uri=s3://white-maps-rasters/0617c425-9bfa-45a3-b2ea-46020e48d775",
+                "sourceType": "XYZ",
+                "zoom": 19, // optional
+                "crs": "epsg:3857", // optional
+                "rasterLogin": "qwerty", // optional
+                "rasterPassword": "12345678" // optional
+            }
+        }
+    }
+
+**Create new processing with My Imagery (Image collection)**
+
+.. code:: json
+
+      "params": {
+        "sourceParams": {
+            "myImagery": {
+                "mosaicId": "0617c425-9bfa-45a3-b2ea-46020e48d775"
+            }
+        }
+    }
+
+
+**Create new processing with My Imagery (single Image)**
+
+.. code:: json
+
+      "params": {
+        "sourceParams": {
+            "myImagery": {
+                "imageIds": ["0c26a0d3-96d8-4ed5-aa62-3843d1d7905c"]
+            }
+        }
+    }
+
+
+✍️ Params to specify the "source_type"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 30
+   :header-rows: 1
+
+   * - VALUE
+     - DESCRIPTION
+   * - XYZ
+     - The URL to the imagery service in “xyz” format
+   * - TMS
+     - The similar to "xyz" with reverse "y" coordinate
+   * - WMS
+     - (❗️❗️Deprecated) The URL to the imagery service in “wms” format
+   * - Quadkey
+     - The one-dimensional index key that usually preserves the proximity of tiles in "xy" space (Bing Maps tile format)
+   * - local
+     - File of image in GeoTIFF format
+
+
+✍️ Default AI models
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 20 10 10 20
+   :header-rows: 1
+
+   * - VALUE
+     - DESCRIPTION
+     - MODEL input (m/px), num of bands
+     - ZOOM LEVEL
+     - OPTIONS
+   * - 🏠 Buildings
+     - Detects buildings & classifies them
+     - 0.5, 1-3 (RGB)
+     - 17–18
+     - Simplification, OSM, Classification
+   * - 🌲 Forest
+     - Detects tree-like vegetation
+     - 0.5, 3 (RGB)
+     - 17-18
+     - Heights
+   * - 🚗 Roads
+     - Detects roads and returns them as polygons / linestrings
+     - 0.5, 3 (RGB)
+     - 17–18
+     - 
+   * - 🏗️ Construction
+     - Detects construction sites
+     - 0.5, 3 (RGB)
+     - 17–18
+     - 
+
+
+✍️ Processing status
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 10 30
+   :header-rows: 1
+
+   * - VALUE
+     - Description
+   * - UNPROCESSED
+     - The processing is not started yet
+   * - IN_PROGRESS
+     - The processing is going (or is in the queue)
+   * - FAILED
+     - The processing ended unsuccessfuly - change wrong params or try to restart
+   * - OK
+     - The processing is finished at 100 percent completed
+   * - *IN_REVIEW*
+     - The additional status enabled by request (if the results are under review)
 
 
 .. include:: error_messages.rst
