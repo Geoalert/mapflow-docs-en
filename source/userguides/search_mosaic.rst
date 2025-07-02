@@ -1,7 +1,8 @@
-Mapflow Data API enables search for the Global Mosaic's metadata.
+Mapflow Data API enables search for the Global Mosaics metadata.
 
 .. note::
     Commercial 🌏 Global mosaic is the annually updated satellite imagery composite covering most of the World. The mosaic is composed of "Jilin" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 12.
+    **🌏 ArcGIS World Imagery** is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory.
 
 How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's metadata and run the analysis:  
 
@@ -31,4 +32,4 @@ How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's metadata
 
 |
 
-To run the processing over the whole area of analysis – just clear the selection and use the **Data Source: 🌏 Global mosaic 2022** as usual.
+To run the processing over the whole area of analysis – just clear the selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data Source: 🌏 ArcGIS World Imagery**.

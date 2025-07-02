@@ -20,3 +20,5 @@ AI-Mapping Models
 .. .. include:: forest_with_heights_model.rst
 .. include:: agriculture_fields_model.rst
 .. include:: sam_model.rst
+.. include:: swimming_pools_model.rst
+.. include:: solars_model.rst

@@ -24,7 +24,10 @@ Satellite imagery
 
 **What satellite imagery do you use? What are their resolution, alignment accuracy and other characteristics?**
 
-    Currently, we only support RGB or PAN images as raw data. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of **Vivid Basic** imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`.
+    Currently, we only support RGB or PAN images as raw data. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`.
+    You can request access to **ArcGIS World Imagery** – is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI.
+    **"Global mosaic"** – the basic version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China. Customers can request access to updated version up to the current year. 
+ 
 
 **Can I choose another satellite mosaic?**
 

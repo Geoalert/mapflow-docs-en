@@ -1,7 +1,7 @@
-✨ Segment anything (DEPRECATED)
+✨ Segment anything (CUSTOM)
 ----------------------------------
-.. warning::
-   This model has been deprecated as default one. it's available only by request.
+.. note::
+   This model has been deprecated as default one and moved to custom. it's available only by request.
 
 The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model: 
 

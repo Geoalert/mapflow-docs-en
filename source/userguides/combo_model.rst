@@ -1,7 +1,7 @@
-(BETA) Buildings + Roads + Forest
+Buildings + Roads + Forest (BETA)
 -------------------------------------
 
-This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected vector layer. 
+This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output. 
 
 
 .. figure:: _static/processing_result/landuse_model.jpg
@@ -10,4 +10,4 @@ This pipeline combines Buildings, Forest and Roads in a single workflow and retu
    :width: 15cm
    :class: with-border no-scaled-link
    
-   Processing result sample for a rapidly developing area with construction sites
+   Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models.
