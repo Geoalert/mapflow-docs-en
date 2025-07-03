@@ -4,7 +4,7 @@
 .. note::
    This model is available by request.
 
-Solar panels is a model trained for detecton of Photovoltaic elements using aerial imagery (working zoom levels 19-21). It's capable of detection PV elements both on the rooftops and on the ground. The testing benchmark score is ``F1 > 0.88``.
+Solar panels is a model trained for detecton of Photovoltaic elements using aerial imagery (working zoom levels 19-21). It's capable of detection PV elements both on the rooftops and on the ground. The testing benchmark score is ``F1 > 0.87``.
 
 
 .. list-table::
@@ -16,14 +16,14 @@ Solar panels is a model trained for detecton of Photovoltaic elements using aeri
      - Zoom level
      - F1 (testing)
      - Geo domain
-   * - Swimming pools
+   * - Solar panels
      - Detector + segmentator
      - zoom 19-21
-     - > 0.88
+     - > 0.87
      - Global
 
 .. figure:: _static/processing_result/custom_models/solars.jpg
-   :alt: Processing result of construction model
+   :alt: Processing result of solars model
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
