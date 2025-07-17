@@ -19,7 +19,7 @@ Solar panels is a model trained for detecton of Photovoltaic elements using aeri
    * - Solar panels
      - Detector + segmentator
      - zoom 19-21
-     - > 0.87
+     - pixelwise > 0.77
      - Global
 
 .. figure:: _static/processing_result/custom_models/solars.jpg
