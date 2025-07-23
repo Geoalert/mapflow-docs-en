@@ -415,19 +415,18 @@ How to search for specific images in the 🌏 Global mosaic
 
 .. include:: ../userguides/search_mosaic.rst
 
-
 .. _Maxar SecureWatch:
 
-How to connect to Maxar SecureWatch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to connect to Maxar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
- SecureWatch is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
+ SecureWatch (new name - ) is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
 
 
 * **Use of embedded Maxar SecureWatch for image processing by Mapflow**
 
-   In the *Data source* drop-down list, select the required Maxar product (SecureWatch, Vivid), switch to the *Imagery search* tab.
+   In the *Settings -- Add or edit imagery providers* select the type *Maxar WTS*, switch to the *Imagery search* tab.
 
 * **Maxar preview**
 

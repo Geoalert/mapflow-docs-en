@@ -4,6 +4,14 @@ My imagery
 ===========
 
 .. note::
+     In general there are four ways to use aerial or satellite data in Mapflow:
+
+     1. **My imagery** – upload your own images to the Mapflow platform and use them for processing with Mapflow models.
+     2. **Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox, ArcGIS, etc., are enabled in Mapflow for the instant . You can use them with default models.
+     3. **Custom URL** – you can set your own XYZ or TMS layers, including commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar Securewatch>`, Google, etc. This is available in Mapflow Web, API and QGIS plugin.
+     4. **Imagery Search** – search for the historical imagery in Mapflow Web and QGIS plugin and place you order to get the images from our partners.  (*under development*)
+
+.. warning::
      ❗️ Currently, you can use *My imagery* in :ref:`Maplfow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress.
 
 

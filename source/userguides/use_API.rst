@@ -67,12 +67,12 @@ Here we get the response containing the project ID, that we can use to create th
 Response example:
 
 .. code:: json
-
-            {
-            "id": "fb49b97e-51ec-4b31-872f-d1411284de85",
-            "name": "My new project",
-            ...
-        }
+    
+        {
+        "id": "fb49b97e-51ec-4b31-872f-d1411284de85",
+        "name": "My new project",
+        ...
+    }
 
 See more in :ref:`Projects - API`
 
@@ -132,7 +132,7 @@ If you have one processing with the multiple AOIs *(by default the number of AOI
 
 .. code:: bash
 
-    curl --location 'whitemaps-internal.mapflow.ai/rest/processings/<ID>/result' \
+    curl --location 'https://api.mapflow.ai/rest/processings/<ID>/result' \
     --header 'Authorization: Basic <YOUR API TOKEN>' -O <YOUR PATH TO FILE>.geojson
 
 In case of the multiple processings, you might find it useful to run the small script.

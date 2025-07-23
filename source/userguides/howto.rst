@@ -103,6 +103,7 @@ You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). A
     :align: center
     :class: with-border no-scaled-link
     :width: 15cm
+|
 
 .. important::
 
@@ -137,6 +138,7 @@ Select the image and copy link to TMS to connect it to Mapflow Custom URL.
     Your can use this service to publish your own UAV data (note that it will become publicly accessible). 
     As soon as your aerial image is published on Openaerialmap it’s displayed on the public map and can be connected using TMS/WMTS or downloaded as GeoTIFF file. 
     Both ways are OK to work with Mapflow.
+
 
 
 .. _Nearmap_:
