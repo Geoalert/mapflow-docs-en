@@ -18,14 +18,9 @@ Yet there is one difference in the model workflow:
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
-
 |
 
-Depending on the input resolution, the SAM model will interpret and generate different objects. It can be empirically classified by the zoom levels as follows.
-
-
-SAM options – semantic classification
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Depending on the input resolution, the SAM model will interpret and generate different results. It can be empirically classified by mapping classes depending on the zoom levels as follows:
 
 .. list-table::
    :widths: 10 40
@@ -34,12 +29,12 @@ SAM options – semantic classification
    * - ZOOM LEVELS
      - SEMANTIC OBJECTS
    * - 14
-     - Land use, forests, parks, fields, bodies of water
+     - Land use, large agri fields, forests, parks, fields, bodies of water
    * - 16
      - Small fields, large buildings, lawns, plots
    * - 18
      - Farms, buildings, groups of trees, etc.
-   * - Aero
+   * - 19+
      - Houses, trees, vehicles, roof structures, etc.
 
 .. figure:: _static/processing_result/sam_14.jpg
@@ -73,7 +68,7 @@ SAM options – semantic classification
    :width: 15cm
    :class: with-border no-scaled-link
 
-   E.g. Result – SAM Aero (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping. 
+   E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping. 
 
 .. figure:: _static/processing_result/sam_aero_containers.jpg
    :alt: SAM options - zoom levels
@@ -81,7 +76,7 @@ SAM options – semantic classification
    :width: 15cm
    :class: with-border no-scaled-link
 
-   E.g. Result – SAM Aero (zoom 20), containers. Appropriate for small typicall objects, requires little manual cleaning. 
+   E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to small similar-pattern objects, requires some manual filtering of the model's output. 
 
 .. note::
    ❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified.

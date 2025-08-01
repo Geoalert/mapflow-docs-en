@@ -12,11 +12,10 @@ The model does not extract the footprints directly, because they are not clearly
 
 **Additional options:**
 
-* *Classification by types of buildings* – typology of buildings is represented by the main classes (see :doc:`reference <../../um/classes>`).
-* *Simplification* - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. Also the corrected buildings are rotated to align with the nearest roads. This option produces much more map-friendly shapes which look better and are easier to edit, but some shape accuracy can be lost.
-* *Merge with OSM [Mapflow Web only]* - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option. In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index more than 0.7) and if there is one, we replace our result with OSM contour. This makes the result not based on the image, so the buildings can be shifted from actual positions, and some changes that have occurred after OSM mapping may be lost.
-
-.. * *Building heights [Mapflow Web only]* - building height estimation by the length of the shadow and the visible part of the wall. This option also provides building footprints instead of roofs. See our `article <https://medium.com/geoalert-platform-urban-monitoring/buildings-height-estimation-7babe6420893>`_ for some details on the technology.
+* **Classification by types of buildings** – typology of buildings is represented by the main classes (see :doc:`reference <../../um/classes>`).
+* **Simplification** - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. Also the corrected buildings are rotated to align with the nearest roads. This option produces much more map-friendly shapes which look better and are easier to edit, but some shape accuracy can be lost.
+* **Merge with OSM [Mapflow Web only]** - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option. In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index more than 0.7) and if there is one, we replace our result with OSM contour. This makes the result not based on the image, so the buildings can be shifted from actual positions, and some changes that have occurred after OSM mapping may be lost.
+* **Height Estimation (beta)** – feature leverages a dedicated regression-based model that infers height using visual indicators such as shadow length and visible wall segments. The result is what is termed **3D building footprints** where the building's countour is projected to ground level instead of the roof outline. This is especially useful for oblique imagery, where roofs often appear shifted.
 
 A sample of processing result with different options for Prague, Czech Republic.
 
@@ -44,11 +43,21 @@ A sample of processing result with different options for Prague, Czech Republic.
    
    Result merged with OSM: some of the buildings imported from OSM have more accurate shape, but may be shifted from the image position.
 
-   **Benchmarks:**
+.. figure:: _static/processing_result/buildings_model_heights.jpg
+   :alt: Processing result of buildings model with height estimation in Mapflow Web
+   :align: center
+   :width: 15cm
+   :class: with-border no-scaled-link
 
-:::::::::::::
+   Processing result of buildings model with height estimation in Mapflow Web
+
+   
+Benchmarks - segmentation
+::::::::::::::::::::::::::::
+
 
 **Houston, U.S. (-95.2920, 29.7718)**
+ – `View on the Map <https://app.mapflow.ai>`_
 
 .. list-table::
    :widths: 15 20 15 10 20
@@ -70,12 +79,11 @@ A sample of processing result with different options for Prague, Czech Republic.
    :align: center
    :width: 20cm
    :class: with-border no-scaled-link
+|
 
-`View on the Map <https://app.mapflow.ai>`_
-
-::::::::
 
 **Kolomna, Russia (38.7657, 55.0928)**
+ – `View on the Map <https://app.mapflow.ai/>`_
 
 .. list-table::
    :widths: 15 20 15 10 20
@@ -92,11 +100,11 @@ A sample of processing result with different options for Prague, Czech Republic.
      - objectwise 0.75
      - urban mixed - regular
 
-
 .. figure:: _static/processing_result/custom_models/kolomna.webp
    :alt: Processing result of construction model
    :align: center
    :width: 20cm
    :class: with-border no-scaled-link
+|
 
-`View on the Map <https://app.mapflow.ai/>`_
+

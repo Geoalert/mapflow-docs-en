@@ -3,7 +3,8 @@ Buildings, 5,  "| Classification: 0
 | Simplification: 3
 | Heights estimation: 20
 | Merge with Opensteeetmap: 0
-| Align with roads: 0"
+| Align with roads: 0
+| Height Estimation: 10"
 Constructions, 4, "\-"
 Forest and trees, 8, "| Height estimates: 10
 | Crowns extraction: 10
