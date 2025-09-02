@@ -1,11 +1,8 @@
-Requirements for using the platform
-====================================
-
-.. _Upload requirements:
+Requirements for the platform
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Upload GeoTIFF requirements
-----------------------------
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. note::
     Please pay attention to the following:
 
@@ -22,7 +19,7 @@ For more details, see :doc:`errors description <../api/error_messages>`.
 .. _Model requirements:
 
 Model requirements
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 The table below lists model requirements for spatial resolution of the input imagery.
 

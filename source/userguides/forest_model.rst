@@ -1,5 +1,5 @@
-🌲 Forest
----------
+🌲 Forest and trees
+----------------------
 
 Forest Segmentation. The model is trained on high-resolution data (0.6 m) for different areas and climate zones.
 

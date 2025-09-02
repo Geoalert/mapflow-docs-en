@@ -1,6 +1,5 @@
-   
-Forest Mapping classes
-======================
+Forest mapping classes
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Here is presented a list of classes for the Forest vegetation Mapping Model.
 There are two options for forest semantic classification:

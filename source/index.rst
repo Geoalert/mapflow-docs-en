@@ -76,11 +76,9 @@ Reference materials
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
 
-   um/classes
-   forest/classes
-   userguides/requirements
+   userguides/reference.rst
 
 ***************************
 Frequently asked questions
