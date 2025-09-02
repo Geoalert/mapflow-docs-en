@@ -76,9 +76,9 @@ Reference materials
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
 
-   userguides/reference.rst
+   userguides/reference
 
 ***************************
 Frequently asked questions
