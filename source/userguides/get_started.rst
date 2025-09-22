@@ -346,18 +346,18 @@ Click the "View on the Map" to quickly view the processing result on the built-i
      :width: 18cm
      :class: with-border
 
-Feature attributes
-^^^^^^^^^^^^^^^^^^^^^
+Feature attributes and multilayers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Depending on the model and the options applied the extracted features might contain the semantic information that is written in the feature properties in GeoJSON.
 
- .. figure:: _static/feature_attr.png
+E.g. "Buildings" model with "simplification" and "classification" by building typology options:
+
+ .. figure:: _static/buildings_view_multilayers.jpg
      :alt: Preview results
      :align: center
      :width: 18cm
      :class: with-border
-
-E.g. "Buildings" model with "simplification" and "classification" options:
 
 
 .. list-table::
@@ -369,7 +369,7 @@ E.g. "Buildings" model with "simplification" and "classification" options:
    * - Area
      - Feature area in meters
    * - Class_id
-     - Buildings typology (see the :doc:`../um/classes`)
+     - Buildings typology
    * - Shape_type
      - The geometry primitive depending on the polygonization algorithm that's been applied to the feature mask
    * - Processing_date
@@ -377,6 +377,19 @@ E.g. "Buildings" model with "simplification" and "classification" options:
    * - Simplification_score
      - The score is counted by the intersection of the pixel feature and polygonized feature. The higher score - the closer polygonized feature to the pixel one.
 
+
+Swithcing the layers to preview on the map
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can switch the layers to preview on the map. Click the "sandwitch" button on the top right corner of the map and extend the dialogue with the map legend.
+
+E.g. "[beta] Buildings + Roads + Forest" model results with different layers:
+
+ .. figure:: _static/combo_view_multilayers.jpg
+     :alt: Layers view on the map
+     :align: center
+     :width: 18cm
+     :class: with-border
 
 
 Rate the processing
