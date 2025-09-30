@@ -16,16 +16,12 @@ You will be asked to pay online.
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
-
 |
-
-.. important::
-   If you want to buy a custom number of credits, use another payment method, or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_.
 
 .. _credits:
 
 Mapflow credits
----------------
+-----------------
 
 Cost of processing makes the sum of **data cost** and **processing cost** given the requested area:
 
@@ -55,10 +51,17 @@ All prices below are given in Mapflow credits. Mapflow Web also provides a trans
    * All the processings having an area less than 1 sq.km are rounded up to 1 sq.km before price calculation!
    * Total processing cost is rounded up to the nearest integer number of credits
 
-.. note::
-   Most default models work at 18 zoom. The exceptions are Fields high-res model (17 zoom) and Segment-anything that has an optional zoom. `What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_
 
-Maflow pricing
+Mapflow subscription plans
+-----------------------------
+
+.. important::
+   If you want to buy a custom package of credits or use another payment method, or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_.
+
+So far Mapflow provides two pricing models: pay-as-you-go and subscription plans. Currently the only plan **"Mapflow Premium"** is available. It includes a monthly subscription fee and a package of credits. The subscription fee is charged monthly, the credits are valid for 12 months. It enables some premium options like custom area size, use of the any custom model that you have access to, priority support, and more. Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for details. 
+
+
+Model costs
 -------------------------
 
 Default Mapflow models
@@ -71,19 +74,23 @@ Default Mapflow models
   :widths: 1 1 3
 
 .. note::
-   If you want to have a custom model with another set of options, consider
-   applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_.
+   If you want to have a custom model with another set of options, consider applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Custom model pricing depends on the complexity of the task and the total project size. To get the quotation and apply the discount, please share your project requirements.
 
+Data costs
+--------------
 
-.. note::
+.. important::
+   If you are using your own imagery, GeoTIFF or Custom URL, the data cost is always 0 credits.
 
-   Custom model pricing depends on the complexity of the task and the total project size. To get the quotation and apply the discount, please contact us to share your project requirements.  
+Imagery basemap costs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When using default imagery basemaps (Mapbox, Arcgis WorldView Imagery), the price starts from a min. of 1 credit, depending on the model and the zoom level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if you change the zoom, the price is automatically recalculated.
 
+Imagery ordering costs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you are using commercial providers and order the new image, the cost varies depending on the resolution of the satellite sensor. We partner with streaming data providers, which means you don't have to deal with price lists and files over FTP; instead, you can search for imagery that better meets your date and area requirements. Zoom level is fixed and changing it is not possible for the imagery ordering. 
 
-Data price
-~~~~~~~~~~~~~~
-When using default data providers (Mapbox, Arcgis WorldView Imagery), your own TMS, or your uploaded imagery the price is zero.
-If you are using connected commercial providers ("Global mosaic" and others that might be available), the cost of the data depends on the zoom level. We partner with streaming data providers, which means that the cost of the service depends on the paid traffic – therefore we quote the prices depending on the imagery resolution for a more accurate and flexible pricing model.
+See the data prices and the corresponding resolution of the imagery sensors in the table below.
 
 .. csv-table::
   :file: _static/csv/data_prices.csv
@@ -92,17 +99,17 @@ If you are using connected commercial providers ("Global mosaic" and others that
   :widths: 20 10 10 10
 
 
-
 Examples of quotations
-~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 .. epigraph::
-    *I want to process 3.3 sq.km of Paid provider data at 18 zoom using the Buildings model*
+    *I want to process 3.3 sq.km of Commercial provider at 18 zoom using the Buildings model*
 
-    ``Cost = 3.3 * (5+5) = 33 credits``
+    ``Cost = 3.3 * (5+46) = 168 credits``
 
 .. epigraph::
-    *I want to process 0.01 sq.km of my imagery using the Buildings model and applying the Polygonization option.*
+    *I want to process 0.01 sq.km of My imagery using the Buildings model and applying the Polygonization option.*
     
-    Area is rounded up to 1 sq.km, so the cost will be: 
+    Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost will be:
+
     ``Cost = 1 * (5+3) = 8 credits``
