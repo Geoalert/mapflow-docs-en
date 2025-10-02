@@ -472,25 +472,24 @@ Returns the processing with the specified id.
       "percentCompleted": 0,
       "params": {
         "sourceParams": {
-          // NOTE: Only ONE of the following source types should be used:
-          "myImagery": {              // Use your uploaded imagery
+          "myImagery": {
             "imageIds": [
               "string"
             ],
             "mosaicId": "string"
           },
-          "imagerySearch": {          // Use imagery from search
+          "imagerySearch": {
             "dataProvider": "orbview",
             "imageIds": [
               "string"
             ],
             "zoom": 0
           },
-          "dataProvider": {           // Use data provider directly
+          "dataProvider": {
             "providerName": "string",
             "zoom": 0
           },
-          "userDefined": {            // Use custom imagery source
+          "userDefined": {
             "sourceType": "XYZ",
             "url": "string",
             "zoom": 0,
@@ -529,7 +528,6 @@ Returns the processing with the specified id.
       "updated": "2025-10-01T20:05:21.819Z"
     }
 
-**Response Codes:**
 
 
 Create and run processing v2
@@ -540,6 +538,7 @@ Create and run processing v2
 Creates and runs a new processing with enhanced v2 parameters and configuration options.
 
 **Request Body:**
+
 
 .. code:: json
 
@@ -561,25 +560,24 @@ Creates and runs a new processing with enhanced v2 parameters and configuration 
       },
       "params": {
         "sourceParams": {
-          // NOTE: Only ONE of the following source types should be used:
-          "myImagery": {              // Use your uploaded imagery
+          "myImagery": {
             "imageIds": [
               "string"
             ],
             "mosaicId": "string"
           },
-          "imagerySearch": {          // Use imagery from search
+          "imagerySearch": {
             "dataProvider": "orbview",
             "imageIds": [
               "string"
             ],
             "zoom": 0
           },
-          "dataProvider": {           // Use data provider directly
+          "dataProvider": {
             "providerName": "string",
             "zoom": 0
           },
-          "userDefined": {            // Use custom imagery source
+          "userDefined": {
             "sourceType": "XYZ",
             "url": "string",
             "zoom": 0,
@@ -714,7 +712,6 @@ Creates and runs a new processing with enhanced v2 parameters and configuration 
       "updated": "2025-10-01T20:05:56.690Z"
     }
 
-**Response Codes:**
 
 
 Calculate processing cost v2
