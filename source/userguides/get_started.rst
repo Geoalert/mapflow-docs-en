@@ -340,12 +340,6 @@ After the successful processing completion, the card can be opened to view more 
 
 Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
 
- .. figure:: _static/preview_map.png
-     :alt: Preview results
-     :align: center
-     :width: 18cm
-     :class: with-border
-
 Feature attributes and multilayers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -378,12 +372,12 @@ E.g. "Buildings" model with "simplification" and "classification" by building ty
      - The score is counted by the intersection of the pixel feature and polygonized feature. The higher score - the closer polygonized feature to the pixel one.
 
 
-Swithcing the layers to preview on the map
+Layer Switching & Legend in Mapflow Viewer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can switch the layers to preview on the map. Click the "sandwitch" button on the top right corner of the map and extend the dialogue with the map legend.
+You can switch the layers to preview on the map. Click the "sandwitch" (☰) button on the top right corner of the map and extend the dialogue with the map legend.
 
-E.g. "[beta] Buildings + Roads + Forest" model results with different layers:
+E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
 
  .. figure:: _static/combo_view_multilayers.jpg
      :alt: Layers view on the map
