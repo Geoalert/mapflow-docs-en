@@ -396,22 +396,423 @@ Deletes the project. Cascade deletes any child entities.
 Processings
 ------------
 
+Processing API v2
+^^^^^^^^^^^^^^^^^^^
+
 Get all processings
-^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""
+
+``GET https://api.mapflow.ai/rest/processings/v2``
+
+Returns the list of the user’s processings by the Default project
+
+Get all processings by Project Id
+""""""""""""""""""""""""""""
+
+``GET https://api.mapflow.ai/rest/projects/{projectId}/processings/v2``
+
+Returns the list of the user’s processings by user’s project
+
+
+Get processing by Id v2
+""""""""""""""""""""
+
+``GET https://api.mapflow.ai/rest/processings/{processingId}/v2``
+
+Returns the processing with the specified id.
+
+**Response Example:**
+
+.. code:: json
+
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "description": "string",
+      "projectId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "vectorLayer": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "string",
+        "tileJsonUrl": "string",
+        "tileUrl": "string"
+      },
+      "rasterLayer": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "tileJsonUrl": "string",
+        "tileUrl": "string"
+      },
+      "workflowDef": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "string",
+        "description": "string",
+        "created": "2025-10-01T20:05:21.819Z",
+        "updated": "2025-10-01T20:05:21.819Z",
+        "pricePerSqKm": 0,
+        "blocks": [
+          {
+            "name": "string",
+            "description": "string",
+            "optional": 0,
+            "price": 0
+          }
+        ]
+      },
+      "aoiCount": 0,
+      "area": 0,
+      "cost": 0,
+      "status": "UNPROCESSED",
+      "reviewStatus": {
+        "reviewStatus": "ACCEPTED",
+        "feedback": "2025-10-01T20:05:21.819Z"
+      },
+      "rating": {
+        "rating": "string",
+        "feedback": "string"
+      },
+      "percentCompleted": 0,
+      "params": {
+        "sourceParams": {
+          // NOTE: Only ONE of the following source types should be used:
+          "myImagery": {              // Use your uploaded imagery
+            "imageIds": [
+              "string"
+            ],
+            "mosaicId": "string"
+          },
+          "imagerySearch": {          // Use imagery from search
+            "dataProvider": "orbview",
+            "imageIds": [
+              "string"
+            ],
+            "zoom": 0
+          },
+          "dataProvider": {           // Use data provider directly
+            "providerName": "string",
+            "zoom": 0
+          },
+          "userDefined": {            // Use custom imagery source
+            "sourceType": "XYZ",
+            "url": "string",
+            "zoom": 0,
+            "crs": "string",
+            "rasterLogin": "string",
+            "rasterPassword": "string"
+          }
+        },
+        "inferenceParams": {
+          "key1": "value1",
+          "key2": "value2",
+          "keyN": "valueN"
+        }
+      },
+      "blocks": [
+        {
+          "name": "string",
+          "enabled": true
+        }
+      ],
+      "meta": {
+        "key1": "value1",
+        "key2": "value2",
+        "keyN": "valueN"
+      },
+      "messages": [
+        {
+          "code": "string",
+          "parameters": {
+            "key": "string",
+            "value": "string"
+          }
+        }
+      ],
+      "created": "2025-10-01T20:05:21.819Z",
+      "updated": "2025-10-01T20:05:21.819Z"
+    }
+
+**Response Codes:**
+
+
+Create and run processing v2
+""""""""""""""""""""""""""""
+
+``POST https://api.mapflow.ai/rest/processings/v2``
+
+Creates and runs a new processing with enhanced v2 parameters and configuration options.
+
+**Request Body:**
+
+.. code:: json
+
+    {
+      "name": "string",
+      "description": "string",
+      "projectId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "wdName": "string",
+      "wdId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "params": {
+        "sourceParams": {
+          // NOTE: Only ONE of the following source types should be used:
+          "myImagery": {              // Use your uploaded imagery
+            "imageIds": [
+              "string"
+            ],
+            "mosaicId": "string"
+          },
+          "imagerySearch": {          // Use imagery from search
+            "dataProvider": "orbview",
+            "imageIds": [
+              "string"
+            ],
+            "zoom": 0
+          },
+          "dataProvider": {           // Use data provider directly
+            "providerName": "string",
+            "zoom": 0
+          },
+          "userDefined": {            // Use custom imagery source
+            "sourceType": "XYZ",
+            "url": "string",
+            "zoom": 0,
+            "crs": "string",
+            "rasterLogin": "string",
+            "rasterPassword": "string"
+          }
+        },
+        "inferenceParams": {
+          "key1": "value1",
+          "key2": "value2",
+          "keyN": "valueN"
+        }
+      },
+      "meta": {
+        "key1": "value1",
+        "key2": "value2",
+        "keyN": "valueN"
+      },
+      "blocks": [
+        {
+          "name": "string",
+          "enabled": true
+        }
+      ]
+    }
+
+**Response Example:**
+
+.. code:: json
+
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "description": "string",
+      "projectId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "vectorLayer": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "string",
+        "tileJsonUrl": "string",
+        "tileUrl": "string"
+      },
+      "rasterLayer": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "tileJsonUrl": "string",
+        "tileUrl": "string"
+      },
+      "workflowDef": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "string",
+        "description": "string",
+        "created": "2025-10-01T20:05:56.690Z",
+        "updated": "2025-10-01T20:05:56.690Z",
+        "pricePerSqKm": 0,
+        "blocks": [
+          {
+            "name": "string",
+            "description": "string",
+            "optional": 0,
+            "price": 0
+          }
+        ]
+      },
+      "aoiCount": 0,
+      "area": 0,
+      "cost": 0,
+      "status": "UNPROCESSED",
+      "reviewStatus": {
+        "reviewStatus": "ACCEPTED",
+        "feedback": "2025-10-01T20:05:56.690Z"
+      },
+      "rating": {
+        "rating": "string",
+        "feedback": "string"
+      },
+      "percentCompleted": 0,
+      "params": {
+        "sourceParams": {
+          "myImagery": {
+            "imageIds": [
+              "string"
+            ],
+            "mosaicId": "string"
+          },
+          "imagerySearch": {
+            "dataProvider": "orbview",
+            "imageIds": [
+              "string"
+            ],
+            "zoom": 0
+          },
+          "dataProvider": {
+            "providerName": "string",
+            "zoom": 0
+          },
+          "userDefined": {
+            "sourceType": "XYZ",
+            "url": "string",
+            "zoom": 0,
+            "crs": "string",
+            "rasterLogin": "string",
+            "rasterPassword": "string"
+          }
+        },
+        "inferenceParams": {
+          "key1": "value1",
+          "key2": "value2",
+          "keyN": "valueN"
+        }
+      },
+      "blocks": [
+        {
+          "name": "string",
+          "enabled": true
+        }
+      ],
+      "meta": {
+        "key1": "value1",
+        "key2": "value2",
+        "keyN": "valueN"
+      },
+      "messages": [
+        {
+          "code": "string",
+          "parameters": {
+            "key": "string",
+            "value": "string"
+          }
+        }
+      ],
+      "created": "2025-10-01T20:05:56.690Z",
+      "updated": "2025-10-01T20:05:56.690Z"
+    }
+
+**Response Codes:**
+
+
+Calculate processing cost v2
+""""""""""""""""""""""""""""
+
+``POST https://api.mapflow.ai/rest/processing/cost/v2``
+
+Calculate processing cost v2 with enhanced parameters and configuration options.
+
+**Request Body:**
+
+.. code:: json
+
+    {
+      "wdId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "areaSqKm": 0,
+      "params": {
+        "sourceParams": {
+          "myImagery": {
+            "imageIds": [
+              "string"
+            ],
+            "mosaicId": "string"
+          },
+          "imagerySearch": {
+            "dataProvider": "orbview",
+            "imageIds": [
+              "string"
+            ],
+            "zoom": 0
+          },
+          "dataProvider": {
+            "providerName": "string",
+            "zoom": 0
+          },
+          "userDefined": {
+            "sourceType": "XYZ",
+            "url": "string",
+            "zoom": 0,
+            "crs": "string",
+            "rasterLogin": "string",
+            "rasterPassword": "string"
+          }
+        },
+        "inferenceParams": {
+          "key1": "value1",
+          "key2": "value2",
+          "keyN": "valueN"
+        }
+      },
+      "blocks": [
+        {
+          "name": "string",
+          "enabled": true
+        }
+      ],
+      "meta": {
+        "key1": "value1",
+        "key2": "value2",
+        "keyN": "valueN"
+      }
+    }
+
+**Response Example:**
+
+.. code:: json
+
+    1
+
+Processing API v1
+^^^^^^^^^^^^^^^^^^^
+
+Get all processings
+""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings``
 
 Returns the list of the user's processings by the Default project
 
 Get all processings by Project Id
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``
 
 Returns the list of the user's processings by user's project
 
 Get processing by Id
-^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}``
 
@@ -495,7 +896,7 @@ Possible error codes, parameters and desctiptions see in :doc:`Error Messages <e
 
 
 Processing cost
-^^^^^^^^^^^^^^^^
+""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processing/cost``
 
@@ -554,7 +955,7 @@ Response example:
 .. _Create processing:
 
 ▶️ Run the processing
-^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processings``
 
@@ -627,7 +1028,7 @@ Response: the newly created processing.
 
 
 Customize processing with the options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processings``
 
@@ -686,7 +1087,7 @@ Response example:
 
 
 Rename processing
-^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""
 
 ``PUT https://api.mapflow.ai/rest/processing/{processingId}``
 
@@ -701,14 +1102,14 @@ Request body example:
 
 
 Restart processing
-^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""
 
 ``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
 Link processing to another project
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""
 
 ``PUT https://api.mapflow.ai/rest/processings/{processing_id}``
 
@@ -722,14 +1123,14 @@ Links processing to another project by project ID
   --data-raw '{"projectId": "new_project_id"}'
 
 Delete processing
-^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""
 
 ``DELETE https://api.mapflow.ai/rest/processings/{processingId}``
 
 Deletes this processing. Cascade deletes any child entities.
 
 Get processing AOIs
-^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``  
 
@@ -778,7 +1179,7 @@ Response sample:
 
 
 Downloading processing results
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
@@ -788,7 +1189,7 @@ Returns Geojson results of this processing as an octet stream. Should only be ca
 .. _upload-images:
 
 Upload images
-----------------------------
+"""""""""""""
 
 .. note::
 
@@ -797,10 +1198,10 @@ Upload images
 
 
 Reference
---------------
+"""""""""
 
 ✍️ Params to run the processing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""
 
 .. csv-table::
     :file: _static/csv/params_run.csv
@@ -810,7 +1211,7 @@ Reference
 
 
 ✍️ Params to specify the data source
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""""
 
 .. csv-table::
     :file: _static/csv/params_ds.csv
@@ -876,7 +1277,7 @@ Reference
 
 
 ✍️ Params to specify the "source_type"
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""""""""
 
 .. list-table::
    :widths: 10 30
@@ -897,7 +1298,7 @@ Reference
 
 
 ✍️ Default AI models
-^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 .. list-table::
    :widths: 10 20 10 10 20
@@ -931,7 +1332,7 @@ Reference
 
 
 ✍️ Processing status
-^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""
 
 .. list-table::
    :widths: 10 30
