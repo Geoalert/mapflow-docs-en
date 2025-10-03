@@ -6,11 +6,10 @@ Mapflow processes imagery and extracts vector objects from it. So as a user, you
 
 Upon the registration, the *Default* project will be created automatically and you will be redirected to the main dashboard:
 
-.. figure:: _static/main_projects.png
+.. figure:: _static/main_projects.jpg
   :align: center
   :width: 16cm
   :class: with-border
-
 |
 
 You can create as many projects as you want to organise your work and share the project access with your coworkers.
@@ -123,7 +122,7 @@ The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload
 About *Draw Polygon* tool:
 
 .. warning::
-  The area limit in this case is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted):
+  Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted):
   
   .. image:: _static/bbox_explanation.png
     :alt: Bounding Box
@@ -132,9 +131,6 @@ About *Draw Polygon* tool:
     :class: with-border no-scaled-link  
 
   |
-
-.. attention::
-  Beware that for now, only a single area can be drawn or uploaded per processing. If your GeoJSON file has multiple areas within its FeatureCollection, only the first feature will be used. If you want to process multiple AOIs, you can split them into separate GeoJSON files and start processing for each one separately. Multiply AOI processing is supported in :doc:`Mapflow – QGIS <qgis_plugin>`  and API and will become available in the Web app next releases. Other spatial data formats may also be supported for upload in the future, although we recommend using GeoJSON since it is a de-facto standard in a web mapping. It is natively supported by web mapping frameworks  (e.g. `Leaflet <https://leafletjs.com/>`_ or `Mapbox <https://docs.mapbox.com/mapbox.js/>`_) and GIS like `QGIS <https://qgis.org/>`_ or the ArcGIS Suite.
 
 .. _upload-geotiff-section:
 
