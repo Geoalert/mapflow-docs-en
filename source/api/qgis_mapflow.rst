@@ -117,8 +117,6 @@ To go to the processing of the selected project, you need to double-click on it 
 
 .. note::
   Since plugin version 3.3.0, the processing :ref:`API v2.0 <processing-api-v2>` is used.
-  
-  .. Since plugin version 3.3.0, the processing :doc:`API v2.0 <../processing_api/processing-api-v2>` is used.
 
 .. figure:: _static/qgis/processing_tab.png
          :alt: View of the processing tab
