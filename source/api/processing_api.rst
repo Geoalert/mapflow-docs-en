@@ -396,6 +396,8 @@ Deletes the project. Cascade deletes any child entities.
 Processings
 ------------
 
+.. _processing-api-v2:
+
 Processing API v2
 ^^^^^^^^^^^^^^^^^^^
 
@@ -407,7 +409,7 @@ Get all processings
 Returns the list of the user’s processings by the Default project
 
 Get all processings by Project Id
-""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/projects/{projectId}/processings/v2``
 
@@ -415,7 +417,7 @@ Returns the list of the user’s processings by user’s project
 
 
 Get processing by Id v2
-""""""""""""""""""""
+""""""""""""""""""""""""
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/v2``
 
