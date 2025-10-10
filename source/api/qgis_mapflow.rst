@@ -109,9 +109,11 @@ This tab is divided into two parts. First, you will see a list of your projects.
 
 .. |right_arrow| image:: _static/qgis/right_arrow.png
   :width: 0.7cm
+  :class: no-scaled-link
 
 .. |left_arrow| image:: _static/qgis/left_arrow.png
   :width: 0.7cm
+  :class:no-scaled-link
 
 To go to the processing of the selected project, you need to double-click on it or select the project and click on |right_arrow|. To return to the list of projects, click |left_arrow|.
 
@@ -129,13 +131,16 @@ To go to the processing of the selected project, you need to double-click on it 
 To view the processing results, click on the "View results" button or double-click on the processing name in the table. 
 You can manage the processings using the options and buttons in the bottom panel menu (Delete, Rename, Save results, etc.). Processing filter by name is available at the top of the panel.
 
-Just like in Mapflow WEB, you can duplicate the selected processing and run a copy of it with the same parameters via "Duplicate" button. Also, if the processing fails, you can restart it using the "Restart" button (it is displayed in the menu only if the selected processing is in a FAILED status).
+Just like in Mapflow WEB, you can duplicate the selected processing and run a copy of it with the same parameters via "Duplicate" buttonThe duplicated processing will have a new unique ID, but the name will be the same as the original one. You can rename it using the "Rename" button.
+
+.. warning::
+  If the processing fails, you can restart it using the "Restart" button after the issue is supposed to be resolved (The button is displayed in the menu only if the selected processing is in a FAILED status).
 
 .. hint::
-    To download the processing results, you can double-click on the completed processing in the list. 
+   ⬇️ To download the processing results, you can double-click on the completed processing in the list. 
     
 .. hint::   
-    By default the processing results are downloadable as vector tiles for faster preview.  To donwload the processing results as a file you havve to choose this option: Setttings --> "save rresults as a local vector file"
+   ⬇️ By default the processing results are downloadable as vector tiles for faster preview.  To download the processing results as a file you have to choose this option: Settings -- "save results as a local vector file"
 
 To view detailed information about a processing, click "See details". The window that opens will display the processing's **Name**, **ID** and **Status**, as well as the **Data provider**, **Model** and **Model options** used.
 In some cases, a button will appear next to the **Data provider**. You can use it to go directly to the data source, for example, to a "My imagery" collections or a specific image.
