@@ -18,7 +18,7 @@ Imagery providers supported for the account-based integration:
 
 
 Using Imagery Search in Mapflow WEB
---------------------------------------
+------------------------------------
 
 .. image:: _static/historical_data_tab.png
   :alt: Imagery search tab
@@ -63,6 +63,120 @@ To start the processing using the Imagery Search data, you must:
 
 6. At the final step, you need to select the desired image by clicking on it in the table and click "Save". Now you are ready to start processing!
 
+Schedule your search
+---------------------
+
+If you are not satisfied with the current search results or you want to get new images without repeating the search manually, the search scheduling will help.
+
+How to create a scheduled search
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Set the required search criteria and click "Search Imagery"
+
+.. figure:: _static/templates_params.png
+  :alt: Templates params
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+.. note::
+  If the total area of your search area exceeds 250 km², when you click on "Search Imagery" instead of an immediate search, you will be prompted to create a postponed background search. 
+
+    .. figure:: _static/templates_large_area_search.png
+       :align: center
+       :width: 9cm
+       :class: with-border
+
+2. After that, the search results will appear and the "Save as schedule" button will be available
+
+.. figure:: _static/templates_save_button.png
+  :alt: Templates save button
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+3. When you click on it, you will be prompted to choose the name of this search schedule
+
+.. figure:: _static/templates_schedule_button.png
+  :alt: Templates schedule button
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+4. After creation the search will complete after a while and the search results will be available to you using "View on the map" button
+
+.. figure:: _static/templates_view_button.png
+  :alt: Templates view button
+  :align: center
+  :width: 9cm
+  :class: with-border
+
+|
+
+Viewing background search results
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now a background search will be launched on our side with a certain frequency and you will be notified when new images arrive.
+
+.. figure:: _static/templates_new_images.png
+  :alt: Templates new images
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+  The search card shows the number of new images found in the background. Clicking on an image in the results table will mark it as "seen".
+
+.. note::
+  To start processing based on the found image you need to select the desired image by clicking on it in the table and click “Save”.
+
+Two key points on viewing results:
+
+- When opening the search, you will see **all** results found for the given area(s)
+- If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs
+
+Main operations with Search Schedule
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: _static/templates_menu.png
+  :alt: Templates menu
+  :align: center
+  :width: 9cm
+  :class: with-border
+
+|
+
+- **Source details** - Here you can view and download the geometry of your search
+- **Mark all as seen** - If you have a lot of unread images, you can mark them as viewed all at once
+- **Set Active Until** - You can change the lifetime of the background search (6 months by default at creation)
+
+.. figure:: _static/templates_active_until.png
+  :alt: Templates Active Until
+  :align: center
+  :width: 9cm
+  :class: with-border
+
+  After expired, the Search Template will not be deleted, but paused
+
+- **Pause/Resume Template** - The pause means that there will be no background search for your template, but you can still view its results
+- **Delete** - Permanently deletes the search template
+
+You can also change the search criteria:
+
+"View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule" → Do not change the name and click "Schedule". Now the background search will work according to the new parameters.
+
+.. figure:: _static/templates_update_params.gif
+  :alt: Templates menu
+  :align: center
+  :width: 16cm
+  :class: with-border
+
+|
 
 Using Mapflow Imagery Search in QGIS
 --------------------------------------
