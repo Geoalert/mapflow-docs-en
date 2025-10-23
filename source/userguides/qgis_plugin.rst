@@ -61,7 +61,7 @@ Then, following the instructions, restart QGIS and click "Log in" again. This wi
 
 And in QGIS the main tab of the plugin will open, so you can proceed to the next steps.
 
-**2. Object recognition using Mapbox data provider**
+**2. Object recognition using default data provider**
 
 In order to start processing, first you must specify its name. Next, choose the area of interest by drawing it on the map / loading from a vector file / taking the extent of the map.
 
