@@ -4,16 +4,17 @@ Imagery search
 ================
 
 "Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
-It's powered by Mapflow API providing access to the global satellite data providers and partners. 
+It's powered by Mapflow API providing access to the global satellite data providers through our partners. 
+❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the model.
 
 Imagery providers available for the search and ordering:
-    * ORBVIEW (aggregates and provides satellite imagery from the leading Chinese satellite operators)
+    * Historical imagery (aggregates and provides satellite imagery from the leading satellite operators)
 
-Imagery providers supported for the account-based integration:
+Imagery providers supported for the account-based integration and search:
     * ArcGIS Worldview
     * :ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`
 
-.. note::
+.. seealso::
     Read more about how to use :ref:`Imagery providers` with Mapflow.
 
 
@@ -34,12 +35,15 @@ To start the processing using the Imagery Search data, you must:
 2. Set the search parameters (Clouds, Off-Nadir, AOI/Scene intersection);
 3. Apply provider filters:
 
-    - "Mosaic" (Global mosaic 2022, ArcGIS World Imagery)
-    - "Image" (Orbview)
+    - "Mosaic"
+    - "Image"
     - "Available for me" - The search results will show only those providers that are connected to your account.
 
-.. note::
-    Filters and search parameters also work in real time for the list of images; for example, you can hide all images from the table or filter only the results from the providers that are available for you.
+.. note:: 
+  Imagery provider types:
+    *Mosaic* - Imagery basemaps like ArcGIS or Global mosaic allowing to search images by date and AOI/Scene intersection.
+    *Image* - Satellite imagery archives allowing to search for historical images by multiple criteria including Clouds, Off-Nadir, and resolution.
+    👉 You can filter the search results by provider type or filter out the results from the providers that are available to you.
 
 4. After clicking "Search Image", a table with search results and images extents will appear:
 
@@ -63,10 +67,14 @@ To start the processing using the Imagery Search data, you must:
 
 6. At the final step, you need to select the desired image by clicking on it in the table and click "Save". Now you are ready to start processing!
 
-Schedule your search
----------------------
+.. warning::
+    👆️️️️️️ You are able to start the processing only using provider that is connected to your account. If you try to use the image from the provider that is not connected, you will see the corresponding warning "The provider is not available for your account, you need to change the plan". You need to subscribe to Mapflow Premium to be able to order commercial data providers. 
 
-If you are not satisfied with the current search results or you want to get new images without repeating the search manually, the search scheduling will help.
+
+NEW! Schedule your search
+----------------------------
+
+If you are not satisfied with the current search results or you want to get new images search updates without repeating the search manually, this service will do the job.
 
 How to create a scheduled search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -122,7 +130,7 @@ How to create a scheduled search
 Viewing background search results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now a background search will be launched on our side with a certain frequency and you will be notified when new images arrive.
+Now a background search will be launched in Mapflow and you will be notified when new images arrive.
 
 .. figure:: _static/templates_new_images.png
   :alt: Templates new images
@@ -130,10 +138,10 @@ Now a background search will be launched on our side with a certain frequency an
   :width: 13cm
   :class: with-border
 
-  The search card shows the number of new images found in the background. Clicking on an image in the results table will mark it as "seen".
+  The search card shows the number of **new images** found. Clicking on an image in the results table will mark it as "seen".
 
 .. note::
-  To start processing based on the found image you need to select the desired image by clicking on it in the table and click “Save”.
+  To start processing based on the found image you need to select the desired image by clicking on it in the table and clicking “Save” button.
 
 Two key points on viewing results:
 
@@ -199,3 +207,7 @@ Using Mapflow Imagery Search in QGIS
          :class: with-border no-scaled-link
          :width: 18cm
 |
+
+
+.. seealso::
+   👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery Search in Mapflow Web and QGIS plugin.

@@ -98,10 +98,10 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 First step is to set the area of analysis for your project: by **AOI** polygon or by the extent of your **GeoTIFF** image.
 
-.. image:: _static/select_data_source.png
+.. image:: _static/upload_aoi.jpg
     :alt: Select provider
     :align: center
-    :scale: 60
+    :scale: 50
     :class: with-border no-scaled-link
 
 |
@@ -119,9 +119,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
-About *Draw Polygon* tool:
-
-.. warning::
+.. warning:: 
   Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted):
   
   .. image:: _static/bbox_explanation.png
@@ -136,40 +134,28 @@ About *Draw Polygon* tool:
 
 1.2 Upload GeoTIFF
 """"""""""""""""""""
-.. image:: _static/geotiff_upload.png
-  :alt: Imagery providers
+You can upload your aerial images in GeoTiff format. After the image is uploaded, you need to draw/upload an AOI or click "Use Image Extent".
+
+.. image:: _static/upload-gtiff.gif
+  :alt: upload GeoTIFF
   :align: center
-  :width: 15cm
+  :width: 18cm
   :class: with-border no-scaled-link  
-
 |
-
-Here you can upload your own image in GeoTiff format.
-
 .. warning::
     Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
-    
-After the image is uploaded, you need to draw/upload an AOI or click "Use Image Extent".
 
-.. image:: _static/geotiff_aoi.png
-  :alt: Imagery providers
-  :align: center
-  :width: 15cm
-  :class: with-border no-scaled-link  
+    The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI. If the AOI doesn't intersect the image boundaries the error will pop up.
 
-|
-
-The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI. If the AOI doesn't intersect the image boundaries the error will pop up.
-
-Image upload requirements (free plan):
-
-  - The file size must be less than 1 Gb
-  - Both sides image dimensions must not exceed 30.000x30.000 pixels
-  - The image must be georeferenced and the CRS must be one of:
-    - WGS84 (EPSG: 4326)
-    - Web mercator (EPSG: 3857)
-    - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
-    
+.. note:: 
+    Image upload requirements (free plan):
+      - The file size must be less than 1 Gb
+      - Both sides image dimensions must not exceed 30.000x30.000 pixels
+      - The image must be georeferenced and the CRS must be one of:
+        - WGS84 (EPSG: 4326)
+        - Web mercator (EPSG: 3857)
+        - `UTM <https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any zone)
+        
 
 .. hint::
     If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
@@ -200,13 +186,11 @@ Imagery providers
 
 |
 
-Here you can select one of the default providers:
+Here you can select one of the default providers that are available in Mapflow, example:
 
 * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
 
 * **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
-
-By request:
 
 * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
  
@@ -240,29 +224,20 @@ Custom URL
 ..  * Set source image coordinate reference system (espg:3857 or espg:3395);
 ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
 
-Historical data
-""""""""""""""""""
+Historical data (Imagery Search)
+"""""""""""""""""""""""""""""""""
 
-.. image:: _static/historical_data_tab.png
+"Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
+It's powered by Mapflow API providing access to the global satellite data providers through our partners. 
+
+.. seealso::
+   👉 See :ref:`Imagery search <Imagery search  main>` for more information and guides.
+  
+  .. image:: _static/historical_data_tab.png
   :alt: Imagery search tab
   :align: center
   :width: 16cm
   :class: with-border no-scaled-link  
-
-|
-
-This tab provides access to the internal Mapflow service “Imagery search". It allows you to search for available satellite imagery over your area of analysis. After setting the desired search parameters (Date range, Clouds, Off-Nadir and other filters), the found images will appear on the map, which can be used for processing.
-
-.. image:: _static/historical_data_images.png
-  :alt: Imagery search results
-  :align: center
-  :width: 16cm
-  :class: with-border no-scaled-link  
-
-|
-
-.. hint::
-    See :ref:`Imagery search <Imagery search  main>` for more information and guides.
 
 
 2. AI model
