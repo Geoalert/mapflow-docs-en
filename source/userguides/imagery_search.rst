@@ -193,7 +193,7 @@ Main operations with Search Schedule
       :class: with-border
 
 .. warning::
-    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one. If you want to rename the search and create the new one just click on the name.
+    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one. If you only want to rename the search, simply click on its name.
 
     .. figure:: _static/update_search_name.jpg
       :alt: Templates menu
