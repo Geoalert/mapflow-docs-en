@@ -143,7 +143,7 @@ You can upload your aerial images in GeoTiff format. After the image is uploaded
   :class: with-border no-scaled-link  
 |
 .. warning::
-    Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.
+    Currently, a preview of the uploaded image is not possible before the processing, you will see only the area of its extent.
 
     The processing AOI must be located in the area of this extent, otherwise the area will be cut off by the extent boundaries. The processing area is calculated by the intersection of the image extent and the AOI. If the AOI doesn't intersect the image boundaries the error will pop up.
 
@@ -234,10 +234,10 @@ It's powered by Mapflow API providing access to the global satellite data provid
    👉 See :ref:`Imagery search <Imagery search  main>` for more information and guides.
   
   .. image:: _static/historical_data_tab.png
-  :alt: Imagery search tab
-  :align: center
-  :width: 16cm
-  :class: with-border no-scaled-link  
+    :alt: Imagery search tab
+    :align: center
+    :width: 16cm
+    :class: with-border no-scaled-link  
 
 
 2. AI model
@@ -247,6 +247,7 @@ Select one of the AI models (see :doc:`Model description <pipelines>`).
 
 .. |edit| image:: _static/edit.png
   :width: 0.7cm
+  :class: no-scaled-link
 
 .. note::
   You can manage a set of models linked to a project (click the |edit| button on the project card):
@@ -256,7 +257,6 @@ Select one of the AI models (see :doc:`Model description <pipelines>`).
     :width: 9cm
     :class: with-border
 
-|
 
 3. Post-processing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -288,7 +288,7 @@ The "Start processing" will start processing.
 The "Clear Selection" will clear the previously selected processing parameters.
 
 .. attention::
-   Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits (our local currency units). Upon registration, you receive 250 credits for free for testing the platform (See the :doc:`Mapflow credits <prices>`).
+   Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits (our local currency units). Upon registration, you receive 250 credits for free for testing the platform (See :doc:`Mapflow credits <prices>`).
 
 
 View the results

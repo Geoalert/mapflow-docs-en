@@ -130,6 +130,11 @@ How to create a scheduled search
 Viewing background search results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. |alert| image:: _static/alert_icon.png
+  :width: 0.5cm
+  :class: no-scaled-link
+
+
 Now a background search will be launched in Mapflow and you will be notified when new images arrive.
 
 .. figure:: _static/templates_new_images.png
@@ -138,15 +143,17 @@ Now a background search will be launched in Mapflow and you will be notified whe
   :width: 13cm
   :class: with-border
 
-  The search card shows the number of **new images** found. Clicking on an image in the results table will mark it as "seen".
+  The search card shows the label |alert| of the **new image** found. Clicking on an image in the results table will remove the label.
 
 .. note::
   To start processing based on the found image you need to select the desired image by clicking on it in the table and clicking “Save” button.
 
-Two key points on viewing results:
+.. note::
+  Two key points on viewing results:
 
-- When opening the search, you will see **all** results found for the given area(s)
-- If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs
+  - When opening the search, you will see **all** results found for the given area(s)
+  - If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs
+
 
 Main operations with Search Schedule
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -171,20 +178,23 @@ Main operations with Search Schedule
 
   After expired, the Search Template will not be deleted, but paused
 
-- **Pause/Resume Template** - The pause means that there will be no background search for your template, but you can still view its results
+- **Pause/Resume Template** - The pause means that it will stop the background search, but you can still view its results.
 - **Delete** - Permanently deletes the search template
 
-You can also change the search criteria:
+.. note::
+    You can also change the search criteria for the existing search:
 
-"View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule" → Do not change the name and click "Schedule". Now the background search will work according to the new parameters.
+    "View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule". Now the background search will work according to the new parameters.
+    
+    .. figure:: _static/templates_update_params.gif
+      :alt: Templates menu
+      :align: center
+      :width: 16cm
+      :class: with-border
 
-.. figure:: _static/templates_update_params.gif
-  :alt: Templates menu
-  :align: center
-  :width: 16cm
-  :class: with-border
+.. warning::
+    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one.
 
-|
 
 Using Mapflow Imagery Search in QGIS
 --------------------------------------
