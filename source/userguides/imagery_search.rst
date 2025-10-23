@@ -185,7 +185,7 @@ Main operations with Search Schedule
     You can also change the search criteria for the existing search:
 
     "View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule". Now the background search will work according to the new parameters.
-    
+
     .. figure:: _static/templates_update_params.gif
       :alt: Templates menu
       :align: center
@@ -193,7 +193,13 @@ Main operations with Search Schedule
       :class: with-border
 
 .. warning::
-    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one.
+    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one. If you want to rename the search and create the new one just click on the name.
+
+    .. figure:: _static/update_search_name.jpg
+      :alt: Templates menu
+      :align: center
+      :width: 8cm
+      :class: with-border no-scaled-link
 
 
 Using Mapflow Imagery Search in QGIS
