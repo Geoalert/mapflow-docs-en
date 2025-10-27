@@ -5,11 +5,19 @@ Mapflow API
 
 .. note::
     .. figure:: _static/postman_logo.png
-       :alt: Preview results
+       :alt: 
        :align: left
        :width: 1cm
 
-   You can use this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
+   Read documentation and see examples also in this `Postman collection for API <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_.
+
+.. seealso::
+    .. figure:: _static/python_logo.png
+       :alt: Python cli
+       :align: left
+       :width: 1cm
+
+   Download and install Mapflow python CLI to query API and run scripts `Mapflow CLI Tool <https://api.mapflow.ai/docs>`_.
 
 .. include:: ../userguides/mapflow_auth.rst
 .. include:: ../api/processing_api.rst
