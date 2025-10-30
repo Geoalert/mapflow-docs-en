@@ -82,7 +82,7 @@ How to create a scheduled search
 1. Set the required search criteria and click "Search Imagery"
 
 .. figure:: _static/templates_params.png
-  :alt: Templates params
+  :alt: Search params
   :align: center
   :width: 13cm
   :class: with-border
@@ -100,7 +100,7 @@ How to create a scheduled search
 2. After that, the search results will appear and the "Save as schedule" button will be available
 
 .. figure:: _static/templates_save_button.png
-  :alt: Templates save button
+  :alt: Search save button
   :align: center
   :width: 13cm
   :class: with-border
@@ -110,7 +110,7 @@ How to create a scheduled search
 3. When you click on it, you will be prompted to choose the name of this search schedule
 
 .. figure:: _static/templates_schedule_button.png
-  :alt: Templates schedule button
+  :alt: Search schedule button
   :align: center
   :width: 13cm
   :class: with-border
@@ -120,7 +120,7 @@ How to create a scheduled search
 4. After creation the search will complete after a while and the search results will be available to you using "View on the map" button
 
 .. figure:: _static/templates_view_button.png
-  :alt: Templates view button
+  :alt: Search view button
   :align: center
   :width: 9cm
   :class: with-border
@@ -138,7 +138,7 @@ Viewing background search results
 Now a background search will be launched in Mapflow and you will be notified when new images arrive.
 
 .. figure:: _static/templates_new_images.png
-  :alt: Templates new images
+  :alt: Search new images
   :align: center
   :width: 13cm
   :class: with-border
@@ -159,7 +159,7 @@ Main operations with Search Schedule
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/templates_menu.png
-  :alt: Templates menu
+  :alt: Search menu
   :align: center
   :width: 9cm
   :class: with-border
@@ -171,15 +171,15 @@ Main operations with Search Schedule
 - **Set Active Until** - You can change the lifetime of the background search (6 months by default at creation)
 
 .. figure:: _static/templates_active_until.png
-  :alt: Templates Active Until
+  :alt: Search Active Until
   :align: center
   :width: 9cm
   :class: with-border
 
-  After expired, the Search Template will not be deleted, but paused
+  After expired, the Search will not be deleted, but paused
 
-- **Pause/Resume Template** - The pause means that it will stop the background search, but you can still view its results.
-- **Delete** - Permanently deletes the search template
+- **Pause/Resume Search** - The pause means that it will stop the background search, but you can still view its results
+- **Delete** - Permanently deletes the search
 
 .. note::
     You can also change the search criteria for the existing search:
@@ -187,7 +187,7 @@ Main operations with Search Schedule
     "View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule". Now the background search will work according to the new parameters.
 
     .. figure:: _static/templates_update_params.gif
-      :alt: Templates menu
+      :alt: Search menu
       :align: center
       :width: 16cm
       :class: with-border
@@ -196,7 +196,7 @@ Main operations with Search Schedule
     ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one. If you only want to rename the search, simply click on its name.
 
     .. figure:: _static/update_search_name.jpg
-      :alt: Templates menu
+      :alt: Search menu
       :align: center
       :width: 8cm
       :class: with-border no-scaled-link
