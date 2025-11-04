@@ -55,10 +55,24 @@ All prices below are given in Mapflow credits. Mapflow Web also provides a trans
 Mapflow subscription plans
 -----------------------------
 
-.. important::
-   If you want to buy a custom package of credits or use another payment method, or consider using Mapflow on a large scale, check `Mapflow commercial plans <https://mapflow.ai/pricing>`_.
+Currently Mapflow provides two pricing models: pay-as-you-go and subscription plans. Currently the only plan **"Mapflow Premium"** is available. 
+It includes a monthly subscription fee and a package of credits. The subscription fee is charged monthly, the credits are valid for 12 months. It enables some premium options like custom area size, use of the any custom model that you have access to, priority support, and the use of commercial satellite data providers. Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the subscription. 
 
-So far Mapflow provides two pricing models: pay-as-you-go and subscription plans. Currently the only plan **"Mapflow Premium"** is available. It includes a monthly subscription fee and a package of credits. The subscription fee is charged monthly, the credits are valid for 12 months. It enables some premium options like custom area size, use of the any custom model that you have access to, priority support, and more. Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for details. 
+.. figure:: _static/subscribe.jpg
+   :alt: Mapflow Premium
+   :align: center
+   :width: 10cm
+   :class: with-border no-scaled-link
+|
+
+.. note::
+   1. Using the Mapflow Premium one can buy additional credits with pay-as-you-go pricing.
+   2. To activate the subscription, go to your `account profile - Balance <https://app.mapflow.ai/account/balance>`_ and choose the Mapflow Premium plan.
+   3. To deactivate the subscription, go to your `account profile - Balance <https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow Premium. 
+
+.. important::
+   If you want to buy a custom package or use another payment method, or consider using Mapflow on a large scale, check `Mapflow Custom <https://mapflow.ai/pricing>`_ and contact sales.
+
 
 
 Model costs
