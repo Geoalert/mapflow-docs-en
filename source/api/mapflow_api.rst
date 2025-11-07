@@ -17,7 +17,7 @@ Mapflow API
        :align: left
        :width: 1cm
 
-   Download and install Mapflow python CLI to query API and run scripts `Mapflow CLI Tool <https://api.mapflow.ai/docs>`_.
+   Download and install Mapflow python CLI to query API and run scripts `Mapflow CLI Tool <https://github.com/Geoalert/mapflow-api-scripts>`_.
 
 .. include:: ../userguides/mapflow_auth.rst
 .. include:: ../api/processing_api.rst

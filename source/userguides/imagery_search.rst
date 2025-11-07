@@ -21,7 +21,7 @@ Imagery providers supported for the account-based integration and search:
 Using Imagery Search in Mapflow WEB
 ------------------------------------
 
-.. image:: _static/historical_data_tab.png
+.. image:: _static/historical_data_tab.jpg
   :alt: Imagery search tab
   :align: center
   :width: 16cm
@@ -39,15 +39,17 @@ To start the processing using the Imagery Search data, you must:
     - "Image"
     - "Available for me" - The search results will show only those providers that are connected to your account.
 
-.. note:: 
-  Imagery provider types:
+Imagery provider types:
+
     *Mosaic* - Imagery basemaps like ArcGIS or Global mosaic allowing to search images by date and AOI/Scene intersection.
+
     *Image* - Satellite imagery archives allowing to search for historical images by multiple criteria including Clouds, Off-Nadir, and resolution.
-    👉 You can filter the search results by provider type or filter out the results from the providers that are available to you.
 
-4. After clicking "Search Image", a table with search results and images extents will appear:
+    👉 *Available for me*  - Filters the results by the providers that are connected to your account to run the analysis with Mapflow.
 
-.. figure:: _static/historical_data_images.png
+4. After clicking "Search Image", a table with search results and images footprints will appear:
+
+.. figure:: _static/historical_data_images.jpg
   :alt: Imagery search results
   :align: center
   :width: 16cm
@@ -55,7 +57,7 @@ To start the processing using the Imagery Search data, you must:
 
 |
 
-5. You can sort, enable or disable images on the map, and preview them if the provider supports this feature (The preview will be automatically added to the map after selecting the image in the table);
+5. You can sort, enable or disable images on the map, and preview them if the provider supports this feature (The preview will be automatically shown on the map after selecting the image in the table);
 
 .. image:: _static/search_table.png
   :alt: Search table
@@ -68,13 +70,15 @@ To start the processing using the Imagery Search data, you must:
 6. At the final step, you need to select the desired image by clicking on it in the table and click "Save". Now you are ready to start processing!
 
 .. warning::
-    👆️️️️️️ You are able to start the processing only using provider that is connected to your account. If you try to use the image from the provider that is not connected, you will see the corresponding warning "The provider is not available for your account, you need to change the plan". You need to subscribe to Mapflow Premium to be able to order commercial data providers. 
+    👆️️️️️️ You are able to start the processing only using available providers (**"available for me"**). 
+    If you try to use the image from the provider that is not connected to your account, you will see the corresponding warning *"The provider is not available for your account, you need to change the plan"*. 
+    You need to subscribe to Mapflow Premium to be able to order commercial data providers. 
 
 
-NEW! Schedule your search
-----------------------------
+NEW! Schedule Search updates
+------------------------------
 
-If you are not satisfied with the current search results or you want to get new images search updates without repeating the search manually, this service will do the job.
+If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
 
 How to create a scheduled search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
