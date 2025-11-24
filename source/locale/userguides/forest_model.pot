@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/forest_model.rst:2
+#: ef8a0d2d657b47868521384a8ac52da2
+msgid "🌲 Forest and trees"
+msgstr ""
+
+#: ../userguides/forest_model.rst:4
+#: f0740c1749ef4e9aa9c8cc03e2da5192
+msgid "Forest Segmentation. The model is trained on high-resolution data (0.6 m) for different areas and climate zones."
+msgstr ""
+
+#: ../userguides/forest_model.rst:6
+#: d9a50d10aaac4bd988df1a6cae358bc4
+msgid "The result includes all areas covered with tree and shrub vegetation, including sparse forest and shrublands."
+msgstr ""
+
+#: ../userguides/forest_model.rst:8
+#: 08c47df95b294bf1ad3976857cb34411
+msgid "Model resolution allows to detect small group of trees and narrow tree lines."
+msgstr ""
+
+#: ../userguides/forest_model.rst:10
+#: 6a1f1a6ddbc0452b9670e3a69ac5b382
+msgid "The model is robust to region change, and performs well in most environments, including urban. The image should be taken in active vegetation period, because leafless trees or vegetation covered with snow are not target class."
+msgstr ""
+
+#: ../userguides/forest_model.rst:14
+#: 0e6e2e75cc144efea46f04f55fffc684
+msgid "This model can be used to speed up trees detection and area estimation in forest inventory assessment."
+msgstr ""
+
+#: ../userguides/forest_model.rst:23
+#: d72ec374a73f46da97846ed2da8a5d30
+msgid "Processing result of forest model"
+msgstr ""
+
+#: ../userguides/forest_model.rst:23
+#: 15d721d39b874a61814f8042e4252ab5
+msgid "Sample of processing results for solid **Forest** mask"
+msgstr ""
+
+#: ../userguides/forest_model.rst:25
+#: 62322a73ee3f4624b2d9c0149e8328ab
+msgid "**Additional options:**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:27
+#: 4f52ac1affd04b63b9ca54ceb1d30af5
+msgid "*Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes."
+msgstr ""
+
+#: ../userguides/forest_model.rst:28
+#: e57aa913cd344b558b7b2740f92ffd43
+msgid "*Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees."
+msgstr ""
+
+#: ../userguides/forest_model.rst:30
+#: 4bb24d8a59ee45c69b0e9f7cbc7b5584
+msgid "Additionally we use models for density and height estimation, dividing the forested area into the following classes:"
+msgstr ""
+
+#: ../userguides/forest_model.rst:32
+#: ffe3be6899724649a7295cb27aaf27f0
+msgid "Shrubs lower than 4 meters;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:33
+#: 5bad9424ce374f42bcdb53d26fc2bd50
+msgid "Forest from 4 to 10 meters high;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:34
+#: 0473d5b0eb9b4e3ab3aa1fbd01e81db1
+msgid "Forest more than 10 meters high;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:37
+#: c60571fad11f4a7d96639a315d6296f4
+msgid "This model can be used as a decision support for the forest growth clearing. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_"
+msgstr ""
+
+#: ../userguides/forest_model.rst:40
+#: ae936e4273d440d19fc89cc53eaf5b15
+msgid "**Processing results samples**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:48
+#: 744be99b76e442a49bc1ef9437444db0
+msgid "Processing result of forest model (Tree crowns)"
+msgstr ""
+
+#: ../userguides/forest_model.rst:48
+#: e6aa6f5bc6584e9baf533fffec45de7e
+msgid "Sample of results for **Tree crowns**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:57
+#: 6c6dd54825684e159b79a9d6faeab635
+msgid "Processing result of forest model (Heights)"
+msgstr ""
+
+#: ../userguides/forest_model.rst:57
+#: cd45a289301143f1891942997fe8065a
+msgid "Sample of results for **Forest with heights** mask (raster output)"
+msgstr ""

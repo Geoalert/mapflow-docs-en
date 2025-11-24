@@ -5,126 +5,126 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow\n"
+"Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 18:04+0530\n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
 "PO-Revision-Date: 2023-11-07 23:00+0700\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Language: ru\n"
-"X-Source-Language: en\n"
-"X-Generator: Poedit 3.4.1\n"
 
-#: ../../source/index.rst:6
+#: ../index.rst:6 84bea0b97ce948719a89dd11549eb454
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: ../../source/index.rst:8
+#: ../index.rst:8 7b725c33fe2f4d0d8ef586b4fd597955
 msgid ""
-"We are happy that you are interested in Earth Observation Data analysis and "
-"Mapping! The Earth Observation to Mapping process is going through the "
-"following main stages:"
+"We are happy that you are interested in Earth Observation Data analysis "
+"and Mapping! The Earth Observation to Mapping process is going through "
+"the following main stages:"
 msgstr ""
-"Мы рады, что вам интересен анализ данных дистанционного зондирования Земли "
-"(ДЗЗ) и применение их в своей работе. Значит нам по пути. «Спутниковые "
-"снимки» - это данные, полученные с космических аппаратов дистанционного "
-"зондирования. Картография и пространственный анализ базируются на трех "
-"основных стадиях обработки данных:"
+"Мы рады, что вам интересен анализ данных дистанционного зондирования "
+"Земли (ДЗЗ) и применение их в своей работе. Значит нам по пути. "
+"«Спутниковые снимки» - это данные, полученные с космических аппаратов "
+"дистанционного зондирования. Картография и пространственный анализ "
+"базируются на трех основных стадиях обработки данных:"
 
-#: ../../source/index.rst:11
+#: ../index.rst:11 6718ff2e2f43477690a17ed87da815ec
 msgid "EO data access (e.g. satellite or aerial imagery)"
 msgstr "Доступ к данным (например спутниковая или аэрофотосъемка)"
 
-#: ../../source/index.rst:12
+#: ../index.rst:12 2b414d4ccfab4dc79908b34ff59a661b
 msgid ""
-"EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes "
-"in game |:boom:|"
+"EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ "
+"comes in game |:boom:|"
 msgstr ""
 "Автоматический препроцессинг и анализ – здесь вступает в игру `Mapflow "
 "<https://mapflow.ai/ru>`_ |:boom:|"
 
-#: ../../source/index.rst:13
+#: ../index.rst:13 df713a7e082044069b2359d0ae5a36fd
 msgid "GIS – check and edit results to use them in you application"
 msgstr ""
 "Работа в ГИС – проверка автоматических результатов и подготовка их для "
 "дальнейшей работы"
 
-#: ../../source/index.rst:15
+#: ../index.rst:15 94c788c4118e4de292657e9631b1cd5e
+#, fuzzy
 msgid ""
-"Mapflow is powered by the engine that operates data processing pipelines (we "
-"call \"flows\"). Using Mapflow you run your flows getting all power of "
-"semnatic imagery analysis."
+"Mapflow is powered by the engine that operates data processing pipelines "
+"(we call \"flows\"). Using Mapflow you run your processings getting all "
+"power of semantic imagery analysis."
 msgstr ""
 "Платформа Mapflow управляет цепочками обработки данных, которые вы "
 "запускаете, помогая пользователю на всех стадиях обработки. Но главное - "
 "наличие встроенных алгоритмов семантического анализа, которые позволяют "
-"выделять множество семантически связанных объектов и преобразовывать их в "
-"векторные геоданные."
+"выделять множество семантически связанных объектов и преобразовывать их в"
+" векторные геоданные."
 
-#: ../../source/index.rst:20
+#: ../index.rst:20 9daa88e7de54488b92e51fcada35b680
 msgid "Getting Started with Mapflow"
 msgstr "Mapflow – начало работы"
 
-#: ../../source/index.rst:32
+#: ../index.rst:35 313c9a7d3e314b02912f3f8e5d7e8367
 msgid "Mapflow AI models"
 msgstr "Модели ИИ"
 
-#: ../../source/index.rst:42
+#: ../index.rst:45 a07ea00bfe6a4ade974f6b32cf939591
 msgid "Mapflow API"
 msgstr ""
 
-#: ../../source/index.rst:54
+#: ../index.rst:55 6b4e7667195c420dbac69a3362d96bf8
 msgid "Use with GIS..."
 msgstr "Использование в ГИС..."
 
-#: ../../source/index.rst:65
+#: ../index.rst:65 d2bd42108a0f4e19865c427d41b9e96e
 msgid "User guides"
 msgstr "Обучающие материалы"
 
-#: ../../source/index.rst:75
+#: ../index.rst:75 90bfc3ab24f842d5b48227b5c651b4db
 msgid "Reference materials"
 msgstr "Справочные материалы"
 
-#: ../../source/index.rst:87
+#: ../index.rst:85 d31cc366235544b682df73e6e743faeb
 msgid "Frequently asked questions"
 msgstr "Часто задаваемые вопросы"
 
-#: ../../source/index.rst:98
+#: ../index.rst:96 94f16fd06fda406ab0c84e3033cdfb3a
 msgid "PDFs"
 msgstr ""
 
-#: ../../source/index.rst:100
+#: ../index.rst:98 0d0745a7cc54454fbc8741b5c2e266e0
 msgid ""
-":download:`Mapflow User Guides <userguides/_static/_downloads/user_guides."
-"pdf>`"
+":download:`Mapflow User Guides "
+"<userguides/_static/_downloads/user_guides.pdf>`"
 msgstr ""
-":download:`Mapflow Обучающие материалы <userguides/_static/_downloads/"
-"user_guides.pdf>`"
+":download:`Mapflow Обучающие материалы "
+"<userguides/_static/_downloads/user_guides.pdf>`"
 
-#: ../../source/index.rst:101
+#: ../index.rst:99 92d5cfb9eb494b938d120e03d3e9980d
 msgid ""
-":download:`Mapflow AI-Mapping models <userguides/_static/_downloads/"
-"pipelines.pdf>`"
+":download:`Mapflow AI-Mapping models "
+"<userguides/_static/_downloads/pipelines.pdf>`"
 msgstr ""
-":download:`Mapflow Модели ИИ <userguides/_static/_downloads/pipelines.pdf>`"
+":download:`Mapflow Модели ИИ "
+"<userguides/_static/_downloads/pipelines.pdf>`"
 
-#: ../../source/index.rst:102
+#: ../index.rst:100 e0d798047ef64e0fa002449432ee099b
 msgid ""
-":download:`Mapflow Customization <userguides/_static/_downloads/"
-"mapflow_custom.pdf>`"
+":download:`Mapflow Customization "
+"<userguides/_static/_downloads/mapflow_custom.pdf>`"
 msgstr ""
 
-#: ../../source/index.rst:106
+#: ../index.rst:104 946efcbed6ec40779435ee6efca7c6fb
 msgid ""
 "This documentation is distributed under the terms of Creative Commons "
 "License **\"Attribution-NoDerivs\" СC BY-ND**"
 msgstr ""
-"Эта документация распространяется под открытой лицензией Creative Commons "
-"License **\"Attribution-NoDerivs\" СC BY-ND**"
+"Эта документация распространяется под открытой лицензией Creative Commons"
+" License **\"Attribution-NoDerivs\" СC BY-ND**"
+

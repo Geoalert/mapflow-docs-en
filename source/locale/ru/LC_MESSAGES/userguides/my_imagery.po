@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/my_imagery.rst:4 772932c8bf5a4c36a7c449e7311b6f0b
+msgid "My imagery"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:7 cea8a0fcbbdf4fc688db0cd11c6f9cf0
+msgid "In general there are four ways to use aerial or satellite data in Mapflow:"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:9 7480f839d0824da1a0d97bdd91299912
+msgid ""
+"**My imagery** – upload your own images to the Mapflow platform and use "
+"them for processing with Mapflow models."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:10 20f3c42aa59847748972cfd769fbeeeb
+msgid ""
+"**Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox,"
+" ArcGIS, etc., are enabled in Mapflow for the instant . You can use them "
+"with default models."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:11 260a762a0e9b4f49ab83f3553c962f92
+msgid ""
+"**Custom URL** – you can set your own XYZ or TMS layers, including "
+"commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar "
+"Securewatch>`, Google, etc. This is available in Mapflow Web, API and "
+"QGIS plugin."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:12 1f9749d0a3b7438a97085817023f8982
+msgid ""
+"**Imagery Search** – search for the historical imagery in Mapflow Web and"
+" QGIS plugin and place you order to get the images from our partners.  "
+"(*under development*)"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:15 73cd83d3246f49069c968cfca45f7dde
+msgid ""
+"❗️ Currently, you can use *My imagery* in :ref:`Maplfow QGIS plugin <My "
+"imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web "
+"implementation is in progress."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:19 766feb25d32a4e4a9b82bd08f9153972
+msgid "My imagery in QGIS"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:21 2a0ed33eaac04b7694f3f93b49d8adde
+msgid ""
+"\"My imagery\" allows you to collect images in separate *Imagery "
+"collections*. Using this service, users can easily manage their data "
+"collections, reuse images for the next processings and analysis with "
+"Mapflow models."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:33 3cb5980dcf484365a8dd66e3c2acb1b9
+msgid "Basic usage:"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:31 d86a3dc7f7ef4fbaadc030d7a231c471
+msgid ""
+"Processing of multiple images at one time. If you are experiencing the "
+"processing of multiple images in one area, this tool will be helpful."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:32 4e071c10b5dd478c8d5902f774a24722
+msgid "Reusing of the uploaded images for the next processings"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:33 61f76a435de740b5930a08f81e156886
+msgid ""
+"Adding tags to the imagery collections to make them searchable in the "
+"Mapflow projects"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:39 cfed7bca6a4941a3a43a36f1720f81ed
+msgid "The basic scenario of working with \"My imagery\" service is as follows:"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:36 99c8bed4c03049d4bbf9ef6f24bb6b7b
+msgid "You are creating a Imagery collection (a set of images)"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:37 d3600a72a61d4ab083f5fb0fd778bd79
+msgid "Optionally add tags to identify the collection"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:38 cabbd840baba4e04a6064a2816227cdc
+msgid "Upload your images to the collection"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:39 a7930f1446714e099fd99372420876dd
+msgid ""
+"Start processing with Mapflow using the whole Imagery collection or the "
+"specific image. With both methods, you can limit the processing area by "
+"applying an AOI."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:42 60e2abad12d94ebd80086634c23782b5
+msgid ""
+"There are two main **restrictions on uploading images** in the free plan "
+"- the image should be no more than *1 GB* and no more than *30,000 "
+"pixels* by the side. We have no other restrictions on uploading to the "
+"collection, but it is important that each uploaded image has the SAME "
+"parameters as the rest of the images in the collection (pixel size, "
+"number of bands, georeference). For example, two images with pixel sizes "
+"of 10 cm and 1 m cannot be added to the same Imagery collection."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:45 3feb20ae41f84da59b3737cb8b08521e
+msgid ""
+"Read how to use it in detail in :ref:`Maplfow QGIS plugin <My imagery "
+"qgis>`."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:49 b5be560cb29f433b9797686ea7788e6c
+msgid "My imagery Web"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:52 1f1d57f9d85d49ada709033d5a79b2e5
+msgid ""
+"❗️The Web app implementation is in progress. But now you can already view"
+" the list of your image collections and, if necessary, delete unused "
+"ones."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:54 4238de01aad4494799fce03fd8ff74db
+#: 6483519bd2cc437caf98f1a7f212a55e
+msgid "preview"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:57 4bc826742c2540008f364dc9da3dbac9
+#: e6c8f3a732b4469eae92ba5bef184242
+msgid "delete"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:60 68143b67315347a59ed5f3043c5b7f04
+#: 867875e780ef4b86aec4de4279393d17
+msgid "more"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:63 3e36f92bc3ac4b138debac3c8a386e87
+msgid ""
+"By default, Mapflow provides a free 1 Gb storage for all new users to "
+"upload and process data. If the memory limit is running out (*Memory "
+"free* at the bottom of the page), you can either extend your limit by "
+"switching to one of the `Premium plans <https://mapflow.ai/pricing>`_ or "
+"delete the unused data using this page. After viewing the information "
+"about the collection and previewing its images (|preview|), you can "
+"delete one collection at a time (|delete|) or several at once via "
+"multiselect ((|more|) -> \"Delete selected mosaics\")."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:73 3ceae3e9c6bf4bcb945ea3bdbc558edd
+msgid ""
+"Please note that the table lists all your previously uploaded images as "
+"separate collections, each with a unique UUID."
+msgstr ""
+
+#~ msgid ""
+#~ "There are two main **restrictions on "
+#~ "uploading images** in the free plan "
+#~ "- the image should be no more "
+#~ "than *1 GB* and no more than "
+#~ "*100,000 pixels* by the side. We "
+#~ "have no other restrictions on uploading"
+#~ " to the collection, but it is "
+#~ "important that each uploaded image has"
+#~ " the SAME parameters as the rest "
+#~ "of the images in the collection "
+#~ "(pixel size, number of bands, "
+#~ "georeference). For example, two images "
+#~ "with pixel sizes of 10 cm and "
+#~ "1 m cannot be added to the "
+#~ "same Imagery collection."
+#~ msgstr ""
+

@@ -2,7 +2,7 @@ Mapflow - Get started
 ======================
 
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your email. You can also use Google account to login.
-Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we would call it, AI- **mapping flows**.
+Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we would call it, **AI-mapping**.
 
 Upon the registration, the *Default* project will be created automatically and you will be redirected to the main dashboard:
 
@@ -29,6 +29,12 @@ When starting a new project, you can set a name, customize icons, and modify a l
 
 .. note::
   If your account is upgraded to the Premium or Custom – you might be able to customize your project mapping workflows and some of their options.
+
+Glossary of terms
+-----------------
+* Processing – a single execution of an AI model on a specific geographic area
+* Workflow/Flow – the AI model configuration pipeline definition
+* Project – space for multiple processings
 
 
 Mapflow My account
@@ -120,7 +126,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
 .. warning:: 
-  Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 100 KM²`` appears in the example below (bounding box is highlighted):
+  Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 25 KM²`` appears in the example below (bounding box is highlighted):
   
   .. image:: _static/bbox_explanation.png
     :alt: Bounding Box
@@ -190,7 +196,7 @@ Here you can select one of the default providers that are available in Mapflow, 
 
 * `Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of global high resolution satellite imagery. The date of the image and updates cannot be chosen.
 
-* **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 12. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
+* **"Global mosaic"** is a pilot version of mosaic of high res imagery (0.75–0.5 m/px) for year 2022. The preview is limited to zoom 15. Limited coverage for some countries. The mosaic is planned to be updated on a regular basis. 
 
 * `ArcGIS World Imagery <https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_ is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory. 
  
@@ -201,8 +207,8 @@ Here you can select one of the default providers that are available in Mapflow, 
 .. important::
 
     Data providers are the TMS / XYZ data streaming services that can be connected to Mapflow to enable instant imagery analysis and AI mapping.
-    Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates on specific terms. We are continuously working on adding more commercial providers.
-    For more details about the Imagery providers cost, see :ref:`Mapflow prices <credits>`.
+    Under the Mapflow commercial plans, we provide commercial providers access, historical imagery and updates on specific terms. We are continuously working on adding more commercial providers.
+    For more details about the Imagery providers cost, see :ref:`Mapflow subscription plans <subscription-plans>`.
 
 
 Custom URL
@@ -268,10 +274,8 @@ AI model "🏠 Buildings":
 * *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see :doc:`../um/classes`).
 * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
 * *Simplification* - simplification and polygonization of building contours.
-.. * *Building heights* - for each building, we estimate its height using its wall's and shadow's length. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to footprints.
+* *Building heights* - for each building, we estimate its height. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to "footprints".
 
-.. ..  important::
-..   **Building heights** option requires a minimum area of 50 sq.km.
 
 AI model "🌲 Forest":
 
@@ -288,7 +292,7 @@ The "Start processing" will start processing.
 The "Clear Selection" will clear the previously selected processing parameters.
 
 .. attention::
-   Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits (our local currency units). Upon registration, you receive 250 credits for free for testing the platform (See :doc:`Mapflow credits <prices>`).
+   Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits. Upon registration, you receive 250 credits for free for testing the platform (See :ref:`Mapflow credits <credits>`).
 
 
 View the results

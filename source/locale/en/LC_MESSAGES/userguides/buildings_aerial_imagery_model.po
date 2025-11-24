@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:2
+#: ad21c33066004295ad152b5cdd754420
+msgid "🏠⭐️ Buildings (Aerial) (CUSTOM)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:4
+#: c783e23a4e5c4490814f30bb65aaf58d
+msgid ""
+"This model has been deprecated as default one and moved to custom as its "
+"geodomain application is limited. it's available by request."
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:7
+#: dd83c14a064241b08bd34dfec0aaa3ca
+msgid ""
+"This model is specifically designed to be used on a high resolution "
+"aerial imagery (15-10cm per pixel) for extraction of small buildings and "
+"detailed structure outlines. It is best suited for rural and suburban "
+"residential areas. We do not recommend using this model in areas with "
+"high-dense urban buildings. Use :doc:`Buildings model <buildings_model>` "
+"instead, even for aerial imagery."
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:13
+#: 65851e45683d47baadc7d689e93d2bee
+msgid "Model name"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:14
+#: a2dc793d7d914098809c0592019db2f8
+msgid "Model type"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:15
+#: e18941e9303942f29499b835f45c5be4
+msgid "Zoom level"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:16
+#: ed0a9303032c4cbbb0dd7cc39a576387
+msgid "F1 (testing)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:17
+#: 9f4e3e9b2d5246e992e843300a7e8b2a
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:18
+#: 09fd168b4e564baab85d35f21924b268
+msgid "Buildings (Aerial)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:19
+#: 98f4963088f84d78a36d9afad0ed0692
+msgid "Instance segmentation"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:20
+#: 6c71c9d0cf92444c8b1defc17939d298
+msgid "zoom 20-21"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:21
+#: 0b614fefd00244edb7df4cdb0b6d7241
+msgid "> 0.82"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:22
+#: 6119b093652c4c5b89053d09e17738f7
+msgid "urban pattern: low-rise - rural"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:31
+#: ../userguides/buildings_aerial_imagery_model.rst:39
+#: 7ea6b78c4029430180acf2fbabaa3fc5 db10e628e66c44a58a3b0b9f769cab0e
+msgid "Processing result of Buildings (Aerial) model"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:31
+#: 178e01759f2c4c0f845eaa69e8def37c
+msgid "Processing example – rural residential area"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:39
+#: 18cb0a1bbc2a407da33c4099aa8c8183
+msgid ""
+"Small objects that have been missed by default :ref:`Buildings model` but"
+" detected using an aerial image with the Buildings (Aerial imagery)"
+msgstr ""
+
+#~ msgid ""
+#~ "This model has been deprecated as "
+#~ "default one and moved to custom as"
+#~ " it's geodomain application is limited. "
+#~ "it's available by request."
+#~ msgstr ""
+

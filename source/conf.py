@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # -- Project information -----------------------------------------------------
 
 project = 'Mapflow'
-copyright = '2021-2023, Geoalert'
+copyright = '2021-2025, Geoalert'
 author = 'Geoalert'
 
 
@@ -85,7 +85,15 @@ html_theme_options = {
 html_logo = '_static/logo_mapflow.png'
 
 # To show the same sidebar for each page
-html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+html_sidebars = { 
+    '**': [
+        'globaltoc.html', 
+        'relations.html', 
+        'sourcelink.html', 
+        'searchbox.html',
+        'versions.html'  # Contains language selector at the bottom
+    ] 
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -97,5 +105,28 @@ html_css_files = ['globals.css']
 edit_on_gitlab_user = 'geoalert'
 edit_on_github_branch = 'main/source'
 
+# -- Internationalization options --------------------------------------------
 locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional: creates separate PO files for each RST file
+
+# Supported languages
+language = 'en'  # Default language
+languages = ['en', 'zh', 'ru', 'es']  # Add more as needed: 'es', 'de', 'fr', etc.
+
+# gettext options
+gettext_uuid = True  # Generate UUIDs for each translatable message
+gettext_auto_build = True  # Automatically compile PO to MO files
+
+# Language names for the selector
+html_context = {
+    'languages': [
+        ('English', 'en'),
+        ('Русский', 'ru'),
+        # Add more languages here:
+        ('Español', 'es'),
+        # ('Deutsch', 'de'),
+        # ('Français', 'fr'),
+    ],
+    'current_language': language,
+}
 gettext_compact = False     # optional.

@@ -13,7 +13,7 @@ The Earth Observation to Mapping process is going through the following main sta
    * GIS – check and edit results to use them in you application
 
 Mapflow is powered by the engine that operates data processing pipelines (we call "flows").
-Using Mapflow you run your flows getting all power of semnatic imagery analysis.
+Using Mapflow you run your processings getting all power of semantic imagery analysis.
 
 ****************************
 Getting Started with Mapflow

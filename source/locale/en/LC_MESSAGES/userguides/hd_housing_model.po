@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/hd_housing_model.rst:2 e0a588b4ee9a45dbabfc8829a774af68
+msgid "🏘 High-density housing (CUSTOM)"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:4 378ab28571e5445cb05d0282553813a8
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available only by request."
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:7 ed21d0f4c57346fab1e1169c542b559b
+msgid ""
+"The “high-density housing” AI model is designed for areas with terraced "
+"or otherwise densely built buildings, common in the Middle East, parts of"
+" Africa, etc. This model, just like the regular building model, detects "
+"the building roofs. Firstly, the building blocks are segmented as a "
+"whole, and then each block is attempted to be devided into individual "
+"houses based on the detection of individual roof markers with rectangular"
+" grid or Voronoi diagram."
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:10 9b9d96f2103646aeae9d3f43b9d33ff2
+msgid ""
+"Processing result sample for dense urban development area (Tunisia, "
+"Africa):"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:18 6d6e843631384a6cb869f069a5740eae
+msgid "Processing result of high-density housing model"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:18 9b836d1247a846caa18e51b86de87546
+msgid ""
+"High-density buildings model, instance segmentation and post-processing "
+"with grid options"
+msgstr ""
+

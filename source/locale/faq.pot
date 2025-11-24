@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../faq.rst:2
+#: fccbd9b56df6484fb2ab381bb122cd46
+msgid "Mapflow FAQ"
+msgstr ""
+
+#: ../faq.rst:5
+#: c57a95b0b12242008860c0d3069c6f24
+msgid "Payment"
+msgstr ""
+
+#: ../faq.rst:6
+#: 9e0543c82abc4a8db787f0638aea8a64
+msgid "**How to buy credits for using the platform? How much is it?**"
+msgstr ""
+
+#: ../faq.rst:8
+#: b7cc896a8b674e47911b22460df99538
+msgid "The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1 ( the progressive discount is applied depending on the number of credits you buy). To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits ($50, $90 or $800). See :doc:`Mapflow prices </userguides/prices>`."
+msgstr ""
+
+#: ../faq.rst:10
+#: af4c0c4d0cb842689e19a84128296cce
+msgid "**I represent a company and would like to perform large volume of processing. Do you have corporate rates?**"
+msgstr ""
+
+#: ../faq.rst:12
+#: 6f8944de658f42589287b8caa8a185bb
+msgid "Check our `commercial plans <https://mapflow.ai/pricing>`_ for Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry and get the quotation."
+msgstr ""
+
+#: ../faq.rst:14
+#: a1d5a60a814349c49fc30e6dffb0313b
+msgid "**What if I'm not satisfied with the output? Do you make a refund?**"
+msgstr ""
+
+#: ../faq.rst:16
+#: 8ebf78eb26d84c7fb1a42a6673cd6215
+msgid "For Free Users: You can use evaluation credits to test our software. If you are unsatisfied with the output, we encourage you to leave feedback and rate the results. We review all ratings from free users, and if we determine the output was unsatisfactory, we may refund the evaluation credits."
+msgstr ""
+
+#: ../faq.rst:18
+#: d51dd834d1674193acdd94ba0b930edb
+msgid "For Paid Users: If you are on a corporate plan, we commit to meeting a specific level of accuracy. If the output does not meet these requirements, we will refund your credits according to our refund policy."
+msgstr ""
+
+#: ../faq.rst:23
+#: 7b39d73e58b2482f801ac12650535b77
+msgid "Satellite imagery"
+msgstr ""
+
+#: ../faq.rst:25
+#: d487429471284e1aa4d76fb1618207d8
+msgid "**What satellite imagery do you use? What are their resolution, alignment accuracy and other characteristics?**"
+msgstr ""
+
+#: ../faq.rst:27
+#: d841ff7f2e29487f9b49a3cad5b71f38
+msgid "We support RGB, RGBa, and single-band (panchromatic) images as an input data. Note that models are optimized for RGB, so single-band results may have lower quality. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`. You can access **ArcGIS World Imagery** – which is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. **\"Global mosaic\"** – the basic version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China."
+msgstr ""
+
+#: ../faq.rst:32
+#: 8190c9a634b2460e960e2e3006c002e9
+msgid "**Can I choose another satellite mosaic?**"
+msgstr ""
+
+#: ../faq.rst:34
+#: 4d6dd9e3c350464dab50f91cbdc15759
+msgid "Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuosly working on adding more commercial providers."
+msgstr ""
+
+#: ../faq.rst:36
+#: a3de125823b04630b270d6e93a6d9525
+msgid "**Can I upload my own images for processing?**"
+msgstr ""
+
+#: ../faq.rst:38
+#: 5f2307d0eb164360887f4a3c8fd1c103
+msgid "Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it."
+msgstr ""
+
+#: ../faq.rst:41
+#: e2899069575c4a0ea7a8a242ecc23eab
+msgid "**Can I buy satellite imagery from you? How can I validate the results?**"
+msgstr ""
+
+#: ../faq.rst:43
+#: dddcb6c31f27401a848f6100c305f99c
+msgid "You can't buy as we don't resell images. We provide service to extract data from images. However you can preview the input images as XYZ layer to conduct the results validation."
+msgstr ""
+
+#: ../faq.rst:45
+#: c78f9c4cc16d44f9a54da8f528e8b6a9
+msgid "**Can I use non-RGB data like radar data?**"
+msgstr ""
+
+#: ../faq.rst:47
+#: 93b5838527b849d0bc14b09951ab1045
+msgid "No, you can’t for default models. You can contact us about the development of the custom model."
+msgstr ""
+
+#: ../faq.rst:50
+#: abf980ef3c2a4f4ba5a536437dc44ba3
+msgid "Vector data"
+msgstr ""
+
+#: ../faq.rst:52
+#: ac66ccbd1c2248c5b14d4b5c73c85f76
+msgid "**Is it possible to process multiple areas in one request?**"
+msgstr ""
+
+#: ../faq.rst:54
+#: 4461c65058d64bc99e6df7d55515626e
+msgid "Yes, on the free plan you can upload up to 10 areas in one processing request by using a GeoJSON file with multiple features in the FeatureCollection. Alternatively, you can convert your GeoJSON into *Mulipolygon*."
+msgstr ""
+
+#: ../faq.rst:57
+#: fd0d14ea2e4f405a95464ac90724d2b3
+msgid "**Results contain gaps / false contours / inaccuracies / errors in classification and / or heights. Why?**"
+msgstr ""
+
+#: ../faq.rst:59
+#: f41245b982684116aaeb2c658a152466
+msgid "The images are processed by artificial intelligence, so inaccuracies may occur. We are constantly improving our models and neural networks, but 100% of the result can be achieved only by combining automatic processing with subsequent validation."
+msgstr ""
+
+#: ../faq.rst:61
+#: 9ea8a7b7d72c455daba919fbc7b0ca1e
+msgid "**Do you provide validation service for automatic results?**"
+msgstr ""
+
+#: ../faq.rst:63
+#: 83889d8a7f2b4e44bb37aafe21689042
+msgid "Mostly, we provide service and a reasonable customization to the project requirements (model fine-tuning). However, depending on the project requirements the validation can be provided by request, contact our `sales <https://geoalert.io/#contacts>`_."
+msgstr ""
+
+#: ../faq.rst:67
+#: fa3f4acc0b8c49eebdeac0c8ba449e4d
+msgid "Projects and processings"
+msgstr ""
+
+#: ../faq.rst:69
+#: a0fd530fa9bd471c8e7b3416bcbf78e7
+msgid "**What is a “project”? Do I have to create every new processing in a new project?**"
+msgstr ""
+
+#: ../faq.rst:71
+#: de7732b290064e1a9dfea3dc9ed84cf2
+msgid "**Project** allows you to collect all logically related processing for a more efficient and faster search for the one you need. It's like a folder on your computer. One project can have many jobs."
+msgstr ""
+
+#: ../faq.rst:73
+#: 8f944f7642bf4d619cc746995a96fa69
+msgid "**Immediately after registration, I got a project called “Demo processings”. What is it and why?**"
+msgstr ""
+
+#: ../faq.rst:75
+#: ed2e9260135e41d6b5db00a674027827
+msgid "This project allows you to get acquainted with the capabilities of Mapflow without spending Credits. In the History of processings, you can view and check the results. It is also possible to view the selected processing parameters, to do this, click **source details**."
+msgstr ""
+
+#: ../faq.rst:77
+#: 30bbf8b36265407c9469272dd8fb9fb1
+msgid "**Are there any restrictions on the processing area?**"
+msgstr ""
+
+#: ../faq.rst:79
+#: 1b42bf4e70ee43cdb41a5a3087fd74f5
+msgid "The processing area may be smaller but the price is rounded up to 1 sq. km. There is the default limit of no more than 25 sq. km (free account). If you need to process a large area, you can divide the area to be treated into several smaller areas, one per processing. Alternatively you can consider switching to a paid plan."
+msgstr ""
+
+#: ../faq.rst:82
+#: 8b346927213643f095f4b09788ab7d04
+msgid "User data"
+msgstr ""
+
+#: ../faq.rst:84
+#: 385ddc98a52d40bda3587c20c4116999
+msgid "**What is an imagery mosaic?**"
+msgstr ""
+
+#: ../faq.rst:86
+#: b0b0735dd52740369dc6815d0ace4f9c
+msgid "*Mosaic* - a set of images covering a specific area. Using My Imagery you collect separate aerial images in a single mosaic to analyse with the Mapflow models."
+msgstr ""
+
+#: ../faq.rst:88
+#: c48aecaa83de4708a24596ef4ea6eda4
+msgid "**What are the limots for my data?**"
+msgstr ""
+
+#: ../faq.rst:90
+#: a605ff156967474981518ce37618f70e
+msgid "Your input data must meet the :ref:`Mapflow models requirements <Model requirements>` and the :ref:`files upload requirements <Upload requirements>`."
+msgstr ""
+
+#: ../faq.rst:92
+#: 8ff66fe96a5b4834ad8f6e29410720e7
+msgid "**How to delete my account?**"
+msgstr ""
+
+#: ../faq.rst:94
+#: 92353d7f1e4545c396729295515b50e1
+msgid "Currently you cannot delete your account right in the Mapflow web app. Please request us to delete your account by sending an email to help@geoalert.io or by prompting the Mapflow chatbot, and all your personal data will be completely removed."
+msgstr ""
+
+#: ../faq.rst:98
+#: 1676d7b8286a4f3289df6273bb8fd41d
+msgid "Support and other questions"
+msgstr ""
+
+#: ../faq.rst:100
+#: 11d95b2339aa4d9fbd8adacb6618bb74
+msgid "**Do you have an API?**"
+msgstr ""
+
+#: ../faq.rst:102
+#: 3f37a7561c064f4cacb8eeaf66faeea4
+msgid ":doc:`Yes, we do <api/mapflow_api>`."
+msgstr ""
+
+#: ../faq.rst:104
+#: 031f379216a549ddabc75a015084f764
+msgid "**Do you have GIS integration?**"
+msgstr ""
+
+#: ../faq.rst:106
+#: 1e716264a2ef42298029c8d6ab02e0f6
+msgid "Yes, we do. You can use our open source plugin  :doc:`plugin Mapflow <api/qgis_mapflow>` for the GIS `QGIS <https://qgis.org/ru/site/forusers/download.html>`_."
+msgstr ""
+
+#: ../faq.rst:108
+#: 7780faf0427a4055a4e983e14db66b58
+msgid "**What is API token and why do I need it?**"
+msgstr ""
+
+#: ../faq.rst:110
+#: e6aad4a217084e6384b4153f3af6a91f
+msgid "The API token is used as password in external applications that use the resources of the Mapflow platform. It is passed as the Basic Auth authorization parameter. You can `obtain an API token in your personal Mapflow profile <https://app.mapflow.ai/account/api>`_."
+msgstr ""
+
+#: ../faq.rst:112
+#: 1033ba15664a42d89c31017efee2079c
+msgid "**I have another question, where can I ask it?**"
+msgstr ""
+
+#: ../faq.rst:114
+#: ed807615389749239a29d7164d01b1cc
+msgid "You can ask your question on the Mapflow website in the online chat, where we will try to answer your questions in real time. Also, you are welcome to write to us at `help@geoalert.io <mailto:help@geoalert.io>`_."
+msgstr ""

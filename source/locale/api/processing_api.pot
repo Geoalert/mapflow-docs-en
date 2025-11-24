@@ -1,0 +1,1866 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../api/processing_api.rst:4
+#: a1f42c44ef00408794733650b24da125
+msgid "Mapflow processing API"
+msgstr ""
+
+#: ../api/processing_api.rst:7
+#: 5158a4d53ee2494ebc29a8f84abc5758
+msgid "The projects and processings that you create in `Mapflow.ai <https://app.mapflow.ai/>`_  **will be available** via the API and vice versa. Also, your Mapflow credits are used to run processings via the API. Use the API token to start using the API, which you need to generate in the `profile settings <https://app.mapflow.ai/account>`_ (see :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>`)."
+msgstr ""
+
+#: ../api/processing_api.rst:10
+#: 2706e584d1264ad99044cb526fe90770
+msgid "You should follow the requirements specified on the page with :doc:`the description of models <../userguides/pipelines>` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io."
+msgstr ""
+
+#: ../api/processing_api.rst:14
+#: 195c9a13afbd488eb4b40018e1b8114f
+msgid "User"
+msgstr ""
+
+#: ../api/processing_api.rst:17
+#: 682a77e562ab4782b5dda68b08e7d36b
+msgid "Get user status"
+msgstr ""
+
+#: ../api/processing_api.rst:22
+#: aafce727dd74461ea9bda36d38e1c382
+msgid "Returns user status for the given user account, including:"
+msgstr ""
+
+#: ../api/processing_api.rst:20
+#: 7bd1b31447944fa1805e8eb34ecd0398
+msgid "User limits"
+msgstr ""
+
+#: ../api/processing_api.rst:21
+#: d99569e7ebe34d609826305a43fe1c32
+msgid "Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by request)"
+msgstr ""
+
+#: ../api/processing_api.rst:22
+#: 894037990d394155a5e6926824f37c01
+msgid "Default and custom :ref:`Imagery` (every User account is linked to the default data providers, yet specific commercial providers have to be linked to the User account by request)"
+msgstr ""
+
+#: ../api/processing_api.rst:24
+#: 2b4364cc21d14d599e4c840cc66f627f
+msgid "If user account is added to the :ref:`Team accounts` - it returns Team's description as well"
+msgstr ""
+
+#: ../api/processing_api.rst:27
+#: ../api/processing_api.rst:186
+#: ../api/processing_api.rst:820
+#: ../api/processing_api.rst:943
+#: ../api/processing_api.rst:1055
+#: 38e0de179c4b404b85bbc2081338627c
+#: 873f7d3f6248470faf0fac9585c81946
+#: 1df2e8c6a7b347cd97d41704894534b2
+#: 0e3a600e8b9f478cb01b81fe62cecbb1
+#: 16e0c5c331b349c1b0676b87a2b6fcf3
+msgid "Response example:"
+msgstr ""
+
+#: ../api/processing_api.rst:88
+#: 2bfae052e97b4c2a9a162976bb5f6fb2
+msgid "Obtain processing statistics"
+msgstr ""
+
+#: ../api/processing_api.rst:90
+#: 40846d7d66ce409c96fc82167d9290a8
+msgid "``POST https://api.mapflow.ai/rest/processings/stats``"
+msgstr ""
+
+#: ../api/processing_api.rst:92
+#: 1418c8210ec04c10870479fbca8ccfe5
+msgid "Returns user's processing history with details. This method supports filters by date, status, etc. If the user is a :ref:`Team's <Team accounts>` owner, this returns the statistics by all team members."
+msgstr ""
+
+#: ../api/processing_api.rst:95
+#: 52818458c22d439e9c4a474df7bbdb21
+msgid "Params for processing stats:"
+msgstr ""
+
+#: ../api/processing_api.rst:101
+#: ../api/processing_api.rst:110
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: 280ad4edac3c42f2ac28df280fde93db
+#: bd6962face7e4453a15cd124718387aa
+#: 26490cc31cf3481383605d341be6a077
+#: e7753f2f9b0b48e58ebded445706e34c
+msgid "Type"
+msgstr ""
+
+#: ../api/processing_api.rst:102
+#: d59c7d38f441402e920fb046ede4f3e8
+msgid "JSON"
+msgstr ""
+
+#: ../api/processing_api.rst:103
+#: e39b04503e2f4a88b23722614d19f130
+msgid "Returns stats in structured JSON"
+msgstr ""
+
+#: ../api/processing_api.rst:109
+#: d05591fe10ac499e83399e77dd2ad87e
+msgid "Filter"
+msgstr ""
+
+#: ../api/processing_api.rst:111
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: ../api/processing_api.rst:1341
+#: ../api/_static/csv/errors.csv:1
+#: 102e53e9186d4f34ba33207ec523bcf8
+#: 25a278c8595249a5b59c6b9f07e950ed
+#: 084897cfc12043e097acd9c4864db19c
+#: 0c5373875593479b8f3bc34a7e755e55
+#: f5589391d1fc4c66a640bb95d6e274d0
+msgid "Description"
+msgstr ""
+
+#: ../api/processing_api.rst:112
+#: 464ba5b89bb64c1c80790318e894f84f
+msgid "dateFrom, dateTo"
+msgstr ""
+
+#: ../api/processing_api.rst:113
+#: f69d03924e0e4490a7cfcbcf9aef2ba7
+msgid "DATETIME"
+msgstr ""
+
+#: ../api/processing_api.rst:114
+#: f4b39aca3cfe45759939e179a821517b
+msgid "Filters by date-time"
+msgstr ""
+
+#: ../api/processing_api.rst:115
+#: 4d178e1dc57749fe85b647fa45329409
+msgid "statuses"
+msgstr ""
+
+#: ../api/processing_api.rst:116
+#: d2731fe310ca41cd80b043172d3700e1
+msgid "ARRAY"
+msgstr ""
+
+#: ../api/processing_api.rst:117
+#: 947d9f6fcd154b5394aab09f12a579df
+msgid "Filters by statuses [\"OK\", \"IN_PROGRESS\", \"FAILED\", \"CANCELED\", \"REFUNDED\"]"
+msgstr ""
+
+#: ../api/processing_api.rst:118
+#: 64c68568a3fb482e909752cafa3f639d
+msgid "terms"
+msgstr ""
+
+#: ../api/processing_api.rst:119
+#: 98c84339c41c48acb3aa1e3071b94c18
+msgid "STRING"
+msgstr ""
+
+#: ../api/processing_api.rst:120
+#: 920e23dc85ac4ed6a19baa594320f910
+msgid "Filters by arbitrary string value"
+msgstr ""
+
+#: ../api/processing_api.rst:123
+#: 8dc62f4aa59b4d51b6100c9f88d1d8b4
+msgid "Sample request:"
+msgstr ""
+
+#: ../api/processing_api.rst:132
+#: 11fc9825d0a446e696d586015e3e4093
+msgid "Sample response:"
+msgstr ""
+
+#: ../api/processing_api.rst:177
+#: cecfac95406241b19769bd874249301b
+msgid "Projects"
+msgstr ""
+
+#: ../api/processing_api.rst:180
+#: 0372ec6a431942138730378284ab6fb0
+msgid "Get project"
+msgstr ""
+
+#: ../api/processing_api.rst:182
+#: 7c0893e22f7a4720b4508939aadc36ed
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:184
+#: 8fa9f4a7ad6748c584b917074fc87b6f
+msgid "Returns the project with the specified ID."
+msgstr ""
+
+#: ../api/processing_api.rst:224
+#: 51547b23584f4d50855a06bfb6c3e7d6
+msgid "Get default project"
+msgstr ""
+
+#: ../api/processing_api.rst:228
+#: d326cf04778a4fa99dea4f8930cce4d6
+msgid "Default project is created for each user upon registration."
+msgstr ""
+
+#: ../api/processing_api.rst:230
+#: efb442da95b74066922f480eac85c09e
+msgid "``GET https://api.mapflow.ai/rest/projects/default``"
+msgstr ""
+
+#: ../api/processing_api.rst:232
+#: bcfb2e88a7cb43c485a9fc0eb0e6fb56
+msgid "Returns the name and ID of the user's default project and the user's account settings."
+msgstr ""
+
+#: ../api/processing_api.rst:289
+#: a97766f6a4964e8289ac7e10032d36fa
+msgid "Get all projects"
+msgstr ""
+
+#: ../api/processing_api.rst:291
+#: 6a2c849aa1684c90b5c0209ca3a5380a
+msgid "``GET https://api.mapflow.ai/rest/projects``"
+msgstr ""
+
+#: ../api/processing_api.rst:293
+#: 1483261eca5e4ba7bb9db3447345fcf6
+msgid "Returns the list of all user's projects."
+msgstr ""
+
+#: ../api/processing_api.rst:297
+#: f8c8b91fb7ae452fb4618940d92b6abd
+msgid "Create project"
+msgstr ""
+
+#: ../api/processing_api.rst:299
+#: 2cfe6c7e314b4066a075d1e8b90b96f7
+msgid "``POST https://api.mapflow.ai/rest/projects``"
+msgstr ""
+
+#: ../api/processing_api.rst:301
+#: 2fdcb3cd832a438ca11f8cb01093a562
+msgid "Creates a new project, and returns its immediate state."
+msgstr ""
+
+#: ../api/processing_api.rst:303
+#: ../api/processing_api.rst:327
+#: ../api/processing_api.rst:905
+#: ../api/processing_api.rst:1093
+#: 8d32453ba793408ea81d7e89307c5e6f
+#: 7599482385694f8e8f57d408b5683d37
+#: 938b8f4133bb497a8dded1b562faa7a5
+#: 8295ba9e1f8e469d9e0f6c5d1a824ca4
+msgid "Request body example:"
+msgstr ""
+
+#: ../api/processing_api.rst:314
+#: bfca90fed9df4e658df1c953f5514316
+msgid "Name of the project"
+msgstr ""
+
+#: ../api/processing_api.rst:315
+#: ac6c9ac193434237bd404b27a46a869d
+msgid "Arbitrary description of this project"
+msgstr ""
+
+#: ../api/processing_api.rst:317
+#: 112fa1d6f1424338bd603c84accacb4c
+msgid "Response: *the newly created project* contains the project ID and the description of the default AI-models as they are linked to every new project."
+msgstr ""
+
+#: ../api/processing_api.rst:320
+#: e6eaea655d954429b3b42f57d336fc6a
+msgid "The custom AI-models won't be linked to the new project automatically."
+msgstr ""
+
+#: ../api/processing_api.rst:323
+#: be0b9e8d526f4523a044a391750fc4d6
+msgid "Rename project"
+msgstr ""
+
+#: ../api/processing_api.rst:325
+#: e577e6bc45e24488a9b0c401a9cbd5fb
+msgid "``PUT https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:338
+#: 3458707ed1364b51bb1c7b82d6d29e21
+msgid "Share project"
+msgstr ""
+
+#: ../api/processing_api.rst:339
+#: 965c5026244e4eb983906cab0a59a64b
+msgid "``POST https://api.mapflow.ai/rest/projects/share``"
+msgstr ""
+
+#: ../api/processing_api.rst:341
+#: 711aa94964254845818a970692181daa
+msgid "Share project with the external or a team user depending on the contribution rights."
+msgstr ""
+
+#: ../api/processing_api.rst:343
+#: c2720bb09726425395b46b5fa2443642
+msgid "Share project with the external user:"
+msgstr ""
+
+#: ../api/processing_api.rst:353
+#: b0fb80884ef943d18bf48c6027ec0fe2
+msgid "Share project with the :ref:`team <Team accounts>` user"
+msgstr ""
+
+#: ../api/processing_api.rst:363
+#: 3e7c01eafaf24b5799b4f8c5e45d6c19
+msgid "User role parameter:"
+msgstr ""
+
+#: ../api/processing_api.rst:367
+#: 095deb29b28a479294596165b43c24eb
+msgid "The \"readonly\" role is applicable for any user. The \"contributor+\" role is applicable for sharing projects inside the :ref:`team <Team accounts>`."
+msgstr ""
+
+#: ../api/processing_api.rst:373
+#: b4bc4a71efa3422e9ccb72354c951577
+msgid "KEY"
+msgstr ""
+
+#: ../api/processing_api.rst:374
+#: ../api/processing_api.rst:1285
+#: ../api/processing_api.rst:1306
+#: ../api/processing_api.rst:1340
+#: a4ef2dafe9d54a5a9c92266ba18095d1
+#: c9660b895fcc443c83f8aaa0a6d606f6
+#: 5f4159592cea410d85f7530419ee48e6
+#: d67f68043865444c882bf9a55d0d67c1
+msgid "VALUE"
+msgstr ""
+
+#: ../api/processing_api.rst:375
+#: ../api/processing_api.rst:1286
+#: ../api/processing_api.rst:1307
+#: 2f5de434834649f4a49af78369aa23e4
+#: f87dc9923ee046f29ee237d476b50ed2
+#: b0dbaa12f7db49afa138a9d9b3cb5c95
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../api/processing_api.rst:376
+#: ../api/processing_api.rst:379
+#: ../api/processing_api.rst:382
+#: ../api/processing_api.rst:385
+#: 6d320115e35040bc9012ee56adf10654
+#: 78bbfd68fa004687bf87b73e3278fe1a
+#: 067fee3c11ce4ca59546f4433a5f6f0f
+#: 939c6ad9c73d458293d8b90331afd707
+msgid "role"
+msgstr ""
+
+#: ../api/processing_api.rst:377
+#: 3c7230272dda4dd99cf96ae7a5364b89
+msgid "readonly"
+msgstr ""
+
+#: ../api/processing_api.rst:378
+#: 1ca57680790a43d99715bd221db7bc3f
+msgid "User can view project, download results but can't create and run processing."
+msgstr ""
+
+#: ../api/processing_api.rst:380
+#: 30c2d4b0a7bb4d8d9fc650a5bb5270b1
+msgid "contributor"
+msgstr ""
+
+#: ../api/processing_api.rst:381
+#: 38abd1dfe6004d32be73e8002b4e7bba
+msgid "User can view project, download results and create and run processing."
+msgstr ""
+
+#: ../api/processing_api.rst:383
+#: 233f9ce90ac841b48f825841f2208bc4
+msgid "maintainer"
+msgstr ""
+
+#: ../api/processing_api.rst:384
+#: f502841bf58c4ab08a1cb6f3a351cc8b
+msgid "User can view project, download results, create, run and delete processing + share project."
+msgstr ""
+
+#: ../api/processing_api.rst:386
+#: 87a896b2ef6541bb9ab98930d4a993a2
+msgid "owner"
+msgstr ""
+
+#: ../api/processing_api.rst:387
+#: 845c13ed9c5341a88030fea6347dc18b
+msgid "User can do everything above + assign and remove the project owner."
+msgstr ""
+
+#: ../api/processing_api.rst:390
+#: cda16a1ab7754f2eb29256a5b34fbb52
+msgid "Delete project"
+msgstr ""
+
+#: ../api/processing_api.rst:392
+#: 3ae9677534444235872e5b0efd1b0bfe
+msgid "``DELETE https://api.mapflow.ai/rest/projects/{projectId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:394
+#: 00734f528c354a95b711f10decb340a2
+msgid "Deletes the project. Cascade deletes any child entities."
+msgstr ""
+
+#: ../api/processing_api.rst:397
+#: 42224bcd12d14de8aac29f8676592d19
+msgid "Processings"
+msgstr ""
+
+#: ../api/processing_api.rst:402
+#: 9ebb5d19724147a49cb32a8b5d02fffd
+msgid "Processing API v2"
+msgstr ""
+
+#: ../api/processing_api.rst:405
+#: ../api/processing_api.rst:800
+#: 04a516d2481648e689a8b5122ff9ed14
+#: cf097d466ad54c4aa05d7b36047519b2
+msgid "Get all processings"
+msgstr ""
+
+#: ../api/processing_api.rst:407
+#: 52eff8c3672b4f5c8e4a7c3ab6629beb
+msgid "``GET https://api.mapflow.ai/rest/processings/v2``"
+msgstr ""
+
+#: ../api/processing_api.rst:409
+#: 4499a4d3a5384210a421c411795cb311
+msgid "Returns the list of the user’s processings by the Default project"
+msgstr ""
+
+#: ../api/processing_api.rst:412
+#: ../api/processing_api.rst:807
+#: 9259b108de6e4ce59c4c6a5d409fa554
+#: e769959de4b741e5858f9af43c026087
+msgid "Get all processings by Project Id"
+msgstr ""
+
+#: ../api/processing_api.rst:414
+#: 2619b965ea0342519a6c24e5b2e2da37
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}/processings/v2``"
+msgstr ""
+
+#: ../api/processing_api.rst:416
+#: 7b79d4621e29409ba27863c1f94c4c0f
+msgid "Returns the list of the user’s processings by user’s project"
+msgstr ""
+
+#: ../api/processing_api.rst:420
+#: de70dd24d08a44338b6f8e593562f79c
+msgid "Get processing by Id v2"
+msgstr ""
+
+#: ../api/processing_api.rst:422
+#: a7830ff60cca4419baa70d0c7f39400a
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/v2``"
+msgstr ""
+
+#: ../api/processing_api.rst:424
+#: ../api/processing_api.rst:818
+#: 5f482ea1608a4b0fbc2843bd171176ff
+#: 404dcd4758884050b8a6edb27f9998d4
+msgid "Returns the processing with the specified id."
+msgstr ""
+
+#: ../api/processing_api.rst:426
+#: ../api/processing_api.rst:610
+#: ../api/processing_api.rst:790
+#: 003bc38b69a2463db6e310b963250057
+#: 3c85987784cc43bcb67271db5ecbb644
+#: f5aa2abf58234bcfac420bf9c355a8ce
+msgid "**Response Example:**"
+msgstr ""
+
+#: ../api/processing_api.rst:536
+#: d8db9e22c948436e90dc6c0ec4efd0d6
+msgid "Create and run processing v2"
+msgstr ""
+
+#: ../api/processing_api.rst:538
+#: abf3b23ad7644133a83afd23d5b7b163
+msgid "``POST https://api.mapflow.ai/rest/processings/v2``"
+msgstr ""
+
+#: ../api/processing_api.rst:540
+#: 7a9d5a21df1b4d58ab41c8aa7f98f5c0
+msgid "Creates and runs a new processing with enhanced v2 parameters and configuration options."
+msgstr ""
+
+#: ../api/processing_api.rst:542
+#: ../api/processing_api.rst:726
+#: 7c3c268c58a7468bb84e66f71c405a6d
+#: e43318296b6f495b9cdb03a64fed612e
+msgid "**Request Body:**"
+msgstr ""
+
+#: ../api/processing_api.rst:720
+#: 245177582b654445a716c1b675f23ee6
+msgid "Calculate processing cost v2"
+msgstr ""
+
+#: ../api/processing_api.rst:722
+#: 452a84b72ae94b91bde9e8432261a58d
+msgid "``POST https://api.mapflow.ai/rest/processing/cost/v2``"
+msgstr ""
+
+#: ../api/processing_api.rst:724
+#: 2c257b7dcbb34d379b36b2529e48b5d4
+msgid "Calculate processing cost v2 with enhanced parameters and configuration options."
+msgstr ""
+
+#: ../api/processing_api.rst:797
+#: c072a50d3cdd4ec3b1bf100e51241a32
+msgid "Processing API v1"
+msgstr ""
+
+#: ../api/processing_api.rst:802
+#: dc79cc44ebb54a84b1d8b51cde4449dd
+msgid "``GET https://api.mapflow.ai/rest/processings``"
+msgstr ""
+
+#: ../api/processing_api.rst:804
+#: 2d0a23ba30d44a3c8bdce8c78f820e18
+msgid "Returns the list of the user's processings by the Default project"
+msgstr ""
+
+#: ../api/processing_api.rst:809
+#: ce867d520b954a4f98bf888a3c051805
+msgid "``GET https://api.mapflow.ai/rest/projects/{projectId}/processings``"
+msgstr ""
+
+#: ../api/processing_api.rst:811
+#: 9f8a14dcd5254f0ab2484aa3fa691f77
+msgid "Returns the list of the user's processings by user's project"
+msgstr ""
+
+#: ../api/processing_api.rst:814
+#: 8f52648da9a84d9db77106df866fe773
+msgid "Get processing by Id"
+msgstr ""
+
+#: ../api/processing_api.rst:816
+#: 14087119d5fd4898b780b6e1f5702f4f
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:872
+#: eeb9bd85c1df4785a64e8844e9b8188c
+msgid "If the processing failed, the response also contains the code and parameters of the error in the `messages` section. If different AOIs failed with the same error, only one of the repeated errors is returned. Example of the failed processing response:"
+msgstr ""
+
+#: ../api/processing_api.rst:894
+#: 3262b84555cf4cc686e6d58a51d00404
+msgid "Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`"
+msgstr ""
+
+#: ../api/processing_api.rst:898
+#: 593996e6a7e844e888b963af2f3ebbdf
+msgid "Processing cost"
+msgstr ""
+
+#: ../api/processing_api.rst:900
+#: af45e4a6655344e1972df5977d3bb171
+msgid "``POST https://api.mapflow.ai/rest/processing/cost``"
+msgstr ""
+
+#: ../api/processing_api.rst:902
+#: 83cd1e81cba1498d948426c971d41af0
+msgid "To find out the cost of processing without running it, you can use this method. Returns the cost of the processing in :ref:`credits <credits>` given the model, the area and the data source."
+msgstr ""
+
+#: ../api/processing_api.rst:945
+#: caaab70cea39415593f9f07b2fd84636
+msgid "``30``"
+msgstr ""
+
+#: ../api/processing_api.rst:949
+#: e45ea0620e3447ddb22b1bc250f42f5a
+msgid "You can find out the details like workflow definition ``ID`` (``wdId``) using this method:"
+msgstr ""
+
+#: ../api/processing_api.rst:951
+#: e4d906412065421383e70c009a1fc522
+msgid "``GET api.mapflow.ai/rest/user/status``"
+msgstr ""
+
+#: ../api/processing_api.rst:957
+#: 85e3294990b74b07b7fe9ddc630efe78
+msgid "▶️ Run the processing"
+msgstr ""
+
+#: ../api/processing_api.rst:959
+#: ../api/processing_api.rst:1032
+#: 48675df98c3b4d41a88d47f4551fc502
+#: ec8170be60864d6096979f050030b8e1
+msgid "``POST https://api.mapflow.ai/rest/processings``"
+msgstr ""
+
+#: ../api/processing_api.rst:961
+#: 456752c4e0194d778cd3658baaa4c436
+msgid "Runs an imagery analysis processing, and returns its immediate state. Request body sample:"
+msgstr ""
+
+#: ../api/processing_api.rst:1015
+#: 8313df5405a3407badd0b74465275227
+msgid "To process a user-provided image (see :ref:`Upload image <upload-images>` section), set parameters as follows:"
+msgstr ""
+
+#: ../api/processing_api.rst:1025
+#: aa8ed18b686e4146aafed5fd69717b5c
+msgid "Response: the newly created processing."
+msgstr ""
+
+#: ../api/processing_api.rst:1030
+#: 3d3b402949a944f38fbb1dbb4517fc62
+msgid "Customize processing with the options"
+msgstr ""
+
+#: ../api/processing_api.rst:1034
+#: 560a652030ce4f5896ddd577458c84e2
+msgid "Processing workflow can be customized with enabling or disabling some model options.  The number of options depends on the model and a scenario."
+msgstr ""
+
+#: ../api/processing_api.rst:1036
+#: 7709d6153f654dd4b0cada624a4b79a6
+msgid "Request body example"
+msgstr ""
+
+#: ../api/processing_api.rst:1053
+#: 04aff1284b60465e87580fce33692e36
+msgid "The \"options\" can be retrieved for every model in the ``models`` linked to the user – through the ``user/status`` request."
+msgstr ""
+
+#: ../api/processing_api.rst:1089
+#: 10a5be116d6c41f2ae469263be4c55b0
+msgid "Rename processing"
+msgstr ""
+
+#: ../api/processing_api.rst:1091
+#: 5610fa9b500a4de0bf323f52f178b779
+msgid "``PUT https://api.mapflow.ai/rest/processing/{processingId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:1104
+#: 452abb2447c74d48812b657b9dda5fcf
+msgid "Restart processing"
+msgstr ""
+
+#: ../api/processing_api.rst:1106
+#: 27952309c81c4f1bb44ad646284bdd74
+msgid "``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``"
+msgstr ""
+
+#: ../api/processing_api.rst:1108
+#: 1a9bf10f6c504ae48fbfac14775f0108
+msgid "Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state."
+msgstr ""
+
+#: ../api/processing_api.rst:1111
+#: bdbcb34a8097473690e8a92378efc8ce
+msgid "Link processing to another project"
+msgstr ""
+
+#: ../api/processing_api.rst:1113
+#: 01c6424b042741dc89893336abf3665b
+msgid "``PUT https://api.mapflow.ai/rest/processings/{processing_id}``"
+msgstr ""
+
+#: ../api/processing_api.rst:1115
+#: 841063a1b6c94ebfafe1235a80a8f10c
+msgid "Links processing to another project by project ID"
+msgstr ""
+
+#: ../api/processing_api.rst:1125
+#: a20a5e32d7574e8ca4f4ae3682b38b36
+msgid "Delete processing"
+msgstr ""
+
+#: ../api/processing_api.rst:1127
+#: a2c8de84c59749d9a3875a24cb065c74
+msgid "``DELETE https://api.mapflow.ai/rest/processings/{processingId}``"
+msgstr ""
+
+#: ../api/processing_api.rst:1129
+#: ab204616d91e4e3db4723a682c48afdd
+msgid "Deletes this processing. Cascade deletes any child entities."
+msgstr ""
+
+#: ../api/processing_api.rst:1132
+#: 7d0e2a2bae22445f8b5b1ec701a3cd78
+msgid "Get processing AOIs"
+msgstr ""
+
+#: ../api/processing_api.rst:1134
+#: 5238cf525d4a4adbb6df35bd71a97962
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``"
+msgstr ""
+
+#: ../api/processing_api.rst:1136
+#: 129cf308eb7d49888e659ddca759e3c2
+msgid "Returns a list of the defined geographical areas for processing in GeoJSON."
+msgstr ""
+
+#: ../api/processing_api.rst:1138
+#: 861b74763e014df9873ef55dc7432f7f
+msgid "Response sample:"
+msgstr ""
+
+#: ../api/processing_api.rst:1181
+#: d450088e0a84434c80245e73614a9d2c
+msgid "Downloading processing results"
+msgstr ""
+
+#: ../api/processing_api.rst:1183
+#: 6cb1e65911ff4e6a97f70017bf4693d2
+msgid "``GET https://api.mapflow.ai/rest/processings/{processingId}/result``"
+msgstr ""
+
+#: ../api/processing_api.rst:1185
+#: ea96386dbea6431c8ac33661d0004a34
+msgid "Returns Geojson results of this processing as an octet stream. Should only be called on a successfully completed processing."
+msgstr ""
+
+#: ../api/processing_api.rst:1191
+#: 8104bca57e2b49efb49bc3d3e7e3d8f6
+msgid "Upload images"
+msgstr ""
+
+#: ../api/processing_api.rst:1195
+#: 166a760e4ad541ccb46c65b1d5a8ddad
+msgid "❗️ Use :ref:`Data API` to create a mosaic and upload one or more images"
+msgstr ""
+
+#: ../api/processing_api.rst:1196
+#: 5aa9f19b1f244d2fa83b18423555efba
+msgid "Use s3 link from the ``\"image_url\"`` as an ``\"url\"`` param to :ref:`Create processing`"
+msgstr ""
+
+#: ../api/processing_api.rst:1200
+#: b5f36b1512fd44c4a739c4aa42822452
+msgid "Reference"
+msgstr ""
+
+#: ../api/processing_api.rst:1203
+#: e7b42cfc070d4067979e513b769a6d76
+msgid "✍️ Params to run the processing"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: 3bf834f557ad412daad11e7fd5e4184e
+#: 6eca88cf77f84ac1b74913961088965d
+msgid "Params"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 9036cecd17254f8a9174bfe293ca0b6c
+msgid "geometry*"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: 3b5c832b9a204f5080810eb0e949a00e
+#: cb2e33b1247a42b2bf14925622b04052
+#: 68dca4b8857a48c1af1b25e639bfd57f
+#: fa043c146d08495f8e358d7b5f60b119
+msgid "Array"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: f63f26fa13424361a69754b3d4efc4fe
+msgid "Processing area in GeoJSON format, type – Polygon or Multipolygon."
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: c7eeaa6647ff402180ea3fc4d2b12604
+#: 5863bdd0faa845bd94473e1effdb0480
+msgid "name"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_run.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: ../api/_static/csv/params_ds.csv:1
+#: f41d540f8eac4f919e7942084acacf0b
+#: 7ab5ed4c535b4f12b012394a46a34d9a
+#: c647cd2450a34f5cbec07201d8c1a30f
+#: d964e65c8fa44a57ae03419c59b4fd12
+#: 747b6d603c47456189a17674c32b12b0
+#: 667fc2380df34acaa3d19be345ad96cc
+#: db76dede5f6347c7a399097be9c87e8f
+#: 58cbf3eb0d304519801173c322fdd4fc
+msgid "String"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 00aa3a7b2e7d4de39ac1b4d8b366d1c2
+msgid "Processing name. If not specified, an automatically generated ID will be assigned"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 8fce11dc06c84c159cb644c87c4978dc
+msgid "projectId"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: fa7e1f4cda6a4ebab2d54d3b84ebe2ef
+msgid "ID of the project in which the processing is created (if not specified, it is created in the user's default project)"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: d6fe20475cf2430c88da86a3df53f701
+msgid "wdId* /"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: c51a64e554e34a8188d2075061d231e9
+msgid "Processing scenario (AI Model) ID. wdName can be specified instead"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: d1d30018cfe148379efc8a80cafdfe84
+msgid "wdName*"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 7519faf878fb490fb8f3bff5d1b513d2
+msgid "Processing scenario (AI Model) name. wdId can be specified instead"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 1f616a9914b24449a39cc4400d11579b
+msgid "params"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: d6b071cf0def45cb94155f1eeba13963
+msgid "Data source parameters. If not specified, the first default data source will be used."
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: c89cbbe114314189b673d0e4c8ce4b6c
+msgid "blocks"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 01b2ef60874744caa874ee5678723ef6
+msgid "Processing options that are specified for the Model."
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 826e100e80624fe19c3a7f63a2ffb730
+msgid "meta"
+msgstr ""
+
+#: ../api/_static/csv/params_run.csv:1
+#: 7ff31eeabf8f46879c6eeaf7e7d8482d
+msgid "Optional metadat as a key:value array"
+msgstr ""
+
+#: ../api/processing_api.rst:1213
+#: 8bf46426f5734a798a344e04dd8f1524
+msgid "✍️ Params to specify the data source"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: feda5bffe8224982acfcb908529f0163
+msgid "Sample values"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: a32d038059d94471ae2a9544e4ed955e
+msgid "Name of the featured data  provider if its available for the current account."
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 07859476215d4073b1a8aef1c8c936c8
+msgid "\"Mapbox\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:2
+#: 1ae455eba2dc4b80a0717ed6e0f2e1d5
+msgid "\"arcgis_world_imagery\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:3
+#: e501b4a4c78b489dbbeac71dc1b456e6
+msgid "\"Global mosaic 2022\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 69219d13c6fa403a884af026c2bda5b5
+#: 565e76d96d5246eb92749aeab5723d49
+msgid "url"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 30faa10bed83486b9d06c3435e9814a8
+msgid "Custom data provider url"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: df3efc4db42649c2bd395e166a62468b
+msgid "\"my-tile-server.com/{z}/{x}/{y}\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 601f0253f698454fa8a92d699c9a5b8c
+msgid "source_type"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 8abeb0985dec4f94b1befeb6b3ea767a
+msgid "Source type of the custom data provider.  Type  \"local\" can be specified to use a user's file from the Mapflow storage"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 2421c0e8bacc4590ab9b7b135f4db2a5
+msgid "\"XYZ\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:2
+#: c73172f9b0b84a339aeb757320dc3bec
+msgid "\"TMS\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:3
+#: c32a8016879940d082ea0f7d1f1207bc
+msgid "\"local\""
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 4df1b1e4380440049e434763f2eeb00b
+msgid "zoom"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: cd3f6b37bc9746219f95d75324829aa6
+msgid "Zoom level"
+msgstr ""
+
+#: ../api/_static/csv/params_ds.csv:1
+#: 8a97e6b8e62d42ff850a07794d1d30ea
+msgid "\"18\""
+msgstr ""
+
+#: ../api/processing_api.rst:1221
+#: 6fb492c0323c48e7851acd2b9a5b62a9
+msgid "**Create new processing with default Data provider**"
+msgstr ""
+
+#: ../api/processing_api.rst:1235
+#: 9d007241a8af427eb2a9d2ad194ab412
+msgid "**Create new processing with User custom URl**"
+msgstr ""
+
+#: ../api/processing_api.rst:1252
+#: 9102e837c4d046a6b4d4c231f79fb3de
+msgid "**Create new processing with My Imagery (Image collection)**"
+msgstr ""
+
+#: ../api/processing_api.rst:1265
+#: ef860bf61d994a84af080655c8ac8d57
+msgid "**Create new processing with My Imagery (single Image)**"
+msgstr ""
+
+#: ../api/processing_api.rst:1279
+#: 003bd450988f4b9da2c7d7986721fffc
+msgid "✍️ Params to specify the \"source_type\""
+msgstr ""
+
+#: ../api/processing_api.rst:1287
+#: 249202608f2e40e8bc295881031a2dc1
+msgid "XYZ"
+msgstr ""
+
+#: ../api/processing_api.rst:1288
+#: ea6263b82d034aa69aa4f20ad0cabd27
+msgid "The URL to the imagery service in “xyz” format"
+msgstr ""
+
+#: ../api/processing_api.rst:1289
+#: 20a09987f4864196ae6e08ebae076091
+msgid "TMS"
+msgstr ""
+
+#: ../api/processing_api.rst:1290
+#: 3e79f08897924b4382ddd27fe13d37a6
+msgid "The similar to \"xyz\" with reverse \"y\" coordinate"
+msgstr ""
+
+#: ../api/processing_api.rst:1291
+#: f36145e6372e4155843649b50407601a
+msgid "WMS"
+msgstr ""
+
+#: ../api/processing_api.rst:1292
+#: ba5eaf8898e84665b1269bc453285c8c
+msgid "(❗️❗️Deprecated) The URL to the imagery service in “wms” format"
+msgstr ""
+
+#: ../api/processing_api.rst:1293
+#: b3c136e0c9774c55a83e121dae3e0a46
+msgid "Quadkey"
+msgstr ""
+
+#: ../api/processing_api.rst:1294
+#: 7b19f0732c2743be82cfea874ce9d9a5
+msgid "The one-dimensional index key that usually preserves the proximity of tiles in \"xy\" space (Bing Maps tile format)"
+msgstr ""
+
+#: ../api/processing_api.rst:1295
+#: 674d220f3b174c1d8e41783082d098b6
+msgid "local"
+msgstr ""
+
+#: ../api/processing_api.rst:1296
+#: 8a16e12b5b4d479fb11915ce839b8a2b
+msgid "File of image in GeoTIFF format"
+msgstr ""
+
+#: ../api/processing_api.rst:1300
+#: 19d1fff7a15345b08c38b1e2cf714176
+msgid "✍️ Default AI models"
+msgstr ""
+
+#: ../api/processing_api.rst:1308
+#: a4633ea8c52a48538c4a777d4edc4153
+msgid "MODEL input (m/px), num of bands"
+msgstr ""
+
+#: ../api/processing_api.rst:1309
+#: 5dc2c2a0e98b448b9eaf8a1b2b28d1e4
+msgid "ZOOM LEVEL"
+msgstr ""
+
+#: ../api/processing_api.rst:1310
+#: 11acdaa96f56455187e888fc01a6c9cf
+msgid "OPTIONS"
+msgstr ""
+
+#: ../api/processing_api.rst:1311
+#: d7f1661418ca487289731e440d7b555f
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../api/processing_api.rst:1312
+#: 034050d0a88042fdb39d5dc4457d6ed1
+msgid "Detects buildings & classifies them"
+msgstr ""
+
+#: ../api/processing_api.rst:1313
+#: 67e8b0b07fea4174b08318bff23f54e0
+msgid "0.5, 1-3 (RGB)"
+msgstr ""
+
+#: ../api/processing_api.rst:1314
+#: ../api/processing_api.rst:1324
+#: ../api/processing_api.rst:1329
+#: 89cce5277c7b445aaeac5995ff5a063b
+#: 03d5d3b4c65e46ee8a3ec047fb47414b
+#: aba43bcbc9094fb78b93cbc31271096d
+msgid "17–18"
+msgstr ""
+
+#: ../api/processing_api.rst:1315
+#: 711ed9bdbfd4454db236874433f6c4ae
+msgid "Simplification, OSM, Classification"
+msgstr ""
+
+#: ../api/processing_api.rst:1316
+#: 736ebe3bc6374b7ab2a3353f8fd5e56f
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../api/processing_api.rst:1317
+#: b92df370d8a940ff8824632d6b85270c
+msgid "Detects tree-like vegetation"
+msgstr ""
+
+#: ../api/processing_api.rst:1318
+#: ../api/processing_api.rst:1323
+#: ../api/processing_api.rst:1328
+#: 89ad3fd268b9498ab10e340b9d9d3555
+#: 3f0204661a4441e8af1105a4c8b7dc6c
+#: 61a2101b25f842f0a86b1db9139e7461
+msgid "0.5, 3 (RGB)"
+msgstr ""
+
+#: ../api/processing_api.rst:1319
+#: 498e847f1c364b6abd8d16c01f54f5d9
+msgid "17-18"
+msgstr ""
+
+#: ../api/processing_api.rst:1320
+#: b1911558691948678eb5314ab4d827f5
+msgid "Heights"
+msgstr ""
+
+#: ../api/processing_api.rst:1321
+#: ad1a0995621e4c28919992c58e97100d
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../api/processing_api.rst:1322
+#: 20f34ec3ace64d88967bb4a4029fca08
+msgid "Detects roads and returns them as polygons / linestrings"
+msgstr ""
+
+#: ../api/processing_api.rst:1326
+#: f4713ee20c3147a19d465c34c3f25376
+msgid "🏗️ Construction"
+msgstr ""
+
+#: ../api/processing_api.rst:1327
+#: 5d9a61358093445c9305a29f798bafef
+msgid "Detects construction sites"
+msgstr ""
+
+#: ../api/processing_api.rst:1334
+#: 81a6bb2351cf4fecb38d806370e8b379
+msgid "✍️ Processing status"
+msgstr ""
+
+#: ../api/processing_api.rst:1342
+#: 1bb7c3a329db48f1a7c236e247ca4d10
+msgid "UNPROCESSED"
+msgstr ""
+
+#: ../api/processing_api.rst:1343
+#: fb8e21bb9f244c2191af13c3a2037492
+msgid "The processing is not started yet"
+msgstr ""
+
+#: ../api/processing_api.rst:1344
+#: d68fc784a4b24545848029076e97ecb3
+msgid "IN_PROGRESS"
+msgstr ""
+
+#: ../api/processing_api.rst:1345
+#: 15b46dbbcb1b4b2abfd738d79d090165
+msgid "The processing is going (or is in the queue)"
+msgstr ""
+
+#: ../api/processing_api.rst:1346
+#: 3832a8c8a0774b15b7b59b1dc569f248
+msgid "FAILED"
+msgstr ""
+
+#: ../api/processing_api.rst:1347
+#: 491ea40e8aad491993deaf99fc80a371
+msgid "The processing ended unsuccessfuly - change wrong params or try to restart"
+msgstr ""
+
+#: ../api/processing_api.rst:1348
+#: 61afc4e50860413880117325d5e8893d
+msgid "OK"
+msgstr ""
+
+#: ../api/processing_api.rst:1349
+#: 63dc49fa9b5d4dda8bcb0f48b66293cc
+msgid "The processing is finished at 100 percent completed"
+msgstr ""
+
+#: ../api/processing_api.rst:1350
+#: 3cd724109dcc44bcabd23e722305c20f
+msgid "*IN_REVIEW*"
+msgstr ""
+
+#: ../api/processing_api.rst:1351
+#: aea9388a22674739888359dbd4ad6378
+msgid "The additional status enabled by request (if the results are under review)"
+msgstr ""
+
+#: ../api/error_messages.rst:4
+#: b4c7d63e34694c83b14cb88c708fdd31
+msgid "Error messages in API"
+msgstr ""
+
+#: ../api/error_messages.rst:6
+#: f9fd90b9d5af40aa92c28c756c8f8404
+msgid "List of messages and params that can be found in the ``messages`` section in case of the failed processings"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1a501278a76f4d9db594b7056ea61d84
+msgid "Error code"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e1cacf50f2f543ab88b27ed5ad0bf7db
+msgid "Parameters"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5268f5ebf0d245f4b1f00b7e702eb3a2
+msgid "source-validator.UrlMustBeString"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 391a6619973445e3827afdda98271263
+msgid "url_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 507d1a6d73e840dbbc85564fd916cc0c
+msgid "Key ‘url’ in your request must be a string, got {url_type} instead."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5e32a3bbb23c4b10b51e6eed42c8b47f
+msgid "source-validator.UrlMustBeLink"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 73c3584ed71143fd9c0c6329d27c5c97
+msgid "Your URL must be a link starting with “http://” or “https://”."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e866c402721f46a0899e007669774b62
+msgid "source-validator.UrlFormatInvalid"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 481d2e5a70b34638af4ceb51aa390a52
+msgid "parse_error_message"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d040429cea9849189c492c5b046f6aea
+msgid "Format of ‘url’ is invalid and cannot be parsed. Error: {parse_error_message}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a3575f34103f485d9cb1dd1890ccba2c
+msgid "source-validator.ZoomMustBeInteger"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 150d4fe03e3947e692d7de8bc511d844
+msgid "actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 54eb6790dcc84ec4860f66b5ff4fa78d
+msgid "Zoom must be either empty, or integer, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ef2d31b32d1146568ace08dfcf25d7b8
+msgid "source-validator.InvalidZoomValue"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 8be8c8685e184561b69ec0ef237fd293
+msgid "actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4cdc3fb0748c4efc8724d1f195ea4d27
+msgid "Zoom must be between 0 and 22, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3a1d3c711c2d4a29bc6d452e4e166a7b
+msgid "source-validator.TooHighZoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 707d8616e77c4db98e6409e1d8580b95
+msgid "max_zoom, actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 68a0816045a04b4e83d0823f497b5891
+msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 353c758a87754be3bfe72a6b87881cff
+msgid "source-validator.TooLowZoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 34e250ba06f64602b484edf609e44462
+msgid "min_zoom, actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c4030111c657402a95d78d3444d4c281
+msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 8cac7bd4dc65408cb388e80bcbe2014d
+msgid "source-validator.UrlBlacklisted"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f453ca103b46462682824b494ebfd7fe
+msgid "The specified basemap {url} is forbidden for processing because it contains a map, not satellite image. Our models are suited for satellite imagery."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 191f0cb359e843f694facd1da8df1733
+msgid "source-validator.ImageMetadataMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c9d5198ab84d422d9fbe7339a01398bd
+msgid "Image metadata must be a dict (json)"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: df8f94e197ea4cf9b686b627b4403e26
+msgid "source-validator.ImageMetadataKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b6086f1e14e84b7ea7d730b2aabdd486
+msgid "Image metadata must have keys: crs, transform, dtype, count"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 8adae359a0de4e5cbd8320f8ac05cd0d
+msgid "source-validator.S3URLError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: dc60539267764366a09896a16f204bc8
+msgid "actual_s3_link"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 019c7764cb064cdc8b6de124985f5cdd
+msgid "URL of the image at s3 storage must be a string starting with s3://, got {actual_s3_link}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f7437ce99190433ead1bf1c5c0b0e808
+msgid "source-validator.LocalRequestKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 24cbc1aa2c02460a91f187a1fda9ae36
+msgid "Request must contain either ‘profile’ or ‘url’ keys"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 566de96722bc47cc86519f9a41f4c813
+msgid "source-validator.ReadFromS3Failed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f4c8500ed352403da0c35504d12bd353
+msgid "s3_link"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f4991f05c07a4d08b8ca88e335d24550
+msgid "Failed to read file from {s3_link}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 116983b2fd8a40c193bfec59cfe0597d
+msgid "source-validator.ImageReadError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 71661a6b50bf4f23a36415e8d93281da
+msgid "We could not open and read the image you have uploaded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 795fe8e582664b2bbcf260703e4528f2
+msgid "source-validator.BadImageProfile"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5108462de4224ab0bff57d29311ef15d
+msgid "profile, required_keys"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2519e2d5ec6041b58f3c9cddfc87902c
+msgid "Image profile (metadata) must have keys {required_keys}, got profile {profile}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b62ecd015b354d95b76bbb9105c6f5d3
+msgid "source-validator.DtypeNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 668c181491994b22a463d740619501c2
+msgid "required_dtypes, request_dtype"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d32c69084def473aa8e0b9d783469304
+msgid "Image data type (Dtype) must be one of {required_dtypes}, got {request_dtype}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 689890e4072d4817b02a01975f7e4652
+msgid "source-validator.NChannelsNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d5d0d2a32f844d4eb92169b9bbef7048
+msgid "required_nchannels, real_nchannels"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9e20b7babb57416da564c069c5afc88f
+msgid "Number of channels in image must be one of {required_nchannels}. Got {real_nchannels}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b296ddbb71414af1a8bf9ed5c0c15c67
+msgid "source-validator.PixelSizeTooLow"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4213b090a7964ffdb2462ac505f1cc61
+msgid "actual_res, min_res"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f27d7ac49e224c049afd607bb1918174
+msgid "Spatial resolution of you image is too low: pixel size is {actual_res}, minimum allowed pixel size is {min_res}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: dacd58138c334ba6980b472d4a62b446
+msgid "source-validator.PixelSizeTooHigh"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ff83bba6fcd84263b60a4dbcef800bbe
+msgid "actual_res, max_res"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c5fe36c265534a91b133b3a7f530886c
+msgid "Spatial resolution of you image is too high: pixel size is {actual_res}, maximum allowed pixel size is {max_res}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 73447c6355de4b26845d4851ad46da91
+msgid "source-validator.ImageCheckError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2695145dc7f64d3d90850e646697d6c4
+msgid "checked_param, message, metadata"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 68fba0de449a4424a7be8bc579e11846
+msgid "Error occurred during image {checked_param} check: {message}. Image metadata = {metadata}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1078b05ac61947d5bd1000cb9870ce46
+msgid "source-validator.QuadkeyLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: bedd87163aee46289179378581fc5c4f
+msgid "Your ‘url’ doesn’t match the format, Quadkey basemap must be a link containing “q” placeholder."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b5fac11c5ea44968933db1716caf51d3
+msgid "source-validator.SentinelInputStringKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e3bc9aaf086644ccbd62cfba1f303186
+msgid "Sentinel_L2A request must contain field named ‘url’ with string value"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 67f105acf6fa4027a3bad890754e1de1
+msgid "source-validator.SentinelInputStringFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f0c971ff8b8846969ac972013fdd6339
+msgid "input_string"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 40e0d0db119d4277af7ec985fb485ec1
+msgid "Input string {input_string} is of unknown format. It must represent Sentinel-2 granule ID"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f172d0bce2c74965aa9ad33b8933e57d
+msgid "source-validator.GridCellOutOfBound"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 724b484898324a24bad2842ca92bab6c
+msgid "actual_cell, allowed_cells"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a2790e291e474346829d98ce7da72a36
+msgid "Selected Sentinel-2 image cell is {actual_cell}, this model is for the cells: {allowed_cells}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e970ad2eb0344144bf639cafdc2f51d8
+msgid "source-validator.AOINotInCell"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d233e6fb918a4b91a6ae4a820ef749b1
+msgid "actual_cell"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c71270bfcde14ace9664a0039720ef0d
+msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 35e1a6f8a05142b08607c7a2e143d415
+msgid "source-validator.MonthOutOfBounds"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5ae81af597144fbe8f7eb565c47411b7
+msgid "actual_month, allowed_months"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 48ec043538194a81a6aa6634b169d152
+msgid "Selected Sentinel-2 image month is {actual_month}, this model is for: {allowed_months}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 29dfab8af2514ff4869cf8788adea03f
+msgid "source-validator.TMSLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 85d3f9fea4184934b144620caa1fbab1
+msgid "You request TMS basemap link doesn’t match the format, it must be a link containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start processing again."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1b1990f40d924e18a724b21534af3e10
+msgid "source-validator.RequirementsMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 07a265bf8a0b4a35a8ee38c96346a92e
+msgid "requirements_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1657d006bd4747febf009cbf71c9be35
+msgid "Requirements must be dict, got {requirements_type}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 523a3bfe2e0e4e5c8d306a5264f9ecf0
+msgid "source-validator.RequestMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1352cc5e724349af928aaca66ea526b0
+msgid "request_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b8f30d682f544e81b7f62d08d200f56a
+msgid "Request must be dict, got {request_type}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ef857b6494af4118a25ddbf20605bf12
+msgid "source-validator.RequestMustHaveSourceType"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b03876abcd424b25ab17427864e15c98
+msgid "Request must contain \"source_type\" key"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ba74e2bd884740639f6f40b896ba9038
+msgid "source-validator.SourceTypeIsNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4473d58595914d1b998af433c6aff01b
+msgid "source_type, allowed_sources"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7d6cf85becf9406380e4511f0ffabc49
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6113eb9f2123479d8f3fc6f81af8fc7b
+msgid "source-validator.RequiredSectionMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2f90d43c8c3b40a28a30bb76833fb766
+msgid "required_section_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 41f9cf1e4b014b578142fa22b24deb90
+msgid "“Required” section of the requirements must contain dict, not {required_section_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: fb07c9424716496b848db18555bea511
+msgid "source-validator.RecommendedSectionMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2a471d70ee4d4e45b9ded1dd2c22e6b6
+msgid "recommended_section_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3db6425516644b48b2fa79c1b72fa143
+msgid "“Recommended” section of the requirements must contain dict, not {recommended_section_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3596ae99215c4d9192c0269f6bb2638c
+msgid "source-validator.XYZLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f729b28402f943d3b12fdb83b6b401e8
+msgid "You XYZ basemap link doesn’t match the format, it must be a link containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c5fb21f9df62402993cdee6f27ee5790
+msgid "source-validator.TaskMustContainAoi"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 540de9ee1e0841ea820728403ca65d27
+msgid "Task for source-validation must contain area of interest (‘geometry’ section)"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e9f27e93f28f4690ba2613d5c928f2c6
+msgid "source-validator.UnhandledException"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 8b93cef2f48745519ba80ba4903bd74a
+#: 9225a1339f2149308ea60c4f76625a9c
+msgid "Internal error in process of data source validation. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: bb5e16fcd7c04d13b6ff0de87f46b5d0
+msgid "source-validator.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5745080dce1542a9b8fa2f73f92a8029
+msgid "dataloader.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 1ec06b1ef67a454ca7ad021960a35757
+#: f62987d997204702af19e378a0388fef
+#: a08d96a8f5b74b229dee9231dc72527a
+#: 54d3897f609c467da8f78c19a551d9ab
+#: 8e519f5afaaa49e9899b33189eb5e047
+msgid "Internal error in process of loading data. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a589457707ce4e4ca84e6302f29c651b
+msgid "dataloader.InternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 84631836edab41c9b48802f729fbe1c2
+msgid "dataloader.UnknownSourceType"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5189dbe57c394c7b87b3284e40c025ee
+msgid "allowed_source_types, real_source_types"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1783947331794f4da4ec86d882f7bcdf
+msgid "Wrong source type {real_source_type}. Specify one of the allowed types {allowed_source_types}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2197d525828e4819a8229e3999ec90e5
+msgid "dataloader.MemoryLimitExceeded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ba3e5d717c504a2a894855df026903fd
+msgid "allowed_size, estimated_size"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d08adfbd473a45df95d53d5eab617e79
+msgid "Your data loading task requires {estimated_size} MB of memory, which exceeded allowed memory limit {allowed_size}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 500ad8ab1f0d419f956f96c2eb4d086a
+msgid "dataloader.LoaderArgsError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6ca49e5c6bdb45e6ae1d5f94e1c3647a
+msgid "argument_name, argument_type, expected_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 457be93bec15417a96eaa00b4a89a6a0
+msgid "Dataloader argument {argument_name} has type {argument_type}, excpected to be {expected_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a30198cec08c475b82857cb4b473cd3c
+msgid "dataloader.WrongChannelsNum"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: aacf7bc028ae4a4bba171adafdced6a5
+msgid "expected_nchannels, real_nchannels"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 985fd888b02d41c6b6173cbc6bc01a9d
+msgid "Loaded tile has {real_nchannels} channels, required number is {expected_nchannels}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d1b8171977b345129ae47e32e09aa5ad
+msgid "dataloader.WrongTileSize"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a82cc2cb5fe446da9afdc82119801f28
+msgid "expected_size, real_size"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7e180f13fa1c40889771fb1d4fcdd44d
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d1f54eaee099482084a9e8c34b36654d
+msgid "dataloader.TileNotLoaded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: da0bdecc3beb439eb916e70744475ff3
+msgid "tile_location, status"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e1ab1c5c1d364b788ccac06286c8a252
+msgid "Tile at location {tile_location} cannot be loaded, server response is {status}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5d3e07edd98e45fc802fbe200363e5f4
+msgid "dataloader.CrsIsNotSupported"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2ba7f94d06964ce5903f3d9dcad805ad
+msgid "dataloader.MaploaderInternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3bbba10ab956416f935ba98b07e8cb6c
+msgid "dataloader.SentinelLoaderInternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f2d15b2577004790b0a4fa62e41335ec
+msgid "raster-processor.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3616eece73a04bab89fc91b65c5a8a65
+msgid "Internal error in process of data preparation. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c4d4fba19125496b89a16de869839e19
+msgid "inference.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 8a9a76cf00e64390802b9caed7a52548
+#: b96ca11789754f6aaf055ca51b05d190
+msgid "Internal error in process of data processing. We are working on the fix, our support will contact you"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 49522f555f4a451b81d50f9a71237b58
+msgid "vector-processor.internalError"
+msgstr ""

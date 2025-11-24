@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/combo_model.rst:2 4985226c50c94eb897da9e2a8f528161
+msgid "[multi] Buildings + Roads + Forest"
+msgstr ""
+
+#: ../userguides/combo_model.rst:4 a114478755a84a25a1be94e3e7d1f056
+msgid ""
+"This pipeline combines Buildings, Forest and Roads in a single workflow "
+"and returns the topology-corrected GeoJSON output."
+msgstr ""
+
+#: ../userguides/combo_model.rst:13 3ba4ad1797fd4e26a492eb9e3025a969
+msgid "Processing result of construction model"
+msgstr ""
+
+#: ../userguides/combo_model.rst:13 2f6c52f7b768459db31022e8c7dea484
+msgid ""
+"Processing result sample for a combined scenario featuring Buidlings, "
+"Roads and Forest models."
+msgstr ""
+

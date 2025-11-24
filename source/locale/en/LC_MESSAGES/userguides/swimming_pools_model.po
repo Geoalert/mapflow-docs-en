@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/swimming_pools_model.rst:2 717aedd2962945cfae86f77dcdb879d1
+msgid "|:whale:| Swimming pools (CUSTOM)"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:5 cd9fa636d798420686d37b280318cdd1
+msgid "This model is available by request."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:7 5cab1a69b16a452f88b3b996be25cc09
+msgid ""
+"Swimming pools detection and classification. The model is trained on the "
+"high resolution aerial imagery (working zoom level 19). The testing "
+"benchmark score is ``F1 > 0.95``."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:14 8a0d0fb69fac4af69415e064b55418cb
+msgid "Model name"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:15 9b6e88df2ce3409d84d0ea18d59aacc9
+msgid "Model type"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:16 96604481a0bf4176b93ea538fab4ca50
+msgid "Zoom level"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:17 04ad57d117ae4e03a26bfce189fb5366
+msgid "F1 (testing)"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:18 a2bd6eef33954ad79d70f200e0425c6f
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:19 6866c366ff824742a6ff24483dfbbb62
+msgid "Swimming pools"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:20 8e0846502d8142919faac9d67f9d355e
+msgid "Detector + classification"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:21 9c7ce87bf2e8474a852a680c2bdafa79
+msgid "zoom 19-20"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:22 21733af8cbb944eb9582e03a48482654
+msgid "> 0.95"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:23 d21689380626445db37d815b4338ece4
+msgid "Global"
+msgstr ""
+
+#: d2cf7118b23744dfa19ed2d5428a93f9
+msgid "Processing result of construction model"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:31 4cb7e477f85743bab71df05dc73d67c0
+msgid ""
+"`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-"
+"approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-"
+"case-"
+"b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ "
+"about the use cases and the model application"
+msgstr ""
+

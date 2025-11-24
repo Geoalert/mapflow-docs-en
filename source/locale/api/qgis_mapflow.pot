@@ -1,0 +1,1204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../api/qgis_mapflow.rst:4
+#: 551169057b4f4dd8b9523cab03c1629e
+msgid "Mapflow <> QGIS"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:7
+#: 422c81bfe71b4e24badb7e9242b0d3c1
+msgid "Mapflow can be used via QGIS. You need to autohorise :doc:`authorization to work with the Mapflow API <../userguides/mapflow_auth>` and get `API token <https://app.mapflow.ai/account/api>`_ to login."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: 27c4ee6339214ba5960f1857927a72fc
+msgid "Preview results"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:15
+#: 3eba08264a374b858b5b01e3e74aa013
+msgid "Join Mapflow <> QGIS `open source project on Github <https://github.com/Geoalert/mapflow-qgis>`_."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:18
+#: f77bfa087db147e6babe1f69f21104ec
+msgid "What is QGIS"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:20
+#: a3aee130c2d24562981e56903450dc31
+msgid "QGIS (`qgis.org <https://www.qgis.org/>`_) is the leading and most popular Open Source Desktop GIS. Users can visualize, manage, edit, analyse geodata, and compose printable maps. Get a first impression with a more detailed feature list. Know more about QGIS and istall it from `official site <https://www.qgis.org/>`_."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:23
+#: 4ccbb0f23a8f4719bbb677f3b68bb27e
+msgid "QGIS has an interface for external Python plugins that allows to connect more apps and extend core functionallity. Our \"Mapflow - QGIS\" app enables connection to Mapflow :doc:`processing_api` to run AI-mapping and add output as layers to the QGIS workspace."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:27
+#: 6e0a827433ed4a1abf1a71a37176c84a
+msgid "How to install the plugin"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:29
+#: 9e29175c8aae453aa4154d0942139017
+msgid "Click *Plugins* -–> *Manage...*, go to the *Not installed* (or *All*) tab and enter \"MapFlow\" in the search box. Click *Install Plugin*. You will be able to see then if the newer version of the app is available (in the Upgradeable tab) and to check the changelog for details."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:31
+#: b88528a785c148e7963dfd876a230ac9
+msgid "The plugin icon has appeared in the QGIS Toolbar. If the icon isn't automatically displayed, right-click on the Toolbar and check if the Mapflow checkbox is activated."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:36
+#: f4f3a83d291847b6b1867ccd887677d2
+msgid "How to login"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:38
+#: 57e651895ced44ad950ca5ca72f1f624
+msgid "You need to log in with your credentials to start using the plugin. Go to `mapflow.ai <https://app.mapflow.ai/>`_, register and obtain `API token <https://app.mapflow.ai/account/api>`_."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: 7fcf18a754e545ba89718f2a898f16db
+msgid "Login window"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:47
+#: 7f04ab920f154c618feda38b4080034a
+msgid "Or you can use the `OAuth 2.0 <https://en.wikipedia.org/wiki/OAuth>`_ protocol as a more convenient and secure way."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:50
+#: 3a919ad1f0824bcda814c8fc36d0d395
+msgid "Logging in with OAuth is a convenient feature, but still experimental for us."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:52
+#: 556397879a6146bf93a626ca14aa9550
+msgid "Also keep in mind that at the moment this feature does not support proxies."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:55
+#: 01a54dc30f874e22a016079bf283abb7
+msgid "OAuth2 setup"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:57
+#: 8bd907e7c99744358764cf6150ca58a5
+msgid "Information on how to log in using OAuth can be found in :doc:`this section <../userguides/howto>`."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:60
+#: 1cd9606b4bd5405e9ad339ec6492d50a
+msgid "User interface"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:62
+#: 2d771967af9245dd89e413a44319ab1d
+msgid "Main plugin workspace has two sections: left sidebar with the processing controls and the tabs section."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:64
+#: 8b0e7a871dd54393acea088901c848d3
+msgid "Processing controls panel allows to start new processing and/or rate finished processings, and includes following:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: c9826b2e944343d29ecc1462302c1ee8
+msgid "View of the processing panel"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:72
+#: 5cb63d1ee9d84d999e28639e3261640d
+msgid "**Processing controls panel**"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 408d1af6a8b940408cdfec880e6bf31c
+msgid "# Name of the field / button"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: ../api/qgis_mapflow.rst:217
+#: ../api/qgis_mapflow.rst:565
+#: 3e36d4b55d84426f84809f4683f97fdb
+#: 0b516d258b91401c9476f83df55f4361
+#: 1ec8aa03b8284a2a82d26bd417581f27
+msgid "Description"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: c472f6e9b308494c88ba4eb894dd6d7f
+msgid "1 Processing name"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 74495201000c424097a0e91721ad78f4
+msgid "Name of your processing"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: c468792abb574bdcb9fff1a410f01b23
+msgid "2 Area"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: d3223e01889e401f8ae23f4bb9acc7fa
+msgid "The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers."
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 6125b7d027fa42f08deadcc394181288
+msgid "3 Data source"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 6f129bb1af0b4698a8b2a1031da2b15c
+msgid "Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button."
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: da9423732ffb435b9f2614a8efc9cd34
+msgid "3* Zoom"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: abfad0e4d0b34524a03e6c1e392011ee
+msgid "Selecting the zoom for the Data source used (currently not available in the public version)"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 5597f305ce93466380c9a2f68e3bebdd
+msgid "3* Show preview"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 7ad5c5175ede48b4ba6a5776eca46109
+msgid "A preview of your data source or, if it is not available, an OpenStreetMap basemap"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: bf72256428e14374b540c96600ca5cd4
+msgid "4 AI Model"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: cfd609bca8f74b0eb6b9cd6cd5318fdb
+msgid "Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 7a77bc1bd4804ec3a0524732d9e3a49e
+msgid "4* Your balance"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: a903decdf0314b648b2ba20265f8d4d0
+msgid "Remaining area available for processing"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: a72b9786d4ab415ea0e682938325f700
+msgid "5 Start processing"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: b3f9b3ca67a34eb695514e075164732a
+msgid "New processing start button. You will see a notification about the successful start of processing, or about incorrectly selected parameters after clicking it. It will appear in the block for displaying and working with processing after a successful start of processing."
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 7f585acc857141b3a0031ab7469a2d4f
+msgid "6 Stars for rating"
+msgstr ""
+
+#: ../api/_static/qgis/processing_controls_panel.csv:1
+#: 8738f08ec2454aa18cbc3af3a43aca14
+msgid "Rating scores for the finished processing. Feedback field"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:80
+#: fb7eadc08e394aa08b98a812ad8c2a77
+msgid "Your current balance is dispayed in the Tob bar. It also contains menu to access you personal profile on Mapflow.ai: top up you balance; open billing history; log out of current session."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:82
+#: 613e12e9f4554b4fa0f856c0b8701885
+msgid "The main window contains 5 tabs:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:84
+#: ed4b77c98ba042f495bba64e59f0dde2
+msgid ":ref:`Project/Processing`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:86
+#: 698ad2c7828a4f29bfe85458d565c441
+msgid ":ref:`Imagery_search`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:88
+#: 75faad40f6a44a8280a0af699647a71e
+msgid ":ref:`My imagery qgis`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:90
+#: 60c352ad01c24dfc899dbdbd717160e2
+msgid ":ref:`Settings`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:92
+#: e43b08d1d9f346bbbfeb8df1ec5fbd9c
+msgid ":ref:`Help`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:98
+#: acddb1bab61d44b997c8b8f1874a13d9
+msgid "1. Project/Processing"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:100
+#: a4c985a99a624c7488f35a051ce3d3eb
+msgid "This tab is divided into two parts. First, you will see a list of your projects. Here you can create, edit, and delete projects using the buttons at the bottom of the panel. Various sorting options and a search for a project by name are also available."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:108
+#: f33fdf90f36e4ec39a0545f5961a4290
+msgid "View of the project tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:108
+#: e45a576e33ac409ca3b83b23269e71e7
+msgid "Project tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:110
+#: ../api/qgis_mapflow.rst:110
+#: 0c817341366e42dbbc9c2e5d2f2a3837
+#: 2ace1c427c9d473a86d6d64f9805829f
+msgid "right_arrow"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:118
+#: 014163db74f44bf38fccfe15e5fb5e69
+msgid "To go to the processing of the selected project, you need to double-click on it or select the project and click on |right_arrow|. To return to the list of projects, click |left_arrow|."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:121
+#: bb7f465d22924c98ab8ebcf688948b3f
+msgid "Since plugin version 3.3.0, the processing :ref:`API v2.0 <processing-api-v2>` is used."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:129
+#: 22ac1897eefb42728d4095c0922c6f40
+msgid "View of the processing tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:129
+#: e6eb23d7ff6d46e194719eba82285b21
+msgid "Processing tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:131
+#: 299dca3c272843d290ce32ffd2521992
+msgid "To view the processing results, click on the \"View results\" button or double-click on the processing name in the table. You can manage the processings using the options and buttons in the bottom panel menu (Delete, Rename, Save results, etc.). Processing filter by name is available at the top of the panel."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:134
+#: 5c9de0e9398341f388a4409b1f9f8843
+msgid "Just like in Mapflow WEB, you can duplicate the selected processing and run a copy of it with the same parameters via \"Duplicate\" buttonThe duplicated processing will have a new unique ID, but the name will be the same as the original one. You can rename it using the \"Rename\" button."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:137
+#: 8e0fbe654ffb4a1a99e68b68a68bd541
+msgid "If the processing fails, you can restart it using the \"Restart\" button after the issue is supposed to be resolved (The button is displayed in the menu only if the selected processing is in a FAILED status)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:140
+#: 55f660e4903941029d8629b2d4ee41f5
+msgid "⬇️ To download the processing results, you can double-click on the completed processing in the list."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:143
+#: 91b23ce02d7046dba0e975fbb461e190
+msgid "⬇️ By default the processing results are downloadable as vector tiles for faster preview.  To download the processing results as a file you have to choose this option: Settings -- \"save results as a local vector file\""
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:145
+#: 36603e1c11e34a9eacc36c18e83dcbfa
+msgid "To view detailed information about a processing, click \"See details\". The window that opens will display the processing's **Name**, **ID** and **Status**, as well as the **Data provider**, **Model** and **Model options** used. In some cases, a button will appear next to the **Data provider**. You can use it to go directly to the data source, for example, to a \"My imagery\" collections or a specific image."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:154
+#: 2523273a789c43e98d42e9211b5af442
+msgid "View of the see details window"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:154
+#: d40260fd1ca4447889f6438a899c6027
+msgid "Processing details"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:202
+#: ac0168b8ec4e437887dc099e68339081
+msgid "2. Imagery search"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: 028c8438a4f342d4990bb8ec961e6d19
+msgid "View of the imagery search tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:216
+#: ../api/qgis_mapflow.rst:564
+#: dacf3e4e2c5945e48d4944bd00cca9e7
+#: 6453673562dd43068cc289eadfb05682
+msgid "Name of the field / button"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:218
+#: 3d0dcd5ec3874ec7b32e513f1bb2fd4c
+msgid "Period of time (From...To)"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:219
+#: d21cf942d25a4857bc97dd5ed1204079
+msgid "The images will be provided for the specified time period."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:220
+#: fe6705f23ec4470199948af95ffacc03
+msgid "Mosaic"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:221
+#: aaa66d7b26e641599211485c0a3e3c3b
+msgid "The search will be performed only for providers with the \"Mosaic\" type (ArcGIS World Imagery, Global mosaic 2022)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:222
+#: 3d2520264bdb4c0aa3a6ab7dc5c515e4
+msgid "Image"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:223
+#: 66b5a7daf6404a33bf7eb7ca2bbd3d43
+msgid "The search will be performed only for providers with the \"Image\" type (Orbview)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:224
+#: 1ade205820ad4d359f4138b8843f17b8
+msgid "Search"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:225
+#: aec87ab4e40b43278ebc1d5f2eb69906
+msgid "Use to collect metadata for the selected area. After clicking it, a list will be shown with all images intersecting your area."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:226
+#: cd1d4834359c4c878b06c93bf0051930
+msgid "Min intersection"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:227
+#: 281f7cf58c7d4ccb9c1a97ed86217c56
+msgid "Use to set the minimum intersection rate between the image and the area of interest."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:228
+#: 52d8701fe4bc40f38f2eab4cac7e8588
+msgid "Cloud cover"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:229
+#: 03a0f734913a4605bd144a30b94612ba
+msgid "Use to set the minimum percentage of image cloudiness."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:230
+#: 294d2c379ee044edb804b7ca2793b01f
+msgid "Providers"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:231
+#: 4fbd1f2cf9da4769aa53a9830c1fa089
+msgid "Here you can select which providers will be searched."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:232
+#: bbfd9e5c52c445c9a6f8a31596ca1194
+msgid "\"Search only...\""
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:233
+#: 366e5cd9a77540688085e6b48962e97b
+msgid "The search results will show only those providers that are connected to your account."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:234
+#: 1924f4cd078d4b70881a5f434fff3b8f
+msgid "Preview"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:235
+#: c45596aa526f4e26914af9beba4e7811
+msgid "Click this column to preview the specified satellite imagery by geospatial provider."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:236
+#: c726b1bd851640fab864d4a1e40411e6
+msgid "Clear"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:237
+#: fa34d267c2104679a745ca372b7cbd52
+msgid "Deletes all search results from the table."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:240
+#: 7d4e3b15393a482aa0f28c624919fea6
+msgid "Read more about :ref:`Imagery search <Imagery search  main>`."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:244
+#: 6f47d343c3724f88b5ccbfec4117871d
+msgid "How to preview the search results"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:246
+#: ../api/qgis_mapflow.rst:246
+#: b825e05c1796423bbd471a806933c9b2
+#: 5be96d45e08c42dbaa12dbc6a2c11527
+msgid "preview"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:249
+#: dba3e8fca765463a892ea2d96cebd4ef
+msgid "Imagery search provides the ability to preview search results with a double-click on a row in a table. You cannot open previews of certain specific parts of some data sources (e.g. ArcGIS World Imagery), but you can enable preview of the entire source! To do this, select the desired provider in the left control panel and click the \"Preview\" button |preview|."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:261
+#: cde378e059fb42a7a3a88f15d38e28f6
+msgid "3. My imagery"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:263
+#: 5bcd35be60314ba7ac5abaa15f5fa6bf
+msgid "To upload you images and process multiple images in a one shot you can use \"My imagery\" tool available in Mapflow QGIS."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:265
+#: 7f844827135842c5b3403ca3ed261267
+msgid "**The main scenario of working with My imagery in QGIS:**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:274
+#: 1d8a841de12c4a42b9dbabfa9d0c8aa9
+msgid "**Main interface:**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: dd5324893efe4728ad9258e1bfdb0741
+msgid "My imagery main"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:285
+#: 8e3799680eeb40cfa12ca4bc2b000f94
+msgid "How to run the processing using My imagery"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:287
+#: 8a566e5297934e9aa0bf9bc329151b4d
+msgid "Create the Imagery collection by clicking \"Add collection\" (You can upload your image to it instantly or do it in the next step.);"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:288
+#: 2f9a21bf7eba48bcb286b0f5269c47db
+msgid "Upload your images into collection, click \"+\" on selected collection and choose the way of uploading - you can choose from the file on your device or from QGIS raster layer;"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:289
+#: c4f607dcec294ae684c1d175fad0f30f
+msgid "Now you can preview the whole Imagery collection (QGIS tile layer will be added);"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:290
+#: a06c5f4badb4444bbe011278686c18a6
+msgid "See the uploaded images and preview them one at a time (QGIS tile layer will be added):"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:299
+#: 0c013f7258e8449dad2f1e637ba64b1a
+msgid "To run the processing, select the collection or a single image you need. Choose custom AOI or collection/image extent through the \"+\" button;"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:302
+#: d1caeec6ac7a490e94c23f989fd3aae9
+msgid "Selecting Collection or Image extent as a processing AOI:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:315
+#: df4c6240577a406ab0c560bfeff99d4b
+msgid "Example of processing by Imagery collection"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:319
+#: 1661e713f3524efc8afb8c721cf57e91
+msgid "Click \"Start processing\"."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:322
+#: 9e34e23e147b4d4db389d5847d3c8734
+msgid "You can delete your images from the Imagery collections one at a time or using multiselect:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:332
+#: 7da59e60d37c494993dc159727085cc6
+msgid "You can rename images in your Imagery collections:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:344
+#: 39f0ad214b0f42dc83199fcc8fb7fba7
+msgid "4. Settings"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: 1e1cbade7bd649f2b3c5e7f7de0d7e83
+msgid "View of the settings tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:378
+#: d048b27fbe994337bbd026556479a570
+msgid "This tab allows you to manage many of the plugin's components:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:380
+#: 25b639fb847340dc834c595244fbcc55
+msgid "**Add, edit, and delete data sources;**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:381
+#: e6f025f6bf734a43b0c6cd7e865b4010
+msgid "**Configure columns in Processing and Imagery search tables;**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:382
+#: 6d15ea9f0cbb4fbbb5723c50c41404f5
+msgid "**Сonfigure how the processing results will be uploaded to QGIS;**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:384
+#: 020e7048a90046a0ab58874a8f76e52e
+msgid "There are two ways:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:386
+#: cd3568925f484b0c8b357c4a60147d5a
+msgid "``view result as a vector layer`` - This is streaming vector tiles directly from our server, which allows you to view results of the processings without downloading full results file, so it will be faster for big processings."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:388
+#: 1f0dc9c27822479689623ca95ff703b0
+msgid "``save local gpkg file to view results`` - Saving local gpkg files on your disk for further loading as QGIS layers."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:390
+#: ccdbed13322548f6aed3f7e6b57144d2
+msgid "**Enable or disable parameter confirmation before starting processing.**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:398
+#: 672c623757e745398c2ca9b4a68b389b
+msgid "View of the processing confirmation"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:398
+#: ce3753bd0c804927b91eb3d9b8d7f4b8
+msgid "After clicking \"Start processing\", a confirmation of the parameters will appear"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:406
+#: 776afc6f714441e395810a145e193440
+msgid "This tab also contains *Output directory* button."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:408
+#: 56eca6e031de495cae7409f57c791423
+msgid "*Output directory* - set up where the processing results will be loaded on your local disk If the ``save local gpkg file to view result`` option is selected."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:413
+#: 181a4e8be4614719a804ad5d63337500
+msgid "5. Help"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:415
+#: d776d41a6e174056be185dfaa2973b3c
+msgid "The tab contains all useful links to the plugin documentation."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:419
+#: 3fafb722e5d440ae8903534ac6e48e03
+msgid "How to run the processing"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:421
+#: eb8d737e53c74bbf90eb432dc6bbfda6
+msgid "To start the processing you need to add the Polygon **Area of Interest** (AOI)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:423
+#: 045afbb06b9c4843850a8eea437d3761
+msgid "The plugin has several built-in options for creating AOI."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:425
+#: 5ced68303c2b4941ae2e4083b156f52d
+msgid "Draw AOI at the map;"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:427
+#: d6756907bb1a49998f7e53dfb2f50c10
+msgid "Use imagery extent (Imagery collection or Image extent will be used if the processing is started by My imagery);"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:429
+#: 52079c91985545efbcee4e449d262384
+msgid "Create new AOI from the map canvas extent using the \"+\" button."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:431
+#: 5296a02e279844999d52f265135bc144
+msgid "Besides, you can create a new vector layer or add existing AOI into QGIS project. If the vector layer consists of several polygons select one of them."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: 9a6610706c3644ffba799187eb3a5f72
+msgid "View of the aoi"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:441
+#: acd3fcf96fde42308dda1f1f4fd1db3b
+msgid "Use of commercial satellite imagery providers"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:444
+#: 7ad91ad2db8c439a986f392f5cfba777
+msgid "How to search for specific images in the 🌏 Global mosaic"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:1
+#: f1c35d05f7f44d0ca36bbd44fc7f3613
+msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:4
+#: 8990efa2956e4151bcdd5befa3fa8f25
+msgid "Commercial 🌏 Global mosaic is the annually updated satellite imagery composite covering most of the World. The mosaic is composed of \"Jilin\" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:7
+#: 2cf353ec2a11493dbde3b4e023b66f13
+msgid "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's metadata and run the analysis:"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:9
+#: c5205f305af743a5b96e80cc18376721
+msgid "Switch to the Tab \"Imagery Search\""
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:10
+#: e4ec2ec9aa12477c93f241ba6d9090ad
+msgid "Set search filter parameters including the area (it can be your area of analysis or a map canvas), period of time, cloud %, and the % of the intersection with AOI."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:11
+#: da5bc17075f14527a4c17175624507ea
+msgid "Select the \"Product type = Mosaic\" in the Search results. You will see the mosaic image \"cutline\" indicating the specific image that is used in the mosaic."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:None
+#: 12cfbfdd9d5b4f5f8ce12869934c5e62
+msgid "Search for Mosaic images"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:22
+#: 3afd362a6e87436fa9f099ffecae64bb
+msgid "There are two types of products in the Imagery Search API available: * The **Scene** product is available for ordering by request. Now you need to contact us to order the specific image. * The **Mosaic** product is available for instant analysis if the corresponding data provider is linked to your Mapflow account."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:26
+#: 930b63877f7846edae1922c5f09f9b4c
+msgid "Run the processing. The resulting area of analysis will be clipped by the intersection with the area of analysis."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:None
+#: 5db513c6e7db4e66b3aeee39a99f021d
+msgid "Get results based on Mosaic analysis"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:35
+#: 7bc45746af9f472f89d337a10eb589b8
+msgid "To run the processing over the whole area of analysis – just clear the selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data Source: 🌏 ArcGIS World Imagery**."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:451
+#: 0f93e99c2edd4739a494df6a4bbaa47e
+msgid "How to connect to Maxar"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:454
+#: f981a49f802640aba8b08ffcc304d6ba
+msgid "SecureWatch (new name - ) is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:457
+#: 1432e364b55f4a46a4fb7086e8203f0c
+msgid "**Use of embedded Maxar SecureWatch for image processing by Mapflow**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:459
+#: 9ef08413fb014e4ea231a0d18eb93d3a
+msgid "In the *Settings -- Add or edit imagery providers* select the type *Maxar WTS*, switch to the *Imagery search* tab."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:461
+#: 12ff993512ba49f099bab6dc54c85d88
+msgid "**Maxar preview**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:463
+#: d2c7e203d53442d88acd91354c5c01c0
+msgid "Select your AOI in the Area drop-down list and click on the *Search imagery*."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:464
+#: eb5f9cf504ee4aa7abc29174d876b7a0
+msgid "Double click on the selected image in the search results (or click Preview button) to add it on the map."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:467
+#: 2cbb0d0bcecf44f5824d003bcfeeebaa
+msgid "In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:471
+#: f897012aa1e64ce18585c1b333a1a324
+msgid "**Using your SecureWatch account for image processing by the Mapflow**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:None
+#: 12e22218d9984d6cb99cff1cde918954
+msgid "View of the providers tab"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:482
+#: 01ca35d0e6d54631b57d0d26fa9cbad7
+msgid "Click *+* button and choose Maxar WMTS option in the dropdown list;"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:484
+#: 287f99830f1c499b9b25e2d91e6a9e40
+msgid "Enter *Login / Password* from your Maxar SecureWatch account;"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:486
+#: 8848a7e8fc834cb694bb78669e44dc9c
+msgid "Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:488
+#: 4b1675aa3dec40e8a044c9a93ace3af4
+msgid "Optional: specify the coordinate system (default epsg:3857);"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:490
+#: 7f1c5250c5b3459e94da7eafc40ea8d3
+msgid "Optional: Check *Save login and password*"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:494
+#: ba37aab2a4894c20a8c0d2e2f243e9d3
+msgid "How to find Maxar WMTS URL:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:496
+#: b2c311a101fd406cb22bfc292cdb2011
+msgid "Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:498
+#: f5d4cd981dca4a6abdd4a0e7a4de1ef2
+msgid "In the upper menu select **Use With** >> **Web Services** >> **WMTS**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:500
+#: 4e1db5d1c9dd49d0bd444ac313438b13
+msgid "Copy the WMTS (or TMS) url."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: 1fda2f8207c94ecbbf3facee6b7ee8f9
+msgid "Your user profile in SecureWatch"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:508
+#: 1b60f0f21e094c0e8a5fba3cabeae8fc
+msgid "The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:511
+#: a5148ed16fee42a5a307942b8740fb0b
+msgid "Click *Preview*."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:513
+#: 837ed25e5e4748b6977399821ea7cf22
+msgid "Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:517
+#: 624ab51f0052456fbdce46e0eb3f4721
+msgid "How to find and process the image by Feature ID using Maxar SecureWatch"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:519
+#: 0797172912df4ae99fa43d16a0cd0987
+msgid "You can use SW to discover available images for you area of interest."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:521
+#: 89fbecd0b6c141ab8e620792ee8c77f1
+msgid "Go to the *Providers* tab."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:522
+#: b9a873af0d824ca7b0cd26f707c6e148
+msgid "Select Maxar SecureWatch from the dropdown list."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:523
+#: 7180c071f2044ce68f76a0d16e77163b
+msgid "In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:526
+#: f26c839c14a9424597983eba1d9106f8
+msgid "To define the imagery search area you can create the new polygon (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_. Alternatively, you can check the option \"use canvas extent\"."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: 5a39c08315a04d4c8973b8cac205a0ef
+msgid "Get specific image from SW"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:534
+#: 7894fe77a349439f93a70bc32fb59b71
+msgid "*Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:535
+#: 4560d48f070843a281844d1b2991d1f6
+msgid "Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:538
+#: e5b3676ee75447eda0908bbcad293cea
+msgid "Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:540
+#: ac915012704b48c7aeb10b90d65f2f4f
+msgid "Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table)."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:543
+#: 04ab3a81844b4c99ac4c602cabffb5d9
+msgid "\"max zoom 12\" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:547
+#: ec7f8ca90cc94b8f9c54cb69b2215391
+msgid "How to use other imagery services"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:549
+#: b09e790295574aa49b53b4406f63ece9
+msgid "Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:551
+#: 74f0abd2f698454881745b156fb47142
+msgid "To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: 3ad2375bace549f1a8dfb230866b0bdb
+msgid "Custom imagery source"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:566
+#: 82f016a0549744f3b9447b2583e98f5e
+msgid "Name"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:567
+#: 63ae8ed64876422e936480e6346c0de2
+msgid "Name of other imagery data provider"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:568
+#: c0eea43548c64cc099b8981ad834cfc6
+msgid "URL"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:569
+#: fa931527c0d4469383b7db85e3dc638a
+msgid "URL of the imagery data provider"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:570
+#: f24e3f7d3dde435fa978e327dd2fcfa9
+msgid "Type"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:571
+#: 454b7fa150a749538e04a0c50459347a
+msgid "Data source type. You can enter your custom imagery source URL in one of the following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, `TMS <https://en.wikipedia.org/wiki/Tile_Map_Service>`_, `WMS <https://en.wikipedia.org/wiki/Web_Map_Tile_Service>`_, `Quadkey <https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system>`_. All formats represent the most widely used protocols to fetch georeferenced imagery via HTTP."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:575
+#: 4e5d7607b4c440b0a56b067d07f576ed
+msgid "You can define your own source of data in XYZ format. The example: ``https://your_site.xyz/{z}/{x}/{y}``"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:580
+#: f7b897b092f44f4181b9cc9335daab41
+msgid "Check for more imagery sources connections in the UserGuide How To:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:582
+#: a7633e8d353747abba6356acde353ed4
+msgid "How to connect to :ref:`Openaerialmap <oae>`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:584
+#: 3fc037a194b24f228a50d438e6901447
+msgid "How to connect to :ref:`Nearmap <Nearmap_>`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:586
+#: 2d6b5abc096d4aaeb6e7385e56dbcd9e
+msgid "How to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:590
+#: c4cac305c2b4484cb9589cccd967e169
+msgid "How to upload your image"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:592
+#: f926dafd8ee541c5a7fa143440637cbf
+msgid "You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:597
+#: 2cc610b29f39496f82bf5970045d951b
+msgid "Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images to the Mapflow platform. If you get the error message while uploading your data, please check the instruction :doc:`../userguides/howto`."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:599
+#: 6894b7b5fcd144eb889fb28533f4bcec
+msgid "**Check the data type**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:600
+#: ff422c99b5cf484bac8b1913b5782184
+msgid "Your data is supposed to be automatically converted into RGB, 8bit. To preprocess your data locally before uploading it to Mapflow you can use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:601
+#: a0ea2639a9ac4cbaafb8ccbf70134748
+msgid "**Check the image size**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:602
+#: 7a0006281a044a44bc9d5c65cf791cb5
+msgid "Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow Premium <https://geoalert.io/#contacts>`_."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:603
+#: e4c17cd19fda41248741fbabdc65be2d
+msgid "**Check the number of channels**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:604
+#: 5cc7cfc2079746479fcc750f1db58552
+msgid "Normally, the Mapflow processes 3-bands RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the  quality of the result may be worse than expected."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:605
+#: dc2233aa9f7d46b2bccd16f17999f790
+msgid "**Check the projection and georeference**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:606
+#: 7cd6678991294176b125920f27e42fa5
+msgid "Make sure that your imagery is georeferenced in geographic or projected coordinate system."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:607
+#: f18124cc346e48319d5d219b075078eb
+msgid "**Check the resolution**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:608
+#: c2ac1021634540009797f2699fb38a6b
+msgid "The resolution restrictions vary for different models, see :ref:`Model requirements`"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:613
+#: c6a793aa39ee45d3b40542fb179a24c6
+msgid "Work with results"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:616
+#: 5385253be26d458299833dd2ce75029a
+msgid "View the results"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:618
+#: a6fa87f4dd4e4c2ea709d100e24e0fce
+msgid "The processing results that are 100% complete can be downloaded as a vector file to your local directory or streaming as a vector tiles and automatically added as layer to QGIS workspace."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:620
+#: 72fdf82ba1fa4dcbb7dc80ea189a3e3a
+msgid "Double click on the processing name in the :ref:`Processing <Project/Processing>` table or select it and push the button \"View results\". The layer will appear in the Layers panel (QGIS --> View --> Panels --> Layers) in the folder \"Mapflow\". You can work with it further as with the usual vector layer in QGIS."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:625
+#: 46b503e542ca4a678c61c109f3d3120b
+msgid "If the default AI model is used, the plugin automatically assigns predefined styles to the vector layer. For all custom models / pipelines the single default style is assigned. You can always change it."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:628
+#: aca27d49a31b476894d3f06f7f6afa18
+msgid "Save results"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:629
+#: edf2e1e36de74ca18c7c0622812da716
+msgid "The processing results, which are 100% complete, can be downloaded in GeoJSON format, to do this, click on the ``Save results`` button, select output directory in the window that appears and name the file to be saved."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:632
+#: f1cf7b50e3de4f2ea11c4ca67e0bcd9e
+msgid "Delete the processing"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:634
+#: a7f5976b2cc24c998717a35bc6c10d12
+msgid "To delete the processing - select it in the list, click the button \"Delete\" and confirm."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:637
+#: bc56a7dd770f4acd95ff7fe10e1813eb
+msgid "The processing cannot be restored by user. Before the permanent deletion the data backup is **temporarily stored** on the Mapflow server in case of emergency. So if you deleted your results by mistake and want us to restore the processing – send your request to the support without delay."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:641
+#: 838ef2bb54de4e9b92a54d34f5e3fef7
+msgid "Review the results*"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:644
+#: 970d078c374841f3bdd367b3953cd8fa
+msgid "❗️ This option is available for the limited number of Mapflow customers who have signed up for the enterprise support"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:646
+#: 181537c7341446329e645f6972b6faaa
+msgid "If activated, every completed processing comes with the status **\"Review required\"**. The user can either accept the result or request the review, so the support can reprocess it and get better results, until it meets the requirements. To request the **Review** of the results:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:651
+#: 237f50824db44c448862fa042e2b3b1b
+msgid "Select the processing with the Status **\"Review required\"** and click the \"Review\" button"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:653
+#: 003fc5f785a54664be37ba5f07b49bf8
+msgid "Provide comments in the Review dialogue:"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:656
+#: 2f0318b9a9234ca28ce6b3e3de07f73f
+msgid "Add your comment on why and what you want us to make a review"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:657
+#: 7e18d901501b4dc9aca4e8b5bcbfcc95
+msgid "*Optionally* Add the polygon area, highlighting the objects that are not correctly processed, weren't identified correctly, etc – it will help us to pay attention to the specific issues"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:658
+#: 9af87cd242684097bc65dae264298144
+msgid "The processing Status will change to **\"In review\"**"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: ../api/qgis_mapflow.rst:0
+#: 1c12b0e48c44493d88f7ca92bd1f7677
+#: d710bc60e2964252881f781099ce5ec6
+msgid "Upload TIF, select from list"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:666
+#: 8f164121f5634d9685eeb02bde87ec7f
+msgid "Select AOI and request a Review"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:668
+#: 8477e7bb259549e5ae67e6c807a59e2f
+msgid "As soon as Review is done on our side the Status will change back to **\"Review required\"**. Accept the results or return to the #1"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:677
+#: dd9453f127104acea0531ccdf23105c1
+msgid "Accept the results when Review is done"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:681
+#: 9f599a8515954f719f818b4d1a891a49
+msgid "Proxy-settings"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:683
+#: a834e404cb1d4364a3d9f873636ecc98
+msgid "If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and will please adjust the proxy settings for plugin connection."
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:0
+#: a7921e1b34cd4549ae9c683dacea1585
+msgid "Proxy settings"
+msgstr ""

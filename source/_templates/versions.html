@@ -6,9 +6,42 @@
   aria-label="versions"
 >
   <span class="rst-current-version" data-toggle="rst-current-version">
-    <span class="fa fa-book">
-      <a href="mailto:help@geoalert.io">help@geoalert.io</a></span
-    >
-    <a href="https://mapflow.ai">mapflow.ai</a>
+    <span class="fa fa-link" style="float:left; color:black; margin: 10px;">
+          <a href="https://mapflow.ai">mapflow.ai</a>
+    </span>
+
+    <div class="language-selector-bottom" style="float: right;">
+      <select id="language-select-bottom" onchange="changeLanguage(this.value)">
+        {% for lang_name, lang_code in languages %}
+          <option value="{{ lang_code }}" {% if lang_code == current_language %}selected{% endif %}>
+            {{ lang_name }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
   </span>
 </div>
+
+
+
+<script>
+function changeLanguage(lang) {
+  var path = window.location.pathname;
+  var currentLang = '{{ current_language }}';
+  
+  // Handle both root path and specific pages
+  if (path.includes('/' + currentLang + '/')) {
+    // Replace language code in URL
+    var newPath = path.replace('/' + currentLang + '/', '/' + lang + '/');
+  } else if (path === '/' || path === '/index.html') {
+    // Redirect from root to language-specific page
+    var newPath = '/' + lang + '/index.html';
+  } else {
+    // Handle case where no language code in path
+    var newPath = '/' + lang + path;
+  }
+  
+  window.location.href = newPath;
+}
+</script>

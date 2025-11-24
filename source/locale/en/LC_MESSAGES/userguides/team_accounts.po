@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/team_accounts.rst:5 9b8916bc2aa945ea9b57605dff48d7a8
+msgid "Team accounts"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:7 8f9e7fcf608d4d7b96c9de5031e45255
+msgid ""
+"Users can switch to a Team account to invite collaborators, share "
+"projects and manage credit limits."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:9 3ce55f0d2d594419b32ac402c88c8684
+msgid ""
+"Once the Team is created, the creator (Team Admin) can invite new members"
+" and assign their limits. The Team profile is accessible only to the Team"
+" Admin."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:12 a6c9717ceab14007be7afd63dd55d7fe
+msgid ""
+"We highly encourage you to switch to the Team account if you are looking "
+"forward to working with other coworkers and managing multiple projects. "
+"Feel free to contact our support, so we can assist you in setting up a "
+"Team workflow."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:16 936165d5fa104d28a63f2f10235ca6ec
+msgid "Create a new Team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:18 33d397071a3144bb9766c9d94d4e1546
+msgid ""
+"To create a new Team enter the name and start inviting new members by "
+"their email."
+msgstr ""
+
+#: 48cd820bdca049909a1923dd47a17859 b64e827d03be43ae8d6e9cd5897cb182
+msgid "create a team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:28 5b7333d61f48434483f9ebf6e1918e70
+msgid "Inviting new team members"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:30 13fc36a821c34ec4af4d191315c7e096
+msgid ""
+"Switch to the tab **Invitations**. Enter user email associated with his "
+"Mapflow account. If user is not registered at Mapflow, he will get an "
+"invitation by email and will be able to join the Team following the "
+"registration."
+msgstr ""
+
+#: 64805a262c7c4f44a7f069915e4c1aa4
+msgid "Invite users to team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:41 87165ee91400495c8dbbf798fe89fd4e
+msgid ""
+"As a Team admin, you will see all the invitations sent and may revoke "
+"them. As a Team member, you will see only your invitations to the Team."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:45 fc7d9f63a0ae4e84bcb142be58b278d3
+msgid "Managing Team balance"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:47 bc237bdf0bce4122b443f99a67ebeb0b
+msgid ""
+"As soon as one creates a Team, his credit balance becomes the Team "
+"balance and is available for assignment to Team members, including the "
+"Team Admin himself. This means the Admin has to assign and manage all the"
+" limits, including himself, within the remaining balance."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:61 5a36fb1e8a064de48032f48cdd5a7d4a
+msgid "1. Team balance 2. Personal balance 3. Team user assigned balance"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:63 074052e21cdb4f9ba58f5141fd09742c
+msgid ""
+"If your Team account is switched to area-based billing, the only "
+"difference is that the balance is assigned in sq. km."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:67 b27eafa0991d4b278b522754b802b385
+msgid "Project sharing in the Team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:69 f1f8dc515cd14695834a9b6f310501c3
+msgid ""
+"You can share your project with anyone in the Team and assign his role as"
+" needed. Go to the `Projects <https://app.mapflow.ai/en/projects>`_. "
+"Click on a dot menu icon in a project card -- Share."
+msgstr ""
+
+#: 552a99022642454596b16478ae66f4a6 e6edc7bbd9c140bd859189e54e6b5d59
+msgid "Share project"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:79 dfde578fcf4e4e5bad617a0c11da6689
+msgid ""
+"Select your coworkers or toggle \"Anyone in the team\" if you want to "
+"share with all of them."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:87 d50631b8f0214fdbad1523587850793d
+msgid ""
+"There are four types of the project user's role that can be assigned to "
+"your coworkers:"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:89 7652b357a4ea46e2ba9f489ff05ecf41
+msgid "**readonly** - can view the project history and the results"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:90 6c2f27acf5994eabab7f252b2c5383b4
+msgid "**contributor** – can run the workflows in the project"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:91 db4550eb101d442181a134cfb09fdb2d
+msgid ""
+"**maintainer** – can run and edit the workflows, and share projects with "
+"users (up to maintainer role)"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:92 8bc4c707799943ef9154949a6d2180d6
+msgid "**owner** – full rights to edit all roles in the project"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:94 e3eca4be191f4cc9ad8ce9f97fbda77a
+msgid ""
+"Your collaborators will see the new shared projects in their dashboard "
+"and use them according to the role assigned."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:97 cc230419b45c4efd856f7c53202db87f
+msgid ""
+"You can also share your project with any users outside your team for the "
+"view-only access. Go to the Project -- Share and enter the existing "
+"Mapflow user's email. If the new user is not registered at Mapflow.ai, "
+"invite him to register first."
+msgstr ""
+

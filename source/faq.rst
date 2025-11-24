@@ -5,7 +5,7 @@ Payment
 ---------
 **How to buy credits for using the platform? How much is it?**
 
-    The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1. To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits ($50, $90 or $800). See :doc:`Mapflow prices </userguides/prices>`.
+    The cost of the Services is determined in conventional units, Credits, where 1 Credit is equal to USD 0.1 ( the progressive discount is applied depending on the number of credits you buy). To make a payment, go to the Settings of your personal account, or click on the balance icon and select the required number of credits ($50, $90 or $800). See :doc:`Mapflow prices </userguides/prices>`.
 
 **I represent a company and would like to perform large volume of processing. Do you have corporate rates?**
 
@@ -24,9 +24,9 @@ Satellite imagery
 
 **What satellite imagery do you use? What are their resolution, alignment accuracy and other characteristics?**
 
-    Currently, we only support RGB or PAN images as raw data. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`.
-    You can request access to **ArcGIS World Imagery** – is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI.
-    **"Global mosaic"** – the basic version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China. Customers can request access to updated version up to the current year. 
+    We support RGB, RGBa, and single-band (panchromatic) images as an input data. Note that models are optimized for RGB, so single-band results may have lower quality. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`.
+    You can access **ArcGIS World Imagery** – which is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI.
+    **"Global mosaic"** – the basic version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China.
  
 
 **Can I choose another satellite mosaic?**
@@ -35,7 +35,7 @@ Satellite imagery
 
 **Can I upload my own images for processing?**
 
-    Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <> `on how to do it.
+    Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it.
 
 
 **Can I buy satellite imagery from you? How can I validate the results?**
@@ -51,7 +51,8 @@ Vector data
 
 **Is it possible to process multiple areas in one request?**
 
-    Only one area can be drawn or loaded for one processing at a time. If your GeoJSON has multiple scopes in the FeatureCollection, only the first one will be used (if you start processing via :doc:`our plugin for QGIS <api/qgis_mapflow>`, or *Select object (s)* tool to select one area from the loaded layer with multiple areas). Alternatively, you can convert your GeoJSON into *Mulipolygon*.
+    Yes, on the free plan you can upload up to 10 areas in one processing request by using a GeoJSON file with multiple features in the FeatureCollection. 
+    Alternatively, you can convert your GeoJSON into *Mulipolygon*.
 
 **Results contain gaps / false contours / inaccuracies / errors in classification and / or heights. Why?**
 
@@ -75,7 +76,7 @@ Projects and processings
 
 **Are there any restrictions on the processing area?**
 
-    The processing area may be smaller but the price is rounded up to 1 sq. km. There is the default limit of no more than 50 sq. km (free account). If you need to process a large area, you can divide the area to be treated into several smaller areas, one per processing. Alternatively you can consider switching to a paid plan.
+    The processing area may be smaller but the price is rounded up to 1 sq. km. There is the default limit of no more than 25 sq. km (free account). If you need to process a large area, you can divide the area to be treated into several smaller areas, one per processing. Alternatively you can consider switching to a paid plan.
 
 User data
 -------------------

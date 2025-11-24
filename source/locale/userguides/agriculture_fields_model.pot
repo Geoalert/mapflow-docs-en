@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/agriculture_fields_model.rst:2
+#: e9be83259ab24179b174949aa8768a5b
+msgid "|:tractor:| Agriculture fields (CUSTOM)"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:5
+#: 9a4debb51e504ee387e688c0b928b403
+msgid "This model has been deprecated as default one and moved to custom. it's available by request."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:7
+#: 05ffb415721c48e6a2b34be5f43d93ee
+msgid "Model for fields segmentation allows to detect the agricultural fields and delineate the nearby fields from each other, if there is a visual boundary (forest line, road, different crop stage). The model is trained on the high resolution data (1-1.2 m), primarily for Europe, Russia. It performs better with larger fields with active vegetation. Smaller and terrace fields (typical for Asia) are delineated not so good. Fields without vegetation, especially in winter period, are not target class."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: ../userguides/agriculture_fields_model.rst:24
+#: fc924937d07c40dc8ae00a47082c06f2
+#: 9f7fae5c119f4822b13e76ecc050f42e
+msgid "Processing result of agriculture fields model"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: d75ad0a513a347d8bcd4d644ada84b90
+msgid "Processing result sample for Europe (Belgium)"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:24
+#: bf95b73b90ae42a0bf7c86e6f6f71f69
+msgid "Processing result sample for Asia (Northern India)"
+msgstr ""

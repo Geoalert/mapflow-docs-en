@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/iterative_mapping.rst:2 ea6732333f28457d824f3c7e117cd6bd
+msgid "Iterative mapping tutorial (DEPRECATED)"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:4 bbc9d85903bd4207806768526d724323
+msgid ""
+"This workflow is proposed for the AI assisted mapping of the crop fields "
+"usinf Sentine-2 images. If you use Mapflow for agricultural landuse "
+"management, we suggest you have a look at the methodology described "
+"below. It can help you streamline the mapping process so you could focus "
+"on the end goal and results instead. All you need is our QGIS plugin "
+"(a.k.a. :doc:`Maflow for QGIS <../api/qgis_mapflow>`) installed. If you "
+"haven't connected the Sentinel-2 data yet, contact us."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:7 06eee88b0fa546ff9cea94998a8fbdf0
+msgid ""
+"Before we begin, however: Mapflow will digitize the fields for you, but "
+"the imagery for it to work on you need to select yourself. **We strongly "
+"recommend you preview images before processing them** because their "
+"quality may vary. Ones with high cloud cover (including cloud shadows) or"
+" no-data pixels in the AOI will likely produce poor results. Here are "
+"examples of two images that will inevitably yield unsatisfactory results:"
+msgstr ""
+
+#: bbc2cb3d10a44ea6b4f5fb02dbae0cd7
+msgid "Fields mask detected on a cloudy Sentinel-2 image"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:14 4e14244b2a2145cea1b7ebd1d4af4e21
+msgid "Fields detected using a clouded Sentinel-2 image"
+msgstr ""
+
+#: d4352984d9194121b9cbbf96dc02356b
+msgid "Sentinel-2 image with no-data to the AOI"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:21 0c0a9ca4054a4a25928df6cd9562943c
+msgid "An example of a Sentinel-2 image that has no-data pixels for the AOI."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:23 4d90b1e632fc4960a6f85f3bfee42dfd
+msgid ""
+"Sometimes you may not be able to find a single suitable image for your "
+"entire AOI. In that case, we recommend you process the best available "
+"images separately and then combine the results. On average, you will need"
+" to process ten images for a territory of 1000 km\\ :sup:`2`."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:26 a362dcd9c0724ab5a07250c40290c594
+msgid "What is an Iterative mapping process"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:27 bb84e7a379ed410b8d274ae209eec88c
+msgid "Start processing on the Sentinel-2 images:"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:29 ca6b37ccdd3e4353836459ecf69a2c5a
+msgid "In QGIS, load your AOI as a layer;"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:30 ee155465570f4fb0aa88ce4a5ab3e76b
+msgid ""
+"Open the plugin and go to *Providers tab*; select Sentinel-2 in the drop-"
+"down list in the upper left corner and your AOI layer as the *Area* "
+"below;"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:31 5ff0c2e5b4ad441faf32bb2644010b2d
+msgid ""
+"Adjust the search criteria: select the search period in From and To; "
+"adjust the maximum allowed cloud cover and the minimum required "
+"intersection percentage in *Additional Filters*;"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:32 847302674b924238a7a1679202499749
+msgid ""
+"Click *Search imagery*; it may take up to a minute, depending on the size"
+" of your AOI and the search period;"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:33 20df67ee13ca4b9e8217bb373d571fdd
+msgid ""
+"The search results will show up in the table below. Each row describes a "
+"single image. You can sort the table by date and cloud cover and you can "
+"further filter the results by adjusting the dates and the filters as you "
+"did in the previous step."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:34 92601367bf114e33966edd7500c0ac15
+msgid ""
+"Search results have also been added to your QGIS project as a layer "
+"called *“Sentinel-2 metadata”*. The layer is synchronized with the table:"
+" every time you select a row in the table, the corresponding image is "
+"selected in the layer, and vice versa."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:35 0175067b7c684a7ab14e6d9cd68d3fcd
+msgid ""
+"Now, select an image and double click on its table row. You will see it "
+"got added to the project as a raster layer. AOI have a real value "
+"(they're not black or transparent)."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:38 fd8b4ae89b35421c9772c62fb54a7a6e
+msgid ""
+"This is a preview, - a coarse representation of the actual image. The "
+"image itself will have a 30-times better resolution (10m instead of 300m "
+"in the preview). You'll want an image which in which cloud don't cover "
+"your AOI and all pixels within your"
+msgstr ""
+
+#: 3c066453c8374eceb4c1a9a6323651f2
+msgid "Providers tab"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:45 c1579a2969a2430fa8bc99fe5c6e41d4
+msgid ""
+"Once you've made your choice, make sure the image row is selected in the "
+"table, go to *Processing tab*; type in a name for your processing, select"
+" *\"Sentinel-2 Fields\"* in the *Mapflow Model* drop-down list and check "
+"that your AOI layer is selected as the *Area* and the *Imagery source* is"
+" set to *Sentinel-2*; if everything looks good, hit *Start processing*."
+msgstr ""
+
+#: 160c3af2d13042419f069c7adf60dc69
+msgid "Processing tab"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:55 6c929cf56d49460d9621be3fdff1a77d
+msgid ""
+"Repeat the same for five to ten images covering the same area so the best"
+" available image is processed for every part of your AOI."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:57 eb9586e7ccbc4cf2ac3bd527ea7d9d7e
+msgid ""
+"Next, create a new polygon layer called “results” into which we'll merge "
+"the results."
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:58 0522e84642ea4b469270b383b2fd1c7b
+msgid ""
+"Download the processing results by double-clicking the corresponding rows"
+" in the *Processings table*. Group raster and vector layer for each "
+"processing for simplicity. Create a mutually exclusive group for these "
+"groups."
+msgstr ""
+
+#: a20c6f27bd3c4f8d8cef3b5f8042bbad
+msgid "Creating the mutually exclusive group"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:68 e2341038820549abb0d22757ba1106df
+msgid ""
+"Reorder the layers so that the best results are on top. Normally, it "
+"takes about ten seconds to determine if the results are good enough."
+msgstr ""
+
+#: 8455c33deec046888b46c7e226811aef
+msgid "Rank_inference_result"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:77 2c492e19fca9432393d3cf782abc2958
+msgid ""
+"Choose the topmost result layer pair (vector and raster). Select all "
+"objects in the vector layer and copy them into the “results” layer."
+msgstr ""
+
+#: a763018d86104fadbe1983978dcfe7fa
+msgid "Copy fields mask into result layer"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:86 4ac4d77ec10f4bd48cb729cc38b757bb
+msgid ""
+"In the “results” layer, select and delete poorly digitized polygons. Now,"
+" the “results” layer has gaps which should be filled with successfully "
+"contoured polygons from the other result layers."
+msgstr ""
+
+#: 67c578dbed444d8a9fea249f8026f85a
+msgid "Find and delete bad field mask"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:95 a3b16cfbb6bd4c4e8e5bd90efaec31dd
+msgid ""
+"Select the next best processing and put its vector layer on top of the "
+"“results” layer. Select well-contoured polygons from this layer and copy "
+"them into the “results” layer."
+msgstr ""
+
+#: 8a1f1c0eea574abcaa0221fb33ecdf5b
+msgid "Find and past good field mask"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:104 260cc595fa6c4d57897737e5c03b1d79
+msgid ""
+"If there are still gaps in the “results” layer, repeat *step #7* until "
+"you the all gaps are filled in. After several iterations, you should get "
+"fully contoured agricultural fields for your AOI."
+msgstr ""
+
+#: 8f56150671e148608dd109c18d229031
+msgid "Result of itaretive mapping"
+msgstr ""
+
+#: ../userguides/iterative_mapping.rst:115 5d682e00347c44c9b58dfafb32b7d0fd
+msgid ""
+"Watch `this video <https://youtu.be/ZTsT27FyQPI>`_ for a visual example "
+"of this iterative markup process."
+msgstr ""
+

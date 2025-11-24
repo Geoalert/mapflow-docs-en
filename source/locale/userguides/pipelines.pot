@@ -1,0 +1,794 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/pipelines.rst:1
+#: ec63c9e96b64458ca519e15b66294555
+msgid "The core of the Mapflow are the Mapping Models. Mapflow enables to detect and extract features in satellite and aerial images powered by semantic segmentation and other deep learning techniques. See :doc:`requirements <requirements>` page to better understand what data to use with each model, and :doc:`price list <prices>` for breakdown of the processings billing."
+msgstr ""
+
+#: ../userguides/pipelines.rst:6
+#: b6eb89a9f1c94dd191857aa6c4e4a686
+msgid "For the data requirements – see :ref:`model requirements`. For the breakdown of the Mapflow processings billing – see :doc:`Mapflow pricing <prices>`."
+msgstr ""
+
+#: ../userguides/pipelines.rst:11
+#: 209bb75c382247eea2b3ed81848f8f75
+msgid "AI-Mapping Models"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:4
+#: 8f2869779336479b9358a8bf0585d1cb
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:6
+#: d5381e6cd5f14b6ab6cbf56df0d9cbb0
+msgid "Extracting of rooftops of buildings from imagery of high resolution. High performance deep learning model is trained to detect the buildings roofs."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:9
+#: 238a9cebee594fbf9d07752a8ce94dab
+msgid "*Note:* The building predictions with area less than 20 sq.m. are removed to avoid clutter"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:11
+#: 86bfee4712f54a42927729111882c023
+msgid "The model does not extract the footprints directly, because they are not clearly visible in the images, but it can obtain them, just like human cartographers, by moving the roof to the bottom of the wall (see Additional options)."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:13
+#: ../userguides/forest_model.rst:25
+#: cea82db6c6864d7dbc32f8911f52f37e
+#: b596f7db35ca45098032bacd3b861a9a
+msgid "**Additional options:**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:15
+#: 42ffb90696be485e9b60c449abfbd31c
+msgid "**Classification by types of buildings** – typology of buildings is represented by the main classes (see :doc:`reference <../../um/classes>`)."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:16
+#: 26017519096b43a1b501407b0b8388f6
+msgid "**Simplification** - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. Also the corrected buildings are rotated to align with the nearest roads. This option produces much more map-friendly shapes which look better and are easier to edit, but some shape accuracy can be lost."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:17
+#: c77e5159faed4284bb52ee45c53949da
+msgid "**Merge with OSM** - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option. In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index more than 0.7) and if there is one, we replace our result with OSM contour. This makes the result not based on the image, so the buildings can be shifted from actual positions, and some changes that have occurred after OSM mapping may be lost."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:18
+#: 3631371b38f44645a860223b3bae7913
+msgid "**Height Estimation (beta)** – feature leverages a dedicated regression-based model that infers height using visual indicators such as shadow length and visible wall segments. The result is what is termed **3D building footprints** where the building's countour is projected to ground level instead of the roof outline. This is especially useful for oblique imagery, where roofs often appear shifted."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: a6010a79ef124d3c9d27f2a9aa2b699c
+msgid "A sample of processing result with different options for Prague, Czech Republic."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:28
+#: ../userguides/buildings_model.rst:36
+#: ../userguides/buildings_model.rst:44
+#: 40252522147546d19d6a9ca15dc91bad
+#: cf97c96b6fed4964a4ec2450848e2917
+#: 585873f9e28740f187f5faf031c01b3c
+msgid "Processing result of buildings model"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:28
+#: e8ed817b90d24b50aaab1aa66e4c864d
+msgid "Result without postprocessing: irregular building shapes, but best fit to the actual rooftop contour seen in the image."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 286cd4ef37354ccd8f1f2015a97a0394
+msgid "Result with simplification: most of the buildings become rectangular."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:44
+#: 28ec472697874dafaf4773e6b07abb00
+msgid "Result merged with OSM: some of the buildings imported from OSM have more accurate shape, but may be shifted from the image position."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:52
+#: ../userguides/buildings_model.rst:52
+#: 108a2201da03440091ee7553058920a2
+#: b662ccc8ccda46898ebb3ae897af7f44
+msgid "Processing result of buildings model with height estimation in Mapflow Web"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:56
+#: e3745775600d48e7890d420a50e05674
+msgid "Benchmarks - segmentation"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:60
+#: 37395c191d034f6b9f182aacb97f37b8
+msgid "**Houston, U.S. (-95.2920, 29.7718)**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:60
+#: c9b79df3680d46c4a825ff2ae8dac86c
+msgid "– `View on the Map <https://app.mapflow.ai>`_"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:66
+#: ../userguides/buildings_model.rst:92
+#: 3f9ade13f9614e0f9fcc69cde629e0f6
+#: 99e52f1064e44781a9103bf4d4600307
+msgid "Model version"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:67
+#: ../userguides/buildings_model.rst:93
+#: ../userguides/buildings_aerial_imagery_model.rst:14
+#: ../userguides/swimming_pools_model.rst:15
+#: ../userguides/solars_model.rst:15
+#: 3961bbaf29f14efabc0ae616e15c36d7
+#: f4e1a6578fb64b66ae13196eb239a550
+#: 5f335c213e7545feae21ff94d8d09c87
+#: 516504e345c44b6cad19b408923495af
+#: 873d8a947ca643da8cd5b41c93df82a8
+msgid "Model type"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:68
+#: ../userguides/buildings_model.rst:94
+#: ../userguides/buildings_aerial_imagery_model.rst:15
+#: ../userguides/swimming_pools_model.rst:16
+#: ../userguides/solars_model.rst:16
+#: e9d0beedc1c34fc3a1068eb98671f909
+#: 1a8360efc5c446e8a0c5ce9967637fc6
+#: c235b424aad344b48e6f2828e5be2361
+#: 2a55e93cf3db41239a1ac41d95202537
+#: 75d943ca0aff492f8af19bdae7799a10
+msgid "Zoom level"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:69
+#: ../userguides/buildings_model.rst:95
+#: 3d87cad2b713461dae9e64ec38d74a32
+#: 93a74a9e97b5497eb377df20015836d5
+msgid "F1 (AOI)"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:70
+#: ../userguides/buildings_model.rst:96
+#: 0ff3d18147d04b71b984fd7199f32df2
+#: eed9325317ab466ea14e03cb5d209f2e
+msgid "Urban-pattern"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:71
+#: ../userguides/buildings_model.rst:97
+#: 679bc87e86c84112ad612cdc2373fe22
+#: 6baa804f1aec43eba72a5679a33f3d90
+msgid "🏠 Buildings v.8a"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:72
+#: ../userguides/buildings_model.rst:98
+#: ../userguides/buildings_aerial_imagery_model.rst:19
+#: 1f4e7cc5a1ed4637abf018267d60b6b7
+#: a3f1c1843d90491ebd78dbce6c71b629
+#: bf71e7cfb8f34e5ea71189875336bcd4
+msgid "Instance segmentation"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:73
+#: ../userguides/buildings_model.rst:99
+#: ff93c5c9e33c4fb38823b4d49d2d3aee
+#: e74def7471c64856ae5460b081b6c073
+msgid "zoom 18"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:74
+#: bad94e9bbff44bc5bf94eedc28fcedf4
+msgid "objectwise 0.72"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:75
+#: bfb23eb7a2404e2e84ba19957cc55970
+msgid "low-rise – urban mixed"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:None
+#: ../userguides/buildings_model.rst:None
+#: ../userguides/construction_model.rst:13
+#: ../userguides/combo_model.rst:13
+#: ../userguides/swimming_pools_model.rst:None
+#: 905eea2ec0af41e4a8b30dc09ef8d690
+#: ba24a6599d244d318d897823e0a7143d
+#: 1650f333d11c4ea6be55d0ad2d117294
+#: 8f36eaa496c54ee2bd1bfa713c4bc63e
+#: f9cadf3b88944d02891fa0144b057a41
+msgid "Processing result of construction model"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:86
+#: e74a8099b8024edfadbe984d42cd45a6
+msgid "**Kolomna, Russia (38.7657, 55.0928)**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:86
+#: ee0633808cf04d139af8809c7c837845
+msgid "– `View on the Map <https://app.mapflow.ai/>`_"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:100
+#: 390b60ad2dfe405f9cd7dcfd71db6ffb
+msgid "objectwise 0.75"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:101
+#: 269b85f5207040e4aaa7ad6231a5c87d
+msgid "urban mixed - regular"
+msgstr ""
+
+#: ../userguides/forest_model.rst:2
+#: e4dfb81c967b467b92a7ef9f01d0854f
+msgid "🌲 Forest and trees"
+msgstr ""
+
+#: ../userguides/forest_model.rst:4
+#: 29c77c8a918f4e1d8c77aff3e7845614
+msgid "Forest Segmentation. The model is trained on high-resolution data (0.6 m) for different areas and climate zones."
+msgstr ""
+
+#: ../userguides/forest_model.rst:6
+#: 16b5a7f766344f0cb520fbb9fbeb359a
+msgid "The result includes all areas covered with tree and shrub vegetation, including sparse forest and shrublands."
+msgstr ""
+
+#: ../userguides/forest_model.rst:8
+#: ee1e178868414c8dab751febad32f873
+msgid "Model resolution allows to detect small group of trees and narrow tree lines."
+msgstr ""
+
+#: ../userguides/forest_model.rst:10
+#: 24415f6baecf47e09ab005dcdd91d2f6
+msgid "The model is robust to region change, and performs well in most environments, including urban. The image should be taken in active vegetation period, because leafless trees or vegetation covered with snow are not target class."
+msgstr ""
+
+#: ../userguides/forest_model.rst:14
+#: 4f63cec3f6f94d05aa8fb2e4066512bf
+msgid "This model can be used to speed up trees detection and area estimation in forest inventory assessment."
+msgstr ""
+
+#: ../userguides/forest_model.rst:23
+#: 60809cb27685464f937643f0ae83e9ff
+msgid "Processing result of forest model"
+msgstr ""
+
+#: ../userguides/forest_model.rst:23
+#: 3d4b0bcea0954cb3b55764742760578d
+msgid "Sample of processing results for solid **Forest** mask"
+msgstr ""
+
+#: ../userguides/forest_model.rst:27
+#: 9ae65437c2f54f08a855c4c122094493
+msgid "*Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes."
+msgstr ""
+
+#: ../userguides/forest_model.rst:28
+#: 3d1d975b3a114af087821fa2c431ea53
+msgid "*Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees."
+msgstr ""
+
+#: ../userguides/forest_model.rst:30
+#: 7b2aa2d830474f2eb84842e1052eff9a
+msgid "Additionally we use models for density and height estimation, dividing the forested area into the following classes:"
+msgstr ""
+
+#: ../userguides/forest_model.rst:32
+#: 683c41987f81406f907c3b2fc2ae8a19
+msgid "Shrubs lower than 4 meters;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:33
+#: 1387d710eba043c889a1b09c5fd82548
+msgid "Forest from 4 to 10 meters high;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:34
+#: f1bcb99d92ac41d5a8caa0c482d41276
+msgid "Forest more than 10 meters high;"
+msgstr ""
+
+#: ../userguides/forest_model.rst:37
+#: de509be8faac4abd850faf5b39f90156
+msgid "This model can be used as a decision support for the forest growth clearing. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_"
+msgstr ""
+
+#: ../userguides/forest_model.rst:40
+#: ../userguides/roads_model.rst:16
+#: 732794b3045f422e98f1ce2167e27e50
+#: 3650de9954c344a0b19ae284079d98c3
+msgid "**Processing results samples**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:48
+#: d20b22fa50854e1fa48ce6876d2f2f2e
+msgid "Processing result of forest model (Tree crowns)"
+msgstr ""
+
+#: ../userguides/forest_model.rst:48
+#: e35531ee8ad94d63b9c64277d053a0ed
+msgid "Sample of results for **Tree crowns**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:57
+#: 9c5772ce08394de29500e58b847a3396
+msgid "Processing result of forest model (Heights)"
+msgstr ""
+
+#: ../userguides/forest_model.rst:57
+#: 6019be2112384ae7a6647c197b35a972
+msgid "Sample of results for **Forest with heights** mask (raster output)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:2
+#: 40daa56bee7141c2a510b4df4b283b9e
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../userguides/roads_model.rst:4
+#: 3c92cdc7f6a44e19a75dd61f0de5669b
+msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+msgstr ""
+
+#: ../userguides/roads_model.rst:6
+#: f28f519a07774d29b1276e38a40a16c9
+msgid "The model is trained primarily for rural and suburban areas. Multi-task learning is applied in order to improve the road mask connectivity, especially in the spots obscured by trees or buildings. Best suited for areas with low urbanization, and can fail in cities where wide roads with sidewalks and complex crossroads are present. We extract the road central line in order to decrease the clutter and optimize the extracted road network, and then the road lines are inflated back to polygonal object."
+msgstr ""
+
+#: ../userguides/roads_model.rst:9
+#: 80bd52a3d8924eb6929d41484ebdbd08
+msgid "In version 1.1 we added the road graph postprocessing:"
+msgstr ""
+
+#: ../userguides/roads_model.rst:11
+#: 3339a947a5954a04bc93c2ac884cda4e
+msgid "geometry simplification;"
+msgstr ""
+
+#: ../userguides/roads_model.rst:12
+#: 3abe809052eb44de832141187be16256
+msgid "merging of the gaps;"
+msgstr ""
+
+#: ../userguides/roads_model.rst:13
+#: 6496577024ba4bf5abf56135bb826497
+msgid "removal of double edges;"
+msgstr ""
+
+#: ../userguides/roads_model.rst:14
+#: 74cd8c1fb62c4a0b96139338851d1f87
+msgid "removal of detached and too short segments;"
+msgstr ""
+
+#: ../userguides/roads_model.rst:24
+#: ../userguides/roads_model.rst:32
+#: 1f248fa383c449b5a14c162ff35fb818
+#: d55280c0648949179d73991aaf24a057
+msgid "Processing result of roads model"
+msgstr ""
+
+#: ../userguides/roads_model.rst:24
+#: 5d9d496d69ed4dd993c7069bbd0a7365
+msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+msgstr ""
+
+#: ../userguides/roads_model.rst:32
+#: a7580b5f67dd462f81c2f26305d4cb3c
+msgid "More complex environment - urban territory in Prague, Czech Republic"
+msgstr ""
+
+#: ../userguides/construction_model.rst:2
+#: edbcca8991a64ca183cd7a2f64b57784
+msgid "🏗️ Constructions"
+msgstr ""
+
+#: ../userguides/construction_model.rst:4
+#: af8ae5fac8f547c0891af9147a9154db
+msgid "This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limited to some countries and the work of extending it is in progress."
+msgstr ""
+
+#: ../userguides/construction_model.rst:13
+#: fe595bf9577a4bb98f4475bd53227644
+msgid "Processing result sample for a rapidly developing area with construction sites"
+msgstr ""
+
+#: ../userguides/combo_model.rst:2
+#: 383b1c85932c4ac4b056ae0a095c1605
+msgid "[multi] Buildings + Roads + Forest"
+msgstr ""
+
+#: ../userguides/combo_model.rst:4
+#: ab774faf67e440f099e46a1b9ef373b6
+msgid "This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output."
+msgstr ""
+
+#: ../userguides/combo_model.rst:13
+#: d855ab70a21940129bfc07b7aba59a2c
+msgid "Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models."
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:2
+#: 9eef9aaf1cee440cb46b6b626ae26a8c
+msgid "🏠⭐️ Buildings (Aerial) (CUSTOM)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:4
+#: 0ee6cc7e8a34431a85dd0cfec6af7797
+msgid "This model has been deprecated as default one and moved to custom as its geodomain application is limited. it's available by request."
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:7
+#: 6914bf7e14d34134a5b6852b177609b7
+msgid "This model is specifically designed to be used on a high resolution aerial imagery (15-10cm per pixel) for extraction of small buildings and detailed structure outlines. It is best suited for rural and suburban residential areas. We do not recommend using this model in areas with high-dense urban buildings. Use :doc:`Buildings model <buildings_model>` instead, even for aerial imagery."
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:13
+#: ../userguides/swimming_pools_model.rst:14
+#: ../userguides/solars_model.rst:14
+#: 7470a45dc56a40ef944a83e33194f11d
+#: 87299e0a852d4ccd89e4e64cfadadf27
+#: ad6943a06401428aa174e92357c7ab8c
+msgid "Model name"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:16
+#: ../userguides/swimming_pools_model.rst:17
+#: ../userguides/solars_model.rst:17
+#: 0182293f7f604221ad0223d55256beb0
+#: 9e76b6bc0add4b1f94918d9e3c08ebd6
+#: b401211f3c0e476db8de30a5d9ffbb4f
+msgid "F1 (testing)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:17
+#: ../userguides/swimming_pools_model.rst:18
+#: ../userguides/solars_model.rst:18
+#: 5a5b9001849e46d1a609c24b704d42ee
+#: f1772c6786224bf7bd3a091aede8083e
+#: 0567338bca5248808539c5a494e1b958
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:18
+#: 6e924a1eaabe4665a1dc793efefd58a0
+msgid "Buildings (Aerial)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:20
+#: a14422a0ffff422c84e7c06c8b448638
+msgid "zoom 20-21"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:21
+#: 9308bf7948d244628419eaada103c3a8
+msgid "> 0.82"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:22
+#: 68c0dab7cb864f8a89560cfd15e99767
+msgid "urban pattern: low-rise - rural"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:31
+#: ../userguides/buildings_aerial_imagery_model.rst:39
+#: 06824e04dfa144d8a95674f7f8b852ab
+#: 0843c45b43af40e899e38930a56b39dc
+msgid "Processing result of Buildings (Aerial) model"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:31
+#: 78511a84c3bd4c94ae6e9b58fb7bace3
+msgid "Processing example – rural residential area"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:39
+#: 2591807248a7418a8484caa5d23a13e7
+msgid "Small objects that have been missed by default :ref:`Buildings model` but detected using an aerial image with the Buildings (Aerial imagery)"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:2
+#: 4365d2f69e904b2db440bd0c40f4d286
+msgid "🏘 High-density housing (CUSTOM)"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:4
+#: ../userguides/sam_model.rst:4
+#: 3f48aa235a0f4a6da314aafbaacf0685
+#: f487866f61fc4caaae5c32324b124c5f
+msgid "This model has been deprecated as default one and moved to custom. it's available only by request."
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:7
+#: 5e4448f0c9f3431fa0e6cd67c8cc6986
+msgid "The “high-density housing” AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc. This model, just like the regular building model, detects the building roofs. Firstly, the building blocks are segmented as a whole, and then each block is attempted to be devided into individual houses based on the detection of individual roof markers with rectangular grid or Voronoi diagram."
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:10
+#: 95f5bb404bc1446ea6c9f6c38381b290
+msgid "Processing result sample for dense urban development area (Tunisia, Africa):"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:18
+#: 6d963fc93b5d4218bac977818a0e6a17
+msgid "Processing result of high-density housing model"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:18
+#: 70e150d6f89a4840909ef435f9437ae3
+msgid "High-density buildings model, instance segmentation and post-processing with grid options"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:2
+#: 92ad435be8a2412c81777dc4f5baa8bb
+msgid "|:tractor:| Agriculture fields (CUSTOM)"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:5
+#: c638e2eb57d2412d97aa8158f45c6a12
+msgid "This model has been deprecated as default one and moved to custom. it's available by request."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:7
+#: 39e4e4e109554bf6a6d2e51102a881e8
+msgid "Model for fields segmentation allows to detect the agricultural fields and delineate the nearby fields from each other, if there is a visual boundary (forest line, road, different crop stage). The model is trained on the high resolution data (1-1.2 m), primarily for Europe, Russia. It performs better with larger fields with active vegetation. Smaller and terrace fields (typical for Asia) are delineated not so good. Fields without vegetation, especially in winter period, are not target class."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: ../userguides/agriculture_fields_model.rst:24
+#: acc5a6f70805415fb4ce4fb70f3ef844
+#: bbc90a26e36c49f1832b490ed8612eb4
+msgid "Processing result of agriculture fields model"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: 22895d2c3da9467db3b36e3cc740eb7d
+msgid "Processing result sample for Europe (Belgium)"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:24
+#: c2ac31b20aac4d2894727925c57654ba
+msgid "Processing result sample for Asia (Northern India)"
+msgstr ""
+
+#: ../userguides/sam_model.rst:2
+#: 57b7a0dc645648ee96d2052dc456ccb6
+msgid "✨ Segment anything (CUSTOM)"
+msgstr ""
+
+#: ../userguides/sam_model.rst:6
+#: d4a53da2cf4a4d20aca3aeac604b039e
+msgid "The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model:"
+msgstr ""
+
+#: ../userguides/sam_model.rst:8
+#: 9558569a65bd47adafb954b155a0f6df
+msgid "Select your data source"
+msgstr ""
+
+#: ../userguides/sam_model.rst:9
+#: ec81aa1d4ef6438f95391e8e5df073fc
+msgid "Select your geographical area - either polygon, GeoJSON file, or your image extent"
+msgstr ""
+
+#: ../userguides/sam_model.rst:11
+#: 7de5dbc69f744052a9279424b54ec6b9
+msgid "Yet there is one difference in the model workflow:"
+msgstr ""
+
+#: ../userguides/sam_model.rst:13
+#: 4055bf355df64e358caa8344a53faeb8
+msgid "if you run this model using GTIFF file — the original resolution of the image will be used"
+msgstr ""
+
+#: ../userguides/sam_model.rst:14
+#: 96e002fbe3d646ddb1c71ad1bf53b9f6
+msgid "if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input"
+msgstr ""
+
+#: ../userguides/sam_model.rst:None
+#: ../userguides/sam_model.rst:46
+#: ../userguides/sam_model.rst:54
+#: ../userguides/sam_model.rst:62
+#: ../userguides/sam_model.rst:71
+#: ../userguides/sam_model.rst:79
+#: 6e65769f6621476e9ab1951cebe4048a
+#: f2639202d050461eb74ee9310b664d8c
+#: 7ec555cb8b68480f9f22e396e76a1aa0
+#: 62b67d38a418469e912acf9f9248bc7b
+#: a0a9b4b1539a44779c0e8e0cd2e9f97b
+#: 134f2d65c7cc4047a11fcd81b431eb99
+msgid "SAM options - zoom levels"
+msgstr ""
+
+#: ../userguides/sam_model.rst:23
+#: 041063e82db5426a92c0b841b7c532ef
+msgid "Depending on the input resolution, the SAM model will interpret and generate different results. It can be empirically classified by mapping classes depending on the zoom levels as follows:"
+msgstr ""
+
+#: ../userguides/sam_model.rst:29
+#: 2ec1575440d04c4a892063de6079e311
+msgid "ZOOM LEVELS"
+msgstr ""
+
+#: ../userguides/sam_model.rst:30
+#: 7cb7221723764e9ca8f552b1464cd414
+msgid "SEMANTIC OBJECTS"
+msgstr ""
+
+#: ../userguides/sam_model.rst:31
+#: 35b667f3ab7140c0bcc8f678ddccf521
+msgid "14"
+msgstr ""
+
+#: ../userguides/sam_model.rst:32
+#: 6c426849668f4ea2a136b973640a6a20
+msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
+msgstr ""
+
+#: ../userguides/sam_model.rst:33
+#: d78825962c874c24a2cb1f94256b4b8b
+msgid "16"
+msgstr ""
+
+#: ../userguides/sam_model.rst:34
+#: 0c18629b4d2e4c15ae3a24604d24415f
+msgid "Small fields, large buildings, lawns, plots"
+msgstr ""
+
+#: ../userguides/sam_model.rst:35
+#: 2b7aabd555824d3e99ea85f15a3cd286
+msgid "18"
+msgstr ""
+
+#: ../userguides/sam_model.rst:36
+#: d8743085b46948e993840f78f9daa0b4
+msgid "Farms, buildings, groups of trees, etc."
+msgstr ""
+
+#: ../userguides/sam_model.rst:37
+#: aa4439962cb646f09d82e29b6adbb479
+msgid "19+"
+msgstr ""
+
+#: ../userguides/sam_model.rst:38
+#: ba0ba537a749416080f741974ea23c0b
+msgid "Houses, trees, vehicles, roof structures, etc."
+msgstr ""
+
+#: ../userguides/sam_model.rst:46
+#: 089f57c31102462484233041fb121fa3
+msgid "E.g. Result – SAM (zoom 14)"
+msgstr ""
+
+#: ../userguides/sam_model.rst:54
+#: f4eb9edf9a6041e08ecc333eeab43f26
+msgid "E.g. Result – SAM (zoom 16)"
+msgstr ""
+
+#: ../userguides/sam_model.rst:62
+#: 85cb7785828f4479839b8748b495b113
+msgid "E.g. Result – SAM (zoom 18)"
+msgstr ""
+
+#: ../userguides/sam_model.rst:71
+#: 3eec686330884b7da2f87c20030748c9
+msgid "E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping."
+msgstr ""
+
+#: ../userguides/sam_model.rst:79
+#: 2dc4444612184fe29135b4bb236b31d9
+msgid "E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to small similar-pattern objects, requires some manual filtering of the model's output."
+msgstr ""
+
+#: ../userguides/sam_model.rst:82
+#: eeb1d8019d8a4b83a7c266dcfa7464eb
+msgid "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:2
+#: 30880309997342d9a7a3b3f3036eab38
+msgid "|:whale:| Swimming pools (CUSTOM)"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:5
+#: ../userguides/solars_model.rst:5
+#: a5d8901d0afe4703874ed0b6015d6764
+#: 577b3ec162494d07adb0f5950b8a14d7
+msgid "This model is available by request."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:7
+#: 4a42384dd1264a4d8eefee732f88d3ea
+msgid "Swimming pools detection and classification. The model is trained on the high resolution aerial imagery (working zoom level 19). The testing benchmark score is ``F1 > 0.95``."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:19
+#: f631a2080ee04cd383abebab1ace6423
+msgid "Swimming pools"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:20
+#: 68c7101d841343a193952194262ae4c8
+msgid "Detector + classification"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:21
+#: c58ee5aa59124b81bb435ea33d8bd0a8
+msgid "zoom 19-20"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:22
+#: f08dcb1a3dfd4f4a97830b263e8af512
+msgid "> 0.95"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:23
+#: ../userguides/solars_model.rst:23
+#: 20abb20941b24c71b9f829baa95287d3
+#: 02e297448b3f47fb8f9efa8a4d675f79
+msgid "Global"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:31
+#: 016f71b1bbbf494cb66848fda2db5e1e
+msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
+msgstr ""
+
+#: ../userguides/solars_model.rst:2
+#: 5fed8275c62b41929208340a42407e82
+msgid "|:sunny:| Solar panels (CUSTOM)"
+msgstr ""
+
+#: ../userguides/solars_model.rst:7
+#: 543b8bdaebb84fd29b5417c9a73cb5d5
+msgid "Solar panels is a model trained for detecton of Photovoltaic elements using aerial imagery (working zoom levels 19-21). It's capable of detection PV elements both on the rooftops and on the ground. The testing benchmark score is ``F1 > 0.87``."
+msgstr ""
+
+#: ../userguides/solars_model.rst:19
+#: 7750f4edd9ea489e9e75a8885a27099b
+msgid "Solar panels"
+msgstr ""
+
+#: ../userguides/solars_model.rst:20
+#: b05a4955d4f1494793ee85f83657c3cc
+msgid "Detector + segmentator"
+msgstr ""
+
+#: ../userguides/solars_model.rst:21
+#: 84fdf935976c48b4ae799e6bb332c24a
+msgid "zoom 19-21"
+msgstr ""
+
+#: ../userguides/solars_model.rst:22
+#: 200fcb891882459aaac6f2c0bad4928f
+msgid "pixelwise > 0.77"
+msgstr ""
+
+#: ../userguides/solars_model.rst:None
+#: 7b14790129b14e9b8a54802e4e56c9ba
+msgid "Processing result of solars model"
+msgstr ""

@@ -8,25 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 15:23+0700\n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/qgis_plugin.rst:1
-msgid ""
-"**Object detection in remote sensing images using Mapflow.ai plugin for "
-"QGIS**"
+#: ../userguides/qgis_plugin.rst:2 8862681348ed4197b40760a9aaabcefb
+msgid "How to use the Mapflow <> QGIS plugin"
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:3
+#: ../userguides/qgis_plugin.rst:4 29f15be6b11347818482dd241b5d7352
+msgid "**Object mapping in remote sensing images using Mapflow plugin for QGIS**"
+msgstr ""
+
+#: ../userguides/qgis_plugin.rst:6 39aefd951c2749d692d8a7c904c8fcbc
 msgid ""
 "Interpretation and subsequent digitization of satellite imagery is a "
 "rather laborious process. The use of AI-based image recognition "
@@ -34,57 +36,58 @@ msgid ""
 "processing speed."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:5
+#: ../userguides/qgis_plugin.rst:8 3bf3b955949349a9a0f7036ec0bcf5af
 msgid ""
 "In the QGIS, the process of detecting objects of various types can be "
 "automated using the Mapflow plugin. To accomplish this, you can follow "
 "the steps described below."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:7
+#: ../userguides/qgis_plugin.rst:10 7d3573aaa7cc45b6bd3e97a2c6cbacef
 msgid "**1. Installation of Mapflow plugin and logging in**"
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:9
+#: ../userguides/qgis_plugin.rst:12 d4558f560d4e4e7bbbad6e30b7f89789
 msgid ""
 "First of all, you have to install the plugin in QGIS. To do this, go to "
 "the tab called Plugins -> Manage and Install Plugins, find Mapflow using "
 "the search bar and click Install Plugin."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:18
+#: ../userguides/qgis_plugin.rst:21 29be87ec11cd4d9da742879e3336c343
 msgid ""
 "After installation, the plugin icon will appear in the toolbar: "
 "|plugin_icon|. Clicking on it will open the authorization window, in "
 "which you need to click on \"Get token\"."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:20
+#: ../userguides/qgis_plugin.rst:23 6998d804f1ad4e0492387672d64e2d1b
+#: aeeb87b7b03a4fd4bd8241cdfd06ea46
 msgid "plugin_icon"
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:30
+#: ../userguides/qgis_plugin.rst:33 925e6fb5f4db41298806e210d6d1def9
 msgid ""
 "A window will open in which you have to quickly and for free register on "
 "`Mapflow.ai <https://app.mapflow.ai/>`_. After that, by clicking on the "
 "user, you need to go to Settings and select the API tab."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:39
+#: ../userguides/qgis_plugin.rst:42 2aa6d1e2e8b94ac287467904faeae7ca
 msgid ""
 "By clicking on the \"Reset api token\" button, you will get access to the"
 " authorization key, which must be copied and saved, as well as pasted "
 "into the authorization window in QGIS. After that - click \"Log in\"."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:41
+#: ../userguides/qgis_plugin.rst:44 82af69d8bc824790aa3bc8047b3cbced
 msgid ""
 "Another way to log in to the plugin is using Oauth2. By checking the "
 "appropriate option in the authorization window, you will need to set a "
 "master password."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:50
+#: ../userguides/qgis_plugin.rst:53 e91e991af9a94bb3b5fdb55a72a2fe1a
 msgid ""
 "Then, following the instructions, restart QGIS and click \"Log in\" "
 "again. This will redirect you to the browser, where the Mapflow "
@@ -92,31 +95,31 @@ msgid ""
 " page will open notifying you of this."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:59
+#: ../userguides/qgis_plugin.rst:62 b5b86f05012a46a1936d8575fdfde4d6
 msgid ""
 "And in QGIS the main tab of the plugin will open, so you can proceed to "
 "the next steps."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:61
-msgid "**2. Object recognition using Mapbox data provider**"
+#: ../userguides/qgis_plugin.rst:64 702aca2d4c8e4c4c99a74dc069710c11
+msgid "**2. Object recognition using default data provider**"
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:63
+#: ../userguides/qgis_plugin.rst:66 c69b1af395f9457eaad0573e01f4257f
 msgid ""
 "In order to start processing, first you must specify its name. Next, "
 "choose the area of interest by drawing it on the map / loading from a "
 "vector file / taking the extent of the map."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:72
+#: ../userguides/qgis_plugin.rst:75 87576fa10d314d30a42806ac96e05709
 msgid ""
 "In the upper-left corner of the main QGIS window in the Browser panel, "
 "you can open the OpenStreetMap basemap and navigate around the map to "
 "identify the area of interest."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:81
+#: ../userguides/qgis_plugin.rst:84 cec811e53bc3488bbddd951707075ba2
 msgid ""
 "Let’s leave the remaining parameters as default: Mapbox data provider and"
 " a model for buildings classification. Then click \"Start processing\". A"
@@ -128,18 +131,18 @@ msgid ""
 "residential and purple is commercial)."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:91
+#: ../userguides/qgis_plugin.rst:94 682655c48dd64bb29ab2141b7744963c
 msgid ""
 "The resulting vector objects can be saved in GeoJSON format (by clicking "
 "on the additional options next to View results) and then used for "
 "mapping, analysis, or filled with additional attribute information."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:100
+#: ../userguides/qgis_plugin.rst:103 90631da33f2c407d9bba60e3b8ddfd95
 msgid "**3. Object recognition using your own imagery**"
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:102
+#: ../userguides/qgis_plugin.rst:105 e76fc2d3094c45ac8b5d6b30bc43a459
 msgid ""
 "Previously, we looked at one of the simplest scenarios for working with "
 "the Mapflow plugin. However, its functionality is not limited to a single"
@@ -151,7 +154,7 @@ msgid ""
 "your image."
 msgstr ""
 
-#: ../../source/userguides/qgis_plugin.rst:112
+#: ../userguides/qgis_plugin.rst:115 e92a3c77a5954ecdbd3e89dad792ec68
 msgid ""
 "In this quick tutorial, we looked at the main options for detecting "
 "objects in remote sensing images with the help of the Mapflow plugin for "
@@ -160,4 +163,13 @@ msgid ""
 " the plugin's capabilities, as well as various options for data sources, "
 "are discussed in the documentation for :ref:`Mapflow <> QGIS`."
 msgstr ""
+
+#~ msgid ""
+#~ "**Object detection in remote sensing "
+#~ "images using Mapflow.ai plugin for "
+#~ "QGIS**"
+#~ msgstr ""
+
+#~ msgid "**2. Object recognition using Mapbox data provider**"
+#~ msgstr ""
 

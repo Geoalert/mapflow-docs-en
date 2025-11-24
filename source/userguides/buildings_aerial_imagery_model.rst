@@ -1,7 +1,7 @@
 🏠⭐️ Buildings (Aerial) (CUSTOM)
 --------------------------------------------
 .. note::
-   This model has been deprecated as default one and moved to custom as it's geodomain application is limited. it's available by request.
+   This model has been deprecated as default one and moved to custom as its geodomain application is limited. it's available by request.
 
 
 This model is specifically designed to be used on a high resolution aerial imagery (15-10cm per pixel) for extraction of small buildings and detailed structure outlines. It is best suited for rural and suburban residential areas. We do not recommend using this model in areas with high-dense urban buildings. Use :doc:`Buildings model <buildings_model>` instead, even for aerial imagery.

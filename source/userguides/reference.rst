@@ -59,14 +59,14 @@ and may not correspond to what you see as "pixel size" if your image's coordinat
      - 0.5
      - 17 – 18
      - 0.3 - 1.5
-   * - High-density housing [Mapflow Web only]
+   * - High-density housing
      - Extraction and instance detection of the building roofprints in the areas of high density housing
      - 19
      - 0.3
      - 18-19
      - 0.15 - 1.2
    * - Buildings (Aerial imagery)
-     - Extract roof contours (roofprints) from very high-resolution aerial imagery
+     - Extract roof contours (rooftops) from very high-resolution aerial imagery
      - 20
      - 0.1
      - 20-21
@@ -77,7 +77,7 @@ and may not correspond to what you see as "pixel size" if your image's coordinat
      - 0.5
      - 17 – 18
      - 0.3 - 2.0
-   * - Forest with heights [Mapflow API/QGIS only]
+   * - Forest with heights
      - Extract segmentation masks of forested areas from high-resolution RGB images with separation by height classes
      - 18
      - 0.5

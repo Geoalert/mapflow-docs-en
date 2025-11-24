@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../index.rst:6 84bea0b97ce948719a89dd11549eb454
+msgid "Welcome"
+msgstr ""
+
+#: ../index.rst:8 7b725c33fe2f4d0d8ef586b4fd597955
+msgid ""
+"We are happy that you are interested in Earth Observation Data analysis "
+"and Mapping! The Earth Observation to Mapping process is going through "
+"the following main stages:"
+msgstr ""
+
+#: ../index.rst:11 6718ff2e2f43477690a17ed87da815ec
+msgid "EO data access (e.g. satellite or aerial imagery)"
+msgstr ""
+
+#: ../index.rst:12 2b414d4ccfab4dc79908b34ff59a661b
+msgid ""
+"EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ "
+"comes in game |:boom:|"
+msgstr ""
+
+#: ../index.rst:13 df713a7e082044069b2359d0ae5a36fd
+msgid "GIS – check and edit results to use them in you application"
+msgstr ""
+
+#: ../index.rst:15 94c788c4118e4de292657e9631b1cd5e
+msgid ""
+"Mapflow is powered by the engine that operates data processing pipelines "
+"(we call \"flows\"). Using Mapflow you run your processings getting all "
+"power of semantic imagery analysis."
+msgstr ""
+
+#: ../index.rst:20 9daa88e7de54488b92e51fcada35b680
+msgid "Getting Started with Mapflow"
+msgstr ""
+
+#: ../index.rst:35 313c9a7d3e314b02912f3f8e5d7e8367
+msgid "Mapflow AI models"
+msgstr ""
+
+#: ../index.rst:45 a07ea00bfe6a4ade974f6b32cf939591
+msgid "Mapflow API"
+msgstr ""
+
+#: ../index.rst:55 6b4e7667195c420dbac69a3362d96bf8
+msgid "Use with GIS..."
+msgstr ""
+
+#: ../index.rst:65 d2bd42108a0f4e19865c427d41b9e96e
+msgid "User guides"
+msgstr ""
+
+#: ../index.rst:75 90bfc3ab24f842d5b48227b5c651b4db
+msgid "Reference materials"
+msgstr ""
+
+#: ../index.rst:85 d31cc366235544b682df73e6e743faeb
+msgid "Frequently asked questions"
+msgstr ""
+
+#: ../index.rst:96 94f16fd06fda406ab0c84e3033cdfb3a
+msgid "PDFs"
+msgstr ""
+
+#: ../index.rst:98 0d0745a7cc54454fbc8741b5c2e266e0
+msgid ""
+":download:`Mapflow User Guides "
+"<userguides/_static/_downloads/user_guides.pdf>`"
+msgstr ""
+
+#: ../index.rst:99 92d5cfb9eb494b938d120e03d3e9980d
+msgid ""
+":download:`Mapflow AI-Mapping models "
+"<userguides/_static/_downloads/pipelines.pdf>`"
+msgstr ""
+
+#: ../index.rst:100 e0d798047ef64e0fa002449432ee099b
+msgid ""
+":download:`Mapflow Customization "
+"<userguides/_static/_downloads/mapflow_custom.pdf>`"
+msgstr ""
+
+#: ../index.rst:104 946efcbed6ec40779435ee6efca7c6fb
+msgid ""
+"This documentation is distributed under the terms of Creative Commons "
+"License **\"Attribution-NoDerivs\" СC BY-ND**"
+msgstr ""
+
+#~ msgid ""
+#~ "Mapflow is powered by the engine "
+#~ "that operates data processing pipelines "
+#~ "(we call \"flows\"). Using Mapflow you"
+#~ " run your flows getting all power "
+#~ "of semnatic imagery analysis."
+#~ msgstr ""
+

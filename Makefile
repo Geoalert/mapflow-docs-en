@@ -14,6 +14,25 @@ help:
 
 .PHONY: help Makefile
 
+# Extract translatable messages
+gettext:
+	@$(SPHINXBUILD) -b gettext "$(SOURCEDIR)" "$(SOURCEDIR)/locale"
+	@echo "Extracting translatable messages complete."
+
+# Update PO files for all languages
+update-po: gettext
+	sphinx-intl update -p $(SOURCEDIR)/locale -l en
+	sphinx-intl update -p $(SOURCEDIR)/locale -l ru
+	@echo "PO files updated."
+
+# Build all language versions
+build-all: update-po
+	@echo "Building English version..."
+	@$(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS)
+	@echo "Building Russian version..."
+	@$(SPHINXBUILD) -b html -D language=ru "$(SOURCEDIR)" "$(BUILDDIR)/docs/ru" $(SPHINXOPTS)
+	@echo "All language versions built successfully!"
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile

@@ -1,0 +1,684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../api/error_messages.rst:4
+#: 0c306d9f1cbe4cb2a332418e96d46ef9
+msgid "Error messages in API"
+msgstr ""
+
+#: ../api/error_messages.rst:6
+#: 9380430ac3814f719e857e5ccf6795ad
+msgid "List of messages and params that can be found in the ``messages`` section in case of the failed processings"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 92c2bf5c02eb495c8f945d11fa880619
+msgid "Error code"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9af599c6ef3b49baa3714e2a4aacf343
+msgid "Parameters"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d21c9f6525524542bd16ea9400585e0c
+msgid "Description"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3e39fcc3f1d342e4871cf72647cb9392
+msgid "source-validator.UrlMustBeString"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e0b5f9c598a84064a13034f17e57f5b0
+msgid "url_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 53a4e8387d684b2eb1a657906108e9d3
+msgid "Key ‘url’ in your request must be a string, got {url_type} instead."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 54fbb5f64ad7471f806be00ba6c62415
+msgid "source-validator.UrlMustBeLink"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6e523012f5394ef485532869e9a3419b
+msgid "Your URL must be a link starting with “http://” or “https://”."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a7cafec0d42c4154a2843878572ef167
+msgid "source-validator.UrlFormatInvalid"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1c98f54035df4612bc590f1ecb45ae57
+msgid "parse_error_message"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3136ed6c7ec948ee9888391e0853425d
+msgid "Format of ‘url’ is invalid and cannot be parsed. Error: {parse_error_message}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 94607b2270d6430cbb769e2114703d7d
+msgid "source-validator.ZoomMustBeInteger"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1185301786514baf9fd10d6563e8ccf8
+msgid "actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: fc221c5f04fa483fb193fdb85ed060f6
+msgid "Zoom must be either empty, or integer, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 8729b730b50742d29e590966eb491246
+msgid "source-validator.InvalidZoomValue"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3a643ddc08dc43faabee8342f5d47217
+msgid "actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4669c7c83f994a5ea898d93cd1ffc899
+msgid "Zoom must be between 0 and 22, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1cbef1d6981e4515aac6b51f3836e91b
+msgid "source-validator.TooHighZoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5a1a1e2faa9c4349aba54e4fb80de69a
+msgid "max_zoom, actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 867a847d7cc840879c905088cbbb2bd2
+msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7a8ace68f46d4b32b0da9818deb44316
+msgid "source-validator.TooLowZoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ea9d9ec4487a4afdbef5d587bc7d737b
+msgid "min_zoom, actual_zoom"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a3ac7c4ef9cc45a5a846aefff0e821e9
+msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e7664bd6cd29468980b96665fb16e2e1
+msgid "source-validator.UrlBlacklisted"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6ee0a2f8cb0a484dbcd5ee3327dbd374
+msgid "url"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4a894addee6b41debcb45782bc6a9d15
+msgid "The specified basemap {url} is forbidden for processing because it contains a map, not satellite image. Our models are suited for satellite imagery."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 731b8e51163646658415c56317193e03
+msgid "source-validator.ImageMetadataMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7a96acf6611b4823bd91eedc1c2ef990
+msgid "Image metadata must be a dict (json)"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d4d3294aae8e4b999c0edb5e9d96f970
+msgid "source-validator.ImageMetadataKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9da0657583c2494491f2019bdf37d364
+msgid "Image metadata must have keys: crs, transform, dtype, count"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7665e0efa7b64b03b2d7852732a9fdec
+msgid "source-validator.S3URLError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 90ba612f84434cd6b1745f01b6c5e888
+msgid "actual_s3_link"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d42afc41b3404604b4927f0c98a63a43
+msgid "URL of the image at s3 storage must be a string starting with s3://, got {actual_s3_link}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ef3afbd9d0184f75b28d1a1b04769134
+msgid "source-validator.LocalRequestKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ee4fb979bd3341a0a51dcbaf28838864
+msgid "Request must contain either ‘profile’ or ‘url’ keys"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2e79592892694387ba0ec07f36e27a64
+msgid "source-validator.ReadFromS3Failed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3f55f9e63a474adebe3df5d9c6e703da
+msgid "s3_link"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6c7ae4d2185947d095873ee18ef27c5a
+msgid "Failed to read file from {s3_link}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5ba0d2cc4f9b49aebcc039ee2b150c1f
+msgid "source-validator.ImageReadError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 25e77866b03a4dfa80825b539effe6d5
+msgid "We could not open and read the image you have uploaded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ef608c45cf82437ca898293ebcf0b772
+msgid "source-validator.BadImageProfile"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 915c406bb5a34808af36b9d7491344b9
+msgid "profile, required_keys"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 0a08047baa484246bc2b7c851c694386
+msgid "Image profile (metadata) must have keys {required_keys}, got profile {profile}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2e2815baf9c24360baca4126a1fd3809
+msgid "source-validator.DtypeNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f95d05adce4c414bbea9ba7323cc6c18
+msgid "required_dtypes, request_dtype"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: eef71863c658488fab74233894ed22f5
+msgid "Image data type (Dtype) must be one of {required_dtypes}, got {request_dtype}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6ff1efc5f5f647f5b0c9d0b2fab5b218
+msgid "source-validator.NChannelsNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2d90bd2ef8fb465cb75e12f78d3f0127
+msgid "required_nchannels, real_nchannels"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 158b1906c4374de8a80b5f2f415c8fcc
+msgid "Number of channels in image must be one of {required_nchannels}. Got {real_nchannels}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 0693706a55844a55a635479655b5af95
+msgid "source-validator.PixelSizeTooLow"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 380e1568bc9540c6bb96292da5a4ac96
+msgid "actual_res, min_res"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c8a11f73fe9447af98d7f0849ac02acf
+msgid "Spatial resolution of you image is too low: pixel size is {actual_res}, minimum allowed pixel size is {min_res}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 98a7709f08c34390bd72f2bee1f2cb9d
+msgid "source-validator.PixelSizeTooHigh"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ba9400f08c6a4b08bc208df6928411b9
+msgid "actual_res, max_res"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: def85d190ddc48a0bb59c956cf963b22
+msgid "Spatial resolution of you image is too high: pixel size is {actual_res}, maximum allowed pixel size is {max_res}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6861f358461c4ac8a9349429881102f0
+msgid "source-validator.ImageCheckError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a188d0572e8c47c3ad1bbdc44c0e658c
+msgid "checked_param, message, metadata"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: de811c14a7844f38a8b82a733870fb83
+msgid "Error occurred during image {checked_param} check: {message}. Image metadata = {metadata}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 7ef7927fc7864504bb1d59f2ca9a4e04
+msgid "source-validator.QuadkeyLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f3b0af7d98a74649b4a8aa65e970aa6c
+msgid "Your ‘url’ doesn’t match the format, Quadkey basemap must be a link containing “q” placeholder."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b85a01b034af4e098ee53a7397ffdee1
+msgid "source-validator.SentinelInputStringKeyError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3a648b1e63384764bb852689d475bc59
+msgid "Sentinel_L2A request must contain field named ‘url’ with string value"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1a13c1540af24ac2b5044dea0072f43c
+msgid "source-validator.SentinelInputStringFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 19e75ae224c54b249821286b19f61cce
+msgid "input_string"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b9f733415e484b37b2c86bba61aba75a
+msgid "Input string {input_string} is of unknown format. It must represent Sentinel-2 granule ID"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 05537e3367da484bbf23236cb284ff7b
+msgid "source-validator.GridCellOutOfBound"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 36fcdcf5709f4409be2ad6b35714d348
+msgid "actual_cell, allowed_cells"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 0325cf5777944a59b0f0986d84c77c1b
+msgid "Selected Sentinel-2 image cell is {actual_cell}, this model is for the cells: {allowed_cells}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c63facac8ae143c5a1593861c30b0ba5
+msgid "source-validator.AOINotInCell"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9195e05be57f4301bdc3a1afe5f11fb3
+msgid "actual_cell"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 28853aba786f450ab28e21cf8cfe0d0e
+msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 1ae47c579ae04cbd9a24081ccb4a29d1
+msgid "source-validator.MonthOutOfBounds"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 4444ebfba7e046d481bab97a0c1149f0
+msgid "actual_month, allowed_months"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: bf724506a6e948c99666d22c80f10ce8
+msgid "Selected Sentinel-2 image month is {actual_month}, this model is for: {allowed_months}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a9368176c62d4e47b279d97c1436c1ef
+msgid "source-validator.TMSLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5f178a78968d41b99c8084bfb8008e25
+msgid "You request TMS basemap link doesn’t match the format, it must be a link containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start processing again."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 23eb052a2fcd4ed2ac67699046591a04
+msgid "source-validator.RequirementsMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 0e4acc880ce54149a6f3ee0752d3dbda
+msgid "requirements_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ef22a9fafaeb4678996b9eacbd55bc75
+msgid "Requirements must be dict, got {requirements_type}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: f256f1f7ef0d4350a8d4bdc6a409d8bc
+msgid "source-validator.RequestMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5efc8f5b5f3e4c9e9093bab48cfe127c
+msgid "request_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6ab486155dbf4f7084ef0ad91affd33e
+msgid "Request must be dict, got {request_type}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b97b37c3ed0b45399f6beb0519680c71
+msgid "source-validator.RequestMustHaveSourceType"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: fc2010370839429d8538e14a248b56ac
+msgid "Request must contain \"source_type\" key"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5457806b1376499da057d003543b3239
+msgid "source-validator.SourceTypeIsNotAllowed"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b32684c6bde54cfda8788e72a9ba9fb9
+msgid "source_type, allowed_sources"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a29777145bc44f8a96a98a952e3849f7
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2e714847fca4438d90b8675669c49ac1
+msgid "source-validator.RequiredSectionMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: df547eb7edcd48d19028d201765ad6dd
+msgid "required_section_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 55583f68039b4c989be67b0f48fb1b6e
+msgid "“Required” section of the requirements must contain dict, not {required_section_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 111fdf0c3c284da582b341892fb42d33
+msgid "source-validator.RecommendedSectionMustBeDict"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3d807d7524204c118001b6eace20d9f0
+msgid "recommended_section_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5763375515954905b3f2fc0d4bfe2ecb
+msgid "“Recommended” section of the requirements must contain dict, not {recommended_section_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 58c8ff22a0aa4252be444785ad961649
+msgid "source-validator.XYZLinkFormatError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9057026584df47efbc4e472e7f6d3185
+msgid "You XYZ basemap link doesn’t match the format, it must be a link containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c4fd0ae04b7c40ada7e711137a192a5b
+msgid "source-validator.TaskMustContainAoi"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 55e61593d24c410da3a2aac8e752907d
+msgid "Task for source-validation must contain area of interest (‘geometry’ section)"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 29c0bbca148449f7ae689fc46f4618cc
+msgid "source-validator.UnhandledException"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 404ed0134912429db6fbddfda447583b
+#: 1d855e1df4d244aeb1a98a538ffc335e
+msgid "Internal error in process of data source validation. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 2541d9f53f0c403889956cd29f7da6ed
+msgid "source-validator.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 52d8a42c480948d880498a21bde3299e
+msgid "dataloader.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: 8a290b38b8184b64b7eebba24d4af891
+#: 0525cdfdc0cb436786998bd8c16a45c2
+#: 299523a549734cd19f59354b792cf78b
+#: 6c1becb91aaa42d289c3873f144e2614
+#: 53c216d6784c45ccb0d5f41a6867721f
+msgid "Internal error in process of loading data. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5a5d888462894a1da7a980a548fc8371
+msgid "dataloader.InternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 70270fa4f77d4545bd1e721b50b70ea8
+msgid "dataloader.UnknownSourceType"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ccf691e7402b4bada5c041fec4016ba6
+msgid "allowed_source_types, real_source_types"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 5ef7e940ca3243a88108db8211e5e81d
+msgid "Wrong source type {real_source_type}. Specify one of the allowed types {allowed_source_types}."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 35d479caad544f65931fe6e25fcfcef7
+msgid "dataloader.MemoryLimitExceeded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: e337b23c6d6d4e45bab4e99624c21286
+msgid "allowed_size, estimated_size"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: de42590dd6074d4098a807efa8252610
+msgid "Your data loading task requires {estimated_size} MB of memory, which exceeded allowed memory limit {allowed_size}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d9bcd4b6f7ae4ff6988f2024fd77a38f
+msgid "dataloader.LoaderArgsError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 9ac6b4a698074b56b4d5ba0d816047d0
+msgid "argument_name, argument_type, expected_type"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 68e9e58beecf47ef8f449e7f90534e5f
+msgid "Dataloader argument {argument_name} has type {argument_type}, excpected to be {expected_type}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: abd5aa6065024ca5acd26aec65903147
+msgid "dataloader.WrongChannelsNum"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 3d190f8e13714e59aeedf97c18f3af85
+msgid "expected_nchannels, real_nchannels"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d3e7679a4ae442fb868b19a995afffbb
+msgid "Loaded tile has {real_nchannels} channels, required number is {expected_nchannels}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 379007d2ed434337bcb42088d7f7c0eb
+msgid "dataloader.WrongTileSize"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: fd38bd344d5c448bb033ac6a64f98401
+msgid "expected_size, real_size"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: d9bd0796047d48d68e55da65b2032ad6
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 31e08f464e4e4d898d8add9ebc2b6f1f
+msgid "dataloader.TileNotLoaded"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 6bbfa32ff49d498fbdafea9e415bce7f
+msgid "tile_location, status"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: a72a36813bf946deb0c972532a0a290f
+msgid "Tile at location {tile_location} cannot be loaded, server response is {status}"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 569bc50bc4d842f1ac11efba604c3b64
+msgid "dataloader.CrsIsNotSupported"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: b08c3ade3c8848438cdff3a5cd82c399
+msgid "dataloader.MaploaderInternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 80a60418868c4242972299e684bbc17c
+msgid "dataloader.SentinelLoaderInternalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 14ffbba9fc444c829f55410367b31a7a
+msgid "raster-processor.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: 0fbb80d464b54bcb85863b8ec18bb997
+msgid "Internal error in process of data preparation. We are working on the fix, our support will contact you."
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: c4afbaba21bd401e84756ea3264b8262
+msgid "inference.internalError"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: ../api/_static/csv/errors.csv:1
+#: eceb65684e42457f84c8a02aac81ab28
+#: 807f7b0e2da04d58b88c09126134b2af
+msgid "Internal error in process of data processing. We are working on the fix, our support will contact you"
+msgstr ""
+
+#: ../api/_static/csv/errors.csv:1
+#: cf92f64f718e4e78a2ba1bd3ddfa64fe
+msgid "vector-processor.internalError"
+msgstr ""

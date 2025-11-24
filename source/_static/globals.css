@@ -101,3 +101,32 @@ img.logo {
   border: #d8d8d8 1px solid;
   border-radius: 4px;
 }
+
+
+/* Language Selector at Bottom (in versions.html) */
+.language-selector-bottom {
+  padding: 5px 5px;
+  margin: 0;
+}
+
+.language-selector-bottom label {
+  font-weight: 600;
+  margin-right: 8px;
+  color: #002245;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.language-selector-bottom select {
+  padding: 5px 5px;
+  border-radius: 3px;
+  color: #002245;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+
+.language-selector-bottom select option {
+  color: #002245;
+}

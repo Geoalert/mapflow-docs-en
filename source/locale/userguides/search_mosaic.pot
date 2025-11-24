@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/search_mosaic.rst:1
+#: 802ca8e0c67a4772bd89d1850f7bffe5
+msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:4
+#: ed4c23b385f948c788c2d0c72d432784
+msgid "Commercial 🌏 Global mosaic is the annually updated satellite imagery composite covering most of the World. The mosaic is composed of \"Jilin\" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:7
+#: d8a75bc0e682430180dbb544f52bcc59
+msgid "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's metadata and run the analysis:"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:9
+#: 72e231c8784b473d85692d73068c8210
+msgid "Switch to the Tab \"Imagery Search\""
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:10
+#: 75e0472687744a9cb35eeeb79f416c0b
+msgid "Set search filter parameters including the area (it can be your area of analysis or a map canvas), period of time, cloud %, and the % of the intersection with AOI."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:11
+#: 97dcada89ca046109aab04b2abe7b978
+msgid "Select the \"Product type = Mosaic\" in the Search results. You will see the mosaic image \"cutline\" indicating the specific image that is used in the mosaic."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:None
+#: 68475624d3c643a08ad71efa9c33c275
+msgid "Search for Mosaic images"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:22
+#: 93727e9c70c048dc91940fd21e996444
+msgid "There are two types of products in the Imagery Search API available: * The **Scene** product is available for ordering by request. Now you need to contact us to order the specific image. * The **Mosaic** product is available for instant analysis if the corresponding data provider is linked to your Mapflow account."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:26
+#: c01671ba4e9e47ad90dd12225b32a57d
+msgid "Run the processing. The resulting area of analysis will be clipped by the intersection with the area of analysis."
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:None
+#: a3679c5962f740afb30c0b5ec52434c3
+msgid "Get results based on Mosaic analysis"
+msgstr ""
+
+#: ../userguides/search_mosaic.rst:35
+#: b9e63609a9754695806607367c68abce
+msgid "To run the processing over the whole area of analysis – just clear the selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data Source: 🌏 ArcGIS World Imagery**."
+msgstr ""

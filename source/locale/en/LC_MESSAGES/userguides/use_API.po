@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/use_API.rst:2 d4cdcc9e00c3486eb9952571d122abe3
+msgid "Mapflow API guides"
+msgstr ""
+
+#: ../userguides/use_API.rst:5 2c81a2b8bef74ef0b88ce4496794864b
+msgid "How to run bulk processing using Mapflow API"
+msgstr ""
+
+#: ../userguides/use_API.rst:7 786b13fd9ffd4226961c319102a80bd0
+msgid ""
+"In case you have multiple polygons to process or update, it can be boring"
+" to upload them one by one using Web or GIS user tools. In this case, "
+"you'd better think of using Mapflow :ref:`Processing API`. In this "
+"example let's assume we have a list of polygons indicating the populated "
+"places borders and we want to extract features like \"buildings\" with "
+"Mapflow processing API."
+msgstr ""
+
+#: ../userguides/use_API.rst:10 ceec4f9eb3b247df951abb459eeb7bef
+msgid ""
+"1. To make it more realistic let's download some populated places borders"
+" for the sample area in Uzbekistan using Openstreetmap. To do this we can"
+" make a query with Overpass Turbo API like this: We can use QuickOSM "
+"plugin in QGIS which is very friendly when it comes to downloading a "
+"managable volume of data from Openstreetmap."
+msgstr ""
+
+#: b7bd0f57380e4d34a4589ee784ba074d
+msgid "quickosmm"
+msgstr ""
+
+#: ../userguides/use_API.rst:22 83b4382066f84174b5924b5bbdf34212
+msgid "Authorization with Mapflow token"
+msgstr ""
+
+#: ../userguides/use_API.rst:24 88c0695cd1c14cf49e7b7b54c3d1295a
+msgid "Let's use Mapflow token for further authorization."
+msgstr ""
+
+#: ../userguides/use_API.rst:35 532abbe02e744b6dba1ff0d2595b458a
+msgid ""
+"Now you get your token decoded as a username and a password and use it "
+"for the authorization with the requests."
+msgstr ""
+
+#: ../userguides/use_API.rst:38 11e1297d00b6471d9d27a413af37785b
+msgid "Create the project (it's optional)"
+msgstr ""
+
+#: ../userguides/use_API.rst:41 7d238ab83505492882a7eb60d4eabd16
+msgid ""
+"It might be useful to organise your processing with the **projects**. To "
+"do this create the new project with the following API method."
+msgstr ""
+
+#: ../userguides/use_API.rst:65 bb3f203972854c35a91f7932ceb779b2
+msgid ""
+"Here we get the response containing the project ID, that we can use to "
+"create the processings in this specific project."
+msgstr ""
+
+#: ../userguides/use_API.rst:67 ../userguides/use_API.rst:165
+#: 332d243c8ac342979173123b4bbf9692 35dc7196d4884ebcb32e4d6015360c1d
+msgid "Response example:"
+msgstr ""
+
+#: ../userguides/use_API.rst:77 df2122e613494dad96f8703e87da8212
+msgid "See more in :ref:`Projects - API`"
+msgstr ""
+
+#: ../userguides/use_API.rst:80 065468f5943c4a44aa5e01769b8b7448
+msgid "Prepare AOIs for the processings"
+msgstr ""
+
+#: ../userguides/use_API.rst:82 9b345d1413d64e7bb08490e8b635edc5
+msgid ""
+"Let's save areas of interest with the properties as a GeoJSON file as "
+"it's simple and straightforward format to be used in any application or "
+"GIS software. Then we open this file and create a python dictionary to "
+"loop through all GeoJSON features that we are going to use as AOI "
+"geometries for creating the processing. Like this:"
+msgstr ""
+
+#: ../userguides/use_API.rst:94 a91ed2a0da724b0eb96dd29276fcd99a
+msgid ""
+"Let's check if we created the data array from our file and display all "
+"the features by their names. At the next step, we will use the ``name`` "
+"property to define the processing. The \"name\" is optional yet it's more"
+" convenient to work with the results afterwards."
+msgstr ""
+
+#: ../userguides/use_API.rst:97 52f5a39d3b6f4a3abb28ffa1bb5a4e2a
+msgid "Run the Processings"
+msgstr ""
+
+#: ../userguides/use_API.rst:99 dd0bdcd7ce044ca79de5514a42895b95
+msgid "Now we are ready to create the processing for each AOI using its geometry."
+msgstr ""
+
+#: ../userguides/use_API.rst:123 3320a9a815a3436c85a183804d8772c9
+msgid ""
+"If everything was done correctly - the list of successfully created "
+"processing will be displayed."
+msgstr ""
+
+#: ../userguides/use_API.rst:127 c06133e4158641289631a326f42777cf
+msgid "Download all the results using Mapflow API"
+msgstr ""
+
+#: ../userguides/use_API.rst:129 1b3364a87ca94a268bc726a5bacaac44
+msgid ""
+"When all processings are complete you can download easily the results for"
+" each one."
+msgstr ""
+
+#: ../userguides/use_API.rst:131 b2566820d16e4a7190bce89cc7d326b0
+msgid ""
+"If you have one processing with the multiple AOIs *(by default the number"
+" of AOIs in one processing is limited to 10)* you can run a single API "
+"call to download the results:"
+msgstr ""
+
+#: ../userguides/use_API.rst:138 c4d7fe24fdae4426934ea0200ba99bdb
+msgid ""
+"In case of the multiple processings, you might find it useful to run the "
+"small script."
+msgstr ""
+
+#: ../userguides/use_API.rst:140 47e5170c432a4473bb156fb1a4f7314a
+msgid "Get the list of all \"ids\" and \"names\" by processing:"
+msgstr ""
+
+#: ../userguides/use_API.rst:180 8edceb7dfc014e03b4f1f874e5395c9a
+msgid "Save results for all the listed processings:"
+msgstr ""
+

@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../api/data_api.rst:4
+#: 2c12540174a446c7b2ec5875f6b621e9
+msgid "Mapflow Data API"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 5f46bfa9d0d6423ebd3a857e84d2321d
+msgid "Preview results"
+msgstr ""
+
+#: ../api/data_api.rst:12
+#: 37f84fe24c3e4bf4a0c1c1c61f07aa91
+msgid "Check and run this `Postman collection for API <https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_."
+msgstr ""
+
+#: ../api/data_api.rst:15
+#: d854c3103b9e475cb08f4fafc082660b
+msgid "Data API allows to manage your imagery, organise it into collections (mosaics), reuse for processings with Mapflow and preview them as XYZ layers. 👉 To use the imagery processing API see :doc:`this documentation <processing_api>`"
+msgstr ""
+
+#: ../api/data_api.rst:20
+#: 04a1c869528f49e29810e0018c356d86
+msgid "Manage Imagery Mosaics"
+msgstr ""
+
+#: ../api/data_api.rst:23
+#: 5b3cd7e5cd744052b3841cbb2f7790c2
+msgid "What is \"mosaic\"? This is the collection of images, aimed at instant preview and processing. It's helpful in such cases as collecting and mosaicing the number of single aerial images covering some area or batching the large orthomap for faster uploading and optimizing its storage in the cloud."
+msgstr ""
+
+#: ../api/data_api.rst:27
+#: 1636c3f3e646427ab10fd88690df4d0c
+msgid "Create mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:29
+#: dfaec1569b8748b58121a996c00acf5d
+msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic``"
+msgstr ""
+
+#: ../api/data_api.rst:31
+#: 4f7e75e636e34119a6ee8dfa4872c162
+msgid "Creates the mosaic (the empty collection of images) and returns its ID."
+msgstr ""
+
+#: ../api/data_api.rst:47
+#: 96686310599c4cd2a48382c801942350
+msgid "Create mosaic and upload images to mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:58
+#: cb1e548d0018435daa7e60594fa3c47c
+msgid "Get mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:60
+#: 6367de6dcba847ad9893148d2bd310aa
+msgid "``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/data_api.rst:64
+#: 7c75d5631e0a4bd3a4807d04ef570f9d
+msgid "Update mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:80
+#: 36fb4a85379c4bf6a0a0ac5857580ea0
+msgid "Upload images to the existing mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:83
+#: e18f744fb32b46a792f6dccbdbb2f243
+msgid "⚠️ The uploaded images are required to have the same georeference system, number of bands, and spatial resolution."
+msgstr ""
+
+#: ../api/data_api.rst:85
+#: cd6ef0c4044c41fba04bf57dfe38f779
+msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/image``"
+msgstr ""
+
+#: ../api/data_api.rst:89
+#: f3e3f8f5722146de8a1a1b77001b82eb
+msgid "Link image to the existing mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:91
+#: eff298d3072e491d8033a09eb0c9c123
+msgid "``POST https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/link-image``"
+msgstr ""
+
+#: ../api/data_api.rst:102
+#: ../api/data_api.rst:117
+#: ../api/data_api.rst:189
+#: a6accdf060eb475aa569951f3d794618
+#: 5e69252feef849a586ecb11edb434985
+#: ddee452d651b4a0d85b78ae37bdf86c7
+msgid "Response example:"
+msgstr ""
+
+#: ../api/data_api.rst:113
+#: f2d55288064a4e90b751fd6a47d8b9f3
+msgid "Get images by mosaic ID"
+msgstr ""
+
+#: ../api/data_api.rst:115
+#: 165170acb1454158882f2ee88a01f45d
+msgid "``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}\\image``"
+msgstr ""
+
+#: ../api/data_api.rst:154
+#: dba3dc86b3fb4d1e96ea39e3a75c9f34
+msgid "Delete mosaic"
+msgstr ""
+
+#: ../api/data_api.rst:157
+#: abaaa343952f4ac6a3f140a787fe621f
+msgid "Deleting mosaic also deletes all linked images and they cannot be restored"
+msgstr ""
+
+#: ../api/data_api.rst:160
+#: db918b4f085e4247a8b32e021e6bf42c
+msgid "``DELETE https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/data_api.rst:164
+#: 38edd39771654b7ab57ba3a878093301
+msgid "Manage Images"
+msgstr ""
+
+#: ../api/data_api.rst:167
+#: 038e94853188407b9513126fbefd91e9
+msgid "Get image metadata by image ID"
+msgstr ""
+
+#: ../api/data_api.rst:169
+#: 23c1aecfe3f240d89f89323eb08ef676
+msgid "``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``"
+msgstr ""
+
+#: ../api/data_api.rst:172
+#: f8092a53418948cfaa8ec882b0e0d0c8
+msgid "Delete image"
+msgstr ""
+
+#: ../api/data_api.rst:174
+#: 7b11eb26529f4c96b7b36ba5808dce6b
+msgid "``DELETE https://api.mapflow.ai/rest/rasters/image/{image_id}``"
+msgstr ""
+
+#: ../api/data_api.rst:177
+#: e6116d7e22bd4808ab92605f4f769ab6
+msgid "Get image preview"
+msgstr ""
+
+#: ../api/data_api.rst:179
+#: 3dd8312ab4dd4af08e9af27c07432d4f
+msgid "``GET https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``"
+msgstr ""
+
+#: ../api/data_api.rst:181
+#: 8053179add434848b4fe7b02f7376486
+msgid "E.g.:"
+msgstr ""
+
+#: ../api/data_api.rst:None
+#: 036b08cd233a4e62a4acef669a99b25e
+msgid "Image preview"
+msgstr ""
+
+#: ../api/data_api.rst:200
+#: f0962ab64d844a7b809dc91282fe6ebb
+msgid "PREVIEW TYPE"
+msgstr ""
+
+#: ../api/data_api.rst:201
+#: a13d6c1803e04d4da1f78f87c694f2e9
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../api/data_api.rst:202
+#: 0859bad73cd14221b443e6c6c90d15a3
+msgid "s"
+msgstr ""
+
+#: ../api/data_api.rst:203
+#: b6aa6ace2a40497d8621ff9536f34327
+msgid "image 256x256"
+msgstr ""
+
+#: ../api/data_api.rst:204
+#: f963b13730c5476c9d137eb6ae4e95d7
+msgid "l"
+msgstr ""
+
+#: ../api/data_api.rst:205
+#: 80a1ecc6c46d4e6a884ed66109ae5ac3
+msgid "image 1024x1024"
+msgstr ""
+
+#: ../api/data_api.rst:209
+#: 2e4ee3c8e52444a186ecdef486271716
+msgid "Mapflow Storage"
+msgstr ""
+
+#: ../api/data_api.rst:212
+#: 640c4f0bc6d64707b67ca0221b4859a2
+msgid "Get user's storage limits"
+msgstr ""
+
+#: ../api/data_api.rst:214
+#: 1fe6293c8cde42b5af1077706c2fba7d
+msgid "``GET https://api.mapflow.ai/rest/rasters/memory``"
+msgstr ""
+
+#: ../api/data_api.rst:216
+#: cd8e28c568ef4e1e84bd6102f74e2198
+msgid "This method allows to check user's storage usage against the available limit."
+msgstr ""
+
+#: ../api/data_api.rst:221
+#: fe989206eacd4cb1af8e0ee11502ee7a
+msgid "🔍 Search Imagery"
+msgstr ""
+
+#: ../api/data_api.rst:224
+#: b877c60709984b758d048903229d2131
+msgid "This is an early version of the Mapflow unified API to search for available satellite images provided by external data providers. The API aims to perform as a middle-tear between multiple imagery source and a :doc:`Mapflow Processing API <processing_api>`. The API returns the search results for the imagery providers linked to the specific Mapflow user. If no provider is linked to the user it returns all providers results available. But to run the processing the user needs to get the provider linked to his account."
+msgstr ""
+
+#: ../api/data_api.rst:230
+#: 2527f7f071d94079811856dbdb221c21
+msgid "Get metadata of available images"
+msgstr ""
+
+#: ../api/data_api.rst:232
+#: a2d9096f879f441a80b662824b03634d
+msgid "``POST https://api.mapflow.ai/catalog/meta``"
+msgstr ""
+
+#: ../api/data_api.rst:235
+#: 819375727db54acab37a2326d292486d
+msgid "Returns a list of the available images, filtered by metadata keys."
+msgstr ""
+
+#: ../api/data_api.rst:237
+#: 5d82e46e311549db92c5db311aa8d68a
+msgid "E.g. request:"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 4236e03c65494cd88e537a0418f952dd
+msgid "``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon of the area of the search"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 46efb7a2afff4ffdb6f1d4df6fd47dac
+msgid "``acquisitionDateFrom``: UTC time string"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: f8d03154a02c48fabd2a785c99b086a3
+msgid "``acquisitionDateTo``: UTC time string"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 5427bc9be695444da41c963891c1c4f8
+msgid "``minResolution``: float, in meters"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: f8828889d43e4cc0b483723a17da2bd6
+msgid "``maxResolution``: float, in meters"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 286140318fed44de8ffa710d9b9dd4e6
+msgid "``maxCloudCover``: float, in percents"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 4c4dc54b80844657b0987eb697440dda
+msgid "``minOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 3177cc1b07094abfbe6e2d6a2255e665
+msgid "``maxOffNadirAngle``: float, in degrees"
+msgstr ""
+
+#: ../api/data_api.rst:0
+#: 8bb49254a44b4e50969c628850d8b6cd
+msgid "``minAoiIntersectionPercent``: float, in percents – minimum intersection of the image footprint with the aoi"
+msgstr ""
+
+#: ../api/data_api.rst:269
+#: d68bbe22576b49f5aefdf8ec2f2f18d1
+msgid "The size of the search area cannot exceed the size of AOI limit assigned to the specific user."
+msgstr ""
+
+#: ../api/data_api.rst:271
+#: 826eda94eb304630aededf264da95b75
+msgid "Response example – *Scene*:"
+msgstr ""
+
+#: ../api/data_api.rst:None
+#: ffb650876cf54b4eb74379740d214ab1
+msgid "Preview image"
+msgstr ""
+
+#: ../api/data_api.rst:309
+#: 5294a86de4044136981cc28631f4b577
+msgid "Response example – *Mosaic*:"
+msgstr ""
+
+#: ../api/data_api.rst:343
+#: 508bcf0c06f5482c8ed11306ecd93c05
+msgid "There are two types of products in the Imagery Search API available: 1. The **Scene** product is available for ordering by request.  Now you need to contact us to order the specific image. 2. The **Mosaic** product is available for instant analysis if the corresponding data provider is linked to your Mapflow account."
+msgstr ""
+
+#: ../api/data_api.rst:349
+#: ab31b21109a04a01a8fc339f924d5efb
+msgid "Run processing by image ID"
+msgstr ""
+
+#: ../api/data_api.rst:351
+#: 91dd6c90b9e84cdb8ca7701f2b7ebebb
+msgid "For detailed description how to run a processing with Mapflow API see :doc:`Mapflow Processing API <processing_api>` – \"Create processing\". To run a processing using the specific image returned by Search API define **provider** and **image ID** in the params as follows:"
+msgstr ""
+
+#: ../api/data_api.rst:354
+#: 53644c3928e4444ab18c7dfe782625e7
+msgid "``{\"params\": {\"data_provider\":<providerName>, \"url\":<id>}}``"
+msgstr ""

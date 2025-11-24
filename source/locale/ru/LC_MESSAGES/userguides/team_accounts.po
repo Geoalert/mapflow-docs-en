@@ -8,108 +8,154 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-21 21:59+0700\n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
 "PO-Revision-Date: 2024-10-22 00:35+0700\n"
 "Last-Translator: \n"
-"Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Generated-By: Babel 2.13.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/team_accounts.rst:5
+#: ../userguides/team_accounts.rst:5 9b8916bc2aa945ea9b57605dff48d7a8
 msgid "Team accounts"
 msgstr "Командные аккаунты"
 
-#: ../../source/userguides/team_accounts.rst:7
+#: ../userguides/team_accounts.rst:7 8f9e7fcf608d4d7b96c9de5031e45255
 msgid ""
-"Users can run a Team account to invite collaborators, share projects and "
-"manage Mapflow limits. Currently, you need to reach out to us to create "
-"a Team while we are working on a public UI. Contact us by help@geoalert."
-"io using your corporate email linked to Mapflow account. Once the Team "
-"is created the Owner can invite new members, and assign and manage their "
-"limits. Only the Owner gets access to the Team profile."
-msgstr ""
-"Пользователи могут создать командную учетную запись, чтобы приглашать "
-"сотрудников, делиться проектами и управлять лимитами Mapflow. В "
-"настоящее время вам необходимо связаться с нами, чтобы создать команду, "
-"пока мы работаем над общедоступным пользовательским интерфейсом. "
-"Свяжитесь с нами по адресу help@geoalert.io используя свой корпоративный "
-"адрес электронной почты, привязанный к учетной записи Mapflow. Как "
-"только Команда создана, Владелец может приглашать новых участников, "
-"назначать лимиты и управлять ими. Только Владелец получает доступ к "
-"профилю Команды."
-
-#: ../../source/userguides/team_accounts.rst:-1
-msgid "Preview map"
+"Users can switch to a Team account to invite collaborators, share "
+"projects and manage credit limits."
 msgstr ""
 
-#: ../../source/userguides/team_accounts.rst:18
+#: ../userguides/team_accounts.rst:9 3ce55f0d2d594419b32ac402c88c8684
 msgid ""
-"The Team creation is currently not enabled for all users – so contact "
-"our support to set up a Team."
+"Once the Team is created, the creator (Team Admin) can invite new members"
+" and assign their limits. The Team profile is accessible only to the Team"
+" Admin."
 msgstr ""
-"В настоящее время функция создания Команды доступна не для всех "
-"пользователей, поэтому для создания команды обратитесь в нашу службу "
-"поддержки."
 
-#: ../../source/userguides/team_accounts.rst:19
+#: ../userguides/team_accounts.rst:12 a6c9717ceab14007be7afd63dd55d7fe
 msgid ""
-"If the Team member's email is already registered as a Mapflow account, "
-"reach out to Support (help@geoalert.io) to ask to link the account."
+"We highly encourage you to switch to the Team account if you are looking "
+"forward to working with other coworkers and managing multiple projects. "
+"Feel free to contact our support, so we can assist you in setting up a "
+"Team workflow."
 msgstr ""
-"Если адрес электронной почты члена команды уже зарегистрирован в "
-"аккаунта Mapflow, обратитесь в службу поддержки (help@geoalert.io) и "
-"попросите привязать учетную запись."
 
-#: ../../source/userguides/team_accounts.rst:23
+#: ../userguides/team_accounts.rst:16 936165d5fa104d28a63f2f10235ca6ec
+msgid "Create a new Team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:18 33d397071a3144bb9766c9d94d4e1546
+msgid ""
+"To create a new Team enter the name and start inviting new members by "
+"their email."
+msgstr ""
+
+#: 48cd820bdca049909a1923dd47a17859 b64e827d03be43ae8d6e9cd5897cb182
+msgid "create a team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:28 5b7333d61f48434483f9ebf6e1918e70
+msgid "Inviting new team members"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:30 13fc36a821c34ec4af4d191315c7e096
+msgid ""
+"Switch to the tab **Invitations**. Enter user email associated with his "
+"Mapflow account. If user is not registered at Mapflow, he will get an "
+"invitation by email and will be able to join the Team following the "
+"registration."
+msgstr ""
+
+#: 64805a262c7c4f44a7f069915e4c1aa4
+msgid "Invite users to team"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:41 87165ee91400495c8dbbf798fe89fd4e
+msgid ""
+"As a Team admin, you will see all the invitations sent and may revoke "
+"them. As a Team member, you will see only your invitations to the Team."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:45 fc7d9f63a0ae4e84bcb142be58b278d3
+msgid "Managing Team balance"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:47 bc237bdf0bce4122b443f99a67ebeb0b
+msgid ""
+"As soon as one creates a Team, his credit balance becomes the Team "
+"balance and is available for assignment to Team members, including the "
+"Team Admin himself. This means the Admin has to assign and manage all the"
+" limits, including himself, within the remaining balance."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:61 5a36fb1e8a064de48032f48cdd5a7d4a
+msgid "1. Team balance 2. Personal balance 3. Team user assigned balance"
+msgstr ""
+
+#: ../userguides/team_accounts.rst:63 074052e21cdb4f9ba58f5141fd09742c
+msgid ""
+"If your Team account is switched to area-based billing, the only "
+"difference is that the balance is assigned in sq. km."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:67 b27eafa0991d4b278b522754b802b385
 msgid "Project sharing in the Team"
 msgstr "Предоставление доступа к проекту в Команде"
 
-#: ../../source/userguides/team_accounts.rst:25
+#: ../userguides/team_accounts.rst:69 f1f8dc515cd14695834a9b6f310501c3
 msgid ""
-"You can share your project with anyone in the Team and assign his role "
-"as needed. Go to *Project --  Share* and invite your specific coworkers "
-"or / and activate the option \"Anyone in the team\"."
+"You can share your project with anyone in the Team and assign his role as"
+" needed. Go to the `Projects <https://app.mapflow.ai/en/projects>`_. "
+"Click on a dot menu icon in a project card -- Share."
 msgstr ""
-"Вы можете поделиться своим проектом с любым членом команды и назначить "
-"ему роль по мере необходимости. Пройдите в *Проект -- Поделиться* и "
-"пригласите своих конкретных коллег или / и активируйте опцию \"Для всех "
-"в команде\"."
 
-#: ../../source/userguides/team_accounts.rst:-1
+#: 552a99022642454596b16478ae66f4a6 e6edc7bbd9c140bd859189e54e6b5d59
 msgid "Share project"
 msgstr ""
 
-#: ../../source/userguides/team_accounts.rst:34
-msgid "There are four types of the project user's role:"
+#: ../userguides/team_accounts.rst:79 dfde578fcf4e4e5bad617a0c11da6689
+msgid ""
+"Select your coworkers or toggle \"Anyone in the team\" if you want to "
+"share with all of them."
+msgstr ""
+
+#: ../userguides/team_accounts.rst:87 d50631b8f0214fdbad1523587850793d
+#, fuzzy
+msgid ""
+"There are four types of the project user's role that can be assigned to "
+"your coworkers:"
 msgstr "Существует четыре типа роли пользователя проекта:"
 
-#: ../../source/userguides/team_accounts.rst:36
-msgid "readonly - can view the project history and the results"
+#: ../userguides/team_accounts.rst:89 7652b357a4ea46e2ba9f489ff05ecf41
+#, fuzzy
+msgid "**readonly** - can view the project history and the results"
 msgstr "readonly - может просматривать историю проекта и результаты"
 
-#: ../../source/userguides/team_accounts.rst:37
-msgid "contributor – can run the workflows in the project"
+#: ../userguides/team_accounts.rst:90 6c2f27acf5994eabab7f252b2c5383b4
+#, fuzzy
+msgid "**contributor** – can run the workflows in the project"
 msgstr "contributor – может запускать обработки в проектах"
 
-#: ../../source/userguides/team_accounts.rst:38
+#: ../userguides/team_accounts.rst:91 db4550eb101d442181a134cfb09fdb2d
+#, fuzzy
 msgid ""
-"maintainer – can run and edit the workflows, and share projects with "
+"**maintainer** – can run and edit the workflows, and share projects with "
 "users (up to maintainer role)"
 msgstr ""
 "maintainer – может запускать и редактировать обработки, а также делиться "
 "проектом с пользователями (вплоть до роли maintainer)"
 
-#: ../../source/userguides/team_accounts.rst:39
-msgid "owner – full rights to edit all roles in the project"
+#: ../userguides/team_accounts.rst:92 8bc4c707799943ef9154949a6d2180d6
+#, fuzzy
+msgid "**owner** – full rights to edit all roles in the project"
 msgstr "owner - полный контроль над проектами"
 
-#: ../../source/userguides/team_accounts.rst:41
+#: ../userguides/team_accounts.rst:94 e3eca4be191f4cc9ad8ce9f97fbda77a
 msgid ""
 "Your collaborators will see the new shared projects in their dashboard "
 "and use them according to the role assigned."
@@ -118,11 +164,97 @@ msgstr ""
 "панели мониторинга и будут использовать их в соответствии с назначенной "
 "ролью."
 
-#: ../../source/userguides/team_accounts.rst:44
+#: ../userguides/team_accounts.rst:97 cc230419b45c4efd856f7c53202db87f
 msgid ""
-"You can share your project with the non-team users for the view-only "
-"access. Go to the Project -- Share and enter the Mapflow user's email."
+"You can also share your project with any users outside your team for the "
+"view-only access. Go to the Project -- Share and enter the existing "
+"Mapflow user's email. If the new user is not registered at Mapflow.ai, "
+"invite him to register first."
 msgstr ""
-"Вы можете предоставить доступ к своему проекту пользователям, не "
-"входящим в команду, но только для просмотра. Перейдите в раздел Проект - "
-"Поделиться и введите адрес электронной почты пользователя Mapflow."
+
+#~ msgid ""
+#~ "Users can run a Team account to"
+#~ " invite collaborators, share projects and"
+#~ " manage Mapflow limits. Currently, you "
+#~ "need to reach out to us to "
+#~ "create a Team while we are working"
+#~ " on a public UI. Contact us by"
+#~ " help@geoalert.io using your corporate "
+#~ "email linked to Mapflow account. Once"
+#~ " the Team is created the Owner "
+#~ "can invite new members, and assign "
+#~ "and manage their limits. Only the "
+#~ "Owner gets access to the Team "
+#~ "profile."
+#~ msgstr ""
+#~ "Пользователи могут создать командную учетную"
+#~ " запись, чтобы приглашать сотрудников, "
+#~ "делиться проектами и управлять лимитами "
+#~ "Mapflow. В настоящее время вам "
+#~ "необходимо связаться с нами, чтобы "
+#~ "создать команду, пока мы работаем над"
+#~ " общедоступным пользовательским интерфейсом. "
+#~ "Свяжитесь с нами по адресу "
+#~ "help@geoalert.io используя свой корпоративный "
+#~ "адрес электронной почты, привязанный к "
+#~ "учетной записи Mapflow. Как только "
+#~ "Команда создана, Владелец может приглашать "
+#~ "новых участников, назначать лимиты и "
+#~ "управлять ими. Только Владелец получает "
+#~ "доступ к профилю Команды."
+
+#~ msgid "Preview map"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Team creation is currently not "
+#~ "enabled for all users – so contact"
+#~ " our support to set up a Team."
+#~ msgstr ""
+#~ "В настоящее время функция создания "
+#~ "Команды доступна не для всех "
+#~ "пользователей, поэтому для создания команды"
+#~ " обратитесь в нашу службу поддержки."
+
+#~ msgid ""
+#~ "If the Team member's email is "
+#~ "already registered as a Mapflow account,"
+#~ " reach out to Support (help@geoalert.io)"
+#~ " to ask to link the account."
+#~ msgstr ""
+#~ "Если адрес электронной почты члена "
+#~ "команды уже зарегистрирован в аккаунта "
+#~ "Mapflow, обратитесь в службу поддержки "
+#~ "(help@geoalert.io) и попросите привязать "
+#~ "учетную запись."
+
+#~ msgid ""
+#~ "You can share your project with "
+#~ "anyone in the Team and assign his"
+#~ " role as needed. Go to *Project "
+#~ "--  Share* and invite your specific "
+#~ "coworkers or / and activate the "
+#~ "option \"Anyone in the team\"."
+#~ msgstr ""
+#~ "Вы можете поделиться своим проектом с"
+#~ " любым членом команды и назначить ему"
+#~ " роль по мере необходимости. Пройдите "
+#~ "в *Проект -- Поделиться* и пригласите"
+#~ " своих конкретных коллег или / и "
+#~ "активируйте опцию \"Для всех в "
+#~ "команде\"."
+
+#~ msgid ""
+#~ "You can share your project with "
+#~ "the non-team users for the "
+#~ "view-only access. Go to the Project"
+#~ " -- Share and enter the Mapflow "
+#~ "user's email."
+#~ msgstr ""
+#~ "Вы можете предоставить доступ к своему"
+#~ " проекту пользователям, не входящим в "
+#~ "команду, но только для просмотра. "
+#~ "Перейдите в раздел Проект - Поделиться"
+#~ " и введите адрес электронной почты "
+#~ "пользователя Mapflow."
+

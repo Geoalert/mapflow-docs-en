@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/solars_model.rst:2 17cfb2853d2242b488abc322e685e95b
+msgid "|:sunny:| Solar panels (CUSTOM)"
+msgstr ""
+
+#: ../userguides/solars_model.rst:5 b62da0b1c2904a49930b3a59057d527f
+msgid "This model is available by request."
+msgstr ""
+
+#: ../userguides/solars_model.rst:7 bf6b55f73e8c418780cf54fb029c37f3
+msgid ""
+"Solar panels is a model trained for detecton of Photovoltaic elements "
+"using aerial imagery (working zoom levels 19-21). It's capable of "
+"detection PV elements both on the rooftops and on the ground. The testing"
+" benchmark score is ``F1 > 0.87``."
+msgstr ""
+
+#: ../userguides/solars_model.rst:14 fb5c4af210a04626aff481e8034fb815
+msgid "Model name"
+msgstr ""
+
+#: ../userguides/solars_model.rst:15 01b066ba5d6d4eb0b8f70df2caa8f54b
+msgid "Model type"
+msgstr ""
+
+#: ../userguides/solars_model.rst:16 66231bb651344a4ab7ad58cfa7613139
+msgid "Zoom level"
+msgstr ""
+
+#: ../userguides/solars_model.rst:17 415c29f671654b70a641728dd85f9fda
+msgid "F1 (testing)"
+msgstr ""
+
+#: ../userguides/solars_model.rst:18 abfcf8483f7b40d49d5201a1b87fa86d
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/solars_model.rst:19 59ae86fb5ccb4a02a03d1d926cce59b9
+msgid "Solar panels"
+msgstr ""
+
+#: ../userguides/solars_model.rst:20 fbe965acf3524b2e88f0ea26ed97eb9d
+msgid "Detector + segmentator"
+msgstr ""
+
+#: ../userguides/solars_model.rst:21 933896804b2c415d9206970c0c4ba5c9
+msgid "zoom 19-21"
+msgstr ""
+
+#: ../userguides/solars_model.rst:22 f261f0b976ea4ef694f52dc8cba1991d
+msgid "pixelwise > 0.77"
+msgstr ""
+
+#: ../userguides/solars_model.rst:23 fdc97b98bce944e280bfe4ef8325a10d
+msgid "Global"
+msgstr ""
+
+#: 450ca36acfe34840b250ff7e06d1f347
+msgid "Processing result of solars model"
+msgstr ""
+

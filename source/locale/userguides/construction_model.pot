@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/construction_model.rst:2
+#: 09224f89b3e94f21afb8932830d53179
+msgid "🏗️ Constructions"
+msgstr ""
+
+#: ../userguides/construction_model.rst:4
+#: a8196ae0a39c4d77832953be94beac9d
+msgid "This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limited to some countries and the work of extending it is in progress."
+msgstr ""
+
+#: ../userguides/construction_model.rst:13
+#: 984d57d812af43f986df97872d32c754
+msgid "Processing result of construction model"
+msgstr ""
+
+#: ../userguides/construction_model.rst:13
+#: f9a1c355f4944bc2a31c5047e39269f7
+msgid "Processing result sample for a rapidly developing area with construction sites"
+msgstr ""

@@ -1,0 +1,369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2023, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/imagery_search.rst:4 49cce1518ede4aa3a54f7e1c7d214361
+msgid "Imagery search"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:6 0983997bc3b04d5f9f7858bb104c092a
+msgid ""
+"\"Imagery search\" allows Mapflow users to search for available satellite"
+" imagery over their area of analysis. It's powered by Mapflow API "
+"providing access to the global satellite data providers through our "
+"partners. ❗️ You need to subscribe to `Mapflow Premium "
+"<https://mapflow.ai/pricing>`_ to be able to order commercial data "
+"providers and run the model."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:11 8861429596a146ed97b70e74ff450775
+msgid "Imagery providers available for the search and ordering:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:11 60c6f5dfed2747189600ef64c9823663
+msgid ""
+"Historical imagery (aggregates and provides satellite imagery from the "
+"leading satellite operators)"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:15 c8a40e484a0049c0b5f02705d7ec1009
+msgid "Imagery providers supported for the account-based integration and search:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:14 79e423856b884d1fafe3febad011501f
+msgid "ArcGIS Worldview"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:15 4065ce62b21d4af388a5440c1a0a8fc6
+msgid ":ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:18 d83667ae85e34914b0493cc0287038ee
+msgid "Read more about how to use :ref:`Imagery providers` with Mapflow."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:22 cd09332605104eb885759e3e2e6c1d0e
+msgid "Using Imagery Search in Mapflow WEB"
+msgstr ""
+
+#: 1cc3adc58d954648813be848832c0b49
+msgid "Imagery search tab"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:32 9c7188f24b124916a0c5043365ffa4ba
+msgid "To start the processing using the Imagery Search data, you must:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:34 af077e025d484a44b2836fb1126096ed
+msgid "Select a date range or a specific date;"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:35 0922756008f0466a9ac0d0831ad37f4f
+msgid "Set the search parameters (Clouds, Off-Nadir, AOI/Scene intersection);"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:36 bf4e46f8a45f420a9465269aa5d7cce8
+msgid "Apply provider filters:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:38 a03914820a0143e09630af2529d492ed
+msgid "\"Mosaic\""
+msgstr ""
+
+#: ../userguides/imagery_search.rst:39 ba4518358b73466c8ff1c525ce15b402
+msgid "\"Image\""
+msgstr ""
+
+#: ../userguides/imagery_search.rst:40 3e8ccf57ae094c2d869c2c7b5b128b70
+msgid ""
+"\"Available for me\" - The search results will show only those providers "
+"that are connected to your account."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:42 6571c46f48d6455ca247aa5b2df1fe8d
+msgid "Imagery provider types:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:44 a7347f60b64d4013a7afcacec8961652
+msgid ""
+"*Mosaic* - Imagery basemaps like ArcGIS or Global mosaic allowing to "
+"search images by date and AOI/Scene intersection."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:46 c19ae42e753644bd9ab45210cabda8a3
+msgid ""
+"*Image* - Satellite imagery archives allowing to search for historical "
+"images by multiple criteria including Clouds, Off-Nadir, and resolution."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:48 876e796994c64130b3b84b3f15370990
+msgid ""
+"👉 *Available for me*  - Filters the results by the providers that are "
+"connected to your account to run the analysis with Mapflow."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:50 1b327a499ac94e5aaa5d22f85445406e
+msgid ""
+"After clicking \"Search Image\", a table with search results and images "
+"footprints will appear:"
+msgstr ""
+
+#: a907ebcf60ed4d2094cdf7432de4960f
+msgid "Imagery search results"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:60 8fe38c714ed04513860abaae3645e886
+msgid ""
+"You can sort, enable or disable images on the map, and preview them if "
+"the provider supports this feature (The preview will be automatically "
+"shown on the map after selecting the image in the table);"
+msgstr ""
+
+#: 96f8f1d313c84daaa20884eca2187c8a
+msgid "Search table"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:70 9ab810f22b6f4e4495c0bb516c068a4e
+msgid ""
+"At the final step, you need to select the desired image by clicking on it"
+" in the table and click \"Save\". Now you are ready to start processing!"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:73 d7cb5e8314d2483a92b219224f5e2347
+msgid ""
+"👆️️️️️️ You are able to start the processing only using available "
+"providers (**\"available for me\"**). If you try to use the image from "
+"the provider that is not connected to your account, you will see the "
+"corresponding warning *\"The provider is not available for your account, "
+"you need to change the plan\"*. You need to subscribe to Mapflow Premium "
+"to be able to order commercial data providers."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:79 072c271b93fd4b28852d06f0e4d62ed5
+msgid "NEW! Schedule Search updates"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:81 8fae4630c2454f60869d128ab5f35e45
+msgid ""
+"If you are not satisfied with the current search results or you want to "
+"get new images updates without repeating the search manually, this "
+"service will do the job."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:84 2c200f62969d4c94b465d7dd31492202
+msgid "How to create a scheduled search"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:86 ddacbe07c07b489a81eb046100e88efa
+msgid "Set the required search criteria and click \"Search Imagery\""
+msgstr ""
+
+#: 594f2960dbcb49f0a9569f278efa4b2d
+msgid "Search params"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:97 0ec8330ba4dd46708a077d259a9cedee
+msgid ""
+"If the total area of your search area exceeds 250 km², when you click on "
+"\"Search Imagery\" instead of an immediate search, you will be prompted "
+"to create a postponed background search."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:104 2d6d957989844230b47b633d69e7e902
+msgid ""
+"After that, the search results will appear and the \"Save as schedule\" "
+"button will be available"
+msgstr ""
+
+#: 1fef3c7d379a4d8e92ca53cef60b81c9
+msgid "Search save button"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:114 60c6aaa76e1e493aa7260e209781ed2e
+msgid ""
+"When you click on it, you will be prompted to choose the name of this "
+"search schedule"
+msgstr ""
+
+#: 21f1f34c0641410ea41865e384ea6204
+msgid "Search schedule button"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:124 bac87266ab1e4e928f134a813cd1e9c5
+msgid ""
+"After creation the search will complete after a while and the search "
+"results will be available to you using \"View on the map\" button"
+msgstr ""
+
+#: 93ff0757db354bdd82777c77e5b281b3
+msgid "Search view button"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:135 cc767a314214408a93c348bd13747a7e
+msgid "Viewing background search results"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:137 62b0f270d5974a1ba3ae5faccf7f7bb5
+#: 97e42a02fb0a419e9c7d97fa95d66657
+msgid "alert"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:142 7898a05a4beb426ab62d6b5c84189536
+msgid ""
+"Now a background search will be launched in Mapflow and you will be "
+"notified when new images arrive."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:150 5f0be6675120460fbd5643c2a5371c7e
+msgid "Search new images"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:150 c85a3b2482844b51bcfeb23eac3c4294
+msgid ""
+"The search card shows the label |alert| of the **new image** found. "
+"Clicking on an image in the results table will remove the label."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:153 b8597a4c2f274abd875d6452ef7cb6d3
+msgid ""
+"To start processing based on the found image you need to select the "
+"desired image by clicking on it in the table and clicking “Save” button."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:156 484ef1b1812642fd8f53921fbbbc5c5f
+msgid "Two key points on viewing results:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:158 4f2f968c4e4a496eae55faab523a0e89
+msgid ""
+"When opening the search, you will see **all** results found for the given"
+" area(s)"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:159 d4925f21926a4cbda03524dcd9f958c1
+msgid ""
+"If your search consists of multiple AOIs and you're interested in "
+"specific ones, you can select them in the \"Upload GeoJSON or GeoTIFF "
+"file...\" section → Now results will only be displayed for the selected "
+"AOIs"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:163 1beb9845f02545af95d3f1653c40d7de
+msgid "Main operations with Search Schedule"
+msgstr ""
+
+#: ../userguides/imagery_search.rst 008dfb267ab44ce89fed81f95eb70a3e
+#: 5fc7faf3245744a2b926a5f6560f04bb e466e702b1d54f7193fc813213a4be96
+msgid "Search menu"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:173 43291a06481b4ef186d9bf9c4e8d1161
+msgid ""
+"**Source details** - Here you can view and download the geometry of your "
+"search"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:174 2bdc901e45d74cb199a2073eb2d843d1
+msgid ""
+"**Mark all as seen** - If you have a lot of unread images, you can mark "
+"them as viewed all at once"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:175 353abfda82f24b0bbca80ebe66c103b1
+msgid ""
+"**Set Active Until** - You can change the lifetime of the background "
+"search (6 months by default at creation)"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:183 830061a8508d44f58c5f1838880e2f34
+msgid "Search Active Until"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:183 9a3c68ac71564d2087df949f9d02d247
+msgid "After expired, the Search will not be deleted, but paused"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:185 6faab810a1164168b6269888aa8fd81a
+msgid ""
+"**Pause/Resume Search** - The pause means that it will stop the "
+"background search, but you can still view its results"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:186 9d3fd05c8e2d443690593f538ac3d025
+msgid "**Delete** - Permanently deletes the search"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:189 4c4d483469c94a339afd2ca834266851
+msgid "You can also change the search criteria for the existing search:"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:191 c868f17f72c444afa817157b2673211e
+msgid ""
+"\"View on the map\" → Adjust the search parameters → \"Search Imagery\" →"
+" \"Save as schedule\". Now the background search will work according to "
+"the new parameters."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:200 b6545cce13c44fa4b04218232399a26b
+msgid ""
+"❗️ If you rename the search - it will create a new search schedule with "
+"the new name instead of updating the existing one. If you only want to "
+"rename the search, simply click on its name."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:210 9889c1b0e51844e983b4ef6103d3c6dc
+msgid "Using Mapflow Imagery Search in QGIS"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:212 8c257c760f3649c5a7a0956f47754228
+msgid ""
+"Switch to the tab \"Imagery Search\". To start the search, set the dates "
+"and the product type filters (\"Mosaic\" – Imagery basemaps like ArcGIS "
+"or Global mosaic and/or \"Images\" - Satellite imagery archives)"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:213 88378337bfa749bca7e867ac9e5a54c8
+msgid ""
+"Set additional filters like a minimum intersection with your area of "
+"analysis."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:214 3b732c8d96034cc2908445f4ecf5b8b8
+msgid ""
+"If there is non-empty response, it will add the **🔎 Imagery Search "
+"metadata** layer to your QGIS project. You can select one or multiple "
+"results in the table - or use the layer's attribute table to start the "
+"analysis and processing with Mapflow models."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:223 9ccd513e442f4fb59dd97a0ed174afbb
+msgid ""
+"In the Arcgis search results you see the zoom level at which the mosaic "
+"is available over you area. You can configure the table columns in the "
+"Settings."
+msgstr ""
+
+#: ../userguides/imagery_search.rst:233 9ce3bf51eb7f48a2a2b9a584035f0cbd
+msgid ""
+"👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery "
+"Search in Mapflow Web and QGIS plugin."
+msgstr ""
+

@@ -52,6 +52,8 @@ All prices below are given in Mapflow credits. Mapflow Web also provides a trans
    * Total processing cost is rounded up to the nearest integer number of credits
 
 
+.. _subscription-plans:
+
 Mapflow subscription plans
 -----------------------------
 
