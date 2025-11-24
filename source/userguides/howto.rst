@@ -75,7 +75,7 @@ Upload images to Mapflow Web
 
 .. warning::
 
-    *Currently, a preview of the uploaded image is not possible after loading the image, you will see only the area of its extent.*
+    *Currently, a preview of the uploaded image is not possible after loading the image, you will preview only the area of its extent.*
 
 2. Define the processing Area.
 The processing area (AOI) must be located within the area of the image extent, otherwise, the area will be cut off by the extent boundaries. The processing area size is calculated by the intersection of the image extent and the AOI.

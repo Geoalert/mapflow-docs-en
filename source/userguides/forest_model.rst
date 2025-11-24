@@ -24,8 +24,8 @@ The model is robust to region change, and performs well in most environments, in
 
 **Additional options:**
 
-* *Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes.
-* *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees.
+* *Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes
+* *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees
 
 Additionally we use models for density and height estimation, dividing the forested area into the following classes:
 

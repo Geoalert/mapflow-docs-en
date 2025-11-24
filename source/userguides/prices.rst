@@ -90,7 +90,7 @@ Default Mapflow models
   :widths: 1 1 3
 
 .. note::
-   If you want to have a custom model with another set of options, consider applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Custom model pricing depends on the complexity of the task and the total project size. To get the quotation and apply the discount, please share your project requirements.
+   If you want to have a custom model with another set of options, consider applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Pricing for custom models varies by project scope. To get the quotation and apply the discount, please share your project requirements (contact sales@geoalert.io).
 
 Data costs
 --------------
