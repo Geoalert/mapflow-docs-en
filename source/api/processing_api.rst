@@ -41,19 +41,18 @@ Response example:
               "description": "Buildings detection and mapping",
               "created": "2023-02-01T08:17:03.871690Z",
               "updated": "2023-05-11T14:24:31.456180Z",
-              "pricePerSqKm": 13.0,
               "blocks": [
                 {
                     "name": "Classification",
                     "displayName": "Classification",
                     "optional": true,
-                    "price": 3.0
+                    "price": 5.0
                 },
                 {
                     "name": "Simplification",
                     "displayName": "Polygonization",
                     "optional": true,
-                    "price": 5.0
+                    "price": 8.0
                 },
                 {
                     "name": "OSM",
@@ -151,7 +150,7 @@ Sample response:
                 "scenario": "🏠 Buildings"
             },
             {
-                "projectName": "Test new model NSPD",
+                "projectName": "Test new model",
                 "name": "test_proc2",
                 "email": "user2@geoalert.io",
                 "area": "450102",
@@ -1065,7 +1064,6 @@ Response example:
                 "description": "Default model: segmentation of forested areas with assinment of height classes; thresholds are 4 and 10 meters",
                 "created": "2023-07-26T08:14:18.739968Z",
                 "updated": "2023-08-11T04:58:40.907896Z",
-                "pricePerSqKm": 0.0,
                 "blocks": [
                     {
                         "name": "Segmentation",

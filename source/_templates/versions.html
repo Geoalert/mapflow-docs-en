@@ -10,7 +10,7 @@
           <a href="https://mapflow.ai">mapflow.ai</a>
     </span>
 
-    <div class="language-selector-bottom" style="float: right;">
+    <div class="language-selector-bottom" style="float: right; display: none;">
       <select id="language-select-bottom" onchange="changeLanguage(this.value)">
         {% for lang_name, lang_code in languages %}
           <option value="{{ lang_code }}" {% if lang_code == current_language %}selected{% endif %}>

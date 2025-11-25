@@ -121,11 +121,11 @@ Examples of quotations
 .. epigraph::
     *I want to process 3.3 sq.km of Commercial provider at 18 zoom using the Buildings model*
 
-    ``Cost = 3.3 * (5+46) = 168 credits``
+    ``Cost = 3.3 * (8+60) = 224 credits``
 
 .. epigraph::
     *I want to process 0.01 sq.km of My imagery using the Buildings model and applying the Polygonization option.*
     
     Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost will be:
 
-    ``Cost = 1 * (5+3) = 8 credits``
+    ``Cost = 1 * (8+5) = 13 credits``
