@@ -31,7 +31,7 @@ Satellite imagery
 
 **Can I choose another satellite mosaic?**
 
-    Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuosly working on adding more commercial providers.
+    Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuously working on adding more commercial providers.
 
 **Can I upload my own images for processing?**
 
@@ -85,7 +85,7 @@ User data
 
     *Mosaic* - a set of images covering a specific area. Using My Imagery you collect separate aerial images in a single mosaic to analyse with the Mapflow models.
 
-**What are the limots for my data?**
+**What are the limits for my data?**
 
     Your input data must meet the :ref:`Mapflow models requirements <Model requirements>` and the :ref:`files upload requirements <Upload requirements>`. 
 
@@ -111,4 +111,4 @@ Support and other questions
     
 **I have another question, where can I ask it?**
 
-    You can ask your question on the Mapflow website in the online chat, where we will try to answer your questions in real time. Also, you are welcome to write to us at `help@geoalert.io <mailto:help@geoalert.io>`_.
+    You can ask your question on the Mapflow website in the online chat, where we will try to answer your questions in real time. Also, you are welcome to write to our support at `help@geoalert.io <mailto:help@geoalert.io>`_.
