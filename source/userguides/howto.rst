@@ -159,6 +159,30 @@ Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/article
         :width: 15cm
         :class: with-border
 
+        Nearmap imagery preview in Mapflow Web
+
+
+.. _Naip_:
+
+Use NAIP as an imagery provider
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+    NAIP (National Agriculture Imagery Program) provides public access to aerial imagery for the US territory. The data is available as a set of tiles via TMS protocol. It's effectively public-domain data so you are free to use, redistribute, incorporate into commercial or open-source projects, or mix with other data.
+
+To use NAIP data with Mapflow Custom URL, you can use the following TMS URL template:
+
+``https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}?blankTile=false``
+
+    .. figure:: _static/processing_result/multi_naip_img.jpg
+        :align: center
+        :width: 15cm
+        :class: with-border
+        :alt: Multi-modal analysis using NAIP imagery
+
+        Multi-modal analysis using NAIP imagery
+
+
 
 How to optimize large image files
 ------------------------------------

@@ -27,7 +27,6 @@ Getting Started with Mapflow
    userguides/prices
    userguides/team_accounts
    userguides/my_imagery
-   userguides/imagery_search
 
 
 *****************

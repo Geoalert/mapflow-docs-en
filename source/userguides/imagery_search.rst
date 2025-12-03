@@ -1,13 +1,12 @@
 .. _Imagery search  main:
 
-Imagery search
-================
+🔍 Imagery search and ordering
+--------------------------------
 
 "Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
-It's powered by Mapflow API providing access to the global satellite data providers through our partners. 
-❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the model.
+It's powered by Mapflow API providing access to the global satellite data providers through our partner integrations. 
 
-Imagery providers available for the search and ordering:
+Imagery providers available for the search and (NEW!) ordering:
     * Historical imagery (aggregates and provides satellite imagery from the leading satellite operators)
 
 Imagery providers supported for the account-based integration and search:
@@ -17,9 +16,12 @@ Imagery providers supported for the account-based integration and search:
 .. seealso::
     Read more about how to use :ref:`Imagery providers` with Mapflow.
 
+.. impoertant::
+   ❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the analysis.
+
 
 Using Imagery Search in Mapflow WEB
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: _static/historical_data_tab.jpg
   :alt: Imagery search tab
@@ -76,7 +78,7 @@ Imagery provider types:
 
 
 NEW! Schedule Search updates
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
 
@@ -207,7 +209,7 @@ Main operations with Search Schedule
 
 
 Using Mapflow Imagery Search in QGIS
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Switch to the tab "Imagery Search". To start the search, set the dates and the product type filters ("Mosaic" – Imagery basemaps like ArcGIS or Global mosaic and/or "Images" - Satellite imagery archives)
 2. Set additional filters like a minimum intersection with your area of analysis.
