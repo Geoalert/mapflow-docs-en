@@ -13,7 +13,7 @@ Upload GeoTIFF requirements
 .. note::
     Please pay attention to the following:
 
-    * Images you upload are preprocessed in `Uint8` format. If your image is not of this type and you want to preview it manually bafore uploading to the Mapflow server, please use our `image preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to translate it to the appropriate format;
+    * Images you upload are preprocessed in `Uint8` format. If your image is not of this type and you want to preview it manually before uploading to the Mapflow server, please use our `image preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to translate it to the appropriate format;
     * Your image must be georeferenced in geographic or projected coordinate system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;
     * Your image is supposed to be RGB composite, RGBa and Singleband will work as well*;
     * The default limit for file size is 1 Gb for free users. If you have a bigger file – reduce its size or consider switching to the paid plan; 
@@ -96,7 +96,7 @@ and may not correspond to what you see as "pixel size" if your image's coordinat
      - 17 – 18
      - 0.3 - 2.0
    * - Agriculture fields
-     - Extraction and instance separation of agriculture fileds from high-resolution satellite imagery
+     - Extraction and instance separation of agriculture fields from high-resolution satellite imagery
      - 17
      - 1.2
      - 15-17

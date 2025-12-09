@@ -8,11 +8,11 @@ How to top up your balance
    Each user gets the free balance of **250** credits to get started with Mapflow AI.
    You can always buy more credits in your `account profile <https://app.mapflow.ai/account/balance>`_.
 
-In order to top up you balance go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
+In order to top up your balance go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
 You will be asked to pay online.
 
 .. image:: _static/topup.png
-   :alt: Top up you balance
+   :alt: Top up your balance
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
@@ -58,7 +58,7 @@ Mapflow subscription plans
 -----------------------------
 
 Currently Mapflow provides two pricing models: pay-as-you-go and subscription plans. Currently the only plan **"Mapflow Premium"** is available. 
-It includes a monthly subscription fee and a package of credits. The subscription fee is charged monthly, the credits are valid for 12 months. It enables some premium options like custom area size, use of the any custom model that you have access to, priority support, and the use of commercial satellite data providers. Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the subscription. 
+It includes a monthly subscription fee and a package of credits. The subscription fee is charged monthly, the credits are valid for 12 months. It enables some premium options like custom area size, use of any custom model that you have access to, priority support, and the use of commercial satellite data providers. Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the subscription. 
 
 .. figure:: _static/subscribe.jpg
    :alt: Mapflow Premium

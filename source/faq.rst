@@ -35,7 +35,7 @@ Satellite imagery
 
 **Can I upload my own images for processing?**
 
-    Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it.
+    Yes, and we are keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it.
 
 
 **Can I buy satellite imagery from you? How can I validate the results?**
@@ -52,7 +52,7 @@ Vector data
 **Is it possible to process multiple areas in one request?**
 
     Yes, on the free plan you can upload up to 10 areas in one processing request by using a GeoJSON file with multiple features in the FeatureCollection. 
-    Alternatively, you can convert your GeoJSON into *Mulipolygon*.
+    Alternatively, you can convert your GeoJSON into *Multipolygon*.
 
 **Results contain gaps / false contours / inaccuracies / errors in classification and / or heights. Why?**
 

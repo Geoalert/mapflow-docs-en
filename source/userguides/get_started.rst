@@ -2,7 +2,7 @@ Mapflow - Get started
 ======================
 
 Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your email. You can also use Google account to login.
-Mapflow processes imagery and extracts vector objects from it. So as a user, you start processings, or as we would call it, **AI-mapping**.
+Mapflow processes imagery and extracts vector objects from it. So as a user, you start processing runs, or as we would call it, **AI-mapping**.
 
 Upon the registration, the *Default* project will be created automatically and you will be redirected to the main dashboard:
 
@@ -34,7 +34,7 @@ Glossary of terms
 -----------------
 * Processing – a single execution of an AI model on a specific geographic area
 * Workflow/Flow – the AI model configuration pipeline definition
-* Project – space for multiple processings
+* Project – space for multiple processing runs
 
 
 Mapflow My account
@@ -56,7 +56,7 @@ Top up your Mapflow account with :ref:`credits`.
 
 3. Billing history
 ^^^^^^^^^^^^^^^^^^^^^^
-Here you can see your processing history with the details. If you are a Team account owner, you can search through the history of the entire team processings. 
+Here you can see your processing history with the details. If you are a Team account owner, you can search through the history of the entire team processing runs. 
 Use filters to sort by date and processing status. 
 To filter by the custom parameters like user email or processing name - start typing in the search input.
 
@@ -79,7 +79,7 @@ Create and manage your :ref:`Team accounts`.
 5. My Imagery
 ^^^^^^^^^^^^^^^^^^^^^
 
-Manage your :ref:`imagery collections <My imagery main>` that you can currently use in the :ref:`Maplfow QGIS plugin <My imagery qgis>`.
+Manage your :ref:`imagery collections <My imagery main>` that you can currently use in the :ref:`Mapflow QGIS plugin <My imagery qgis>`.
 
 6. API
 ^^^^^^^^^^^
@@ -123,7 +123,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
-The user can draw the area using *Draw rectange* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
+The user can draw the area using *Draw rectangle* / *Draw polygon* tool or upload it in GeoJSON format (draw and upload, as well as view the data structure, follow this link - `geojson.io <http://geojson.io/>`_).
 
 .. warning:: 
   Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 25 KM²`` appears in the example below (bounding box is highlighted):
@@ -227,7 +227,7 @@ Custom URL
  * Provide your authorization data for the desired source (Login + Password);
  * Add on map to preview.
 ..  * Reset all entered custom parameters.
-..  * Set source image coordinate reference system (espg:3857 or espg:3395);
+..  * Set source image coordinate reference system (EPSG:3857 or EPSG:3395);
 ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
 
 Historical data (Imagery Search)
@@ -279,7 +279,7 @@ AI model "🏠 Buildings":
 
 AI model "🌲 Forest":
 
-* *Heights* - classifies vegetation by height: by default 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Clasification is done per vegetated area, and not per single tree (see `Forest Mapping classes <https://docs.mapflow.ai/forest/classes.html>`_).
+* *Heights* - classifies vegetation by height: by default 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Classification is done per vegetated area, and not per single tree (see `Forest Mapping classes <https://docs.mapflow.ai/forest/classes.html>`_).
 * *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees.
 
 4. Run the processing
@@ -350,7 +350,7 @@ E.g. "Buildings" model with "simplification" and "classification" by building ty
 Layer Switching & Legend in Mapflow Viewer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can switch the layers to preview on the map. Click the "sandwitch" (☰) button on the top right corner of the map and extend the dialogue with the map legend.
+You can switch the layers to preview on the map. Click the "sandwich" (☰) button on the top right corner of the map and extend the dialogue with the map legend.
 
 E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
 
