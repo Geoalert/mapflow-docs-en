@@ -24,7 +24,7 @@ Just activate `.venv`:
 
     source .venv/bin/activate
 
-**Then you can call to sphinx commands.**
+**Then you can run Sphinx commands.**
 
 ## Build
 
@@ -32,7 +32,7 @@ To build EN docs:
 
     make -e BUILDDIR="build/docs/en" html
 
-## Internatization
+## Internationalization
 
 ### Translate the docs
 
@@ -81,4 +81,4 @@ Run the autobuild server
 
     sphinx-autobuild source build/autobuild
 
-**Only en docs will builded**
+**Only en docs will be built**

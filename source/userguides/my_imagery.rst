@@ -7,12 +7,12 @@ Imagery in Mapflow
      In general there are four ways to use aerial or satellite data in Mapflow:
 
      1. **My imagery** – upload your own images to the Mapflow platform and use them for processing with Mapflow models.
-     2. **Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox, ArcGIS, etc., are enabled in Mapflow for the instant . You can use them with default models.
+     2. **Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox, ArcGIS, etc., are enabled in Mapflow for instant use. You can use them with default models.
      3. **Custom URL** – you can set your own XYZ or TMS layers, including commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar Securewatch>`, etc. This is available in Mapflow Web, API and QGIS plugin.
-     4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place you order to get the images from our partners.
+     4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place your order to get the images from our partners.
 
 .. warning::
-     ❗️ Currently, you can use the tool called *My imagery* in :ref:`Maplfow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress.
+     ❗️ Currently, you can use the tool called *My imagery* in :ref:`Mapflow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress.
 
 
 "My imagery" in QGIS
@@ -33,7 +33,7 @@ Basic usage:
     - Adding tags to the imagery collections to make them searchable in the Mapflow projects
 
 The basic scenario of working with "My imagery" service is as follows:
-    1. You are creating a Imagery collection (a set of images)
+    1. You are creating an imagery collection (a set of images)
     2. Optionally add tags to identify the collection
     3. Upload your images to the collection
     4. Start processing with Mapflow using the whole Imagery collection or the specific image. With both methods, you can limit the processing area by applying an AOI.
@@ -42,7 +42,7 @@ The basic scenario of working with "My imagery" service is as follows:
      There are two main **restrictions on uploading images** in the free plan - the image should be no more than *1 GB* and no more than *30,000 pixels* by the side. We have no other restrictions on uploading to the collection, but it is important that each uploaded image has the SAME parameters as the rest of the images in the collection (pixel size, number of bands, georeference). For example, two images with pixel sizes of 10 cm and 1 m cannot be added to the same Imagery collection.
 
 .. note::
-     Read how to use it in detail in :ref:`Maplfow QGIS plugin <My imagery qgis>`.
+     Read how to use it in detail in :ref:`Mapflow QGIS plugin <My imagery qgis>`.
 
 
 "My imagery" Web

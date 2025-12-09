@@ -16,6 +16,8 @@ User
 Get user status
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+``GET https://api.mapflow.ai/rest/user/status``
+
 Returns user status for the given user account, including:
   - User limits
   - Default and custom :ref:`Models` (every User account is connected to the default models, yet specific models have to be linked to the User account by request)
