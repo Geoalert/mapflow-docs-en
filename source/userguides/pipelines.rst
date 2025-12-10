@@ -15,7 +15,6 @@ AI-Mapping Models
 .. include:: roads_model.rst
 .. include:: construction_model.rst
 .. include:: combo_model.rst
-.. include:: buildings_aerial_imagery_model.rst
 .. include:: hd_housing_model.rst
 .. .. include:: forest_with_heights_model.rst
 .. include:: agriculture_fields_model.rst

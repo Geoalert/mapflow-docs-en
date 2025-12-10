@@ -273,7 +273,8 @@ AI model "🏠 Buildings":
 
 * *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see :doc:`../um/classes`).
 * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
-* *Simplification* - simplification and polygonization of building contours.
+* *Simplification* - simplification of building contours.
+* *Regularization* - regularization of building contours to make them more rectangular.
 * *Building heights* - for each building, we estimate its height. If this option is selected, all roof contours will be shifted in accordance with their height, i.e. converted to "footprints".
 
 

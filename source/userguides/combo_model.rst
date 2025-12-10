@@ -1,5 +1,5 @@
-[multi] Buildings + Roads + Forest
--------------------------------------
+[multi] Buildings + Roads + Forest + Water
+-------------------------------------------
 
 This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output. 
 
