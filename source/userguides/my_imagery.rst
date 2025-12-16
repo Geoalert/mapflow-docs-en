@@ -1,7 +1,7 @@
 .. _My imagery main:
 
-Imagery in Mapflow
-===================
+My Imagery (Satellite/Aerial data upload and management)
+===================================================================
 
 .. note::
      In general there are four ways to use aerial or satellite data in Mapflow:
