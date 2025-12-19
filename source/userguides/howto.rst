@@ -159,7 +159,7 @@ Find more in the Nearmap `API documentation <https://help.nearmap.com/kb/article
         :width: 15cm
         :class: with-border
 
-        Nearmap imagery preview in Mapflow Web
+        Nearmap imagery preview in Mapflow W
 
 
 .. _Naip_:

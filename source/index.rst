@@ -49,6 +49,7 @@ Mapflow API
 
    api/mapflow_api
 
+
 *****************
 Use with GIS...
 *****************
@@ -68,6 +69,7 @@ User guides
    :maxdepth: 1
 
    userguides/howto
+   userguides/use_API
 
 ********************
 Reference materials 
@@ -78,6 +80,13 @@ Reference materials
    :maxdepth: 1
 
    userguides/reference
+
+******************************************
+Additional Mapflow tools and integrations
+******************************************
+
+* :download:`Mapflow CLI Python Tools <https://github.com/Geoalert/mapflow-api-scripts>`
+* :download:`Mapflow QGIS Plugin <https://plugins.qgis.org/plugins/mapflow/>`
 
 ***************************
 Frequently asked questions
@@ -90,13 +99,6 @@ Frequently asked questions
    faq.rst
    
    
-******************
-PDFs
-******************
-
-* :download:`Mapflow User Guides <userguides/_static/_downloads/user_guides.pdf>`
-* :download:`Mapflow AI-Mapping models <userguides/_static/_downloads/pipelines.pdf>`
-* :download:`Mapflow Customization <userguides/_static/_downloads/mapflow_custom.pdf>`
 
 .. only:: html
 

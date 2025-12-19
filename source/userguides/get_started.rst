@@ -321,7 +321,7 @@ Feature attributes and multilayers
 
 Depending on the model and the options applied the extracted features might contain the semantic information that is written in the feature properties in GeoJSON.
 
-E.g. "Buildings" model with "simplification" and "classification" by building typology options:
+E.g. "Buildings" model with "regularization" and "classification" by building typology options:
 
  .. figure:: _static/buildings_view_multilayers.jpg
      :alt: Preview results

@@ -16,7 +16,7 @@ Imagery providers supported for the account-based integration and search:
 .. seealso::
     Read more about how to use :ref:`Imagery providers` with Mapflow.
 
-.. impoertant::
+.. important::
    ❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the analysis.
 
 

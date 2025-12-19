@@ -24,28 +24,29 @@ The model is robust to region change, and performs well in most environments, in
 
 **Additional options:**
 
-* *Heights* – Forest Segmentation follows the usual forest segmentation model, with additional separation of forest height classes
-* *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees
+* *Height estimation* – forest mask classification by height classes
+* *Tree crown polygons* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as polygons
+* *Tree crown points* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as points
 
-Additionally we use models for density and height estimation, dividing the forested area into the following classes:
+.. note::
+   Forest Height classification follows the following classes:
 
-* Shrubs lower than 4 meters;
-* Forest from 4 to 10 meters high;
-* Forest more than 10 meters high;
+   * Shrubs lower than 4 meters;
+   * Forest from 4 to 10 meters high;
+   * Forest more than 10 meters high;
 
-.. hint::
-   This model can be used as a decision support for the forest growth clearing. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_
+   This classification is used as a decision support for the vagatation management in powerline zones, etc. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_. But the tresholds can be customized depending on the requirements.
 
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/forest_tree_crowns_qgis.png
-   :alt: Processing result of forest model (Tree crowns)
+.. figure:: _static/processing_result/output-crowns.gif
+   :alt: Processing result of forest model (Tree crowns, points)
    :align: center
    :width: 15cm
-   :class: with-border no-scaled-link
+   :class: with-border
    
-   Sample of results for **Tree crowns**
+   Sample of results for **Tree crowns, points**
 
 
 .. figure:: _static/processing_result/forest_w_heights_model.jpg
