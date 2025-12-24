@@ -168,6 +168,11 @@ Get image metadata by image ID
 
 ``GET https://api.mapflow.ai/rest/rasters/image/{image_id}``
 
+Update image name by image ID
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``PUT https://api.mapflow.ai/rest/rasters/image/{image_id}&name=new_name``
+
 Delete image
 ^^^^^^^^^^^^^^^
 
@@ -252,6 +257,17 @@ E.g. request:
     "maxResolution": 0.5,
     "minResolution": 0.3
     }'
+
+Pagination and sorting options are also available:
+
+.. code:: bash
+
+    ...
+    "limit": 15,
+    "offset": 0,
+    "sortBy": "ACQUISITION_DATE", # e.g.
+    "sortOrder": "ASC" # or "DESC"
+    ...
 
 .. note::
 
