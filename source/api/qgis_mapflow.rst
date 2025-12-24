@@ -108,12 +108,12 @@ This tab is divided into two parts. First, you will see a list of your projects.
          Project tab
 
 .. |right_arrow| image:: _static/qgis/right_arrow.png
-  :width: 0.7cm
-  :class: no-scaled-link
+    :width: 0.7cm
+    :class: no-scaled-link
 
 .. |left_arrow| image:: _static/qgis/left_arrow.png
-  :width: 0.7cm
-  :class:no-scaled-link
+    :width: 0.7cm
+    :class: no-scaled-link
 
 To go to the processing of the selected project, you need to double-click on it or select the project and click on |right_arrow|. To return to the list of projects, click |left_arrow|.
 
@@ -594,7 +594,7 @@ You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`.
 
 .. important::
 
-  Please, follow the requirements specified on the page with :doc:`../userguides/requirements` when uploading your own images to the Mapflow platform. If you get the error message while uploading your data, please check the instruction :doc:`../userguides/howto`. 
+  Please, follow the requirements specified on the page with :doc:`../userguides/reference` when uploading your own images to the Mapflow platform. If you get the error message while uploading your data, please check the instruction :doc:`../userguides/howto`. 
 
     * **Check the data type** 
           Your data is supposed to be automatically converted into RGB, 8bit. To preprocess your data locally before uploading it to Mapflow you can use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_

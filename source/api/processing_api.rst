@@ -397,27 +397,24 @@ Delete project
 
 Deletes the project. Cascade deletes any child entities.
 
+.. _processing-api-v2:
+
 Processings
 ------------
-
-.. _processing-api-v2:
 
 .. warning::
   Processing API v1 will become **DEPRECATED** soon. Migrate to API v2 for continued support and improved functionality.
 
 
-Processing API v2
-^^^^^^^^^^^^^^^^^^^
-
 Get all processings
-""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/v2``
 
 Returns the list of all user processings
 
 Get all processings by Project Id
-""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/projects/{projectId}/processings/v2``
 
@@ -425,7 +422,7 @@ Returns the list of the user’s processings by user’s project
 
 
 Get processing by Id
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/v2``
 
@@ -514,7 +511,7 @@ Example of the failed processing response:
 Possible error codes, parameters and desctiptions see in :doc:`Error Messages <error_messages>`
 
 Create and run processing 
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings/v2``
 
@@ -656,7 +653,7 @@ Or by single image:
   }
 
 Customize processing with the options
-""""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings``
 
@@ -682,7 +679,7 @@ Request body example
 The "options" can be retrieved for every model in the ``models`` linked to the user – through the ``user/status`` request. 
 
 Calculate processing cost
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processing/cost/v2``
 
@@ -755,7 +752,7 @@ Returns the cost of the processing in :ref:`credits <credits>` given the model, 
   ``GET api.mapflow.ai/rest/user/status``
 
 Rename processing
-"""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``PUT https://api.mapflow.ai/rest/processing/{processingId}``
 
@@ -770,14 +767,14 @@ Request body example:
 
 
 Restart processing
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``POST https://api.mapflow.ai/rest/processings/{processingId}/restart``
 
 Restarts failed partitions of this processing. Doesn't restart non-failed partitions. Each workflow is restarted from the first failed stage. Thus, the least possible amount of work is performed to try and bring the processing into successful state.
 
 Link processing to another project
-"""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``PUT https://api.mapflow.ai/rest/processings/{processing_id}``
 
@@ -791,14 +788,14 @@ Links processing to another project by project ID
   --data-raw '{"projectId": "new_project_id"}'
 
 Delete processing
-"""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``DELETE https://api.mapflow.ai/rest/processings/{processingId}``
 
 Deletes this processing. Cascade deletes any child entities.
 
 Get processing AOIs
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/aois``  
 
@@ -846,8 +843,8 @@ Response sample:
     ]
 
 
-Downloading processing results
-"""""""""""""""""""""""""""""""
+Download processing results
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``GET https://api.mapflow.ai/rest/processings/{processingId}/result``
 
@@ -857,7 +854,7 @@ Returns Geojson results of this processing as an octet stream. Should only be ca
 .. _upload-images:
 
 Upload images
-"""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
 
@@ -866,7 +863,7 @@ Upload images
 
 
 Reference
-"""""""""
+------------
 
 ✍️ Params to run the processing
 """"""""""""""""""""""""""""""""
