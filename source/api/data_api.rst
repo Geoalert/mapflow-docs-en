@@ -26,9 +26,9 @@ Manage Imagery Mosaics
 Create mosaic
 ^^^^^^^^^^^^^^^
 
-``POST https://api.mapflow.ai/rest/rasters/mosaic`` 
+``POST https://api.mapflow.ai/rest/rasters/mosaic``
 
-Creates the mosaic (the empty collection of images) and returns its ID.
+Creates an empty mosaic and returns its ID.
 
 .. code:: bash
 
@@ -57,7 +57,7 @@ Create mosaic and upload images to mosaic
 Get mosaic
 ^^^^^^^^^^^^^^^
 
-``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}`` 
+``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}``
 
 
 Update mosaic
@@ -112,7 +112,7 @@ Response example:
 Get images by mosaic ID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}\image``
+``GET https://api.mapflow.ai/rest/rasters/mosaic/{mosaic_id}/image``
 
 Response example:
 
@@ -181,7 +181,7 @@ Delete image
 Get image preview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``GET https://api.mapflow.ai/rest/rasters/{image_id}/preview/{preview_type}``
+``GET https://api.mapflow.ai/rest/rasters/image/{image_id}/preview/{preview_type}``
 
 E.g.:
 
@@ -234,7 +234,7 @@ This method allows to check user's storage usage against the available limit.
 Get metadata of available images
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``POST https://api.mapflow.ai/catalog/meta``
+``POST https://api.mapflow.ai/rest/catalog/meta``
 
 
 Returns a list of the available images, filtered by metadata keys. 
@@ -271,15 +271,22 @@ Pagination and sorting options are also available:
 
 .. note::
 
-   | ``aoi``: geometry, - required, Geojson-like Polygon or Multipolygon of the area of the search
-   | ``acquisitionDateFrom``: UTC time string 
-   | ``acquisitionDateTo``: UTC time string
-   | ``minResolution``: float, in meters
-   | ``maxResolution``: float, in meters
-   | ``maxCloudCover``: float, in percents 
-   | ``minOffNadirAngle``: float, in degrees
-   | ``maxOffNadirAngle``: float, in degrees
-   | ``minAoiIntersectionPercent``: float, in percents – minimum intersection of the image footprint with the aoi
+   | ``aoi``: geometry (required), GeoJSON Polygon or MultiPolygon of the search area
+   | ``acquisitionDateFrom``: UTC date-time string
+   | ``acquisitionDateTo``: UTC date-time string
+   | ``minResolution``: float, meters per pixel
+   | ``maxResolution``: float, meters per pixel
+   | ``maxCloudCover``: float, percent (0-1)
+   | ``minOffNadirAngle``: float, degrees
+   | ``maxOffNadirAngle``: float, degrees
+   | ``minAoiIntersectionPercent``: float, percent (0-1) minimum footprint overlap
+   | ``limit``: integer, max number of results
+   | ``offset``: integer, pagination offset
+   | ``hideUnavailable``: boolean, exclude unavailable products
+   | ``dataProviders``: array of provider IDs/names
+   | ``productTypes``: array of product types (e.g. Scene, Mosaic)
+   | ``sortBy``: string field name
+   | ``sortOrder``: string (e.g. asc, desc)
 
 .. warning::
     The size of the search area cannot exceed the size of AOI limit assigned to the specific user.
@@ -365,8 +372,17 @@ Run processing by image ID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For detailed description how to run a processing with Mapflow API see :doc:`Mapflow Processing API <processing_api>` – "Create processing".
-To run a processing using the specific image returned by Search API define **provider** and **image ID** in the params as follows:
+To run a processing using the specific image returned by Search API, pass the provider and image ID in v2 parameters:
 
-``{"params": {"data_provider":<providerName>, "url":<id>}}``
+.. code:: json
 
-
+    {
+      "params": {
+        "sourceParams": {
+          "imagerySearch": {
+            "dataProvider": "<providerName>",
+            "imageIds": ["<imageId>"]
+          }
+        }
+      }
+    }
