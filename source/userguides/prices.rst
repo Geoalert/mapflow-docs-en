@@ -100,7 +100,7 @@ Data costs
 
 Imagery basemap costs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When using default imagery basemaps (Mapbox, Arcgis WorldView Imagery), the price starts from a min. of 1 credit, depending on the model and the zoom level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if you change the zoom, the price is automatically recalculated.
+When using default imagery basemaps (Mapbox, Arcgis World Imagery), the price starts from a min. of 1 credit, depending on the model and the zoom level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if you change the zoom, the price is automatically recalculated.
 
 Imagery ordering costs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -121,11 +121,11 @@ Examples of quotations
 .. epigraph::
     *I want to process 3.3 sq.km of Commercial provider at 18 zoom using the Buildings model*
 
-    ``Cost = 3.3 * (8+60) = 224 credits``
+    ``Cost = 3.3 * (8 + 60) = 224 credits``
 
 .. epigraph::
-    *I want to process 0.01 sq.km of My imagery using the Buildings model and applying the Polygonization option.*
+    *I want to process 0.01 sq.km of My imagery using the Buildings model and applying the Simplification option.*
     
     Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost will be:
 
-    ``Cost = 1 * (8+5) = 13 credits``
+    ``Cost = 1 * (8 + 2) = 10 credits``
