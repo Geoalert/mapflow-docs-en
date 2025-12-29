@@ -3,7 +3,7 @@
 Authorization to Mapflow API
 ==============================
 
-To access from external applications such as :doc:`plugin for QGIS <../api/qgis_mapflow>` you need to get **API token**. Users can register and obtain token at 
+To access from external applications such as :doc:`plugin for QGIS <../api/qgis_mapflow>` you need to get **API token**. Users can register and obtain token at
 `https://app.mapflow.ai/account/api <https://app.mapflow.ai/account/api>`_.
 Token must be passed in the **Basic Auth** parameters like in the example:
 

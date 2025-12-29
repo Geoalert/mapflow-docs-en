@@ -4,6 +4,18 @@
 
 Before start you need to install the required dependencies
 
+## Prerequisites
+
+- Python 3.10
+- uv
+
+`uv` is a fast Python package manager and virtual environment tool (by Astral).
+Install it with one of the following:
+
+    pipx install uv
+    # or
+    python -m pip install uv
+
 ### If this is your first time using this project
 
 Create venv:
@@ -14,7 +26,11 @@ Activate the `.venv`:
 
     source .venv/bin/activate
 
-Install requirements:
+Install requirements (recommended):
+
+    uv pip install -r requirements.txt
+
+If you do not have `uv` installed, use:
 
     pip3 install -r requirements.txt
 
@@ -23,6 +39,10 @@ Install requirements:
 Just activate `.venv`:
 
     source .venv/bin/activate
+
+Ensure dependencies are up to date:
+
+    uv pip install -r requirements.txt
 
 **Then you can run Sphinx commands.**
 
@@ -71,13 +91,10 @@ sphinx-intl update -p build/gettext -l ru
 
 ## Using autobuild
 
-To watch docs changes immediately you can use sphinx-autobuild tool
+To watch docs changes immediately you can use sphinx-autobuild tool.
+It is included in `requirements.txt`.
 
-Install sphinx-autobuild:
-
-    pip3 install sphinx-autobuild
-
-Run the autobuild server
+Run the autobuild server:
 
     sphinx-autobuild source build/autobuild
 

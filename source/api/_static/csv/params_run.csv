@@ -1,9 +1,15 @@
 Params,Type,Description
-geometry*,Array,"Processing area in GeoJSON format, type – Polygon or Multipolygon."
-name,String,"Processing name. If not specified, an automatically generated ID will be assigned"
-projectId,String,"ID of the project in which the processing is created (if not specified, it is created in the user's default project)"
-wdId* /,String,Processing scenario (AI Model) ID. wdName can be specified instead
-wdName*,String,Processing scenario (AI Model) name. wdId can be specified instead
-params,Array,"Data source parameters. If not specified, the first default data source will be used."
-blocks,Array,Processing options that are specified for the Model. 
-meta,Array,Optional metadat as a key:value array
+geometry*,Object,"Processing area in GeoJSON format (Polygon or MultiPolygon)."
+name,String,"Processing name (optional)."
+description,String,"Processing description (optional)."
+projectId,String,"Project ID (optional). If omitted, default project is used."
+wdId / wdName,String,"Workflow definition ID or name (provide one)."
+params,Object,"Processing parameters."
+params.sourceParams,Object,"Data source parameters (required when params is provided)."
+params.sourceParams.dataProvider,Object,"Use a linked data provider."
+params.sourceParams.imagerySearch,Object,"Use imagery search results."
+params.sourceParams.myImagery,Object,"Use images or mosaic from Mapflow storage."
+params.sourceParams.userDefined,Object,"Use a custom imagery source."
+params.inferenceParams,Object,"Model-specific inference parameters."
+blocks,Array,"Model options to enable/disable."
+meta,Object,"Optional metadata key-value map."
