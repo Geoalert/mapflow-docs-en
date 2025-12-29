@@ -52,13 +52,13 @@ Response example:
                     "name": "Classification",
                     "description": "Classification",
                     "optional": true,
-                    "price": 5.0
+                    "price": 0.0
                 },
                 {
-                    "name": "Simplification",
+                    "name": "Polygonization",
                     "description": "Polygonization",
                     "optional": true,
-                    "price": 8.0
+                    "price": 2.0
                 },
                 {
                     "name": "OSM",
@@ -279,8 +279,8 @@ Returns the name and ID of the user's default project and the user's account set
           "login": "test_user@test.com",
           "email": "test_user@test.com",
           "role": "USER",
-          "areaLimit": 50000000,
-          "aoiAreaLimit": 50000000,
+          "areaLimit": 25000000,
+          "aoiAreaLimit": 25000000,
           "processedArea": 21863903,
           "created": "2022-10-20T14:54:59.630308Z",
           "updated": "2022-12-06T14:00:53.051512Z",
