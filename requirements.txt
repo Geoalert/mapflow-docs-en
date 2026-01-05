@@ -5,6 +5,7 @@ sphinxemoji==0.1.9
 docutils==0.17.1
 sphinx-favicon==1.0.1
 sphinx-intl>=2.0.0
+sphinx-notfound-page
 
 alabaster==0.7.12
 Babel==2.9.1

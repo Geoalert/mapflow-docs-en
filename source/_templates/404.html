@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% set title = _("Page Not Found") %}
+
+{% block body %}
+<div class="document">
+  <div class="documentwrapper">
+    <div class="bodywrapper">
+      <div class="body" role="main">
+        
+        <h1>404 - Page Not Found</h1>
+        
+        <p>
+          The page you're looking for doesn't exist. This might be because:
+        </p>
+        
+        <ul>
+          <li>The link you followed is outdated or broken</li>
+          <li>You mistyped the URL</li>
+          <li>The page has been moved or removed</li>
+        </ul>
+        
+        <p>
+          Here are some helpful links:
+        </p>
+        
+        <ul>
+          <li><a href="{{ pathto('index') }}">Go to documentation home</a></li>
+          <li><a href="{{ pathto('search') }}">Search the documentation</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

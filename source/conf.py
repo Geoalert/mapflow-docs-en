@@ -32,7 +32,8 @@ extensions = [
   'sphinxemoji.sphinxemoji',
   'sphinx_rtd_theme',
   'sphinxnotes.strike',
-  'sphinx_favicon'
+  'sphinx_favicon',
+  'notfound.extension'
 ]
 
 
@@ -93,6 +94,20 @@ html_sidebars = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ['globals.css']
+
+# -- 404 Page Configuration --------------------------------------------------
+# Generate a 404.html page for broken links
+html_additional_pages = {
+    '404': '404.html',
+}
+
+# Configure sphinx-notfound-page extension
+notfound_urls_prefix = ''  # Use relative URLs (works with multi-language builds)
+notfound_template = '404.html'
+notfound_context = {
+    'title': 'Page Not Found',
+    'body': '<h1>404 - Page Not Found</h1>',
+}
 
 # -- Options for Edit on github ----------------------------------------------
 edit_on_gitlab_user = 'geoalert'
