@@ -23,7 +23,7 @@ In case of non-compliance with any requirements, the system reports an error.
 If you are using Mapflow Web or Mapflow QGIS plugin, the error messages are shown in the user interface.
 For more details, see :doc:`errors description <../api/error_messages>`.
 
-.. _Model requirements:
+.. _Model_requirements:
 
 Model requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,9 +111,12 @@ There are two options for forest semantic classification:
       :class: longtable
       :widths: 1 1 1 
 
-Urban Mapping classes
----------------------------
 
+
+.. _buildings_classes:
+
+Buildings mapping classes
+---------------------------
 
    .. tabularcolumns:: |p{3cm}|p{5cm}|p{7cm}|p{3cm}|
 
@@ -124,7 +127,7 @@ Urban Mapping classes
       :widths: 1 1 1 1
 
 
-Urban Mapping visualization with ArcGIS Online, Carto, and EverGIS online
+Buildings Mapping visualization with ArcGIS Online, Carto, and EverGIS online
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapflow Web easily processes imagery and extracts vector objects that can be downloaded in **GeoJSON** format. We recommend using GeoJSON since it is a de-facto standard in web mapping. 
@@ -157,7 +160,7 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
     :align: center
     :width: 20cm
 
-    Urban Mapping classes in ArcGIS online
+    Building footprints in ArcGIS online
 
 
 .. figure:: ../um/_static/img/Carto.png
@@ -165,7 +168,7 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
     :align: center
     :width: 20cm
 
-    Urban Mapping classes in Carto
+    Building footprints in Carto
 
 
 .. figure:: ../um/_static/img/Evergis.png
@@ -173,4 +176,4 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
     :align: center
     :width: 20cm
 
-    Urban Mapping classes in Evergis Online
+    Building footprints in Evergis Online
