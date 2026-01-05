@@ -271,7 +271,7 @@ In this step, you can select additional processing options. Different AI models 
 
 AI model "🏠 Buildings":
 
-* *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see :doc:`../um/classes`).
+* *Classification* - we currently recognize the following building types: apartment buildings, single-household dwellings, industrial, commercial, other non-residential (see :ref:`Building Mapping classes <buildings_classes>`).
 * *Merge with OSM* - compare the results with the buildings in OpenStreetMap and, if a sufficient overlap has been found, use the ones from the OSM instead.
 * *Simplification* - simplification of building contours.
 * *Regularization* - regularization of building contours to make them more rectangular.
