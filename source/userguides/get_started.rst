@@ -280,7 +280,7 @@ AI model "🏠 Buildings":
 
 AI model "🌲 Forest":
 
-* *Heights* - classifies vegetation by height: by default 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Classification is done per vegetated area, and not per single tree (see `Forest Mapping classes <https://docs.mapflow.ai/forest/classes.html>`_).
+* *Heights* - classifies vegetation by height classes: by default 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Classification is done per vegetated area, and not per single tree (see :ref:`Forest Mapping classes <forest_classes>`).
 * *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees.
 
 4. Run the processing

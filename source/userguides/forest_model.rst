@@ -27,6 +27,8 @@ The model is robust to region change, and performs well in most environments, in
 .. important::
    We recommend using the **Tree crown** options with 0.3m resolution imagery (~ 19 zoom) for the best results in case you need to detect individual trees.
 
+.. _forest_classes:
+
 .. note::
    Forest Height classification follows the following classes:
 

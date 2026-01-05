@@ -31,15 +31,8 @@ extensions = [
   'edit_on_github',
   'sphinxemoji.sphinxemoji',
   'sphinx_rtd_theme',
-  'rst2pdf.pdfbuilder',
   'sphinxnotes.strike',
   'sphinx_favicon'
-]
-
-pdf_documents = [
-  ('userguides/get_started', u'get_started', u'Getting Started with Mapflow UI', u'Geoalert'),
-  ('userguides/pipelines', u'pipelines', u'Mapping models pipelines', u'Geoalert'),
-  ('userguides/prices', u'prices', u'Mapflow tariffs', u'Geoalert')
 ]
 
 
