@@ -605,7 +605,7 @@ You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`.
     * **Check the projection and georeference** 
           Make sure that your imagery is georeferenced in geographic or projected coordinate system.
     * **Check the resolution**
-          The resolution restrictions vary for different models, see :ref:`Model requirements`   
+          The resolution restrictions vary for different models, see :ref:`Model_requirements`   
   
 
 

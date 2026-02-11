@@ -17,7 +17,7 @@ Upload GeoTIFF requirements
     * Your image must be georeferenced in geographic or projected coordinate system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;
     * Your image is supposed to be RGB composite, RGBa and Singleband will work as well*;
     * The default limit for file size is 1 Gb for free users. If you have a bigger file – reduce its size or consider switching to the paid plan; 
-    * Each Mapflow model has its recommendations for the spatial resolution of the input data, see :ref:`Model requirements` below
+    * Each Mapflow model has its recommendations for the spatial resolution of the input data, see :ref:`Model_requirements` below
 
 In case of non-compliance with any requirements, the system reports an error. 
 If you are using Mapflow Web or Mapflow QGIS plugin, the error messages are shown in the user interface.
@@ -127,7 +127,7 @@ Buildings mapping classes
       :widths: 1 1 1 1
 
 
-Buildings Mapping visualization with ArcGIS Online, Carto, and EverGIS online
+Buildings Mapping visualization with ArcGIS Online, Carto, etc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapflow Web easily processes imagery and extracts vector objects that can be downloaded in **GeoJSON** format. We recommend using GeoJSON since it is a de-facto standard in web mapping. 
@@ -170,10 +170,3 @@ Using GeoJSON allows you to use only drag&drop to visualize Mapflow output resul
 
     Building footprints in Carto
 
-
-.. figure:: ../um/_static/img/Evergis.png
-    :alt: Interaction panel
-    :align: center
-    :width: 20cm
-
-    Building footprints in Evergis Online

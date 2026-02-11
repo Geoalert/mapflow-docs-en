@@ -445,7 +445,7 @@ Mapflow provides a REST API which, for example, allows you to query for currentl
 If you are developing an application and want to use our API, - check out :doc:`../api/processing_api`.
 
 .. important::
-  You must follow the requirements specified with :ref:`Model requirements` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
+  You must follow the requirements specified with :ref:`Model_requirements` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io.
 
  .. image:: _static/api_tab.png
    :alt: Preview map

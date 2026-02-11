@@ -10,7 +10,7 @@ Imagery providers available for the search and (NEW!) ordering:
     * Historical imagery (aggregates and provides satellite imagery from the leading satellite operators)
 
 Imagery providers supported for the account-based integration and search:
-    * ArcGIS Worldview
+    * ArcGIS World Imagery
     * :ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`
 
 .. seealso::
