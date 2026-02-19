@@ -19,9 +19,10 @@ Imagery providers supported for the account-based integration and search:
 .. important::
    ❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the analysis.
 
+.. _imagery-search-web:
 
 Using Imagery Search in Mapflow WEB
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: _static/historical_data_tab.jpg
   :alt: Imagery search tab
@@ -78,14 +79,34 @@ Imagery provider types:
 
 
 NEW! Schedule Search updates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
 
 How to create a scheduled search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Set the required search criteria and click "Search Imagery"
+1. Draw or upload the areas of interest from the GeoJSON file, select all or only the necessary ones in the table. If your GeoJSON features contain the property "name", the AOI names will be automatically loaded into the table. You can also manually assign the aoi name in the edit mode (the "Edit" button in the AOI menu).
+
+.. figure:: _static/templates_aoi_selection.png
+  :alt: AOI selection
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+.. tip::
+  The AOI name you assign will appear in notifications about new images found for this area. To go directly to the results for this area, simply click on the notification in the app or the "View Search results" button in the email.
+
+    .. figure:: _static/templates_notifications.gif
+        :alt: Search menu
+        :align: center
+        :width: 13cm
+        :class: with-border
+
+
+2. Set the required search criteria and click "Search Imagery"
 
 .. figure:: _static/templates_params.png
   :alt: Search params
@@ -96,14 +117,14 @@ How to create a scheduled search
 |
 
 .. note::
-  If the total area of your search area exceeds 250 km², when you click on "Search Imagery" instead of an immediate search, you will be prompted to create a postponed background search. 
+  If the total area of your search area exceeds 700 km², when you click on "Search Imagery" instead of an immediate search, you will be prompted to create a postponed background search. 
 
     .. figure:: _static/templates_large_area_search.png
        :align: center
        :width: 9cm
        :class: with-border
 
-2. After that, the search results will appear and the "Save as schedule" button will be available
+3. After that, the search results will appear and the "Save as schedule" button will be available
 
 .. figure:: _static/templates_save_button.png
   :alt: Search save button
@@ -113,7 +134,7 @@ How to create a scheduled search
 
 |
 
-3. When you click on it, you will be prompted to choose the name of this search schedule
+4. When you click on it, you will be prompted to choose the name of this search schedule
 
 .. figure:: _static/templates_schedule_button.png
   :alt: Search schedule button
@@ -123,7 +144,7 @@ How to create a scheduled search
 
 |
 
-4. After creation the search will complete after a while and the search results will be available to you using "View on the map" button
+5. After creation the search will complete after a while and the search results will be available to you using "View on the map" button
 
 .. figure:: _static/templates_view_button.png
   :alt: Search view button
@@ -152,16 +173,49 @@ Now a background search will be launched in Mapflow and you will be notified whe
   The search card shows the label |alert| of the **new image** found. Clicking on an image in the results table will remove the label.
 
 .. note::
-  To start processing based on the found image you need to select the desired image by clicking on it in the table and clicking “Save” button.
-
-.. note::
-  Two key points on viewing results:
+  **Two key points on viewing results:**
 
   - When opening the search, you will see **all** results found for the given area(s)
-  - If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs
+  - If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs. Also, you can select/deselect AOI by clicking on the map, the results table will be updated automatically.
 
 
-Main operations with Search Schedule
+Processings <> Scheduled Search
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Processing is launched in the same way as from :ref:`instant search <imagery-search-web>`:
+
+- Open a scheduled search
+- Select the desired image and click "Save"
+- Select the necessary parameters and start the processing!
+
+All processing launched from a search is linked to it. You can find them in the search's AOI table. Simply select the necessary ones on the map, and they will all be displayed on one map.
+
+.. figure:: _static/templates_processing.png
+  :alt: Search menu
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+Some actions you can perform with processing from the search AOI table:
+
+- Open this processing in a new tab
+- Download processing boundaries
+- Clip the search AOI to the boundary of its processing ("Stop this area" button)
+
+Last one can be useful if you are already satisfied with the processed part of the AOI and do not want to see it in the search results (the trimmed part will no longer be used in the background search).
+
+.. figure:: _static/templates_stop_this_area.gif
+  :alt: Search menu
+  :align: center
+  :width: 13cm
+  :class: with-border
+
+|
+
+
+Main operations with Scheduled Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/templates_menu.png
@@ -187,26 +241,30 @@ Main operations with Search Schedule
 - **Pause/Resume Search** - The pause means that it will stop the background search, but you can still view its results
 - **Delete** - Permanently deletes the search
 
-.. note::
-    You can also change the search criteria for the existing search:
+Modifying the AOI search
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-    "View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule". Now the background search will work according to the new parameters.
+You can add a new AOI to an existing search, modify the geometry, or delete areas that have already been processed. After any AOI changes, you will need to confirm these changes. The search will be updated, and the **results will be synchronized** accordingly.
 
-    .. figure:: _static/templates_update_params.gif
-      :alt: Search menu
-      :align: center
-      :width: 16cm
-      :class: with-border
+.. figure:: _static/templates_update.png
+  :alt: Update template
+  :align: center
+  :width: 9cm
+  :class: with-border
 
-.. warning::
-    ❗️ If you rename the search - it will create a new search schedule with the new name instead of updating the existing one. If you only want to rename the search, simply click on its name.
+|
 
-    .. figure:: _static/update_search_name.jpg
-      :alt: Search menu
-      :align: center
-      :width: 8cm
-      :class: with-border no-scaled-link
+**You can also change the search criteria for the existing search:**
 
+"View on the map" → Adjust the search parameters → "Search Imagery" → "Save as schedule". Now the background search will work according to the new parameters.
+
+.. figure:: _static/templates_update_params.gif
+  :alt: Search menu
+  :align: center
+  :width: 16cm
+  :class: with-border
+
+|
 
 Using Mapflow Imagery Search in QGIS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
