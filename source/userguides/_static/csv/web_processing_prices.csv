@@ -1,4 +1,4 @@
-Model, Base price, Options
+Workflow, Base price, Options
 Buildings, 8,  "| Classification: 0
 | Simplification: 2
 | Height Estimation: 10
@@ -8,3 +8,4 @@ Forest and trees, 8, "| Height estimation: 10
 | Crowns extraction: 5
 "
 Roads, 5, "\-"
+Download Open Data, 1, "Water | Landuse | Roads | Buildings"
