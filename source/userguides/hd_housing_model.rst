@@ -1,5 +1,6 @@
 🏘 High-density housing (CUSTOM)
--------------------------------------------
+---------------------------------
+
 .. note::
    This model has been deprecated as default one and moved to custom. it's available only by request.
 

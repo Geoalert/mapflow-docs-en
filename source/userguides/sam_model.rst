@@ -1,5 +1,6 @@
-✨ Segment anything (CUSTOM)
-----------------------------------
+✨ Segment Anything v1 (CUSTOM)
+--------------------------------
+
 .. note::
    This model has been deprecated as default one and moved to custom. it's available only by request.
 

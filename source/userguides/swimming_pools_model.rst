@@ -1,5 +1,5 @@
-|:whale:| Swimming pools (CUSTOM)
------------------------------------------
+Swimming pools (CUSTOM)
+--------------------------------
 
 .. note::
    This model is available by request.

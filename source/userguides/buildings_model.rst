@@ -1,7 +1,7 @@
 .. _Buildings model:
 
 🏠 Buildings
-------------
+=================
 
 Extracting of rooftops of buildings from imagery of high resolution.
 High performance deep learning model is trained to detect the buildings roofs.
@@ -54,7 +54,7 @@ A sample of processing result with different options for Prague, Czech Republic.
 
    
 Benchmarks - segmentation
-::::::::::::::::::::::::::::
+----------------------------
 
 
 **Houston, U.S. (-95.2920, 29.7718)**

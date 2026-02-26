@@ -1,5 +1,5 @@
 |:sunny:| Solar panels (CUSTOM)
------------------------------------------
+--------------------------------
 
 .. note::
    This model is available by request.

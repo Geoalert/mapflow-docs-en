@@ -35,7 +35,7 @@ Mapflow AI models
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 3
 
    userguides/pipelines
 

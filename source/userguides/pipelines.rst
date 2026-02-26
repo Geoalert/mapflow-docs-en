@@ -8,16 +8,16 @@ and :doc:`price list <prices>` for breakdown of the processings billing.
 .. _Models:
 
 AI-Mapping Models
-=================
+********************
 
 .. include:: buildings_model.rst
 .. include:: forest_model.rst
 .. include:: roads_model.rst
-.. include:: construction_model.rst
 .. include:: combo_model.rst
 .. include:: open-data.rst
+.. include:: custom_pipelines.rst
+.. include:: construction_model.rst
 .. include:: hd_housing_model.rst
-.. .. include:: forest_with_heights_model.rst
 .. include:: agriculture_fields_model.rst
 .. include:: sam_model.rst
 .. include:: swimming_pools_model.rst
