@@ -78,7 +78,7 @@ Imagery provider types:
     You need to subscribe to Mapflow Premium to be able to order commercial data providers. 
 
 
-NEW! Schedule Search updates
+NEW! Scheduled Search updates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
