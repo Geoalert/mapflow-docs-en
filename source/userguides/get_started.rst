@@ -251,6 +251,29 @@ It's powered by Mapflow API providing access to the global satellite data provid
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
 
+.. figure:: _static/model_zoom.gif
+  :alt: Search menu
+  :align: center
+  :width: 18cm
+  :class: with-border
+
+|
+
+.. |suggest| image:: _static/suggest_button.png
+  :width: 0.7cm
+  :class: no-scaled-link
+
+If your data source is Data provider (Imagery basemap), after selecting the model, the recommended zoom level for it will be set automatically. Note that you can always select any zoom level and check its availability with the "Suggest" |suggest| button. 
+
+.. warning::
+   If the selected zoom is unavailable, you can **still** start processing using this level, but the result may be unpredictable.
+
+      .. figure:: _static/unavailable_zoom.png
+        :alt: Search menu
+        :align: center
+        :width: 13cm
+        :class: with-border
+
 .. |edit| image:: _static/edit.png
   :width: 0.7cm
   :class: no-scaled-link
@@ -264,7 +287,7 @@ Select one of the AI models (see :doc:`Model description <pipelines>`).
     :class: with-border
 
 
-3. Post-processing options
+1. Post-processing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this step, you can select additional processing options. Different AI models have their own options.
