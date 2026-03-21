@@ -246,7 +246,7 @@ It's powered by Mapflow API providing access to the global satellite data provid
     :class: with-border no-scaled-link  
 
 
-2. AI model
+3. AI model
 ^^^^^^^^^^^^^
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
@@ -287,7 +287,7 @@ If your data source is Data provider (Imagery basemap), after selecting the mode
     :class: with-border
 
 
-1. Post-processing options
+3.1. Post-processing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this step, you can select additional processing options. Different AI models have their own options.
