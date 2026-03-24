@@ -99,7 +99,20 @@ Mapflow is designed to be intuitive. Here is our step-by-step user guide:
 
 |
 
-1. Specify the AOI (Area Of Interest)
+1. Create a project
+^^^^^^^^^^^^^^^^^^^^^
+
+You can use the Default project created upon registration or create a new one. To create a new project, click the "Create project" button and fill in the project name and description.
+
+.. note::
+  You can manage a set of models linked to a project (click the |edit| button on the project card):
+
+  .. figure:: _static/link_unlink_wd.png
+    :align: center
+    :width: 9cm
+    :class: with-border
+
+2. Specify the AOI (Area Of Interest)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First step is to set the area of analysis for your project: by **AOI** polygon or by the extent of your **GeoTIFF** image.
@@ -112,7 +125,7 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
-1.1. Select AOI
+2.1. Select AOI
 """"""""""""""""""""""""
 
 .. image:: _static/ui_aoi.png
@@ -138,7 +151,7 @@ The user can draw the area using *Draw rectangle* / *Draw polygon* tool or uploa
 
 .. _upload-geotiff-section:
 
-1.2 Upload GeoTIFF
+2.2 Upload GeoTIFF
 """"""""""""""""""""
 You can upload your aerial images in GeoTiff format. After the image is uploaded, you need to draw/upload an AOI or click "Use Image Extent".
 
@@ -167,7 +180,7 @@ You can upload your aerial images in GeoTiff format. After the image is uploaded
     If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
 
-2. Select the imagery source
+3. Select the imagery source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
@@ -181,8 +194,8 @@ This tab allows you to select from:
 
 .. _Imagery providers:
 
-Imagery providers
-""""""""""""""""""
+3.1 Imagery providers
+""""""""""""""""""""""
 
 .. image:: _static/imagery_providers_tab.png
   :alt: Imagery providers
@@ -211,7 +224,7 @@ Here you can select one of the default providers that are available in Mapflow, 
     For more details about the Imagery providers cost, see :ref:`Mapflow subscription plans <subscription-plans>`.
 
 
-Custom URL
+3.2 Custom URL
 """"""""""""""""""
 
 .. image:: _static/custom_url_tab.png
@@ -230,8 +243,8 @@ Custom URL
 ..  * Set source image coordinate reference system (EPSG:3857 or EPSG:3395);
 ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
 
-Historical data (Imagery Search)
-"""""""""""""""""""""""""""""""""
+3.3 Historical data (Imagery Search)
+"""""""""""""""""""""""""""""""""""""
 
 "Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
 It's powered by Mapflow API providing access to the global satellite data providers through our partners. 
@@ -246,7 +259,7 @@ It's powered by Mapflow API providing access to the global satellite data provid
     :class: with-border no-scaled-link  
 
 
-3. AI model
+4. AI model
 ^^^^^^^^^^^^^
 
 Select one of the AI models (see :doc:`Model description <pipelines>`).
@@ -263,31 +276,23 @@ Select one of the AI models (see :doc:`Model description <pipelines>`).
   :width: 0.7cm
   :class: no-scaled-link
 
-If your data source is Data provider (Imagery basemap), after selecting the model, the recommended zoom level for it will be set automatically. Note that you can always select any zoom level and check its availability with the "Suggest" |suggest| button. 
+If your data source is Data provider (Imagery basemap), after selecting the model, the recommended zoom level for it will be set **automatically**. Note that you can always select any zoom level and check its availability with the "Suggest" |suggest| button. 
 
 .. warning::
-   If the selected zoom is unavailable, you can **still** start processing using this level, but the result may be unpredictable.
+   If the recommended zoom is unavailable, you can start the processing using lower zoom level, but the result may be less accurate.
 
       .. figure:: _static/unavailable_zoom.png
         :alt: Search menu
         :align: center
-        :width: 13cm
-        :class: with-border
+        :width: 10cm
+        :class: with-border no-scaled-link
 
 .. |edit| image:: _static/edit.png
   :width: 0.7cm
   :class: no-scaled-link
 
-.. note::
-  You can manage a set of models linked to a project (click the |edit| button on the project card):
 
-  .. figure:: _static/link_unlink_wd.png
-    :align: center
-    :width: 9cm
-    :class: with-border
-
-
-3.1. Post-processing options
+4.1. Post-processing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this step, you can select additional processing options. Different AI models have their own options.
@@ -306,7 +311,7 @@ AI model "🌲 Forest":
 * *Heights* - classifies vegetation by height classes: by default 0-4 m for shrub ("low vegetation"), 4-10 m for regular forest ("medium forest"), 10+ m for area with tall trees ("high forest"). Classification is done per vegetated area, and not per single tree (see :ref:`Forest Mapping classes <forest_classes>`).
 * *Tree crowns* - extracts tree crowns from dense forest cover as well as free-standing trees.
 
-4. Run the processing
+5. Run the processing
 ^^^^^^^^^^^^^^^^^^^^^^
 
 At this step, you can set the name of your processing or use the initially generated one (the button allows you to generate variants of the name).
