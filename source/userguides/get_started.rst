@@ -293,7 +293,7 @@ If your data source is Data provider (Imagery basemap), after selecting the mode
 
 
 4.1. Post-processing options
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""
 
 In this step, you can select additional processing options. Different AI models have their own options.
 
@@ -324,14 +324,14 @@ The "Clear Selection" will clear the previously selected processing parameters.
    Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits. Upon registration, you receive 250 credits for free for testing the platform (See :ref:`Mapflow credits <credits>`).
 
 
-View the results
---------------------
+6. View the results
+^^^^^^^^^^^^^^^^^^^^^
 
 In the "Processing history" you see the progress of processing as well as view and get the processing results.
 Each running processing displays the selected model, the status, the creation date and the processing cost.
 
-View on the map
-^^^^^^^^^^^^^^^^^
+6.1 View on the map
+""""""""""""""""""""""
 
 After the successful processing completion, the card can be opened to view more detailed information about the processing parameters - AI Model, Post-processing, Area, Data Source.
 
@@ -344,8 +344,8 @@ After the successful processing completion, the card can be opened to view more 
 
 Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
 
-Feature attributes and multilayers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6.2 Feature attributes and multilayers
+"""""""""""""""""""""""""""""""""""""""""
 
 Depending on the model and the options applied the extracted features might contain the semantic information that is written in the feature properties in GeoJSON.
 
@@ -376,8 +376,8 @@ E.g. "Buildings" model with "regularization" and "classification" by building ty
      - The score is counted by the intersection of the pixel feature and polygonized feature. The higher score - the closer polygonized feature to the pixel one.
 
 
-Layer Switching & Legend in Mapflow Viewer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6.3 Layer Switching & Legend
+""""""""""""""""""""""""""""""
 
 You can switch the layers to preview on the map. Click the "sandwich" (☰) button on the top right corner of the map and extend the dialogue with the map legend.
 
@@ -390,8 +390,8 @@ E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
      :class: with-border
 
 
-Rate the processing
-^^^^^^^^^^^^^^^^^^^
+6.4 Rate the processing
+""""""""""""""""""""""""
 
 .. important::
  We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment is important for further improvement of the Mapflow AI models. We review all the user's feedback and get back to you if any issues.
@@ -401,8 +401,8 @@ Rate the processing
      :width: 15cm
      :class: with-border
 
-Share the results
-^^^^^^^^^^^^^^^^^^^^
+6.5 Share the results
+"""""""""""""""""""""
 
 You can share your project with the external users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email.
 
@@ -418,8 +418,8 @@ You can share your project with the external users for the view-only access. Go 
   To upgrade project sharing rights and provide your collaborators with the editor's access you need to switch to the :ref:`Team accounts`
 
 
-Interact with the processing results
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7. Use the processing results
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Processing menu includes the items as follows:
 
@@ -436,7 +436,8 @@ The Processing menu includes the items as follows:
 .. tip::
  If you want to duplicate processing to change some params, like choosing another AI mapping model for the same AOI - use Duplicate
 
-1. Download GeoJSON.
+7.1 Download GeoJSON
+""""""""""""""""""""
 
 Allows to download results as a file in GeoJSON format.
 
@@ -455,15 +456,15 @@ Allows to download results as a file in GeoJSON format.
 
 |
 
-3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using this embedded app. It is a simple but powerful tool for geospatial data visualization and analysis.
+.. 3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using this embedded app. It is a simple but powerful tool for geospatial data visualization and analysis.
 
- .. image:: _static/kepler_gl.png
-   :alt: Preview map
-   :align: center
-   :width: 15cm
+..  .. image:: _static/kepler_gl.png
+..    :alt: Preview map
+..    :align: center
+..    :width: 15cm
 
 
-You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
+.. You can find detailed information about Kepler.gl in their `user manual <https://docs.kepler.gl/docs/user-guides/j-get-started>`_.
 
 
 Working with API
