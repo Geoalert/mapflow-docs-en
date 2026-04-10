@@ -1073,7 +1073,7 @@ Searches satellite imagery from external providers by area and metadata filters.
    * - ``maxCloudCover``
      - float
      - No
-     - Maximum cloud cover (0.0-1.0)
+     - Maximum cloud cover (0.0-100)
    * - ``minOffNadirAngle``
      - float
      - No
@@ -1085,7 +1085,7 @@ Searches satellite imagery from external providers by area and metadata filters.
    * - ``minAoiIntersectionPercent``
      - float
      - No
-     - Minimum AOI overlap (0.0-1.0)
+     - Minimum AOI overlap (0.0-100)
    * - ``limit``
      - integer
      - No
@@ -1109,11 +1109,11 @@ Searches satellite imagery from external providers by area and metadata filters.
    * - ``dataProviders``
      - array
      - No
-     - Filter by provider IDs
+     - Filter by provider "name"
    * - ``productTypes``
      - array
      - No
-     - Filter by product types
+     - Filter by product types ``["IMAGE" and/or "MOSAIC"]``
 
 .. warning::
    Search area size is limited by your account's AOI limit.
@@ -1134,7 +1134,7 @@ Searches satellite imagery from external providers by area and metadata filters.
        },
        "acquisitionDateFrom": "2024-01-01T00:00:00Z",
        "acquisitionDateTo": "2024-03-01T00:00:00Z",
-       "maxCloudCover": 0.1,
+       "maxCloudCover": 10.0,
        "maxResolution": 0.5,
        "limit": 10,
        "sortBy": "ACQUISITION_DATE",

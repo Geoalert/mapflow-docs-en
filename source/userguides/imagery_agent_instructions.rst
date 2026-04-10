@@ -186,19 +186,19 @@ The agent MUST collect the following before executing a search:
      - ``acquisitionDateFrom`` and ``acquisitionDateTo`` in ISO 8601 format.
    * - **Max cloud cover**
      - Recommended
-     - 0.0–1.0. Default suggestion: 0.1 (10%) for optical analysis.
+     - 0.0–100. Default suggestion: 10.0 (10%) for optical analysis.
    * - **Max off-nadir angle**
      - Optional
      - Lower values = more vertical (nadir) imagery = less distortion.
    * - **Min AOI intersection**
      - Optional
-     - Minimum overlap between the image footprint and AOI. Default: 0.5 (50%).
+     - Minimum overlap between the image footprint and AOI. Default: 50.0 (50%).
    * - **Resolution**
      - Recommended
      - ``maxResolution`` in m/px. Should match the AI model requirements (see Section 6).
    * - **Product type**
      - Optional
-     - ``Scene`` (single capture) or ``Mosaic`` (pre-composed layer).
+     - ``IMAGE`` (single capture) or ``MOSAIC`` (pre-composed layer).
 
 **4.2.1 Historical Imagery Search**
 
@@ -214,8 +214,8 @@ For tasks requiring specific past conditions (change detection, damage assessmen
         "aoi": { <GeoJSON Polygon> },
         "acquisitionDateFrom": "2024-01-01T00:00:00Z",
         "acquisitionDateTo": "2024-06-01T00:00:00Z",
-        "maxCloudCover": 0.1,
-        "maxResolution": 0.5,
+        "maxCloudCover": 10.0,
+        "maxResolution": 50.0,
         "limit": 20,
         "sortBy": "ACQUISITION_DATE",
         "sortOrder": "DESC"
@@ -223,11 +223,16 @@ For tasks requiring specific past conditions (change detection, damage assessmen
 
 3. Present results to user (see Section 5).
 
+.. note::
+  By default, the search is performed for ALL providers existing on the platform. Thus, the search results may contain images that are not available to the user for processing. Image availability means that ``imagejson.providerName in /user/status.searchDataProviders[]``.
+
+  ``"hideUnavailable": true`` filter can be provided to ensure that the results include only images available for processing.
+
 **4.2.2 Imagery Basemap with Date Filter**
 
 For tasks that need generally recent imagery but with date awareness (e.g., "Show me imagery from 2023 for this area"):
 
-1. Search mosaics (``productTypes: ["Mosaic"]``) filtered by the AOI and date.
+1. Search mosaics (``productTypes: ["MOSAIC"]``) filtered by the AOI and date.
 2. The Global Mosaic and ArcGIS metadata can be searched to identify when specific tiles were captured.
 3. Present results with acquisition dates.
 
