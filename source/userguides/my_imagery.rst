@@ -38,8 +38,8 @@ The basic scenario of working with "My imagery" service is as follows:
     3. Upload your images to the collection
     4. Start processing with Mapflow using the whole Imagery collection or the specific image. With both methods, you can limit the processing area by applying an AOI.
 
-.. warning::
-     There are two main **restrictions on uploading images** in the free plan - the image should be no more than *1 GB* and no more than *30,000 pixels* by the side. We have no other restrictions on uploading to the collection, but it is important that each uploaded image has the SAME parameters as the rest of the images in the collection (pixel size, number of bands, georeference). For example, two images with pixel sizes of 10 cm and 1 m cannot be added to the same Imagery collection.
+.. important::
+     Main image upload restrictions and limits are listed in :ref:`Requirements for using the platform <Upload restrictions>`.
 
 .. note::
      Read how to use it in detail in :ref:`Mapflow QGIS plugin <My imagery qgis>`.
