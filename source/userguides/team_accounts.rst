@@ -6,7 +6,7 @@ Team accounts
 
 Users can switch to a Team account to invite collaborators, share projects and manage credit limits.
 
-Once the Team is created, the creator (Team Admin) can invite new members and assign their limits. The Team profile is accessible only to the Team Admin.
+Once the Team is created, the creator (Team Admin) can invite new members and assign their limits. The Team profile is accessible to all Team members, but only the Team Admin can manage it (set limits, update, or delete the Team).
 
 .. note::
    We highly encourage you to switch to the Team account if you are looking forward to working with other coworkers and managing multiple projects. Feel free to contact our support, so we can assist you in setting up a Team workflow.
@@ -47,10 +47,10 @@ Managing Team balance
 As soon as one creates a Team, his credit balance becomes the Team balance and is available for assignment to Team members, including the Team Admin himself.
 This means the Admin has to assign and manage all the limits, including himself, within the remaining balance.
 
-.. image:: _static/team/team_balance.jpg
+.. image:: _static/team/team_balance.png
       :alt: create a team
       :align: center
-      :width: 15cm
+      :width: 18cm
       :class: with-border no-scaled-link
 
 
@@ -58,6 +58,16 @@ This means the Admin has to assign and manage all the limits, including himself,
    1. Team balance
    2. Personal balance
    3. Team user assigned balance
+
+When assigning limits, keep in mind that when a team is created, its balance becomes the Owner's balance. Therefore, if you do not reduce the Owner's limit, the amount of "Unallocated credits" will remain zero, and it will not be possible to assign limits to other team members. See below for how this works in practice:
+
+.. image:: _static/team/team_limits_update.gif
+   :alt: team limits
+   :align: center
+   :width: 19cm
+   :class: with-border no-scaled-link
+
+|
 
 .. note::
    If your Team account is switched to area-based billing, the only difference is that the balance is assigned in sq. km.
