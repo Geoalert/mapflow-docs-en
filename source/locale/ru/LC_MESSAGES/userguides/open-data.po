@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/open-data.rst:2 8ccccd43c0f94e28a969c6c949f6fe2c
+msgid "Download Open Data"
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:4 7646bfdcf9db4dc2b40ee0781021fb6d
+msgid ""
+"In Mapflow, you can download open mapping data from OpenStreetMap and "
+"Overture Maps. This pipeline **does not use any AI model**. It is "
+"designed to support your mapping projects with community-maintained open "
+"data."
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:7 80ed4f7c997942718acf5a52c11cc7c8
+msgid "Select one or more semantic classes and run the workflow."
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:9 ef1e647da7ea467aa63613a33635ae60
+msgid "**Run the pipeline**"
+msgstr ""
+
+#: 3efb927e6705450ab78c183836b21b2c 6f759bb33fad43c2bc5a72a6cd61ee2d
+msgid "Example result of the Open Data pipeline"
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:17 715f5bafa20a4c67ab59a68e14d90c1c
+msgid "**Get the results and the image preview (in Web app or QGIS project)**"
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:26 e043208df65f4f8abc063249b286ffaa
+msgid ""
+"Results depend on the availability and completeness of open mapping data "
+"in your area of interest. You can use it alongside AI-mapping results as "
+"a complementary source."
+msgstr ""
+
+#: ../../source/userguides/open-data.rst:29 9dc0d7f85e1c4958a9355fa4d4baea72
+msgid ""
+"You have to select an image source the same way as for AI-mapping "
+"pipelines. Note that the results may not be well aligned with the image, "
+"because the data comes from an external open data source. The image is "
+"provided only for visual reference, so you can decide whether you need to"
+" apply edits or run a Mapflow model to complement the results."
+msgstr ""
+

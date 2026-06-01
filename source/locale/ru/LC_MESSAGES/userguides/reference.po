@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/reference.rst:2 b35f7074558b4dc3af95bfb942daa297
+#: ../../source/userguides/reference.rst:2 6dd46857509c4a429c14bb29adbb5751
 msgid "Reference on using the platform"
 msgstr "Справочная информация по использованию платформы"
 
-#: ../userguides/reference.rst:6 ccdd03077ce34056b7ca9ef09fcd4b7f
+#: ../../source/userguides/reference.rst:6 16faf7ae6b7a4eb0bcbb085fc5ff2757
 msgid ""
 "This document outlines the requirements for using the Mapflow platform, "
 "including supported data formats, preprocessing steps, and model-specific"
@@ -34,33 +34,34 @@ msgstr ""
 "включая поддерживаемые форматы данных, этапы предобработки и рекомендации"
 " по работе с моделями."
 
-#: ../userguides/reference.rst:9 fbfe44ba07ee4fbc9c7643fa4ec3eb71
+#: ../../source/userguides/reference.rst:9 a1a755fb10d64dd594d10a43d413134e
 msgid "Requirements for using the platform"
 msgstr "Требования к использованию платформы"
 
-#: ../userguides/reference.rst:12 15482e1cfc87429697145080f591483b
+#: ../../source/userguides/reference.rst:14 ae811642f0e34c838dd960acb91189c9
 msgid "Upload GeoTIFF requirements"
 msgstr "Требования к загрузке GeoTIFF"
 
-#: ../userguides/reference.rst:14 f50fd3e2f6c34a108af53f695d6b8b61
+#: ../../source/userguides/reference.rst:16 c7fbc95bfb96483cb20fa7318910055d
 msgid "Please pay attention to the following:"
 msgstr "Обратите внимание на следующее:"
 
-#: ../userguides/reference.rst:16 97b5bb8a20ba4da6b270e6ee07c50cbd
+#: ../../source/userguides/reference.rst:18 9d9f5b5de6ae45ab84b80a0689a44c7a
 msgid ""
 "Images you upload are preprocessed in `Uint8` format. If your image is "
-"not of this type and you want to preview it manually bafore uploading to "
+"not of this type and you want to preview it manually before uploading to "
 "the Mapflow server, please use our `image preprocessing script "
 "<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools"
 " to translate it to the appropriate format;"
 msgstr ""
 "Загружаемые изображения обрабатываются в формате `Uint8`. Если ваше "
-"изображение другого типа и вы хотите предварительно просмотреть его перед"
-" загрузкой на сервер Mapflow, используйте наш `скрипт предобработки "
-"изображений <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ "
-"или другие инструменты для преобразования в соответствующий формат;"
+"изображение другого типа и вы хотите предварительно просмотреть его "
+"перед загрузкой на сервер Mapflow, используйте наш `скрипт "
+"предобработки изображений "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ "
+"или другие инструменты для преобразования в нужный формат;"
 
-#: ../userguides/reference.rst:17 0af9b610d2064603981271c54406a890
+#: ../../source/userguides/reference.rst:19 3fe6de51ac9d41b18466d57f3e948d64
 msgid ""
 "Your image must be georeferenced in geographic or projected coordinate "
 "system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;"
@@ -69,32 +70,57 @@ msgstr ""
 "системе координат, эллипсоид WGS84, рекомендуется использовать UTM или "
 "Web Mercator;"
 
-#: ../userguides/reference.rst:18 6d269757a47e41e6ad25c53bfb04d929
+#: ../../source/userguides/reference.rst:20 48de5258da2142578f8183cfdc1721f0
+#, fuzzy
 msgid ""
-"Your image is supposed to be RGB composite, RGBa and Singleband will work"
-" as well*;"
-msgstr ""
-"Ваше изображение должно быть RGB композитом, RGBa и одноканальные "
-"изображения также будут работать*;"
-
-#: ../userguides/reference.rst:19 84cad41cad0f41ef81a4cd917a26cee4
-msgid ""
-"The default limit for file size is 1 Gb for free users. If you have a "
-"bigger file – reduce its size or consider switching to the paid plan;"
+"The default limit for file size is ``1 Gb`` for free users. If you have a"
+" bigger file – reduce its size or consider switching to the paid plan;"
 msgstr ""
 "Ограничение размера файла по умолчанию составляет 1 Гб для бесплатных "
 "пользователей. Если у вас файл большего размера – уменьшите его или "
 "рассмотрите возможность перехода на платный план;"
 
-#: ../userguides/reference.rst:20 ba35cec87876458fa14b80d979ca9cce
+#: ../../source/userguides/reference.rst:21 f2e3aaa0eb934100bf2a124cdf018d10
+msgid "Your image should be RGB composite, RGBa or Singleband;"
+msgstr "Изображение должно быть RGB-композитом, RGBa или однополосным изображением;"
+
+#: ../../source/userguides/reference.rst:22 f1f1567a23f54c2eaa3ad713d45f4a48
+msgid "Maximum image dimensions: ``65535 px`` per side;"
+msgstr "Максимальные размеры изображения: ``65535 px`` на сторону;"
+
+#: ../../source/userguides/reference.rst:23 fb0d2325484a4abe8064c4160598dc5d
+msgid "Pixel size must not exceed ``20 m/px``;"
+msgstr "Размер пикселя не должен превышать ``20 м/пикс.``;"
+
+#: ../../source/userguides/reference.rst:24 ffe9e6cf3e4042f1834d3d82d800d971
+msgid ""
+"Images with a pixel size less than ``10 cm/px`` will be resampled to this"
+" resolution;"
+msgstr ""
+"Изображения с размером пикселя меньше ``10 см/пикс.`` будут пересамплированы до "
+"данного разрешения;"
+
+#: ../../source/userguides/reference.rst:25 c7946e3644a340f78b75ed6a3182e672
+msgid "All images within a collection must have the same number of bands;"
+msgstr "Все изображения в коллекции должны иметь одинаковое количество каналов;"
+
+#: ../../source/userguides/reference.rst:26 a4ed767829fa4532b3ff25854da19c80
+msgid ""
+"Uploaded image will be reprojected and resampled to match the CRS and GSD"
+" (pixel size) of other images in collection;"
+msgstr ""
+"Загруженное изображение будет перепроецировано и пересамплировано для "
+"соответствия CRS и GSD (размер пикселя) других изображений в коллекции;"
+
+#: ../../source/userguides/reference.rst:27 c665b048a3ba4dd19369218aa7f22c8a
 msgid ""
 "Each Mapflow model has its recommendations for the spatial resolution of "
-"the input data, see :ref:`Model requirements` below"
+"the input data, see :ref:`Model_requirements` below."
 msgstr ""
 "Каждая модель Mapflow имеет свои рекомендации по пространственному "
-"разрешению входных данных, см. :ref:`Model requirements` ниже"
+"разрешению входных данных, см. :ref:`Model_requirements` ниже."
 
-#: ../userguides/reference.rst:22 59980564e9034f84871d833133bbf48f
+#: ../../source/userguides/reference.rst:29 5696086161114bf8804f98d477af1fe8
 msgid ""
 "In case of non-compliance with any requirements, the system reports an "
 "error. If you are using Mapflow Web or Mapflow QGIS plugin, the error "
@@ -106,11 +132,11 @@ msgstr ""
 "ошибках отображаются в пользовательском интерфейсе. Подробнее см. "
 ":doc:`описание ошибок <../api/error_messages>`."
 
-#: ../userguides/reference.rst:29 6a0f362d3bf3470ab0310ea28af5474a
+#: ../../source/userguides/reference.rst:36 34064e2a388044b2bfc70b37954f7d38
 msgid "Model requirements"
 msgstr "Требования к моделям"
 
-#: ../userguides/reference.rst:31 7e6f6a5563084a7b8d00ca40858b8271
+#: ../../source/userguides/reference.rst:38 493f3bbe8e524c32adc12e6ad0f9389c
 msgid ""
 "The table below lists model requirements for spatial resolution of the "
 "input imagery."
@@ -118,7 +144,7 @@ msgstr ""
 "В таблице ниже перечислены требования моделей к пространственному "
 "разрешению входных изображений."
 
-#: ../userguides/reference.rst:33 c0990125eb74427ca759ecd7ba9f8c75
+#: ../../source/userguides/reference.rst:40 13607b679c7046f29cbb11879c9b11dc
 msgid ""
 "**\"Required\"** means that the imagery with resolution outside of this "
 "range will be rejected from processing and the request will fail."
@@ -126,7 +152,7 @@ msgstr ""
 "**\"Обязательно\"** означает, что изображения с разрешением вне этого "
 "диапазона будут отклонены от обработки и запрос завершится ошибкой."
 
-#: ../userguides/reference.rst:36 9bbb67d8ebb94e798a0ec32c3bd73629
+#: ../../source/userguides/reference.rst:43 9ec90f8bd76e4e2fac5fa5e24a0e31ef
 msgid ""
 "**\"Recommended\"** means that the model is fit specifically for this "
 "spatial resolution. Any images of higher resolution will be downsampled "
@@ -143,7 +169,7 @@ msgstr ""
 " но результаты не будут такими хорошими, как для рекомендуемого "
 "разрешения."
 
-#: ../userguides/reference.rst:41 15160e9aae8643efb2b48770354b91a0
+#: ../../source/userguides/reference.rst:48 6f3f8110716b440f9ab9741500488849
 msgid ""
 "GSD is specified in `UTM coordinate system "
 "<https://proj4.org/en/9.2/operations/projections/utm.html>`_, and may not"
@@ -155,7 +181,7 @@ msgstr ""
 "соответствовать тому, что вы видите как \"размер пикселя\", если система "
 "координат вашего изображения отличается."
 
-#: ../userguides/reference.rst:44 428a50fb844b49078588537fe6482d68
+#: ../../source/userguides/reference.rst:51 1b257334223c4bb989d1e9f1351afca9
 msgid ""
 "`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about "
 "zoom and spatial resolution of imagery basemaps."
@@ -163,36 +189,37 @@ msgstr ""
 "`Узнать больше <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_ о "
 "масштабах и пространственном разрешении базовых карт изображений."
 
-#: ../userguides/reference.rst:50 dc36ea07d5da47d5ae9fd463a5eab123
+#: ../../source/userguides/reference.rst:57 d59b81969d9242adb75ab7123ac8d150
 msgid "Model"
 msgstr "Модель"
 
-#: ../forest/_static/csv/classes_forest.csv:1 ../userguides/reference.rst:51
-#: 017e0214c468436f8e6936a4f3017578 fb4b7e9267874b609d2c9f902c0fe8fb
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: ../../source/userguides/reference.rst:58 315347eef1db47c7b702ab590e1b1c57
+#: d7265a4f44854190af6916c638a8b827
 msgid "Description"
 msgstr "Описание"
 
-#: ../userguides/reference.rst:52 4871b0079f4e465faa9bdb4930b51d21
+#: ../../source/userguides/reference.rst:59 4e7b173d5be949a88240aa1d7362989f
 msgid "Recommended zoom"
 msgstr "Рекомендуемый масштаб"
 
-#: ../userguides/reference.rst:53 3c5363c5d9134724843c96b08ffefee0
+#: ../../source/userguides/reference.rst:60 439a2141bf74494d929b02d9500d77a9
 msgid "Recommended GSD m/px"
 msgstr "Рекомендуемое GSD м/пикс"
 
-#: ../userguides/reference.rst:54 7a75f560034b41e5986cf6fa3e763ef4
+#: ../../source/userguides/reference.rst:61 61d4efd75ae14defad3c72e73042685f
 msgid "Required zoom range"
 msgstr "Обязательный диапазон масштаба"
 
-#: ../userguides/reference.rst:55 24870554e6624ffd8fcef5174363cd39
+#: ../../source/userguides/reference.rst:62 8500903a337649f98f3abef961228d10
 msgid "Required GSD range, m/px"
 msgstr "Обязательный диапазон GSD, м/пикс"
 
-#: ../userguides/reference.rst:56 d0761e5e99e4445bb393ec4f6001cb95
+#: ../../source/userguides/reference.rst:63 c929945763344d838824624ab90302ad
 msgid "Buildings"
 msgstr "Здания"
 
-#: ../userguides/reference.rst:57 6da3a33c13194489870434b398e352b0
+#: ../../source/userguides/reference.rst:64 d471ba03abcd48859472e42f8f0fd478
 msgid ""
 "Extract roof contours, with optional classification, simplification and "
 "height estimation"
@@ -200,93 +227,49 @@ msgstr ""
 "Извлечение контуров крыш, с опциональной классификацией, упрощением и "
 "оценкой высоты"
 
-#: ../userguides/reference.rst:58 ../userguides/reference.rst:76
-#: ../userguides/reference.rst:82 ../userguides/reference.rst:88
-#: ../userguides/reference.rst:94 27496bbca0864b4cb1f48026e5f26c4c
-#: 450aa1f942c44092813219b49f24d2d2 7a54c6e1aaee4c93a4a95f1e41d18ef1
-#: 8cd7863c288e4052adfe83cc8d139aff 99abd99bdbc240fda0823989bb6d9437
+#: ../../source/userguides/reference.rst:65
+#: ../../source/userguides/reference.rst:71
+#: ../../source/userguides/reference.rst:77
+#: ../../source/userguides/reference.rst:85
+#: ../../source/userguides/reference.rst:89
+#: ../../source/userguides/reference.rst:95 69056c374a4d4678989fec538a9475c7
+#: 6ff32338db004e60af8a92dfa00cd57e 7a2e163ac4c44e2299819fec0e85fc03
+#: a0e23ffff1d844bc890118245b71f739 b7e7e195e76d487aae1c2b144d8c3893
+#: fc9a24594166471c845da2a8c4a95292
 msgid "18"
 msgstr ""
 
-#: ../userguides/reference.rst:59 ../userguides/reference.rst:77
-#: ../userguides/reference.rst:83 ../userguides/reference.rst:89
-#: ../userguides/reference.rst:95 7caae051abd1458b8bfcd5d1b61493a9
-#: cf9335d8068945ad873c4f9ccd035292 d54a1b367d3f41f1a802237c686b9c61
-#: ef6cc9a864c6420f8cdcbafc83d97e94 ffec1d83479f44b9aaf0b9ba5d766984
+#: ../../source/userguides/reference.rst:66
+#: ../../source/userguides/reference.rst:72
+#: ../../source/userguides/reference.rst:78
+#: ../../source/userguides/reference.rst:86
+#: ../../source/userguides/reference.rst:90
+#: ../../source/userguides/reference.rst:96 1959986b539645f3994de3e4374f5fb4
+#: 2bf30dc672814baa81dc55882fdc709d 513b1f3583e6435f870eda30a7c34620
+#: dd337bea3c4e4de6a262d802d266e768 de93e4788e324baab99f6d4deee98c81
+#: fe9bfdea9d5e478990b273bbcc0f870a
 msgid "0.5"
 msgstr ""
 
-#: ../userguides/reference.rst:60 ../userguides/reference.rst:78
-#: ../userguides/reference.rst:84 ../userguides/reference.rst:90
-#: ../userguides/reference.rst:96 005a61f923414431b767964e4859ddf7
-#: 18aef36b4ff24fa097ff43d5ceb3f46e 9dc604e33231464aac213df2f04d9f6b
-#: b1b1332360094d77be1bd5c9125eb67c ba226e535ab24b07a260c968f2bd42a8
+#: ../../source/userguides/reference.rst:67
+#: ../../source/userguides/reference.rst:73
+#: ../../source/userguides/reference.rst:79
+#: ../../source/userguides/reference.rst:91
+#: ../../source/userguides/reference.rst:97 4b8238d3d55d4ca9a3739a2cd8b9168d
+#: 94b8905db47440b48e62728b98ede503 b8f97c0338f74ae4ae160d24054d3644
+#: c92817b2e7f744878e6bacece3c5c0f8 d0d0378b135f41f086804d24007e26ba
 msgid "17 – 18"
 msgstr ""
 
-#: ../userguides/reference.rst:61 8e3892be7823430390d6f5f692093ecb
-msgid "0.3 - 1.5"
-msgstr ""
+#: ../../source/userguides/reference.rst:68 58889508ffe3454388ccd9b4ba8fc01b
+msgid "0.1 - 1.5"
+msgstr "0.1 - 1.5"
 
-#: ../userguides/reference.rst:62 505ea091bec54aac9940bd30c2117217
-#, fuzzy
-msgid "High-density housing"
-msgstr "Плотная застройка [только Mapflow Web]"
-
-#: ../userguides/reference.rst:63 db74c1a1760c4e7f8520b682b8287471
-msgid ""
-"Extraction and instance detection of the building roofprints in the areas"
-" of high density housing"
-msgstr ""
-"Извлечение и обнаружение отдельных контуров крыш зданий в районах плотной"
-" застройки"
-
-#: ../userguides/reference.rst:64 37d14ab7d71243709ebbb7eab1c7c44e
-msgid "19"
-msgstr ""
-
-#: ../userguides/reference.rst:65 85a7035ac95f4e5dbd70e2b60cbad143
-msgid "0.3"
-msgstr ""
-
-#: ../userguides/reference.rst:66 089781377dd54515b172fa476ec95092
-msgid "18-19"
-msgstr ""
-
-#: ../userguides/reference.rst:67 3e7dd225002d4f49a0547be82f7159e6
-msgid "0.15 - 1.2"
-msgstr ""
-
-#: ../userguides/reference.rst:68 f9cfe14fc85b4c94919956cf00655d32
-msgid "Buildings (Aerial imagery)"
-msgstr "Здания (Аэрофотосъемка)"
-
-#: ../userguides/reference.rst:69 40eb5c5fe1ed4cecb3319d6f1194158e
-#, fuzzy
-msgid "Extract roof contours (rooftops) from very high-resolution aerial imagery"
-msgstr "Извлечение контуров крыш из аэрофотоснимков очень высокого разрешения"
-
-#: ../userguides/reference.rst:70 9875d38bb6004e0f9b920329ba65bbbd
-msgid "20"
-msgstr ""
-
-#: ../userguides/reference.rst:71 c9794f4bc4da4e31a2f7dc822ea378e2
-msgid "0.1"
-msgstr ""
-
-#: ../userguides/reference.rst:72 66dfa2006e7141ba865b40077c4923eb
-msgid "20-21"
-msgstr ""
-
-#: ../userguides/reference.rst:73 62c80612d71f466287243680df2ddc52
-msgid "0.05-0.4"
-msgstr ""
-
-#: ../userguides/reference.rst:74 c812536a072f400cb22eae20d425a6aa
+#: ../../source/userguides/reference.rst:69 f7b59989b8ab42c79c0e188a44709c56
 msgid "Forest"
 msgstr "Лес"
 
-#: ../userguides/reference.rst:75 f5a1edf3e3b14204a6c1e618c0db618c
+#: ../../source/userguides/reference.rst:70 0bd1bda85ed546849ac687020713515e
 msgid ""
 "Extract segmentation masks of forested areas from high-resolution RGB "
 "images"
@@ -294,41 +277,62 @@ msgstr ""
 "Извлечение масок сегментации лесных участков из RGB-изображений высокого "
 "разрешения"
 
-#: ../userguides/reference.rst:79 ../userguides/reference.rst:85
-#: ../userguides/reference.rst:97 39940c9f9379465d8706b091ad7cdb8e
-#: 4504bd00ab64431293673bcf52eecb86 715871bd14134dccb0aed7645ddf33e6
-msgid "0.3 - 2.0"
-msgstr "0.3 - 2.0"
+#: ../../source/userguides/reference.rst:74
+#: ../../source/userguides/reference.rst:80
+#: ../../source/userguides/reference.rst:98 8cc838e5caab4c6ebb135142a6cdd584
+#: b3a2fda4779c460ebeada478dc9e1399 d106de2afe8742f79fe0be9748447ab7
+msgid "0.1 - 2.0"
+msgstr "0.1 - 2.0"
 
-#: ../userguides/reference.rst:80 93ac081e6c334b2399681c335ead91c1
-msgid "Forest with heights"
-msgstr ""
+#: ../../source/userguides/reference.rst:75 fc4bef29d1eb4b0f99ba922c5cb6d9c1
+msgid "Forest Heights"
+msgstr "Высоты леса"
 
-#: ../userguides/reference.rst:81 629cb40023ec4f4abde84c7ecfb49de6
+#: ../../source/userguides/reference.rst:76 6aafba66cff146ccbf44b0ca5434ee50
 msgid ""
-"Extract segmentation masks of forested areas from high-resolution RGB "
-"images with separation by height classes"
+"Classiy masks of forested areas by height classes based on predefined "
+"thresholds"
 msgstr ""
-"Извлечение масок сегментации лесных участков из RGB-изображений высокого "
-"разрешения с разделением по классам высот"
+"Классификация масок лесных участков по классам высот согласно заданным пороговым "
+"значениям"
 
-#: ../userguides/reference.rst:86 6f7a4a2a3c194d7aa2486580edc72f66
+#: ../../source/userguides/reference.rst:81 817da7f39bdc42729538a48ecb9861e7
+msgid "Tree crowns"
+msgstr "Кроны деревьев"
+
+#: ../../source/userguides/reference.rst:82 d6a24ae80ed0462785524af03bf53e58
+msgid ""
+"Extract segmentation masks of tree crowns. Optionally converts to points "
+"or polygons."
+msgstr ""
+"Извлечение масок сегментации крон деревьев. Опционально преобразуется в точки или "
+"полигоны."
+
+#: ../../source/userguides/reference.rst:83 02d8e749ea6d4a36a38541deecaade02
+msgid "19"
+msgstr ""
+
+#: ../../source/userguides/reference.rst:84 1bd5c65b06f541c5aa131971d98d4baf
+msgid "0.3"
+msgstr ""
+
+#: ../../source/userguides/reference.rst:87 785b71277d5b49f39c6ae9d984b3f9a4
 msgid "Roads"
 msgstr "Дороги"
 
-#: ../userguides/reference.rst:87 d023093fab1645c9a2b84ebe3f54033c
+#: ../../source/userguides/reference.rst:88 b6287e1ae9d246dea6fe2fe2cb0c5ed7
 msgid "Extract road mask from high-resolution satellite imagery"
 msgstr "Извлечение маски дорог из спутниковых снимков высокого разрешения"
 
-#: ../userguides/reference.rst:91 459ad051352c40aaad392d0457e7a309
-msgid "0.3 - 1.2"
-msgstr "0.3 - 1.2"
+#: ../../source/userguides/reference.rst:92 9da2d9e213cc4705bbaf59254a0914b4
+msgid "0.1 - 1.2"
+msgstr "0.1 - 1.2"
 
-#: ../userguides/reference.rst:92 e3d2def6fd754882b1a2a4b65be1d4d6
+#: ../../source/userguides/reference.rst:93 e3e9c22d4c9140b4b3ad53169871ce17
 msgid "Constructions"
 msgstr "Стройки"
 
-#: ../userguides/reference.rst:93 b8cad69b9592428d995bcff421a5f12e
+#: ../../source/userguides/reference.rst:94 6c02a7992a504d3d9adff69af2cc5050
 msgid ""
 "The model highlights areas in the satellite image that contain "
 "construction sites and buildings under construction"
@@ -336,35 +340,7 @@ msgstr ""
 "Модель выделяет области на спутниковом снимке, содержащие строительные "
 "площадки и здания в стадии строительства"
 
-#: ../userguides/reference.rst:98 84a8c9851ff046ccb3d46da990c15ea6
-msgid "Agriculture fields"
-msgstr "Сельскохозяйственные поля"
-
-#: ../userguides/reference.rst:99 b6179056b2f64a24a1d6c08fe37bc44c
-msgid ""
-"Extraction and instance separation of agriculture fileds from high-"
-"resolution satellite imagery"
-msgstr ""
-"Извлечение и разделение на отдельные объекты сельскохозяйственных полей "
-"из спутниковых снимков высокого разрешения"
-
-#: ../userguides/reference.rst:100 9077cf95032744a2a22fb87395854933
-msgid "17"
-msgstr ""
-
-#: ../userguides/reference.rst:101 c3fdd9d25fab46fda79c61c46055a332
-msgid "1.2"
-msgstr ""
-
-#: ../userguides/reference.rst:102 792c1538eae1495594bf8acfdae7f118
-msgid "15-17"
-msgstr ""
-
-#: ../userguides/reference.rst:103 0ab4387785b0459ab85d56ca12f9d119
-msgid "0.5-4.8"
-msgstr ""
-
-#: ../userguides/reference.rst:105 9346e7a98e1741aa951f20d72e662ade
+#: ../../source/userguides/reference.rst:100 93c8bdf126bf4f68a40c3de94238d433
 msgid ""
 "\\* Mapflow.ai can also process single-band (panchromatic) imagery, but "
 "the NN models are not tuned for such kind of data, so the quality of the "
@@ -374,11 +350,11 @@ msgstr ""
 "изображения, но нейросетевые модели не настроены для таких данных, "
 "поэтому качество результата может быть хуже ожидаемого."
 
-#: ../userguides/reference.rst:108 91ba185f524848e196f2abe2f3fec0e8
+#: ../../source/userguides/reference.rst:103 5a80f83952824b6ab237a9ea31e60112
 msgid "Forest mapping classes"
 msgstr "Классы картографирования лесов"
 
-#: ../userguides/reference.rst:110 a9d8c8583be147e8bd3c9be04a9b9a2f
+#: ../../source/userguides/reference.rst:105 66c541a921f846d48e63632b1a93c733
 msgid ""
 "Here is presented a list of classes for the Forest vegetation Mapping "
 "Model. There are two options for forest semantic classification:"
@@ -387,7 +363,7 @@ msgstr ""
 "растительности. Существует два варианта семантической классификации "
 "лесов:"
 
-#: ../userguides/reference.rst:113 8b0b795a3004426e891aa26c42011ee1
+#: ../../source/userguides/reference.rst:108 b58e1862241e482e89b92fc60a94011f
 msgid ""
 "Classification by heights – classification of the areas of vegetation and"
 " shrub vegetation by height classes according to the specified "
@@ -402,7 +378,7 @@ msgstr ""
 "объекты, класс высоты указывается в его свойствах. Пороги высот являются "
 "настраиваемыми значениями в конвейере обработки."
 
-#: ../userguides/reference.rst:115 fef8351b8c2a43f8aaa6a14049473ba1
+#: ../../source/userguides/reference.rst:110 9d6ae4937f8c493ead6c845b1a9231ab
 msgid ""
 "Classification by overgrowth density – classification of the area of "
 "vegetation and shrub vegetation into classes according to the density and"
@@ -412,144 +388,171 @@ msgstr ""
 "растительности и кустарников на классы в соответствии с плотностью и "
 "высотой: высокий лес, низкий (растущий) лес, редколесье и кустарник."
 
-#: ../forest/_static/csv/classes_forest.csv:1
-#: ../um/_static/csv/classes_um.csv:1 2d88e3f35e774ed4ba47254928b80628
-#: 6523c10fdf82432590c7af0b927c5a13
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 8a7d60466b0d4de9b55ab30819b7241e f70bd560b6d44cd7b46e3f26aba9c7f2
 msgid "CLASS_ID"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 ebdf0667b1204659a08d79f55f88f965
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: 17e9e271eaff4a49950b969ca4ea6f2d
 msgid "DENSITY"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 645f1e175ed044bea41705a6e9eeb5c0
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: c82e712087d84b11ae981acad1838400
 msgid "00m-04m"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 be8159793daa42c8a9acbc68a7e3b44b
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: a7fcc56f7b0b43c3a2359cc72e7bf847
 msgid "low vegetation"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 d6fff0b67ccb450e8a80dc6f76c5668e
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: f74ec8b11b91490caf9582af12c02067
 msgid "04m-10m"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 657d67f62b494909a75d08a6acb686c0
-#: aba40c70d2fd45b18a5e30127acf5dc7
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: 05c254e238a54a6fa862e7ace0015956 6964add124684aff9417d41e144fbe45
 msgid "dense/sparse"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 12e27b5bcfa14ee9b5e859f29035bf9f
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: 392e55c339504933a53186cddb3d7fbd
 msgid "medium forest"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 2109efe935a44688b43e3aa6f10f074a
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: b5d244e08f684977a71c254eec07d884
 msgid "10m-99m"
 msgstr ""
 
-#: ../forest/_static/csv/classes_forest.csv:1 0e72c67989f74d5fb1eb4a9d6cd21700
+#: ../../source/forest/_static/csv/classes_forest.csv:1
+#: 3f74cc289ec64fe0b8a45fc4f243ff7b
 msgid "high forest"
 msgstr ""
 
-#: ../userguides/reference.rst:127 6f56cb3f50424ce1a4303c1e22752400
-msgid "Urban Mapping classes"
-msgstr "Классы городского картографирования"
+#: ../../source/userguides/reference.rst:126 00f1fdfeeb9b402492964ceb3505844f
+msgid "Buildings mapping classes"
+msgstr "Классы картографирования зданий"
 
-#: ../um/_static/csv/classes_um.csv:1 5b55b78f20694a7692e925fb93563c87
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 2cde0cf8dc0c458898fe48e154ce7444
 msgid "CLASS NAME"
-msgstr ""
+msgstr "НАЗВАНИЕ КЛАССА"
 
-#: ../um/_static/csv/classes_um.csv:1 e53aea385b0a463093ae5eb9e5e8b9bf
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: f2eba73e651a4c71b52ee4cf1f6264fd
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "ОПИСАНИЕ"
 
-#: ../um/_static/csv/classes_um.csv:1 77f75419c85d4e9ba6c1e481ca84e9db
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: a91f68be83814aa6a38a739f18ffd30b
 msgid "OSM refereral tag"
-msgstr ""
+msgstr "Тег OSM"
 
-#: ../um/_static/csv/classes_um.csv:1 644cce3a49894a63bd42e787f5dcc13e
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 6ebca1e7ee5342608b1233b434fc26b4
 msgid "101"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 5f73faaa1f1d431da6201526c6fa766d
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: f161ead4815f442789191e0d0b952345
 msgid "Apartment building"
-msgstr ""
+msgstr "Многоквартирный дом"
 
-#: ../um/_static/csv/classes_um.csv:1 39ec72e8c1e24e809e5dbe88388cde67
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 7f81e5c54a3e4a7b9f543ec6a5c2e7dc
 msgid "Roof footprints of the multistorey apartment buildings"
-msgstr ""
+msgstr "Контуры крыш многоэтажных жилых зданий"
 
-#: ../um/_static/csv/classes_um.csv:1 c8701a2e574344078a481a532b202cbb
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: ad7c4507cf37469fa9896d564db6f7f2
 msgid "building=yes building=residential building=appartments"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 eafc542a6e9e48269f05b7aa1b99b2c5
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 4f58a3a82d7f49489dded561b9e7a868
 msgid "102"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 a72be97b849f41a48e896d4239f96f73
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 03722c7289134c539c044aa9c2dfe01a
 msgid "House"
-msgstr ""
+msgstr "Частный дом"
 
-#: ../um/_static/csv/classes_um.csv:1 f5cb1ffa035541dba4585dbecc773c7f
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: cb969f6cd1674f1d8e5e7f0c7b754e06
 msgid "Mostly private houses (usually represents a single household)"
-msgstr ""
+msgstr "Преимущественно частные дома (как правило, одно домохозяйство)"
 
-#: ../um/_static/csv/classes_um.csv:1 fc687d77aab54bb8a8943e8ffa64b13f
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: f7c98ea9019f43aa927ff9a63a98f7f1
 msgid "building=house building=residential"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 acb34874a2444e8b959a242e25846302
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 9f8dbd1377c744b6b86508743a044e26
 msgid "103"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 720422b19ce3410f81205b4c4adbdca3
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 4a7fe4b70b3942ceb80e160de94904a6
 msgid "Industrial building"
-msgstr ""
+msgstr "Промышленное здание"
 
-#: ../um/_static/csv/classes_um.csv:1 e171e5614f9142a4ba6f9447055a4a8c
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: f9d6ea17452245c08d6fbe80a2437074
 msgid "Mostly industrial (Plants, large hangars, warehouses, etc.)"
-msgstr ""
+msgstr "Преимущественно промышленные объекты (заводы, большие ангары, склады и т.д.)"
 
-#: ../um/_static/csv/classes_um.csv:1 319c4d99ec144afa93d24ad13feeba1c
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 9b88b35014ff4770a8a5e184e54b36c5
 msgid "building=industrial"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 f04ab4c41d24436797c42998178d0f75
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 6b190c3bbc2946f68094b670e4cb3ccc
 msgid "104"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 13f00496f53d430ba4d6d573b1d3bff8
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 03745800b5cd492e83b4cc8830496333
 msgid "Commercial building"
-msgstr ""
+msgstr "Коммерческое здание"
 
-#: ../um/_static/csv/classes_um.csv:1 3a8cc512270f441098dfb214001ac5b8
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 07e4d55390774922aec2e583e63fd7a0
 msgid "Offices, retail, etc."
-msgstr ""
+msgstr "Офисы, торговля и т.д."
 
-#: ../um/_static/csv/classes_um.csv:1 05d2f6f1d3be4966a3dff09a0c65dbdd
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: f50173a28319484baec65c903a7913e4
 msgid "building=commercial"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 d5a5318e99024608be3d1473313ae97f
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: b26f62d97edc4d4f9ecb657ddefd0e9a
 msgid "105"
 msgstr ""
 
-#: ../um/_static/csv/classes_um.csv:1 0f3d43a5eaac457f948b3334afffec57
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 6b20756dbedb48c99907d46181787644
 msgid "Other non-residential buildings"
-msgstr ""
+msgstr "Прочие нежилые здания"
 
-#: ../um/_static/csv/classes_um.csv:1 a15e064cad064a69b80055ee9dec5f92
+#: ../../source/um/_static/csv/classes_um.csv:1
+#: 954b46c107d348b9b6a77c6190a7b308
 msgid "Garages, transformer boxes, small hangars, etc."
-msgstr ""
+msgstr "Гаражи, трансформаторные будки, малые ангары и т.д."
 
-#: ../userguides/reference.rst:140 8ed18833de6c4c5dbaca79383ce74a36
-msgid "Urban Mapping visualization with ArcGIS Online, Carto, and EverGIS online"
-msgstr ""
-"Визуализация городского картографирования с помощью ArcGIS Online, Carto "
-"и EverGIS online"
+#: ../../source/userguides/reference.rst:138 d6924c8f84414c17a7af5695539a3677
+msgid "Buildings Mapping visualization with ArcGIS Online, Carto, etc"
+msgstr "Визуализация результатов картографирования зданий в ArcGIS Online, Carto и др."
 
-#: ../userguides/reference.rst:142 1e23a906bb2643c392e51b7cb6b42154
+#: ../../source/userguides/reference.rst:140 bfc5909525714922bffbeaee9a99e17b
 msgid ""
 "Mapflow Web easily processes imagery and extracts vector objects that can"
 " be downloaded in **GeoJSON** format. We recommend using GeoJSON since it"
@@ -563,7 +566,7 @@ msgstr ""
 "изначально поддерживается веб-картографическими фреймворками (например, "
 "Leaflet или Mapbox) и ГИС-программами, такими как QGIS или ArcGIS Suite."
 
-#: ../userguides/reference.rst:146 0dff6bf97d03450a8737af466934f1b8
+#: ../../source/userguides/reference.rst:144 8aaa3540e03346fcb70125b4827bc8fb
 #, fuzzy
 msgid ""
 "GeoJSON is an open standard format designed for representing simple "
@@ -583,26 +586,27 @@ msgstr ""
 "сохраненными в GeoJSON. Вы можете скачать или \"Открыть с "
 "**geojson.io**\"."
 
-#: ../userguides/reference.rst:155 ../userguides/reference.rst:172
-#: ../userguides/reference.rst:180 ../userguides/reference.rst:188
-#: 5221f7a675e64d50bf230d74c695a288 64eb8ccb09de47fb91f54a577d9485ca
-#: 6ac8bf29c9c74ec0a886158a70be959b 7eea1e37824b4f328351672b820fb26a
-#: f0bc3385b7154a4dace44621d56cea7b
+#: ../../source/userguides/reference.rst:153
+#: ../../source/userguides/reference.rst:170
+#: ../../source/userguides/reference.rst:178 27dc106a23ff48868f52f3c8c4d40efb
+#: 6a7964e9ac8648ef8c6073070c01afff 7518edd42fdf43d39e5ade4d4657649e
+#: 7caf3bb9038b4dfca653927d667c577e
 msgid "Interaction panel"
-msgstr ""
+msgstr "Панель взаимодействия"
 
-#: ../userguides/reference.rst:155 37fc7a12e9b24e9b856b205b29a5b923
+#: ../../source/userguides/reference.rst:153 2c13216cf2a544758ea6c4f00e6c5326
 msgid "Open with geojson.io"
-msgstr ""
+msgstr "Открыть в geojson.io"
 
-#: ../userguides/reference.rst:158 09bcbf7bcaef481897d108b6907d8c89
+#: ../../source/userguides/reference.rst:156 fb9deac4fc68485b970b3e578063d1a8
 msgid ""
 "`Geojson.io <https://geojson.io>`_ allows you to view and save the "
 "results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click"
 " “Save” and select the format in the menu bar."
-msgstr ""
-
-#: ../userguides/reference.rst:165 18fd334e174e41a4829fefa760e60ed2
+msgstr """`Geojson.io <https://geojson.io>`_ позволяет просматривать и сохранять результаты "
+"в другом формате (CSV, KML, TopoJSON, WKT, Shapefile). Нажмите «Сохранить» "
+"и выберите формат в строке меню."
+#: ../../source/userguides/reference.rst:163 ecb79e7613034dcbb250793b9e1cd74b
 msgid ""
 "Using GeoJSON allows you to use only drag&drop to visualize Mapflow "
 "output results in numerous Web-GIS without converting data formats. `See "
@@ -610,19 +614,105 @@ msgid ""
 " a building classification results with ArcGIS online, Carto, and Evergis"
 " online."
 msgstr ""
+"Использование GeoJSON позволяет визуализировать результаты Mapflow в множестве "
+"Web-GIS через простое перетащивание без конвертации форматов. `Смотрите "
+"видео <https://youtu.be/ZG5fVut87ZQ>`_ о том, как загрузить и оформить "
+"результаты классификации зданий в ArcGIS Online, Carto и Evergis Online."
 
-#: ../userguides/reference.rst:172 a1795a3d38494572b3ac5240c92dc165
-msgid "Urban Mapping classes in ArcGIS online"
-msgstr ""
+#: ../../source/userguides/reference.rst:170 aedc9556fdb14b8f9e6892b160f76cbd
+msgid "Building footprints in ArcGIS online"
+msgstr "Контуры зданий в ArcGIS Online"
 
-#: ../userguides/reference.rst:180 1e0536004cd444cfab57accaead175bb
-msgid "Urban Mapping classes in Carto"
-msgstr ""
-
-#: ../userguides/reference.rst:188 12f0520974f141e9ba6b54aa06cfae1a
-msgid "Urban Mapping classes in Evergis Online"
-msgstr ""
+#: ../../source/userguides/reference.rst:178 fe6e9cc557d441a6a7ad8f6c7fc3cb2c
+msgid "Building footprints in Carto"
+msgstr "Контуры зданий в Carto"
 
 #~ msgid "Forest with heights [Mapflow API/QGIS only]"
 #~ msgstr "Лес с высотами [только Mapflow API/QGIS]"
+
+#~ msgid "0.3 - 1.5"
+#~ msgstr ""
+
+#~ msgid "High-density housing"
+#~ msgstr "Плотная застройка [только Mapflow Web]"
+
+#~ msgid ""
+#~ "Extraction and instance detection of the"
+#~ " building roofprints in the areas of"
+#~ " high density housing"
+#~ msgstr ""
+#~ "Извлечение и обнаружение отдельных контуров"
+#~ " крыш зданий в районах плотной "
+#~ "застройки"
+
+#~ msgid "18-19"
+#~ msgstr ""
+
+#~ msgid "0.15 - 1.2"
+#~ msgstr ""
+
+#~ msgid "Buildings (Aerial imagery)"
+#~ msgstr "Здания (Аэрофотосъемка)"
+
+#~ msgid ""
+#~ "Extract roof contours (rooftops) from "
+#~ "very high-resolution aerial imagery"
+#~ msgstr "Извлечение контуров крыш из аэрофотоснимков очень высокого разрешения"
+
+#~ msgid "20"
+#~ msgstr ""
+
+#~ msgid "0.1"
+#~ msgstr ""
+
+#~ msgid "20-21"
+#~ msgstr ""
+
+#~ msgid "0.05-0.4"
+#~ msgstr ""
+
+#~ msgid "Forest with heights"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extract segmentation masks of forested "
+#~ "areas from high-resolution RGB images"
+#~ " with separation by height classes"
+#~ msgstr ""
+#~ "Извлечение масок сегментации лесных участков"
+#~ " из RGB-изображений высокого разрешения с"
+#~ " разделением по классам высот"
+
+#~ msgid "Agriculture fields"
+#~ msgstr "Сельскохозяйственные поля"
+
+#~ msgid ""
+#~ "Extraction and instance separation of "
+#~ "agriculture fileds from high-resolution "
+#~ "satellite imagery"
+#~ msgstr ""
+#~ "Извлечение и разделение на отдельные "
+#~ "объекты сельскохозяйственных полей из "
+#~ "спутниковых снимков высокого разрешения"
+
+#~ msgid "17"
+#~ msgstr ""
+
+#~ msgid "1.2"
+#~ msgstr ""
+
+#~ msgid "15-17"
+#~ msgstr ""
+
+#~ msgid "0.5-4.8"
+#~ msgstr ""
+
+#~ msgid "Urban Mapping classes in ArcGIS online"
+#~ msgstr ""
+
+#~ msgid "Urban Mapping classes in Carto"
+#~ msgstr ""
+
+#~ msgid "Urban Mapping classes in Evergis Online"
+#~ msgstr ""
 

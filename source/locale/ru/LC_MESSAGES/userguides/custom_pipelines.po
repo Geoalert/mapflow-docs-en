@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/custom_pipelines.rst:2
+#: bc2221cadc1c484aa67d8dda0862d674
+msgid "Custom Models"
+msgstr ""
+
+#: ../../source/userguides/custom_pipelines.rst:4
+#: 560ed7b59fe142c09df142c4dd8d1530
+msgid "There are several options of model customization in Mapflow."
+msgstr ""
+
+#: ../../source/userguides/custom_pipelines.rst:6
+#: 719357abe6c14d66a11c732e4f940651
+msgid ""
+"You request access to a specific model based on your use case and data, "
+"and we train it for you and connect it to Mapflow."
+msgstr ""
+
+#: ../../source/userguides/custom_pipelines.rst:8
+#: 24f1aa6eb71441799104b9464405fe56
+msgid ""
+"You choose one of the pre-trained models that are not included in the "
+"standard Mapflow pipelines and test it with your data or on your area to "
+"decide if it's applicable or requires additional training."
+msgstr ""
+
+#: ../../source/userguides/custom_pipelines.rst:10
+#: f72b071155a142a3bada0309caddf4ce
+msgid ""
+"You train your own model with custom data and request our support to "
+"connect it to your account to leverage your model with the Mapflow "
+"workflow engine."
+msgstr ""
+
+#: ../../source/userguides/custom_pipelines.rst:12
+#: 584f9ea6812d49a9a8be8caabf5812a8
+msgid ""
+"Below is the list of custom models created for specific use cases and "
+"available in Mapflow by request (to be updated)."
+msgstr ""
+

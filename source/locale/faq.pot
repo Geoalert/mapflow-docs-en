@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../faq.rst:27
 #: d841ff7f2e29487f9b49a3cad5b71f38
-msgid "We support RGB, RGBa, and single-band (panchromatic) images as an input data. Note that models are optimized for RGB, so single-band results may have lower quality. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`. You can access **ArcGIS World Imagery** – which is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. **\"Global mosaic\"** – the basic version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China."
+msgid "We support RGB, RGBa, and single-band (panchromatic) images as an input data. Note that models are optimized for RGB, so single-band results may have lower quality. By default, Mapflow uses the `Mapbox Satellite <https://www.mapbox.com/maps/satellite>`_ satellite mosaic, which primarily consists of imagery from Maxar. These images have a spatial resolution of 0.5m, the georeferencing accuracy is about 3-5m and the age is no more than two years. A complete list of Maxar satellite imagery specifications can be found :download:`here <userguides/_static/_downloads/imagery-basemaps.pdf>`. You can access **ArcGIS World Imagery** – which is a global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. **\"Global mosaic\"** – the pilot version of mosaic of high res imagery (0.75–0.5 m/px) is for year 2022, but the updates are available by request. Preview is limited to zoom 15. Restricted access to the images of some countries, including China."
 msgstr ""
 
 #: ../faq.rst:32
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../faq.rst:34
 #: 4d6dd9e3c350464dab50f91cbdc15759
-msgid "Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuosly working on adding more commercial providers."
+msgid "Yes, the user has the ability to set his own XYZ or TMS layers. To use Google or some other services you should beware of their terms of use. Under the Mapflow commercial plans, we provide commercial providers access, a services that provide basemaps and imagery updates. We are continuously working on adding more commercial providers."
 msgstr ""
 
 #: ../faq.rst:36
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../faq.rst:38
 #: 5f2307d0eb164360887f4a3c8fd1c103
-msgid "Yes, and we keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it."
+msgid "Yes, and we are keen on improving the experience of using your data with the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it."
 msgstr ""
 
 #: ../faq.rst:41
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../faq.rst:54
 #: 4461c65058d64bc99e6df7d55515626e
-msgid "Yes, on the free plan you can upload up to 10 areas in one processing request by using a GeoJSON file with multiple features in the FeatureCollection. Alternatively, you can convert your GeoJSON into *Mulipolygon*."
+msgid "Yes, on the free plan you can upload up to 10 areas in one processing request by using a GeoJSON file with multiple features in the FeatureCollection. Alternatively, you can convert your GeoJSON into *Multipolygon*."
 msgstr ""
 
 #: ../faq.rst:57
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../faq.rst:88
 #: c48aecaa83de4708a24596ef4ea6eda4
-msgid "**What are the limots for my data?**"
+msgid "**What are the limits for my data?**"
 msgstr ""
 
 #: ../faq.rst:90
@@ -263,5 +263,5 @@ msgstr ""
 
 #: ../faq.rst:114
 #: ed807615389749239a29d7164d01b1cc
-msgid "You can ask your question on the Mapflow website in the online chat, where we will try to answer your questions in real time. Also, you are welcome to write to us at `help@geoalert.io <mailto:help@geoalert.io>`_."
+msgid "You can ask your question on the Mapflow website in the online chat, where we will try to answer your questions in real time. Also, you are welcome to write to our support at `help@geoalert.io <mailto:help@geoalert.io>`_."
 msgstr ""

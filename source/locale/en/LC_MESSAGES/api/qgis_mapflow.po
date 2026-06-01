@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -154,8 +154,7 @@ msgstr ""
 
 #: ../api/_static/qgis/processing_controls_panel.csv:1
 #: ../api/qgis_mapflow.rst:217 ../api/qgis_mapflow.rst:565
-#: 0b516d258b91401c9476f83df55f4361 1ec8aa03b8284a2a82d26bd417581f27
-#: 3e36d4b55d84426f84809f4683f97fdb
+#: 0b516d258b91401c9476f83df55f4361 3e36d4b55d84426f84809f4683f97fdb
 msgid "Description"
 msgstr ""
 
@@ -318,8 +317,11 @@ msgid "Project tab"
 msgstr ""
 
 #: ../api/qgis_mapflow.rst:110 0c817341366e42dbbc9c2e5d2f2a3837
-#: 2ace1c427c9d473a86d6d64f9805829f
 msgid "right_arrow"
+msgstr ""
+
+#: ../api/qgis_mapflow.rst:114 0c817341366e42dbbc9c2e5d2f2a3837
+msgid "left_arrow"
 msgstr ""
 
 #: ../api/qgis_mapflow.rst:118 014163db74f44bf38fccfe15e5fb5e69
@@ -408,7 +410,7 @@ msgid "View of the imagery search tab"
 msgstr ""
 
 #: ../api/qgis_mapflow.rst:216 ../api/qgis_mapflow.rst:564
-#: 6453673562dd43068cc289eadfb05682 dacf3e4e2c5945e48d4944bd00cca9e7
+#: dacf3e4e2c5945e48d4944bd00cca9e7
 msgid "Name of the field / button"
 msgstr ""
 
@@ -728,19 +730,21 @@ msgstr ""
 msgid "How to search for specific images in the 🌏 Global mosaic"
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:1 f1c35d05f7f44d0ca36bbd44fc7f3613
-msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#: ../userguides/search_mosaic.rst:1 aaa66d7b26e641599211485c0a3e3c3b
+msgid ""
+"Mapflow Imagery Search enables searching metadata for mosaic providers "
+"(e.g., ArcGIS World Imagery, Global mosaic)."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:4 8990efa2956e4151bcdd5befa3fa8f25
 msgid ""
-"Commercial 🌏 Global mosaic is the annually updated satellite imagery "
-"composite covering most of the World. The mosaic is composed of \"Jilin\""
-" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited "
-"to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global "
-"coverage composed of high and medium resolution satellite imagery and "
-"aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 "
-"years depending on the territory."
+"**🌏 Global mosaic** is the annually updated satellite imagery composite "
+"covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom "
+"14. **🌏 ArcGIS World Imagery** is a provider of the global coverage "
+"composed of high and medium resolution satellite imagery and aerial "
+"imagery, hosted by ESRI. The frequency of updating images is 1-5 years "
+"depending on the territory."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:7 2cf353ec2a11493dbde3b4e023b66f13
@@ -1080,7 +1084,7 @@ msgstr ""
 #: ../api/qgis_mapflow.rst:597 2cc610b29f39496f82bf5970045d951b
 msgid ""
 "Please, follow the requirements specified on the page with "
-":doc:`../userguides/requirements` when uploading your own images to the "
+":doc:`../userguides/reference` when uploading your own images to the "
 "Mapflow platform. If you get the error message while uploading your data,"
 " please check the instruction :doc:`../userguides/howto`."
 msgstr ""
@@ -1135,8 +1139,8 @@ msgstr ""
 
 #: ../api/qgis_mapflow.rst:608 c2ac1021634540009797f2699fb38a6b
 msgid ""
-"The resolution restrictions vary for different models, see :ref:`Model "
-"requirements`"
+"The resolution restrictions vary for different models, see "
+":ref:`Model_requirements`"
 msgstr ""
 
 #: ../api/qgis_mapflow.rst:613 c6a793aa39ee45d3b40542fb179a24c6
@@ -1277,4 +1281,40 @@ msgstr ""
 #: ../api/qgis_mapflow.rst a7921e1b34cd4549ae9c683dacea1585
 msgid "Proxy settings"
 msgstr ""
+
+#~ msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Commercial 🌏 Global mosaic is the "
+#~ "annually updated satellite imagery composite"
+#~ " covering most of the World. The "
+#~ "mosaic is composed of \"Jilin\" Chinese"
+#~ " satellites imagery (RGB, 0.75–0.5 m/px)."
+#~ " The preview is limited to zoom "
+#~ "12. **🌏 ArcGIS World Imagery** is "
+#~ "a provider of the global coverage "
+#~ "composed of high and medium resolution"
+#~ " satellite imagery and aerial imagery, "
+#~ "hosted by ESRI. The frequency of "
+#~ "updating images is 1-5 years depending"
+#~ " on the territory."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please, follow the requirements specified "
+#~ "on the page with "
+#~ ":doc:`../userguides/requirements` when uploading "
+#~ "your own images to the Mapflow "
+#~ "platform. If you get the error "
+#~ "message while uploading your data, "
+#~ "please check the instruction "
+#~ ":doc:`../userguides/howto`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The resolution restrictions vary for "
+#~ "different models, see :ref:`Model "
+#~ "requirements`"
+#~ msgstr ""
 

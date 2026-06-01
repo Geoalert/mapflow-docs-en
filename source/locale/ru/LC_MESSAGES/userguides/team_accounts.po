@@ -29,6 +29,8 @@ msgid ""
 "Users can switch to a Team account to invite collaborators, share "
 "projects and manage credit limits."
 msgstr ""
+"Пользователи могут перейти на командный аккаунт, чтобы приглашать сотрудников, "
+"делиться проектами и управлять лимитами кредитов."
 
 #: ../userguides/team_accounts.rst:9 3ce55f0d2d594419b32ac402c88c8684
 msgid ""
@@ -36,6 +38,8 @@ msgid ""
 " and assign their limits. The Team profile is accessible only to the Team"
 " Admin."
 msgstr ""
+"После создания команды её создатель (администратор) может приглашать новых "
+"участников и назначать их лимиты. Профиль команды доступен только администратору."
 
 #: ../userguides/team_accounts.rst:12 a6c9717ceab14007be7afd63dd55d7fe
 msgid ""
@@ -44,24 +48,29 @@ msgid ""
 "Feel free to contact our support, so we can assist you in setting up a "
 "Team workflow."
 msgstr ""
+"Мы настоятельно рекомендуем перейти на командный аккаунт, если вы планируете "
+"работать с коллегами и управлять несколькими проектами. Обращайтесь в нашу "
+"службу поддержки, и мы поможем вам настроить командный рабочий процесс."
 
 #: ../userguides/team_accounts.rst:16 936165d5fa104d28a63f2f10235ca6ec
 msgid "Create a new Team"
-msgstr ""
+msgstr "Создать новую команду"
 
 #: ../userguides/team_accounts.rst:18 33d397071a3144bb9766c9d94d4e1546
 msgid ""
 "To create a new Team enter the name and start inviting new members by "
 "their email."
 msgstr ""
+"Чтобы создать новую команду, введите название и начните приглашать новых "
+"участников по их email."
 
 #: 48cd820bdca049909a1923dd47a17859 b64e827d03be43ae8d6e9cd5897cb182
 msgid "create a team"
-msgstr ""
+msgstr "Создать команду"
 
 #: ../userguides/team_accounts.rst:28 5b7333d61f48434483f9ebf6e1918e70
 msgid "Inviting new team members"
-msgstr ""
+msgstr "Приглашение новых участников"
 
 #: ../userguides/team_accounts.rst:30 13fc36a821c34ec4af4d191315c7e096
 msgid ""
@@ -70,20 +79,25 @@ msgid ""
 "invitation by email and will be able to join the Team following the "
 "registration."
 msgstr ""
+"Перейдите на вкладку **Приглашения**. Введите email пользователя, связанный с его "
+"аккаунтом Mapflow. Если пользователь не зарегистрирован в Mapflow, он получит приглашение "
+"по email и сможет присоединиться к команде после регистрации."
 
 #: 64805a262c7c4f44a7f069915e4c1aa4
 msgid "Invite users to team"
-msgstr ""
+msgstr "Пригласить пользователей в команду"
 
 #: ../userguides/team_accounts.rst:41 87165ee91400495c8dbbf798fe89fd4e
 msgid ""
 "As a Team admin, you will see all the invitations sent and may revoke "
 "them. As a Team member, you will see only your invitations to the Team."
 msgstr ""
+"Как администратор команды, вы видите все отправленные приглашения и можете их "
+"отозвать. Как участник команды, вы увидите только свои приглашения в команду."
 
 #: ../userguides/team_accounts.rst:45 fc7d9f63a0ae4e84bcb142be58b278d3
 msgid "Managing Team balance"
-msgstr ""
+msgstr "Управление балансом команды"
 
 #: ../userguides/team_accounts.rst:47 bc237bdf0bce4122b443f99a67ebeb0b
 msgid ""
@@ -92,16 +106,22 @@ msgid ""
 "Team Admin himself. This means the Admin has to assign and manage all the"
 " limits, including himself, within the remaining balance."
 msgstr ""
+"Как только команда создана, кредитный баланс создателя становится балансом команды "
+"и доступен для назначения участникам, включая самого администратора. Это означает, "
+"что администратор должен назначать лимиты всем участникам, включая себя, в пределах "
+"остатка баланса."
 
 #: ../userguides/team_accounts.rst:61 5a36fb1e8a064de48032f48cdd5a7d4a
 msgid "1. Team balance 2. Personal balance 3. Team user assigned balance"
-msgstr ""
+msgstr "1. Баланс команды 2. Личный баланс 3. Назначенный баланс пользователя команды"
 
 #: ../userguides/team_accounts.rst:63 074052e21cdb4f9ba58f5141fd09742c
 msgid ""
 "If your Team account is switched to area-based billing, the only "
 "difference is that the balance is assigned in sq. km."
 msgstr ""
+"Если ваш командный аккаунт переведён на поплощадную тарификацию, единственное отличие состоит в том, "
+"что баланс назначается в кв. км."
 
 #: ../userguides/team_accounts.rst:67 b27eafa0991d4b278b522754b802b385
 msgid "Project sharing in the Team"
@@ -113,47 +133,49 @@ msgid ""
 " needed. Go to the `Projects <https://app.mapflow.ai/en/projects>`_. "
 "Click on a dot menu icon in a project card -- Share."
 msgstr ""
+"Вы можете поделиться проектом с любым участником команды и назначить ему роль. "
+"Перейдите в `Проекты <https://app.mapflow.ai/en/projects>`_. Нажмите на значок меню "
+"в карточке проекта — Поделиться."
 
 #: 552a99022642454596b16478ae66f4a6 e6edc7bbd9c140bd859189e54e6b5d59
 msgid "Share project"
-msgstr ""
+msgstr "Поделиться проектом"
 
 #: ../userguides/team_accounts.rst:79 dfde578fcf4e4e5bad617a0c11da6689
 msgid ""
 "Select your coworkers or toggle \"Anyone in the team\" if you want to "
 "share with all of them."
 msgstr ""
+"Выберите сотрудников или включите переключатель \"Всем в команде\", если "
+"хотите поделиться со всеми."
 
 #: ../userguides/team_accounts.rst:87 d50631b8f0214fdbad1523587850793d
-#, fuzzy
 msgid ""
 "There are four types of the project user's role that can be assigned to "
 "your coworkers:"
-msgstr "Существует четыре типа роли пользователя проекта:"
+msgstr ""
+"Существуют четыре типа роли пользователя в проекте, которые можно назначить вашим "
+"сотрудникам:"
 
 #: ../userguides/team_accounts.rst:89 7652b357a4ea46e2ba9f489ff05ecf41
-#, fuzzy
 msgid "**readonly** - can view the project history and the results"
-msgstr "readonly - может просматривать историю проекта и результаты"
+msgstr "**readonly** — может просматривать историю проекта и результаты"
 
 #: ../userguides/team_accounts.rst:90 6c2f27acf5994eabab7f252b2c5383b4
-#, fuzzy
 msgid "**contributor** – can run the workflows in the project"
-msgstr "contributor – может запускать обработки в проектах"
+msgstr "**contributor** — может запускать обработки в проекте"
 
 #: ../userguides/team_accounts.rst:91 db4550eb101d442181a134cfb09fdb2d
-#, fuzzy
 msgid ""
 "**maintainer** – can run and edit the workflows, and share projects with "
 "users (up to maintainer role)"
 msgstr ""
-"maintainer – может запускать и редактировать обработки, а также делиться "
-"проектом с пользователями (вплоть до роли maintainer)"
+"**maintainer** — может запускать и редактировать обработки, а также делиться "
+"проектами с пользователями (вплоть до роли maintainer)"
 
 #: ../userguides/team_accounts.rst:92 8bc4c707799943ef9154949a6d2180d6
-#, fuzzy
 msgid "**owner** – full rights to edit all roles in the project"
-msgstr "owner - полный контроль над проектами"
+msgstr "**owner** — полные права на редактирование всех ролей в проекте"
 
 #: ../userguides/team_accounts.rst:94 e3eca4be191f4cc9ad8ce9f97fbda77a
 msgid ""
@@ -171,6 +193,10 @@ msgid ""
 "Mapflow user's email. If the new user is not registered at Mapflow.ai, "
 "invite him to register first."
 msgstr ""
+"Вы также можете поделиться проектом с любыми пользователями за пределами команды "
+"для доступа только на просмотр. Перейдите в Проект — Поделиться и введите email "
+"зарегистрированного пользователя Mapflow. Если новый пользователь не зарегистрирован "
+"на Mapflow.ai, сначала пригласите его зарегистрироваться."
 
 #~ msgid ""
 #~ "Users can run a Team account to"

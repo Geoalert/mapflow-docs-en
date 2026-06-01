@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -20,24 +20,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/buildings_model.rst:4 0e9efb1a1615416fb8b534e24734e6da
+#: ../../source/userguides/buildings_model.rst:4
+#: 0be00ec2db81476b85effe982409c27f
 msgid "🏠 Buildings"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:6 72ec300b703246069f8dd2a0fb2afa95
+#: ../../source/userguides/buildings_model.rst:6
+#: 35ed2c0fb5bf422cbb8a93813f72df19
 msgid ""
 "Extracting of rooftops of buildings from imagery of high resolution. High"
 " performance deep learning model is trained to detect the buildings "
 "roofs."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:9 7512bea9e93d4c9486dc994c6a6c1d7e
+#: ../../source/userguides/buildings_model.rst:9
+#: b3db61ae5ba84ea4955f7ff33b3b0f20
 msgid ""
 "*Note:* The building predictions with area less than 20 sq.m. are removed"
 " to avoid clutter"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:11 45029b362cfe406480a144a39136a427
+#: ../../source/userguides/buildings_model.rst:11
+#: 3151c43187e14152b97857288c54804d
 msgid ""
 "The model does not extract the footprints directly, because they are not "
 "clearly visible in the images, but it can obtain them, just like human "
@@ -45,41 +49,53 @@ msgid ""
 "Additional options)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:13 f28d799dc9dd40b595e9e50d102bdd92
+#: ../../source/userguides/buildings_model.rst:13
+#: 3a21a99ec2574d248e57d09446f5ac64
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:15 3ea4e4e49e85440784c8ba217e1e247d
+#: ../../source/userguides/buildings_model.rst:15
+#: 5a0a8596ca3449f1ac6c319767026816
 msgid ""
 "**Classification by types of buildings** – typology of buildings is "
-"represented by the main classes (see :doc:`reference "
-"<../../um/classes>`)."
+"represented by the main classes (see :ref:`reference "
+"<buildings_classes>`)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:16 48355fbfb1ff4b808c87039f4a0beca4
+#: ../../source/userguides/buildings_model.rst:16
+#: 5e5d81184ca741ff8fc744163cc5f7dc
 msgid ""
-"**Simplification** - the algorithm corrects the irregularities of the "
+"**Regularization** - the algorithm corrects the irregularities of the "
 "contours of our model. The irregular geometries are replaced with "
 "rectangles, circles or arbitary polygons with 90 degree angles, which "
-"fits better to the original shape. Also the corrected buildings are "
-"rotated to align with the nearest roads. This option produces much more "
-"map-friendly shapes which look better and are easier to edit, but some "
-"shape accuracy can be lost."
+"fits better to the original shape. This option produces much more map-"
+"friendly shapes which look better, but some original mask accuracy can be"
+" lost."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:17 dfbd5c6e9fb54aed8f12cc506833d3b4
+#: ../../source/userguides/buildings_model.rst:17
+#: 920933307df14cfb9fbfc9c16903936c
+msgid ""
+"**Simplification** - simplifies the building shape, staying close to the "
+"original mask, adjusted for curve and complex shapes. More approximated "
+"shapes, but less right angles."
+msgstr ""
+
+#: ../../source/userguides/buildings_model.rst:18
+#: 50de8666f9b94059a6591f85c7f86387
 msgid ""
 "**Merge with OSM** - some of the areas have great coverage of "
 "OpenStreetMap data, and if you prefer human-annotated data, you can "
-"select this option. In this case, we check for each building whether it "
-"has a good corresponding object in OSM (Jaccard index more than 0.7) and "
-"if there is one, we replace our result with OSM contour. This makes the "
-"result not based on the image, so the buildings can be shifted from "
-"actual positions, and some changes that have occurred after OSM mapping "
-"may be lost."
+"select this option.In this case, we check for each building whether it "
+"has a good corresponding object in OSM (Jaccard index) and if there is "
+"one, we replace our result with OSM polygon. This makes the result not "
+"based on the image, so the buildings can be shifted from actual "
+"positions. Also the corrected buildings are rotated to align with the "
+"nearest roads downloaded from OSM."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:18 956fa65da444493f98ae84ae33fb6fb7
+#: ../../source/userguides/buildings_model.rst:19
+#: 3133f5cce9574b9ba74f3b44bde2ff4d
 msgid ""
 "**Height Estimation (beta)** – feature leverages a dedicated regression-"
 "based model that infers height using visual indicators such as shadow "
@@ -89,116 +105,139 @@ msgid ""
 "oblique imagery, where roofs often appear shifted."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:20 0075c896eb4f4476ad5c23d44833e099
+#: ../../source/userguides/buildings_model.rst:21
+#: 8ea15787a66649b4b986d09a9b425f7c
 msgid ""
 "A sample of processing result with different options for Prague, Czech "
 "Republic."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:28 ../userguides/buildings_model.rst:36
-#: ../userguides/buildings_model.rst:44 2cd4e4ac50544ca3b3bb3bdec8d9d4d4
-#: 409da68d66e44896b08ba15b91421ebe f0e4bcbeda264fcfa6441061d1c0fe52
+#: ../../source/userguides/buildings_model.rst:29
+#: ../../source/userguides/buildings_model.rst:37
+#: ../../source/userguides/buildings_model.rst:45
+#: 60d1b9b8aed045eb998b87699ee6d21c 66566ec685bb424e908bf3dfb1e8a573
+#: d496d6bf207c4c9d9e3dc49bd9406b30
 msgid "Processing result of buildings model"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:28 29684108d4d94d11b98222bda482bbea
+#: ../../source/userguides/buildings_model.rst:29
+#: 412773b360e64665b1d043a378d9a69e
 msgid ""
 "Result without postprocessing: irregular building shapes, but best fit to"
 " the actual rooftop contour seen in the image."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:36 23ced4b727e34f72b6e3d48610902790
+#: ../../source/userguides/buildings_model.rst:37
+#: 2e27c566119e4f00b739b86c6e924ad6
 msgid "Result with simplification: most of the buildings become rectangular."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:44 9b4ad287302941298dd0c7007c10c9b0
+#: ../../source/userguides/buildings_model.rst:45
+#: 95a3988977784bfc95cb36474eb03522
 msgid ""
 "Result merged with OSM: some of the buildings imported from OSM have more"
 " accurate shape, but may be shifted from the image position."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:52 10bd4aa0eb5e48448fb35608411f1548
-#: bb9e256df6a447f7bce33bbefa6670e2
+#: ../../source/userguides/buildings_model.rst:53
+#: 0ccbb0116b1648519d3894df65568648 8f983b95698c4a2eac6e8cbde4bbc220
 msgid "Processing result of buildings model with height estimation in Mapflow Web"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:56 71ec1e517e5d48efbdfedddfbc9b0072
+#: ../../source/userguides/buildings_model.rst:57
+#: f3f8b0362f464db2a9601c15e2ba0fc0
 msgid "Benchmarks - segmentation"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:60 4919546ad3b24a66910d71638e21ddf0
+#: ../../source/userguides/buildings_model.rst:61
+#: ff9f3d7a5e6745ff8614fa965ddf49e7
 msgid "**Houston, U.S. (-95.2920, 29.7718)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:60 e776dab39bf44c7085cf83fe5f772130
+#: ../../source/userguides/buildings_model.rst:61
+#: 19e17c1a19344453bcf81e4705553300
 msgid "– `View on the Map <https://app.mapflow.ai>`_"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:66 ../userguides/buildings_model.rst:92
-#: 49f1b3ee9413415cad5a791bfb1201bc da05ef58325449cda719fefd9b134e7f
+#: ../../source/userguides/buildings_model.rst:67
+#: ../../source/userguides/buildings_model.rst:93
+#: 8681850247874300bdbd0ee8e1f9208f c49c1f1eb622412f8c1da94a9115cfbe
 msgid "Model version"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:67 ../userguides/buildings_model.rst:93
-#: 42c4907cc3994a7ab5ef811fed55a2fe 4b06c37214fa4298b8f6102a1783fbe8
+#: ../../source/userguides/buildings_model.rst:68
+#: ../../source/userguides/buildings_model.rst:94
+#: 807eeabc01bb43a7b9a869c06c2d053d f023fdfa8026458ebfa3915102bc12a8
 msgid "Model type"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:68 ../userguides/buildings_model.rst:94
-#: 3c0e77b74a6945d19e05c6b177dfa669 8fb90934a28a44dca0e29d44c507b1b2
+#: ../../source/userguides/buildings_model.rst:69
+#: ../../source/userguides/buildings_model.rst:95
+#: 3d9c62c04c9d41bf9186a28050becf5f 860d1ca18cc240dda166cd19e271b98a
 msgid "Zoom level"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:69 ../userguides/buildings_model.rst:95
-#: 86f30b4e03c642a5a265185db0c51742 8b17f80f5f5643d7965460d7f2b1140b
+#: ../../source/userguides/buildings_model.rst:70
+#: ../../source/userguides/buildings_model.rst:96
+#: 5c777b66db8d47f5a8401c6fc338b5ae 7efe29cb92b04d54ba98d3344af110be
 msgid "F1 (AOI)"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:70 ../userguides/buildings_model.rst:96
-#: 2f6504fc8fc94b259bd575d3061ab5aa 9548eb5954444b069aa88fd8cc0c248a
+#: ../../source/userguides/buildings_model.rst:71
+#: ../../source/userguides/buildings_model.rst:97
+#: 41e4366e3e204e8ba171ba5b4a59ddd6 aea5fa5763f24aaa932efd314169b1e6
 msgid "Urban-pattern"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:71 ../userguides/buildings_model.rst:97
-#: 374ad148f0424c2ba345845523a5ab38 ba2d5c914a9c4531ab2f7c3ef858c654
+#: ../../source/userguides/buildings_model.rst:72
+#: ../../source/userguides/buildings_model.rst:98
+#: 1fd7ca4112e54a0dba2a528bca576e6f 9afaac1753b6415a8154b29f0ef116bd
 msgid "🏠 Buildings v.8a"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:72 ../userguides/buildings_model.rst:98
-#: 6bd5705f0b294b2ab7adf35cfd835246 7ef90f7bff3943478cc598b932380463
+#: ../../source/userguides/buildings_model.rst:73
+#: ../../source/userguides/buildings_model.rst:99
+#: 47245d4e2f904aadaa8a9fcf6655bcfc 8cd028b805174fa3bb36f9a35b3aa251
 msgid "Instance segmentation"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:73 ../userguides/buildings_model.rst:99
-#: 175e06cdcc774c3cab8308b3f65d2941 2f10ec2eefb040f5b5b1bcb4ccd9bad1
+#: ../../source/userguides/buildings_model.rst:74
+#: ../../source/userguides/buildings_model.rst:100
+#: 9b0eeea8f8d445afa030b429259f1f71 abb173ac6fcf47cb93d40ee61e52769d
 msgid "zoom 18"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:74 f796f693261540eaaef78c0d41e41c97
+#: ../../source/userguides/buildings_model.rst:75
+#: 4cbb39b76edc4e8b9a4cd9da3119f97c
 msgid "objectwise 0.72"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:75 37cb3ae49e4040858f5dd453ce83cce7
+#: ../../source/userguides/buildings_model.rst:76
+#: 7deed2a310f0425cb47549e49ba05cf0
 msgid "low-rise – urban mixed"
 msgstr ""
 
-#: 4df467d1e9fe47978d911483215ec157 6afa75b4595a49b79e4bb82b9d3b6c7f
+#: ca2eb5b6cfb84124a612006325d7522b e7a8d7ab10be49ecb699446d597567f1
 msgid "Processing result of construction model"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:86 93f06626076043b9b65a8ae11950c7d2
+#: ../../source/userguides/buildings_model.rst:87
+#: 41fa13be85634b939184cd3848ca1e15
 msgid "**Kolomna, Russia (38.7657, 55.0928)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:86 439deb4232d24ca59aae12896fe325f9
+#: ../../source/userguides/buildings_model.rst:87
+#: 91a5b3856d724186b5205c06414fc076
 msgid "– `View on the Map <https://app.mapflow.ai/>`_"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:100 130cfe552d234a838223d47483f3976f
+#: ../../source/userguides/buildings_model.rst:101
+#: 5caf254a01fd466fa4cf1a06450ec468
 msgid "objectwise 0.75"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:101 05247604a1c34034bb579411535089a0
+#: ../../source/userguides/buildings_model.rst:102
+#: 439f576a3e594925af064574d5b373a8
 msgid "urban mixed - regular"
 msgstr ""
 
@@ -316,5 +355,46 @@ msgstr ""
 #~ " actual positions, and some changes "
 #~ "that have occurred after OSM mapping "
 #~ "may be lost."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Classification by types of buildings** "
+#~ "– typology of buildings is represented"
+#~ " by the main classes (see "
+#~ ":doc:`reference <../../um/classes>`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Simplification** - the algorithm corrects"
+#~ " the irregularities of the contours "
+#~ "of our model. The irregular geometries"
+#~ " are replaced with rectangles, circles "
+#~ "or arbitary polygons with 90 degree "
+#~ "angles, which fits better to the "
+#~ "original shape. Also the corrected "
+#~ "buildings are rotated to align with "
+#~ "the nearest roads. This option produces"
+#~ " much more map-friendly shapes which"
+#~ " look better and are easier to "
+#~ "edit, but some shape accuracy can "
+#~ "be lost."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Merge with OSM** - some of the"
+#~ " areas have great coverage of "
+#~ "OpenStreetMap data, and if you prefer"
+#~ " human-annotated data, you can select"
+#~ " this option. In this case, we "
+#~ "check for each building whether it "
+#~ "has a good corresponding object in "
+#~ "OSM (Jaccard index more than 0.7) "
+#~ "and if there is one, we replace"
+#~ " our result with OSM contour. This"
+#~ " makes the result not based on "
+#~ "the image, so the buildings can be"
+#~ " shifted from actual positions, and "
+#~ "some changes that have occurred after"
+#~ " OSM mapping may be lost."
 #~ msgstr ""
 

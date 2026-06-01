@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../userguides/construction_model.rst:2
 #: 09224f89b3e94f21afb8932830d53179
-msgid "🏗️ Constructions"
+msgid "🏗️ Constructions (CUSTOM)"
 msgstr ""
 
 #: ../userguides/construction_model.rst:4

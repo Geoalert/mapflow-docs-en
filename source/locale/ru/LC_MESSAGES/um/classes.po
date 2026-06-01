@@ -163,7 +163,7 @@ msgstr ""
 #: ../../source/um/classes.rst:50 ../../source/um/classes.rst:58
 #: ../../source/um/classes.rst:66
 msgid "Interaction panel"
-msgstr ""
+msgstr "Панель взаимодействия"
 
 #: ../../source/um/classes.rst:33
 msgid "Open with geojson.io"
@@ -206,9 +206,4 @@ msgstr "Классы Urban Mapping в Carto"
 msgid "Urban Mapping classes in Evergis Online"
 msgstr "Классы Urban Mapping в Evergis Online"
 
-#~ msgid "Interaction panel"
-#~ msgstr "Панель взаимодействия"
-
-#~ msgid "Панель взаимодействия"
-#~ msgstr ""
 

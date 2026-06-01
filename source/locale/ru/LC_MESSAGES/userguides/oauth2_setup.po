@@ -26,7 +26,7 @@ msgstr "**1. Выберите опцию** ``Использовать OAuth2`` *
 
 #: ../../source/userguides/oauth2_setup.rst:-1
 msgid "OAuth login window"
-msgstr ""
+msgstr "Окно входа OAuth"
 
 #: ../../source/userguides/oauth2_setup.rst:11
 msgid "**2. Set the master password**"
@@ -89,7 +89,6 @@ msgid "OAuth login completed!"
 msgstr "Входе через OAuth завершен!"
 
 #: ../../source/userguides/oauth2_setup.rst:60
-#, fuzzy
 msgid ""
 "If you have problems with authorization, you can delete the current "
 "authentication config by going to ``Settings -> Options -> "

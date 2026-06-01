@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -20,108 +20,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/forest_model.rst:2 ef8a0d2d657b47868521384a8ac52da2
+#: ../../source/userguides/forest_model.rst:2 f12fc2f2b55141c58acbfd8ee957e2c6
 msgid "🌲 Forest and trees"
 msgstr ""
 
-#: ../userguides/forest_model.rst:4 f0740c1749ef4e9aa9c8cc03e2da5192
+#: ../../source/userguides/forest_model.rst:4 e954fac810fa43678a00faee5f4b9bd3
 msgid ""
-"Forest Segmentation. The model is trained on high-resolution data (0.6 m)"
-" for different areas and climate zones."
+"The model is trained on high-resolution data (0.6-0.3m) for different "
+"areas and climate zones."
 msgstr ""
 
-#: ../userguides/forest_model.rst:6 d9a50d10aaac4bd988df1a6cae358bc4
+#: ../../source/userguides/forest_model.rst:6 05a140e6a0c043be908f565e5b63e795
 msgid ""
 "The result includes all areas covered with tree and shrub vegetation, "
 "including sparse forest and shrublands."
 msgstr ""
 
-#: ../userguides/forest_model.rst:8 08c47df95b294bf1ad3976857cb34411
+#: ../../source/userguides/forest_model.rst:8 5f292938c61e43d2a4461a0aca0fa756
 msgid ""
 "Model resolution allows to detect small group of trees and narrow tree "
 "lines."
 msgstr ""
 
-#: ../userguides/forest_model.rst:10 6a1f1a6ddbc0452b9670e3a69ac5b382
+#: ../../source/userguides/forest_model.rst:10 9157b3301a8c4baf939784f0f4ec4b45
 msgid ""
 "The model is robust to region change, and performs well in most "
 "environments, including urban. The image should be taken in active "
 "vegetation period, because leafless trees or vegetation covered with snow"
-" are not target class."
+" are not the target class."
 msgstr ""
 
-#: ../userguides/forest_model.rst:14 0e6e2e75cc144efea46f04f55fffc684
-msgid ""
-"This model can be used to speed up trees detection and area estimation in"
-" forest inventory assessment."
-msgstr ""
-
-#: ../userguides/forest_model.rst:23 d72ec374a73f46da97846ed2da8a5d30
+#: ../../source/userguides/forest_model.rst:19 1a26383ddbb54ae181101de7211dd8e8
 msgid "Processing result of forest model"
 msgstr ""
 
-#: ../userguides/forest_model.rst:23 15d721d39b874a61814f8042e4252ab5
+#: ../../source/userguides/forest_model.rst:19 c61dcd695398425b907c2d8440f79e05
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr ""
 
-#: ../userguides/forest_model.rst:25 62322a73ee3f4624b2d9c0149e8328ab
+#: ../../source/userguides/forest_model.rst:21 c99177841cd24259a76d59ad09d68467
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:27 e57aa913cd344b558b7b2740f92ffd43
-msgid ""
-"*Tree crowns* - extracts tree crowns from dense forest cover as well as "
-"free-standing trees."
+#: ../../source/userguides/forest_model.rst:23 73dd03a4f231457e9af8ad2e33e91498
+msgid "*Height estimation* – forest mask classification by height classes"
 msgstr ""
 
-#: ../userguides/forest_model.rst:28 4f52ac1affd04b63b9ca54ceb1d30af5
+#: ../../source/userguides/forest_model.rst:24 b9b0863cc2e14cddbe7afaed4c61947e
 msgid ""
-"*Heights* – Forest Segmentation follows the usual forest segmentation "
-"model, with additional separation of forest height classes."
+"*Tree crown polygons* - extracts tree crowns from forest vegetation as "
+"well as free-standing trees, provides them as polygons"
 msgstr ""
 
-#: ../userguides/forest_model.rst:30 4bb24d8a59ee45c69b0e9f7cbc7b5584
+#: ../../source/userguides/forest_model.rst:25 a7fb47359bf54ed899b98f36bba3d2e0
 msgid ""
-"Additionally we use models for density and height estimation, dividing "
-"the forested area into the following classes:"
+"*Tree crown points* - extracts tree crowns from forest vegetation as well"
+" as free-standing trees, provides them as points"
 msgstr ""
 
-#: ../userguides/forest_model.rst:32 ffe3be6899724649a7295cb27aaf27f0
+#: ../../source/userguides/forest_model.rst:28 09ba28947c5d41489902378e0f18336c
+msgid ""
+"We recommend using the **Tree crown** options with 0.3m resolution "
+"imagery (~ 19 zoom) for the best results in case you need to detect "
+"individual trees."
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:33 089e812fce8548188d85414dbbe4b9b6
+msgid "Forest Height classification follows the following classes:"
+msgstr ""
+
+#: ../../source/userguides/forest_model.rst:35 f8711e984b8e43369252e5ba6f30fde1
 msgid "Shrubs lower than 4 meters;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:33 5bad9424ce374f42bcdb53d26fc2bd50
+#: ../../source/userguides/forest_model.rst:36 d4769bfbcde849ac8be5aae07c928c51
 msgid "Forest from 4 to 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:34 0473d5b0eb9b4e3ab3aa1fbd01e81db1
+#: ../../source/userguides/forest_model.rst:37 c8af4c6e0a2b4e009b6eb085374717fa
 msgid "Forest more than 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:37 c60571fad11f4a7d96639a315d6296f4
+#: ../../source/userguides/forest_model.rst:39 7ea9c62805de4bda8bc5f5b049c1a4c9
 msgid ""
-"This model can be used as a decision support for the forest growth "
-"clearing. See the `professional solutions by Geoalert "
-"<https://geoalert.io/solutions/power>`_"
+"This classification is used as a decision support for the vegetation "
+"management in powerline zones, etc. See the `professional solutions by "
+"Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be "
+"customized depending on the requirements."
 msgstr ""
 
-#: ../userguides/forest_model.rst:40 ae936e4273d440d19fc89cc53eaf5b15
+#: ../../source/userguides/forest_model.rst:42 029bf12cc2394b9582a470e0b92d90de
 msgid "**Processing results samples**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:48 744be99b76e442a49bc1ef9437444db0
-msgid "Processing result of forest model (Tree crowns)"
+#: ../../source/userguides/forest_model.rst:50 550af87ce02343f3a0c572ae429b5dd9
+msgid "Processing result of forest model (Tree crowns, points)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:48 e6aa6f5bc6584e9baf533fffec45de7e
-msgid "Sample of results for **Tree crowns**"
+#: ../../source/userguides/forest_model.rst:50 0b48b45fc27e431f9234d691f086aedc
+msgid "Sample of results for **Tree crowns, points**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:57 6c6dd54825684e159b79a9d6faeab635
+#: ../../source/userguides/forest_model.rst:59 746be0b094f04b0c8a9184d911913739
 msgid "Processing result of forest model (Heights)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:57 cd45a289301143f1891942997fe8065a
+#: ../../source/userguides/forest_model.rst:59 35a1e99685e34e2389ab2cbd96e28068
 msgid "Sample of results for **Forest with heights** mask (raster output)"
 msgstr ""
 
@@ -141,5 +145,61 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "🌲 Forest"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Forest Segmentation. The model is "
+#~ "trained on high-resolution data (0.6 "
+#~ "m) for different areas and climate "
+#~ "zones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The model is robust to region "
+#~ "change, and performs well in most "
+#~ "environments, including urban. The image "
+#~ "should be taken in active vegetation "
+#~ "period, because leafless trees or "
+#~ "vegetation covered with snow are not "
+#~ "target class."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model can be used to speed"
+#~ " up trees detection and area "
+#~ "estimation in forest inventory assessment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Tree crowns* - extracts tree crowns "
+#~ "from dense forest cover as well as"
+#~ " free-standing trees."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Heights* – Forest Segmentation follows "
+#~ "the usual forest segmentation model, "
+#~ "with additional separation of forest "
+#~ "height classes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additionally we use models for density"
+#~ " and height estimation, dividing the "
+#~ "forested area into the following "
+#~ "classes:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model can be used as a "
+#~ "decision support for the forest growth"
+#~ " clearing. See the `professional solutions"
+#~ " by Geoalert <https://geoalert.io/solutions/power>`_"
+#~ msgstr ""
+
+#~ msgid "Processing result of forest model (Tree crowns)"
+#~ msgstr ""
+
+#~ msgid "Sample of results for **Tree crowns**"
 #~ msgstr ""
 

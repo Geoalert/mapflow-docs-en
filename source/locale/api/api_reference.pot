@@ -1,0 +1,2067 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../api/api_reference.rst:4
+#: 4cffff63494e4307b9f375fa77882568
+msgid "API Reference"
+msgstr ""
+
+#: ../api/api_reference.rst:8
+#: 7cb80726d2e241feb3621f2399316167
+msgid "Projects"
+msgstr ""
+
+#: ../api/api_reference.rst:11
+#: 7f91f708d75b4e4694ce23a27ad16f31
+msgid "Create project"
+msgstr ""
+
+#: ../api/api_reference.rst:13
+#: ba01d6950a3948d898ef8b45a9f49ec2
+msgid "**POST** ``/projects``"
+msgstr ""
+
+#: ../api/api_reference.rst:15
+#: 6c46e12759f7446bb93439337c77fd85
+msgid "Creates a new project container for organizing processings."
+msgstr ""
+
+#: ../api/api_reference.rst:21
+#: ../api/api_reference.rst:65
+#: ../api/api_reference.rst:110
+#: ../api/api_reference.rst:218
+#: ../api/api_reference.rst:296
+#: ../api/api_reference.rst:441
+#: ../api/api_reference.rst:645
+#: ../api/api_reference.rst:715
+#: ../api/api_reference.rst:812
+#: ../api/api_reference.rst:1049
+#: b9f7ed1dcdae4941be38cbb6479624a2
+#: 9a5754d69d9c4262b1caf1da73164c19
+#: bb1acc38f5984fd085bfefa6e68c2039
+#: f76130ea90a24ca1a122acb579aed3a4
+#: 23156cc841ff438288ec6d8e3d061422
+#: 5694337d40af4869865f833262245bb7
+#: 6e57ce11e0ad4400a6813bf648edd8d3
+#: 540f1a097d354250888b8e180b290c59
+#: fb549b95c1704330b2ec106fd58ce809
+#: a50febe847d84c268f2bb9329afad35e
+msgid "Parameter"
+msgstr ""
+
+#: ../api/api_reference.rst:22
+#: ../api/api_reference.rst:66
+#: ../api/api_reference.rst:111
+#: ../api/api_reference.rst:219
+#: ../api/api_reference.rst:297
+#: ../api/api_reference.rst:442
+#: ../api/api_reference.rst:579
+#: ../api/api_reference.rst:646
+#: ../api/api_reference.rst:716
+#: ../api/api_reference.rst:813
+#: ../api/api_reference.rst:1050
+#: ../api/api_reference.rst:1229
+#: 2d99d3d7953942bd9fefd7bf5679ead7
+#: 6e71e4e513b348e899e5081eaf973894
+#: 79ed6a2a611f408d9d236df3279d43ba
+#: 216f98a844804893b22f8ee93f8f4097
+#: af5b343cec2d4d18a97f7fbe41830efb
+#: ab6798ca2d7748dda3d080a3e472b866
+#: 828a43fd640e4042987c4a3bbf4528a9
+#: 263767f6ef244987a37dc384f7412f0e
+#: e8d35d7ebc374f1fa616a0e64bb28251
+#: e8866d6514f74b719b0980c5c714a967
+#: 7b06c86e143443ee9bc8253dae3a334e
+#: 07a5da62063947a0b5fc2f7247decf2d
+msgid "Type"
+msgstr ""
+
+#: ../api/api_reference.rst:23
+#: ../api/api_reference.rst:67
+#: ../api/api_reference.rst:112
+#: ../api/api_reference.rst:220
+#: ../api/api_reference.rst:298
+#: ../api/api_reference.rst:647
+#: ../api/api_reference.rst:717
+#: ../api/api_reference.rst:814
+#: ../api/api_reference.rst:1051
+#: 88a6d91794d94d038ea81b16a4c40fe9
+#: 012ab3a6d8ef4cf181cc70557cf33a7f
+#: d3af4202e2cf433f9fcf346dc9337462
+#: dee178d9f93d4f08b98127cb583fa16d
+#: 546b20c22c114c9689c71b3a452ff83a
+#: c2213196ef594fd78476212592e5c9cc
+#: 99e5a35ccc094be59b40678a086ab3e9
+#: 0a4720cd8edf468a9d2edf13730350bf
+#: 2969dc488cae4b30bdac29ad91dc96e6
+msgid "Required"
+msgstr ""
+
+#: ../api/api_reference.rst:24
+#: ../api/api_reference.rst:68
+#: ../api/api_reference.rst:113
+#: ../api/api_reference.rst:221
+#: ../api/api_reference.rst:299
+#: ../api/api_reference.rst:443
+#: ../api/api_reference.rst:498
+#: ../api/api_reference.rst:580
+#: ../api/api_reference.rst:648
+#: ../api/api_reference.rst:718
+#: ../api/api_reference.rst:815
+#: ../api/api_reference.rst:970
+#: ../api/api_reference.rst:1052
+#: ../api/api_reference.rst:1230
+#: ../api/api_reference.rst:1281
+#: ../api/api_reference.rst:1322
+#: ../api/api_reference.rst:1347
+#: d00c90c66a614e3b8aab0c847dcb92d7
+#: 31052a22dc004df8947a742e7f8a4b17
+#: 81aa1d9852c44c45b61ba9fb88f8ba95
+#: 26d1b580121a474cadc36721c6d6a005
+#: 2cbc79147f5a4c7899b3e6aa6fc688c8
+#: 0c07e2b56bd14f4b9c2f475b1fa4f150
+#: ebaa9e0285694deaa3471dbfdb1cf4c2
+#: be61d80cdaf74de7bfac9f88d2220bb0
+#: 4ca18594434b41b4a55c68279ccba148
+#: 30f4f96a8751442389e08cf84039dc0c
+#: ac074ecadc394942b2ee3604d51b7374
+#: 647ac90ba51b462da87ac32fb5458cfe
+#: 21b91449e8604c62868020d9a6d7439d
+#: 0e15be9eb96745728b814f592e5a3f75
+#: a248d45480fd4af3af796210e0a05cc0
+#: 727f44c07bc245a2999928ee579d86d8
+#: becd5bd8d7e943658e0070bb4c131b0f
+msgid "Description"
+msgstr ""
+
+#: ../api/api_reference.rst:25
+#: ../api/api_reference.rst:73
+#: ../api/api_reference.rst:114
+#: ../api/api_reference.rst:649
+#: ../api/api_reference.rst:719
+#: 18f380de6f8544e18727c1f1192e2c80
+#: 6d519f424d8f4425859102986de55c47
+#: f8d97a1f17de45a8a78d7c3db2fa1ac5
+#: 8437d82e219c4ef7bc446800162ba937
+#: b04ae8b692db4e3d92fc139788d51561
+msgid "``name``"
+msgstr ""
+
+#: ../api/api_reference.rst:26
+#: ../api/api_reference.rst:30
+#: ../api/api_reference.rst:70
+#: ../api/api_reference.rst:74
+#: ../api/api_reference.rst:78
+#: ../api/api_reference.rst:115
+#: ../api/api_reference.rst:119
+#: ../api/api_reference.rst:123
+#: ../api/api_reference.rst:143
+#: ../api/api_reference.rst:223
+#: ../api/api_reference.rst:301
+#: ../api/api_reference.rst:451
+#: ../api/api_reference.rst:454
+#: ../api/api_reference.rst:582
+#: ../api/api_reference.rst:585
+#: ../api/api_reference.rst:591
+#: ../api/api_reference.rst:594
+#: ../api/api_reference.rst:597
+#: ../api/api_reference.rst:650
+#: ../api/api_reference.rst:720
+#: ../api/api_reference.rst:817
+#: ../api/api_reference.rst:1058
+#: ../api/api_reference.rst:1062
+#: ../api/api_reference.rst:1098
+#: ../api/api_reference.rst:1102
+#: b5231928916f46bcbf85fec7f9d74de2
+#: b1967ca937d5473281441f2ab4451716
+#: bb9f500f973e494596b557faf3405d6f
+#: 4e77f05f3aa8413fbafaa6c6b24c7880
+#: 53cfa87f504344ae81649942dd03a57d
+#: c2ffc5c2ee7242afb70aa5a262b00ee8
+#: 253ec32ff49a4dbdaca44fab0b685f62
+#: 736ff22b2ad2490a81ab2983214bef44
+#: 74dd8a250bdb4651aa5ffb68f19e6f93
+#: 76dc4b8eee6242fc868b63cce5e46bc2
+#: b0ff4f0ef9454deba2b6607a77b3bd0a
+#: 1aa13dd454f44b4abddc655961c301b0
+#: 02c677be1949431c81d8d33989bb0cfa
+#: 6d4cd11a317047489045fb75671797eb
+#: 89693dcf2e8144edb30597e216395315
+#: 2b6fd86fd7e148f19c8fa1c2fa39e47d
+#: 483e2f8f2dd94f2b9e0ea6d4d2e5b118
+#: db37e59e014b4a6485644b03897ec68f
+#: c74627e075674ccdab1c28819e26a57e
+#: fa950a6dc0fe4262a7602331cb512497
+#: 5dd241e4bd8b4c3096ec9f83cd13413a
+#: d43d39c6588442d7b0ee9d0c1780b6cd
+#: e70cbc93e2d740b6b5eaf4f1491675df
+#: d2fcdfd747cd467887210221da2f85ee
+#: 50f97164d1c34b7ba966026b9248ffc2
+msgid "string"
+msgstr ""
+
+#: ../api/api_reference.rst:27
+#: ../api/api_reference.rst:71
+#: ../api/api_reference.rst:116
+#: ../api/api_reference.rst:120
+#: ../api/api_reference.rst:124
+#: ../api/api_reference.rst:128
+#: ../api/api_reference.rst:132
+#: ../api/api_reference.rst:224
+#: ../api/api_reference.rst:302
+#: ../api/api_reference.rst:651
+#: ../api/api_reference.rst:818
+#: ../api/api_reference.rst:1055
+#: d2674cb8b8c74f59a5ab902ada4a3162
+#: ed5db8f11487493e9d2c8729b7301a1e
+#: 043e5c1ae6484b27b9a322e278d332f5
+#: 08260682effe44f5aa2df9b4c99b9e0a
+#: 24f02d5338664bd8aaf7b16bafe8dd70
+#: 791d2e1cc1d343aaa3c0315b534c1298
+#: c62e11e4f2964126a0ef74bafa945938
+#: da684fbe5412408d80415c4890e9a6f0
+#: 34d3af8560ae40f6ba8980d4e5445a36
+#: 384b56bfbe6b44f6aaa606b1f68b71aa
+#: 2af35f4288744c6d97058a7a0f6c8456
+#: b92d390248984117bd2d7e9341751033
+msgid "Yes"
+msgstr ""
+
+#: ../api/api_reference.rst:28
+#: d40f52e13c5a4b03b26187561c696263
+msgid "Project name"
+msgstr ""
+
+#: ../api/api_reference.rst:29
+#: ../api/api_reference.rst:77
+#: ../api/api_reference.rst:142
+#: cb1d0cee659441e4a1e1086c9de5f07c
+#: 15409153146e440c8c2f7259fa8d2e09
+#: 4c188f590e5247daae22309964f0922b
+msgid "``description``"
+msgstr ""
+
+#: ../api/api_reference.rst:31
+#: ../api/api_reference.rst:75
+#: ../api/api_reference.rst:79
+#: ../api/api_reference.rst:136
+#: ../api/api_reference.rst:140
+#: ../api/api_reference.rst:144
+#: ../api/api_reference.rst:148
+#: ../api/api_reference.rst:314
+#: ../api/api_reference.rst:318
+#: ../api/api_reference.rst:655
+#: ../api/api_reference.rst:721
+#: ../api/api_reference.rst:725
+#: ../api/api_reference.rst:1059
+#: ../api/api_reference.rst:1063
+#: ../api/api_reference.rst:1067
+#: ../api/api_reference.rst:1071
+#: ../api/api_reference.rst:1075
+#: ../api/api_reference.rst:1079
+#: ../api/api_reference.rst:1083
+#: ../api/api_reference.rst:1087
+#: ../api/api_reference.rst:1091
+#: ../api/api_reference.rst:1095
+#: ../api/api_reference.rst:1099
+#: ../api/api_reference.rst:1103
+#: ../api/api_reference.rst:1107
+#: ../api/api_reference.rst:1111
+#: ../api/api_reference.rst:1115
+#: 0c136dbd167346a08349da9f265ef35c
+#: 1a492ab73b964ed896d19c7c234842d1
+#: 04e3046464da4fa5bb57b534fc16e6f0
+#: ca566965c016499ab4a0dcae2c4402ff
+#: bafa2c526d8147c08b7ca7ee513199de
+#: 8b51da7ea04d4d1d9b2d89c1fa6b5e33
+#: 532c5872992f4ae28604a71d50d4e2c1
+#: 6553da0adfdf4f8c9f4b230115ce04a3
+#: cf6a8319ed6744d1ab396bb2166e787f
+#: 99107414b42a4bc28d1764fa309cbf92
+#: c63719dea9aa4ad290a385653ae77ecf
+#: 96cf56f2bd954e6cac0df8595022a794
+#: 0e29fc5a85d1440cb7a388ebee7398b7
+#: c7b25110e72149dea91e042c2c9865a2
+#: f37bfcb289834717b5cec830fcfbc4ad
+#: 48d317c4e6574cd086bac9557f3c354c
+#: b7f5c660f1e94cd2bf3799fd640f3749
+#: dbac39f4fea34778a1c36635c2eed24a
+#: 047ca8bf01c246748f96afce2162ecfe
+#: 299b7346d816476a8d33ab3fa0383038
+#: a70aee2444a74705bb1b4baf4e5ed396
+#: 622ecbf9e83e4e9f9a10509e9992f2a1
+#: eddbbbd9812b481fb556ba7e91a3d366
+#: e538403de26d4e7593b8b3c5aa90442c
+#: d2dab256f4b04d80a8411cdf5b53fbe5
+#: 1f8b44a61aa04ec280f94225db9a98ef
+#: 727c9dfb7bd2455e8477a66f907efdd6
+msgid "No"
+msgstr ""
+
+#: ../api/api_reference.rst:32
+#: 9dcf1e52c07c4c71be793e0a150ba906
+msgid "Project description"
+msgstr ""
+
+#: ../api/api_reference.rst:34
+#: ../api/api_reference.rst:82
+#: ../api/api_reference.rst:324
+#: ../api/api_reference.rst:457
+#: ../api/api_reference.rst:658
+#: ../api/api_reference.rst:728
+#: ../api/api_reference.rst:760
+#: ../api/api_reference.rst:789
+#: ../api/api_reference.rst:821
+#: ../api/api_reference.rst:883
+#: ../api/api_reference.rst:933
+#: ../api/api_reference.rst:948
+#: ../api/api_reference.rst:976
+#: ../api/api_reference.rst:1007
+#: ../api/api_reference.rst:1121
+#: ccf6da31071540a4b1fee632760df58f
+#: d1aa00ef0f2e46c0a3890dc40ce90fdd
+#: 266dbcc226af409991ce14b03de8c312
+#: 3ee36782496749e1ad6abd05999b50bc
+#: 2c13cb8f37fe439f914cfc44b9de4d67
+#: 038272bed0a144cbbe9a02522e59151f
+#: cbda1921624849ad88d67cb835e8ad00
+#: 2a524404095042afbd28ac8da04f9e43
+#: 89d77c88dbd94b82b42d5269d62bd4c8
+#: 5e2e3ac1c4d34f3da30e59b0912bddac
+#: b0c8954d04524c1baac132d0d0a7ea46
+#: 39d5c08608b04096962cc5d554e655bc
+#: b453b132acb34cd9a37a0ccb9009e8b3
+#: 776a0f5b3aa24698a2ccbf343d781821
+#: 21053dc5f8b846ac951cb57a6fda7907
+msgid "**Example Request**"
+msgstr ""
+
+#: ../api/api_reference.rst:43
+#: ../api/api_reference.rst:193
+#: ../api/api_reference.rst:227
+#: ../api/api_reference.rst:256
+#: ../api/api_reference.rst:338
+#: ../api/api_reference.rst:403
+#: c9cbf07558a84b478f5fece6fcd3c08b
+#: 9cbfed64808b40b5be8dc32590303334
+#: 55e0cee3dbad46dbb27205e5eed8a9f5
+#: 47e908a01f474119bd0150c337a2dfaa
+#: c46175b98da54116a07c96edb4f07cbf
+#: 7de40d5963194342aeb0ba67ed93c448
+msgid "**Example Response**"
+msgstr ""
+
+#: ../api/api_reference.rst:55
+#: e4d8e2df231c463d9c28ad9c84e38d22
+msgid "Update project"
+msgstr ""
+
+#: ../api/api_reference.rst:57
+#: 9d7df920b74f4d62aaebbcac554a4cf7
+msgid "**PUT** ``/projects/{projectId}``"
+msgstr ""
+
+#: ../api/api_reference.rst:59
+#: defbc36659f1437599108ad760cdecdb
+msgid "Updates project name and/or description."
+msgstr ""
+
+#: ../api/api_reference.rst:69
+#: ../api/api_reference.rst:118
+#: 57d4d8c43305472f8b7150b4d91148f0
+#: 63f0ee263285435091c4424933618e27
+msgid "``projectId``"
+msgstr ""
+
+#: ../api/api_reference.rst:72
+#: 7990f0956d3646de8fee7b99ad33e453
+msgid "Project UUID (path parameter)"
+msgstr ""
+
+#: ../api/api_reference.rst:76
+#: 90c64f9744e342a288825fb40edd4bcd
+msgid "New project name"
+msgstr ""
+
+#: ../api/api_reference.rst:80
+#: d9fdcd61c82e41f7ad45006793a14da7
+msgid "New project description"
+msgstr ""
+
+#: ../api/api_reference.rst:93
+#: 4dffcb704d5046feb297f5c1c4a328f6
+msgid "Processings"
+msgstr ""
+
+#: ../api/api_reference.rst:96
+#: 2075dc60e4954d45975999dc0ef05a66
+msgid "**v2 API is recommended.** It uses structured ``sourceParams`` and ``inferenceParams``. v1 uses a flat ``params`` map and is maintained for backward compatibility."
+msgstr ""
+
+#: ../api/api_reference.rst:100
+#: 1f2abd4f340b4d96924dbab68733bfd7
+msgid "Create processing (v2)"
+msgstr ""
+
+#: ../api/api_reference.rst:102
+#: caf6dff18600459bad30dbf1e381ac46
+msgid "**POST** ``/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:104
+#: f635700eae354015b8fdb6e485235768
+msgid "Creates and runs an imagery analysis processing."
+msgstr ""
+
+#: ../api/api_reference.rst:117
+#: adcbe4e7d5424f1b832044409ba8a2fa
+msgid "Processing name"
+msgstr ""
+
+#: ../api/api_reference.rst:121
+#: 48f50a4125af4cbd9b338b0c502b737a
+msgid "Project UUID"
+msgstr ""
+
+#: ../api/api_reference.rst:122
+#: 3587046da03f41b9bcf4e63d704b01e9
+msgid "``wdId`` or ``wdName``"
+msgstr ""
+
+#: ../api/api_reference.rst:125
+#: 33a3d48e523d43d2a927a36c7e246b51
+msgid "Workflow definition ID or name (e.g., \"🏠 Buildings\")"
+msgstr ""
+
+#: ../api/api_reference.rst:126
+#: ../api/api_reference.rst:304
+#: f27eb58de575440dbbedeb22333dc908
+#: 499d4b7500084a83b2d20db4c7a45700
+msgid "``geometry``"
+msgstr ""
+
+#: ../api/api_reference.rst:127
+#: ../api/api_reference.rst:305
+#: e8ea77b882544e339beb92f34a560b39
+#: de494c7841db4105b15753b04a59a89f
+msgid "GeoJSON"
+msgstr ""
+
+#: ../api/api_reference.rst:129
+#: f4750708e24c46d4ad49c8124f9a2025
+msgid "Area of interest (Polygon or MultiPolygon)"
+msgstr ""
+
+#: ../api/api_reference.rst:130
+#: 2f099d3fae9e4523b6643b60315a3382
+msgid "``params.sourceParams``"
+msgstr ""
+
+#: ../api/api_reference.rst:131
+#: ../api/api_reference.rst:135
+#: ../api/api_reference.rst:147
+#: ../api/api_reference.rst:313
+#: ../api/api_reference.rst:1054
+#: 83353932a8134c17b3a76689baff1699
+#: 0e78790e863d4c0abf3db373e0c849ee
+#: 0f466023ca3c41a8b817625025df0b41
+#: 0ac476b5bdfc498999416360d6d3a432
+#: 1e89762e62a34fbb8cbbe77d44cba940
+msgid "object"
+msgstr ""
+
+#: ../api/api_reference.rst:133
+#: e990cb26b4f142b8b137653581f6cc1c
+msgid "Imagery source configuration (see :ref:`source-params`)"
+msgstr ""
+
+#: ../api/api_reference.rst:134
+#: 106275b525a54e0db90d23329ba81ab8
+msgid "``params.inferenceParams``"
+msgstr ""
+
+#: ../api/api_reference.rst:137
+#: c711e3253fab49118d8cf019ae444276
+msgid "Model-specific parameters"
+msgstr ""
+
+#: ../api/api_reference.rst:138
+#: ../api/api_reference.rst:316
+#: 8b4a4f8abfe940baaf14a55a29bdf8fd
+#: 3a1f32f6112f4e90a53c879399dcc574
+msgid "``blocks``"
+msgstr ""
+
+#: ../api/api_reference.rst:139
+#: ../api/api_reference.rst:317
+#: ../api/api_reference.rst:654
+#: ../api/api_reference.rst:724
+#: ../api/api_reference.rst:1110
+#: ../api/api_reference.rst:1114
+#: bfc315f9118d46e4a4b0388fbec62f95
+#: b6586ad3f83f466899691e55df59caf2
+#: 9fae48c3e49a4b90935f17f3a64d9993
+#: ae222e2cf7514e16a94fec2bc2284126
+#: 2cd66e82d9d0481b967612bc8f3855a5
+#: c7f551e4f19e49029a46476e83359a6a
+msgid "array"
+msgstr ""
+
+#: ../api/api_reference.rst:141
+#: 2e3dc9b6d8de40889517bb963fa59599
+msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
+msgstr ""
+
+#: ../api/api_reference.rst:145
+#: 6d58111c25bc41bfb7f535312a5b768b
+msgid "Processing description"
+msgstr ""
+
+#: ../api/api_reference.rst:146
+#: 6679e7c84c254069aee0ead29eeb0884
+msgid "``meta``"
+msgstr ""
+
+#: ../api/api_reference.rst:149
+#: c3be1aa82e3144fba5ebc9a25a108ff6
+msgid "Custom metadata"
+msgstr ""
+
+#: ../api/api_reference.rst:151
+#: 2da3c3cd905040c48f5a5d7111a0195b
+msgid "**Example Request: Using Mapbox**"
+msgstr ""
+
+#: ../api/api_reference.rst:175
+#: a02c388410aa4dd59e2240d5e999bba6
+msgid "**Example Request: Using Custom Imagery**"
+msgstr ""
+
+#: ../api/api_reference.rst:208
+#: bc86effd14be4cd19b9e7ac24cea3ac8
+msgid "Get processing (v2)"
+msgstr ""
+
+#: ../api/api_reference.rst:210
+#: 5c916d77a3924db38cdced52a0646bdf
+msgid "**GET** ``/processings/{processingId}/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:212
+#: 020ffb9f631a4d9aa62001eb85409d9e
+msgid "Retrieves processing status and details."
+msgstr ""
+
+#: ../api/api_reference.rst:222
+#: 5e48493d0d424392b3eeaa6787fe200a
+msgid "``processingId``"
+msgstr ""
+
+#: ../api/api_reference.rst:225
+#: bba00d3d0d914de6b03093ff3fd381e0
+msgid "Processing UUID (path parameter)"
+msgstr ""
+
+#: ../api/api_reference.rst:246
+#: 3e09ea15426947fab93a9f53666ca9b4
+msgid "**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, ``FAILED``, ``CANCELLED``"
+msgstr ""
+
+#: ../api/api_reference.rst:250
+#: c4376d508870467c8bb8164e4b3cc150
+msgid "List processings (v2)"
+msgstr ""
+
+#: ../api/api_reference.rst:252
+#: 104d1ccee32b4e7cb0d0176aaeb1c0d0
+msgid "**GET** ``/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:254
+#: dad144cabb784a3f9b7308938e74c845
+msgid "Lists all user processings."
+msgstr ""
+
+#: ../api/api_reference.rst:278
+#: 0d910a425fc742b6aad1d47ba36d1349
+msgid "List processings by project (v2)"
+msgstr ""
+
+#: ../api/api_reference.rst:280
+#: 483abb4a436448adaf933d10cb24e8b3
+msgid "**GET** ``/projects/{projectId}/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:282
+#: 3fa631ffeac749009bb9fb1f4ab2681e
+msgid "Lists processings for a specific project."
+msgstr ""
+
+#: ../api/api_reference.rst:286
+#: 70d8825c0fa54135ad6603193ca9b0e3
+msgid "Calculate cost (v2)"
+msgstr ""
+
+#: ../api/api_reference.rst:288
+#: 0b1094af7d0044789db7d6d59a942c5d
+msgid "**POST** ``/processing/cost/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:290
+#: 463c4a3aa837498ab9407dd819580398
+msgid "Estimates processing cost before running."
+msgstr ""
+
+#: ../api/api_reference.rst:300
+#: d10c25c33ddc47c4a75037ee39805efa
+msgid "``wdId``"
+msgstr ""
+
+#: ../api/api_reference.rst:303
+#: 29a5cad0d1f9483fb0be8cac91abf1eb
+msgid "Workflow definition ID"
+msgstr ""
+
+#: ../api/api_reference.rst:306
+#: ../api/api_reference.rst:310
+#: 4e560b7fc4e14c7da31d5a7066c5f1ae
+#: 559dc8b439d04e95a4b2f9fe4374ec5b
+msgid "No*"
+msgstr ""
+
+#: ../api/api_reference.rst:307
+#: a46bebf1db084a64a514e37e36d967ac
+msgid "Area of interest"
+msgstr ""
+
+#: ../api/api_reference.rst:308
+#: 7d028d405ea042f59c7b860139b414d9
+msgid "``areaSqKm``"
+msgstr ""
+
+#: ../api/api_reference.rst:309
+#: 81db3992f6084e48add3c97fa7fc8fd6
+msgid "number"
+msgstr ""
+
+#: ../api/api_reference.rst:311
+#: 48a02142f2d240039538bca025215acb
+msgid "Area in km² (alternative to geometry)"
+msgstr ""
+
+#: ../api/api_reference.rst:312
+#: 82299084e73e4b93a3fbc768838904e1
+msgid "``params``"
+msgstr ""
+
+#: ../api/api_reference.rst:315
+#: bc1a8c9ec92e475d933dab6b359cfa66
+msgid "Source and inference parameters"
+msgstr ""
+
+#: ../api/api_reference.rst:319
+#: ea15892ea6514dc390cce0a0ee61c049
+msgid "Enabled workflow blocks"
+msgstr ""
+
+#: ../api/api_reference.rst:322
+#: 66a3b51e6e6b48d5b9a56e73badbed32
+msgid "*Provide either ``geometry`` or ``areaSqKm`` (or both)."
+msgstr ""
+
+#: ../api/api_reference.rst:346
+#: 4b4253542ed64808afd3ec6a0c94c47d
+msgid "Download results"
+msgstr ""
+
+#: ../api/api_reference.rst:348
+#: 8ef0f0da97f9475c98cca4361e08f2ec
+msgid "**GET** ``/processings/{processingId}/result``"
+msgstr ""
+
+#: ../api/api_reference.rst:350
+#: f37c269742d846bf93502b2a182e58b5
+msgid "Downloads processing results as GeoJSON."
+msgstr ""
+
+#: ../api/api_reference.rst:352
+#: ../api/api_reference.rst:431
+#: 3c0250f2daf54579a814dd25a8c9d89b
+#: fd060df2d515446eadc46613521af7aa
+msgid "**Query Parameters:**"
+msgstr ""
+
+#: ../api/api_reference.rst:354
+#: 4c93071706054d788116d1905673611e
+msgid "``aoiId`` (optional) — Filter results to specific AOI"
+msgstr ""
+
+#: ../api/api_reference.rst:356
+#: f20bf4161df7495b97de5d0c244091e3
+msgid "**Example**"
+msgstr ""
+
+#: ../api/api_reference.rst:366
+#: 659ef027b22d46bca3927388b1d4e43b
+msgid "Processing management"
+msgstr ""
+
+#: ../api/api_reference.rst:368
+#: bb08e82b0d9446ab8f7d2da48a5e3662
+msgid "**Restart processing**"
+msgstr ""
+
+#: ../api/api_reference.rst:370
+#: 712c1f16a7c04e7390a8972440a004b2
+msgid "``POST /processings/{processingId}/restart``"
+msgstr ""
+
+#: ../api/api_reference.rst:372
+#: 88dd9918092a42bea7ea53f6edd8ac19
+msgid "Restarts failed partitions only."
+msgstr ""
+
+#: ../api/api_reference.rst:374
+#: 24a8b50d0eb4443999c5855403d87974
+msgid "**Update processing**"
+msgstr ""
+
+#: ../api/api_reference.rst:376
+#: a5433b88a073470886c95549b7e78383
+msgid "``PUT /processings/{processingId}``"
+msgstr ""
+
+#: ../api/api_reference.rst:386
+#: a5503bcb5da548079dfe736bd103de75
+msgid "**Delete processing**"
+msgstr ""
+
+#: ../api/api_reference.rst:388
+#: 782f03f1f1ea4d6f92e7528416b5119b
+msgid "``DELETE /processings/{processingId}``"
+msgstr ""
+
+#: ../api/api_reference.rst:390
+#: 5b46d651483d421a90c98d35e1c06b2b
+msgid "Deletes processing and all child entities."
+msgstr ""
+
+#: ../api/api_reference.rst:394
+#: ad40b91cba834896a841f9f430b74327
+msgid "User & Account"
+msgstr ""
+
+#: ../api/api_reference.rst:397
+#: b259fd55ddb443a8967d9a84147ce683
+msgid "Get user status"
+msgstr ""
+
+#: ../api/api_reference.rst:399
+#: 503638d16b72492ca948632a1dcaf088
+msgid "**GET** ``/user/status``"
+msgstr ""
+
+#: ../api/api_reference.rst:401
+#: aa5655dc019e41ef88c2fd5592690b44
+msgid "Returns account details, available models, and workflow definitions."
+msgstr ""
+
+#: ../api/api_reference.rst:425
+#: f81af93c7d8c4a4c93487784e7283496
+msgid "Processing history"
+msgstr ""
+
+#: ../api/api_reference.rst:427
+#: a99af70d2ac44f73aed03d88d7a09733
+msgid "**POST** ``/processings/stats``"
+msgstr ""
+
+#: ../api/api_reference.rst:429
+#: 005d12315b76469f8974f18589561dbd
+msgid "Returns processing history with pagination and filtering."
+msgstr ""
+
+#: ../api/api_reference.rst:433
+#: 0eb4bddc993f4fd7892f0335d59fcda4
+msgid "``type`` (optional) — Response format: ``JSON`` or ``CSV``"
+msgstr ""
+
+#: ../api/api_reference.rst:435
+#: 54b1768873b94955848c15a273e18828
+msgid "**Request Body:**"
+msgstr ""
+
+#: ../api/api_reference.rst:444
+#: 0c4881356cff4d4d907cb3d2338f3251
+msgid "``page``"
+msgstr ""
+
+#: ../api/api_reference.rst:445
+#: ../api/api_reference.rst:448
+#: ../api/api_reference.rst:588
+#: ../api/api_reference.rst:1090
+#: ../api/api_reference.rst:1094
+#: 52be0ae9e4e045fc94b9293af7f10771
+#: 0c673645cb5341d58317d4fd159ae185
+#: ef1de8c784c344ce94f925eccaf8831a
+#: e69c4be14f2b44d19753e8232821ac65
+#: 21bf29351bc24759baff16bbec0fca62
+msgid "integer"
+msgstr ""
+
+#: ../api/api_reference.rst:446
+#: 0af4576c0c654969aec3ff0f0114beef
+msgid "Page number"
+msgstr ""
+
+#: ../api/api_reference.rst:447
+#: e1d543e943114d2c9c274e6d7c92c1b4
+msgid "``perPage``"
+msgstr ""
+
+#: ../api/api_reference.rst:449
+#: 6bf96cfad3a74dc7b6790986ad6b43ab
+msgid "Items per page"
+msgstr ""
+
+#: ../api/api_reference.rst:450
+#: 836e5d60f29f4794adae01026855a6f0
+msgid "``sort``"
+msgstr ""
+
+#: ../api/api_reference.rst:452
+#: 849f177a9a2b4fc5bc19a02fa2175e59
+msgid "Sort expression (e.g., ``\"created:desc\"``)"
+msgstr ""
+
+#: ../api/api_reference.rst:453
+#: cabc33e6a1164f66ae413f045abca600
+msgid "``filter``"
+msgstr ""
+
+#: ../api/api_reference.rst:455
+#: ae17f4dd06584a5fab6f8d98e098c9ef
+msgid "Filter expression (e.g., ``\"status=OK\"``)"
+msgstr ""
+
+#: ../api/api_reference.rst:472
+#: 1c6aa45f82e343d380a1354a7c6cd546
+msgid "Data Sources"
+msgstr ""
+
+#: ../api/api_reference.rst:474
+#: c97d18f8ab7d4db083e8e20b664904cc
+msgid "The ``sourceParams`` object specifies where to get imagery. Choose one option:"
+msgstr ""
+
+#: ../api/api_reference.rst:478
+#: 1290281072c843569fcce0c0cae9985f
+msgid "Default Data Provider"
+msgstr ""
+
+#: ../api/api_reference.rst:480
+#: d9a971f4f7904dcea0f0000ee7b96005
+msgid "Use built-in providers like Mapbox, ArcGIS."
+msgstr ""
+
+#: ../api/api_reference.rst:497
+#: ../api/api_reference.rst:578
+#: 1a1704ccec1b4f7188425c75a20ba044
+#: 822fe703396941109a93ebfa426716e4
+msgid "Field"
+msgstr ""
+
+#: ../api/api_reference.rst:499
+#: 8f3ffb2caf9c4fe5b0d8620ab37efc81
+msgid "``providerName``"
+msgstr ""
+
+#: ../api/api_reference.rst:500
+#: 1b36abf35f6746ce8b469353f578908f
+msgid "Provider name: ``Mapbox``, ``arcgis_world_imagery``, etc."
+msgstr ""
+
+#: ../api/api_reference.rst:501
+#: ../api/api_reference.rst:587
+#: ba35bbf72b0e4aa5a97cc7286bc89768
+#: eedc728436bd43f18afc01a06a3c198f
+msgid "``zoom``"
+msgstr ""
+
+#: ../api/api_reference.rst:502
+#: 477696ac09d14e25932b13c911226f81
+msgid "Zoom level (typically 17-19 for 0.5m resolution)"
+msgstr ""
+
+#: ../api/api_reference.rst:506
+#: 1cd6eadbbdad4c8b87ad60a630acc665
+msgid "My Imagery"
+msgstr ""
+
+#: ../api/api_reference.rst:508
+#: f41c2a9d2f634e82a5636b603a58a3a4
+msgid "Use imagery uploaded via :ref:`Data API`."
+msgstr ""
+
+#: ../api/api_reference.rst:510
+#: 0532b7c0e67144cd94dcd1b1cefe653a
+msgid "**Single image:**"
+msgstr ""
+
+#: ../api/api_reference.rst:522
+#: 6201c32eb3814c0bb44a6d0dd9422502
+msgid "**Mosaic (multiple images):**"
+msgstr ""
+
+#: ../api/api_reference.rst:537
+#: 77350fc5269d46c5ad891ae4b6db0cbf
+msgid "Imagery Search"
+msgstr ""
+
+#: ../api/api_reference.rst:539
+#: 378d362af6d54c86a66a50bbd2aa5aa9
+msgid "Search and use imagery from commercial providers."
+msgstr ""
+
+#: ../api/api_reference.rst:555
+#: 44402b90119d4a84854bad8e51f88782
+msgid "Custom URL"
+msgstr ""
+
+#: ../api/api_reference.rst:557
+#: 5d762957febb4ed1817d0bed2bbd5eb8
+msgid "Use your own XYZ/TMS/WMS tile service."
+msgstr ""
+
+#: ../api/api_reference.rst:581
+#: b88bbdd817d84a3db26b0bb5a610c836
+msgid "``sourceType``"
+msgstr ""
+
+#: ../api/api_reference.rst:583
+#: 888560c8bb5f4351aea74211ee3bed1b
+msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
+msgstr ""
+
+#: ../api/api_reference.rst:584
+#: ../api/api_reference.rst:816
+#: 602c8f8d9dbb49489052855b91f1a3fd
+#: 2d82e70f92bb439fa7427b5cd64939ca
+msgid "``url``"
+msgstr ""
+
+#: ../api/api_reference.rst:586
+#: 37f35eff2be64ed29e7986362461063f
+msgid "Tile URL template"
+msgstr ""
+
+#: ../api/api_reference.rst:589
+#: 6ad6e8b66ba049ab92233965c56ad44c
+msgid "Zoom level"
+msgstr ""
+
+#: ../api/api_reference.rst:590
+#: 7eb4233fd6b24b18a539ee8e3d9a6781
+msgid "``crs``"
+msgstr ""
+
+#: ../api/api_reference.rst:592
+#: f890183f304c41f49fd43611e28b32c1
+msgid "Coordinate reference system (e.g., ``EPSG:3857``)"
+msgstr ""
+
+#: ../api/api_reference.rst:593
+#: f43b4f8c73aa44a98b18e1a666c2b85d
+msgid "``rasterLogin``"
+msgstr ""
+
+#: ../api/api_reference.rst:595
+#: 58a0afe923514a26aa09024f8c4a1fb6
+msgid "Optional authentication username"
+msgstr ""
+
+#: ../api/api_reference.rst:596
+#: 04e480a9b70c40d59bdc522105e1fe8d
+msgid "``rasterPassword``"
+msgstr ""
+
+#: ../api/api_reference.rst:598
+#: 4536ea53e7814e65ad546dd4d616b79e
+msgid "Optional authentication password"
+msgstr ""
+
+#: ../api/api_reference.rst:604
+#: e6057a8928484c2ab35aa2757317a91a
+msgid "Uploading Custom Imagery"
+msgstr ""
+
+#: ../api/api_reference.rst:606
+#: 62702a0ae3364997981ad49cab660035
+msgid "Use :ref:`Data API` to create a mosaic and upload images"
+msgstr ""
+
+#: ../api/api_reference.rst:607
+#: 98d8185bda18472a9546fe1e0388da8d
+msgid "Reference uploaded images in ``sourceParams.myImagery.imageIds``"
+msgstr ""
+
+#: ../api/api_reference.rst:624
+#: d4f22ac975ac45bcb6fa580c0eae8fb4
+msgid "Data API"
+msgstr ""
+
+#: ../api/api_reference.rst:627
+#: e9e95aca57ec4a8bbff7f3512685058c
+msgid "Mosaics"
+msgstr ""
+
+#: ../api/api_reference.rst:629
+#: 4615b133a26f441e82c730bbb8203156
+msgid "A **mosaic** is a collection of georeferenced images organized for processing and preview. Mosaics help when working with multiple aerial images covering an area or batching large orthomaps for optimized cloud storage."
+msgstr ""
+
+#: ../api/api_reference.rst:633
+#: 78d10b8dfde943b4b65caf957923db7c
+msgid "Create Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:635
+#: eaeb42ea96054ba198de20cdc251736b
+msgid "``POST /rasters/mosaic``"
+msgstr ""
+
+#: ../api/api_reference.rst:637
+#: 2b3bb0ded0284c22845c5c3f611a86ab
+msgid "Creates an empty mosaic collection."
+msgstr ""
+
+#: ../api/api_reference.rst:639
+#: ../api/api_reference.rst:709
+#: ../api/api_reference.rst:806
+#: ../api/api_reference.rst:1043
+#: a88933246d2742c0acd6d22bcab938ca
+#: a91fe78313dc45ac9bfde4acf2c65152
+#: 63a1a1501328416a97d20d3942e3bc74
+#: 0625d280d3394fd1848d3c03fe24084e
+msgid "**Request Body**"
+msgstr ""
+
+#: ../api/api_reference.rst:652
+#: 74387d1c447540369849a813024f4d4f
+msgid "Mosaic name"
+msgstr ""
+
+#: ../api/api_reference.rst:653
+#: ../api/api_reference.rst:723
+#: 649eab8c194849b799ddb6dd3846c0ba
+#: 51b445158ba4422e976e1a93db4e4b29
+msgid "``tags``"
+msgstr ""
+
+#: ../api/api_reference.rst:656
+#: 791a5abaa2a04993a9e3b05253e5d94f
+msgid "Tags for organizing mosaics"
+msgstr ""
+
+#: ../api/api_reference.rst:670
+#: ../api/api_reference.rst:689
+#: ../api/api_reference.rst:769
+#: ../api/api_reference.rst:832
+#: ../api/api_reference.rst:849
+#: ../api/api_reference.rst:904
+#: ../api/api_reference.rst:984
+#: ../api/api_reference.rst:1014
+#: 26cee05b1fd241e2a72c8a163070292a
+#: 978b26235a634348824751078d4af196
+#: 07c58465d7e74775995377b360813457
+#: 74df8cee20f44e0fac4ab10983126d4e
+#: 132caa4ac4254d0bab83b349e4121544
+#: a25da8611e2f49fe96ba9efa4f24cc94
+#: 36b6a74c9c494e2a965204242bddfcef
+#: 1ba5086909494979a96accf1ee5ec541
+msgid "**Response**"
+msgstr ""
+
+#: ../api/api_reference.rst:683
+#: f606b1768f62406a845c60138d357a76
+msgid "Get Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:685
+#: 21559d8071004dc798e10b17ba3e1ca0
+msgid "``GET /rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:687
+#: 581dfa2fc9264542a991dd67e39a7248
+msgid "Retrieves mosaic metadata by ID."
+msgstr ""
+
+#: ../api/api_reference.rst:703
+#: 454db7fdf12b4b4ebb6f4b9b64cd5bea
+msgid "Update Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:705
+#: eeea29100bd24bba9c3e6c169ec919e6
+msgid "``PUT /rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:707
+#: a7eeb5de9e9f4699a714e5cb8b89d430
+msgid "Updates mosaic name and tags."
+msgstr ""
+
+#: ../api/api_reference.rst:722
+#: 95c02286e0ef415ea990221f52468ecb
+msgid "New mosaic name"
+msgstr ""
+
+#: ../api/api_reference.rst:726
+#: 4a5a50dd2f5241bd820adc2ecc740857
+msgid "New tag list (replaces existing)"
+msgstr ""
+
+#: ../api/api_reference.rst:742
+#: eb90087703a848dc9cde1c5fa9a8b0a1
+msgid "Upload Images to Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:744
+#: 097df8468f4f4a00bbdd9a7afdd583fd
+msgid "``POST /rasters/mosaic/{mosaic_id}/image``"
+msgstr ""
+
+#: ../api/api_reference.rst:746
+#: 987f8dd30cf7410d9dc7538ee98f3648
+msgid "Uploads georeferenced image files to an existing mosaic."
+msgstr ""
+
+#: ../api/api_reference.rst:749
+#: 1909fcb443c24c0696a1780ee0a0ba65
+msgid "All images in a mosaic must have:"
+msgstr ""
+
+#: ../api/api_reference.rst:751
+#: f7f3ee0f6e3b4d79919ea4f50757e9e8
+msgid "Same coordinate reference system (CRS)"
+msgstr ""
+
+#: ../api/api_reference.rst:752
+#: c7094b11bc264b72a219176e553049ff
+msgid "Same number of bands"
+msgstr ""
+
+#: ../api/api_reference.rst:753
+#: 76b428f794704ba890581d5e0aade0ff
+msgid "Same spatial resolution"
+msgstr ""
+
+#: ../api/api_reference.rst:755
+#: 6d1478bbb2fe4bf1bffe09634ce56cbf
+msgid "**Request**"
+msgstr ""
+
+#: ../api/api_reference.rst:757
+#: 5498ee1459774a09bf81cd80614f151b
+msgid "Content-Type: ``multipart/form-data``"
+msgstr ""
+
+#: ../api/api_reference.rst:758
+#: 950e9f7a785f4195808314071f0f396b
+msgid "Body: ``file`` field with image file"
+msgstr ""
+
+#: ../api/api_reference.rst:783
+#: d6aba39010444b2ebf5a44985d9c1d5f
+msgid "Create Mosaic and Upload Image"
+msgstr ""
+
+#: ../api/api_reference.rst:785
+#: f399fdab7e804cdca3a81e91066653a1
+msgid "``POST /rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}``"
+msgstr ""
+
+#: ../api/api_reference.rst:787
+#: 39796dd29e8a4b5fae454f4ce3d70778
+msgid "Creates a mosaic and uploads an image in a single request."
+msgstr ""
+
+#: ../api/api_reference.rst:800
+#: 7737efd568314f459f6ef659e48bbb5f
+msgid "Link External Image to Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:802
+#: ca0d76860d8344cb933c9e9386d14457
+msgid "``POST /rasters/mosaic/{mosaic_id}/link-image``"
+msgstr ""
+
+#: ../api/api_reference.rst:804
+#: 4bc6d2a6a5ce44d1b74af2862997953f
+msgid "Links an existing S3 image URL to a mosaic without uploading."
+msgstr ""
+
+#: ../api/api_reference.rst:819
+#: 57ee20b50e184e079e5fe0ee24488302
+msgid "S3 URL of the image file"
+msgstr ""
+
+#: ../api/api_reference.rst:843
+#: 079acfe1f5674dc0a933f7d22f624f38
+msgid "Get Images in Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:845
+#: e811203c96174d22b5a1578887aabb5e
+msgid "``GET /rasters/mosaic/{mosaic_id}/image``"
+msgstr ""
+
+#: ../api/api_reference.rst:847
+#: 4166403614f24bf282064bc1745cc93b
+msgid "Lists all images in a mosaic with metadata."
+msgstr ""
+
+#: ../api/api_reference.rst:874
+#: c492bd70dd524a02a6cd93a61f44c7ad
+msgid "Delete Mosaic"
+msgstr ""
+
+#: ../api/api_reference.rst:876
+#: 691a39e3a48049a182bdc4fb44034fc3
+msgid "``DELETE /rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:878
+#: 5cc8a9f174ff4efca213ea29ce6d6f70
+msgid "Deletes a mosaic and all its linked images."
+msgstr ""
+
+#: ../api/api_reference.rst:881
+#: b6505ac1db14489ca65becf5b634e030
+msgid "This action is **irreversible**. All images linked to the mosaic will be permanently deleted."
+msgstr ""
+
+#: ../api/api_reference.rst:892
+#: 03f1fad01d2e45f8bd98abf17e8704b2
+msgid "Images"
+msgstr ""
+
+#: ../api/api_reference.rst:894
+#: 31e78bd765ee4873afe924e1091b06af
+msgid "Manage individual image files and metadata."
+msgstr ""
+
+#: ../api/api_reference.rst:898
+#: a4a7f80ac19d4ab3920f0d1cfa6aa408
+msgid "Get Image Metadata"
+msgstr ""
+
+#: ../api/api_reference.rst:900
+#: 37e59661841b406891b99eb814a8fc9a
+msgid "``GET /rasters/image/{image_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:902
+#: c7f2f0afa46e4f71afbce8359f027212
+msgid "Retrieves detailed metadata for a specific image."
+msgstr ""
+
+#: ../api/api_reference.rst:927
+#: 2281a7c93db74dc99f3a63f33a7a9fa1
+msgid "Update Image Name"
+msgstr ""
+
+#: ../api/api_reference.rst:929
+#: b234212e17ac41fcb1ca9fd6930d2451
+msgid "``PUT /rasters/image/{image_id}?name={new_name}``"
+msgstr ""
+
+#: ../api/api_reference.rst:931
+#: 88d6b9c8aba14db994f71b7d027af8f9
+msgid "Updates the display name of an image."
+msgstr ""
+
+#: ../api/api_reference.rst:942
+#: d5cf1e820e584eaaa76d75d7d2b2581e
+msgid "Delete Image"
+msgstr ""
+
+#: ../api/api_reference.rst:944
+#: 348f3fc744784f13975204fb9bc59b8e
+msgid "``DELETE /rasters/image/{image_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:946
+#: f4c7786765e546cba42da7b1b3b21d69
+msgid "Deletes an image from storage."
+msgstr ""
+
+#: ../api/api_reference.rst:957
+#: 2a6f5c3bbc5c43a68b18876c3dfa5829
+msgid "Get Image Preview"
+msgstr ""
+
+#: ../api/api_reference.rst:959
+#: a192a46be7da4eb4825684afcbc3e1a6
+msgid "``GET /rasters/image/{image_id}/preview/{size}``"
+msgstr ""
+
+#: ../api/api_reference.rst:961
+#: b877e4d87aeb434c821f680cc9a61806
+msgid "Retrieves a preview thumbnail of the image."
+msgstr ""
+
+#: ../api/api_reference.rst:963
+#: 8a30a7f5d18f4263ac5bd9e8ac4140a9
+msgid "**Path Parameters**"
+msgstr ""
+
+#: ../api/api_reference.rst:969
+#: 4a8fe2b05ece4bdc939952d1f9d22c0b
+msgid "Size"
+msgstr ""
+
+#: ../api/api_reference.rst:971
+#: ../api/api_reference.rst:1246
+#: 41f1c6bafc6c448e9c2f2fa87cd29afd
+#: 16021c6a2f834fc1a14427ec9ca7e75a
+msgid "``s``"
+msgstr ""
+
+#: ../api/api_reference.rst:972
+#: ecba6e0ee96f455d8b5654ead77a60fd
+msgid "Small preview (256×256 pixels)"
+msgstr ""
+
+#: ../api/api_reference.rst:973
+#: ../api/api_reference.rst:1248
+#: 0dd9a413ed6c476587ac2145c4abd51b
+#: 3181f5ae6370463da86c369e50bfdf56
+msgid "``l``"
+msgstr ""
+
+#: ../api/api_reference.rst:974
+#: 8066ee9784074897894a0893b4550e2e
+msgid "Large preview (1024×1024 pixels)"
+msgstr ""
+
+#: ../api/api_reference.rst:986
+#: f72465dd410c47c5a88e446922ac239d
+msgid "Returns JPEG image data."
+msgstr ""
+
+#: ../api/api_reference.rst:None
+#: 64686b58c6ed49d3bbfaed4405b93c75
+msgid "Image preview example"
+msgstr ""
+
+#: ../api/api_reference.rst:997
+#: 429deeacb055443ab32f1defb5b914c5
+msgid "Storage"
+msgstr ""
+
+#: ../api/api_reference.rst:1001
+#: 592181a3307a4cec9dac4cad9e1cf3dd
+msgid "Get Storage Usage"
+msgstr ""
+
+#: ../api/api_reference.rst:1003
+#: 8497bfded64a47678bfc3c4f1c85bc31
+msgid "``GET /rasters/memory``"
+msgstr ""
+
+#: ../api/api_reference.rst:1005
+#: 3472cc76c0c04b14be97c1798d667a90
+msgid "Returns current storage usage and limits for your account."
+msgstr ""
+
+#: ../api/api_reference.rst:1030
+#: 2d925840a1f84c7c999b1be8d9713185
+msgid "Imagery Catalog"
+msgstr ""
+
+#: ../api/api_reference.rst:1033
+#: 73f9a9d1282f431f80077b14b9967f91
+msgid "The Imagery Search API connects you to external satellite imagery providers. Search results depend on providers linked to your account. Contact support to add provider access."
+msgstr ""
+
+#: ../api/api_reference.rst:1037
+#: 5ad2ffce56ed47c1976a5147e59cbd8f
+msgid "Search Available Imagery"
+msgstr ""
+
+#: ../api/api_reference.rst:1039
+#: 09d31261f24d4d87845ee0b68f4b053f
+msgid "``POST /catalog/meta``"
+msgstr ""
+
+#: ../api/api_reference.rst:1041
+#: a172f93a9a7c4d669c81a99fa2fd6114
+msgid "Searches satellite imagery from external providers by area and metadata filters."
+msgstr ""
+
+#: ../api/api_reference.rst:1053
+#: 3a794a8dd11a4d59b997ea8a465309b7
+msgid "``aoi``"
+msgstr ""
+
+#: ../api/api_reference.rst:1056
+#: e35233f945b640c6939e47d282f381ed
+msgid "GeoJSON Polygon or MultiPolygon"
+msgstr ""
+
+#: ../api/api_reference.rst:1057
+#: 12d79d93389843c390a9839a6d2f1979
+msgid "``acquisitionDateFrom``"
+msgstr ""
+
+#: ../api/api_reference.rst:1060
+#: ../api/api_reference.rst:1064
+#: ee66c3155e684f4185b9ee50245f7ab6
+#: 01315cd43fb24763b6b9bd92986788a0
+msgid "UTC datetime (ISO 8601)"
+msgstr ""
+
+#: ../api/api_reference.rst:1061
+#: db25e1f87c194c759cee2f571d2e8f39
+msgid "``acquisitionDateTo``"
+msgstr ""
+
+#: ../api/api_reference.rst:1065
+#: b69ed76103944eb3b3404b44cc0127a8
+msgid "``minResolution``"
+msgstr ""
+
+#: ../api/api_reference.rst:1066
+#: ../api/api_reference.rst:1070
+#: ../api/api_reference.rst:1074
+#: ../api/api_reference.rst:1078
+#: ../api/api_reference.rst:1082
+#: ../api/api_reference.rst:1086
+#: 66b985be725248adafbceae58a86f6ee
+#: f629a46f5254443aad3fd3f2bb813057
+#: 0a72e3bd1f9e4dbd90f3c327460c55a5
+#: 86d5bdaab5a544c8a113e316457c1fc2
+#: d432f55ad6e1486ea5010a244881d7ea
+#: 187721bbfdba4e82bca769816cea95ec
+msgid "float"
+msgstr ""
+
+#: ../api/api_reference.rst:1068
+#: 8eafda8eab104dc096afb9a584f9a86a
+msgid "Minimum resolution (meters/pixel)"
+msgstr ""
+
+#: ../api/api_reference.rst:1069
+#: 85e7f03e345743b8ab14f55c7ea41ae9
+msgid "``maxResolution``"
+msgstr ""
+
+#: ../api/api_reference.rst:1072
+#: d2a7c225faa14563b44f9c73ad4a7e1f
+msgid "Maximum resolution (meters/pixel)"
+msgstr ""
+
+#: ../api/api_reference.rst:1073
+#: 43d027c6089d4ad09149214b4099452c
+msgid "``maxCloudCover``"
+msgstr ""
+
+#: ../api/api_reference.rst:1076
+#: 8a93f7fe6e614299854310b011083de4
+msgid "Maximum cloud cover (0.0-100)"
+msgstr ""
+
+#: ../api/api_reference.rst:1077
+#: bafac1f11c484d5ab2907ca058836412
+msgid "``minOffNadirAngle``"
+msgstr ""
+
+#: ../api/api_reference.rst:1080
+#: 775dbd68724344e596b014b7a6f53d66
+msgid "Minimum off-nadir angle (degrees)"
+msgstr ""
+
+#: ../api/api_reference.rst:1081
+#: f92c9a67ffa64da6bf880b51d9259cfe
+msgid "``maxOffNadirAngle``"
+msgstr ""
+
+#: ../api/api_reference.rst:1084
+#: 6e0154eafce64bae84bf155bc655622a
+msgid "Maximum off-nadir angle (degrees)"
+msgstr ""
+
+#: ../api/api_reference.rst:1085
+#: 2c02ff722f7e49c5a4eacbf1672a8dc6
+msgid "``minAoiIntersectionPercent``"
+msgstr ""
+
+#: ../api/api_reference.rst:1088
+#: d980f0fd00b84b388362b7db2208bf7f
+msgid "Minimum AOI overlap (0.0-100)"
+msgstr ""
+
+#: ../api/api_reference.rst:1089
+#: 05761becb0724b629c7432b1a05eec31
+msgid "``limit``"
+msgstr ""
+
+#: ../api/api_reference.rst:1092
+#: ba3b466dfe7343e4bc232cfbf16c244e
+msgid "Max results (default: 100)"
+msgstr ""
+
+#: ../api/api_reference.rst:1093
+#: d62b925a35c049499ba2a993136febd1
+msgid "``offset``"
+msgstr ""
+
+#: ../api/api_reference.rst:1096
+#: 8e361cb0c0e549209bd7f2c1cc50614a
+msgid "Pagination offset"
+msgstr ""
+
+#: ../api/api_reference.rst:1097
+#: 152fcee14a244b889fa6d0e9443c1122
+msgid "``sortBy``"
+msgstr ""
+
+#: ../api/api_reference.rst:1100
+#: 732a1174a4844d7093168a222bc19eb0
+msgid "Sort field (e.g., ``ACQUISITION_DATE``)"
+msgstr ""
+
+#: ../api/api_reference.rst:1101
+#: fd20374da87b44deb3818bda29090390
+msgid "``sortOrder``"
+msgstr ""
+
+#: ../api/api_reference.rst:1104
+#: bb29241069dd4ef8844d2e3e34a263a1
+msgid "``ASC`` or ``DESC``"
+msgstr ""
+
+#: ../api/api_reference.rst:1105
+#: a619d7ae4cb34ecda4a00f21cff5c0e4
+msgid "``hideUnavailable``"
+msgstr ""
+
+#: ../api/api_reference.rst:1106
+#: 49e8ca14d95c48dd8375a1944a394d67
+msgid "boolean"
+msgstr ""
+
+#: ../api/api_reference.rst:1108
+#: 5e22b1771a6d4474b0702f25b3ee24c4
+msgid "Exclude unavailable products"
+msgstr ""
+
+#: ../api/api_reference.rst:1109
+#: 6aa8b683d7c64aa9bd5c75c50cd2e100
+msgid "``dataProviders``"
+msgstr ""
+
+#: ../api/api_reference.rst:1112
+#: 8803ef825de6428ca88de58c1f919eac
+msgid "Filter by provider \"name\""
+msgstr ""
+
+#: ../api/api_reference.rst:1113
+#: aeae7308f60345668893da7b085f526b
+msgid "``productTypes``"
+msgstr ""
+
+#: ../api/api_reference.rst:1116
+#: 79ce51708eb544db8261f534263752c7
+msgid "Filter by product types ``[\"IMAGE\" and/or \"MOSAIC\"]``"
+msgstr ""
+
+#: ../api/api_reference.rst:1119
+#: 02f11e6e0303404fac65178fb28f97c7
+msgid "Search area size is limited by your account's AOI limit."
+msgstr ""
+
+#: ../api/api_reference.rst:1144
+#: f71629358f5a48149d32b5e2fec527c0
+msgid "**Response – Scene Product**"
+msgstr ""
+
+#: ../api/api_reference.rst:None
+#: afe3549a4a464026a86125c3643fc87c
+msgid "Satellite scene preview"
+msgstr ""
+
+#: ../api/api_reference.rst:1176
+#: e2ae0e4462194d03b4cef9c0e94ab1e9
+msgid "**Response – Mosaic Product**"
+msgstr ""
+
+#: ../api/api_reference.rst:1202
+#: 6e8b27c9bddd4edcb7effc7d63bd5e5f
+msgid "Use Search Results in Processing"
+msgstr ""
+
+#: ../api/api_reference.rst:1204
+#: 0ce935aa70404bc0acd2679f438ecc5c
+msgid "To run processing with imagery from search results, use the ``imagerySearch`` source parameter:"
+msgstr ""
+
+#: ../api/api_reference.rst:1219
+#: b835d904fc9a4244a2e564783bad59e7
+msgid "See :doc:`Processing API <processing_api>` for complete processing workflow."
+msgstr ""
+
+#: ../api/api_reference.rst:1223
+#: ccf9bce2ab1a4c29862789dfa59d86f4
+msgid "Product Types"
+msgstr ""
+
+#: ../api/api_reference.rst:1231
+#: 3b4ce198a7ad4f948cda8e4f0c52c247
+msgid "**Scene**"
+msgstr ""
+
+#: ../api/api_reference.rst:1232
+#: 83548557d94a4e80ad68c3dd6dadda8c
+msgid "Single satellite capture. Available for ordering by request. Contact support to order specific scenes."
+msgstr ""
+
+#: ../api/api_reference.rst:1233
+#: 8997dcab897c402aa651a664fd4c33ac
+msgid "**Mosaic**"
+msgstr ""
+
+#: ../api/api_reference.rst:1234
+#: 1af101de8c9e4085ae7bb944d37c2041
+msgid "Pre-processed imagery mosaic. Available for instant processing if provider is linked to your account."
+msgstr ""
+
+#: ../api/api_reference.rst:1238
+#: 4d2eba86495f4fdd93cff947764c2393
+msgid "Preview Sizes"
+msgstr ""
+
+#: ../api/api_reference.rst:1244
+#: 550df49b0a9f495298edf9bbda6473b1
+msgid "Size Code"
+msgstr ""
+
+#: ../api/api_reference.rst:1245
+#: b3d5f47bc6f74053b30166f3f2fae672
+msgid "Dimensions"
+msgstr ""
+
+#: ../api/api_reference.rst:1247
+#: c225a5905e7d4d5196a615594ce97b1f
+msgid "256×256 pixels"
+msgstr ""
+
+#: ../api/api_reference.rst:1249
+#: 7ec2ce77c128458cab9cc2db85f40672
+msgid "1024×1024 pixels"
+msgstr ""
+
+#: ../api/api_reference.rst:1255
+#: 53e701c208864a5299a89917bb8a077d
+msgid "Workflow Blocks"
+msgstr ""
+
+#: ../api/api_reference.rst:1257
+#: 359f676785c84a81b37b3c6f36065af6
+msgid "Customize processing by enabling/disabling optional workflow steps."
+msgstr ""
+
+#: ../api/api_reference.rst:1268
+#: 98a03e829b8f4923984af40fe2c2ccd2
+msgid "Available blocks vary by model. Retrieve options via ``GET /user/status``."
+msgstr ""
+
+#: ../api/api_reference.rst:1274
+#: 21bc210f6fca4e7d88dd0d42f61c84af
+msgid "AI Models"
+msgstr ""
+
+#: ../api/api_reference.rst:1280
+#: c59cea9f88b348d1a77f231250d39123
+msgid "Model"
+msgstr ""
+
+#: ../api/api_reference.rst:1282
+#: 95b2ec236c2642f194da4f20186111ae
+msgid "Resolution"
+msgstr ""
+
+#: ../api/api_reference.rst:1283
+#: e8beed2b3f734a458ed55f69d70af1ad
+msgid "Zoom"
+msgstr ""
+
+#: ../api/api_reference.rst:1284
+#: a91dfbef711d421aa867ec9b49f955f8
+msgid "Optional Blocks"
+msgstr ""
+
+#: ../api/api_reference.rst:1285
+#: 8dd99e50de014e32809fc45ee7e212e6
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../api/api_reference.rst:1286
+#: 9334701f17084c088e6b3db14bb4a67b
+msgid "Building footprints with classification"
+msgstr ""
+
+#: ../api/api_reference.rst:1287
+#: ../api/api_reference.rst:1297
+#: ../api/api_reference.rst:1302
+#: ../api/api_reference.rst:1307
+#: ee28d4b606f84d4d8838016afcf3d635
+#: 1e79b527d1fa48ec931dc60374cd8062
+#: db70229f86344213b78c400184d2145e
+#: bef61274fd7d4cbeb461c0fc21d3cab7
+msgid "0.5 m/px"
+msgstr ""
+
+#: ../api/api_reference.rst:1288
+#: ../api/api_reference.rst:1298
+#: ../api/api_reference.rst:1303
+#: ../api/api_reference.rst:1308
+#: 08e2b0261c12494bb3c9a46ac46c6dd0
+#: ef32091d7ea44aafaa679b00fcc33538
+#: 4d527f1c9ba5478fb8c883c804b1e2b0
+#: 6fcd3fb306824f72a46c3897da0ff94e
+msgid "17-18"
+msgstr ""
+
+#: ../api/api_reference.rst:1289
+#: 5917e9aa12484e16b882ca375e562dda
+msgid "Simplification, Classification, OSM"
+msgstr ""
+
+#: ../api/api_reference.rst:1290
+#: d74ad3e78e204a67a55191fc877648f6
+msgid "🏠 Buildings (Aerial)"
+msgstr ""
+
+#: ../api/api_reference.rst:1291
+#: 699f5b75efb94d659c84f5795a1eda31
+msgid "High-resolution aerial imagery (10 cm/px)"
+msgstr ""
+
+#: ../api/api_reference.rst:1292
+#: b5a32f324b594ba59facefb979d98fec
+msgid "0.1 m/px"
+msgstr ""
+
+#: ../api/api_reference.rst:1293
+#: 6a033781dcee41428c6b5747d7ea852c
+msgid "19-20"
+msgstr ""
+
+#: ../api/api_reference.rst:1294
+#: f920664889454610b8e9a3faff341fea
+msgid "Simplification"
+msgstr ""
+
+#: ../api/api_reference.rst:1295
+#: 562c92a574ff4393bf209817325b198d
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../api/api_reference.rst:1296
+#: a7600e6bb78c4023aae89ee25a0fbbc9
+msgid "Tree cover detection"
+msgstr ""
+
+#: ../api/api_reference.rst:1299
+#: 06e8822fa0d14ddea08f7407ba5cc428
+msgid "Heights"
+msgstr ""
+
+#: ../api/api_reference.rst:1300
+#: 3c24564ae20c48e98ba5da8b861df03b
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../api/api_reference.rst:1301
+#: 948b79c462914067b0338cd15ac7d29e
+msgid "Road network extraction"
+msgstr ""
+
+#: ../api/api_reference.rst:1304
+#: ../api/api_reference.rst:1309
+#: 6862c1bd02f842d8a4f5d11cab0a920f
+#: 7cbb80f3babe4adaac538b4008f1be98
+msgid "—"
+msgstr ""
+
+#: ../api/api_reference.rst:1305
+#: a7cb79a520a04192ba320f7fce6a610c
+msgid "🏗️ Construction"
+msgstr ""
+
+#: ../api/api_reference.rst:1306
+#: 6582c5e934414e79b8d6084551de8572
+msgid "Construction site detection"
+msgstr ""
+
+#: ../api/api_reference.rst:1311
+#: 40797058349a4623ad142175232cd481
+msgid "See :doc:`model descriptions <../userguides/pipelines>` for detailed requirements."
+msgstr ""
+
+#: ../api/api_reference.rst:1315
+#: 6ce2c328faac4582afce958310095f71
+msgid "Status Codes"
+msgstr ""
+
+#: ../api/api_reference.rst:1321
+#: bcab007e2c5d44bc9190a88e5c77fdd6
+msgid "Status"
+msgstr ""
+
+#: ../api/api_reference.rst:1323
+#: 12cab42a031444f8b6fdd450151a4c96
+msgid "``UNPROCESSED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1324
+#: c9060196f42b4962b4fce93d4e61c069
+msgid "Processing created but not started"
+msgstr ""
+
+#: ../api/api_reference.rst:1325
+#: 7f5bdd1ee61d4254af66d4c7a47a8596
+msgid "``IN_PROGRESS``"
+msgstr ""
+
+#: ../api/api_reference.rst:1326
+#: 0d79136b49494e6a8848e2ddf1b14d76
+msgid "Processing is running"
+msgstr ""
+
+#: ../api/api_reference.rst:1327
+#: 9a074654335943c79a5dd6426c5cd647
+msgid "``AWAITING``"
+msgstr ""
+
+#: ../api/api_reference.rst:1328
+#: 1d9ddae9a0fa4b80addacace3598e812
+msgid "Awaiting imagery from provider"
+msgstr ""
+
+#: ../api/api_reference.rst:1329
+#: 48f7ae2a5dfc49bd812ee5b6d93e85f3
+msgid "``OK``"
+msgstr ""
+
+#: ../api/api_reference.rst:1330
+#: 8878642b2f7946e69297923771a7db92
+msgid "Processing completed successfully"
+msgstr ""
+
+#: ../api/api_reference.rst:1331
+#: ef17cbd6850b4769ace9d78701eff767
+msgid "``FAILED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1332
+#: 56ed383dd4b042c9909268d0c976acb1
+msgid "Processing failed (check ``messages`` field)"
+msgstr ""
+
+#: ../api/api_reference.rst:1333
+#: 1911f7c067c24098883a05e5d0e3d68c
+msgid "``CANCELLED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1334
+#: bdb6803cdad3418bbb95c0f2ff5bb27c
+msgid "Processing was cancelled by user"
+msgstr ""
+
+#: ../api/api_reference.rst:1335
+#: ../api/api_reference.rst:1352
+#: 5ac9889a975e4144aa715b79bc21523e
+#: ebe69705f5824477a5ceea21ac8c031d
+msgid "``REFUNDED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1336
+#: 3e31081e680f41b4b585ff8e6c1099b7
+msgid "Credits refunded by administrator"
+msgstr ""
+
+#: ../api/api_reference.rst:1340
+#: ../api/api_reference.rst:1346
+#: 6caa4d3cca4140dfa382c39360f21995
+#: bf1b47e8f29646118735fa1152029cb3
+msgid "Review Status"
+msgstr ""
+
+#: ../api/api_reference.rst:1348
+#: c4173df10c5c46a88aac531df37e577e
+msgid "``ACCEPTED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1349
+#: 3c5f5d70621e48279b8ac785263ceb45
+msgid "Results accepted"
+msgstr ""
+
+#: ../api/api_reference.rst:1350
+#: 0e65caaae8d4462998da4c98927e5a17
+msgid "``NOT_ACCEPTED``"
+msgstr ""
+
+#: ../api/api_reference.rst:1351
+#: a62f3b1459f041249dcef4354b96babf
+msgid "Results rejected"
+msgstr ""
+
+#: ../api/api_reference.rst:1353
+#: cee6dde6449f45bb944a1fc3738e4974
+msgid "Credits refunded"
+msgstr ""
+
+#: ../api/api_reference.rst:1354
+#: 2bf5f828202d4133943486232d6ead02
+msgid "``IN_REVIEW``"
+msgstr ""
+
+#: ../api/api_reference.rst:1355
+#: b96d3be7f953431cb6d0cbe504d0663a
+msgid "Under review by team"
+msgstr ""
+
+#: ../api/api_reference.rst:1359
+#: 7226ae3f19dd4f7db5fa35a6964f634f
+msgid "Error Messages"
+msgstr ""
+
+#: ../api/api_reference.rst:1361
+#: e70cb5503f404a09b70b85e0f71ce6c2
+msgid "For detailed error codes and troubleshooting, see :doc:`Error Messages <error_messages>`."
+msgstr ""
+
+#: ../api/api_reference.rst:1363
+#: fe664d72783e436fa6e90de93b328a5b
+msgid "Common errors:"
+msgstr ""
+
+#: ../api/api_reference.rst:1365
+#: e135c0097f5d4b8980545c473ca59452
+msgid "``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max 1.2 m/px)"
+msgstr ""
+
+#: ../api/api_reference.rst:1366
+#: 15f3d1ea0e424566a97a9a6398b9bcde
+msgid "``source-validator.NoDataInAOI`` — No imagery available for AOI"
+msgstr ""
+
+#: ../api/api_reference.rst:1367
+#: 66ba7491a3974732b5c22ab16bea744a
+msgid "``geometry.Invalid`` — Invalid GeoJSON geometry"
+msgstr ""
+
+#: ../api/api_reference.rst:1373
+#: 25d09efc61af40e0840310feaccee9ff
+msgid "Best Practices"
+msgstr ""
+
+#: ../api/api_reference.rst:1375
+#: 60de985230b9437d9b83dd64d76fd8b2
+msgid "**Check cost before running** — Use ``/processing/cost/v2`` to estimate credits"
+msgstr ""
+
+#: ../api/api_reference.rst:1376
+#: f24374cbd7ba436c8906074ca949a237
+msgid "**Poll status efficiently** — Check status every 30-60 seconds for ``IN_PROGRESS`` processings"
+msgstr ""
+
+#: ../api/api_reference.rst:1377
+#: 7866faebe9714de195e2198e87e05b50
+msgid "**Handle errors gracefully** — Check ``messages`` field in failed processings"
+msgstr ""
+
+#: ../api/api_reference.rst:1378
+#: 70ab0a22ef5d44328b04ed02590603f6
+msgid "**Use appropriate zoom levels** — Match zoom to model requirements (typically 17-18)"
+msgstr ""
+
+#: ../api/api_reference.rst:1379
+#: 84106774c20e4f4393c99ea135d02267
+msgid "**Validate geometry** — Ensure GeoJSON is valid and not too large (< 100 km²)"
+msgstr ""
+
+#: ../api/api_reference.rst:1380
+#: 21dc383f4ed444c58b26cedb3c220bf7
+msgid "**Organize with projects** — Group related processings in projects"
+msgstr ""
+
+#: ../api/api_reference.rst:1381
+#: 2f1dcad88ed1427c9ce3c278361d2ae2
+msgid "**Store processing IDs** — Save IDs for later result retrieval"
+msgstr ""
+
+#: ../api/api_reference.rst:1384
+#: 4742acb50ebc4a9ab42384fa536f42bc
+msgid "Support"
+msgstr ""
+
+#: ../api/api_reference.rst:1387
+#: c76735389e80429e86426e7e7e6b768c
+msgid "Rate Limits"
+msgstr ""
+
+#: ../api/api_reference.rst:1389
+#: 949ad983ab6742929f59a964899b77b5
+msgid "No strict rate limits currently"
+msgstr ""
+
+#: ../api/api_reference.rst:1390
+#: 2adf96e395204037b28d668790b05206
+msgid "Concurrent processings limited by account tier"
+msgstr ""
+
+#: ../api/api_reference.rst:1391
+#: 3ec35d2a367146f892ceae104343d6d5
+msgid "Contact support for high-volume use cases"
+msgstr ""
+
+#: ../api/api_reference.rst:1394
+#: f2740c3a359847df8eb8ae6bba4f5179
+msgid "Get Help"
+msgstr ""
+
+#: ../api/api_reference.rst:1396
+#: eea40d6fce24407d9fb9da7fe15c6651
+msgid "Email: help@geoalert.io"
+msgstr ""
+
+#: ../api/api_reference.rst:1397
+#: de56082888884fc787ffba20a6acf06c
+msgid "Documentation: https://docs.mapflow.ai"
+msgstr ""
+
+#: ../api/api_reference.rst:1398
+#: ada6868acae140a78ada5af9226b42fe
+msgid "Web app: https://app.mapflow.ai"
+msgstr ""

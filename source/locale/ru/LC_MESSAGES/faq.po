@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: 2023-11-07 22:57+0700\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -19,22 +19,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../faq.rst:2 fccbd9b56df6484fb2ab381bb122cd46
+#: ../../source/faq.rst:2 9b921c2de67c48f589659f1e5878d234
 msgid "Mapflow FAQ"
 msgstr "Часто задаваемые вопросы"
 
-#: ../faq.rst:5 c57a95b0b12242008860c0d3069c6f24
+#: ../../source/faq.rst:5 e5572140b56240a0a110b6860d509c78
 msgid "Payment"
 msgstr "Оплата"
 
-#: ../faq.rst:6 9e0543c82abc4a8db787f0638aea8a64
+#: ../../source/faq.rst:6 304080161eb940f48c3113916e9c0a18
 msgid "**How to buy credits for using the platform? How much is it?**"
 msgstr ""
 "**Как приобрести кредиты для использования в платформе? Сколько стоят "
 "кредиты?**"
 
-#: ../faq.rst:8 b7cc896a8b674e47911b22460df99538
-#, fuzzy
+#: ../../source/faq.rst:8 f26278a8560741bcba482e352a267186
 msgid ""
 "The cost of the Services is determined in conventional units, Credits, "
 "where 1 Credit is equal to USD 0.1 ( the progressive discount is applied "
@@ -44,12 +43,13 @@ msgid ""
 ":doc:`Mapflow prices </userguides/prices>`."
 msgstr ""
 "Стоимость сервисов определяется в условных единицах, кредитах, где 1 "
-"Кредит равен 0,1 доллара США. Для совершения платежа перейдите в "
-"Настройки личного кабинета или нажмите на иконку баланса и выберите "
-"необходимое количество кредитов (50$, 90$ или 800$). См. :doc:`Цены "
+"Кредит равен 0,1 доллара США (прогрессивная скидка в зависимости от "
+"количества купленных кредитов). Для оплаты перейдите в Настройки "
+"личного кабинета или нажмите на иконку баланса и выберите нужное "
+"количество кредитов ($50, $90 или $800). См. :doc:`Цены "
 "Mapflow </userguides/prices>`."
 
-#: ../faq.rst:10 af4c0c4d0cb842689e19a84128296cce
+#: ../../source/faq.rst:10 8c840f92c31348a9af7280ac97e8dbde
 msgid ""
 "**I represent a company and would like to perform large volume of "
 "processing. Do you have corporate rates?**"
@@ -57,7 +57,7 @@ msgstr ""
 "**Я представляю компанию и хотел бы выполнить большой объем обработки. "
 "Есть ли у вас корпоративные тарифы?**"
 
-#: ../faq.rst:12 6f8944de658f42589287b8caa8a185bb
+#: ../../source/faq.rst:12 8154d6ece370405ab223b1ea35c75c2a
 msgid ""
 "Check our `commercial plans <https://mapflow.ai/pricing>`_ for "
 "Enterprise. Contact our `sales <https://geoalert.io/#contacts>`_ to send "
@@ -68,11 +68,11 @@ msgstr ""
 "нашим `отделом продаж <https://geoalert.io/#contacts>`_, чтобы отправить "
 "запрос и получить предложение."
 
-#: ../faq.rst:14 a1d5a60a814349c49fc30e6dffb0313b
+#: ../../source/faq.rst:14 cf8787225f1e422a9b32eff453d2e7a5
 msgid "**What if I'm not satisfied with the output? Do you make a refund?**"
-msgstr ""
+msgstr "**Что если меня не устраивает результат? Возможен ли возврат средств?**"
 
-#: ../faq.rst:16 8ebf78eb26d84c7fb1a42a6673cd6215
+#: ../../source/faq.rst:16 759445d910664213974d5765364b90d4
 msgid ""
 "For Free Users: You can use evaluation credits to test our software. If "
 "you are unsatisfied with the output, we encourage you to leave feedback "
@@ -80,19 +80,28 @@ msgid ""
 "determine the output was unsatisfactory, we may refund the evaluation "
 "credits."
 msgstr ""
+"Для бесплатных пользователей: Вы можете использовать оценочные кредиты "
+"для тестирования нашего сервиса. Если вас не устраивает результат, мы "
+"просим оставить отзыв и оценить результаты. Мы рассматриваем все оценки "
+"от бесплатных пользователей и в случае неудовлетворительного результата "
+"можем вернуть оценочные кредиты."
 
-#: ../faq.rst:18 d51dd834d1674193acdd94ba0b930edb
+#: ../../source/faq.rst:18 b0cb9d44770c4c06842cea0195bf5738
 msgid ""
 "For Paid Users: If you are on a corporate plan, we commit to meeting a "
 "specific level of accuracy. If the output does not meet these "
 "requirements, we will refund your credits according to our refund policy."
 msgstr ""
+"Для платных пользователей: При наличии корпоративного плана мы берём "
+"на себя обязательство по достижению определённого уровня точности. Если "
+"результат не соответствует требованиям, кредиты будут возвращены согласно "
+"нашей политике возврата."
 
-#: ../faq.rst:23 7b39d73e58b2482f801ac12650535b77
+#: ../../source/faq.rst:23 eafbeb3aab08468cb0ec46a57d0a5308
 msgid "Satellite imagery"
 msgstr "Спутниковые снимки"
 
-#: ../faq.rst:25 d487429471284e1aa4d76fb1618207d8
+#: ../../source/faq.rst:25 591d344c6a1941cbb4a1a62c21ba85aa
 msgid ""
 "**What satellite imagery do you use? What are their resolution, alignment"
 " accuracy and other characteristics?**"
@@ -100,7 +109,7 @@ msgstr ""
 "**Какие спутниковые снимки вы используете? Каково их разрешение, плановая"
 " точность и другие характеристики?**"
 
-#: ../faq.rst:27 d841ff7f2e29487f9b49a3cad5b71f38
+#: ../../source/faq.rst:27 078d6da9687f499d88bd1e029ea55c29
 msgid ""
 "We support RGB, RGBa, and single-band (panchromatic) images as an input "
 "data. Note that models are optimized for RGB, so single-band results may "
@@ -113,86 +122,111 @@ msgid ""
 "<userguides/_static/_downloads/imagery-basemaps.pdf>`. You can access "
 "**ArcGIS World Imagery** – which is a global coverage composed of high "
 "and medium resolution satellite imagery and aerial imagery, hosted by "
-"ESRI. **\"Global mosaic\"** – the basic version of mosaic of high res "
+"ESRI. **\"Global mosaic\"** – the pilot version of mosaic of high res "
 "imagery (0.75–0.5 m/px) is for year 2022, but the updates are available "
 "by request. Preview is limited to zoom 15. Restricted access to the "
 "images of some countries, including China."
 msgstr ""
+"Мы поддерживаем RGB, RGBa и однополосные (панхроматические) изображения "
+"в качестве входных данных. Обратите внимание, что модели оптимизированы "
+"для RGB, поэтому результаты для однополосных данных могут быть хуже. "
+"По умолчанию Mapflow использует спутниковую мозаику `Mapbox Satellite "
+"<https://www.mapbox.com/maps/satellite>`_, состоящую преимущественно из "
+"снимков Maxar. Эти изображения имеют разрешение 0,5 м, точность "
+"геопривязки около 3–5 м, давность — не более двух лет. Полный список "
+"характеристик спутниковых снимков Maxar можно скачать :download:`здесь "
+"<userguides/_static/_downloads/imagery-basemaps.pdf>`. Также доступен "
+"**ArcGIS World Imagery** — глобальное покрытие из спутниковых и "
+"аэроснимков высокого и среднего разрешения от ESRI. "
+"**\"Глобальная мозаика\"** — пилотная версия мозаики снимков высокого "
+"разрешения (0,75–0,5 м/пикс.) за 2022 год; обновления доступны по "
+"запросу. Предпросмотр ограничен зумом 15. Доступ к снимкам ряда стран, "
+"включая Китай, ограничен."
 
-#: ../faq.rst:32 8190c9a634b2460e960e2e3006c002e9
+#: ../../source/faq.rst:32 94b1f750c1eb4d54afed20b904defd5a
 msgid "**Can I choose another satellite mosaic?**"
 msgstr "**Могу ли я подключить другую мозаику спутниковых снимков?**"
 
-#: ../faq.rst:34 4d6dd9e3c350464dab50f91cbdc15759
-#, fuzzy
+#: ../../source/faq.rst:34 77940d7e336a4a679ff72fe8a066ce6c
 msgid ""
 "Yes, the user has the ability to set his own XYZ or TMS layers. To use "
 "Google or some other services you should beware of their terms of use. "
 "Under the Mapflow commercial plans, we provide commercial providers "
 "access, a services that provide basemaps and imagery updates. We are "
-"continuosly working on adding more commercial providers."
+"continuously working on adding more commercial providers."
 msgstr ""
-"Да, у пользователя есть возможность установить свои собственные слои XYZ "
-"или TMS. Чтобы использовать Google или некоторые другие сервисы, "
-"рекомендуем ознакомиться с их условиями использования. В рамках "
-"коммерческих планов Mapflow мы предоставляем Maxar SecureWatch, сервис, "
-"который содержит базовые карты и обновления изображений. Мы постоянно "
-"работаем над добавлением новых коммерческих поставщиков."
+"Да, у пользователя есть возможность подключить собственные слои XYZ "
+"или TMS. При использовании Google или других сторонних сервисов "
+"ознакомьтесь с их условиями использования. В рамках коммерческих "
+"планов Mapflow мы предоставляем доступ к коммерческим поставщикам, "
+"обеспечивающим базовые карты и обновления снимков. Мы постоянно "
+"работаем над расширением перечня коммерческих поставщиков."
 
-#: ../faq.rst:36 a3de125823b04630b270d6e93a6d9525
+#: ../../source/faq.rst:36 be3a5bbead914772b17fa826a9ece694
 msgid "**Can I upload my own images for processing?**"
-msgstr ""
+msgstr "**Могу ли я загрузить собственные снимки для обработки?**"
 
-#: ../faq.rst:38 5f2307d0eb164360887f4a3c8fd1c103
+#: ../../source/faq.rst:38 8ea3c983b70f4845aa2ffe492d980300
 msgid ""
-"Yes, and we keen on improving the experience of using your data with the "
-"Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it."
+"Yes, and we are keen on improving the experience of using your data with "
+"the Mapflow. Check our :doc:`user guide <my_imagery>` on how to do it."
 msgstr ""
+"Да, и мы постоянно работаем над улучшением работы с вашими данными в "
+"Mapflow. Ознакомьтесь с нашим :doc:`руководством пользователя <my_imagery>` "
+"о том, как это сделать."
 
-#: ../faq.rst:41 e2899069575c4a0ea7a8a242ecc23eab
+#: ../../source/faq.rst:41 57b5edc4d65b41f2a19878278657f236
 msgid "**Can I buy satellite imagery from you? How can I validate the results?**"
-msgstr ""
+msgstr "**Могу ли я купить спутниковые снимки у вас? Как проверить результаты?**"
 
-#: ../faq.rst:43 dddcb6c31f27401a848f6100c305f99c
+#: ../../source/faq.rst:43 46488159a4a940b389af8768931ca2b2
 msgid ""
 "You can't buy as we don't resell images. We provide service to extract "
 "data from images. However you can preview the input images as XYZ layer "
 "to conduct the results validation."
 msgstr ""
+"Купить снимки нельзя — мы не занимаемся их перепродажей. Мы предоставляем "
+"сервис извлечения данных из снимков. Однако вы можете просматривать "
+"входные снимки как XYZ-слой для валидации результатов."
 
-#: ../faq.rst:45 c78f9c4cc16d44f9a54da8f528e8b6a9
+#: ../../source/faq.rst:45 a63badbb70c444f8aa5d7e1e7b85e516
 msgid "**Can I use non-RGB data like radar data?**"
-msgstr ""
+msgstr "**Можно ли использовать не-RGB данные, например радарные снимки?**"
 
-#: ../faq.rst:47 93b5838527b849d0bc14b09951ab1045
+#: ../../source/faq.rst:47 05541c09fb2e48898622ba3e5e79aacd
 msgid ""
 "No, you can’t for default models. You can contact us about the "
 "development of the custom model."
-msgstr ""
-
-#: ../faq.rst:50 abf980ef3c2a4f4ba5a536437dc44ba3
+msgstr """Нет, для стандартных моделей это невозможно. Свяжитесь с нами по вопросу "
+"разработки пользовательской модели."
+#: ../../source/faq.rst:50 7531e7bcf8b24ce3838670551a5e499e
 msgid "Vector data"
-msgstr ""
+msgstr "Векторные данные"
 
-#: ../faq.rst:52 ac66ccbd1c2248c5b14d4b5c73c85f76
+#: ../../source/faq.rst:52 57a8113a34db471eb76a4aadacdec425
 msgid "**Is it possible to process multiple areas in one request?**"
-msgstr ""
+msgstr "**Можно ли обработать несколько областей в одном запросе?**"
 
-#: ../faq.rst:54 4461c65058d64bc99e6df7d55515626e
+#: ../../source/faq.rst:54 9205c90a07bb4eff8bf0bc42885be301
 msgid ""
 "Yes, on the free plan you can upload up to 10 areas in one processing "
 "request by using a GeoJSON file with multiple features in the "
 "FeatureCollection. Alternatively, you can convert your GeoJSON into "
-"*Mulipolygon*."
+"*Multipolygon*."
 msgstr ""
+"Да, на бесплатном тарифе вы можете загрузить до 10 областей в одном "
+"запросе обработки, используя файл GeoJSON с несколькими объектами в "
+"FeatureCollection. Также можно объединить полигоны в *Multipolygon*."
 
-#: ../faq.rst:57 fd0d14ea2e4f405a95464ac90724d2b3
+#: ../../source/faq.rst:57 56b8da21106a472dabf30d37840edd52
 msgid ""
 "**Results contain gaps / false contours / inaccuracies / errors in "
 "classification and / or heights. Why?**"
 msgstr ""
+"**В результатах есть пропуски / ложные контуры / неточности / ошибки в "
+"классификации и/или высотах. Почему?**"
 
-#: ../faq.rst:59 f41245b982684116aaeb2c658a152466
+#: ../../source/faq.rst:59 1bda1e11c8264450b7f19a5f4ed06f4f
 #, python-format
 msgid ""
 "The images are processed by artificial intelligence, so inaccuracies may "
@@ -200,55 +234,72 @@ msgid ""
 "100% of the result can be achieved only by combining automatic processing"
 " with subsequent validation."
 msgstr ""
+"Снимки обрабатываются с помощью искусственного интеллекта, поэтому "
+"неточности возможны. Мы постоянно улучшаем наши модели и нейронные сети, "
+"однако 100% результата достигается только сочетанием автоматической "
+"обработки и последующей валидации."
 
-#: ../faq.rst:61 9ea8a7b7d72c455daba919fbc7b0ca1e
+#: ../../source/faq.rst:61 ff8ad6584f31435d8a5d8cf09ac4e196
 msgid "**Do you provide validation service for automatic results?**"
-msgstr ""
+msgstr "**Вы предоставляете услугу валидации автоматических результатов?**"
 
-#: ../faq.rst:63 83889d8a7f2b4e44bb37aafe21689042
+#: ../../source/faq.rst:63 89bb0475c8a24acd87e1b1a557590b47
 msgid ""
 "Mostly, we provide service and a reasonable customization to the project "
 "requirements (model fine-tuning). However, depending on the project "
 "requirements the validation can be provided by request, contact our "
 "`sales <https://geoalert.io/#contacts>`_."
 msgstr ""
+"В основном мы предоставляем сервис и разумную настройку под требования "
+"проекта (тонкая настройка модели). Однако в зависимости от требований "
+"проекта валидация может быть предоставлена по запросу — свяжитесь с нашим "
+"`отделом продаж <https://geoalert.io/#contacts>`_."
 
-#: ../faq.rst:67 fa3f4acc0b8c49eebdeac0c8ba449e4d
+#: ../../source/faq.rst:67 c2431c637ac94332949e7b0c69583ddb
 msgid "Projects and processings"
-msgstr ""
+msgstr "Проекты и обработки"
 
-#: ../faq.rst:69 a0fd530fa9bd471c8e7b3416bcbf78e7
+#: ../../source/faq.rst:69 3a257f4c34064af7a5013f08693b86be
 msgid ""
 "**What is a “project”? Do I have to create every new processing in a new "
 "project?**"
-msgstr ""
-
-#: ../faq.rst:71 de7732b290064e1a9dfea3dc9ed84cf2
+msgstr """**Что такое «проект»? Нужно ли создавать каждую новую обработку в новом "
+"проекте?**"
+#: ../../source/faq.rst:71 4056430d4951468293e5e785530aa95a
 msgid ""
 "**Project** allows you to collect all logically related processing for a "
 "more efficient and faster search for the one you need. It's like a folder"
 " on your computer. One project can have many jobs."
 msgstr ""
+"**Проект** позволяет собирать все логически связанные обработки для более "
+"эффективного и быстрого поиска нужной. Это как папка на компьютере. "
+"Один проект может содержать множество задач."
 
-#: ../faq.rst:73 8f944f7642bf4d619cc746995a96fa69
+#: ../../source/faq.rst:73 55e97b63c9554526940163f641cc6a08
 msgid ""
 "**Immediately after registration, I got a project called “Demo "
 "processings”. What is it and why?**"
 msgstr ""
+"**Сразу после регистрации у меня появился проект «Demo processings». "
+"Что это такое и зачем?**"
 
-#: ../faq.rst:75 ed2e9260135e41d6b5db00a674027827
+#: ../../source/faq.rst:75 d6e90f85bed14c37ad37a362e5f84647
 msgid ""
 "This project allows you to get acquainted with the capabilities of "
 "Mapflow without spending Credits. In the History of processings, you can "
 "view and check the results. It is also possible to view the selected "
 "processing parameters, to do this, click **source details**."
 msgstr ""
+"Этот проект позволяет ознакомиться с возможностями Mapflow без расхода "
+"кредитов. В истории обработок вы можете просматривать и проверять результаты. "
+"Также можно просмотреть выбранные параметры обработки — для этого нажмите "
+"**source details**."
 
-#: ../faq.rst:77 30bbf8b36265407c9469272dd8fb9fb1
+#: ../../source/faq.rst:77 9f9da389696e409798fdebed2539f15c
 msgid "**Are there any restrictions on the processing area?**"
-msgstr ""
+msgstr "**Есть ли ограничения на площадь обработки?**"
 
-#: ../faq.rst:79 1b42bf4e70ee43cdb41a5a3087fd74f5
+#: ../../source/faq.rst:79 912ef3b6a9ff41ae9ace4210bb24e58d
 msgid ""
 "The processing area may be smaller but the price is rounded up to 1 sq. "
 "km. There is the default limit of no more than 25 sq. km (free account). "
@@ -256,90 +307,116 @@ msgid ""
 "treated into several smaller areas, one per processing. Alternatively you"
 " can consider switching to a paid plan."
 msgstr ""
+"Площадь обработки может быть меньше, но цена округляется до 1 кв. км. "
+"По умолчанию установлен лимит не более 25 кв. км (бесплатный аккаунт). "
+"Если нужно обработать большую территорию, разделите её на несколько "
+"меньших областей, по одной на каждую обработку. Также можно рассмотреть "
+"переход на платный тарифный план."
 
-#: ../faq.rst:82 8b346927213643f095f4b09788ab7d04
+#: ../../source/faq.rst:82 4b890a33b3544ab5af93512ebd93c4dc
 msgid "User data"
-msgstr ""
+msgstr "Данные пользователя"
 
-#: ../faq.rst:84 385ddc98a52d40bda3587c20c4116999
+#: ../../source/faq.rst:84 a35801b61d0c4217b146dae814d2ffae
 msgid "**What is an imagery mosaic?**"
-msgstr ""
+msgstr "**Что такое мозаика снимков?**"
 
-#: ../faq.rst:86 b0b0735dd52740369dc6815d0ace4f9c
+#: ../../source/faq.rst:86 4f7ce245aec142ca9dcb40b5d2765d3a
 msgid ""
 "*Mosaic* - a set of images covering a specific area. Using My Imagery you"
 " collect separate aerial images in a single mosaic to analyse with the "
 "Mapflow models."
 msgstr ""
+"*Мозаика* — набор снимков, покрывающих определённую территорию. С помощью "
+"функции «Мои снимки» вы объединяете отдельные аэроснимки в единую мозаику "
+"для анализа с помощью моделей Mapflow."
 
-#: ../faq.rst:88 c48aecaa83de4708a24596ef4ea6eda4
-msgid "**What are the limots for my data?**"
-msgstr ""
+#: ../../source/faq.rst:88 d0a0af8045b9481994f548f08f1bc18a
+msgid "**What are the limits for my data?**"
+msgstr "**Какие ограничения применяются к моим данным?**"
 
-#: ../faq.rst:90 a605ff156967474981518ce37618f70e
+#: ../../source/faq.rst:90 2c930e18b4704d86ab2763babb98c5f0
 msgid ""
 "Your input data must meet the :ref:`Mapflow models requirements <Model "
 "requirements>` and the :ref:`files upload requirements <Upload "
 "requirements>`."
 msgstr ""
+"Входные данные должны соответствовать :ref:`требованиям моделей Mapflow <Model "
+"requirements>` и :ref:`требованиям к загрузке файлов <Upload "
+"requirements>`."
 
-#: ../faq.rst:92 8ff66fe96a5b4834ad8f6e29410720e7
+#: ../../source/faq.rst:92 6395d62121164e50b8d23b7683626969
 msgid "**How to delete my account?**"
-msgstr ""
+msgstr "**Как удалить мой аккаунт?**"
 
-#: ../faq.rst:94 92353d7f1e4545c396729295515b50e1
+#: ../../source/faq.rst:94 2a9f7af941e84033bbb5a29fa5a3e4f5
 msgid ""
 "Currently you cannot delete your account right in the Mapflow web app. "
 "Please request us to delete your account by sending an email to "
 "help@geoalert.io or by prompting the Mapflow chatbot, and all your "
 "personal data will be completely removed."
 msgstr ""
+"В настоящее время удалить аккаунт непосредственно в веб-приложении Mapflow "
+"нельзя. Пожалуйста, отправьте запрос на удаление аккаунта по адресу "
+"help@geoalert.io или через чат-бот Mapflow — все ваши персональные данные "
+"будут полностью удалены."
 
-#: ../faq.rst:98 1676d7b8286a4f3289df6273bb8fd41d
+#: ../../source/faq.rst:98 c6fb04479cd14e3ab84d0f5690b3f699
 msgid "Support and other questions"
-msgstr ""
+msgstr "Поддержка и другие вопросы"
 
-#: ../faq.rst:100 11d95b2339aa4d9fbd8adacb6618bb74
+#: ../../source/faq.rst:100 588e3c651f8141fa94aaf451d4a2e587
 msgid "**Do you have an API?**"
-msgstr ""
+msgstr "**Есть ли у вас API?**"
 
-#: ../faq.rst:102 3f37a7561c064f4cacb8eeaf66faeea4
+#: ../../source/faq.rst:102 832e9ad5b539427790c6915b31386e4b
 msgid ":doc:`Yes, we do <api/mapflow_api>`."
-msgstr ""
+msgstr ":doc:`Да, есть <api/mapflow_api>`."
 
-#: ../faq.rst:104 031f379216a549ddabc75a015084f764
+#: ../../source/faq.rst:104 86772f874003400fae01a32a37687b0d
 msgid "**Do you have GIS integration?**"
-msgstr ""
+msgstr "**Есть ли у вас интеграция с ГИС?**"
 
-#: ../faq.rst:106 1e716264a2ef42298029c8d6ab02e0f6
+#: ../../source/faq.rst:106 4549f8d58e3f46febb2f18e44665c868
 msgid ""
 "Yes, we do. You can use our open source plugin  :doc:`plugin Mapflow "
 "<api/qgis_mapflow>` for the GIS `QGIS "
 "<https://qgis.org/ru/site/forusers/download.html>`_."
 msgstr ""
+"Да. Вы можете использовать наш плагин с открытым исходным кодом "
+":doc:`Mapflow <api/qgis_mapflow>` для ГИС `QGIS "
+"<https://qgis.org/ru/site/forusers/download.html>`_."
 
-#: ../faq.rst:108 7780faf0427a4055a4e983e14db66b58
+#: ../../source/faq.rst:108 5f43222f721040e89052e8786cae0d26
 msgid "**What is API token and why do I need it?**"
-msgstr ""
+msgstr "**Что такое токен API и зачем он нужен?**"
 
-#: ../faq.rst:110 e6aad4a217084e6384b4153f3af6a91f
+#: ../../source/faq.rst:110 e21d31fc7eed416e90b04789941517ec
 msgid ""
 "The API token is used as password in external applications that use the "
 "resources of the Mapflow platform. It is passed as the Basic Auth "
 "authorization parameter. You can `obtain an API token in your personal "
 "Mapflow profile <https://app.mapflow.ai/account/api>`_."
 msgstr ""
+"Токен API используется как пароль во внешних приложениях, работающих с "
+"ресурсами платформы Mapflow. Он передаётся как параметр авторизации "
+"Basic Auth. Получить токен API можно в `личном профиле Mapflow "
+"<https://app.mapflow.ai/account/api>`_."
 
-#: ../faq.rst:112 1033ba15664a42d89c31017efee2079c
+#: ../../source/faq.rst:112 bd5c666f490e4f1db0dd82a3c4d2f3f2
 msgid "**I have another question, where can I ask it?**"
-msgstr ""
+msgstr "**У меня есть другой вопрос, где я могу его задать?**"
 
-#: ../faq.rst:114 ed807615389749239a29d7164d01b1cc
+#: ../../source/faq.rst:114 1ca2945f87b440c8ac0a72bc2ff8ab81
 msgid ""
 "You can ask your question on the Mapflow website in the online chat, "
 "where we will try to answer your questions in real time. Also, you are "
-"welcome to write to us at `help@geoalert.io <mailto:help@geoalert.io>`_."
+"welcome to write to our support at `help@geoalert.io "
+"<mailto:help@geoalert.io>`_."
 msgstr ""
+"Вы можете задать вопрос на сайте Mapflow в онлайн-чате, где мы постараемся "
+"ответить в режиме реального времени. Также можно написать в службу "
+"поддержки по адресу `help@geoalert.io <mailto:help@geoalert.io>`_."
 
 #~ msgid ""
 #~ "Currently, we only support RGB or "
@@ -533,5 +610,65 @@ msgstr ""
 #~ " several smaller areas, one per "
 #~ "processing. Alternatively you can consider "
 #~ "switching to a paid plan."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We support RGB, RGBa, and single-"
+#~ "band (panchromatic) images as an input"
+#~ " data. Note that models are optimized"
+#~ " for RGB, so single-band results "
+#~ "may have lower quality. By default, "
+#~ "Mapflow uses the `Mapbox Satellite "
+#~ "<https://www.mapbox.com/maps/satellite>`_ satellite "
+#~ "mosaic, which primarily consists of "
+#~ "imagery from Maxar. These images have"
+#~ " a spatial resolution of 0.5m, the"
+#~ " georeferencing accuracy is about 3-5m "
+#~ "and the age is no more than "
+#~ "two years. A complete list of "
+#~ "Maxar satellite imagery specifications can "
+#~ "be found :download:`here "
+#~ "<userguides/_static/_downloads/imagery-basemaps.pdf>`. You"
+#~ " can access **ArcGIS World Imagery** "
+#~ "– which is a global coverage "
+#~ "composed of high and medium resolution"
+#~ " satellite imagery and aerial imagery, "
+#~ "hosted by ESRI. **\"Global mosaic\"** –"
+#~ " the basic version of mosaic of "
+#~ "high res imagery (0.75–0.5 m/px) is "
+#~ "for year 2022, but the updates are"
+#~ " available by request. Preview is "
+#~ "limited to zoom 15. Restricted access"
+#~ " to the images of some countries, "
+#~ "including China."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Yes, and we keen on improving the"
+#~ " experience of using your data with"
+#~ " the Mapflow. Check our :doc:`user "
+#~ "guide <my_imagery>` on how to do "
+#~ "it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Yes, on the free plan you can "
+#~ "upload up to 10 areas in one "
+#~ "processing request by using a GeoJSON"
+#~ " file with multiple features in the"
+#~ " FeatureCollection. Alternatively, you can "
+#~ "convert your GeoJSON into *Mulipolygon*."
+#~ msgstr ""
+
+#~ msgid "**What are the limots for my data?**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can ask your question on the"
+#~ " Mapflow website in the online chat,"
+#~ " where we will try to answer "
+#~ "your questions in real time. Also, "
+#~ "you are welcome to write to us "
+#~ "at `help@geoalert.io <mailto:help@geoalert.io>`_."
 #~ msgstr ""
 

@@ -22,19 +22,17 @@ msgstr ""
 
 #: ../userguides/agriculture_fields_model.rst:2
 #: e9be83259ab24179b174949aa8768a5b
-#, fuzzy
 msgid "|:tractor:| Agriculture fields (CUSTOM)"
-msgstr "С/Х поля (УСТАРЕЛО)"
+msgstr "|:tractor:| С/Х поля (CUSTOM)"
 
 #: ../userguides/agriculture_fields_model.rst:5
 #: 9a4debb51e504ee387e688c0b928b403
-#, fuzzy
 msgid ""
 "This model has been deprecated as default one and moved to custom. it's "
 "available by request."
 msgstr ""
-"Эта модель по умолчанию признана устаревшей. Она доступна только по "
-"запросу."
+"Эта модель устарела как модель по умолчанию и перенесена в тариф Custom. "
+"Она доступна по запросу."
 
 #: ../userguides/agriculture_fields_model.rst:7
 #: 05ffb415721c48e6a2b34be5f43d93ee
@@ -59,7 +57,7 @@ msgstr ""
 #: ../userguides/agriculture_fields_model.rst:24
 #: 9f7fae5c119f4822b13e76ecc050f42e fc924937d07c40dc8ae00a47082c06f2
 msgid "Processing result of agriculture fields model"
-msgstr ""
+msgstr "Результат обработки модели сельскохозяйственных полей"
 
 #: ../userguides/agriculture_fields_model.rst:16
 #: d75ad0a513a347d8bcd4d644ada84b90
@@ -71,9 +69,4 @@ msgstr "Образец результатов обработки для Евро
 msgid "Processing result sample for Asia (Northern India)"
 msgstr "Образец результатов обработки для Азии (Северная Индия)"
 
-#~ msgid "Processing result of agriculture fields model"
-#~ msgstr "Результат обработки модели сельскохозяйственных полей"
-
-#~ msgid "Результат обработки модели сельскохозяйственных полей"
-#~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: 2023-11-07 23:00+0700\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../index.rst:6 84bea0b97ce948719a89dd11549eb454
+#: ../../source/index.rst:6 6082dcf593c44b50bb147323da00e2c4
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: ../index.rst:8 7b725c33fe2f4d0d8ef586b4fd597955
+#: ../../source/index.rst:8 2cb4f2381cf4407481c4f58c50b80a0b
 msgid ""
 "We are happy that you are interested in Earth Observation Data analysis "
 "and Mapping! The Earth Observation to Mapping process is going through "
@@ -35,96 +35,109 @@ msgstr ""
 "дистанционного зондирования. Картография и пространственный анализ "
 "базируются на трех основных стадиях обработки данных:"
 
-#: ../index.rst:11 6718ff2e2f43477690a17ed87da815ec
+#: ../../source/index.rst:11 e8c9dc7210b246ee98ba996640a5d6af
 msgid "EO data access (e.g. satellite or aerial imagery)"
 msgstr "Доступ к данным (например спутниковая или аэрофотосъемка)"
 
-#: ../index.rst:12 2b414d4ccfab4dc79908b34ff59a661b
+#: ../../source/index.rst:12 792be4711ac5467dafee5e7080fd12bb
 msgid ""
 "EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ "
-"comes in game |:boom:|"
+"comes into play |:boom:|"
 msgstr ""
-"Автоматический препроцессинг и анализ – здесь вступает в игру `Mapflow "
-"<https://mapflow.ai/ru>`_ |:boom:|"
+"Автоматическая обработка и анализ — здесь вступает в игру `Mapflow "
+"<https://mapflow.ai>`_ |:boom:|"
 
-#: ../index.rst:13 df713a7e082044069b2359d0ae5a36fd
-msgid "GIS – check and edit results to use them in you application"
+#: ../../source/index.rst:13 369e953c14ab4a31920ace2857fe54a6
+msgid "GIS – check and edit results to use them in your application"
 msgstr ""
-"Работа в ГИС – проверка автоматических результатов и подготовка их для "
-"дальнейшей работы"
+"Работа в ГИС — проверка автоматических результатов и подготовка их "
+"для дальнейшей работы"
 
-#: ../index.rst:15 94c788c4118e4de292657e9631b1cd5e
-#, fuzzy
+#: ../../source/index.rst:15 486a36f3e2e844e4a1f74e8488dcf2fe
 msgid ""
 "Mapflow is powered by the engine that operates data processing pipelines "
 "(we call \"flows\"). Using Mapflow you run your processings getting all "
 "power of semantic imagery analysis."
 msgstr ""
-"Платформа Mapflow управляет цепочками обработки данных, которые вы "
-"запускаете, помогая пользователю на всех стадиях обработки. Но главное - "
-"наличие встроенных алгоритмов семантического анализа, которые позволяют "
-"выделять множество семантически связанных объектов и преобразовывать их в"
-" векторные геоданные."
+"Mapflow работает на движке, который управляет пайплайнами обработки данных "
+"(мы называем их «потоками»). С помощью Mapflow вы запускаете обработки, "
+"используя всю мощь семантического анализа снимков."
 
-#: ../index.rst:20 9daa88e7de54488b92e51fcada35b680
+#: ../../source/index.rst:20 5b7b8466cf014da9ab55b6e4ab522e50
 msgid "Getting Started with Mapflow"
 msgstr "Mapflow – начало работы"
 
-#: ../index.rst:35 313c9a7d3e314b02912f3f8e5d7e8367
+#: ../../source/index.rst:34 50bf8f234315485898c4e79881de3c84
 msgid "Mapflow AI models"
 msgstr "Модели ИИ"
 
-#: ../index.rst:45 a07ea00bfe6a4ade974f6b32cf939591
+#: ../../source/index.rst:44 1b213d8265724d37ac32a7f73c7beca9
 msgid "Mapflow API"
-msgstr ""
+msgstr "Mapflow API"
 
-#: ../index.rst:55 6b4e7667195c420dbac69a3362d96bf8
+#: ../../source/index.rst:55 5db2538b2c2e4b6cba6f0d5788cb0595
 msgid "Use with GIS..."
 msgstr "Использование в ГИС..."
 
-#: ../index.rst:65 d2bd42108a0f4e19865c427d41b9e96e
+#: ../../source/index.rst:65 437837caca584300b9dd73e5c023445e
 msgid "User guides"
 msgstr "Обучающие материалы"
 
-#: ../index.rst:75 90bfc3ab24f842d5b48227b5c651b4db
+#: ../../source/index.rst:76 0bb5fdd0eb414ef9801068cd6974fbc4
 msgid "Reference materials"
 msgstr "Справочные материалы"
 
-#: ../index.rst:85 d31cc366235544b682df73e6e743faeb
+#: ../../source/index.rst:86 f4133e2a1faa48348879aa83b544c3b6
+msgid "Additional Mapflow tools and integrations"
+msgstr "Дополнительные инструменты и интеграции Mapflow"
+
+#: ../../source/index.rst:88 c73e654e3ef840fe9e3f0dcb825ec502
+msgid ""
+":download:`Mapflow CLI Python Tools <https://github.com/Geoalert/mapflow-"
+"api-scripts>`"
+msgstr ""
+":download:`Mapflow CLI Python Tools <https://github.com/Geoalert/mapflow-"
+"api-scripts>`"
+
+#: ../../source/index.rst:89 e5f13abba240420486d2611ecfca1679
+msgid ""
+":download:`Mapflow QGIS Plugin "
+"<https://plugins.qgis.org/plugins/mapflow/>`"
+msgstr ""
+":download:`Mapflow QGIS Plugin "
+"<https://plugins.qgis.org/plugins/mapflow/>`"
+
+#: ../../source/index.rst:93 a4d98a161e7d4449b23149927ec81641
 msgid "Frequently asked questions"
 msgstr "Часто задаваемые вопросы"
 
-#: ../index.rst:96 94f16fd06fda406ab0c84e3033cdfb3a
-msgid "PDFs"
-msgstr ""
-
-#: ../index.rst:98 0d0745a7cc54454fbc8741b5c2e266e0
-msgid ""
-":download:`Mapflow User Guides "
-"<userguides/_static/_downloads/user_guides.pdf>`"
-msgstr ""
-":download:`Mapflow Обучающие материалы "
-"<userguides/_static/_downloads/user_guides.pdf>`"
-
-#: ../index.rst:99 92d5cfb9eb494b938d120e03d3e9980d
-msgid ""
-":download:`Mapflow AI-Mapping models "
-"<userguides/_static/_downloads/pipelines.pdf>`"
-msgstr ""
-":download:`Mapflow Модели ИИ "
-"<userguides/_static/_downloads/pipelines.pdf>`"
-
-#: ../index.rst:100 e0d798047ef64e0fa002449432ee099b
-msgid ""
-":download:`Mapflow Customization "
-"<userguides/_static/_downloads/mapflow_custom.pdf>`"
-msgstr ""
-
-#: ../index.rst:104 946efcbed6ec40779435ee6efca7c6fb
+#: ../../source/index.rst:105 65033210156f4eec92a30a131697ea9e
 msgid ""
 "This documentation is distributed under the terms of Creative Commons "
 "License **\"Attribution-NoDerivs\" СC BY-ND**"
 msgstr ""
 "Эта документация распространяется под открытой лицензией Creative Commons"
 " License **\"Attribution-NoDerivs\" СC BY-ND**"
+
+#~ msgid "PDFs"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Mapflow User Guides "
+#~ "<userguides/_static/_downloads/user_guides.pdf>`"
+#~ msgstr ""
+#~ ":download:`Mapflow Обучающие материалы "
+#~ "<userguides/_static/_downloads/user_guides.pdf>`"
+
+#~ msgid ""
+#~ ":download:`Mapflow AI-Mapping models "
+#~ "<userguides/_static/_downloads/pipelines.pdf>`"
+#~ msgstr ""
+#~ ":download:`Mapflow Модели ИИ "
+#~ "<userguides/_static/_downloads/pipelines.pdf>`"
+
+#~ msgid ""
+#~ ":download:`Mapflow Customization "
+#~ "<userguides/_static/_downloads/mapflow_custom.pdf>`"
+#~ msgstr ""
 

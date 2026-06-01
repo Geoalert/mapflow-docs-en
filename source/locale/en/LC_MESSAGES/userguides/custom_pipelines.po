@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/custom_pipelines.rst:2 7a748333d084461ca1ea2604e60025c7
+msgid "Custom Models"
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:4 df7ab7deec8e4406b048aa3b22528312
+msgid "There are several options of model customization in Mapflow."
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:6 cbc5814bf0e54f08b89faf1e2eb86d0f
+msgid ""
+"You request access to a specific model based on your use case and data, "
+"and we train it for you and connect it to Mapflow."
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:8 0e419f2ae0f34b339ff992c9abb85a25
+msgid ""
+"You choose one of the pre-trained models that are not included in the "
+"standard Mapflow pipelines and test it with your data or on your area to "
+"decide if it's applicable or requires additional training."
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:10 e382869bfeb94963bf928dbb42e87a26
+msgid ""
+"You train your own model with custom data and request our support to "
+"connect it to your account to leverage your model with the Mapflow "
+"workflow engine."
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:12 612a8a5acf3b4537947a1d0ca9c617b8
+msgid ""
+"Below is the list of custom models created for specific use cases and "
+"available in Mapflow by request (to be updated)."
+msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:45+0200\n"
+"POT-Creation-Date: 2026-05-21 10:37+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 
 #: ../_templates/footer.html:106
 #: ../_templates/footer.html:109
-#: 002c63e6bde145e1ba446174347463bb
-#: d8380f93a99f4ac9a3d45c4c6c41d9a3
+#: 07372e9a4642465a81e81f4fdde57f7c
+#: 3e927b1a5b204cffb2dcb6ba9c1f2771
 msgid "Copyright"
 msgstr ""
 
 #: ../_templates/footer.html:116
-#: c036d7f5282e4207af3467da13b30bb3
+#: 15ef1341aeb74d8e9b11664f4f597347
 msgid "Build"
 msgstr ""
 
 #: ../_templates/footer.html:121
-#: 9ee2315e7716497b87c46bf15363c171
+#: 385d0ac902ba42a7ad83cdf33c790c0c
 msgid "Revision"
 msgstr ""
 
 #: ../_templates/footer.html:125
-#: ba5702259bbf423ea20950df14f38fb2
+#: 7274c07ee39146d588c20bfd6bf1fadf
 msgid "Last updated on %(last_updated)s."
 msgstr ""
 
 #: ../_templates/language_selector.html:3
-#: d28ed303395240619290461b8961dd7c
+#: 03f3853fec454cd1b7eb42bfba5813ae
 msgid "Language"
 msgstr ""

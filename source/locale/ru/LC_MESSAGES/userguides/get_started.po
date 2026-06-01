@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: 2024-10-21 21:16+0700\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/get_started.rst:2 7eeb99db1ed944a8984bc7c7a869acf7
+#: ../../source/userguides/get_started.rst:2 5462a49c30a3437daa1cf5f79a7cc3a2
 msgid "Mapflow - Get started"
 msgstr "Mapflow - начало работы"
 
-#: ../userguides/get_started.rst:4 f9db616a864147bba982a1814caa204c
+#: ../../source/userguides/get_started.rst:4 f6b71d84c12440529ba96cc85c2a76d9
 #, fuzzy
 msgid ""
 "Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using "
 "your email. You can also use Google account to login. Mapflow processes "
 "imagery and extracts vector objects from it. So as a user, you start "
-"processings, or as we would call it, **AI-mapping**."
+"processing runs, or as we would call it, **AI-mapping**."
 msgstr ""
 "Перейдите на сайт `Mapflow <https://app.mapflow.ai>`_ и зарегистрируйтесь"
 " или войдите в систему, используя свой email. Вы также можете "
@@ -37,7 +37,7 @@ msgstr ""
 "извлекает из них векторные объекты. Как пользователь, вы запускаете "
 "процессы или, как мы их называем, **потоки**."
 
-#: ../userguides/get_started.rst:7 6aed7751af134e2d96eae3b2a41a08c4
+#: ../../source/userguides/get_started.rst:7 dd7a66723ad843ceb4f784478f4cdee2
 #, fuzzy
 msgid ""
 "Upon the registration, the *Default* project will be created "
@@ -46,13 +46,15 @@ msgstr ""
 "После регистрации ваш первый *Default* проект будет создан автоматически,"
 " и вы будете перенаправлены на главную панель:"
 
-#: ../userguides/get_started.rst:15 13668ee6c72a420095d1be77f231d0eb
+#: ../../source/userguides/get_started.rst:15 a9c881e0593e4bae9329d784d3f962ea
 msgid ""
 "You can create as many projects as you want to organise your work and "
 "share the project access with your coworkers."
 msgstr ""
+"Вы можете создать столько проектов, сколько необходимо для организации "
+"работы, и поделиться доступом к проекту со своими коллегами."
 
-#: ../userguides/get_started.rst:18 96040cb8ac2944039902daa6c1731de9
+#: ../../source/userguides/get_started.rst:18 9aa15747730c4011941d330c623e2636
 #, fuzzy
 msgid ""
 "See about the Mapflow :ref:`Team accounts` to collaborate with other "
@@ -61,167 +63,214 @@ msgstr ""
 "Также обратите внимание на :ref:`Team accounts` для совмествой работы с "
 "другими пользователями"
 
-#: ../userguides/get_started.rst:20 4edbfab75a5942d8a57a5e739449ea84
+#: ../../source/userguides/get_started.rst:20 49208d70f7634cb4802a8e1298dcaa18
 msgid ""
 "When starting a new project, you can set a name, customize icons, and "
 "modify a list of available AI-mapping workflows that are enabled in your "
 "project."
 msgstr ""
+"При создании нового проекта вы можете задать название, настроить значки "
+"и изменить список доступных рабочих процессов AI-картографирования, "
+"включённых в ваш проект."
 
-#: 0a53055cebc54d7992c34388fc4a3a30 a05b5a1d599b44c38d02325f90d89de7
+#: 70e1247d96ca41fc8d243da4101c5e2d 915c94dfb9ea4c14bb458a7869812001
 msgid "UI Mapflow – run a flow"
-msgstr ""
+msgstr "Интерфейс Mapflow — запуск обработки"
 
-#: ../userguides/get_started.rst:31 3797b532bfda4419bf69a95567f63786
+#: ../../source/userguides/get_started.rst:31 d056c091ddd1458497d74e650dbf23b6
 msgid ""
 "If your account is upgraded to the Premium or Custom – you might be able "
 "to customize your project mapping workflows and some of their options."
 msgstr ""
+"Если ваш аккаунт обновлён до уровня Premium или Custom, вы можете "
+"настраивать рабочие процессы картографирования проекта и некоторые "
+"их параметры."
 
-#: ../userguides/get_started.rst:34 a210912e693d4b4db2aa727f2111736f
+#: ../../source/userguides/get_started.rst:34 9fe10d4e2f8e44e7b84bf59413c6999a
 msgid "Glossary of terms"
-msgstr ""
+msgstr "Глоссарий"
 
-#: ../userguides/get_started.rst:35 ade47e15ba054b90940d1aa17bb1be68
+#: ../../source/userguides/get_started.rst:35 dd107a5c5268458b9e5c0781afd6d12c
 msgid ""
 "Processing – a single execution of an AI model on a specific geographic "
 "area"
 msgstr ""
+"Обработка — однократное выполнение ИИ-модели над конкретной "
+"географической областью"
 
-#: ../userguides/get_started.rst:36 84a5d4496ec841e98e3c10e70cd4280e
+#: ../../source/userguides/get_started.rst:36 3e051d21da9d44bd8e9f698c22fe0593
 msgid "Workflow/Flow – the AI model configuration pipeline definition"
-msgstr ""
+msgstr "Рабочий процесс (Flow) — конфигурация пайплайна ИИ-модели"
 
-#: ../userguides/get_started.rst:37 b0932771eaf94a7790f0a2ed556ae161
-msgid "Project – space for multiple processings"
-msgstr ""
+#: ../../source/userguides/get_started.rst:37 e101c8e51c6444ae81f814879a83ac66
+msgid "Project – space for multiple processing runs"
+msgstr "Проект — пространство для хранения нескольких запусков обработки"
 
-#: ../userguides/get_started.rst:41 9c6c3d2b76a64240bed00b1b40287309
+#: ../../source/userguides/get_started.rst:41 e4bf9a600b724c2cb3987a33cc287660
 msgid "Mapflow My account"
-msgstr ""
+msgstr "Мой аккаунт Mapflow"
 
-#: ../userguides/get_started.rst:43 dfba63e7b8624361904771d704b2d31a
+#: ../../source/userguides/get_started.rst:43 40f37e8319be48f4a867270ddafebd02
 msgid "This section contains tabs for user account settings and services."
-msgstr ""
+msgstr "Этот раздел содержит вкладки с настройками учётной записи и доступными сервисами."
 
-#: ../userguides/get_started.rst:45 d454d9bbd20d4c5daa52e90187e2f60f
+#: ../../source/userguides/get_started.rst:45 c99f83bd5dcb4c8fa69f33a3694d7c80
 msgid "The following services are available here:"
-msgstr ""
+msgstr "Здесь доступны следующие сервисы:"
 
-#: ../userguides/get_started.rst:48 2293b9407a0e40e5b1f3d9604cd4222c
+#: ../../source/userguides/get_started.rst:48 1b21f1ee64d644d7b4ce53767e29a0dd
 msgid "1. User info"
-msgstr ""
+msgstr "1. Информация о пользователе"
 
-#: ../userguides/get_started.rst:49 5cedbe5613ea444c8df9ce6e3f852692
+#: ../../source/userguides/get_started.rst:49 cfb46cbd8bdc47978d5a211b999b28e4
 msgid "Fill in the user profile details"
-msgstr ""
+msgstr "Заполните данные профиля пользователя"
 
-#: ../userguides/get_started.rst:50 60c0703996f744cb976434d6c5281442
+#: ../../source/userguides/get_started.rst:50 07a6eff37ed749459b9ab018a2f99ce8
 msgid "Set up your preferred language from the available"
-msgstr ""
+msgstr "Выберите предпочтительный язык из доступных"
 
-#: ../userguides/get_started.rst:51 c0351be733a54ef387be7931e3a07fce
+#: ../../source/userguides/get_started.rst:51 abc318b01b604df69831f7f949ae4ea6
 msgid "Enable email notifications (about the processing status, etc.)"
-msgstr ""
+msgstr "Включите email-уведомления (о статусе обработки и т. д.)"
 
-#: ../userguides/get_started.rst:54 542be968d7f24f06b662f2e4a5a1ff63
+#: ../../source/userguides/get_started.rst:54 1b87c33f452d477487c81388a96db5e5
 msgid "2. Balance"
-msgstr ""
+msgstr "2. Баланс"
 
-#: ../userguides/get_started.rst:55 4223900ab42c4d2fbb9093434eb8bbb5
+#: ../../source/userguides/get_started.rst:55 d9296ef319c8433a84a646cedbc1d97e
 msgid "Top up your Mapflow account with :ref:`credits`."
-msgstr ""
+msgstr "Пополните аккаунт Mapflow :ref:`credits`."
 
-#: ../userguides/get_started.rst:58 6ff01e65e05e4558ae6ca3319a6cce4e
+#: ../../source/userguides/get_started.rst:58 b6d317da4aac4a9698301b7b2943a24e
 msgid "3. Billing history"
-msgstr ""
+msgstr "3. История платежей"
 
-#: ../userguides/get_started.rst:59 097df26de0fb4b748a3e7796d9e9297a
+#: ../../source/userguides/get_started.rst:59 b3e6dadc5ba54478ab5e8d7b5e2c7413
 msgid ""
 "Here you can see your processing history with the details. If you are a "
 "Team account owner, you can search through the history of the entire team"
-" processings. Use filters to sort by date and processing status. To "
+" processing runs. Use filters to sort by date and processing status. To "
 "filter by the custom parameters like user email or processing name - "
 "start typing in the search input."
 msgstr ""
+"Здесь вы можете просмотреть историю обработок с подробной информацией. "
+"Если вы являетесь владельцем аккаунта Team, вы можете просматривать "
+"историю обработок всей команды. Используйте фильтры для сортировки по "
+"дате и статусу обработки. Для фильтрации по пользовательским параметрам, "
+"таким как email или название обработки, начните вводить текст в поле поиска."
 
-#: 1ae1d704739545bca2499098278d94ed
+#: c0d7eff0011747c999c3ec423f806555
 msgid "UI Billing"
-msgstr ""
+msgstr "Интерфейс выставления счетов"
 
-#: ../userguides/get_started.rst:72 75ccb7f788c041a4a7435c440bcc143e
+#: ../../source/userguides/get_started.rst:72 a4e3133746a449a18f543768ef6b89bd
 msgid "You can export billing history as CSV."
-msgstr ""
+msgstr "Вы можете экспортировать историю платежей в формате CSV."
 
-#: ../userguides/get_started.rst:75 d4bf527a39224a9b8128f72adfe7177c
+#: ../../source/userguides/get_started.rst:75 0631cc53e68945498ad26b33f568d57c
 msgid "4. Team"
-msgstr ""
+msgstr "4. Команда"
 
-#: ../userguides/get_started.rst:76 fe493322c7994d828d2663184b12ca3f
+#: ../../source/userguides/get_started.rst:76 ea07278037854c039e0abedc5727af60
 msgid "Create and manage your :ref:`Team accounts`."
-msgstr ""
+msgstr "Создайте командную учётную запись и управляйте ею: :ref:`Team accounts`."
 
-#: ../userguides/get_started.rst:80 f647f0e73f664e0891cdade72200f525
+#: ../../source/userguides/get_started.rst:80 a530138414fd424fa44f200c019ccccf
 msgid "5. My Imagery"
-msgstr ""
+msgstr "5. Мои снимки"
 
-#: ../userguides/get_started.rst:82 8fa06239839a4ab1a47ecb654df6c452
+#: ../../source/userguides/get_started.rst:82 15782cf3ca72436ebef83241a3300333
 msgid ""
 "Manage your :ref:`imagery collections <My imagery main>` that you can "
-"currently use in the :ref:`Maplfow QGIS plugin <My imagery qgis>`."
+"currently use in the :ref:`Mapflow QGIS plugin <My imagery qgis>`."
 msgstr ""
+"Управляйте :ref:`коллекциями снимков <My imagery main>`, "
+"которые можно использовать в :ref:`плагине Mapflow QGIS <My imagery qgis>`."
 
-#: ../userguides/get_started.rst:85 5c504fedc1cb4d3885b1199bc63b1b19
+#: ../../source/userguides/get_started.rst:85 31ebdeac72ae49cb9804ccf7a05a0b2b
 msgid "6. API"
-msgstr ""
+msgstr "6. API"
 
-#: ../userguides/get_started.rst:86 3150b7e30e36403cb119d59cf428c3e6
+#: ../../source/userguides/get_started.rst:86 933e6ac36d5c466c901ed6f59ec553c4
 msgid "Obtain or reset your :ref:`Mapflow API` token."
-msgstr ""
+msgstr "Получите или сбросьте токен :ref:`Mapflow API`."
 
-#: ../userguides/get_started.rst:90 4bb570a7000f47c59144593b7ed993ce
+#: ../../source/userguides/get_started.rst:90 bd4d9d95abee44a984747ba184908b95
 #, fuzzy
 msgid "How to run your AI mapping workflow in Web app"
 msgstr "Как начать ИИ картографирование в веб-приложении"
 
-#: ../userguides/get_started.rst:92 fb7cf1ff933741e88b9ffdaa8081e5d4
+#: ../../source/userguides/get_started.rst:92 abad0da0d2d94bec9f1d08ed0170c02a
 msgid "Mapflow is designed to be intuitive. Here is our step-by-step user guide:"
 msgstr ""
 "Mapflow разработан таким образом, чтобы быть интуитивно понятным. Здесь "
 "представлено пошаговое руководство пользователя:"
 
-#: ../userguides/get_started.rst:103 3515dbfa98b64f0c945afddf6c8b7d2e
-#, fuzzy
-msgid "1. Specify the AOI (Area Of Interest)"
-msgstr "1.2. Определение области интереса"
+#: ../../source/userguides/get_started.rst:103 fae82d69b0294f168658a9e81e5aaba2
+msgid "1. Create a project"
+msgstr "1. Создайте проект"
 
-#: ../userguides/get_started.rst:105 290baa2f51144d4397b84380154edcee
+#: ../../source/userguides/get_started.rst:105 8ff164a2ed8c4f789a5784114e274540
+msgid ""
+"You can use the Default project created upon registration or create a new"
+" one. To create a new project, click the \"Create project\" button and "
+"fill in the project name and description."
+msgstr ""
+"Вы можете использовать проект Default, созданный при регистрации, "
+"или создать новый. Чтобы создать новый проект, нажмите кнопку "
+"\"Create project\" и заполните название и описание проекта."
+
+#: ../../source/userguides/get_started.rst:108 4d742034247344abbd6b934a658e061c
+msgid ""
+"You can manage a set of models linked to a project (click the |edit| "
+"button on the project card):"
+msgstr ""
+"Вы можете управлять набором моделей, привязанных к проекту (нажмите "
+"кнопку |edit| на карточке проекта):"
+
+#: ../../source/userguides/get_started.rst:290 915b2130954c436d956123b646e4c1f8
+#: ade08cc19a854a4a96487c3078dc69c9
+msgid "edit"
+msgstr "редактировать"
+
+#: ../../source/userguides/get_started.rst:116 7957c46f35b44b2897c62f4496aed476
+msgid "2. Specify the AOI (Area Of Interest)"
+msgstr "2. Определите область анализа (AOI)"
+
+#: ../../source/userguides/get_started.rst:118 bbdb32fb03714298a5b8597afc991553
 msgid ""
 "First step is to set the area of analysis for your project: by **AOI** "
 "polygon or by the extent of your **GeoTIFF** image."
 msgstr ""
+"Первый шаг — задать область анализа для вашего проекта: по полигону **AOI** "
+"или по экстенту вашего изображения **GeoTIFF**."
 
-#: c3598cec091d4505a48e8ed9629f3b0d
+#: 7495c37621d94b8d8d7a650eff8fa05b
 #, fuzzy
 msgid "Select provider"
 msgstr "Поставщики изображений"
 
-#: ../userguides/get_started.rst:116 fd839d997a274a3e9bec8c41161ee816
-msgid "1.1. Select AOI"
-msgstr ""
+#: ../../source/userguides/get_started.rst:129 89e4ac4ea2a849d18cdcdee39e1212c4
+msgid "2.1. Select AOI"
+msgstr "2.1. Выберите AOI"
 
-#: 6cfffb1fa2a44a2cb351771b4ac306bb
+#: b1b1339ae83b49c28f453adc8eb0a3ef
 msgid "Select AOI"
-msgstr ""
+msgstr "Выбор AOI"
 
-#: ../userguides/get_started.rst:126 a484e1d3fce342659ff81552636c7c5a
+#: ../../source/userguides/get_started.rst:139 de81f9f594d341ce9b7e6d8ffdeb91a8
 msgid ""
-"The user can draw the area using *Draw rectange* / *Draw polygon* tool or"
-" upload it in GeoJSON format (draw and upload, as well as view the data "
-"structure, follow this link - `geojson.io <http://geojson.io/>`_)."
+"The user can draw the area using *Draw rectangle* / *Draw polygon* tool "
+"or upload it in GeoJSON format (draw and upload, as well as view the data"
+" structure, follow this link - `geojson.io <http://geojson.io/>`_)."
 msgstr ""
+"Пользователь может нарисовать область с помощью инструмента *Нарисовать "
+"прямоугольник* / *Нарисовать полигон* или загрузить её в формате GeoJSON "
+"(нарисовать и загрузить, а также просмотреть структуру данных можно по ссылке "
+"`geojson.io <http://geojson.io/>`_)."
 
-#: ../userguides/get_started.rst:129 e2aec70ce78342869ac7fb677ed73d7a
+#: ../../source/userguides/get_started.rst:142 808d3a1a98974e15b28edac96083b34b
 msgid ""
 "Note that max limit of total area is **25 km²** for the free plan. The "
 "area limit is calculated not by the polygon, but by the **Bounding Box** "
@@ -229,26 +278,35 @@ msgid ""
 "Therefore, in this example a warning ``MAX BBOX 25 KM²`` appears in the "
 "example below (bounding box is highlighted):"
 msgstr ""
+"Обратите внимание, что максимальный лимит площади составляет **25 км²** для бесплатного "
+"тарифного плана. Лимит площади рассчитывается не по полигону, а по "
+"**ограничивающему прямоугольнику** "
+"(`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). "
+"Поэтому в данном примере отображается предупреждение ``MAX BBOX 25 KM²`` (ограничивающий "
+"прямоугольник выделен):"
 
-#: c0aae531128d431fa6da1bceab2b22d0
+#: 7d213b3d5280460a827e826154b5c9e3
 msgid "Bounding Box"
-msgstr ""
+msgstr "Ограничивающий прямоугольник"
 
-#: ../userguides/get_started.rst:142 3194714cf2d04554ba27a89d62ee320a
-msgid "1.2 Upload GeoTIFF"
-msgstr ""
+#: ../../source/userguides/get_started.rst:155 ca5f410cd1374404a317459602974b85
+msgid "2.2 Upload GeoTIFF"
+msgstr "2.2 Загрузите GeoTIFF"
 
-#: ../userguides/get_started.rst:143 5adb4d789d0d4f7e87da501ecb6c6876
+#: ../../source/userguides/get_started.rst:156 21a35d50789f4fe89a99505328519e65
 msgid ""
 "You can upload your aerial images in GeoTiff format. After the image is "
 "uploaded, you need to draw/upload an AOI or click \"Use Image Extent\"."
 msgstr ""
+"Вы можете загрузать аэрофотоснимки в формате GeoTiff. После загрузки "
+"изображения необходимо нарисовать/загрузить AOI или "
+"нажать \"Use Image Extent\"."
 
-#: cfeb4e04b63143d8909886e6772cf6ad
+#: 47a74dd9b7e04bdb9e894a12f1c71e4a
 msgid "upload GeoTIFF"
-msgstr ""
+msgstr "загрузка GeoTIFF"
 
-#: ../userguides/get_started.rst:152 3cafd29abfac494a91bf1695251d28a1
+#: ../../source/userguides/get_started.rst:165 a82d9eca427048829b72d14878c21b54
 #, fuzzy
 msgid ""
 "Currently, a preview of the uploaded image is not possible before the "
@@ -258,7 +316,7 @@ msgstr ""
 "невозможен, после загрузки изображения вы увидите только область его "
 "экстента."
 
-#: ../userguides/get_started.rst:154 c7cb02bef3454410ad00bdd930d6a7e9
+#: ../../source/userguides/get_started.rst:167 5a32034c9b9d4c8f9cbc9d5b41a47de4
 msgid ""
 "The processing AOI must be located in the area of this extent, otherwise "
 "the area will be cut off by the extent boundaries. The processing area is"
@@ -270,21 +328,21 @@ msgstr ""
 "обработки вычисляется по пересечению экстента изображения и AOI. Если AOI"
 " не пересекает границы изображения, то появится сообщение об ошибке."
 
-#: ../userguides/get_started.rst:162 c8b50fbce6e6442590a284d04e06c0dd
+#: ../../source/userguides/get_started.rst:175 dbfcc6dedbc24ea89e39361dea3b3eff
 msgid "Image upload requirements (free plan):"
 msgstr "Требования к загрузке изображений (бесплатный тарифный план):"
 
-#: ../userguides/get_started.rst:158 96b1fdaed63b47abb4d6034e1bd98563
+#: ../../source/userguides/get_started.rst:171 a043ce8ef63f4c0b9dc4b491882b8830
 msgid "The file size must be less than 1 Gb"
 msgstr "Размер должен быть менее 1 Гб"
 
-#: ../userguides/get_started.rst:159 313c7b8a8eaf436fa1cfaed116bad1d2
+#: ../../source/userguides/get_started.rst:172 d08c7eb72f6c48d68d1352624114c8e3
 msgid "Both sides image dimensions must not exceed 30.000x30.000 pixels"
 msgstr ""
 "Размеры изображения с обеих сторон не должны превышать 30.000x30.000 "
 "пикселей"
 
-#: ../userguides/get_started.rst:160 e075bc72f3084576b46f51dbfeefae54
+#: ../../source/userguides/get_started.rst:173 972880f721424e9fac3f89372517ae9c
 msgid ""
 "The image must be georeferenced and the CRS must be one of: - WGS84 "
 "(EPSG: 4326) - Web mercator (EPSG: 3857) - `UTM "
@@ -294,7 +352,7 @@ msgstr ""
 "Изображение должно иметь географическую привязку, а СК должна быть одной "
 "из:- WGS84 (EPSG: 4326) - Web mercator (EPSG: 3857) - UTM (любая зона)"
 
-#: ../userguides/get_started.rst:167 ead77c93c48e4599a2b0d062039c3fca
+#: ../../source/userguides/get_started.rst:180 a6698612a78e4496a889735b8862268d
 #, fuzzy
 msgid ""
 "If your image doesn't meet the params above, we suggest to use "
@@ -313,43 +371,44 @@ msgstr ""
 "для такого рода данных, поэтому качество результата может быть хуже "
 "ожидаемого."
 
-#: ../userguides/get_started.rst:171 d07d9370bc194934be3c839c26dc8608
-#, fuzzy
-msgid "2. Select the imagery source"
-msgstr "1.1. Выберите источник растра"
+#: ../../source/userguides/get_started.rst:184 72fca6691bf440638d60785cea9464c1
+msgid "3. Select the imagery source"
+msgstr "3. Выберите источник снимков"
 
-#: ../userguides/get_started.rst:174 c6a28a731e33424184a0be25c04e5493
+#: ../../source/userguides/get_started.rst:187 370f5b016a5044e19a78912619208774
 msgid "If you uploaded GeoTIFF - the image source is already selected."
-msgstr ""
+msgstr "Если вы загрузили GeoTIFF, источник изображения уже выбран."
 
-#: ../userguides/get_started.rst:176 c6b25e1e93034ffab80fb36e74196907
+#: ../../source/userguides/get_started.rst:189 a83fe1bb5931424cab42687fb7b723b9
 #, fuzzy
 msgid "This tab allows you to select from:"
 msgstr "Интерфейс этой вкладки позволяет вам:"
 
-#: ../userguides/get_started.rst:178 ../userguides/get_started.rst:185
-#: 5bdc060e3fe4421685a732d6424056a9 bbd9aad3804341afb3e5c7ab00b1fc77
-#: bc0485d433b84b28ab2b39c4462f5d53
+#: ../../source/userguides/get_started.rst:191 1680f3d2669f4a0d94e11320a1d5a99d
+#: 72ab4f4f835e4a359342595fc179a032 fa03dfe8e48e430093055961982326a7
 msgid "Imagery providers"
 msgstr "Поставщики изображений"
 
-#: ../userguides/get_started.rst:179 ../userguides/get_started.rst:215
-#: 88941ff8766140c4bce7b68636f9138b
+#: ../../source/userguides/get_started.rst:192 b8db72c5132540e5ac2f6d345651c714
 msgid "Custom URL"
 msgstr "Пользовательский URL"
 
-#: ../userguides/get_started.rst:180 ddaee46fb5a6431799899f30b6105b0a
+#: ../../source/userguides/get_started.rst:193 6c0a241c5f914db987e0c9d381e2aa9c
 msgid "Historical data"
-msgstr ""
+msgstr "Исторические данные"
 
-#: ../userguides/get_started.rst:195 8335a7a5646b42d68afe1ed9f7215e32
+#: ../../source/userguides/get_started.rst:198 f25153d4b21e4dd798963cac919f9fac
+msgid "3.1 Imagery providers"
+msgstr "3.1 Поставщики снимков"
+
+#: ../../source/userguides/get_started.rst:208 715f762176cb489193957b053ca48b19
 #, fuzzy
 msgid ""
 "Here you can select one of the default providers that are available in "
 "Mapflow, example:"
 msgstr "Здесь вы можете выбрать одного из поставщиков по умолчанию:"
 
-#: ../userguides/get_started.rst:197 2266bd5cd8b34f148351639e4d74e96e
+#: ../../source/userguides/get_started.rst:210 b98ea1de44d846d7bff03789b191b963
 msgid ""
 "`Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider "
 "of global high resolution satellite imagery. The date of the image and "
@@ -359,15 +418,19 @@ msgstr ""
 "глобальных спутниковых снимков высокого разрешения. Дату снимка и "
 "обновления выбрать нельзя."
 
-#: ../userguides/get_started.rst:199 fc5d9f2ed7c14c0c98302cecf96a511a
+#: ../../source/userguides/get_started.rst:212 c5e34303113d4ff8ae9c49598d73f79e
 msgid ""
 "**\"Global mosaic\"** is a pilot version of mosaic of high res imagery "
 "(0.75–0.5 m/px) for year 2022. The preview is limited to zoom 15. Limited"
 " coverage for some countries. The mosaic is planned to be updated on a "
 "regular basis."
 msgstr ""
+"**«Глобальная мозаика»** — пилотная версия мозаики снимков высокого "
+"разрешения (0.75–0.5 м/пикс.) за 2022 год. Предпросмотр ограничен уровнем "
+"масштаба 15. Ограниченное покрытие для некоторых стран. "
+"Планируется регулярное обновление мозаики."
 
-#: ../userguides/get_started.rst:201 00721d68fbe54f808cb2455df8cb0c80
+#: ../../source/userguides/get_started.rst:214 a0381395aeef4d629a96a310f559d4b1
 #, fuzzy
 msgid ""
 "`ArcGIS World Imagery "
@@ -382,13 +445,15 @@ msgstr ""
 "высокого и среднего разрешения от компании ESRI. Периодичность обновления"
 " снимков составляет 3-5 лет."
 
-#: ../userguides/get_started.rst:204 5aed00db2c184e8d9f85af83c847e669
+#: ../../source/userguides/get_started.rst:217 910f5605e81840d3b96e4907fe95bc6c
 msgid ""
 "You can search the ArcGIS World Imagery metadata (date, zoom level) by "
 "location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS."
 msgstr ""
+"Вы можете искать метаданные ArcGIS World Imagery (дата, уровень масштаба) "
+"по местоположению. Для этого используйте инструмент Mapflow :ref:`Imagery search` в QGIS."
 
-#: ../userguides/get_started.rst:209 cf493a4e02e245d7aa185e9abda746bc
+#: ../../source/userguides/get_started.rst:222 c42d4ea486ca4eda8fb26fb3a6bb009f
 msgid ""
 "Data providers are the TMS / XYZ data streaming services that can be "
 "connected to Mapflow to enable instant imagery analysis and AI mapping. "
@@ -398,8 +463,19 @@ msgid ""
 "details about the Imagery providers cost, see :ref:`Mapflow subscription "
 "plans <subscription-plans>`."
 msgstr ""
+"Поставщики данных — это потоковые сервисы TMS/XYZ, которые можно подключить "
+"к Mapflow для мгновенного анализа снимков и ИИ-картографирования. "
+"В рамках коммерческих тарифных планов Mapflow мы предоставляем доступ к "
+"коммерческим поставщикам, историческим снимкам и обновлениям на особых "
+"условиях. Мы постоянно работаем над добавлением новых коммерческих поставщиков. "
+"Подробнее о стоимости поставщиков снимков см. :ref:`Mapflow subscription "
+"plans <subscription-plans>`."
 
-#: ../userguides/get_started.rst:225 359a28f61e204b5ea81e32aeea0dcc05
+#: ../../source/userguides/get_started.rst:228 0c796233b2344ea1843866497f01b63a
+msgid "3.2 Custom URL"
+msgstr "3.2 Пользовательский URL"
+
+#: ../../source/userguides/get_started.rst:238 8913c39a6ce74107934a6553bd3ca386
 msgid ""
 "Specify the XYZ link to the source of the images. The link is "
 "automatically checked for validity (for example, :ref:`Openaerialmap "
@@ -410,7 +486,7 @@ msgstr ""
 "проверяется на достоверность (например, :ref:`Openaerialmap "
 "<Openaerialmap>` - https://tile.openstreetmap.org/{z}/{x}/{y}.png);"
 
-#: ../userguides/get_started.rst:226 eadefe40ed5f49f788abafdd18411126
+#: ../../source/userguides/get_started.rst:239 492ca46512004ee89115ddfd9c98a700
 msgid ""
 "When adding you custom tile service it might be needed to define Y "
 "position: XYZ (top left), TMS/WMTS (bottom left);"
@@ -418,61 +494,85 @@ msgstr ""
 "При добавлении вашего кастомного тайл сервиса может понадобиться указать "
 "позицию Y: XYZ (вверху слева), TMS/WMTS (внизу слева);"
 
-#: ../userguides/get_started.rst:227 b8dcc3cd23a446d8a3ddc92eba6589a5
+#: ../../source/userguides/get_started.rst:240 caa16a7459cf4d2082665500e6cb9cb2
 msgid "Provide your authorization data for the desired source (Login + Password);"
-msgstr ""
+msgstr "Укажите данные авторизации для нужного источника (логин + пароль);"
 
-#: ../userguides/get_started.rst:228 a123227a234c4dd69873c508bf40ac9a
+#: ../../source/userguides/get_started.rst:241 f014990b611c4824bfdc459ccca65820
 msgid "Add on map to preview."
-msgstr ""
+msgstr "Добавьте на карту для предпросмотра."
 
-#: ../userguides/get_started.rst:234 de59e4b2d2a44b4dae28ba6f95b9a8bd
-msgid "Historical data (Imagery Search)"
-msgstr ""
+#: ../../source/userguides/get_started.rst:247 a3ae63cff21a45b4ad6ee688e952c212
+msgid "3.3 Historical data (Imagery Search)"
+msgstr "3.3 Исторические данные (поиск снимков)"
 
-#: ../userguides/get_started.rst:236 128111eaf0e04c61943d72c4904e521e
+#: ../../source/userguides/get_started.rst:249 778f779bff6a42688bde4163bbf656f0
 msgid ""
 "\"Imagery search\" allows Mapflow users to search for available satellite"
 " imagery over their area of analysis. It's powered by Mapflow API "
 "providing access to the global satellite data providers through our "
 "partners."
 msgstr ""
+"\"Imagery search\" позволяет пользователям Mapflow искать доступные "
+"спутниковые снимки над их областью анализа. Работа обеспечивается "
+"Mapflow API, предоставляющим доступ к глобальным поставщикам "
+"спутниковых данных через наших партнёров."
 
-#: ../userguides/get_started.rst:240 7c6f9900dafb4a6dafd2e31451a08dee
+#: ../../source/userguides/get_started.rst:253 fcbdc3d737e649bd8fd21f0f83d41ef7
 msgid ""
 "👉 See :ref:`Imagery search <Imagery search  main>` for more information "
 "and guides."
 msgstr ""
+"👉 См. :ref:`Imagery search <Imagery search  main>` для получения дополнительной "
+"информации и руководств."
 
-#: ../userguides/get_started.rst bd42a0e225f74903b2e35d3d033e1ccb
+#: ../../source/userguides/get_started.rst 99edbd72dc0f4f40b3fb7e637e11369d
 msgid "Imagery search tab"
-msgstr ""
+msgstr "Вкладка поиска снимков"
 
-#: ../userguides/get_started.rst:250 01d6c33cdaf345d7b9f4eaae719c1a5b
-msgid "2. AI model"
-msgstr "2. ИИ модели"
+#: ../../source/userguides/get_started.rst:263 16e08182aad64e92b3c766e0fee8dcca
+msgid "4. AI model"
+msgstr "4. ИИ-модель"
 
-#: ../userguides/get_started.rst:252 aef58fd76c0f44a4b57647b0b1e4ba1e
+#: ../../source/userguides/get_started.rst:265 d3273510aa3f4b668a5e1ae1d6089c71
 msgid "Select one of the AI models (see :doc:`Model description <pipelines>`)."
 msgstr "Выберите одну из ИИ моделей (см. :doc:`Описание моделей <pipelines>`)."
 
-#: ../userguides/get_started.rst:254 bee7faf1895d4675af39aa68231a8056
-msgid "edit"
+#: ../../source/userguides/get_started.rst c21e64afa921410ebd6547afbec1e311
+#: fdf7d4802c074917835bb5f3e668bc2b
+msgid "Search menu"
+msgstr "Меню поиска"
+
+#: ../../source/userguides/get_started.rst:275 502c9a5a286f42a6b800c5e9b8d1a626
+#: dab3fed7cb8849b6b9cceb5cb8d97181
+msgid "suggest"
 msgstr ""
 
-#: ../userguides/get_started.rst:259 46394d583af240368b358a10d35da2ba
+#: ../../source/userguides/get_started.rst:279 2c640cf3cfea4f50ba5a8e970226015b
 msgid ""
-"You can manage a set of models linked to a project (click the |edit| "
-"button on the project card):"
+"If your data source is Data provider (Imagery basemap), after selecting "
+"the model, the recommended zoom level for it will be set "
+"**automatically**. Note that you can always select any zoom level and "
+"check its availability with the \"Suggest\" |suggest| button."
 msgstr ""
-"Вы можете управлять набором моделей, привязанных к проекту (нажмите "
-"кнопку |edit| на карточке проекта):"
+"Если ваш источник данных — поставщик снимков (Imagery basemap), после выбора "
+"модели рекомендуемый уровень масштаба будет установлен "
+"**автоматически**. Обратите внимание, что вы всегда можете выбрать любой "
+"уровень масштаба и проверить его доступность с помощью кнопки \"Suggest\" |suggest|."
 
-#: ../userguides/get_started.rst:268 276350edc51741e886c22866f6b822c9
-msgid "3. Post-processing options"
-msgstr "3. Опции постобработки"
+#: ../../source/userguides/get_started.rst:282 af609e09b1724be6b3b5f9dd71448ebc
+msgid ""
+"If the recommended zoom is unavailable, you can start the processing "
+"using lower zoom level, but the result may be less accurate."
+msgstr ""
+"Если рекомендуемый уровень масштаба недоступен, вы можете начать обработку "
+"с более низким уровнем, но результат может быть менее точным."
 
-#: ../userguides/get_started.rst:270 1fc37f0cedda4ab19110345351b39419
+#: ../../source/userguides/get_started.rst:296 87b66c6234474232af38b1ba0f44810e
+msgid "4.1. Post-processing options"
+msgstr "4.1. Опции постобработки"
+
+#: ../../source/userguides/get_started.rst:298 9b2fab79ff6e44398ec7fc4861b3f329
 msgid ""
 "In this step, you can select additional processing options. Different AI "
 "models have their own options."
@@ -480,21 +580,23 @@ msgstr ""
 "На этом шаге вы можете выбрать дополнительные параметры обработки. "
 "Различные ИИ модели имеют свои собственные опции."
 
-#: ../userguides/get_started.rst:272 9311fe402a644e87ab70b1529776cbdd
+#: ../../source/userguides/get_started.rst:300 65872b76dcb2436e9cb79907874860b2
 msgid "AI model \"🏠 Buildings\":"
 msgstr "ИИ модель \"🏠 Здания\":"
 
-#: ../userguides/get_started.rst:274 5517538c92ab4e5d922d41f7bcfcede6
+#: ../../source/userguides/get_started.rst:302 fe9bba3cf8e549428df71193aadf3b46
+#, fuzzy
 msgid ""
 "*Classification* - we currently recognize the following building types: "
 "apartment buildings, single-household dwellings, industrial, commercial, "
-"other non-residential (see :doc:`../um/classes`)."
+"other non-residential (see :ref:`Building Mapping classes "
+"<buildings_classes>`)."
 msgstr ""
 "*Классификация* - в настоящее время мы различаем следующие типы зданий: "
 "многоквартирные дома, жилые дома для одного домохозяйства, промышленные, "
 "коммерческие, другие нежилые помещения (см. :doc:`../um/classes`)."
 
-#: ../userguides/get_started.rst:275 4fb23314dd2a484185e4d824cfbddb85
+#: ../../source/userguides/get_started.rst:303 0350cbfbc72141fea391cb50965d88e9
 msgid ""
 "*Merge with OSM* - compare the results with the buildings in "
 "OpenStreetMap and, if a sufficient overlap has been found, use the ones "
@@ -504,28 +606,41 @@ msgstr ""
 "если обнаружено достаточное перекрытие, используйте вместо них здания из "
 "OSM."
 
-#: ../userguides/get_started.rst:276 837a228a6124479aa1fa8e29b252555e
-msgid "*Simplification* - simplification and polygonization of building contours."
+#: ../../source/userguides/get_started.rst:304 0218dd1328d349ccb63d081f20a8cc0d
+#, fuzzy
+msgid "*Simplification* - simplification of building contours."
 msgstr "*Упрощение* - упрощение и полигонизация контуров здания."
 
-#: ../userguides/get_started.rst:277 afcf7fbbc26a447aa5c0c9c1728aeadc
+#: ../../source/userguides/get_started.rst:305 d19dff4e8d7845d0859cee3945cff24f
+msgid ""
+"*Regularization* - regularization of building contours to make them more "
+"rectangular."
+msgstr ""
+"*Регуляризация* — регуляризация контуров зданий для придания "
+"им более прямоугольной формы."
+
+#: ../../source/userguides/get_started.rst:306 ab3c33a3817540aa863294db66f5515d
 msgid ""
 "*Building heights* - for each building, we estimate its height. If this "
 "option is selected, all roof contours will be shifted in accordance with "
 "their height, i.e. converted to \"footprints\"."
 msgstr ""
+"*Высоты зданий* — для каждого здания оценивается его высота. При выборе "
+"этой опции все контуры крыш будут сдвинуты соответственно их "
+"высоте, т. е. преобразованы в отпечатки зданий (footprints)."
 
-#: ../userguides/get_started.rst:280 f8b287b1def74ffd958876ae61c0d6f4
+#: ../../source/userguides/get_started.rst:309 b22a42316a224ed8bdac1b468bf6a889
 msgid "AI model \"🌲 Forest\":"
-msgstr "ИИ модель \"🌲 Здания\":"
+msgstr "ИИ модель \"🌲 Лес\":"
 
-#: ../userguides/get_started.rst:282 e242ebd34fd948d2ba848c393e183bfd
+#: ../../source/userguides/get_started.rst:311 c0e297a39ce94b1fa3815817fe3cc96f
+#, fuzzy
 msgid ""
-"*Heights* - classifies vegetation by height: by default 0-4 m for shrub "
-"(\"low vegetation\"), 4-10 m for regular forest (\"medium forest\"), 10+ "
-"m for area with tall trees (\"high forest\"). Clasification is done per "
-"vegetated area, and not per single tree (see `Forest Mapping classes "
-"<https://docs.mapflow.ai/forest/classes.html>`_)."
+"*Heights* - classifies vegetation by height classes: by default 0-4 m for"
+" shrub (\"low vegetation\"), 4-10 m for regular forest (\"medium "
+"forest\"), 10+ m for area with tall trees (\"high forest\"). "
+"Classification is done per vegetated area, and not per single tree (see "
+":ref:`Forest Mapping classes <forest_classes>`)."
 msgstr ""
 "*Высоты* - классифицирует растительность по высоте: по умолчанию 0-4 м "
 "для кустарника («низкая растительность»), 4-10 м для обычного леса "
@@ -534,17 +649,19 @@ msgstr ""
 "дереву (см. `Forest Mapping classes "
 "<https://docs.mapflow.ai/forest/classes.html>`_)."
 
-#: ../userguides/get_started.rst:283 4684dd97082d41c0a48319957c5d67b3
+#: ../../source/userguides/get_started.rst:312 252cf36ed9e74c99b512495ab918a85e
 msgid ""
 "*Tree crowns* - extracts tree crowns from dense forest cover as well as "
 "free-standing trees."
 msgstr ""
+"*Кроны деревьев* — извлечение крон деревьев из густого лесного покрова, "
+"а также отдельно стоящих деревьев."
 
-#: ../userguides/get_started.rst:286 40a99bead52240b0a375fdc9de3d68cf
-msgid "4. Run the processing"
-msgstr "4. Запуск обработки"
+#: ../../source/userguides/get_started.rst:315 2e13186c76814587b6b30a5dfb884650
+msgid "5. Run the processing"
+msgstr "5. Запустите обработку"
 
-#: ../userguides/get_started.rst:288 381fa97394ac4e50b8e38b1e397fc1e0
+#: ../../source/userguides/get_started.rst:317 3dfe258f4f5c454d872c9f33bc3bca2d
 msgid ""
 "At this step, you can set the name of your processing or use the "
 "initially generated one (the button allows you to generate variants of "
@@ -554,17 +671,17 @@ msgstr ""
 "изначально сгенерированное (кнопка позволяет генерировать варианты "
 "названия)."
 
-#: ../userguides/get_started.rst:290 b0932771eaf94a7790f0a2ed556ae161
+#: ../../source/userguides/get_started.rst:319 b7eed676afe54fc7af103b2acdff9da5
 msgid "The \"Start processing\" will start processing."
 msgstr "Кнопка \"Запуск обработки\" запустит обработку."
 
-#: ../userguides/get_started.rst:292 d0ea6223a1a84ebaad5ebeb04aeacaa8
+#: ../../source/userguides/get_started.rst:321 6cfb88e891e94d2eb75858a949a50430
 msgid ""
 "The \"Clear Selection\" will clear the previously selected processing "
 "parameters."
 msgstr "Кнопка \"Сбросить выбор\" очистит ранее выбранные параметры обработки."
 
-#: ../userguides/get_started.rst:295 cf0be5ea4ea84371ba659f7d798306e7
+#: ../../source/userguides/get_started.rst:324 785a5d2f3cc84eecbea51302325e5cc1
 #, fuzzy
 msgid ""
 "Once you have selected the model and the processing parameters, you will "
@@ -578,11 +695,11 @@ msgstr ""
 "бесплатно для тестирования платформы (см. :doc:`Mapflow credits "
 "<prices>`)."
 
-#: ../userguides/get_started.rst:299 d4488055bc404c83a17d07390242edc7
-msgid "View the results"
-msgstr "Просмотр результатов"
+#: ../../source/userguides/get_started.rst:328 31fa44ec8a3f468c8a34b53da456d246
+msgid "6. View the results"
+msgstr "6. Просмотр результатов"
 
-#: ../userguides/get_started.rst:301 2f6658705b7a4a9499aaac7e429aa294
+#: ../../source/userguides/get_started.rst:330 5267049929da42f6afe63f7eeb95e2b8
 msgid ""
 "In the \"Processing history\" you see the progress of processing as well "
 "as view and get the processing results. Each running processing displays "
@@ -594,11 +711,11 @@ msgstr ""
 "обработке отображаются выбранная модель, статус, дата создания и "
 "стоимость обработки."
 
-#: ../userguides/get_started.rst:305 7b551f33f0f94da38d21ca912f7eeb6a
-msgid "View on the map"
-msgstr "Просмотр на карте"
+#: ../../source/userguides/get_started.rst:334 ffbe9b26c0624e89a11ca3913e058070
+msgid "6.1 View on the map"
+msgstr "6.1 Просмотр на карте"
 
-#: ../userguides/get_started.rst:307 b9e8bf51b3454dd1b1faefc843a21af8
+#: ../../source/userguides/get_started.rst:336 3f8609d28d624614aef0a5c9dd4f7b2c
 msgid ""
 "After the successful processing completion, the card can be opened to "
 "view more detailed information about the processing parameters - AI "
@@ -608,11 +725,11 @@ msgstr ""
 " более подробной информации о параметрах обработки - AI модели, "
 "постобработке, области, источнике данных."
 
-#: ../userguides/get_started.rst 77c9fd233f1247948170554e2680046f
+#: ../../source/userguides/get_started.rst e4f6a0e44b4f477a85c2399ca48089f9
 msgid "Processing card"
-msgstr ""
+msgstr "Карточка обработки"
 
-#: ../userguides/get_started.rst:316 ec8c56bb87ec4c37b56f6f00d727838b
+#: ../../source/userguides/get_started.rst:345 a36198f104bd4f05b0c04f4148118768
 msgid ""
 "Click the \"View on the Map\" to quickly view the processing result on "
 "the built-in interactive map."
@@ -620,12 +737,11 @@ msgstr ""
 "Нажмите кнопку «Просмотреть на карте», чтобы быстро просмотреть результат"
 " обработки на встроенной интерактивной карте."
 
-#: ../userguides/get_started.rst:319 80bbfd524baa42f9ae45d88e5afd1c85
-#, fuzzy
-msgid "Feature attributes and multilayers"
-msgstr "Атрибуты объектов"
+#: ../../source/userguides/get_started.rst:348 a9c6e1e2484642fcbdd7deb6d7d5b22b
+msgid "6.2 Feature attributes and multilayers"
+msgstr "6.2 Атрибуты объектов и многослойность"
 
-#: ../userguides/get_started.rst:321 7611ac12c8544dc399576f4ebd6e159b
+#: ../../source/userguides/get_started.rst:350 c186f61c4b04413f8d74f68110ef44f5
 msgid ""
 "Depending on the model and the options applied the extracted features "
 "might contain the semantic information that is written in the feature "
@@ -635,47 +751,47 @@ msgstr ""
 "содержать семантическую информацию, которая записана в свойствах объектов"
 " в GeoJSON."
 
-#: ../userguides/get_started.rst:323 6961068b852f4218a13bd6aa0d899d81
+#: ../../source/userguides/get_started.rst:352 9d67d0ad232f4105a8fedc3b7e52046a
 #, fuzzy
 msgid ""
-"E.g. \"Buildings\" model with \"simplification\" and \"classification\" "
+"E.g. \"Buildings\" model with \"regularization\" and \"classification\" "
 "by building typology options:"
 msgstr "Например, модель \"Здания\" с опциями \"упрощение\" и \"классификация\":"
 
-#: ../userguides/get_started.rst 2cefb438c5524f5f920bb31298fb513e
+#: ../../source/userguides/get_started.rst 3b4092d594e74f0c99d8fc1103687fe5
 #, fuzzy
 msgid "Preview results"
 msgstr "Просмотр результатов"
 
-#: ../userguides/get_started.rst:336 6cec9c66f15b475fa9bcab1d05a5cf76
+#: ../../source/userguides/get_started.rst:365 a8ae19c884af4890a87db79c56f8ae71
 msgid "PROPERTY"
 msgstr "СВОЙСТВО"
 
-#: ../userguides/get_started.rst:337 fa70666b69474c838922a05a5c14d380
+#: ../../source/userguides/get_started.rst:366 ef52428bc9aa4fd4af123a9b2c9c0192
 msgid "DESCRIPTION"
 msgstr "ОПИСАНИЕ"
 
-#: ../userguides/get_started.rst:338 1bf6951c56184503b5ebe44c6610f43e
+#: ../../source/userguides/get_started.rst:367 a551e60cf7ff464ba01c9fc34535e27f
 msgid "Area"
 msgstr ""
 
-#: ../userguides/get_started.rst:339 def8e65766b94fefadc6558aa9ad1b63
+#: ../../source/userguides/get_started.rst:368 0d7b01c7db754107a50cf979002707de
 msgid "Feature area in meters"
 msgstr "Площадь объекта в метрах"
 
-#: ../userguides/get_started.rst:340 75d1962c79204cdfab9243608d77c9fc
+#: ../../source/userguides/get_started.rst:369 487f06a5392f422993eea14281bb287a
 msgid "Class_id"
 msgstr ""
 
-#: ../userguides/get_started.rst:341 e5852ca216a7429f8dcdafc495aacef3
+#: ../../source/userguides/get_started.rst:370 78e91ecb275e468ea1310289655c140f
 msgid "Buildings typology"
-msgstr ""
+msgstr "Типология зданий"
 
-#: ../userguides/get_started.rst:342 6f7e5a24cf3b41bfaddfff35f4bd06b7
+#: ../../source/userguides/get_started.rst:371 1ce37a5c0241438bbd5ac90f1e743dd4
 msgid "Shape_type"
 msgstr ""
 
-#: ../userguides/get_started.rst:343 1a23da2cb5fe473f88c20982b314e00d
+#: ../../source/userguides/get_started.rst:372 6201cf5810604ac38d78fa2fd7bc12d0
 msgid ""
 "The geometry primitive depending on the polygonization algorithm that's "
 "been applied to the feature mask"
@@ -683,19 +799,19 @@ msgstr ""
 "Геометрический примитив в зависимости от алгоритма полигонизации, который"
 " был применен к маске объекта"
 
-#: ../userguides/get_started.rst:344 339799d1cbed4532827c32ea1e305f2a
+#: ../../source/userguides/get_started.rst:373 da5e9066e36b4936a6144586bef68e7e
 msgid "Processing_date"
 msgstr ""
 
-#: ../userguides/get_started.rst:345 eb46b064a52e4a47b415613e098d3a59
+#: ../../source/userguides/get_started.rst:374 449606b9568b4aeeb7e35d72c1204e3f
 msgid "The date of the processing completion"
 msgstr "Дата завершения обработки"
 
-#: ../userguides/get_started.rst:346 8c8c7aa94d544329be1995d34a8f5125
+#: ../../source/userguides/get_started.rst:375 2a45fd9d554e42878d84ccaea90322b2
 msgid "Simplification_score"
 msgstr ""
 
-#: ../userguides/get_started.rst:347 051c621b8f034d719ff64c5fab740a4c
+#: ../../source/userguides/get_started.rst:376 7ad067be1c554b3a840bd7295ea972c4
 msgid ""
 "The score is counted by the intersection of the pixel feature and "
 "polygonized feature. The higher score - the closer polygonized feature to"
@@ -705,33 +821,38 @@ msgstr ""
 "полигонизированного объекта. Чем выше оценка - тем ближе "
 "полигонизированный объект к пиксельному."
 
-#: ../userguides/get_started.rst:351 de52b75cc07e48d3b8b7d151df179337
-msgid "Layer Switching & Legend in Mapflow Viewer"
-msgstr ""
+#: ../../source/userguides/get_started.rst:380 c4708debe6ab41de9fd8853eb9959435
+msgid "6.3 Layer Switching & Legend"
+msgstr "6.3 Переключение слоёв и легенда"
 
-#: ../userguides/get_started.rst:353 c3b3b80cbd2641c582cd811dcaa7fe4d
+#: ../../source/userguides/get_started.rst:382 01cc83bdeac74cce9bdc11877a06983b
 msgid ""
-"You can switch the layers to preview on the map. Click the \"sandwitch\" "
+"You can switch the layers to preview on the map. Click the \"sandwich\" "
 "(☰) button on the top right corner of the map and extend the dialogue "
 "with the map legend."
 msgstr ""
+"Вы можете переключать слои для предпросмотра на карте. Нажмите кнопку "
+"\"sandwich\" (☰) в правом верхнем углу карты и откройте диалог "
+"с легендой карты."
 
-#: ../userguides/get_started.rst:355 50f76c38c4ca4e838ca4423a755d4679
+#: ../../source/userguides/get_started.rst:384 4b48b56875644752b7bebbb45fff9acd
 msgid ""
 "E.g. \"[multi] Buildings + Roads + Forest\" model results with different "
 "layers:"
 msgstr ""
+"Пример: результаты модели \"[multi] Buildings + Roads + Forest\" с "
+"разными слоями:"
 
-#: ../userguides/get_started.rst 2b9e8c9683cc4d6fa6b49a8343b8b558
+#: ../../source/userguides/get_started.rst e34cbbad87294f4a8e861f0428f88393
 #, fuzzy
 msgid "Layers view on the map"
-msgstr "Просмотр на карте"
+msgstr "Просмотр слоёв на карте"
 
-#: ../userguides/get_started.rst:365 9e4f8cfbe9dc461ba13d1c22acfd63b7
-msgid "Rate the processing"
-msgstr "Оценка обработки"
+#: ../../source/userguides/get_started.rst:394 d7bd3156ffa84cd69ca1e6952a76cb2a
+msgid "6.4 Rate the processing"
+msgstr "6.4 Оцените обработку"
 
-#: ../userguides/get_started.rst:372 847bb6f051ef45edb412da8774facbdd
+#: ../../source/userguides/get_started.rst:401 049f0acd54fa449fbb6293eb998166f4
 msgid ""
 "We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment "
 "is important for further improvement of the Mapflow AI models. We review "
@@ -742,16 +863,16 @@ msgstr ""
 "Mapflow. Мы изучаем все отзывы пользователей и свяжемся с вами, если "
 "возникнут какие-либо проблемы."
 
-#: ../userguides/get_started.rst e5e1741b08e043cbafae90f0482f8d45
+#: ../../source/userguides/get_started.rst 4f5d51adaa2842f68076f80bc8b0dbe1
 #, fuzzy
 msgid "Rate your processing"
-msgstr "Оценка обработки"
+msgstr "Оцените вашу обработку"
 
-#: ../userguides/get_started.rst:376 ab83a180dc2442518ee07f34a7e1e337
-msgid "Share the results"
-msgstr "Поделиться результатами"
+#: ../../source/userguides/get_started.rst:405 b65c934054ba43ad8121db6bbf2ae2e1
+msgid "6.5 Share the results"
+msgstr "6.5 Поделиться результатами"
 
-#: ../userguides/get_started.rst:378 d432eb359f7a4d898e844279236ee95e
+#: ../../source/userguides/get_started.rst:407 d90310f7f1cd452aaac731a5d8fd8e2b
 msgid ""
 "You can share your project with the external users for the view-only "
 "access. Go to the Project -- Share and enter the Mapflow user's email."
@@ -760,11 +881,11 @@ msgstr ""
 "только для просмотра. Перейдите Проект -- Поделиться и введите адрес "
 "электронной почты пользователя Mapflow."
 
-#: 99932f5d76e04c8eba8bcbe5c1286e26
+#: 61dc767b424d4313b967e71b41840a70
 msgid "Share project externally"
-msgstr ""
+msgstr "Поделиться проектом с внешними пользователями"
 
-#: ../userguides/get_started.rst:389 28feb64b19ef49edae85fd8c5f639e59
+#: ../../source/userguides/get_started.rst:418 09ebdbf24cf54deabe509ddbf95f2bcc
 msgid ""
 "To upgrade project sharing rights and provide your collaborators with the"
 " editor's access you need to switch to the :ref:`Team accounts`"
@@ -773,19 +894,19 @@ msgstr ""
 "вашим коллабораторам доступ редактора, вам необходимо перейти на "
 ":ref:`Team accounts`"
 
-#: ../userguides/get_started.rst:393 0195bf4eaed14fb1a9ed7d3527556ae7
-msgid "Interact with the processing results"
-msgstr "Взаимодействие с результатами обработки"
+#: ../../source/userguides/get_started.rst:422 a3abfdb8cd6b469daba817af2451fd6a
+msgid "7. Use the processing results"
+msgstr "7. Используйте результаты обработки"
 
-#: ../userguides/get_started.rst:395 50c7c67fac754161848005d4717139c4
+#: ../../source/userguides/get_started.rst:424 2afe790954894f5fb6d5517c432241be
 msgid "The Processing menu includes the items as follows:"
 msgstr "Меню обработки включает в себя следующие пункты:"
 
-#: ../userguides/get_started.rst ca74a572144d4aef9053876a2bad7e74
+#: ../../source/userguides/get_started.rst 8a0144fdc7a24894b32ae2a6f6818b29
 msgid "Additional parameters"
-msgstr ""
+msgstr "Дополнительные параметры"
 
-#: ../userguides/get_started.rst:404 1c0624cf45294eb89c39d508da663d4c
+#: ../../source/userguides/get_started.rst:433 917f5815f3514da8b92da9a4117c6930
 msgid ""
 "Click \"Duplicate\" on an existing processing to use its parameters as a "
 "starting point for a new one (on restart with the same parameters, new "
@@ -795,7 +916,7 @@ msgstr ""
 "параметры в качестве отправной точки для новой (при перезапуске с теми же"
 " параметрами запускается новая обработка)."
 
-#: ../userguides/get_started.rst:405 71d45c66fe6945f597c655ed2d99c8be
+#: ../../source/userguides/get_started.rst:434 13b52a0b4b7247d9be82895488711544
 msgid ""
 "Click \"Source details\" on the existing processing to view information "
 "about source details and AOI."
@@ -803,7 +924,7 @@ msgstr ""
 "Нажмите «Подробности» в существующей обработке, чтобы просмотреть "
 "информацию об источнике и AOI."
 
-#: ../userguides/get_started.rst:408 c88e43d1b49d48ea9a90c191c46a5ba3
+#: ../../source/userguides/get_started.rst:437 47788724acbb4042aa474caf0bdbd02e
 msgid ""
 "If you want to duplicate processing to change some params, like choosing "
 "another AI mapping model for the same AOI - use Duplicate"
@@ -812,15 +933,15 @@ msgstr ""
 " например, выбрать другую ИИ модель для того же AOI - используйте "
 "Дублировать"
 
-#: ../userguides/get_started.rst:410 1291b6840cc24dda9a6c895783cba2fe
-msgid "Download GeoJSON."
-msgstr "Скачать GeoJSON."
+#: ../../source/userguides/get_started.rst:440 bf8336570a65428d8017069cd39ea8f6
+msgid "7.1 Download GeoJSON"
+msgstr "7.1 Скачать GeoJSON"
 
-#: ../userguides/get_started.rst:412 470375d7043a4ca9b95fa46022ddde92
+#: ../../source/userguides/get_started.rst:442 60ef29020e2043f58ea0fe8fe278e22f
 msgid "Allows to download results as a file in GeoJSON format."
 msgstr "Позволяет загружать результаты в виде файла в формате GeoJSON."
 
-#: ../userguides/get_started.rst:415 a982b3426383432e88801e47bb895833
+#: ../../source/userguides/get_started.rst:445 305b1f9b65c54c3f96b87a7a7c908648
 msgid ""
 "This option is not available in the free plan. Only paying users (see "
 "`pricing <https://mapflow.ai/pricing>`_) can use this option."
@@ -829,56 +950,11 @@ msgstr ""
 "пользователи (см. `цены <https://mapflow.ai/pricing>`_) могут "
 "пользоваться этой опцией."
 
-#: ../userguides/get_started.rst:417 5c82302b922b430392e320c8c4caa862
-#, python-format
-msgid ""
-"\"Open with geojson.io\" - view the results in the browser using "
-"`geojson.io "
-"<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_."
-msgstr ""
-"\"Открыть в geojson.io\" - посмотрите результаты в браузере с помощью "
-"`geojson.io "
-"<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_."
-
-#: ../userguides/get_started.rst:420 48ada068e3864bcabf0c040605d70a92
-msgid ""
-"The geosjon.io app allows you to save the results in a different GIS-"
-"compatible format (CSV, KML, TopoJSON, WKT, Shapefile). Just click "
-"\"Save\" and select the format of your preference in the menu bar."
-msgstr ""
-"Приложение geosjon.io позволяет сохранять результаты в другом формате, "
-"совместимом с ГИС (CSV, KML, TopoJSON, WKT, Shapefile). Просто нажмите "
-"«Сохранить» и выберите формат, который вы предпочитаете, в строке меню."
-
-#: ../userguides/get_started.rst:429 9bee3de775d7442fbca1c77afbbf9f9a
-msgid ""
-"\"Open with `kepler.gl <https://kepler.geoalert.io/>`_\" - view the "
-"results using this embedded app. It is a simple but powerful tool for "
-"geospatial data visualization and analysis."
-msgstr ""
-"\"Открыть в `kepler.gl <https://kepler.geoalert.io/>`_\" - просмотрите "
-"результаты с помощью этого встроенного приложения. Это простой, но мощный"
-" инструмент для визуализации и анализа геопространственных данных."
-
-#: ../userguides/get_started.rst a220d659a31840358d7ef3f2bb61e8e2
-#: ac167f2676e34f56b41355536536d857
-#, fuzzy
-msgid "Preview map"
-msgstr "Просмотр на карте"
-
-#: ../userguides/get_started.rst:437 92fe0a375d684a5da23fce90c6f5589c
-msgid ""
-"You can find detailed information about Kepler.gl in their `user manual "
-"<https://docs.kepler.gl/docs/user-guides/j-get-started>`_."
-msgstr ""
-"Вы можете найти подробную информацию о Kepler.gl в их `руководстве "
-"пользователя <https://docs.kepler.gl/docs/user-guides/j-get-started>`_."
-
-#: ../userguides/get_started.rst:441 133116ee0f9a4c5e9e7d655dcbef47bf
+#: ../../source/userguides/get_started.rst:471 d107ac840b914276aaf5d77c144e64a2
 msgid "Working with API"
 msgstr "Работа с API"
 
-#: ../userguides/get_started.rst:443 ec0f76423d524d50836f34ac16f25742
+#: ../../source/userguides/get_started.rst:473 c9c7cfd5cf714643b3d6cc393641a949
 msgid ""
 "Mapflow provides a REST API which, for example, allows you to query for "
 "currently running flows and fetch the results. If you are developing an "
@@ -890,9 +966,10 @@ msgstr ""
 " приложение и хотите использовать наш API, - ознакомьтесь с "
 ":doc:`../api/processing_api`."
 
-#: ../userguides/get_started.rst:447 ccb55bd1805a45c9ba6fedc27f93c272
+#: ../../source/userguides/get_started.rst:477 0c8b036a48f345c68a727b6248bb189f
+#, fuzzy
 msgid ""
-"You must follow the requirements specified with :ref:`Model requirements`"
+"You must follow the requirements specified with :ref:`Model_requirements`"
 " when uploading your own images for processing through the API of the "
 "Mapflow platform. Send a request using data preprocessing to "
 "help@geoalert.io."
@@ -901,6 +978,11 @@ msgstr ""
 "requirements`, при загрузке ваших собственных изображений для обработки "
 "через API платформы Mapflow. Отправьте запрос с использованием "
 "предварительной обработки данных на help@geoalert.io."
+
+#: ../../source/userguides/get_started.rst 7c1ff0d939d5474f8f4cdcafeb377be5
+#, fuzzy
+msgid "Preview map"
+msgstr "Просмотр на карте"
 
 #~ msgid ""
 #~ "Define start Y position: XYZ, TMS "
@@ -1053,29 +1135,8 @@ msgstr ""
 #~ " <https://app.mapflow.ai/account/api>`_ настроек "
 #~ "профиля."
 
-#~ msgid "UI Mapflow – run a flow"
-#~ msgstr "UI Mapflow - запуск потока"
-
-#~ msgid "Select provider"
-#~ msgstr "Выберите провайдера"
-
 #~ msgid "Search image metadata"
 #~ msgstr ""
-
-#~ msgid "Select AOI"
-#~ msgstr "Выбор AOI"
-
-#~ msgid "Processing card"
-#~ msgstr "Карточка обработки"
-
-#~ msgid "Preview results"
-#~ msgstr "Предварительный просмотр результатов"
-
-#~ msgid "Additional parameters"
-#~ msgstr "Дополнительные параметры"
-
-#~ msgid "Preview map"
-#~ msgstr "Предварительный просмотр карты"
 
 #~ msgid "UI Mapflow - запуск потока"
 #~ msgstr ""
@@ -1291,4 +1352,111 @@ msgstr ""
 #~ "details about the Imagery providers "
 #~ "cost, see :ref:`Mapflow prices <credits>`."
 #~ msgstr ""
+
+#~ msgid "Project – space for multiple processings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here you can see your processing "
+#~ "history with the details. If you "
+#~ "are a Team account owner, you can"
+#~ " search through the history of the"
+#~ " entire team processings. Use filters "
+#~ "to sort by date and processing "
+#~ "status. To filter by the custom "
+#~ "parameters like user email or processing"
+#~ " name - start typing in the "
+#~ "search input."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Manage your :ref:`imagery collections <My "
+#~ "imagery main>` that you can currently"
+#~ " use in the :ref:`Maplfow QGIS plugin"
+#~ " <My imagery qgis>`."
+#~ msgstr ""
+
+#~ msgid "1.1. Select AOI"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The user can draw the area using"
+#~ " *Draw rectange* / *Draw polygon* "
+#~ "tool or upload it in GeoJSON "
+#~ "format (draw and upload, as well "
+#~ "as view the data structure, follow "
+#~ "this link - `geojson.io "
+#~ "<http://geojson.io/>`_)."
+#~ msgstr ""
+
+#~ msgid "1.2 Upload GeoTIFF"
+#~ msgstr ""
+
+#~ msgid "Historical data (Imagery Search)"
+#~ msgstr ""
+
+#~ msgid "Layer Switching & Legend in Mapflow Viewer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can switch the layers to "
+#~ "preview on the map. Click the "
+#~ "\"sandwitch\" (☰) button on the top "
+#~ "right corner of the map and extend"
+#~ " the dialogue with the map legend."
+#~ msgstr ""
+
+#~ msgid "Download GeoJSON."
+#~ msgstr "Скачать GeoJSON."
+
+#~ msgid ""
+#~ "\"Open with geojson.io\" - view the "
+#~ "results in the browser using `geojson.io"
+#~ " "
+#~ "<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_."
+#~ msgstr ""
+#~ "\"Открыть в geojson.io\" - посмотрите "
+#~ "результаты в браузере с помощью "
+#~ "`geojson.io "
+#~ "<http://geojson.io/#data=data:application/json,%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%20%5B%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.949815087874605%20%5D%2C%20%5B%2037.543082024840288%2C%2055.923029653520395%20%5D%2C%20%5B%2037.490057513654946%2C%2055.923029653520395%20%5D%20%5D%20%5D%7D>`_."
+
+#~ msgid ""
+#~ "The geosjon.io app allows you to "
+#~ "save the results in a different "
+#~ "GIS-compatible format (CSV, KML, TopoJSON,"
+#~ " WKT, Shapefile). Just click \"Save\" "
+#~ "and select the format of your "
+#~ "preference in the menu bar."
+#~ msgstr ""
+#~ "Приложение geosjon.io позволяет сохранять "
+#~ "результаты в другом формате, совместимом "
+#~ "с ГИС (CSV, KML, TopoJSON, WKT, "
+#~ "Shapefile). Просто нажмите «Сохранить» и "
+#~ "выберите формат, который вы предпочитаете, "
+#~ "в строке меню."
+
+#~ msgid ""
+#~ "\"Open with `kepler.gl "
+#~ "<https://kepler.geoalert.io/>`_\" - view the "
+#~ "results using this embedded app. It "
+#~ "is a simple but powerful tool for"
+#~ " geospatial data visualization and "
+#~ "analysis."
+#~ msgstr ""
+#~ "\"Открыть в `kepler.gl "
+#~ "<https://kepler.geoalert.io/>`_\" - просмотрите "
+#~ "результаты с помощью этого встроенного "
+#~ "приложения. Это простой, но мощный "
+#~ "инструмент для визуализации и анализа "
+#~ "геопространственных данных."
+
+#~ msgid ""
+#~ "You can find detailed information about"
+#~ " Kepler.gl in their `user manual "
+#~ "<https://docs.kepler.gl/docs/user-guides/j-get-started>`_."
+#~ msgstr ""
+#~ "Вы можете найти подробную информацию о"
+#~ " Kepler.gl в их `руководстве пользователя"
+#~ " <https://docs.kepler.gl/docs/user-guides/j-get-"
+#~ "started>`_."
 

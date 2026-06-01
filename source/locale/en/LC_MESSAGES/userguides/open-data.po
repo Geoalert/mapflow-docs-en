@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/open-data.rst:2 5be42f95f69b4b2394205327b9d5ecc9
+msgid "Download Open Data"
+msgstr ""
+
+#: ../userguides/open-data.rst:4 dd74e28321ae4a2da6b1456d9fc812e0
+msgid ""
+"In Mapflow, you can download open mapping data from OpenStreetMap and "
+"Overture Maps. This pipeline **does not use any AI model**. It is "
+"designed to support your mapping projects with community-maintained open "
+"data."
+msgstr ""
+
+#: ../userguides/open-data.rst:7 dc8a7b8093544085a495d6fa78d9ec94
+msgid "Select one or more semantic classes and run the workflow."
+msgstr ""
+
+#: ../userguides/open-data.rst:9 aadb95e31a50457da76052db7d58593a
+msgid "**Run the pipeline**"
+msgstr ""
+
+#: 41a75f3d14444e56a37adfa9e439a737 abbcbc8a5d684e44b3675d01118a2315
+msgid "Example result of the Open Data pipeline"
+msgstr ""
+
+#: ../userguides/open-data.rst:17 ede15de5f0124f84a86ca56121554b3c
+msgid "**Get the results and the image preview (in Web app or QGIS project)**"
+msgstr ""
+
+#: ../userguides/open-data.rst:26 05f87c412fa2435b8e898a2edcfe7b3c
+msgid ""
+"Results depend on the availability and completeness of open mapping data "
+"in your area of interest. You can use it alongside AI-mapping results as "
+"a complementary source."
+msgstr ""
+
+#: ../userguides/open-data.rst:29 8a8a40b509194c2090ad600bd2c3d431
+msgid ""
+"You have to select an image source the same way as for AI-mapping "
+"pipelines. Note that the results may not be well aligned with the image, "
+"because the data comes from an external open data source. The image is "
+"provided only for visual reference, so you can decide whether you need to"
+" apply edits or run a Mapflow model to complement the results."
+msgstr ""
+

@@ -8,9 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -20,163 +19,696 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/my_imagery.rst:4 772932c8bf5a4c36a7c449e7311b6f0b
-msgid "My imagery"
+#: ../../source/userguides/my_imagery.rst:4 6bc3e1f799df428b99f99fba0948a042
+msgid "My Imagery & Data Providers"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:7 cea8a0fcbbdf4fc688db0cd11c6f9cf0
+#: ../../source/userguides/my_imagery.rst:7 749467e0382c4efba4a3226ee1a504b3
 msgid "In general there are four ways to use aerial or satellite data in Mapflow:"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:9 7480f839d0824da1a0d97bdd91299912
-msgid ""
+#: ../../source/userguides/my_imagery.rst:9 6f127730f9c54734a1796fbc6fb9d34a
+msgstr "Мои снимки и поставщики данных"
 "**My imagery** – upload your own images to the Mapflow platform and use "
 "them for processing with Mapflow models."
 msgstr ""
-
-#: ../userguides/my_imagery.rst:10 20f3c42aa59847748972cfd769fbeeeb
+msgstr "В Mapflow есть четыре основных способа использовать аэро- и спутниковые данные:"
+#: ../../source/userguides/my_imagery.rst:10 50faaf58db634779865543f6d8ba9bbf
 msgid ""
 "**Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox,"
-" ArcGIS, etc., are enabled in Mapflow for the instant . You can use them "
+" ArcGIS, etc., are enabled in Mapflow for instant use. You can use them "
 "with default models."
 msgstr ""
+"**My imagery** — загружайте собственные изображения на платформу Mapflow и "
+"используйте их для обработки с помощью моделей Mapflow."
 
-#: ../userguides/my_imagery.rst:11 260a762a0e9b4f49ab83f3553c962f92
+#: ../../source/userguides/my_imagery.rst:11 1d7a3221110341cf9d2b1291879a31db
 msgid ""
 "**Custom URL** – you can set your own XYZ or TMS layers, including "
 "commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar "
-"Securewatch>`, Google, etc. This is available in Mapflow Web, API and "
-"QGIS plugin."
+"Securewatch>`, etc. This is available in Mapflow Web, API and QGIS "
+msgstr ""
+"**Базовые подложки снимков** — внешние :ref:`imagery providers`, такие как "
+"Mapbox, ArcGIS и другие, уже подключены в Mapflow и готовы к немедленному "
+"использованию. Их можно применять с моделями по умолчанию."
 msgstr ""
 
-#: ../userguides/my_imagery.rst:12 1f9749d0a3b7438a97085817023f8982
+#: ../../source/userguides/my_imagery.rst:12 a4004d824c314ecaa0303af98ae3066c
 msgid ""
-"**Imagery Search** – search for the historical imagery in Mapflow Web and"
-" QGIS plugin and place you order to get the images from our partners.  "
-"(*under development*)"
+"**Imagery Search** – search for the historical commercial imagery in "
+"Mapflow Web and QGIS plugin and place your order to get the images from "
+"our partners."
 msgstr ""
+"**Пользовательский URL** — вы можете подключить собственные слои XYZ или "
+"TMS, включая коммерческие, например :ref:`Nearmap <Nearmap_>`, :ref:`Maxar "
+"<Maxar Securewatch>` и другие. Это доступно в Mapflow Web, API и плагине "
+"QGIS."
 
-#: ../userguides/my_imagery.rst:15 73cd83d3246f49069c968cfca45f7dde
+#: ../../source/userguides/my_imagery.rst:15 d7f7251f3d124f838d75e8f2ffcc5789
 msgid ""
-"❗️ Currently, you can use *My imagery* in :ref:`Maplfow QGIS plugin <My "
-"imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web "
-"implementation is in progress."
+"❗️ Currently, you can use the tool called *My imagery* in :ref:`Mapflow "
+"QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery "
+"Web implementation is in progress."
+msgstr ""
+"**Поиск снимков** — ищите исторические коммерческие снимки в Mapflow Web и "
+"плагине QGIS, а затем оформляйте заказ, чтобы получить изображения от наших "
+"партнеров."
+
+#: ../../source/userguides/my_imagery.rst:19 f8072dfa613b40e0bc195bfe7c6c3cb4
+msgid "\"My imagery\" in QGIS"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:19 766feb25d32a4e4a9b82bd08f9153972
-msgid "My imagery in QGIS"
+#: ../../source/userguides/my_imagery.rst:21 cde9e3f4be6c482bbb4abcae3db570dd
 msgstr ""
-
-#: ../userguides/my_imagery.rst:21 2a0ed33eaac04b7694f3f93b49d8adde
-msgid ""
+"❗️ Сейчас инструмент *My imagery* доступен в :ref:`плагине Mapflow QGIS "
+"<My imagery qgis>` и :ref:`API <Data API>`. Веб-версия My Imagery пока в "
+"разработке."
 "\"My imagery\" allows you to collect images in separate *Imagery "
 "collections*. Using this service, users can easily manage their data "
 "collections, reuse images for the next processings and analysis with "
-"Mapflow models."
+msgstr "\"My imagery\" в QGIS"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:33 3cb5980dcf484365a8dd66e3c2acb1b9
+#: ../../source/userguides/my_imagery.rst:33 994db88124964476951d44cf416fbd63
 msgid "Basic usage:"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:31 d86a3dc7f7ef4fbaadc030d7a231c471
-msgid ""
+#: ../../source/userguides/my_imagery.rst:31 d3c2bea217544069bfdfddafbc88539b
+msgstr ""
+"\"My imagery\" позволяет собирать изображения в отдельные *коллекции "
+"снимков*. С помощью этого сервиса пользователи могут удобно управлять "
+"своими наборами данных, повторно использовать изображения в следующих "
+"обработках и анализе с помощью моделей Mapflow."
 "Processing of multiple images at one time. If you are experiencing the "
 "processing of multiple images in one area, this tool will be helpful."
 msgstr ""
-
-#: ../userguides/my_imagery.rst:32 4e071c10b5dd478c8d5902f774a24722
+msgstr "Основные возможности:"
+#: ../../source/userguides/my_imagery.rst:32 fb58a0039e7d40cd9dd7d9232916a969
 msgid "Reusing of the uploaded images for the next processings"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:33 61f76a435de740b5930a08f81e156886
-msgid ""
+#: ../../source/userguides/my_imagery.rst:33 af61ffa814b2457a809973b8da93b018
+msgstr "Одновременная обработка нескольких изображений. Если вы работаете с несколькими изображениями в одной области, этот инструмент будет полезен."
 "Adding tags to the imagery collections to make them searchable in the "
 "Mapflow projects"
 msgstr ""
-
-#: ../userguides/my_imagery.rst:39 cfed7bca6a4941a3a43a36f1720f81ed
+msgstr "Повторное использование загруженных изображений в следующих обработках"
+#: ../../source/userguides/my_imagery.rst:39 73a339c61ea74ebb83fae9192551dea8
 msgid "The basic scenario of working with \"My imagery\" service is as follows:"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:36 99c8bed4c03049d4bbf9ef6f24bb6b7b
-msgid "You are creating a Imagery collection (a set of images)"
+#: ../../source/userguides/my_imagery.rst:36 582789d8bae04d3481bc318f00ffed50
+msgstr "Добавление тегов к коллекциям снимков, чтобы их можно было находить в проектах Mapflow"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:37 d3600a72a61d4ab083f5fb0fd778bd79
+#: ../../source/userguides/my_imagery.rst:37 6bacf6234862444b8a835eaf0b71d214
 msgid "Optionally add tags to identify the collection"
-msgstr ""
+msgstr "Базовый сценарий работы с сервисом \"My imagery\" выглядит так:"
 
-#: ../userguides/my_imagery.rst:38 cabbd840baba4e04a6064a2816227cdc
+#: ../../source/userguides/my_imagery.rst:38 ddc6fc8ca104456c927a4a88dca8f08e
 msgid "Upload your images to the collection"
-msgstr ""
+msgstr "Вы создаете коллекцию снимков (набор изображений)"
 
-#: ../userguides/my_imagery.rst:39 a7930f1446714e099fd99372420876dd
+#: ../../source/userguides/my_imagery.rst:39 a3aa1d9279ed4ef1ac1f49e5a5424680
 msgid ""
-"Start processing with Mapflow using the whole Imagery collection or the "
+msgstr "При необходимости добавьте теги для идентификации коллекции"
 "specific image. With both methods, you can limit the processing area by "
 "applying an AOI."
 msgstr ""
-
-#: ../userguides/my_imagery.rst:42 60e2abad12d94ebd80086634c23782b5
+msgstr "Загрузите изображения в коллекцию"
+#: ../../source/userguides/my_imagery.rst:42 ad3728e7f5094f6b95a0a0cc59655e40
 msgid ""
-"There are two main **restrictions on uploading images** in the free plan "
-"- the image should be no more than *1 GB* and no more than *30,000 "
-"pixels* by the side. We have no other restrictions on uploading to the "
-"collection, but it is important that each uploaded image has the SAME "
-"parameters as the rest of the images in the collection (pixel size, "
-"number of bands, georeference). For example, two images with pixel sizes "
-"of 10 cm and 1 m cannot be added to the same Imagery collection."
+"Main image upload restrictions and limits are listed in "
+":ref:`Requirements for using the platform <Upload restrictions>`."
 msgstr ""
 
-#: ../userguides/my_imagery.rst:45 3feb20ae41f84da59b3737cb8b08521e
+msgstr ""
+"Запустите обработку в Mapflow, используя всю коллекцию снимков или "
+"отдельное изображение. В обоих случаях можно ограничить область обработки, "
+"задав AOI."
 msgid ""
-"Read how to use it in detail in :ref:`Maplfow QGIS plugin <My imagery "
+"Read how to use it in detail in :ref:`Mapflow QGIS plugin <My imagery "
 "qgis>`."
 msgstr ""
 
-#: ../userguides/my_imagery.rst:49 b5be560cb29f433b9797686ea7788e6c
-msgid "My imagery Web"
+msgstr ""
+"Основные ограничения и лимиты на загрузку изображений перечислены в "
+":ref:`Requirements for using the platform <Upload restrictions>`."
+msgid "\"My imagery\" Web"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:52 1f1d57f9d85d49ada709033d5a79b2e5
+#: ../../source/userguides/my_imagery.rst:52 0613deea7104469fbeb03e069d783b5f
 msgid ""
-"❗️The Web app implementation is in progress. But now you can already view"
+msgstr ""
+"Подробнее о работе с ним см. в :ref:`плагине Mapflow QGIS <My imagery qgis>`."
 " the list of your image collections and, if necessary, delete unused "
 "ones."
 msgstr ""
-
-#: ../userguides/my_imagery.rst:54 4238de01aad4494799fce03fd8ff74db
-#: 6483519bd2cc437caf98f1a7f212a55e
+msgstr "\"My imagery\" в веб-версии"
+#: ../../source/userguides/my_imagery.rst:54 71020393a1cc44a0ac302ddbee5682e1
+#: f1085e49273f4dd3a9a7017af9c8c94b
 msgid "preview"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:57 4bc826742c2540008f364dc9da3dbac9
-#: e6c8f3a732b4469eae92ba5bef184242
+#: ../../source/userguides/my_imagery.rst:57 6d5667927eba4efcbd3786177816b2c9
+msgstr ""
+"❗️ Веб-приложение пока в разработке. Но уже сейчас вы можете просматривать "
+"список своих коллекций изображений и при необходимости удалять ненужные."
 msgid "delete"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:60 68143b67315347a59ed5f3043c5b7f04
-#: 867875e780ef4b86aec4de4279393d17
+#: ../../source/userguides/my_imagery.rst:60 47f80282397b48a199fb5aafd6d30320
+msgstr "предпросмотр"
 msgid "more"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:63 3e36f92bc3ac4b138debac3c8a386e87
-msgid ""
+#: ../../source/userguides/my_imagery.rst:63 e16520999ad8452bbd87ab063d041213
+msgstr "удалить"
 "By default, Mapflow provides a free 1 Gb storage for all new users to "
 "upload and process data. If the memory limit is running out (*Memory "
 "free* at the bottom of the page), you can either extend your limit by "
 "switching to one of the `Premium plans <https://mapflow.ai/pricing>`_ or "
-"delete the unused data using this page. After viewing the information "
+msgstr "ещё"
 "about the collection and previewing its images (|preview|), you can "
 "delete one collection at a time (|delete|) or several at once via "
 "multiselect ((|more|) -> \"Delete selected mosaics\")."
 msgstr ""
 
-#: ../userguides/my_imagery.rst:73 3ceae3e9c6bf4bcb945ea3bdbc558edd
+#: ../../source/userguides/my_imagery.rst:73 b3c3525d5cba49a2ae4032845bce4129
 msgid ""
 "Please note that the table lists all your previously uploaded images as "
 "separate collections, each with a unique UUID."
+msgstr ""
+
+msgstr ""
+"По умолчанию Mapflow предоставляет новым пользователям 1 ГБ бесплатного "
+"хранилища для загрузки и обработки данных. Если лимит памяти подходит к "
+"концу (*Memory free* внизу страницы), вы можете либо увеличить его, перейдя "
+"на один из `Premium plans <https://mapflow.ai/pricing>`_, либо удалить "
+"неиспользуемые данные на этой странице. После просмотра информации о "
+"коллекции и предпросмотра ее изображений (|preview|) вы можете удалить "
+"одну коллекцию за раз (|delete|) или сразу несколько через режим "
+"множественного выбора ((|more|) -> \"Delete selected mosaics\")."
+#: c1fc2f8b596348f496213bdea8847ed1
+msgid "🔍 Imagery search and ordering"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:6
+msgstr "Обратите внимание: в таблице перечислены все ранее загруженные изображения как отдельные коллекции, каждая со своим уникальным UUID."
+msgid ""
+"\"Imagery search\" allows Mapflow users to search for available satellite"
+" imagery over their area of analysis. It's powered by Mapflow API "
+"providing access to the global satellite data providers through our "
+"partner integrations."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:10
+#: c7d11446f24d462da91336659b79d022
+msgid "Imagery providers available for the search and (NEW!) ordering:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:10
+#: 312f6353b3454c02b81e87f262761377
+msgid ""
+"Historical imagery (aggregates and provides satellite imagery from the "
+"leading satellite operators)"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:14
+#: 3f276d58c1324e50931a73d49842da8c
+msgid "Imagery providers supported for the account-based integration and search:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:13
+#: 5ec8cfec6f1c4b81bfacc272e4429b13
+msgid "ArcGIS World Imagery"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:14
+#: 74369b3abd4c4eeea85464b5024b8ac5
+msgid ":ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:17
+#: b049597ec195482ca3ad0bf665ef5515
+msgid "Read more about how to use :ref:`Imagery providers` with Mapflow."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:20
+#: f519434d7b6c40568ecfe4c1a9a6352c
+msgid ""
+"❗️ You need to subscribe to `Mapflow Premium "
+"<https://mapflow.ai/pricing>`_ to be able to order commercial data "
+"providers and run the analysis."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:25
+#: 4fffd4ad2610405e8a4b8a332bde60bb
+msgid "Using Imagery Search in Mapflow WEB"
+msgstr ""
+
+#: 478f0edb54974a43971432b95d8c03f6
+msgid "Imagery search tab"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:35
+#: cd3c616135b2495e9f38b6b62aff1f77
+msgid "To start the processing using the Imagery Search data, you must:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:37
+#: d79d0fbf116246ae98a83879240a12d9
+msgid "Select a date range or a specific date;"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:38
+#: 0d319e4312884fafae20536a4cc44775
+msgid "Set the search parameters (Clouds, Off-Nadir, AOI/Scene intersection);"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:39
+#: d48ab5984cb04eb7924c25bdcfda99a6
+msgid "Apply provider filters:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:41
+#: 6244c5cf6b3a4eeeb5f05ce5b18c84cc
+msgid "\"Mosaic\""
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:42
+#: 12676b7fbaeb4736b9c3774643318604
+msgid "\"Image\""
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:43
+#: 5044adde01974601ad8b7725a3853c83
+msgid ""
+"\"Available for me\" - The search results will show only those providers "
+"that are connected to your account."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:45
+#: dc9e01a248cf4d019baa62c205ced1e6
+msgid "Imagery provider types:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:47
+#: 9c5f5a2a549b406da2d32f8f6b80d270
+msgid ""
+"*Mosaic* - Imagery basemaps like ArcGIS or Global mosaic allowing to "
+"search images by date and AOI/Scene intersection."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:49
+#: 9fddc31989f043d9923f298a74c0b4fb
+msgid ""
+"*Image* - Satellite imagery archives allowing to search for historical "
+"images by multiple criteria including Clouds, Off-Nadir, and resolution."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:51
+#: 778516819362420081fc0177ded8f700
+msgid ""
+"👉 *Available for me*  - Filters the results by the providers that are "
+"connected to your account to run the analysis with Mapflow."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:53
+#: 335116142c2c4e068188a5245dcea06f
+msgid ""
+"After clicking \"Search Image\", a table with search results and images "
+"footprints will appear:"
+msgstr ""
+
+#: f752cd67e6b0492b90af4032ca694929
+msgid "Imagery search results"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:63
+#: 77261c3ef8b546e882c53809e32a011d
+msgid ""
+"You can sort, enable or disable images on the map, and preview them if "
+"the provider supports this feature (The preview will be automatically "
+"shown on the map after selecting the image in the table);"
+msgstr ""
+
+#: 7d2d2fc4a75342c9af9ff7dc24fbd245
+msgid "Search table"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:73
+#: 4639281650864bda9efe23a41d913789
+msgid ""
+"At the final step, you need to select the desired image by clicking on it"
+" in the table and click \"Save\". Now you are ready to start processing!"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:76
+#: cf7750732c4a475aba8cab9af34e9012
+msgid ""
+"👆️️️️️️ You are able to start the processing only using available "
+"providers (**\"available for me\"**). If you try to use the image from "
+"the provider that is not connected to your account, you will see the "
+"corresponding warning *\"The provider is not available for your account, "
+"you need to change the plan\"*. You need to subscribe to Mapflow Premium "
+"to be able to order commercial data providers."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:82
+#: 611ed1cc93c14a67925f4543516f299f
+msgid "NEW! Scheduled Search updates"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:84
+#: 8632806a891245a1a688582616b7c3ba
+msgid ""
+"If you are not satisfied with the current search results or you want to "
+"get new images updates without repeating the search manually, this "
+"service will do the job."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:87
+#: 6e528bfcefbb4043ab2cd0edbe22e1ec
+msgid "How to create a scheduled search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:89
+#: cdc5d5c8e16c4f98a8ca8c30367eab11
+msgid ""
+"Draw or upload the areas of interest from the GeoJSON file, select all or"
+" only the necessary ones in the table. If your GeoJSON features contain "
+"the property \"name\", the AOI names will be automatically loaded into "
+"the table. You can also manually assign the aoi name in the edit mode "
+"(the \"Edit\" button in the AOI menu)."
+msgstr ""
+
+#: 1dbc0df4e6394a5c8566751aef959f91
+msgid "AOI selection"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:100
+#: d9a84757d1114be68a7bfa9f2bb2135e
+msgid ""
+"The AOI name you assign will appear in notifications about new images "
+"found for this area. To go directly to the results for this area, simply "
+"click on the notification in the app or the \"View Search results\" "
+"button in the email."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst 28b5a8bc065642d3a8257f309e35ed69
+#: 60d2c2d0e940485aafdbe12cbc7e39a6 77aed3fa47a5491d96acfca7d247ce3f
+#: 9798c040920d47dca4d7e70a650927d9 fd28c383aa0e4e3b9ff3897908d63b62
+msgid "Search menu"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:109
+#: 76fa9f9be4e64fe8bcc5921a244159f1
+msgid "Set the required search criteria and click \"Search Imagery\""
+msgstr ""
+
+#: af9c5425d530435b9ffec8a3ef39b5df
+msgid "Search params"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:120
+#: 942eef553f0149fbb8b5b8d205779887
+msgid ""
+"If the total area of your search area exceeds 700 km², when you click on "
+"\"Search Imagery\" instead of an immediate search, you will be prompted "
+"to create a postponed background search."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:127
+#: a836f754dba348ef9de5aa2f5bf10266
+msgid ""
+"After that, the search results will appear and the \"Save as schedule\" "
+"button will be available"
+msgstr ""
+
+#: 0d41dd03a4064fc38d052e1a3e40dae9
+msgid "Search save button"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:137
+#: 6611ab916126452ab1a117d91f7f04d5
+msgid ""
+"When you click on it, you will be prompted to choose the name of this "
+"search schedule"
+msgstr ""
+
+#: 3e2b1b41c9844db8b5dd6cc0ee7d6a60
+msgid "Search schedule button"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:147
+#: 91b4397512c7450887c63c8bd1f6d9ae
+msgid ""
+"After creation the search will complete after a while and the search "
+"results will be available to you using \"View on the map\" button"
+msgstr ""
+
+#: 6143dc441f2942bf99a24d1ebef69750
+msgid "Search view button"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:158
+#: e4dbd5cc68c84bd7958abf2fa523abbe
+msgid "Viewing background search results"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:160
+#: 135ad1e350c649e1a146f9d81ef19318 451ea5db74ed4a4e997ad3abbd657f9f
+msgid "alert"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:165
+#: 1afb799fdc554dd2bba600708f78bf8b
+msgid ""
+"Now a background search will be launched in Mapflow and you will be "
+"notified when new images arrive."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:173
+#: 0246d99b61534faa9dfd42f1c5efe539
+msgid "Search new images"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:173
+#: 5f1feb030e554a858d2ebccf41d1ed26
+msgid ""
+"The search card shows the label |alert| of the **new image** found. "
+"Clicking on an image in the results table will remove the label."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:176
+#: 5666c5e25a6241cba036571d285bfa59
+msgid "**Two key points on viewing results:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:178
+#: 514796d094534df3bc6ce2fe2d7af60d
+msgid ""
+"When opening the search, you will see **all** results found for the given"
+" area(s)"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:179
+#: 517e63efc212465a951e50eaf6a46379
+msgid ""
+"If your search consists of multiple AOIs and you're interested in "
+"specific ones, you can select them in the \"Upload GeoJSON or GeoTIFF "
+"file...\" section → Now results will only be displayed for the selected "
+"AOIs. Also, you can select/deselect AOI by clicking on the map, the "
+"results table will be updated automatically."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:183
+#: 2e914509497a495ca839714adb93418f
+msgid "Processings <> Scheduled Search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:185
+#: b0c426b27d4043ceb75fd76ddb047008
+msgid ""
+"Processing is launched in the same way as from :ref:`instant search "
+"<imagery-search-web>`:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:187
+#: 8a00879b966a4276a58248fd11a9ff0f
+msgid "Open a scheduled search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:188
+#: d18a722649074c72b129f4e59bb0be69
+msgid "Select the desired image and click \"Save\""
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:189
+#: 7cee0588131448d49b5829cf85264f58
+msgid "Select the necessary parameters and start the processing!"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:191
+#: 5d0fa9ee031341c38d550447cc90426d
+msgid ""
+"All processing launched from a search is linked to it. You can find them "
+"in the search's AOI table. Simply select the necessary ones on the map, "
+"and they will all be displayed on one map."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:201
+#: 7261c8bfcb7843bb94b350bd50dac51d
+msgid "Some actions you can perform with processing from the search AOI table:"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:203
+#: 7332b522b04c484d90ad658904f75f65
+msgid "Open this processing in a new tab"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:204
+#: 3df5e948c46b4ad2953b3ab766c0a1fe
+msgid "Download processing boundaries"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:205
+#: 43100575233b4358906083d507f6c1e3
+msgid ""
+"Clip the search AOI to the boundary of its processing (\"Stop this area\""
+" button)"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:207
+#: 035da116fbc34b559c43e7add5c063ab
+msgid ""
+"Last one can be useful if you are already satisfied with the processed "
+"part of the AOI and do not want to see it in the search results (the "
+"trimmed part will no longer be used in the background search)."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:219
+#: c6385d59921e44f9a375ceaa2d8e88eb
+msgid "Main operations with Scheduled Search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:229
+#: d2f59e5779c34d5abbc23a73c19f708d
+msgid ""
+"**Source details** - Here you can view and download the geometry of your "
+"search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:230
+#: d3ff5bc1d49549ca8dfe451d23b71369
+msgid ""
+"**Mark all as seen** - If you have a lot of unread images, you can mark "
+"them as viewed all at once"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:231
+#: 9de74b3ce97640759a63f3768bf2a71c
+msgid ""
+"**Set Active Until** - You can change the lifetime of the background "
+"search (6 months by default at creation)"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:239
+#: 0d8d88548e8047c39b8078eea9533390
+msgid "Search Active Until"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:239
+#: 0ae2b2c345644ad59f2b6185c160c91f
+msgid "After expired, the Search will not be deleted, but paused"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:241
+#: 4ba6d8de7fad448da320edac58acc8e9
+msgid ""
+"**Pause/Resume Search** - The pause means that it will stop the "
+"background search, but you can still view its results"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:242
+#: 9245978938374cf8ab500ba9e4410687
+msgid "**Delete** - Permanently deletes the search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:245
+#: 6e5b540253cb4590aead120f4276934f
+msgid "Modifying the AOI search"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:247
+#: 06050ad4c40442209f3ac3963c664609
+msgid ""
+"You can add a new AOI to an existing search, modify the geometry, or "
+"delete areas that have already been processed. After any AOI changes, you"
+" will need to confirm these changes. The search will be updated, and the "
+"**results will be synchronized** accordingly."
+msgstr ""
+
+#: 778bba647e3c49f2b9e3551fb529451f
+msgid "Update template"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:257
+#: 4d5fa1464af54a88aa614dd1a282e9db
+msgid "**You can also change the search criteria for the existing search:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:259
+#: edc2ed2d4b5c46539f1297ea12560b44
+msgid ""
+"\"View on the map\" → Adjust the search parameters → \"Search Imagery\" →"
+" \"Save as schedule\". Now the background search will work according to "
+"the new parameters."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:270
+#: 0e1cd010b3fb4e19941fd292f364f886
+msgid "Using Mapflow Imagery Search in QGIS"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:272
+#: beb2801ebc0244058db6c79d32c1679a
+msgid ""
+"Switch to the tab \"Imagery Search\". To start the search, set the dates "
+"and the product type filters (\"Mosaic\" – Imagery basemaps like ArcGIS "
+"or Global mosaic and/or \"Images\" - Satellite imagery archives)"
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:273
+#: 6b3c61b5f88a4cb0bd286b719e0ba1fb
+msgid ""
+"Set additional filters like a minimum intersection with your area of "
+"analysis."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:274
+#: ba9e87331e3a4d828b54dae7776e3904
+msgid ""
+"If there is non-empty response, it will add the **🔎 Imagery Search "
+"metadata** layer to your QGIS project. You can select one or multiple "
+"results in the table - or use the layer's attribute table to start the "
+"analysis and processing with Mapflow models."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:283
+#: d6e2d4100d8440dc8b1fd1ad910830ab
+msgid ""
+"In the Arcgis search results you see the zoom level at which the mosaic "
+"is available over you area. You can configure the table columns in the "
+"Settings."
+msgstr ""
+
+#: ../../source/userguides/imagery_search.rst:293
+#: 442afbd4ab0e492d9caf581b92759379
+msgid ""
+"👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery "
+"Search in Mapflow Web and QGIS plugin."
 msgstr ""
 
 #~ msgid ""
@@ -195,5 +727,74 @@ msgstr ""
 #~ "with pixel sizes of 10 cm and "
 #~ "1 m cannot be added to the "
 #~ "same Imagery collection."
+#~ msgstr ""
+
+#~ msgid "My imagery"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Imagery basemaps** – external :ref:`imagery"
+#~ " providers`, such as Mapbox, ArcGIS, "
+#~ "etc., are enabled in Mapflow for "
+#~ "the instant . You can use them "
+#~ "with default models."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Custom URL** – you can set your"
+#~ " own XYZ or TMS layers, including "
+#~ "commercial ones like :ref:`Nearmap "
+#~ "<Nearmap_>`, :ref:`Maxar <Maxar Securewatch>`, "
+#~ "Google, etc. This is available in "
+#~ "Mapflow Web, API and QGIS plugin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Imagery Search** – search for the "
+#~ "historical imagery in Mapflow Web and"
+#~ " QGIS plugin and place you order "
+#~ "to get the images from our "
+#~ "partners.  (*under development*)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "❗️ Currently, you can use *My "
+#~ "imagery* in :ref:`Maplfow QGIS plugin "
+#~ "<My imagery qgis>` and :ref:`API <Data"
+#~ " API>`. The My Imagery Web "
+#~ "implementation is in progress."
+#~ msgstr ""
+
+#~ msgid "My imagery in QGIS"
+#~ msgstr ""
+
+#~ msgid "You are creating a Imagery collection (a set of images)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are two main **restrictions on "
+#~ "uploading images** in the free plan "
+#~ "- the image should be no more "
+#~ "than *1 GB* and no more than "
+#~ "*30,000 pixels* by the side. We "
+#~ "have no other restrictions on uploading"
+#~ " to the collection, but it is "
+#~ "important that each uploaded image has"
+#~ " the SAME parameters as the rest "
+#~ "of the images in the collection "
+#~ "(pixel size, number of bands, "
+#~ "georeference). For example, two images "
+#~ "with pixel sizes of 10 cm and "
+#~ "1 m cannot be added to the "
+#~ "same Imagery collection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Read how to use it in detail "
+#~ "in :ref:`Maplfow QGIS plugin <My imagery"
+#~ " qgis>`."
+#~ msgstr ""
+
+#~ msgid "My imagery Web"
 #~ msgstr ""
 

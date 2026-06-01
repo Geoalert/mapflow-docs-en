@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: 2024-10-04 15:45+0700\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -20,28 +20,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/howto.rst:4 68e0ff8f61c34c4fb8dc373ddb96381d
+#: ../../source/userguides/howto.rst:4 4f2946654f23493f9d61f77810ac5ef6
 msgid "Userguides - How To 🙋‍♂️"
-msgstr ""
+msgstr "Руководства пользователя — Как это сделать 🙋‍♂️"
 
-#: ../userguides/howto.rst:9 665e1c72a78d4109a0b0247ea2de16fc
-#, fuzzy
+#: ../../source/userguides/howto.rst:9 e91a1e90c67343df8c8d41e1a1ba9468
 msgid "How to log in using OAuth2"
-msgstr "Как настроить вход через OAuth2"
+msgstr "Как войти через OAuth2"
 
-#: ../userguides/oauth2_setup.rst:1 b6b5052ff05b40819d63081c9a15edca
+#: ../../source/userguides/oauth2_setup.rst:1 cc6511bbfbee4d98be34b656da6b5668
 msgid "**1. Select the** ``Use OAuth2`` **option in the login window**"
 msgstr "**1. Выберите опцию** ``Использовать OAuth2`` **в окне входа**"
 
-#: b50c7fc37c5241548b7f58ed40acfd7a
+#: 7d58536f1449474cbf0ed21bc8c8ea09
 msgid "OAuth login window"
-msgstr ""
+msgstr "Окно входа OAuth"
 
-#: ../userguides/oauth2_setup.rst:11 35d06334e2c14d169323c973ae9c4649
+#: ../../source/userguides/oauth2_setup.rst:11 52e6942a7ddf4bf39747ba15b4e10bed
 msgid "**2. Set the master password**"
 msgstr "**2. Установите мастер-пароль**"
 
-#: ../userguides/oauth2_setup.rst:13 628fe4e618c44d45b4350c3a32cd4b8d
+#: ../../source/userguides/oauth2_setup.rst:13 48051919e4e14a489c5090658d32871e
 msgid ""
 "You will be prompted to set a new `master authentication password "
 "<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html"
@@ -53,11 +52,11 @@ msgstr ""
 "#master-password>`_ - функция qgis, которая обеспечивает безопасность "
 "хранения конфиденциальной информации."
 
-#: ../userguides/oauth2_setup.rst:22 53a8034bff114704afa6c321ec2f1017
+#: ../../source/userguides/oauth2_setup.rst:22 2f469115b05640aaafb139999de1b612
 msgid "**3. Click** ``Log in`` **button**"
 msgstr "**3. Нажмите** ``Войти``"
 
-#: ../userguides/oauth2_setup.rst:24 c21e36bcd5b04faab1547ca8f06ca04e
+#: ../../source/userguides/oauth2_setup.rst:24 8e7b6ad5c3d94c7fb367d35ddad7de0a
 msgid ""
 "You will receive the following message, **restart** QGIS before the next "
 "steps."
@@ -65,11 +64,11 @@ msgstr ""
 "Вы получите следующее сообщение, **перезапустите** QGIS перед выполнением"
 " следующих шагов."
 
-#: ../userguides/oauth2_setup.rst:33 e3bc44bb26a44732bac50ad2d2e12fbd
+#: ../../source/userguides/oauth2_setup.rst:33 16e823e961494c6081ac56dc37e55bbb
 msgid "**4. After restarting QGIS, click** ``Log in``"
 msgstr "**4. После перезапуска QGIS, нажмите** ``Войти``"
 
-#: ../userguides/oauth2_setup.rst:35 1e6ca85106ab4be5ad0511736b0b6c0d
+#: ../../source/userguides/oauth2_setup.rst:35 4de32001bd3e4d37b1f3ec664ebbffcd
 msgid ""
 "You will be redirected to the browser to log in/register in the mapflow "
 "system:"
@@ -77,7 +76,7 @@ msgstr ""
 "Вы будете перенаправлены в браузер для входа в систему/регистрации в "
 "системе mapflow:"
 
-#: ../userguides/oauth2_setup.rst:44 9430c3f798784a6b9bf32d70068cfe87
+#: ../../source/userguides/oauth2_setup.rst:44 e212a3c24f7b4d6b960d21eccef4a312
 msgid ""
 "After successfully logging in, you will receive a message about the "
 "successful verification of QGIS OAuth2:"
@@ -85,19 +84,19 @@ msgstr ""
 "После успешного входа в систему вы получите сообщение об успешной "
 "проверке QGIS OAuth2:"
 
-#: ../userguides/oauth2_setup.rst:53 5673cbd127e343d6bc22ea16a3de1fb1
+#: ../../source/userguides/oauth2_setup.rst:53 1f3fe84bf7a74235abb8057f110f5c13
 msgid "You can close this page"
 msgstr "Можете закрыть эту страницу"
 
-#: ../userguides/oauth2_setup.rst:55 18d33c49d69b4636a3254979feefb45a
+#: ../../source/userguides/oauth2_setup.rst:55 132199317abc4a05819b96e7ce3239bb
 msgid "**5. Go back to QGIS**"
 msgstr "**5. Вернитесь в QGIS**"
 
-#: ../userguides/oauth2_setup.rst:57 0106792083f04fed940898a92606921e
+#: ../../source/userguides/oauth2_setup.rst:57 00d281bebd854a199e1246b7a215ad2b
 msgid "OAuth login completed!"
 msgstr "Входе через OAuth завершен!"
 
-#: ../userguides/oauth2_setup.rst:60 2ac4bd525cfa48c2a1f18c90e5402160
+#: ../../source/userguides/oauth2_setup.rst:60 0adef55429b64486a2e6d7f93fde0244
 msgid ""
 "If you have problems with authorization, you can delete the current "
 "authentication config by going to ``Settings -> Options -> "
@@ -107,18 +106,15 @@ msgstr ""
 "конфигурацию аутентификации, перейдя в ``Настройки -> Параметры -> "
 "Аутентификация``, выберите конфигурацию и удалите ее:"
 
-#: ../userguides/qgis_plugin.rst:2 682597ddea574e50ac33250fbfd09fe8
+#: ../../source/userguides/qgis_plugin.rst:2 abecbe85acc2433d94d27a85bda76079
 msgid "How to use the Mapflow <> QGIS plugin"
 msgstr "Как пользоваться плагином Mapflow <> QGIS"
 
-#: ../userguides/qgis_plugin.rst:4 62aa401d84474138b6d9b373386275e7
-#, fuzzy
+#: ../../source/userguides/qgis_plugin.rst:4 2b08eac69dae4b20be3de0e1a2d88231
 msgid "**Object mapping in remote sensing images using Mapflow plugin for QGIS**"
-msgstr ""
-"**Автоматизированное выделение векторных объектов по данным ДЗЗ с помощью"
-" плагина Mapflow.ai для QGIS**"
+msgstr "**Картографирование объектов на снимках ДЗЗ с помощью плагина Mapflow для QGIS**"
 
-#: ../userguides/qgis_plugin.rst:6 ed700c73196a4870a532bbc287a3b894
+#: ../../source/userguides/qgis_plugin.rst:6 f23e6c63a417445ab28fd55fd239666f
 msgid ""
 "Interpretation and subsequent digitization of satellite imagery is a "
 "rather laborious process. The use of AI-based image recognition "
@@ -130,7 +126,7 @@ msgstr ""
 "помощью искусственного интеллекта ведет к снижению трудозатрат и "
 "повышению скорости обработки данных."
 
-#: ../userguides/qgis_plugin.rst:8 07779510081c4dac9b09b1d91783d3ff
+#: ../../source/userguides/qgis_plugin.rst:8 4c7db13608d24543ba3e809b65a4e761
 msgid ""
 "In the QGIS, the process of detecting objects of various types can be "
 "automated using the Mapflow plugin. To accomplish this, you can follow "
@@ -140,11 +136,11 @@ msgstr ""
 "вида может быть автоматизирован с помощью плагина Mapflow. Для этого "
 "необходимо осуществить нижеописанные шаги."
 
-#: ../userguides/qgis_plugin.rst:10 4c34a5b0f1b14fdcb5ccb9d8b9e026f5
+#: ../../source/userguides/qgis_plugin.rst:10 25febb92c66b4235920a0975687491d0
 msgid "**1. Installation of Mapflow plugin and logging in**"
 msgstr "**1. Установка плагина Mapflow для QGIS и авторизация**"
 
-#: ../userguides/qgis_plugin.rst:12 d6a1d31ec3e24bbe98e5c90f0996ace2
+#: ../../source/userguides/qgis_plugin.rst:12 4e592ef8c1934751b26d3a455fc06846
 msgid ""
 "First of all, you have to install the plugin in QGIS. To do this, go to "
 "the tab called Plugins -> Manage and Install Plugins, find Mapflow using "
@@ -155,7 +151,7 @@ msgstr ""
 "Plugins, найти Mapflow с помощью поисковой строки и нажать Install "
 "Plugin."
 
-#: ../userguides/qgis_plugin.rst:21 e8683238a26c4af1b15936e6e82f9777
+#: ../../source/userguides/qgis_plugin.rst:21 70b038b1c5554c1795e76e4fac855340
 msgid ""
 "After installation, the plugin icon will appear in the toolbar: "
 "|plugin_icon|. Clicking on it will open the authorization window, in "
@@ -165,12 +161,12 @@ msgstr ""
 "|plugin_icon|. Нажав на неё, откроем окно авторизации, в котором "
 "необходимо кликнуть на «Get token»."
 
-#: ../userguides/qgis_plugin.rst:23 81e8bc6b07bc48109cb9c1fdd6427879
-#: 9af326f1bb4e4480a11883b3b92bbce6
+#: ../../source/userguides/qgis_plugin.rst:23 1ee6c628d62840ffab436c7218e397a4
+#: 94ebae653f9f460f9d2dd2e5bc471e28
 msgid "plugin_icon"
-msgstr ""
+msgstr "plugin_icon"
 
-#: ../userguides/qgis_plugin.rst:33 d5b52396075a4e37a3ba49ca32596e5d
+#: ../../source/userguides/qgis_plugin.rst:33 8bf15fb4fec24aea92dedf703d2696f1
 msgid ""
 "A window will open in which you have to quickly and for free register on "
 "`Mapflow.ai <https://app.mapflow.ai/>`_. After that, by clicking on the "
@@ -180,7 +176,7 @@ msgstr ""
 "регистрацию на `Mapflow.ai <https://app.mapflow.ai/>`_. После чего, нажав"
 " на пользователя необходимо перейти в Настройки и выбрать вкладку API."
 
-#: ../userguides/qgis_plugin.rst:42 68771988e2ba43409fa914c4786c73fd
+#: ../../source/userguides/qgis_plugin.rst:42 775fa524c3b3402196c1551e8a7759b1
 msgid ""
 "By clicking on the \"Reset api token\" button, you will get access to the"
 " authorization key, which must be copied and saved, as well as pasted "
@@ -190,7 +186,7 @@ msgstr ""
 "авторизации, который необходимо скопировать и сохранить, а также вставить"
 " в окно авторизации в QGIS и нажать «Log in»."
 
-#: ../userguides/qgis_plugin.rst:44 1f1ba7989439427b8b464c88c1a3564c
+#: ../../source/userguides/qgis_plugin.rst:44 01802f67f5754635b21934f33f5c4c1e
 msgid ""
 "Another way to log in to the plugin is using Oauth2. By checking the "
 "appropriate option in the authorization window, you will need to set a "
@@ -200,7 +196,7 @@ msgstr ""
 "окне авторизации соответствующую опцию галочкой, необходимо будет "
 "установить мастер-пароль."
 
-#: ../userguides/qgis_plugin.rst:53 89f168cf2b594f60af0b1bc2e981bcfd
+#: ../../source/userguides/qgis_plugin.rst:53 1957c3379be7488f8ade9c0fb3d4a4b7
 msgid ""
 "Then, following the instructions, restart QGIS and click \"Log in\" "
 "again. This will redirect you to the browser, where the Mapflow "
@@ -212,7 +208,7 @@ msgstr ""
 " После успешного входа или регистрации откроется страница, уведомляющая "
 "об этом."
 
-#: ../userguides/qgis_plugin.rst:62 5fabd1a9b3ae42dc95c5340384290e1a
+#: ../../source/userguides/qgis_plugin.rst:62 2af35a3bbac1439d8ff328a52b78ad6d
 msgid ""
 "And in QGIS the main tab of the plugin will open, so you can proceed to "
 "the next steps."
@@ -220,12 +216,11 @@ msgstr ""
 "В QGIS откроется главное окно плагина – можно переходить к выполнению "
 "дальнейших шагов."
 
-#: ../userguides/qgis_plugin.rst:64 e2192b8a8b234cb28829e07512141519
-#, fuzzy
+#: ../../source/userguides/qgis_plugin.rst:64 cc9588c5f83549c7b34eb942aa5a5744
 msgid "**2. Object recognition using default data provider**"
-msgstr "**2. Распознавание объектов по подложке Mapbox**"
+msgstr "**2. Распознавание объектов с помощью провайдера данных по умолчанию**"
 
-#: ../userguides/qgis_plugin.rst:66 bd934a5da244448b95319ae0ebc0a347
+#: ../../source/userguides/qgis_plugin.rst:66 fe06be6a5a8c452885755daa2cefe6cc
 msgid ""
 "In order to start processing, first you must specify its name. Next, "
 "choose the area of interest by drawing it on the map / loading from a "
@@ -235,7 +230,7 @@ msgstr ""
 "название. Далее – выбрать территорию интереса, нарисовав ее на карте / "
 "подгрузив векторный слой с границами / взяв экстент карты."
 
-#: ../userguides/qgis_plugin.rst:75 983379e0b97d4ebb853d12f40644f13a
+#: ../../source/userguides/qgis_plugin.rst:75 e11c613bfab042d9b7dc37eb99c4afc0
 msgid ""
 "In the upper-left corner of the main QGIS window in the Browser panel, "
 "you can open the OpenStreetMap basemap and navigate around the map to "
@@ -245,7 +240,7 @@ msgstr ""
 "подложку OpenStreetMap и сориентироваться по карте, чтобы обозначить "
 "интересующую территорию."
 
-#: ../userguides/qgis_plugin.rst:84 e5719209e1674cfab22c03a2611a1ec8
+#: ../../source/userguides/qgis_plugin.rst:84 1a2b3d05fdd442c082ceed7691e7a943
 msgid ""
 "Let’s leave the remaining parameters as default: Mapbox data provider and"
 " a model for buildings classification. Then click \"Start processing\". A"
@@ -265,7 +260,7 @@ msgstr ""
 "выделенные по нему объекты: здания, автоматически классифицированные по "
 "типу (где красный – residential, фиолетовый - commercial)."
 
-#: ../userguides/qgis_plugin.rst:94 d963fd9e21cc4307a5381cf184c26dfd
+#: ../../source/userguides/qgis_plugin.rst:94 b6ad5af43e5a47d68d60b119e4db3884
 msgid ""
 "The resulting vector objects can be saved in GeoJSON format (by clicking "
 "on the additional options next to View results) and then used for "
@@ -276,11 +271,11 @@ msgstr ""
 "картографирования, анализа или наполнять дополнительной атрибутивной "
 "информацией."
 
-#: ../userguides/qgis_plugin.rst:103 c262a466a652409a96bcd2c9daaad43b
+#: ../../source/userguides/qgis_plugin.rst:103 053ab0c4623a46cf9990e90823a5b492
 msgid "**3. Object recognition using your own imagery**"
 msgstr "**3. Распознавание объектов по собственным изображениям**"
 
-#: ../userguides/qgis_plugin.rst:105 2622830fac4a477c9272b18d5a853f7d
+#: ../../source/userguides/qgis_plugin.rst:105 9f54f2730c4c466d9a7fbc3d43e6d3b3
 msgid ""
 "Previously, we looked at one of the simplest scenarios for working with "
 "the Mapflow plugin. However, its functionality is not limited to a single"
@@ -299,7 +294,7 @@ msgstr ""
 "«Data source» и запустить по нему обработку. Результат: границы лесов "
 "разных категорий, дифференцированных по высоте."
 
-#: ../userguides/qgis_plugin.rst:115 fbc1c677b040473ca3ef108622ec3e2f
+#: ../../source/userguides/qgis_plugin.rst:115 b4ffb0db6b334232bc390d812aaed1c0
 msgid ""
 "In this quick tutorial, we looked at the main options for detecting "
 "objects in remote sensing images with the help of the Mapflow plugin for "
@@ -315,11 +310,11 @@ msgstr ""
 " обзор возможностей плагина, а также различные варианты источников данных"
 " рассмотрены в документации :ref:`Mapflow <> QGIS`."
 
-#: ../userguides/howto.rst:57 24c6de11b3ea4d48bc154f16e2efe338
+#: ../../source/userguides/howto.rst:57 00b90dd3773c4a85b1e9bfc6932cebf9
 msgid "How to process your own UAV images with Mapflow"
-msgstr ""
+msgstr "Как обрабатывать собственные снимки БПЛА с помощью Mapflow"
 
-#: ../userguides/howto.rst:59 b676b76f650a46608b6a8b5d74d8d068
+#: ../../source/userguides/howto.rst:59 11f9965d3a9a4ca9aea6a6c6a8c002b0
 msgid ""
 "Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a"
 " deeply integrated part of the geomatic industry over the last ten years."
@@ -332,31 +327,31 @@ msgid ""
 " calculate their areas) with Mapflow QGIS or Mapflow Web?"
 msgstr ""
 
-#: ../userguides/howto.rst:62 e42f732aa604456db1375524b51179c3
+#: ../../source/userguides/howto.rst:62 47a8011954eb4c219423ffee7e83a1d7
 msgid ""
 "Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` "
 "model that extracts the detailed building outlines (the recommended image"
 " resolution is 10 cm)."
 msgstr ""
 
-#: ../userguides/howto.rst:65 bd41fb16c3164c5d93dab1c4f8ef7041
+#: ../../source/userguides/howto.rst:65 24e5af9df3f7437d87a39a86c687ca7f
 msgid "Upload images to Mapflow Web"
-msgstr ""
+msgstr "Загрузка изображений в Mapflow Web"
 
-#: ../userguides/howto.rst:67 7e312f37307f48f2902218db0676fc1e
+#: ../../source/userguides/howto.rst:67 c5a4b4490ba9405894b807c3ba046609
 msgid ""
 "Select raster source – you can either use Custom URL (see below how to "
 "publish your image with Openaerialmap and get the TMS link) or upload "
 "your image as GeoTIFF."
 msgstr ""
 
-#: ../userguides/howto.rst:78 990be16c48b24b17b58f38081b0862d9
+#: ../../source/userguides/howto.rst:78 d9a006032cf349a2949e764bde22e7d6
 msgid ""
 "*Currently, a preview of the uploaded image is not possible after loading"
-" the image, you will see only the area of its extent.*"
+" the image, you will preview only the area of its extent.*"
 msgstr ""
 
-#: ../userguides/howto.rst:80 94553ea29ce34228aed9393f3ea272ad
+#: ../../source/userguides/howto.rst:80 f1c1bf1f5e564009bb1b47ef478b51d8
 msgid ""
 "2. Define the processing Area. The processing area (AOI) must be located "
 "within the area of the image extent, otherwise, the area will be cut off "
@@ -364,19 +359,19 @@ msgid ""
 "intersection of the image extent and the AOI."
 msgstr ""
 
-#: ../userguides/howto.rst:85 69320f79d7a74d07931a712c33de933f
+#: ../../source/userguides/howto.rst:85 145816f143b14c98b2487ff81b92586f
 msgid ""
 "Image upload requirements: The file size must be less than 1 Gb. Both "
 "sides image dimmesions must not exceed 30.000x30.000"
 msgstr ""
 
-#: ../userguides/howto.rst:88 14f7049f71b6461f9e844692d96c6571
+#: ../../source/userguides/howto.rst:88 bfa47946be6746f7b8f9631ac87220b8
 msgid ""
 "The image must be georeferenced and the CRS must be one of: * WGS84 "
 "(EPSG: 4326) * Web mercator (EPSG: 3857) * UTM (any zone)"
 msgstr ""
 
-#: ../userguides/howto.rst:93 aef6a09d4c51467baaf1a5d238ac5a36
+#: ../../source/userguides/howto.rst:93 80440b8698974261842c6bfd3586bcdf
 msgid ""
 "If your image doesn’t meet the parameters, we suggest using Mapflow API /"
 " QGIS plugin which has more capabilities. Mapflow supports RGB imagery "
@@ -385,18 +380,18 @@ msgid ""
 "worse than expected."
 msgstr ""
 
-#: ../userguides/howto.rst:98 fa470740e0c14aa99df7c3ae873d8bb0
+#: ../../source/userguides/howto.rst:98 f2d1430b74fe4cc6a86bd48e59691036
 msgid "Upload images with Mapflow – QGIS"
-msgstr ""
+msgstr "Загрузка изображений через Mapflow – QGIS"
 
-#: ../userguides/howto.rst:100 5d748c0ae2f74279a2e8956e27671e53
+#: ../../source/userguides/howto.rst:100 166522bad45545a4928a57eae75e18c8
 msgid ""
 "You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by "
 "default). All raster layers loaded in your QGIS (1) are visible in the "
 "drop-down list (2) and can be selected for upload."
 msgstr ""
 
-#: ../userguides/howto.rst:110 e18e0a6be51d42b5a66e7d24538fc13c
+#: ../../source/userguides/howto.rst:110 fe3b0c2e74114c01be113832f609a3d5
 msgid ""
 "Please, consider the requirements for :ref:`AI Models <Model "
 "requirements>` when uploading your own images. Contact us if you have "
@@ -404,15 +399,15 @@ msgid ""
 "limits."
 msgstr ""
 
-#: ../userguides/howto.rst:115 a14a8b4b3a98458cae250886b7108a39
+#: ../../source/userguides/howto.rst:115 012f636bfd9845da9be4ce44260acef2
 msgid "How to use external data providers in Mapflow"
-msgstr ""
+msgstr "Как использовать внешние провайдеры данных в Mapflow"
 
-#: ../userguides/howto.rst:120 a150781653b44840a05f284ba323c3e0
+#: ../../source/userguides/howto.rst:120 64976498decf4c2bace866d0aecf4640
 msgid "Use Openaerialmap as an imagery publication and access service"
-msgstr ""
+msgstr "Использование OpenAerialMap как сервиса публикации и доступа к снимкам"
 
-#: ../userguides/howto.rst:122 2ab1e6ca0958487aab451b023e7a7f56
+#: ../../source/userguides/howto.rst:122 c09738cfedbc458eb03b7d9c1be2f108
 msgid ""
 "`OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of "
 "UAV imagery data, crowdsourced by users. The project is supported by a "
@@ -422,31 +417,31 @@ msgid ""
 "TMS/WMTS protocols."
 msgstr ""
 
-#: ../userguides/howto.rst:125 88ff8067b6614e3481d83aa41de5515e
+#: ../../source/userguides/howto.rst:125 aacf939185db42049d7059f5401332c6
 msgid "Select the image and copy link to TMS to connect it to Mapflow Custom URL."
-msgstr ""
+msgstr "Выберите снимок и скопируйте ссылку TMS для подключения к Mapflow через пользовательский URL."
 
-#: ../userguides/howto.rst b69d8bbc290f45be98f778e2eb2ed622
+#: ../../source/userguides/howto.rst de3416fc5a2546128d1f957b5d764888
 msgid "Search for imagery in OpenAerialMap"
-msgstr ""
+msgstr "Поиск снимков в OpenAerialMap"
 
-#: ../userguides/howto.rst:133 b28ed31f462f49d48d96a394a0783e60
+#: ../../source/userguides/howto.rst:133 029f786de8f24c10b975acb498389516
 msgid ""
 "Copy link to TMS and paste it into the “Custom imagery URL” in your new "
 "Mapflow processing."
 msgstr ""
 
-#: ../userguides/howto.rst:134 0fbf29e1cfc44165b5580418eb0800ce
+#: ../../source/userguides/howto.rst:134 49fd60ba5adf468b8709d6acc0261e86
 msgid ""
 "Check if you see the image on the map, go through the next steps (AI "
 "model, processing params) to and start the processing."
 msgstr ""
 
-#: ../userguides/howto.rst:142 7a5830903af34c669df2143415b46e87
+#: ../../source/userguides/howto.rst:142 b2e81616b8394e7489f0670fb1a514c3
 msgid "..note::"
-msgstr ""
+msgstr "..note::"
 
-#: ../userguides/howto.rst:138 8b79acd89d80445caba3b4dc5face655
+#: ../../source/userguides/howto.rst:138 89dfc7ab12144d2c9b46c98ad3c3dee3
 msgid ""
 "Your can use this service to publish your own UAV data (note that it will"
 " become publicly accessible). As soon as your aerial image is published "
@@ -455,47 +450,79 @@ msgid ""
 "with Mapflow."
 msgstr ""
 
-#: ../userguides/howto.rst:147 ea147a8c792b4bef94357222b1a82dcf
+#: ../../source/userguides/howto.rst:147 795d8ca7aca74a6ba37ba6930f9448de
 msgid "Use Nearmap as an imagery provider"
-msgstr ""
+msgstr "Использование Nearmap в качестве провайдера снимков"
 
-#: ../userguides/howto.rst:149 20c17257bb5645b1b01b8b41b037c4bd
+#: ../../source/userguides/howto.rst:149 4e802a255c114f7382048c6ee0966995
 msgid ""
 "`Nearmap <https://nearmap.com>`_ provides access to its Vertical and "
 "Panorama Imagery via a Tile API. If you have a subscription to their "
 "service you can use it easily with Mapflow Custom URL."
 msgstr ""
 
-#: ../userguides/howto.rst:151 fb229f7b3fa54bc2bba9fc78bd37fc9c
+#: ../../source/userguides/howto.rst:151 de9ed146a4e84cf782fa74bcb254392f
 msgid "URL format:"
-msgstr ""
+msgstr "Формат URL:"
 
-#: ../userguides/howto.rst:153 8d32e3c65fdb499c95afaa9492742bd5
+#: ../../source/userguides/howto.rst:153 23db0f13670946f189eb48649580e4b1
 msgid "``https://api.nearmap.com/tiles/v3/{tileResourceType}/{z}/{x}/{y}.{format}?apikey={YOUR_API_KEY}``"
-msgstr ""
+msgstr "``https://api.nearmap.com/tiles/v3/{tileResourceType}/{z}/{x}/{y}.{format}?apikey={YOUR_API_KEY}``"
 
-#: ../userguides/howto.rst:155 a0d910a8510a4702bd2ef810e71cb2a1
+#: ../../source/userguides/howto.rst:155 d4549699251e4d3e8a6f7bda4069a19b
 msgid ""
 "Find more in the Nearmap `API documentation "
 "<https://help.nearmap.com/kb/articles/84-tile-api>`_."
 msgstr ""
 
-#: ../userguides/howto.rst:164 88db474253334fd1a9247e2ac8a0e8ae
+#: ../../source/userguides/howto.rst:162 3f01b31234fe4b50b132d791997a52a7
+msgid "Nearmap imagery preview in Mapflow W"
+msgstr "Предварительный просмотр снимков Nearmap в Mapflow Web"
+
+#: ../../source/userguides/howto.rst:168 4675e07073b14d44bf2b0c23f5d319c5
+msgid "Use NAIP as an imagery provider"
+msgstr "Использование NAIP в качестве провайдера снимков"
+
+#: ../../source/userguides/howto.rst:171 73edcb4f31c84f98b33147b0dbb44c56
+msgid ""
+"NAIP (National Agriculture Imagery Program) provides public access to "
+"aerial imagery for the US territory. The data is available as a set of "
+"tiles via TMS protocol. It's effectively public-domain data so you are "
+"free to use, redistribute, incorporate into commercial or open-source "
+"projects, or mix with other data."
+msgstr ""
+
+#: ../../source/userguides/howto.rst:173 7d578de573394fb890703eb9f8dbfbfd
+msgid ""
+"To use NAIP data with Mapflow Custom URL, you can use the following TMS "
+"URL template:"
+msgstr ""
+
+#: ../../source/userguides/howto.rst:175 569a90015bd44d80b2cbd408e7e0021e
+msgid "``https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}?blankTile=false``"
+msgstr "``https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}?blankTile=false``"
+
+#: ../../source/userguides/howto.rst ../../source/userguides/howto.rst:183
+#: 5b9b6dab03134bbb8069490bb0548e01 8783a20a16e34182adb780bf40c6f6f5
+msgid "Multi-modal analysis using NAIP imagery"
+msgstr "Мультимодальный анализ на основе снимков NAIP"
+
+#: ../../source/userguides/howto.rst:188 80e9afb0171342e38d3257ae58582ecc
 msgid "How to optimize large image files"
-msgstr ""
+msgstr "Как оптимизировать большие файлы изображений"
 
-#: ../userguides/howto.rst:167 aead741664f846a8a54b905bc5e9a570
+#: ../../source/userguides/howto.rst:191 8d68939188324724956f393d565acdc5
 msgid "Preparing and optimizing the large size images"
-msgstr ""
+msgstr "Подготовка и оптимизация изображений большого размера"
 
-#: ../userguides/howto.rst:169 41573d2cddb245d597067c047ff25bbc
+#: ../../source/userguides/howto.rst:193 ed168342a51244fe9c1c66ff753c2dd1
 msgid ""
 "Here are few tips on how to prepare and optimize your data and reduce the"
 " image size to upload it faster and not to exceed the Mapflow upload "
 "limit."
 msgstr ""
 
-#: ../userguides/howto.rst:171 d06b7ce6f59446739c4342f81575963d
+#: ../../source/userguides/howto.rst:195 35f3bbe86e474586b60b1cfb26fc5342
 msgid ""
 "Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 "
 "bit. The data type will be automatically converted to 8 bit on the side "
@@ -504,7 +531,7 @@ msgid ""
 "your image for Mapflow processing."
 msgstr ""
 
-#: ../userguides/howto.rst:175 8beb9a0ce28242ce9d31ebe490f0aa95
+#: ../../source/userguides/howto.rst:199 7b8ae67cf57541d58763f444a88687ba
 msgid ""
 "You can reduce the size of the image using GDAL translate. "
 "(https://gdal.org/) E.g. using JPEG compression. ``gdal_translate -co "
@@ -515,68 +542,68 @@ msgid ""
 "params."
 msgstr ""
 
-#: ../userguides/howto.rst:180 925543f15f8541d0ae1a6373d340fda1
+#: ../../source/userguides/howto.rst:204 084b649226ff4856a2b6b89aefb49cea
 msgid "The same can be done using QGIS interface:"
-msgstr ""
+msgstr "То же самое можно сделать через интерфейс QGIS:"
 
-#: ../userguides/howto.rst:188 7da0d9994b344d6693628c8af82a07b6
+#: ../../source/userguides/howto.rst:212 cb65d393dea645acb8a19085814a653f
 msgid ""
 "Tell us if you have more tips to share with the community or if you have "
 "more questions – we are ready to help."
 msgstr ""
 
-#: ../userguides/howto.rst:190 04554ea483fc47b987ca4c7599d96618
+#: ../../source/userguides/howto.rst:214 c4f8882d070f4341ad16596af33cd1e2
 msgid "**Run the flow!**"
-msgstr ""
+msgstr "**Запустите обработку!**"
 
-#: ../userguides/howto.rst:194 aa597238baeb4184aa477dd809bb32b6
+#: ../../source/userguides/howto.rst:218 64bea5be56b94687add2c73ae36e457e
 msgid "How to view results using Kepler.gl"
-msgstr ""
+msgstr "Как просматривать результаты с помощью Kepler.gl"
 
-#: ../userguides/howto.rst:196 38762e63853c4871ac1fd8e2475b350d
+#: ../../source/userguides/howto.rst:220 a499dd2bd26d45e1959bfc4c93a13d28
 msgid ""
 "**Kepler.gl** is an open source tool designed for geospatial data "
 "analysis. It is a simple yet powerful for displaying and exploring "
 "geodatasets."
 msgstr ""
 
-#: ../userguides/howto.rst:198 a3de9ed3623d4f2db6ba383dc650fd45
+#: ../../source/userguides/howto.rst:222 76160b9ae3b14cebb0004608ab647cae
 msgid ""
 "To view the processing results in the Mapflow, select the required "
 "processing and press the button *\"Open in kepler.gl\"*."
 msgstr ""
 
-#: ../userguides/howto.rst:201 1f8cffaeccb341419c687337563bd561
+#: ../../source/userguides/howto.rst:225 1633008888d74e198f36e19308fdd3e6
 msgid ""
 "You can share your processing view in Kepler by copying the open URL "
 "(right click on *\"Open in kepler.gl\"* --> Copy Link Address)"
 msgstr ""
 
-#: ../userguides/howto.rst:203 fa4981677fa44e13802af6aee55f4d56
+#: ../../source/userguides/howto.rst:227 7137d4f4262545de9f563e258ceac08f
 msgid ""
 "Using the Kepler you can change the visual properties of data, set "
 "filters, and choose a background map."
 msgstr ""
 
-#: ../userguides/howto.rst:207 eeeffec4c50b4f9996a4f2ecdc5f4e78
+#: ../../source/userguides/howto.rst:231 eada75bc3e0c4a4284023a6ab970e14b
 msgid "Layers tab"
-msgstr ""
+msgstr "Вкладка Layers"
 
-#: ../userguides/howto.rst:209 b6d27d2c201c458d977e36ff836318c5
+#: ../../source/userguides/howto.rst:233 67c4a4d72887459db100fc92eb420a87
 msgid ""
 "Click on the layer name to bring up the *Layer settings* from the drop-"
 "down menu. To hide all data, click on the *eye* icon."
 msgstr ""
 
-#: 8dc9e838a445431687e565b9e9c573ad
+#: 1a54c6f6afed46b1b18f33205fafb99c
 msgid "View layer settings"
-msgstr ""
+msgstr "Настройки слоя"
 
-#: ../userguides/howto.rst:218 667e77adb5ad47edac82c68101ab81dc
+#: ../../source/userguides/howto.rst:242 ee48aded4a5145fa88707cacbcafd0ef
 msgid "These settings allow you to choose a more suitable type of received data:"
 msgstr ""
 
-#: ../userguides/howto.rst:220 d73830aac1504b3a8a597d9804036fa2
+#: ../../source/userguides/howto.rst:244 e4297840b30446a3b61f162d0b7a9d6e
 msgid ""
 "*Fill color.* You can choose any color from the palette for polygons, and"
 " also hide the display of data by changing the position of the slider. "
@@ -584,7 +611,7 @@ msgid ""
 "additional settings of this function."
 msgstr ""
 
-#: ../userguides/howto.rst:221 3f411a3975aa4d67b22cc9f6aabbe832
+#: ../../source/userguides/howto.rst:245 c04d051152004e25bcf4512781452a77
 msgid ""
 "*Stroke color.* You can choose any color from the palette for outlining "
 "polygons, as well as completely remove the stroke. You can change the "
@@ -592,65 +619,65 @@ msgid ""
 "settings of this function."
 msgstr ""
 
-#: ../userguides/howto.rst:222 ef972037197644d08668d77bbb90a65e
+#: ../../source/userguides/howto.rst:246 b86c0d17cbf747cda09e1d32e8c7dc62
 msgid "*Stroke width.* Controls the thickness of the stroke."
 msgstr ""
 
-#: ../userguides/howto.rst:223 5c786a886e7b4362ac01608a58a35b19
+#: ../../source/userguides/howto.rst:247 b0910e45559b4d40a10e140a597898b7
 msgid ""
 "*Height.* Allows you to view data with heights in 3D format. Set the "
 "desired coefficient and select the attribute of the layer with heights."
 msgstr ""
 
-#: 668cafc339b949a9b04846b1f47043ef
+#: c53db8ef8b3544b58c73ad2afcef3b55
 msgid "3D buildings"
-msgstr ""
+msgstr "Здания в 3D"
 
-#: ../userguides/howto.rst:233 77a3fea78de4400d9dc7dda6eb0b61f0
+#: ../../source/userguides/howto.rst:257 6320f1d455434c7899256309c06f7184
 msgid "Filters tab"
-msgstr ""
+msgstr "Вкладка Filters"
 
-#: ../userguides/howto.rst:235 d7f2b2cbc2af4d10b557a2b9bbb73392
+#: ../../source/userguides/howto.rst:259 32e6fa58e07a4566ba124f192f61b3f4
 msgid ""
 "This tab allows you to add a filter of interest by a specific attribute "
 "of the layer (as in this case, the filter is set by classes with "
 "different typology of buildings)."
 msgstr ""
 
-#: e813d64e76834aa79f1fbe84e9985e79
+#: b87a6547c00e49e18699a889d3db0b65
 msgid "Filter panel"
-msgstr ""
+msgstr "Панель фильтров"
 
-#: ../userguides/howto.rst:245 e4c1d73b87934db8b595741edaf95ca9
+#: ../../source/userguides/howto.rst:269 53992c253b984b6d90333e5db2c4fb60
 msgid "Interaction tab"
-msgstr ""
+msgstr "Вкладка Interaction"
 
-#: ../userguides/howto.rst:247 8482a2f9443c4fa4a9fc028a9b3e9203
+#: ../../source/userguides/howto.rst:271 8f7d64f3870141428a86c51b2a6d3921
 msgid ""
 "You can select or remove attributes that will be visible in the menu that"
 " appears when you hover over an object. It is also possible to turn on "
 "the panel indicating longitude and latitude."
 msgstr ""
 
-#: 141cb249d93946899ad4285f0c8b70fc
+#: 5232fc49eb4f452ea903d89622c85735
 msgid "Interaction panel"
-msgstr ""
+msgstr "Панель взаимодействия"
 
-#: ../userguides/howto.rst:258 b3cfb673c0fc4c658ae1a8e2bd57739e
+#: ../../source/userguides/howto.rst:282 dd4ed878cc3149b0b19c143a52667598
 msgid "Base map tab"
-msgstr ""
+msgstr "Вкладка Base map"
 
-#: ../userguides/howto.rst:260 a7dc3d95bebb44efa86e012c7b4e1b87
+#: ../../source/userguides/howto.rst:284 5d56ed3d7d5f4ec49a041beb7ab00669
 msgid ""
 "Here you can choose the styles of the map, as well as choose to display "
 "its various layers."
 msgstr ""
 
-#: ../userguides/howto.rst:264 d20d6a5948e44ee1a164bb42b02e7c56
+#: ../../source/userguides/howto.rst:288 a5989ece0f934f14babaa70ff651b3dd
 msgid "How to run Mapflow on external infrastructure"
-msgstr ""
+msgstr "Как запустить Mapflow на внешней инфраструктуре"
 
-#: ../userguides/howto.rst:266 68329b56acb74cb596fa1b803a7ccbe6
+#: ../../source/userguides/howto.rst:290 fedb142d32cb4760a2817b7e74a2564f
 msgid ""
 "Currently, you have to contact us if you have a request to run Mapflow "
 "(as a platform or as a separate imagery analysis workflows) on external "
@@ -658,31 +685,31 @@ msgid ""
 "projects for their clients."
 msgstr ""
 
-#: ../userguides/howto.rst:270 5e15b44a93c349e896565ffa96dbb41c
+#: ../../source/userguides/howto.rst:294 6e2d3fd2edf748428f6fb1dff58e5433
 msgid "How to run Mapflow using Geocloud"
-msgstr ""
+msgstr "Как запустить Mapflow с помощью Geocloud"
 
-#: 12047d331a9740cdbd9033bf9b0fc0d2 23963379bcf3427d8e766d622f1650b6
-#: 84b0db02e7f647ce845821ef5311bfb1
+#: 0236067c835b48bc9e343e11f4b4b0fb 22ac671416ba42289781b54ad4c7842b
+#: e8b51d5d95164ae48656105aa7a84ad2
 msgid "create app"
-msgstr ""
+msgstr "создать приложение"
 
-#: ../userguides/howto.rst:280 d4b60875058e4cf6998a0f9c5dcedede
+#: ../../source/userguides/howto.rst:304 265092e5523a49ac994cfbc4a721c595
 msgid ""
 "We conduct a `PoC project with Geocloud.work "
 "<https://www.geocloud.work/software/geoalert>`_ who enable to work "
 "remotely with the licensed geospatial software."
 msgstr ""
 
-#: ../userguides/howto.rst:282 a2a3815befe845fc95bd034755d12c5f
+#: ../../source/userguides/howto.rst:306 09fe86a436e2470090cd6dd572b44f0d
 msgid "The generic workflow with Geocloud is as follows:"
-msgstr ""
+msgstr "Общий рабочий процесс с Geocloud:"
 
-#: ../userguides/howto.rst:284 39c4c3bf798c4b899c7eacfb66622d86
+#: ../../source/userguides/howto.rst:308 d2b57dfea9e64e1e8cc9987d8289343c
 msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
 msgstr ""
 
-#: ../userguides/howto.rst:286 0db8afbb7c6d48818e3ad767610d81be
+#: ../../source/userguides/howto.rst:310 c2e2b2e262864993a4ebeb9ff078e6ac
 msgid ""
 "It runs the virtual machine with minimum requirements for QGIS with a "
 "preinstalled Mapflow plugin. Note that you have to run consequently the "
@@ -690,21 +717,21 @@ msgid ""
 "remote desktop."
 msgstr ""
 
-#: ../userguides/howto.rst:289 c2256184c3da47beabc785ccb5929cdb
+#: ../../source/userguides/howto.rst:313 c385c9c6a51345a993462897e7ad066f
 msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
 msgstr ""
 
-#: ../userguides/howto.rst:299 173db4b26f5b47169091a6bf146eb7dc
+#: ../../source/userguides/howto.rst:323 1cc896972a964d1f8af56a06bd68538d
 msgid "Run the plugin by clicking on the icon in the toolbar"
 msgstr ""
 
-#: ../userguides/howto.rst:310 9d88d3ab2b8641c889be8c52b8c050fb
+#: ../../source/userguides/howto.rst:334 1f98fcd1ecc44f679814476b6b596598
 msgid ""
 "❗️ To enable Mapflow oAuth login use the master password for QGIS which "
 "is set to 123456"
 msgstr ""
 
-#: ../userguides/howto.rst:313 d163f343642f4b53b2d5b32940af5726
+#: ../../source/userguides/howto.rst:337 f41c3c495af6462e84028ea11f17157a
 msgid ""
 "After you click  the \"Login\" button you will be redirected to the "
 "Mapflow login page in the browser. Use your existing `Mapflow.ai "
@@ -714,13 +741,13 @@ msgid ""
 "<https://app.mapflow.ai/account/api>`_."
 msgstr ""
 
-#: ../userguides/howto.rst:316 4f458b8ce07e42fabe022ebb7c8eb1a3
+#: ../../source/userguides/howto.rst:340 d064ffc776754899a41d830c7a91d2c3
 msgid ""
 "You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>`"
 " in Geocloud."
 msgstr ""
 
-#: ../userguides/howto.rst:319 34b56bc211774f7893a296f22b7302f9
+#: ../../source/userguides/howto.rst:343 99f6bb90c1704504ac8963191ce95fbb
 msgid ""
 "Note that you pay only for the up time in Geocloud. You spend your "
 "regular credits for Mapflow (you get 250 credits for free upon the "
@@ -731,36 +758,39 @@ msgid ""
 " calculations in Mapflow to spend less."
 msgstr ""
 
-#: ../userguides/howto.rst:324 bc16cc0dfec74800b8d59252443b7dd2
+#: ../../source/userguides/howto.rst:348 f6ef02cd66794439a359e4842aee777d
 msgid "How to check images metadata in the 🌏 Global mosaic"
-msgstr ""
+msgstr "Как проверить метаданные снимков в 🌏 Глобальной мозаике"
 
-#: ../userguides/search_mosaic.rst:1 9fbf1321ea394a0c88c6e2924639d970
-msgid "Mapflow Data API enables search for the Global Mosaics metadata."
-msgstr ""
-
-#: ../userguides/search_mosaic.rst:4 2a8de017337340b18dbda831e62869c7
+#: ../../source/userguides/search_mosaic.rst:1 b29a48ef692a4245b7c2325256e9e4f4
 msgid ""
-"Commercial 🌏 Global mosaic is the annually updated satellite imagery "
-"composite covering most of the World. The mosaic is composed of \"Jilin\""
-" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited "
-"to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global "
-"coverage composed of high and medium resolution satellite imagery and "
-"aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 "
-"years depending on the territory."
+"Mapflow Imagery Search enables searching metadata for mosaic providers "
+"(e.g., ArcGIS World Imagery, Global mosaic)."
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:7 6415b3e51fe24d11a1331f647ffcf4b5
+#: ../../source/userguides/search_mosaic.rst:4 37ac83e7212c4177a38754c365e05232
+msgid ""
+"**🌏 Global mosaic** is the annually updated satellite imagery composite "
+"covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom "
+"14. **🌏 ArcGIS World Imagery** is a provider of the global coverage "
+"composed of high and medium resolution satellite imagery and aerial "
+"imagery, hosted by ESRI. The frequency of updating images is 1-5 years "
+"depending on the territory."
+msgstr ""
+
+#: ../../source/userguides/search_mosaic.rst:7 e70907d3d9954a11b7432eb49d653b59
 msgid ""
 "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
 "metadata and run the analysis:"
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:9 3c5d023a7a7b462a9d34e6b9fd446e26
+#: ../../source/userguides/search_mosaic.rst:9 9180aded07664e4eb7b1fd78b95b38f2
 msgid "Switch to the Tab \"Imagery Search\""
-msgstr ""
+msgstr "Перейдите на вкладку \"Imagery Search\"."
 
-#: ../userguides/search_mosaic.rst:10 4f06b5ad09674d17acdd8074eba34ba4
+#: ../../source/userguides/search_mosaic.rst:10
+#: ede6031a358a4283b21c9b538cb61f64
 #, python-format
 msgid ""
 "Set search filter parameters including the area (it can be your area of "
@@ -768,18 +798,20 @@ msgid ""
 "intersection with AOI."
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:11 e6ba0774b69b45b4a447675f0855f3e0
+#: ../../source/userguides/search_mosaic.rst:11
+#: 05f5491fcd7c429a87a007202a6d9b13
 msgid ""
 "Select the \"Product type = Mosaic\" in the Search results. You will see "
 "the mosaic image \"cutline\" indicating the specific image that is used "
 "in the mosaic."
 msgstr ""
 
-#: c687e9b33457421187624837bacf0244
+#: f4cfd50c4dbf49a19e6562e6ab3d6e02
 msgid "Search for Mosaic images"
-msgstr ""
+msgstr "Поиск мозаичных снимков"
 
-#: ../userguides/search_mosaic.rst:22 f6d8821f82004d118767f990e4367deb
+#: ../../source/userguides/search_mosaic.rst:22
+#: 3b2481aa3ddb49c5b6986518a3e7b1c3
 msgid ""
 "There are two types of products in the Imagery Search API available: * "
 "The **Scene** product is available for ordering by request. Now you need "
@@ -788,30 +820,32 @@ msgid ""
 "linked to your Mapflow account."
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:26 fc5966965b0948a0aa27bb414c282eab
+#: ../../source/userguides/search_mosaic.rst:26
+#: c70e901cb0184ae3938eb50dbf29033a
 msgid ""
 "Run the processing. The resulting area of analysis will be clipped by the"
 " intersection with the area of analysis."
 msgstr ""
 
-#: 61e13988dea646808453f3e8f7f488be
+#: 7e1d7b563893412795b5fbf433259980
 msgid "Get results based on Mosaic analysis"
-msgstr ""
+msgstr "Получение результатов на основе анализа мозаики"
 
-#: ../userguides/search_mosaic.rst:35 9cfbf9958a664658bb11523f604157de
+#: ../../source/userguides/search_mosaic.rst:35
+#: bd24d6f3ee8e44feba987cfd66ac7f94
 msgid ""
 "To run the processing over the whole area of analysis – just clear the "
 "selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data"
 " Source: 🌏 ArcGIS World Imagery**."
 msgstr ""
 
-#: ../userguides/howto.rst:330 fbc715ecfe6f484e8b36008ad1b342ae
+#: ../../source/userguides/howto.rst:354 d814c457600e470aa97320ad86b4102c
 msgid "How to run bulk processing using Mapflow API"
-msgstr ""
+msgstr "Как запустить пакетную обработку с помощью Mapflow API"
 
-#: ../userguides/howto.rst:333 1bb56a25f27647728f6c07de96193fc4
+#: ../../source/userguides/howto.rst:357 26fa75e2dfe44e7ca016a527c539f253
 msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
-msgstr ""
+msgstr "✍️ Подробнее см. в :doc:`руководстве по использованию Mapflow API <use_API>`"
 
 #~ msgid ""
 #~ "Usually UAV image is an RGB "
@@ -962,5 +996,31 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Save results for all the listed processings:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Currently, a preview of the uploaded"
+#~ " image is not possible after loading"
+#~ " the image, you will see only "
+#~ "the area of its extent.*"
+#~ msgstr ""
+
+#~ msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Commercial 🌏 Global mosaic is the "
+#~ "annually updated satellite imagery composite"
+#~ " covering most of the World. The "
+#~ "mosaic is composed of \"Jilin\" Chinese"
+#~ " satellites imagery (RGB, 0.75–0.5 m/px)."
+#~ " The preview is limited to zoom "
+#~ "12. **🌏 ArcGIS World Imagery** is "
+#~ "a provider of the global coverage "
+#~ "composed of high and medium resolution"
+#~ " satellite imagery and aerial imagery, "
+#~ "hosted by ESRI. The frequency of "
+#~ "updating images is 1-5 years depending"
+#~ " on the territory."
 #~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -274,7 +274,7 @@ msgstr ""
 #: ../userguides/howto.rst:78 990be16c48b24b17b58f38081b0862d9
 msgid ""
 "*Currently, a preview of the uploaded image is not possible after loading"
-" the image, you will see only the area of its extent.*"
+" the image, you will preview only the area of its extent.*"
 msgstr ""
 
 #: ../userguides/howto.rst:80 94553ea29ce34228aed9393f3ea272ad
@@ -401,22 +401,54 @@ msgid ""
 "<https://help.nearmap.com/kb/articles/84-tile-api>`_."
 msgstr ""
 
-#: ../userguides/howto.rst:164 88db474253334fd1a9247e2ac8a0e8ae
+#: ../userguides/howto.rst:162 fbc715ecfe6f484e8b36008ad1b342ae
+msgid "Nearmap imagery preview in Mapflow W"
+msgstr ""
+
+#: ../userguides/howto.rst:168 0349da8f06b745da8e0fe2ddbdfb955a
+msgid "Use NAIP as an imagery provider"
+msgstr ""
+
+#: ../userguides/howto.rst:171 91d24651fd3e4863a6830f940086913a
+msgid ""
+"NAIP (National Agriculture Imagery Program) provides public access to "
+"aerial imagery for the US territory. The data is available as a set of "
+"tiles via TMS protocol. It's effectively public-domain data so you are "
+"free to use, redistribute, incorporate into commercial or open-source "
+"projects, or mix with other data."
+msgstr ""
+
+#: ../userguides/howto.rst:173 4fd1ab364b94492b9fa8ed5283940e84
+msgid ""
+"To use NAIP data with Mapflow Custom URL, you can use the following TMS "
+"URL template:"
+msgstr ""
+
+#: ../userguides/howto.rst:175 be490bc48b214fa68318cd73e0a4a57f
+msgid "``https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}?blankTile=false``"
+msgstr ""
+
+#: ../userguides/howto.rst ../userguides/howto.rst:183
+#: 20d4ca51a942462e899e1532967e6770 623c45fcac1542a6b635071bfbaf2164
+msgid "Multi-modal analysis using NAIP imagery"
+msgstr ""
+
+#: ../userguides/howto.rst:188 88db474253334fd1a9247e2ac8a0e8ae
 msgid "How to optimize large image files"
 msgstr ""
 
-#: ../userguides/howto.rst:167 aead741664f846a8a54b905bc5e9a570
+#: ../userguides/howto.rst:191 aead741664f846a8a54b905bc5e9a570
 msgid "Preparing and optimizing the large size images"
 msgstr ""
 
-#: ../userguides/howto.rst:169 41573d2cddb245d597067c047ff25bbc
+#: ../userguides/howto.rst:193 41573d2cddb245d597067c047ff25bbc
 msgid ""
 "Here are few tips on how to prepare and optimize your data and reduce the"
 " image size to upload it faster and not to exceed the Mapflow upload "
 "limit."
 msgstr ""
 
-#: ../userguides/howto.rst:171 d06b7ce6f59446739c4342f81575963d
+#: ../userguides/howto.rst:195 d06b7ce6f59446739c4342f81575963d
 msgid ""
 "Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 "
 "bit. The data type will be automatically converted to 8 bit on the side "
@@ -425,7 +457,7 @@ msgid ""
 "your image for Mapflow processing."
 msgstr ""
 
-#: ../userguides/howto.rst:175 8beb9a0ce28242ce9d31ebe490f0aa95
+#: ../userguides/howto.rst:199 8beb9a0ce28242ce9d31ebe490f0aa95
 msgid ""
 "You can reduce the size of the image using GDAL translate. "
 "(https://gdal.org/) E.g. using JPEG compression. ``gdal_translate -co "
@@ -436,54 +468,54 @@ msgid ""
 "params."
 msgstr ""
 
-#: ../userguides/howto.rst:180 925543f15f8541d0ae1a6373d340fda1
+#: ../userguides/howto.rst:204 925543f15f8541d0ae1a6373d340fda1
 msgid "The same can be done using QGIS interface:"
 msgstr ""
 
-#: ../userguides/howto.rst:188 7da0d9994b344d6693628c8af82a07b6
+#: ../userguides/howto.rst:212 7da0d9994b344d6693628c8af82a07b6
 msgid ""
 "Tell us if you have more tips to share with the community or if you have "
 "more questions – we are ready to help."
 msgstr ""
 
-#: ../userguides/howto.rst:190 04554ea483fc47b987ca4c7599d96618
+#: ../userguides/howto.rst:214 04554ea483fc47b987ca4c7599d96618
 msgid "**Run the flow!**"
 msgstr ""
 
-#: ../userguides/howto.rst:194 aa597238baeb4184aa477dd809bb32b6
+#: ../userguides/howto.rst:218 aa597238baeb4184aa477dd809bb32b6
 msgid "How to view results using Kepler.gl"
 msgstr ""
 
-#: ../userguides/howto.rst:196 38762e63853c4871ac1fd8e2475b350d
+#: ../userguides/howto.rst:220 38762e63853c4871ac1fd8e2475b350d
 msgid ""
 "**Kepler.gl** is an open source tool designed for geospatial data "
 "analysis. It is a simple yet powerful for displaying and exploring "
 "geodatasets."
 msgstr ""
 
-#: ../userguides/howto.rst:198 a3de9ed3623d4f2db6ba383dc650fd45
+#: ../userguides/howto.rst:222 a3de9ed3623d4f2db6ba383dc650fd45
 msgid ""
 "To view the processing results in the Mapflow, select the required "
 "processing and press the button *\"Open in kepler.gl\"*."
 msgstr ""
 
-#: ../userguides/howto.rst:201 1f8cffaeccb341419c687337563bd561
+#: ../userguides/howto.rst:225 1f8cffaeccb341419c687337563bd561
 msgid ""
 "You can share your processing view in Kepler by copying the open URL "
 "(right click on *\"Open in kepler.gl\"* --> Copy Link Address)"
 msgstr ""
 
-#: ../userguides/howto.rst:203 fa4981677fa44e13802af6aee55f4d56
+#: ../userguides/howto.rst:227 fa4981677fa44e13802af6aee55f4d56
 msgid ""
 "Using the Kepler you can change the visual properties of data, set "
 "filters, and choose a background map."
 msgstr ""
 
-#: ../userguides/howto.rst:207 eeeffec4c50b4f9996a4f2ecdc5f4e78
+#: ../userguides/howto.rst:231 eeeffec4c50b4f9996a4f2ecdc5f4e78
 msgid "Layers tab"
 msgstr ""
 
-#: ../userguides/howto.rst:209 b6d27d2c201c458d977e36ff836318c5
+#: ../userguides/howto.rst:233 b6d27d2c201c458d977e36ff836318c5
 msgid ""
 "Click on the layer name to bring up the *Layer settings* from the drop-"
 "down menu. To hide all data, click on the *eye* icon."
@@ -493,11 +525,11 @@ msgstr ""
 msgid "View layer settings"
 msgstr ""
 
-#: ../userguides/howto.rst:218 667e77adb5ad47edac82c68101ab81dc
+#: ../userguides/howto.rst:242 667e77adb5ad47edac82c68101ab81dc
 msgid "These settings allow you to choose a more suitable type of received data:"
 msgstr ""
 
-#: ../userguides/howto.rst:220 d73830aac1504b3a8a597d9804036fa2
+#: ../userguides/howto.rst:244 d73830aac1504b3a8a597d9804036fa2
 msgid ""
 "*Fill color.* You can choose any color from the palette for polygons, and"
 " also hide the display of data by changing the position of the slider. "
@@ -505,7 +537,7 @@ msgid ""
 "additional settings of this function."
 msgstr ""
 
-#: ../userguides/howto.rst:221 3f411a3975aa4d67b22cc9f6aabbe832
+#: ../userguides/howto.rst:245 3f411a3975aa4d67b22cc9f6aabbe832
 msgid ""
 "*Stroke color.* You can choose any color from the palette for outlining "
 "polygons, as well as completely remove the stroke. You can change the "
@@ -513,11 +545,11 @@ msgid ""
 "settings of this function."
 msgstr ""
 
-#: ../userguides/howto.rst:222 ef972037197644d08668d77bbb90a65e
+#: ../userguides/howto.rst:246 ef972037197644d08668d77bbb90a65e
 msgid "*Stroke width.* Controls the thickness of the stroke."
 msgstr ""
 
-#: ../userguides/howto.rst:223 5c786a886e7b4362ac01608a58a35b19
+#: ../userguides/howto.rst:247 5c786a886e7b4362ac01608a58a35b19
 msgid ""
 "*Height.* Allows you to view data with heights in 3D format. Set the "
 "desired coefficient and select the attribute of the layer with heights."
@@ -527,11 +559,11 @@ msgstr ""
 msgid "3D buildings"
 msgstr ""
 
-#: ../userguides/howto.rst:233 77a3fea78de4400d9dc7dda6eb0b61f0
+#: ../userguides/howto.rst:257 77a3fea78de4400d9dc7dda6eb0b61f0
 msgid "Filters tab"
 msgstr ""
 
-#: ../userguides/howto.rst:235 d7f2b2cbc2af4d10b557a2b9bbb73392
+#: ../userguides/howto.rst:259 d7f2b2cbc2af4d10b557a2b9bbb73392
 msgid ""
 "This tab allows you to add a filter of interest by a specific attribute "
 "of the layer (as in this case, the filter is set by classes with "
@@ -542,11 +574,11 @@ msgstr ""
 msgid "Filter panel"
 msgstr ""
 
-#: ../userguides/howto.rst:245 e4c1d73b87934db8b595741edaf95ca9
+#: ../userguides/howto.rst:269 e4c1d73b87934db8b595741edaf95ca9
 msgid "Interaction tab"
 msgstr ""
 
-#: ../userguides/howto.rst:247 8482a2f9443c4fa4a9fc028a9b3e9203
+#: ../userguides/howto.rst:271 8482a2f9443c4fa4a9fc028a9b3e9203
 msgid ""
 "You can select or remove attributes that will be visible in the menu that"
 " appears when you hover over an object. It is also possible to turn on "
@@ -557,21 +589,21 @@ msgstr ""
 msgid "Interaction panel"
 msgstr ""
 
-#: ../userguides/howto.rst:258 b3cfb673c0fc4c658ae1a8e2bd57739e
+#: ../userguides/howto.rst:282 b3cfb673c0fc4c658ae1a8e2bd57739e
 msgid "Base map tab"
 msgstr ""
 
-#: ../userguides/howto.rst:260 a7dc3d95bebb44efa86e012c7b4e1b87
+#: ../userguides/howto.rst:284 a7dc3d95bebb44efa86e012c7b4e1b87
 msgid ""
 "Here you can choose the styles of the map, as well as choose to display "
 "its various layers."
 msgstr ""
 
-#: ../userguides/howto.rst:264 d20d6a5948e44ee1a164bb42b02e7c56
+#: ../userguides/howto.rst:288 d20d6a5948e44ee1a164bb42b02e7c56
 msgid "How to run Mapflow on external infrastructure"
 msgstr ""
 
-#: ../userguides/howto.rst:266 68329b56acb74cb596fa1b803a7ccbe6
+#: ../userguides/howto.rst:290 68329b56acb74cb596fa1b803a7ccbe6
 msgid ""
 "Currently, you have to contact us if you have a request to run Mapflow "
 "(as a platform or as a separate imagery analysis workflows) on external "
@@ -579,7 +611,7 @@ msgid ""
 "projects for their clients."
 msgstr ""
 
-#: ../userguides/howto.rst:270 5e15b44a93c349e896565ffa96dbb41c
+#: ../userguides/howto.rst:294 5e15b44a93c349e896565ffa96dbb41c
 msgid "How to run Mapflow using Geocloud"
 msgstr ""
 
@@ -588,22 +620,22 @@ msgstr ""
 msgid "create app"
 msgstr ""
 
-#: ../userguides/howto.rst:280 d4b60875058e4cf6998a0f9c5dcedede
+#: ../userguides/howto.rst:304 d4b60875058e4cf6998a0f9c5dcedede
 msgid ""
 "We conduct a `PoC project with Geocloud.work "
 "<https://www.geocloud.work/software/geoalert>`_ who enable to work "
 "remotely with the licensed geospatial software."
 msgstr ""
 
-#: ../userguides/howto.rst:282 a2a3815befe845fc95bd034755d12c5f
+#: ../userguides/howto.rst:306 a2a3815befe845fc95bd034755d12c5f
 msgid "The generic workflow with Geocloud is as follows:"
 msgstr ""
 
-#: ../userguides/howto.rst:284 39c4c3bf798c4b899c7eacfb66622d86
+#: ../userguides/howto.rst:308 39c4c3bf798c4b899c7eacfb66622d86
 msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
 msgstr ""
 
-#: ../userguides/howto.rst:286 0db8afbb7c6d48818e3ad767610d81be
+#: ../userguides/howto.rst:310 0db8afbb7c6d48818e3ad767610d81be
 msgid ""
 "It runs the virtual machine with minimum requirements for QGIS with a "
 "preinstalled Mapflow plugin. Note that you have to run consequently the "
@@ -611,21 +643,21 @@ msgid ""
 "remote desktop."
 msgstr ""
 
-#: ../userguides/howto.rst:289 c2256184c3da47beabc785ccb5929cdb
+#: ../userguides/howto.rst:313 c2256184c3da47beabc785ccb5929cdb
 msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
 msgstr ""
 
-#: ../userguides/howto.rst:299 173db4b26f5b47169091a6bf146eb7dc
+#: ../userguides/howto.rst:323 173db4b26f5b47169091a6bf146eb7dc
 msgid "Run the plugin by clicking on the icon in the toolbar"
 msgstr ""
 
-#: ../userguides/howto.rst:310 9d88d3ab2b8641c889be8c52b8c050fb
+#: ../userguides/howto.rst:334 9d88d3ab2b8641c889be8c52b8c050fb
 msgid ""
 "❗️ To enable Mapflow oAuth login use the master password for QGIS which "
 "is set to 123456"
 msgstr ""
 
-#: ../userguides/howto.rst:313 d163f343642f4b53b2d5b32940af5726
+#: ../userguides/howto.rst:337 d163f343642f4b53b2d5b32940af5726
 msgid ""
 "After you click  the \"Login\" button you will be redirected to the "
 "Mapflow login page in the browser. Use your existing `Mapflow.ai "
@@ -635,13 +667,13 @@ msgid ""
 "<https://app.mapflow.ai/account/api>`_."
 msgstr ""
 
-#: ../userguides/howto.rst:316 4f458b8ce07e42fabe022ebb7c8eb1a3
+#: ../userguides/howto.rst:340 4f458b8ce07e42fabe022ebb7c8eb1a3
 msgid ""
 "You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>`"
 " in Geocloud."
 msgstr ""
 
-#: ../userguides/howto.rst:319 34b56bc211774f7893a296f22b7302f9
+#: ../userguides/howto.rst:343 34b56bc211774f7893a296f22b7302f9
 msgid ""
 "Note that you pay only for the up time in Geocloud. You spend your "
 "regular credits for Mapflow (you get 250 credits for free upon the "
@@ -652,23 +684,25 @@ msgid ""
 " calculations in Mapflow to spend less."
 msgstr ""
 
-#: ../userguides/howto.rst:324 bc16cc0dfec74800b8d59252443b7dd2
+#: ../userguides/howto.rst:348 bc16cc0dfec74800b8d59252443b7dd2
 msgid "How to check images metadata in the 🌏 Global mosaic"
 msgstr ""
 
-#: ../userguides/search_mosaic.rst:1 9fbf1321ea394a0c88c6e2924639d970
-msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#: ../userguides/search_mosaic.rst:1 1f9c27367801408d81cf80b3fd30f21c
+msgid ""
+"Mapflow Imagery Search enables searching metadata for mosaic providers "
+"(e.g., ArcGIS World Imagery, Global mosaic)."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:4 2a8de017337340b18dbda831e62869c7
 msgid ""
-"Commercial 🌏 Global mosaic is the annually updated satellite imagery "
-"composite covering most of the World. The mosaic is composed of \"Jilin\""
-" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited "
-"to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global "
-"coverage composed of high and medium resolution satellite imagery and "
-"aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 "
-"years depending on the territory."
+"**🌏 Global mosaic** is the annually updated satellite imagery composite "
+"covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom "
+"14. **🌏 ArcGIS World Imagery** is a provider of the global coverage "
+"composed of high and medium resolution satellite imagery and aerial "
+"imagery, hosted by ESRI. The frequency of updating images is 1-5 years "
+"depending on the territory."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:7 6415b3e51fe24d11a1331f647ffcf4b5
@@ -726,11 +760,37 @@ msgid ""
 " Source: 🌏 ArcGIS World Imagery**."
 msgstr ""
 
-#: ../userguides/howto.rst:330 fbc715ecfe6f484e8b36008ad1b342ae
+#: ../userguides/howto.rst:354 fbc715ecfe6f484e8b36008ad1b342ae
 msgid "How to run bulk processing using Mapflow API"
 msgstr ""
 
-#: ../userguides/howto.rst:333 1bb56a25f27647728f6c07de96193fc4
+#: ../userguides/howto.rst:357 1bb56a25f27647728f6c07de96193fc4
 msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
 msgstr ""
+
+#~ msgid ""
+#~ "*Currently, a preview of the uploaded"
+#~ " image is not possible after loading"
+#~ " the image, you will see only "
+#~ "the area of its extent.*"
+#~ msgstr ""
+
+#~ msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Commercial 🌏 Global mosaic is the "
+#~ "annually updated satellite imagery composite"
+#~ " covering most of the World. The "
+#~ "mosaic is composed of \"Jilin\" Chinese"
+#~ " satellites imagery (RGB, 0.75–0.5 m/px)."
+#~ " The preview is limited to zoom "
+#~ "12. **🌏 ArcGIS World Imagery** is "
+#~ "a provider of the global coverage "
+#~ "composed of high and medium resolution"
+#~ " satellite imagery and aerial imagery, "
+#~ "hosted by ESRI. The frequency of "
+#~ "updating images is 1-5 years depending"
+#~ " on the territory."
+#~ msgstr ""
 

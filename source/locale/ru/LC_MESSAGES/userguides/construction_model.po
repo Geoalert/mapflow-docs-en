@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 11:54+0530\n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -21,10 +21,12 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/userguides/construction_model.rst:2
-msgid "🏗️ Constructions"
+#: c4431a6684ac45318f1b96694cbfa7cb
+msgid "🏗️ Constructions (CUSTOM)"
 msgstr ""
 
 #: ../../source/userguides/construction_model.rst:4
+#: bc94c0e66642482b9b0fddfc855b5e9b
 msgid ""
 "This model outlines the areas in the satellite image that contain "
 "construction sites and buildings under construction. The current model "
@@ -33,10 +35,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/userguides/construction_model.rst:13
+#: ee0f0810c3d546a88187e503419c4bae
 msgid "Processing result of construction model"
 msgstr ""
 
 #: ../../source/userguides/construction_model.rst:13
+#: 229d177d95244f8e981163513f5fd666
 msgid ""
 "Processing result sample for a rapidly developing area with construction "
 "sites"
@@ -53,5 +57,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**Processing results samples**"
+#~ msgstr ""
+
+#~ msgid "🏗️ Constructions"
 #~ msgstr ""
 

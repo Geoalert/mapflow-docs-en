@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,12 +33,12 @@ msgstr ""
 
 #: ../index.rst:12
 #: 2b414d4ccfab4dc79908b34ff59a661b
-msgid "EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes in game |:boom:|"
+msgid "EO data processing and analysis – here `Mapflow <https://mapflow.ai>`_ comes into play |:boom:|"
 msgstr ""
 
 #: ../index.rst:13
 #: df713a7e082044069b2359d0ae5a36fd
-msgid "GIS – check and edit results to use them in you application"
+msgid "GIS – check and edit results to use them in your application"
 msgstr ""
 
 #: ../index.rst:15
@@ -51,12 +51,12 @@ msgstr ""
 msgid "Getting Started with Mapflow"
 msgstr ""
 
-#: ../index.rst:35
+#: ../index.rst:34
 #: 313c9a7d3e314b02912f3f8e5d7e8367
 msgid "Mapflow AI models"
 msgstr ""
 
-#: ../index.rst:45
+#: ../index.rst:44
 #: a07ea00bfe6a4ade974f6b32cf939591
 msgid "Mapflow API"
 msgstr ""
@@ -71,37 +71,32 @@ msgstr ""
 msgid "User guides"
 msgstr ""
 
-#: ../index.rst:75
+#: ../index.rst:76
 #: 90bfc3ab24f842d5b48227b5c651b4db
 msgid "Reference materials"
 msgstr ""
 
-#: ../index.rst:85
+#: ../index.rst:86
+#: ffaefdc19a4c40999549a429f5a93c5d
+msgid "Additional Mapflow tools and integrations"
+msgstr ""
+
+#: ../index.rst:88
+#: e0d798047ef64e0fa002449432ee099b
+msgid ":download:`Mapflow CLI Python Tools <https://github.com/Geoalert/mapflow-api-scripts>`"
+msgstr ""
+
+#: ../index.rst:89
+#: e0d798047ef64e0fa002449432ee099b
+msgid ":download:`Mapflow QGIS Plugin <https://plugins.qgis.org/plugins/mapflow/>`"
+msgstr ""
+
+#: ../index.rst:93
 #: d31cc366235544b682df73e6e743faeb
 msgid "Frequently asked questions"
 msgstr ""
 
-#: ../index.rst:96
-#: 94f16fd06fda406ab0c84e3033cdfb3a
-msgid "PDFs"
-msgstr ""
-
-#: ../index.rst:98
-#: 0d0745a7cc54454fbc8741b5c2e266e0
-msgid ":download:`Mapflow User Guides <userguides/_static/_downloads/user_guides.pdf>`"
-msgstr ""
-
-#: ../index.rst:99
-#: 92d5cfb9eb494b938d120e03d3e9980d
-msgid ":download:`Mapflow AI-Mapping models <userguides/_static/_downloads/pipelines.pdf>`"
-msgstr ""
-
-#: ../index.rst:100
-#: e0d798047ef64e0fa002449432ee099b
-msgid ":download:`Mapflow Customization <userguides/_static/_downloads/mapflow_custom.pdf>`"
-msgstr ""
-
-#: ../index.rst:104
+#: ../index.rst:105
 #: 946efcbed6ec40779435ee6efca7c6fb
 msgid "This documentation is distributed under the terms of Creative Commons License **\"Attribution-NoDerivs\" СC BY-ND**"
 msgstr ""

@@ -1,0 +1,1022 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 12:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/userguides/imagery_agent_instructions.rst:4
+#: 2346b85cbce74061a58b18563503d1d9
+msgid "AI Agent Instructions: Imagery Search & Recommendation"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:6
+#: c859572008dd4511bbd4140c7022d15d
+msgid ""
+"This document defines how an AI agent should guide users through "
+"searching for and recommending satellite or aerial imagery on the Mapflow"
+" platform. The agent acts as an intelligent assistant that triages user "
+"intent, collects the necessary parameters, executes the appropriate "
+"imagery acquisition path, and prepares the selected imagery for AI-"
+"mapping processing."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:11
+#: 3f2f386f01a04c618fa030a97ada344b
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:14
+#: b33156d7052e4507bc4fa6f5f0a1ecff
+msgid "1. Agent Role and Scope"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:16
+#: 06c1a2235b9b49af8b25f90e327975e3
+msgid ""
+"The agent assists users who want to run AI-powered geospatial analysis "
+"(building detection, forest mapping, road extraction, etc.) but need to "
+"acquire the right imagery first."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:18
+#: dfdeb9ea9f2c474c936229a14194ac9f
+msgid "**The agent MUST:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:20
+#: d18b09d4e0224da088f43efd96590fdf
+msgid "Determine whether the user already has imagery or needs to search for it."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:21
+#: e49c1ea7680d4aa9a89c97b6bfa74152
+msgid ""
+"When a search is required, gather all necessary parameters through "
+"clarifying questions."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:22
+#: 15c3958cc8b74042949e7bc7fc1ff037
+msgid "Recommend imagery options ranked by relevance to the user's task."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:23
+#: 729201e029984339982549f21307babf
+msgid "Prepare the selected imagery as a data source for processing."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:25
+#: 34603e58a4a24f69ad9f914654420097
+msgid "**The agent MUST NOT:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:27
+#: b643d0f3a9ee43b2b2c4c5f223769e55
+msgid ""
+"Execute paid transactions (ordering, processing) without explicit user "
+"confirmation."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:28
+#: 536b8b5eb2b9491c997047e64bd551a9
+msgid "Bypass the user's account limitations (area size, available providers)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:29
+#: 4af772a57a67455c9a553d2d43879093
+msgid "Fabricate imagery metadata or availability."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:33
+#: a45e903521e241fea7189c03dc1de120
+msgid "2. Decision Tree: Imagery Acquisition Paths"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:35
+#: 618ad8fabcc443358170d368c4f73648
+msgid "The agent follows a two-path decision flow upon receiving a user request."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:64
+#: 5ca93fbc7d1d4bc7a14e130b4aa88ab4
+msgid "3. Path A: User Upload"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:66
+#: 87af6b915dcf49ebbf206c9e8be97e1c
+msgid ""
+"If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), "
+"the agent skips the search workflow entirely."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:68
+#: 196593c8edfb4a99a9dc4a1eb496a6ed
+msgid "**3.1 Agent actions:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:70
+#: 544caa1856ee416dbe13fb76035d22d9
+msgid "Confirm the user intends to upload their own image."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:71
+#: 070b0807007a4206abd41398a392a06f
+msgid "Validate basic requirements by asking:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:73
+#: 9f4f656fd16441f1b1f602d287eb8a13
+msgid ""
+"**Format:** GeoTIFF is required. Must be georeferenced (WGS84 / "
+"EPSG:4326, Web Mercator / EPSG:3857, or any UTM zone)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:74
+#: 9b23d59f024849c095c3a9bd9512672e
+msgid ""
+"**Size limit:** ≤ 1 GB and ≤ 30,000 × 30,000 pixels (free plan). For "
+"larger files, recommend the API or QGIS plugin."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:75
+#: f126c299f1384cebb9fc3cde4f9ab452
+msgid ""
+"**Bands:** RGB is preferred. RGBa and single-band (panchromatic) are "
+"accepted but with reduced quality."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:77
+#: 6ad20a4ae2554a7688b4986a1d0d9ac2
+msgid "Guide the upload:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:79
+#: 13faf086f7bd4a5bb2765c5e2ceccf55
+msgid ""
+"**Web app:** The user uploads a GeoTIFF file, then draws or uploads an "
+"AOI (or uses \"Use Image Extent\")."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:80
+#: ded7625b2c68405faefd5e1979bf4de9
+msgid ""
+"**API (Data API):** Create a mosaic → upload image to the mosaic → "
+"reference the mosaic/image IDs in ``sourceParams.myImagery`` when "
+"creating a processing."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:92
+#: b9cf614380544226bae794c0b4fc450d
+msgid ""
+"**QGIS plugin:** Use the \"My Imagery\" tab to create a collection and "
+"upload images."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:94
+#: 8a0301797e2a45dfa0f66b7e03dff59c
+msgid "Once upload is complete, proceed directly to **Section 6 (Processing)**."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:96
+#: 26669638edf6411c946d732d37f98be6
+msgid "**3.2 Example dialogue:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:109
+#: 8419ebd6a99340e7b4fee37d2b553026
+msgid "4. Path B: Imagery Search"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:111
+#: 92d3c2e8e1084786b2ea4a6e1bf2aa46
+msgid ""
+"When the user does not provide their own imagery, the agent must "
+"determine the best data source."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:113
+#: 4bd92d5c774f49daa507ce6a4fff97cc
+msgid "**4.0 Key clarifying question — Is the date of imagery important?**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:115
+#: 00a278223c1c4e62971c7ec0d07fc72f
+msgid "The agent MUST ask this question early:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:124
+#: ced7cc394a20414588116353e7adc6d7
+msgid "The answer determines which sub-path to follow."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:127
+#: 5fc400d6b8a44cfc9a40bd8c3b9d3080
+msgid "4.1 Date is NOT relevant → Imagery Basemap"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:129
+#: 2f6614f38fd94b47aa14b1b34c121aeb
+msgid ""
+"When the user needs a general-purpose, up-to-date satellite background "
+"(e.g., \"I just want to map buildings in this area\"):"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:131
+#: eee0b86716ba4bf29bd83e39a1d4f866
+msgid "**Recommend one of the default providers:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:137
+#: 6126878e14c64fff9354ef78ef0bc5e6
+msgid "Provider"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:138
+#: bd77517c9db143aa811270fc8db7da6d
+msgid "When to recommend"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:139
+#: 7aef8bc9d95943e3b4d6d29ea4e1f7fe
+msgid "**Mapbox Satellite**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:140
+#: b7b19781498e43c58ae791480e319ad3
+msgid ""
+"General-purpose global coverage; date of image cannot be chosen. Good "
+"default for most tasks."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:141
+#: 452fe9c19559409cb8a09db8963ef42b
+msgid "**Global Mosaic**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:142
+#: 306e4e4303064d1db2891565da3892d0
+msgid ""
+"Annually updated composite of Jilin satellites (RGB, 0.75–0.5 m/px). Good"
+" for recent general mapping. Preview limited to zoom 15."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:143
+#: 3149e2f506d541ae9703e9469fe64891
+msgid "**ArcGIS World Imagery**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:144
+#: b8d0e361c79a452fb6f39426f6da6b6d
+msgid ""
+"High-to-medium resolution global coverage (ESRI-hosted). 1–5 year update "
+"cycle. Metadata searchable by location."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:146
+#: cf5b3425b88045e8b9ccd71de1499d7b
+msgid "**Agent actions:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:148
+#: b2822fbf51bc4b39b97b03883f69b6bd
+msgid "Confirm the user's AOI (area of interest)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:149
+#: 82b05ab5937e4366b1215b85edc8d6da
+msgid ""
+"Suggest the most appropriate basemap provider based on the task and "
+"location."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:150
+#: 1f767ccaabea40509146cb27c1b1991e
+msgid "Set the ``sourceParams`` accordingly:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:163
+#: 36fabae1005546d4964ad73966b7034d
+msgid "Proceed to **Section 6 (Processing)**."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:166
+#: bbbd55dc324642fb875e73e7900ac1e3
+msgid "4.2 Date IS relevant → Targeted Search"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:168
+#: bd4ffb52999f4d4b9debb7c5e2b499e6
+msgid ""
+"When the user needs imagery from a specific time period, the agent must "
+"collect search parameters."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:170
+#: dd64e12227b546c0b70405fdb5f0eaa6
+msgid "**4.2.0 Required inputs:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:172
+#: e32c8ca6fc594850bed3dc26279ffae9
+msgid "The agent MUST collect the following before executing a search:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:178
+#: 45f4572d22f841a99ce6d445930c115d
+msgid "Parameter"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:179
+#: 7e36bed82e8b46b19e2bb6b6b6952dc9
+msgid "Required"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:180
+#: 1ac97972c98e40b9bb123ecadaebdcf1
+msgid "Description"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:181
+#: 955832b9821343638eb5fd4add7206b3
+msgid "**Area of Interest (AOI)**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:182
+#: ../../source/userguides/imagery_agent_instructions.rst:185
+#: 130d83dbfbaf4ababf54836b10cdc8be c38ab677434440638d36d8d7083b8a0f
+msgid "Yes"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:183
+#: ac5891ca5d0d47acaa63ccd58aa90f23
+msgid ""
+"GeoJSON Polygon or MultiPolygon. The user can provide coordinates, draw "
+"on a map, or upload a GeoJSON file."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:184
+#: c38ed7e6fe5a4a9f89cb72abe26b954e
+msgid "**Date range**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:186
+#: 2d839396aedb4dd4a09fc5aa3059fa5d
+msgid "``acquisitionDateFrom`` and ``acquisitionDateTo`` in ISO 8601 format."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:187
+#: 0bbc93bb644f4f29b17ba62d72009c8c
+msgid "**Max cloud cover**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:188
+#: ../../source/userguides/imagery_agent_instructions.rst:197
+#: 761da439cf8f4f54aa159466e63b4aef f4521c64137c49f4a82ff0447eb78914
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:189
+#: ba03674c7837401b97d5677bea915333
+msgid "0.0–100. Default suggestion: 10.0 (10%) for optical analysis."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:190
+#: 81d6b1a878f74ef79a2df322e8dc4096
+msgid "**Max off-nadir angle**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:191
+#: ../../source/userguides/imagery_agent_instructions.rst:194
+#: ../../source/userguides/imagery_agent_instructions.rst:200
+#: 12419100d66942ddabd93a187030946d 2ec5d8f1bb14451fb7cfd5c6a9e15b5e
+#: 8555ee673a86467ab1a8ccf17a47a8be
+msgid "Optional"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:192
+#: 84e110bc461e4a329310f18b37fe0b95
+msgid "Lower values = more vertical (nadir) imagery = less distortion."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:193
+#: 7f7a1070ba1140118c927aa4dd7c0e92
+msgid "**Min AOI intersection**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:195
+#: ac7273431a884cd390ae7b5b3a803679
+msgid "Minimum overlap between the image footprint and AOI. Default: 50.0 (50%)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:196
+#: 885b51ffea4247629c12ed1ac4c1885e
+msgid "**Resolution**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:198
+#: 072de038ba904389b4c3f679881402a9
+msgid ""
+"``maxResolution`` in m/px. Should match the AI model requirements (see "
+"Section 6)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:199
+#: 210b081dcac048b38518b6445be5a17b
+msgid "**Product type**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:201
+#: 80bc5c01636a4391b90793863067a6b8
+msgid "``IMAGE`` (single capture) or ``MOSAIC`` (pre-composed layer)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:203
+#: 1bdfff188f4a450b903ae876ce852447
+msgid "**4.2.1 Historical Imagery Search**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:205
+#: 6b890562760a4b5bb6432437f6985c52
+msgid ""
+"For tasks requiring specific past conditions (change detection, damage "
+"assessment, agricultural monitoring):"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:207
+#: 464f8bcb84134e6e97e285e87535eb0d
+msgid "Collect search parameters (table above)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:208
+#: 6734949588bb4280afd243236ecc616a
+msgid "Execute the search via the Imagery Search API:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:224
+#: 6ec1ee82e0bb405c9278efeaa5c5c86c
+msgid "Present results to user (see Section 5)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:227
+#: f4b0e5b38974489bbef1e55bd90633c5
+msgid ""
+"By default, the search is performed for ALL providers existing on the "
+"platform. Thus, the search results may contain images that are not "
+"available to the user for processing. Image availability means that "
+"``imagejson.providerName in /user/status.searchDataProviders[]``."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:229
+#: 70574563f23e404c971c59d094d03b7c
+msgid ""
+"``\"hideUnavailable\": true`` filter can be provided to ensure that the "
+"results include only images available for processing."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:231
+#: 066b63b2a8d74cbd91115c6fb46801ab
+msgid "**4.2.2 Imagery Basemap with Date Filter**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:233
+#: 8a61c81add2945379d6474250ff21aff
+msgid ""
+"For tasks that need generally recent imagery but with date awareness "
+"(e.g., \"Show me imagery from 2023 for this area\"):"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:235
+#: 16ca8f1c9aa14edea8b8f9050c575065
+msgid ""
+"Search mosaics (``productTypes: [\"MOSAIC\"]``) filtered by the AOI and "
+"date."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:236
+#: 6bff731bc65943cdadb0074fb0748dbe
+msgid ""
+"The Global Mosaic and ArcGIS metadata can be searched to identify when "
+"specific tiles were captured."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:237
+#: 6f185ca3282f489fb941d3c601a3328f
+msgid "Present results with acquisition dates."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:239
+#: 19b722695fa14cfc96973467f2848665
+msgid "**4.2.3 Scheduled Search**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:241
+#: 3ff2fe57a1714ddaa2ac2476e2d32377
+msgid ""
+"For monitoring tasks where the user wants to be notified about new "
+"imagery as it becomes available:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:243
+#: 0caa9730a85d42a4b6f74a9c51009468
+msgid "Confirm the user's AOI(s) — multiple areas are supported."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:244
+#: b1daea827d28422cbd6a205b93f9b601
+msgid "Collect search criteria (same as above)."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:245
+#: 7139ae16b2a541099eaef6676fd692b4
+msgid "Explain the scheduled search feature:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:254
+#: a518fae884fc42f59cc17e37672c5a9e
+msgid "Guide the user to:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:256
+#: 710515d555404270a7e4c6b8e15b2901
+msgid ""
+"**Web app:** Draw or upload AOIs → set search parameters → click \"Search"
+" Imagery\" → click \"Save as schedule\"."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:257
+#: 2a344224d95a407daf5a2a028e19f862
+msgid ""
+"**Limitations:** Instant search is limited to 700 km² total; larger areas"
+" trigger a background search."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:261
+#: fd3c52a5ba104896b7740e8c1aa5fd88
+msgid "5. Presenting and Ranking Search Results"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:263
+#: 9ff24bd3ff684377bb3d6f987103f948
+msgid ""
+"When imagery search returns results, the agent must help the user select "
+"the best option."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:265
+#: 915d584ba9644e199093ff22911f440f
+msgid "**5.1 Ranking criteria (in order of priority):**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:267
+#: e7be7733c30f4dd5979c8d75edf0fe15
+msgid ""
+"**Provider availability** — Prioritize providers the user has access to "
+"(\"Available for me\"). Images from unavailable providers cannot be used "
+"without a plan upgrade."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:268
+#: 90d51dbac330428f9468be12507d9904
+msgid ""
+"**AOI coverage** — Higher intersection percentage between the image "
+"footprint and the user's AOI is better."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:269
+#: f93b0dfb164548bc8023960fb2afbe50
+#, python-format
+msgid ""
+"**Cloud cover** — Lower is better. Recommend images with ≤ 10% cloud "
+"cover."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:270
+#: 55497a38a185420d82cefe91d744f690
+msgid ""
+"**Recency** — More recent images are generally preferred unless the user "
+"specified a historical date."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:271
+#: 1c21662c953a41b18a86be3829cd84b8
+msgid ""
+"**Off-nadir angle** — Lower values mean more vertical (less distorted) "
+"imagery."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:272
+#: 570fb7eb7557443f86036cedbd7928cf
+msgid ""
+"**Resolution** — Must meet the minimum requirements for the intended AI "
+"model."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:274
+#: 9926ac367b0449dcb5154585c3cd0a0c
+msgid "**5.2 Result presentation format:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:276
+#: 4f32c9f2e9354f75ba50cafe8432deb1
+msgid "For each recommended image, the agent should present:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:290
+#: 25ced3478baf4d4a83c18b9c3cb3946e
+msgid "**5.3 Comparison guidance:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:292
+#: 3988673fbb00459680ef1d5a3fb4ee3a
+msgid "If multiple suitable images exist, the agent should highlight trade-offs:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:304
+#: 28a4502ecadc4001b025705e18e363e9
+msgid "6. Connecting to Processing"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:306
+#: 133f91b167c24b70b3c2a3e29c5e7e30
+msgid ""
+"After imagery is selected, the agent guides the user to create and run "
+"the AI-mapping processing."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:308
+#: 35f05c95711a437dac047cbca92a4aef
+msgid "**6.1 Model–imagery compatibility check:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:310
+#: dad3546b35824cf583ff2ec7f0538662
+msgid ""
+"The agent MUST verify that the selected imagery meets the model's "
+"resolution requirements:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:316
+#: 22d936b6d42d49ac9a6b992768d14e57
+msgid "Model"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:317
+#: 18f45e55b43444bba37dd3f0b0655fb6
+msgid "Recommended GSD"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:318
+#: b044c9a946134ae7972a392c3e0a93be
+msgid "Required zoom"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:319
+#: 2d690abd0f1d479f84021203c4317e65
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:320
+#: ../../source/userguides/imagery_agent_instructions.rst:323
+#: ../../source/userguides/imagery_agent_instructions.rst:326
+#: ../../source/userguides/imagery_agent_instructions.rst:329
+#: 2ace07884f7149c7afddde367ae35674 6f52a515810f4afaa4c207b5831346fe
+#: d78e900f81644bed83057856052d9157 f2c65005a98c4c01a91f5d63bfc4c2da
+msgid "0.5 m/px"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:321
+#: ../../source/userguides/imagery_agent_instructions.rst:324
+#: ../../source/userguides/imagery_agent_instructions.rst:327
+#: ../../source/userguides/imagery_agent_instructions.rst:330
+#: 0f3c60406bf146be81e2e0520dedc59f 0fa44cb2d81b4dec9eb3805bbe92cf4f
+#: 98408df67ede4e7381bfe4f5196e09b9 e50f2e2301d143adb8d1e79bc8a4407f
+msgid "17–18"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:322
+#: e1839f08dcb44b91a2becb0b4fb2901d
+msgid "🌲 Forest"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:325
+#: e467f7f5fa8840898b3fd8f0b500a303
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:328
+#: 92dbde9a89734547b978666642774ce4
+msgid "🏗️ Construction"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:331
+#: cdad8edde7b2487b98ce1cd98e9c4ded
+msgid "🏠 Buildings (Aerial)"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:332
+#: 84cf4d9aa6e84c08aa9662ccd8197eab
+msgid "0.1 m/px"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:333
+#: 9bea28b3f1d34331b2bec4e37f9a60b8
+msgid "19–20"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:335
+#: 72e889ac5b3a45c2877e57bfb508f544
+msgid ""
+"If the imagery resolution is outside the required range, **warn the "
+"user** that results may be degraded."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:337
+#: c9f62ae646d14305bc6e5c41bc38ae66
+msgid "**6.2 Cost estimation:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:339
+#: 5b6a541a853a44b684a6c998028ba347
+msgid "Before creating a processing, the agent should estimate the cost:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:341
+#: 9aa4a330c4ed47288c8e9196b48f1ace
+msgid "``Cost = Area (km²) × (Processing Price + Data Price)``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:343
+#: c5252e664a8e4e6abf09b80245bf8d34
+msgid ""
+"If the user uploads their own imagery or uses a Custom URL: **Data Price "
+"= 0**."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:344
+#: 4477c9da9b40422db90132b818000160
+msgid "For basemap providers (Mapbox, ArcGIS): Data price varies by zoom level."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:345
+#: 1d36227dae9148f289167fcff630de01
+msgid "For commercial imagery ordering: Data price varies by sensor resolution."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:347
+#: 284066abc3d44b32a9ca3c6a554f4da8
+msgid "Use the cost estimation API:"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:362
+#: 44a36873273942898c8235386cfd211f
+msgid "**6.3 Launching the processing:**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:377
+#: 3dc0eb89797c419281e36cecabad6dc4
+msgid ""
+"The agent should confirm with the user before initiating the processing, "
+"as it consumes credits."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:381
+#: a6b9732c1c9947deb3b1b07d67831595
+msgid "7. Edge Cases and Error Handling"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:387
+#: 3d492dac787d4ba9be557061171abc0d
+msgid "Situation"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:388
+#: 3787956adb0044dd864253b7c3e9a060
+msgid "Agent behavior"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:389
+#: 4ced654cc5794260a2e22f5a0f158346
+msgid "No search results found"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:390
+#: 58061bf408414354bd7d678c0dfa2188
+msgid ""
+"Suggest broadening the date range, increasing cloud cover threshold, or "
+"reducing the AOI. If monitoring is needed, recommend a Scheduled Search."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:391
+#: 3e13ed7808ec4544b4eb9aa8dc1a819d
+msgid "User's AOI exceeds plan limits"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:392
+#: 918306df417548918f47e0b4457f5404
+msgid ""
+"Free plan: max 25 km² (by bounding box). Inform the user and suggest "
+"splitting the area or upgrading to Premium."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:393
+#: 7a719a2c99294bbaadfee2f30ca6e11e
+msgid "Selected provider is unavailable"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:394
+#: 05ea846128044350a1e921208944e54e
+msgid ""
+"Warn: \"This provider requires Mapflow Premium.\" Suggest alternative "
+"available providers."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:395
+#: 9490cfa190b04014a6c38a2f0e701896
+msgid "Image resolution doesn't match model"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:396
+#: a8b459cb6ce34152a7dee81d5affc4cd
+msgid ""
+"Warn about potential quality degradation. Suggest a different zoom level "
+"or provider."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:397
+#: 278b8fabe4e7428c844b6685fa2778e1
+msgid "Upload file too large"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:398
+#: 4b2a475c1b7448d5b8b1f7f6041caa2c
+msgid "Recommend the API/QGIS plugin (higher limits) or file compression/tiling."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:399
+#: 8c3674bbd0e244c0bc19b36375f29e45
+msgid "AOI doesn't intersect image extent"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:400
+#: a1d4871b18f54ec3a1972be179fc7ac4
+msgid "The processing will fail. Agent must validate overlap before launching."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:401
+#: f569586d13954b88b2e461cbc52eb1a6
+msgid "Ambiguous user request"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:402
+#: 2ae3dc93cdbf448da1a0feee68c8a381
+msgid ""
+"Ask clarifying questions — never assume critical parameters like date or "
+"area."
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:406
+#: cab3ed43ba934cc6aedd6a14a8d3afe0
+msgid "8. Example End-to-End Conversations"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:408
+#: 0837a4a4797047079ea022675454a6e7
+msgid "**Example 1: User has own imagery**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:427
+#: 2a9c7543d745442c89742a290d7876e1
+msgid "**Example 2: Date doesn't matter**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:447
+#: f0fbd3a2edc94801af65459eee940d2e
+msgid "**Example 3: Historical imagery needed**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:472
+#: 9c311be7fda349079ae2c3839b1d0337
+msgid "**Example 4: Scheduled monitoring**"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:491
+#: 79970bf4284d4e9fb03a7bc25b9ba674
+msgid "9. Quick Reference: API Endpoints"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:497
+#: 071ef8c4e8a44fc3b2cf17a4defc00a2
+msgid "Action"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:498
+#: 0402d52a6b84480f875b7442995ee5c2
+msgid "Endpoint"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:499
+#: 336363ba44bd4683b8035984354f996f
+msgid "Search imagery catalog"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:500
+#: 7ca0ef72c5874c81b808c4598ad479c3
+msgid "``POST /catalog/meta``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:501
+#: 874859de73d54d2a9795187a262d6dd6
+msgid "Create mosaic (for upload)"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:502
+#: c66ffc76e02949769b847a2f8b0ab214
+msgid "``POST /rasters/mosaic``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:503
+#: 72f2c0f6a8b84a6c9e8e26108656278f
+msgid "Upload image to mosaic"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:504
+#: d88d04daefe74ed99d99a354bfe544cb
+msgid "``POST /rasters/mosaic/{id}/image``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:505
+#: d286f0c8e01d46f49785ba1e9775dfdb
+msgid "Check storage usage"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:506
+#: 8cdf57e25b6e4d9dab185a05275508d7
+msgid "``GET /rasters/memory``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:507
+#: dec24f20c3ed46a58fa6adee0dc5762e
+msgid "Estimate processing cost"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:508
+#: 81a63fa4a2c044c5803a670396efc9e2
+msgid "``POST /processing/cost/v2``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:509
+#: 006eb58e8509440a98b2bf6a2bbab532
+msgid "Create and run processing"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:510
+#: 4189f59d45984243b0b44903ff4584be
+msgid "``POST /processings/v2``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:511
+#: b509b7bfd9e4405eabe0b34762a4a07c
+msgid "Check processing status"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:512
+#: 9707c1ff3a3147e38ab85b3d6b96fb58
+msgid "``GET /processings/{id}/v2``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:513
+#: 0922494a4c1d42fcbf2dccdeda8203ad
+msgid "Download results"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:514
+#: 07302e6677a2463ea357eca28da513db
+msgid "``GET /processings/{id}/result``"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:515
+#: 8327682d14224450a0eae15a0c514091
+msgid "Get user status and models"
+msgstr ""
+
+#: ../../source/userguides/imagery_agent_instructions.rst:516
+#: d9b11edeb5f3480ab2186fd813f46d4d
+msgid "``GET /user/status``"
+msgstr ""
+

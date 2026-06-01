@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/swimming_pools_model.rst:2 717aedd2962945cfae86f77dcdb879d1
-msgid "|:whale:| Swimming pools (CUSTOM)"
+msgid "Swimming pools (CUSTOM)"
 msgstr ""
 
 #: ../userguides/swimming_pools_model.rst:5 cd9fa636d798420686d37b280318cdd1
@@ -86,4 +86,7 @@ msgid ""
 "b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ "
 "about the use cases and the model application"
 msgstr ""
+
+#~ msgid "|:whale:| Swimming pools (CUSTOM)"
+#~ msgstr ""
 

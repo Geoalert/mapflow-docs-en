@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -36,13 +36,13 @@ msgstr ""
 
 #: ../userguides/prices.rst:11 4a1faf408e5443dd8fd35f33c07ac429
 msgid ""
-"In order to top up you balance go to `your Mapflow profile "
+"In order to top up your balance go to `your Mapflow profile "
 "<https://app.mapflow.ai/account/balance>`_ and choose one of the options."
 " You will be asked to pay online."
 msgstr ""
 
 #: ab96ece7e1f645f6bc0dc5951795fa04
-msgid "Top up you balance"
+msgid "Top up your balance"
 msgstr ""
 
 #: ../userguides/prices.rst:24 7861eb396b79436c9ad2f4d74822690c
@@ -134,10 +134,9 @@ msgid ""
 "available. It includes a monthly subscription fee and a package of "
 "credits. The subscription fee is charged monthly, the credits are valid "
 "for 12 months. It enables some premium options like custom area size, use"
-" of the any custom model that you have access to, priority support, and "
-"the use of commercial satellite data providers. Check the `Mapflow "
-"pricing page <https://mapflow.ai/pricing>`_ for details of the "
-"subscription."
+" of any custom model that you have access to, priority support, and the "
+"use of commercial satellite data providers. Check the `Mapflow pricing "
+"page <https://mapflow.ai/pricing>`_ for details of the subscription."
 msgstr ""
 
 #: f74d8a6c8174461aa6608c61fa538593
@@ -180,8 +179,8 @@ msgid "Default Mapflow models"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: a42832e69bf247be9702b17d81f4fdd1
-msgid "Model"
+#: 3963665cab2244bc8faf418f536b8bde
+msgid "Workflow"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -211,27 +210,17 @@ msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: fdd05e28931a4bd596e24b16a124c124
-msgid "Simplification: 5"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 21c328e81e734838be5bc98b652aa3cd
-msgid "Heights estimation: 20"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 84a985b6fe4e435b992e2faae4addee6
-msgid "Merge with Opensteeetmap: 0"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: c58a9a1a42b441d3a18c538ac34773b4
-msgid "Align with roads: 0"
+msgid "Simplification: 2"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
 msgid "Height Estimation: 10"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 84a985b6fe4e435b992e2faae4addee6
+msgid "Merge with Opensteeetmap: 0"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -245,7 +234,7 @@ msgid "4"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 401d2299f87e494c984fac2c4eb516f5 a7477d5c2c86420db29c005d823fcc1d
+#: 401d2299f87e494c984fac2c4eb516f5
 msgid "\\-"
 msgstr ""
 
@@ -255,13 +244,13 @@ msgid "Forest and trees"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv
-#: bec3aa489aaf435b872f00dc9f4cf20b
-msgid "Height estimates: 10"
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Height estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: ba32cdb8507343ed82f274503c8a1fcb
-msgid "Crowns extraction: 10"
+msgid "Crowns extraction: 5"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -274,13 +263,29 @@ msgstr ""
 msgid "5"
 msgstr ""
 
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 39b482e8237a4776a5e9042f5f3afaab
+msgid "Download Open Data"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 1e0c034a39214e119de5f2b34c5e4a5c
+msgid "1"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 6ea0b7ec2f174a0696acad690c6e4035
+msgid "Water | Landuse | Roads | Buildings"
+msgstr ""
+
 #: ../userguides/prices.rst:93 98cdc97c7d0b41d3b1a937731c73e992
 msgid ""
 "If you want to have a custom model with another set of options, consider "
-"applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Custom "
-"model pricing depends on the complexity of the task and the total project"
-" size. To get the quotation and apply the discount, please share your "
-"project requirements."
+"applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Pricing for"
+" custom models varies by project scope. To get the quotation and apply "
+"the discount, please share your project requirements (contact "
+"sales@geoalert.io)."
 msgstr ""
 
 #: ../userguides/prices.rst:96 0383f00fe6d04e37aa635ee55cb74dff
@@ -299,9 +304,9 @@ msgstr ""
 
 #: ../userguides/prices.rst:103 56c9dbb67c2244c194849fafa806668b
 msgid ""
-"When using default imagery basemaps (Mapbox, Arcgis WorldView Imagery), "
-"the price starts from a min. of 1 credit, depending on the model and the "
-"zoom level (`What is zoom? "
+"When using default imagery basemaps (Mapbox, Arcgis World Imagery), the "
+"price starts from a min. of 1 credit, depending on the model and the zoom"
+" level (`What is zoom? "
 "<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if you change the "
 "zoom, the price is automatically recalculated."
 msgstr ""
@@ -347,22 +352,15 @@ msgid "Mapbox"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1 141121f730e14bcabd9e4bd7ceaaa460
-#: 33bc1974a17344ed9803bd665f0f3603 f277886f817c43d7a52024b4b753379e
 msgid "9"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1 410e48152d484f2db32cf12366b7fdda
-#: 98836d2ff77348d08bf13642bf89a86c 9bc841db680741cdbc724fe772ab29fd
 msgid "3"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1 1e0c034a39214e119de5f2b34c5e4a5c
-#: 8dac9bc8fe384d97abc928d7ec709e2d dff1ed63077a4d16ae4009fd770d20b7
-msgid "1"
-msgstr ""
-
 #: ../userguides/_static/csv/data_prices.csv:1 19488055bcbd43e1816fb944bdd1beea
-msgid "ArcGIS WorldView"
+msgid "ArcGIS World Imagery"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1 04aa49b7179e42d8bc029e3eef59b072
@@ -378,9 +376,7 @@ msgid "180"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1 58fc22c9a0ac4a5a8cf29a975105a1cb
-#: 65b431fa236846b793e94c98c8b933d5 88576795ba2b4ad586b40d33aca31341
-#: 93cd845612f34a9ea70db3a43ae3617e a7a26de8c83e481ca1806a481dbaab0a
-#: b6cef1e581d54f1784678929657eb6a5
+#: 93cd845612f34a9ea70db3a43ae3617e b6cef1e581d54f1784678929657eb6a5
 msgid "--"
 msgstr ""
 
@@ -411,13 +407,13 @@ msgid ""
 msgstr ""
 
 #: ../userguides/prices.rst:124 9da77890034c4462806dd06a2dc84d0b
-msgid "``Cost = 3.3 * (5+46) = 168 credits``"
+msgid "``Cost = 3.3 * (8 + 60) = 224 credits``"
 msgstr ""
 
 #: ../userguides/prices.rst:127 69d105be736c47c780bcc59d7a823c65
 msgid ""
 "*I want to process 0.01 sq.km of My imagery using the Buildings model and"
-" applying the Polygonization option.*"
+" applying the Simplification option.*"
 msgstr ""
 
 #: ../userguides/prices.rst:129 09846d41ec76487f800d9bed7e15bb75
@@ -427,9 +423,95 @@ msgid ""
 msgstr ""
 
 #: ../userguides/prices.rst:131 ed083982b601466eaef322f390d8296a
-msgid "``Cost = 1 * (5+3) = 8 credits``"
+msgid "``Cost = 1 * (8 + 2) = 10 credits``"
 msgstr ""
 
 #~ msgid "Simplification: 3"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to top up you balance "
+#~ "go to `your Mapflow profile "
+#~ "<https://app.mapflow.ai/account/balance>`_ and choose "
+#~ "one of the options. You will be"
+#~ " asked to pay online."
+#~ msgstr ""
+
+#~ msgid "Top up you balance"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Currently Mapflow provides two pricing "
+#~ "models: pay-as-you-go and "
+#~ "subscription plans. Currently the only "
+#~ "plan **\"Mapflow Premium\"** is available. "
+#~ "It includes a monthly subscription fee"
+#~ " and a package of credits. The "
+#~ "subscription fee is charged monthly, the"
+#~ " credits are valid for 12 months. "
+#~ "It enables some premium options like "
+#~ "custom area size, use of the any"
+#~ " custom model that you have access"
+#~ " to, priority support, and the use"
+#~ " of commercial satellite data providers."
+#~ " Check the `Mapflow pricing page "
+#~ "<https://mapflow.ai/pricing>`_ for details of "
+#~ "the subscription."
+#~ msgstr ""
+
+#~ msgid "Model"
+#~ msgstr ""
+
+#~ msgid "Simplification: 5"
+#~ msgstr ""
+
+#~ msgid "Heights estimation: 20"
+#~ msgstr ""
+
+#~ msgid "Align with roads: 0"
+#~ msgstr ""
+
+#~ msgid "Height estimates: 10"
+#~ msgstr ""
+
+#~ msgid "Crowns extraction: 10"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to have a custom "
+#~ "model with another set of options, "
+#~ "consider applying for `Mapflow Custom "
+#~ "<https://mapflow.ai/contacts>`_. Custom model "
+#~ "pricing depends on the complexity of "
+#~ "the task and the total project "
+#~ "size. To get the quotation and "
+#~ "apply the discount, please share your"
+#~ " project requirements."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When using default imagery basemaps "
+#~ "(Mapbox, Arcgis WorldView Imagery), the "
+#~ "price starts from a min. of 1 "
+#~ "credit, depending on the model and "
+#~ "the zoom level (`What is zoom? "
+#~ "<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if"
+#~ " you change the zoom, the price "
+#~ "is automatically recalculated."
+#~ msgstr ""
+
+#~ msgid "ArcGIS WorldView"
+#~ msgstr ""
+
+#~ msgid "``Cost = 3.3 * (5+46) = 168 credits``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*I want to process 0.01 sq.km of"
+#~ " My imagery using the Buildings model"
+#~ " and applying the Polygonization option.*"
+#~ msgstr ""
+
+#~ msgid "``Cost = 1 * (5+3) = 8 credits``"
 #~ msgstr ""
 

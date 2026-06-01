@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/search_mosaic.rst:1
-#: 802ca8e0c67a4772bd89d1850f7bffe5
-msgid "Mapflow Data API enables search for the Global Mosaics metadata."
+#: a4ebc45834ba43e6aaf0a6c268f10819
+msgid "Mapflow Imagery Search enables searching metadata for mosaic providers (e.g., ArcGIS World Imagery, Global mosaic)."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:4
 #: ed4c23b385f948c788c2d0c72d432784
-msgid "Commercial 🌏 Global mosaic is the annually updated satellite imagery composite covering most of the World. The mosaic is composed of \"Jilin\" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory."
+msgid "**🌏 Global mosaic** is the annually updated satellite imagery composite covering most of the World. The mosaic is composed of \"Jilin\" Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 14. **🌏 ArcGIS World Imagery** is a provider of the global coverage composed of high and medium resolution satellite imagery and aerial imagery, hosted by ESRI. The frequency of updating images is 1-5 years depending on the territory."
 msgstr ""
 
 #: ../userguides/search_mosaic.rst:7
