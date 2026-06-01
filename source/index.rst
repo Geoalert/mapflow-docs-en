@@ -24,6 +24,7 @@ Getting Started with Mapflow
    :maxdepth: 1
 
    userguides/get_started
+   userguides/mapflow_agent
    userguides/prices
    userguides/team_accounts
    userguides/my_imagery
