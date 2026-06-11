@@ -6,6 +6,13 @@
 Extracting of rooftops of buildings from imagery of high resolution.
 High performance deep learning model is trained to detect the buildings roofs.
 
+|:label:|
+
+:Version: 07-06
+:Geo Domain: Global
+:Model method: Segmentation
+:GSD / Map Zoom: 0.3 m / z19
+
 *Note:* The building predictions with area less than 20 sq.m. are removed to avoid clutter
 
 The model does not extract the footprints directly, because they are not clearly visible in the images, but it can obtain them, just like human cartographers, by moving the roof to the bottom of the wall (see Additional options).
@@ -18,94 +25,65 @@ The model does not extract the footprints directly, because they are not clearly
 * **Merge with OSM** - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option.In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index) and if there is one, we replace our result with OSM polygon. This makes the result not based on the image, so the buildings can be shifted from actual positions. Also the corrected buildings are rotated to align with the nearest roads downloaded from OSM. 
 * **Height Estimation (beta)** – feature leverages a dedicated regression-based model that infers height using visual indicators such as shadow length and visible wall segments. The result is what is termed **3D building footprints** where the building's countour is projected to ground level instead of the roof outline. This is especially useful for oblique imagery, where roofs often appear shifted.
 
-A sample of processing result with different options for Prague, Czech Republic.
-
-.. figure:: _static/processing_result/buildings_model_7.jpg
-   :alt: Processing result of buildings model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Result without postprocessing: irregular building shapes, but best fit to the actual rooftop contour seen in the image.
-
-.. figure:: _static/processing_result/buildings_model_8.jpg
-   :alt: Processing result of buildings model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Result with simplification: most of the buildings become rectangular.
-
-.. figure:: _static/processing_result/buildings_model_10.jpg
-   :alt: Processing result of buildings model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Result merged with OSM: some of the buildings imported from OSM have more accurate shape, but may be shifted from the image position.
-
-.. figure:: _static/processing_result/buildings_model_heights.jpg
-   :alt: Processing result of buildings model with height estimation in Mapflow Web
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-
-   Processing result of buildings model with height estimation in Mapflow Web
-
    
 Benchmarks - segmentation
 ----------------------------
 
 
-**Houston, U.S. (-95.2920, 29.7718)**
- – `View on the Map <https://app.mapflow.ai>`_
+Latest update — **🏠 Buildings v.07-06** (Global, Segmentation, 0.3 m / z19).
+The model was evaluated on a global validation set of 7 areas of interest (AOI)
+against manually annotated ground truth, and compared with the **previous version**
+(the current production 🏠 Buildings model). Metrics are object-wise (a prediction
+counts as a true positive when it matches a ground-truth footprint). Each cell reads
+*previous* → **v.07-06** with the change (Δ) in parentheses; a positive Δ means
+v.07-06 improved.
 
 .. list-table::
-   :widths: 15 20 15 10 20
+   :widths: 22 26 26 26
    :header-rows: 1
 
-   * - Model version
-     - Model type
-     - Zoom level
-     - F1 (AOI)
-     - Urban-pattern
-   * - 🏠 Buildings v.8a
-     - Instance segmentation
-     - zoom 18
-     - objectwise 0.72
-     - low-rise – urban mixed
+   * - AOI (location)
+     - F1  (prev → v.07-06)
+     - Precision  (prev → v.07-06)
+     - Recall  (prev → v.07-06)
+   * - United States
+     - 0.916 → **0.960**  (+0.044 ▲)
+     - 0.870 → **0.952**  (+0.082 ▲)
+     - 0.968 → 0.968  (±0.000)
+   * - Canada
+     - 0.809 → **0.809**  (+0.000 ±)
+     - 0.752 → **0.771**  (+0.019 ▲)
+     - 0.874 → 0.851  (−0.023 ▼)
+   * - South Africa
+     - 0.782 → **0.739**  (−0.043 ▼)
+     - 0.956 → **0.891**  (−0.065 ▼)
+     - 0.662 → 0.631  (−0.031 ▼)
+   * - New Zealand
+     - 0.788 → **0.734**  (−0.054 ▼)
+     - 0.722 → **0.691**  (−0.031 ▼)
+     - 0.867 → 0.783  (−0.084 ▼)
+   * - Côte d'Ivoire
+     - 0.778 → **0.717**  (−0.061 ▼)
+     - 0.863 → **0.814**  (−0.049 ▼)
+     - 0.708 → 0.640  (−0.068 ▼)
+   * - United Kingdom
+     - 0.646 → **0.703**  (+0.057 ▲)
+     - 0.539 → **0.650**  (+0.111 ▲)
+     - 0.804 → 0.765  (−0.039 ▼)
+   * - Australia
+     - 0.579 → **0.674**  (+0.095 ▲)
+     - 0.525 → **0.625**  (+0.100 ▲)
+     - 0.646 → 0.732  (+0.086 ▲)
+   * - **Global (mean of 7 AOIs)**
+     - 0.757 → **0.762**  (+0.005 ▲)
+     - 0.747 → **0.771**  (+0.024 ▲)
+     - 0.790 → 0.767  (−0.023 ▼)
 
-.. figure:: _static/processing_result/custom_models/houston.webp
-   :alt: Processing result of construction model
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
-|
+*Object-wise F1 / Precision / Recall measured against ground-truth footprints; evaluation run 2026-06-09.
+"prev" = previous version (current production 🏠 Buildings); ▲ improvement, ▼ regression vs the previous version.*
 
-
-**Kolomna, Russia (38.7657, 55.0928)**
- – `View on the Map <https://app.mapflow.ai/>`_
-
-.. list-table::
-   :widths: 15 20 15 10 20
-   :header-rows: 1
-
-   * - Model version
-     - Model type
-     - Zoom level
-     - F1 (AOI)
-     - Urban-pattern
-   * - 🏠 Buildings v.8a
-     - Instance segmentation
-     - zoom 18
-     - objectwise 0.75
-     - urban mixed - regular
-
-.. figure:: _static/processing_result/custom_models/kolomna.webp
-   :alt: Processing result of construction model
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
-|
+See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the
+area-by-area breakdown, including comparison with the previous candidate (v.02-06)
+and prediction-vs-ground-truth overlays.
 
 
