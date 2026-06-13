@@ -24,14 +24,9 @@ Getting Started with Mapflow
    :maxdepth: 1
 
    userguides/get_started
-   userguides/mapflow_agent
-   userguides/prices
-   userguides/team_accounts
-   userguides/my_imagery
-
 
 *****************
-Mapflow AI models
+Mapflow Services
 *****************
 
 .. toctree::
@@ -39,6 +34,9 @@ Mapflow AI models
    :maxdepth: 3
 
    userguides/pipelines
+   userguides/mapflow_agent
+   userguides/team_accounts
+   userguides/my_imagery
 
 *************
 Mapflow API
@@ -80,6 +78,7 @@ Reference materials
    :glob:
    :maxdepth: 1
 
+   userguides/prices
    userguides/reference
 
 ******************************************
@@ -88,17 +87,6 @@ Additional Mapflow tools and integrations
 
 * :download:`Mapflow CLI Python Tools <https://github.com/Geoalert/mapflow-api-scripts>`
 * :download:`Mapflow QGIS Plugin <https://plugins.qgis.org/plugins/mapflow/>`
-
-***************************
-Frequently asked questions
-***************************
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   
-   faq.rst
-   
    
 
 .. only:: html

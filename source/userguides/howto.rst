@@ -1,6 +1,6 @@
 .. _howto:
 
-Userguides - How To 🙋‍♂️
+Userguides - How To 👨🏻‍🎓
 =========================
 
 .. _oauth2_setup:

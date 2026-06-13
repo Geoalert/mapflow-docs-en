@@ -6,7 +6,7 @@
 Extracting of rooftops of buildings from imagery of high resolution.
 High performance deep learning model is trained to detect the buildings roofs.
 
-|:label:|
+**Model tags** |:label:|
 
 :Version: 07-06
 :Geo Domain: Global
@@ -32,58 +32,74 @@ Benchmarks - segmentation
 
 Latest update — **🏠 Buildings v.07-06** (Global, Segmentation, 0.3 m / z19).
 The model was evaluated on a global validation set of 7 areas of interest (AOI)
-against manually annotated ground truth, and compared with the **previous version**
-(the current production 🏠 Buildings model). Metrics are object-wise (a prediction
-counts as a true positive when it matches a ground-truth footprint). Each cell reads
-*previous* → **v.07-06** with the change (Δ) in parentheses; a positive Δ means
-v.07-06 improved.
+against manually annotated ground truth. Metrics are area-based: IoU is the
+intersection-over-union of the predicted and ground-truth building masks, and
+F1 / Precision / Recall are computed on the overlapping mask area.
 
 .. list-table::
-   :widths: 22 26 26 26
+   :widths: 24 14 12 14 14 14
    :header-rows: 1
 
    * - AOI (location)
-     - F1  (prev → v.07-06)
-     - Precision  (prev → v.07-06)
-     - Recall  (prev → v.07-06)
+     - Predicted features
+     - IoU
+     - F1
+     - Precision
+     - Recall
    * - United States
-     - 0.916 → **0.960**  (+0.044 ▲)
-     - 0.870 → **0.952**  (+0.082 ▲)
-     - 0.968 → 0.968  (±0.000)
+     - 65
+     - 0.907
+     - **0.951**
+     - 0.983
+     - 0.921
    * - Canada
-     - 0.809 → **0.809**  (+0.000 ±)
-     - 0.752 → **0.771**  (+0.019 ▲)
-     - 0.874 → 0.851  (−0.023 ▼)
-   * - South Africa
-     - 0.782 → **0.739**  (−0.043 ▼)
-     - 0.956 → **0.891**  (−0.065 ▼)
-     - 0.662 → 0.631  (−0.031 ▼)
-   * - New Zealand
-     - 0.788 → **0.734**  (−0.054 ▼)
-     - 0.722 → **0.691**  (−0.031 ▼)
-     - 0.867 → 0.783  (−0.084 ▼)
-   * - Côte d'Ivoire
-     - 0.778 → **0.717**  (−0.061 ▼)
-     - 0.863 → **0.814**  (−0.049 ▼)
-     - 0.708 → 0.640  (−0.068 ▼)
-   * - United Kingdom
-     - 0.646 → **0.703**  (+0.057 ▲)
-     - 0.539 → **0.650**  (+0.111 ▲)
-     - 0.804 → 0.765  (−0.039 ▼)
+     - 103
+     - 0.870
+     - **0.930**
+     - 0.934
+     - 0.927
    * - Australia
-     - 0.579 → **0.674**  (+0.095 ▲)
-     - 0.525 → **0.625**  (+0.100 ▲)
-     - 0.646 → 0.732  (+0.086 ▲)
+     - 92
+     - 0.868
+     - **0.929**
+     - 0.914
+     - 0.945
+   * - New Zealand
+     - 76
+     - 0.838
+     - **0.912**
+     - 0.900
+     - 0.924
+   * - United Kingdom
+     - 68
+     - 0.813
+     - **0.897**
+     - 0.873
+     - 0.922
+   * - Côte d'Ivoire
+     - 102
+     - 0.663
+     - **0.797**
+     - 0.844
+     - 0.755
+   * - South Africa
+     - 95
+     - 0.495
+     - **0.662**
+     - 0.767
+     - 0.582
    * - **Global (mean of 7 AOIs)**
-     - 0.757 → **0.762**  (+0.005 ▲)
-     - 0.747 → **0.771**  (+0.024 ▲)
-     - 0.790 → 0.767  (−0.023 ▼)
+     - 601
+     - 0.779
+     - **0.868**
+     - 0.888
+     - 0.854
 
-*Object-wise F1 / Precision / Recall measured against ground-truth footprints; evaluation run 2026-06-09.
-"prev" = previous version (current production 🏠 Buildings); ▲ improvement, ▼ regression vs the previous version.*
+*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-13.*
 
-See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the
-area-by-area breakdown, including comparison with the previous candidate (v.02-06)
-and prediction-vs-ground-truth overlays.
+.. seealso::
+
+    📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the
+    area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays.
 
 

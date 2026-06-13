@@ -141,7 +141,7 @@ The user can draw the area using *Draw rectangle* / *Draw polygon* tool or uploa
 .. warning:: 
   Note that max limit of total area is **25 km²** for the free plan. The area limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this example a warning ``MAX BBOX 25 KM²`` appears in the example below (bounding box is highlighted):
   
-  .. image:: _static/bbox_explanation.png
+  .. image:: _static/limits/bbox_web.jpg
     :alt: Bounding Box
     :align: center
     :width: 15cm

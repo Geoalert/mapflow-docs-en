@@ -2,298 +2,288 @@
 
 .. _buildings_benchmark_07-06:
 
+.. role:: raw-html(raw)
+   :format: html
+
 🏠 Buildings v.07-06 — per-location benchmark
 ==============================================
 
 This page details the validation of the **🏠 Buildings v.07-06** segmentation model
-(Global domain, 0.3 m / z19) on a set of 7 areas of interest (AOI), compared against
-manually annotated ground truth. For reference, each AOI is also evaluated for the
-previous candidate **v.02-06** and the current production **🏠 Buildings** model.
+(Global domain, 0.3 m / z19) on a set of 7 areas of interest (AOI), compared against the
+**previous version** (the current production 🏠 Buildings model). For each AOI the two
+prediction masks are shown side by side; click any image to open it full size, and use
+the ← / → arrow keys to browse between them.
 
-All metrics are object-wise: a predicted footprint counts as a true positive (TP)
-when it matches a ground-truth footprint, otherwise it is a false positive (FP);
-unmatched ground-truth footprints are false negatives (FN).
-Evaluation run: 2026-06-09.
+All metrics are area-based: **IoU** is the intersection-over-union of the predicted and
+ground-truth building masks, and **F1 / Precision / Recall** are computed on the
+overlapping mask area. Evaluation run: 2026-06-13.
 
-.. note::
-   In the overlay images, predicted footprints are compared visually against the
-   ground-truth annotation for each AOI (combined view exported from the test pipeline).
+.. raw:: html
+
+   <style>
+   .mchip{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:middle;border:1px solid rgba(0,0,0,.25);}
+   .bench-row{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0 4px;}
+   .bench-fig{flex:1 1 320px;min-width:280px;margin:0;}
+   .bench-fig img{width:100%;height:auto;border:1px solid #cfd3dc;border-radius:4px;cursor:zoom-in;transition:opacity .15s;}
+   .bench-fig img:hover{opacity:.9;}
+   .bench-cap{font-size:.86em;font-weight:600;color:#444;padding:5px 2px;text-align:center;}
+   #blb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center;flex-direction:column;cursor:zoom-out;}
+   #blb.open{display:flex;}
+   #blb img{max-width:96%;max-height:88vh;border-radius:4px;box-shadow:0 8px 48px #000;object-fit:contain;}
+   #blb .blb-cap{color:#ddd;font-size:.85em;padding:12px;text-align:center;}
+   #blb .blb-hint{position:fixed;top:14px;right:18px;color:#888;font-size:.75em;}
+   </style>
+   <div id="blb"><img id="blb-img" src="" alt=""><div class="blb-cap" id="blb-cap"></div><div class="blb-hint">← → to browse · ESC to close</div></div>
+   <script>
+   (function(){
+     var lb=document.getElementById('blb'),im=document.getElementById('blb-img'),cap=document.getElementById('blb-cap');
+     var imgs=[],cur=-1;
+     function refresh(){imgs=Array.prototype.slice.call(document.querySelectorAll('.bench-img'));}
+     function show(i){if(i<0||i>=imgs.length)return;cur=i;var t=imgs[i];im.src=t.getAttribute('data-full')||t.src;cap.textContent=t.getAttribute('data-cap')||'';}
+     function open(t){refresh();show(imgs.indexOf(t));lb.classList.add('open');}
+     function close(){lb.classList.remove('open');im.src='';cur=-1;}
+     function step(d){if(cur<0)return;show((cur+d+imgs.length)%imgs.length);}
+     document.addEventListener('click',function(e){
+       var t=e.target;
+       if(t&&t.classList&&t.classList.contains('bench-img')){open(t);}
+       else if(lb.classList.contains('open')){close();}
+     });
+     document.addEventListener('keydown',function(e){
+       if(!lb.classList.contains('open'))return;
+       if(e.key==='Escape')close();
+       else if(e.key==='ArrowRight'){step(1);e.preventDefault();}
+       else if(e.key==='ArrowLeft'){step(-1);e.preventDefault();}
+     });
+   })();
+   </script>
+
+**Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **🏠 Buildings (previous)**
+
 
 United States
-~~~~~~~~~~~~~~
-
-.. list-table::
-   :widths: 26 14 14 14 22
-   :header-rows: 1
-
-   * - Model
-     - F1
-     - Precision
-     - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.945
-     - 0.923
-     - 0.968
-     - 60 / 5 / 2
-   * - **v.07-06**
-     - **0.960**
-     - **0.952**
-     - **0.968**
-     - 60 / 3 / 2
-   * - 🏠 Buildings (current)
-     - 0.916
-     - 0.870
-     - 0.968
-     - 60 / 9 / 2
-
-.. figure:: _static/processing_result/custom_models/buildings_07-06/US_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — United States
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
-
-   United States — prediction vs ground-truth overlay.
-
-|
-
-Canada
-~~~~~~~
-
-.. list-table::
-   :widths: 26 14 14 14 22
-   :header-rows: 1
-
-   * - Model
-     - F1
-     - Precision
-     - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.826
-     - 0.784
-     - 0.874
-     - 76 / 21 / 11
-   * - **v.07-06**
-     - **0.809**
-     - 0.771
-     - 0.851
-     - 74 / 22 / 13
-   * - 🏠 Buildings (current)
-     - 0.809
-     - 0.752
-     - 0.874
-     - 76 / 25 / 11
-
-.. figure:: _static/processing_result/custom_models/buildings_07-06/Canada_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — Canada
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
-
-   Canada — prediction vs ground-truth overlay.
-
-|
-
-South Africa
 ~~~~~~~~~~~~~
 
 .. list-table::
-   :widths: 26 14 14 14 22
+   :widths: 34 16 16 16 16
    :header-rows: 1
 
    * - Model
+     - IoU
      - F1
      - Precision
      - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.779
-     - 0.917
-     - 0.677
-     - 44 / 4 / 21
-   * - **v.07-06**
-     - **0.739**
-     - 0.891
-     - 0.631
-     - 41 / 5 / 24
-   * - 🏠 Buildings (current)
-     - 0.782
-     - 0.956
-     - 0.662
-     - 43 / 2 / 22
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.907**
+     - **0.951**
+     - **0.983**
+     - **0.921**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.880
+     - 0.936
+     - 0.974
+     - 0.901
 
-.. figure:: _static/processing_result/custom_models/buildings_07-06/South_Africa_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — South Africa
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
+.. raw:: html
 
-   South Africa — prediction vs ground-truth overlay.
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-cap="v.07-06 — United States" alt="v.07-06 — United States" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-cap="Buildings (previous) — United States" alt="Buildings (previous) — United States" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
 
-|
 
-New Zealand
+Canada
+~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.870**
+     - **0.930**
+     - **0.934**
+     - **0.927**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.842
+     - 0.914
+     - 0.923
+     - 0.907
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-cap="v.07-06 — Canada" alt="v.07-06 — Canada" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-cap="Buildings (previous) — Canada" alt="Buildings (previous) — Canada" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
+
+
+South Africa
 ~~~~~~~~~~~~
 
 .. list-table::
-   :widths: 26 14 14 14 22
+   :widths: 34 16 16 16 16
    :header-rows: 1
 
    * - Model
+     - IoU
      - F1
      - Precision
      - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.756
-     - 0.716
-     - 0.800
-     - 48 / 19 / 12
-   * - **v.07-06**
-     - **0.734**
-     - 0.691
-     - 0.783
-     - 47 / 21 / 13
-   * - 🏠 Buildings (current)
-     - 0.788
-     - 0.722
-     - 0.867
-     - 52 / 20 / 8
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - 0.495
+     - 0.662
+     - 0.767
+     - **0.582**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - **0.500**
+     - **0.666**
+     - **0.799**
+     - 0.572
 
-.. figure:: _static/processing_result/custom_models/buildings_07-06/New_Zealand_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — New Zealand
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
+.. raw:: html
 
-   New Zealand — prediction vs ground-truth overlay.
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-cap="v.07-06 — South Africa" alt="v.07-06 — South Africa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-cap="Buildings (previous) — South Africa" alt="Buildings (previous) — South Africa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
 
-|
+
+New Zealand
+~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.838**
+     - **0.912**
+     - **0.900**
+     - **0.924**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.790
+     - 0.883
+     - 0.888
+     - 0.878
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-cap="v.07-06 — New Zealand" alt="v.07-06 — New Zealand" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-cap="Buildings (previous) — New Zealand" alt="Buildings (previous) — New Zealand" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
+
 
 Côte d'Ivoire
+~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.663**
+     - **0.797**
+     - 0.844
+     - **0.755**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.642
+     - 0.782
+     - **0.927**
+     - 0.676
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-cap="v.07-06 — Côte d'Ivoire" alt="v.07-06 — Côte d'Ivoire" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-cap="Buildings (previous) — Côte d'Ivoire" alt="Buildings (previous) — Côte d'Ivoire" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
+
+
+United Kingdom
 ~~~~~~~~~~~~~~
 
 .. list-table::
-   :widths: 26 14 14 14 22
+   :widths: 34 16 16 16 16
    :header-rows: 1
 
    * - Model
+     - IoU
      - F1
      - Precision
      - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.802
-     - 0.859
-     - 0.753
-     - 67 / 11 / 22
-   * - **v.07-06**
-     - **0.717**
-     - 0.814
-     - 0.640
-     - 57 / 13 / 32
-   * - 🏠 Buildings (current)
-     - 0.778
-     - 0.863
-     - 0.708
-     - 63 / 10 / 26
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.813**
+     - **0.897**
+     - **0.873**
+     - **0.922**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.730
+     - 0.844
+     - 0.800
+     - 0.892
 
-.. figure:: _static/processing_result/custom_models/buildings_07-06/Cote_d_Ivoire_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — Côte d'Ivoire
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
+.. raw:: html
 
-   Côte d'Ivoire — prediction vs ground-truth overlay.
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-cap="v.07-06 — United Kingdom" alt="v.07-06 — United Kingdom" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-cap="Buildings (previous) — United Kingdom" alt="Buildings (previous) — United Kingdom" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
 
-|
-
-United Kingdom
-~~~~~~~~~~~~~~~
-
-.. list-table::
-   :widths: 26 14 14 14 22
-   :header-rows: 1
-
-   * - Model
-     - F1
-     - Precision
-     - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.650
-     - 0.565
-     - 0.765
-     - 39 / 30 / 12
-   * - **v.07-06**
-     - **0.703**
-     - 0.650
-     - 0.765
-     - 39 / 21 / 12
-   * - 🏠 Buildings (current)
-     - 0.646
-     - 0.539
-     - 0.804
-     - 41 / 35 / 10
-
-.. figure:: _static/processing_result/custom_models/buildings_07-06/United_Kingdom_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — United Kingdom
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
-
-   United Kingdom — prediction vs ground-truth overlay.
-
-|
 
 Australia
-~~~~~~~~~~
+~~~~~~~~~
 
 .. list-table::
-   :widths: 26 14 14 14 22
+   :widths: 34 16 16 16 16
    :header-rows: 1
 
    * - Model
+     - IoU
      - F1
      - Precision
      - Recall
-     - TP / FP / FN
-   * - v.02-06
-     - 0.721
-     - 0.617
-     - 0.866
-     - 71 / 44 / 11
-   * - **v.07-06**
-     - **0.674**
-     - 0.625
-     - 0.732
-     - 60 / 36 / 22
-   * - 🏠 Buildings (current)
-     - 0.579
-     - 0.525
-     - 0.646
-     - 53 / 48 / 29
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.868**
+     - **0.929**
+     - **0.914**
+     - **0.945**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.830
+     - 0.907
+     - 0.899
+     - 0.915
 
-.. figure:: _static/processing_result/custom_models/buildings_07-06/Australia_combined.jpg
-   :alt: Buildings v.07-06 benchmark overlay — Australia
-   :align: center
-   :width: 20cm
-   :class: with-border no-scaled-link
+.. raw:: html
 
-   Australia — prediction vs ground-truth overlay.
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-cap="v.07-06 — Australia" alt="v.07-06 — Australia" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-cap="Buildings (previous) — Australia" alt="Buildings (previous) — Australia" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
 
-|
 
 Summary
 ~~~~~~~~
 
 Compared with the **previous version** (the current production 🏠 Buildings model),
-**v.07-06** lifts the mean object-wise **F1 from 0.757 to 0.762** (+0.005), with mean
-precision up (+0.024) and recall slightly down (−0.023). The gains are largest on the
-weaker AOIs — Australia (F1 +0.095), United Kingdom (+0.057) and the United States
-(+0.044) — while Canada holds parity. The trade-off is lower recall on dense / informal
-patterns: New Zealand (−0.054), Côte d'Ivoire (−0.061) and South Africa (−0.043).
-Overall the update raises precision and the floor on the hardest areas at a small cost
-to recall elsewhere. The tables above also list the earlier candidate **v.02-06** for
-reference.
+**v.07-06** lifts the mean area-based **F1 from 0.847 to 0.868** (+0.021) and mean
+**IoU from 0.745 to 0.779** (+0.034), driven mainly by higher recall (0.820 → 0.854)
+at essentially unchanged precision (0.887 → 0.888). It now improves on 6 of the 7 AOIs —
+including the previously weaker Côte d'Ivoire (F1 0.797 vs 0.782) and the United Kingdom
+(0.897 vs 0.844) — and is only marginally behind on South Africa (F1 0.662 vs 0.666),
+where the dense / informal pattern remains the hardest case.
