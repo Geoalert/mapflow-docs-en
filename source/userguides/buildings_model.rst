@@ -46,54 +46,66 @@ F1 / Precision / Recall are computed on the overlapping mask area.
      - F1
      - Precision
      - Recall
-   * - United States
+   * - United States — Fort Myers
      - 65
      - 0.907
      - **0.951**
      - 0.983
      - 0.921
-   * - Canada
+   * - United States — Phoenix
+     - 47
+     - 0.903
+     - **0.949**
+     - 0.944
+     - 0.953
+   * - Canada — Rigaud
      - 103
      - 0.870
      - **0.930**
      - 0.934
      - 0.927
-   * - Australia
+   * - Australia — Adelaide
      - 92
      - 0.868
      - **0.929**
      - 0.914
      - 0.945
-   * - New Zealand
+   * - New Zealand — Lower Hutt
+     - 106
+     - 0.867
+     - **0.929**
+     - 0.956
+     - 0.903
+   * - New Zealand — Wellington
      - 76
      - 0.838
      - **0.912**
      - 0.900
      - 0.924
-   * - United Kingdom
+   * - United Kingdom — London
      - 68
      - 0.813
      - **0.897**
      - 0.873
      - 0.922
-   * - Côte d'Ivoire
+   * - Côte d'Ivoire — Bangolo
      - 102
      - 0.663
      - **0.797**
      - 0.844
      - 0.755
-   * - South Africa
+   * - South Africa — Worcester
      - 95
      - 0.495
      - **0.662**
      - 0.767
      - 0.582
-   * - **Global (mean of 7 AOIs)**
-     - 601
-     - 0.779
-     - **0.868**
-     - 0.888
-     - 0.854
+   * - **Global (mean of 9 AOIs)**
+     - 754
+     - 0.803
+     - **0.884**
+     - 0.902
+     - 0.870
 
 *Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-13.*
 

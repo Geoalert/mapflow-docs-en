@@ -9,7 +9,7 @@
 ==============================================
 
 This page details the validation of the **🏠 Buildings v.07-06** segmentation model
-(Global domain, 0.3 m / z19) on a set of 7 areas of interest (AOI), compared against the
+(Global domain, 0.3 m / z19) on a set of 9 areas of interest (AOI), compared against the
 **previous version** (the current production 🏠 Buildings model). For each AOI the two
 prediction masks are shown side by side; click any image to open it full size, and use
 the ← / → arrow keys to browse between them.
@@ -60,8 +60,8 @@ overlapping mask area. Evaluation run: 2026-06-13.
 **Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **🏠 Buildings (previous)**
 
 
-United States
-~~~~~~~~~~~~~
+United States — Fort Myers
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -86,13 +86,13 @@ United States
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-cap="v.07-06 — United States" alt="v.07-06 — United States" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-cap="Buildings (previous) — United States" alt="Buildings (previous) — United States" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-cap="v.07-06 — United States — Fort Myers" alt="v.07-06 — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-cap="Buildings (previous) — United States — Fort Myers" alt="Buildings (previous) — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-Canada
-~~~~~~
+Canada — Rigaud
+~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -117,13 +117,13 @@ Canada
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-cap="v.07-06 — Canada" alt="v.07-06 — Canada" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-cap="Buildings (previous) — Canada" alt="Buildings (previous) — Canada" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-cap="v.07-06 — Canada — Rigaud" alt="v.07-06 — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-cap="Buildings (previous) — Canada — Rigaud" alt="Buildings (previous) — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-South Africa
-~~~~~~~~~~~~
+South Africa — Worcester
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -148,13 +148,13 @@ South Africa
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-cap="v.07-06 — South Africa" alt="v.07-06 — South Africa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-cap="Buildings (previous) — South Africa" alt="Buildings (previous) — South Africa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-cap="v.07-06 — South Africa — Worcester" alt="v.07-06 — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-cap="Buildings (previous) — South Africa — Worcester" alt="Buildings (previous) — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-New Zealand
-~~~~~~~~~~~
+New Zealand — Wellington
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -179,13 +179,13 @@ New Zealand
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-cap="v.07-06 — New Zealand" alt="v.07-06 — New Zealand" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-cap="Buildings (previous) — New Zealand" alt="Buildings (previous) — New Zealand" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-cap="v.07-06 — New Zealand — Wellington" alt="v.07-06 — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-cap="Buildings (previous) — New Zealand — Wellington" alt="Buildings (previous) — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-Côte d'Ivoire
-~~~~~~~~~~~~~
+Côte d'Ivoire — Bangolo
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -210,13 +210,13 @@ Côte d'Ivoire
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-cap="v.07-06 — Côte d'Ivoire" alt="v.07-06 — Côte d'Ivoire" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-cap="Buildings (previous) — Côte d'Ivoire" alt="Buildings (previous) — Côte d'Ivoire" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-cap="v.07-06 — Côte d'Ivoire — Bangolo" alt="v.07-06 — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-cap="Buildings (previous) — Côte d'Ivoire — Bangolo" alt="Buildings (previous) — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-United Kingdom
-~~~~~~~~~~~~~~
+United Kingdom — London
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -241,13 +241,13 @@ United Kingdom
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-cap="v.07-06 — United Kingdom" alt="v.07-06 — United Kingdom" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-cap="Buildings (previous) — United Kingdom" alt="Buildings (previous) — United Kingdom" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-cap="v.07-06 — United Kingdom — London" alt="v.07-06 — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-cap="Buildings (previous) — United Kingdom — London" alt="Buildings (previous) — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
-Australia
-~~~~~~~~~
+Australia — Adelaide
+~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 34 16 16 16 16
@@ -272,18 +272,81 @@ Australia
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-cap="v.07-06 — Australia" alt="v.07-06 — Australia" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-cap="Buildings (previous) — Australia" alt="Buildings (previous) — Australia" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-cap="v.07-06 — Australia — Adelaide" alt="v.07-06 — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-cap="Buildings (previous) — Australia — Adelaide" alt="Buildings (previous) — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
+
+
+United States — Phoenix
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.903**
+     - **0.949**
+     - **0.944**
+     - **0.953**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.847
+     - 0.917
+     - 0.902
+     - 0.933
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-cap="v.07-06 — United States — Phoenix" alt="v.07-06 — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-cap="Buildings (previous) — United States — Phoenix" alt="Buildings (previous) — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+   </div>
+
+
+New Zealand — Lower Hutt
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+     - **0.867**
+     - **0.929**
+     - **0.956**
+     - **0.903**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+     - 0.814
+     - 0.898
+     - 0.931
+     - 0.867
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-cap="v.07-06 — New Zealand — Lower Hutt" alt="v.07-06 — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-cap="Buildings (previous) — New Zealand — Lower Hutt" alt="Buildings (previous) — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
    </div>
 
 
 Summary
 ~~~~~~~~
 
-Compared with the **previous version** (the current production 🏠 Buildings model),
-**v.07-06** lifts the mean area-based **F1 from 0.847 to 0.868** (+0.021) and mean
-**IoU from 0.745 to 0.779** (+0.034), driven mainly by higher recall (0.820 → 0.854)
-at essentially unchanged precision (0.887 → 0.888). It now improves on 6 of the 7 AOIs —
-including the previously weaker Côte d'Ivoire (F1 0.797 vs 0.782) and the United Kingdom
-(0.897 vs 0.844) — and is only marginally behind on South Africa (F1 0.662 vs 0.666),
-where the dense / informal pattern remains the hardest case.
+Across the 9 AOIs, **v.07-06** improves on the **previous version** (the current
+production 🏠 Buildings model) on every metric on average: mean area-based **F1 rises
+from 0.861 to 0.884** (+0.023) and mean **IoU from 0.764 to 0.803** (+0.039), driven
+mainly by higher recall (0.838 → 0.870) at slightly higher precision (0.894 → 0.902).
+It wins on 8 of the 9 AOIs — including the two newly added sites, Phoenix (F1 0.949 vs
+0.917) and Lower Hutt (0.929 vs 0.898) — and is only marginally behind on
+South Africa (F1 0.662 vs 0.666), where the dense / informal pattern remains the
+hardest case.
