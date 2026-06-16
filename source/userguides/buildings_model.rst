@@ -8,7 +8,7 @@ High performance deep learning model is trained to detect the buildings roofs.
 
 **Model tags** |:label:|
 
-:Version: 07-06
+:Version: 2026-07-06
 :Geo Domain: Global
 :Model method: Segmentation
 :GSD / Map Zoom: 0.3 m / z19
@@ -29,8 +29,10 @@ The model does not extract the footprints directly, because they are not clearly
 Benchmarks - segmentation
 ----------------------------
 
+Aerial imagery
+~~~~~~~~~~~~~~~~
 
-Latest update — **🏠 Buildings v.07-06** (Global, Segmentation, 0.3 m / z19).
+Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m / z19).
 The model was evaluated on a global validation set of 7 areas of interest (AOI)
 against manually annotated ground truth. Metrics are area-based: IoU is the
 intersection-over-union of the predicted and ground-truth building masks, and
@@ -95,23 +97,79 @@ F1 / Precision / Recall are computed on the overlapping mask area.
      - 0.844
      - 0.755
    * - South Africa — Worcester
-     - 95
-     - 0.495
-     - **0.662**
-     - 0.767
-     - 0.582
-   * - **Global (mean of 9 AOIs)**
-     - 754
-     - 0.803
-     - **0.884**
-     - 0.902
-     - 0.870
+     - 156
+     - 0.592
+     - **0.744**
+     - 0.867
+     - 0.651
+   * - **Aerial (mean of 9 AOIs)**
+     - 815
+     - 0.813
+     - **0.893**
+     - 0.913
+     - 0.878
 
 *Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-13.*
+
+Satellite imagery
+~~~~~~~~~~~~~~~~~~
+
+Additional validation of **🏠 Buildings v.2026-07-06** on satellite imagery across 5 dense
+urban areas of interest.
+
+.. list-table::
+   :widths: 28 14 12 14 14 14
+   :header-rows: 1
+
+   * - AOI (location)
+     - Predicted features
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - Russia — Ufa
+     - 426
+     - 0.821
+     - **0.902**
+     - 0.897
+     - 0.907
+   * - Saudi Arabia — Riyadh
+     - 225
+     - 0.817
+     - **0.899**
+     - 0.920
+     - 0.879
+   * - India — Bangalore
+     - 508
+     - 0.779
+     - **0.876**
+     - 0.859
+     - 0.894
+   * - India — Thane
+     - 429
+     - 0.768
+     - **0.869**
+     - 0.889
+     - 0.849
+   * - United Arab Emirates — Abu Dhabi
+     - 142
+     - 0.751
+     - **0.858**
+     - 0.828
+     - 0.890
+   * - **Satellite (mean of 5 AOIs)**
+     - 1730
+     - 0.787
+     - **0.881**
+     - 0.879
+     - 0.884
+
+*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-16.*
 
 .. seealso::
 
     📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the
-    area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays.
+    area-by-area breakdown of both the global and satellite sets, including comparison
+    with the previous version and prediction-vs-ground-truth overlays.
 
 

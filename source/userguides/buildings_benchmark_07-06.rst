@@ -5,18 +5,18 @@
 .. role:: raw-html(raw)
    :format: html
 
-🏠 Buildings v.07-06 — per-location benchmark
-==============================================
+🏠 Buildings v.2026-07-06 — per-location benchmark
+============================================================
 
-This page details the validation of the **🏠 Buildings v.07-06** segmentation model
-(Global domain, 0.3 m / z19) on a set of 9 areas of interest (AOI), compared against the
-**previous version** (the current production 🏠 Buildings model). For each AOI the two
+This page details the validation of the **🏠 Buildings v.2026-07-06** segmentation model
+(Global domain, 0.3 m / z19) on 14 areas of interest (AOI), compared against the
+**previous version v.2025-12-10** (the current production 🏠 Buildings model). For each AOI the two
 prediction masks are shown side by side; click any image to open it full size, and use
 the ← / → arrow keys to browse between them.
 
 All metrics are area-based: **IoU** is the intersection-over-union of the predicted and
 ground-truth building masks, and **F1 / Precision / Recall** are computed on the
-overlapping mask area. Evaluation run: 2026-06-13.
+overlapping mask area. Evaluation runs: 2026-06-13 (global set) and 2026-06-16 (satellite set).
 
 .. raw:: html
 
@@ -57,7 +57,13 @@ overlapping mask area. Evaluation run: 2026-06-13.
    })();
    </script>
 
-**Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **🏠 Buildings (previous)**
+**Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **v.2025-12-10**
+
+
+Aerial imagery validation set
+------------------------------
+
+Validation on the global set of 9 areas of interest (mixed urban / suburban / rural).
 
 
 United States — Fort Myers
@@ -72,12 +78,12 @@ United States — Fort Myers
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.907**
      - **0.951**
      - **0.983**
      - **0.921**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.880
      - 0.936
      - 0.974
@@ -86,8 +92,8 @@ United States — Fort Myers
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-cap="v.07-06 — United States — Fort Myers" alt="v.07-06 — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-cap="Buildings (previous) — United States — Fort Myers" alt="Buildings (previous) — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_v0706.jpg" data-cap="v.2026-07-06 — United States — Fort Myers" alt="v.2026-07-06 — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_prev.jpg" data-cap="v.2025-12-10 — United States — Fort Myers" alt="v.2025-12-10 — United States — Fort Myers" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -103,12 +109,12 @@ Canada — Rigaud
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.870**
      - **0.930**
      - **0.934**
      - **0.927**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.842
      - 0.914
      - 0.923
@@ -117,8 +123,8 @@ Canada — Rigaud
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-cap="v.07-06 — Canada — Rigaud" alt="v.07-06 — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-cap="Buildings (previous) — Canada — Rigaud" alt="Buildings (previous) — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_v0706.jpg" data-cap="v.2026-07-06 — Canada — Rigaud" alt="v.2026-07-06 — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Canada_prev.jpg" data-cap="v.2025-12-10 — Canada — Rigaud" alt="v.2025-12-10 — Canada — Rigaud" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -134,22 +140,22 @@ South Africa — Worcester
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
-     - 0.495
-     - 0.662
-     - 0.767
-     - **0.582**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
-     - **0.500**
-     - **0.666**
-     - **0.799**
-     - 0.572
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.592**
+     - **0.744**
+     - **0.867**
+     - **0.651**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.385
+     - 0.556
+     - 0.845
+     - 0.415
 
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-cap="v.07-06 — South Africa — Worcester" alt="v.07-06 — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-cap="Buildings (previous) — South Africa — Worcester" alt="Buildings (previous) — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_v0706.jpg" data-cap="v.2026-07-06 — South Africa — Worcester" alt="v.2026-07-06 — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/South_Africa_prev.jpg" data-cap="v.2025-12-10 — South Africa — Worcester" alt="v.2025-12-10 — South Africa — Worcester" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -165,12 +171,12 @@ New Zealand — Wellington
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.838**
      - **0.912**
      - **0.900**
      - **0.924**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.790
      - 0.883
      - 0.888
@@ -179,8 +185,8 @@ New Zealand — Wellington
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-cap="v.07-06 — New Zealand — Wellington" alt="v.07-06 — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-cap="Buildings (previous) — New Zealand — Wellington" alt="Buildings (previous) — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_v0706.jpg" data-cap="v.2026-07-06 — New Zealand — Wellington" alt="v.2026-07-06 — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/New_Zealand_prev.jpg" data-cap="v.2025-12-10 — New Zealand — Wellington" alt="v.2025-12-10 — New Zealand — Wellington" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -196,12 +202,12 @@ Côte d'Ivoire — Bangolo
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.663**
      - **0.797**
      - 0.844
      - **0.755**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.642
      - 0.782
      - **0.927**
@@ -210,8 +216,8 @@ Côte d'Ivoire — Bangolo
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-cap="v.07-06 — Côte d'Ivoire — Bangolo" alt="v.07-06 — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-cap="Buildings (previous) — Côte d'Ivoire — Bangolo" alt="Buildings (previous) — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_v0706.jpg" data-cap="v.2026-07-06 — Côte d'Ivoire — Bangolo" alt="v.2026-07-06 — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Cote_d_Ivoire_prev.jpg" data-cap="v.2025-12-10 — Côte d'Ivoire — Bangolo" alt="v.2025-12-10 — Côte d'Ivoire — Bangolo" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -227,12 +233,12 @@ United Kingdom — London
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.813**
      - **0.897**
      - **0.873**
      - **0.922**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.730
      - 0.844
      - 0.800
@@ -241,8 +247,8 @@ United Kingdom — London
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-cap="v.07-06 — United Kingdom — London" alt="v.07-06 — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-cap="Buildings (previous) — United Kingdom — London" alt="Buildings (previous) — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_v0706.jpg" data-cap="v.2026-07-06 — United Kingdom — London" alt="v.2026-07-06 — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/United_Kingdom_prev.jpg" data-cap="v.2025-12-10 — United Kingdom — London" alt="v.2025-12-10 — United Kingdom — London" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -258,12 +264,12 @@ Australia — Adelaide
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.868**
      - **0.929**
      - **0.914**
      - **0.945**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.830
      - 0.907
      - 0.899
@@ -272,8 +278,8 @@ Australia — Adelaide
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-cap="v.07-06 — Australia — Adelaide" alt="v.07-06 — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-cap="Buildings (previous) — Australia — Adelaide" alt="Buildings (previous) — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_v0706.jpg" data-cap="v.2026-07-06 — Australia — Adelaide" alt="v.2026-07-06 — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Australia_prev.jpg" data-cap="v.2025-12-10 — Australia — Adelaide" alt="v.2025-12-10 — Australia — Adelaide" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -289,12 +295,12 @@ United States — Phoenix
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.903**
      - **0.949**
      - **0.944**
      - **0.953**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.847
      - 0.917
      - 0.902
@@ -303,8 +309,8 @@ United States — Phoenix
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-cap="v.07-06 — United States — Phoenix" alt="v.07-06 — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-cap="Buildings (previous) — United States — Phoenix" alt="Buildings (previous) — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_v0706.jpg" data-cap="v.2026-07-06 — United States — Phoenix" alt="v.2026-07-06 — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/US_Phoenix_prev.jpg" data-cap="v.2025-12-10 — United States — Phoenix" alt="v.2025-12-10 — United States — Phoenix" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
@@ -320,12 +326,12 @@ New Zealand — Lower Hutt
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.07-06**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
      - **0.867**
      - **0.929**
      - **0.956**
      - **0.903**
-   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` 🏠 Buildings (previous)
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
      - 0.814
      - 0.898
      - 0.931
@@ -334,19 +340,177 @@ New Zealand — Lower Hutt
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-cap="v.07-06 — New Zealand — Lower Hutt" alt="v.07-06 — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.07-06</figcaption></figure>
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-cap="Buildings (previous) — New Zealand — Lower Hutt" alt="Buildings (previous) — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>🏠 Buildings (previous)</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_v0706.jpg" data-cap="v.2026-07-06 — New Zealand — Lower Hutt" alt="v.2026-07-06 — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/NZ_Wellington_prev.jpg" data-cap="v.2025-12-10 — New Zealand — Lower Hutt" alt="v.2025-12-10 — New Zealand — Lower Hutt" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
+   </div>
+
+
+Satellite imagery validation set
+-----------------------------------
+
+Validation on the global set of satellite imagery across 5 dense urban areas.
+
+
+United Arab Emirates — Abu Dhabi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.751**
+     - **0.858**
+     - **0.828**
+     - **0.890**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.717
+     - 0.835
+     - 0.817
+     - 0.854
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/AbuDhabi_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/AbuDhabi_v0706.jpg" data-cap="v.2026-07-06 — United Arab Emirates — Abu Dhabi" alt="v.2026-07-06 — United Arab Emirates — Abu Dhabi" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/AbuDhabi_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/AbuDhabi_prev.jpg" data-cap="v.2025-12-10 — United Arab Emirates — Abu Dhabi" alt="v.2025-12-10 — United Arab Emirates — Abu Dhabi" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
+   </div>
+
+
+India — Bangalore
+~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.779**
+     - **0.876**
+     - **0.859**
+     - **0.894**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.735
+     - 0.847
+     - 0.848
+     - 0.846
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Bangalore_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Bangalore_v0706.jpg" data-cap="v.2026-07-06 — India — Bangalore" alt="v.2026-07-06 — India — Bangalore" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Bangalore_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Bangalore_prev.jpg" data-cap="v.2025-12-10 — India — Bangalore" alt="v.2025-12-10 — India — Bangalore" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
+   </div>
+
+
+Saudi Arabia — Riyadh
+~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.817**
+     - **0.899**
+     - **0.920**
+     - 0.879
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.654
+     - 0.791
+     - 0.687
+     - **0.931**
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Riyadh_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Riyadh_v0706.jpg" data-cap="v.2026-07-06 — Saudi Arabia — Riyadh" alt="v.2026-07-06 — Saudi Arabia — Riyadh" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Riyadh_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Riyadh_prev.jpg" data-cap="v.2025-12-10 — Saudi Arabia — Riyadh" alt="v.2025-12-10 — Saudi Arabia — Riyadh" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
+   </div>
+
+
+India — Thane
+~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.768**
+     - **0.869**
+     - **0.889**
+     - **0.849**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.722
+     - 0.839
+     - 0.871
+     - 0.809
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Thane_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Thane_v0706.jpg" data-cap="v.2026-07-06 — India — Thane" alt="v.2026-07-06 — India — Thane" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Thane_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Thane_prev.jpg" data-cap="v.2025-12-10 — India — Thane" alt="v.2025-12-10 — India — Thane" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
+   </div>
+
+
+Russia — Ufa
+~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 34 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-06**
+     - **0.821**
+     - **0.902**
+     - **0.897**
+     - **0.907**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-12-10
+     - 0.818
+     - 0.900
+     - 0.897
+     - 0.903
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Ufa_v0706.jpg" data-full="../_static/benchmarks/buildings_07-06/Ufa_v0706.jpg" data-cap="v.2026-07-06 — Russia — Ufa" alt="v.2026-07-06 — Russia — Ufa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-06</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/buildings_07-06/Ufa_prev.jpg" data-full="../_static/benchmarks/buildings_07-06/Ufa_prev.jpg" data-cap="v.2025-12-10 — Russia — Ufa" alt="v.2025-12-10 — Russia — Ufa" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-12-10</figcaption></figure>
    </div>
 
 
 Summary
-~~~~~~~~
+-------
 
-Across the 9 AOIs, **v.07-06** improves on the **previous version** (the current
-production 🏠 Buildings model) on every metric on average: mean area-based **F1 rises
-from 0.861 to 0.884** (+0.023) and mean **IoU from 0.764 to 0.803** (+0.039), driven
-mainly by higher recall (0.838 → 0.870) at slightly higher precision (0.894 → 0.902).
-It wins on 8 of the 9 AOIs — including the two newly added sites, Phoenix (F1 0.949 vs
-0.917) and Lower Hutt (0.929 vs 0.898) — and is only marginally behind on
-South Africa (F1 0.662 vs 0.666), where the dense / informal pattern remains the
-hardest case.
+**v.2026-07-06** leads the previous production model on F1 in **all 14 AOIs**. On the global
+validation set of aerial imagery (9 AOIs) the mean area-based F1 rises from 0.849 to **0.893** (IoU 0.751 →
+**0.813**); on the 5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to **0.881**
+(IoU 0.729 → **0.787**), driven mainly by higher recall and precision in informal and
+high-density built-up areas such as Riyadh, Bangalore and Thane.
