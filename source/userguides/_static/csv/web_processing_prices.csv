@@ -1,11 +1,13 @@
-Workflow, Base price, Options
-Buildings, 8,  "| Classification: 0
-| Simplification: 2
-| Height Estimation: 10
-| Merge with Opensteeetmap: 0"
-Constructions, 4, "\-"
-Forest and trees, 8, "| Height estimation: 10
-| Crowns extraction: 5
+Model, Base price, Options
+Buildings, 10,  "| Classification: 0
+| Heights estimation: 10
+| Merge with Opensteeetmap: 0
+| Align with roads: 0
+| Height Estimation: 10"
+[multi] Buildings + Roads + Forest, 23,  "| Buildings Height estimation: 10 
+| Forest Height estimation: 10
+| Tree crowns: 10"
+Forest and trees, 8, "| Forest Height estimation: 10
+| Crowns extraction: 10
 "
 Roads, 5, "\-"
-Download Open Data, 1, "Water | Landuse | Roads | Buildings"
