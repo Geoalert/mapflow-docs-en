@@ -599,7 +599,7 @@ You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`.
     * **Check the data type** 
           Your data is supposed to be automatically converted into RGB, 8bit. To preprocess your data locally before uploading it to Mapflow you can use the `preprocessing script <https://github.com/Geoalert/mapflow_data_preprocessor/>`_
     * **Check the image size**
-          Both sides image dimension must not exceed 30.000x30.000 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow Premium <https://geoalert.io/#contacts>`_.
+          Both sides image dimension must not exceed 65535x65535 pixels. If you have larger images you should either cut them in smaller chunks or switch to the `Mapflow Premium <https://geoalert.io/#contacts>`_.
     * **Check the number of channels**  
           Normally, the Mapflow processes 3-bands RGB rendered images. Mapflow platform can also process single-band (panchromatic) imagery, but the  quality of the result may be worse than expected.
     * **Check the projection and georeference** 

@@ -169,7 +169,7 @@ You can upload your aerial images in GeoTiff format. After the image is uploaded
 .. note:: 
     Image upload requirements (free plan):
       - The file size must be less than 1 Gb
-      - Both sides image dimensions must not exceed 30.000x30.000 pixels
+      - Both sides image dimensions must not exceed 65535x65535 pixels
       - The image must be georeferenced and the CRS must be one of:
         - WGS84 (EPSG: 4326)
         - Web mercator (EPSG: 3857)

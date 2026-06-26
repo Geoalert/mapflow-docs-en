@@ -83,7 +83,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 .. important::
 
     Image upload requirements:
-    The file size must be less than 1 Gb. Both sides image dimmesions must not exceed 30.000x30.000
+    The file size must be less than 1 Gb. Both sides image dimmesions must not exceed 65535x65535
 
     The image must be georeferenced and the CRS must be one of:
     * WGS84 (EPSG: 4326)
@@ -97,7 +97,7 @@ The processing area (AOI) must be located within the area of the image extent, o
 Upload images with Mapflow – QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by default). All raster layers loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
+You can upload your own GeoTIFF (up to 1 GB, max. 65535x65535 px. by default). All raster layers loaded in your QGIS (1) are visible in the drop-down list (2) and can be selected for upload. 
 
 .. figure:: _static/select_raster_qgis.jpg
     :align: center
