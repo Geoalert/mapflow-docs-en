@@ -15,7 +15,7 @@ In version 1.1 we added the road graph postprocessing:
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/roads_model_6.jpg
+.. figure:: _static/processing_result/roads_model_6.webp
    :alt: Processing result of roads model
    :align: center
    :width: 15cm
@@ -23,7 +23,7 @@ In version 1.1 we added the road graph postprocessing:
    
    Optimal conditions for the model: rural/suburban territory, Russia
 
-.. figure:: _static/processing_result/roads_model_9.jpg
+.. figure:: _static/processing_result/roads_model_9.webp
    :alt: Processing result of roads model
    :align: center
    :width: 15cm

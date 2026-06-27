@@ -125,10 +125,12 @@ First step is to set the area of analysis for your project: by **AOI** polygon o
 
 |
 
+.. _Select AOI:
+
 2.1. Select AOI
 """"""""""""""""""""""""
 
-.. image:: _static/ui_aoi.png
+.. image:: _static/ui_aoi.webp
   :alt: Select AOI
   :align: center
   :width: 18cm
@@ -148,6 +150,7 @@ The user can draw the area using *Draw rectangle* / *Draw polygon* tool or uploa
     :class: with-border no-scaled-link  
 
   |
+  If you want to extend your AOI limit, switch to the paid plan.
 
 .. _upload-geotiff-section:
 
@@ -179,6 +182,23 @@ You can upload your aerial images in GeoTiff format. After the image is uploaded
 .. hint::
     If your image doesn't meet the params above, we suggest to use :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` which have more capabilities. There you can also use our new :ref:`My imagery main` tool for storing and processing multiple images. Mapflow supports RGB imagery and also process single-band (panchromatic) imagery, but the AI models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
+2.3 Choose from My Imagery
+""""""""""""""""""""""""""""
+Instead of uploading a new file, you can reuse images you have already uploaded. Click **Choose from My Imagery** to open the picker and select a previously created mosaic or a single image as the source for the processing.
+
+.. image:: _static/my_imagery/upload_aoi_myimg.webp
+  :alt: Pick from My Imagery
+  :align: center
+  :width: 18cm
+  :class: with-border no-scaled-link
+
+|
+
+In the **Pick from My Imagery** dialog you can search your mosaics and images by name, sort them by creation date or size, preview the selected mosaic, and check its status. Select a mosaic and click **Use this mosaic** to set it as the imagery source. You can also create a new mosaic or upload images directly from this dialog.
+
+.. note::
+    Read more about managing your uploaded imagery in :ref:`My imagery main`.
+
 
 3. Select the imagery source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,7 +217,7 @@ This tab allows you to select from:
 3.1 Imagery providers
 """"""""""""""""""""""
 
-.. image:: _static/imagery_providers_tab.png
+.. image:: _static/imagery_providers_tab.webp
   :alt: Imagery providers
   :align: center
   :width: 15cm
@@ -227,7 +247,7 @@ Here you can select one of the default providers that are available in Mapflow, 
 3.2 Custom URL
 """"""""""""""""""
 
-.. image:: _static/custom_url_tab.png
+.. image:: _static/custom_url_tab.webp
   :alt: Imagery providers
   :align: center
   :width: 15cm
@@ -252,7 +272,7 @@ It's powered by Mapflow API providing access to the global satellite data provid
 .. seealso::
    👉 See :ref:`Imagery search <Imagery search  main>` for more information and guides.
   
-  .. image:: _static/historical_data_tab.png
+  .. image:: _static/historical_data_tab.webp
     :alt: Imagery search tab
     :align: center
     :width: 16cm
@@ -449,7 +469,7 @@ Allows to download results as a file in GeoJSON format.
 
 .. The geosjon.io app allows you to save the results in a different GIS-compatible format (CSV, KML, TopoJSON, WKT, Shapefile). Just click "Save" and select the format of your preference in the menu bar.
 
-.. .. image:: _static/geojson.io.png
+.. .. image:: _static/geojson.io.webp
 ..    :name: Preview map
 ..    :align: center
 ..    :width: 15cm
@@ -458,7 +478,7 @@ Allows to download results as a file in GeoJSON format.
 
 .. 3. "Open with `kepler.gl <https://kepler.geoalert.io/>`_" - view the results using this embedded app. It is a simple but powerful tool for geospatial data visualization and analysis.
 
-..  .. image:: _static/kepler_gl.png
+..  .. image:: _static/kepler_gl.webp
 ..    :alt: Preview map
 ..    :align: center
 ..    :width: 15cm

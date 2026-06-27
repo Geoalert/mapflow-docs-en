@@ -145,7 +145,7 @@ It is natively supported by web mapping frameworks (e.g. Leaflet or Mapbox) and 
    Mapflow allows different options for actions with processing results stored in GeoJSON. You are able to download or “Open with **geojson.io**”.
 
 
-.. figure:: ../um/_static/img/open_with.png
+.. figure:: ../um/_static/img/open_with.webp
     :alt: Interaction panel
     :align: center
     :width: 20cm
@@ -155,7 +155,7 @@ It is natively supported by web mapping frameworks (e.g. Leaflet or Mapbox) and 
 .. note::
    `Geojson.io <https://geojson.io>`_ allows you to view and save the results in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click “Save” and select the format in the menu bar.
 
-.. figure:: ../um/_static/img/geojson.io.png
+.. figure:: ../um/_static/img/geojson.io.webp
     :alt: Interaction panel
     :align: center
     :width: 20cm

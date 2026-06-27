@@ -11,8 +11,8 @@ My Imagery & Data Providers
      3. **Custom URL** – you can set your own XYZ or TMS layers, including commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar Securewatch>`, etc. This is available in Mapflow Web, API and QGIS plugin.
      4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place your order to get the images from our partners.
 
-.. warning::
-     ❗️ Currently, you can use the tool called *My imagery* in :ref:`Mapflow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress.
+.. note::
+     ❗️ You can use the tool called *My imagery* in :ref:`Mapflow Web <My imagery main>`, :ref:`Mapflow QGIS plugin <My imagery qgis>`, and :ref:`API <Data API>`.
 
 
 "My imagery" in QGIS
@@ -48,34 +48,53 @@ The basic scenario of working with "My imagery" service is as follows:
 "My imagery" Web
 -------------------
 
-.. note::
-     ❗️The Web app implementation is in progress. But now you can already view the list of your image collections and, if necessary, delete unused ones.
+The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image.
 
-.. |preview| image:: _static/preview_mosaic.png
-  :width: 0.6cm
+My Imagery main page
+~~~~~~~~~~~~~~~~~~~~~~~
 
-.. |delete| image:: _static/delete_single_mosaic.png
-  :width: 0.6cm
-
-.. |more| image:: _static/more_menu.png
-  :width: 0.6cm
-
-By default, Mapflow provides a free 1 Gb storage for all new users to upload and process data. If the memory limit is running out (*Memory free* at the bottom of the page), you can either extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_ or delete the unused data using this page. After viewing the information about the collection and previewing its images (|preview|), you can delete one collection at a time (|delete|) or several at once via multiselect ((|more|) -> "Delete selected mosaics").
-
-.. figure:: _static/my_imagery_page.png
+.. figure:: _static/my_imagery/myimg_1.webp
          :align: center
          :class: with-border
          :width: 18cm
 
 |
 
-.. note::
-     Please note that the table lists all your previously uploaded images as separate collections, each with a unique UUID.
-     
-      .. figure:: _static/select_delete_mosaics.gif
-            :align: center
-            :class: with-border
-            :width: 15cm 
+1. **Storage** – check how much of your storage is used (used / total). When the limit is running out, you can free up space by deleting unused data, or extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_.
+2. **Create mosaic** – create a new mosaic (image collection) to group related images together.
+3. **Upload area** – drop GeoTIFFs (or click to browse) to upload them into the selected mosaic. 
 
+.. note::
+     See :ref:`Requirements for using the platform <Upload restrictions>` for supported formats and limits.
+
+4. **Image previews** – browse the table of mosaics and, for the selected mosaic, preview its images along with their status (*Ready*, *In progress*, *Failed*).
+5. **Use in new processing** – start a new processing from the selected image.
+
+.. note::
+     Each mosaic and image has its own status. The table lists all your mosaics, each with a unique UUID, and can be searched by name, and sorted by name, creation date, size, and status.
+
+Use in new processing
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Selecting **Use in new processing** opens a dialog where you choose the project to start the processing in. Pick an existing project from the list, or create a new one with **+ New project**.
+
+.. figure:: _static/my_imagery/myimg_2.webp
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
+
+Preview and AOI
+~~~~~~~~~~~~~~~~~
+
+You can preview your image on the map and set the processing area: upload a GeoJSON/GeoTIFF, draw the area on the map, or click **Use Image Extent** to use the image boundaries. See :ref:`Select AOI` for details on drawing and uploading an AOI.
+
+.. figure:: _static/my_imagery/myimg_3.webp
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
 
 .. include:: imagery_search.rst

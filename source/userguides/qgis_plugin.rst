@@ -74,7 +74,7 @@ In order to start processing, first you must specify its name. Next, choose the 
 
 In the upper-left corner of the main QGIS window in the Browser panel, you can open the OpenStreetMap basemap and navigate around the map to identify the area of interest.
 
-.. figure:: _static/qgis_user_guide/osm.png
+.. figure:: _static/qgis_user_guide/osm.webp
          :align: center
          :width: 15cm
          :class: with-border
@@ -105,7 +105,7 @@ The resulting vector objects can be saved in GeoJSON format (by clicking on the 
 Previously, we looked at one of the simplest scenarios for working with the Mapflow plugin. However, its functionality is not limited to a single data provider. In addition to the default providers, you can use the search in the imagery catalog or process your own images. 
 After adding the image you are interested in to QGIS as a raster layer, you can select it in the "Data source" field and run processing. The result can look like this: the boundaries of trees of different heights, identified in your image.
 
-.. figure:: _static/qgis_user_guide/tiff_processing.png
+.. figure:: _static/qgis_user_guide/tiff_processing.webp
          :align: center
          :width: 15cm
          :class: with-border

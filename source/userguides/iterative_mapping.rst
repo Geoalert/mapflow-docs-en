@@ -6,7 +6,7 @@ If you use Mapflow for agricultural landuse management, we suggest you have a lo
 
 Before we begin, however: Mapflow will digitize the fields for you, but the imagery for it to work on you need to select yourself. **We strongly recommend you preview images before processing them** because their quality may vary. Ones with high cloud cover (including cloud shadows) or no-data pixels in the AOI will likely produce poor results. Here are examples of two images that will inevitably yield unsatisfactory results:
 
-.. figure:: _static/iterative_mapping/3.png
+.. figure:: _static/iterative_mapping/3.webp
     :alt: Fields mask detected on a cloudy Sentinel-2 image
     :align: center
     :width: 15cm
@@ -67,7 +67,7 @@ What is an Iterative mapping process
 
 4. Reorder the layers so that the best results are on top. Normally, it takes about ten seconds to determine if the results are good enough.
 
-.. figure:: _static/iterative_mapping/11.png
+.. figure:: _static/iterative_mapping/11.webp
     :alt: Rank_inference_result
     :align: center
     :width: 15cm
@@ -85,7 +85,7 @@ What is an Iterative mapping process
 
 6. In the “results” layer, select and delete poorly digitized polygons. Now, the “results” layer has gaps which should be filled with successfully contoured polygons from the other result layers.
 
-.. figure:: _static/iterative_mapping/1.png
+.. figure:: _static/iterative_mapping/1.webp
     :alt: Find and delete bad field mask
     :align: center
     :width: 15cm
@@ -104,7 +104,7 @@ What is an Iterative mapping process
 If there are still gaps in the “results” layer, repeat *step #7* until you the all gaps are filled in. After several iterations, you should get fully contoured agricultural fields for your AOI. 
 
 
-.. figure:: _static/iterative_mapping/6.png
+.. figure:: _static/iterative_mapping/6.webp
     :alt: Result of itaretive mapping
     :align: center
     :width: 15cm

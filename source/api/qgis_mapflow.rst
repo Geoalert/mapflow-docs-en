@@ -550,7 +550,7 @@ Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the re
 
 To start processing using this data source, go to the *Processing* tab, fill in all fields of processing parameters, click *Start processing*.
 
- .. figure:: _static/qgis/custom_imagery_source.png
+ .. figure:: _static/qgis/custom_imagery_source.webp
          :alt: Custom imagery source
          :align: center
          :width: 15cm
