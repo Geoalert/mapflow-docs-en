@@ -53,7 +53,7 @@ The **My Imagery** page in Mapflow Web lets you manage your imagery collections 
 My Imagery main page
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/my_imagery/myimg_1.webp
+.. figure:: _static/my_imagery/my_imagery_steps.gif
          :align: center
          :class: with-border
          :width: 18cm
