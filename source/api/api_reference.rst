@@ -362,6 +362,26 @@ Downloads processing results as GeoJSON.
      -o results.geojson
 
 
+Download results by AOI
+^^^^^^^^^^^^^^^^^^^^^^^
+
+**GET** ``/processings/{processingId}/result?aoiId={aoiId}``
+
+Downloads processing results as GeoJSON by specific AOI.
+
+**Query Parameters:**
+
+* ``aoiId`` (required) - AOI ID used to filter results
+
+**Example**
+
+.. code-block:: bash
+
+   curl "https://api.mapflow.ai/rest/processings/{id}/result?aoiId={aoiId}" \
+     -H "Authorization: Bearer YOUR_TOKEN" \
+     -o results_aoi.geojson
+
+
 Processing management
 ^^^^^^^^^^^^^^^^^^^^^
 
