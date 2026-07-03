@@ -1,5 +1,5 @@
-Mapflow pricing
-===============
+Mapflow pricing 💰
+==================
 
 How to top up your balance
 --------------------------
