@@ -64,38 +64,38 @@ and may not correspond to what you see as "pixel size" if your image's coordinat
      - Extract roof contours, with optional classification, simplification and height estimation
      - 18
      - 0.5
-     - 17 – 18
-     - 0.1 - 1.5
+     - 17 – 19
+     - 1.5 - 0.3
    * - Forest
      - Extract segmentation masks of forested areas from high-resolution RGB images
      - 18
      - 0.5
-     - 17 – 18
-     - 0.1 - 2.0
+     - 18 - 20
+     - 0.75 - 0.15
    * - Forest Heights
      - Classiy masks of forested areas by height classes based on predefined thresholds
      - 18
      - 0.5
-     - 17 – 18
-     - 0.1 - 2.0
+     - 18 - 20
+     - 0.75 - 0.15
    * - Tree crowns
      - Extract segmentation masks of tree crowns. Optionally converts to points or polygons.
      - 19
      - 0.3
-     - 18
-     - 0.5
+     - 19 - 20
+     - 0.3 - 0.15
    * - Roads
      - Extract road mask from high-resolution satellite imagery
      - 18
      - 0.5
      - 17 – 18
-     - 0.1 - 1.2
+     - 1.2 - 0.1
    * - Constructions
      - The model highlights areas in the satellite image that contain construction sites and buildings under construction
      - 18
      - 0.5
      - 17 – 18
-     - 0.1 - 2.0
+     - 2.0 - 0.5
 
 \* Mapflow.ai can also process single-band (panchromatic) imagery, but the NN models are not tuned for such kind of data, so the quality of the result may be worse than expected.
 
