@@ -9,8 +9,7 @@
 ================================================================
 
 This page details the validation of the **🌲 Forest and trees v.2026-07-03** segmentation model
-on 6 areas of interest (AOI), compared against the **previous version v.2025-06-14**
-(``Forest_and_trees_default``). For each AOI the two prediction masks are shown side by
+on 6 areas of interest (AOI), compared against the **previous version v.2025-06-14**. For each AOI the two prediction masks are shown side by
 side; click any image to open it full size, and use the ← / → arrow keys to browse
 between them.
 
