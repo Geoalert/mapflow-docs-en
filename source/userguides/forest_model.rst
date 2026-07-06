@@ -115,21 +115,33 @@ computed on the overlapping mask area.
      - **0.865**
      - 0.859
      - 0.872
+   * - Uzbekistan — Tashkent
+     - 156
+     - 0.730
+     - **0.844**
+     - 0.905
+     - 0.791
    * - Spain — Rus
      - 249
      - 0.617
      - **0.763**
      - 0.699
      - 0.841
-   * - **Global (mean of 6 AOIs)**
-     - 2570
-     - 0.774
-     - **0.870**
-     - 0.857
-     - 0.887
+   * - Argentina — La Banda
+     - 93
+     - 0.576
+     - **0.731**
+     - 0.653
+     - 0.829
+   * - **Global (mean of 8 AOIs)**
+     - 2819
+     - 0.744
+     - **0.850**
+     - 0.837
+     - 0.868
 
 *Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; evaluation run 2026-07-03.
-Compared with the previous version v.2025-06-14 (mean F1 0.501, IoU 0.395).*
+Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*
 
 .. seealso::
 

@@ -9,7 +9,7 @@
 ================================================================
 
 This page details the validation of the **🌲 Forest and trees v.2026-07-03** segmentation model
-on 6 areas of interest (AOI), compared against the **previous version v.2025-06-14**. For each AOI the two prediction masks are shown side by
+on 8 areas of interest (AOI), compared against the **previous version v.2025-06-14**. For each AOI the two prediction masks are shown side by
 side; click any image to open it full size, and use the ← / → arrow keys to browse
 between them.
 
@@ -245,12 +245,75 @@ Spain — Cuenca
    </div>
 
 
+Argentina — La Banda
+~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 30 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+     - **0.576**
+     - **0.731**
+     - 0.653
+     - **0.829**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-06-14
+     - 0.233
+     - 0.378
+     - **0.958**
+     - 0.235
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-cap="v.2026-07-03 — Argentina — La Banda" alt="v.2026-07-03 — Argentina — La Banda" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/LaBanda_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/LaBanda_old.jpg" data-cap="v.2025-06-14 — Argentina — La Banda" alt="v.2025-06-14 — Argentina — La Banda" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
+   </div>
+
+
+Uzbekistan — Tashkent
+~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 30 16 16 16 16
+   :header-rows: 1
+
+   * - Model
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+     - **0.730**
+     - **0.844**
+     - 0.905
+     - **0.791**
+   * - :raw-html:`<span class="mchip" style="background:#2878ff"></span>` v.2025-06-14
+     - 0.568
+     - 0.724
+     - **0.981**
+     - 0.574
+
+.. raw:: html
+
+   <div class="bench-row">
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-cap="v.2026-07-03 — Uzbekistan — Tashkent" alt="v.2026-07-03 — Uzbekistan — Tashkent" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Tashkent_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Tashkent_old.jpg" data-cap="v.2025-06-14 — Uzbekistan — Tashkent" alt="v.2025-06-14 — Uzbekistan — Tashkent" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
+   </div>
+
+
 Summary
 -------
 
-**v.2026-07-03** improves substantially over the previous **v.2025-06-14** across all 6 AOIs. Mean
-area-based **F1 rises from 0.501 to 0.870** and **IoU from 0.395 to 0.774**, driven by a
-large recall gain (0.408 → **0.887**). The previous version was highly conservative —
-mean precision 0.950, but it missed most vegetation and collapsed on several AOIs
-(e.g. Velilla de San Antonio F1 0.015, Rus F1 0.108). v.2026-07-03 keeps precision high
-(0.857) while recovering the missed canopy, and leads on F1 in every location.
+**v.2026-07-03** improves substantially over the previous **v.2025-06-14** across all 8 AOIs. Mean
+area-based **F1 rises from 0.513 to 0.850** and **IoU from 0.396 to 0.744**, driven by a
+large recall gain (0.407 → **0.868**). The previous version was highly conservative —
+mean precision 0.955, but it missed most vegetation and collapsed on several AOIs
+(e.g. Velilla de San Antonio F1 0.015, Rus F1 0.108, La Banda F1 0.378). v.2026-07-03 keeps
+precision high (0.837) while recovering the missed canopy, and leads on F1 in every
+location.

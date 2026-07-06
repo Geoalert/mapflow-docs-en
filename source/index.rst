@@ -24,6 +24,7 @@ Getting Started with Mapflow
    :maxdepth: 1
 
    userguides/get_started
+   userguides/prices
 
 *****************
 Mapflow Services
@@ -78,7 +79,6 @@ Reference materials
    :glob:
    :maxdepth: 1
 
-   userguides/prices
    userguides/reference
 
 ******************************************
