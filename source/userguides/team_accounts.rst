@@ -4,9 +4,9 @@
 Team accounts
 ==============
 
-Users can switch to a Team account to invite collaborators, share projects and manage credit limits.
+Users can switch to a Team account to invite collaborators, share projects and manage team balance.
 
-Once the Team is created, the creator (Team Admin) can invite new members and assign their limits. The Team profile is accessible to all Team members, but only the Team Admin can manage it (set limits, update, or delete the Team).
+Once the Team is created, the creator (Team Admin) can invite new members and assign their balance. The Team profile is accessible to all Team members, but only the Team Admin can manage it (assign balance, update, or delete the Team).
 
 .. note::
    We highly encourage you to switch to the Team account if you are looking forward to working with other coworkers and managing multiple projects. Feel free to contact our support, so we can assist you in setting up a Team workflow.
@@ -45,27 +45,27 @@ Managing Team balance
 -------------------------
 
 As soon as one creates a Team, his credit balance becomes the Team balance and is available for assignment to Team members, including the Team Admin himself.
-This means the Admin has to assign and manage all the limits, including himself, within the remaining balance.
+This means the Admin has to distribute the team balance among all members, including himself.
 
 .. image:: _static/team/team_balance.png
       :alt: create a team
       :align: center
       :width: 18cm
-      :class: with-border no-scaled-link
 
 
 .. centered::
    1. Team balance
    2. Personal balance
-   3. Team user assigned balance
+   3. Team member's Balance (remaining)
 
-When assigning limits, keep in mind that when a team is created, its balance becomes the Owner's balance. Therefore, if you do not reduce the Owner's limit, the amount of "Unallocated credits" will remain zero, and it will not be possible to assign limits to other team members. See below for how this works in practice:
+The Admin directly controls each member's **Balance** - the remaining amount available for the member to spend.
+
+When assigning balance, keep in mind that when a team is created, its balance is entirely allocated to the Owner's balance. Therefore, you must first reduce the Owner's balance to free up "Unallocated credits" before you can assign balance to other team members. See below for how this works in practice:
 
 .. image:: _static/team/team_limits_update.gif
-   :alt: team limits
+   :alt: team balance
    :align: center
    :width: 19cm
-   :class: with-border no-scaled-link
 
 |
 
