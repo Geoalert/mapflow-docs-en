@@ -1,0 +1,22 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - pip install -r requirements.txt
+    build:
+      commands:
+        # Build all language versions (en, ru, es, zh)
+        - make build-all
+        # Copy non-English builds into the English root so Amplify
+        # serves them at /ru/, /es/, /zh/ (matching the URL layout in conf.py)
+        - cp -r build/docs/ru build/docs/en/ru
+        - cp -r build/docs/es build/docs/en/es
+        - cp -r build/docs/zh build/docs/en/zh
+  artifacts:
+    # English is served from the root; /ru/, /es/, /zh/ are subdirs within it.
+    baseDirectory: build/docs/en
+    files:
+      - '**/*'
+  cache:
+    paths: []
