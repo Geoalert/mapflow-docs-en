@@ -60,3 +60,7 @@ msgstr "欧洲（比利时）的处理结果样本"
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
 msgid "Processing result sample for Asia (Northern India)"
 msgstr "亚洲（印度北部）的处理结果样本"
+
+#: ../userguides/agriculture_fields_model.rst:2
+msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
+msgstr "从 1-1.2 米卫星影像中分割农田并勾勒地块边界。针对欧洲和俄罗斯训练，可作为定制模型提供。"

@@ -42,3 +42,7 @@ msgid ""
 msgstr ""
 "Muestra de resultados de procesamiento para un escenario combinado que "
 "incluye modelos de edificios, carreteras y bosques."
+
+#: ../userguides/combo_model.rst:2
+msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+msgstr "Ejecuta la detección de edificios, carreteras y bosque en un solo flujo de Mapflow y obtén un único GeoJSON con topología corregida."

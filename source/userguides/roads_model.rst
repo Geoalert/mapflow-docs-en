@@ -1,3 +1,6 @@
+.. meta::
+   :description: Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings.
+
 🚗 Roads
 ========
 

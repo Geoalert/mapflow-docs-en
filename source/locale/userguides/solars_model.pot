@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"POT-Creation-Date: 2026-07-27 16:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,67 +16,72 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../userguides/solars_model.rst:2
+#: ../userguides/solars_model.rst:1
+#: 15df9714d87d49e88fe7e1fc84c27fc6
+msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
+msgstr ""
+
+#: ../userguides/solars_model.rst:5
 #: 17cfb2853d2242b488abc322e685e95b
 msgid "|:sunny:| Solar panels (CUSTOM)"
 msgstr ""
 
-#: ../userguides/solars_model.rst:5
+#: ../userguides/solars_model.rst:8
 #: b62da0b1c2904a49930b3a59057d527f
 msgid "This model is available by request."
 msgstr ""
 
-#: ../userguides/solars_model.rst:7
+#: ../userguides/solars_model.rst:10
 #: bf6b55f73e8c418780cf54fb029c37f3
 msgid "Solar panels is a model trained for detecton of Photovoltaic elements using aerial imagery (working zoom levels 19-21). It's capable of detection PV elements both on the rooftops and on the ground. The testing benchmark score is ``F1 > 0.87``."
 msgstr ""
 
-#: ../userguides/solars_model.rst:14
+#: ../userguides/solars_model.rst:17
 #: fb5c4af210a04626aff481e8034fb815
 msgid "Model name"
 msgstr ""
 
-#: ../userguides/solars_model.rst:15
+#: ../userguides/solars_model.rst:18
 #: 01b066ba5d6d4eb0b8f70df2caa8f54b
 msgid "Model type"
 msgstr ""
 
-#: ../userguides/solars_model.rst:16
+#: ../userguides/solars_model.rst:19
 #: 66231bb651344a4ab7ad58cfa7613139
 msgid "Zoom level"
 msgstr ""
 
-#: ../userguides/solars_model.rst:17
+#: ../userguides/solars_model.rst:20
 #: 415c29f671654b70a641728dd85f9fda
 msgid "F1 (testing)"
 msgstr ""
 
-#: ../userguides/solars_model.rst:18
+#: ../userguides/solars_model.rst:21
 #: abfcf8483f7b40d49d5201a1b87fa86d
 msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/solars_model.rst:19
+#: ../userguides/solars_model.rst:22
 #: 59ae86fb5ccb4a02a03d1d926cce59b9
 msgid "Solar panels"
 msgstr ""
 
-#: ../userguides/solars_model.rst:20
+#: ../userguides/solars_model.rst:23
 #: fbe965acf3524b2e88f0ea26ed97eb9d
 msgid "Detector + segmentator"
 msgstr ""
 
-#: ../userguides/solars_model.rst:21
+#: ../userguides/solars_model.rst:24
 #: 933896804b2c415d9206970c0c4ba5c9
 msgid "zoom 19-21"
 msgstr ""
 
-#: ../userguides/solars_model.rst:22
+#: ../userguides/solars_model.rst:25
 #: f261f0b976ea4ef694f52dc8cba1991d
 msgid "pixelwise > 0.77"
 msgstr ""
 
-#: ../userguides/solars_model.rst:23
+#: ../userguides/solars_model.rst:26
 #: fdc97b98bce944e280bfe4ef8325a10d
 msgid "Global"
 msgstr ""

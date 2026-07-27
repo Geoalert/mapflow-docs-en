@@ -86,3 +86,7 @@ msgstr "Более сложная среда - городская террито
 
 #~ msgid "More complex environment - urban territory in Prague, Chech Republic"
 #~ msgstr ""
+
+#: ../userguides/roads_model.rst:2
+msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
+msgstr "Извлечение дорожной сети со снимков 0,3-0,5 м. Multi-task обучение улучшает связность маски там, где дороги закрыты деревьями или зданиями."

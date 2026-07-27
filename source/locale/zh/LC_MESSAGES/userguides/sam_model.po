@@ -162,3 +162,7 @@ msgstr ""
 "❗️ :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` 默认模型列表中未提供 "
 "SAM，因为当前插件的设计中未启用缩放选项。然而，如果您在 QGIS 工作并想在那里尝试 SAM — "
 "向我们发送请求，我们将使用指定的所有缩放选项连接相应的工作流程场景。"
+
+#: ../userguides/sam_model.rst:2
+msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
+msgstr "将 Segment Anything 适配到 Mapflow 的大规模卫星影像工作流。通用分割能力，按需提供。"

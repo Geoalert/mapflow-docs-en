@@ -435,3 +435,7 @@ msgid ""
 msgstr ""
 "📊 请参阅 :doc:`每个位置基准详细信息 <forest_benchmark_2026-07-03>` "
 "了解逐个区域的细分，包括与之前版本的比较以及预测与真实情况叠加。"
+
+#: ../userguides/forest_model.rst:2
+msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
+msgstr "从 0.6-0.3 米卫星影像中识别森林、树木与灌木植被，涵盖稀疏林地、灌木丛、小片树群和狭长林带。"

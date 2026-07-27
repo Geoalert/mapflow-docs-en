@@ -582,3 +582,7 @@ msgid ""
 msgstr ""
 "📊 请参阅:doc:`每个位置基准详细信息 "
 "<buildings_benchmark_07-06>`，了解全球和卫星集的逐个区域细分，包括与先前版本的比较以及预测与地面实况叠加。"
+
+#: ../userguides/buildings_model.rst:2
+msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
+msgstr "从高分辨率卫星影像中提取建筑物屋顶与轮廓。支持建筑类型分类、规则化、简化和高度估算。"

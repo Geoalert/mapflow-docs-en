@@ -1,3 +1,6 @@
+.. meta::
+   :description: Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output.
+
 [multi] Buildings + Roads + Forest
 =====================================
 

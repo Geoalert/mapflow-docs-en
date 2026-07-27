@@ -1,3 +1,6 @@
+.. meta::
+   :description: Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request.
+
 🏘 High-density housing (CUSTOM)
 ---------------------------------
 

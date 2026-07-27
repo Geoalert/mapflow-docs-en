@@ -1,3 +1,6 @@
+.. meta::
+   :description: Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines.
+
 🌲 Forest and trees
 ====================
 

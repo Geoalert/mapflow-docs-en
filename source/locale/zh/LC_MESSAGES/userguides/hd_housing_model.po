@@ -55,3 +55,7 @@ msgid ""
 "High-density buildings model, instance segmentation and post-processing with"
 " grid options"
 msgstr "高密度建筑模型、实例分割和带有网格选项的后处理"
+
+#: ../userguides/hd_housing_model.rst:2
+msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
+msgstr "识别中东、非洲等地常见的联排与高密度住宅屋顶。可作为 Mapflow 定制模型按需提供。"

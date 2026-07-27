@@ -114,3 +114,7 @@ msgstr ""
 #~ "HD buildings model, instance segmentation and post-processing with grid "
 #~ "options"
 #~ msgstr ""
+
+#: ../userguides/hd_housing_model.rst:2
+msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
+msgstr "Распознавание крыш зданий в плотной и террасной застройке, характерной для Ближнего Востока и Африки. Доступно как кастомная модель по запросу."

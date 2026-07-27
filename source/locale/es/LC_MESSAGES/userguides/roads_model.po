@@ -85,3 +85,7 @@ msgstr "Condiciones óptimas para el modelo: territorio rural/suburbano, Rusia"
 #: ../userguides/roads_model.rst:32 5dc5727b778b44d4aa4f7e4d96b2a1f3
 msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr "Entorno más complejo: territorio urbano en Praga, República Checa"
+
+#: ../userguides/roads_model.rst:2
+msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
+msgstr "Extrae redes viales de imágenes satelitales de 0,3-0,5 m. El aprendizaje multitarea mejora la conectividad donde las vías quedan ocultas por árboles o edificios."

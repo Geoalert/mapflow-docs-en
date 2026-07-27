@@ -105,3 +105,7 @@ msgstr "`Читать далее О варианты использования 
 
 #~ msgid "|:whale:| Swimming pools (CUSTOM)"
 #~ msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:2
+msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
+msgstr "Распознавание и классификация бассейнов на аэрофотоснимках высокого разрешения (зум 19). Бенчмарк F1 выше 0,95. Кастомная модель."

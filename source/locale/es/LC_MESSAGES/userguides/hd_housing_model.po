@@ -67,3 +67,7 @@ msgid ""
 msgstr ""
 "Modelo de edificios de alta densidad, segmentación de instancias y "
 "posprocesamiento con opciones de cuadrícula"
+
+#: ../userguides/hd_housing_model.rst:2
+msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
+msgstr "Detecta tejados en zonas de vivienda densa o adosada, típicas de Oriente Medio y África. Disponible como modelo personalizado bajo petición."

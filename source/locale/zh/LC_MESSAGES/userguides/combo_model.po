@@ -38,3 +38,7 @@ msgid ""
 "Processing result sample for a combined scenario featuring Buidlings, Roads "
 "and Forest models."
 msgstr "以建筑物、道路和森林模型为特征的组合场景的处理结果示例。"
+
+#: ../userguides/combo_model.rst:2
+msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+msgstr "在一个 Mapflow 工作流中同时运行建筑物、道路和森林识别，输出经拓扑校正的统一 GeoJSON。"

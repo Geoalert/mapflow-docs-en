@@ -40,3 +40,7 @@ msgid ""
 "Processing result sample for a rapidly developing area with construction "
 "sites"
 msgstr "快速发展的建筑工地区域的处理结果样本"
+
+#: ../userguides/construction_model.rst:2
+msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
+msgstr "识别卫星影像中的施工场地与在建建筑。可作为 Mapflow 定制模型按需提供。"

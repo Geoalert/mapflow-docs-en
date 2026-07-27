@@ -1,3 +1,6 @@
+.. meta::
+   :description: Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model.
+
 |:tractor:| Agriculture fields (CUSTOM)
 -----------------------------------------
 

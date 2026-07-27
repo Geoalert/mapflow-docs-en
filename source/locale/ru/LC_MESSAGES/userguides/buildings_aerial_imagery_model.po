@@ -169,3 +169,7 @@ msgstr ""
 #~ "This model has been deprecated as default one and moved to custom as it's "
 #~ "geodomain application is limited. it's available by request."
 #~ msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:2
+msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
+msgstr "Извлечение небольших зданий и детальных контуров с аэрофотоснимков 15-10 см. Лучше всего для сельской и пригородной застройки; по запросу."

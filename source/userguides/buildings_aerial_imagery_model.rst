@@ -1,3 +1,6 @@
+.. meta::
+   :description: Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request.
+
 🏠⭐️ Buildings (Aerial) (CUSTOM)
 ---------------------------------
 .. note::

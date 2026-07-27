@@ -1,3 +1,6 @@
+.. meta::
+   :description: Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model.
+
 Swimming pools (CUSTOM)
 --------------------------------
 

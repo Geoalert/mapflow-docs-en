@@ -92,3 +92,7 @@ msgstr ""
 "approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-"
 "case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_"
 " sobre el Casos de uso y aplicación del modelo."
+
+#: ../userguides/swimming_pools_model.rst:2
+msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
+msgstr "Detecta y clasifica piscinas en imágenes aéreas de alta resolución (zoom 19). F1 de referencia superior a 0,95. Modelo personalizado."

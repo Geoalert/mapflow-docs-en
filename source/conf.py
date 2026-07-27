@@ -33,7 +33,8 @@ extensions = [
   'sphinx_rtd_theme',
   'sphinxnotes.strike',
   'sphinx_favicon',
-  'notfound.extension'
+  'notfound.extension',
+  'sphinx_sitemap'
 ]
 
 
@@ -147,9 +148,42 @@ languages = [
 gettext_uuid = True  # Generate UUIDs for each translatable message
 gettext_auto_build = True  # Automatically compile PO to MO files
 
+# -- SEO ---------------------------------------------------------------------
+#
+# The canonical host. Every language is served from it: English at the root,
+# the others under /<lang>/ (see `root_language` above and amplify.yml, which
+# copies each build into the English root).
+#
+# NOTE: deliberately not named `site_url`. sphinx-sitemap registers a config
+# value by that exact name and prefers it over `html_baseurl`, so a lowercase
+# `site_url` here would override the per-language URL set in setup() and every
+# locale's sitemap would list the English URLs.
+SITE_ROOT = 'https://docs.mapflow.ai/'
+
+
+def language_url(lang):
+    """Absolute base URL for a language build. Root language gets no prefix."""
+    return SITE_ROOT if lang == root_language else '{}{}/'.format(SITE_ROOT, lang)
+
+
+# `html_baseurl` is what makes Sphinx emit <link rel="canonical">. It MUST be
+# per-build: a single site-wide value would make every locale canonicalise to
+# the same URL and Google would drop three of the four. The real value is set
+# in setup() below, once `-D language=...` has been applied.
+html_baseurl = language_url(root_language)
+
+# sphinx-sitemap. `html_baseurl` already carries the language prefix, so the
+# extension must not add one of its own — hence `sitemap_locales = [None]` and
+# a bare url scheme. Without both, the Russian build would emit URLs like
+# https://docs.mapflow.ai/ru/ru/userguides/buildings_model.html
+sitemap_locales = [None]
+sitemap_url_scheme = '{link}'
+sitemap_filename = 'sitemap.xml'
+
 html_context = {
     'languages': languages,
     'root_language': root_language,
+    'site_url': SITE_ROOT,
     # Placeholder — the real value is filled in by setup() below, because at this
     # point `language` is still the default and does not reflect `-D language=...`.
     'current_language': language,
@@ -166,8 +200,23 @@ def setup(app):
     """
 
     def _sync_language(app, config):
+        lang = config.language or root_language
+
         context = config.html_context
-        context['current_language'] = config.language or root_language
+        context['current_language'] = lang
         context['language_codes'] = [code for _name, code in context['languages']]
+        # Consumed by _templates/layout.html to build the hreflang set.
+        context['language_urls'] = {
+            code: language_url(code) for _name, code in context['languages']
+        }
+
+        # Per-build canonical root. See the note next to `html_baseurl` above.
+        config.html_baseurl = language_url(lang)
+
+        # robots.txt is only meaningful at the site root, and only the English
+        # build lands there. Shipping it from every build would scatter ignored
+        # copies at /ru/robots.txt and friends.
+        if lang == root_language:
+            config.html_extra_path = list(config.html_extra_path) + ['_extra']
 
     app.connect('config-inited', _sync_language)

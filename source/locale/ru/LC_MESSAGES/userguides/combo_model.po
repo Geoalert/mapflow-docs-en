@@ -42,3 +42,7 @@ msgid ""
 msgstr ""
 "Образец результатов обработки для комбинированного сценария с моделями "
 "зданий, дорог и леса."
+
+#: ../userguides/combo_model.rst:2
+msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+msgstr "Запустите распознавание зданий, дорог и леса в одном рабочем процессе Mapflow и получите единый GeoJSON с исправленной топологией."

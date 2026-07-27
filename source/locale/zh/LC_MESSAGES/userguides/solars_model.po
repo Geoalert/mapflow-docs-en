@@ -80,3 +80,7 @@ msgstr "全球的"
 #: 450ca36acfe34840b250ff7e06d1f347
 msgid "Processing result of solars model"
 msgstr "太阳模型处理结果"
+
+#: ../userguides/solars_model.rst:2
+msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
+msgstr "从航空影像（缩放级别 19-21）中识别屋顶和地面光伏组件。基准 F1 高于 0.87，按需提供。"

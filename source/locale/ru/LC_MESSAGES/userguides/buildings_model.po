@@ -794,3 +794,7 @@ msgstr ""
 
 #~ msgid "urban mixed - regular"
 #~ msgstr ""
+
+#: ../userguides/buildings_model.rst:2
+msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
+msgstr "Извлечение крыш и контуров зданий со спутниковых снимков высокого разрешения. Классификация по типам, регуляризация, упрощение и оценка высоты."

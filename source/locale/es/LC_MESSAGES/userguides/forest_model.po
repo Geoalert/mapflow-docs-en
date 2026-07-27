@@ -466,3 +466,7 @@ msgstr ""
 "<forest_benchmark_2026-07-03>` para ver el desglose área por área, incluida "
 "la comparación con la versión anterior y las superposiciones de predicción "
 "versus verdad sobre el terreno."
+
+#: ../userguides/forest_model.rst:2
+msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
+msgstr "Detecta bosques, árboles y vegetación arbustiva en imágenes de 0,6-0,3 m. Incluye bosque disperso, matorrales, pequeños grupos de árboles y líneas de árboles."

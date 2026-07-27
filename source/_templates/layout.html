@@ -1,0 +1,27 @@
+{# Adds hreflang alternates to every page.
+
+   Sphinx emits <link rel="canonical"> on its own once `html_baseurl` is set
+   (see conf.py, where it is set per language build). It has no notion of
+   translated siblings, so the alternate set is built here.
+
+   Context (see conf.py):
+     language_urls    - {code: absolute base URL} for every built language
+     root_language    - the language served from the site root, no prefix
+     current_language - the language of THIS build
+
+   `pagename` is the page's path without an extension ("userguides/buildings_model"),
+   so the sibling URL is simply <language base> + pagename + file_suffix. The
+   directory layout is identical across builds because every language is built
+   from the same sources.
+#}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {%- if language_urls %}
+    {%- for code, base in language_urls.items() %}
+  <link rel="alternate" hreflang="{{ code }}" href="{{ base }}{{ pagename }}{{ file_suffix }}" />
+    {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ language_urls[root_language] }}{{ pagename }}{{ file_suffix }}" />
+  {%- endif %}
+{% endblock %}

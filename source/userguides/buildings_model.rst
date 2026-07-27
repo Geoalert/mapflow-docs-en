@@ -1,3 +1,6 @@
+.. meta::
+   :description: Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation.
+
 .. _Buildings model:
 
 🏠 Buildings

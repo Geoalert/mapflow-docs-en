@@ -75,3 +75,7 @@ msgstr "模型的最佳条件：俄罗斯农村/郊区"
 #: ../userguides/roads_model.rst:32 5dc5727b778b44d4aa4f7e4d96b2a1f3
 msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr "更复杂的环境——捷克共和国布拉格的城市领土"
+
+#: ../userguides/roads_model.rst:2
+msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
+msgstr "从 0.3-0.5 米卫星影像中提取道路网络。多任务学习提升了被树木或建筑遮挡路段的掩膜连通性。"

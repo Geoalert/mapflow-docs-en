@@ -121,3 +121,7 @@ msgstr ""
 "Objetos pequeños que no se han detectado de forma predeterminada "
 ":ref:`Modelo de edificios` pero se han detectado mediante una imagen aérea "
 "con los edificios (imágenes aéreas)"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:2
+msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
+msgstr "Extrae edificios pequeños y contornos detallados de imágenes aéreas de 15-10 cm. Ideal para zonas rurales y periurbanas; bajo petición."

@@ -82,3 +82,7 @@ msgstr ""
 #: 450ca36acfe34840b250ff7e06d1f347
 msgid "Processing result of solars model"
 msgstr "Resultado del procesamiento del modelo solar."
+
+#: ../userguides/solars_model.rst:2
+msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
+msgstr "Detecta paneles fotovoltaicos en tejados y en suelo a partir de imágenes aéreas (zoom 19-21). F1 de referencia superior a 0,87. Bajo petición."

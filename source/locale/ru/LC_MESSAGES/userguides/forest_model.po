@@ -521,3 +521,7 @@ msgstr ""
 
 #~ msgid "Sample of results for **Tree crowns**"
 #~ msgstr ""
+
+#: ../userguides/forest_model.rst:2
+msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
+msgstr "Распознавание лесов, деревьев и кустарниковой растительности на снимках 0,6-0,3 м. Включая разреженный лес, кустарники, небольшие группы деревьев и лесополосы."

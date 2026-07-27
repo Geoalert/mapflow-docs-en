@@ -46,3 +46,7 @@ msgid ""
 msgstr ""
 "Muestra de resultados de procesamiento para un área en rápido desarrollo con"
 " sitios de construcción"
+
+#: ../userguides/construction_model.rst:2
+msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
+msgstr "Detecta obras y edificios en construcción en imágenes satelitales. Disponible como modelo personalizado de Mapflow bajo petición."

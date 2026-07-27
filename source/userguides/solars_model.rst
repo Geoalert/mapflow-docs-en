@@ -1,3 +1,6 @@
+.. meta::
+   :description: Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request.
+
 |:sunny:| Solar panels (CUSTOM)
 --------------------------------
 

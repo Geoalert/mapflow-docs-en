@@ -88,3 +88,7 @@ msgstr ""
 "`阅读更多<https://medium.com/geoalert-platform-urban-monitoring/how-we-"
 "approached-a-foundational-model-and-ending-up-with-a- detector-a-real-use-"
 "case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_用例和模型应用"
+
+#: ../userguides/swimming_pools_model.rst:2
+msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
+msgstr "在高分辨率航空影像（缩放级别 19）中识别并分类游泳池。基准 F1 高于 0.95，定制模型。"

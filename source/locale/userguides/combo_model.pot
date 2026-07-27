@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"POT-Creation-Date: 2026-07-27 16:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../userguides/combo_model.rst:2
+#: ../userguides/combo_model.rst:1
+#: 35e3ab73215b4c25867b19cf1ffb72a7
+msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+msgstr ""
+
+#: ../userguides/combo_model.rst:5
 #: 4985226c50c94eb897da9e2a8f528161
 msgid "[multi] Buildings + Roads + Forest"
 msgstr ""
 
-#: ../userguides/combo_model.rst:4
+#: ../userguides/combo_model.rst:7
 #: a114478755a84a25a1be94e3e7d1f056
 msgid "This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output."
 msgstr ""
 
-#: ../userguides/combo_model.rst:13
+#: ../userguides/combo_model.rst:16
 #: 3ba4ad1797fd4e26a492eb9e3025a969
 msgid "Processing result of construction model"
 msgstr ""
 
-#: ../userguides/combo_model.rst:13
+#: ../userguides/combo_model.rst:16
 #: 2f6c52f7b768459db31022e8c7dea484
 msgid "Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models."
 msgstr ""

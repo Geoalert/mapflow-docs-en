@@ -330,3 +330,7 @@ msgstr ""
 
 #~ msgid "✨ Segment anything (CUSTOM)"
 #~ msgstr ""
+
+#: ../userguides/sam_model.rst:2
+msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
+msgstr "Segment Anything, адаптированная для масштабной обработки спутниковых снимков в Mapflow. Универсальная сегментация, доступна по запросу."

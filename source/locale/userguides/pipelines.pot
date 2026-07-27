@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-07-27 16:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,17 +31,22 @@ msgstr ""
 msgid "AI-Mapping Models"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:4
+#: ../userguides/pipelines.rst:15
+#: 07b3042f22e04bd2a6dbca2520b4d5c4
+msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:7
 #: 8f2869779336479b9358a8bf0585d1cb
 msgid "🏠 Buildings"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:6
+#: ../userguides/buildings_model.rst:9
 #: d5381e6cd5f14b6ab6cbf56df0d9cbb0
 msgid "Extracting of rooftops of buildings from imagery of high resolution. High performance deep learning model is trained to detect the buildings roofs."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:9
+#: ../userguides/buildings_model.rst:12
 #: 79fedb6e00174384b93b8977917ef333
 msgid "**Model tags** |:label:|"
 msgstr ""
@@ -53,7 +58,7 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:11
+#: ../userguides/buildings_model.rst:14
 #: 4b495704852f4d1ab04e1d4c8e214996
 msgid "2026-07-06"
 msgstr ""
@@ -65,10 +70,10 @@ msgstr ""
 msgid "Geo Domain"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:12
-#: ../userguides/forest_model.rst:15
-#: ../userguides/swimming_pools_model.rst:23
-#: ../userguides/solars_model.rst:23
+#: ../userguides/buildings_model.rst:15
+#: ../userguides/forest_model.rst:18
+#: ../userguides/swimming_pools_model.rst:26
+#: ../userguides/solars_model.rst:26
 #: 20abb20941b24c71b9f829baa95287d3
 #: 20abb20941b24c71b9f829baa95287d3
 #: 20abb20941b24c71b9f829baa95287d3
@@ -83,8 +88,8 @@ msgstr ""
 msgid "Model method"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:13
-#: ../userguides/forest_model.rst:16
+#: ../userguides/buildings_model.rst:16
+#: ../userguides/forest_model.rst:19
 #: 1f4e7cc5a1ed4637abf018267d60b6b7
 #: 1f4e7cc5a1ed4637abf018267d60b6b7
 msgid "Segmentation"
@@ -93,1067 +98,1082 @@ msgstr ""
 #: ../userguides/buildings_model.rst:0
 #: ../userguides/forest_model.rst:0
 #: 6a842b844ebc4b4999064d9dc359c998
-#: 3ec393fb872344689c3e55b3705b6756
+#: 6a842b844ebc4b4999064d9dc359c998
 msgid "GSD / Map Zoom"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:14
+#: ../userguides/buildings_model.rst:17
 #: f03a3d19c9904fba98ffe9f02a59bb3c
 msgid "0.3 m / z19"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:16
+#: ../userguides/buildings_model.rst:19
 #: 238a9cebee594fbf9d07752a8ce94dab
 msgid "*Note:* The building predictions with area less than 20 sq.m. are removed to avoid clutter"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:18
+#: ../userguides/buildings_model.rst:21
 #: 86bfee4712f54a42927729111882c023
 msgid "The model does not extract the footprints directly, because they are not clearly visible in the images, but it can obtain them, just like human cartographers, by moving the roof to the bottom of the wall (see Additional options)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:20
-#: ../userguides/forest_model.rst:28
+#: ../userguides/buildings_model.rst:23
+#: ../userguides/forest_model.rst:31
 #: cea82db6c6864d7dbc32f8911f52f37e
 #: cea82db6c6864d7dbc32f8911f52f37e
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:22
+#: ../userguides/buildings_model.rst:25
 #: 42ffb90696be485e9b60c449abfbd31c
 msgid "**Classification by types of buildings** – typology of buildings is represented by the main classes (see :ref:`reference <buildings_classes>`)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:23
+#: ../userguides/buildings_model.rst:26
 #: 26017519096b43a1b501407b0b8388f6
 msgid "**Regularization** - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. This option produces much more map-friendly shapes which look better, but some original mask accuracy can be lost."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:24
+#: ../userguides/buildings_model.rst:27
 #: 367e12b28a2d4225a674594cc1740e58
 msgid "**Simplification** - simplifies the building shape, staying close to the original mask, adjusted for curve and complex shapes. More approximated shapes, but less right angles."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:25
+#: ../userguides/buildings_model.rst:28
 #: c77e5159faed4284bb52ee45c53949da
 msgid "**Merge with OSM** - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option.In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index) and if there is one, we replace our result with OSM polygon. This makes the result not based on the image, so the buildings can be shifted from actual positions. Also the corrected buildings are rotated to align with the nearest roads downloaded from OSM."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:26
+#: ../userguides/buildings_model.rst:29
 #: 3631371b38f44645a860223b3bae7913
 msgid "**Height Estimation (beta)** – feature leverages a dedicated regression-based model that infers height using visual indicators such as shadow length and visible wall segments. The result is what is termed **3D building footprints** where the building's countour is projected to ground level instead of the roof outline. This is especially useful for oblique imagery, where roofs often appear shifted."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:30
-#: ../userguides/forest_model.rst:70
+#: ../userguides/buildings_model.rst:33
+#: ../userguides/forest_model.rst:73
 #: e3745775600d48e7890d420a50e05674
-#: 1f4e7cc5a1ed4637abf018267d60b6b7
+#: e3745775600d48e7890d420a50e05674
 msgid "Benchmarks - segmentation"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:33
+#: ../userguides/buildings_model.rst:36
 #: bb9e9745e4f248e3b71bb83712b6d2d9
 msgid "Aerial imagery"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:35
+#: ../userguides/buildings_model.rst:38
 #: 045efbcb643147cc84a34f7f8db1a185
 msgid "Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m / z19). The model was evaluated on a global validation set of 7 areas of interest (AOI) against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union of the predicted and ground-truth building masks, and F1 / Precision / Recall are computed on the overlapping mask area."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:45
-#: ../userguides/buildings_model.rst:124
-#: ../userguides/forest_model.rst:82
-#: 6f32624821c04f2fa4044ae5fdda5407
-#: a3060e138ef64aeebc87e2ac7d9fb904
-#: e8873f19f1b640ecbe4ce2164a1271ad
-msgid "AOI (location)"
-msgstr ""
-
-#: ../userguides/buildings_model.rst:46
-#: ../userguides/buildings_model.rst:125
-#: ../userguides/forest_model.rst:83
-#: f0809882e64c480cb5e63440d9919e12
-#: 2d626ad7ff414f5a93c38d49db583dba
-#: b094abec06d342ddb132ebbcd20f43b1
-msgid "Predicted features"
-msgstr ""
-
-#: ../userguides/buildings_model.rst:47
-#: ../userguides/buildings_model.rst:126
-#: ../userguides/forest_model.rst:84
-#: 3d9d181174674d75901956ad2d6f0dd9
-#: 1aba1d04cc24413fbe0fcecba854faf8
-#: 2588b3a78a05473fbd6dcef312a799b6
-msgid "IoU"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:48
 #: ../userguides/buildings_model.rst:127
 #: ../userguides/forest_model.rst:85
-#: 9d4affa85a61439dafbe4140268aee92
-#: c3f57e739a13444fafefc394414d117e
-#: ad401bce79164ea1a2792a4ec04d74da
-msgid "F1"
+#: 6f32624821c04f2fa4044ae5fdda5407
+#: 6f32624821c04f2fa4044ae5fdda5407
+#: 6f32624821c04f2fa4044ae5fdda5407
+msgid "AOI (location)"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:49
 #: ../userguides/buildings_model.rst:128
 #: ../userguides/forest_model.rst:86
+#: f0809882e64c480cb5e63440d9919e12
+#: f0809882e64c480cb5e63440d9919e12
+#: f0809882e64c480cb5e63440d9919e12
+msgid "Predicted features"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:50
+#: ../userguides/buildings_model.rst:129
+#: ../userguides/forest_model.rst:87
+#: 3d9d181174674d75901956ad2d6f0dd9
+#: 3d9d181174674d75901956ad2d6f0dd9
+#: 3d9d181174674d75901956ad2d6f0dd9
+msgid "IoU"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:51
+#: ../userguides/buildings_model.rst:130
+#: ../userguides/forest_model.rst:88
+#: 9d4affa85a61439dafbe4140268aee92
+#: 9d4affa85a61439dafbe4140268aee92
+#: 9d4affa85a61439dafbe4140268aee92
+msgid "F1"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:52
+#: ../userguides/buildings_model.rst:131
+#: ../userguides/forest_model.rst:89
 #: 3f9ade13f9614e0f9fcc69cde629e0f6
 #: 3f9ade13f9614e0f9fcc69cde629e0f6
 #: 3f9ade13f9614e0f9fcc69cde629e0f6
 msgid "Precision"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:50
-#: ../userguides/buildings_model.rst:129
-#: ../userguides/forest_model.rst:87
+#: ../userguides/buildings_model.rst:53
+#: ../userguides/buildings_model.rst:132
+#: ../userguides/forest_model.rst:90
 #: 0bb2e2822b984c1e8943769271a0113d
-#: 055e800fbf34406893381016e0252f59
-#: f0f30ec5352e4cd08ee396b30c0417a6
+#: 0bb2e2822b984c1e8943769271a0113d
+#: 0bb2e2822b984c1e8943769271a0113d
 msgid "Recall"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:51
+#: ../userguides/buildings_model.rst:54
 #: d039f1346a304bbd8fd580cc3025b188
 msgid "United States — Fort Myers"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:52
+#: ../userguides/buildings_model.rst:55
 #: 23bcbd6a38794e19b29593e930874fe5
 msgid "65"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:53
-#: ../userguides/buildings_model.rst:135
+#: ../userguides/buildings_model.rst:56
+#: ../userguides/buildings_model.rst:138
 #: 0009bbfeacfb40e28313ea56fb01b4d7
-#: 56ac5ae996724231b7e9be6956c34718
+#: 0009bbfeacfb40e28313ea56fb01b4d7
 msgid "0.907"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:54
+#: ../userguides/buildings_model.rst:57
 #: 41dd9b7f92094ca9b41801ad90c7569e
 msgid "**0.951**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:55
+#: ../userguides/buildings_model.rst:58
 #: a6db4c1b2f8741b08560cf3f01d4d1fa
 msgid "0.983"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:56
+#: ../userguides/buildings_model.rst:59
 #: 02f51e54e38a4e999269d49d3f304a69
 msgid "0.921"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:57
+#: ../userguides/buildings_model.rst:60
 #: 3a53e8a3222741b18698856a61fbe790
 msgid "United States — Phoenix"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:58
+#: ../userguides/buildings_model.rst:61
 #: 6c2eaae2ca5349b9946747cbc5bde412
 msgid "47"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:59
-#: ../userguides/buildings_model.rst:80
+#: ../userguides/buildings_model.rst:62
+#: ../userguides/buildings_model.rst:83
 #: e14c5d5dbb57493e9aca5c39df473ecb
-#: 6c2e83fb41ba4f448d8bee7edf1df2f5
+#: e14c5d5dbb57493e9aca5c39df473ecb
 msgid "0.903"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:60
+#: ../userguides/buildings_model.rst:63
 #: 7f0e4702d7124d6190227cc3ca291b89
 msgid "**0.949**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:61
-#: ../userguides/forest_model.rst:92
+#: ../userguides/buildings_model.rst:64
+#: ../userguides/forest_model.rst:95
 #: b685c0698bb6418782b7f9206beb3899
-#: e07099055365492cbc859a2f0bce5669
+#: b685c0698bb6418782b7f9206beb3899
 msgid "0.944"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:62
+#: ../userguides/buildings_model.rst:65
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "0.953"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:63
+#: ../userguides/buildings_model.rst:66
 #: 7644135f3c2c4d36938c9f1f30bc7469
 msgid "Canada — Rigaud"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:64
+#: ../userguides/buildings_model.rst:67
 #: ef1d13aa2f6144cbb25326855b61ace6
 msgid "103"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:65
+#: ../userguides/buildings_model.rst:68
 #: 06f4cf3cb86a4ed29ac05730b7d3a3ae
 msgid "0.870"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:66
+#: ../userguides/buildings_model.rst:69
 #: ce1dbe6852124d1ba15ab90369aeb17d
 msgid "**0.930**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:67
+#: ../userguides/buildings_model.rst:70
 #: 6f020502d5cc4765b5eca4596df92a3c
 msgid "0.934"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:68
+#: ../userguides/buildings_model.rst:71
 #: 9ae78c39b8394203a759a73ab514bef4
 msgid "0.927"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:69
+#: ../userguides/buildings_model.rst:72
 #: 5c9b7256ba604b62874b30106739629d
 msgid "Australia — Adelaide"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:70
+#: ../userguides/buildings_model.rst:73
 #: 2b3140e8c5a74b2e97d1a32057b1dc38
 msgid "92"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:71
-#: ../userguides/forest_model.rst:141
+#: ../userguides/buildings_model.rst:74
+#: ../userguides/forest_model.rst:144
 #: b5319c85b719438e98686c6865290c6b
-#: 57932b65856a4354b82e11cab40852b0
+#: b5319c85b719438e98686c6865290c6b
 msgid "0.868"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:72
-#: ../userguides/buildings_model.rst:78
+#: ../userguides/buildings_model.rst:75
+#: ../userguides/buildings_model.rst:81
 #: b8602ff02cf74cfca92b8fe360118f71
-#: 2792047114414b1c959e6e07a3bcb5fe
+#: b8602ff02cf74cfca92b8fe360118f71
 msgid "**0.929**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:73
+#: ../userguides/buildings_model.rst:76
 #: 1af91d403bef4ceeb8f3101b146739c3
 msgid "0.914"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:74
+#: ../userguides/buildings_model.rst:77
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "0.945"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:75
+#: ../userguides/buildings_model.rst:78
 #: 2e3e17e4f7154f50a0f5c8ef74cb7410
 msgid "New Zealand — Lower Hutt"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:76
+#: ../userguides/buildings_model.rst:79
 #: d78825962c874c24a2cb1f94256b4b8b
 msgid "106"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:77
-#: ../userguides/buildings_model.rst:103
+#: ../userguides/buildings_model.rst:80
+#: ../userguides/buildings_model.rst:106
 #: 6d9e0e49ecfb4bffaf041d8a4d73cc38
-#: 9e6240197f424b29b1f15d792491f87b
+#: 6d9e0e49ecfb4bffaf041d8a4d73cc38
 msgid "0.867"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:79
+#: ../userguides/buildings_model.rst:82
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "0.956"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:81
+#: ../userguides/buildings_model.rst:84
 #: 589792511b934f019e6ba57bbe903dc0
 msgid "New Zealand — Wellington"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:82
+#: ../userguides/buildings_model.rst:85
 #: d78825962c874c24a2cb1f94256b4b8b
 msgid "76"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:83
+#: ../userguides/buildings_model.rst:86
 #: c7f9bc553df24990bb173a4ebcef1739
 msgid "0.838"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:84
+#: ../userguides/buildings_model.rst:87
 #: 5d190fc55f754fe99426a289e9f938f9
 msgid "**0.912**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:85
+#: ../userguides/buildings_model.rst:88
 #: 9de30da200494292a743db18f8a14211
 msgid "0.900"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:86
+#: ../userguides/buildings_model.rst:89
 #: 964de08d273e4936b134e9899ab0a79c
 msgid "0.924"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:87
+#: ../userguides/buildings_model.rst:90
 #: c6543bae95bd48ec956a370635805922
 msgid "United Kingdom — London"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:88
+#: ../userguides/buildings_model.rst:91
 #: 2b7aabd555824d3e99ea85f15a3cd286
 msgid "68"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:89
-#: ../userguides/buildings_model.rst:107
-#: ../userguides/forest_model.rst:96
+#: ../userguides/buildings_model.rst:92
+#: ../userguides/buildings_model.rst:110
+#: ../userguides/forest_model.rst:99
 #: 611323adcce441c895ab9d46b75839d5
-#: 8d1fb6b8a7c547dcadafacc6582d3266
-#: 0fb1697ea7164ab894afdaab00f62726
+#: 611323adcce441c895ab9d46b75839d5
+#: 611323adcce441c895ab9d46b75839d5
 msgid "0.813"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:90
-#: ../userguides/forest_model.rst:97
+#: ../userguides/buildings_model.rst:93
+#: ../userguides/forest_model.rst:100
 #: 7652f8dd06c14d29a88b0cdfc29e415b
-#: 0714145eede2443d96dc9eccd148b36b
+#: 7652f8dd06c14d29a88b0cdfc29e415b
 msgid "**0.897**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:91
+#: ../userguides/buildings_model.rst:94
 #: ff214cc59774445695f2d22f668efde7
 msgid "0.873"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:92
+#: ../userguides/buildings_model.rst:95
 #: c326cbe69ffd4242a45f29974e1ae5e3
 msgid "0.922"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:93
+#: ../userguides/buildings_model.rst:96
 #: 05514f45be0e47f78f3e5b68122d852b
 msgid "Côte d'Ivoire — Bangolo"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:94
+#: ../userguides/buildings_model.rst:97
 #: b59a1bb325ea47bbb696241e26ffb501
 msgid "102"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:95
+#: ../userguides/buildings_model.rst:98
 #: 3c550927f7204ba4b6ff38f10bf14922
 msgid "0.663"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:96
+#: ../userguides/buildings_model.rst:99
 #: 5741c724be794602a64db0a670a78ad3
 msgid "**0.797**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:97
+#: ../userguides/buildings_model.rst:100
 #: 3a4bd433722e42f49d20685571d73038
 msgid "0.844"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:98
+#: ../userguides/buildings_model.rst:101
 #: 9954133cbd1248ffa11eafd9ee40da72
 msgid "0.755"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:99
+#: ../userguides/buildings_model.rst:102
 #: cb2bbc0789f44343a32e20b9ad1810dc
 msgid "South Africa — Worcester"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:100
-#: ../userguides/forest_model.rst:119
+#: ../userguides/buildings_model.rst:103
+#: ../userguides/forest_model.rst:122
 #: d78825962c874c24a2cb1f94256b4b8b
 #: d78825962c874c24a2cb1f94256b4b8b
 msgid "156"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:101
+#: ../userguides/buildings_model.rst:104
 #: e046e42a4a794e8da326a89f298fe34a
 msgid "0.592"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:102
+#: ../userguides/buildings_model.rst:105
 #: a774b7321aaf46f6b62710cc63a3fba7
 msgid "**0.744**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:104
+#: ../userguides/buildings_model.rst:107
 #: a2b8415e09b143c88a3d9c6ca5acc0f9
 msgid "0.651"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:105
+#: ../userguides/buildings_model.rst:108
 #: a62c8a9407984758ac2bf26e78ef586d
 msgid "**Aerial (mean of 9 AOIs)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:106
+#: ../userguides/buildings_model.rst:109
 #: 2daa68e8891c40d483a46a7540ee14bc
 msgid "815"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:108
+#: ../userguides/buildings_model.rst:111
 #: 14dd912ed0434c2487236ee0a14739dd
 msgid "**0.893**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:109
+#: ../userguides/buildings_model.rst:112
 #: 03d70600715349659f1f96e597b5e35f
 msgid "0.913"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:110
+#: ../userguides/buildings_model.rst:113
 #: d76fb9c69d3a4a1583a53868295bed0b
 msgid "0.878"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:112
+#: ../userguides/buildings_model.rst:115
 #: 9f21a3c370ca444c8300b80cc5ef3411
 msgid "*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-13.*"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:115
+#: ../userguides/buildings_model.rst:118
 #: 1c1b16c99ef748b99dafbc91d6f70c79
 msgid "Satellite imagery"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:117
+#: ../userguides/buildings_model.rst:120
 #: 0b31c992a6ee4952a63131ea245987da
 msgid "Additional validation of **🏠 Buildings v.2026-07-06** on satellite imagery across 5 dense urban areas of interest."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:130
+#: ../userguides/buildings_model.rst:133
 #: 7ff74b91f06b49b2b0970a93afe44b0f
 msgid "Russia — Ufa"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:131
+#: ../userguides/buildings_model.rst:134
 #: d38ce150b0d84032bcc0d7435909236d
 msgid "426"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:132
+#: ../userguides/buildings_model.rst:135
 #: 71628d62b5284c4cbcfdebc7ddf37421
 msgid "0.821"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:133
+#: ../userguides/buildings_model.rst:136
 #: e6262f8acc2b42fd88e90511f963c117
 msgid "**0.902**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:134
+#: ../userguides/buildings_model.rst:137
 #: 67f33c2d848c461897909382d70d4fb2
 msgid "0.897"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:136
+#: ../userguides/buildings_model.rst:139
 #: 2e58ef4dbb27424a977d5f88cf2d4adb
 msgid "Saudi Arabia — Riyadh"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:137
+#: ../userguides/buildings_model.rst:140
 #: dd843b6973724fb29c119ca4e824e1c0
 msgid "225"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:138
+#: ../userguides/buildings_model.rst:141
 #: 5ebb5f44852a46ea99768352bf435588
 msgid "0.817"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:139
+#: ../userguides/buildings_model.rst:142
 #: 34fedff23e86472e96eb718ab93d3c02
 msgid "**0.899**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:140
+#: ../userguides/buildings_model.rst:143
 #: f8210bb93a4b4f2085162d4efabd0c24
 msgid "0.920"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:141
-#: ../userguides/buildings_model.rst:164
+#: ../userguides/buildings_model.rst:144
+#: ../userguides/buildings_model.rst:167
 #: 0bb8024a7ee84bdaab064836e1f291ad
-#: 183bdb37a1a640ccbd2d60f508d386a8
+#: 0bb8024a7ee84bdaab064836e1f291ad
 msgid "0.879"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:142
+#: ../userguides/buildings_model.rst:145
 #: 35b137b83a7d4d9fa5e03d50585dc922
 msgid "India — Bangalore"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:143
+#: ../userguides/buildings_model.rst:146
 #: 67b96c1d09a2404da52b64bf0f5ab083
 msgid "508"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:144
+#: ../userguides/buildings_model.rst:147
 #: 111900af12fb4ac68d605446088fbd52
 msgid "0.779"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:145
+#: ../userguides/buildings_model.rst:148
 #: a580e5cd6eef4d978565affa9cbc5c9a
 msgid "**0.876**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:146
-#: ../userguides/forest_model.rst:116
+#: ../userguides/buildings_model.rst:149
+#: ../userguides/forest_model.rst:119
 #: b2e1c26ebabc475b81ec5fb75a9b9eb9
-#: 9dc413722f9c4307a3661992261b7774
+#: b2e1c26ebabc475b81ec5fb75a9b9eb9
 msgid "0.859"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:147
-#: ../userguides/forest_model.rst:110
+#: ../userguides/buildings_model.rst:150
+#: ../userguides/forest_model.rst:113
 #: a63391b1690e452998f975b13071c206
-#: b65adecd4c83404fba6d8bcaf3a5ee39
+#: a63391b1690e452998f975b13071c206
 msgid "0.894"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:148
+#: ../userguides/buildings_model.rst:151
 #: d39a837190ef43f59d186302df64bf63
 msgid "India — Thane"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:149
+#: ../userguides/buildings_model.rst:152
 #: edcb4186286e4709aefc42379d38edd7
 msgid "429"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:150
+#: ../userguides/buildings_model.rst:153
 #: 2a569d84fa3d41cf9bf552c733890780
 msgid "0.768"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:151
+#: ../userguides/buildings_model.rst:154
 #: b7253cda5c10480b8f515986dea53cf5
 msgid "**0.869**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:152
+#: ../userguides/buildings_model.rst:155
 #: 4b4b32d7defe49c6843be8583f35a683
 msgid "0.889"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:153
+#: ../userguides/buildings_model.rst:156
 #: 09fe06ecaf1b4b15aa9e95a775408c42
 msgid "0.849"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:154
+#: ../userguides/buildings_model.rst:157
 #: 3e31d132ba9f44e290bd5bdf68fa7890
 msgid "United Arab Emirates — Abu Dhabi"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:155
+#: ../userguides/buildings_model.rst:158
 #: 35b667f3ab7140c0bcc8f678ddccf521
 msgid "142"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:156
+#: ../userguides/buildings_model.rst:159
 #: 5794febc0f814d4a9fec67c0f826f08c
 msgid "0.751"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:157
+#: ../userguides/buildings_model.rst:160
 #: 8441ac8047a6488cbda39834596ba1ea
 msgid "**0.858**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:158
+#: ../userguides/buildings_model.rst:161
 #: 015ae0d7baab445286523f3a1a87a03a
 msgid "0.828"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:159
+#: ../userguides/buildings_model.rst:162
 #: 18f90125f5b647c8942a5c1af5a04cb3
 msgid "0.890"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:160
+#: ../userguides/buildings_model.rst:163
 #: 2e15e496bf234af3acd645067b9cb744
 msgid "**Satellite (mean of 5 AOIs)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:161
+#: ../userguides/buildings_model.rst:164
 #: 57458a8b93b1446580a9d4ab0e533547
 msgid "1730"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:162
+#: ../userguides/buildings_model.rst:165
 #: ee321e8c0be84b85a280940831f3d380
 msgid "0.787"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:163
+#: ../userguides/buildings_model.rst:166
 #: 9f6bc6f59c7940e183d1366692b9d8cf
 msgid "**0.881**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:165
+#: ../userguides/buildings_model.rst:168
 #: 73f2601b74c445f38907788ae8c116ec
 msgid "0.884"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:167
+#: ../userguides/buildings_model.rst:170
 #: 6eb2a0a8af6840f1b9efe90e106f0bf6
 msgid "*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-16.*"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:171
+#: ../userguides/buildings_model.rst:174
 #: 365009ae2f134da49b6e60d0f2c99076
 msgid "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the area-by-area breakdown of both the global and satellite sets, including comparison with the previous version and prediction-vs-ground-truth overlays."
 msgstr ""
 
-#: ../userguides/forest_model.rst:2
+#: ../userguides/pipelines.rst:196
+#: cd3b89f202744919ae5d428386a38622
+msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
+msgstr ""
+
+#: ../userguides/forest_model.rst:5
 #: e4dfb81c967b467b92a7ef9f01d0854f
 msgid "🌲 Forest and trees"
 msgstr ""
 
-#: ../userguides/forest_model.rst:4
+#: ../userguides/forest_model.rst:7
 #: 29c77c8a918f4e1d8c77aff3e7845614
 msgid "The model is trained on high-resolution data (0.6-0.3m) for different areas and climate zones."
 msgstr ""
 
-#: ../userguides/forest_model.rst:6
+#: ../userguides/forest_model.rst:9
 #: 16b5a7f766344f0cb520fbb9fbeb359a
 msgid "The result includes all areas covered with tree and shrub vegetation, including sparse forest and shrublands."
 msgstr ""
 
-#: ../userguides/forest_model.rst:8
+#: ../userguides/forest_model.rst:11
 #: ee1e178868414c8dab751febad32f873
 msgid "Model resolution allows to detect small group of trees and narrow tree lines."
 msgstr ""
 
-#: ../userguides/forest_model.rst:10
+#: ../userguides/forest_model.rst:13
 #: 24415f6baecf47e09ab005dcdd91d2f6
 msgid "The model is robust to region change, and performs well in most environments, including urban. The image should be taken in active vegetation period, because leafless trees or vegetation covered with snow are not the target class."
 msgstr ""
 
-#: ../userguides/forest_model.rst:12
+#: ../userguides/forest_model.rst:15
 #: c5d4406733d64c49a3a0151749c86394
 msgid "**Latest model tags** |:label:|"
 msgstr ""
 
-#: ../userguides/forest_model.rst:14
+#: ../userguides/forest_model.rst:17
 #: 3e8112fa9274404a89d017ec70f1c40e
 msgid "2026-07-03"
 msgstr ""
 
-#: ../userguides/forest_model.rst:17
+#: ../userguides/forest_model.rst:20
 #: 7c978290e5b8425295e8288a49de0093
 msgid "0.6–0.3 m / z18–19"
 msgstr ""
 
-#: ../userguides/forest_model.rst:26
+#: ../userguides/forest_model.rst:29
 #: 60809cb27685464f937643f0ae83e9ff
 msgid "Processing result of forest model"
 msgstr ""
 
-#: ../userguides/forest_model.rst:26
+#: ../userguides/forest_model.rst:29
 #: 3d4b0bcea0954cb3b55764742760578d
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr ""
 
-#: ../userguides/forest_model.rst:30
+#: ../userguides/forest_model.rst:33
 #: 9ae65437c2f54f08a855c4c122094493
 msgid "*Height estimation* – forest mask classification by height classes"
 msgstr ""
 
-#: ../userguides/forest_model.rst:31
+#: ../userguides/forest_model.rst:34
 #: 3d1d975b3a114af087821fa2c431ea53
 msgid "*Tree crown polygons* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as polygons"
 msgstr ""
 
-#: ../userguides/forest_model.rst:32
+#: ../userguides/forest_model.rst:35
 #: 3d1d975b3a114af087821fa2c431ea53
 msgid "*Tree crown points* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as points"
 msgstr ""
 
-#: ../userguides/forest_model.rst:35
+#: ../userguides/forest_model.rst:38
 #: a6f20f70f78946d38a788c6888baf6df
 msgid "We recommend using the **Tree crown** options with 0.3m resolution imagery (~ 19 zoom) for the best results in case you need to detect individual trees."
 msgstr ""
 
-#: ../userguides/forest_model.rst:40
+#: ../userguides/forest_model.rst:43
 #: 286cd4ef37354ccd8f1f2015a97a0394
 msgid "Forest Height classification follows the following classes:"
 msgstr ""
 
-#: ../userguides/forest_model.rst:42
+#: ../userguides/forest_model.rst:45
 #: 683c41987f81406f907c3b2fc2ae8a19
 msgid "Shrubs lower than 4 meters;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:43
+#: ../userguides/forest_model.rst:46
 #: 1387d710eba043c889a1b09c5fd82548
 msgid "Forest from 4 to 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:44
+#: ../userguides/forest_model.rst:47
 #: f1bcb99d92ac41d5a8caa0c482d41276
 msgid "Forest more than 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:46
+#: ../userguides/forest_model.rst:49
 #: 868aff1d66ba4aad91f5eb3f8f4a1e35
 msgid "This classification is used as a decision support for the vegetation management in powerline zones, etc. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be customized depending on the requirements."
 msgstr ""
 
-#: ../userguides/forest_model.rst:49
-#: ../userguides/roads_model.rst:16
+#: ../userguides/forest_model.rst:52
+#: ../userguides/roads_model.rst:19
 #: 732794b3045f422e98f1ce2167e27e50
 #: 732794b3045f422e98f1ce2167e27e50
 msgid "**Processing results samples**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:57
+#: ../userguides/forest_model.rst:60
 #: d20b22fa50854e1fa48ce6876d2f2f2e
 msgid "Processing result of forest model (Tree crowns, points)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:57
+#: ../userguides/forest_model.rst:60
 #: e35531ee8ad94d63b9c64277d053a0ed
 msgid "Sample of results for **Tree crowns, points**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:66
+#: ../userguides/forest_model.rst:69
 #: 9c5772ce08394de29500e58b847a3396
 msgid "Processing result of forest model (Heights)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:66
+#: ../userguides/forest_model.rst:69
 #: 6019be2112384ae7a6647c197b35a972
 msgid "Sample of results for **Forest with heights** mask (raster output)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:72
+#: ../userguides/forest_model.rst:75
 #: 85b2be35aae544b5b2c1dd93a6aad8e2
 msgid "Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation). The model was evaluated on a validation set of 6 areas of interest (AOI) against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union of the predicted and ground-truth vegetation masks, and F1 / Precision / Recall are computed on the overlapping mask area."
 msgstr ""
 
-#: ../userguides/forest_model.rst:88
+#: ../userguides/forest_model.rst:91
 #: d7e7bcf1e8be4ebd9d6ab3b794418f25
 msgid "Italy — Crotone"
 msgstr ""
 
-#: ../userguides/forest_model.rst:89
+#: ../userguides/forest_model.rst:92
 #: f0c545f9260c4242a011037445f7292a
 msgid "254"
 msgstr ""
 
-#: ../userguides/forest_model.rst:90
+#: ../userguides/forest_model.rst:93
 #: ba9d7823be314eef83154954a2d8807f
 msgid "0.862"
 msgstr ""
 
-#: ../userguides/forest_model.rst:91
+#: ../userguides/forest_model.rst:94
 #: 631552d74e7a4f249b672c60a118e03b
 msgid "**0.926**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:93
+#: ../userguides/forest_model.rst:96
 #: 1e4f7f04361b4fbc898bc39b1215565b
 msgid "0.909"
 msgstr ""
 
-#: ../userguides/forest_model.rst:94
+#: ../userguides/forest_model.rst:97
 #: c62cb10bd89f43b884e96f15758fd992
 msgid "Spain — Madrid"
 msgstr ""
 
-#: ../userguides/forest_model.rst:95
+#: ../userguides/forest_model.rst:98
 #: edf7e392c63847be8f8d4f2d50e2a326
 msgid "368"
 msgstr ""
 
-#: ../userguides/forest_model.rst:98
+#: ../userguides/forest_model.rst:101
 #: 7de156bf83d94eb9b57f8d3f5d34a252
 msgid "0.880"
 msgstr ""
 
-#: ../userguides/forest_model.rst:99
+#: ../userguides/forest_model.rst:102
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "0.915"
 msgstr ""
 
-#: ../userguides/forest_model.rst:100
+#: ../userguides/forest_model.rst:103
 #: 18ea288fb94c4d8ab71de3698525d374
 msgid "Philippines — Balanga"
 msgstr ""
 
-#: ../userguides/forest_model.rst:101
+#: ../userguides/forest_model.rst:104
 #: 90ca62161e0d45d5a9fd5c14bb5b0ea5
 msgid "220"
 msgstr ""
 
-#: ../userguides/forest_model.rst:102
+#: ../userguides/forest_model.rst:105
 #: 4b6e9d1b2e414a9eae01169be3b6e4f6
 msgid "0.806"
 msgstr ""
 
-#: ../userguides/forest_model.rst:103
+#: ../userguides/forest_model.rst:106
 #: caa4bb62257e458c929ef796bf8383eb
 msgid "**0.892**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:104
-#: ../userguides/forest_model.rst:111
+#: ../userguides/forest_model.rst:107
+#: ../userguides/forest_model.rst:114
 #: 925eea7ec46d463b8f2c28079b802c65
-#: 5d4feff0a4b74eba9e163512aad0d675
+#: 925eea7ec46d463b8f2c28079b802c65
 msgid "0.864"
 msgstr ""
 
-#: ../userguides/forest_model.rst:105
+#: ../userguides/forest_model.rst:108
 #: 69bc505428a74910b81a091ebb63123b
 msgid "0.923"
 msgstr ""
 
-#: ../userguides/forest_model.rst:106
+#: ../userguides/forest_model.rst:109
 #: e4930509b6864da0816cd8425c1a6140
 msgid "Spain — Velilla de San Antonio"
 msgstr ""
 
-#: ../userguides/forest_model.rst:107
+#: ../userguides/forest_model.rst:110
 #: 1fcde19a93fd4235b1030c6a1a6e4ea2
 msgid "1070"
 msgstr ""
 
-#: ../userguides/forest_model.rst:108
+#: ../userguides/forest_model.rst:111
 #: 57d5aea1c6ab4cd485ba0007d12b0f7e
 msgid "0.784"
 msgstr ""
 
-#: ../userguides/forest_model.rst:109
+#: ../userguides/forest_model.rst:112
 #: 3def7719a613495fbeea275987c8fb89
 msgid "**0.879**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:112
+#: ../userguides/forest_model.rst:115
 #: bbb69c7e49c14441848f057d7105ae40
 msgid "Spain — Cuenca"
 msgstr ""
 
-#: ../userguides/forest_model.rst:113
+#: ../userguides/forest_model.rst:116
 #: 6bfc43773904426ba4b589fd8255e732
 msgid "409"
 msgstr ""
 
-#: ../userguides/forest_model.rst:114
+#: ../userguides/forest_model.rst:117
 #: 0317a75559794c2990b0b78178d430d9
 msgid "0.763"
 msgstr ""
 
-#: ../userguides/forest_model.rst:115
+#: ../userguides/forest_model.rst:118
 #: f86c23936aee4536a8500de9ff2f98f1
 msgid "**0.865**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:117
+#: ../userguides/forest_model.rst:120
 #: 16a6e1bfc1f847818d3deea85101a447
 msgid "0.872"
 msgstr ""
 
-#: ../userguides/forest_model.rst:118
+#: ../userguides/forest_model.rst:121
 #: 1334cfa9983c4ef689afd7874782dae8
 msgid "Uzbekistan — Tashkent"
 msgstr ""
 
-#: ../userguides/forest_model.rst:120
+#: ../userguides/forest_model.rst:123
 #: 7ba560b4942a4025832715ede25ca58d
 msgid "0.730"
 msgstr ""
 
-#: ../userguides/forest_model.rst:121
+#: ../userguides/forest_model.rst:124
 #: 7b8b0d05d1f74cbb8dd049d191d4a51b
 msgid "**0.844**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:122
+#: ../userguides/forest_model.rst:125
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "0.905"
 msgstr ""
 
-#: ../userguides/forest_model.rst:123
+#: ../userguides/forest_model.rst:126
 #: af9a512899194a8b87c1c26ff3c6d095
 msgid "0.791"
 msgstr ""
 
-#: ../userguides/forest_model.rst:124
+#: ../userguides/forest_model.rst:127
 #: f631a2080ee04cd383abebab1ace6423
 msgid "Spain — Rus"
 msgstr ""
 
-#: ../userguides/forest_model.rst:125
+#: ../userguides/forest_model.rst:128
 #: 77e519dddbd6462fbd535fb5ada77063
 msgid "249"
 msgstr ""
 
-#: ../userguides/forest_model.rst:126
+#: ../userguides/forest_model.rst:129
 #: f23eda463e0d4d63ba8d3128ce296675
 msgid "0.617"
 msgstr ""
 
-#: ../userguides/forest_model.rst:127
+#: ../userguides/forest_model.rst:130
 #: a84819da4d984ff083ec8d4b9cba7251
 msgid "**0.763**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:128
+#: ../userguides/forest_model.rst:131
 #: 9b2e2a65dee64cff921798e356c7d10e
 msgid "0.699"
 msgstr ""
 
-#: ../userguides/forest_model.rst:129
+#: ../userguides/forest_model.rst:132
 #: 671069e1a123470ea4c5e3e642922b4b
 msgid "0.841"
 msgstr ""
 
-#: ../userguides/forest_model.rst:130
+#: ../userguides/forest_model.rst:133
 #: 17a1e958f41a431b864f9da0828d7297
 msgid "Argentina — La Banda"
 msgstr ""
 
-#: ../userguides/forest_model.rst:131
+#: ../userguides/forest_model.rst:134
 #: 11d612263a8b4a62a9e935b148b225d6
 msgid "93"
 msgstr ""
 
-#: ../userguides/forest_model.rst:132
+#: ../userguides/forest_model.rst:135
 #: ff03fbec64be4fed805110f60e058790
 msgid "0.576"
 msgstr ""
 
-#: ../userguides/forest_model.rst:133
+#: ../userguides/forest_model.rst:136
 #: f102bd118e4345d1847f3603a735fbc1
 msgid "**0.731**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:134
+#: ../userguides/forest_model.rst:137
 #: 7455ed9776034e8eb781acfd52ee6cb5
 msgid "0.653"
 msgstr ""
 
-#: ../userguides/forest_model.rst:135
+#: ../userguides/forest_model.rst:138
 #: 7b266a40ea924daa9b32a67626f2770e
 msgid "0.829"
 msgstr ""
 
-#: ../userguides/forest_model.rst:136
+#: ../userguides/forest_model.rst:139
 #: 8f18db0427bb4381a21aa3bfbb4f5f42
 msgid "**Global (mean of 8 AOIs)**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:137
+#: ../userguides/forest_model.rst:140
 #: c0b621a336c445139446400b3e62ae3f
 msgid "2819"
 msgstr ""
 
-#: ../userguides/forest_model.rst:138
+#: ../userguides/forest_model.rst:141
 #: 31521f97000e47408170eee2ce2dd7a5
 msgid "0.744"
 msgstr ""
 
-#: ../userguides/forest_model.rst:139
+#: ../userguides/forest_model.rst:142
 #: c9ab89441f0b4434ac41e820e6e378bf
 msgid "**0.850**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:140
+#: ../userguides/forest_model.rst:143
 #: 1560920b053240e0b8cf4f64f0ba091e
 msgid "0.837"
 msgstr ""
 
-#: ../userguides/forest_model.rst:143
+#: ../userguides/forest_model.rst:146
 #: 01e1ae2eb82544f79ec1961ea5f49b0b
 msgid "*Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; evaluation run 2026-07-03. Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
 msgstr ""
 
-#: ../userguides/forest_model.rst:148
+#: ../userguides/forest_model.rst:151
 #: d750340ac2c14220bdfb4f36eb9f4c13
 msgid "📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays."
 msgstr ""
 
-#: ../userguides/roads_model.rst:2
+#: ../userguides/pipelines.rst:351
+#: cb7cac3298a04f8db220cb744d3cad1c
+msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
+msgstr ""
+
+#: ../userguides/roads_model.rst:5
 #: 40daa56bee7141c2a510b4df4b283b9e
 msgid "🚗 Roads"
 msgstr ""
 
-#: ../userguides/roads_model.rst:4
+#: ../userguides/roads_model.rst:7
 #: 3c92cdc7f6a44e19a75dd61f0de5669b
 msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
 msgstr ""
 
-#: ../userguides/roads_model.rst:6
+#: ../userguides/roads_model.rst:9
 #: f28f519a07774d29b1276e38a40a16c9
 msgid "The model is trained primarily for rural and suburban areas. Multi-task learning is applied in order to improve the road mask connectivity, especially in the spots obscured by trees or buildings. Best suited for areas with low urbanization, and can fail in cities where wide roads with sidewalks and complex crossroads are present. We extract the road central line in order to decrease the clutter and optimize the extracted road network, and then the road lines are inflated back to polygonal object."
 msgstr ""
 
-#: ../userguides/roads_model.rst:9
+#: ../userguides/roads_model.rst:12
 #: 80bd52a3d8924eb6929d41484ebdbd08
 msgid "In version 1.1 we added the road graph postprocessing:"
 msgstr ""
 
-#: ../userguides/roads_model.rst:11
+#: ../userguides/roads_model.rst:14
 #: 3339a947a5954a04bc93c2ac884cda4e
 msgid "geometry simplification;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:12
+#: ../userguides/roads_model.rst:15
 #: 3abe809052eb44de832141187be16256
 msgid "merging of the gaps;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:13
+#: ../userguides/roads_model.rst:16
 #: 6496577024ba4bf5abf56135bb826497
 msgid "removal of double edges;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:14
+#: ../userguides/roads_model.rst:17
 #: 74cd8c1fb62c4a0b96139338851d1f87
 msgid "removal of detached and too short segments;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:24
-#: ../userguides/roads_model.rst:32
+#: ../userguides/roads_model.rst:27
+#: ../userguides/roads_model.rst:35
 #: 1f248fa383c449b5a14c162ff35fb818
 #: d55280c0648949179d73991aaf24a057
 msgid "Processing result of roads model"
 msgstr ""
 
-#: ../userguides/roads_model.rst:24
+#: ../userguides/roads_model.rst:27
 #: 5d9d496d69ed4dd993c7069bbd0a7365
 msgid "Optimal conditions for the model: rural/suburban territory, Russia"
 msgstr ""
 
-#: ../userguides/roads_model.rst:32
+#: ../userguides/roads_model.rst:35
 #: a7580b5f67dd462f81c2f26305d4cb3c
 msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr ""
 
-#: ../userguides/combo_model.rst:2
+#: ../userguides/pipelines.rst:389
+#: 55bf9d5fa39e471d93c0ec0fe7174ab4
+msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+msgstr ""
+
+#: ../userguides/combo_model.rst:5
 #: 383b1c85932c4ac4b056ae0a095c1605
 msgid "[multi] Buildings + Roads + Forest"
 msgstr ""
 
-#: ../userguides/combo_model.rst:4
+#: ../userguides/combo_model.rst:7
 #: ab774faf67e440f099e46a1b9ef373b6
 msgid "This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output."
 msgstr ""
 
-#: ../userguides/combo_model.rst:13
-#: ../userguides/construction_model.rst:13
+#: ../userguides/combo_model.rst:16
+#: ../userguides/construction_model.rst:16
 #: ../userguides/swimming_pools_model.rst:None
 #: 8f36eaa496c54ee2bd1bfa713c4bc63e
 #: 1650f333d11c4ea6be55d0ad2d117294
@@ -1161,7 +1181,7 @@ msgstr ""
 msgid "Processing result of construction model"
 msgstr ""
 
-#: ../userguides/combo_model.rst:13
+#: ../userguides/combo_model.rst:16
 #: d855ab70a21940129bfc07b7aba59a2c
 msgid "Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models."
 msgstr ""
@@ -1238,126 +1258,146 @@ msgstr ""
 msgid "Below is the list of custom models created for specific use cases and available in Mapflow by request (to be updated)."
 msgstr ""
 
-#: ../userguides/construction_model.rst:2
+#: ../userguides/pipelines.rst:456
+#: c7a4cebad48c4923b7fb3b4c116e38c9
+msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
+msgstr ""
+
+#: ../userguides/construction_model.rst:5
 #: 9eef9aaf1cee440cb46b6b626ae26a8c
 msgid "🏗️ Constructions (CUSTOM)"
 msgstr ""
 
-#: ../userguides/construction_model.rst:4
+#: ../userguides/construction_model.rst:7
 #: af8ae5fac8f547c0891af9147a9154db
 msgid "This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limited to some countries and the work of extending it is in progress."
 msgstr ""
 
-#: ../userguides/construction_model.rst:13
+#: ../userguides/construction_model.rst:16
 #: fe595bf9577a4bb98f4475bd53227644
 msgid "Processing result sample for a rapidly developing area with construction sites"
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:2
+#: ../userguides/pipelines.rst:475
+#: 9c0d6e9749634c36a1ced33a3a33fb3c
+msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:5
 #: 4365d2f69e904b2db440bd0c40f4d286
 msgid "🏘 High-density housing (CUSTOM)"
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:5
-#: ../userguides/sam_model.rst:5
+#: ../userguides/hd_housing_model.rst:8
+#: ../userguides/sam_model.rst:8
 #: 3f48aa235a0f4a6da314aafbaacf0685
 #: 3f48aa235a0f4a6da314aafbaacf0685
 msgid "This model has been deprecated as default one and moved to custom. it's available only by request."
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:8
+#: ../userguides/hd_housing_model.rst:11
 #: 5e4448f0c9f3431fa0e6cd67c8cc6986
 msgid "The “high-density housing” AI model is designed for areas with terraced or otherwise densely built buildings, common in the Middle East, parts of Africa, etc. This model, just like the regular building model, detects the building roofs. Firstly, the building blocks are segmented as a whole, and then each block is attempted to be devided into individual houses based on the detection of individual roof markers with rectangular grid or Voronoi diagram."
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:11
+#: ../userguides/hd_housing_model.rst:14
 #: 95f5bb404bc1446ea6c9f6c38381b290
 msgid "Processing result sample for dense urban development area (Tunisia, Africa):"
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:19
+#: ../userguides/hd_housing_model.rst:22
 #: 6d963fc93b5d4218bac977818a0e6a17
 msgid "Processing result of high-density housing model"
 msgstr ""
 
-#: ../userguides/hd_housing_model.rst:19
+#: ../userguides/hd_housing_model.rst:22
 #: 70e150d6f89a4840909ef435f9437ae3
 msgid "High-density buildings model, instance segmentation and post-processing with grid options"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:2
+#: ../userguides/pipelines.rst:500
+#: ef3de50a135c4b5ba56979b09efd6fca
+msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:5
 #: 92ad435be8a2412c81777dc4f5baa8bb
 msgid "|:tractor:| Agriculture fields (CUSTOM)"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:5
+#: ../userguides/agriculture_fields_model.rst:8
 #: c638e2eb57d2412d97aa8158f45c6a12
 msgid "This model has been deprecated as default one and moved to custom. it's available by request."
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:7
+#: ../userguides/agriculture_fields_model.rst:10
 #: 39e4e4e109554bf6a6d2e51102a881e8
 msgid "Model for fields segmentation allows to detect the agricultural fields and delineate the nearby fields from each other, if there is a visual boundary (forest line, road, different crop stage). The model is trained on the high resolution data (1-1.2 m), primarily for Europe, Russia. It performs better with larger fields with active vegetation. Smaller and terrace fields (typical for Asia) are delineated not so good. Fields without vegetation, especially in winter period, are not target class."
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:16
-#: ../userguides/agriculture_fields_model.rst:24
+#: ../userguides/agriculture_fields_model.rst:19
+#: ../userguides/agriculture_fields_model.rst:27
 #: acc5a6f70805415fb4ce4fb70f3ef844
 #: bbc90a26e36c49f1832b490ed8612eb4
 msgid "Processing result of agriculture fields model"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:16
+#: ../userguides/agriculture_fields_model.rst:19
 #: 22895d2c3da9467db3b36e3cc740eb7d
 msgid "Processing result sample for Europe (Belgium)"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:24
+#: ../userguides/agriculture_fields_model.rst:27
 #: c2ac31b20aac4d2894727925c57654ba
 msgid "Processing result sample for Asia (Northern India)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:2
+#: ../userguides/pipelines.rst:530
+#: 3a8bf93f118f4a2293158b9a47bd8df9
+msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
+msgstr ""
+
+#: ../userguides/sam_model.rst:5
 #: 57b7a0dc645648ee96d2052dc456ccb6
 msgid "✨ Segment Anything v1 (CUSTOM)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:7
+#: ../userguides/sam_model.rst:10
 #: d4a53da2cf4a4d20aca3aeac604b039e
 msgid "The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:9
+#: ../userguides/sam_model.rst:12
 #: 9558569a65bd47adafb954b155a0f6df
 msgid "Select your data source"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:13
 #: ec81aa1d4ef6438f95391e8e5df073fc
 msgid "Select your geographical area - either polygon, GeoJSON file, or your image extent"
 msgstr ""
 
-#: ../userguides/sam_model.rst:12
+#: ../userguides/sam_model.rst:15
 #: 7de5dbc69f744052a9279424b54ec6b9
 msgid "Yet there is one difference in the model workflow:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:14
+#: ../userguides/sam_model.rst:17
 #: 4055bf355df64e358caa8344a53faeb8
 msgid "if you run this model using GTIFF file — the original resolution of the image will be used"
 msgstr ""
 
-#: ../userguides/sam_model.rst:15
+#: ../userguides/sam_model.rst:18
 #: 96e002fbe3d646ddb1c71ad1bf53b9f6
 msgid "if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input"
 msgstr ""
 
 #: ../userguides/sam_model.rst:None
-#: ../userguides/sam_model.rst:47
-#: ../userguides/sam_model.rst:55
-#: ../userguides/sam_model.rst:63
-#: ../userguides/sam_model.rst:72
-#: ../userguides/sam_model.rst:80
+#: ../userguides/sam_model.rst:50
+#: ../userguides/sam_model.rst:58
+#: ../userguides/sam_model.rst:66
+#: ../userguides/sam_model.rst:75
+#: ../userguides/sam_model.rst:83
 #: 6e65769f6621476e9ab1951cebe4048a
 #: f2639202d050461eb74ee9310b664d8c
 #: 7ec555cb8b68480f9f22e396e76a1aa0
@@ -1367,194 +1407,204 @@ msgstr ""
 msgid "SAM options - zoom levels"
 msgstr ""
 
-#: ../userguides/sam_model.rst:24
+#: ../userguides/sam_model.rst:27
 #: 041063e82db5426a92c0b841b7c532ef
 msgid "Depending on the input resolution, the SAM model will interpret and generate different results. It can be empirically classified by mapping classes depending on the zoom levels as follows:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:30
+#: ../userguides/sam_model.rst:33
 #: 2ec1575440d04c4a892063de6079e311
 msgid "ZOOM LEVELS"
 msgstr ""
 
-#: ../userguides/sam_model.rst:31
+#: ../userguides/sam_model.rst:34
 #: 7cb7221723764e9ca8f552b1464cd414
 msgid "SEMANTIC OBJECTS"
 msgstr ""
 
-#: ../userguides/sam_model.rst:32
+#: ../userguides/sam_model.rst:35
 #: 35b667f3ab7140c0bcc8f678ddccf521
 msgid "14"
 msgstr ""
 
-#: ../userguides/sam_model.rst:33
+#: ../userguides/sam_model.rst:36
 #: 6c426849668f4ea2a136b973640a6a20
 msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
 msgstr ""
 
-#: ../userguides/sam_model.rst:34
+#: ../userguides/sam_model.rst:37
 #: d78825962c874c24a2cb1f94256b4b8b
 msgid "16"
 msgstr ""
 
-#: ../userguides/sam_model.rst:35
+#: ../userguides/sam_model.rst:38
 #: 0c18629b4d2e4c15ae3a24604d24415f
 msgid "Small fields, large buildings, lawns, plots"
 msgstr ""
 
-#: ../userguides/sam_model.rst:36
+#: ../userguides/sam_model.rst:39
 #: 2b7aabd555824d3e99ea85f15a3cd286
 msgid "18"
 msgstr ""
 
-#: ../userguides/sam_model.rst:37
+#: ../userguides/sam_model.rst:40
 #: d8743085b46948e993840f78f9daa0b4
 msgid "Farms, buildings, groups of trees, etc."
 msgstr ""
 
-#: ../userguides/sam_model.rst:38
+#: ../userguides/sam_model.rst:41
 #: aa4439962cb646f09d82e29b6adbb479
 msgid "19+"
 msgstr ""
 
-#: ../userguides/sam_model.rst:39
+#: ../userguides/sam_model.rst:42
 #: ba0ba537a749416080f741974ea23c0b
 msgid "Houses, trees, vehicles, roof structures, etc."
 msgstr ""
 
-#: ../userguides/sam_model.rst:47
+#: ../userguides/sam_model.rst:50
 #: 089f57c31102462484233041fb121fa3
 msgid "E.g. Result – SAM (zoom 14)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:55
+#: ../userguides/sam_model.rst:58
 #: f4eb9edf9a6041e08ecc333eeab43f26
 msgid "E.g. Result – SAM (zoom 16)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:63
+#: ../userguides/sam_model.rst:66
 #: 85cb7785828f4479839b8748b495b113
 msgid "E.g. Result – SAM (zoom 18)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:72
+#: ../userguides/sam_model.rst:75
 #: 3eec686330884b7da2f87c20030748c9
 msgid "E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping."
 msgstr ""
 
-#: ../userguides/sam_model.rst:80
+#: ../userguides/sam_model.rst:83
 #: 2dc4444612184fe29135b4bb236b31d9
 msgid "E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to small similar-pattern objects, requires some manual filtering of the model's output."
 msgstr ""
 
-#: ../userguides/sam_model.rst:83
+#: ../userguides/sam_model.rst:86
 #: eeb1d8019d8a4b83a7c266dcfa7464eb
 msgid "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:2
+#: ../userguides/pipelines.rst:621
+#: 1b5e6390763440d598f8accec170f374
+msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:5
 #: 30880309997342d9a7a3b3f3036eab38
 msgid "Swimming pools (CUSTOM)"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:5
-#: ../userguides/solars_model.rst:5
+#: ../userguides/swimming_pools_model.rst:8
+#: ../userguides/solars_model.rst:8
 #: a5d8901d0afe4703874ed0b6015d6764
 #: a5d8901d0afe4703874ed0b6015d6764
 msgid "This model is available by request."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:7
+#: ../userguides/swimming_pools_model.rst:10
 #: 4a42384dd1264a4d8eefee732f88d3ea
 msgid "Swimming pools detection and classification. The model is trained on the high resolution aerial imagery (working zoom level 19). The testing benchmark score is ``F1 > 0.95``."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:14
-#: ../userguides/solars_model.rst:14
+#: ../userguides/swimming_pools_model.rst:17
+#: ../userguides/solars_model.rst:17
 #: 7470a45dc56a40ef944a83e33194f11d
 #: 7470a45dc56a40ef944a83e33194f11d
 msgid "Model name"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:15
-#: ../userguides/solars_model.rst:15
+#: ../userguides/swimming_pools_model.rst:18
+#: ../userguides/solars_model.rst:18
 #: 3961bbaf29f14efabc0ae616e15c36d7
 #: 3961bbaf29f14efabc0ae616e15c36d7
 msgid "Model type"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:16
-#: ../userguides/solars_model.rst:16
+#: ../userguides/swimming_pools_model.rst:19
+#: ../userguides/solars_model.rst:19
 #: e9d0beedc1c34fc3a1068eb98671f909
 #: e9d0beedc1c34fc3a1068eb98671f909
 msgid "Zoom level"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:17
-#: ../userguides/solars_model.rst:17
+#: ../userguides/swimming_pools_model.rst:20
+#: ../userguides/solars_model.rst:20
 #: 0182293f7f604221ad0223d55256beb0
 #: 0182293f7f604221ad0223d55256beb0
 msgid "F1 (testing)"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:18
-#: ../userguides/solars_model.rst:18
+#: ../userguides/swimming_pools_model.rst:21
+#: ../userguides/solars_model.rst:21
 #: 5a5b9001849e46d1a609c24b704d42ee
 #: 5a5b9001849e46d1a609c24b704d42ee
 msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:19
+#: ../userguides/swimming_pools_model.rst:22
 #: f631a2080ee04cd383abebab1ace6423
 msgid "Swimming pools"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:20
+#: ../userguides/swimming_pools_model.rst:23
 #: 68c7101d841343a193952194262ae4c8
 msgid "Detector + classification"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:21
+#: ../userguides/swimming_pools_model.rst:24
 #: c58ee5aa59124b81bb435ea33d8bd0a8
 msgid "zoom 19-20"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:22
+#: ../userguides/swimming_pools_model.rst:25
 #: f08dcb1a3dfd4f4a97830b263e8af512
 msgid "> 0.95"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:31
+#: ../userguides/swimming_pools_model.rst:34
 #: 016f71b1bbbf494cb66848fda2db5e1e
 msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
 msgstr ""
 
-#: ../userguides/solars_model.rst:2
+#: ../userguides/pipelines.rst:660
+#: a14abc78dd554979a295d261a728da1d
+msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
+msgstr ""
+
+#: ../userguides/solars_model.rst:5
 #: 5fed8275c62b41929208340a42407e82
 msgid "|:sunny:| Solar panels (CUSTOM)"
 msgstr ""
 
-#: ../userguides/solars_model.rst:7
+#: ../userguides/solars_model.rst:10
 #: 543b8bdaebb84fd29b5417c9a73cb5d5
 msgid "Solar panels is a model trained for detecton of Photovoltaic elements using aerial imagery (working zoom levels 19-21). It's capable of detection PV elements both on the rooftops and on the ground. The testing benchmark score is ``F1 > 0.87``."
 msgstr ""
 
-#: ../userguides/solars_model.rst:19
+#: ../userguides/solars_model.rst:22
 #: 7750f4edd9ea489e9e75a8885a27099b
 msgid "Solar panels"
 msgstr ""
 
-#: ../userguides/solars_model.rst:20
+#: ../userguides/solars_model.rst:23
 #: b05a4955d4f1494793ee85f83657c3cc
 msgid "Detector + segmentator"
 msgstr ""
 
-#: ../userguides/solars_model.rst:21
+#: ../userguides/solars_model.rst:24
 #: 84fdf935976c48b4ae799e6bb332c24a
 msgid "zoom 19-21"
 msgstr ""
 
-#: ../userguides/solars_model.rst:22
+#: ../userguides/solars_model.rst:25
 #: 200fcb891882459aaac6f2c0bad4928f
 msgid "pixelwise > 0.77"
 msgstr ""

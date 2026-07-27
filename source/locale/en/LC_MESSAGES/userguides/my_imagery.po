@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-07-27 16:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -130,7 +130,7 @@ msgid ""
 msgstr ""
 
 #: ../userguides/my_imagery.rst:49 b5be560cb29f433b9797686ea7788e6c
-msgid "\"My imagery\" Web"
+msgid "\"My imagery\" Mapflow Web"
 msgstr ""
 
 #: ../userguides/my_imagery.rst:51 56f2ca23e3214debad80620fc1a8fa79
@@ -779,5 +779,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "NEW! Scheduled Search updates"
+#~ msgstr ""
+
+#~ msgid "\"My imagery\" Web"
 #~ msgstr ""
 

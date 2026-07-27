@@ -623,3 +623,7 @@ msgstr ""
 "<buildings_benchmark_07-06>` para ver el desglose área por área de los "
 "conjuntos global y satelital, incluida la comparación con la versión "
 "anterior y las superposiciones de predicción versus verdad terrestre."
+
+#: ../userguides/buildings_model.rst:2
+msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
+msgstr "Extrae tejados y huellas de edificios a partir de imágenes satelitales de alta resolución. Clasificación por tipo, regularización, simplificación y estimación de altura."

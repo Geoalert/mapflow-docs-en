@@ -1,3 +1,6 @@
+.. meta::
+   :description: Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request.
+
 🏗️ Constructions (CUSTOM)
 ----------------------------
 

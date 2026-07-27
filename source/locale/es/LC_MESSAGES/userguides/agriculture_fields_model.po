@@ -67,3 +67,7 @@ msgstr "Muestra de resultados de procesamiento para Europa (Bélgica)"
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
 msgid "Processing result sample for Asia (Northern India)"
 msgstr "Muestra de resultados de procesamiento para Asia (norte de la India)"
+
+#: ../userguides/agriculture_fields_model.rst:2
+msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
+msgstr "Segmenta parcelas agrícolas y delimita sus bordes en imágenes de 1-1,2 m. Entrenado para Europa y Rusia; disponible como modelo personalizado."

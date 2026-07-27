@@ -45,8 +45,8 @@ The basic scenario of working with "My imagery" service is as follows:
      Read how to use it in detail in :ref:`Mapflow QGIS plugin <My imagery qgis>`.
 
 
-"My imagery" Web
--------------------
+"My imagery" Mapflow Web
+-------------------------
 
 The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image.
 

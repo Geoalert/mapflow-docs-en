@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-27 16:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,67 +16,72 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../userguides/swimming_pools_model.rst:2
+#: ../userguides/swimming_pools_model.rst:1
+#: 9036e379119f495f96e6f0bfec326b22
+msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:5
 #: 717aedd2962945cfae86f77dcdb879d1
 msgid "Swimming pools (CUSTOM)"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:5
+#: ../userguides/swimming_pools_model.rst:8
 #: cd9fa636d798420686d37b280318cdd1
 msgid "This model is available by request."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:7
+#: ../userguides/swimming_pools_model.rst:10
 #: 5cab1a69b16a452f88b3b996be25cc09
 msgid "Swimming pools detection and classification. The model is trained on the high resolution aerial imagery (working zoom level 19). The testing benchmark score is ``F1 > 0.95``."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:14
+#: ../userguides/swimming_pools_model.rst:17
 #: 8a0d0fb69fac4af69415e064b55418cb
 msgid "Model name"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:15
+#: ../userguides/swimming_pools_model.rst:18
 #: 9b6e88df2ce3409d84d0ea18d59aacc9
 msgid "Model type"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:16
+#: ../userguides/swimming_pools_model.rst:19
 #: 96604481a0bf4176b93ea538fab4ca50
 msgid "Zoom level"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:17
+#: ../userguides/swimming_pools_model.rst:20
 #: 04ad57d117ae4e03a26bfce189fb5366
 msgid "F1 (testing)"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:18
+#: ../userguides/swimming_pools_model.rst:21
 #: a2bd6eef33954ad79d70f200e0425c6f
 msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:19
+#: ../userguides/swimming_pools_model.rst:22
 #: 6866c366ff824742a6ff24483dfbbb62
 msgid "Swimming pools"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:20
+#: ../userguides/swimming_pools_model.rst:23
 #: 8e0846502d8142919faac9d67f9d355e
 msgid "Detector + classification"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:21
+#: ../userguides/swimming_pools_model.rst:24
 #: 9c7ce87bf2e8474a852a680c2bdafa79
 msgid "zoom 19-20"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:22
+#: ../userguides/swimming_pools_model.rst:25
 #: 21733af8cbb944eb9582e03a48482654
 msgid "> 0.95"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:23
+#: ../userguides/swimming_pools_model.rst:26
 #: d21689380626445db37d815b4338ece4
 msgid "Global"
 msgstr ""
@@ -86,7 +91,7 @@ msgstr ""
 msgid "Processing result of construction model"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:31
+#: ../userguides/swimming_pools_model.rst:34
 #: 4cb7e477f85743bab71df05dc73d67c0
 msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
 msgstr ""

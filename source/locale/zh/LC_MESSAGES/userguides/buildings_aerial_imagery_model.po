@@ -112,3 +112,7 @@ msgid ""
 "Small objects that have been missed by default :ref:`Buildings model` but "
 "detected using an aerial image with the Buildings (Aerial imagery)"
 msgstr "默认情况下遗漏的小物体：参考：“建筑物模型”，但使用建筑物的航空图像（航空图像）检测到"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:2
+msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
+msgstr "从 15-10 厘米航空影像中提取小型建筑及精细轮廓。适用于乡村和郊区，按需提供。"

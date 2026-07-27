@@ -186,3 +186,7 @@ msgstr ""
 "QGIS y desea probar SAM allí, envíenos una solicitud y conectaremos los "
 "escenarios de flujo de trabajo correspondientes con todas las opciones de "
 "zoom especificadas."
+
+#: ../userguides/sam_model.rst:2
+msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
+msgstr "Segment Anything adaptado a flujos de trabajo de imágenes satelitales a gran escala en Mapflow. Segmentación universal, bajo petición."
