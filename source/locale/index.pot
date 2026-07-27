@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,9 +51,9 @@ msgstr ""
 msgid "Getting Started with Mapflow"
 msgstr ""
 
-#: ../index.rst:34
+#: ../index.rst:31
 #: 313c9a7d3e314b02912f3f8e5d7e8367
-msgid "Mapflow AI models"
+msgid "Mapflow Services"
 msgstr ""
 
 #: ../index.rst:44
@@ -91,12 +91,7 @@ msgstr ""
 msgid ":download:`Mapflow QGIS Plugin <https://plugins.qgis.org/plugins/mapflow/>`"
 msgstr ""
 
-#: ../index.rst:93
-#: d31cc366235544b682df73e6e743faeb
-msgid "Frequently asked questions"
-msgstr ""
-
-#: ../index.rst:105
+#: ../index.rst:94
 #: 946efcbed6ec40779435ee6efca7c6fb
 msgid "This documentation is distributed under the terms of Creative Commons License **\"Attribution-NoDerivs\" СC BY-ND**"
 msgstr ""

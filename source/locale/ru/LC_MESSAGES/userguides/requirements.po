@@ -15,8 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.13.0\n"
 "X-Generator: Poedit 3.4.2\n"
 
@@ -34,11 +33,11 @@ msgstr "Пожалуйста, обратите внимание на следу�
 
 #: ../../source/userguides/requirements.rst:10
 msgid ""
-"Images you upload are preprocessed in `Uint8` format. If your image is "
-"not of this type and you want to preview it manually bafore uploading to "
-"the Mapflow server, please use our `image preprocessing script <https://"
-"github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to "
-"translate it to the appropriate format;"
+"Images you upload are preprocessed in `Uint8` format. If your image is not "
+"of this type and you want to preview it manually bafore uploading to the "
+"Mapflow server, please use our `image preprocessing script "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to"
+" translate it to the appropriate format;"
 msgstr ""
 "Загружаемые вами изображения предварительно обрабатываются в формате "
 "`Uint8`. Если ваше изображение не относится к этому типу и вы хотите "
@@ -53,30 +52,29 @@ msgid ""
 "system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;"
 msgstr ""
 "Ваше изображение должно быть привязано к географической или проекционной "
-"системе координат, эллипсоиду WGS84, рекомендуется использовать UTM или "
-"Web Mercator;"
+"системе координат, эллипсоиду WGS84, рекомендуется использовать UTM или Web "
+"Mercator;"
 
 #: ../../source/userguides/requirements.rst:12
 msgid ""
-"Your image is supposed to be RGB composite, RGBa and Singleband will work "
-"as well*;"
+"Your image is supposed to be RGB composite, RGBa and Singleband will work as"
+" well*;"
 msgstr ""
-"Предполагается, что ваше изображение должно быть составным RGB, также "
-"будут работать RGBa и одноканальное*;"
+"Предполагается, что ваше изображение должно быть составным RGB, также будут "
+"работать RGBa и одноканальное*;"
 
 #: ../../source/userguides/requirements.rst:13
 msgid ""
-"The default limit for file size is 1Gb. If you have a bigger file – "
-"reduce its size or consider switching to the paid plan"
+"The default limit for file size is 1Gb. If you have a bigger file – reduce "
+"its size or consider switching to the paid plan"
 msgstr ""
-"По умолчанию размер файла ограничен 1 Гб. Если у вас файл большего "
-"размера – уменьшите его размер или подумайте о переходе на платный "
-"тарифный план"
+"По умолчанию размер файла ограничен 1 Гб. Если у вас файл большего размера –"
+" уменьшите его размер или подумайте о переходе на платный тарифный план"
 
 #: ../../source/userguides/requirements.rst:14
 msgid ""
-"Each Mapflow model has its recommendations for the spatial resolution of "
-"the input data, see :ref:`Model requirements` below"
+"Each Mapflow model has its recommendations for the spatial resolution of the"
+" input data, see :ref:`Model requirements` below"
 msgstr ""
 "Каждая модель Mapflow имеет свои рекомендации по пространственному "
 "разрешению входных данных, смотрите :ref:`Model requirements` ниже"
@@ -85,14 +83,13 @@ msgstr ""
 msgid ""
 "In case of non-compliance with any requirements, the system reports an "
 "error. If you are using Mapflow Web or Mapflow QGIS plugin, the error "
-"messages are shown in the user interface. For more details, see :doc:"
-"`errors description <../api/error_messages>`."
+"messages are shown in the user interface. For more details, see :doc:`errors"
+" description <../api/error_messages>`."
 msgstr ""
-"В случае несоблюдения каких-либо требований система сообщает об ошибке. "
-"Если вы используете Mapflow Web или плагин Mapflow QGIS, сообщения об "
-"ошибках отображаются в пользовательском интерфейсе. Для получения "
-"дополнительной информации смотрите :doc:`сообщения об ошибках <../api/"
-"error_messages>`."
+"В случае несоблюдения каких-либо требований система сообщает об ошибке. Если"
+" вы используете Mapflow Web или плагин Mapflow QGIS, сообщения об ошибках "
+"отображаются в пользовательском интерфейсе. Для получения дополнительной "
+"информации смотрите :doc:`сообщения об ошибках <../api/error_messages>`."
 
 #: ../../source/userguides/requirements.rst:23
 msgid "Model requirements"
@@ -100,55 +97,56 @@ msgstr "Требования моделей"
 
 #: ../../source/userguides/requirements.rst:25
 msgid ""
-"The table below lists model requirements for spatial resolution of the "
-"input imagery."
+"The table below lists model requirements for spatial resolution of the input"
+" imagery."
 msgstr ""
-"В таблице ниже перечислены требования модели к пространственному "
-"разрешению входных изображений."
+"В таблице ниже перечислены требования модели к пространственному разрешению "
+"входных изображений."
 
 #: ../../source/userguides/requirements.rst:27
 msgid ""
 "**\"Required\"** means that the imagery with resolution outside of this "
 "range will be rejected from processing and the request will fail."
 msgstr ""
-"**\"Требуемый\"** означает, что изображения с разрешением за пределами "
-"этого диапазона будут отклонены от обработки и запрос завершится неудачей."
+"**\"Требуемый\"** означает, что изображения с разрешением за пределами этого"
+" диапазона будут отклонены от обработки и запрос завершится неудачей."
 
 #: ../../source/userguides/requirements.rst:30
 msgid ""
 "**\"Recommended\"** means that the model is fit specifically for this "
 "spatial resolution. Any images of higher resolution will be downsampled "
-"before processing, so it gives no profit to upload higher resolution. "
-"Images of lower resolution (if meeting the \"required\" section) will be "
+"before processing, so it gives no profit to upload higher resolution. Images"
+" of lower resolution (if meeting the \"required\" section) will be "
 "upsampled, but the results will not be so good as for recommended "
 "resolution."
 msgstr ""
 "**\"Рекомендуемый\"** означает, что модель подходит именно для этого "
-"пространственного разрешения. Любые изображения с более высоким "
-"разрешением будут уменьшены перед обработкой, поэтому загрузка "
-"изображений с более высоким разрешением не приносит никакой пользы. "
-"Изображения с более низким разрешением (если они соответствуют разделу "
-"«требуемый») будут подвергнуты дополнительной выборке, но результаты "
-"будут не такими хорошими, как при рекомендуемом разрешении."
+"пространственного разрешения. Любые изображения с более высоким разрешением "
+"будут уменьшены перед обработкой, поэтому загрузка изображений с более "
+"высоким разрешением не приносит никакой пользы. Изображения с более низким "
+"разрешением (если они соответствуют разделу «требуемый») будут подвергнуты "
+"дополнительной выборке, но результаты будут не такими хорошими, как при "
+"рекомендуемом разрешении."
 
 #: ../../source/userguides/requirements.rst:35
 msgid ""
-"GSD is specified in `UTM coordinate system <https://proj4.org/en/9.2/"
-"operations/projections/utm.html>`_, and may not correspond to what you "
-"see as \"pixel size\" if your image's coordinate system differs."
+"GSD is specified in `UTM coordinate system "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_, and may not "
+"correspond to what you see as \"pixel size\" if your image's coordinate "
+"system differs."
 msgstr ""
-"GSD указан в `системе координат UTM <https://proj4.org/en/9.2/operations/"
-"projections/utm.html>`_ и может не соответствовать тому, что вы видите "
-"как «размер пикселя», если система координат вашего изображения "
-"отличается."
+"GSD указан в `системе координат UTM "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_ и может не "
+"соответствовать тому, что вы видите как «размер пикселя», если система "
+"координат вашего изображения отличается."
 
 #: ../../source/userguides/requirements.rst:38
 msgid ""
-"`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about "
-"zoom and spatial resolution of imagery basemaps."
+"`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about zoom "
+"and spatial resolution of imagery basemaps."
 msgstr ""
-"`Узнайте больше <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_ о "
-"зуме и пространственном разрешении базовых карт изображений."
+"`Узнайте больше <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_ о зуме и"
+" пространственном разрешении базовых карт изображений."
 
 #: ../../source/userguides/requirements.rst:44
 msgid "Model"
@@ -200,7 +198,7 @@ msgstr ""
 #: ../../source/userguides/requirements.rst:83
 #: ../../source/userguides/requirements.rst:89
 msgid "0.5"
-msgstr ""
+msgstr "0,5"
 
 #: ../../source/userguides/requirements.rst:54
 #: ../../source/userguides/requirements.rst:72
@@ -212,7 +210,7 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:55
 msgid "0.3 - 1.5"
-msgstr ""
+msgstr "0,3 - 1,5"
 
 #: ../../source/userguides/requirements.rst:56
 msgid "High-density housing [Mapflow Web only]"
@@ -220,11 +218,11 @@ msgstr "Плотная застройка [только в Mapflow Web]"
 
 #: ../../source/userguides/requirements.rst:57
 msgid ""
-"Extraction and instance detection of the building roofprints in the areas "
-"of high density housing"
+"Extraction and instance detection of the building roofprints in the areas of"
+" high density housing"
 msgstr ""
-"Извлекает и детектирует отпечатки крыш зданий в районах с высокой "
-"плотностью застройки"
+"Извлекает и детектирует отпечатки крыш зданий в районах с высокой плотностью"
+" застройки"
 
 #: ../../source/userguides/requirements.rst:58
 msgid "19"
@@ -232,7 +230,7 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:59
 msgid "0.3"
-msgstr ""
+msgstr "0,3"
 
 #: ../../source/userguides/requirements.rst:60
 msgid "18-19"
@@ -240,7 +238,7 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:61
 msgid "0.15 - 1.2"
-msgstr ""
+msgstr "0,15 - 1,2"
 
 #: ../../source/userguides/requirements.rst:62
 msgid "Buildings (Aerial imagery)"
@@ -248,11 +246,10 @@ msgstr "Здания (Аэрофото)"
 
 #: ../../source/userguides/requirements.rst:63
 msgid ""
-"Extract roof contours (roofprints) from very high-resolution aerial "
-"imagery"
+"Extract roof contours (roofprints) from very high-resolution aerial imagery"
 msgstr ""
-"Извлекает контуры крыш (отпечатков крыши) из аэрофотоснимков с очень "
-"высоким разрешением"
+"Извлекает контуры крыш (отпечатков крыши) из аэрофотоснимков с очень высоким"
+" разрешением"
 
 #: ../../source/userguides/requirements.rst:64
 msgid "20"
@@ -260,7 +257,7 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:65
 msgid "0.1"
-msgstr ""
+msgstr "0,1"
 
 #: ../../source/userguides/requirements.rst:66
 msgid "20-21"
@@ -268,7 +265,7 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:67
 msgid "0.05-0.4"
-msgstr ""
+msgstr "0,05-0,4"
 
 #: ../../source/userguides/requirements.rst:68
 msgid "Forest"
@@ -276,8 +273,7 @@ msgstr "Лес"
 
 #: ../../source/userguides/requirements.rst:69
 msgid ""
-"Extract segmentation masks of forested areas from high-resolution RGB "
-"images"
+"Extract segmentation masks of forested areas from high-resolution RGB images"
 msgstr ""
 "Извлекает маски сегментации лесных массивов из изображений RGB с высоким "
 "разрешением"
@@ -286,7 +282,7 @@ msgstr ""
 #: ../../source/userguides/requirements.rst:79
 #: ../../source/userguides/requirements.rst:91
 msgid "0.3 - 2.0"
-msgstr ""
+msgstr "0,3 - 2,0"
 
 #: ../../source/userguides/requirements.rst:74
 msgid "Forest with heights [Mapflow API/QGIS only]"
@@ -294,8 +290,8 @@ msgstr "Лес с высотами"
 
 #: ../../source/userguides/requirements.rst:75
 msgid ""
-"Extract segmentation masks of forested areas from high-resolution RGB "
-"images with separation by height classes"
+"Extract segmentation masks of forested areas from high-resolution RGB images"
+" with separation by height classes"
 msgstr ""
 "Извлечение масок сегментации лесных массивов из изображений RGB высокого "
 "разрешения с разделением по классам высоты"
@@ -310,7 +306,7 @@ msgstr "Извлекает дорожную маску из спутниковы
 
 #: ../../source/userguides/requirements.rst:85
 msgid "0.3 - 1.2"
-msgstr ""
+msgstr "0,3 - 1,2"
 
 #: ../../source/userguides/requirements.rst:86
 msgid "Constructions"
@@ -318,11 +314,11 @@ msgstr "Строительство"
 
 #: ../../source/userguides/requirements.rst:87
 msgid ""
-"The model highlights areas in the satellite image that contain "
-"construction sites and buildings under construction"
+"The model highlights areas in the satellite image that contain construction "
+"sites and buildings under construction"
 msgstr ""
-"Модель выделяет области на спутниковом снимке, которые содержат "
-"строительные площадки и строящиеся здания"
+"Модель выделяет области на спутниковом снимке, которые содержат строительные"
+" площадки и строящиеся здания"
 
 #: ../../source/userguides/requirements.rst:92
 msgid "Agriculture fields"
@@ -350,13 +346,13 @@ msgstr ""
 
 #: ../../source/userguides/requirements.rst:97
 msgid "0.5-4.8"
-msgstr ""
+msgstr "0,5-4,8"
 
 #: ../../source/userguides/requirements.rst:99
 msgid ""
-"\\* Mapflow.ai can also process single-band (panchromatic) imagery, but "
-"the NN models are not tuned for such kind of data, so the quality of the "
-"result may be worse than expected."
+"\\* Mapflow.ai can also process single-band (panchromatic) imagery, but the "
+"NN models are not tuned for such kind of data, so the quality of the result "
+"may be worse than expected."
 msgstr ""
 "\\* Mapflow.ai также может обрабатывать одноканальные (панхроматические) "
 "изображения, но ИИ модели не настроены для такого рода данных, поэтому "

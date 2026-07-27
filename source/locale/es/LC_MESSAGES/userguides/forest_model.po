@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/forest_model.rst:2 ef8a0d2d657b47868521384a8ac52da2
+msgid "🌲 Forest and trees"
+msgstr "🌲 Bosques y árboles"
+
+#: ../userguides/forest_model.rst:4 f0740c1749ef4e9aa9c8cc03e2da5192
+msgid ""
+"The model is trained on high-resolution data (0.6-0.3m) for different areas "
+"and climate zones."
+msgstr ""
+"El modelo se entrena con datos de alta resolución (0,6-0,3 m) para "
+"diferentes áreas y zonas climáticas."
+
+#: ../userguides/forest_model.rst:6 d9a50d10aaac4bd988df1a6cae358bc4
+msgid ""
+"The result includes all areas covered with tree and shrub vegetation, "
+"including sparse forest and shrublands."
+msgstr ""
+"El resultado incluye todas las áreas cubiertas de vegetación arbórea y "
+"arbustiva, incluidos bosques y matorrales dispersos."
+
+#: ../userguides/forest_model.rst:8 08c47df95b294bf1ad3976857cb34411
+msgid ""
+"Model resolution allows to detect small group of trees and narrow tree "
+"lines."
+msgstr ""
+"La resolución del modelo permite detectar pequeños grupos de árboles y "
+"líneas estrechas de árboles."
+
+#: ../userguides/forest_model.rst:10 6a1f1a6ddbc0452b9670e3a69ac5b382
+msgid ""
+"The model is robust to region change, and performs well in most "
+"environments, including urban. The image should be taken in active "
+"vegetation period, because leafless trees or vegetation covered with snow "
+"are not the target class."
+msgstr ""
+"El modelo es robusto al cambio regional y funciona bien en la mayoría de los"
+" entornos, incluidos los urbanos. La imagen debe tomarse en un período de "
+"vegetación activa, porque los árboles sin hojas o la vegetación cubierta de "
+"nieve no son la clase objetivo."
+
+#: ../userguides/forest_model.rst:12 066f918789a94f74ade2345ca9b50d35
+msgid "**Latest model tags** |:label:|"
+msgstr "**Etiquetas del último modelo** |:etiqueta:|"
+
+#: ../userguides/forest_model.rst e7fbbe205e024187b0545ea7fa4f4003
+msgid "Version"
+msgstr "Versión"
+
+#: ../userguides/forest_model.rst:14 f35c3f5ef4fc42e19a50c8c12fce8532
+msgid "2026-07-03"
+msgstr ""
+
+#: ../userguides/forest_model.rst 7d6007405ed149c1b84b8bb9323fc1e4
+msgid "Geo Domain"
+msgstr "Dominio geográfico"
+
+#: ../userguides/forest_model.rst:15 48fbcf1ee30a486cbacc210e0d5d08bd
+msgid "Global"
+msgstr ""
+
+#: ../userguides/forest_model.rst 8caad5af23324490822290f515f0de9e
+msgid "Model method"
+msgstr "método modelo"
+
+#: ../userguides/forest_model.rst:16 201126f7c03741e1921923038a4e9199
+msgid "Segmentation"
+msgstr "Segmentación"
+
+#: ../userguides/forest_model.rst fbf65f6e616a4f0d90fb6acd49c24e0f
+msgid "GSD / Map Zoom"
+msgstr "GSD/Zoom de mapa"
+
+#: ../userguides/forest_model.rst:17 ae825a458246451b95411dc7fbc40169
+msgid "0.6–0.3 m / z18–19"
+msgstr "0,6–0,3 m/z18–19"
+
+#: ../userguides/forest_model.rst:26 d72ec374a73f46da97846ed2da8a5d30
+msgid "Processing result of forest model"
+msgstr "Resultado del procesamiento del modelo forestal."
+
+#: ../userguides/forest_model.rst:26 15d721d39b874a61814f8042e4252ab5
+msgid "Sample of processing results for solid **Forest** mask"
+msgstr "Muestra de resultados de procesamiento para máscara sólida **Bosque**"
+
+#: ../userguides/forest_model.rst:28 62322a73ee3f4624b2d9c0149e8328ab
+msgid "**Additional options:**"
+msgstr "**Opciones adicionales:**"
+
+#: ../userguides/forest_model.rst:30 4f52ac1affd04b63b9ca54ceb1d30af5
+msgid "*Height estimation* – forest mask classification by height classes"
+msgstr ""
+"*Estimación de altura* – clasificación de máscaras de bosque por clases de "
+"altura"
+
+#: ../userguides/forest_model.rst:31 e57aa913cd344b558b7b2740f92ffd43
+msgid ""
+"*Tree crown polygons* - extracts tree crowns from forest vegetation as well "
+"as free-standing trees, provides them as polygons"
+msgstr ""
+"*Polígonos de copas de árboles*: extrae copas de árboles de la vegetación "
+"forestal, así como de árboles independientes, y los proporciona como "
+"polígonos."
+
+#: ../userguides/forest_model.rst:32 e57aa913cd344b558b7b2740f92ffd43
+msgid ""
+"*Tree crown points* - extracts tree crowns from forest vegetation as well as"
+" free-standing trees, provides them as points"
+msgstr ""
+"*Puntos de copa de árboles*: extrae copas de árboles de la vegetación "
+"forestal, así como de árboles independientes, y los proporciona como puntos."
+
+#: ../userguides/forest_model.rst:35 cfe8251f13894669840a86a35f9af119
+msgid ""
+"We recommend using the **Tree crown** options with 0.3m resolution imagery "
+"(~ 19 zoom) for the best results in case you need to detect individual "
+"trees."
+msgstr ""
+"Recomendamos utilizar las opciones de **Copa de árbol** con imágenes de "
+"resolución de 0,3 m (~ 19 de zoom) para obtener mejores resultados en caso "
+"de que necesite detectar árboles individuales."
+
+#: ../userguides/forest_model.rst:40 4bb24d8a59ee45c69b0e9f7cbc7b5584
+msgid "Forest Height classification follows the following classes:"
+msgstr "La clasificación de Forest Height sigue las siguientes clases:"
+
+#: ../userguides/forest_model.rst:42 ffe3be6899724649a7295cb27aaf27f0
+msgid "Shrubs lower than 4 meters;"
+msgstr "Arbustos de menos de 4 metros;"
+
+#: ../userguides/forest_model.rst:43 5bad9424ce374f42bcdb53d26fc2bd50
+msgid "Forest from 4 to 10 meters high;"
+msgstr "Bosque de 4 a 10 metros de altura;"
+
+#: ../userguides/forest_model.rst:44 0473d5b0eb9b4e3ab3aa1fbd01e81db1
+msgid "Forest more than 10 meters high;"
+msgstr "Bosque de más de 10 metros de altura;"
+
+#: ../userguides/forest_model.rst:46 1a0d3ff997e64fc590571006fe6a2e8d
+msgid ""
+"This classification is used as a decision support for the vegetation "
+"management in powerline zones, etc. See the `professional solutions by "
+"Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be "
+"customized depending on the requirements."
+msgstr ""
+"Esta clasificación se utiliza como apoyo a la decisión para el manejo de la "
+"vegetación en zonas de líneas eléctricas, etc. Ver las `soluciones "
+"profesionales de Geoalert <https://geoalert.io/solutions/power>`_. Los "
+"umbrales se pueden personalizar según los requisitos."
+
+#: ../userguides/forest_model.rst:49 ae936e4273d440d19fc89cc53eaf5b15
+msgid "**Processing results samples**"
+msgstr "**Muestras de resultados de procesamiento**"
+
+#: ../userguides/forest_model.rst:57 744be99b76e442a49bc1ef9437444db0
+msgid "Processing result of forest model (Tree crowns, points)"
+msgstr ""
+"Resultado del procesamiento del modelo forestal (copas de árboles, puntos)"
+
+#: ../userguides/forest_model.rst:57 e6aa6f5bc6584e9baf533fffec45de7e
+msgid "Sample of results for **Tree crowns, points**"
+msgstr "Muestra de resultados para **Copas de árboles, puntos**"
+
+#: ../userguides/forest_model.rst:66 6c6dd54825684e159b79a9d6faeab635
+msgid "Processing result of forest model (Heights)"
+msgstr "Resultado del procesamiento del modelo forestal (Alturas)"
+
+#: ../userguides/forest_model.rst:66 cd45a289301143f1891942997fe8065a
+msgid "Sample of results for **Forest with heights** mask (raster output)"
+msgstr ""
+"Muestra de resultados para la máscara **Bosque con alturas** (salida ráster)"
+
+#: ../userguides/forest_model.rst:70 da98215d1727476f82c60af932239339
+msgid "Benchmarks - segmentation"
+msgstr "Puntos de referencia: segmentación"
+
+#: ../userguides/forest_model.rst:72 88db2e2e2b74425287e9c357d8f10bcc
+msgid ""
+"Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation). "
+"The model was evaluated on a validation set of 6 areas of interest (AOI) "
+"against manually annotated ground truth. Metrics are area-based: IoU is the "
+"intersection-over-union of the predicted and ground-truth vegetation masks, "
+"and F1 / Precision / Recall are computed on the overlapping mask area."
+msgstr ""
+"Última actualización: **🌲 Bosques y árboles v.2026-07-03** (Global, "
+"Segmentación). El modelo se evaluó en un conjunto de validación de 6 áreas "
+"de interés (AOI) frente a datos reales anotados manualmente. Las métricas se"
+" basan en el área: IoU es la intersección sobre la unión de las máscaras de "
+"vegetación predichas y reales, y F1/Precisión/Recuperación se calculan en el"
+" área de la máscara superpuesta."
+
+#: ../userguides/forest_model.rst:82 931091c35778498791a41e6bf0e1fba0
+msgid "AOI (location)"
+msgstr "AOI (ubicación)"
+
+#: ../userguides/forest_model.rst:83 ef52c0841fa94affb47e3ceec2c910ad
+msgid "Predicted features"
+msgstr "Características previstas"
+
+#: ../userguides/forest_model.rst:84 e39c1017252b4b9f843162e498809754
+msgid "IoU"
+msgstr "pagaré"
+
+#: ../userguides/forest_model.rst:85 a239b59c68984d5c8651de032682ecdd
+msgid "F1"
+msgstr ""
+
+#: ../userguides/forest_model.rst:86 087557134a94490bb32c3e6b2d05905e
+msgid "Precision"
+msgstr "Precisión"
+
+#: ../userguides/forest_model.rst:87 cb2673707e2d479e85c5a2847396c947
+msgid "Recall"
+msgstr "Recordar"
+
+#: ../userguides/forest_model.rst:88 28fa524ba668491595eb76a1793ab052
+msgid "Italy — Crotone"
+msgstr "Italia — Crotona"
+
+#: ../userguides/forest_model.rst:89 7e3e2a84c41e415a8437bf8744d15308
+msgid "254"
+msgstr ""
+
+#: ../userguides/forest_model.rst:90 5c9bcc49e82340a998c658485d798424
+msgid "0.862"
+msgstr ""
+
+#: ../userguides/forest_model.rst:91 9663289521114f389c537648ffaf3b47
+msgid "**0.926**"
+msgstr "**0,926**"
+
+#: ../userguides/forest_model.rst:92 ef452fd0c26b4dc481cc684bf445d0b5
+msgid "0.944"
+msgstr ""
+
+#: ../userguides/forest_model.rst:93 c7ff55688c7e4b69b70df7f59b3ad5ec
+msgid "0.909"
+msgstr ""
+
+#: ../userguides/forest_model.rst:94 b0736056b324411e840e7476ef28fbe2
+msgid "Spain — Madrid"
+msgstr "España — Madrid"
+
+#: ../userguides/forest_model.rst:95 5c33c9f0c31c45a195e4cce7f3bef28b
+msgid "368"
+msgstr ""
+
+#: ../userguides/forest_model.rst:96 4b2d155a131246658df00487036226f4
+msgid "0.813"
+msgstr ""
+
+#: ../userguides/forest_model.rst:97 515ce1a1778e485b83e108c5bac50c93
+msgid "**0.897**"
+msgstr "**0,897**"
+
+#: ../userguides/forest_model.rst:98 3630f3a30ca7434abdb4e85e24ed146a
+msgid "0.880"
+msgstr ""
+
+#: ../userguides/forest_model.rst:99 c7b74f7596e7496ea682925bb6f89e36
+msgid "0.915"
+msgstr "0,915"
+
+#: ../userguides/forest_model.rst:100 33e3ba3e0c3945178fd434916e6ce6b2
+msgid "Philippines — Balanga"
+msgstr "Filipinas — Balanga"
+
+#: ../userguides/forest_model.rst:101 b5bacbb2b09342d4a06742a6ef0155dc
+msgid "220"
+msgstr ""
+
+#: ../userguides/forest_model.rst:102 38dacea1f0fe433d82f8c5ca9372fb4f
+msgid "0.806"
+msgstr ""
+
+#: ../userguides/forest_model.rst:103 d64d46dd8daa40caab4b6e50c0853d29
+msgid "**0.892**"
+msgstr "**0,892**"
+
+#: ../userguides/forest_model.rst:104 ../userguides/forest_model.rst:111
+#: 6005c59a09db4f3fbf6140156a7bf29d e18bb23fc8a143f4a52e6ababdc876dd
+msgid "0.864"
+msgstr ""
+
+#: ../userguides/forest_model.rst:105 f871f74c16694204ad88b2370011ad80
+msgid "0.923"
+msgstr ""
+
+#: ../userguides/forest_model.rst:106 04228b4dbe984e929b842ad46e54260c
+msgid "Spain — Velilla de San Antonio"
+msgstr "España — Velilla de San Antonio"
+
+#: ../userguides/forest_model.rst:107 ab11c74a494c486aad8e4943ecbaa03e
+msgid "1070"
+msgstr ""
+
+#: ../userguides/forest_model.rst:108 e23b4b5f763c4009bf21c5f37f02b8a0
+msgid "0.784"
+msgstr "0,784"
+
+#: ../userguides/forest_model.rst:109 569fe395b8f140b59bf45e1e8f083f42
+msgid "**0.879**"
+msgstr "**0,879**"
+
+#: ../userguides/forest_model.rst:110 c89e96a34c82492e9cc72a43a314d07a
+msgid "0.894"
+msgstr "0,894"
+
+#: ../userguides/forest_model.rst:112 bce3f5f1fdee4d00b57e1bc85cd74dc9
+msgid "Spain — Cuenca"
+msgstr "España — Cuenca"
+
+#: ../userguides/forest_model.rst:113 7fa428b1d6504112b67ec37fda958900
+msgid "409"
+msgstr ""
+
+#: ../userguides/forest_model.rst:114 491104ca403448bd82154b210dfca437
+msgid "0.763"
+msgstr ""
+
+#: ../userguides/forest_model.rst:115 20f41dea1d22439c95cac6d309f57879
+msgid "**0.865**"
+msgstr "**0,865**"
+
+#: ../userguides/forest_model.rst:116 b007d7b51e5546bbba2e3cdffbd2896d
+msgid "0.859"
+msgstr "0,859"
+
+#: ../userguides/forest_model.rst:117 8431725f315d41fcb8d924a40ff0ef5a
+msgid "0.872"
+msgstr "0,872"
+
+#: ../userguides/forest_model.rst:118 5916b1df35d344cdb4e6d14dc1b197bb
+msgid "Uzbekistan — Tashkent"
+msgstr "Uzbekistán — Taskent"
+
+#: ../userguides/forest_model.rst:119 0fcd3375e2c4492fb42d6d0555bf1985
+msgid "156"
+msgstr ""
+
+#: ../userguides/forest_model.rst:120 28b322b0d2a34d78860f136194d01751
+msgid "0.730"
+msgstr ""
+
+#: ../userguides/forest_model.rst:121 13c138e820eb46c2a5f0dfe636674a14
+msgid "**0.844**"
+msgstr "**0,844**"
+
+#: ../userguides/forest_model.rst:122 d909fe21563e4218812d48338d479221
+msgid "0.905"
+msgstr ""
+
+#: ../userguides/forest_model.rst:123 8807e68a221448bea20b29e9565d492e
+msgid "0.791"
+msgstr "0,791"
+
+#: ../userguides/forest_model.rst:124 8216753bf9a14f33b5ba16c44a113e3d
+msgid "Spain — Rus"
+msgstr "España — Rusia"
+
+#: ../userguides/forest_model.rst:125 b8222b2da77e4224ae0f1287b623dab4
+msgid "249"
+msgstr ""
+
+#: ../userguides/forest_model.rst:126 860a4539d46949fdb25774abb22d7d13
+msgid "0.617"
+msgstr "0,617"
+
+#: ../userguides/forest_model.rst:127 85f6e7a78d514b3eb029050d8a2cdfb3
+msgid "**0.763**"
+msgstr "**0,763**"
+
+#: ../userguides/forest_model.rst:128 00ebed31dcc5459ba675ca433c3c99eb
+msgid "0.699"
+msgstr "0,699"
+
+#: ../userguides/forest_model.rst:129 007fcba32c884e92a1426b00f8ee9c7a
+msgid "0.841"
+msgstr ""
+
+#: ../userguides/forest_model.rst:130 ca240164337046be9665a2ee88abf3d8
+msgid "Argentina — La Banda"
+msgstr ""
+
+#: ../userguides/forest_model.rst:131 8073f5c785864f618ba51904cd727850
+msgid "93"
+msgstr ""
+
+#: ../userguides/forest_model.rst:132 11310e9f49e7431db788eef456a326ce
+msgid "0.576"
+msgstr ""
+
+#: ../userguides/forest_model.rst:133 25a9b3c52581419dbddc0ccf17dbbb38
+msgid "**0.731**"
+msgstr "**0,731**"
+
+#: ../userguides/forest_model.rst:134 9252cab6feca4298b72b6cf8d2e2e492
+msgid "0.653"
+msgstr "0,653"
+
+#: ../userguides/forest_model.rst:135 a3069c734d07488faee9b5edc6a52e03
+msgid "0.829"
+msgstr "0,829"
+
+#: ../userguides/forest_model.rst:136 93f4b07ce5ba4512a123afbf2fdeefb9
+msgid "**Global (mean of 8 AOIs)**"
+msgstr "**Global (media de 8 AOI)**"
+
+#: ../userguides/forest_model.rst:137 fe4d2151e5c84400b64f641f6a83ec78
+msgid "2819"
+msgstr ""
+
+#: ../userguides/forest_model.rst:138 03e5ebf7a3e74c0eafec45c23a1a14a4
+msgid "0.744"
+msgstr ""
+
+#: ../userguides/forest_model.rst:139 8380c27a067d4f779cbf52f443cb8718
+msgid "**0.850**"
+msgstr "**0,850**"
+
+#: ../userguides/forest_model.rst:140 fa6521bc1cc342248ff5e9eb40763597
+msgid "0.837"
+msgstr "0,837"
+
+#: ../userguides/forest_model.rst:141 6db7218f60f644ae8a18cbf65cb1c1ae
+msgid "0.868"
+msgstr "0,868"
+
+#: ../userguides/forest_model.rst:143 7145397c266f4871a53e9f2e7f17d3a0
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"vegetation masks; evaluation run 2026-07-03. Compared with the previous "
+"version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
+msgstr ""
+"*IoU / F1 / Precisión / Recuperación basado en área medido contra máscaras "
+"de vegetación reales; ejecución de evaluación 2026-07-03. Comparado con la "
+"versión anterior v.2025-06-14 (media F1 0.513, IoU 0.396).*"
+
+#: ../userguides/forest_model.rst:148 190808dcd5294e0f9738e9a53783cf26
+msgid ""
+"📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` "
+"for the area-by-area breakdown, including comparison with the previous "
+"version and prediction-vs-ground-truth overlays."
+msgstr ""
+"📊 Consulte :doc:`detalles del punto de referencia por ubicación "
+"<forest_benchmark_2026-07-03>` para ver el desglose área por área, incluida "
+"la comparación con la versión anterior y las superposiciones de predicción "
+"versus verdad sobre el terreno."

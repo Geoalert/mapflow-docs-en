@@ -1,0 +1,1457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/pipelines.rst:1 ec63c9e96b64458ca519e15b66294555
+msgid ""
+"The core of the Mapflow are the Mapping Models. Mapflow enables to detect "
+"and extract features in satellite and aerial images powered by semantic "
+"segmentation and other deep learning techniques. See :ref:`requirements "
+"<Model_requirements>` page to better understand what data to use with each "
+"model, and :doc:`price list <prices>` for breakdown of the processings "
+"billing."
+msgstr ""
+"Mapflow 的核心是映射模型。 Mapflow 能够检测和提取由语义分割和其他深度学习技术支持的卫星和航空图像中的特征。请参阅:ref:`要求 "
+"<Model_requirements>` 页面，以更好地了解每个模型要使用哪些数据，并参阅:doc:`价目表 <prices>` "
+"以了解处理计费的详细信息。"
+
+#: ../userguides/pipelines.rst:6 b6eb89a9f1c94dd191857aa6c4e4a686
+msgid ""
+"For the data requirements – see :ref:`Model_requirements`. For the breakdown"
+" of the Mapflow processings billing – see :doc:`Mapflow pricing <prices>`."
+msgstr ""
+"有关数据要求 - 请参阅模型要求。有关 Mapflow 处理计费的详细信息 – 请参阅:doc:`Mapflow 定价 <prices>`。"
+
+#: ../userguides/pipelines.rst:11 209bb75c382247eea2b3ed81848f8f75
+msgid "AI-Mapping Models"
+msgstr "AI 绘图模型"
+
+#: ../userguides/buildings_model.rst:4 8f2869779336479b9358a8bf0585d1cb
+msgid "🏠 Buildings"
+msgstr "🏠 建筑物"
+
+#: ../userguides/buildings_model.rst:6 d5381e6cd5f14b6ab6cbf56df0d9cbb0
+msgid ""
+"Extracting of rooftops of buildings from imagery of high resolution. High "
+"performance deep learning model is trained to detect the buildings roofs."
+msgstr "从高分辨率图像中提取建筑物的屋顶。训练高性能深度学习模型来检测建筑物屋顶。"
+
+#: ../userguides/buildings_model.rst:9 79fedb6e00174384b93b8977917ef333
+msgid "**Model tags** |:label:|"
+msgstr "**型号标签** |:标签:|"
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Version"
+msgstr "版本"
+
+#: ../userguides/buildings_model.rst:11 4b495704852f4d1ab04e1d4c8e214996
+msgid "2026-07-06"
+msgstr ""
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 5a5b9001849e46d1a609c24b704d42ee
+msgid "Geo Domain"
+msgstr "地理域"
+
+#: ../userguides/buildings_model.rst:12 ../userguides/forest_model.rst:15
+#: ../userguides/solars_model.rst:23 ../userguides/swimming_pools_model.rst:23
+#: 20abb20941b24c71b9f829baa95287d3
+msgid "Global"
+msgstr "全球的"
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Model method"
+msgstr "模型法"
+
+#: ../userguides/buildings_model.rst:13 ../userguides/forest_model.rst:16
+#: 1f4e7cc5a1ed4637abf018267d60b6b7
+msgid "Segmentation"
+msgstr "分割"
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3ec393fb872344689c3e55b3705b6756 6a842b844ebc4b4999064d9dc359c998
+msgid "GSD / Map Zoom"
+msgstr "GSD / 地图缩放"
+
+#: ../userguides/buildings_model.rst:14 f03a3d19c9904fba98ffe9f02a59bb3c
+msgid "0.3 m / z19"
+msgstr "0.3 m/z19"
+
+#: ../userguides/buildings_model.rst:16 238a9cebee594fbf9d07752a8ce94dab
+msgid ""
+"*Note:* The building predictions with area less than 20 sq.m. are removed to"
+" avoid clutter"
+msgstr "*注：*面积小于20平方米的建筑预测。被删除以避免混乱"
+
+#: ../userguides/buildings_model.rst:18 86bfee4712f54a42927729111882c023
+msgid ""
+"The model does not extract the footprints directly, because they are not "
+"clearly visible in the images, but it can obtain them, just like human "
+"cartographers, by moving the roof to the bottom of the wall (see Additional "
+"options)."
+msgstr "该模型不会直接提取足迹，因为它们在图像中不清晰可见，但它可以像人类制图师一样，通过将屋顶移动到墙的底部来获取它们（请参阅其他选项）。"
+
+#: ../userguides/buildings_model.rst:20 ../userguides/forest_model.rst:28
+#: cea82db6c6864d7dbc32f8911f52f37e
+msgid "**Additional options:**"
+msgstr "**附加选项：**"
+
+#: ../userguides/buildings_model.rst:22 42ffb90696be485e9b60c449abfbd31c
+msgid ""
+"**Classification by types of buildings** – typology of buildings is "
+"represented by the main classes (see :ref:`reference <buildings_classes>`)."
+msgstr "**按建筑物类型分类** – 建筑物的类型由主要类别表示（参见：ref:`参考<buildings_classes>`）。"
+
+#: ../userguides/buildings_model.rst:23 26017519096b43a1b501407b0b8388f6
+msgid ""
+"**Regularization** - the algorithm corrects the irregularities of the "
+"contours of our model. The irregular geometries are replaced with "
+"rectangles, circles or arbitary polygons with 90 degree angles, which fits "
+"better to the original shape. This option produces much more map-friendly "
+"shapes which look better, but some original mask accuracy can be lost."
+msgstr ""
+"**正则化** - "
+"该算法纠正模型轮廓的不规则性。不规则的几何形状被替换为矩形、圆形或90度角的任意多边形，更适合原始形状。此选项会生成更加适合地图的形状，看起来更好，但可能会丢失一些原始蒙版精度。"
+
+#: ../userguides/buildings_model.rst:24 367e12b28a2d4225a674594cc1740e58
+msgid ""
+"**Simplification** - simplifies the building shape, staying close to the "
+"original mask, adjusted for curve and complex shapes. More approximated "
+"shapes, but less right angles."
+msgstr "**简化** - 简化建筑形状，保持接近原始蒙版，针对曲线和复杂形状进行调整。形状更近似，但直角更少。"
+
+#: ../userguides/buildings_model.rst:25 c77e5159faed4284bb52ee45c53949da
+msgid ""
+"**Merge with OSM** - some of the areas have great coverage of OpenStreetMap "
+"data, and if you prefer human-annotated data, you can select this option.In "
+"this case, we check for each building whether it has a good corresponding "
+"object in OSM (Jaccard index) and if there is one, we replace our result "
+"with OSM polygon. This makes the result not based on the image, so the "
+"buildings can be shifted from actual positions. Also the corrected buildings"
+" are rotated to align with the nearest roads downloaded from OSM."
+msgstr ""
+"**与 OSM 合并** - 某些区域的 OpenStreetMap "
+"数据覆盖率很高，如果您更喜欢人工注释的数据，则可以选择此选项。在这种情况下，我们检查每个建筑物在 OSM（Jaccard "
+"索引）中是否有良好的对应对象，如果有，我们将结果替换为 OSM "
+"多边形。这使得结果不基于图像，因此建筑物可以从实际位置移动。此外，校正后的建筑物也会旋转，以与从 OSM 下载的最近的道路对齐。"
+
+#: ../userguides/buildings_model.rst:26 3631371b38f44645a860223b3bae7913
+msgid ""
+"**Height Estimation (beta)** – feature leverages a dedicated regression-"
+"based model that infers height using visual indicators such as shadow length"
+" and visible wall segments. The result is what is termed **3D building "
+"footprints** where the building's countour is projected to ground level "
+"instead of the roof outline. This is especially useful for oblique imagery, "
+"where roofs often appear shifted."
+msgstr ""
+"**高度估计（测试版）** – 功能利用专用的基于回归的模型，该模型使用阴影长度和可见墙段等视觉指标来推断高度。结果就是所谓的 **3D "
+"建筑足迹**，其中建筑物的轮廓被投影到地面而不是屋顶轮廓。这对于屋顶经常出现移位的倾斜图像特别有用。"
+
+#: ../userguides/buildings_model.rst:30 ../userguides/forest_model.rst:70
+#: 1f4e7cc5a1ed4637abf018267d60b6b7 e3745775600d48e7890d420a50e05674
+msgid "Benchmarks - segmentation"
+msgstr "基准 - 细分"
+
+#: ../userguides/buildings_model.rst:33 bb9e9745e4f248e3b71bb83712b6d2d9
+msgid "Aerial imagery"
+msgstr "航拍图像"
+
+#: ../userguides/buildings_model.rst:35 045efbcb643147cc84a34f7f8db1a185
+msgid ""
+"Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m / "
+"z19). The model was evaluated on a global validation set of 7 areas of "
+"interest (AOI) against manually annotated ground truth. Metrics are area-"
+"based: IoU is the intersection-over-union of the predicted and ground-truth "
+"building masks, and F1 / Precision / Recall are computed on the overlapping "
+"mask area."
+msgstr ""
+"最新更新 — **🏠 Buildings v.2026-07-06**（全局，分段，0.3 m / z19）。该模型在 7 个感兴趣区域 (AOI) "
+"的全局验证集上根据手动注释的真实情况进行评估。指标是基于区域的：IoU 是预测和真实建筑掩模的交并，并且 F1 / 精度 / "
+"召回率是在重叠掩模区域上计算的。"
+
+#: ../userguides/buildings_model.rst:45 ../userguides/buildings_model.rst:124
+#: ../userguides/forest_model.rst:82 6f32624821c04f2fa4044ae5fdda5407
+#: a3060e138ef64aeebc87e2ac7d9fb904 e8873f19f1b640ecbe4ce2164a1271ad
+msgid "AOI (location)"
+msgstr "AOI（位置）"
+
+#: ../userguides/buildings_model.rst:46 ../userguides/buildings_model.rst:125
+#: ../userguides/forest_model.rst:83 2d626ad7ff414f5a93c38d49db583dba
+#: b094abec06d342ddb132ebbcd20f43b1 f0809882e64c480cb5e63440d9919e12
+msgid "Predicted features"
+msgstr "预测特征"
+
+#: ../userguides/buildings_model.rst:47 ../userguides/buildings_model.rst:126
+#: ../userguides/forest_model.rst:84 1aba1d04cc24413fbe0fcecba854faf8
+#: 2588b3a78a05473fbd6dcef312a799b6 3d9d181174674d75901956ad2d6f0dd9
+msgid "IoU"
+msgstr "IOU"
+
+#: ../userguides/buildings_model.rst:48 ../userguides/buildings_model.rst:127
+#: ../userguides/forest_model.rst:85 9d4affa85a61439dafbe4140268aee92
+#: ad401bce79164ea1a2792a4ec04d74da c3f57e739a13444fafefc394414d117e
+msgid "F1"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:49 ../userguides/buildings_model.rst:128
+#: ../userguides/forest_model.rst:86 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Precision"
+msgstr "精确"
+
+#: ../userguides/buildings_model.rst:50 ../userguides/buildings_model.rst:129
+#: ../userguides/forest_model.rst:87 055e800fbf34406893381016e0252f59
+#: 0bb2e2822b984c1e8943769271a0113d f0f30ec5352e4cd08ee396b30c0417a6
+msgid "Recall"
+msgstr "记起"
+
+#: ../userguides/buildings_model.rst:51 d039f1346a304bbd8fd580cc3025b188
+msgid "United States — Fort Myers"
+msgstr "美国 — 迈尔斯堡"
+
+#: ../userguides/buildings_model.rst:52 23bcbd6a38794e19b29593e930874fe5
+msgid "65"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:53 ../userguides/buildings_model.rst:135
+#: 0009bbfeacfb40e28313ea56fb01b4d7 56ac5ae996724231b7e9be6956c34718
+msgid "0.907"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:54 41dd9b7f92094ca9b41801ad90c7569e
+msgid "**0.951**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:55 a6db4c1b2f8741b08560cf3f01d4d1fa
+msgid "0.983"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:56 02f51e54e38a4e999269d49d3f304a69
+msgid "0.921"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:57 3a53e8a3222741b18698856a61fbe790
+msgid "United States — Phoenix"
+msgstr "美国 — 菲尼克斯"
+
+#: ../userguides/buildings_model.rst:58 6c2eaae2ca5349b9946747cbc5bde412
+msgid "47"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:59 ../userguides/buildings_model.rst:80
+#: 6c2e83fb41ba4f448d8bee7edf1df2f5 e14c5d5dbb57493e9aca5c39df473ecb
+msgid "0.903"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:60 7f0e4702d7124d6190227cc3ca291b89
+msgid "**0.949**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:61 ../userguides/forest_model.rst:92
+#: b685c0698bb6418782b7f9206beb3899 e07099055365492cbc859a2f0bce5669
+msgid "0.944"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:62 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.953"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:63 7644135f3c2c4d36938c9f1f30bc7469
+msgid "Canada — Rigaud"
+msgstr "加拿大 — 里戈"
+
+#: ../userguides/buildings_model.rst:64 ef1d13aa2f6144cbb25326855b61ace6
+msgid "103"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:65 06f4cf3cb86a4ed29ac05730b7d3a3ae
+msgid "0.870"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:66 ce1dbe6852124d1ba15ab90369aeb17d
+msgid "**0.930**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:67 6f020502d5cc4765b5eca4596df92a3c
+msgid "0.934"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:68 9ae78c39b8394203a759a73ab514bef4
+msgid "0.927"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:69 5c9b7256ba604b62874b30106739629d
+msgid "Australia — Adelaide"
+msgstr "澳大利亚 — 阿德莱德"
+
+#: ../userguides/buildings_model.rst:70 2b3140e8c5a74b2e97d1a32057b1dc38
+msgid "92"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:71 ../userguides/forest_model.rst:141
+#: 57932b65856a4354b82e11cab40852b0 b5319c85b719438e98686c6865290c6b
+msgid "0.868"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:72 ../userguides/buildings_model.rst:78
+#: 2792047114414b1c959e6e07a3bcb5fe b8602ff02cf74cfca92b8fe360118f71
+msgid "**0.929**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:73 1af91d403bef4ceeb8f3101b146739c3
+msgid "0.914"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:74 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.945"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:75 2e3e17e4f7154f50a0f5c8ef74cb7410
+msgid "New Zealand — Lower Hutt"
+msgstr "新西兰 — 下赫特"
+
+#: ../userguides/buildings_model.rst:76 d78825962c874c24a2cb1f94256b4b8b
+msgid "106"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:77 ../userguides/buildings_model.rst:103
+#: 6d9e0e49ecfb4bffaf041d8a4d73cc38 9e6240197f424b29b1f15d792491f87b
+msgid "0.867"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:79 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.956"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:81 589792511b934f019e6ba57bbe903dc0
+msgid "New Zealand — Wellington"
+msgstr "新西兰 — 惠灵顿"
+
+#: ../userguides/buildings_model.rst:82 d78825962c874c24a2cb1f94256b4b8b
+msgid "76"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:83 c7f9bc553df24990bb173a4ebcef1739
+msgid "0.838"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:84 5d190fc55f754fe99426a289e9f938f9
+msgid "**0.912**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:85 9de30da200494292a743db18f8a14211
+msgid "0.900"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:86 964de08d273e4936b134e9899ab0a79c
+msgid "0.924"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:87 c6543bae95bd48ec956a370635805922
+msgid "United Kingdom — London"
+msgstr "英国 — 伦敦"
+
+#: ../userguides/buildings_model.rst:88 2b7aabd555824d3e99ea85f15a3cd286
+msgid "68"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:89 ../userguides/buildings_model.rst:107
+#: ../userguides/forest_model.rst:96 0fb1697ea7164ab894afdaab00f62726
+#: 611323adcce441c895ab9d46b75839d5 8d1fb6b8a7c547dcadafacc6582d3266
+msgid "0.813"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:90 ../userguides/forest_model.rst:97
+#: 0714145eede2443d96dc9eccd148b36b 7652f8dd06c14d29a88b0cdfc29e415b
+msgid "**0.897**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:91 ff214cc59774445695f2d22f668efde7
+msgid "0.873"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:92 c326cbe69ffd4242a45f29974e1ae5e3
+msgid "0.922"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:93 05514f45be0e47f78f3e5b68122d852b
+msgid "Côte d'Ivoire — Bangolo"
+msgstr "科特迪瓦 — 班戈洛"
+
+#: ../userguides/buildings_model.rst:94 b59a1bb325ea47bbb696241e26ffb501
+msgid "102"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:95 3c550927f7204ba4b6ff38f10bf14922
+msgid "0.663"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:96 5741c724be794602a64db0a670a78ad3
+msgid "**0.797**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:97 3a4bd433722e42f49d20685571d73038
+msgid "0.844"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:98 9954133cbd1248ffa11eafd9ee40da72
+msgid "0.755"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:99 cb2bbc0789f44343a32e20b9ad1810dc
+msgid "South Africa — Worcester"
+msgstr "南非 — 伍斯特"
+
+#: ../userguides/buildings_model.rst:100 ../userguides/forest_model.rst:119
+#: d78825962c874c24a2cb1f94256b4b8b
+msgid "156"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:101 e046e42a4a794e8da326a89f298fe34a
+msgid "0.592"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:102 a774b7321aaf46f6b62710cc63a3fba7
+msgid "**0.744**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:104 a2b8415e09b143c88a3d9c6ca5acc0f9
+msgid "0.651"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:105 a62c8a9407984758ac2bf26e78ef586d
+msgid "**Aerial (mean of 9 AOIs)**"
+msgstr "**航拍（9 个 AOI 的平均值）**"
+
+#: ../userguides/buildings_model.rst:106 2daa68e8891c40d483a46a7540ee14bc
+msgid "815"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:108 14dd912ed0434c2487236ee0a14739dd
+msgid "**0.893**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:109 03d70600715349659f1f96e597b5e35f
+msgid "0.913"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:110 d76fb9c69d3a4a1583a53868295bed0b
+msgid "0.878"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:112 9f21a3c370ca444c8300b80cc5ef3411
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"building masks; evaluation run 2026-06-13.*"
+msgstr "*根据地面真实建筑掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行 2026-06-13.*"
+
+#: ../userguides/buildings_model.rst:115 1c1b16c99ef748b99dafbc91d6f70c79
+msgid "Satellite imagery"
+msgstr "卫星图像"
+
+#: ../userguides/buildings_model.rst:117 0b31c992a6ee4952a63131ea245987da
+msgid ""
+"Additional validation of **🏠 Buildings v.2026-07-06** on satellite imagery "
+"across 5 dense urban areas of interest."
+msgstr "在 5 个密集城市感兴趣区域的卫星图像上对 **🏠 Buildings v.2026-07-06** 进行额外验证。"
+
+#: ../userguides/buildings_model.rst:130 7ff74b91f06b49b2b0970a93afe44b0f
+msgid "Russia — Ufa"
+msgstr "俄罗斯 — 乌法"
+
+#: ../userguides/buildings_model.rst:131 d38ce150b0d84032bcc0d7435909236d
+msgid "426"
+msgstr "第426章"
+
+#: ../userguides/buildings_model.rst:132 71628d62b5284c4cbcfdebc7ddf37421
+msgid "0.821"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:133 e6262f8acc2b42fd88e90511f963c117
+msgid "**0.902**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:134 67f33c2d848c461897909382d70d4fb2
+msgid "0.897"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:136 2e58ef4dbb27424a977d5f88cf2d4adb
+msgid "Saudi Arabia — Riyadh"
+msgstr "沙特阿拉伯 — 利雅得"
+
+#: ../userguides/buildings_model.rst:137 dd843b6973724fb29c119ca4e824e1c0
+msgid "225"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:138 5ebb5f44852a46ea99768352bf435588
+msgid "0.817"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:139 34fedff23e86472e96eb718ab93d3c02
+msgid "**0.899**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:140 f8210bb93a4b4f2085162d4efabd0c24
+msgid "0.920"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:141 ../userguides/buildings_model.rst:164
+#: 0bb8024a7ee84bdaab064836e1f291ad 183bdb37a1a640ccbd2d60f508d386a8
+msgid "0.879"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:142 35b137b83a7d4d9fa5e03d50585dc922
+msgid "India — Bangalore"
+msgstr "印度 — 班加罗尔"
+
+#: ../userguides/buildings_model.rst:143 67b96c1d09a2404da52b64bf0f5ab083
+msgid "508"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:144 111900af12fb4ac68d605446088fbd52
+msgid "0.779"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:145 a580e5cd6eef4d978565affa9cbc5c9a
+msgid "**0.876**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:146 ../userguides/forest_model.rst:116
+#: 9dc413722f9c4307a3661992261b7774 b2e1c26ebabc475b81ec5fb75a9b9eb9
+msgid "0.859"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:147 ../userguides/forest_model.rst:110
+#: a63391b1690e452998f975b13071c206 b65adecd4c83404fba6d8bcaf3a5ee39
+msgid "0.894"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:148 d39a837190ef43f59d186302df64bf63
+msgid "India — Thane"
+msgstr "印度 — 塔恩"
+
+#: ../userguides/buildings_model.rst:149 edcb4186286e4709aefc42379d38edd7
+msgid "429"
+msgstr "第429章"
+
+#: ../userguides/buildings_model.rst:150 2a569d84fa3d41cf9bf552c733890780
+msgid "0.768"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:151 b7253cda5c10480b8f515986dea53cf5
+msgid "**0.869**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:152 4b4b32d7defe49c6843be8583f35a683
+msgid "0.889"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:153 09fe06ecaf1b4b15aa9e95a775408c42
+msgid "0.849"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:154 3e31d132ba9f44e290bd5bdf68fa7890
+msgid "United Arab Emirates — Abu Dhabi"
+msgstr "阿拉伯联合酋长国 — 阿布扎比"
+
+#: ../userguides/buildings_model.rst:155 35b667f3ab7140c0bcc8f678ddccf521
+msgid "142"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:156 5794febc0f814d4a9fec67c0f826f08c
+msgid "0.751"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:157 8441ac8047a6488cbda39834596ba1ea
+msgid "**0.858**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:158 015ae0d7baab445286523f3a1a87a03a
+msgid "0.828"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:159 18f90125f5b647c8942a5c1af5a04cb3
+msgid "0.890"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:160 2e15e496bf234af3acd645067b9cb744
+msgid "**Satellite (mean of 5 AOIs)**"
+msgstr "**卫星（5 个 AOI 的平均值）**"
+
+#: ../userguides/buildings_model.rst:161 57458a8b93b1446580a9d4ab0e533547
+msgid "1730"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:162 ee321e8c0be84b85a280940831f3d380
+msgid "0.787"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:163 9f6bc6f59c7940e183d1366692b9d8cf
+msgid "**0.881**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:165 73f2601b74c445f38907788ae8c116ec
+msgid "0.884"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:167 6eb2a0a8af6840f1b9efe90e106f0bf6
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"building masks; evaluation run 2026-06-16.*"
+msgstr "*根据地面真实建筑掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行 2026-06-16.*"
+
+#: ../userguides/buildings_model.rst:171 365009ae2f134da49b6e60d0f2c99076
+msgid ""
+"📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for "
+"the area-by-area breakdown of both the global and satellite sets, including "
+"comparison with the previous version and prediction-vs-ground-truth "
+"overlays."
+msgstr ""
+"📊 请参阅:doc:`每个位置基准详细信息 "
+"<buildings_benchmark_07-06>`，了解全球和卫星集的逐个区域细分，包括与先前版本的比较以及预测与地面实况叠加。"
+
+#: ../userguides/forest_model.rst:2 e4dfb81c967b467b92a7ef9f01d0854f
+msgid "🌲 Forest and trees"
+msgstr "🌲 森林和树木"
+
+#: ../userguides/forest_model.rst:4 29c77c8a918f4e1d8c77aff3e7845614
+msgid ""
+"The model is trained on high-resolution data (0.6-0.3m) for different areas "
+"and climate zones."
+msgstr "该模型根据不同地区和气候带的高分辨率数据（0.6-0.3m）进行训练。"
+
+#: ../userguides/forest_model.rst:6 16b5a7f766344f0cb520fbb9fbeb359a
+msgid ""
+"The result includes all areas covered with tree and shrub vegetation, "
+"including sparse forest and shrublands."
+msgstr "结果包括所有树木和灌木植被覆盖的区域，包括稀疏的森林和灌木丛。"
+
+#: ../userguides/forest_model.rst:8 ee1e178868414c8dab751febad32f873
+msgid ""
+"Model resolution allows to detect small group of trees and narrow tree "
+"lines."
+msgstr "模型分辨率允许检测小群树木和狭窄的树线。"
+
+#: ../userguides/forest_model.rst:10 24415f6baecf47e09ab005dcdd91d2f6
+msgid ""
+"The model is robust to region change, and performs well in most "
+"environments, including urban. The image should be taken in active "
+"vegetation period, because leafless trees or vegetation covered with snow "
+"are not the target class."
+msgstr "该模型对区域变化具有鲁棒性，并且在包括城市在内的大多数环境中表现良好。图像应在植被活跃时期拍摄，因为无叶树木或被雪覆盖的植被不是目标类别。"
+
+#: ../userguides/forest_model.rst:12 c5d4406733d64c49a3a0151749c86394
+msgid "**Latest model tags** |:label:|"
+msgstr "**最新型号标签** |:标签:|"
+
+#: ../userguides/forest_model.rst:14 3e8112fa9274404a89d017ec70f1c40e
+msgid "2026-07-03"
+msgstr ""
+
+#: ../userguides/forest_model.rst:17 7c978290e5b8425295e8288a49de0093
+msgid "0.6–0.3 m / z18–19"
+msgstr ""
+
+#: ../userguides/forest_model.rst:26 60809cb27685464f937643f0ae83e9ff
+msgid "Processing result of forest model"
+msgstr "森林模型处理结果"
+
+#: ../userguides/forest_model.rst:26 3d4b0bcea0954cb3b55764742760578d
+msgid "Sample of processing results for solid **Forest** mask"
+msgstr "固体**森林**面膜的加工结果示例"
+
+#: ../userguides/forest_model.rst:30 9ae65437c2f54f08a855c4c122094493
+msgid "*Height estimation* – forest mask classification by height classes"
+msgstr "*高度估计* – 按高度类别进行森林掩模分类"
+
+#: ../userguides/forest_model.rst:31 3d1d975b3a114af087821fa2c431ea53
+msgid ""
+"*Tree crown polygons* - extracts tree crowns from forest vegetation as well "
+"as free-standing trees, provides them as polygons"
+msgstr "*树冠多边形* - 从森林植被以及独立树木中提取树冠，将其作为多边形提供"
+
+#: ../userguides/forest_model.rst:32 3d1d975b3a114af087821fa2c431ea53
+msgid ""
+"*Tree crown points* - extracts tree crowns from forest vegetation as well as"
+" free-standing trees, provides them as points"
+msgstr "*树冠点* - 从森林植被以及独立树木中提取树冠，将其作为点提供"
+
+#: ../userguides/forest_model.rst:35 a6f20f70f78946d38a788c6888baf6df
+msgid ""
+"We recommend using the **Tree crown** options with 0.3m resolution imagery "
+"(~ 19 zoom) for the best results in case you need to detect individual "
+"trees."
+msgstr "我们建议使用具有 0.3m 分辨率图像（约 19 倍变焦）的 **树冠** 选项，以便在您需要检测单棵树时获得最佳结果。"
+
+#: ../userguides/forest_model.rst:40 286cd4ef37354ccd8f1f2015a97a0394
+msgid "Forest Height classification follows the following classes:"
+msgstr "森林高度分类遵循以下类别："
+
+#: ../userguides/forest_model.rst:42 683c41987f81406f907c3b2fc2ae8a19
+msgid "Shrubs lower than 4 meters;"
+msgstr "低于4米的灌木；"
+
+#: ../userguides/forest_model.rst:43 1387d710eba043c889a1b09c5fd82548
+msgid "Forest from 4 to 10 meters high;"
+msgstr "森林高度4至10米；"
+
+#: ../userguides/forest_model.rst:44 f1bcb99d92ac41d5a8caa0c482d41276
+msgid "Forest more than 10 meters high;"
+msgstr "森林高度超过10米；"
+
+#: ../userguides/forest_model.rst:46 868aff1d66ba4aad91f5eb3f8f4a1e35
+msgid ""
+"This classification is used as a decision support for the vegetation "
+"management in powerline zones, etc. See the `professional solutions by "
+"Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be "
+"customized depending on the requirements."
+msgstr ""
+"此分类用作电力线区域植被管理等的决策支持。请参阅“Geoalert "
+"的专业解决方案<https://geoalert.io/solutions/power>”_。阈值可以根据要求定制。"
+
+#: ../userguides/forest_model.rst:49 ../userguides/roads_model.rst:16
+#: 732794b3045f422e98f1ce2167e27e50
+msgid "**Processing results samples**"
+msgstr "**处理结果样本**"
+
+#: ../userguides/forest_model.rst:57 d20b22fa50854e1fa48ce6876d2f2f2e
+msgid "Processing result of forest model (Tree crowns, points)"
+msgstr "森林模型处理结果（树冠、点）"
+
+#: ../userguides/forest_model.rst:57 e35531ee8ad94d63b9c64277d053a0ed
+msgid "Sample of results for **Tree crowns, points**"
+msgstr "**树冠、点**结果示例"
+
+#: ../userguides/forest_model.rst:66 9c5772ce08394de29500e58b847a3396
+msgid "Processing result of forest model (Heights)"
+msgstr "森林模型处理结果（高度）"
+
+#: ../userguides/forest_model.rst:66 6019be2112384ae7a6647c197b35a972
+msgid "Sample of results for **Forest with heights** mask (raster output)"
+msgstr "**具有高度的森林**蒙版的结果示例（光栅输出）"
+
+#: ../userguides/forest_model.rst:72 85b2be35aae544b5b2c1dd93a6aad8e2
+msgid ""
+"Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation). "
+"The model was evaluated on a validation set of 6 areas of interest (AOI) "
+"against manually annotated ground truth. Metrics are area-based: IoU is the "
+"intersection-over-union of the predicted and ground-truth vegetation masks, "
+"and F1 / Precision / Recall are computed on the overlapping mask area."
+msgstr ""
+"最新更新 — **🌲 森林和树木 v.2026-07-03**（全局，细分）。该模型根据手动注释的基本事实在 6 个感兴趣区域 (AOI) "
+"的验证集上进行评估。指标是基于区域的：IoU 是预测植被掩模和地面真实植被掩模的交并，并且 F1 / 精度 / 召回率是在重叠掩模区域上计算的。"
+
+#: ../userguides/forest_model.rst:88 d7e7bcf1e8be4ebd9d6ab3b794418f25
+msgid "Italy — Crotone"
+msgstr "意大利 — 克罗托内"
+
+#: ../userguides/forest_model.rst:89 f0c545f9260c4242a011037445f7292a
+msgid "254"
+msgstr "第254章"
+
+#: ../userguides/forest_model.rst:90 ba9d7823be314eef83154954a2d8807f
+msgid "0.862"
+msgstr ""
+
+#: ../userguides/forest_model.rst:91 631552d74e7a4f249b672c60a118e03b
+msgid "**0.926**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:93 1e4f7f04361b4fbc898bc39b1215565b
+msgid "0.909"
+msgstr ""
+
+#: ../userguides/forest_model.rst:94 c62cb10bd89f43b884e96f15758fd992
+msgid "Spain — Madrid"
+msgstr "西班牙 — 马德里"
+
+#: ../userguides/forest_model.rst:95 edf7e392c63847be8f8d4f2d50e2a326
+msgid "368"
+msgstr "第368章"
+
+#: ../userguides/forest_model.rst:98 7de156bf83d94eb9b57f8d3f5d34a252
+msgid "0.880"
+msgstr ""
+
+#: ../userguides/forest_model.rst:99 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.915"
+msgstr ""
+
+#: ../userguides/forest_model.rst:100 18ea288fb94c4d8ab71de3698525d374
+msgid "Philippines — Balanga"
+msgstr "菲律宾 — 巴兰加"
+
+#: ../userguides/forest_model.rst:101 90ca62161e0d45d5a9fd5c14bb5b0ea5
+msgid "220"
+msgstr ""
+
+#: ../userguides/forest_model.rst:102 4b6e9d1b2e414a9eae01169be3b6e4f6
+msgid "0.806"
+msgstr ""
+
+#: ../userguides/forest_model.rst:103 caa4bb62257e458c929ef796bf8383eb
+msgid "**0.892**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:104 ../userguides/forest_model.rst:111
+#: 5d4feff0a4b74eba9e163512aad0d675 925eea7ec46d463b8f2c28079b802c65
+msgid "0.864"
+msgstr ""
+
+#: ../userguides/forest_model.rst:105 69bc505428a74910b81a091ebb63123b
+msgid "0.923"
+msgstr ""
+
+#: ../userguides/forest_model.rst:106 e4930509b6864da0816cd8425c1a6140
+msgid "Spain — Velilla de San Antonio"
+msgstr "西班牙 — 贝利利亚德圣安东尼奥"
+
+#: ../userguides/forest_model.rst:107 1fcde19a93fd4235b1030c6a1a6e4ea2
+msgid "1070"
+msgstr ""
+
+#: ../userguides/forest_model.rst:108 57d5aea1c6ab4cd485ba0007d12b0f7e
+msgid "0.784"
+msgstr ""
+
+#: ../userguides/forest_model.rst:109 3def7719a613495fbeea275987c8fb89
+msgid "**0.879**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:112 bbb69c7e49c14441848f057d7105ae40
+msgid "Spain — Cuenca"
+msgstr "西班牙 — 昆卡"
+
+#: ../userguides/forest_model.rst:113 6bfc43773904426ba4b589fd8255e732
+msgid "409"
+msgstr ""
+
+#: ../userguides/forest_model.rst:114 0317a75559794c2990b0b78178d430d9
+msgid "0.763"
+msgstr ""
+
+#: ../userguides/forest_model.rst:115 f86c23936aee4536a8500de9ff2f98f1
+msgid "**0.865**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:117 16a6e1bfc1f847818d3deea85101a447
+msgid "0.872"
+msgstr ""
+
+#: ../userguides/forest_model.rst:118 1334cfa9983c4ef689afd7874782dae8
+msgid "Uzbekistan — Tashkent"
+msgstr "乌兹别克斯坦 — 塔什干"
+
+#: ../userguides/forest_model.rst:120 7ba560b4942a4025832715ede25ca58d
+msgid "0.730"
+msgstr ""
+
+#: ../userguides/forest_model.rst:121 7b8b0d05d1f74cbb8dd049d191d4a51b
+msgid "**0.844**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:122 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.905"
+msgstr ""
+
+#: ../userguides/forest_model.rst:123 af9a512899194a8b87c1c26ff3c6d095
+msgid "0.791"
+msgstr ""
+
+#: ../userguides/forest_model.rst:124 f631a2080ee04cd383abebab1ace6423
+msgid "Spain — Rus"
+msgstr "西班牙 — 罗斯"
+
+#: ../userguides/forest_model.rst:125 77e519dddbd6462fbd535fb5ada77063
+msgid "249"
+msgstr ""
+
+#: ../userguides/forest_model.rst:126 f23eda463e0d4d63ba8d3128ce296675
+msgid "0.617"
+msgstr ""
+
+#: ../userguides/forest_model.rst:127 a84819da4d984ff083ec8d4b9cba7251
+msgid "**0.763**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:128 9b2e2a65dee64cff921798e356c7d10e
+msgid "0.699"
+msgstr ""
+
+#: ../userguides/forest_model.rst:129 671069e1a123470ea4c5e3e642922b4b
+msgid "0.841"
+msgstr ""
+
+#: ../userguides/forest_model.rst:130 17a1e958f41a431b864f9da0828d7297
+msgid "Argentina — La Banda"
+msgstr "阿根廷 — 拉班达"
+
+#: ../userguides/forest_model.rst:131 11d612263a8b4a62a9e935b148b225d6
+msgid "93"
+msgstr ""
+
+#: ../userguides/forest_model.rst:132 ff03fbec64be4fed805110f60e058790
+msgid "0.576"
+msgstr ""
+
+#: ../userguides/forest_model.rst:133 f102bd118e4345d1847f3603a735fbc1
+msgid "**0.731**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:134 7455ed9776034e8eb781acfd52ee6cb5
+msgid "0.653"
+msgstr ""
+
+#: ../userguides/forest_model.rst:135 7b266a40ea924daa9b32a67626f2770e
+msgid "0.829"
+msgstr ""
+
+#: ../userguides/forest_model.rst:136 8f18db0427bb4381a21aa3bfbb4f5f42
+msgid "**Global (mean of 8 AOIs)**"
+msgstr "**全球（8 个 AOI 的平均值）**"
+
+#: ../userguides/forest_model.rst:137 c0b621a336c445139446400b3e62ae3f
+msgid "2819"
+msgstr ""
+
+#: ../userguides/forest_model.rst:138 31521f97000e47408170eee2ce2dd7a5
+msgid "0.744"
+msgstr ""
+
+#: ../userguides/forest_model.rst:139 c9ab89441f0b4434ac41e820e6e378bf
+msgid "**0.850**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:140 1560920b053240e0b8cf4f64f0ba091e
+msgid "0.837"
+msgstr ""
+
+#: ../userguides/forest_model.rst:143 01e1ae2eb82544f79ec1961ea5f49b0b
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"vegetation masks; evaluation run 2026-07-03. Compared with the previous "
+"version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
+msgstr ""
+"*根据地面实况植被掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行时间为 2026 年 7 月 3 日。与之前版本 "
+"v.2025-06-14 相比（平均 F1 0.513，IoU 0.396）。*"
+
+#: ../userguides/forest_model.rst:148 d750340ac2c14220bdfb4f36eb9f4c13
+msgid ""
+"📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` "
+"for the area-by-area breakdown, including comparison with the previous "
+"version and prediction-vs-ground-truth overlays."
+msgstr ""
+"📊 请参阅 :doc:`每个位置基准详细信息 <forest_benchmark_2026-07-03>` "
+"了解逐个区域的细分，包括与之前版本的比较以及预测与真实情况叠加。"
+
+#: ../userguides/roads_model.rst:2 40daa56bee7141c2a510b4df4b283b9e
+msgid "🚗 Roads"
+msgstr "🚗 道路"
+
+#: ../userguides/roads_model.rst:4 3c92cdc7f6a44e19a75dd61f0de5669b
+msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+msgstr "高分辨率图像中的道路分割模型 (0.3 - 0.5 m)\\"
+
+#: ../userguides/roads_model.rst:6 f28f519a07774d29b1276e38a40a16c9
+msgid ""
+"The model is trained primarily for rural and suburban areas. Multi-task "
+"learning is applied in order to improve the road mask connectivity, "
+"especially in the spots obscured by trees or buildings. Best suited for "
+"areas with low urbanization, and can fail in cities where wide roads with "
+"sidewalks and complex crossroads are present. We extract the road central "
+"line in order to decrease the clutter and optimize the extracted road "
+"network, and then the road lines are inflated back to polygonal object."
+msgstr ""
+"该模型主要针对农村和郊区进行训练。应用多任务学习是为了提高道路掩模的连通性，特别是在被树木或建筑物遮挡的地方。最适合城市化程度较低的地区，但在有宽阔的道路、人行道和复杂的十字路口的城市中可能会失败。我们提取道路中心线以减少混乱并优化提取的道路网络，然后将道路线膨胀回多边形对象。"
+
+#: ../userguides/roads_model.rst:9 80bd52a3d8924eb6929d41484ebdbd08
+msgid "In version 1.1 we added the road graph postprocessing:"
+msgstr "在1.1版本中我们添加了道路图后处理："
+
+#: ../userguides/roads_model.rst:11 3339a947a5954a04bc93c2ac884cda4e
+msgid "geometry simplification;"
+msgstr "几何简化；"
+
+#: ../userguides/roads_model.rst:12 3abe809052eb44de832141187be16256
+msgid "merging of the gaps;"
+msgstr "合并差距；"
+
+#: ../userguides/roads_model.rst:13 6496577024ba4bf5abf56135bb826497
+msgid "removal of double edges;"
+msgstr "去除双边；"
+
+#: ../userguides/roads_model.rst:14 74cd8c1fb62c4a0b96139338851d1f87
+msgid "removal of detached and too short segments;"
+msgstr "去除分离的和过短的片段；"
+
+#: ../userguides/roads_model.rst:24 ../userguides/roads_model.rst:32
+#: 1f248fa383c449b5a14c162ff35fb818 d55280c0648949179d73991aaf24a057
+msgid "Processing result of roads model"
+msgstr "道路模型处理结果"
+
+#: ../userguides/roads_model.rst:24 5d9d496d69ed4dd993c7069bbd0a7365
+msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+msgstr "模型的最佳条件：俄罗斯农村/郊区"
+
+#: ../userguides/roads_model.rst:32 a7580b5f67dd462f81c2f26305d4cb3c
+msgid "More complex environment - urban territory in Prague, Czech Republic"
+msgstr "更复杂的环境——捷克共和国布拉格的城市领土"
+
+#: ../userguides/combo_model.rst:2 383b1c85932c4ac4b056ae0a095c1605
+msgid "[multi] Buildings + Roads + Forest"
+msgstr "[多]建筑物+道路+森林"
+
+#: ../userguides/combo_model.rst:4 ab774faf67e440f099e46a1b9ef373b6
+msgid ""
+"This pipeline combines Buildings, Forest and Roads in a single workflow and "
+"returns the topology-corrected GeoJSON output."
+msgstr "该管道将​​建筑物、森林和道路组合在一个工作流程中，并返回经过拓扑校正的 GeoJSON 输出。"
+
+#: ../userguides/combo_model.rst:13 ../userguides/construction_model.rst:13
+#: 1650f333d11c4ea6be55d0ad2d117294 8f36eaa496c54ee2bd1bfa713c4bc63e
+#: f9cadf3b88944d02891fa0144b057a41
+msgid "Processing result of construction model"
+msgstr "施工模型处理结果"
+
+#: ../userguides/combo_model.rst:13 d855ab70a21940129bfc07b7aba59a2c
+msgid ""
+"Processing result sample for a combined scenario featuring Buidlings, Roads "
+"and Forest models."
+msgstr "以建筑物、道路和森林模型为特征的组合场景的处理结果示例。"
+
+#: ../userguides/open-data.rst:2 b71789cef782434ebd59be990a79db5b
+msgid "Download Open Data"
+msgstr "下载开放数据"
+
+#: ../userguides/open-data.rst:4 8a54f8aeb8c7414aa698b2b28dde89ab
+msgid ""
+"In Mapflow, you can download open mapping data from OpenStreetMap and "
+"Overture Maps. This pipeline **does not use any AI model**. It is designed "
+"to support your mapping projects with community-maintained open data."
+msgstr ""
+"在 Mapflow 中，您可以从 OpenStreetMap 和 Overture Maps "
+"下载开放地图数据。该管道**不使用任何人工智能模型**。它旨在通过社区维护的开放数据支持您的测绘项目。"
+
+#: ../userguides/open-data.rst:7 9db01defc51a438d86c94bb841991fa3
+msgid "Select one or more semantic classes and run the workflow."
+msgstr "选择一个或多个语义类并运行工作流。"
+
+#: ../userguides/open-data.rst:9 b8e7966b8e434936934e138001f30f98
+msgid "**Run the pipeline**"
+msgstr "**运行管道**"
+
+#: 7b14790129b14e9b8a54802e4e56c9ba
+msgid "Example result of the Open Data pipeline"
+msgstr "开放数据管道的示例结果"
+
+#: ../userguides/open-data.rst:17 914a68e79f0643ecbff61179f6a03fc2
+msgid "**Get the results and the image preview (in Web app or QGIS project)**"
+msgstr "**获取结果和图像预览（在Web应用程序或QGIS项目中）**"
+
+#: ../userguides/open-data.rst:26 a0b1435bc3a541f59cedad19da1ce5c6
+msgid ""
+"Results depend on the availability and completeness of open mapping data in "
+"your area of interest. You can use it alongside AI-mapping results as a "
+"complementary source."
+msgstr "结果取决于您感兴趣的区域中开放地图数据的可用性和完整性。您可以将其与 AI 绘图结果一起用作补充来源。"
+
+#: ../userguides/open-data.rst:29 289a5ca4291e46c0a09933c1af8dce02
+msgid ""
+"You have to select an image source the same way as for AI-mapping pipelines."
+" Note that the results may not be well aligned with the image, because the "
+"data comes from an external open data source. The image is provided only for"
+" visual reference, so you can decide whether you need to apply edits or run "
+"a Mapflow model to complement the results."
+msgstr ""
+"您必须以与 AI "
+"映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行 "
+"Mapflow 模型来补充结果。"
+
+#: ../userguides/custom_pipelines.rst:2 3dcbc7f940ec46e0961988a6fc73c9ab
+msgid "Custom Models"
+msgstr "定制型号"
+
+#: ../userguides/custom_pipelines.rst:4 b662ccc8ccda46898ebb3ae897af7f44
+msgid "There are several options of model customization in Mapflow."
+msgstr "Mapflow 中有多种模型定制选项。"
+
+#: ../userguides/custom_pipelines.rst:6 ec88bf1470da433298daeaa0acd15e0d
+msgid ""
+"You request access to a specific model based on your use case and data, and "
+"we train it for you and connect it to Mapflow."
+msgstr "您根据您的用例和数据请求访问特定模型，我们会为您进行训练并将其连接到 Mapflow。"
+
+#: ../userguides/custom_pipelines.rst:8 ea89c2ac23c24738a154234e3087a25e
+msgid ""
+"You choose one of the pre-trained models that are not included in the "
+"standard Mapflow pipelines and test it with your data or on your area to "
+"decide if it's applicable or requires additional training."
+msgstr "您选择标准 Mapflow 管道中未包含的预训练模型之一，并使用您的数据或在您的区域进行测试，以确定它是否适用或需要额外的培训。"
+
+#: ../userguides/custom_pipelines.rst:10 2c96dfbab69148058bbf1bc6dfd75f5e
+msgid ""
+"You train your own model with custom data and request our support to connect"
+" it to your account to leverage your model with the Mapflow workflow engine."
+msgstr "您使用自定义数据训练您自己的模型，并请求我们的支持将其连接到您的帐户，以便通过 Mapflow 工作流引擎利用您的模型。"
+
+#: ../userguides/custom_pipelines.rst:12 ed31975614344e359d68d088db5e889b
+msgid ""
+"Below is the list of custom models created for specific use cases and "
+"available in Mapflow by request (to be updated)."
+msgstr "以下是为特定用例创建的自定义模型列表，并可根据请求在 Mapflow 中使用（待更新）。"
+
+#: ../userguides/construction_model.rst:2 9eef9aaf1cee440cb46b6b626ae26a8c
+msgid "🏗️ Constructions (CUSTOM)"
+msgstr "🏗️ 结构（定制）"
+
+#: ../userguides/construction_model.rst:4 af8ae5fac8f547c0891af9147a9154db
+msgid ""
+"This model outlines the areas in the satellite image that contain "
+"construction sites and buildings under construction. The current model "
+"dataset is limited to some countries and the work of extending it is in "
+"progress."
+msgstr "该模型概述了卫星图像中包含建筑工地和在建建筑物的区域。当前的模型数据集仅限于某些国家，扩展工作正在进行中。"
+
+#: ../userguides/construction_model.rst:13 fe595bf9577a4bb98f4475bd53227644
+msgid ""
+"Processing result sample for a rapidly developing area with construction "
+"sites"
+msgstr "快速发展的建筑工地区域的处理结果样本"
+
+#: ../userguides/hd_housing_model.rst:2 4365d2f69e904b2db440bd0c40f4d286
+msgid "🏘 High-density housing (CUSTOM)"
+msgstr "🏘 高密度住宅（定制）"
+
+#: ../userguides/hd_housing_model.rst:5 ../userguides/sam_model.rst:5
+#: 3f48aa235a0f4a6da314aafbaacf0685
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available only by request."
+msgstr "此模型已被弃用作为默认模型并移至自定义模型。它只能根据要求提供。"
+
+#: ../userguides/hd_housing_model.rst:8 5e4448f0c9f3431fa0e6cd67c8cc6986
+msgid ""
+"The “high-density housing” AI model is designed for areas with terraced or "
+"otherwise densely built buildings, common in the Middle East, parts of "
+"Africa, etc. This model, just like the regular building model, detects the "
+"building roofs. Firstly, the building blocks are segmented as a whole, and "
+"then each block is attempted to be devided into individual houses based on "
+"the detection of individual roof markers with rectangular grid or Voronoi "
+"diagram."
+msgstr ""
+"“高密度住宅”AI模型是为有梯田或其他密集建筑的地区而设计的，常见于中东、非洲部分地区等。该模型与常规建筑模型一样，会检测建筑物的屋顶。首先，将建筑块作为一个整体进行分割，然后根据矩形网格或Voronoi图检测各个屋顶标记，尝试将每个块划分为单独的房屋。"
+
+#: ../userguides/hd_housing_model.rst:11 95f5bb404bc1446ea6c9f6c38381b290
+msgid ""
+"Processing result sample for dense urban development area (Tunisia, Africa):"
+msgstr "密集城市发展区（突尼斯、非洲）的处理结果样本："
+
+#: ../userguides/hd_housing_model.rst:19 6d963fc93b5d4218bac977818a0e6a17
+msgid "Processing result of high-density housing model"
+msgstr "高密度住宅模型处理结果"
+
+#: ../userguides/hd_housing_model.rst:19 70e150d6f89a4840909ef435f9437ae3
+msgid ""
+"High-density buildings model, instance segmentation and post-processing with"
+" grid options"
+msgstr "高密度建筑模型、实例分割和带有网格选项的后处理"
+
+#: ../userguides/agriculture_fields_model.rst:2
+#: 92ad435be8a2412c81777dc4f5baa8bb
+msgid "|:tractor:| Agriculture fields (CUSTOM)"
+msgstr "|:拖拉机:|农业领域（定制）"
+
+#: ../userguides/agriculture_fields_model.rst:5
+#: c638e2eb57d2412d97aa8158f45c6a12
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available by request."
+msgstr "此模型已被弃用作为默认模型并移至自定义模型。可根据要求提供。"
+
+#: ../userguides/agriculture_fields_model.rst:7
+#: 39e4e4e109554bf6a6d2e51102a881e8
+msgid ""
+"Model for fields segmentation allows to detect the agricultural fields and "
+"delineate the nearby fields from each other, if there is a visual boundary "
+"(forest line, road, different crop stage). The model is trained on the high "
+"resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
+"with larger fields with active vegetation. Smaller and terrace fields "
+"(typical for Asia) are delineated not so good. Fields without vegetation, "
+"especially in winter period, are not target class."
+msgstr ""
+"如果存在视觉边界（林线、道路、不同作物阶段），田地分割模型可以检测农田并相互划分附近的田地。该模型基于高分辨率数据（1-1.2 "
+"m）进行训练，主要针对欧洲、俄罗斯。它在植被活跃的较大田地中表现更好。较小的梯田（亚洲典型）的轮廓不太好。没有植被的田地，特别是在冬季，不属于目标类别。"
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: ../userguides/agriculture_fields_model.rst:24
+#: acc5a6f70805415fb4ce4fb70f3ef844 bbc90a26e36c49f1832b490ed8612eb4
+msgid "Processing result of agriculture fields model"
+msgstr "农田模型处理结果"
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: 22895d2c3da9467db3b36e3cc740eb7d
+msgid "Processing result sample for Europe (Belgium)"
+msgstr "欧洲（比利时）的处理结果样本"
+
+#: ../userguides/agriculture_fields_model.rst:24
+#: c2ac31b20aac4d2894727925c57654ba
+msgid "Processing result sample for Asia (Northern India)"
+msgstr "亚洲（印度北部）的处理结果样本"
+
+#: ../userguides/sam_model.rst:2 57b7a0dc645648ee96d2052dc456ccb6
+msgid "✨ Segment Anything v1 (CUSTOM)"
+msgstr "✨ 分段任何内容 v1（自定义）"
+
+#: ../userguides/sam_model.rst:7 d4a53da2cf4a4d20aca3aeac604b039e
+msgid ""
+"The “Segment Anything” (originaly introduced by Meta as *universal "
+"segmentation model*) is available as yet another experimental model in "
+"Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There "
+"are the same steps required to launch this model:"
+msgstr ""
+"“Segment Anything”（最初由 Meta 作为 *通用分割模型* 引入）可作为 Mapflow 中的另一个实验模型。我们将其调整为 "
+"Mapflow 工作流程，以便大规模使用。启动此模型需要执行相同的步骤："
+
+#: ../userguides/sam_model.rst:9 9558569a65bd47adafb954b155a0f6df
+msgid "Select your data source"
+msgstr "选择您的数据源"
+
+#: ../userguides/sam_model.rst:10 ec81aa1d4ef6438f95391e8e5df073fc
+msgid ""
+"Select your geographical area - either polygon, GeoJSON file, or your image "
+"extent"
+msgstr "选择您的地理区域 - 多边形、GeoJSON 文件或图像范围"
+
+#: ../userguides/sam_model.rst:12 7de5dbc69f744052a9279424b54ec6b9
+msgid "Yet there is one difference in the model workflow:"
+msgstr "然而模型工作流程有一个区别："
+
+#: ../userguides/sam_model.rst:14 4055bf355df64e358caa8344a53faeb8
+msgid ""
+"if you run this model using GTIFF file — the original resolution of the "
+"image will be used"
+msgstr "如果您使用 GTIFF 文件运行此模型 — 将使用图像的原始分辨率"
+
+#: ../userguides/sam_model.rst:15 96e002fbe3d646ddb1c71ad1bf53b9f6
+msgid ""
+"if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need"
+" to select the Zoom level (image resolution) from the model options which "
+"will be used for the input"
+msgstr ""
+"如果您通过 TMS 运行它（例如 :ref:`Imagery` 像 Mapbox "
+"Satellite） — 您需要从模型选项中选择用于输入的缩放级别（图像分辨率）"
+
+#: ../userguides/sam_model.rst:47 ../userguides/sam_model.rst:55
+#: ../userguides/sam_model.rst:63 ../userguides/sam_model.rst:72
+#: ../userguides/sam_model.rst:80 134f2d65c7cc4047a11fcd81b431eb99
+#: 62b67d38a418469e912acf9f9248bc7b 6e65769f6621476e9ab1951cebe4048a
+#: 7ec555cb8b68480f9f22e396e76a1aa0 a0a9b4b1539a44779c0e8e0cd2e9f97b
+#: f2639202d050461eb74ee9310b664d8c
+msgid "SAM options - zoom levels"
+msgstr "SAM 选项 - 缩放级别"
+
+#: ../userguides/sam_model.rst:24 041063e82db5426a92c0b841b7c532ef
+msgid ""
+"Depending on the input resolution, the SAM model will interpret and generate"
+" different results. It can be empirically classified by mapping classes "
+"depending on the zoom levels as follows:"
+msgstr "根据输入分辨率，SAM 模型将解释并生成不同的结果。可以根据缩放级别通过映射类对它进行经验分类，如下所示："
+
+#: ../userguides/sam_model.rst:30 2ec1575440d04c4a892063de6079e311
+msgid "ZOOM LEVELS"
+msgstr "缩放级别"
+
+#: ../userguides/sam_model.rst:31 7cb7221723764e9ca8f552b1464cd414
+msgid "SEMANTIC OBJECTS"
+msgstr "语义对象"
+
+#: ../userguides/sam_model.rst:32 35b667f3ab7140c0bcc8f678ddccf521
+msgid "14"
+msgstr ""
+
+#: ../userguides/sam_model.rst:33 6c426849668f4ea2a136b973640a6a20
+msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
+msgstr "土地利用、大型农田、森林、公园、田野、水体"
+
+#: ../userguides/sam_model.rst:34 d78825962c874c24a2cb1f94256b4b8b
+msgid "16"
+msgstr ""
+
+#: ../userguides/sam_model.rst:35 0c18629b4d2e4c15ae3a24604d24415f
+msgid "Small fields, large buildings, lawns, plots"
+msgstr "小田地、大建筑物、草坪、地块"
+
+#: ../userguides/sam_model.rst:36 2b7aabd555824d3e99ea85f15a3cd286
+msgid "18"
+msgstr ""
+
+#: ../userguides/sam_model.rst:37 d8743085b46948e993840f78f9daa0b4
+msgid "Farms, buildings, groups of trees, etc."
+msgstr "农场、建筑物、树木群等"
+
+#: ../userguides/sam_model.rst:38 aa4439962cb646f09d82e29b6adbb479
+msgid "19+"
+msgstr ""
+
+#: ../userguides/sam_model.rst:39 ba0ba537a749416080f741974ea23c0b
+msgid "Houses, trees, vehicles, roof structures, etc."
+msgstr "房屋、树木、车辆、屋顶结构等"
+
+#: ../userguides/sam_model.rst:47 089f57c31102462484233041fb121fa3
+msgid "E.g. Result – SAM (zoom 14)"
+msgstr "例如。结果 – SAM（缩放 14）"
+
+#: ../userguides/sam_model.rst:55 f4eb9edf9a6041e08ecc333eeab43f26
+msgid "E.g. Result – SAM (zoom 16)"
+msgstr "例如。结果 – SAM（缩放 16）"
+
+#: ../userguides/sam_model.rst:63 85cb7785828f4479839b8748b495b113
+msgid "E.g. Result – SAM (zoom 18)"
+msgstr "例如。结果 – SAM（缩放 18）"
+
+#: ../userguides/sam_model.rst:72 3eec686330884b7da2f87c20030748c9
+msgid ""
+"E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons "
+"are not very accurate and some target objects are missing, but the overall "
+"result is relevant and can be used for more accurate mapping."
+msgstr ""
+"例如。结果 – 航空图像上的 SAM（变焦 20），单棵树。有些多边形不是很准确，有些目标对象丢失，但总体结果是相关的，可以用于更准确的映射。"
+
+#: ../userguides/sam_model.rst:80 2dc4444612184fe29135b4bb236b31d9
+msgid ""
+"E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to "
+"small similar-pattern objects, requires some manual filtering of the model's"
+" output."
+msgstr "例如。结果 – 航空图像（变焦 20）、集装箱上的 SAM。适用于小型相似图案对象，需要对模型的输出进行一些手动过滤。"
+
+#: ../userguides/sam_model.rst:83 eeb1d8019d8a4b83a7c266dcfa7464eb
+msgid ""
+"❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
+"list of default models, as the zoom options are not enabled in the current "
+"plugin’s design. Yet if you work in QGIS and want to try SAM there — send us"
+" a request and we will connect corresponding workflow scenarios with all "
+"zoom options specified."
+msgstr ""
+"❗️ :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` 默认模型列表中未提供 "
+"SAM，因为当前插件的设计中未启用缩放选项。然而，如果您在 QGIS 工作并想在那里尝试 SAM — "
+"向我们发送请求，我们将使用指定的所有缩放选项连接相应的工作流程场景。"
+
+#: ../userguides/swimming_pools_model.rst:2 30880309997342d9a7a3b3f3036eab38
+msgid "Swimming pools (CUSTOM)"
+msgstr "游泳池（定制）"
+
+#: ../userguides/solars_model.rst:5 ../userguides/swimming_pools_model.rst:5
+#: a5d8901d0afe4703874ed0b6015d6764
+msgid "This model is available by request."
+msgstr "该型号可根据要求提供。"
+
+#: ../userguides/swimming_pools_model.rst:7 4a42384dd1264a4d8eefee732f88d3ea
+msgid ""
+"Swimming pools detection and classification. The model is trained on the "
+"high resolution aerial imagery (working zoom level 19). The testing "
+"benchmark score is ``F1 > 0.95``."
+msgstr "游泳池检测和分类。该模型在高分辨率航空图像（工作缩放级别 19）上进行训练。测试基准分数为“F1 > 0.95”。"
+
+#: ../userguides/solars_model.rst:14 ../userguides/swimming_pools_model.rst:14
+#: 7470a45dc56a40ef944a83e33194f11d
+msgid "Model name"
+msgstr "型号名称"
+
+#: ../userguides/solars_model.rst:15 ../userguides/swimming_pools_model.rst:15
+#: 3961bbaf29f14efabc0ae616e15c36d7
+msgid "Model type"
+msgstr "型号类型"
+
+#: ../userguides/solars_model.rst:16 ../userguides/swimming_pools_model.rst:16
+#: e9d0beedc1c34fc3a1068eb98671f909
+msgid "Zoom level"
+msgstr "缩放级别"
+
+#: ../userguides/solars_model.rst:17 ../userguides/swimming_pools_model.rst:17
+#: 0182293f7f604221ad0223d55256beb0
+msgid "F1 (testing)"
+msgstr "F1（测试）"
+
+#: ../userguides/solars_model.rst:18 ../userguides/swimming_pools_model.rst:18
+#: 5a5b9001849e46d1a609c24b704d42ee
+msgid "Geo domain"
+msgstr "地理域"
+
+#: ../userguides/swimming_pools_model.rst:19 f631a2080ee04cd383abebab1ace6423
+msgid "Swimming pools"
+msgstr "游泳池"
+
+#: ../userguides/swimming_pools_model.rst:20 68c7101d841343a193952194262ae4c8
+msgid "Detector + classification"
+msgstr "探测器+分类"
+
+#: ../userguides/swimming_pools_model.rst:21 c58ee5aa59124b81bb435ea33d8bd0a8
+msgid "zoom 19-20"
+msgstr "变焦19-20"
+
+#: ../userguides/swimming_pools_model.rst:22 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "> 0.95"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:31 016f71b1bbbf494cb66848fda2db5e1e
+msgid ""
+"`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-"
+"approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-"
+"case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_"
+" about the use cases and the model application"
+msgstr ""
+"`阅读更多<https://medium.com/geoalert-platform-urban-monitoring/how-we-"
+"approached-a-foundational-model-and-ending-up-with-a- detector-a-real-use-"
+"case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_用例和模型应用"
+
+#: ../userguides/solars_model.rst:2 5fed8275c62b41929208340a42407e82
+msgid "|:sunny:| Solar panels (CUSTOM)"
+msgstr "|:晴朗:|太阳能电池板（定制）"
+
+#: ../userguides/solars_model.rst:7 543b8bdaebb84fd29b5417c9a73cb5d5
+msgid ""
+"Solar panels is a model trained for detecton of Photovoltaic elements using "
+"aerial imagery (working zoom levels 19-21). It's capable of detection PV "
+"elements both on the rooftops and on the ground. The testing benchmark score"
+" is ``F1 > 0.87``."
+msgstr ""
+"太阳能电池板是一个经过训练的模型，用于使用航空图像（工作缩放级别 19-21）检测光伏元件。它能够检测屋顶和地面上的光伏元件。测试基准分数为“F1 > "
+"0.87”。"
+
+#: ../userguides/solars_model.rst:19 7750f4edd9ea489e9e75a8885a27099b
+msgid "Solar panels"
+msgstr "太阳能电池板"
+
+#: ../userguides/solars_model.rst:20 b05a4955d4f1494793ee85f83657c3cc
+msgid "Detector + segmentator"
+msgstr "探测器+分割器"
+
+#: ../userguides/solars_model.rst:21 84fdf935976c48b4ae799e6bb332c24a
+msgid "zoom 19-21"
+msgstr "变焦19-21"
+
+#: ../userguides/solars_model.rst:22 200fcb891882459aaac6f2c0bad4928f
+msgid "pixelwise > 0.77"
+msgstr "按像素 > 0.77"
+
+#: 7b14790129b14e9b8a54802e4e56c9ba
+msgid "Processing result of solars model"
+msgstr "太阳模型处理结果"

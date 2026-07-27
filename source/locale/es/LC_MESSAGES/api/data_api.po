@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../api/data_api.rst:4 2c12540174a446c7b2ec5875f6b621e9
+msgid "Mapflow Data API"
+msgstr "API de datos de flujo de mapas"
+
+#: ../api/data_api.rst:6 d854c3103b9e475cb08f4fafc082660b
+msgid ""
+"The Mapflow Data API enables you to manage custom imagery, organize it into "
+"mosaics, and search satellite imagery from external providers. Use your "
+"imagery for AI-powered analysis with the :doc:`Processing API "
+"<processing_api>`."
+msgstr ""
+"La API de datos de Mapflow le permite administrar imágenes personalizadas, "
+"organizarlas en mosaicos y buscar imágenes satelitales de proveedores "
+"externos. Utilice sus imágenes para análisis impulsados ​​por IA con "
+":doc:`API de procesamiento <processing_api>`."
+
+#: ../api/data_api.rst 5f46bfa9d0d6423ebd3a857e84d2321d
+msgid "Postman Collection"
+msgstr "Colección cartero"
+
+#: ../api/data_api.rst:14 37f84fe24c3e4bf4a0c1c1c61f07aa91
+msgid ""
+"Try our `Postman Collection "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_ for "
+"interactive API testing."
+msgstr ""
+"Pruebe nuestra `Colección Postman "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_ para realizar "
+"pruebas API interactivas."
+
+#: ../api/data_api.rst:18 d4d6062252e941d0b21b44a7262b0e8c
+msgid "Base URL"
+msgstr "URL base"
+
+#: ../api/data_api.rst:26 6ff6cf0043194d9a812cb5abf124ffb4
+msgid "Authentication"
+msgstr "Autenticación"
+
+#: ../api/data_api.rst:28 b0df33094eb440e6899352025c0fff09
+msgid ""
+"All API requests require an API token. Generate yours in `profile settings "
+"<https://app.mapflow.ai/account>`_."
+msgstr ""
+"Todas las solicitudes de API requieren un token de API. Genera el tuyo en "
+"`configuración de perfil <https://app.mapflow.ai/account>`_."
+
+#: ../api/data_api.rst:35 19cd0b6292684b95ac7aaf6e5d20cd45
+msgid ""
+"See :doc:`authorization guide <../userguides/mapflow_auth>` for details."
+msgstr ""
+"Consulte :doc:`guía de autorización <../userguides/mapflow_auth>` para "
+"obtener más detalles."
+
+#: ../api/data_api.rst:39 4af923502d15482d9218074a7bd6c9ac
+msgid "Quick Start"
+msgstr "Inicio rápido"
+
+#: ../api/data_api.rst:41 f7fcc8ac909d460e9b719b7d671454d6
+msgid "**Upload and process your imagery in 3 steps:**"
+msgstr "**Sube y procesa tus imágenes en 3 pasos:**"
+
+#: ../api/data_api.rst:43 1636c3f3e646427ab10fd88690df4d0c
+msgid "**Create a mosaic**"
+msgstr "**Crea un mosaico**"
+
+#: ../api/data_api.rst:52 0dc9f610f21c499c8c62c47ac81a664f
+msgid "Response: ``{\"id\": \"mosaic-uuid\", ...}``"
+msgstr "Respuesta: ``{\"id\": \"mosaico-uuid\", ...}``"
+
+#: ../api/data_api.rst:54 36fb4a85379c4bf6a0a0ac5857580ea0
+msgid "**Upload images to mosaic**"
+msgstr "**Subir imágenes al mosaico**"
+
+#: ../api/data_api.rst:63 3cf75626b528499c94d059cbed1522c5
+msgid "Response: ``{\"id\": \"image-uuid\", ...}``"
+msgstr "Respuesta: ``{\"id\": \"image-uuid\", ...}``"
+
+#: ../api/data_api.rst:65 e397ada852044752950a7dd7e760a11a
+msgid "**Run processing with uploaded imagery**"
+msgstr "**Ejecutar procesamiento con imágenes cargadas**"
+
+#: ../api/data_api.rst:84 7451e6bd5169444bac972983dbea3a32
+msgid ""
+"**Next steps:** Explore :ref:`satellite imagery search <imagery-search>`, "
+"manage :ref:`storage limits <storage-management>`, or review the "
+":ref:`complete API reference <api-reference>`."
+msgstr ""
+"**Próximos pasos:** Explore :ref:`búsqueda de imágenes satelitales <búsqueda"
+" de imágenes>`, administre :ref:`límites de almacenamiento <storage-"
+"management>` o revise la :ref:`referencia API completa <api-reference>`."
+
+#: ../api/data_api.rst:87 e4070aae4c9b46219b58032e93236043
+msgid ""
+"For complete API reference documentation including all endpoints, "
+"parameters, and examples, see :ref:`api-reference`."
+msgstr ""
+"Para obtener documentación de referencia de API completa, incluidos todos "
+"los puntos finales, parámetros y ejemplos, consulte :ref:`api-reference`."

@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/mapflow_agent.rst:4
+#: d099444837d24569855dba259d257bde
+msgid "Mapflow AI Agent"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:6
+#: b23286cff7a540f39eb65420b2c767e4
+msgid "The **Mapflow AI Agent** is an intelligent assistant built into the Mapflow web app. It guides you through the full AI-mapping workflow — from defining an area of interest to running a processing — using natural-language conversation. The agent collects parameters, recommends models and imagery sources, estimates cost, and launches the processing on your behalf, while always asking for your confirmation before spending credits."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:11
+#: 15f090c40afb4facb3b1fbf42a19f46b
+msgid "Table of Contents"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:14
+#: 0af538ca75ab4659b61890fbe8c677ed
+msgid "Workflow"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:16
+#: f027753cafc94973a5e74ef1f6ae5c73
+msgid "The agent is launched from the project creation dialog on the main dashboard."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:18
+#: 3d09a0d860d04bc2b34be340bc42dde1
+msgid "**Step 1. Dashboard**"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:20
+#: ba697a76e6f1456aae2683bb51b27613
+msgid "Open the Mapflow `dashboard <https://app.mapflow.ai>`_. The dashboard lists all of your projects and is the starting point for any new mapping task."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:22
+#: 7dfec1f2ca0b4b9bb1ae17ca5de66fcd
+msgid "**Step 2. Create project**"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:24
+#: 89b86bfcda884972b880cc99f515c161
+msgid "Click **Create project** to open the *New project* dialog. Set a name, optionally customize the icon and color, and add a description that explains what you want to map."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:26
+#: 56a7b77a74c747e5acf74757587e0049
+msgid "**Step 3. Create project with AI Agent**"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:28
+#: 7a16185cc9a242138601f1efab9b00b1
+msgid "Instead of configuring the project manually, click **Create project with AI Agent**. The agent reads the project description as your initial request and starts a conversation to gather everything needed to run a processing."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:None
+#: 7d9d2bea33d24e4d96050133838438d9
+msgid "Create project with AI Agent"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:38
+#: 60e3eacffda54295b048b97712d756ae
+msgid "From this point the agent drives the workflow: it clarifies your intent, proposes a model, helps you define an AOI, finds suitable imagery, estimates cost, and runs the processing once you confirm."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:41
+#: d36cb3fb42d94980bbda4854181bde92
+msgid "The agent never executes paid actions (ordering imagery, starting a processing) without an explicit confirmation from you. See :ref:`imagery-agent-instructions` for the detailed decision logic the agent uses when searching for imagery."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:45
+#: 2bf192c61d534eb4add15b62bb6283b0
+msgid "Agent toolset"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:47
+#: a6a85371df1d4b77b83f8a52a213f851
+msgid "The agent has access to a fixed set of tools that correspond to specific Mapflow API capabilities. Each tool is invoked transparently during the conversation; you do not need to call them directly."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:53
+#: 6f3797b2dc984a669a6d0d3e2230cd38
+msgid "Tool"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:54
+#: 82550aacdbd84577a400a0fbad5f29e4
+msgid "Purpose"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:55
+#: 6b4a801da1664f478e1a473d9fd91dcf
+msgid "``query_mapflow_docs``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:56
+#: b63a5f9367b54b84b1dc554782b2df2d
+msgid "Answers questions about Mapflow features, models, pricing, and limitations using the official Mapflow documentation as a source."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:57
+#: 2d7add4395db455ca8f7ffb6dbd0eb3b
+msgid "``get_limits``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:58
+#: 4dfb8b6542fe4627a825668eead32f75
+msgid "Checks the limits of your current Mapflow plan (max AOI size, available providers, credit balance) so the agent can stay within them."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:59
+#: f3045adc3aed4e6591ac293fc6475113
+msgid "``list_models``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:60
+#: 564c4b385c5e4d6c818173e2e3d364bb
+msgid "Lists the AI models available to your account and recommends the one that fits your task."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:61
+#: 365e642049b5486aa1c279ca5958f266
+msgid "``save_selected_model``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:62
+#: 48a5f2a740c348bd80597e0b378e4d5f
+msgid "Records the model the user has chosen so it is used in subsequent steps (cost estimation, processing launch)."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:63
+#: 2bec08df63494e07a05e0d6672f2c644
+msgid "``get_geoboundary``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:64
+#: 5e46dbeba162423e9edb19f61e3eb939
+msgid "Resolves a toponym (place name) into a geographic boundary. Useful when the user references an area by name rather than coordinates."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:65
+#: c2f3b265bcac47dc95816974c3d2e27f
+msgid "``save_aoi``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:66
+#: 43c48182687047f39dec24366ecd2f4f
+msgid "Adds an Area of Interest to the project from a GeoJSON geometry."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:67
+#: bcb42365bacf402d8d5da3231a628616
+msgid "``buffer_aoi``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:68
+#: 6d231fb5223540c0a4a200f5a07380dc
+msgid "Creates a buffer zone of a given radius around an AOI or a point location."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:69
+#: c1c53c9e11124431aa8500e5e7254659
+msgid "``list_imagery_sources``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:70
+#: bfb8209768684796a3ee42db36553fbb
+msgid "Lists the imagery sources (basemaps and commercial providers) available to the user and recommends a default."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:71
+#: 91f44a9600e54b9fafac7a949649b0f2
+msgid "``search_imagery_catalog``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:72
+#: 4e1bfea5026d4fd8b20f21bacdf2c1aa
+msgid "Searches both basemaps and commercial catalogs for images matching the AOI, date range, cloud cover, and resolution criteria."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:73
+#: e3c91d68d18f46a99663edb4f62ace54
+msgid "``save_selected_image``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:74
+#: f20fe57d9c81428a8f5af3314c256f3b
+msgid "Attaches the chosen imagery source to the processing configuration."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:75
+#: fd2ad461a69c4966ad7fdd065d0aef24
+msgid "``calculate_cost``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:76
+#: 7785bff5fed34f82876ace66680e09b6
+msgid "Estimates the processing cost in credits based on the selected model, AOI, and data source."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:77
+#: b2226ff626644604bf61cb775661df2e
+msgid "``start_processing``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:78
+#: 21f43fcdf09541de877d73487bfc6193
+msgid "Launches the processing run after the user confirms the parameters and cost."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:79
+#: f458d8cce48f4481b6c86928317a22de
+msgid "``get_processing``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:80
+#: 0124977f5e1d4905951389c99dceedd7
+msgid "Polls and reports the status of a running processing so the user is kept up to date."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:84
+#: 6101b71940484f76b12eb4ad27bb850d
+msgid "Example interaction"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:86
+#: 628a7dd132cf470489cb855fc8fc738f
+msgid "A typical conversation with the agent follows the pattern below. The agent's tool calls are noted in italics for illustration only — they are not visible in the chat UI."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:115
+#: 1716c9c5cf034203a5c4351d32e03769
+msgid "Buffering an AOI"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:117
+#: 136a459b86dc4131a90891b1d5459256
+msgid "When the user gives the agent a point location or a small geometry, the agent can expand it into a usable AOI with ``buffer_aoi``. The animation below shows the agent creating a buffer around a location:"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:None
+#: 1a15129cf12c4a93a753572c3feaaf15
+msgid "Agent creating a buffer around an AOI"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:129
+#: 1b8ce3c55dbf409bbcfbf5df91c29999
+msgid "Related guides"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:131
+#: d155d87bad2a4eddaed9bb3c0d431564
+msgid ":ref:`imagery-agent-instructions` — the detailed decision logic the agent applies when searching for and recommending imagery."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:132
+#: 199f8769adf74cfbbab4c26846e5f19c
+msgid ":doc:`get_started` — manual project and processing creation."
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:133
+#: 59597e16acbe43dba7cbcf25f4184a76
+msgid ":doc:`pipelines` — overview of available AI models and workflows."
+msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/howto.rst:4 68e0ff8f61c34c4fb8dc373ddb96381d
-msgid "Userguides - How To 🙋‍♂️"
+msgid "Userguides - How To 👨🏻‍🎓"
 msgstr ""
 
 #: ../userguides/howto.rst:9 665e1c72a78d4109a0b0247ea2de16fc
@@ -288,7 +288,7 @@ msgstr ""
 #: ../userguides/howto.rst:85 69320f79d7a74d07931a712c33de933f
 msgid ""
 "Image upload requirements: The file size must be less than 1 Gb. Both "
-"sides image dimmesions must not exceed 30.000x30.000"
+"sides image dimmesions must not exceed 65535x65535"
 msgstr ""
 
 #: ../userguides/howto.rst:88 14f7049f71b6461f9e844692d96c6571
@@ -312,7 +312,7 @@ msgstr ""
 
 #: ../userguides/howto.rst:100 5d748c0ae2f74279a2e8956e27671e53
 msgid ""
-"You can upload your own GeoTIFF (up to 1 GB, max. 30000x30000 px. by "
+"You can upload your own GeoTIFF (up to 1 GB, max. 65535x65535 px. by "
 "default). All raster layers loaded in your QGIS (1) are visible in the "
 "drop-down list (2) and can be selected for upload."
 msgstr ""
@@ -792,5 +792,24 @@ msgstr ""
 #~ "hosted by ESRI. The frequency of "
 #~ "updating images is 1-5 years depending"
 #~ " on the territory."
+#~ msgstr ""
+
+#~ msgid "Userguides - How To 🙋‍♂️"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Image upload requirements: The file size"
+#~ " must be less than 1 Gb. Both"
+#~ " sides image dimmesions must not "
+#~ "exceed 30.000x30.000"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can upload your own GeoTIFF "
+#~ "(up to 1 GB, max. 30000x30000 px."
+#~ " by default). All raster layers "
+#~ "loaded in your QGIS (1) are "
+#~ "visible in the drop-down list (2)"
+#~ " and can be selected for upload."
 #~ msgstr ""
 

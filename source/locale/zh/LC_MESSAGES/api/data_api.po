@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../api/data_api.rst:4 2c12540174a446c7b2ec5875f6b621e9
+msgid "Mapflow Data API"
+msgstr "地图流数据 API"
+
+#: ../api/data_api.rst:6 d854c3103b9e475cb08f4fafc082660b
+msgid ""
+"The Mapflow Data API enables you to manage custom imagery, organize it into "
+"mosaics, and search satellite imagery from external providers. Use your "
+"imagery for AI-powered analysis with the :doc:`Processing API "
+"<processing_api>`."
+msgstr ""
+"Mapflow Data API 使您能够管理自定义图像、将其组织成马赛克以及从外部提供商搜索卫星图像。通过处理 API "
+"<processing_api>` 使用您的图像进行 AI 支持的分析。"
+
+#: ../api/data_api.rst 5f46bfa9d0d6423ebd3a857e84d2321d
+msgid "Postman Collection"
+msgstr "邮递员收藏"
+
+#: ../api/data_api.rst:14 37f84fe24c3e4bf4a0c1c1c61f07aa91
+msgid ""
+"Try our `Postman Collection "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_ for "
+"interactive API testing."
+msgstr ""
+"尝试我们的“Postman Collection "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>”_进行交互式 API 测试。"
+
+#: ../api/data_api.rst:18 d4d6062252e941d0b21b44a7262b0e8c
+msgid "Base URL"
+msgstr "基本网址"
+
+#: ../api/data_api.rst:26 6ff6cf0043194d9a812cb5abf124ffb4
+msgid "Authentication"
+msgstr "验证"
+
+#: ../api/data_api.rst:28 b0df33094eb440e6899352025c0fff09
+msgid ""
+"All API requests require an API token. Generate yours in `profile settings "
+"<https://app.mapflow.ai/account>`_."
+msgstr ""
+"所有 API 请求都需要 API 令牌。在“配置文件设置 <https://app.mapflow.ai/account>”中生成您的配置文件设置。"
+
+#: ../api/data_api.rst:35 19cd0b6292684b95ac7aaf6e5d20cd45
+msgid ""
+"See :doc:`authorization guide <../userguides/mapflow_auth>` for details."
+msgstr "有关详细信息，请参阅:doc:`授权指南 <../userguides/mapflow_auth>`。"
+
+#: ../api/data_api.rst:39 4af923502d15482d9218074a7bd6c9ac
+msgid "Quick Start"
+msgstr "快速入门"
+
+#: ../api/data_api.rst:41 f7fcc8ac909d460e9b719b7d671454d6
+msgid "**Upload and process your imagery in 3 steps:**"
+msgstr "**只需 3 个步骤即可上传和处理您的图像：**"
+
+#: ../api/data_api.rst:43 1636c3f3e646427ab10fd88690df4d0c
+msgid "**Create a mosaic**"
+msgstr "**创建马赛克**"
+
+#: ../api/data_api.rst:52 0dc9f610f21c499c8c62c47ac81a664f
+msgid "Response: ``{\"id\": \"mosaic-uuid\", ...}``"
+msgstr "响应：``{“id”：“mosaic-uuid”，...}``"
+
+#: ../api/data_api.rst:54 36fb4a85379c4bf6a0a0ac5857580ea0
+msgid "**Upload images to mosaic**"
+msgstr "**上传图片到马赛克**"
+
+#: ../api/data_api.rst:63 3cf75626b528499c94d059cbed1522c5
+msgid "Response: ``{\"id\": \"image-uuid\", ...}``"
+msgstr "响应：``{“id”：“image-uuid”，...}``"
+
+#: ../api/data_api.rst:65 e397ada852044752950a7dd7e760a11a
+msgid "**Run processing with uploaded imagery**"
+msgstr "**使用上传的图像运行处理**"
+
+#: ../api/data_api.rst:84 7451e6bd5169444bac972983dbea3a32
+msgid ""
+"**Next steps:** Explore :ref:`satellite imagery search <imagery-search>`, "
+"manage :ref:`storage limits <storage-management>`, or review the "
+":ref:`complete API reference <api-reference>`."
+msgstr ""
+"**后续步骤：** 探索:ref:`卫星图像搜索 <imagery-search>`、管理:ref:`存储限制 <storage-"
+"management>`，或查看:ref:`完整的 API 参考 <api-reference>`。"
+
+#: ../api/data_api.rst:87 e4070aae4c9b46219b58032e93236043
+msgid ""
+"For complete API reference documentation including all endpoints, "
+"parameters, and examples, see :ref:`api-reference`."
+msgstr "有关完整的 API 参考文档（包括所有端点、参数和示例），请参阅 api-reference。"

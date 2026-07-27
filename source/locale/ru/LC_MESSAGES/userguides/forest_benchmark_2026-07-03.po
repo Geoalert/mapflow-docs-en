@@ -1,0 +1,548 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:9
+#: 0b9006dc10d541d9a6c47d6116d19e9d
+msgid "🌲 Forest and trees v.2026-07-03 — per-location benchmark"
+msgstr "🌲 Лес и деревья v.03.07.2026 — бенчмарк для каждой локации"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:11
+#: 1c8883f0dc4a4138a544c3e4b6a97a0f
+msgid ""
+"This page details the validation of the **🌲 Forest and trees v.2026-07-03** "
+"segmentation model on 8 areas of interest (AOI), compared against the "
+"**previous version v.2025-06-14**. For each AOI the two prediction masks are"
+" shown side by side; click any image to open it full size, and use the ← / →"
+" arrow keys to browse between them."
+msgstr ""
+"На этой странице подробно описана проверка модели сегментации **🌲 Лес и "
+"деревья, версия 2026-07-03**, по 8 областям интереса (AOI) в сравнении с "
+"**предыдущей версией, версия 2025-06-14**. Для каждого AOI две маски "
+"прогнозирования показаны рядом; щелкните любое изображение, чтобы открыть "
+"его в полном размере, и используйте клавиши со стрелками ← / → для "
+"перемещения между ними."
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:16
+#: 0beaf78e1ce1495396cb27bc363d2ce7
+msgid ""
+"All metrics are area-based: **IoU** is the intersection-over-union of the "
+"predicted and ground-truth vegetation masks, and **F1 / Precision / Recall**"
+" are computed on the overlapping mask area. Evaluation run: 2026-07-03."
+msgstr ""
+"Все метрики основаны на площади: **IoU** — это пересечение-объединение "
+"прогнозируемых и фактических масок растительности, а **F1/Precision/Reall** "
+"вычисляются на перекрывающейся области маски. Оценочный запуск: 3 июля 2026 "
+"г."
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:59
+#: beebc140172742a6929e082226be7d1d
+msgid ""
+"**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
+"style=\"background:#ff5028\"></span>` **v.2026-07-03**  ·  :raw-html:`<span "
+"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-06-14**"
+msgstr ""
+"**Легенда цвета маски:** :raw-html:`<span class=\"mchip\" "
+"style=\"background:#ff5028\"></span>` **v.2026-07-03** · :raw-html:`<span "
+"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-06-14**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:63
+#: 09952c9fb3454b47bd2f2912a4e73414
+msgid "Philippines — Balanga"
+msgstr "Филиппины — Баланга"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:69
+#: ../userguides/forest_benchmark_2026-07-03.rst:100
+#: ../userguides/forest_benchmark_2026-07-03.rst:131
+#: ../userguides/forest_benchmark_2026-07-03.rst:162
+#: ../userguides/forest_benchmark_2026-07-03.rst:193
+#: ../userguides/forest_benchmark_2026-07-03.rst:224
+#: ../userguides/forest_benchmark_2026-07-03.rst:255
+#: ../userguides/forest_benchmark_2026-07-03.rst:286
+#: 153529a9b7b24ee6b96fb9c13f831a28 34f0ca77cc2743b796bc517569b20777
+#: 40e2f16911cc4965bcde153b3bc5c057 94202a8d9dc04a00aab08ce1159203f2
+#: bc9d451c97a1494e98cfd568a2bc80b0 c5e2f187446f44cb9257fc56848ead44
+#: cdfe9b2a1a694bd28e0822472b613297 f22a4d0b72204c60a55f5b1a2f6ef19c
+msgid "Model"
+msgstr "Модель"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:70
+#: ../userguides/forest_benchmark_2026-07-03.rst:101
+#: ../userguides/forest_benchmark_2026-07-03.rst:132
+#: ../userguides/forest_benchmark_2026-07-03.rst:163
+#: ../userguides/forest_benchmark_2026-07-03.rst:194
+#: ../userguides/forest_benchmark_2026-07-03.rst:225
+#: ../userguides/forest_benchmark_2026-07-03.rst:256
+#: ../userguides/forest_benchmark_2026-07-03.rst:287
+#: 198d1f6054154494b046345237517c30 21cef13ec1e44d63945e4d4606cb628e
+#: 2f340d699b424846aa077ae01386f369 5155ab13d8b74e339a1a8121f6f91192
+#: 57484fdb83a6472499a391a197324074 98e4f887e9ce43d09efee13e3d5e3502
+#: 9b07652d525b4dbdb22a5ca6f5acf1f3 9f5ca7cbcd0348bb8c2bff72d7c91eb2
+msgid "IoU"
+msgstr "долг"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:71
+#: ../userguides/forest_benchmark_2026-07-03.rst:102
+#: ../userguides/forest_benchmark_2026-07-03.rst:133
+#: ../userguides/forest_benchmark_2026-07-03.rst:164
+#: ../userguides/forest_benchmark_2026-07-03.rst:195
+#: ../userguides/forest_benchmark_2026-07-03.rst:226
+#: ../userguides/forest_benchmark_2026-07-03.rst:257
+#: ../userguides/forest_benchmark_2026-07-03.rst:288
+#: 03a0ae487b22453db2db60c34f01a83e 2c233298ce9f42b488c4be62cc340bc0
+#: 58f7d84b0cb74415b52fa9ac60d042c2 5ba7d3e70f3042eeb38c51379693b24b
+#: 703b51036ef34d0fb22660c0eb3f27d7 98802956dd6540d7a906d1a9ed2de11d
+#: d3b0591efee842c8b015756d59889c86 ead05e3789d84234a40c2506e502041f
+msgid "F1"
+msgstr "Ф1"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:72
+#: ../userguides/forest_benchmark_2026-07-03.rst:103
+#: ../userguides/forest_benchmark_2026-07-03.rst:134
+#: ../userguides/forest_benchmark_2026-07-03.rst:165
+#: ../userguides/forest_benchmark_2026-07-03.rst:196
+#: ../userguides/forest_benchmark_2026-07-03.rst:227
+#: ../userguides/forest_benchmark_2026-07-03.rst:258
+#: ../userguides/forest_benchmark_2026-07-03.rst:289
+#: 05929333b1b44beeb5cbd2215f4e08da 1467cd0393ed47089b1867e127716e72
+#: 14eaf6391a794b3199f99f67a4a82904 4399fada263348b7872b491989e58099
+#: 4506414753914f389e0de5ffe2eecc18 73610d2c1bbc415c8efdaf8bfcb7cd02
+#: c16a0a282df04b45b076b56115b4d8d4 facc1037ac8941ed8dd1a5d0605ca501
+msgid "Precision"
+msgstr "Точность"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:73
+#: ../userguides/forest_benchmark_2026-07-03.rst:104
+#: ../userguides/forest_benchmark_2026-07-03.rst:135
+#: ../userguides/forest_benchmark_2026-07-03.rst:166
+#: ../userguides/forest_benchmark_2026-07-03.rst:197
+#: ../userguides/forest_benchmark_2026-07-03.rst:228
+#: ../userguides/forest_benchmark_2026-07-03.rst:259
+#: ../userguides/forest_benchmark_2026-07-03.rst:290
+#: 0b3447dcecaa4830b1858f0e2efdfdea 333930fbd2a44354888c3a5ba8b1a1c7
+#: 5fdca6db57c2429b936cfd148ea8a6ca 79829fa7c1a7458cba53da7e1ca7c222
+#: 8379b771c0c14648ae63ef7fb932e26b 8c9855fb151049308050ded57384acdf
+#: acd3710f33264628b1d7178dd34bf7ca ee787df72b6d4cd89653c5720c77e08e
+msgid "Recall"
+msgstr "Отзывать"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:74
+#: ../userguides/forest_benchmark_2026-07-03.rst:105
+#: ../userguides/forest_benchmark_2026-07-03.rst:136
+#: ../userguides/forest_benchmark_2026-07-03.rst:167
+#: ../userguides/forest_benchmark_2026-07-03.rst:198
+#: ../userguides/forest_benchmark_2026-07-03.rst:229
+#: ../userguides/forest_benchmark_2026-07-03.rst:260
+#: ../userguides/forest_benchmark_2026-07-03.rst:291
+#: 21c8196366054d84af1541a8e547a37d 4f5833d0f6914ca4bac1627ae04b2f3a
+#: 919ec8ac58534736b850c163fcee6d17 91dc8c09f8514e0b82a8e732d62f638c
+#: b80f10d5d02d4547804dc4195e637fd6 d90a29f620c24211a15cf17620843a78
+#: fe42070afbe441c6b19d65b62459ae3d fee7b950983e4937b2cedd3b64ea21c0
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-07-03**"
+msgstr ""
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:75
+#: 55a79562fcda48caaa2566f068821758
+msgid "**0.806**"
+msgstr "**0,806**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:76
+#: 02ed56cc9102447eb10c3a8511d2304e
+msgid "**0.892**"
+msgstr "**0,892**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:77
+#: 2f9537177cff4fcb9537f88fa674acc6
+msgid "0.864"
+msgstr "0,864"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:78
+#: 69b934402bee46f3bd4ae2c3c6a866f5
+msgid "**0.923**"
+msgstr "**0,923**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:79
+#: ../userguides/forest_benchmark_2026-07-03.rst:110
+#: ../userguides/forest_benchmark_2026-07-03.rst:141
+#: ../userguides/forest_benchmark_2026-07-03.rst:172
+#: ../userguides/forest_benchmark_2026-07-03.rst:203
+#: ../userguides/forest_benchmark_2026-07-03.rst:234
+#: ../userguides/forest_benchmark_2026-07-03.rst:265
+#: ../userguides/forest_benchmark_2026-07-03.rst:296
+#: 00664a3372c446939e575f35726524aa 1b40227aa1224668bb205c5469239114
+#: 315d2ae8ce2d4cb091f7af6ae1c48cea 37b11a13d9c04636a059730d44227986
+#: 59012aa72087465495bc42be7095788b b7304385207c4b7fa1faf9168ae97a9a
+#: b9363e23fe394c2585e103221454eacd e2c7d263245443a4a2db4afd5c7d1cb3
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2025-06-14"
+msgstr ""
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:80
+#: 777e25d8e45c401bbfaed48d83a5752b
+msgid "0.593"
+msgstr "0,593"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:81
+#: 01219c26d1614566aadbdee6ca72c8da
+msgid "0.745"
+msgstr "0,745"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:82
+#: 3b514b532b4b4d8a9b598e21cd577815
+msgid "**0.914**"
+msgstr "**0,914**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:83
+#: f61ecefa84e24c54be506c068f07bbaf
+msgid "0.628"
+msgstr "0,628"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:94
+#: 41ea36db96b34de8a8e29bf28319294a
+msgid "Spain — Velilla de San Antonio"
+msgstr "Испания — Велилья де Сан Антонио"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:106
+#: 2faf07bb2401444ab21d6c3a001b5c61
+msgid "**0.784**"
+msgstr "**0,784**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:107
+#: c86349aae0be43a5a966cc6f42ab9569
+msgid "**0.879**"
+msgstr "**0,879**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:108
+#: d2258ca5f80f48f9867e52d3dd78498c
+msgid "0.894"
+msgstr "0,894"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:109
+#: 27e1108fff9644749ad6370bd0572d95
+msgid "**0.864**"
+msgstr "**0,864**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:111
+#: ../userguides/forest_benchmark_2026-07-03.rst:114
+#: 019f9b34e5d5491cada862e518969754 318d266b6d474ef89652727cd0c00781
+msgid "0.008"
+msgstr "0,008"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:112
+#: cb0f61746a8742e9af2146976ab50a3f
+msgid "0.015"
+msgstr "0,015"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:113
+#: 979aff3319794926b0543f92d958e478
+msgid "**0.989**"
+msgstr "**0,989**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:125
+#: c380265ba03047a7b04d83f448370656
+msgid "Spain — Madrid"
+msgstr "Испания — Мадрид"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:137
+#: 76bfe67ff43c4841a6a3a897c700f961
+msgid "**0.813**"
+msgstr "**0,813**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:138
+#: 759a61aa6d9c4554919464212028f28d
+msgid "**0.897**"
+msgstr "**0,897**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:139
+#: 7f5bade07e8a4d80a928b77ae52f4ef8
+msgid "0.880"
+msgstr "0,880"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:140
+#: 81e37d45355b438c8ab6c11f63c391e5
+msgid "**0.915**"
+msgstr "**0,915**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:142
+#: cb2f3fa8029a49e1b7934aed7ddcfca4
+msgid "0.447"
+msgstr "0,447"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:143
+#: 9c1550384e5e4f43aa0d5030a6e3f17f
+msgid "0.618"
+msgstr "0,618"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:144
+#: a6abce836cd7497886a9f4e02e22c505
+msgid "**0.973**"
+msgstr "**0,973**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:145
+#: 720fa1cf07164dd0b20258cd920f0e45
+msgid "0.453"
+msgstr "0,453"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:156
+#: 29abf497477b4aeb8d147d072e254508
+msgid "Italy — Crotone"
+msgstr "Италия — Кротоне"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:168
+#: 5b7983a5793f44f4a715946afcc247ff
+msgid "**0.862**"
+msgstr "**0,862**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:169
+#: b6ed3ded1e7c44bba31833ecf4344b7c
+msgid "**0.926**"
+msgstr "**0,926**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:170
+#: cce29c566c434af182ab735beda07767
+msgid "0.944"
+msgstr "0,944"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:171
+#: 41b6d4dc9f264169abc8347b351970c8
+msgid "**0.909**"
+msgstr "**0,909**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:173
+#: f27f5992424d4e6381e7480d10752f37
+msgid "0.803"
+msgstr "0,803"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:174
+#: 1359b0612abc48d0b1c15fb04ce813c4
+msgid "0.890"
+msgstr "0,890"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:175
+#: 5989ab0fd5174c908466d753729b74d9
+msgid "**0.988**"
+msgstr "**0,988**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:176
+#: ad0f4c233e3541d7b3498301b79850eb
+msgid "0.811"
+msgstr "0,811"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:187
+#: 0bac3dbecf044d41b528d76f556afb4b
+msgid "Spain — Rus"
+msgstr "Испания — Русь"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:199
+#: 366779a86bdd483abe30eed964ff77a0
+msgid "**0.617**"
+msgstr "**0,617**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:200
+#: ../userguides/forest_benchmark_2026-07-03.rst:230
+#: 75f0687323bf4d85b2eab2da4516c5b1 dcef8c5e54b542b49fe5744775f43e52
+msgid "**0.763**"
+msgstr "**0,763**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:201
+#: cf39c8d9b1bf4d58ba4b4feb93a768bb
+msgid "0.699"
+msgstr "0,699"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:202
+#: 8f3cc6795a694d42b9a3834422c6354f
+msgid "**0.841**"
+msgstr "**0,841**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:204
+#: ../userguides/forest_benchmark_2026-07-03.rst:207
+#: 8d3e655939a84c78b0fdf64c00a0700c 9196a7fcbc0144ed842406955ca20e10
+msgid "0.057"
+msgstr "0,057"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:205
+#: c8e4f5a2e76549d288f113f16644b1f1
+msgid "0.108"
+msgstr "0,108"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:206
+#: 8b81f463c8584e08a557e74c92d9008c
+msgid "**0.964**"
+msgstr "**0,964**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:218
+#: dc9f595a7a7e425d9ed071091dfa4668
+msgid "Spain — Cuenca"
+msgstr "Испания — Куэнка"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:231
+#: 7244037aaa394cdebea8482c1dda0aac
+msgid "**0.865**"
+msgstr "**0,865**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:232
+#: 08441c1f4d884bb4b082935fae8a4946
+msgid "0.859"
+msgstr "0,859"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:233
+#: 85cc6e12186a4a5eb533eb2ec8064ab0
+msgid "**0.872**"
+msgstr "**0,872**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:235
+#: 8bbfcb06e36b4a118753a514e3a64842
+msgid "0.459"
+msgstr "0,459"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:236
+#: 7305014e211543fa928f0866ddb73ff2
+msgid "0.629"
+msgstr "0,629"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:237
+#: 7093d3f63ed143858ccd10216b18ce99
+msgid "**0.873**"
+msgstr "**0,873**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:238
+#: beaf5ec24d8247d98519d891653c03bd
+msgid "0.492"
+msgstr "0,492"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:249
+#: 006f571f0f4d4485a308332e029e0db0
+msgid "Argentina — La Banda"
+msgstr "Аргентина — Ла Банда"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:261
+#: 0981eaf8b67e468a8a6a3f10c3f16add
+msgid "**0.576**"
+msgstr "**0,576**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:262
+#: c4355e98b4754fd7be04128963e0e374
+msgid "**0.731**"
+msgstr "**0,731**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:263
+#: 199036cab67145a78af397faf8f35ff7
+msgid "0.653"
+msgstr "0,653"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:264
+#: 2ab39072e3c14ace9a88fcd91a471fc7
+msgid "**0.829**"
+msgstr "**0,829**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:266
+#: 2804e594d8b44bd483e636632a0367b8
+msgid "0.233"
+msgstr "0,233"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:267
+#: 04afb23582ae462da9ca0a46f82af676
+msgid "0.378"
+msgstr "0,378"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:268
+#: 2eaeac61f1364d859b7cd62150bcd41c
+msgid "**0.958**"
+msgstr "**0,958**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:269
+#: a6f6d20351014bc489024464c9a4c0d8
+msgid "0.235"
+msgstr "0,235"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:280
+#: bd98f09957c34720a469c68de31674a8
+msgid "Uzbekistan — Tashkent"
+msgstr "Узбекистан — Ташкент"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:292
+#: 5f4887ebc38548b2adf33695a5611ef9
+msgid "**0.730**"
+msgstr "**0,730**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:293
+#: b70b35454a4a4d9ea2f6034713491a2d
+msgid "**0.844**"
+msgstr "**0,844**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:294
+#: 628bd28bff20480dbf8b2026365c6c82
+msgid "0.905"
+msgstr "0,905"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:295
+#: fc669f24d7e74d6aa8ca168d59168a07
+msgid "**0.791**"
+msgstr "**0,791**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:297
+#: 864779f5d89c430e8678e7293a5a5790
+msgid "0.568"
+msgstr "0,568"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:298
+#: 3c1dd998421a4abca4d6399f0e448413
+msgid "0.724"
+msgstr "0,724"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:299
+#: 01ebe64f12a04c8ab3a071e4c2dd83bf
+msgid "**0.981**"
+msgstr "**0,981**"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:300
+#: 96c3d1a162bd44ee95c5f4312f10559a
+msgid "0.574"
+msgstr "0,574"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:311
+#: 048d4007047d4fcdb205ec6cf8f9d101
+msgid "Summary"
+msgstr "Краткое содержание"
+
+#: ../userguides/forest_benchmark_2026-07-03.rst:313
+#: 54a2a4be1ff64eb1b894d9898b1f1464
+msgid ""
+"**v.2026-07-03** improves substantially over the previous **v.2025-06-14** "
+"across all 8 AOIs. Mean area-based **F1 rises from 0.513 to 0.850** and "
+"**IoU from 0.396 to 0.744**, driven by a large recall gain (0.407 → "
+"**0.868**). The previous version was highly conservative — mean precision "
+"0.955, but it missed most vegetation and collapsed on several AOIs (e.g. "
+"Velilla de San Antonio F1 0.015, Rus F1 0.108, La Banda F1 0.378). "
+"v.2026-07-03 keeps precision high (0.837) while recovering the missed "
+"canopy, and leads on F1 in every location."
+msgstr ""
+"**v.2026-07-03** существенно улучшен по сравнению с предыдущей "
+"**v.2025-06-14** во всех 8 AOI. Среднее значение **F1 по площади "
+"увеличивается с 0,513 до 0,850**, а **IoU – с 0,396 до 0,744**, что "
+"обусловлено значительным увеличением отзыва (0,407 → **0,868**). Предыдущая "
+"версия была очень консервативной — средняя точность 0,955, но она пропускала"
+" большую часть растительности и не работала на нескольких AOI (например, "
+"Велилья-де-Сан-Антонио F1 0,015, Рус F1 0,108, Ла Банда F1 0,378). "
+"v.2026-07-03 сохраняет высокую точность (0,837) при восстановлении "
+"пропущенного навеса и лидирует в F1 в каждой локации."

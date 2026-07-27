@@ -85,6 +85,26 @@ img.logo {
 
 .rst-versions .rst-current-version {
   background-color: #edf2f7;
+  /* Lay the site link and the language switcher out side by side instead of
+     relying on floats, which collapsed the bar's height. */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  text-align: left;
+  cursor: default;
+}
+
+.mapflow-home-link {
+  color: #575f85;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mapflow-home-link::before {
+  color: #575f85;
 }
 
 .socials {
@@ -103,29 +123,35 @@ img.logo {
 }
 
 
-/* Language Selector at Bottom (in versions.html) */
+/* Language selector in the fixed bottom bar (see source/_templates/versions.html) */
 .language-selector-bottom {
-  padding: 5px 5px;
+  display: flex;
+  align-items: center;
   margin: 0;
-}
-
-.language-selector-bottom label {
-  font-weight: 600;
-  margin-right: 8px;
-  color: #002245;
-  display: block;
-  margin-bottom: 8px;
-  font-size: 13px;
+  padding: 0;
+  flex: 0 0 auto;
 }
 
 .language-selector-bottom select {
-  padding: 5px 5px;
+  padding: 4px 6px;
+  border: 1px solid #cbd5e0;
   border-radius: 3px;
+  background-color: #ffffff;
   color: #002245;
   cursor: pointer;
   font-size: 13px;
+  line-height: 1.4;
+  max-width: 140px;
 }
 
+.language-selector-bottom select:hover {
+  border-color: #575f85;
+}
+
+.language-selector-bottom select:focus {
+  outline: 2px solid #575f85;
+  outline-offset: 1px;
+}
 
 .language-selector-bottom select option {
   color: #002245;

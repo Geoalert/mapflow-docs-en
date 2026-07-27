@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/agriculture_fields_model.rst:2
+#: e9be83259ab24179b174949aa8768a5b
+msgid "|:tractor:| Agriculture fields (CUSTOM)"
+msgstr "|:拖拉机:|农业领域（定制）"
+
+#: ../userguides/agriculture_fields_model.rst:5
+#: 9a4debb51e504ee387e688c0b928b403
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available by request."
+msgstr "此模型已被弃用作为默认模型并移至自定义模型。可根据要求提供。"
+
+#: ../userguides/agriculture_fields_model.rst:7
+#: 05ffb415721c48e6a2b34be5f43d93ee
+msgid ""
+"Model for fields segmentation allows to detect the agricultural fields and "
+"delineate the nearby fields from each other, if there is a visual boundary "
+"(forest line, road, different crop stage). The model is trained on the high "
+"resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
+"with larger fields with active vegetation. Smaller and terrace fields "
+"(typical for Asia) are delineated not so good. Fields without vegetation, "
+"especially in winter period, are not target class."
+msgstr ""
+"如果存在视觉边界（林线、道路、不同作物阶段），田地分割模型可以检测农田并相互划分附近的田地。该模型基于高分辨率数据（1-1.2 "
+"m）进行训练，主要针对欧洲、俄罗斯。它在植被活跃的较大田地中表现更好。较小的梯田（亚洲典型）的轮廓不太好。没有植被的田地，特别是在冬季，不属于目标类别。"
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: ../userguides/agriculture_fields_model.rst:24
+#: 9f7fae5c119f4822b13e76ecc050f42e fc924937d07c40dc8ae00a47082c06f2
+msgid "Processing result of agriculture fields model"
+msgstr "农田模型处理结果"
+
+#: ../userguides/agriculture_fields_model.rst:16
+#: d75ad0a513a347d8bcd4d644ada84b90
+msgid "Processing result sample for Europe (Belgium)"
+msgstr "欧洲（比利时）的处理结果样本"
+
+#: ../userguides/agriculture_fields_model.rst:24
+#: bf95b73b90ae42a0bf7c86e6f6f71f69
+msgid "Processing result sample for Asia (Northern India)"
+msgstr "亚洲（印度北部）的处理结果样本"

@@ -1,0 +1,598 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/reference.rst:2 b35f7074558b4dc3af95bfb942daa297
+msgid "Reference on using the platform"
+msgstr "Referencia sobre el uso de la plataforma"
+
+#: ../userguides/reference.rst:6 ccdd03077ce34056b7ca9ef09fcd4b7f
+msgid ""
+"This document outlines the requirements for using the Mapflow platform, "
+"including supported data formats, preprocessing steps, and model-specific "
+"guidelines."
+msgstr ""
+"Este documento describe los requisitos para utilizar la plataforma Mapflow, "
+"incluidos los formatos de datos admitidos, los pasos de preprocesamiento y "
+"las pautas específicas del modelo."
+
+#: ../userguides/reference.rst:9 fbfe44ba07ee4fbc9c7643fa4ec3eb71
+msgid "Requirements for using the platform"
+msgstr "Requisitos para utilizar la plataforma"
+
+#: ../userguides/reference.rst:14 15482e1cfc87429697145080f591483b
+msgid "Upload GeoTIFF requirements"
+msgstr "Cargar requisitos GeoTIFF"
+
+#: ../userguides/reference.rst:16 f50fd3e2f6c34a108af53f695d6b8b61
+msgid "Please pay attention to the following:"
+msgstr "Por favor preste atención a lo siguiente:"
+
+#: ../userguides/reference.rst:18 97b5bb8a20ba4da6b270e6ee07c50cbd
+msgid ""
+"Images you upload are preprocessed in `Uint8` format. If your image is not "
+"of this type and you want to preview it manually before uploading to the "
+"Mapflow server, please use our `image preprocessing script "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to"
+" translate it to the appropriate format;"
+msgstr ""
+"Las imágenes que subes se preprocesan en formato \"Uint8\". Si su imagen no "
+"es de este tipo y desea obtener una vista previa de ella manualmente antes "
+"de cargarla en el servidor de Mapflow, utilice nuestro `script de "
+"preprocesamiento de imágenes "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ u otras "
+"herramientas para traducirla al formato apropiado;"
+
+#: ../userguides/reference.rst:19 0af9b610d2064603981271c54406a890
+msgid ""
+"Your image must be georeferenced in geographic or projected coordinate "
+"system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;"
+msgstr ""
+"Su imagen debe estar georreferenciada en sistema de coordenadas geográficas "
+"o proyectadas, elipsoide WGS84, se recomienda utilizar UTM o Web Mercator;"
+
+#: ../userguides/reference.rst:20 84cad41cad0f41ef81a4cd917a26cee4
+msgid ""
+"The default limit for file size is ``1 Gb`` for free users. If you have a "
+"bigger file – reduce its size or consider switching to the paid plan;"
+msgstr ""
+"El límite predeterminado para el tamaño de archivo es ``1 Gb`` para usuarios"
+" gratuitos. Si tiene un archivo más grande, reduzca su tamaño o considere "
+"cambiar al plan pago;"
+
+#: ../userguides/reference.rst:21 6d269757a47e41e6ad25c53bfb04d929
+msgid "Your image should be RGB composite, RGBa or Singleband;"
+msgstr "Su imagen debe ser compuesta RGB, RGBa o de banda única;"
+
+#: ../userguides/reference.rst:22 73cbf3a8a5824f14ad7e78e99feb52dc
+msgid "Maximum image dimensions: ``65535 px`` per side;"
+msgstr "Dimensiones máximas de la imagen: ``65535 px`` por lado;"
+
+#: ../userguides/reference.rst:23 bd7270211f38474fbacfe2c892684cf4
+msgid "Pixel size must not exceed ``20 m/px``;"
+msgstr "El tamaño del píxel no debe exceder los ``20 m/px``;"
+
+#: ../userguides/reference.rst:24 a3d81ba2ca6d4550a5fb054548b4ca68
+msgid ""
+"Images with a pixel size less than ``10 cm/px`` will be resampled to this "
+"resolution;"
+msgstr ""
+"Las imágenes con un tamaño de píxel inferior a ``10 cm/px`` se volverán a "
+"muestrear a esta resolución;"
+
+#: ../userguides/reference.rst:25 9d707483b96a4e7881f30018945f9227
+msgid "All images within a collection must have the same number of bands;"
+msgstr ""
+"Todas las imágenes dentro de una colección deben tener el mismo número de "
+"bandas;"
+
+#: ../userguides/reference.rst:26 981c64813a5940feafb6235e81edad51
+msgid ""
+"Uploaded image will be reprojected and resampled to match the CRS and GSD "
+"(pixel size) of other images in collection;"
+msgstr ""
+"La imagen cargada será reproyectada y remuestreada para que coincida con el "
+"CRS y GSD (tamaño de píxel) de otras imágenes de la colección;"
+
+#: ../userguides/reference.rst:27 ba35cec87876458fa14b80d979ca9cce
+msgid ""
+"Each Mapflow model has its recommendations for the spatial resolution of the"
+" input data, see :ref:`Model_requirements` below."
+msgstr ""
+"Cada modelo de Mapflow tiene sus recomendaciones para la resolución espacial"
+" de los datos de entrada, consulte :ref:`Model_requirements` a continuación."
+
+#: ../userguides/reference.rst:29 59980564e9034f84871d833133bbf48f
+msgid ""
+"In case of non-compliance with any requirements, the system reports an "
+"error. If you are using Mapflow Web or Mapflow QGIS plugin, the error "
+"messages are shown in the user interface. For more details, see :doc:`errors"
+" description <../api/error_messages>`."
+msgstr ""
+"En caso de incumplimiento de algún requisito, el sistema reporta un error. "
+"Si está utilizando Mapflow Web o el complemento Mapflow QGIS, los mensajes "
+"de error se muestran en la interfaz de usuario. Para obtener más detalles, "
+"consulte :doc:`descripción de errores <../api/error_messages>`."
+
+#: ../userguides/reference.rst:36 6a0f362d3bf3470ab0310ea28af5474a
+msgid "Model requirements"
+msgstr "Requisitos del modelo"
+
+#: ../userguides/reference.rst:38 7e6f6a5563084a7b8d00ca40858b8271
+msgid ""
+"The table below lists model requirements for spatial resolution of the input"
+" imagery."
+msgstr ""
+"La siguiente tabla enumera los requisitos del modelo para la resolución "
+"espacial de las imágenes de entrada."
+
+#: ../userguides/reference.rst:40 c0990125eb74427ca759ecd7ba9f8c75
+msgid ""
+"**\"Required\"** means that the imagery with resolution outside of this "
+"range will be rejected from processing and the request will fail."
+msgstr ""
+"**\"Obligatorio\"** significa que las imágenes con una resolución fuera de "
+"este rango serán rechazadas del procesamiento y la solicitud fallará."
+
+#: ../userguides/reference.rst:43 9bbb67d8ebb94e798a0ec32c3bd73629
+msgid ""
+"**\"Recommended\"** means that the model is fit specifically for this "
+"spatial resolution. Any images of higher resolution will be downsampled "
+"before processing, so it gives no profit to upload higher resolution. Images"
+" of lower resolution (if meeting the \"required\" section) will be "
+"upsampled, but the results will not be so good as for recommended "
+"resolution."
+msgstr ""
+"**\"Recomendado\"** significa que el modelo se adapta específicamente a esta"
+" resolución espacial. Cualquier imagen de mayor resolución se reducirá antes"
+" de procesarla, por lo que no genera ningún beneficio cargar una resolución "
+"más alta. Las imágenes de menor resolución (si cumplen con la sección "
+"\"requerida\") se muestrearán mejor, pero los resultados no serán tan buenos"
+" como los de la resolución recomendada."
+
+#: ../userguides/reference.rst:48 15160e9aae8643efb2b48770354b91a0
+msgid ""
+"GSD is specified in `UTM coordinate system "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_, and may not "
+"correspond to what you see as \"pixel size\" if your image's coordinate "
+"system differs."
+msgstr ""
+"GSD se especifica en el `sistema de coordenadas UTM "
+"<https://proj4.org/en/9.2/operaciones/projections/utm.html>`_ y puede no "
+"corresponder a lo que ve como \"tamaño de píxel\" si el sistema de "
+"coordenadas de su imagen es diferente."
+
+#: ../userguides/reference.rst:51 428a50fb844b49078588537fe6482d68
+msgid ""
+"`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about zoom "
+"and spatial resolution of imagery basemaps."
+msgstr ""
+"`Obtenga más información <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
+" sobre el zoom y la resolución espacial de mapas base de imágenes."
+
+#: ../userguides/reference.rst:57 dc36ea07d5da47d5ae9fd463a5eab123
+msgid "Model"
+msgstr "Modelo"
+
+#: ../forest/_static/csv/classes_forest.csv:1 ../userguides/reference.rst:58
+#: 017e0214c468436f8e6936a4f3017578
+msgid "Description"
+msgstr "Descripción"
+
+#: ../userguides/reference.rst:59 4871b0079f4e465faa9bdb4930b51d21
+msgid "Recommended zoom"
+msgstr "Zoom recomendado"
+
+#: ../userguides/reference.rst:60 3c5363c5d9134724843c96b08ffefee0
+msgid "Recommended GSD m/px"
+msgstr "GSD recomendado m/px"
+
+#: ../userguides/reference.rst:61 7a75f560034b41e5986cf6fa3e763ef4
+msgid "Required zoom range"
+msgstr "Rango de zoom requerido"
+
+#: ../userguides/reference.rst:62 24870554e6624ffd8fcef5174363cd39
+msgid "Required GSD range, m/px"
+msgstr "Rango GSD requerido, m/px"
+
+#: ../userguides/reference.rst:63 d0761e5e99e4445bb393ec4f6001cb95
+msgid "Buildings"
+msgstr "Edificios"
+
+#: ../userguides/reference.rst:64 6da3a33c13194489870434b398e352b0
+msgid ""
+"Extract roof contours, with optional classification, simplification and "
+"height estimation"
+msgstr ""
+"Extraiga los contornos del techo, con clasificación, simplificación y "
+"estimación de altura opcionales."
+
+#: ../userguides/reference.rst:65 ../userguides/reference.rst:71
+#: ../userguides/reference.rst:77 ../userguides/reference.rst:89
+#: ../userguides/reference.rst:95 99abd99bdbc240fda0823989bb6d9437
+msgid "18"
+msgstr ""
+
+#: ../userguides/reference.rst:66 ../userguides/reference.rst:72
+#: ../userguides/reference.rst:78 ../userguides/reference.rst:90
+#: ../userguides/reference.rst:96 ffec1d83479f44b9aaf0b9ba5d766984
+msgid "0.5"
+msgstr "0,5"
+
+#: ../userguides/reference.rst:67 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 19"
+msgstr ""
+
+#: ../userguides/reference.rst:68 8e3892be7823430390d6f5f692093ecb
+msgid "1.5 - 0.3"
+msgstr "1,5 - 0,3"
+
+#: ../userguides/reference.rst:69 c812536a072f400cb22eae20d425a6aa
+msgid "Forest"
+msgstr "Bosque"
+
+#: ../userguides/reference.rst:70 f5a1edf3e3b14204a6c1e618c0db618c
+msgid ""
+"Extract segmentation masks of forested areas from high-resolution RGB images"
+msgstr ""
+"Extraiga máscaras de segmentación de áreas boscosas a partir de imágenes RGB"
+" de alta resolución"
+
+#: ../userguides/reference.rst:73 ../userguides/reference.rst:79
+#: 715871bd14134dccb0aed7645ddf33e6
+msgid "18 - 20"
+msgstr ""
+
+#: ../userguides/reference.rst:74 ../userguides/reference.rst:80
+#: 8e3892be7823430390d6f5f692093ecb
+msgid "0.75 - 0.15"
+msgstr "0,75 - 0,15"
+
+#: ../userguides/reference.rst:75 93ac081e6c334b2399681c335ead91c1
+msgid "Forest Heights"
+msgstr "alturas del bosque"
+
+#: ../userguides/reference.rst:76 629cb40023ec4f4abde84c7ecfb49de6
+msgid ""
+"Classiy masks of forested areas by height classes based on predefined "
+"thresholds"
+msgstr ""
+"Máscaras clásicas de áreas boscosas por clases de altura basadas en umbrales"
+" predefinidos"
+
+#: ../userguides/reference.rst:81 aa29a02ec448416db2186af5dfd92e9b
+msgid "Tree crowns"
+msgstr "copas de arboles"
+
+#: ../userguides/reference.rst:82 629cb40023ec4f4abde84c7ecfb49de6
+msgid ""
+"Extract segmentation masks of tree crowns. Optionally converts to points or "
+"polygons."
+msgstr ""
+"Extraer máscaras de segmentación de copas de árboles. Opcionalmente se "
+"convierte en puntos o polígonos."
+
+#: ../userguides/reference.rst:83 37d14ab7d71243709ebbb7eab1c7c44e
+msgid "19"
+msgstr ""
+
+#: ../userguides/reference.rst:84 85a7035ac95f4e5dbd70e2b60cbad143
+msgid "0.3"
+msgstr ""
+
+#: ../userguides/reference.rst:85 715871bd14134dccb0aed7645ddf33e6
+msgid "19 - 20"
+msgstr ""
+
+#: ../userguides/reference.rst:86 8e3892be7823430390d6f5f692093ecb
+msgid "0.3 - 0.15"
+msgstr "0,3 - 0,15"
+
+#: ../userguides/reference.rst:87 6f7a4a2a3c194d7aa2486580edc72f66
+msgid "Roads"
+msgstr "Carreteras"
+
+#: ../userguides/reference.rst:88 d023093fab1645c9a2b84ebe3f54033c
+msgid "Extract road mask from high-resolution satellite imagery"
+msgstr ""
+"Extraiga la máscara de la carretera a partir de imágenes satelitales de alta"
+" resolución"
+
+#: ../userguides/reference.rst:91 ../userguides/reference.rst:97
+#: 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 18"
+msgstr ""
+
+#: ../userguides/reference.rst:92 3e7dd225002d4f49a0547be82f7159e6
+msgid "1.2 - 0.1"
+msgstr "1,2 - 0,1"
+
+#: ../userguides/reference.rst:93 e3d2def6fd754882b1a2a4b65be1d4d6
+msgid "Constructions"
+msgstr "Construcciones"
+
+#: ../userguides/reference.rst:94 b8cad69b9592428d995bcff421a5f12e
+msgid ""
+"The model highlights areas in the satellite image that contain construction "
+"sites and buildings under construction"
+msgstr ""
+"El modelo resalta áreas en la imagen de satélite que contienen sitios de "
+"construcción y edificios en construcción."
+
+#: ../userguides/reference.rst:98 8e3892be7823430390d6f5f692093ecb
+msgid "2.0 - 0.5"
+msgstr "2,0 - 0,5"
+
+#: ../userguides/reference.rst:100 9346e7a98e1741aa951f20d72e662ade
+msgid ""
+"\\* Mapflow.ai can also process single-band (panchromatic) imagery, but the "
+"NN models are not tuned for such kind of data, so the quality of the result "
+"may be worse than expected."
+msgstr ""
+"\\* Mapflow.ai también puede procesar imágenes de banda única "
+"(pancromáticas), pero los modelos NN no están ajustados para ese tipo de "
+"datos, por lo que la calidad del resultado puede ser peor de lo esperado."
+
+#: ../userguides/reference.rst:103 91ba185f524848e196f2abe2f3fec0e8
+msgid "Forest mapping classes"
+msgstr "clases de mapeo forestal"
+
+#: ../userguides/reference.rst:105 a9d8c8583be147e8bd3c9be04a9b9a2f
+msgid ""
+"Here is presented a list of classes for the Forest vegetation Mapping Model."
+" There are two options for forest semantic classification:"
+msgstr ""
+"Aquí se presenta una lista de clases para el Modelo de Mapeo de Vegetación "
+"Forestal. Hay dos opciones para la clasificación semántica forestal:"
+
+#: ../userguides/reference.rst:108 8b0b795a3004426e891aa26c42011ee1
+msgid ""
+"Classification by heights – classification of the areas of vegetation and "
+"shrub vegetation by height classes according to the specified thresholds: "
+"0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in "
+"separate features, the height class is indicated in its properties. Heights "
+"thresholds are customizable values in the processing pipeline."
+msgstr ""
+"Clasificación por alturas: clasificación de las áreas de vegetación y "
+"vegetación arbustiva por clases de altura según los umbrales especificados: "
+"0-4 m, 4-10 m, 10+ m. Las áreas de bosque de cada clase de altura están "
+"poligonizadas en entidades separadas, la clase de altura se indica en sus "
+"propiedades. Los umbrales de altura son valores personalizables en el "
+"proceso de procesamiento."
+
+#: ../userguides/reference.rst:110 fef8351b8c2a43f8aaa6a14049473ba1
+msgid ""
+"Classification by overgrowth density – classification of the area of "
+"vegetation and shrub vegetation into classes according to the density and "
+"height: high forest, low (growing) forest, open woodland, and shrub."
+msgstr ""
+"Clasificación por densidad de sobrecrecimiento: clasificación del área de "
+"vegetación y vegetación arbustiva en clases según la densidad y la altura: "
+"bosque alto, bosque bajo (en crecimiento), bosque abierto y arbusto."
+
+#: ../forest/_static/csv/classes_forest.csv:1
+#: ../um/_static/csv/classes_um.csv:1 2d88e3f35e774ed4ba47254928b80628
+msgid "CLASS_ID"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 ebdf0667b1204659a08d79f55f88f965
+msgid "DENSITY"
+msgstr "DENSIDAD"
+
+#: ../forest/_static/csv/classes_forest.csv:1 645f1e175ed044bea41705a6e9eeb5c0
+msgid "00m-04m"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 be8159793daa42c8a9acbc68a7e3b44b
+msgid "low vegetation"
+msgstr "vegetación baja"
+
+#: ../forest/_static/csv/classes_forest.csv:1 d6fff0b67ccb450e8a80dc6f76c5668e
+msgid "04m-10m"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 aba40c70d2fd45b18a5e30127acf5dc7
+msgid "dense/sparse"
+msgstr "denso/escaso"
+
+#: ../forest/_static/csv/classes_forest.csv:1 12e27b5bcfa14ee9b5e859f29035bf9f
+msgid "medium forest"
+msgstr "bosque mediano"
+
+#: ../forest/_static/csv/classes_forest.csv:1 2109efe935a44688b43e3aa6f10f074a
+msgid "10m-99m"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 0e72c67989f74d5fb1eb4a9d6cd21700
+msgid "high forest"
+msgstr "bosque alto"
+
+#: ../userguides/reference.rst:126 91ba185f524848e196f2abe2f3fec0e8
+msgid "Buildings mapping classes"
+msgstr "Clases de mapeo de edificios."
+
+#: ../um/_static/csv/classes_um.csv:1 5b55b78f20694a7692e925fb93563c87
+msgid "CLASS NAME"
+msgstr "NOMBRE DE LA CLASE"
+
+#: ../um/_static/csv/classes_um.csv:1 e53aea385b0a463093ae5eb9e5e8b9bf
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+#: ../um/_static/csv/classes_um.csv:1 77f75419c85d4e9ba6c1e481ca84e9db
+msgid "OSM refereral tag"
+msgstr "Etiqueta de referencia de OSM"
+
+#: ../um/_static/csv/classes_um.csv:1 644cce3a49894a63bd42e787f5dcc13e
+msgid "101"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 5f73faaa1f1d431da6201526c6fa766d
+msgid "Apartment building"
+msgstr "edificio de apartamentos"
+
+#: ../um/_static/csv/classes_um.csv:1 39ec72e8c1e24e809e5dbe88388cde67
+msgid "Roof footprints of the multistorey apartment buildings"
+msgstr ""
+"Huellas de tejados de los edificios de apartamentos de varias plantas."
+
+#: ../um/_static/csv/classes_um.csv:1 c8701a2e574344078a481a532b202cbb
+msgid "building=yes building=residential building=appartments"
+msgstr "edificio=si edificio=edificio residencial=apartamentos"
+
+#: ../um/_static/csv/classes_um.csv:1 eafc542a6e9e48269f05b7aa1b99b2c5
+msgid "102"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 a72be97b849f41a48e896d4239f96f73
+msgid "House"
+msgstr "Casa"
+
+#: ../um/_static/csv/classes_um.csv:1 f5cb1ffa035541dba4585dbecc773c7f
+msgid "Mostly private houses (usually represents a single household)"
+msgstr "En su mayoría casas privadas (generalmente representa un solo hogar)"
+
+#: ../um/_static/csv/classes_um.csv:1 fc687d77aab54bb8a8943e8ffa64b13f
+msgid "building=house building=residential"
+msgstr "edificio=casa edificio=residencial"
+
+#: ../um/_static/csv/classes_um.csv:1 acb34874a2444e8b959a242e25846302
+msgid "103"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 720422b19ce3410f81205b4c4adbdca3
+msgid "Industrial building"
+msgstr "Nave industrial"
+
+#: ../um/_static/csv/classes_um.csv:1 e171e5614f9142a4ba6f9447055a4a8c
+msgid "Mostly industrial (Plants, large hangars, warehouses, etc.)"
+msgstr ""
+"Mayoritariamente industrial (Plantas, grandes hangares, almacenes, etc.)"
+
+#: ../um/_static/csv/classes_um.csv:1 319c4d99ec144afa93d24ad13feeba1c
+msgid "building=industrial"
+msgstr "edificio=industrial"
+
+#: ../um/_static/csv/classes_um.csv:1 f04ab4c41d24436797c42998178d0f75
+msgid "104"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 13f00496f53d430ba4d6d573b1d3bff8
+msgid "Commercial building"
+msgstr "Edificio comercial"
+
+#: ../um/_static/csv/classes_um.csv:1 3a8cc512270f441098dfb214001ac5b8
+msgid "Offices, retail, etc."
+msgstr "Oficinas, comercio, etc."
+
+#: ../um/_static/csv/classes_um.csv:1 05d2f6f1d3be4966a3dff09a0c65dbdd
+msgid "building=commercial"
+msgstr "edificio=comercial"
+
+#: ../um/_static/csv/classes_um.csv:1 d5a5318e99024608be3d1473313ae97f
+msgid "105"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 0f3d43a5eaac457f948b3334afffec57
+msgid "Other non-residential buildings"
+msgstr "Otros edificios no residenciales"
+
+#: ../um/_static/csv/classes_um.csv:1 a15e064cad064a69b80055ee9dec5f92
+msgid "Garages, transformer boxes, small hangars, etc."
+msgstr "Garajes, cajas de transformadores, pequeños hangares, etc."
+
+#: ../userguides/reference.rst:138 8ed18833de6c4c5dbaca79383ce74a36
+msgid "Buildings Mapping visualization with ArcGIS Online, Carto, etc"
+msgstr "Visualización de mapas de edificios con ArcGIS Online, Carto, etc."
+
+#: ../userguides/reference.rst:140 1e23a906bb2643c392e51b7cb6b42154
+msgid ""
+"Mapflow Web easily processes imagery and extracts vector objects that can be"
+" downloaded in **GeoJSON** format. We recommend using GeoJSON since it is a "
+"de-facto standard in web mapping. It is natively supported by web mapping "
+"frameworks (e.g. Leaflet or Mapbox) and GIS software like QGIS or the ArcGIS"
+" Suite."
+msgstr ""
+"Mapflow Web procesa fácilmente imágenes y extrae objetos vectoriales que se "
+"pueden descargar en formato **GeoJSON**. Recomendamos utilizar GeoJSON ya "
+"que es un estándar de facto en cartografía web. Es compatible de forma "
+"nativa con marcos de mapeo web (por ejemplo, Leaflet o Mapbox) y software "
+"SIG como QGIS o ArcGIS Suite."
+
+#: ../userguides/reference.rst:144 0dff6bf97d03450a8737af466934f1b8
+msgid ""
+"GeoJSON is an open standard format designed for representing simple "
+"geographical features, along with their non-spatial attributes. It is based "
+"on the JSON format. The features include points, linestrings (Mapflow "
+"roads), polygons (Mapflow buildings footprints, forest and field masks), or "
+"multi-part collections of these types. Mapflow allows different options for "
+"actions with processing results stored in GeoJSON. You are able to download "
+"or “Open with **geojson.io**”."
+msgstr ""
+"GeoJSON es un formato estándar abierto diseñado para representar "
+"características geográficas simples, junto con sus atributos no espaciales. "
+"Está basado en el formato JSON. Las características incluyen puntos, cadenas"
+" de líneas (carreteras de Mapflow), polígonos (huellas de edificios de "
+"Mapflow, máscaras de bosques y campos) o colecciones de varias partes de "
+"estos tipos. Mapflow permite diferentes opciones para acciones con "
+"resultados de procesamiento almacenados en GeoJSON. Puede descargar o “Abrir"
+" con **geojson.io**”."
+
+#: ../userguides/reference.rst:153 ../userguides/reference.rst:170
+#: ../userguides/reference.rst:178 5221f7a675e64d50bf230d74c695a288
+#: 6ac8bf29c9c74ec0a886158a70be959b 7eea1e37824b4f328351672b820fb26a
+#: f0bc3385b7154a4dace44621d56cea7b
+msgid "Interaction panel"
+msgstr "Panel de interacción"
+
+#: ../userguides/reference.rst:153 37fc7a12e9b24e9b856b205b29a5b923
+msgid "Open with geojson.io"
+msgstr "Abrir con geojson.io"
+
+#: ../userguides/reference.rst:156 09bcbf7bcaef481897d108b6907d8c89
+msgid ""
+"`Geojson.io <https://geojson.io>`_ allows you to view and save the results "
+"in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click “Save” and"
+" select the format in the menu bar."
+msgstr ""
+"`Geojson.io <https://geojson.io>`_ le permite ver y guardar los resultados "
+"en un formato diferente (CSV, KML, TopoJSON, WKT, Shapefile). Haga clic en "
+"\"Guardar\" y seleccione el formato en la barra de menú."
+
+#: ../userguides/reference.rst:163 18fd334e174e41a4829fefa760e60ed2
+msgid ""
+"Using GeoJSON allows you to use only drag&drop to visualize Mapflow output "
+"results in numerous Web-GIS without converting data formats. `See this video"
+" <https://youtu.be/ZG5fVut87ZQ>`_ about how to upload and style a building "
+"classification results with ArcGIS online, Carto, and Evergis online."
+msgstr ""
+"El uso de GeoJSON le permite usar solo arrastrar y soltar para visualizar "
+"los resultados de salida de Mapflow en numerosos Web-GIS sin convertir "
+"formatos de datos. `Vea este video <https://youtu.be/ZG5fVut87ZQ>`_ sobre "
+"cómo cargar y aplicar estilo a los resultados de clasificación de un "
+"edificio con ArcGIS en línea, Carto y Evergis en línea."
+
+#: ../userguides/reference.rst:170 a1795a3d38494572b3ac5240c92dc165
+msgid "Building footprints in ArcGIS online"
+msgstr "Construyendo huellas en ArcGIS en línea"
+
+#: ../userguides/reference.rst:178 f9cfe14fc85b4c94919956cf00655d32
+msgid "Building footprints in Carto"
+msgstr "Construyendo huellas en Carto"

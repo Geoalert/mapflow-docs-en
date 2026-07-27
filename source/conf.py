@@ -78,15 +78,18 @@ html_theme_options = {
 }
 html_logo = '_static/logo_mapflow.png'
 
-# To show the same sidebar for each page
-html_sidebars = { 
+# To show the same sidebar for each page.
+# NOTE: sphinx_rtd_theme builds its own sidebar and ignores html_sidebars, so this
+# is effectively inert. `versions.html` (the language switcher) is rendered by the
+# theme's layout.html instead, which is why it must NOT be listed here — doing so
+# would render it twice under themes that do honour html_sidebars.
+html_sidebars = {
     '**': [
-        'globaltoc.html', 
-        'relations.html', 
-        'sourcelink.html', 
+        'globaltoc.html',
+        'relations.html',
+        'sourcelink.html',
         'searchbox.html',
-        'versions.html'  # Contains language selector at the bottom
-    ] 
+    ]
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -115,24 +118,56 @@ edit_on_github_branch = 'main/source'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional: creates separate PO files for each RST file
 
-# Supported languages
-language = 'en'  # Default language
-languages = ['en', 'zh', 'ru', 'es']  # Add more as needed: 'es', 'de', 'fr', etc.
+# Default language. Overridden per build with `sphinx-build -D language=ru ...`.
+language = 'en'
+
+# The language served from the site root, without a /<lang>/ prefix.
+# https://docs.mapflow.ai/index.html is English; other languages live under
+# https://docs.mapflow.ai/<lang>/index.html
+root_language = 'en'
+
+# Single source of truth for the language switcher: (display name, language code).
+# Only list languages that are actually built and deployed — every entry here
+# becomes a clickable option in the switcher.
+#
+# To add a language:
+#   1. add it to this list
+#   2. `sphinx-intl update -p source/locale -l <code>` and translate the PO files
+#   3. add a build target to `Makefile` (build-all) and `build_all_languages.sh`
+languages = [
+    ('English', 'en'),
+    ('Русский', 'ru'),
+    ('Español', 'es'),
+    ('中文', 'zh'),
+    # ('Deutsch', 'de'),
+    # ('Français', 'fr'),
+]
 
 # gettext options
 gettext_uuid = True  # Generate UUIDs for each translatable message
 gettext_auto_build = True  # Automatically compile PO to MO files
 
-# Language names for the selector
 html_context = {
-    'languages': [
-        ('English', 'en'),
-        ('Русский', 'ru'),
-        # Add more languages here:
-        ('Español', 'es'),
-        # ('Deutsch', 'de'),
-        # ('Français', 'fr'),
-    ],
+    'languages': languages,
+    'root_language': root_language,
+    # Placeholder — the real value is filled in by setup() below, because at this
+    # point `language` is still the default and does not reflect `-D language=...`.
     'current_language': language,
 }
-gettext_compact = False     # optional.
+
+
+def setup(app):
+    """Keep html_context in sync with the language actually being built.
+
+    conf.py is evaluated *before* Sphinx applies command-line overrides, so
+    `current_language` captured above is always 'en'. Without this hook the
+    Russian build renders a switcher that thinks it is on the English page:
+    English stays selected and the URL rewrite targets the wrong prefix.
+    """
+
+    def _sync_language(app, config):
+        context = config.html_context
+        context['current_language'] = config.language or root_language
+        context['language_codes'] = [code for _name, code in context['languages']]
+
+    app.connect('config-inited', _sync_language)

@@ -41,11 +41,25 @@ else
 fi
 echo ""
 
-# Add more languages here as needed:
-# echo "Updating Spanish PO files..."
-# sphinx-intl update -p source/locale -l es
-# echo "Updating German PO files..."
-# sphinx-intl update -p source/locale -l de
+echo "Step 3b: Updating Spanish PO files..."
+sphinx-intl update -p source/locale -l es
+if [ $? -eq 0 ]; then
+    echo "✓ Spanish PO files updated"
+else
+    echo "✗ Spanish PO files update failed"
+    exit 1
+fi
+echo ""
+
+echo "Step 3c: Updating Chinese PO files..."
+sphinx-intl update -p source/locale -l zh
+if [ $? -eq 0 ]; then
+    echo "✓ Chinese PO files updated"
+else
+    echo "✗ Chinese PO files update failed"
+    exit 1
+fi
+echo ""
 
 # 4. Build HTML for each language
 echo "Step 4: Building English documentation..."
@@ -68,11 +82,25 @@ else
 fi
 echo ""
 
-# Add more languages here as needed:
-# echo "Building Spanish documentation..."
-# sphinx-build -b html -D language=es source build/docs/es
-# echo "Building German documentation..."
-# sphinx-build -b html -D language=de source build/docs/de
+echo "Step 6: Building Spanish documentation..."
+sphinx-build -b html -D language=es source build/docs/es
+if [ $? -eq 0 ]; then
+    echo "✓ Spanish documentation built successfully"
+else
+    echo "✗ Spanish documentation build failed"
+    exit 1
+fi
+echo ""
+
+echo "Step 7: Building Chinese documentation..."
+sphinx-build -b html -D language=zh source build/docs/zh
+if [ $? -eq 0 ]; then
+    echo "✓ Chinese documentation built successfully"
+else
+    echo "✗ Chinese documentation build failed"
+    exit 1
+fi
+echo ""
 
 echo "================================================"
 echo "✓ All documentation builds complete!"

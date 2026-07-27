@@ -23,6 +23,8 @@ gettext:
 update-po: gettext
 	sphinx-intl update -p $(SOURCEDIR)/locale -l en
 	sphinx-intl update -p $(SOURCEDIR)/locale -l ru
+	sphinx-intl update -p $(SOURCEDIR)/locale -l es
+	sphinx-intl update -p $(SOURCEDIR)/locale -l zh
 	@echo "PO files updated."
 
 # Build all language versions
@@ -31,6 +33,10 @@ build-all: update-po
 	@$(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS)
 	@echo "Building Russian version..."
 	@$(SPHINXBUILD) -b html -D language=ru "$(SOURCEDIR)" "$(BUILDDIR)/docs/ru" $(SPHINXOPTS)
+	@echo "Building Spanish version..."
+	@$(SPHINXBUILD) -b html -D language=es "$(SOURCEDIR)" "$(BUILDDIR)/docs/es" $(SPHINXOPTS)
+	@echo "Building Chinese version..."
+	@$(SPHINXBUILD) -b html -D language=zh "$(SOURCEDIR)" "$(BUILDDIR)/docs/zh" $(SPHINXOPTS)
 	@echo "All language versions built successfully!"
 
 # Catch-all target: route all unknown targets to Sphinx using the new

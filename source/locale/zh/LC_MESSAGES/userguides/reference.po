@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/reference.rst:2 b35f7074558b4dc3af95bfb942daa297
+msgid "Reference on using the platform"
+msgstr "平台使用参考"
+
+#: ../userguides/reference.rst:6 ccdd03077ce34056b7ca9ef09fcd4b7f
+msgid ""
+"This document outlines the requirements for using the Mapflow platform, "
+"including supported data formats, preprocessing steps, and model-specific "
+"guidelines."
+msgstr "本文档概述了使用 Mapflow 平台的要求，包括支持的数据格式、预处理步骤和特定于模型的指南。"
+
+#: ../userguides/reference.rst:9 fbfe44ba07ee4fbc9c7643fa4ec3eb71
+msgid "Requirements for using the platform"
+msgstr "使用平台的要求"
+
+#: ../userguides/reference.rst:14 15482e1cfc87429697145080f591483b
+msgid "Upload GeoTIFF requirements"
+msgstr "上传 GeoTIFF 要​​求"
+
+#: ../userguides/reference.rst:16 f50fd3e2f6c34a108af53f695d6b8b61
+msgid "Please pay attention to the following:"
+msgstr "请注意以下事项："
+
+#: ../userguides/reference.rst:18 97b5bb8a20ba4da6b270e6ee07c50cbd
+msgid ""
+"Images you upload are preprocessed in `Uint8` format. If your image is not "
+"of this type and you want to preview it manually before uploading to the "
+"Mapflow server, please use our `image preprocessing script "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to"
+" translate it to the appropriate format;"
+msgstr ""
+"您上传的图像将以“Uint8”格式进行预处理。如果您的图像不是这种类型，并且您想在上传到Mapflow服务器之前手动预览它，请使用我们的`图像预处理脚本<https://github.com/Geoalert/mapflow_data_preprocessor/>`_或其他工具将其转换为适当的格式；"
+
+#: ../userguides/reference.rst:19 0af9b610d2064603981271c54406a890
+msgid ""
+"Your image must be georeferenced in geographic or projected coordinate "
+"system, ellipsoid WGS84, it is recommended to use UTM or Web Mercator;"
+msgstr "您的图像必须在地理或投影坐标系、椭球WGS84中进行地理参考，建议使用UTM或Web墨卡托；"
+
+#: ../userguides/reference.rst:20 84cad41cad0f41ef81a4cd917a26cee4
+msgid ""
+"The default limit for file size is ``1 Gb`` for free users. If you have a "
+"bigger file – reduce its size or consider switching to the paid plan;"
+msgstr "对于免费用户，文件大小的默认限制为“1 Gb”。如果您有更大的文件 - 减小其大小或考虑切换到付费计划；"
+
+#: ../userguides/reference.rst:21 6d269757a47e41e6ad25c53bfb04d929
+msgid "Your image should be RGB composite, RGBa or Singleband;"
+msgstr "您的图像应该是 RGB 复合、RGBa 或 Singleband；"
+
+#: ../userguides/reference.rst:22 73cbf3a8a5824f14ad7e78e99feb52dc
+msgid "Maximum image dimensions: ``65535 px`` per side;"
+msgstr "最大图像尺寸：每边``65535 px``；"
+
+#: ../userguides/reference.rst:23 bd7270211f38474fbacfe2c892684cf4
+msgid "Pixel size must not exceed ``20 m/px``;"
+msgstr "像素大小不得超过“20 m/px”；"
+
+#: ../userguides/reference.rst:24 a3d81ba2ca6d4550a5fb054548b4ca68
+msgid ""
+"Images with a pixel size less than ``10 cm/px`` will be resampled to this "
+"resolution;"
+msgstr "像素大小小于“10 cm/px”的图像将被重新采样到该分辨率；"
+
+#: ../userguides/reference.rst:25 9d707483b96a4e7881f30018945f9227
+msgid "All images within a collection must have the same number of bands;"
+msgstr "集合中的所有图像必须具有相同数量的波段；"
+
+#: ../userguides/reference.rst:26 981c64813a5940feafb6235e81edad51
+msgid ""
+"Uploaded image will be reprojected and resampled to match the CRS and GSD "
+"(pixel size) of other images in collection;"
+msgstr "上传的图像将被重新投影和重新采样，以匹配集合中其他图像的 CRS 和 GSD（像素大小）；"
+
+#: ../userguides/reference.rst:27 ba35cec87876458fa14b80d979ca9cce
+msgid ""
+"Each Mapflow model has its recommendations for the spatial resolution of the"
+" input data, see :ref:`Model_requirements` below."
+msgstr "每个 Mapflow 模型都有其对输入数据的空间分辨率的建议，请参阅下面的模型要求。"
+
+#: ../userguides/reference.rst:29 59980564e9034f84871d833133bbf48f
+msgid ""
+"In case of non-compliance with any requirements, the system reports an "
+"error. If you are using Mapflow Web or Mapflow QGIS plugin, the error "
+"messages are shown in the user interface. For more details, see :doc:`errors"
+" description <../api/error_messages>`."
+msgstr ""
+"如果不符合任何要求，系统会报告错误。如果您使用 Mapflow Web 或 Mapflow QGIS "
+"插件，错误消息将显示在用户界面中。有关更多详细信息，请参阅:doc:`错误描述 <../api/error_messages>`。"
+
+#: ../userguides/reference.rst:36 6a0f362d3bf3470ab0310ea28af5474a
+msgid "Model requirements"
+msgstr "型号要求"
+
+#: ../userguides/reference.rst:38 7e6f6a5563084a7b8d00ca40858b8271
+msgid ""
+"The table below lists model requirements for spatial resolution of the input"
+" imagery."
+msgstr "下表列出了输入图像空间分辨率的模型要求。"
+
+#: ../userguides/reference.rst:40 c0990125eb74427ca759ecd7ba9f8c75
+msgid ""
+"**\"Required\"** means that the imagery with resolution outside of this "
+"range will be rejected from processing and the request will fail."
+msgstr "**“必需”**表示分辨率超出此范围的图像将被拒绝处理，并且请求将失败。"
+
+#: ../userguides/reference.rst:43 9bbb67d8ebb94e798a0ec32c3bd73629
+msgid ""
+"**\"Recommended\"** means that the model is fit specifically for this "
+"spatial resolution. Any images of higher resolution will be downsampled "
+"before processing, so it gives no profit to upload higher resolution. Images"
+" of lower resolution (if meeting the \"required\" section) will be "
+"upsampled, but the results will not be so good as for recommended "
+"resolution."
+msgstr ""
+"**“推荐”**表示该模型专门适合该空间分辨率。任何更高分辨率的图像在处理之前都会被下采样，因此上传更高分辨率的图像没有任何利润。较低分辨率的图像（如果满足“要求”部分）将被上采样，但结果不会像建议的分辨率那么好。"
+
+#: ../userguides/reference.rst:48 15160e9aae8643efb2b48770354b91a0
+msgid ""
+"GSD is specified in `UTM coordinate system "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_, and may not "
+"correspond to what you see as \"pixel size\" if your image's coordinate "
+"system differs."
+msgstr ""
+"GSD 在“UTM 坐标系 "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>”中指定，如果图像的坐标系不同，则可能与您所看到的“像素大小”不对应。"
+
+#: ../userguides/reference.rst:51 428a50fb844b49078588537fe6482d68
+msgid ""
+"`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about zoom "
+"and spatial resolution of imagery basemaps."
+msgstr ""
+"`了解更多<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_有关影像底图的缩放和空间分辨率的信息。"
+
+#: ../userguides/reference.rst:57 dc36ea07d5da47d5ae9fd463a5eab123
+msgid "Model"
+msgstr "模型"
+
+#: ../forest/_static/csv/classes_forest.csv:1 ../userguides/reference.rst:58
+#: 017e0214c468436f8e6936a4f3017578
+msgid "Description"
+msgstr "描述"
+
+#: ../userguides/reference.rst:59 4871b0079f4e465faa9bdb4930b51d21
+msgid "Recommended zoom"
+msgstr "推荐变焦"
+
+#: ../userguides/reference.rst:60 3c5363c5d9134724843c96b08ffefee0
+msgid "Recommended GSD m/px"
+msgstr "推荐 GSD 米/像素"
+
+#: ../userguides/reference.rst:61 7a75f560034b41e5986cf6fa3e763ef4
+msgid "Required zoom range"
+msgstr "所需变焦范围"
+
+#: ../userguides/reference.rst:62 24870554e6624ffd8fcef5174363cd39
+msgid "Required GSD range, m/px"
+msgstr "所需的 GSD 范围，米/像素"
+
+#: ../userguides/reference.rst:63 d0761e5e99e4445bb393ec4f6001cb95
+msgid "Buildings"
+msgstr "建筑物"
+
+#: ../userguides/reference.rst:64 6da3a33c13194489870434b398e352b0
+msgid ""
+"Extract roof contours, with optional classification, simplification and "
+"height estimation"
+msgstr "提取屋顶轮廓，可选择分类、简化和高度估计"
+
+#: ../userguides/reference.rst:65 ../userguides/reference.rst:71
+#: ../userguides/reference.rst:77 ../userguides/reference.rst:89
+#: ../userguides/reference.rst:95 99abd99bdbc240fda0823989bb6d9437
+msgid "18"
+msgstr ""
+
+#: ../userguides/reference.rst:66 ../userguides/reference.rst:72
+#: ../userguides/reference.rst:78 ../userguides/reference.rst:90
+#: ../userguides/reference.rst:96 ffec1d83479f44b9aaf0b9ba5d766984
+msgid "0.5"
+msgstr ""
+
+#: ../userguides/reference.rst:67 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 19"
+msgstr ""
+
+#: ../userguides/reference.rst:68 8e3892be7823430390d6f5f692093ecb
+msgid "1.5 - 0.3"
+msgstr ""
+
+#: ../userguides/reference.rst:69 c812536a072f400cb22eae20d425a6aa
+msgid "Forest"
+msgstr "森林"
+
+#: ../userguides/reference.rst:70 f5a1edf3e3b14204a6c1e618c0db618c
+msgid ""
+"Extract segmentation masks of forested areas from high-resolution RGB images"
+msgstr "从高分辨率 RGB 图像中提取森林区域的分割掩模"
+
+#: ../userguides/reference.rst:73 ../userguides/reference.rst:79
+#: 715871bd14134dccb0aed7645ddf33e6
+msgid "18 - 20"
+msgstr ""
+
+#: ../userguides/reference.rst:74 ../userguides/reference.rst:80
+#: 8e3892be7823430390d6f5f692093ecb
+msgid "0.75 - 0.15"
+msgstr ""
+
+#: ../userguides/reference.rst:75 93ac081e6c334b2399681c335ead91c1
+msgid "Forest Heights"
+msgstr "森林高地"
+
+#: ../userguides/reference.rst:76 629cb40023ec4f4abde84c7ecfb49de6
+msgid ""
+"Classiy masks of forested areas by height classes based on predefined "
+"thresholds"
+msgstr "基于预定义阈值的按高度等级划分的森林地区经典掩模"
+
+#: ../userguides/reference.rst:81 aa29a02ec448416db2186af5dfd92e9b
+msgid "Tree crowns"
+msgstr "树冠"
+
+#: ../userguides/reference.rst:82 629cb40023ec4f4abde84c7ecfb49de6
+msgid ""
+"Extract segmentation masks of tree crowns. Optionally converts to points or "
+"polygons."
+msgstr "提取树冠的分割掩模。可选择转换为点或多边形。"
+
+#: ../userguides/reference.rst:83 37d14ab7d71243709ebbb7eab1c7c44e
+msgid "19"
+msgstr "19 号"
+
+#: ../userguides/reference.rst:84 85a7035ac95f4e5dbd70e2b60cbad143
+msgid "0.3"
+msgstr ""
+
+#: ../userguides/reference.rst:85 715871bd14134dccb0aed7645ddf33e6
+msgid "19 - 20"
+msgstr "19 - 20 日"
+
+#: ../userguides/reference.rst:86 8e3892be7823430390d6f5f692093ecb
+msgid "0.3 - 0.15"
+msgstr ""
+
+#: ../userguides/reference.rst:87 6f7a4a2a3c194d7aa2486580edc72f66
+msgid "Roads"
+msgstr "道路"
+
+#: ../userguides/reference.rst:88 d023093fab1645c9a2b84ebe3f54033c
+msgid "Extract road mask from high-resolution satellite imagery"
+msgstr "从高分辨率卫星图像中提取道路掩模"
+
+#: ../userguides/reference.rst:91 ../userguides/reference.rst:97
+#: 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 18"
+msgstr ""
+
+#: ../userguides/reference.rst:92 3e7dd225002d4f49a0547be82f7159e6
+msgid "1.2 - 0.1"
+msgstr ""
+
+#: ../userguides/reference.rst:93 e3d2def6fd754882b1a2a4b65be1d4d6
+msgid "Constructions"
+msgstr "建筑"
+
+#: ../userguides/reference.rst:94 b8cad69b9592428d995bcff421a5f12e
+msgid ""
+"The model highlights areas in the satellite image that contain construction "
+"sites and buildings under construction"
+msgstr "该模型突出显示了卫星图像中包含建筑工地和在建建筑物的区域"
+
+#: ../userguides/reference.rst:98 8e3892be7823430390d6f5f692093ecb
+msgid "2.0 - 0.5"
+msgstr ""
+
+#: ../userguides/reference.rst:100 9346e7a98e1741aa951f20d72e662ade
+msgid ""
+"\\* Mapflow.ai can also process single-band (panchromatic) imagery, but the "
+"NN models are not tuned for such kind of data, so the quality of the result "
+"may be worse than expected."
+msgstr "\\* Mapflow.ai 还可以处理单波段（全色）图像，但神经网络模型未针对此类数据进行调整，因此结果的质量可能比预期的要差。"
+
+#: ../userguides/reference.rst:103 91ba185f524848e196f2abe2f3fec0e8
+msgid "Forest mapping classes"
+msgstr "森林测绘类"
+
+#: ../userguides/reference.rst:105 a9d8c8583be147e8bd3c9be04a9b9a2f
+msgid ""
+"Here is presented a list of classes for the Forest vegetation Mapping Model."
+" There are two options for forest semantic classification:"
+msgstr "这里提供了森林植被映射模型的类列表。森林语义分类有两种选择："
+
+#: ../userguides/reference.rst:108 8b0b795a3004426e891aa26c42011ee1
+msgid ""
+"Classification by heights – classification of the areas of vegetation and "
+"shrub vegetation by height classes according to the specified thresholds: "
+"0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in "
+"separate features, the height class is indicated in its properties. Heights "
+"thresholds are customizable values in the processing pipeline."
+msgstr ""
+"按高度分类 – 根据指定阈值按高度类别对植被和灌木植被面积进行分类：0-4 m、4-10 m、10+ "
+"m。每个高度等级的森林区域在单独的要素中多边形化，高度等级在其属性中指示。高度阈值是处理管道中的可定制值。"
+
+#: ../userguides/reference.rst:110 fef8351b8c2a43f8aaa6a14049473ba1
+msgid ""
+"Classification by overgrowth density – classification of the area of "
+"vegetation and shrub vegetation into classes according to the density and "
+"height: high forest, low (growing) forest, open woodland, and shrub."
+msgstr "按过度生长密度分类——根据密度和高度将植被和灌木植被面积分为几类：高森林、低（生长）森林、开阔林地和灌木。"
+
+#: ../forest/_static/csv/classes_forest.csv:1
+#: ../um/_static/csv/classes_um.csv:1 2d88e3f35e774ed4ba47254928b80628
+msgid "CLASS_ID"
+msgstr "类别ID"
+
+#: ../forest/_static/csv/classes_forest.csv:1 ebdf0667b1204659a08d79f55f88f965
+msgid "DENSITY"
+msgstr "密度"
+
+#: ../forest/_static/csv/classes_forest.csv:1 645f1e175ed044bea41705a6e9eeb5c0
+msgid "00m-04m"
+msgstr "00米-04米"
+
+#: ../forest/_static/csv/classes_forest.csv:1 be8159793daa42c8a9acbc68a7e3b44b
+msgid "low vegetation"
+msgstr "植被低矮"
+
+#: ../forest/_static/csv/classes_forest.csv:1 d6fff0b67ccb450e8a80dc6f76c5668e
+msgid "04m-10m"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 aba40c70d2fd45b18a5e30127acf5dc7
+msgid "dense/sparse"
+msgstr "密集/稀疏"
+
+#: ../forest/_static/csv/classes_forest.csv:1 12e27b5bcfa14ee9b5e859f29035bf9f
+msgid "medium forest"
+msgstr "中等森林"
+
+#: ../forest/_static/csv/classes_forest.csv:1 2109efe935a44688b43e3aa6f10f074a
+msgid "10m-99m"
+msgstr ""
+
+#: ../forest/_static/csv/classes_forest.csv:1 0e72c67989f74d5fb1eb4a9d6cd21700
+msgid "high forest"
+msgstr "高森林"
+
+#: ../userguides/reference.rst:126 91ba185f524848e196f2abe2f3fec0e8
+msgid "Buildings mapping classes"
+msgstr "建筑物测绘类"
+
+#: ../um/_static/csv/classes_um.csv:1 5b55b78f20694a7692e925fb93563c87
+msgid "CLASS NAME"
+msgstr "班级名称"
+
+#: ../um/_static/csv/classes_um.csv:1 e53aea385b0a463093ae5eb9e5e8b9bf
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#: ../um/_static/csv/classes_um.csv:1 77f75419c85d4e9ba6c1e481ca84e9db
+msgid "OSM refereral tag"
+msgstr "OSM 参考标签"
+
+#: ../um/_static/csv/classes_um.csv:1 644cce3a49894a63bd42e787f5dcc13e
+msgid "101"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 5f73faaa1f1d431da6201526c6fa766d
+msgid "Apartment building"
+msgstr "公寓楼"
+
+#: ../um/_static/csv/classes_um.csv:1 39ec72e8c1e24e809e5dbe88388cde67
+msgid "Roof footprints of the multistorey apartment buildings"
+msgstr "多层公寓楼的屋顶足迹"
+
+#: ../um/_static/csv/classes_um.csv:1 c8701a2e574344078a481a532b202cbb
+msgid "building=yes building=residential building=appartments"
+msgstr "建筑物=是 建筑物=住宅楼=公寓"
+
+#: ../um/_static/csv/classes_um.csv:1 eafc542a6e9e48269f05b7aa1b99b2c5
+msgid "102"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 a72be97b849f41a48e896d4239f96f73
+msgid "House"
+msgstr "房子"
+
+#: ../um/_static/csv/classes_um.csv:1 f5cb1ffa035541dba4585dbecc773c7f
+msgid "Mostly private houses (usually represents a single household)"
+msgstr "大部分是私人住宅（通常代表一个家庭）"
+
+#: ../um/_static/csv/classes_um.csv:1 fc687d77aab54bb8a8943e8ffa64b13f
+msgid "building=house building=residential"
+msgstr "建筑物=房屋 建筑物=住宅"
+
+#: ../um/_static/csv/classes_um.csv:1 acb34874a2444e8b959a242e25846302
+msgid "103"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 720422b19ce3410f81205b4c4adbdca3
+msgid "Industrial building"
+msgstr "工业大厦"
+
+#: ../um/_static/csv/classes_um.csv:1 e171e5614f9142a4ba6f9447055a4a8c
+msgid "Mostly industrial (Plants, large hangars, warehouses, etc.)"
+msgstr "主要是工业（工厂、大型机库、仓库等）"
+
+#: ../um/_static/csv/classes_um.csv:1 319c4d99ec144afa93d24ad13feeba1c
+msgid "building=industrial"
+msgstr "建筑=工业"
+
+#: ../um/_static/csv/classes_um.csv:1 f04ab4c41d24436797c42998178d0f75
+msgid "104"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 13f00496f53d430ba4d6d573b1d3bff8
+msgid "Commercial building"
+msgstr "商业大厦"
+
+#: ../um/_static/csv/classes_um.csv:1 3a8cc512270f441098dfb214001ac5b8
+msgid "Offices, retail, etc."
+msgstr "写字楼、零售店等"
+
+#: ../um/_static/csv/classes_um.csv:1 05d2f6f1d3be4966a3dff09a0c65dbdd
+msgid "building=commercial"
+msgstr "建筑=商业"
+
+#: ../um/_static/csv/classes_um.csv:1 d5a5318e99024608be3d1473313ae97f
+msgid "105"
+msgstr ""
+
+#: ../um/_static/csv/classes_um.csv:1 0f3d43a5eaac457f948b3334afffec57
+msgid "Other non-residential buildings"
+msgstr "其他非住宅建筑"
+
+#: ../um/_static/csv/classes_um.csv:1 a15e064cad064a69b80055ee9dec5f92
+msgid "Garages, transformer boxes, small hangars, etc."
+msgstr "车库、变压器箱、小型机库等"
+
+#: ../userguides/reference.rst:138 8ed18833de6c4c5dbaca79383ce74a36
+msgid "Buildings Mapping visualization with ArcGIS Online, Carto, etc"
+msgstr "使用 ArcGIS Online、Carto 等进行建筑物地图可视化"
+
+#: ../userguides/reference.rst:140 1e23a906bb2643c392e51b7cb6b42154
+msgid ""
+"Mapflow Web easily processes imagery and extracts vector objects that can be"
+" downloaded in **GeoJSON** format. We recommend using GeoJSON since it is a "
+"de-facto standard in web mapping. It is natively supported by web mapping "
+"frameworks (e.g. Leaflet or Mapbox) and GIS software like QGIS or the ArcGIS"
+" Suite."
+msgstr ""
+"Mapflow Web 可以轻松处理图像并提取可以以 **GeoJSON** 格式下载的矢量对象。我们建议使用 "
+"GeoJSON，因为它是网络地图事实上的标准。它本身受到 Web 地图框架（例如 Leaflet 或 Mapbox）和 GIS 软件（例如 QGIS 或"
+" ArcGIS Suite）的支持。"
+
+#: ../userguides/reference.rst:144 0dff6bf97d03450a8737af466934f1b8
+msgid ""
+"GeoJSON is an open standard format designed for representing simple "
+"geographical features, along with their non-spatial attributes. It is based "
+"on the JSON format. The features include points, linestrings (Mapflow "
+"roads), polygons (Mapflow buildings footprints, forest and field masks), or "
+"multi-part collections of these types. Mapflow allows different options for "
+"actions with processing results stored in GeoJSON. You are able to download "
+"or “Open with **geojson.io**”."
+msgstr ""
+"GeoJSON 是一种开放标准格式，旨在表示简单的地理特征及其非空间属性。它基于 JSON 格式。这些要素包括点、线串（Mapflow "
+"道路）、多边形（Mapflow 建筑物足迹、森林和田野遮罩）或这些类型的多部分集合。 Mapflow 允许对存储在 GeoJSON "
+"中的处理结果执行不同的操作选项。您可以下载或“使用 **geojson.io** 打开”。"
+
+#: ../userguides/reference.rst:153 ../userguides/reference.rst:170
+#: ../userguides/reference.rst:178 5221f7a675e64d50bf230d74c695a288
+#: 6ac8bf29c9c74ec0a886158a70be959b 7eea1e37824b4f328351672b820fb26a
+#: f0bc3385b7154a4dace44621d56cea7b
+msgid "Interaction panel"
+msgstr "互动面板"
+
+#: ../userguides/reference.rst:153 37fc7a12e9b24e9b856b205b29a5b923
+msgid "Open with geojson.io"
+msgstr "使用 geojson.io 打开"
+
+#: ../userguides/reference.rst:156 09bcbf7bcaef481897d108b6907d8c89
+msgid ""
+"`Geojson.io <https://geojson.io>`_ allows you to view and save the results "
+"in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click “Save” and"
+" select the format in the menu bar."
+msgstr ""
+"`Geojson.io <https://geojson.io>`_ "
+"允许您以不同的格式（CSV、KML、TopoJSON、WKT、Shapefile）查看和保存结果。单击“保存”并在菜单栏中选择格式。"
+
+#: ../userguides/reference.rst:163 18fd334e174e41a4829fefa760e60ed2
+msgid ""
+"Using GeoJSON allows you to use only drag&drop to visualize Mapflow output "
+"results in numerous Web-GIS without converting data formats. `See this video"
+" <https://youtu.be/ZG5fVut87ZQ>`_ about how to upload and style a building "
+"classification results with ArcGIS online, Carto, and Evergis online."
+msgstr ""
+"使用 GeoJSON，您只需拖放即可在众多 Web-GIS 中可视化 Mapflow 输出结果，而无需转换数据格式。 `请观看此视频 "
+"<https://youtu.be/ZG5fVut87ZQ>`_ 了解如何使用 ArcGIS Online、Carto 和 Evergis online"
+" 上传建筑物分类结果并设置其样式。"
+
+#: ../userguides/reference.rst:170 a1795a3d38494572b3ac5240c92dc165
+msgid "Building footprints in ArcGIS online"
+msgstr "在 ArcGIS Online 中构建足迹"
+
+#: ../userguides/reference.rst:178 f9cfe14fc85b4c94919956cf00655d32
+msgid "Building footprints in Carto"
+msgstr "卡托的建筑足迹"

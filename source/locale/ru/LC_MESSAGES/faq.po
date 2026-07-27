@@ -197,7 +197,7 @@ msgstr "**Можно ли использовать не-RGB данные, нап
 msgid ""
 "No, you can’t for default models. You can contact us about the "
 "development of the custom model."
-msgstr """Нет, для стандартных моделей это невозможно. Свяжитесь с нами по вопросу "
+msgstr "Нет, для стандартных моделей это невозможно. Свяжитесь с нами по вопросу "
 "разработки пользовательской модели."
 #: ../../source/faq.rst:50 7531e7bcf8b24ce3838670551a5e499e
 msgid "Vector data"
@@ -263,7 +263,7 @@ msgstr "Проекты и обработки"
 msgid ""
 "**What is a “project”? Do I have to create every new processing in a new "
 "project?**"
-msgstr """**Что такое «проект»? Нужно ли создавать каждую новую обработку в новом "
+msgstr "**Что такое «проект»? Нужно ли создавать каждую новую обработку в новом "
 "проекте?**"
 #: ../../source/faq.rst:71 4056430d4951468293e5e785530aa95a
 msgid ""

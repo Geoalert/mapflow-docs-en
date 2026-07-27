@@ -1,0 +1,887 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/buildings_benchmark_07-06.rst:9
+#: 3b1de42c2a6c4413aeb26c5851f80dea
+msgid "🏠 Buildings v.2026-07-06 — per-location benchmark"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:11
+#: ba2612eb07d94740aab9856eb99ad17f
+msgid "This page details the validation of the **🏠 Buildings v.2026-07-06** segmentation model (Global domain, 0.3 m / z19) on 14 areas of interest (AOI), compared against the **previous version v.2025-12-10** (the current production 🏠 Buildings model). For each AOI the two prediction masks are shown side by side; click any image to open it full size, and use the ← / → arrow keys to browse between them."
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:17
+#: 3aea2691c3b54ac7b301c0618297a5a5
+msgid "All metrics are area-based: **IoU** is the intersection-over-union of the predicted and ground-truth building masks, and **F1 / Precision / Recall** are computed on the overlapping mask area. Evaluation runs: 2026-06-13 (global set) and 2026-06-16 (satellite set)."
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:60
+#: 13a8c094d2774dd8b67450e3ce5fd34f
+msgid "**Mask colour legend:** :raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` **v.2026-07-06**  ·  :raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:64
+#: e3163b94d7d24cc081bf2be8a5253c21
+msgid "Aerial imagery validation set"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:66
+#: 3738fa1f3334466193560d97f4e54e5e
+msgid "Validation on the global set of 9 areas of interest (mixed urban / suburban / rural)."
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:70
+#: d66231722e544b47957892f195f6b1d6
+msgid "United States — Fort Myers"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:76
+#: ../userguides/buildings_benchmark_07-06.rst:107
+#: ../userguides/buildings_benchmark_07-06.rst:138
+#: ../userguides/buildings_benchmark_07-06.rst:169
+#: ../userguides/buildings_benchmark_07-06.rst:200
+#: ../userguides/buildings_benchmark_07-06.rst:231
+#: ../userguides/buildings_benchmark_07-06.rst:262
+#: ../userguides/buildings_benchmark_07-06.rst:293
+#: ../userguides/buildings_benchmark_07-06.rst:324
+#: ../userguides/buildings_benchmark_07-06.rst:361
+#: ../userguides/buildings_benchmark_07-06.rst:392
+#: ../userguides/buildings_benchmark_07-06.rst:423
+#: ../userguides/buildings_benchmark_07-06.rst:454
+#: ../userguides/buildings_benchmark_07-06.rst:485
+#: eb703707ee994b55b3df52461d8b58be
+#: 806d7be6a89744ada013ffa9d0a67f24
+#: 0805fc3a53dd4f19986192dff8a5039e
+#: 1231ff03b9eb4bedb62d62666e68bd7f
+#: 0dbf9bf70ee9434c8fa794175437703e
+#: 298d4333a7444989879682be757718d9
+#: 2ad32251dd504e24908bdddade03a3a0
+#: 0572e0b6d0644fb2b433904ac038c69d
+#: 4d128cc3a1294e5098ee14dd99dff3c5
+#: d46648d3cf604920858a4167d6af710f
+#: ee7cfacef7a7491eacffe05c71f8091a
+#: 8d190efd70c342dabdb36e1ebb647da5
+#: 1fc752dca00c47649c87598c002ec60c
+#: cb1c79b816e04288a56bc49af2da64ea
+msgid "Model"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:77
+#: ../userguides/buildings_benchmark_07-06.rst:108
+#: ../userguides/buildings_benchmark_07-06.rst:139
+#: ../userguides/buildings_benchmark_07-06.rst:170
+#: ../userguides/buildings_benchmark_07-06.rst:201
+#: ../userguides/buildings_benchmark_07-06.rst:232
+#: ../userguides/buildings_benchmark_07-06.rst:263
+#: ../userguides/buildings_benchmark_07-06.rst:294
+#: ../userguides/buildings_benchmark_07-06.rst:325
+#: ../userguides/buildings_benchmark_07-06.rst:362
+#: ../userguides/buildings_benchmark_07-06.rst:393
+#: ../userguides/buildings_benchmark_07-06.rst:424
+#: ../userguides/buildings_benchmark_07-06.rst:455
+#: ../userguides/buildings_benchmark_07-06.rst:486
+#: df161e1f7c8d4ac0858e3525f8ae0cec
+#: 98e0a03514b346a5a2d1c36b1109cfac
+#: 21d6cf6edf4a498c9fd327209c718d66
+#: 079de70a8e354102be354275fcff74e4
+#: d2f5dd0542f346df94dc68d85a16de16
+#: fc11a7f483a74516b67da12fa1378ab6
+#: f7f363c4851646308f213d61bd62e86b
+#: 3cc974cf80524f7b9dc90a8d5004d9b8
+#: 1356a284c1224001a6f55b580ddc332c
+#: 971004525d4a442b869d59b34e5622b8
+#: 28312d99b10a4627989a223147622706
+#: 73dcfb1015d24a9c80554601880c196e
+#: 5c7ef0bce8bf4f36bd55f99e8fa8ea12
+#: cd62bcc040d341f68675cee3303bda13
+msgid "IoU"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:78
+#: ../userguides/buildings_benchmark_07-06.rst:109
+#: ../userguides/buildings_benchmark_07-06.rst:140
+#: ../userguides/buildings_benchmark_07-06.rst:171
+#: ../userguides/buildings_benchmark_07-06.rst:202
+#: ../userguides/buildings_benchmark_07-06.rst:233
+#: ../userguides/buildings_benchmark_07-06.rst:264
+#: ../userguides/buildings_benchmark_07-06.rst:295
+#: ../userguides/buildings_benchmark_07-06.rst:326
+#: ../userguides/buildings_benchmark_07-06.rst:363
+#: ../userguides/buildings_benchmark_07-06.rst:394
+#: ../userguides/buildings_benchmark_07-06.rst:425
+#: ../userguides/buildings_benchmark_07-06.rst:456
+#: ../userguides/buildings_benchmark_07-06.rst:487
+#: 86abba6e803042d79f03b9876031cf49
+#: e6d557a055ff40ce83bff7e7f165d831
+#: b2c684edd7234d08aa8eff540814917b
+#: c3fad920acd341f89dda4f5b6fda9d16
+#: eaf88b450f8f4ca29b51a8fd1997673a
+#: 0085a438ca544a2ea73137103c6ef79e
+#: 0578981d0672498f9d9d6e9ad8ee4b43
+#: 97a0c5ede56a48af9e1c259715b4bd3e
+#: 6cd706c3176c4e5e957668305429e75a
+#: 43d52b6cfe4f475398ffc8a0e3624b12
+#: 32532fef40e14c3eb6baba0199373e7d
+#: 0891191c4098464cae97052329d9e523
+#: b0e8b26d2f434b42a862b6cfd1539640
+#: 16c8cd4236fa4d8cbb7070f8f53d5352
+msgid "F1"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:79
+#: ../userguides/buildings_benchmark_07-06.rst:110
+#: ../userguides/buildings_benchmark_07-06.rst:141
+#: ../userguides/buildings_benchmark_07-06.rst:172
+#: ../userguides/buildings_benchmark_07-06.rst:203
+#: ../userguides/buildings_benchmark_07-06.rst:234
+#: ../userguides/buildings_benchmark_07-06.rst:265
+#: ../userguides/buildings_benchmark_07-06.rst:296
+#: ../userguides/buildings_benchmark_07-06.rst:327
+#: ../userguides/buildings_benchmark_07-06.rst:364
+#: ../userguides/buildings_benchmark_07-06.rst:395
+#: ../userguides/buildings_benchmark_07-06.rst:426
+#: ../userguides/buildings_benchmark_07-06.rst:457
+#: ../userguides/buildings_benchmark_07-06.rst:488
+#: aedd5650ccec4339b56edf8598265250
+#: 09fb10ca92ac4402ac7da0d77a16ff67
+#: 18f494a0781d42eeb69d69dcba1e3d44
+#: d226cf1d50d44ef19289d6f1b8ca744c
+#: 0f04960fe5064c6ebc2b77da3718224c
+#: f65040213615405ca203bc544975fa6d
+#: 901cfd161a5b4827ad5a953feb8411d3
+#: 40b6a7521acf4391b87997a39d4ddfa9
+#: f4af21a9171a4e7fa9172ed9f05a3ea2
+#: fbee7b785e8b4423bdffa793678ccb68
+#: 9fd02928b003497ebde777e42fcfcaf5
+#: e5abc86b372f4454b6c8d9c7ee8278c0
+#: 0d4a978611284b21b9a2a5c859935839
+#: 0642c2bef829425dafdf2664162a8f2c
+msgid "Precision"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:80
+#: ../userguides/buildings_benchmark_07-06.rst:111
+#: ../userguides/buildings_benchmark_07-06.rst:142
+#: ../userguides/buildings_benchmark_07-06.rst:173
+#: ../userguides/buildings_benchmark_07-06.rst:204
+#: ../userguides/buildings_benchmark_07-06.rst:235
+#: ../userguides/buildings_benchmark_07-06.rst:266
+#: ../userguides/buildings_benchmark_07-06.rst:297
+#: ../userguides/buildings_benchmark_07-06.rst:328
+#: ../userguides/buildings_benchmark_07-06.rst:365
+#: ../userguides/buildings_benchmark_07-06.rst:396
+#: ../userguides/buildings_benchmark_07-06.rst:427
+#: ../userguides/buildings_benchmark_07-06.rst:458
+#: ../userguides/buildings_benchmark_07-06.rst:489
+#: 9ed901acd60d47398bf735ecdbba8f02
+#: 924f92fbadcb49758cda7176d433cae9
+#: 822f9226fd574879b708f0f5085ed488
+#: f39b8d2a7a4a4dd68de9aece05aa583e
+#: fd5f33d7aea54cd48aaffcf584452524
+#: 1f1532609b0d49c185a6ba8283f1f4fb
+#: c0f0155fdf0446beb9d857192687e433
+#: 665d20a29fda4505b47637f119f0099a
+#: 3098d510fc29404295e72cca32e0dd0a
+#: 316151d36ef749988dcb6615a68f663f
+#: 1cc2777f84584e51b46a4149ae385d13
+#: d848a52171b14ed8b35b363243ae4bb1
+#: 8d163252b12d4711a5e01b905d487ab1
+#: b86e52eb28bb4ba6a6a2816222fae90d
+msgid "Recall"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:81
+#: ../userguides/buildings_benchmark_07-06.rst:112
+#: ../userguides/buildings_benchmark_07-06.rst:143
+#: ../userguides/buildings_benchmark_07-06.rst:174
+#: ../userguides/buildings_benchmark_07-06.rst:205
+#: ../userguides/buildings_benchmark_07-06.rst:236
+#: ../userguides/buildings_benchmark_07-06.rst:267
+#: ../userguides/buildings_benchmark_07-06.rst:298
+#: ../userguides/buildings_benchmark_07-06.rst:329
+#: ../userguides/buildings_benchmark_07-06.rst:366
+#: ../userguides/buildings_benchmark_07-06.rst:397
+#: ../userguides/buildings_benchmark_07-06.rst:428
+#: ../userguides/buildings_benchmark_07-06.rst:459
+#: ../userguides/buildings_benchmark_07-06.rst:490
+#: 2e4da6e65ade424fb8bcbfff52d98d9c
+#: 2f6a1e71c4b444d8ac070c4bbc5e2002
+#: 55f6f5f2352c4627b4e8312c58812a03
+#: df0f44b22ec14305bce7a3162624b655
+#: 1b0c8594d9624d45b35174d9800c8203
+#: d014fb6558af43fbb7a5efa35af953c9
+#: 39b0f83ee6d24e74aff686ed8ce74a93
+#: e9595a0d3b41441f8a0744f9699d8248
+#: 17d3e75a2bf543eb875ea93de6d2f918
+#: ddb4a8404be14c2986c972f8950c0dd0
+#: d3ee72fb0be84295974584bc36e784b1
+#: 265ae828ee8044f7bc3ae61054dd6d9c
+#: 87104892ab924f5cb620a2ff54630d49
+#: c09bf296481b46cd9400aee3ef7a6be7
+msgid ":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` **v.2026-07-06**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:82
+#: ../userguides/buildings_benchmark_07-06.rst:494
+#: 1ff7b2a693b642649c760c43e21a7532
+#: 23f273af00a94f48b6600a1b9a09a483
+msgid "**0.907**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:83
+#: 05f57bcf919b41b68ab3323d9a9f1a11
+msgid "**0.951**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:84
+#: f2154e7b844340b9b2ce0c6a38c39dae
+msgid "**0.983**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:85
+#: 084cb0fde3ee4d97b924f7d91bdd449e
+msgid "**0.921**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:86
+#: ../userguides/buildings_benchmark_07-06.rst:117
+#: ../userguides/buildings_benchmark_07-06.rst:148
+#: ../userguides/buildings_benchmark_07-06.rst:179
+#: ../userguides/buildings_benchmark_07-06.rst:210
+#: ../userguides/buildings_benchmark_07-06.rst:241
+#: ../userguides/buildings_benchmark_07-06.rst:272
+#: ../userguides/buildings_benchmark_07-06.rst:303
+#: ../userguides/buildings_benchmark_07-06.rst:334
+#: ../userguides/buildings_benchmark_07-06.rst:371
+#: ../userguides/buildings_benchmark_07-06.rst:402
+#: ../userguides/buildings_benchmark_07-06.rst:433
+#: ../userguides/buildings_benchmark_07-06.rst:464
+#: ../userguides/buildings_benchmark_07-06.rst:495
+#: cb83fcf790cd42a2846a3356fc707d89
+#: 5386eaded7bd465497b1d357a1e5e2aa
+#: 25517414f6e74eb3821394baeb1734ff
+#: 2ac49afc92fc4071b3539006326af2c1
+#: bf73438ec7de4f6b896224b75f1583c3
+#: 8d486fe2c58e4ff3a5c3164cfa1920d7
+#: 9d72f8fd6ef14185a4852cac7c34cefb
+#: cd60d58c696349f3bb8af71506bd92de
+#: db1932278fa94b88b5e22b102bd831c9
+#: ff68b5f90ffd42399b1b8946c6312d37
+#: a128adbbf77c45c899623186b0c5c699
+#: 234082876e7e47ce8c5faced38de619f
+#: 301fd6cadd8e4e07b16bd9ba64ff3d87
+#: 2ba1f6a6aafb4e71ac07f14b861e2ea9
+msgid ":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` v.2025-12-10"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:87
+#: d984ba180af74969ab3477241384460c
+msgid "0.880"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:88
+#: b4e8d2b3f55b4921bb49e431ef0941f2
+msgid "0.936"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:89
+#: fa07105235744014ae920027cd240ff6
+msgid "0.974"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:90
+#: 1d1a4aa199ad4a18b6b064816cf0875c
+msgid "0.901"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:101
+#: 6459aa8075474ced94e959f2cd8de82e
+msgid "Canada — Rigaud"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:113
+#: 4064a9edfb124e5899ebe1d0fcd6f902
+msgid "**0.870**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:114
+#: 64127b775eb0486f9cc86615ef80b35f
+msgid "**0.930**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:115
+#: 2c59ed828c0840529391b046a676626f
+msgid "**0.934**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:116
+#: ../userguides/buildings_benchmark_07-06.rst:213
+#: fe67d5442ec747c292c134e7613cf6e5
+#: e19cb3c81eee4d23b977e59b0803525a
+msgid "**0.927**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:118
+#: 8ebda0174232490ea1774331ae4bd2e1
+msgid "0.842"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:119
+#: 97c6f81cc1584b9bb28010c234bd627a
+msgid "0.914"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:120
+#: a9c562426f424e2286d066df2e177f0c
+msgid "0.923"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:121
+#: ../userguides/buildings_benchmark_07-06.rst:274
+#: b66df3b2e3ba498eb8431a07b369ec4e
+#: cb12c9394c734ca38bc075b4bbcfd61b
+msgid "0.907"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:132
+#: c4620b22d85744c092ea05624db935f1
+msgid "South Africa — Worcester"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:144
+#: d19280b4f102419cba2bcc374dcfd6c4
+msgid "**0.592**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:145
+#: 48bb7e7f28dd44dd98a86f42793a1fc0
+msgid "**0.744**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:146
+#: ../userguides/buildings_benchmark_07-06.rst:330
+#: 8e6d7d6abcea4839b422350ed3f2ad60
+#: 426150dabfa949f8a67f13a6353a3af0
+msgid "**0.867**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:147
+#: 786c4e4277df40389a74396916312d91
+msgid "**0.651**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:149
+#: 86c261c8e7664613acce2de570bb49db
+msgid "0.385"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:150
+#: 0b5ee93a96ad40919e85c5c041c70e46
+msgid "0.556"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:151
+#: 51a81f1ec5f84499b7c10b57424b9c0b
+msgid "0.845"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:152
+#: 955e88da9777475ebc8a2cbe8b72b382
+msgid "0.415"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:163
+#: 5b8e250bbb954227b3059fcd760176fd
+msgid "New Zealand — Wellington"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:175
+#: fd22e402748547639095eeae027b267b
+msgid "**0.838**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:176
+#: 02ab4509c7fe4831a9b0ab6428f47811
+msgid "**0.912**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:177
+#: 9aae5cac6d1b420881420dcda73366d5
+msgid "**0.900**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:178
+#: 917b3613939846e8b5b827a50ba78d03
+msgid "**0.924**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:180
+#: d4dc7e4e4a4641cd889d1100a5ce2c08
+msgid "0.790"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:181
+#: 4ff26a0de8ad4ef38757da0253a242e8
+msgid "0.883"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:182
+#: 4aea7250b0e74179a5968e379ec97f90
+msgid "0.888"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:183
+#: c1c18916d99b482fa681f4e414d7b786
+msgid "0.878"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:194
+#: df1ef9cc25b548b3b676e8a618701c3a
+msgid "Côte d'Ivoire — Bangolo"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:206
+#: fb9425a8d3fb40e9979549db5c7fd6e7
+msgid "**0.663**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:207
+#: 02e81220e6694bea9d93213cd6e00fc8
+msgid "**0.797**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:208
+#: ../userguides/buildings_benchmark_07-06.rst:243
+#: 06ae140e16034cb89362690c1536a721
+#: fd805f74535442c180ba865170285066
+msgid "0.844"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:209
+#: 11cbb2abb697416885789de8eb13ff77
+msgid "**0.755**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:211
+#: 5c8fbd6e455842bc95ee94c9595f8fa4
+msgid "0.642"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:212
+#: 6c082735e46341d6ab915bd75812b09c
+msgid "0.782"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:214
+#: aed18dc27a6d47629bca5b6ce008034e
+msgid "0.676"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:225
+#: ae5c877b8ea14afd914f9fbb8495005c
+msgid "United Kingdom — London"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:237
+#: 7d9a9198132a442f9a00f07d2b3be4be
+msgid "**0.813**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:238
+#: ../userguides/buildings_benchmark_07-06.rst:493
+#: f844a81977804fbdaf45af1777949ebb
+#: 61b39bacbfee4789b0591c31dce8f415
+msgid "**0.897**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:239
+#: 541ee8bb97d64d899380a22f32ef13d7
+msgid "**0.873**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:240
+#: b1352484bc6346f3b610303a66d35949
+msgid "**0.922**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:242
+#: e11b19ce25e14826a80b599c41697c0b
+msgid "0.730"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:244
+#: 29173aee6fe0480db7deb339c99fd5f0
+msgid "0.800"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:245
+#: 76891a1f445249da9e29a264c5007415
+msgid "0.892"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:256
+#: 98e29e4132584b308f8eeede189ec5c5
+msgid "Australia — Adelaide"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:268
+#: 5e714b2123d24b209fdaf6b9c2a6521d
+msgid "**0.868**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:269
+#: ../userguides/buildings_benchmark_07-06.rst:331
+#: 158bfe6269b944cea884b82480d0ca7f
+#: 82328aa10f264841b0a5b596aedbd888
+msgid "**0.929**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:270
+#: 8002d55b34af4560ada44763399c2e47
+msgid "**0.914**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:271
+#: 1c2d8df6b62a492c8632a629d03cf245
+msgid "**0.945**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:273
+#: 5482ef8782094195b6009a2424f485c1
+msgid "0.830"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:275
+#: 3028f9bf4c2c4376aaed7e4d7c8863bd
+msgid "0.899"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:276
+#: 38cf9e575ce94fc7b3a116eefa810b76
+msgid "0.915"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:287
+#: af814d7230eb4387a16db974e1ff3021
+msgid "United States — Phoenix"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:299
+#: ../userguides/buildings_benchmark_07-06.rst:333
+#: 84f0552f5ed64e74b2ebe4d41b231422
+#: 8070305f98c04195a39551608fc11d13
+msgid "**0.903**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:300
+#: ce334370a8bf47148455ca85b201121a
+msgid "**0.949**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:301
+#: dcbca3ec44714f1d9c31aca561db261a
+msgid "**0.944**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:302
+#: 2d66a5cd72e5411fb00cb8a76d1193e0
+msgid "**0.953**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:304
+#: ../userguides/buildings_benchmark_07-06.rst:404
+#: 47b0c79e9d524647abfd12e8447748cc
+#: b9f6c9b3e27f496186b565dbc058fed5
+msgid "0.847"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:305
+#: 410fbed6b6f5466da79a095d38e54e90
+msgid "0.917"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:306
+#: 4a93dd16c8344320a59c783ae6f336b9
+msgid "0.902"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:307
+#: a0c3e9f072704f0794a880bbe6e1c047
+msgid "0.933"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:318
+#: 1c91b69323e04b9e8503497053572946
+msgid "New Zealand — Lower Hutt"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:332
+#: f0a1a0a294f14e5199902bf42b80f0b0
+msgid "**0.956**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:335
+#: 74910cc92fff4a5097d262bfbdd9ce8b
+msgid "0.814"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:336
+#: a62c37e21f774496b09730106dd4c352
+msgid "0.898"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:337
+#: 3178bcfc9d9d437bb9952cb996636c09
+msgid "0.931"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:338
+#: f57e2b012c5b47b19003753100b59ebb
+msgid "0.867"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:349
+#: cbc738cc5b0e416fac32b6de5184e3ae
+msgid "Satellite imagery validation set"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:351
+#: 125a9916da1c497399991e82aa033cc4
+msgid "Validation on the global set of satellite imagery across 5 dense urban areas."
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:355
+#: deedd411398249aa9e5043483c57f798
+msgid "United Arab Emirates — Abu Dhabi"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:367
+#: 19751b57970641caa8096e4fa6bc5a6d
+msgid "**0.751**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:368
+#: aef1ffab004f45d6889a7ce1e274d033
+msgid "**0.858**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:369
+#: 5225d71f62c34c338adb14c6a0d8c2a7
+msgid "**0.828**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:370
+#: a6e131fa6dd84d09a40aa96c6d4233fa
+msgid "**0.890**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:372
+#: bdb081f26c554d09a1ff3cbbb1b554e7
+msgid "0.717"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:373
+#: b412e0612ad84a0f9dfe1949668bd037
+msgid "0.835"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:374
+#: 149ab1d9e9474116b82b1e10875f9f33
+msgid "0.817"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:375
+#: ace422486fc348d38abf0265e4fbb55f
+msgid "0.854"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:386
+#: f2da0b74f07548af9e3d1cb10d2f989c
+msgid "India — Bangalore"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:398
+#: 756244f8397b4abdb680a0315feb1338
+msgid "**0.779**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:399
+#: 6285c824bcdb4e24a35dcd6452768647
+msgid "**0.876**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:400
+#: 2794b0fb4f044803bea9902e0926f803
+msgid "**0.859**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:401
+#: d8d8d40d085f4c18bd5919587102b067
+msgid "**0.894**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:403
+#: cd9beb31c7c14076a027351c5afa73c4
+msgid "0.735"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:405
+#: 2110f83f90184f99be484a62dc60abda
+msgid "0.848"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:406
+#: 37234b447e8147efa3e9702381b0a488
+msgid "0.846"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:417
+#: 2dfbfba294c54ebca4a7a322c8f0550b
+msgid "Saudi Arabia — Riyadh"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:429
+#: f9057eeaf26e490a9bb01cc9b075cd51
+msgid "**0.817**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:430
+#: 2fcc53630c1a47f8a6e352c2f3622332
+msgid "**0.899**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:431
+#: 8a64e0ad12d04dccba59919cb58011f5
+msgid "**0.920**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:432
+#: 0ccd32370f194521990b665387782a03
+msgid "0.879"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:434
+#: 2cdf94276bfe40e0bd545d58dd907af1
+msgid "0.654"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:435
+#: 84bea025e1514748a4bef3cb07326ff1
+msgid "0.791"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:436
+#: 8a7d75b1bcbd4705949d44de8191dd1a
+msgid "0.687"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:437
+#: 1c0d356e2f144e919bcc8cc6e0e7ca36
+msgid "**0.931**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:448
+#: 06d2c1b124c342348a0f30b791683d69
+msgid "India — Thane"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:460
+#: 2ac60db802b44358873f90f543662989
+msgid "**0.768**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:461
+#: 6040deceb2d0402f9bcedc7044ec36b6
+msgid "**0.869**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:462
+#: 94032ae577e24c03a80fa8383cabd083
+msgid "**0.889**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:463
+#: 325fd1f541134207a2892ecfeb557654
+msgid "**0.849**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:465
+#: 784b0a603cf54a1ab093adb48c77c778
+msgid "0.722"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:466
+#: e831ab2387a3448a85f4823d64bf6390
+msgid "0.839"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:467
+#: 5c0a0c2947fc49ff9ecab9212432d6cc
+msgid "0.871"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:468
+#: 91e668b605444a099ec4f1a6cb094963
+msgid "0.809"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:479
+#: 9f200116375945d2b127e2b6be22730f
+msgid "Russia — Ufa"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:491
+#: d0ebb3f4a4394acc92bdb8859d95d91c
+msgid "**0.821**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:492
+#: f17d704e2fcc41da989a766472d74d9e
+msgid "**0.902**"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:496
+#: fd049cc9efd6422bb936e5b398a9fc11
+msgid "0.818"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:497
+#: 35e9070bbc0b4ddabb32b5f8200b0e99
+msgid "0.900"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:498
+#: 9c9029586d654bf8baf7c2f8ef8abe44
+msgid "0.897"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:499
+#: 847ad2a68cdb4322b19635f380f9c455
+msgid "0.903"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:510
+#: 61c2021505174c20b46ceca4ddff5fec
+msgid "Summary"
+msgstr ""
+
+#: ../userguides/buildings_benchmark_07-06.rst:512
+#: 197ebdf8bf3a44caae32fa29a6e7c6db
+msgid "**v.2026-07-06** leads the previous production model on F1 in **all 14 AOIs**. On the global validation set of aerial imagery (9 AOIs) the mean area-based F1 rises from 0.849 to **0.893** (IoU 0.751 → **0.813**); on the 5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to **0.881** (IoU 0.729 → **0.787**), driven mainly by higher recall and precision in informal and high-density built-up areas such as Riyadh, Bangalore and Thane."
+msgstr ""

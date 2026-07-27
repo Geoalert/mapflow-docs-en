@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -51,13 +51,56 @@ msgid ""
 "roofs."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:9 238a9cebee594fbf9d07752a8ce94dab
+#: ../userguides/buildings_model.rst:9 79fedb6e00174384b93b8977917ef333
+msgid "**Model tags** |:label:|"
+msgstr ""
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Version"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:11 4b495704852f4d1ab04e1d4c8e214996
+msgid "2026-07-06"
+msgstr ""
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 5a5b9001849e46d1a609c24b704d42ee
+msgid "Geo Domain"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12 ../userguides/forest_model.rst:15
+#: ../userguides/solars_model.rst:23 ../userguides/swimming_pools_model.rst:23
+#: 20abb20941b24c71b9f829baa95287d3
+msgid "Global"
+msgstr ""
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Model method"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:13 ../userguides/forest_model.rst:16
+#: 1f4e7cc5a1ed4637abf018267d60b6b7
+msgid "Segmentation"
+msgstr ""
+
+#: ../userguides/buildings_model.rst ../userguides/forest_model.rst
+#: 3ec393fb872344689c3e55b3705b6756 6a842b844ebc4b4999064d9dc359c998
+msgid "GSD / Map Zoom"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:14 f03a3d19c9904fba98ffe9f02a59bb3c
+msgid "0.3 m / z19"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:16 238a9cebee594fbf9d07752a8ce94dab
 msgid ""
 "*Note:* The building predictions with area less than 20 sq.m. are removed"
 " to avoid clutter"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:11 86bfee4712f54a42927729111882c023
+#: ../userguides/buildings_model.rst:18 86bfee4712f54a42927729111882c023
 msgid ""
 "The model does not extract the footprints directly, because they are not "
 "clearly visible in the images, but it can obtain them, just like human "
@@ -65,19 +108,19 @@ msgid ""
 "Additional options)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:13 ../userguides/forest_model.rst:21
-#: b596f7db35ca45098032bacd3b861a9a cea82db6c6864d7dbc32f8911f52f37e
+#: ../userguides/buildings_model.rst:20 ../userguides/forest_model.rst:28
+#: cea82db6c6864d7dbc32f8911f52f37e
 msgid "**Additional options:**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:15 42ffb90696be485e9b60c449abfbd31c
+#: ../userguides/buildings_model.rst:22 42ffb90696be485e9b60c449abfbd31c
 msgid ""
 "**Classification by types of buildings** – typology of buildings is "
 "represented by the main classes (see :ref:`reference "
 "<buildings_classes>`)."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:16 26017519096b43a1b501407b0b8388f6
+#: ../userguides/buildings_model.rst:23 26017519096b43a1b501407b0b8388f6
 msgid ""
 "**Regularization** - the algorithm corrects the irregularities of the "
 "contours of our model. The irregular geometries are replaced with "
@@ -87,14 +130,14 @@ msgid ""
 " lost."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:17 367e12b28a2d4225a674594cc1740e58
+#: ../userguides/buildings_model.rst:24 367e12b28a2d4225a674594cc1740e58
 msgid ""
 "**Simplification** - simplifies the building shape, staying close to the "
 "original mask, adjusted for curve and complex shapes. More approximated "
 "shapes, but less right angles."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:18 c77e5159faed4284bb52ee45c53949da
+#: ../userguides/buildings_model.rst:25 c77e5159faed4284bb52ee45c53949da
 msgid ""
 "**Merge with OSM** - some of the areas have great coverage of "
 "OpenStreetMap data, and if you prefer human-annotated data, you can "
@@ -106,7 +149,7 @@ msgid ""
 "nearest roads downloaded from OSM."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:19 3631371b38f44645a860223b3bae7913
+#: ../userguides/buildings_model.rst:26 3631371b38f44645a860223b3bae7913
 msgid ""
 "**Height Estimation (beta)** – feature leverages a dedicated regression-"
 "based model that infers height using visual indicators such as shadow "
@@ -116,122 +159,461 @@ msgid ""
 "oblique imagery, where roofs often appear shifted."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:21 a6010a79ef124d3c9d27f2a9aa2b699c
-msgid ""
-"A sample of processing result with different options for Prague, Czech "
-"Republic."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:29 ../userguides/buildings_model.rst:37
-#: ../userguides/buildings_model.rst:45 40252522147546d19d6a9ca15dc91bad
-#: 585873f9e28740f187f5faf031c01b3c cf97c96b6fed4964a4ec2450848e2917
-msgid "Processing result of buildings model"
-msgstr ""
-
-#: ../userguides/buildings_model.rst:29 e8ed817b90d24b50aaab1aa66e4c864d
-msgid ""
-"Result without postprocessing: irregular building shapes, but best fit to"
-" the actual rooftop contour seen in the image."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:37 286cd4ef37354ccd8f1f2015a97a0394
-msgid "Result with simplification: most of the buildings become rectangular."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:45 28ec472697874dafaf4773e6b07abb00
-msgid ""
-"Result merged with OSM: some of the buildings imported from OSM have more"
-" accurate shape, but may be shifted from the image position."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:53 108a2201da03440091ee7553058920a2
-#: b662ccc8ccda46898ebb3ae897af7f44
-msgid "Processing result of buildings model with height estimation in Mapflow Web"
-msgstr ""
-
-#: ../userguides/buildings_model.rst:57 e3745775600d48e7890d420a50e05674
+#: ../userguides/buildings_model.rst:30 ../userguides/forest_model.rst:70
+#: 1f4e7cc5a1ed4637abf018267d60b6b7 e3745775600d48e7890d420a50e05674
 msgid "Benchmarks - segmentation"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:61 37395c191d034f6b9f182aacb97f37b8
-msgid "**Houston, U.S. (-95.2920, 29.7718)**"
+#: ../userguides/buildings_model.rst:33 bb9e9745e4f248e3b71bb83712b6d2d9
+msgid "Aerial imagery"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:61 c9b79df3680d46c4a825ff2ae8dac86c
-msgid "– `View on the Map <https://app.mapflow.ai>`_"
+#: ../userguides/buildings_model.rst:35 045efbcb643147cc84a34f7f8db1a185
+msgid ""
+"Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m"
+" / z19). The model was evaluated on a global validation set of 7 areas of"
+" interest (AOI) against manually annotated ground truth. Metrics are "
+"area-based: IoU is the intersection-over-union of the predicted and "
+"ground-truth building masks, and F1 / Precision / Recall are computed on "
+"the overlapping mask area."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:67 ../userguides/buildings_model.rst:93
-#: 3f9ade13f9614e0f9fcc69cde629e0f6
-msgid "Model version"
+#: ../userguides/buildings_model.rst:45 ../userguides/buildings_model.rst:124
+#: ../userguides/forest_model.rst:82 6f32624821c04f2fa4044ae5fdda5407
+#: a3060e138ef64aeebc87e2ac7d9fb904 e8873f19f1b640ecbe4ce2164a1271ad
+msgid "AOI (location)"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:68 ../userguides/buildings_model.rst:94
-#: ../userguides/solars_model.rst:15 ../userguides/swimming_pools_model.rst:15
-#: 3961bbaf29f14efabc0ae616e15c36d7
-msgid "Model type"
+#: ../userguides/buildings_model.rst:46 ../userguides/buildings_model.rst:125
+#: ../userguides/forest_model.rst:83 2d626ad7ff414f5a93c38d49db583dba
+#: b094abec06d342ddb132ebbcd20f43b1 f0809882e64c480cb5e63440d9919e12
+msgid "Predicted features"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:69 ../userguides/buildings_model.rst:95
-#: ../userguides/solars_model.rst:16 ../userguides/swimming_pools_model.rst:16
-#: e9d0beedc1c34fc3a1068eb98671f909
-msgid "Zoom level"
+#: ../userguides/buildings_model.rst:47 ../userguides/buildings_model.rst:126
+#: ../userguides/forest_model.rst:84 1aba1d04cc24413fbe0fcecba854faf8
+#: 2588b3a78a05473fbd6dcef312a799b6 3d9d181174674d75901956ad2d6f0dd9
+msgid "IoU"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:70 ../userguides/buildings_model.rst:96
-#: 3d87cad2b713461dae9e64ec38d74a32
-msgid "F1 (AOI)"
+#: ../userguides/buildings_model.rst:48 ../userguides/buildings_model.rst:127
+#: ../userguides/forest_model.rst:85 9d4affa85a61439dafbe4140268aee92
+#: ad401bce79164ea1a2792a4ec04d74da c3f57e739a13444fafefc394414d117e
+msgid "F1"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:71 ../userguides/buildings_model.rst:97
-#: 0ff3d18147d04b71b984fd7199f32df2
-msgid "Urban-pattern"
+#: ../userguides/buildings_model.rst:49 ../userguides/buildings_model.rst:128
+#: ../userguides/forest_model.rst:86 3f9ade13f9614e0f9fcc69cde629e0f6
+msgid "Precision"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:72 ../userguides/buildings_model.rst:98
-#: 679bc87e86c84112ad612cdc2373fe22
-msgid "🏠 Buildings v.8a"
+#: ../userguides/buildings_model.rst:50 ../userguides/buildings_model.rst:129
+#: ../userguides/forest_model.rst:87 055e800fbf34406893381016e0252f59
+#: 0bb2e2822b984c1e8943769271a0113d f0f30ec5352e4cd08ee396b30c0417a6
+msgid "Recall"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:73 ../userguides/buildings_model.rst:99
-#: 1f4e7cc5a1ed4637abf018267d60b6b7
-msgid "Instance segmentation"
+#: ../userguides/buildings_model.rst:51 d039f1346a304bbd8fd580cc3025b188
+msgid "United States — Fort Myers"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:74 ../userguides/buildings_model.rst:100
-#: ff93c5c9e33c4fb38823b4d49d2d3aee
-msgid "zoom 18"
+#: ../userguides/buildings_model.rst:52 23bcbd6a38794e19b29593e930874fe5
+msgid "65"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:75 bad94e9bbff44bc5bf94eedc28fcedf4
-msgid "objectwise 0.72"
+#: ../userguides/buildings_model.rst:53 ../userguides/buildings_model.rst:135
+#: 0009bbfeacfb40e28313ea56fb01b4d7 56ac5ae996724231b7e9be6956c34718
+msgid "0.907"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:76 bfb23eb7a2404e2e84ba19957cc55970
-msgid "low-rise – urban mixed"
+#: ../userguides/buildings_model.rst:54 41dd9b7f92094ca9b41801ad90c7569e
+msgid "**0.951**"
 msgstr ""
 
-#: ../userguides/combo_model.rst:13 ../userguides/construction_model.rst:13
-#: 1650f333d11c4ea6be55d0ad2d117294 8f36eaa496c54ee2bd1bfa713c4bc63e
-#: 905eea2ec0af41e4a8b30dc09ef8d690 ba24a6599d244d318d897823e0a7143d
-#: f9cadf3b88944d02891fa0144b057a41
-msgid "Processing result of construction model"
+#: ../userguides/buildings_model.rst:55 a6db4c1b2f8741b08560cf3f01d4d1fa
+msgid "0.983"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:87 e74a8099b8024edfadbe984d42cd45a6
-msgid "**Kolomna, Russia (38.7657, 55.0928)**"
+#: ../userguides/buildings_model.rst:56 02f51e54e38a4e999269d49d3f304a69
+msgid "0.921"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:87 ee0633808cf04d139af8809c7c837845
-msgid "– `View on the Map <https://app.mapflow.ai/>`_"
+#: ../userguides/buildings_model.rst:57 3a53e8a3222741b18698856a61fbe790
+msgid "United States — Phoenix"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:101 390b60ad2dfe405f9cd7dcfd71db6ffb
-msgid "objectwise 0.75"
+#: ../userguides/buildings_model.rst:58 6c2eaae2ca5349b9946747cbc5bde412
+msgid "47"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:102 269b85f5207040e4aaa7ad6231a5c87d
-msgid "urban mixed - regular"
+#: ../userguides/buildings_model.rst:59 ../userguides/buildings_model.rst:80
+#: 6c2e83fb41ba4f448d8bee7edf1df2f5 e14c5d5dbb57493e9aca5c39df473ecb
+msgid "0.903"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:60 7f0e4702d7124d6190227cc3ca291b89
+msgid "**0.949**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:61 ../userguides/forest_model.rst:92
+#: b685c0698bb6418782b7f9206beb3899 e07099055365492cbc859a2f0bce5669
+msgid "0.944"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:62 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.953"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:63 7644135f3c2c4d36938c9f1f30bc7469
+msgid "Canada — Rigaud"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:64 ef1d13aa2f6144cbb25326855b61ace6
+msgid "103"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:65 06f4cf3cb86a4ed29ac05730b7d3a3ae
+msgid "0.870"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:66 ce1dbe6852124d1ba15ab90369aeb17d
+msgid "**0.930**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:67 6f020502d5cc4765b5eca4596df92a3c
+msgid "0.934"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:68 9ae78c39b8394203a759a73ab514bef4
+msgid "0.927"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:69 5c9b7256ba604b62874b30106739629d
+msgid "Australia — Adelaide"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:70 2b3140e8c5a74b2e97d1a32057b1dc38
+msgid "92"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:71 ../userguides/forest_model.rst:141
+#: 57932b65856a4354b82e11cab40852b0 b5319c85b719438e98686c6865290c6b
+msgid "0.868"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:72 ../userguides/buildings_model.rst:78
+#: 2792047114414b1c959e6e07a3bcb5fe b8602ff02cf74cfca92b8fe360118f71
+msgid "**0.929**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:73 1af91d403bef4ceeb8f3101b146739c3
+msgid "0.914"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:74 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.945"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:75 2e3e17e4f7154f50a0f5c8ef74cb7410
+msgid "New Zealand — Lower Hutt"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:76 d78825962c874c24a2cb1f94256b4b8b
+msgid "106"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:77 ../userguides/buildings_model.rst:103
+#: 6d9e0e49ecfb4bffaf041d8a4d73cc38 9e6240197f424b29b1f15d792491f87b
+msgid "0.867"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:79 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.956"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:81 589792511b934f019e6ba57bbe903dc0
+msgid "New Zealand — Wellington"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:82 d78825962c874c24a2cb1f94256b4b8b
+msgid "76"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:83 c7f9bc553df24990bb173a4ebcef1739
+msgid "0.838"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:84 5d190fc55f754fe99426a289e9f938f9
+msgid "**0.912**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:85 9de30da200494292a743db18f8a14211
+msgid "0.900"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:86 964de08d273e4936b134e9899ab0a79c
+msgid "0.924"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:87 c6543bae95bd48ec956a370635805922
+msgid "United Kingdom — London"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:88 2b7aabd555824d3e99ea85f15a3cd286
+msgid "68"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:89 ../userguides/buildings_model.rst:107
+#: ../userguides/forest_model.rst:96 0fb1697ea7164ab894afdaab00f62726
+#: 611323adcce441c895ab9d46b75839d5 8d1fb6b8a7c547dcadafacc6582d3266
+msgid "0.813"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:90 ../userguides/forest_model.rst:97
+#: 0714145eede2443d96dc9eccd148b36b 7652f8dd06c14d29a88b0cdfc29e415b
+msgid "**0.897**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:91 ff214cc59774445695f2d22f668efde7
+msgid "0.873"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:92 c326cbe69ffd4242a45f29974e1ae5e3
+msgid "0.922"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:93 05514f45be0e47f78f3e5b68122d852b
+msgid "Côte d'Ivoire — Bangolo"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:94 b59a1bb325ea47bbb696241e26ffb501
+msgid "102"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:95 3c550927f7204ba4b6ff38f10bf14922
+msgid "0.663"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:96 5741c724be794602a64db0a670a78ad3
+msgid "**0.797**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:97 3a4bd433722e42f49d20685571d73038
+msgid "0.844"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:98 9954133cbd1248ffa11eafd9ee40da72
+msgid "0.755"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:99 cb2bbc0789f44343a32e20b9ad1810dc
+msgid "South Africa — Worcester"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:100 ../userguides/forest_model.rst:119
+#: d78825962c874c24a2cb1f94256b4b8b
+msgid "156"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:101 e046e42a4a794e8da326a89f298fe34a
+msgid "0.592"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:102 a774b7321aaf46f6b62710cc63a3fba7
+msgid "**0.744**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:104 a2b8415e09b143c88a3d9c6ca5acc0f9
+msgid "0.651"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:105 a62c8a9407984758ac2bf26e78ef586d
+msgid "**Aerial (mean of 9 AOIs)**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:106 2daa68e8891c40d483a46a7540ee14bc
+msgid "815"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:108 14dd912ed0434c2487236ee0a14739dd
+msgid "**0.893**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:109 03d70600715349659f1f96e597b5e35f
+msgid "0.913"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:110 d76fb9c69d3a4a1583a53868295bed0b
+msgid "0.878"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:112 9f21a3c370ca444c8300b80cc5ef3411
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"building masks; evaluation run 2026-06-13.*"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:115 1c1b16c99ef748b99dafbc91d6f70c79
+msgid "Satellite imagery"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:117 0b31c992a6ee4952a63131ea245987da
+msgid ""
+"Additional validation of **🏠 Buildings v.2026-07-06** on satellite "
+"imagery across 5 dense urban areas of interest."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:130 7ff74b91f06b49b2b0970a93afe44b0f
+msgid "Russia — Ufa"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:131 d38ce150b0d84032bcc0d7435909236d
+msgid "426"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:132 71628d62b5284c4cbcfdebc7ddf37421
+msgid "0.821"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:133 e6262f8acc2b42fd88e90511f963c117
+msgid "**0.902**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:134 67f33c2d848c461897909382d70d4fb2
+msgid "0.897"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:136 2e58ef4dbb27424a977d5f88cf2d4adb
+msgid "Saudi Arabia — Riyadh"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:137 dd843b6973724fb29c119ca4e824e1c0
+msgid "225"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:138 5ebb5f44852a46ea99768352bf435588
+msgid "0.817"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:139 34fedff23e86472e96eb718ab93d3c02
+msgid "**0.899**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:140 f8210bb93a4b4f2085162d4efabd0c24
+msgid "0.920"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:141 ../userguides/buildings_model.rst:164
+#: 0bb8024a7ee84bdaab064836e1f291ad 183bdb37a1a640ccbd2d60f508d386a8
+msgid "0.879"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:142 35b137b83a7d4d9fa5e03d50585dc922
+msgid "India — Bangalore"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:143 67b96c1d09a2404da52b64bf0f5ab083
+msgid "508"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:144 111900af12fb4ac68d605446088fbd52
+msgid "0.779"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:145 a580e5cd6eef4d978565affa9cbc5c9a
+msgid "**0.876**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:146 ../userguides/forest_model.rst:116
+#: 9dc413722f9c4307a3661992261b7774 b2e1c26ebabc475b81ec5fb75a9b9eb9
+msgid "0.859"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:147 ../userguides/forest_model.rst:110
+#: a63391b1690e452998f975b13071c206 b65adecd4c83404fba6d8bcaf3a5ee39
+msgid "0.894"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:148 d39a837190ef43f59d186302df64bf63
+msgid "India — Thane"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:149 edcb4186286e4709aefc42379d38edd7
+msgid "429"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:150 2a569d84fa3d41cf9bf552c733890780
+msgid "0.768"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:151 b7253cda5c10480b8f515986dea53cf5
+msgid "**0.869**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:152 4b4b32d7defe49c6843be8583f35a683
+msgid "0.889"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:153 09fe06ecaf1b4b15aa9e95a775408c42
+msgid "0.849"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:154 3e31d132ba9f44e290bd5bdf68fa7890
+msgid "United Arab Emirates — Abu Dhabi"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:155 35b667f3ab7140c0bcc8f678ddccf521
+msgid "142"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:156 5794febc0f814d4a9fec67c0f826f08c
+msgid "0.751"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:157 8441ac8047a6488cbda39834596ba1ea
+msgid "**0.858**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:158 015ae0d7baab445286523f3a1a87a03a
+msgid "0.828"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:159 18f90125f5b647c8942a5c1af5a04cb3
+msgid "0.890"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:160 2e15e496bf234af3acd645067b9cb744
+msgid "**Satellite (mean of 5 AOIs)**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:161 57458a8b93b1446580a9d4ab0e533547
+msgid "1730"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:162 ee321e8c0be84b85a280940831f3d380
+msgid "0.787"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:163 9f6bc6f59c7940e183d1366692b9d8cf
+msgid "**0.881**"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:165 73f2601b74c445f38907788ae8c116ec
+msgid "0.884"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:167 6eb2a0a8af6840f1b9efe90e106f0bf6
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"building masks; evaluation run 2026-06-16.*"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:171 365009ae2f134da49b6e60d0f2c99076
+msgid ""
+"📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` "
+"for the area-by-area breakdown of both the global and satellite sets, "
+"including comparison with the previous version and prediction-vs-ground-"
+"truth overlays."
 msgstr ""
 
 #: ../userguides/forest_model.rst:2 e4dfb81c967b467b92a7ef9f01d0854f
@@ -264,54 +646,66 @@ msgid ""
 " are not the target class."
 msgstr ""
 
-#: ../userguides/forest_model.rst:19 60809cb27685464f937643f0ae83e9ff
+#: ../userguides/forest_model.rst:12 c5d4406733d64c49a3a0151749c86394
+msgid "**Latest model tags** |:label:|"
+msgstr ""
+
+#: ../userguides/forest_model.rst:14 3e8112fa9274404a89d017ec70f1c40e
+msgid "2026-07-03"
+msgstr ""
+
+#: ../userguides/forest_model.rst:17 7c978290e5b8425295e8288a49de0093
+msgid "0.6–0.3 m / z18–19"
+msgstr ""
+
+#: ../userguides/forest_model.rst:26 60809cb27685464f937643f0ae83e9ff
 msgid "Processing result of forest model"
 msgstr ""
 
-#: ../userguides/forest_model.rst:19 3d4b0bcea0954cb3b55764742760578d
+#: ../userguides/forest_model.rst:26 3d4b0bcea0954cb3b55764742760578d
 msgid "Sample of processing results for solid **Forest** mask"
 msgstr ""
 
-#: ../userguides/forest_model.rst:23 9ae65437c2f54f08a855c4c122094493
+#: ../userguides/forest_model.rst:30 9ae65437c2f54f08a855c4c122094493
 msgid "*Height estimation* – forest mask classification by height classes"
 msgstr ""
 
-#: ../userguides/forest_model.rst:24 3d1d975b3a114af087821fa2c431ea53
+#: ../userguides/forest_model.rst:31 3d1d975b3a114af087821fa2c431ea53
 msgid ""
 "*Tree crown polygons* - extracts tree crowns from forest vegetation as "
 "well as free-standing trees, provides them as polygons"
 msgstr ""
 
-#: ../userguides/forest_model.rst:25 3d1d975b3a114af087821fa2c431ea53
+#: ../userguides/forest_model.rst:32 3d1d975b3a114af087821fa2c431ea53
 msgid ""
 "*Tree crown points* - extracts tree crowns from forest vegetation as well"
 " as free-standing trees, provides them as points"
 msgstr ""
 
-#: ../userguides/forest_model.rst:28 a6f20f70f78946d38a788c6888baf6df
+#: ../userguides/forest_model.rst:35 a6f20f70f78946d38a788c6888baf6df
 msgid ""
 "We recommend using the **Tree crown** options with 0.3m resolution "
 "imagery (~ 19 zoom) for the best results in case you need to detect "
 "individual trees."
 msgstr ""
 
-#: ../userguides/forest_model.rst:33 286cd4ef37354ccd8f1f2015a97a0394
+#: ../userguides/forest_model.rst:40 286cd4ef37354ccd8f1f2015a97a0394
 msgid "Forest Height classification follows the following classes:"
 msgstr ""
 
-#: ../userguides/forest_model.rst:35 683c41987f81406f907c3b2fc2ae8a19
+#: ../userguides/forest_model.rst:42 683c41987f81406f907c3b2fc2ae8a19
 msgid "Shrubs lower than 4 meters;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:36 1387d710eba043c889a1b09c5fd82548
+#: ../userguides/forest_model.rst:43 1387d710eba043c889a1b09c5fd82548
 msgid "Forest from 4 to 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:37 f1bcb99d92ac41d5a8caa0c482d41276
+#: ../userguides/forest_model.rst:44 f1bcb99d92ac41d5a8caa0c482d41276
 msgid "Forest more than 10 meters high;"
 msgstr ""
 
-#: ../userguides/forest_model.rst:39 868aff1d66ba4aad91f5eb3f8f4a1e35
+#: ../userguides/forest_model.rst:46 868aff1d66ba4aad91f5eb3f8f4a1e35
 msgid ""
 "This classification is used as a decision support for the vegetation "
 "management in powerline zones, etc. See the `professional solutions by "
@@ -319,25 +713,234 @@ msgid ""
 "customized depending on the requirements."
 msgstr ""
 
-#: ../userguides/forest_model.rst:42 ../userguides/roads_model.rst:16
+#: ../userguides/forest_model.rst:49 ../userguides/roads_model.rst:16
 #: 732794b3045f422e98f1ce2167e27e50
 msgid "**Processing results samples**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:50 d20b22fa50854e1fa48ce6876d2f2f2e
+#: ../userguides/forest_model.rst:57 d20b22fa50854e1fa48ce6876d2f2f2e
 msgid "Processing result of forest model (Tree crowns, points)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:50 e35531ee8ad94d63b9c64277d053a0ed
+#: ../userguides/forest_model.rst:57 e35531ee8ad94d63b9c64277d053a0ed
 msgid "Sample of results for **Tree crowns, points**"
 msgstr ""
 
-#: ../userguides/forest_model.rst:59 9c5772ce08394de29500e58b847a3396
+#: ../userguides/forest_model.rst:66 9c5772ce08394de29500e58b847a3396
 msgid "Processing result of forest model (Heights)"
 msgstr ""
 
-#: ../userguides/forest_model.rst:59 6019be2112384ae7a6647c197b35a972
+#: ../userguides/forest_model.rst:66 6019be2112384ae7a6647c197b35a972
 msgid "Sample of results for **Forest with heights** mask (raster output)"
+msgstr ""
+
+#: ../userguides/forest_model.rst:72 85b2be35aae544b5b2c1dd93a6aad8e2
+msgid ""
+"Latest update — **🌲 Forest and trees v.2026-07-03** (Global, "
+"Segmentation). The model was evaluated on a validation set of 6 areas of "
+"interest (AOI) against manually annotated ground truth. Metrics are area-"
+"based: IoU is the intersection-over-union of the predicted and ground-"
+"truth vegetation masks, and F1 / Precision / Recall are computed on the "
+"overlapping mask area."
+msgstr ""
+
+#: ../userguides/forest_model.rst:88 d7e7bcf1e8be4ebd9d6ab3b794418f25
+msgid "Italy — Crotone"
+msgstr ""
+
+#: ../userguides/forest_model.rst:89 f0c545f9260c4242a011037445f7292a
+msgid "254"
+msgstr ""
+
+#: ../userguides/forest_model.rst:90 ba9d7823be314eef83154954a2d8807f
+msgid "0.862"
+msgstr ""
+
+#: ../userguides/forest_model.rst:91 631552d74e7a4f249b672c60a118e03b
+msgid "**0.926**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:93 1e4f7f04361b4fbc898bc39b1215565b
+msgid "0.909"
+msgstr ""
+
+#: ../userguides/forest_model.rst:94 c62cb10bd89f43b884e96f15758fd992
+msgid "Spain — Madrid"
+msgstr ""
+
+#: ../userguides/forest_model.rst:95 edf7e392c63847be8f8d4f2d50e2a326
+msgid "368"
+msgstr ""
+
+#: ../userguides/forest_model.rst:98 7de156bf83d94eb9b57f8d3f5d34a252
+msgid "0.880"
+msgstr ""
+
+#: ../userguides/forest_model.rst:99 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.915"
+msgstr ""
+
+#: ../userguides/forest_model.rst:100 18ea288fb94c4d8ab71de3698525d374
+msgid "Philippines — Balanga"
+msgstr ""
+
+#: ../userguides/forest_model.rst:101 90ca62161e0d45d5a9fd5c14bb5b0ea5
+msgid "220"
+msgstr ""
+
+#: ../userguides/forest_model.rst:102 4b6e9d1b2e414a9eae01169be3b6e4f6
+msgid "0.806"
+msgstr ""
+
+#: ../userguides/forest_model.rst:103 caa4bb62257e458c929ef796bf8383eb
+msgid "**0.892**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:104 ../userguides/forest_model.rst:111
+#: 5d4feff0a4b74eba9e163512aad0d675 925eea7ec46d463b8f2c28079b802c65
+msgid "0.864"
+msgstr ""
+
+#: ../userguides/forest_model.rst:105 69bc505428a74910b81a091ebb63123b
+msgid "0.923"
+msgstr ""
+
+#: ../userguides/forest_model.rst:106 e4930509b6864da0816cd8425c1a6140
+msgid "Spain — Velilla de San Antonio"
+msgstr ""
+
+#: ../userguides/forest_model.rst:107 1fcde19a93fd4235b1030c6a1a6e4ea2
+msgid "1070"
+msgstr ""
+
+#: ../userguides/forest_model.rst:108 57d5aea1c6ab4cd485ba0007d12b0f7e
+msgid "0.784"
+msgstr ""
+
+#: ../userguides/forest_model.rst:109 3def7719a613495fbeea275987c8fb89
+msgid "**0.879**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:112 bbb69c7e49c14441848f057d7105ae40
+msgid "Spain — Cuenca"
+msgstr ""
+
+#: ../userguides/forest_model.rst:113 6bfc43773904426ba4b589fd8255e732
+msgid "409"
+msgstr ""
+
+#: ../userguides/forest_model.rst:114 0317a75559794c2990b0b78178d430d9
+msgid "0.763"
+msgstr ""
+
+#: ../userguides/forest_model.rst:115 f86c23936aee4536a8500de9ff2f98f1
+msgid "**0.865**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:117 16a6e1bfc1f847818d3deea85101a447
+msgid "0.872"
+msgstr ""
+
+#: ../userguides/forest_model.rst:118 1334cfa9983c4ef689afd7874782dae8
+msgid "Uzbekistan — Tashkent"
+msgstr ""
+
+#: ../userguides/forest_model.rst:120 7ba560b4942a4025832715ede25ca58d
+msgid "0.730"
+msgstr ""
+
+#: ../userguides/forest_model.rst:121 7b8b0d05d1f74cbb8dd049d191d4a51b
+msgid "**0.844**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:122 f08dcb1a3dfd4f4a97830b263e8af512
+msgid "0.905"
+msgstr ""
+
+#: ../userguides/forest_model.rst:123 af9a512899194a8b87c1c26ff3c6d095
+msgid "0.791"
+msgstr ""
+
+#: ../userguides/forest_model.rst:124 f631a2080ee04cd383abebab1ace6423
+msgid "Spain — Rus"
+msgstr ""
+
+#: ../userguides/forest_model.rst:125 77e519dddbd6462fbd535fb5ada77063
+msgid "249"
+msgstr ""
+
+#: ../userguides/forest_model.rst:126 f23eda463e0d4d63ba8d3128ce296675
+msgid "0.617"
+msgstr ""
+
+#: ../userguides/forest_model.rst:127 a84819da4d984ff083ec8d4b9cba7251
+msgid "**0.763**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:128 9b2e2a65dee64cff921798e356c7d10e
+msgid "0.699"
+msgstr ""
+
+#: ../userguides/forest_model.rst:129 671069e1a123470ea4c5e3e642922b4b
+msgid "0.841"
+msgstr ""
+
+#: ../userguides/forest_model.rst:130 17a1e958f41a431b864f9da0828d7297
+msgid "Argentina — La Banda"
+msgstr ""
+
+#: ../userguides/forest_model.rst:131 11d612263a8b4a62a9e935b148b225d6
+msgid "93"
+msgstr ""
+
+#: ../userguides/forest_model.rst:132 ff03fbec64be4fed805110f60e058790
+msgid "0.576"
+msgstr ""
+
+#: ../userguides/forest_model.rst:133 f102bd118e4345d1847f3603a735fbc1
+msgid "**0.731**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:134 7455ed9776034e8eb781acfd52ee6cb5
+msgid "0.653"
+msgstr ""
+
+#: ../userguides/forest_model.rst:135 7b266a40ea924daa9b32a67626f2770e
+msgid "0.829"
+msgstr ""
+
+#: ../userguides/forest_model.rst:136 8f18db0427bb4381a21aa3bfbb4f5f42
+msgid "**Global (mean of 8 AOIs)**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:137 c0b621a336c445139446400b3e62ae3f
+msgid "2819"
+msgstr ""
+
+#: ../userguides/forest_model.rst:138 31521f97000e47408170eee2ce2dd7a5
+msgid "0.744"
+msgstr ""
+
+#: ../userguides/forest_model.rst:139 c9ab89441f0b4434ac41e820e6e378bf
+msgid "**0.850**"
+msgstr ""
+
+#: ../userguides/forest_model.rst:140 1560920b053240e0b8cf4f64f0ba091e
+msgid "0.837"
+msgstr ""
+
+#: ../userguides/forest_model.rst:143 01e1ae2eb82544f79ec1961ea5f49b0b
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
+"vegetation masks; evaluation run 2026-07-03. Compared with the previous "
+"version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
+msgstr ""
+
+#: ../userguides/forest_model.rst:148 d750340ac2c14220bdfb4f36eb9f4c13
+msgid ""
+"📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>`"
+" for the area-by-area breakdown, including comparison with the previous "
+"version and prediction-vs-ground-truth overlays."
 msgstr ""
 
 #: ../userguides/roads_model.rst:2 40daa56bee7141c2a510b4df4b283b9e
@@ -401,6 +1004,12 @@ msgstr ""
 msgid ""
 "This pipeline combines Buildings, Forest and Roads in a single workflow "
 "and returns the topology-corrected GeoJSON output."
+msgstr ""
+
+#: ../userguides/combo_model.rst:13 ../userguides/construction_model.rst:13
+#: 1650f333d11c4ea6be55d0ad2d117294 8f36eaa496c54ee2bd1bfa713c4bc63e
+#: f9cadf3b88944d02891fa0144b057a41
+msgid "Processing result of construction model"
 msgstr ""
 
 #: ../userguides/combo_model.rst:13 d855ab70a21940129bfc07b7aba59a2c
@@ -734,6 +1343,16 @@ msgstr ""
 msgid "Model name"
 msgstr ""
 
+#: ../userguides/solars_model.rst:15 ../userguides/swimming_pools_model.rst:15
+#: 3961bbaf29f14efabc0ae616e15c36d7
+msgid "Model type"
+msgstr ""
+
+#: ../userguides/solars_model.rst:16 ../userguides/swimming_pools_model.rst:16
+#: e9d0beedc1c34fc3a1068eb98671f909
+msgid "Zoom level"
+msgstr ""
+
 #: ../userguides/solars_model.rst:17 ../userguides/swimming_pools_model.rst:17
 #: 0182293f7f604221ad0223d55256beb0
 msgid "F1 (testing)"
@@ -758,11 +1377,6 @@ msgstr ""
 
 #: ../userguides/swimming_pools_model.rst:22 f08dcb1a3dfd4f4a97830b263e8af512
 msgid "> 0.95"
-msgstr ""
-
-#: ../userguides/solars_model.rst:23 ../userguides/swimming_pools_model.rst:23
-#: 20abb20941b24c71b9f829baa95287d3
-msgid "Global"
 msgstr ""
 
 #: ../userguides/swimming_pools_model.rst:31 016f71b1bbbf494cb66848fda2db5e1e
@@ -1005,5 +1619,78 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|:whale:| Swimming pools (CUSTOM)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A sample of processing result with "
+#~ "different options for Prague, Czech "
+#~ "Republic."
+#~ msgstr ""
+
+#~ msgid "Processing result of buildings model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Result without postprocessing: irregular "
+#~ "building shapes, but best fit to "
+#~ "the actual rooftop contour seen in "
+#~ "the image."
+#~ msgstr ""
+
+#~ msgid "Result with simplification: most of the buildings become rectangular."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Result merged with OSM: some of "
+#~ "the buildings imported from OSM have "
+#~ "more accurate shape, but may be "
+#~ "shifted from the image position."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Processing result of buildings model "
+#~ "with height estimation in Mapflow Web"
+#~ msgstr ""
+
+#~ msgid "**Houston, U.S. (-95.2920, 29.7718)**"
+#~ msgstr ""
+
+#~ msgid "– `View on the Map <https://app.mapflow.ai>`_"
+#~ msgstr ""
+
+#~ msgid "Model version"
+#~ msgstr ""
+
+#~ msgid "F1 (AOI)"
+#~ msgstr ""
+
+#~ msgid "Urban-pattern"
+#~ msgstr ""
+
+#~ msgid "🏠 Buildings v.8a"
+#~ msgstr ""
+
+#~ msgid "Instance segmentation"
+#~ msgstr ""
+
+#~ msgid "zoom 18"
+#~ msgstr ""
+
+#~ msgid "objectwise 0.72"
+#~ msgstr ""
+
+#~ msgid "low-rise – urban mixed"
+#~ msgstr ""
+
+#~ msgid "**Kolomna, Russia (38.7657, 55.0928)**"
+#~ msgstr ""
+
+#~ msgid "– `View on the Map <https://app.mapflow.ai/>`_"
+#~ msgstr ""
+
+#~ msgid "objectwise 0.75"
+#~ msgstr ""
+
+#~ msgid "urban mixed - regular"
 #~ msgstr ""
 

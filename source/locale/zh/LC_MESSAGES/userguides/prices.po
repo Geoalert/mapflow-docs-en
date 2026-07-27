@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/prices.rst:2 7ac423499cea44dba62887aa834e3cc8
+msgid "Mapflow pricing 💰"
+msgstr "Mapflow 定价 💰"
+
+#: ../userguides/prices.rst:5 dffed1b42c514fd498c286acd6a84d44
+msgid "How to top up your balance"
+msgstr "如何充值您的余额"
+
+#: ../userguides/prices.rst:8 f2c8f41b85a045da94096408cc8c7fc1
+msgid ""
+"Each user gets the free balance of **250** credits to get started with "
+"Mapflow AI. You can always buy more credits in your `account profile "
+"<https://app.mapflow.ai/account/balance>`_."
+msgstr ""
+"每个用户都可以获得 **250** 积分的免费余额来开始使用 Mapflow AI。您随时可以在“帐户资料 "
+"<https://app.mapflow.ai/account/balance>”中购买更多积分。"
+
+#: ../userguides/prices.rst:11 4a1faf408e5443dd8fd35f33c07ac429
+msgid ""
+"In order to top up your balance go to `your Mapflow profile "
+"<https://app.mapflow.ai/account/balance>`_ and choose one of the options. "
+"You will be asked to pay online."
+msgstr ""
+"为了充值您的余额，请转到“您的 Mapflow 个人资料 <https://app.mapflow.ai/account/balance>”_ "
+"并选择一个选项。您将被要求在线付款。"
+
+#: ab96ece7e1f645f6bc0dc5951795fa04
+msgid "Top up your balance"
+msgstr "充值您的余额"
+
+#: ../userguides/prices.rst:24 7861eb396b79436c9ad2f4d74822690c
+msgid "Mapflow credits"
+msgstr "地图流积分"
+
+#: ../userguides/prices.rst:26 5161a80d6f3740c9b6759da9cce0a643
+msgid ""
+"Cost of processing makes the sum of **data cost** and **processing cost** "
+"given the requested area:"
+msgstr "处理成本是给定请求区域的**数据成本**和**处理成本**的总和："
+
+#: ../userguides/prices.rst:28 7efb8f14aa6c4326ab962af05c25580c
+msgid "``Cost = Area * (Processing Price + Data Price)``"
+msgstr "``成本=面积*（处理价格+数据价格）``"
+
+#: ../userguides/prices.rst:30 ee9384e4331f4e3e996d468860eff73e
+msgid ""
+"The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
+"discount depending on the number of credits you buy:"
+msgstr "积分价格计算为：1 个积分 = 0.1 美元，累进折扣取决于您购买的积分数量："
+
+#: ../userguides/prices.rst:37 9a2e4994be8942efbc4205e80a22136a
+msgid "Mapflow Credits"
+msgstr "地图流积分"
+
+#: ../userguides/prices.rst:38 5442b1dc7b404ab0b214c7ace0caa853
+msgid "500"
+msgstr ""
+
+#: ../userguides/prices.rst:39 fa0590c0077242f8ae033aa3d0fc5d7a
+msgid "1000"
+msgstr ""
+
+#: ../userguides/prices.rst:40 d8fa54932ae44fb6a5c77f56c1f9239b
+msgid "10000"
+msgstr ""
+
+#: ../userguides/prices.rst:41 945a4c84f4aa43e0911ba727eb0a0bd5
+msgid "You pay"
+msgstr "你付钱"
+
+#: ../userguides/prices.rst:42 583226eb229b4bde86af24d7a3b66277
+msgid "$50"
+msgstr "50 美元"
+
+#: ../userguides/prices.rst 7fcd7c3bd0fe43e7bca9a554c6e61226
+msgid ":del:`$100`"
+msgstr ""
+
+#: ../userguides/prices.rst fe5cb0807d264382a98fd4e169285b18
+msgid "$90"
+msgstr "90 美元"
+
+#: ../userguides/prices.rst 4717aefc740949ee887f902e65fc2581
+msgid ":del:`$1000`"
+msgstr ""
+
+#: ../userguides/prices.rst 3778a7b5bade4e709322f2ba476cf09c
+msgid "$800"
+msgstr "800 美元"
+
+#: ../userguides/prices.rst:48 10dff56d00314de99d04987be01680ec
+msgid ""
+"All prices below are given in Mapflow credits. Mapflow Web also provides a "
+"transparent price breakdown in the processing pipeline."
+msgstr "以下所有价格均以 Mapflow 积分形式给出。 Mapflow Web 还在处理流程中提供透明的价格细分。"
+
+#: ../userguides/prices.rst:51 fdb8eaeb61ea485f897d907375313683
+msgid ""
+"All the processings having an area less than 1 sq.km are rounded up to 1 "
+"sq.km before price calculation!"
+msgstr "所有面积小于1平方公里的加工区在计算价格前均四舍五入至1平方公里！"
+
+#: ../userguides/prices.rst:52 1bee67275852401c9ebb5a36fa6e0aed
+msgid ""
+"Total processing cost is rounded up to the nearest integer number of credits"
+msgstr "总处理成本向上舍入到最接近的积分整数"
+
+#: ../userguides/prices.rst:58 2a2ebf27fafb41f6a70ea7d9a3cdaf00
+msgid "Mapflow subscription plans"
+msgstr "Mapflow 订阅计划"
+
+#: ../userguides/prices.rst:60 d7948db10d24484abe2be01c4b454de5
+msgid ""
+"Currently Mapflow provides two pricing models: pay-as-you-go and "
+"subscription plans. Currently the only plan **\"Mapflow Premium\"** is "
+"available. It includes a monthly subscription fee and a package of credits. "
+"The subscription fee is charged monthly, the credits are valid for 12 "
+"months. It enables some premium options like custom area size, use of any "
+"custom model that you have access to, priority support, and the use of "
+"commercial satellite data providers. Check the `Mapflow pricing page "
+"<https://mapflow.ai/pricing>`_ for details of the subscription."
+msgstr ""
+"目前Mapflow提供两种定价模式：即用即付和订阅计划。目前唯一可用的计划**“Mapflow "
+"Premium”**。它包括每月的订阅费和一套积分。订阅费按月收取，积分有效期为 12 "
+"个月。它支持一些高级选项，例如自定义区域大小、使用您有权访问的任何自定义模型、优先支持以及使用商业卫星数据提供商。查看“Mapflow 定价页面 "
+"<https://mapflow.ai/pricing>”了解订阅的详细信息。"
+
+#: f74d8a6c8174461aa6608c61fa538593
+msgid "Mapflow Premium"
+msgstr "Mapflow 高级版"
+
+#: ../userguides/prices.rst:71 102ae20ba41a4adfa6385085f561ac93
+msgid ""
+"Using the Mapflow Premium one can buy additional credits with pay-as-you-go "
+"pricing."
+msgstr "使用 Mapflow Premium，您可以按即用即付定价购买额外的积分。"
+
+#: ../userguides/prices.rst:72 22e82c112f624183be452ec90c6377d4
+msgid ""
+"To activate the subscription, go to your `account profile - Balance "
+"<https://app.mapflow.ai/account/balance>`_ and choose the Mapflow Premium "
+"plan."
+msgstr ""
+"要激活订阅，请转到您的“帐户配置文件 - 余额 <https://app.mapflow.ai/account/balance>”_ 并选择 "
+"Mapflow Premium 计划。"
+
+#: ../userguides/prices.rst:73 6b7ecec13d2447b0b33a416c8f1a58ae
+msgid ""
+"To deactivate the subscription, go to your `account profile - Balance "
+"<https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow Premium."
+msgstr ""
+"要停用订阅，请转到您的“帐户配置文件 - 余额 <https://app.mapflow.ai/account/balance>”_ 并关闭 "
+"Mapflow Premium。"
+
+#: ../userguides/prices.rst:76 117e0467856446cb89dc4514ae09f341
+msgid ""
+"If you want to buy a custom package or use another payment method, or "
+"consider using Mapflow on a large scale, check `Mapflow Custom "
+"<https://mapflow.ai/pricing>`_ and contact sales."
+msgstr ""
+"如果您想购买定制套餐或使用其他付款方式，或考虑大规模使用 Mapflow，请选中“Mapflow 定制 "
+"<https://mapflow.ai/pricing>”并联系销售人员。"
+
+#: ../userguides/prices.rst:81 11e9831c0d0f40b397edb49c0b33c208
+msgid "Model costs"
+msgstr "模型成本"
+
+#: ../userguides/prices.rst:84 8879ac4f05d6485a9a40173c3122265e
+msgid "Default Mapflow models"
+msgstr "默认 Mapflow 模型"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 3672583e6359459f8540496768e7eaed
+msgid "Model"
+msgstr "模型"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 0726200f68d6488a8d013539a82f4032
+msgid "Base price"
+msgstr "基价"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: fb89cb00bf494ab79db9da1ad7232eea
+msgid "Options"
+msgstr "选项"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 4ad4a65aa4bb4f6ab4d3bb4eb69569e0
+msgid "Buildings"
+msgstr "建筑物"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 4d38586f239d4456b3e4d89540cb3839
+msgid "10"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 188324b8b623455698b0b3154882280c
+msgid "Classification: 0"
+msgstr "分类： 0"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Heights estimation: 10"
+msgstr "高度估计：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 84a985b6fe4e435b992e2faae4addee6
+msgid "Merge with Opensteeetmap: 0"
+msgstr "与 Opensteeetmap 合并：0"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 84a985b6fe4e435b992e2faae4addee6
+msgid "Align with roads: 0"
+msgstr "与道路对齐：0"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Height Estimation: 10"
+msgstr "身高估计：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 3474a3dfd955485bb08524d47f27293f
+msgid "[multi] Buildings + Roads + Forest"
+msgstr "[多]建筑物+道路+森林"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 2d496ce9e6d441898218dd662bc56c1e
+msgid "23"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Buildings Height estimation: 10"
+msgstr "建筑物高度估计：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Forest Height estimation: 10"
+msgstr "森林高度估计：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: d80b054119f64d1690605064207da9c9
+msgid "Tree crowns: 10"
+msgstr "树冠：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: f2d5bb5cdc424c4db87efff5eca98b80
+msgid "Forest and trees"
+msgstr "森林和树木"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: da7ffaba2d274339b7d426360e68a226
+msgid "8"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv
+#: ba32cdb8507343ed82f274503c8a1fcb
+msgid "Crowns extraction: 10"
+msgstr "牙冠拔除：10"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 59f1f54158064220ae200b57cd61fb02
+msgid "Roads"
+msgstr "道路"
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: eb29b3d0066942b0aff7caba283c0aac
+msgid "5"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: 401d2299f87e494c984fac2c4eb516f5
+msgid "\\-"
+msgstr ""
+
+#: ../userguides/prices.rst:93 98cdc97c7d0b41d3b1a937731c73e992
+msgid ""
+"If you want to have a custom model with another set of options, consider "
+"applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Pricing for "
+"custom models varies by project scope. To get the quotation and apply the "
+"discount, please share your project requirements (contact "
+"sales@geoalert.io)."
+msgstr ""
+"如果您想要具有另一组选项的自定义模型，请考虑申请“Mapflow Custom "
+"<https://mapflow.ai/contacts>”_。定制模型的定价因项目范围而异。要获取报价并应用折扣，请分享您的项目要求（联系 "
+"sales@geoalert.io）。"
+
+#: ../userguides/prices.rst:96 0383f00fe6d04e37aa635ee55cb74dff
+msgid "Data costs"
+msgstr "数据费用"
+
+#: ../userguides/prices.rst:99 809dff0273f949f5b1f5273327b2cbb7
+msgid ""
+"If you are using your own imagery, GeoTIFF or Custom URL, the data cost is "
+"always 0 credits."
+msgstr "如果您使用自己的图像、GeoTIFF 或自定义 URL，则数据费用始终为 0 积分。"
+
+#: ../userguides/prices.rst:102 9477e4cc1ef64606b17251892588f6a5
+msgid "Imagery basemap costs"
+msgstr "影像底图成本"
+
+#: ../userguides/prices.rst:103 56c9dbb67c2244c194849fafa806668b
+msgid ""
+"When using default imagery basemaps (Mapbox, Arcgis World Imagery), the "
+"price starts from a min. of 1 credit, depending on the model and the zoom "
+"level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) -"
+" if you change the zoom, the price is automatically recalculated."
+msgstr ""
+"使用默认影像底图（Mapbox、Arcgis World Imagery）时，价格从一分钟起。 1 "
+"积分，具体取决于型号和缩放级别（“什么是缩放？<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_”）-"
+" 如果您更改缩放，价格会自动重新计算。"
+
+#: ../userguides/prices.rst:106 131e0773d7b24e09be473000db0b2044
+msgid "Imagery ordering costs"
+msgstr "图像订购费用"
+
+#: ../userguides/prices.rst:107 d5da58ca1b03439ab991738d40850c9f
+msgid ""
+"If you are using commercial providers and order the new image, the cost "
+"varies depending on the resolution of the satellite sensor. We partner with "
+"streaming data providers, which means you don't have to deal with price "
+"lists and files over FTP; instead, you can search for imagery that better "
+"meets your date and area requirements. Zoom level is fixed and changing it "
+"is not possible for the imagery ordering."
+msgstr ""
+"如果您使用商业提供商并订购新图像，则成本会根据卫星传感器的分辨率而有所不同。我们与流数据提供商合作，这意味着您不必通过 FTP "
+"处理价目表和文件；相反，您可以搜索更符合您的日期和区域要求的图像。缩放级别是固定的，无法更改图像排序。"
+
+#: ../userguides/prices.rst:109 20d4f8d348674e38a3d77cf38e03df7d
+msgid ""
+"See the data prices and the corresponding resolution of the imagery sensors "
+"in the table below."
+msgstr "请参阅下表中的数据价格和图像传感器对应的分辨率。"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 4e589d92400b4d72a3b13a116f39fe6d
+msgid "Data Provider"
+msgstr "数据提供者"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 9ef1d9d0c328426ebf2cd379adc486e1
+msgid "19 zoom"
+msgstr "19 变焦"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 413174cab31c4433a1f0949d87413c02
+msgid "18 zoom"
+msgstr "18倍变焦"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 69131cea61934330b04b06995518d4d3
+msgid "17 zoom"
+msgstr "17 变焦"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 8236c2dda6f24c95a1acd49455d25a9f
+msgid "Mapbox"
+msgstr "地图盒"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 141121f730e14bcabd9e4bd7ceaaa460
+msgid "9"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 410e48152d484f2db32cf12366b7fdda
+msgid "3"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 1e0c034a39214e119de5f2b34c5e4a5c
+msgid "1"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 19488055bcbd43e1816fb944bdd1beea
+msgid "ArcGIS World Imagery"
+msgstr "ArcGIS 世界影像"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 04aa49b7179e42d8bc029e3eef59b072
+msgid "Global mosaic 2022"
+msgstr "全球马赛克 2022"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 8952b27351974702b69abf2c51554b75
+msgid "Commercial 0.3m"
+msgstr "商业0.3m"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: cbb496bf09b745678f6bb068cb63941a
+msgid "180"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 58fc22c9a0ac4a5a8cf29a975105a1cb 93cd845612f34a9ea70db3a43ae3617e
+#: b6cef1e581d54f1784678929657eb6a5
+msgid "--"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 40bab5abed8c4cdf86a0b147338ee8fc
+msgid "Commercial 0.5m"
+msgstr "商业0.5m"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: afe4824adf794f1d8f25460bb2081044
+msgid "60"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 4d8aa2595b324206aeacd45df041e36e
+msgid "Commercial 0.7m"
+msgstr "商业0.7m"
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: c681e015651e416d9bee4d772f041d99
+msgid "15"
+msgstr ""
+
+#: ../userguides/prices.rst:119 bd9d4f32b30d4139a5f23dd03b6b3d3c
+msgid "Examples of quotations"
+msgstr "报价示例"
+
+#: ../userguides/prices.rst:122 2553b46422bd4720843ec3ef8f591040
+msgid ""
+"*I want to process 3.3 sq.km of Commercial provider at 18 zoom using the "
+"Buildings model*"
+msgstr "*我想使用建筑物模型以 18 倍变焦处理 3.3 平方公里的商业提供商*"
+
+#: ../userguides/prices.rst:124 9da77890034c4462806dd06a2dc84d0b
+msgid "``Cost = 3.3 * (8 + 60) = 224 credits``"
+msgstr "``成本 = 3.3 * (8 + 60) = 224 积分``"
+
+#: ../userguides/prices.rst:127 69d105be736c47c780bcc59d7a823c65
+msgid ""
+"*I want to process 0.01 sq.km of My imagery using the Buildings model and "
+"applying the Simplification option.*"
+msgstr "*我想使用建筑物模型并应用简化选项来处理 0.01 平方公里的我的图像。*"
+
+#: ../userguides/prices.rst:129 09846d41ec76487f800d9bed7e15bb75
+msgid ""
+"Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost will "
+"be:"
+msgstr "面积四舍五入为1平方公里，用户的数据费用为0，因此费用为："
+
+#: ../userguides/prices.rst:131 ed083982b601466eaef322f390d8296a
+msgid "``Cost = 1 * (8 + 2) = 10 credits``"
+msgstr "``成本 = 1 * (8 + 2) = 10 学分``"

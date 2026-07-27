@@ -1,0 +1,1574 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../api/api_reference.rst:4 4cffff63494e4307b9f375fa77882568
+msgid "API Reference"
+msgstr "API参考"
+
+#: ../api/api_reference.rst:8 7cb80726d2e241feb3621f2399316167
+msgid "Projects"
+msgstr "项目"
+
+#: ../api/api_reference.rst:11 7f91f708d75b4e4694ce23a27ad16f31
+msgid "Create project"
+msgstr "创建项目"
+
+#: ../api/api_reference.rst:13 ba01d6950a3948d898ef8b45a9f49ec2
+msgid "**POST** ``/projects``"
+msgstr "**POST** ``/项目``"
+
+#: ../api/api_reference.rst:15 6c46e12759f7446bb93439337c77fd85
+msgid "Creates a new project container for organizing processings."
+msgstr "创建一个新的项目容器用于组织处理。"
+
+#: ../api/api_reference.rst:21 ../api/api_reference.rst:65
+#: ../api/api_reference.rst:110 ../api/api_reference.rst:218
+#: ../api/api_reference.rst:296 ../api/api_reference.rst:461
+#: ../api/api_reference.rst:665 ../api/api_reference.rst:735
+#: ../api/api_reference.rst:832 ../api/api_reference.rst:1069
+#: 23156cc841ff438288ec6d8e3d061422 5694337d40af4869865f833262245bb7
+#: 9a5754d69d9c4262b1caf1da73164c19 b9f7ed1dcdae4941be38cbb6479624a2
+#: bb1acc38f5984fd085bfefa6e68c2039 f76130ea90a24ca1a122acb579aed3a4
+msgid "Parameter"
+msgstr "范围"
+
+#: ../api/api_reference.rst:22 ../api/api_reference.rst:66
+#: ../api/api_reference.rst:111 ../api/api_reference.rst:219
+#: ../api/api_reference.rst:297 ../api/api_reference.rst:462
+#: ../api/api_reference.rst:599 ../api/api_reference.rst:666
+#: ../api/api_reference.rst:736 ../api/api_reference.rst:833
+#: ../api/api_reference.rst:1070 ../api/api_reference.rst:1249
+#: 216f98a844804893b22f8ee93f8f4097 2d99d3d7953942bd9fefd7bf5679ead7
+#: 6e71e4e513b348e899e5081eaf973894 79ed6a2a611f408d9d236df3279d43ba
+#: ab6798ca2d7748dda3d080a3e472b866 af5b343cec2d4d18a97f7fbe41830efb
+msgid "Type"
+msgstr "类型"
+
+#: ../api/api_reference.rst:23 ../api/api_reference.rst:67
+#: ../api/api_reference.rst:112 ../api/api_reference.rst:220
+#: ../api/api_reference.rst:298 ../api/api_reference.rst:667
+#: ../api/api_reference.rst:737 ../api/api_reference.rst:834
+#: ../api/api_reference.rst:1071 012ab3a6d8ef4cf181cc70557cf33a7f
+#: 546b20c22c114c9689c71b3a452ff83a 88a6d91794d94d038ea81b16a4c40fe9
+#: c2213196ef594fd78476212592e5c9cc d3af4202e2cf433f9fcf346dc9337462
+#: dee178d9f93d4f08b98127cb583fa16d
+msgid "Required"
+msgstr "必需的"
+
+#: ../api/api_reference.rst:24 ../api/api_reference.rst:68
+#: ../api/api_reference.rst:113 ../api/api_reference.rst:221
+#: ../api/api_reference.rst:299 ../api/api_reference.rst:463
+#: ../api/api_reference.rst:518 ../api/api_reference.rst:600
+#: ../api/api_reference.rst:668 ../api/api_reference.rst:738
+#: ../api/api_reference.rst:835 ../api/api_reference.rst:990
+#: ../api/api_reference.rst:1072 ../api/api_reference.rst:1250
+#: ../api/api_reference.rst:1301 ../api/api_reference.rst:1342
+#: ../api/api_reference.rst:1367 0c07e2b56bd14f4b9c2f475b1fa4f150
+#: 26d1b580121a474cadc36721c6d6a005 2cbc79147f5a4c7899b3e6aa6fc688c8
+#: 31052a22dc004df8947a742e7f8a4b17 81aa1d9852c44c45b61ba9fb88f8ba95
+#: d00c90c66a614e3b8aab0c847dcb92d7
+msgid "Description"
+msgstr "描述"
+
+#: ../api/api_reference.rst:25 ../api/api_reference.rst:73
+#: ../api/api_reference.rst:114 ../api/api_reference.rst:669
+#: ../api/api_reference.rst:739 18f380de6f8544e18727c1f1192e2c80
+#: 6d519f424d8f4425859102986de55c47 8437d82e219c4ef7bc446800162ba937
+#: f8d97a1f17de45a8a78d7c3db2fa1ac5
+msgid "``name``"
+msgstr "``名字``"
+
+#: ../api/api_reference.rst:26 ../api/api_reference.rst:30
+#: ../api/api_reference.rst:70 ../api/api_reference.rst:74
+#: ../api/api_reference.rst:78 ../api/api_reference.rst:115
+#: ../api/api_reference.rst:119 ../api/api_reference.rst:123
+#: ../api/api_reference.rst:143 ../api/api_reference.rst:223
+#: ../api/api_reference.rst:301 ../api/api_reference.rst:471
+#: ../api/api_reference.rst:474 ../api/api_reference.rst:602
+#: ../api/api_reference.rst:605 ../api/api_reference.rst:611
+#: ../api/api_reference.rst:614 ../api/api_reference.rst:617
+#: ../api/api_reference.rst:670 ../api/api_reference.rst:740
+#: ../api/api_reference.rst:837 ../api/api_reference.rst:1078
+#: ../api/api_reference.rst:1082 ../api/api_reference.rst:1118
+#: ../api/api_reference.rst:1122 1aa13dd454f44b4abddc655961c301b0
+#: 253ec32ff49a4dbdaca44fab0b685f62 2b6fd86fd7e148f19c8fa1c2fa39e47d
+#: 4e77f05f3aa8413fbafaa6c6b24c7880 53cfa87f504344ae81649942dd03a57d
+#: 736ff22b2ad2490a81ab2983214bef44 74dd8a250bdb4651aa5ffb68f19e6f93
+#: 76dc4b8eee6242fc868b63cce5e46bc2 b0ff4f0ef9454deba2b6607a77b3bd0a
+#: b1967ca937d5473281441f2ab4451716 b5231928916f46bcbf85fec7f9d74de2
+#: bb9f500f973e494596b557faf3405d6f c2ffc5c2ee7242afb70aa5a262b00ee8
+#: db37e59e014b4a6485644b03897ec68f
+msgid "string"
+msgstr "细绳"
+
+#: ../api/api_reference.rst:27 ../api/api_reference.rst:71
+#: ../api/api_reference.rst:116 ../api/api_reference.rst:120
+#: ../api/api_reference.rst:124 ../api/api_reference.rst:128
+#: ../api/api_reference.rst:132 ../api/api_reference.rst:224
+#: ../api/api_reference.rst:302 ../api/api_reference.rst:671
+#: ../api/api_reference.rst:838 ../api/api_reference.rst:1075
+#: 043e5c1ae6484b27b9a322e278d332f5 08260682effe44f5aa2df9b4c99b9e0a
+#: 24f02d5338664bd8aaf7b16bafe8dd70 34d3af8560ae40f6ba8980d4e5445a36
+#: 384b56bfbe6b44f6aaa606b1f68b71aa 791d2e1cc1d343aaa3c0315b534c1298
+#: c62e11e4f2964126a0ef74bafa945938 d2674cb8b8c74f59a5ab902ada4a3162
+#: da684fbe5412408d80415c4890e9a6f0 ed5db8f11487493e9d2c8729b7301a1e
+msgid "Yes"
+msgstr "是的"
+
+#: ../api/api_reference.rst:28 d40f52e13c5a4b03b26187561c696263
+msgid "Project name"
+msgstr "项目名称"
+
+#: ../api/api_reference.rst:29 ../api/api_reference.rst:77
+#: ../api/api_reference.rst:142 15409153146e440c8c2f7259fa8d2e09
+#: 4c188f590e5247daae22309964f0922b cb1d0cee659441e4a1e1086c9de5f07c
+msgid "``description``"
+msgstr "``描述``"
+
+#: ../api/api_reference.rst:31 ../api/api_reference.rst:75
+#: ../api/api_reference.rst:79 ../api/api_reference.rst:136
+#: ../api/api_reference.rst:140 ../api/api_reference.rst:144
+#: ../api/api_reference.rst:148 ../api/api_reference.rst:314
+#: ../api/api_reference.rst:318 ../api/api_reference.rst:675
+#: ../api/api_reference.rst:741 ../api/api_reference.rst:745
+#: ../api/api_reference.rst:1079 ../api/api_reference.rst:1083
+#: ../api/api_reference.rst:1087 ../api/api_reference.rst:1091
+#: ../api/api_reference.rst:1095 ../api/api_reference.rst:1099
+#: ../api/api_reference.rst:1103 ../api/api_reference.rst:1107
+#: ../api/api_reference.rst:1111 ../api/api_reference.rst:1115
+#: ../api/api_reference.rst:1119 ../api/api_reference.rst:1123
+#: ../api/api_reference.rst:1127 ../api/api_reference.rst:1131
+#: ../api/api_reference.rst:1135 04e3046464da4fa5bb57b534fc16e6f0
+#: 0c136dbd167346a08349da9f265ef35c 1a492ab73b964ed896d19c7c234842d1
+#: 532c5872992f4ae28604a71d50d4e2c1 6553da0adfdf4f8c9f4b230115ce04a3
+#: 8b51da7ea04d4d1d9b2d89c1fa6b5e33 99107414b42a4bc28d1764fa309cbf92
+#: bafa2c526d8147c08b7ca7ee513199de ca566965c016499ab4a0dcae2c4402ff
+#: cf6a8319ed6744d1ab396bb2166e787f
+msgid "No"
+msgstr "不"
+
+#: ../api/api_reference.rst:32 9dcf1e52c07c4c71be793e0a150ba906
+msgid "Project description"
+msgstr "项目描述"
+
+#: ../api/api_reference.rst:34 ../api/api_reference.rst:82
+#: ../api/api_reference.rst:324 ../api/api_reference.rst:477
+#: ../api/api_reference.rst:678 ../api/api_reference.rst:748
+#: ../api/api_reference.rst:780 ../api/api_reference.rst:809
+#: ../api/api_reference.rst:841 ../api/api_reference.rst:903
+#: ../api/api_reference.rst:953 ../api/api_reference.rst:968
+#: ../api/api_reference.rst:996 ../api/api_reference.rst:1027
+#: ../api/api_reference.rst:1141 266dbcc226af409991ce14b03de8c312
+#: 3ee36782496749e1ad6abd05999b50bc ccf6da31071540a4b1fee632760df58f
+#: d1aa00ef0f2e46c0a3890dc40ce90fdd
+msgid "**Example Request**"
+msgstr "**请求示例**"
+
+#: ../api/api_reference.rst:43 ../api/api_reference.rst:193
+#: ../api/api_reference.rst:227 ../api/api_reference.rst:256
+#: ../api/api_reference.rst:338 ../api/api_reference.rst:423
+#: 47e908a01f474119bd0150c337a2dfaa 55e0cee3dbad46dbb27205e5eed8a9f5
+#: 7de40d5963194342aeb0ba67ed93c448 9cbfed64808b40b5be8dc32590303334
+#: c46175b98da54116a07c96edb4f07cbf c9cbf07558a84b478f5fece6fcd3c08b
+msgid "**Example Response**"
+msgstr "**响应示例**"
+
+#: ../api/api_reference.rst:55 e4d8e2df231c463d9c28ad9c84e38d22
+msgid "Update project"
+msgstr "更新项目"
+
+#: ../api/api_reference.rst:57 9d7df920b74f4d62aaebbcac554a4cf7
+msgid "**PUT** ``/projects/{projectId}``"
+msgstr ""
+
+#: ../api/api_reference.rst:59 defbc36659f1437599108ad760cdecdb
+msgid "Updates project name and/or description."
+msgstr "更新项目名称和/或描述。"
+
+#: ../api/api_reference.rst:69 ../api/api_reference.rst:118
+#: 57d4d8c43305472f8b7150b4d91148f0 63f0ee263285435091c4424933618e27
+msgid "``projectId``"
+msgstr "``项目ID``"
+
+#: ../api/api_reference.rst:72 7990f0956d3646de8fee7b99ad33e453
+msgid "Project UUID (path parameter)"
+msgstr "项目UUID（路径参数）"
+
+#: ../api/api_reference.rst:76 90c64f9744e342a288825fb40edd4bcd
+msgid "New project name"
+msgstr "新项目名称"
+
+#: ../api/api_reference.rst:80 d9fdcd61c82e41f7ad45006793a14da7
+msgid "New project description"
+msgstr "新项目描述"
+
+#: ../api/api_reference.rst:93 4dffcb704d5046feb297f5c1c4a328f6
+msgid "Processings"
+msgstr "加工"
+
+#: ../api/api_reference.rst:96 2075dc60e4954d45975999dc0ef05a66
+msgid ""
+"**v2 API is recommended.** It uses structured ``sourceParams`` and "
+"``inferenceParams``. v1 uses a flat ``params`` map and is maintained for "
+"backward compatibility."
+msgstr ""
+"**推荐使用v2 API。**它使用结构化的``sourceParams``和``inferenceParams``。 v1 "
+"使用平面“params”映射并进行维护以实现向后兼容性。"
+
+#: ../api/api_reference.rst:100 1f2abd4f340b4d96924dbab68733bfd7
+msgid "Create processing (v2)"
+msgstr "创建处理 (v2)"
+
+#: ../api/api_reference.rst:102 caf6dff18600459bad30dbf1e381ac46
+msgid "**POST** ``/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:104 f635700eae354015b8fdb6e485235768
+msgid "Creates and runs an imagery analysis processing."
+msgstr "创建并运行图像分析处理。"
+
+#: ../api/api_reference.rst:117 adcbe4e7d5424f1b832044409ba8a2fa
+msgid "Processing name"
+msgstr "加工名称"
+
+#: ../api/api_reference.rst:121 48f50a4125af4cbd9b338b0c502b737a
+msgid "Project UUID"
+msgstr "项目UUID"
+
+#: ../api/api_reference.rst:122 3587046da03f41b9bcf4e63d704b01e9
+msgid "``wdId`` or ``wdName``"
+msgstr "``wdId`` 或 ``wdName``"
+
+#: ../api/api_reference.rst:125 33a3d48e523d43d2a927a36c7e246b51
+msgid "Workflow definition ID or name (e.g., \"🏠 Buildings\")"
+msgstr "工作流定义 ID 或名称（例如“🏠 建筑物”）"
+
+#: ../api/api_reference.rst:126 ../api/api_reference.rst:304
+#: 499d4b7500084a83b2d20db4c7a45700 f27eb58de575440dbbedeb22333dc908
+msgid "``geometry``"
+msgstr "``几何``"
+
+#: ../api/api_reference.rst:127 ../api/api_reference.rst:305
+#: de494c7841db4105b15753b04a59a89f e8ea77b882544e339beb92f34a560b39
+msgid "GeoJSON"
+msgstr "地理JSON"
+
+#: ../api/api_reference.rst:129 f4750708e24c46d4ad49c8124f9a2025
+msgid "Area of interest (Polygon or MultiPolygon)"
+msgstr "感兴趣的区域（多边形或多多边形）"
+
+#: ../api/api_reference.rst:130 2f099d3fae9e4523b6643b60315a3382
+msgid "``params.sourceParams``"
+msgstr ""
+
+#: ../api/api_reference.rst:131 ../api/api_reference.rst:135
+#: ../api/api_reference.rst:147 ../api/api_reference.rst:313
+#: ../api/api_reference.rst:1074 0ac476b5bdfc498999416360d6d3a432
+#: 0e78790e863d4c0abf3db373e0c849ee 0f466023ca3c41a8b817625025df0b41
+#: 1e89762e62a34fbb8cbbe77d44cba940 83353932a8134c17b3a76689baff1699
+msgid "object"
+msgstr "目的"
+
+#: ../api/api_reference.rst:133 e990cb26b4f142b8b137653581f6cc1c
+msgid "Imagery source configuration (see :ref:`source-params`)"
+msgstr "图像源配置（请参阅：ref:`source-params`）"
+
+#: ../api/api_reference.rst:134 106275b525a54e0db90d23329ba81ab8
+msgid "``params.inferenceParams``"
+msgstr ""
+
+#: ../api/api_reference.rst:137 c711e3253fab49118d8cf019ae444276
+msgid "Model-specific parameters"
+msgstr "特定型号参数"
+
+#: ../api/api_reference.rst:138 ../api/api_reference.rst:316
+#: 3a1f32f6112f4e90a53c879399dcc574 8b4a4f8abfe940baaf14a55a29bdf8fd
+msgid "``blocks``"
+msgstr "``块``"
+
+#: ../api/api_reference.rst:139 ../api/api_reference.rst:317
+#: ../api/api_reference.rst:674 ../api/api_reference.rst:744
+#: ../api/api_reference.rst:1130 ../api/api_reference.rst:1134
+#: 9fae48c3e49a4b90935f17f3a64d9993 b6586ad3f83f466899691e55df59caf2
+#: bfc315f9118d46e4a4b0388fbec62f95
+msgid "array"
+msgstr "大批"
+
+#: ../api/api_reference.rst:141 2e3dc9b6d8de40889517bb963fa59599
+msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
+msgstr "启用/禁用工作流程步骤（请参阅：ref:`workflow-blocks`）"
+
+#: ../api/api_reference.rst:145 6d58111c25bc41bfb7f535312a5b768b
+msgid "Processing description"
+msgstr "加工说明"
+
+#: ../api/api_reference.rst:146 6679e7c84c254069aee0ead29eeb0884
+msgid "``meta``"
+msgstr "``元``"
+
+#: ../api/api_reference.rst:149 c3be1aa82e3144fba5ebc9a25a108ff6
+msgid "Custom metadata"
+msgstr "自定义元数据"
+
+#: ../api/api_reference.rst:151 2da3c3cd905040c48f5a5d7111a0195b
+msgid "**Example Request: Using Mapbox**"
+msgstr "**示例请求：使用 Mapbox**"
+
+#: ../api/api_reference.rst:175 a02c388410aa4dd59e2240d5e999bba6
+msgid "**Example Request: Using Custom Imagery**"
+msgstr "**请求示例：使用自定义图像**"
+
+#: ../api/api_reference.rst:208 bc86effd14be4cd19b9e7ac24cea3ac8
+msgid "Get processing (v2)"
+msgstr "获取处理 (v2)"
+
+#: ../api/api_reference.rst:210 5c916d77a3924db38cdced52a0646bdf
+msgid "**GET** ``/processings/{processingId}/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:212 020ffb9f631a4d9aa62001eb85409d9e
+msgid "Retrieves processing status and details."
+msgstr "检索处理状态和详细信息。"
+
+#: ../api/api_reference.rst:222 5e48493d0d424392b3eeaa6787fe200a
+msgid "``processingId``"
+msgstr "``处理ID``"
+
+#: ../api/api_reference.rst:225 bba00d3d0d914de6b03093ff3fd381e0
+msgid "Processing UUID (path parameter)"
+msgstr "处理UUID（路径参数）"
+
+#: ../api/api_reference.rst:246 3e09ea15426947fab93a9f53666ca9b4
+msgid ""
+"**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, "
+"``FAILED``, ``CANCELLED``"
+msgstr "**状态值：**``未处理``、``IN_PROGRESS``、``正在等待``、``确定``、``失败``、``已取消``"
+
+#: ../api/api_reference.rst:250 c4376d508870467c8bb8164e4b3cc150
+msgid "List processings (v2)"
+msgstr "列表处理 (v2)"
+
+#: ../api/api_reference.rst:252 104d1ccee32b4e7cb0d0176aaeb1c0d0
+msgid "**GET** ``/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:254 dad144cabb784a3f9b7308938e74c845
+msgid "Lists all user processings."
+msgstr "列出所有用户处理。"
+
+#: ../api/api_reference.rst:278 0d910a425fc742b6aad1d47ba36d1349
+msgid "List processings by project (v2)"
+msgstr "按项目列出处理情况 (v2)"
+
+#: ../api/api_reference.rst:280 483abb4a436448adaf933d10cb24e8b3
+msgid "**GET** ``/projects/{projectId}/processings/v2``"
+msgstr ""
+
+#: ../api/api_reference.rst:282 3fa631ffeac749009bb9fb1f4ab2681e
+msgid "Lists processings for a specific project."
+msgstr "列出特定项目的处理。"
+
+#: ../api/api_reference.rst:286 70d8825c0fa54135ad6603193ca9b0e3
+msgid "Calculate cost (v2)"
+msgstr "计算成本 (v2)"
+
+#: ../api/api_reference.rst:288 0b1094af7d0044789db7d6d59a942c5d
+msgid "**POST** ``/processing/cost/v2``"
+msgstr "**POST**``/处理/成本/v2``"
+
+#: ../api/api_reference.rst:290 463c4a3aa837498ab9407dd819580398
+msgid "Estimates processing cost before running."
+msgstr "运行前估计处理成本。"
+
+#: ../api/api_reference.rst:300 d10c25c33ddc47c4a75037ee39805efa
+msgid "``wdId``"
+msgstr ""
+
+#: ../api/api_reference.rst:303 29a5cad0d1f9483fb0be8cac91abf1eb
+msgid "Workflow definition ID"
+msgstr "工作流程定义ID"
+
+#: ../api/api_reference.rst:306 ../api/api_reference.rst:310
+#: 4e560b7fc4e14c7da31d5a7066c5f1ae 559dc8b439d04e95a4b2f9fe4374ec5b
+msgid "No*"
+msgstr "不*"
+
+#: ../api/api_reference.rst:307 a46bebf1db084a64a514e37e36d967ac
+msgid "Area of interest"
+msgstr "感兴趣的领域"
+
+#: ../api/api_reference.rst:308 7d028d405ea042f59c7b860139b414d9
+msgid "``areaSqKm``"
+msgstr "``面积SqKm``"
+
+#: ../api/api_reference.rst:309 81db3992f6084e48add3c97fa7fc8fd6
+msgid "number"
+msgstr "数字"
+
+#: ../api/api_reference.rst:311 48a02142f2d240039538bca025215acb
+msgid "Area in km² (alternative to geometry)"
+msgstr "面积以 km² 为单位（替代几何形状）"
+
+#: ../api/api_reference.rst:312 82299084e73e4b93a3fbc768838904e1
+msgid "``params``"
+msgstr "``参数``"
+
+#: ../api/api_reference.rst:315 bc1a8c9ec92e475d933dab6b359cfa66
+msgid "Source and inference parameters"
+msgstr "源和推理参数"
+
+#: ../api/api_reference.rst:319 ea15892ea6514dc390cce0a0ee61c049
+msgid "Enabled workflow blocks"
+msgstr "启用的工作流程块"
+
+#: ../api/api_reference.rst:322 66a3b51e6e6b48d5b9a56e73badbed32
+msgid "*Provide either ``geometry`` or ``areaSqKm`` (or both)."
+msgstr "*提供“几何图形”或“面积SqKm”（或两者）。"
+
+#: ../api/api_reference.rst:346 4b4253542ed64808afd3ec6a0c94c47d
+msgid "Download results"
+msgstr "下载结果"
+
+#: ../api/api_reference.rst:348 8ef0f0da97f9475c98cca4361e08f2ec
+msgid "**GET** ``/processings/{processingId}/result``"
+msgstr ""
+
+#: ../api/api_reference.rst:350 f37c269742d846bf93502b2a182e58b5
+msgid "Downloads processing results as GeoJSON."
+msgstr "下载 GeoJSON 格式的处理结果。"
+
+#: ../api/api_reference.rst:352 ../api/api_reference.rst:372
+#: ../api/api_reference.rst:451 3c0250f2daf54579a814dd25a8c9d89b
+#: fd060df2d515446eadc46613521af7aa
+msgid "**Query Parameters:**"
+msgstr "**查询参数：**"
+
+#: ../api/api_reference.rst:354 4c93071706054d788116d1905673611e
+msgid "``aoiId`` (optional) — Filter results to specific AOI"
+msgstr "``aoiId``（可选）- 将结果过滤到特定的 AOI"
+
+#: ../api/api_reference.rst:356 ../api/api_reference.rst:376
+#: 3ee36782496749e1ad6abd05999b50bc f20bf4161df7495b97de5d0c244091e3
+msgid "**Example**"
+msgstr "**例子**"
+
+#: ../api/api_reference.rst:366 a8c36a74596f4c87b5aa059d0cd0d7f6
+msgid "Download results by AOI"
+msgstr "按 AOI 下载结果"
+
+#: ../api/api_reference.rst:368 712c1f16a7c04e7390a8972440a004b2
+msgid "**GET** ``/processings/{processingId}/result?aoiId={aoiId}``"
+msgstr "**GET** ``/processings/{processingId}/结果?aoiId={aoiId}``"
+
+#: ../api/api_reference.rst:370 7d15aae61f3242efa448aae21f5b6d7b
+msgid "Downloads processing results as GeoJSON by specific AOI."
+msgstr "按特定 AOI 将处理结果下载为 GeoJSON。"
+
+#: ../api/api_reference.rst:374 d0a8445ea8144a3f987a74239ca742ec
+msgid "``aoiId`` (required) - AOI ID used to filter results"
+msgstr "``aoiId``（必需）- 用于过滤结果的 AOI ID"
+
+#: ../api/api_reference.rst:386 659ef027b22d46bca3927388b1d4e43b
+msgid "Processing management"
+msgstr "加工管理"
+
+#: ../api/api_reference.rst:388 bb08e82b0d9446ab8f7d2da48a5e3662
+msgid "**Restart processing**"
+msgstr "**重新启动处理**"
+
+#: ../api/api_reference.rst:390 712c1f16a7c04e7390a8972440a004b2
+msgid "``POST /processings/{processingId}/restart``"
+msgstr ""
+
+#: ../api/api_reference.rst:392 88dd9918092a42bea7ea53f6edd8ac19
+msgid "Restarts failed partitions only."
+msgstr "仅重新启动失败的分区。"
+
+#: ../api/api_reference.rst:394 24a8b50d0eb4443999c5855403d87974
+msgid "**Update processing**"
+msgstr "**更新处理**"
+
+#: ../api/api_reference.rst:396 a5433b88a073470886c95549b7e78383
+msgid "``PUT /processings/{processingId}``"
+msgstr ""
+
+#: ../api/api_reference.rst:406 a5503bcb5da548079dfe736bd103de75
+msgid "**Delete processing**"
+msgstr "**删除处理**"
+
+#: ../api/api_reference.rst:408 782f03f1f1ea4d6f92e7528416b5119b
+msgid "``DELETE /processings/{processingId}``"
+msgstr "``删除/处理/{processingId}``"
+
+#: ../api/api_reference.rst:410 5b46d651483d421a90c98d35e1c06b2b
+msgid "Deletes processing and all child entities."
+msgstr "删除处理和所有子实体。"
+
+#: ../api/api_reference.rst:414 ad40b91cba834896a841f9f430b74327
+msgid "User & Account"
+msgstr "用户及账户"
+
+#: ../api/api_reference.rst:417 b259fd55ddb443a8967d9a84147ce683
+msgid "Get user status"
+msgstr "获取用户状态"
+
+#: ../api/api_reference.rst:419 503638d16b72492ca948632a1dcaf088
+msgid "**GET** ``/user/status``"
+msgstr "**GET** ``/用户/状态``"
+
+#: ../api/api_reference.rst:421 aa5655dc019e41ef88c2fd5592690b44
+msgid "Returns account details, available models, and workflow definitions."
+msgstr "返回帐户详细信息、可用模型和工作流程定义。"
+
+#: ../api/api_reference.rst:445 f81af93c7d8c4a4c93487784e7283496
+msgid "Processing history"
+msgstr "处理历史"
+
+#: ../api/api_reference.rst:447 a99af70d2ac44f73aed03d88d7a09733
+msgid "**POST** ``/processings/stats``"
+msgstr "**POST** ``/处理/统计``"
+
+#: ../api/api_reference.rst:449 005d12315b76469f8974f18589561dbd
+msgid "Returns processing history with pagination and filtering."
+msgstr "返回带有分页和过滤的处理历史记录。"
+
+#: ../api/api_reference.rst:453 0eb4bddc993f4fd7892f0335d59fcda4
+msgid "``type`` (optional) — Response format: ``JSON`` or ``CSV``"
+msgstr "``type`` （可选）- 响应格式：``JSON`` 或 ``CSV``"
+
+#: ../api/api_reference.rst:455 54b1768873b94955848c15a273e18828
+msgid "**Request Body:**"
+msgstr "**请求正文：**"
+
+#: ../api/api_reference.rst:464 0c4881356cff4d4d907cb3d2338f3251
+msgid "``page``"
+msgstr "``页面``"
+
+#: ../api/api_reference.rst:465 ../api/api_reference.rst:468
+#: ../api/api_reference.rst:608 ../api/api_reference.rst:1110
+#: ../api/api_reference.rst:1114 52be0ae9e4e045fc94b9293af7f10771
+msgid "integer"
+msgstr "整数"
+
+#: ../api/api_reference.rst:466 0af4576c0c654969aec3ff0f0114beef
+msgid "Page number"
+msgstr "页码"
+
+#: ../api/api_reference.rst:467 e1d543e943114d2c9c274e6d7c92c1b4
+msgid "``perPage``"
+msgstr "``每页``"
+
+#: ../api/api_reference.rst:469 6bf96cfad3a74dc7b6790986ad6b43ab
+msgid "Items per page"
+msgstr "每页项目数"
+
+#: ../api/api_reference.rst:470 836e5d60f29f4794adae01026855a6f0
+msgid "``sort``"
+msgstr "``排序``"
+
+#: ../api/api_reference.rst:472 849f177a9a2b4fc5bc19a02fa2175e59
+msgid "Sort expression (e.g., ``\"created:desc\"``)"
+msgstr "排序表达式（例如，``\"created:desc\"``）"
+
+#: ../api/api_reference.rst:473 cabc33e6a1164f66ae413f045abca600
+msgid "``filter``"
+msgstr "``过滤器``"
+
+#: ../api/api_reference.rst:475 ae17f4dd06584a5fab6f8d98e098c9ef
+msgid "Filter expression (e.g., ``\"status=OK\"``)"
+msgstr "过滤表达式（例如，``“status=OK”``）"
+
+#: ../api/api_reference.rst:492 1c6aa45f82e343d380a1354a7c6cd546
+msgid "Data Sources"
+msgstr "数据来源"
+
+#: ../api/api_reference.rst:494 c97d18f8ab7d4db083e8e20b664904cc
+msgid ""
+"The ``sourceParams`` object specifies where to get imagery. Choose one "
+"option:"
+msgstr "“sourceParams”对象指定从哪里获取图像。选择一个选项："
+
+#: ../api/api_reference.rst:498 1290281072c843569fcce0c0cae9985f
+msgid "Default Data Provider"
+msgstr "默认数据提供者"
+
+#: ../api/api_reference.rst:500 d9a971f4f7904dcea0f0000ee7b96005
+msgid "Use built-in providers like Mapbox, ArcGIS."
+msgstr "使用 Mapbox、ArcGIS 等内置提供程序。"
+
+#: ../api/api_reference.rst:517 ../api/api_reference.rst:598
+#: 1a1704ccec1b4f7188425c75a20ba044
+msgid "Field"
+msgstr "场地"
+
+#: ../api/api_reference.rst:519 8f3ffb2caf9c4fe5b0d8620ab37efc81
+msgid "``providerName``"
+msgstr "``提供者名称``"
+
+#: ../api/api_reference.rst:520 1b36abf35f6746ce8b469353f578908f
+msgid "Provider name: ``Mapbox``, ``arcgis_world_imagery``, etc."
+msgstr "提供程序名称：``Mapbox``、``arcgis_world_imagery`` 等。"
+
+#: ../api/api_reference.rst:521 ../api/api_reference.rst:607
+#: ba35bbf72b0e4aa5a97cc7286bc89768
+msgid "``zoom``"
+msgstr "``缩放``"
+
+#: ../api/api_reference.rst:522 477696ac09d14e25932b13c911226f81
+msgid "Zoom level (typically 17-19 for 0.5m resolution)"
+msgstr "缩放级别（0.5m 分辨率通常为 17-19）"
+
+#: ../api/api_reference.rst:526 1cd6eadbbdad4c8b87ad60a630acc665
+msgid "My Imagery"
+msgstr "我的意象"
+
+#: ../api/api_reference.rst:528 f41c2a9d2f634e82a5636b603a58a3a4
+msgid "Use imagery uploaded via :ref:`Data API`."
+msgstr "使用通过 Data API 上传的图像。"
+
+#: ../api/api_reference.rst:530 0532b7c0e67144cd94dcd1b1cefe653a
+msgid "**Single image:**"
+msgstr "**单张图像：**"
+
+#: ../api/api_reference.rst:542 6201c32eb3814c0bb44a6d0dd9422502
+msgid "**Mosaic (multiple images):**"
+msgstr "**马赛克（多个图像）：**"
+
+#: ../api/api_reference.rst:557 77350fc5269d46c5ad891ae4b6db0cbf
+msgid "Imagery Search"
+msgstr "图像搜索"
+
+#: ../api/api_reference.rst:559 378d362af6d54c86a66a50bbd2aa5aa9
+msgid "Search and use imagery from commercial providers."
+msgstr "搜索并使用来自商业提供商的图像。"
+
+#: ../api/api_reference.rst:575 44402b90119d4a84854bad8e51f88782
+msgid "Custom URL"
+msgstr "自定义网址"
+
+#: ../api/api_reference.rst:577 5d762957febb4ed1817d0bed2bbd5eb8
+msgid "Use your own XYZ/TMS/WMS tile service."
+msgstr "使用您自己的 XYZ/TMS/WMS 切片服务。"
+
+#: ../api/api_reference.rst:601 b88bbdd817d84a3db26b0bb5a610c836
+msgid "``sourceType``"
+msgstr "``源类型``"
+
+#: ../api/api_reference.rst:603 888560c8bb5f4351aea74211ee3bed1b
+msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
+msgstr "“XYZ”、“TMS”、“QUADKEY”、“SENTINEL_L2A”、“LOCAL”"
+
+#: ../api/api_reference.rst:604 ../api/api_reference.rst:836
+#: 602c8f8d9dbb49489052855b91f1a3fd
+msgid "``url``"
+msgstr "``网址``"
+
+#: ../api/api_reference.rst:606 37f35eff2be64ed29e7986362461063f
+msgid "Tile URL template"
+msgstr "平铺 URL 模板"
+
+#: ../api/api_reference.rst:609 6ad6e8b66ba049ab92233965c56ad44c
+msgid "Zoom level"
+msgstr "缩放级别"
+
+#: ../api/api_reference.rst:610 7eb4233fd6b24b18a539ee8e3d9a6781
+msgid "``crs``"
+msgstr ""
+
+#: ../api/api_reference.rst:612 f890183f304c41f49fd43611e28b32c1
+msgid "Coordinate reference system (e.g., ``EPSG:3857``)"
+msgstr "坐标参考系统（例如，``EPSG:3857``）"
+
+#: ../api/api_reference.rst:613 f43b4f8c73aa44a98b18e1a666c2b85d
+msgid "``rasterLogin``"
+msgstr "``光栅登录``"
+
+#: ../api/api_reference.rst:615 58a0afe923514a26aa09024f8c4a1fb6
+msgid "Optional authentication username"
+msgstr "可选的身份验证用户名"
+
+#: ../api/api_reference.rst:616 04e480a9b70c40d59bdc522105e1fe8d
+msgid "``rasterPassword``"
+msgstr "``光栅密码``"
+
+#: ../api/api_reference.rst:618 4536ea53e7814e65ad546dd4d616b79e
+msgid "Optional authentication password"
+msgstr "可选验证密码"
+
+#: ../api/api_reference.rst:624 e6057a8928484c2ab35aa2757317a91a
+msgid "Uploading Custom Imagery"
+msgstr "上传自定义图像"
+
+#: ../api/api_reference.rst:626 62702a0ae3364997981ad49cab660035
+msgid "Use :ref:`Data API` to create a mosaic and upload images"
+msgstr "使用 Data API 创建马赛克并上传图像"
+
+#: ../api/api_reference.rst:627 98d8185bda18472a9546fe1e0388da8d
+msgid "Reference uploaded images in ``sourceParams.myImagery.imageIds``"
+msgstr "在``sourceParams.myImagery.imageIds``中引用上传的图像"
+
+#: ../api/api_reference.rst:644 d4f22ac975ac45bcb6fa580c0eae8fb4
+msgid "Data API"
+msgstr "数据接口"
+
+#: ../api/api_reference.rst:647 e9e95aca57ec4a8bbff7f3512685058c
+msgid "Mosaics"
+msgstr "马赛克"
+
+#: ../api/api_reference.rst:649 4615b133a26f441e82c730bbb8203156
+msgid ""
+"A **mosaic** is a collection of georeferenced images organized for "
+"processing and preview. Mosaics help when working with multiple aerial "
+"images covering an area or batching large orthomaps for optimized cloud "
+"storage."
+msgstr ""
+"**马赛克**是为处理和预览而组织的地理参考图像的集合。当处理覆盖一个区域的多个航拍图像或批处理大型正射图以优化云存储时，马赛克会很有帮助。"
+
+#: ../api/api_reference.rst:653 78d10b8dfde943b4b65caf957923db7c
+msgid "Create Mosaic"
+msgstr "创建马赛克"
+
+#: ../api/api_reference.rst:655 eaeb42ea96054ba198de20cdc251736b
+msgid "``POST /rasters/mosaic``"
+msgstr "``POST /光栅/马赛克``"
+
+#: ../api/api_reference.rst:657 2b3bb0ded0284c22845c5c3f611a86ab
+msgid "Creates an empty mosaic collection."
+msgstr "创建一个空的马赛克集合。"
+
+#: ../api/api_reference.rst:659 ../api/api_reference.rst:729
+#: ../api/api_reference.rst:826 ../api/api_reference.rst:1063
+#: a88933246d2742c0acd6d22bcab938ca
+msgid "**Request Body**"
+msgstr "**请求正文**"
+
+#: ../api/api_reference.rst:672 74387d1c447540369849a813024f4d4f
+msgid "Mosaic name"
+msgstr "马赛克名称"
+
+#: ../api/api_reference.rst:673 ../api/api_reference.rst:743
+#: 649eab8c194849b799ddb6dd3846c0ba
+msgid "``tags``"
+msgstr "``标签``"
+
+#: ../api/api_reference.rst:676 791a5abaa2a04993a9e3b05253e5d94f
+msgid "Tags for organizing mosaics"
+msgstr "用于组织马赛克的标签"
+
+#: ../api/api_reference.rst:690 ../api/api_reference.rst:709
+#: ../api/api_reference.rst:789 ../api/api_reference.rst:852
+#: ../api/api_reference.rst:869 ../api/api_reference.rst:924
+#: ../api/api_reference.rst:1004 ../api/api_reference.rst:1034
+#: 26cee05b1fd241e2a72c8a163070292a
+msgid "**Response**"
+msgstr "**回复**"
+
+#: ../api/api_reference.rst:703 f606b1768f62406a845c60138d357a76
+msgid "Get Mosaic"
+msgstr "获取马赛克"
+
+#: ../api/api_reference.rst:705 21559d8071004dc798e10b17ba3e1ca0
+msgid "``GET /rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:707 581dfa2fc9264542a991dd67e39a7248
+msgid "Retrieves mosaic metadata by ID."
+msgstr "按 ID 检索马赛克元数据。"
+
+#: ../api/api_reference.rst:723 454db7fdf12b4b4ebb6f4b9b64cd5bea
+msgid "Update Mosaic"
+msgstr "更新马赛克"
+
+#: ../api/api_reference.rst:725 eeea29100bd24bba9c3e6c169ec919e6
+msgid "``PUT /rasters/mosaic/{mosaic_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:727 a7eeb5de9e9f4699a714e5cb8b89d430
+msgid "Updates mosaic name and tags."
+msgstr "更新马赛克名称和标签。"
+
+#: ../api/api_reference.rst:742 95c02286e0ef415ea990221f52468ecb
+msgid "New mosaic name"
+msgstr "新马赛克名称"
+
+#: ../api/api_reference.rst:746 4a5a50dd2f5241bd820adc2ecc740857
+msgid "New tag list (replaces existing)"
+msgstr "新标签列表（替换现有标签）"
+
+#: ../api/api_reference.rst:762 eb90087703a848dc9cde1c5fa9a8b0a1
+msgid "Upload Images to Mosaic"
+msgstr "将图像上传到马赛克"
+
+#: ../api/api_reference.rst:764 097df8468f4f4a00bbdd9a7afdd583fd
+msgid "``POST /rasters/mosaic/{mosaic_id}/image``"
+msgstr ""
+
+#: ../api/api_reference.rst:766 987f8dd30cf7410d9dc7538ee98f3648
+msgid "Uploads georeferenced image files to an existing mosaic."
+msgstr "将地理参考图像文件上传到现有马赛克。"
+
+#: ../api/api_reference.rst:769 1909fcb443c24c0696a1780ee0a0ba65
+msgid "All images in a mosaic must have:"
+msgstr "马赛克中的所有图像必须具有："
+
+#: ../api/api_reference.rst:771 f7f3ee0f6e3b4d79919ea4f50757e9e8
+msgid "Same coordinate reference system (CRS)"
+msgstr "相同坐标参考系（CRS）"
+
+#: ../api/api_reference.rst:772 c7094b11bc264b72a219176e553049ff
+msgid "Same number of bands"
+msgstr "相同数量的带"
+
+#: ../api/api_reference.rst:773 76b428f794704ba890581d5e0aade0ff
+msgid "Same spatial resolution"
+msgstr "相同的空间分辨率"
+
+#: ../api/api_reference.rst:775 6d1478bbb2fe4bf1bffe09634ce56cbf
+msgid "**Request**"
+msgstr "**要求**"
+
+#: ../api/api_reference.rst:777 5498ee1459774a09bf81cd80614f151b
+msgid "Content-Type: ``multipart/form-data``"
+msgstr "内容类型：``multipart/form-data``"
+
+#: ../api/api_reference.rst:778 950e9f7a785f4195808314071f0f396b
+msgid "Body: ``file`` field with image file"
+msgstr "正文：带有图像文件的“file”字段"
+
+#: ../api/api_reference.rst:803 d6aba39010444b2ebf5a44985d9c1d5f
+msgid "Create Mosaic and Upload Image"
+msgstr "创建马赛克并上传图像"
+
+#: ../api/api_reference.rst:805 f399fdab7e804cdca3a81e91066653a1
+msgid "``POST /rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}``"
+msgstr "``POST /光栅/马赛克/图像？名称= {名称}＆标签= {标签1}＆标签= {标签2}``"
+
+#: ../api/api_reference.rst:807 39796dd29e8a4b5fae454f4ce3d70778
+msgid "Creates a mosaic and uploads an image in a single request."
+msgstr "在单个请求中创建马赛克并上传图像。"
+
+#: ../api/api_reference.rst:820 7737efd568314f459f6ef659e48bbb5f
+msgid "Link External Image to Mosaic"
+msgstr "将外部图像链接到马赛克"
+
+#: ../api/api_reference.rst:822 ca0d76860d8344cb933c9e9386d14457
+msgid "``POST /rasters/mosaic/{mosaic_id}/link-image``"
+msgstr ""
+
+#: ../api/api_reference.rst:824 4bc6d2a6a5ce44d1b74af2862997953f
+msgid "Links an existing S3 image URL to a mosaic without uploading."
+msgstr "将现有 S3 图像 URL 链接到马赛克，无需上传。"
+
+#: ../api/api_reference.rst:839 57ee20b50e184e079e5fe0ee24488302
+msgid "S3 URL of the image file"
+msgstr "图像文件的 S3 URL"
+
+#: ../api/api_reference.rst:863 079acfe1f5674dc0a933f7d22f624f38
+msgid "Get Images in Mosaic"
+msgstr "获取马赛克图像"
+
+#: ../api/api_reference.rst:865 e811203c96174d22b5a1578887aabb5e
+msgid "``GET /rasters/mosaic/{mosaic_id}/image``"
+msgstr ""
+
+#: ../api/api_reference.rst:867 4166403614f24bf282064bc1745cc93b
+msgid "Lists all images in a mosaic with metadata."
+msgstr "列出马赛克中的所有图像以及元数据。"
+
+#: ../api/api_reference.rst:894 c492bd70dd524a02a6cd93a61f44c7ad
+msgid "Delete Mosaic"
+msgstr "删除马赛克"
+
+#: ../api/api_reference.rst:896 691a39e3a48049a182bdc4fb44034fc3
+msgid "``DELETE /rasters/mosaic/{mosaic_id}``"
+msgstr "``删除/光栅/马赛克/{mosaic_id}``"
+
+#: ../api/api_reference.rst:898 5cc8a9f174ff4efca213ea29ce6d6f70
+msgid "Deletes a mosaic and all its linked images."
+msgstr "删除马赛克及其所有链接的图像。"
+
+#: ../api/api_reference.rst:901 b6505ac1db14489ca65becf5b634e030
+msgid ""
+"This action is **irreversible**. All images linked to the mosaic will be "
+"permanently deleted."
+msgstr "此操作**不可逆转**。所有链接到马赛克的图像都将被永久删除。"
+
+#: ../api/api_reference.rst:912 03f1fad01d2e45f8bd98abf17e8704b2
+msgid "Images"
+msgstr "图片"
+
+#: ../api/api_reference.rst:914 31e78bd765ee4873afe924e1091b06af
+msgid "Manage individual image files and metadata."
+msgstr "管理单个图像文件和元数据。"
+
+#: ../api/api_reference.rst:918 a4a7f80ac19d4ab3920f0d1cfa6aa408
+msgid "Get Image Metadata"
+msgstr "获取图像元数据"
+
+#: ../api/api_reference.rst:920 37e59661841b406891b99eb814a8fc9a
+msgid "``GET /rasters/image/{image_id}``"
+msgstr ""
+
+#: ../api/api_reference.rst:922 c7f2f0afa46e4f71afbce8359f027212
+msgid "Retrieves detailed metadata for a specific image."
+msgstr "检索特定图像的详细元数据。"
+
+#: ../api/api_reference.rst:947 2281a7c93db74dc99f3a63f33a7a9fa1
+msgid "Update Image Name"
+msgstr "更新图像名称"
+
+#: ../api/api_reference.rst:949 b234212e17ac41fcb1ca9fd6930d2451
+msgid "``PUT /rasters/image/{image_id}?name={new_name}``"
+msgstr ""
+
+#: ../api/api_reference.rst:951 88d6b9c8aba14db994f71b7d027af8f9
+msgid "Updates the display name of an image."
+msgstr "更新图像的显示名称。"
+
+#: ../api/api_reference.rst:962 d5cf1e820e584eaaa76d75d7d2b2581e
+msgid "Delete Image"
+msgstr "删除图像"
+
+#: ../api/api_reference.rst:964 348f3fc744784f13975204fb9bc59b8e
+msgid "``DELETE /rasters/image/{image_id}``"
+msgstr "``删除/光栅/图像/{image_id}``"
+
+#: ../api/api_reference.rst:966 f4c7786765e546cba42da7b1b3b21d69
+msgid "Deletes an image from storage."
+msgstr "从存储中删除图像。"
+
+#: ../api/api_reference.rst:977 2a6f5c3bbc5c43a68b18876c3dfa5829
+msgid "Get Image Preview"
+msgstr "获取图像预览"
+
+#: ../api/api_reference.rst:979 a192a46be7da4eb4825684afcbc3e1a6
+msgid "``GET /rasters/image/{image_id}/preview/{size}``"
+msgstr ""
+
+#: ../api/api_reference.rst:981 b877e4d87aeb434c821f680cc9a61806
+msgid "Retrieves a preview thumbnail of the image."
+msgstr "检索图像的预览缩略图。"
+
+#: ../api/api_reference.rst:983 8a30a7f5d18f4263ac5bd9e8ac4140a9
+msgid "**Path Parameters**"
+msgstr "**路径参数**"
+
+#: ../api/api_reference.rst:989 4a8fe2b05ece4bdc939952d1f9d22c0b
+msgid "Size"
+msgstr "尺寸"
+
+#: ../api/api_reference.rst:991 ../api/api_reference.rst:1266
+#: 41f1c6bafc6c448e9c2f2fa87cd29afd
+msgid "``s``"
+msgstr ""
+
+#: ../api/api_reference.rst:992 ecba6e0ee96f455d8b5654ead77a60fd
+msgid "Small preview (256×256 pixels)"
+msgstr "小预览（256×256 像素）"
+
+#: ../api/api_reference.rst:993 ../api/api_reference.rst:1268
+#: 0dd9a413ed6c476587ac2145c4abd51b
+msgid "``l``"
+msgstr "``我``"
+
+#: ../api/api_reference.rst:994 8066ee9784074897894a0893b4550e2e
+msgid "Large preview (1024×1024 pixels)"
+msgstr "大预览（1024×1024像素）"
+
+#: ../api/api_reference.rst:1006 f72465dd410c47c5a88e446922ac239d
+msgid "Returns JPEG image data."
+msgstr "返回 JPEG 图像数据。"
+
+#: 64686b58c6ed49d3bbfaed4405b93c75
+msgid "Image preview example"
+msgstr "图像预览示例"
+
+#: ../api/api_reference.rst:1017 429deeacb055443ab32f1defb5b914c5
+msgid "Storage"
+msgstr "贮存"
+
+#: ../api/api_reference.rst:1021 592181a3307a4cec9dac4cad9e1cf3dd
+msgid "Get Storage Usage"
+msgstr "获取存储使用情况"
+
+#: ../api/api_reference.rst:1023 8497bfded64a47678bfc3c4f1c85bc31
+msgid "``GET /rasters/memory``"
+msgstr "``GET /光栅/内存``"
+
+#: ../api/api_reference.rst:1025 3472cc76c0c04b14be97c1798d667a90
+msgid "Returns current storage usage and limits for your account."
+msgstr "返回您帐户的当前存储使用情况和限制。"
+
+#: ../api/api_reference.rst:1050 2d925840a1f84c7c999b1be8d9713185
+msgid "Imagery Catalog"
+msgstr "影像目录"
+
+#: ../api/api_reference.rst:1053 73f9a9d1282f431f80077b14b9967f91
+msgid ""
+"The Imagery Search API connects you to external satellite imagery providers."
+" Search results depend on providers linked to your account. Contact support "
+"to add provider access."
+msgstr "图像搜索 API 将您连接到外部卫星图像提供商。搜索结果取决于链接到您帐户的提供商。联系支持人员以添加提供商访问权限。"
+
+#: ../api/api_reference.rst:1057 5ad2ffce56ed47c1976a5147e59cbd8f
+msgid "Search Available Imagery"
+msgstr "搜索可用图像"
+
+#: ../api/api_reference.rst:1059 09d31261f24d4d87845ee0b68f4b053f
+msgid "``POST /catalog/meta``"
+msgstr "``POST /目录/元``"
+
+#: ../api/api_reference.rst:1061 a172f93a9a7c4d669c81a99fa2fd6114
+msgid ""
+"Searches satellite imagery from external providers by area and metadata "
+"filters."
+msgstr "按区域和元数据过滤器搜索来自外部提供商的卫星图像。"
+
+#: ../api/api_reference.rst:1073 3a794a8dd11a4d59b997ea8a465309b7
+msgid "``aoi``"
+msgstr "``葵``"
+
+#: ../api/api_reference.rst:1076 e35233f945b640c6939e47d282f381ed
+msgid "GeoJSON Polygon or MultiPolygon"
+msgstr "GeoJSON 多边形或多多边形"
+
+#: ../api/api_reference.rst:1077 12d79d93389843c390a9839a6d2f1979
+msgid "``acquisitionDateFrom``"
+msgstr "``获取日期自``"
+
+#: ../api/api_reference.rst:1080 ../api/api_reference.rst:1084
+#: ee66c3155e684f4185b9ee50245f7ab6
+msgid "UTC datetime (ISO 8601)"
+msgstr "UTC 日期时间 (ISO 8601)"
+
+#: ../api/api_reference.rst:1081 db25e1f87c194c759cee2f571d2e8f39
+msgid "``acquisitionDateTo``"
+msgstr "``获取日期到``"
+
+#: ../api/api_reference.rst:1085 b69ed76103944eb3b3404b44cc0127a8
+msgid "``minResolution``"
+msgstr "``最小分辨率``"
+
+#: ../api/api_reference.rst:1086 ../api/api_reference.rst:1090
+#: ../api/api_reference.rst:1094 ../api/api_reference.rst:1098
+#: ../api/api_reference.rst:1102 ../api/api_reference.rst:1106
+#: 66b985be725248adafbceae58a86f6ee
+msgid "float"
+msgstr "漂浮"
+
+#: ../api/api_reference.rst:1088 8eafda8eab104dc096afb9a584f9a86a
+msgid "Minimum resolution (meters/pixel)"
+msgstr "最小分辨率（米/像素）"
+
+#: ../api/api_reference.rst:1089 85e7f03e345743b8ab14f55c7ea41ae9
+msgid "``maxResolution``"
+msgstr "``最大分辨率``"
+
+#: ../api/api_reference.rst:1092 d2a7c225faa14563b44f9c73ad4a7e1f
+msgid "Maximum resolution (meters/pixel)"
+msgstr "最大分辨率（米/像素）"
+
+#: ../api/api_reference.rst:1093 43d027c6089d4ad09149214b4099452c
+msgid "``maxCloudCover``"
+msgstr "``最大云覆盖率``"
+
+#: ../api/api_reference.rst:1096 8a93f7fe6e614299854310b011083de4
+msgid "Maximum cloud cover (0.0-100)"
+msgstr "最大云量 (0.0-100)"
+
+#: ../api/api_reference.rst:1097 bafac1f11c484d5ab2907ca058836412
+msgid "``minOffNadirAngle``"
+msgstr ""
+
+#: ../api/api_reference.rst:1100 775dbd68724344e596b014b7a6f53d66
+msgid "Minimum off-nadir angle (degrees)"
+msgstr "最小偏离最低点角度（度）"
+
+#: ../api/api_reference.rst:1101 f92c9a67ffa64da6bf880b51d9259cfe
+msgid "``maxOffNadirAngle``"
+msgstr ""
+
+#: ../api/api_reference.rst:1104 6e0154eafce64bae84bf155bc655622a
+msgid "Maximum off-nadir angle (degrees)"
+msgstr "最大偏离最低点角度（度）"
+
+#: ../api/api_reference.rst:1105 2c02ff722f7e49c5a4eacbf1672a8dc6
+msgid "``minAoiIntersectionPercent``"
+msgstr ""
+
+#: ../api/api_reference.rst:1108 d980f0fd00b84b388362b7db2208bf7f
+msgid "Minimum AOI overlap (0.0-100)"
+msgstr "最小 AOI 重叠 (0.0-100)"
+
+#: ../api/api_reference.rst:1109 05761becb0724b629c7432b1a05eec31
+msgid "``limit``"
+msgstr "``限制``"
+
+#: ../api/api_reference.rst:1112 ba3b466dfe7343e4bc232cfbf16c244e
+msgid "Max results (default: 100)"
+msgstr "最大结果数（默认值：100）"
+
+#: ../api/api_reference.rst:1113 d62b925a35c049499ba2a993136febd1
+msgid "``offset``"
+msgstr "``偏移``"
+
+#: ../api/api_reference.rst:1116 8e361cb0c0e549209bd7f2c1cc50614a
+msgid "Pagination offset"
+msgstr "分页偏移量"
+
+#: ../api/api_reference.rst:1117 152fcee14a244b889fa6d0e9443c1122
+msgid "``sortBy``"
+msgstr "``排序依据``"
+
+#: ../api/api_reference.rst:1120 732a1174a4844d7093168a222bc19eb0
+msgid "Sort field (e.g., ``ACQUISITION_DATE``)"
+msgstr "排序字段（例如“ACQUISITION_DATE”）"
+
+#: ../api/api_reference.rst:1121 fd20374da87b44deb3818bda29090390
+msgid "``sortOrder``"
+msgstr "``排序顺序``"
+
+#: ../api/api_reference.rst:1124 bb29241069dd4ef8844d2e3e34a263a1
+msgid "``ASC`` or ``DESC``"
+msgstr "``ASC`` 或 ``DESC``"
+
+#: ../api/api_reference.rst:1125 a619d7ae4cb34ecda4a00f21cff5c0e4
+msgid "``hideUnavailable``"
+msgstr "``隐藏不可用``"
+
+#: ../api/api_reference.rst:1126 49e8ca14d95c48dd8375a1944a394d67
+msgid "boolean"
+msgstr "布尔值"
+
+#: ../api/api_reference.rst:1128 5e22b1771a6d4474b0702f25b3ee24c4
+msgid "Exclude unavailable products"
+msgstr "排除不可用的产品"
+
+#: ../api/api_reference.rst:1129 6aa8b683d7c64aa9bd5c75c50cd2e100
+msgid "``dataProviders``"
+msgstr "``数据提供者``"
+
+#: ../api/api_reference.rst:1132 8803ef825de6428ca88de58c1f919eac
+msgid "Filter by provider \"name\""
+msgstr "按提供商“名称”过滤"
+
+#: ../api/api_reference.rst:1133 aeae7308f60345668893da7b085f526b
+msgid "``productTypes``"
+msgstr "``产品类型``"
+
+#: ../api/api_reference.rst:1136 79ce51708eb544db8261f534263752c7
+msgid "Filter by product types ``[\"IMAGE\" and/or \"MOSAIC\"]``"
+msgstr "按产品类型过滤``[“图像”和/或“马赛克”]``"
+
+#: ../api/api_reference.rst:1139 02f11e6e0303404fac65178fb28f97c7
+msgid "Search area size is limited by your account's AOI limit."
+msgstr "搜索区域大小受您帐户的 AOI 限制的限制。"
+
+#: ../api/api_reference.rst:1164 f71629358f5a48149d32b5e2fec527c0
+msgid "**Response – Scene Product**"
+msgstr "**响应 – 场景产品**"
+
+#: afe3549a4a464026a86125c3643fc87c
+msgid "Satellite scene preview"
+msgstr "卫星场景预览"
+
+#: ../api/api_reference.rst:1196 e2ae0e4462194d03b4cef9c0e94ab1e9
+msgid "**Response – Mosaic Product**"
+msgstr "**回应 – 马赛克产品**"
+
+#: ../api/api_reference.rst:1222 6e8b27c9bddd4edcb7effc7d63bd5e5f
+msgid "Use Search Results in Processing"
+msgstr "在处理中使用搜索结果"
+
+#: ../api/api_reference.rst:1224 0ce935aa70404bc0acd2679f438ecc5c
+msgid ""
+"To run processing with imagery from search results, use the "
+"``imagerySearch`` source parameter:"
+msgstr "要对搜索结果中的图像进行处理，请使用“imagerySearch”源参数："
+
+#: ../api/api_reference.rst:1239 b835d904fc9a4244a2e564783bad59e7
+msgid ""
+"See :doc:`Processing API <processing_api>` for complete processing workflow."
+msgstr "请参阅:doc:`处理 API <processing_api>` 了解完整的处理工作流程。"
+
+#: ../api/api_reference.rst:1243 ccf9bce2ab1a4c29862789dfa59d86f4
+msgid "Product Types"
+msgstr "产品类型"
+
+#: ../api/api_reference.rst:1251 3b4ce198a7ad4f948cda8e4f0c52c247
+msgid "**Scene**"
+msgstr "**场景**"
+
+#: ../api/api_reference.rst:1252 83548557d94a4e80ad68c3dd6dadda8c
+msgid ""
+"Single satellite capture. Available for ordering by request. Contact support"
+" to order specific scenes."
+msgstr "单卫星捕获。可按要求订购。请联系支持人员订购特定场景。"
+
+#: ../api/api_reference.rst:1253 8997dcab897c402aa651a664fd4c33ac
+msgid "**Mosaic**"
+msgstr "**马赛克**"
+
+#: ../api/api_reference.rst:1254 1af101de8c9e4085ae7bb944d37c2041
+msgid ""
+"Pre-processed imagery mosaic. Available for instant processing if provider "
+"is linked to your account."
+msgstr "预处理的图像马赛克。如果提供商链接到您的帐户，则可进行即时处理。"
+
+#: ../api/api_reference.rst:1258 4d2eba86495f4fdd93cff947764c2393
+msgid "Preview Sizes"
+msgstr "预览尺寸"
+
+#: ../api/api_reference.rst:1264 550df49b0a9f495298edf9bbda6473b1
+msgid "Size Code"
+msgstr "尺寸代码"
+
+#: ../api/api_reference.rst:1265 b3d5f47bc6f74053b30166f3f2fae672
+msgid "Dimensions"
+msgstr "方面"
+
+#: ../api/api_reference.rst:1267 c225a5905e7d4d5196a615594ce97b1f
+msgid "256×256 pixels"
+msgstr "256×256像素"
+
+#: ../api/api_reference.rst:1269 7ec2ce77c128458cab9cc2db85f40672
+msgid "1024×1024 pixels"
+msgstr "1024×1024像素"
+
+#: ../api/api_reference.rst:1275 53e701c208864a5299a89917bb8a077d
+msgid "Workflow Blocks"
+msgstr "工作流程块"
+
+#: ../api/api_reference.rst:1277 359f676785c84a81b37b3c6f36065af6
+msgid "Customize processing by enabling/disabling optional workflow steps."
+msgstr "通过启用/禁用可选工作流程步骤来自定义处理。"
+
+#: ../api/api_reference.rst:1288 98a03e829b8f4923984af40fe2c2ccd2
+msgid ""
+"Available blocks vary by model. Retrieve options via ``GET /user/status``."
+msgstr "可用模块因型号而异。通过“GET /user/status”检索选项。"
+
+#: ../api/api_reference.rst:1294 21bc210f6fca4e7d88dd0d42f61c84af
+msgid "AI Models"
+msgstr "人工智能模型"
+
+#: ../api/api_reference.rst:1300 c59cea9f88b348d1a77f231250d39123
+msgid "Model"
+msgstr "模型"
+
+#: ../api/api_reference.rst:1302 95b2ec236c2642f194da4f20186111ae
+msgid "Resolution"
+msgstr "解决"
+
+#: ../api/api_reference.rst:1303 e8beed2b3f734a458ed55f69d70af1ad
+msgid "Zoom"
+msgstr "飞涨"
+
+#: ../api/api_reference.rst:1304 a91dfbef711d421aa867ec9b49f955f8
+msgid "Optional Blocks"
+msgstr "可选块"
+
+#: ../api/api_reference.rst:1305 8dd99e50de014e32809fc45ee7e212e6
+msgid "🏠 Buildings"
+msgstr "🏠 建筑物"
+
+#: ../api/api_reference.rst:1306 9334701f17084c088e6b3db14bb4a67b
+msgid "Building footprints with classification"
+msgstr "具有分类的建筑足迹"
+
+#: ../api/api_reference.rst:1307 ../api/api_reference.rst:1317
+#: ../api/api_reference.rst:1322 ../api/api_reference.rst:1327
+#: ee28d4b606f84d4d8838016afcf3d635
+msgid "0.5 m/px"
+msgstr "0.5 m/像素"
+
+#: ../api/api_reference.rst:1308 ../api/api_reference.rst:1318
+#: ../api/api_reference.rst:1323 ../api/api_reference.rst:1328
+#: 08e2b0261c12494bb3c9a46ac46c6dd0
+msgid "17-18"
+msgstr "17-18日"
+
+#: ../api/api_reference.rst:1309 5917e9aa12484e16b882ca375e562dda
+msgid "Simplification, Classification, OSM"
+msgstr "简化、分类、OSM"
+
+#: ../api/api_reference.rst:1310 d74ad3e78e204a67a55191fc877648f6
+msgid "🏠 Buildings (Aerial)"
+msgstr "🏠 建筑物（空中）"
+
+#: ../api/api_reference.rst:1311 699f5b75efb94d659c84f5795a1eda31
+msgid "High-resolution aerial imagery (10 cm/px)"
+msgstr "高分辨率航空图像（10 厘米/像素）"
+
+#: ../api/api_reference.rst:1312 b5a32f324b594ba59facefb979d98fec
+msgid "0.1 m/px"
+msgstr "0.1 m/像素"
+
+#: ../api/api_reference.rst:1313 6a033781dcee41428c6b5747d7ea852c
+msgid "19-20"
+msgstr "19-20日"
+
+#: ../api/api_reference.rst:1314 f920664889454610b8e9a3faff341fea
+msgid "Simplification"
+msgstr "简化"
+
+#: ../api/api_reference.rst:1315 562c92a574ff4393bf209817325b198d
+msgid "🌲 Forest"
+msgstr "🌲 森林"
+
+#: ../api/api_reference.rst:1316 a7600e6bb78c4023aae89ee25a0fbbc9
+msgid "Tree cover detection"
+msgstr "树木覆盖率检测"
+
+#: ../api/api_reference.rst:1319 06e8822fa0d14ddea08f7407ba5cc428
+msgid "Heights"
+msgstr "高地"
+
+#: ../api/api_reference.rst:1320 3c24564ae20c48e98ba5da8b861df03b
+msgid "🚗 Roads"
+msgstr "🚗 道路"
+
+#: ../api/api_reference.rst:1321 948b79c462914067b0338cd15ac7d29e
+msgid "Road network extraction"
+msgstr "路网提取"
+
+#: ../api/api_reference.rst:1324 ../api/api_reference.rst:1329
+#: 6862c1bd02f842d8a4f5d11cab0a920f
+msgid "—"
+msgstr ""
+
+#: ../api/api_reference.rst:1325 a7cb79a520a04192ba320f7fce6a610c
+msgid "🏗️ Construction"
+msgstr "🏗️建筑"
+
+#: ../api/api_reference.rst:1326 6582c5e934414e79b8d6084551de8572
+msgid "Construction site detection"
+msgstr "施工现场检测"
+
+#: ../api/api_reference.rst:1331 40797058349a4623ad142175232cd481
+msgid ""
+"See :doc:`model descriptions <../userguides/pipelines>` for detailed "
+"requirements."
+msgstr "请参阅:doc:`模型描述 <../userguides/pipelines>` 了解详细要求。"
+
+#: ../api/api_reference.rst:1335 6ce2c328faac4582afce958310095f71
+msgid "Status Codes"
+msgstr "状态代码"
+
+#: ../api/api_reference.rst:1341 bcab007e2c5d44bc9190a88e5c77fdd6
+msgid "Status"
+msgstr "地位"
+
+#: ../api/api_reference.rst:1343 12cab42a031444f8b6fdd450151a4c96
+msgid "``UNPROCESSED``"
+msgstr "``未处理``"
+
+#: ../api/api_reference.rst:1344 c9060196f42b4962b4fce93d4e61c069
+msgid "Processing created but not started"
+msgstr "处理已创建但未开始"
+
+#: ../api/api_reference.rst:1345 7f5bdd1ee61d4254af66d4c7a47a8596
+msgid "``IN_PROGRESS``"
+msgstr "``进行中``"
+
+#: ../api/api_reference.rst:1346 0d79136b49494e6a8848e2ddf1b14d76
+msgid "Processing is running"
+msgstr "处理正在运行"
+
+#: ../api/api_reference.rst:1347 9a074654335943c79a5dd6426c5cd647
+msgid "``AWAITING``"
+msgstr "``等待``"
+
+#: ../api/api_reference.rst:1348 1d9ddae9a0fa4b80addacace3598e812
+msgid "Awaiting imagery from provider"
+msgstr "等待提供者提供的图像"
+
+#: ../api/api_reference.rst:1349 48f7ae2a5dfc49bd812ee5b6d93e85f3
+msgid "``OK``"
+msgstr "``好的``"
+
+#: ../api/api_reference.rst:1350 8878642b2f7946e69297923771a7db92
+msgid "Processing completed successfully"
+msgstr "处理成功完成"
+
+#: ../api/api_reference.rst:1351 ef17cbd6850b4769ace9d78701eff767
+msgid "``FAILED``"
+msgstr "``失败``"
+
+#: ../api/api_reference.rst:1352 56ed383dd4b042c9909268d0c976acb1
+msgid "Processing failed (check ``messages`` field)"
+msgstr "处理失败（检查``messages``字段）"
+
+#: ../api/api_reference.rst:1353 1911f7c067c24098883a05e5d0e3d68c
+msgid "``CANCELLED``"
+msgstr "``取消``"
+
+#: ../api/api_reference.rst:1354 bdb6803cdad3418bbb95c0f2ff5bb27c
+msgid "Processing was cancelled by user"
+msgstr "处理已被用户取消"
+
+#: ../api/api_reference.rst:1355 ../api/api_reference.rst:1372
+#: 5ac9889a975e4144aa715b79bc21523e
+msgid "``REFUNDED``"
+msgstr "``已退款``"
+
+#: ../api/api_reference.rst:1356 3e31081e680f41b4b585ff8e6c1099b7
+msgid "Credits refunded by administrator"
+msgstr "管理员退还积分"
+
+#: ../api/api_reference.rst:1360 ../api/api_reference.rst:1366
+#: 6caa4d3cca4140dfa382c39360f21995
+msgid "Review Status"
+msgstr "审核状态"
+
+#: ../api/api_reference.rst:1368 c4173df10c5c46a88aac531df37e577e
+msgid "``ACCEPTED``"
+msgstr "``已接受``"
+
+#: ../api/api_reference.rst:1369 3c5f5d70621e48279b8ac785263ceb45
+msgid "Results accepted"
+msgstr "结果已接受"
+
+#: ../api/api_reference.rst:1370 0e65caaae8d4462998da4c98927e5a17
+msgid "``NOT_ACCEPTED``"
+msgstr "``不接受``"
+
+#: ../api/api_reference.rst:1371 a62f3b1459f041249dcef4354b96babf
+msgid "Results rejected"
+msgstr "结果被拒绝"
+
+#: ../api/api_reference.rst:1373 cee6dde6449f45bb944a1fc3738e4974
+msgid "Credits refunded"
+msgstr "积分已退还"
+
+#: ../api/api_reference.rst:1374 2bf5f828202d4133943486232d6ead02
+msgid "``IN_REVIEW``"
+msgstr ""
+
+#: ../api/api_reference.rst:1375 b96d3be7f953431cb6d0cbe504d0663a
+msgid "Under review by team"
+msgstr "正在团队审核中"
+
+#: ../api/api_reference.rst:1379 7226ae3f19dd4f7db5fa35a6964f634f
+msgid "Error Messages"
+msgstr "错误信息"
+
+#: ../api/api_reference.rst:1381 e70cb5503f404a09b70b85e0f71ce6c2
+msgid ""
+"For detailed error codes and troubleshooting, see :doc:`Error Messages "
+"<error_messages>`."
+msgstr "有关详细的错误代码和故障排除，请参阅:doc:`错误消息 <error_messages>`。"
+
+#: ../api/api_reference.rst:1383 fe664d72783e436fa6e90de93b328a5b
+msgid "Common errors:"
+msgstr "常见错误："
+
+#: ../api/api_reference.rst:1385 e135c0097f5d4b8980545c473ca59452
+msgid ""
+"``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max 1.2 "
+"m/px)"
+msgstr "``source-validator.PixelSizeTooHigh`` - 图像分辨率太低（最大 1.2 m/px）"
+
+#: ../api/api_reference.rst:1386 15f3d1ea0e424566a97a9a6398b9bcde
+msgid "``source-validator.NoDataInAOI`` — No imagery available for AOI"
+msgstr "``source-validator.NoDataInAOI`` — 没有可用于 AOI 的图像"
+
+#: ../api/api_reference.rst:1387 66ba7491a3974732b5c22ab16bea744a
+msgid "``geometry.Invalid`` — Invalid GeoJSON geometry"
+msgstr "``geometry.Invalid`` - 无效的 GeoJSON 几何图形"
+
+#: ../api/api_reference.rst:1393 25d09efc61af40e0840310feaccee9ff
+msgid "Best Practices"
+msgstr "最佳实践"
+
+#: ../api/api_reference.rst:1395 60de985230b9437d9b83dd64d76fd8b2
+msgid ""
+"**Check cost before running** — Use ``/processing/cost/v2`` to estimate "
+"credits"
+msgstr "**运行前检查成本** — 使用``/processing/cost/v2`` 来估计信用"
+
+#: ../api/api_reference.rst:1396 f24374cbd7ba436c8906074ca949a237
+msgid ""
+"**Poll status efficiently** — Check status every 30-60 seconds for "
+"``IN_PROGRESS`` processings"
+msgstr "**高效轮询状态** — 每 30-60 秒检查一次“IN_PROGRESS”处理的状态"
+
+#: ../api/api_reference.rst:1397 7866faebe9714de195e2198e87e05b50
+msgid ""
+"**Handle errors gracefully** — Check ``messages`` field in failed "
+"processings"
+msgstr "**优雅地处理错误** - 检查失败处理中的“messages”字段"
+
+#: ../api/api_reference.rst:1398 70ab0a22ef5d44328b04ed02590603f6
+msgid ""
+"**Use appropriate zoom levels** — Match zoom to model requirements "
+"(typically 17-18)"
+msgstr "**使用适当的缩放级别** - 将缩放与模型要求相匹配（通常为 17-18）"
+
+#: ../api/api_reference.rst:1399 84106774c20e4f4393c99ea135d02267
+msgid ""
+"**Validate geometry** — Ensure GeoJSON is valid and not too large (< 100 "
+"km²)"
+msgstr "**验证几何图形** — 确保 GeoJSON 有效且不会太大 (< 100 km²)"
+
+#: ../api/api_reference.rst:1400 21dc383f4ed444c58b26cedb3c220bf7
+msgid "**Organize with projects** — Group related processings in projects"
+msgstr "**与项目一起组织** — 项目中的分组相关处理"
+
+#: ../api/api_reference.rst:1401 2f1dcad88ed1427c9ce3c278361d2ae2
+msgid "**Store processing IDs** — Save IDs for later result retrieval"
+msgstr "**存储处理 ID** — 保存 ID 以供以后检索结果"
+
+#: ../api/api_reference.rst:1404 4742acb50ebc4a9ab42384fa536f42bc
+msgid "Support"
+msgstr "支持"
+
+#: ../api/api_reference.rst:1407 c76735389e80429e86426e7e7e6b768c
+msgid "Rate Limits"
+msgstr "速率限制"
+
+#: ../api/api_reference.rst:1409 949ad983ab6742929f59a964899b77b5
+msgid "No strict rate limits currently"
+msgstr "目前没有严格的速率限制"
+
+#: ../api/api_reference.rst:1410 2adf96e395204037b28d668790b05206
+msgid "Concurrent processings limited by account tier"
+msgstr "并发处理受帐户层限制"
+
+#: ../api/api_reference.rst:1411 3ec35d2a367146f892ceae104343d6d5
+msgid "Contact support for high-volume use cases"
+msgstr "联系大批量用例的支持人员"
+
+#: ../api/api_reference.rst:1414 f2740c3a359847df8eb8ae6bba4f5179
+msgid "Get Help"
+msgstr "获取帮助"
+
+#: ../api/api_reference.rst:1416 eea40d6fce24407d9fb9da7fe15c6651
+msgid "Email: help@geoalert.io"
+msgstr "电子邮件：help@geoalert.io"
+
+#: ../api/api_reference.rst:1417 de56082888884fc787ffba20a6acf06c
+msgid "Documentation: https://docs.mapflow.ai"
+msgstr "文档：https://docs.mapflow.ai"
+
+#: ../api/api_reference.rst:1418 ada6868acae140a78ada5af9226b42fe
+msgid "Web app: https://app.mapflow.ai"
+msgstr "网络应用程序：https://app.mapflow.ai"

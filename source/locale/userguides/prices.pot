@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../userguides/prices.rst:2
 #: 7ac423499cea44dba62887aa834e3cc8
-msgid "Mapflow pricing"
+msgid "Mapflow pricing 💰"
 msgstr ""
 
 #: ../userguides/prices.rst:5
@@ -172,8 +172,8 @@ msgid "Default Mapflow models"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 3963665cab2244bc8faf418f536b8bde
-msgid "Workflow"
+#: 3672583e6359459f8540496768e7eaed
+msgid "Model"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -192,10 +192,8 @@ msgid "Buildings"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: ../userguides/_static/csv/web_processing_prices.csv:1
-#: da7ffaba2d274339b7d426360e68a226
-#: 92ad782f400f425ca94fb208aac7fd3b
-msgid "8"
+#: 4d38586f239d4456b3e4d89540cb3839
+msgid "10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
@@ -204,13 +202,8 @@ msgid "Classification: 0"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
-#: fdd05e28931a4bd596e24b16a124c124
-msgid "Simplification: 2"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:0
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height Estimation: 10"
+msgid "Heights estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
@@ -218,21 +211,41 @@ msgstr ""
 msgid "Merge with Opensteeetmap: 0"
 msgstr ""
 
-#: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 835d75f13e344c15950a1bd03e4e0324
-msgid "Constructions"
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: 84a985b6fe4e435b992e2faae4addee6
+msgid "Align with roads: 0"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Height Estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: bdda3e5655794afea77ae5e02c9b8ac4
-msgid "4"
+#: 3474a3dfd955485bb08524d47f27293f
+msgid "[multi] Buildings + Roads + Forest"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 401d2299f87e494c984fac2c4eb516f5
-#: 401d2299f87e494c984fac2c4eb516f5
-msgid "\\-"
+#: 2d496ce9e6d441898218dd662bc56c1e
+msgid "23"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Buildings Height estimation: 10"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Forest Height estimation: 10"
+msgstr ""
+
+#: ../userguides/_static/csv/web_processing_prices.csv:0
+#: d80b054119f64d1690605064207da9c9
+msgid "Tree crowns: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -240,14 +253,14 @@ msgstr ""
 msgid "Forest and trees"
 msgstr ""
 
-#: ../userguides/_static/csv/web_processing_prices.csv:0
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height estimation: 10"
+#: ../userguides/_static/csv/web_processing_prices.csv:1
+#: da7ffaba2d274339b7d426360e68a226
+msgid "8"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
 #: ba32cdb8507343ed82f274503c8a1fcb
-msgid "Crowns extraction: 5"
+msgid "Crowns extraction: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -261,24 +274,8 @@ msgid "5"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 39b482e8237a4776a5e9042f5f3afaab
-msgid "Download Open Data"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:1
-#: ../userguides/_static/csv/data_prices.csv:1
-#: ../userguides/_static/csv/data_prices.csv:1
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 1e0c034a39214e119de5f2b34c5e4a5c
-#: 1e0c034a39214e119de5f2b34c5e4a5c
-#: 1e0c034a39214e119de5f2b34c5e4a5c
-#: 1e0c034a39214e119de5f2b34c5e4a5c
-msgid "1"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 6ea0b7ec2f174a0696acad690c6e4035
-msgid "Water | Landuse | Roads | Buildings"
+#: 401d2299f87e494c984fac2c4eb516f5
+msgid "\\-"
 msgstr ""
 
 #: ../userguides/prices.rst:93
@@ -362,6 +359,15 @@ msgstr ""
 #: 410e48152d484f2db32cf12366b7fdda
 #: 410e48152d484f2db32cf12366b7fdda
 msgid "3"
+msgstr ""
+
+#: ../userguides/_static/csv/data_prices.csv:1
+#: ../userguides/_static/csv/data_prices.csv:1
+#: ../userguides/_static/csv/data_prices.csv:1
+#: 1e0c034a39214e119de5f2b34c5e4a5c
+#: 1e0c034a39214e119de5f2b34c5e4a5c
+#: 1e0c034a39214e119de5f2b34c5e4a5c
+msgid "1"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1

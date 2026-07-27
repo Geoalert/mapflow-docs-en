@@ -11,31 +11,32 @@ msgstr ""
 "POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/userguides/custom_pipelines.rst:2
 #: bc2221cadc1c484aa67d8dda0862d674
 msgid "Custom Models"
-msgstr ""
+msgstr "Пользовательские модели"
 
 #: ../../source/userguides/custom_pipelines.rst:4
 #: 560ed7b59fe142c09df142c4dd8d1530
 msgid "There are several options of model customization in Mapflow."
-msgstr ""
+msgstr "В Mapflow есть несколько вариантов настройки модели."
 
 #: ../../source/userguides/custom_pipelines.rst:6
 #: 719357abe6c14d66a11c732e4f940651
 msgid ""
-"You request access to a specific model based on your use case and data, "
-"and we train it for you and connect it to Mapflow."
+"You request access to a specific model based on your use case and data, and "
+"we train it for you and connect it to Mapflow."
 msgstr ""
+"Вы запрашиваете доступ к конкретной модели на основе вашего варианта "
+"использования и данных, а мы обучаем ее для вас и подключаем к Mapflow."
 
 #: ../../source/userguides/custom_pipelines.rst:8
 #: 24f1aa6eb71441799104b9464405fe56
@@ -44,14 +45,20 @@ msgid ""
 "standard Mapflow pipelines and test it with your data or on your area to "
 "decide if it's applicable or requires additional training."
 msgstr ""
+"Вы выбираете одну из предварительно обученных моделей, которые не включены в"
+" стандартные конвейеры Mapflow, и тестируете ее на своих данных или в своем "
+"регионе, чтобы решить, применима ли она или требует дополнительного "
+"обучения."
 
 #: ../../source/userguides/custom_pipelines.rst:10
 #: f72b071155a142a3bada0309caddf4ce
 msgid ""
-"You train your own model with custom data and request our support to "
-"connect it to your account to leverage your model with the Mapflow "
-"workflow engine."
+"You train your own model with custom data and request our support to connect"
+" it to your account to leverage your model with the Mapflow workflow engine."
 msgstr ""
+"Вы обучаете свою собственную модель с помощью пользовательских данных и "
+"запрашиваете нашу поддержку, чтобы подключить ее к вашей учетной записи, "
+"чтобы использовать вашу модель с механизмом рабочих процессов Mapflow."
 
 #: ../../source/userguides/custom_pipelines.rst:12
 #: 584f9ea6812d49a9a8be8caabf5812a8
@@ -59,4 +66,5 @@ msgid ""
 "Below is the list of custom models created for specific use cases and "
 "available in Mapflow by request (to be updated)."
 msgstr ""
-
+"Ниже приведен список пользовательских моделей, созданных для конкретных "
+"случаев использования и доступных в Mapflow по запросу (будет обновляться)."

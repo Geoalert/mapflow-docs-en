@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/hd_housing_model.rst:2 e0a588b4ee9a45dbabfc8829a774af68
+msgid "🏘 High-density housing (CUSTOM)"
+msgstr "🏘 Vivienda de alta densidad (PERSONALIZADA)"
+
+#: ../userguides/hd_housing_model.rst:5 378ab28571e5445cb05d0282553813a8
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available only by request."
+msgstr ""
+"Este modelo ha quedado obsoleto como modelo predeterminado y se ha movido a "
+"personalizado. está disponible sólo a pedido."
+
+#: ../userguides/hd_housing_model.rst:8 ed21d0f4c57346fab1e1169c542b559b
+msgid ""
+"The “high-density housing” AI model is designed for areas with terraced or "
+"otherwise densely built buildings, common in the Middle East, parts of "
+"Africa, etc. This model, just like the regular building model, detects the "
+"building roofs. Firstly, the building blocks are segmented as a whole, and "
+"then each block is attempted to be devided into individual houses based on "
+"the detection of individual roof markers with rectangular grid or Voronoi "
+"diagram."
+msgstr ""
+"El modelo de IA de “viviendas de alta densidad” está diseñado para áreas con"
+" terrazas o edificios densamente construidos, comunes en Medio Oriente, "
+"partes de África, etc. Este modelo, al igual que el modelo de construcción "
+"normal, detecta los techos de los edificios. En primer lugar, los bloques de"
+" construcción se segmentan como un todo y luego se intenta dividir cada "
+"bloque en casas individuales basándose en la detección de marcadores de "
+"techo individuales con una cuadrícula rectangular o un diagrama de Voronoi."
+
+#: ../userguides/hd_housing_model.rst:11 9b9d96f2103646aeae9d3f43b9d33ff2
+msgid ""
+"Processing result sample for dense urban development area (Tunisia, Africa):"
+msgstr ""
+"Muestra de resultados del procesamiento para una zona de desarrollo urbano "
+"denso (Túnez, África):"
+
+#: ../userguides/hd_housing_model.rst:19 6d6e843631384a6cb869f069a5740eae
+msgid "Processing result of high-density housing model"
+msgstr "Resultado del procesamiento del modelo de vivienda de alta densidad."
+
+#: ../userguides/hd_housing_model.rst:19 9b836d1247a846caa18e51b86de87546
+msgid ""
+"High-density buildings model, instance segmentation and post-processing with"
+" grid options"
+msgstr ""
+"Modelo de edificios de alta densidad, segmentación de instancias y "
+"posprocesamiento con opciones de cuadrícula"

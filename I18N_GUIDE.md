@@ -17,9 +17,24 @@ source/
 │   │       └── *.mo      # Compiled message catalogs
 │   └── *.pot             # Template files (auto-generated)
 ├── _templates/
-│   └── language_selector.html  # Language switcher dropdown
+│   └── versions.html     # Bottom bar: site link + language switcher dropdown
 └── conf.py               # Sphinx configuration with i18n settings
 ```
+
+## 🔗 URL layout
+
+English is the **root language**: it is served from the site root with no language
+prefix. Every other language lives under its own prefix.
+
+| Language | URL |
+| --- | --- |
+| English | `https://docs.mapflow.ai/userguides/get_started.html` |
+| Russian | `https://docs.mapflow.ai/ru/userguides/get_started.html` |
+
+The switcher in `source/_templates/versions.html` rewrites the current URL to keep
+you on the same page across languages, preserving the anchor. It derives the site
+root from the page's own depth, so it also works if the docs are ever served from a
+subfolder. Which language is the root one is set by `root_language` in `conf.py`.
 
 ## 🚀 Quick Start
 
@@ -92,24 +107,23 @@ To add a new language (e.g., Spanish):
 
 ### 1. Update `source/conf.py`
 
-Add the language code to the `languages` list:
+`languages` is the single source of truth for the switcher — one list of
+`(display name, code)` tuples. Add the new language there:
 
 ```python
-languages = ['en', 'ru', 'es']  # Added 'es' for Spanish
+languages = [
+    ('English', 'en'),
+    ('Русский', 'ru'),
+    ('Español', 'es'),  # Added Spanish
+]
 ```
 
-Add the language name to `html_context`:
+Nothing else in `conf.py` needs changing. `html_context` reads this list directly,
+and `current_language` is filled in by the `setup()` hook at the bottom of the file
+so it tracks the `-D language=…` override at build time.
 
-```python
-html_context = {
-    'languages': [
-        ('English', 'en'),
-        ('Русский', 'ru'),
-        ('Español', 'es'), 
-    ],
-    'current_language': language,
-}
-```
+> **Only list languages you actually build and deploy.** Every entry becomes a
+> clickable option in the switcher, so an unbuilt language is a guaranteed 404.
 
 ### 2. Create PO Files for the New Language
 
@@ -257,6 +271,31 @@ make update-po
 "Content-Type: text/plain; charset=UTF-8\n"
 ```
 
+### Problem: The language switcher is missing from a page
+
+The switcher only renders when more than one language is listed in `languages` in
+`conf.py`. Check that list first.
+
+### Problem: The switcher shows the wrong language as selected
+
+`current_language` must match the language being built. It is set by the `setup()`
+hook in `conf.py`, which reads the value *after* Sphinx applies `-D language=…`.
+If you remove that hook, every build will claim to be English.
+
+### Problem: The switcher 404s when previewing locally
+
+Expected. The switcher targets the deployed layout (English at the root, other
+languages under `/<lang>/`), but a local build puts each language in a sibling
+folder (`build/docs/en`, `build/docs/ru`). To test switching properly, serve the
+builds in the deployed shape:
+
+```bash
+make build-all
+mkdir -p /tmp/preview && cp -r build/docs/en/. /tmp/preview/
+cp -r build/docs/ru /tmp/preview/ru
+python3 -m http.server -d /tmp/preview 8000
+```
+
 ## 📚 Resources
 
 - [Sphinx Internationalization](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html)
@@ -286,5 +325,7 @@ make update-po
 
 - 🇬🇧 English (en) - Source language
 - 🇷🇺 Russian (ru) - Active translation
+- 🇪🇸 Spanish (es) - Active translation
+- 🇨🇳 Chinese Simplified (zh) - Active translation
 
 To add more languages, follow the "Adding a New Language" section above.

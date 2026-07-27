@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/search_mosaic.rst:1 a4ebc45834ba43e6aaf0a6c268f10819
+msgid ""
+"Mapflow Imagery Search enables searching metadata for mosaic providers "
+"(e.g., ArcGIS World Imagery, Global mosaic)."
+msgstr "Mapflow 影像搜索支持搜索镶嵌提供者的元数据（例如，ArcGIS World Imagery、全球镶嵌）。"
+
+#: ../userguides/search_mosaic.rst:4 ed4c23b385f948c788c2d0c72d432784
+msgid ""
+"**🌏 Global mosaic** is the annually updated satellite imagery composite "
+"covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 14. "
+"**🌏 ArcGIS World Imagery** is a provider of the global coverage composed of "
+"high and medium resolution satellite imagery and aerial imagery, hosted by "
+"ESRI. The frequency of updating images is 1-5 years depending on the "
+"territory."
+msgstr ""
+"**🌏 全球马赛克** 是覆盖世界大部分地区的每年更新的卫星图像合成。该马赛克由“吉林”中国卫星图像（RGB，0.75–0.5 "
+"m/px）组成。预览仅限缩放 14。 **🌏 ArcGIS World Imagery** 是由 ESRI "
+"托管的由高分辨率和中分辨率卫星图像和航空图像组成的全球覆盖范围的提供商。更新图像的频率为 1-5 年，具体取决于地区。"
+
+#: ../userguides/search_mosaic.rst:7 d8a75bc0e682430180dbb544f52bcc59
+msgid ""
+"How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
+"metadata and run the analysis:"
+msgstr "如何使用 Mapflow – QGIS <qgis_plugin>` 搜索马赛克的元数据并运行分析："
+
+#: ../userguides/search_mosaic.rst:9 72e231c8784b473d85692d73068c8210
+msgid "Switch to the Tab \"Imagery Search\""
+msgstr "切换到“图像搜索”选项卡"
+
+#: ../userguides/search_mosaic.rst:10 75e0472687744a9cb35eeeb79f416c0b
+#, python-format
+msgid ""
+"Set search filter parameters including the area (it can be your area of "
+"analysis or a map canvas), period of time, cloud %, and the % of the "
+"intersection with AOI."
+msgstr "设置搜索过滤器参数，包括区域（可以是分析区域或地图画布）、时间段、云百分比以及与 AOI 相交的百分比。"
+
+#: ../userguides/search_mosaic.rst:11 97dcada89ca046109aab04b2abe7b978
+msgid ""
+"Select the \"Product type = Mosaic\" in the Search results. You will see the"
+" mosaic image \"cutline\" indicating the specific image that is used in the "
+"mosaic."
+msgstr "在搜索结果中选择“产品类型=马赛克”。您将看到马赛克图像“剪切线”，指示马赛克中使用的特定图像。"
+
+#: 68475624d3c643a08ad71efa9c33c275
+msgid "Search for Mosaic images"
+msgstr "搜索马赛克图像"
+
+#: ../userguides/search_mosaic.rst:22 93727e9c70c048dc91940fd21e996444
+msgid ""
+"There are two types of products in the Imagery Search API available: * The "
+"**Scene** product is available for ordering by request. Now you need to "
+"contact us to order the specific image. * The **Mosaic** product is "
+"available for instant analysis if the corresponding data provider is linked "
+"to your Mapflow account."
+msgstr ""
+"图像搜索 API 中有两种类型的产品可用： * **场景** 产品可根据请求订购。现在您需要联系我们订购特定图像。 * 如果相应的数据提供商链接到您的 "
+"Mapflow 帐户，则 **Mosaic** 产品可用于即时分析。"
+
+#: ../userguides/search_mosaic.rst:26 c01671ba4e9e47ad90dd12225b32a57d
+msgid ""
+"Run the processing. The resulting area of analysis will be clipped by the "
+"intersection with the area of analysis."
+msgstr "运行处理。生成的分析区域将被与分析区域的交集剪切。"
+
+#: a3679c5962f740afb30c0b5ec52434c3
+msgid "Get results based on Mosaic analysis"
+msgstr "根据马赛克分析获取结果"
+
+#: ../userguides/search_mosaic.rst:35 b9e63609a9754695806607367c68abce
+msgid ""
+"To run the processing over the whole area of analysis – just clear the "
+"selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data "
+"Source: 🌏 ArcGIS World Imagery**."
+msgstr "要对整个分析区域运行处理 - 只需清除选择并使用 **数据源：🌏 全球镶嵌 2022** 或 **数据源：🌏 ArcGIS 世界影像**。"

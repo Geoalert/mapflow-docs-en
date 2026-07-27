@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -181,27 +181,23 @@ msgid ""
 msgstr ""
 
 #: ../userguides/reference.rst:65 ../userguides/reference.rst:71
-#: ../userguides/reference.rst:77 ../userguides/reference.rst:85
-#: ../userguides/reference.rst:89 ../userguides/reference.rst:95
-#: 99abd99bdbc240fda0823989bb6d9437
+#: ../userguides/reference.rst:77 ../userguides/reference.rst:89
+#: ../userguides/reference.rst:95 99abd99bdbc240fda0823989bb6d9437
 msgid "18"
 msgstr ""
 
 #: ../userguides/reference.rst:66 ../userguides/reference.rst:72
-#: ../userguides/reference.rst:78 ../userguides/reference.rst:86
-#: ../userguides/reference.rst:90 ../userguides/reference.rst:96
-#: ffec1d83479f44b9aaf0b9ba5d766984
+#: ../userguides/reference.rst:78 ../userguides/reference.rst:90
+#: ../userguides/reference.rst:96 ffec1d83479f44b9aaf0b9ba5d766984
 msgid "0.5"
 msgstr ""
 
-#: ../userguides/reference.rst:67 ../userguides/reference.rst:73
-#: ../userguides/reference.rst:79 ../userguides/reference.rst:91
-#: ../userguides/reference.rst:97 18aef36b4ff24fa097ff43d5ceb3f46e
-msgid "17 – 18"
+#: ../userguides/reference.rst:67 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 19"
 msgstr ""
 
 #: ../userguides/reference.rst:68 8e3892be7823430390d6f5f692093ecb
-msgid "0.1 - 1.5"
+msgid "1.5 - 0.3"
 msgstr ""
 
 #: ../userguides/reference.rst:69 c812536a072f400cb22eae20d425a6aa
@@ -214,9 +210,14 @@ msgid ""
 "images"
 msgstr ""
 
+#: ../userguides/reference.rst:73 ../userguides/reference.rst:79
+#: 715871bd14134dccb0aed7645ddf33e6
+msgid "18 - 20"
+msgstr ""
+
 #: ../userguides/reference.rst:74 ../userguides/reference.rst:80
-#: ../userguides/reference.rst:98 715871bd14134dccb0aed7645ddf33e6
-msgid "0.1 - 2.0"
+#: 8e3892be7823430390d6f5f692093ecb
+msgid "0.75 - 0.15"
 msgstr ""
 
 #: ../userguides/reference.rst:75 93ac081e6c334b2399681c335ead91c1
@@ -247,6 +248,14 @@ msgstr ""
 msgid "0.3"
 msgstr ""
 
+#: ../userguides/reference.rst:85 715871bd14134dccb0aed7645ddf33e6
+msgid "19 - 20"
+msgstr ""
+
+#: ../userguides/reference.rst:86 8e3892be7823430390d6f5f692093ecb
+msgid "0.3 - 0.15"
+msgstr ""
+
 #: ../userguides/reference.rst:87 6f7a4a2a3c194d7aa2486580edc72f66
 msgid "Roads"
 msgstr ""
@@ -255,8 +264,13 @@ msgstr ""
 msgid "Extract road mask from high-resolution satellite imagery"
 msgstr ""
 
+#: ../userguides/reference.rst:91 ../userguides/reference.rst:97
+#: 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "17 – 18"
+msgstr ""
+
 #: ../userguides/reference.rst:92 3e7dd225002d4f49a0547be82f7159e6
-msgid "0.1 - 1.2"
+msgid "1.2 - 0.1"
 msgstr ""
 
 #: ../userguides/reference.rst:93 e3d2def6fd754882b1a2a4b65be1d4d6
@@ -267,6 +281,10 @@ msgstr ""
 msgid ""
 "The model highlights areas in the satellite image that contain "
 "construction sites and buildings under construction"
+msgstr ""
+
+#: ../userguides/reference.rst:98 8e3892be7823430390d6f5f692093ecb
+msgid "2.0 - 0.5"
 msgstr ""
 
 #: ../userguides/reference.rst:100 9346e7a98e1741aa951f20d72e662ade
@@ -624,5 +642,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Urban Mapping classes in Evergis Online"
+#~ msgstr ""
+
+#~ msgid "0.1 - 1.5"
+#~ msgstr ""
+
+#~ msgid "0.1 - 2.0"
+#~ msgstr ""
+
+#~ msgid "0.1 - 1.2"
 #~ msgstr ""
 

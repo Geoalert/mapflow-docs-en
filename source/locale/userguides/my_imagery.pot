@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../userguides/my_imagery.rst:15
 #: 73cd83d3246f49069c968cfca45f7dde
-msgid "❗️ Currently, you can use the tool called *My imagery* in :ref:`Mapflow QGIS plugin <My imagery qgis>` and :ref:`API <Data API>`. The My Imagery Web implementation is in progress."
+msgid "❗️ You can use the tool called *My imagery* in :ref:`Mapflow Web <My imagery main>`, :ref:`Mapflow QGIS plugin <My imagery qgis>`, and :ref:`API <Data API>`."
 msgstr ""
 
 #: ../userguides/my_imagery.rst:19
@@ -121,40 +121,69 @@ msgstr ""
 msgid "\"My imagery\" Web"
 msgstr ""
 
-#: ../userguides/my_imagery.rst:52
-#: 1f1d57f9d85d49ada709033d5a79b2e5
-msgid "❗️The Web app implementation is in progress. But now you can already view the list of your image collections and, if necessary, delete unused ones."
+#: ../userguides/my_imagery.rst:51
+#: 56f2ca23e3214debad80620fc1a8fa79
+msgid "The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image."
 msgstr ""
 
 #: ../userguides/my_imagery.rst:54
-#: ../userguides/my_imagery.rst:54
-#: 6483519bd2cc437caf98f1a7f212a55e
-#: 4238de01aad4494799fce03fd8ff74db
-msgid "preview"
-msgstr ""
-
-#: ../userguides/my_imagery.rst:57
-#: ../userguides/my_imagery.rst:57
-#: e6c8f3a732b4469eae92ba5bef184242
-#: 4bc826742c2540008f364dc9da3dbac9
-msgid "delete"
-msgstr ""
-
-#: ../userguides/my_imagery.rst:60
-#: ../userguides/my_imagery.rst:60
-#: 68143b67315347a59ed5f3043c5b7f04
-#: 867875e780ef4b86aec4de4279393d17
-msgid "more"
+#: 3615056dd1464ba2a1df3ca44c961015
+msgid "My Imagery main page"
 msgstr ""
 
 #: ../userguides/my_imagery.rst:63
-#: 3e36f92bc3ac4b138debac3c8a386e87
-msgid "By default, Mapflow provides a free 1 Gb storage for all new users to upload and process data. If the memory limit is running out (*Memory free* at the bottom of the page), you can either extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_ or delete the unused data using this page. After viewing the information about the collection and previewing its images (|preview|), you can delete one collection at a time (|delete|) or several at once via multiselect ((|more|) -> \"Delete selected mosaics\")."
+#: a47fcd8179c24f419638b39b39ad9e4d
+msgid "**Storage** – check how much of your storage is used (used / total). When the limit is running out, you can free up space by deleting unused data, or extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_."
 msgstr ""
 
-#: ../userguides/my_imagery.rst:73
-#: 3ceae3e9c6bf4bcb945ea3bdbc558edd
-msgid "Please note that the table lists all your previously uploaded images as separate collections, each with a unique UUID."
+#: ../userguides/my_imagery.rst:64
+#: 1dd79ada64b94cf1b0af2559b30dcf5a
+msgid "**Create mosaic** – create a new mosaic (image collection) to group related images together."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:65
+#: a96b56b26b5046ca98fb7cb09612779f
+msgid "**Upload area** – drop GeoTIFFs (or click to browse) to upload them into the selected mosaic."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:68
+#: ed1b7943bb0b47beb0a667bfd54fb677
+msgid "See :ref:`Requirements for using the platform <Upload restrictions>` for supported formats and limits."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:70
+#: a7cad2a8fe1c4c299b53a53bfb614b3e
+msgid "**Image previews** – browse the table of mosaics and, for the selected mosaic, preview its images along with their status (*Ready*, *In progress*, *Failed*)."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:71
+#: 97e64de9a1604c1bab82ff4cdc29ad26
+msgid "**Use in new processing** – start a new processing from the selected image."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:74
+#: 05ab32bf2ffa46db937ad51f88d952a2
+msgid "Each mosaic and image has its own status. The table lists all your mosaics, each with a unique UUID, and can be searched by name, and sorted by name, creation date, size, and status."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:77
+#: faf06dc20387494f93cdba786d29db8a
+msgid "Use in new processing"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:79
+#: 0b979e2dab3748858249732fb9a2e85b
+msgid "Selecting **Use in new processing** opens a dialog where you choose the project to start the processing in. Pick an existing project from the list, or create a new one with **+ New project**."
+msgstr ""
+
+#: ../userguides/my_imagery.rst:89
+#: 21d75fa913734c5e98feceadce48e21f
+msgid "Preview and AOI"
+msgstr ""
+
+#: ../userguides/my_imagery.rst:91
+#: d7e0f4f8013a4283a20568f50378953e
+msgid "You can preview your image on the map and set the processing area: upload a GeoJSON/GeoTIFF, draw the area on the map, or click **Use Image Extent** to use the image boundaries. See :ref:`Select AOI` for details on drawing and uploading an AOI."
 msgstr ""
 
 #: ../userguides/imagery_search.rst:4
@@ -200,11 +229,6 @@ msgstr ""
 #: ../userguides/imagery_search.rst:20
 #: 16336dd0d31a448d89b6088f161ac051
 msgid "❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ to be able to order commercial data providers and run the analysis."
-msgstr ""
-
-#: ../userguides/imagery_search.rst:25
-#: 46213b4425a743fab743557b9f8bfa2f
-msgid "Using Imagery Search in Mapflow WEB"
 msgstr ""
 
 #: ../userguides/imagery_search.rst:None
@@ -297,11 +321,6 @@ msgstr ""
 msgid "👆️️️️️️ You are able to start the processing only using available providers (**\"available for me\"**). If you try to use the image from the provider that is not connected to your account, you will see the corresponding warning *\"The provider is not available for your account, you need to change the plan\"*. You need to subscribe to Mapflow Premium to be able to order commercial data providers."
 msgstr ""
 
-#: ../userguides/imagery_search.rst:82
-#: fa3352fbd79949e3b0783aa42aecc946
-msgid "NEW! Scheduled Search updates"
-msgstr ""
-
 #: ../userguides/imagery_search.rst:84
 #: cd141edec6484099b7567b4510712945
 msgid "If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job."
@@ -392,8 +411,8 @@ msgstr ""
 
 #: ../userguides/imagery_search.rst:160
 #: ../userguides/imagery_search.rst:160
-#: c628ca0b0383475d8f63784c9dadf61c
 #: 59fe78898aea438296420651e55dc014
+#: c628ca0b0383475d8f63784c9dadf61c
 msgid "alert"
 msgstr ""
 

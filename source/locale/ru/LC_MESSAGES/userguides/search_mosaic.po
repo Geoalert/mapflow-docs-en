@@ -11,41 +11,55 @@ msgstr ""
 "POT-Creation-Date: 2026-05-19 12:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/search_mosaic.rst:1 f44c81cbd24d40458f064d285596b967
+#: ../../source/userguides/search_mosaic.rst:1
+#: f44c81cbd24d40458f064d285596b967
 msgid ""
 "Mapflow Imagery Search enables searching metadata for mosaic providers "
 "(e.g., ArcGIS World Imagery, Global mosaic)."
 msgstr ""
+"Mapflow Imagery Search позволяет искать метаданные поставщиков мозаики "
+"(например, ArcGIS World Imagery, Global мозаика)."
 
-#: ../../source/userguides/search_mosaic.rst:4 9d1ecfb33c22498b981a650ab0eb1cbe
+#: ../../source/userguides/search_mosaic.rst:4
+#: 9d1ecfb33c22498b981a650ab0eb1cbe
 msgid ""
 "**🌏 Global mosaic** is the annually updated satellite imagery composite "
 "covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
-"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom "
-"14. **🌏 ArcGIS World Imagery** is a provider of the global coverage "
-"composed of high and medium resolution satellite imagery and aerial "
-"imagery, hosted by ESRI. The frequency of updating images is 1-5 years "
-"depending on the territory."
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 14. "
+"**🌏 ArcGIS World Imagery** is a provider of the global coverage composed of "
+"high and medium resolution satellite imagery and aerial imagery, hosted by "
+"ESRI. The frequency of updating images is 1-5 years depending on the "
+"territory."
 msgstr ""
+"**🌏 Глобальная мозаика** — это ежегодно обновляемая композиция спутниковых "
+"изображений, охватывающая большую часть мира. Мозаика состоит из изображений"
+" китайского спутника «Цзилинь» (RGB, 0,75–0,5 м/пиксель). Предварительный "
+"просмотр ограничен масштабом 14. **🌏 ArcGIS World Imagery** — поставщик "
+"глобального покрытия, состоящего из спутниковых изображений высокого и "
+"среднего разрешения, а также аэрофотоснимков, размещенных на сервере ESRI. "
+"Периодичность обновления изображений 1-5 лет в зависимости от территории."
 
-#: ../../source/userguides/search_mosaic.rst:7 2b163a77d1514bd2a2dc24de8a5d87cc
+#: ../../source/userguides/search_mosaic.rst:7
+#: 2b163a77d1514bd2a2dc24de8a5d87cc
 msgid ""
 "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
 "metadata and run the analysis:"
 msgstr ""
+"Как использовать :doc:`Mapflow – QGIS <qgis_plugin>` для поиска метаданных "
+"мозаики и запуска анализа:"
 
-#: ../../source/userguides/search_mosaic.rst:9 31565d4a90ae412fa093ac4e644e9417
+#: ../../source/userguides/search_mosaic.rst:9
+#: 31565d4a90ae412fa093ac4e644e9417
 msgid "Switch to the Tab \"Imagery Search\""
-msgstr ""
+msgstr "Перейдите на вкладку «Поиск изображений»"
 
 #: ../../source/userguides/search_mosaic.rst:10
 #: 0625ce3eaecd41aa8007d4bc86a85425
@@ -55,64 +69,73 @@ msgid ""
 "analysis or a map canvas), period of time, cloud %, and the % of the "
 "intersection with AOI."
 msgstr ""
+"Установите параметры фильтра поиска, включая область (это может быть ваша "
+"область анализа или холст карты), период времени, % облаков и % пересечения "
+"с AOI."
 
 #: ../../source/userguides/search_mosaic.rst:11
 #: 033e55ecb769415ea9ea307746095d1e
 msgid ""
-"Select the \"Product type = Mosaic\" in the Search results. You will see "
-"the mosaic image \"cutline\" indicating the specific image that is used "
-"in the mosaic."
+"Select the \"Product type = Mosaic\" in the Search results. You will see the"
+" mosaic image \"cutline\" indicating the specific image that is used in the "
+"mosaic."
 msgstr ""
+"В результатах поиска выберите «Тип продукта = Мозаика». Вы увидите «линию "
+"пореза» мозаичного изображения, указывающую конкретное изображение, которое "
+"используется в мозаике."
 
 #: 9dfab2f258fa4ffb8fc2ba8b0d731880
 msgid "Search for Mosaic images"
-msgstr ""
+msgstr "Поиск изображений мозаики"
 
 #: ../../source/userguides/search_mosaic.rst:22
 #: 0b5bf5a48c8545a6b41d96c2b6ca400a
 msgid ""
-"There are two types of products in the Imagery Search API available: * "
-"The **Scene** product is available for ordering by request. Now you need "
-"to contact us to order the specific image. * The **Mosaic** product is "
-"available for instant analysis if the corresponding data provider is "
-"linked to your Mapflow account."
+"There are two types of products in the Imagery Search API available: * The "
+"**Scene** product is available for ordering by request. Now you need to "
+"contact us to order the specific image. * The **Mosaic** product is "
+"available for instant analysis if the corresponding data provider is linked "
+"to your Mapflow account."
 msgstr ""
+"В API поиска изображений доступны два типа продуктов: * Продукт **Сцена** "
+"доступен для заказа по запросу. Теперь вам нужно связаться с нами, чтобы "
+"заказать конкретное изображение. * Продукт **Mosaic** доступен для "
+"мгновенного анализа, если соответствующий поставщик данных связан с вашей "
+"учетной записью Mapflow."
 
 #: ../../source/userguides/search_mosaic.rst:26
 #: 541260852f0c4f6499e9353796a243c4
 msgid ""
-"Run the processing. The resulting area of analysis will be clipped by the"
-" intersection with the area of analysis."
+"Run the processing. The resulting area of analysis will be clipped by the "
+"intersection with the area of analysis."
 msgstr ""
+"Запустите обработку. Полученная область анализа будет обрезана по месту "
+"пересечения с областью анализа."
 
 #: 7ecc578f0d6c4d78986958e363f3c878
 msgid "Get results based on Mosaic analysis"
-msgstr ""
+msgstr "Получите результаты на основе анализа Mosaic"
 
 #: ../../source/userguides/search_mosaic.rst:35
 #: 2fd547d09fc041fdb35aee91e26955d4
 msgid ""
 "To run the processing over the whole area of analysis – just clear the "
-"selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data"
-" Source: 🌏 ArcGIS World Imagery**."
+"selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data "
+"Source: 🌏 ArcGIS World Imagery**."
 msgstr ""
+"Чтобы запустить обработку по всей области анализа, просто снимите выделение "
+"и используйте **Источник данных: 🌏 Глобальная мозаика 2022** или **Источник "
+"данных: 🌏 ArcGIS World Imagery**."
 
 #~ msgid "Mapflow Data API enables search for the Global Mosaics metadata."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Commercial 🌏 Global mosaic is the "
-#~ "annually updated satellite imagery composite"
-#~ " covering most of the World. The "
-#~ "mosaic is composed of \"Jilin\" Chinese"
-#~ " satellites imagery (RGB, 0.75–0.5 m/px)."
-#~ " The preview is limited to zoom "
-#~ "12. **🌏 ArcGIS World Imagery** is "
-#~ "a provider of the global coverage "
-#~ "composed of high and medium resolution"
-#~ " satellite imagery and aerial imagery, "
-#~ "hosted by ESRI. The frequency of "
-#~ "updating images is 1-5 years depending"
-#~ " on the territory."
+#~ "Commercial 🌏 Global mosaic is the annually updated satellite imagery "
+#~ "composite covering most of the World. The mosaic is composed of \"Jilin\" "
+#~ "Chinese satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to "
+#~ "zoom 12. **🌏 ArcGIS World Imagery** is a provider of the global coverage "
+#~ "composed of high and medium resolution satellite imagery and aerial imagery,"
+#~ " hosted by ESRI. The frequency of updating images is 1-5 years depending on "
+#~ "the territory."
 #~ msgstr ""
-

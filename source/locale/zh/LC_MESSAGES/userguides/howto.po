@@ -1,0 +1,832 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/howto.rst:4 68e0ff8f61c34c4fb8dc373ddb96381d
+msgid "Userguides - How To 👨🏻‍🎓"
+msgstr "用户指南 - 如何操作 👨🏻‍🎓"
+
+#: ../userguides/howto.rst:9 665e1c72a78d4109a0b0247ea2de16fc
+msgid "How to log in using OAuth2"
+msgstr "如何使用 OAuth2 登录"
+
+#: ../userguides/oauth2_setup.rst:1 b6b5052ff05b40819d63081c9a15edca
+msgid "**1. Select the** ``Use OAuth2`` **option in the login window**"
+msgstr "**1.选择**``使用 OAuth2`` **登录窗口中的选项**"
+
+#: b50c7fc37c5241548b7f58ed40acfd7a
+msgid "OAuth login window"
+msgstr "OAuth 登录窗口"
+
+#: ../userguides/oauth2_setup.rst:11 35d06334e2c14d169323c973ae9c4649
+msgid "**2. Set the master password**"
+msgstr "**2.设置主密码**"
+
+#: ../userguides/oauth2_setup.rst:13 628fe4e618c44d45b4350c3a32cd4b8d
+msgid ""
+"You will be prompted to set a new `master authentication password "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
+"password>`_ - qgis feature to ensure the security of sensitive information "
+"storage."
+msgstr ""
+"系统会提示您设置新的`主认证密码<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
+"password>`_ - qgis功能确保敏感信息存储的安全。"
+
+#: ../userguides/oauth2_setup.rst:22 53a8034bff114704afa6c321ec2f1017
+msgid "**3. Click** ``Log in`` **button**"
+msgstr "**3.单击**``登录``**按钮**"
+
+#: ../userguides/oauth2_setup.rst:24 c21e36bcd5b04faab1547ca8f06ca04e
+msgid ""
+"You will receive the following message, **restart** QGIS before the next "
+"steps."
+msgstr "在执行后续步骤之前，您将收到以下消息：**重新启动** QGIS。"
+
+#: ../userguides/oauth2_setup.rst:33 e3bc44bb26a44732bac50ad2d2e12fbd
+msgid "**4. After restarting QGIS, click** ``Log in``"
+msgstr "**4.重启QGIS后，点击**``登录``"
+
+#: ../userguides/oauth2_setup.rst:35 1e6ca85106ab4be5ad0511736b0b6c0d
+msgid ""
+"You will be redirected to the browser to log in/register in the mapflow "
+"system:"
+msgstr "您将被重定向到浏览器以登录/注册mapflow系统："
+
+#: ../userguides/oauth2_setup.rst:44 9430c3f798784a6b9bf32d70068cfe87
+msgid ""
+"After successfully logging in, you will receive a message about the "
+"successful verification of QGIS OAuth2:"
+msgstr "登录成功后，您将收到 QGIS OAuth2 验证成功的消息："
+
+#: ../userguides/oauth2_setup.rst:53 5673cbd127e343d6bc22ea16a3de1fb1
+msgid "You can close this page"
+msgstr "您可以关闭此页面"
+
+#: ../userguides/oauth2_setup.rst:55 18d33c49d69b4636a3254979feefb45a
+msgid "**5. Go back to QGIS**"
+msgstr "**5.返回QGIS**"
+
+#: ../userguides/oauth2_setup.rst:57 0106792083f04fed940898a92606921e
+msgid "OAuth login completed!"
+msgstr "OAuth登录完成！"
+
+#: ../userguides/oauth2_setup.rst:60 2ac4bd525cfa48c2a1f18c90e5402160
+msgid ""
+"If you have problems with authorization, you can delete the current "
+"authentication config by going to ``Settings -> Options -> Authentication``,"
+" select the config and remove it:"
+msgstr "如果您遇到授权问题，可以通过转到“设置 -> 选项 -> 身份验证”来删除当前的身份验证配置，选择该配置并将其删除："
+
+#: ../userguides/qgis_plugin.rst:2 682597ddea574e50ac33250fbfd09fe8
+msgid "How to use the Mapflow <> QGIS plugin"
+msgstr "如何使用Mapflow <> QGIS插件"
+
+#: ../userguides/qgis_plugin.rst:4 62aa401d84474138b6d9b373386275e7
+msgid ""
+"**Object mapping in remote sensing images using Mapflow plugin for QGIS**"
+msgstr "**使用 QGIS 的 Mapflow 插件在遥感图像中进行对象映射**"
+
+#: ../userguides/qgis_plugin.rst:6 ed700c73196a4870a532bbc287a3b894
+msgid ""
+"Interpretation and subsequent digitization of satellite imagery is a rather "
+"laborious process. The use of AI-based image recognition technologies leads "
+"to a reduction in labor costs and an increase in data processing speed."
+msgstr "卫星图像的解释和随后的数字化是一个相当费力的过程。基于人工智能的图像识别技术的使用可以降低劳动力成本并提高数据处理速度。"
+
+#: ../userguides/qgis_plugin.rst:8 07779510081c4dac9b09b1d91783d3ff
+msgid ""
+"In the QGIS, the process of detecting objects of various types can be "
+"automated using the Mapflow plugin. To accomplish this, you can follow the "
+"steps described below."
+msgstr "在 QGIS 中，可以使用 Mapflow 插件自动化检测各种类型的对象的过程。为此，您可以按照下面描述的步骤操作。"
+
+#: ../userguides/qgis_plugin.rst:10 4c34a5b0f1b14fdcb5ccb9d8b9e026f5
+msgid "**1. Installation of Mapflow plugin and logging in**"
+msgstr "**1.安装Mapflow插件并登录**"
+
+#: ../userguides/qgis_plugin.rst:12 d6a1d31ec3e24bbe98e5c90f0996ace2
+msgid ""
+"First of all, you have to install the plugin in QGIS. To do this, go to the "
+"tab called Plugins -> Manage and Install Plugins, find Mapflow using the "
+"search bar and click Install Plugin."
+msgstr ""
+"首先，你必须在QGIS中安装插件。为此，请转到名为“插件”->“管理和安装插件”的选项卡，使用搜索栏找到 Mapflow，然后单击“安装插件”。"
+
+#: ../userguides/qgis_plugin.rst:21 e8683238a26c4af1b15936e6e82f9777
+msgid ""
+"After installation, the plugin icon will appear in the toolbar: "
+"|plugin_icon|. Clicking on it will open the authorization window, in which "
+"you need to click on \"Get token\"."
+msgstr "安装后，插件图标将出现在工具栏中：|plugin_icon|。单击它将打开授权窗口，您需要在其中单击“获取令牌”。"
+
+#: ../userguides/qgis_plugin.rst:23 81e8bc6b07bc48109cb9c1fdd6427879
+#: 9af326f1bb4e4480a11883b3b92bbce6
+msgid "plugin_icon"
+msgstr "插件图标"
+
+#: ../userguides/qgis_plugin.rst:33 d5b52396075a4e37a3ba49ca32596e5d
+msgid ""
+"A window will open in which you have to quickly and for free register on "
+"`Mapflow.ai <https://app.mapflow.ai/>`_. After that, by clicking on the "
+"user, you need to go to Settings and select the API tab."
+msgstr ""
+"将打开一个窗口，您必须在其中快速免费注册“Mapflow.ai "
+"<https://app.mapflow.ai/>”。之后，通过单击用户，您需要转到“设置”并选择“API”选项卡。"
+
+#: ../userguides/qgis_plugin.rst:42 68771988e2ba43409fa914c4786c73fd
+msgid ""
+"By clicking on the \"Reset api token\" button, you will get access to the "
+"authorization key, which must be copied and saved, as well as pasted into "
+"the authorization window in QGIS. After that - click \"Log in\"."
+msgstr ""
+"通过单击“重置 api 令牌”按钮，您将可以访问授权密钥，必须复制并保存该密钥，并将其粘贴到 QGIS 的授权窗口中。之后 - 单击“登录”。"
+
+#: ../userguides/qgis_plugin.rst:44 1f1ba7989439427b8b464c88c1a3564c
+msgid ""
+"Another way to log in to the plugin is using Oauth2. By checking the "
+"appropriate option in the authorization window, you will need to set a "
+"master password."
+msgstr "登录插件的另一种方法是使用 Oauth2。通过检查授权窗口中的相应选项，您将需要设置主密码。"
+
+#: ../userguides/qgis_plugin.rst:53 89f168cf2b594f60af0b1bc2e981bcfd
+msgid ""
+"Then, following the instructions, restart QGIS and click \"Log in\" again. "
+"This will redirect you to the browser, where the Mapflow authorization "
+"window will open. After successful login or registration, a page will open "
+"notifying you of this."
+msgstr ""
+"然后，按照指示重新启动 QGIS 并再次单击“登录”。这会将您重定向到浏览器，其中将打开 Mapflow "
+"授权窗口。成功登录或注册后，将打开一个页面通知您。"
+
+#: ../userguides/qgis_plugin.rst:62 5fabd1a9b3ae42dc95c5340384290e1a
+msgid ""
+"And in QGIS the main tab of the plugin will open, so you can proceed to the "
+"next steps."
+msgstr "在 QGIS 中，插件的主选项卡将打开，以便您可以继续执行后续步骤。"
+
+#: ../userguides/qgis_plugin.rst:64 e2192b8a8b234cb28829e07512141519
+msgid "**2. Object recognition using default data provider**"
+msgstr "**2.使用默认数据提供程序进行对象识别**"
+
+#: ../userguides/qgis_plugin.rst:66 bd934a5da244448b95319ae0ebc0a347
+msgid ""
+"In order to start processing, first you must specify its name. Next, choose "
+"the area of interest by drawing it on the map / loading from a vector file /"
+" taking the extent of the map."
+msgstr "为了开始处理，首先必须指定其名称。接下来，通过在地图上绘制/从矢量文件加载/获取地图范围来选择感兴趣的区域。"
+
+#: ../userguides/qgis_plugin.rst:75 983379e0b97d4ebb853d12f40644f13a
+msgid ""
+"In the upper-left corner of the main QGIS window in the Browser panel, you "
+"can open the OpenStreetMap basemap and navigate around the map to identify "
+"the area of interest."
+msgstr "在浏览器面板中 QGIS 主窗口的左上角，您可以打开 OpenStreetMap 底图并在地图上导航以识别感兴趣的区域。"
+
+#: ../userguides/qgis_plugin.rst:84 e5719209e1674cfab22c03a2611a1ec8
+msgid ""
+"Let’s leave the remaining parameters as default: Mapbox data provider and a "
+"model for buildings classification. Then click \"Start processing\". A new "
+"row will appear in the processing table. Upon completion of processing "
+"(Progress – 100%), after some time, you can load the result to the map by "
+"clicking on \"View results\" (or double-clicking on the row). The raster "
+"layer and the identified objects will be displayed on the map: buildings are"
+" automatically classified by their type (where red is residential and purple"
+" is commercial)."
+msgstr ""
+"让我们将其余参数保留为默认值：Mapbox 数据提供程序和建筑物分类模型。然后单击“开始处理”。处理表中将出现一个新行。处理完成后（进度 – "
+"100%），一段时间后，您可以通过单击“查看结果”（或双击该行）将结果加载到地图中。栅格图层和识别的对象将显示在地图上：建筑物会自动按其类型进行分类（其中红色是住宅，紫色是商业）。"
+
+#: ../userguides/qgis_plugin.rst:94 d963fd9e21cc4307a5381cf184c26dfd
+msgid ""
+"The resulting vector objects can be saved in GeoJSON format (by clicking on "
+"the additional options next to View results) and then used for mapping, "
+"analysis, or filled with additional attribute information."
+msgstr "生成的矢量对象可以以 GeoJSON 格式保存（通过单击“查看结果”旁边的其他选项），然后用于绘图、分析或填充其他属性信息。"
+
+#: ../userguides/qgis_plugin.rst:103 c262a466a652409a96bcd2c9daaad43b
+msgid "**3. Object recognition using your own imagery**"
+msgstr "**3.使用您自己的图像进行物体识别**"
+
+#: ../userguides/qgis_plugin.rst:105 2622830fac4a477c9272b18d5a853f7d
+msgid ""
+"Previously, we looked at one of the simplest scenarios for working with the "
+"Mapflow plugin. However, its functionality is not limited to a single data "
+"provider. In addition to the default providers, you can use the search in "
+"the imagery catalog or process your own images. After adding the image you "
+"are interested in to QGIS as a raster layer, you can select it in the \"Data"
+" source\" field and run processing. The result can look like this: the "
+"boundaries of trees of different heights, identified in your image."
+msgstr ""
+"之前，我们研究了使用 Mapflow "
+"插件的最简单的场景之一。然而，其功能并不限于单个数据提供者。除了默认提供程序之外，您还可以使用图像目录中的搜索或处理您自己的图像。将您感兴趣的图像作为栅格图层添加到QGIS后，您可以在“数据源”字段中选择它并运行处理。结果可能如下所示：在图像中识别出不同高度的树木的边界。"
+
+#: ../userguides/qgis_plugin.rst:115 fbc1c677b040473ca3ef108622ec3e2f
+msgid ""
+"In this quick tutorial, we looked at the main options for detecting objects "
+"in remote sensing images with the help of the Mapflow plugin for QGIS. In "
+"addition to buildings and forest vegetation, there are models for "
+"recognizing roads or construction sites. A more extensive overview of the "
+"plugin's capabilities, as well as various options for data sources, are "
+"discussed in the documentation for :ref:`Mapflow <> QGIS`."
+msgstr ""
+"在本快速教程中，我们了解了借助 QGIS 的 Mapflow "
+"插件检测遥感图像中的对象的主要选项。除了建筑物和森林植被之​​外，还有用于识别道路或建筑工地的模型。 Mapflow <> QGIS "
+"的文档中讨论了该插件功能的更广泛概述以及数据源的各种选项。"
+
+#: ../userguides/howto.rst:57 24c6de11b3ea4d48bc154f16e2efe338
+msgid "How to process your own UAV images with Mapflow"
+msgstr "如何使用 Mapflow 处理您自己的无人机图像"
+
+#: ../userguides/howto.rst:59 b676b76f650a46608b6a8b5d74d8d068
+msgid ""
+"Unmanned aerial vehicles – UAVs or, more commonly, drones – have become a "
+"deeply integrated part of the geomatic industry over the last ten years. "
+"This is owing to their increasing usability, falling hardware costs, and "
+"easing government regulations. Yet, as more data is available with UAV "
+"surveys, more data need to be processed operatively. To process your UAV "
+"data you might be looking for some cloud or desktop software to create a "
+"mosaic or orthophoto.  Do you know that you can easily publish your data "
+"with Openaerialmap and analyze (say detect and calculate some objects and "
+"calculate their areas) with Mapflow QGIS or Mapflow Web?"
+msgstr ""
+"无人机（UAV，或更常见的是无人机）在过去十年中已成为测绘行业深度整合的一部分。这是由于它们的可用性不断提高、硬件成本下降以及政府法规的放松。然而，随着无人机调查提供更多数据，需要对更多数据进行有效处理。要处理无人机数据，您可能需要一些云或桌面软件来创建马赛克或正射影像。"
+"  您是否知道您可以使用 Openaerialmap 轻松发布数据并使用 Mapflow QGIS 或 Mapflow Web "
+"进行分析（例如检测和计算某些对象并计算其面积）？"
+
+#: ../userguides/howto.rst:62 e42f732aa604456db1375524b51179c3
+msgid ""
+"Let’s take the “UAV buildings” :doc:`buildings_aerial_imagery_model` model "
+"that extracts the detailed building outlines (the recommended image "
+"resolution is 10 cm)."
+msgstr ""
+"我们以“无人机建筑物”:doc:`buildings_aerial_imagery_model` 模型为例，该模型提取详细的建筑物轮廓（建议图像分辨率为"
+" 10 厘米）。"
+
+#: ../userguides/howto.rst:65 bd41fb16c3164c5d93dab1c4f8ef7041
+msgid "Upload images to Mapflow Web"
+msgstr "将图像上传到 Mapflow Web"
+
+#: ../userguides/howto.rst:67 7e312f37307f48f2902218db0676fc1e
+msgid ""
+"Select raster source – you can either use Custom URL (see below how to "
+"publish your image with Openaerialmap and get the TMS link) or upload your "
+"image as GeoTIFF."
+msgstr ""
+"选择栅格源 - 您可以使用自定义 URL（请参阅下文如何使用 Openaerialmap 发布图像并获取 TMS 链接）或将图像上传为 GeoTIFF。"
+
+#: ../userguides/howto.rst:78 990be16c48b24b17b58f38081b0862d9
+msgid ""
+"*Currently, a preview of the uploaded image is not possible after loading "
+"the image, you will preview only the area of its extent.*"
+msgstr "*目前，加载图像后无法预览上传的图像，您只能预览其范围的区域。*"
+
+#: ../userguides/howto.rst:80 94553ea29ce34228aed9393f3ea272ad
+msgid ""
+"2. Define the processing Area. The processing area (AOI) must be located "
+"within the area of the image extent, otherwise, the area will be cut off by "
+"the extent boundaries. The processing area size is calculated by the "
+"intersection of the image extent and the AOI."
+msgstr ""
+"2. 定义处理区域。处理区域（AOI）必须位于图像范围的区域内，否则该区域将被范围边界切断。处理区域大小通过图像范围与 AOI 的交集来计算。"
+
+#: ../userguides/howto.rst:85 69320f79d7a74d07931a712c33de933f
+msgid ""
+"Image upload requirements: The file size must be less than 1 Gb. Both sides "
+"image dimmesions must not exceed 65535x65535"
+msgstr "图片上传要求：文件大小必须小于1GB。双面图像尺寸不得超过 65535x65535"
+
+#: ../userguides/howto.rst:88 14f7049f71b6461f9e844692d96c6571
+msgid ""
+"The image must be georeferenced and the CRS must be one of: * WGS84 (EPSG: "
+"4326) * Web mercator (EPSG: 3857) * UTM (any zone)"
+msgstr ""
+"图像必须经过地理参考，并且 CRS 必须是以下之一： * WGS84 (EPSG: 4326) * Web Mercator (EPSG: 3857) "
+"* UTM（任何区域）"
+
+#: ../userguides/howto.rst:93 aef6a09d4c51467baaf1a5d238ac5a36
+msgid ""
+"If your image doesn’t meet the parameters, we suggest using Mapflow API / "
+"QGIS plugin which has more capabilities. Mapflow supports RGB imagery and "
+"also processes single-band (panchromatic) imagery, but the AI models are not"
+" tuned for such kind of data, so the quality of the result may be worse than"
+" expected."
+msgstr ""
+"如果您的图像不符合参数，我们建议使用具有更多功能的Mapflow API / QGIS插件。 Mapflow 支持 RGB "
+"图像，还可以处理单波段（全色）图像，但 AI 模型未针对此类数据进行调整，因此结果的质量可能比预期差。"
+
+#: ../userguides/howto.rst:98 fa470740e0c14aa99df7c3ae873d8bb0
+msgid "Upload images with Mapflow – QGIS"
+msgstr "使用 Mapflow 上传图像 – QGIS"
+
+#: ../userguides/howto.rst:100 5d748c0ae2f74279a2e8956e27671e53
+msgid ""
+"You can upload your own GeoTIFF (up to 1 GB, max. 65535x65535 px. by "
+"default). All raster layers loaded in your QGIS (1) are visible in the drop-"
+"down list (2) and can be selected for upload."
+msgstr ""
+"您可以上传自己的 GeoTIFF（默认情况下最大 1 GB，最大 65535x65535 像素）。 QGIS (1) 中加载的所有栅格图层都在下拉列表 "
+"(2) 中可见，并且可以选择进行上传。"
+
+#: ../userguides/howto.rst:110 e18e0a6be51d42b5a66e7d24538fc13c
+msgid ""
+"Please, consider the requirements for :ref:`AI Models <Model requirements>` "
+"when uploading your own images. Contact us if you have difficulties to "
+"handle a large dataset or your file size exceeds our limits."
+msgstr "上传您自己的图像时，请考虑 AI 模型 <模型要求> 的要求。如果您在处理大型数据集时遇到困难或您的文件大小超出了我们的限制，请联系我们。"
+
+#: ../userguides/howto.rst:115 a14a8b4b3a98458cae250886b7108a39
+msgid "How to use external data providers in Mapflow"
+msgstr "如何在 Mapflow 中使用外部数据提供者"
+
+#: ../userguides/howto.rst:120 a150781653b44840a05f284ba323c3e0
+msgid "Use Openaerialmap as an imagery publication and access service"
+msgstr "使用 Openaerialmap 作为影像发布和访问服务"
+
+#: ../userguides/howto.rst:122 2ab1e6ca0958487aab451b023e7a7f56
+msgid ""
+"`OpenAerialMap <https://openaerialmap.org/>`_ is an open collection of UAV "
+"imagery data, crowdsourced by users. The project is supported by a "
+"consortium of companies developing open source software and services for "
+"working with spatial data. As soon as your aerial image is published on "
+"OpenAerialMap it's presented on the public map and can be fetched using "
+"TMS/WMTS protocols."
+msgstr ""
+"`OpenAerialMap <https://openaerialmap.org/>`_ "
+"是由用户众包的无人机图像数据的开放集合。该项目得到了开发用于处理空间数据的开源软件和服务的公司联盟的支持。一旦您的航拍图像在 OpenAerialMap"
+" 上发布，它就会显示在公共地图上，并且可以使用 TMS/WMTS 协议获取。"
+
+#: ../userguides/howto.rst:125 88ff8067b6614e3481d83aa41de5515e
+msgid ""
+"Select the image and copy link to TMS to connect it to Mapflow Custom URL."
+msgstr "选择图像并将链接复制到 TMS 以将其连接到 Mapflow 自定义 URL。"
+
+#: ../userguides/howto.rst b69d8bbc290f45be98f778e2eb2ed622
+msgid "Search for imagery in OpenAerialMap"
+msgstr "在 OpenAerialMap 中搜索图像"
+
+#: ../userguides/howto.rst:133 b28ed31f462f49d48d96a394a0783e60
+msgid ""
+"Copy link to TMS and paste it into the “Custom imagery URL” in your new "
+"Mapflow processing."
+msgstr "将链接复制到 TMS 并将其粘贴到新 Mapflow 处理中的“自定义图像 URL”中。"
+
+#: ../userguides/howto.rst:134 0fbf29e1cfc44165b5580418eb0800ce
+msgid ""
+"Check if you see the image on the map, go through the next steps (AI model, "
+"processing params) to and start the processing."
+msgstr "检查您是否在地图上看到图像，执行后续步骤（AI 模型、处理参数）并开始处理。"
+
+#: ../userguides/howto.rst:142 7a5830903af34c669df2143415b46e87
+msgid "..note::"
+msgstr "..笔记：："
+
+#: ../userguides/howto.rst:138 8b79acd89d80445caba3b4dc5face655
+msgid ""
+"Your can use this service to publish your own UAV data (note that it will "
+"become publicly accessible). As soon as your aerial image is published on "
+"Openaerialmap it’s displayed on the public map and can be connected using "
+"TMS/WMTS or downloaded as GeoTIFF file. Both ways are OK to work with "
+"Mapflow."
+msgstr ""
+"您可以使用此服务发布您自己的无人机数据（请注意，它将可供公开访问）。一旦您的航拍图像在 Openaerialmap "
+"上发布，它就会显示在公共地图上，并且可以使用 TMS/WMTS 连接或下载为 GeoTIFF 文件。两种方式都可以与 Mapflow 配合使用。"
+
+#: ../userguides/howto.rst:147 ea147a8c792b4bef94357222b1a82dcf
+msgid "Use Nearmap as an imagery provider"
+msgstr "使用近图作为图像提供者"
+
+#: ../userguides/howto.rst:149 20c17257bb5645b1b01b8b41b037c4bd
+msgid ""
+"`Nearmap <https://nearmap.com>`_ provides access to its Vertical and "
+"Panorama Imagery via a Tile API. If you have a subscription to their service"
+" you can use it easily with Mapflow Custom URL."
+msgstr ""
+"`Nearmap <https://nearmap.com>`_ 通过 Tile API "
+"提供对其垂直和全景图像的访问。如果您订阅了他们的服务，您可以通过 Mapflow 自定义 URL 轻松使用它。"
+
+#: ../userguides/howto.rst:151 fb229f7b3fa54bc2bba9fc78bd37fc9c
+msgid "URL format:"
+msgstr "网址格式："
+
+#: ../userguides/howto.rst:153 8d32e3c65fdb499c95afaa9492742bd5
+msgid ""
+"``https://api.nearmap.com/tiles/v3/{tileResourceType}/{z}/{x}/{y}.{format}?apikey={YOUR_API_KEY}``"
+msgstr ""
+
+#: ../userguides/howto.rst:155 a0d910a8510a4702bd2ef810e71cb2a1
+msgid ""
+"Find more in the Nearmap `API documentation "
+"<https://help.nearmap.com/kb/articles/84-tile-api>`_."
+msgstr ""
+"在 Nearmap `API 文档 <https://help.nearmap.com/kb/articles/84-tile-api>`_ "
+"中查找更多信息。"
+
+#: ../userguides/howto.rst:162 fbc715ecfe6f484e8b36008ad1b342ae
+msgid "Nearmap imagery preview in Mapflow W"
+msgstr "Mapflow W 中的近图图像预览"
+
+#: ../userguides/howto.rst:168 0349da8f06b745da8e0fe2ddbdfb955a
+msgid "Use NAIP as an imagery provider"
+msgstr "使用 NAIP 作为图像提供者"
+
+#: ../userguides/howto.rst:171 91d24651fd3e4863a6830f940086913a
+msgid ""
+"NAIP (National Agriculture Imagery Program) provides public access to aerial"
+" imagery for the US territory. The data is available as a set of tiles via "
+"TMS protocol. It's effectively public-domain data so you are free to use, "
+"redistribute, incorporate into commercial or open-source projects, or mix "
+"with other data."
+msgstr ""
+"NAIP（国家农业图像计划）为公众提供美国境内的航空图像。数据可通过 TMS "
+"协议以一组图块的形式提供。它实际上是公共领域的数据，因此您可以自由使用、重新分发、合并到商业或开源项目中，或与其他数据混合。"
+
+#: ../userguides/howto.rst:173 4fd1ab364b94492b9fa8ed5283940e84
+msgid ""
+"To use NAIP data with Mapflow Custom URL, you can use the following TMS URL "
+"template:"
+msgstr "要将 NAIP 数据与 Mapflow 自定义 URL 结合使用，您可以使用以下 TMS URL 模板："
+
+#: ../userguides/howto.rst:175 be490bc48b214fa68318cd73e0a4a57f
+msgid ""
+"``https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}?blankTile=false``"
+msgstr ""
+
+#: ../userguides/howto.rst ../userguides/howto.rst:183
+#: 20d4ca51a942462e899e1532967e6770 623c45fcac1542a6b635071bfbaf2164
+msgid "Multi-modal analysis using NAIP imagery"
+msgstr "使用 NAIP 图像进行多模态分析"
+
+#: ../userguides/howto.rst:188 88db474253334fd1a9247e2ac8a0e8ae
+msgid "How to optimize large image files"
+msgstr "如何优化大图像文件"
+
+#: ../userguides/howto.rst:191 aead741664f846a8a54b905bc5e9a570
+msgid "Preparing and optimizing the large size images"
+msgstr "准备和优化大尺寸图像"
+
+#: ../userguides/howto.rst:193 41573d2cddb245d597067c047ff25bbc
+msgid ""
+"Here are few tips on how to prepare and optimize your data and reduce the "
+"image size to upload it faster and not to exceed the Mapflow upload limit."
+msgstr "以下是一些关于如何准备和优化数据以及减小图像大小以更快上传且不超过 Mapflow 上传限制的提示。"
+
+#: ../userguides/howto.rst:195 d06b7ce6f59446739c4342f81575963d
+msgid ""
+"Usually UAV image is an RGB compiosite provided as GeoTIFF of 16 or 8 bit. "
+"The data type will be automatically converted to 8 bit on the side of the "
+"Mapflow. Alternatively: use the `preprocessing script "
+"<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ for preparing "
+"your image for Mapflow processing."
+msgstr ""
+"通常无人机图像是以 16 或 8 位的 GeoTIFF 形式提供的 RGB 合成图像。 Mapflow 端的数据类型将自动转换为 8 "
+"位。或者：使用`预处理脚本 <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ "
+"准备图像以进行 Mapflow 处理。"
+
+#: ../userguides/howto.rst:199 8beb9a0ce28242ce9d31ebe490f0aa95
+msgid ""
+"You can reduce the size of the image using GDAL translate. "
+"(https://gdal.org/) E.g. using JPEG compression. ``gdal_translate -co "
+"compress=JPEG input.tif output.tif`` By default the compression quality is "
+"75% (``gdal_translate -co compress=JPEG -co jpeg_quality=75 input.tif "
+"output.tif``) but it doesn’t really impact the quality of the Mapflow mask "
+"whenever the resolution of the input iage meets the recommended params."
+msgstr ""
+"您可以使用 GDAL 翻译来减小图像的大小。 (https://gdal.org/)使用 JPEG 压缩。 ``gdal_translate -co "
+"compress=JPEG input.tif output.tif`` 默认情况下，压缩质量为 75%（``gdal_translate -co "
+"compress=JPEG -co jpeg_quality=75 input.tif "
+"output.tif``），但只要输入图像的分辨率满足建议的参数，它就不会真正影响 Mapflow 掩码的质量。"
+
+#: ../userguides/howto.rst:204 925543f15f8541d0ae1a6373d340fda1
+msgid "The same can be done using QGIS interface:"
+msgstr "使用 QGIS 界面也可以完成同样的操作："
+
+#: ../userguides/howto.rst:212 7da0d9994b344d6693628c8af82a07b6
+msgid ""
+"Tell us if you have more tips to share with the community or if you have "
+"more questions – we are ready to help."
+msgstr "如果您有更多提示要与社区分享或者有更多问题，请告诉我们 – 我们随时准备提供帮助。"
+
+#: ../userguides/howto.rst:214 04554ea483fc47b987ca4c7599d96618
+msgid "**Run the flow!**"
+msgstr "**运行流程！**"
+
+#: ../userguides/howto.rst:218 aa597238baeb4184aa477dd809bb32b6
+msgid "How to view results using Kepler.gl"
+msgstr "如何使用 Kepler.gl 查看结果"
+
+#: ../userguides/howto.rst:220 38762e63853c4871ac1fd8e2475b350d
+msgid ""
+"**Kepler.gl** is an open source tool designed for geospatial data analysis. "
+"It is a simple yet powerful for displaying and exploring geodatasets."
+msgstr "**Kepler.gl** 是一款专为地理空间数据分析而设计的开源工具。它简单但功能强大，用于显示和探索地理数据集。"
+
+#: ../userguides/howto.rst:222 a3de9ed3623d4f2db6ba383dc650fd45
+msgid ""
+"To view the processing results in the Mapflow, select the required "
+"processing and press the button *\"Open in kepler.gl\"*."
+msgstr "要在 Mapflow 中查看处理结果，请选择所需的处理并按按钮“在 kepler.gl 中打开”*。"
+
+#: ../userguides/howto.rst:225 1f8cffaeccb341419c687337563bd561
+msgid ""
+"You can share your processing view in Kepler by copying the open URL (right "
+"click on *\"Open in kepler.gl\"* --> Copy Link Address)"
+msgstr ""
+"您可以通过复制打开的 URL 在 Kepler 中共享您的处理视图（右键单击 *“在 kepler.gl 中打开”* --> 复制链接地址）"
+
+#: ../userguides/howto.rst:227 fa4981677fa44e13802af6aee55f4d56
+msgid ""
+"Using the Kepler you can change the visual properties of data, set filters, "
+"and choose a background map."
+msgstr "使用开普勒，您可以更改数据的视觉属性、设置过滤器并选择背景地图。"
+
+#: ../userguides/howto.rst:231 eeeffec4c50b4f9996a4f2ecdc5f4e78
+msgid "Layers tab"
+msgstr "图层选项卡"
+
+#: ../userguides/howto.rst:233 b6d27d2c201c458d977e36ff836318c5
+msgid ""
+"Click on the layer name to bring up the *Layer settings* from the drop-down "
+"menu. To hide all data, click on the *eye* icon."
+msgstr "单击图层名称，从下拉菜单中调出*图层设置*。要隐藏所有数据，请单击*眼睛*图标。"
+
+#: 8dc9e838a445431687e565b9e9c573ad
+msgid "View layer settings"
+msgstr "查看图层设置"
+
+#: ../userguides/howto.rst:242 667e77adb5ad47edac82c68101ab81dc
+msgid ""
+"These settings allow you to choose a more suitable type of received data:"
+msgstr "这些设置允许您选择更合适的接收数据类型："
+
+#: ../userguides/howto.rst:244 d73830aac1504b3a8a597d9804036fa2
+msgid ""
+"*Fill color.* You can choose any color from the palette for polygons, and "
+"also hide the display of data by changing the position of the slider. You "
+"can change the transparency of polygons (property *Opacity*) in the "
+"additional settings of this function."
+msgstr ""
+"*填充颜色。*您可以从多边形调色板中选择任何颜色，还可以通过更改滑块的位置来隐藏数据的显示。您可以在此功能的附加设置中更改多边形的透明度（属性*不透明度*）。"
+
+#: ../userguides/howto.rst:245 3f411a3975aa4d67b22cc9f6aabbe832
+msgid ""
+"*Stroke color.* You can choose any color from the palette for outlining "
+"polygons, as well as completely remove the stroke. You can change the "
+"transparency of the stroke (property *Opacity*) In the additional settings "
+"of this function."
+msgstr ""
+"*描边颜色。*您可以从调色板中选择任何颜色来勾勒多边形，也可以完全删除描边。您可以在此功能的附加设置中更改笔划的透明度（属性*不透明度*）。"
+
+#: ../userguides/howto.rst:246 ef972037197644d08668d77bbb90a65e
+msgid "*Stroke width.* Controls the thickness of the stroke."
+msgstr "*笔划宽度。* 控制笔划的粗细。"
+
+#: ../userguides/howto.rst:247 5c786a886e7b4362ac01608a58a35b19
+msgid ""
+"*Height.* Allows you to view data with heights in 3D format. Set the desired"
+" coefficient and select the attribute of the layer with heights."
+msgstr "*高度。* 允许您以 3D 格式查看高度数据。设置所需的系数并选择具有高度的图层的属性。"
+
+#: 668cafc339b949a9b04846b1f47043ef
+msgid "3D buildings"
+msgstr "3D建筑"
+
+#: ../userguides/howto.rst:257 77a3fea78de4400d9dc7dda6eb0b61f0
+msgid "Filters tab"
+msgstr "过滤器选项卡"
+
+#: ../userguides/howto.rst:259 d7f2b2cbc2af4d10b557a2b9bbb73392
+msgid ""
+"This tab allows you to add a filter of interest by a specific attribute of "
+"the layer (as in this case, the filter is set by classes with different "
+"typology of buildings)."
+msgstr "此选项卡允许您按图层的特定属性添加感兴趣的过滤器（在本例中，过滤器是按具有不同建筑物类型的类设置的）。"
+
+#: e813d64e76834aa79f1fbe84e9985e79
+msgid "Filter panel"
+msgstr "过滤面板"
+
+#: ../userguides/howto.rst:269 e4c1d73b87934db8b595741edaf95ca9
+msgid "Interaction tab"
+msgstr "互动选项卡"
+
+#: ../userguides/howto.rst:271 8482a2f9443c4fa4a9fc028a9b3e9203
+msgid ""
+"You can select or remove attributes that will be visible in the menu that "
+"appears when you hover over an object. It is also possible to turn on the "
+"panel indicating longitude and latitude."
+msgstr "您可以选择或删除将鼠标悬停在对象上时出现的菜单中可见的属性。也可以打开显示经度和纬度的面板。"
+
+#: 141cb249d93946899ad4285f0c8b70fc
+msgid "Interaction panel"
+msgstr "互动面板"
+
+#: ../userguides/howto.rst:282 b3cfb673c0fc4c658ae1a8e2bd57739e
+msgid "Base map tab"
+msgstr "底图选项卡"
+
+#: ../userguides/howto.rst:284 a7dc3d95bebb44efa86e012c7b4e1b87
+msgid ""
+"Here you can choose the styles of the map, as well as choose to display its "
+"various layers."
+msgstr "在这里您可以选择地图的样式，以及选择显示其各个图层。"
+
+#: ../userguides/howto.rst:288 d20d6a5948e44ee1a164bb42b02e7c56
+msgid "How to run Mapflow on external infrastructure"
+msgstr "如何在外部基础设施上运行 Mapflow"
+
+#: ../userguides/howto.rst:290 68329b56acb74cb596fa1b803a7ccbe6
+msgid ""
+"Currently, you have to contact us if you have a request to run Mapflow (as a"
+" platform or as a separate imagery analysis workflows) on external "
+"infrastructure. However, we partner with cloud integrators to conduct "
+"projects for their clients."
+msgstr ""
+"目前，如果您请求在外部基础设施上运行 "
+"Mapflow（作为平台或作为单独的图像分析工作流程），则必须联系我们。然而，我们与云集成商合作，为他们的客户开展项目。"
+
+#: ../userguides/howto.rst:294 5e15b44a93c349e896565ffa96dbb41c
+msgid "How to run Mapflow using Geocloud"
+msgstr "如何使用 Geocloud 运行 Mapflow"
+
+#: 12047d331a9740cdbd9033bf9b0fc0d2 23963379bcf3427d8e766d622f1650b6
+#: 84b0db02e7f647ce845821ef5311bfb1
+msgid "create app"
+msgstr "创建应用程序"
+
+#: ../userguides/howto.rst:304 d4b60875058e4cf6998a0f9c5dcedede
+msgid ""
+"We conduct a `PoC project with Geocloud.work "
+"<https://www.geocloud.work/software/geoalert>`_ who enable to work remotely "
+"with the licensed geospatial software."
+msgstr ""
+"我们与 Geocloud.work <https://www.geocloud.work/software/geoalert> 开展了一个“PoC "
+"项目”，该项目能够使用许可的地理空间软件进行远程工作。"
+
+#: ../userguides/howto.rst:306 a2a3815befe845fc95bd034755d12c5f
+msgid "The generic workflow with Geocloud is as follows:"
+msgstr "Geocloud 的一般工作流程如下："
+
+#: ../userguides/howto.rst:308 39c4c3bf798c4b899c7eacfb66622d86
+msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
+msgstr "在 Geocloud 创建帐户并运行应用程序“QGIS-Mapflow”。"
+
+#: ../userguides/howto.rst:310 0db8afbb7c6d48818e3ad767610d81be
+msgid ""
+"It runs the virtual machine with minimum requirements for QGIS with a "
+"preinstalled Mapflow plugin. Note that you have to run consequently the "
+"Storage and the Desktop to get connected to the virtual machine with a "
+"remote desktop."
+msgstr "它运行虚拟机，对 QGIS 具有最低要求，并预装了 Mapflow 插件。请注意，您必须同时运行存储和桌面才能通过远程桌面连接到虚拟机。"
+
+#: ../userguides/howto.rst:313 c2256184c3da47beabc785ccb5929cdb
+msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
+msgstr "单击桌面工作区中的“QGIS-Mapflow”图标来运行 QGIS"
+
+#: ../userguides/howto.rst:323 173db4b26f5b47169091a6bf146eb7dc
+msgid "Run the plugin by clicking on the icon in the toolbar"
+msgstr "单击工具栏中的图标运行插件"
+
+#: ../userguides/howto.rst:334 9d88d3ab2b8641c889be8c52b8c050fb
+msgid ""
+"❗️ To enable Mapflow oAuth login use the master password for QGIS which is "
+"set to 123456"
+msgstr "❗️ 要启用 Mapflow oAuth 登录，请使用 QGIS 的主密码，该密码设置为 123456"
+
+#: ../userguides/howto.rst:337 d163f343642f4b53b2d5b32940af5726
+msgid ""
+"After you click  the \"Login\" button you will be redirected to the Mapflow "
+"login page in the browser. Use your existing `Mapflow.ai "
+"<https://app.mapflow.ai>`_ login and password or create a new account to "
+"start working with the plugin. You can also use Basic auth (disable \"Use "
+"OAuth\" checkbox) with your Mapflow `Token "
+"<https://app.mapflow.ai/account/api>`_."
+msgstr ""
+"单击“登录”按钮后，您将在浏览器中重定向到 Mapflow 登录页面。使用您现有的“Mapflow.ai "
+"<https://app.mapflow.ai>”_登录名和密码或创建一个新帐户来开始使用该插件。您还可以将基本身份验证（禁用“使用 "
+"OAuth”复选框）与 Mapflow `令牌 <https://app.mapflow.ai/account/api>`_ 结合使用。"
+
+#: ../userguides/howto.rst:340 4f458b8ce07e42fabe022ebb7c8eb1a3
+msgid ""
+"You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in"
+" Geocloud."
+msgstr "您已准备好在 Geocloud 中使用:doc:`Mapflow – QGIS </userguides/qgis_plugin>`。"
+
+#: ../userguides/howto.rst:343 34b56bc211774f7893a296f22b7302f9
+msgid ""
+"Note that you pay only for the up time in Geocloud. You spend your regular "
+"credits for Mapflow (you get 250 credits for free upon the registration). "
+"There are two prices for Storage / Computer in Geocloud - *Stopped* and "
+"*Working*. The Stopped price is applied when Storage / Computer is stopped. "
+"The Working price is applied when it is in the working mode. 👉👉 You can stop"
+" your computer while doing some long-lasting calculations in Mapflow to "
+"spend less."
+msgstr ""
+"请注意，您只需为 Geocloud 的正常运行时间付费。您花费 Mapflow 的常规积分（注册后免费获得 250 个积分）。 Geocloud "
+"中的存储/计算机有两种价格 - *已停止* 和 *正在运行*。当存储/计算机停止时，将应用停止价格。工作价格在工作模式下适用。 👉👉 您可以在 "
+"Mapflow 中进行一些长期计算时停止计算机，以减少花费。"
+
+#: ../userguides/howto.rst:348 bc16cc0dfec74800b8d59252443b7dd2
+msgid "How to check images metadata in the 🌏 Global mosaic"
+msgstr "如何检查🌏全局马赛克中的图像元数据"
+
+#: ../userguides/search_mosaic.rst:1 1f9c27367801408d81cf80b3fd30f21c
+msgid ""
+"Mapflow Imagery Search enables searching metadata for mosaic providers "
+"(e.g., ArcGIS World Imagery, Global mosaic)."
+msgstr "Mapflow 影像搜索支持搜索镶嵌提供者的元数据（例如，ArcGIS World Imagery、全球镶嵌）。"
+
+#: ../userguides/search_mosaic.rst:4 2a8de017337340b18dbda831e62869c7
+msgid ""
+"**🌏 Global mosaic** is the annually updated satellite imagery composite "
+"covering most of the World. The mosaic is composed of \"Jilin\" Chinese "
+"satellites imagery (RGB, 0.75–0.5 m/px). The preview is limited to zoom 14. "
+"**🌏 ArcGIS World Imagery** is a provider of the global coverage composed of "
+"high and medium resolution satellite imagery and aerial imagery, hosted by "
+"ESRI. The frequency of updating images is 1-5 years depending on the "
+"territory."
+msgstr ""
+"**🌏 全球马赛克** 是覆盖世界大部分地区的每年更新的卫星图像合成。该马赛克由“吉林”中国卫星图像（RGB，0.75–0.5 "
+"m/px）组成。预览仅限缩放 14。 **🌏 ArcGIS World Imagery** 是由 ESRI "
+"托管的由高分辨率和中分辨率卫星图像和航空图像组成的全球覆盖范围的提供商。更新图像的频率为 1-5 年，具体取决于地区。"
+
+#: ../userguides/search_mosaic.rst:7 6415b3e51fe24d11a1331f647ffcf4b5
+msgid ""
+"How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
+"metadata and run the analysis:"
+msgstr "如何使用 Mapflow – QGIS <qgis_plugin>` 搜索马赛克的元数据并运行分析："
+
+#: ../userguides/search_mosaic.rst:9 3c5d023a7a7b462a9d34e6b9fd446e26
+msgid "Switch to the Tab \"Imagery Search\""
+msgstr "切换到“图像搜索”选项卡"
+
+#: ../userguides/search_mosaic.rst:10 4f06b5ad09674d17acdd8074eba34ba4
+#, python-format
+msgid ""
+"Set search filter parameters including the area (it can be your area of "
+"analysis or a map canvas), period of time, cloud %, and the % of the "
+"intersection with AOI."
+msgstr "设置搜索过滤器参数，包括区域（可以是分析区域或地图画布）、时间段、云百分比以及与 AOI 相交的百分比。"
+
+#: ../userguides/search_mosaic.rst:11 e6ba0774b69b45b4a447675f0855f3e0
+msgid ""
+"Select the \"Product type = Mosaic\" in the Search results. You will see the"
+" mosaic image \"cutline\" indicating the specific image that is used in the "
+"mosaic."
+msgstr "在搜索结果中选择“产品类型=马赛克”。您将看到马赛克图像“剪切线”，指示马赛克中使用的特定图像。"
+
+#: c687e9b33457421187624837bacf0244
+msgid "Search for Mosaic images"
+msgstr "搜索马赛克图像"
+
+#: ../userguides/search_mosaic.rst:22 f6d8821f82004d118767f990e4367deb
+msgid ""
+"There are two types of products in the Imagery Search API available: * The "
+"**Scene** product is available for ordering by request. Now you need to "
+"contact us to order the specific image. * The **Mosaic** product is "
+"available for instant analysis if the corresponding data provider is linked "
+"to your Mapflow account."
+msgstr ""
+"图像搜索 API 中有两种类型的产品可用： * **场景** 产品可根据请求订购。现在您需要联系我们订购特定图像。 * 如果相应的数据提供商链接到您的 "
+"Mapflow 帐户，则 **Mosaic** 产品可用于即时分析。"
+
+#: ../userguides/search_mosaic.rst:26 fc5966965b0948a0aa27bb414c282eab
+msgid ""
+"Run the processing. The resulting area of analysis will be clipped by the "
+"intersection with the area of analysis."
+msgstr "运行处理。生成的分析区域将被与分析区域的交集剪切。"
+
+#: 61e13988dea646808453f3e8f7f488be
+msgid "Get results based on Mosaic analysis"
+msgstr "根据马赛克分析获取结果"
+
+#: ../userguides/search_mosaic.rst:35 9cfbf9958a664658bb11523f604157de
+msgid ""
+"To run the processing over the whole area of analysis – just clear the "
+"selection and use the **Data Source: 🌏 Global mosaic 2022** or the **Data "
+"Source: 🌏 ArcGIS World Imagery**."
+msgstr "要对整个分析区域运行处理 - 只需清除选择并使用 **数据源：🌏 全球镶嵌 2022** 或 **数据源：🌏 ArcGIS 世界影像**。"
+
+#: ../userguides/howto.rst:354 fbc715ecfe6f484e8b36008ad1b342ae
+msgid "How to run bulk processing using Mapflow API"
+msgstr "如何使用 Mapflow API 运行批量处理"
+
+#: ../userguides/howto.rst:357 1bb56a25f27647728f6c07de96193fc4
+msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
+msgstr "✍️ 查看有关 :doc:`Mapflow API 使用案例 <use_API>` 的更多用户指南"

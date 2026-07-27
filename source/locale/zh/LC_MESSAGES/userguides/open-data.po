@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/open-data.rst:2 5be42f95f69b4b2394205327b9d5ecc9
+msgid "Download Open Data"
+msgstr "下载开放数据"
+
+#: ../userguides/open-data.rst:4 dd74e28321ae4a2da6b1456d9fc812e0
+msgid ""
+"In Mapflow, you can download open mapping data from OpenStreetMap and "
+"Overture Maps. This pipeline **does not use any AI model**. It is designed "
+"to support your mapping projects with community-maintained open data."
+msgstr ""
+"在 Mapflow 中，您可以从 OpenStreetMap 和 Overture Maps "
+"下载开放地图数据。该管道**不使用任何人工智能模型**。它旨在通过社区维护的开放数据支持您的测绘项目。"
+
+#: ../userguides/open-data.rst:7 dc8a7b8093544085a495d6fa78d9ec94
+msgid "Select one or more semantic classes and run the workflow."
+msgstr "选择一个或多个语义类并运行工作流。"
+
+#: ../userguides/open-data.rst:9 aadb95e31a50457da76052db7d58593a
+msgid "**Run the pipeline**"
+msgstr "**运行管道**"
+
+#: 41a75f3d14444e56a37adfa9e439a737 abbcbc8a5d684e44b3675d01118a2315
+msgid "Example result of the Open Data pipeline"
+msgstr "开放数据管道的示例结果"
+
+#: ../userguides/open-data.rst:17 ede15de5f0124f84a86ca56121554b3c
+msgid "**Get the results and the image preview (in Web app or QGIS project)**"
+msgstr "**获取结果和图像预览（在Web应用程序或QGIS项目中）**"
+
+#: ../userguides/open-data.rst:26 05f87c412fa2435b8e898a2edcfe7b3c
+msgid ""
+"Results depend on the availability and completeness of open mapping data in "
+"your area of interest. You can use it alongside AI-mapping results as a "
+"complementary source."
+msgstr "结果取决于您感兴趣的区域中开放地图数据的可用性和完整性。您可以将其与 AI 绘图结果一起用作补充来源。"
+
+#: ../userguides/open-data.rst:29 8a8a40b509194c2090ad600bd2c3d431
+msgid ""
+"You have to select an image source the same way as for AI-mapping pipelines."
+" Note that the results may not be well aligned with the image, because the "
+"data comes from an external open data source. The image is provided only for"
+" visual reference, so you can decide whether you need to apply edits or run "
+"a Mapflow model to complement the results."
+msgstr ""
+"您必须以与 AI "
+"映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行 "
+"Mapflow 模型来补充结果。"

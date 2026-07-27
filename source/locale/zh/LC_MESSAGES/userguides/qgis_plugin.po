@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/qgis_plugin.rst:2 8862681348ed4197b40760a9aaabcefb
+msgid "How to use the Mapflow <> QGIS plugin"
+msgstr "如何使用Mapflow <> QGIS插件"
+
+#: ../userguides/qgis_plugin.rst:4 29f15be6b11347818482dd241b5d7352
+msgid ""
+"**Object mapping in remote sensing images using Mapflow plugin for QGIS**"
+msgstr "**使用 QGIS 的 Mapflow 插件在遥感图像中进行对象映射**"
+
+#: ../userguides/qgis_plugin.rst:6 39aefd951c2749d692d8a7c904c8fcbc
+msgid ""
+"Interpretation and subsequent digitization of satellite imagery is a rather "
+"laborious process. The use of AI-based image recognition technologies leads "
+"to a reduction in labor costs and an increase in data processing speed."
+msgstr "卫星图像的解释和随后的数字化是一个相当费力的过程。基于人工智能的图像识别技术的使用可以降低劳动力成本并提高数据处理速度。"
+
+#: ../userguides/qgis_plugin.rst:8 3bf3b955949349a9a0f7036ec0bcf5af
+msgid ""
+"In the QGIS, the process of detecting objects of various types can be "
+"automated using the Mapflow plugin. To accomplish this, you can follow the "
+"steps described below."
+msgstr "在 QGIS 中，可以使用 Mapflow 插件自动化检测各种类型的对象的过程。为此，您可以按照下面描述的步骤操作。"
+
+#: ../userguides/qgis_plugin.rst:10 7d3573aaa7cc45b6bd3e97a2c6cbacef
+msgid "**1. Installation of Mapflow plugin and logging in**"
+msgstr "**1.安装Mapflow插件并登录**"
+
+#: ../userguides/qgis_plugin.rst:12 d4558f560d4e4e7bbbad6e30b7f89789
+msgid ""
+"First of all, you have to install the plugin in QGIS. To do this, go to the "
+"tab called Plugins -> Manage and Install Plugins, find Mapflow using the "
+"search bar and click Install Plugin."
+msgstr ""
+"首先，你必须在QGIS中安装插件。为此，请转到名为“插件”->“管理和安装插件”的选项卡，使用搜索栏找到 Mapflow，然后单击“安装插件”。"
+
+#: ../userguides/qgis_plugin.rst:21 29be87ec11cd4d9da742879e3336c343
+msgid ""
+"After installation, the plugin icon will appear in the toolbar: "
+"|plugin_icon|. Clicking on it will open the authorization window, in which "
+"you need to click on \"Get token\"."
+msgstr "安装后，插件图标将出现在工具栏中：|plugin_icon|。单击它将打开授权窗口，您需要在其中单击“获取令牌”。"
+
+#: ../userguides/qgis_plugin.rst:23 6998d804f1ad4e0492387672d64e2d1b
+#: aeeb87b7b03a4fd4bd8241cdfd06ea46
+msgid "plugin_icon"
+msgstr "插件图标"
+
+#: ../userguides/qgis_plugin.rst:33 925e6fb5f4db41298806e210d6d1def9
+msgid ""
+"A window will open in which you have to quickly and for free register on "
+"`Mapflow.ai <https://app.mapflow.ai/>`_. After that, by clicking on the "
+"user, you need to go to Settings and select the API tab."
+msgstr ""
+"将打开一个窗口，您必须在其中快速免费注册“Mapflow.ai "
+"<https://app.mapflow.ai/>”。之后，通过单击用户，您需要转到“设置”并选择“API”选项卡。"
+
+#: ../userguides/qgis_plugin.rst:42 2aa6d1e2e8b94ac287467904faeae7ca
+msgid ""
+"By clicking on the \"Reset api token\" button, you will get access to the "
+"authorization key, which must be copied and saved, as well as pasted into "
+"the authorization window in QGIS. After that - click \"Log in\"."
+msgstr ""
+"通过单击“重置 api 令牌”按钮，您将可以访问授权密钥，必须复制并保存该密钥，并将其粘贴到 QGIS 的授权窗口中。之后 - 单击“登录”。"
+
+#: ../userguides/qgis_plugin.rst:44 82af69d8bc824790aa3bc8047b3cbced
+msgid ""
+"Another way to log in to the plugin is using Oauth2. By checking the "
+"appropriate option in the authorization window, you will need to set a "
+"master password."
+msgstr "登录插件的另一种方法是使用 Oauth2。通过检查授权窗口中的相应选项，您将需要设置主密码。"
+
+#: ../userguides/qgis_plugin.rst:53 e91e991af9a94bb3b5fdb55a72a2fe1a
+msgid ""
+"Then, following the instructions, restart QGIS and click \"Log in\" again. "
+"This will redirect you to the browser, where the Mapflow authorization "
+"window will open. After successful login or registration, a page will open "
+"notifying you of this."
+msgstr ""
+"然后，按照指示重新启动 QGIS 并再次单击“登录”。这会将您重定向到浏览器，其中将打开 Mapflow "
+"授权窗口。成功登录或注册后，将打开一个页面通知您。"
+
+#: ../userguides/qgis_plugin.rst:62 b5b86f05012a46a1936d8575fdfde4d6
+msgid ""
+"And in QGIS the main tab of the plugin will open, so you can proceed to the "
+"next steps."
+msgstr "在 QGIS 中，插件的主选项卡将打开，以便您可以继续执行后续步骤。"
+
+#: ../userguides/qgis_plugin.rst:64 702aca2d4c8e4c4c99a74dc069710c11
+msgid "**2. Object recognition using default data provider**"
+msgstr "**2.使用默认数据提供程序进行对象识别**"
+
+#: ../userguides/qgis_plugin.rst:66 c69b1af395f9457eaad0573e01f4257f
+msgid ""
+"In order to start processing, first you must specify its name. Next, choose "
+"the area of interest by drawing it on the map / loading from a vector file /"
+" taking the extent of the map."
+msgstr "为了开始处理，首先必须指定其名称。接下来，通过在地图上绘制/从矢量文件加载/获取地图范围来选择感兴趣的区域。"
+
+#: ../userguides/qgis_plugin.rst:75 87576fa10d314d30a42806ac96e05709
+msgid ""
+"In the upper-left corner of the main QGIS window in the Browser panel, you "
+"can open the OpenStreetMap basemap and navigate around the map to identify "
+"the area of interest."
+msgstr "在浏览器面板中 QGIS 主窗口的左上角，您可以打开 OpenStreetMap 底图并在地图上导航以识别感兴趣的区域。"
+
+#: ../userguides/qgis_plugin.rst:84 cec811e53bc3488bbddd951707075ba2
+msgid ""
+"Let’s leave the remaining parameters as default: Mapbox data provider and a "
+"model for buildings classification. Then click \"Start processing\". A new "
+"row will appear in the processing table. Upon completion of processing "
+"(Progress – 100%), after some time, you can load the result to the map by "
+"clicking on \"View results\" (or double-clicking on the row). The raster "
+"layer and the identified objects will be displayed on the map: buildings are"
+" automatically classified by their type (where red is residential and purple"
+" is commercial)."
+msgstr ""
+"让我们将其余参数保留为默认值：Mapbox 数据提供程序和建筑物分类模型。然后单击“开始处理”。处理表中将出现一个新行。处理完成后（进度 – "
+"100%），一段时间后，您可以通过单击“查看结果”（或双击该行）将结果加载到地图中。栅格图层和识别的对象将显示在地图上：建筑物会自动按其类型进行分类（其中红色是住宅，紫色是商业）。"
+
+#: ../userguides/qgis_plugin.rst:94 682655c48dd64bb29ab2141b7744963c
+msgid ""
+"The resulting vector objects can be saved in GeoJSON format (by clicking on "
+"the additional options next to View results) and then used for mapping, "
+"analysis, or filled with additional attribute information."
+msgstr "生成的矢量对象可以以 GeoJSON 格式保存（通过单击“查看结果”旁边的其他选项），然后用于绘图、分析或填充其他属性信息。"
+
+#: ../userguides/qgis_plugin.rst:103 90631da33f2c407d9bba60e3b8ddfd95
+msgid "**3. Object recognition using your own imagery**"
+msgstr "**3.使用您自己的图像进行物体识别**"
+
+#: ../userguides/qgis_plugin.rst:105 e76fc2d3094c45ac8b5d6b30bc43a459
+msgid ""
+"Previously, we looked at one of the simplest scenarios for working with the "
+"Mapflow plugin. However, its functionality is not limited to a single data "
+"provider. In addition to the default providers, you can use the search in "
+"the imagery catalog or process your own images. After adding the image you "
+"are interested in to QGIS as a raster layer, you can select it in the \"Data"
+" source\" field and run processing. The result can look like this: the "
+"boundaries of trees of different heights, identified in your image."
+msgstr ""
+"之前，我们研究了使用 Mapflow "
+"插件的最简单的场景之一。然而，其功能并不限于单个数据提供者。除了默认提供程序之外，您还可以使用图像目录中的搜索或处理您自己的图像。将您感兴趣的图像作为栅格图层添加到QGIS后，您可以在“数据源”字段中选择它并运行处理。结果可能如下所示：在图像中识别出不同高度的树木的边界。"
+
+#: ../userguides/qgis_plugin.rst:115 e92a3c77a5954ecdbd3e89dad792ec68
+msgid ""
+"In this quick tutorial, we looked at the main options for detecting objects "
+"in remote sensing images with the help of the Mapflow plugin for QGIS. In "
+"addition to buildings and forest vegetation, there are models for "
+"recognizing roads or construction sites. A more extensive overview of the "
+"plugin's capabilities, as well as various options for data sources, are "
+"discussed in the documentation for :ref:`Mapflow <> QGIS`."
+msgstr ""
+"在本快速教程中，我们了解了借助 QGIS 的 Mapflow "
+"插件检测遥感图像中的对象的主要选项。除了建筑物和森林植被之​​外，还有用于识别道路或建筑工地的模型。 Mapflow <> QGIS "
+"的文档中讨论了该插件功能的更广泛概述以及数据源的各种选项。"

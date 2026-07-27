@@ -1,0 +1,466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/imagery_search.rst:4 cd09332605104eb885759e3e2e6c1d0e
+msgid "🔍 Imagery search and ordering"
+msgstr "🔍 图像搜索和排序"
+
+#: ../userguides/imagery_search.rst:6 0983997bc3b04d5f9f7858bb104c092a
+msgid ""
+"\"Imagery search\" allows Mapflow users to search for available satellite "
+"imagery over their area of analysis. It's powered by Mapflow API providing "
+"access to the global satellite data providers through our partner "
+"integrations."
+msgstr ""
+"“图像搜索”允许 Mapflow 用户搜索其分析区域内的可用卫星图像。它由 Mapflow API "
+"提供支持，通过我们的合作伙伴集成提供对全球卫星数据提供商的访问。"
+
+#: ../userguides/imagery_search.rst:10 8861429596a146ed97b70e74ff450775
+msgid "Imagery providers available for the search and (NEW!) ordering:"
+msgstr "可用于搜索和（新！）订购的图像提供商："
+
+#: ../userguides/imagery_search.rst:10 60c6f5dfed2747189600ef64c9823663
+msgid ""
+"Historical imagery (aggregates and provides satellite imagery from the "
+"leading satellite operators)"
+msgstr "历史图像（汇总并提供来自领先卫星运营商的卫星图像）"
+
+#: ../userguides/imagery_search.rst:14 c8a40e484a0049c0b5f02705d7ec1009
+msgid ""
+"Imagery providers supported for the account-based integration and search:"
+msgstr "支持基于帐户的集成和搜索的图像提供商："
+
+#: ../userguides/imagery_search.rst:13 79e423856b884d1fafe3febad011501f
+msgid "ArcGIS World Imagery"
+msgstr "ArcGIS 世界影像"
+
+#: ../userguides/imagery_search.rst:14 4065ce62b21d4af388a5440c1a0a8fc6
+msgid ":ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`"
+msgstr ""
+
+#: ../userguides/imagery_search.rst:17 d83667ae85e34914b0493cc0287038ee
+msgid "Read more about how to use :ref:`Imagery providers` with Mapflow."
+msgstr "阅读有关如何将图像提供程序与 Mapflow 结合使用的更多信息。"
+
+#: ../userguides/imagery_search.rst:20 0983997bc3b04d5f9f7858bb104c092a
+msgid ""
+"❗️ You need to subscribe to `Mapflow Premium <https://mapflow.ai/pricing>`_ "
+"to be able to order commercial data providers and run the analysis."
+msgstr ""
+"❗️ 您需要订阅“Mapflow Premium <https://mapflow.ai/pricing>”_才能订购商业数据提供商并运行分析。"
+
+#: ../userguides/imagery_search.rst:25 cd09332605104eb885759e3e2e6c1d0e
+msgid "Using Imagery Search in Mapflow WEB"
+msgstr "在 Mapflow WEB 中使用图像搜索"
+
+#: 1cc3adc58d954648813be848832c0b49
+msgid "Imagery search tab"
+msgstr "图像搜索选项卡"
+
+#: ../userguides/imagery_search.rst:35 9c7188f24b124916a0c5043365ffa4ba
+msgid "To start the processing using the Imagery Search data, you must:"
+msgstr "要使用图像搜索数据开始处理，您必须："
+
+#: ../userguides/imagery_search.rst:37 af077e025d484a44b2836fb1126096ed
+msgid "Select a date range or a specific date;"
+msgstr "选择日期范围或特定日期；"
+
+#: ../userguides/imagery_search.rst:38 0922756008f0466a9ac0d0831ad37f4f
+msgid "Set the search parameters (Clouds, Off-Nadir, AOI/Scene intersection);"
+msgstr "设置搜索参数（云、离最低点、AOI/场景交叉点）；"
+
+#: ../userguides/imagery_search.rst:39 bf4e46f8a45f420a9465269aa5d7cce8
+msgid "Apply provider filters:"
+msgstr "应用提供商过滤器："
+
+#: ../userguides/imagery_search.rst:41 a03914820a0143e09630af2529d492ed
+msgid "\"Mosaic\""
+msgstr "“马赛克”"
+
+#: ../userguides/imagery_search.rst:42 ba4518358b73466c8ff1c525ce15b402
+msgid "\"Image\""
+msgstr "“图像”"
+
+#: ../userguides/imagery_search.rst:43 3e8ccf57ae094c2d869c2c7b5b128b70
+msgid ""
+"\"Available for me\" - The search results will show only those providers "
+"that are connected to your account."
+msgstr "“对我可用”- 搜索结果将仅显示与您的帐户相关联的提供商。"
+
+#: ../userguides/imagery_search.rst:45 6571c46f48d6455ca247aa5b2df1fe8d
+msgid "Imagery provider types:"
+msgstr "图像提供商类型："
+
+#: ../userguides/imagery_search.rst:47 a7347f60b64d4013a7afcacec8961652
+msgid ""
+"*Mosaic* - Imagery basemaps like ArcGIS or Global mosaic allowing to search "
+"images by date and AOI/Scene intersection."
+msgstr "*马赛克* - 图像底图（例如 ArcGIS 或全局马赛克）允许按日期和 AOI/场景交集搜索图像。"
+
+#: ../userguides/imagery_search.rst:49 c19ae42e753644bd9ab45210cabda8a3
+msgid ""
+"*Image* - Satellite imagery archives allowing to search for historical "
+"images by multiple criteria including Clouds, Off-Nadir, and resolution."
+msgstr "*图像* - 卫星图像档案允许按多种标准搜索历史图像，包括云、离最低点和分辨率。"
+
+#: ../userguides/imagery_search.rst:51 876e796994c64130b3b84b3f15370990
+msgid ""
+"👉 *Available for me*  - Filters the results by the providers that are "
+"connected to your account to run the analysis with Mapflow."
+msgstr "👉 *对我可用* - 按连接到您帐户的提供商过滤结果，以使用 Mapflow 运行分析。"
+
+#: ../userguides/imagery_search.rst:53 1b327a499ac94e5aaa5d22f85445406e
+msgid ""
+"After clicking \"Search Image\", a table with search results and images "
+"footprints will appear:"
+msgstr "单击“搜索图像”后，将出现一个包含搜索结果和图像足迹的表格："
+
+#: a907ebcf60ed4d2094cdf7432de4960f
+msgid "Imagery search results"
+msgstr "图像搜索结果"
+
+#: ../userguides/imagery_search.rst:63 8fe38c714ed04513860abaae3645e886
+msgid ""
+"You can sort, enable or disable images on the map, and preview them if the "
+"provider supports this feature (The preview will be automatically shown on "
+"the map after selecting the image in the table);"
+msgstr "您可以对地图上的图像进行排序、启用或禁用，如果提供商支持此功能，还可以预览它们（在表格中选择图像后，预览将自动显示在地图上）；"
+
+#: 96f8f1d313c84daaa20884eca2187c8a
+msgid "Search table"
+msgstr "搜索表"
+
+#: ../userguides/imagery_search.rst:73 9ab810f22b6f4e4495c0bb516c068a4e
+msgid ""
+"At the final step, you need to select the desired image by clicking on it in"
+" the table and click \"Save\". Now you are ready to start processing!"
+msgstr "在最后一步，您需要通过在表中单击所需的图像来选择它，然后单击“保存”。现在您可以开始处理了！"
+
+#: ../userguides/imagery_search.rst:76 d7cb5e8314d2483a92b219224f5e2347
+msgid ""
+"👆️️️️️️ You are able to start the processing only using available providers "
+"(**\"available for me\"**). If you try to use the image from the provider "
+"that is not connected to your account, you will see the corresponding "
+"warning *\"The provider is not available for your account, you need to "
+"change the plan\"*. You need to subscribe to Mapflow Premium to be able to "
+"order commercial data providers."
+msgstr ""
+"👆️️️️️️ "
+"您只能使用可用的提供商（**“对我可用”**）开始处理。如果您尝试使用未连接到您的帐户的提供商提供的图像，您将看到相应的警告*“该提供商不适用于您的帐户，您需要更改计划”*。您需要订阅"
+" Mapflow Premium 才能订购商业数据提供商。"
+
+#: ../userguides/imagery_search.rst:82 072c271b93fd4b28852d06f0e4d62ed5
+msgid "NEW! Scheduled Search updates"
+msgstr "新的！预定搜索更新"
+
+#: ../userguides/imagery_search.rst:84 8fae4630c2454f60869d128ab5f35e45
+msgid ""
+"If you are not satisfied with the current search results or you want to get "
+"new images updates without repeating the search manually, this service will "
+"do the job."
+msgstr "如果您对当前的搜索结果不满意，或者您希望获得新的图像更新而无需手动重复搜索，则此服务可以完成这项工作。"
+
+#: ../userguides/imagery_search.rst:87 2c200f62969d4c94b465d7dd31492202
+msgid "How to create a scheduled search"
+msgstr "如何创建预定搜索"
+
+#: ../userguides/imagery_search.rst:89 31ce6f312db8464a9934f1e3b1ea48f9
+msgid ""
+"Draw or upload the areas of interest from the GeoJSON file, select all or "
+"only the necessary ones in the table. If your GeoJSON features contain the "
+"property \"name\", the AOI names will be automatically loaded into the "
+"table. You can also manually assign the aoi name in the edit mode (the "
+"\"Edit\" button in the AOI menu)."
+msgstr ""
+"从 GeoJSON 文件中绘制或上传感兴趣的区域，选择表中的全部或仅必要的区域。如果您的 GeoJSON 要素包含属性“名称”，则 AOI "
+"名称将自动加载到表中。您还可以在编辑模式下手动指定 aoi 名称（AOI 菜单中的“编辑”按钮）。"
+
+#: 1fef3c7d379a4d8e92ca53cef60b81c9
+msgid "AOI selection"
+msgstr "AOI选择"
+
+#: ../userguides/imagery_search.rst:100 8343ef9e466e4dd3bca6aa477e8d5112
+msgid ""
+"The AOI name you assign will appear in notifications about new images found "
+"for this area. To go directly to the results for this area, simply click on "
+"the notification in the app or the \"View Search results\" button in the "
+"email."
+msgstr ""
+"您分配的 AOI 名称将出现在有关为此区域找到的新图像的通知中。要直接转到该区域的结果，只需单击应用程序中的通知或电子邮件中的“查看搜索结果”按钮即可。"
+
+#: ../userguides/imagery_search.rst 008dfb267ab44ce89fed81f95eb70a3e
+#: e466e702b1d54f7193fc813213a4be96
+msgid "Search menu"
+msgstr "搜索菜单"
+
+#: ../userguides/imagery_search.rst:109 ddacbe07c07b489a81eb046100e88efa
+msgid "Set the required search criteria and click \"Search Imagery\""
+msgstr "设置所需的搜索条件并单击“搜索图像”"
+
+#: 594f2960dbcb49f0a9569f278efa4b2d
+msgid "Search params"
+msgstr "搜索参数"
+
+#: ../userguides/imagery_search.rst:120 0ec8330ba4dd46708a077d259a9cedee
+msgid ""
+"If the total area of your search area exceeds 700 km², when you click on "
+"\"Search Imagery\" instead of an immediate search, you will be prompted to "
+"create a postponed background search."
+msgstr "如果您的搜索区域总面积超过 700 平方公里，当您单击“搜索图像”而不是立即搜索时，系统会提示您创建推迟的后台搜索。"
+
+#: ../userguides/imagery_search.rst:127 2d6d957989844230b47b633d69e7e902
+msgid ""
+"After that, the search results will appear and the \"Save as schedule\" "
+"button will be available"
+msgstr "之后，将出现搜索结果，并且“另存为计划”按钮将可用"
+
+#: 1fef3c7d379a4d8e92ca53cef60b81c9
+msgid "Search save button"
+msgstr "搜索保存按钮"
+
+#: ../userguides/imagery_search.rst:137 60c6aaa76e1e493aa7260e209781ed2e
+msgid ""
+"When you click on it, you will be prompted to choose the name of this search"
+" schedule"
+msgstr "当您点击它时，系统将提示您选择此搜索计划的名称"
+
+#: 21f1f34c0641410ea41865e384ea6204
+msgid "Search schedule button"
+msgstr "搜索日程按钮"
+
+#: ../userguides/imagery_search.rst:147 bac87266ab1e4e928f134a813cd1e9c5
+msgid ""
+"After creation the search will complete after a while and the search results"
+" will be available to you using \"View on the map\" button"
+msgstr "创建后，搜索将在一段时间后完成，您可以使用“在地图上查看”按钮查看搜索结果"
+
+#: 93ff0757db354bdd82777c77e5b281b3
+msgid "Search view button"
+msgstr "搜索视图按钮"
+
+#: ../userguides/imagery_search.rst:158 cc767a314214408a93c348bd13747a7e
+msgid "Viewing background search results"
+msgstr "查看后台搜索结果"
+
+#: ../userguides/imagery_search.rst:160 62b0f270d5974a1ba3ae5faccf7f7bb5
+msgid "alert"
+msgstr "警报"
+
+#: ../userguides/imagery_search.rst:165 7898a05a4beb426ab62d6b5c84189536
+msgid ""
+"Now a background search will be launched in Mapflow and you will be notified"
+" when new images arrive."
+msgstr "现在，Mapflow 中将启动后台搜索，新图像到达时您将收到通知。"
+
+#: ../userguides/imagery_search.rst:173 5f0be6675120460fbd5643c2a5371c7e
+msgid "Search new images"
+msgstr "搜索新图像"
+
+#: ../userguides/imagery_search.rst:173 c85a3b2482844b51bcfeb23eac3c4294
+msgid ""
+"The search card shows the label |alert| of the **new image** found. Clicking"
+" on an image in the results table will remove the label."
+msgstr "搜索卡显示标签 |alert|找到的**新图像**。单击结果表中的图像将删除标签。"
+
+#: ../userguides/imagery_search.rst:176 484ef1b1812642fd8f53921fbbbc5c5f
+msgid "**Two key points on viewing results:**"
+msgstr "**查看结果的两个关键点：**"
+
+#: ../userguides/imagery_search.rst:178 4f2f968c4e4a496eae55faab523a0e89
+msgid ""
+"When opening the search, you will see **all** results found for the given "
+"area(s)"
+msgstr "打开搜索时，您将看到给定区域找到的**所有**结果"
+
+#: ../userguides/imagery_search.rst:179 d4925f21926a4cbda03524dcd9f958c1
+msgid ""
+"If your search consists of multiple AOIs and you're interested in specific "
+"ones, you can select them in the \"Upload GeoJSON or GeoTIFF file...\" "
+"section → Now results will only be displayed for the selected AOIs. Also, "
+"you can select/deselect AOI by clicking on the map, the results table will "
+"be updated automatically."
+msgstr ""
+"如果您的搜索由多个 AOI 组成，并且您对特定的 AOI 感兴趣，则可以在“上传 GeoJSON 或 GeoTIFF 文件...”部分中选择它们 → "
+"现在，将仅显示所选 AOI 的结果。另外，您可以通过单击地图来选择/取消选择 AOI，结果表将自动更新。"
+
+#: ../userguides/imagery_search.rst:183 2c200f62969d4c94b465d7dd31492202
+msgid "Processings <> Scheduled Search"
+msgstr "处理中 <> 预定搜索"
+
+#: ../userguides/imagery_search.rst:185 645872b5498349bdbb293b0a257b0512
+msgid ""
+"Processing is launched in the same way as from :ref:`instant search "
+"<imagery-search-web>`:"
+msgstr "处理的启动方式与即时搜索 <imagery-search-web>` 相同："
+
+#: ../userguides/imagery_search.rst:187 2c200f62969d4c94b465d7dd31492202
+msgid "Open a scheduled search"
+msgstr "打开预定搜索"
+
+#: ../userguides/imagery_search.rst:188 ddacbe07c07b489a81eb046100e88efa
+msgid "Select the desired image and click \"Save\""
+msgstr "选择所需的图像并单击“保存”"
+
+#: ../userguides/imagery_search.rst:189 0922756008f0466a9ac0d0831ad37f4f
+msgid "Select the necessary parameters and start the processing!"
+msgstr "选择必要的参数并开始加工！"
+
+#: ../userguides/imagery_search.rst:191 fd219bf48918433d8a71205a5e594ff4
+msgid ""
+"All processing launched from a search is linked to it. You can find them in "
+"the search's AOI table. Simply select the necessary ones on the map, and "
+"they will all be displayed on one map."
+msgstr "从搜索启动的所有处理都与其链接。您可以在搜索的 AOI 表中找到它们。只需在地图上选择需要的，它们就会全部显示在一张地图上。"
+
+#: ../userguides/imagery_search.rst:201 60c6aaa76e1e493aa7260e209781ed2e
+msgid ""
+"Some actions you can perform with processing from the search AOI table:"
+msgstr "您可以通过搜索 AOI 表中的处理来执行一些操作："
+
+#: ../userguides/imagery_search.rst:203 9c7188f24b124916a0c5043365ffa4ba
+msgid "Open this processing in a new tab"
+msgstr "在新选项卡中打开此处理"
+
+#: ../userguides/imagery_search.rst:204 5fde82c24ef24cd095d260d977ac4dc9
+msgid "Download processing boundaries"
+msgstr "下载处理边界"
+
+#: ../userguides/imagery_search.rst:205 45ba8084e97e45b78ba250724466f09d
+msgid ""
+"Clip the search AOI to the boundary of its processing (\"Stop this area\" "
+"button)"
+msgstr "将搜索 AOI 剪辑到其处理的边界（“停止此区域”按钮）"
+
+#: ../userguides/imagery_search.rst:207 bbc2c22696824033bcd26efe0f2ba1d2
+msgid ""
+"Last one can be useful if you are already satisfied with the processed part "
+"of the AOI and do not want to see it in the search results (the trimmed part"
+" will no longer be used in the background search)."
+msgstr "如果您已经对 AOI 的处理部分感到满意​​并且不想在搜索结果中看到它（修剪后的部分将不再在后台搜索中使用），那么最后一个可能会很有用。"
+
+#: ../userguides/imagery_search.rst:219 1beb9845f02545af95d3f1653c40d7de
+msgid "Main operations with Scheduled Search"
+msgstr "预定搜索的主要操作"
+
+#: ../userguides/imagery_search.rst:229 43291a06481b4ef186d9bf9c4e8d1161
+msgid ""
+"**Source details** - Here you can view and download the geometry of your "
+"search"
+msgstr "**来源详细信息** - 在这里您可以查看和下载搜索的几何形状"
+
+#: ../userguides/imagery_search.rst:230 2bdc901e45d74cb199a2073eb2d843d1
+msgid ""
+"**Mark all as seen** - If you have a lot of unread images, you can mark them"
+" as viewed all at once"
+msgstr "**全部标记为已查看** - 如果您有大量未读图像，您可以将它们一次性标记为已查看"
+
+#: ../userguides/imagery_search.rst:231 353abfda82f24b0bbca80ebe66c103b1
+msgid ""
+"**Set Active Until** - You can change the lifetime of the background search "
+"(6 months by default at creation)"
+msgstr "**设置活动直到** - 您可以更改后台搜索的生命周期（创建时默认为 6 个月）"
+
+#: ../userguides/imagery_search.rst:239 830061a8508d44f58c5f1838880e2f34
+msgid "Search Active Until"
+msgstr "搜索活动截止时间"
+
+#: ../userguides/imagery_search.rst:239 9a3c68ac71564d2087df949f9d02d247
+msgid "After expired, the Search will not be deleted, but paused"
+msgstr "过期后，搜索不会被删除，而是暂停"
+
+#: ../userguides/imagery_search.rst:241 6faab810a1164168b6269888aa8fd81a
+msgid ""
+"**Pause/Resume Search** - The pause means that it will stop the background "
+"search, but you can still view its results"
+msgstr "**暂停/恢复搜索** - 暂停意味着它将停止后台搜索，但您仍然可以查看其结果"
+
+#: ../userguides/imagery_search.rst:242 9d3fd05c8e2d443690593f538ac3d025
+msgid "**Delete** - Permanently deletes the search"
+msgstr "**删除** - 永久删除搜索"
+
+#: ../userguides/imagery_search.rst:245 ce726f29b2af48c9a69f9942573db764
+msgid "Modifying the AOI search"
+msgstr "修改 AOI 搜索"
+
+#: ../userguides/imagery_search.rst:247 9bdc0838821f47459ee157b4a9f40488
+msgid ""
+"You can add a new AOI to an existing search, modify the geometry, or delete "
+"areas that have already been processed. After any AOI changes, you will need"
+" to confirm these changes. The search will be updated, and the **results "
+"will be synchronized** accordingly."
+msgstr ""
+"您可以将新的 AOI 添加到现有搜索、修改几何图形或删除已处理的区域。任何 AOI 更改后，您需要确认这些更改。搜索将更新，**结果将相应同步**。"
+
+#: 008dfb267ab44ce89fed81f95eb70a3e
+msgid "Update template"
+msgstr "更新模板"
+
+#: ../userguides/imagery_search.rst:257 4c4d483469c94a339afd2ca834266851
+msgid "**You can also change the search criteria for the existing search:**"
+msgstr "**您还可以更改现有搜索的搜索条件：**"
+
+#: ../userguides/imagery_search.rst:259 c868f17f72c444afa817157b2673211e
+msgid ""
+"\"View on the map\" → Adjust the search parameters → \"Search Imagery\" → "
+"\"Save as schedule\". Now the background search will work according to the "
+"new parameters."
+msgstr "“在地图上查看”→调整搜索参数→“搜索图像”→“另存为计划”。现在后台搜索将根据新参数进行工作。"
+
+#: ../userguides/imagery_search.rst:270 9889c1b0e51844e983b4ef6103d3c6dc
+msgid "Using Mapflow Imagery Search in QGIS"
+msgstr "在 QGIS 中使用 Mapflow 图像搜索"
+
+#: ../userguides/imagery_search.rst:272 8c257c760f3649c5a7a0956f47754228
+msgid ""
+"Switch to the tab \"Imagery Search\". To start the search, set the dates and"
+" the product type filters (\"Mosaic\" – Imagery basemaps like ArcGIS or "
+"Global mosaic and/or \"Images\" - Satellite imagery archives)"
+msgstr ""
+"切换到“图像搜索”选项卡。要开始搜索，请设置日期和产品类型过滤器（“马赛克”- 影像底图，如 ArcGIS 或全球马赛克和/或“图像”- 卫星影像档案）"
+
+#: ../userguides/imagery_search.rst:273 88378337bfa749bca7e867ac9e5a54c8
+msgid ""
+"Set additional filters like a minimum intersection with your area of "
+"analysis."
+msgstr "设置额外的过滤器，例如与分析区域的最小交集。"
+
+#: ../userguides/imagery_search.rst:274 3b732c8d96034cc2908445f4ecf5b8b8
+msgid ""
+"If there is non-empty response, it will add the **🔎 Imagery Search "
+"metadata** layer to your QGIS project. You can select one or multiple "
+"results in the table - or use the layer's attribute table to start the "
+"analysis and processing with Mapflow models."
+msgstr ""
+"如果有非空响应，它将添加 **🔎 Imagery Search 元数据** 图层到您的 QGIS 项目。您可以在表中选择一个或多个结果 - "
+"或使用图层的属性表开始使用 Mapflow 模型进行分析和处理。"
+
+#: ../userguides/imagery_search.rst:283 9ccd513e442f4fb59dd97a0ed174afbb
+msgid ""
+"In the Arcgis search results you see the zoom level at which the mosaic is "
+"available over you area. You can configure the table columns in the "
+"Settings."
+msgstr "在 Arcgis 搜索结果中，您可以看到您所在区域的马赛克可用的缩放级别。您可以在“设置”中配置表格列。"
+
+#: ../userguides/imagery_search.rst:293 9ce3bf51eb7f48a2a2b9a584035f0cbd
+msgid ""
+"👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery "
+"Search in Mapflow Web and QGIS plugin."
+msgstr "👉 有关如何在 Mapflow Web 和 QGIS 插件中使用图像搜索的更多信息，请参阅:ref:`Mapflow <> QGIS`。"

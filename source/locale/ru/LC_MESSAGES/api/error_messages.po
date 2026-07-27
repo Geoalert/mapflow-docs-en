@@ -11,60 +11,65 @@ msgstr ""
 "POT-Creation-Date: 2024-10-21 20:32+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.13.0\n"
 
 #: ../../source/api/error_messages.rst:4
 msgid "Error messages in API"
-msgstr ""
+msgstr "Сообщения об ошибках в API"
 
 #: ../../source/api/error_messages.rst:7
 msgid ""
-"List of messages and params that can be found in the ``messages`` section"
-" in case of the failed processings"
+"List of messages and params that can be found in the ``messages`` section in"
+" case of the failed processings"
 msgstr ""
+"Список сообщений и параметров, которые можно найти в разделе «сообщения» в "
+"случае неудачной обработки."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Error code"
-msgstr ""
+msgstr "Код ошибки"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Parameters"
-msgstr ""
+msgstr "Параметры"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlMustBeString"
-msgstr ""
+msgstr "источник-валидатор.UrlMustBeString"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "url_type"
-msgstr ""
+msgstr "тип_url_type"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Key ‘url’ in your request must be a string, got {url_type} instead."
 msgstr ""
+"Ключ «url» в вашем запросе должен быть строкой, вместо него используется "
+"{url_type}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlMustBeLink"
-msgstr ""
+msgstr "источник-валидатор.UrlMustBeLink"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Your URL must be a link starting with “http://” or “https://”."
 msgstr ""
+"Ваш URL-адрес должен представлять собой ссылку, начинающуюся с «http://» или"
+" «https://»."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlFormatInvalid"
-msgstr ""
+msgstr "источник-validator.UrlFormatInvalid"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "parse_error_message"
@@ -75,111 +80,119 @@ msgid ""
 "Format of ‘url’ is invalid and cannot be parsed. Error: "
 "{parse_error_message}"
 msgstr ""
+"Формат URL-адреса недействителен и не может быть проанализирован. Ошибка: "
+"{parse_error_message}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ZoomMustBeInteger"
-msgstr ""
+msgstr "источник-валидатор.ZoomMustBeInteger"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_zoom"
-msgstr ""
+msgstr "актуальный_зум"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be either empty, or integer, got {actual_zoom}"
 msgstr ""
+"Масштаб должен быть либо пустым, либо целым числом, получено {actual_zoom}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.InvalidZoomValue"
-msgstr ""
+msgstr "источник-валидатор.InvalidZoomValue"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_zoom}"
-msgstr ""
+msgstr "фактическое_зум}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be between 0 and 22, got {actual_zoom}"
-msgstr ""
+msgstr "Масштаб должен быть от 0 до 22, получен {actual_zoom}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TooHighZoom"
-msgstr ""
+msgstr "источник-валидатор.TooHighZoom"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "max_zoom, actual_zoom"
-msgstr ""
+msgstr "макс_зум, фактический_зум"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be not higher than {max_zoom}, got {actual_zoom}"
-msgstr ""
+msgstr "Масштаб должен быть не выше {max_zoom}, получено {actual_zoom}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TooLowZoom"
-msgstr ""
+msgstr "источник-валидатор.TooLowZoom"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "min_zoom, actual_zoom"
-msgstr ""
+msgstr "мин_увеличение, фактическое_увеличение"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Zoom must be not lower than {min_zoom}, got {actual_zoom}"
-msgstr ""
+msgstr "Масштаб должен быть не ниже {min_zoom}, получено {actual_zoom}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UrlBlacklisted"
-msgstr ""
+msgstr "источник-валидатор.UrlBlacklisted"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "url"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"The specified basemap {url} is forbidden for processing because it "
-"contains a map, not satellite image. Our models are suited for satellite "
-"imagery."
+"The specified basemap {url} is forbidden for processing because it contains "
+"a map, not satellite image. Our models are suited for satellite imagery."
 msgstr ""
+"Указанная базовая карта {url} запрещена к обработке, поскольку содержит "
+"карту, а не спутниковое изображение. Наши модели подходят для спутниковых "
+"снимков."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageMetadataMustBeDict"
-msgstr ""
+msgstr "источник-валидатор.ImageMetadataMustBeDict"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Image metadata must be a dict (json)"
-msgstr ""
+msgstr "Метаданные изображения должны быть в формате dict (json)."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageMetadataKeyError"
-msgstr ""
+msgstr "источник-валидатор.ImageMetadataKeyError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Image metadata must have keys: crs, transform, dtype, count"
 msgstr ""
+"Метаданные изображения должны иметь ключи: crs, Transform, dtype, count."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.S3URLError"
-msgstr ""
+msgstr "источник-валидатор.S3URLError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_s3_link"
-msgstr ""
+msgstr "фактическая_s3_ссылка"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "URL of the image at s3 storage must be a string starting with s3://, got "
 "{actual_s3_link}"
 msgstr ""
+"URL-адрес изображения в хранилище s3 должен представлять собой строку, "
+"начинающуюся с s3://, полученную {actual_s3_link}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.LocalRequestKeyError"
-msgstr ""
+msgstr "источник-валидатор.LocalRequestKeyError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Request must contain either ‘profile’ or ‘url’ keys"
-msgstr ""
+msgstr "Запрос должен содержать ключи «профиль» или «url»."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ReadFromS3Failed"
-msgstr ""
+msgstr "источник-валидатор.ReadFromS3Failed"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "s3_link"
@@ -187,288 +200,326 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Failed to read file from {s3_link}."
-msgstr ""
+msgstr "Не удалось прочитать файл из {s3_link}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageReadError"
-msgstr ""
+msgstr "источник-валидатор.ImageReadError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "We could not open and read the image you have uploaded"
-msgstr ""
+msgstr "Нам не удалось открыть и прочитать загруженное вами изображение."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.BadImageProfile"
-msgstr ""
+msgstr "источник-валидатор.BadImageProfile"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "profile, required_keys"
-msgstr ""
+msgstr "профиль, требуемые_ключи"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Image profile (metadata) must have keys {required_keys}, got profile "
 "{profile}"
 msgstr ""
+"Профиль изображения (метаданные) должен иметь ключи {required_keys}, получен"
+" профиль {profile}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.DtypeNotAllowed"
-msgstr ""
+msgstr "источник-валидатор.DtypeNotAllowed"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "required_dtypes, request_dtype"
-msgstr ""
+msgstr "требуемые_dtypes, request_dtype"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Image data type (Dtype) must be one of {required_dtypes}, got "
 "{request_dtype}"
 msgstr ""
+"Тип данных изображения (Dtype) должен быть одним из {required_dtypes}, "
+"получен {request_dtype}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.NChannelsNotAllowed"
-msgstr ""
+msgstr "источник-валидатор.NChannelsNotAllowed"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "required_nchannels, real_nchannels"
-msgstr ""
+msgstr "требуемые_nканалы, реальные_nканалы"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Number of channels in image must be one of {required_nchannels}. Got "
 "{real_nchannels}"
 msgstr ""
+"Количество каналов в изображении должно быть одним из {required_nchannels}. "
+"Есть {real_nchannels}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.PixelSizeTooLow"
-msgstr ""
+msgstr "источник-валидатор.PixelSizeTooLow"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_res, min_res"
-msgstr ""
+msgstr "фактическое_разрешение, мин_раз"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Spatial resolution of you image is too low: pixel size is {actual_res}, "
 "minimum allowed pixel size is {min_res}"
 msgstr ""
+"Пространственное разрешение вашего изображения слишком низкое: размер "
+"пикселя – {actual_res}, минимально допустимый размер пикселя – {min_res}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.PixelSizeTooHigh"
-msgstr ""
+msgstr "источник-валидатор.PixelSizeTooHigh"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_res, max_res"
-msgstr ""
+msgstr "фактическое_разрешение, максимальное_разрешение"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Spatial resolution of you image is too high: pixel size is {actual_res}, "
 "maximum allowed pixel size is {max_res}"
 msgstr ""
+"Пространственное разрешение вашего изображения слишком велико: размер "
+"пикселя – {actual_res}, максимально допустимый размер пикселя – {max_res}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.ImageCheckError"
-msgstr ""
+msgstr "источник-валидатор.ImageCheckError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "checked_param, message, metadata"
-msgstr ""
+msgstr "проверенный_параметр, сообщение, метаданные"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Error occurred during image {checked_param} check: {message}. Image "
-"metadata = {metadata}."
+"Error occurred during image {checked_param} check: {message}. Image metadata"
+" = {metadata}."
 msgstr ""
+"Произошла ошибка во время проверки изображения {checked_param}: {message}. "
+"Метаданные изображения = {метаданные}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.QuadkeyLinkFormatError"
-msgstr ""
+msgstr "источник-валидатор.QuadkeyLinkFormatError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Your ‘url’ doesn’t match the format, Quadkey basemap must be a link "
 "containing “q” placeholder."
 msgstr ""
+"Ваш URL-адрес не соответствует формату. Базовая карта Quadkey должна "
+"представлять собой ссылку, содержащую заполнитель «q»."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SentinelInputStringKeyError"
-msgstr ""
+msgstr "источник-валидатор.SentinelInputStringKeyError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Sentinel_L2A request must contain field named ‘url’ with string value"
 msgstr ""
+"Запрос Sentinel_L2A должен содержать поле с именем «url» со ​​строковым "
+"значением."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SentinelInputStringFormatError"
-msgstr ""
+msgstr "источник-валидатор.SentinelInputStringFormatError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "input_string"
-msgstr ""
+msgstr "входная_строка"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Input string {input_string} is of unknown format. It must represent "
 "Sentinel-2 granule ID"
 msgstr ""
+"Входная строка {input_string} имеет неизвестный формат. Он должен "
+"представлять идентификатор гранулы Sentinel-2."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.GridCellOutOfBound"
-msgstr ""
+msgstr "источник-валидатор.GridCellOutOfBound"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_cell, allowed_cells"
-msgstr ""
+msgstr "фактическая_ячейка, разрешенные_ячейки"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Selected Sentinel-2 image cell is {actual_cell}, this model is for the "
 "cells: {allowed_cells}"
 msgstr ""
+"Выбранная ячейка изображения Sentinel-2 — {actual_cell}, эта модель "
+"предназначена для ячеек: {allowed_cells}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.AOINotInCell"
-msgstr ""
+msgstr "источник-валидатор.AOINotInCell"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_cell"
-msgstr ""
+msgstr "фактическая_ячейка"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "AOI does not intersect the selected Sentinel-2 granule {actual_cell}"
-msgstr ""
+msgstr "АОИ не пересекает выбранную гранулу Sentinel-2 {actual_cell}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.MonthOutOfBounds"
-msgstr ""
+msgstr "источник-валидатор.MonthOutOfBounds"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "actual_month, allowed_months"
-msgstr ""
+msgstr "фактический_месяц, разрешенные_месяцы"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Selected Sentinel-2 image month is {actual_month}, this model is for: "
 "{allowed_months}"
 msgstr ""
+"Выбран месяц изображения Sentinel-2: {actual_month}, эта модель "
+"предназначена для: {allowed_months}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TMSLinkFormatError"
-msgstr ""
+msgstr "источник-валидатор.TMSLinkFormatError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "You request TMS basemap link doesn’t match the format, it must be a link "
-"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start "
-"processing again."
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start processing"
+" again."
 msgstr ""
+"Вы запрашиваете ссылку на базовую карту TMS, которая не соответствует "
+"формату. Это должна быть ссылка, содержащая заполнители «{x}», «{y}», «{z}»,"
+" исправьте ее и начните обработку заново."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequirementsMustBeDict"
-msgstr ""
+msgstr "источник-валидатор.RequirementsMustBeDict"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "requirements_type"
-msgstr ""
+msgstr "требования_тип"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Requirements must be dict, got {requirements_type}."
-msgstr ""
+msgstr "Требования должны быть заданы, иметь {requirements_type}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequestMustBeDict"
-msgstr ""
+msgstr "источник-валидатор.RequestMustBeDict"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "request_type"
-msgstr ""
+msgstr "тип_запроса"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Request must be dict, got {request_type}."
-msgstr ""
+msgstr "Запрос должен быть dict, получен {request_type}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequestMustHaveSourceType"
-msgstr ""
+msgstr "источник-валидатор.RequestMustHaveSourceType"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "Request must contain \"source_type\" key"
-msgstr ""
+msgstr "Запрос должен содержать ключ «source_type»."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.SourceTypeIsNotAllowed"
-msgstr ""
+msgstr "источник-валидатор.SourceTypeIsNotAllowed"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source_type, allowed_sources"
-msgstr ""
+msgstr "тип_источника, разрешенные_источники"
 
 #: ../../source/api/_static/csv/errors.csv:1
-msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgid ""
+"Source type {source_type} is not allowed. Use one of: {allowed_sources}"
 msgstr ""
+"Тип источника {source_type} не разрешен. Используйте один из: "
+"{allowed_sources}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RequiredSectionMustBeDict"
-msgstr ""
+msgstr "источник-валидатор.RequiredSectionMustBeDict"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "required_section_type"
-msgstr ""
+msgstr "требуемый_раздел_тип"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "“Required” section of the requirements must contain dict, not "
 "{required_section_type}"
 msgstr ""
+"«Обязательный» раздел требований должен содержать dict, а не "
+"{required_section_type}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.RecommendedSectionMustBeDict"
-msgstr ""
+msgstr "источник-валидатор.RecommendedSectionMustBeDict"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "recommended_section_type"
-msgstr ""
+msgstr "рекомендуемый_раздел_тип"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "“Recommended” section of the requirements must contain dict, not "
 "{recommended_section_type}"
 msgstr ""
+"«Рекомендуемый» раздел требований должен содержать dict, а не "
+"{recommended_section_type}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.XYZLinkFormatError"
-msgstr ""
+msgstr "источник-валидатор.XYZLinkFormatError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"You XYZ basemap link doesn’t match the format, it must be a link "
-"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
+"You XYZ basemap link doesn’t match the format, it must be a link containing "
+"‘{x}’, ‘{y}’, ‘{z}’ placeholders."
 msgstr ""
+"Ваша ссылка на базовую карту XYZ не соответствует формату. Это должна быть "
+"ссылка, содержащая заполнители «{x}», «{y}», «{z}»."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.TaskMustContainAoi"
-msgstr ""
+msgstr "источник-валидатор.TaskMustContainAoi"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Task for source-validation must contain area of interest (‘geometry’ "
 "section)"
 msgstr ""
+"Задание на проверку источника должно содержать интересующую область (раздел "
+"«геометрия»)."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.UnhandledException"
-msgstr ""
+msgstr "источник-валидатор.UnhandledException"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Internal error in process of data source validation. We are working on "
-"the fix, our support will contact you."
+"Internal error in process of data source validation. We are working on the "
+"fix, our support will contact you."
 msgstr ""
+"Внутренняя ошибка в процессе проверки источника данных. Мы работаем над "
+"исправлением, наша поддержка свяжется с вами."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "source-validator.internalError"
-msgstr ""
+msgstr "источник-validator.internalError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.internalError"
@@ -476,9 +527,11 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Internal error in process of loading data. We are working on the fix, our"
-" support will contact you."
+"Internal error in process of loading data. We are working on the fix, our "
+"support will contact you."
 msgstr ""
+"Внутренняя ошибка в процессе загрузки данных. Мы работаем над исправлением, "
+"наша поддержка свяжется с вами."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.InternalError"
@@ -490,13 +543,15 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "allowed_source_types, real_source_types"
-msgstr ""
+msgstr "разрешенные_типы_источников, реальные_типы_источников"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Wrong source type {real_source_type}. Specify one of the allowed types "
 "{allowed_source_types}."
 msgstr ""
+"Неправильный тип источника {real_source_type}. Укажите один из разрешенных "
+"типов {allowed_source_types}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.MemoryLimitExceeded"
@@ -504,13 +559,15 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "allowed_size, estimated_size"
-msgstr ""
+msgstr "разрешенный_размер, предполагаемый_размер"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Your data loading task requires {estimated_size} MB of memory, which "
 "exceeded allowed memory limit {allowed_size}"
 msgstr ""
+"Для вашей задачи загрузки данных требуется {estimated_size} МБ памяти, что "
+"превышает допустимый предел памяти {allowed_size}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.LoaderArgsError"
@@ -518,13 +575,15 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "argument_name, argument_type, expected_type"
-msgstr ""
+msgstr "имя_аргумента, тип_аргумента, ожидаемый_тип"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Dataloader argument {argument_name} has type {argument_type}, excpected "
-"to be {expected_type}"
+"Dataloader argument {argument_name} has type {argument_type}, excpected to "
+"be {expected_type}"
 msgstr ""
+"Аргумент загрузчика данных {argument_name} имеет тип {argument_type}, "
+"ожидается {expected_type}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.WrongChannelsNum"
@@ -532,13 +591,15 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "expected_nchannels, real_nchannels"
-msgstr ""
+msgstr "ожидаемые_nканалы, реальные_nканалы"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Loaded tile has {real_nchannels} channels, required number is "
 "{expected_nchannels}"
 msgstr ""
+"Загруженная плитка содержит каналы: {real_nchannels}, необходимое "
+"количество: {expected_nchannels}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.WrongTileSize"
@@ -546,11 +607,14 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "expected_size, real_size"
-msgstr ""
+msgstr "ожидаемый_размер, реальный_размер"
 
 #: ../../source/api/_static/csv/errors.csv:1
-msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgid ""
+"Loaded tile has size {real_size}, expected tile size is {expected_size}"
 msgstr ""
+"Загруженный фрагмент имеет размер {real_size}, ожидаемый размер — "
+"{expected_size}."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.TileNotLoaded"
@@ -558,13 +622,15 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "tile_location, status"
-msgstr ""
+msgstr "tile_location, статус"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
 "Tile at location {tile_location} cannot be loaded, server response is "
 "{status}"
 msgstr ""
+"Плитка в местоположении {tile_location} не может быть загружена, ответ "
+"сервера: {status}"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "dataloader.CrsIsNotSupported"
@@ -580,44 +646,45 @@ msgstr ""
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "raster-processor.internalError"
-msgstr ""
+msgstr "растровый-процессор.internalError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Internal error in process of data preparation. We are working on the fix,"
-" our support will contact you."
+"Internal error in process of data preparation. We are working on the fix, "
+"our support will contact you."
 msgstr ""
+"Внутренняя ошибка в процессе подготовки данных. Мы работаем над "
+"исправлением, наша поддержка свяжется с вами."
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "inference.internalError"
-msgstr ""
+msgstr "вывод.internalError"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid ""
-"Internal error in process of data processing. We are working on the fix, "
-"our support will contact you"
+"Internal error in process of data processing. We are working on the fix, our"
+" support will contact you"
 msgstr ""
+"Внутренняя ошибка в процессе обработки данных. Мы работаем над исправлением,"
+" наша поддержка свяжется с вами"
 
 #: ../../source/api/_static/csv/errors.csv:1
 msgid "vector-processor.internalError"
-msgstr ""
+msgstr "вектор-процессор.internalError"
 
 #~ msgid ""
-#~ "Image profile (metadata) must have keys"
-#~ " {required_keys}, got profile {profile }"
+#~ "Image profile (metadata) must have keys {required_keys}, got profile "
+#~ "{profile }"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Spatial resolution of you image is "
-#~ "too low: pixel size is {actual_res}, "
+#~ "Spatial resolution of you image is too low: pixel size is {actual_res}, "
 #~ "maximum allowed pixel size is {max_res}"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "List of messages and parameters that "
-#~ "can be found in the `messages` "
-#~ "section in case of the failed "
-#~ "processings."
+#~ "List of messages and parameters that can be found in the `messages` section "
+#~ "in case of the failed processings."
 #~ msgstr ""
 
 #~ msgid "Key 'url' in your request must be a string, got {url_type} instead."
@@ -627,8 +694,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Format of 'url' is invalid and "
-#~ "cannot be parsed. Error: {parse_error_message}"
+#~ "Format of 'url' is invalid and cannot be parsed. Error: "
+#~ "{parse_error_message}"
 #~ msgstr ""
 
 #~ msgid "min_zoom,  actual_zoom"
@@ -638,8 +705,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Your 'url' doesn't match the format, "
-#~ "Quadkey basemap must be a link "
+#~ "Your 'url' doesn't match the format, Quadkey basemap must be a link "
 #~ "containing \"q\" placeholder."
 #~ msgstr ""
 
@@ -647,35 +713,30 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "You request TMS basemap link doesn't "
-#~ "match the format, it must be a "
-#~ "link containing '{x}', '{y}', '{z}' "
-#~ "placeholders, correct it and start "
-#~ "processing again."
+#~ "You request TMS basemap link doesn't match the format, it must be a link "
+#~ "containing '{x}', '{y}', '{z}' placeholders, correct it and start processing"
+#~ " again."
 #~ msgstr ""
 
 #~ msgid "Request must contain \\\"source_type\\\" key"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "\"Required\" section of the requirements "
-#~ "must contain dict, not {required_section_type}"
+#~ "\"Required\" section of the requirements must contain dict, not "
+#~ "{required_section_type}"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "\"Recommended\" section of the requirements"
-#~ " must contain dict, not "
+#~ "\"Recommended\" section of the requirements must contain dict, not "
 #~ "{recommended_section_type}"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "You XYZ basemap link doesn't match "
-#~ "the format, it must be a link "
-#~ "containing '{x}', '{y}', '{z}' placeholders."
+#~ "You XYZ basemap link doesn't match the format, it must be a link containing "
+#~ "'{x}', '{y}', '{z}' placeholders."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Task for source-validation must contain"
-#~ " area of interest ('geometry' section)"
+#~ "Task for source-validation must contain area of interest ('geometry' "
+#~ "section)"
 #~ msgstr ""
-

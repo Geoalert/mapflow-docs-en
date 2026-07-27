@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow \n"
+"Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-15 17:17+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,114 +19,143 @@ msgstr ""
 
 #: ../../source/kepler/kepler.rst:2
 msgid "How to view results using Kepler.gl"
-msgstr ""
+msgstr "Как просмотреть результаты с помощью Kepler.gl"
 
 #: ../../source/kepler/kepler.rst:4
 msgid ""
-"**Kepler.gl** is an open source tool designed for geospatial data "
-"analysis. It is a simple yet powerful for displaying and exploring "
-"geodatasets."
+"**Kepler.gl** is an open source tool designed for geospatial data analysis. "
+"It is a simple yet powerful for displaying and exploring geodatasets."
 msgstr ""
+"**Kepler.gl** — это инструмент с открытым исходным кодом, предназначенный "
+"для анализа геопространственных данных. Это простой, но мощный инструмент "
+"для отображения и изучения наборов геоданных."
 
 #: ../../source/kepler/kepler.rst:6
 msgid ""
 "To view the processing results in the Mapflow, select the required "
 "processing and press the button *\"Open in kepler.gl\"*."
 msgstr ""
+"Чтобы просмотреть результаты обработки в Mapflow, выберите нужную обработку "
+"и нажмите кнопку *\"Открыть в kepler.gl\"*."
 
 #: ../../source/kepler/kepler.rst:9
 msgid ""
 "You can share your processing view in Kepler by copying this URL (right "
 "click on *\"Open in kepler.gl\"* --> Copy Link Address)"
 msgstr ""
+"Вы можете поделиться своим представлением обработки в Kepler, скопировав "
+"этот URL-адрес (щелкните правой кнопкой мыши * «Открыть в kepler.gl» * -> "
+"Копировать адрес ссылки)."
 
 #: ../../source/kepler/kepler.rst:11
 msgid ""
-"Using the Kepler you can change the visual properties of data, set "
-"filters, and choose a background map."
+"Using the Kepler you can change the visual properties of data, set filters, "
+"and choose a background map."
 msgstr ""
+"С помощью Кеплера вы можете изменять визуальные свойства данных, "
+"устанавливать фильтры и выбирать фоновую карту."
 
 #: ../../source/kepler/kepler.rst:15
 msgid "Layers tab"
-msgstr ""
+msgstr "Вкладка «Слои»"
 
 #: ../../source/kepler/kepler.rst:17
 msgid ""
-"Click on the layer name to bring up the *Layer settings* from the drop-"
-"down menu. To hide all data, click on the *eye* icon."
+"Click on the layer name to bring up the *Layer settings* from the drop-down "
+"menu. To hide all data, click on the *eye* icon."
 msgstr ""
+"Нажмите на имя слоя, чтобы открыть *Настройки слоя* из раскрывающегося меню."
+" Чтобы скрыть все данные, нажмите на значок *глаза*."
 
 msgid "View layer settings"
-msgstr ""
+msgstr "Просмотр настроек слоя"
 
 #: ../../source/kepler/kepler.rst:25
-msgid "These settings allow you to choose a more suitable type of received data:"
+msgid ""
+"These settings allow you to choose a more suitable type of received data:"
 msgstr ""
+"Эти настройки позволяют выбрать более подходящий тип получаемых данных:"
 
 #: ../../source/kepler/kepler.rst:28
 msgid ""
-"*Fill color.* You can choose any color from the palette for polygons, and"
-" also hide the display of data by changing the position of the slider. "
-"You can change the transparency of polygons (property *Opacity*) in the "
+"*Fill color.* You can choose any color from the palette for polygons, and "
+"also hide the display of data by changing the position of the slider. You "
+"can change the transparency of polygons (property *Opacity*) in the "
 "additional settings of this function."
 msgstr ""
+"*Цвет заливки.* Вы можете выбрать любой цвет из палитры для полигонов, а "
+"также скрыть отображение данных, изменив положение ползунка. Изменить "
+"прозрачность полигонов (свойство *Opacity*) можно в дополнительных "
+"настройках этой функции."
 
 #: ../../source/kepler/kepler.rst:29
 msgid ""
 "*Stroke color.* You can choose any color from the palette for outlining "
 "polygons, as well as completely remove the stroke. You can change the "
-"transparency of the stroke (property *Opacity*) In the additional "
-"settings of this function."
+"transparency of the stroke (property *Opacity*) In the additional settings "
+"of this function."
 msgstr ""
+"*Цвет обводки.* Вы можете выбрать любой цвет из палитры для обводки "
+"полигонов, а также полностью убрать обводку. Изменить прозрачность обводки "
+"можно (свойство *Opacity*) в дополнительных настройках этой функции."
 
 #: ../../source/kepler/kepler.rst:30
 msgid "*Stroke width.* Controls the thickness of the stroke."
-msgstr ""
+msgstr "*Ширина обводки.* Управляет толщиной обводки."
 
 #: ../../source/kepler/kepler.rst:31
 msgid ""
-"*Height.* Allows you to view data with heights in 3D format. Set the "
-"desired coefficient and select the attribute of the layer with heights."
+"*Height.* Allows you to view data with heights in 3D format. Set the desired"
+" coefficient and select the attribute of the layer with heights."
 msgstr ""
+"*Высота.* Позволяет просматривать данные о высоте в формате 3D. Установите "
+"нужный коэффициент и выберите атрибут слоя с высотами."
 
 msgid "3D buildings"
-msgstr ""
+msgstr "3D здания"
 
 #: ../../source/kepler/kepler.rst:40
 msgid "Filters tab"
-msgstr ""
+msgstr "Вкладка «Фильтры»"
 
 #: ../../source/kepler/kepler.rst:42
 msgid ""
-"This tab allows you to add a filter of interest by a specific attribute "
-"of the layer (as in this case, the filter is set by classes with "
-"different typology of buildings)."
+"This tab allows you to add a filter of interest by a specific attribute of "
+"the layer (as in this case, the filter is set by classes with different "
+"typology of buildings)."
 msgstr ""
+"Эта вкладка позволяет добавить интересующий фильтр по определенному атрибуту"
+" слоя (в данном случае фильтр задается по классам с разной типологией "
+"зданий)."
 
 msgid "Filter panel"
-msgstr ""
+msgstr "Панель фильтров"
 
 #: ../../source/kepler/kepler.rst:51
 msgid "Interaction tab"
-msgstr ""
+msgstr "Вкладка «Взаимодействие»"
 
 #: ../../source/kepler/kepler.rst:53
 msgid ""
-"You can select or remove attributes that will be visible in the menu that"
-" appears when you hover over an object. It is also possible to turn on "
-"the panel indicating longitude and latitude."
+"You can select or remove attributes that will be visible in the menu that "
+"appears when you hover over an object. It is also possible to turn on the "
+"panel indicating longitude and latitude."
 msgstr ""
+"Вы можете выбрать или удалить атрибуты, которые будут видны в меню, которое "
+"появляется при наведении курсора на объект. Также есть возможность включить "
+"панель с указанием долготы и широты."
 
 msgid "Interaction panel"
-msgstr ""
+msgstr "Панель взаимодействия"
 
 #: ../../source/kepler/kepler.rst:62
 msgid "Base map tab"
-msgstr ""
+msgstr "Вкладка «Базовая карта»"
 
 #: ../../source/kepler/kepler.rst:64
 msgid ""
-"Here you can choose the styles of the map, as well as choose to display "
-"its various layers."
+"Here you can choose the styles of the map, as well as choose to display its "
+"various layers."
 msgstr ""
-
+"Здесь вы можете выбрать стили карты, а также выбрать отображение различных "
+"ее слоев."

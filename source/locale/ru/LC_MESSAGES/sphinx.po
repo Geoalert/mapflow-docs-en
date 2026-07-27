@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow \n"
+"Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:43+0200\n"
+"POT-Creation-Date: 2026-07-26 16:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../_templates/footer.html:123 ../_templates/footer.html:126
-#: 5f54aeb3156a4807a2dc927980c3c1fc da6e5f89b7754d2fba14297570671b14
+#: ../_templates/footer.html:106 ../_templates/footer.html:109
+#: 0795d8e5de8548e9b8af0f751781ff18 30b6fb5405114b4e9c893eaa3420a687
 msgid "Copyright"
-msgstr ""
+msgstr "Авторское право"
 
-#: ../_templates/footer.html:133 ab9f31ded026420783c691a968e667bf
+#: ../_templates/footer.html:116 1e775f9ed53b44488d1fdf5d4096d1a6
 msgid "Build"
-msgstr ""
+msgstr "Строить"
 
-#: ../_templates/footer.html:138 fe9bb1f9c11c4523a71c951ce66da3e3
+#: ../_templates/footer.html:121 ffd200e596f14092960120ce6dcef864
 msgid "Revision"
-msgstr ""
+msgstr "Редакция"
 
-#: ../_templates/footer.html:142 5e3713623c33412fa30a0473c039283e
+#: ../_templates/footer.html:125 d04d387bb9994c18af303b1aab079d9b
 #, python-format
 msgid "Last updated on %(last_updated)s."
-msgstr ""
+msgstr "Последнее обновление %(last_updated)s."
 
-#: ../_templates/language_selector.html:3 eae431e320ee47e1a9fe7effddbf5627
+#: ../_templates/versions.html:11 3905c05fa0e245af90a624a9ce1269b0
+msgid "Versions"
+msgstr "Версии"
+
+#: ../_templates/versions.html:19 1b3ef1d2390841d6a6a50d6b841856a0
 msgid "Language"
-msgstr ""
-
+msgstr "Язык"

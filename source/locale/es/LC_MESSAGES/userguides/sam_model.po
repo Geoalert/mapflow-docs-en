@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/sam_model.rst:2 78a8410184fc4b028659ed163cda731b
+msgid "✨ Segment Anything v1 (CUSTOM)"
+msgstr "✨ Segmentar cualquier cosa v1 (PERSONALIZADO)"
+
+#: ../userguides/sam_model.rst:5 58b51a35fc074d43b9e7d5f357703864
+msgid ""
+"This model has been deprecated as default one and moved to custom. it's "
+"available only by request."
+msgstr ""
+"Este modelo ha quedado obsoleto como modelo predeterminado y se ha movido a "
+"personalizado. está disponible sólo a pedido."
+
+#: ../userguides/sam_model.rst:7 f868cee71aec417a84bb07f19617b7c2
+msgid ""
+"The “Segment Anything” (originaly introduced by Meta as *universal "
+"segmentation model*) is available as yet another experimental model in "
+"Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There "
+"are the same steps required to launch this model:"
+msgstr ""
+"El \"Segmentar cualquier cosa\" (originalmente introducido por Meta como "
+"*modelo de segmentación universal*) está disponible como otro modelo "
+"experimental más en Mapflow. Lo ajustamos a los flujos de trabajo de Mapflow"
+" para usarlo a escala. Existen los mismos pasos necesarios para iniciar este"
+" modelo:"
+
+#: ../userguides/sam_model.rst:9 cb7edc0b11364c28b86b19054c0a3362
+msgid "Select your data source"
+msgstr "Seleccione su fuente de datos"
+
+#: ../userguides/sam_model.rst:10 03761c13c4bb48da9c0b0e199f998613
+msgid ""
+"Select your geographical area - either polygon, GeoJSON file, or your image "
+"extent"
+msgstr ""
+"Seleccione su área geográfica: ya sea un polígono, un archivo GeoJSON o la "
+"extensión de su imagen"
+
+#: ../userguides/sam_model.rst:12 a149f9c487624d87814f8e8594e3de49
+msgid "Yet there is one difference in the model workflow:"
+msgstr "Sin embargo, hay una diferencia en el flujo de trabajo del modelo:"
+
+#: ../userguides/sam_model.rst:14 156a0bc4e02c40839410608835a18948
+msgid ""
+"if you run this model using GTIFF file — the original resolution of the "
+"image will be used"
+msgstr ""
+"si ejecuta este modelo utilizando un archivo GTIFF — se utilizará la "
+"resolución original de la imagen"
+
+#: ../userguides/sam_model.rst:15 318708d28b9a47e3b05462179a628b9f
+msgid ""
+"if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need"
+" to select the Zoom level (image resolution) from the model options which "
+"will be used for the input"
+msgstr ""
+"si lo ejecuta a través de TMS (por ejemplo, :ref:`Imagery` como Mapbox "
+"Satellite) — debe seleccionar el nivel de zoom (resolución de imagen) de las"
+" opciones del modelo que se utilizará para la entrada"
+
+#: ../userguides/sam_model.rst:47 ../userguides/sam_model.rst:55
+#: ../userguides/sam_model.rst:63 ../userguides/sam_model.rst:72
+#: ../userguides/sam_model.rst:80 11e5e41b661d4399b6c1a49abfe58892
+#: 41c19f3942ac4afaa942181325becdcb c691d633804046ff9c842ced60a3b016
+#: e0c47f96ede04a1bb0567c6880dd620d e7c5e44f077e44ccb3d88ac41962577d
+#: f9c3772596ad48f8b1d68d41242e225b
+msgid "SAM options - zoom levels"
+msgstr "Opciones de SAM: niveles de zoom"
+
+#: ../userguides/sam_model.rst:24 fd0e75bd1fa04950bf4c093cd2fce84a
+msgid ""
+"Depending on the input resolution, the SAM model will interpret and generate"
+" different results. It can be empirically classified by mapping classes "
+"depending on the zoom levels as follows:"
+msgstr ""
+"Dependiendo de la resolución de entrada, el modelo SAM interpretará y "
+"generará diferentes resultados. Se puede clasificar empíricamente por clases"
+" de mapeo dependiendo de los niveles de zoom de la siguiente manera:"
+
+#: ../userguides/sam_model.rst:30 64c4077918c94304bd555b0519c6786c
+msgid "ZOOM LEVELS"
+msgstr "NIVELES DE AMPLIACIÓN"
+
+#: ../userguides/sam_model.rst:31 c973b18c61944e61be2dc02350eea590
+msgid "SEMANTIC OBJECTS"
+msgstr "OBJETOS SEMÁNTICOS"
+
+#: ../userguides/sam_model.rst:32 516198fb6b04446fb423a4a067f1fbc5
+msgid "14"
+msgstr ""
+
+#: ../userguides/sam_model.rst:33 9c8cc24a100643f7845502faaf4be53c
+msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
+msgstr ""
+"Uso de la tierra, grandes campos agrícolas, bosques, parques, campos, "
+"cuerpos de agua"
+
+#: ../userguides/sam_model.rst:34 1db16cb459ea47cc8dfb7bf3436c9fea
+msgid "16"
+msgstr ""
+
+#: ../userguides/sam_model.rst:35 3adbc1a8c9c347369821128236fd1429
+msgid "Small fields, large buildings, lawns, plots"
+msgstr "Campos pequeños, edificios grandes, césped, parcelas."
+
+#: ../userguides/sam_model.rst:36 cd33043e99114118b09af6146596e8b2
+msgid "18"
+msgstr ""
+
+#: ../userguides/sam_model.rst:37 d190db48ba104cfa90a4087a1bb35b18
+msgid "Farms, buildings, groups of trees, etc."
+msgstr "Fincas, edificios, grupos de árboles, etc."
+
+#: ../userguides/sam_model.rst:38 00f54fca3c9f43a2a0da70c318ea673c
+msgid "19+"
+msgstr ""
+
+#: ../userguides/sam_model.rst:39 bbe2625a48274f1f82b5170e17836b62
+msgid "Houses, trees, vehicles, roof structures, etc."
+msgstr "Casas, árboles, vehículos, estructuras de techos, etc."
+
+#: ../userguides/sam_model.rst:47 2c6d8222c63a4565a5764049cbeb2ac1
+msgid "E.g. Result – SAM (zoom 14)"
+msgstr "P.ej. Resultado – SAM (zoom 14)"
+
+#: ../userguides/sam_model.rst:55 4d1cb58b355d4f32b7a2140717217945
+msgid "E.g. Result – SAM (zoom 16)"
+msgstr "P.ej. Resultado – SAM (zoom 16)"
+
+#: ../userguides/sam_model.rst:63 cb9036b2bbf04a8e88aa87e5fab7ad73
+msgid "E.g. Result – SAM (zoom 18)"
+msgstr "P.ej. Resultado – SAM (zoom 18)"
+
+#: ../userguides/sam_model.rst:72 401ffa32832b453b9324f2456e32ebb6
+msgid ""
+"E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons "
+"are not very accurate and some target objects are missing, but the overall "
+"result is relevant and can be used for more accurate mapping."
+msgstr ""
+"P.ej. Resultado: SAM en imágenes aéreas (zoom 20), árboles individuales. "
+"Algunos polígonos no son muy precisos y faltan algunos objetos de destino, "
+"pero el resultado general es relevante y puede usarse para un mapeo más "
+"preciso."
+
+#: ../userguides/sam_model.rst:80 9bd6ad95ec684ef1a788b45c2402adb6
+msgid ""
+"E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to "
+"small similar-pattern objects, requires some manual filtering of the model's"
+" output."
+msgstr ""
+"P.ej. Resultado: SAM en imágenes aéreas (zoom 20), contenedores. Aplicable a"
+" objetos pequeños con patrones similares, requiere cierto filtrado manual de"
+" la salida del modelo."
+
+#: ../userguides/sam_model.rst:83 7a8cc7ad9d104ef785d758b71ae4276d
+msgid ""
+"❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
+"list of default models, as the zoom options are not enabled in the current "
+"plugin’s design. Yet if you work in QGIS and want to try SAM there — send us"
+" a request and we will connect corresponding workflow scenarios with all "
+"zoom options specified."
+msgstr ""
+"❗️ SAM no se proporciona en :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
+"lista de modelos predeterminados, ya que las opciones de zoom no están "
+"habilitadas en el diseño del complemento actual. Sin embargo, si trabaja en "
+"QGIS y desea probar SAM allí, envíenos una solicitud y conectaremos los "
+"escenarios de flujo de trabajo correspondientes con todas las opciones de "
+"zoom especificadas."

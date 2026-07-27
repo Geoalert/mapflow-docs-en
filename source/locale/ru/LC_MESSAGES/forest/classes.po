@@ -15,8 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Poedit 3.4.1\n"
 
@@ -26,39 +25,37 @@ msgstr "Классы Лесного Картографирования"
 
 #: ../../source/forest/classes.rst:5
 msgid ""
-"Here is presented a list of classes for the Forest vegetation Mapping "
-"Model. There are two options for forest semantic classification:"
+"Here is presented a list of classes for the Forest vegetation Mapping Model."
+" There are two options for forest semantic classification:"
 msgstr ""
 "Здесь представлен список классов для Модели Картографирования Лесной "
-"растительности. Существует два варианта семантической классификации "
-"лесов:"
+"растительности. Существует два варианта семантической классификации лесов:"
 
 #: ../../source/forest/classes.rst:8
 msgid ""
-"Classification by heights – classification of the areas of vegetation "
-"and shrub vegetation by height classes according to the specified "
-"thresholds: 0-4 m, 4-10 m, 10+ m. Forest areas of each height class are "
-"polygonized in separate features, the height class is indicated in its "
-"properties. Heights thresholds are customizable values in the processing "
-"pipeline."
+"Classification by heights – classification of the areas of vegetation and "
+"shrub vegetation by height classes according to the specified thresholds: "
+"0-4 m, 4-10 m, 10+ m. Forest areas of each height class are polygonized in "
+"separate features, the height class is indicated in its properties. Heights "
+"thresholds are customizable values in the processing pipeline."
 msgstr ""
 "Классификация по высотам – классификация участков растительности и "
-"кустарниковой растительности по классам высоты в соответствии с "
-"указанными пороговыми значениями: 0-4 м, 4-10 м, 10+ м. Лесные массивы "
-"каждого класса высот полигонизируются в виде отдельных объектов, класс "
-"высот указывается в его свойствах. Пороговые значения высот - это "
-"настраиваемые значения в пайплайне обработки."
+"кустарниковой растительности по классам высоты в соответствии с указанными "
+"пороговыми значениями: 0-4 м, 4-10 м, 10+ м. Лесные массивы каждого класса "
+"высот полигонизируются в виде отдельных объектов, класс высот указывается в "
+"его свойствах. Пороговые значения высот - это настраиваемые значения в "
+"пайплайне обработки."
 
 #: ../../source/forest/classes.rst:10
 msgid ""
 "Classification by overgrowth density – classification of the area of "
-"vegetation and shrub vegetation into classes according to the density "
-"and height: high forest, low (growing) forest, open woodland, and shrub."
+"vegetation and shrub vegetation into classes according to the density and "
+"height: high forest, low (growing) forest, open woodland, and shrub."
 msgstr ""
-"Классификация по плотности зарослей – классификация площади "
-"растительности и кустарниковой растительности на классы в зависимости от "
-"плотности и высоты: высокий лес, низкорослый (растущий) лес, открытые "
-"лесные массивы и кустарник."
+"Классификация по плотности зарослей – классификация площади растительности и"
+" кустарниковой растительности на классы в зависимости от плотности и высоты:"
+" высокий лес, низкорослый (растущий) лес, открытые лесные массивы и "
+"кустарник."
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "CLASS_ID"
@@ -74,7 +71,7 @@ msgstr "Описание"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "00m-04m"
-msgstr ""
+msgstr "00–04 м"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "low vegetation"
@@ -82,7 +79,7 @@ msgstr "низкая растительность"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "04m-10m"
-msgstr ""
+msgstr "04–10 м"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "dense/sparse"
@@ -94,7 +91,7 @@ msgstr "средний лес"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "10m-99m"
-msgstr ""
+msgstr "10–99 м"
 
 #: ../../source/forest/_static/csv/classes_forest.csv:1
 msgid "high forest"

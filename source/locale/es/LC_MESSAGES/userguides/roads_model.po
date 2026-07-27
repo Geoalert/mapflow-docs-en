@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/roads_model.rst:2 fe34fee8bdb64421bf8abe65c2448eab
+msgid "🚗 Roads"
+msgstr "🚗 Carreteras"
+
+#: ../userguides/roads_model.rst:4 d4e3d0f3235a48b283d8dc2536ac56b4
+msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+msgstr ""
+"Modelo para segmentación de carreteras en imágenes de alta resolución (0,3 -"
+" 0,5 m)\\"
+
+#: ../userguides/roads_model.rst:6 33f015cd5e8b45f180b1297a05fb4c5e
+msgid ""
+"The model is trained primarily for rural and suburban areas. Multi-task "
+"learning is applied in order to improve the road mask connectivity, "
+"especially in the spots obscured by trees or buildings. Best suited for "
+"areas with low urbanization, and can fail in cities where wide roads with "
+"sidewalks and complex crossroads are present. We extract the road central "
+"line in order to decrease the clutter and optimize the extracted road "
+"network, and then the road lines are inflated back to polygonal object."
+msgstr ""
+"El modelo está capacitado principalmente para áreas rurales y suburbanas. Se"
+" aplica el aprendizaje multitarea para mejorar la conectividad de la máscara"
+" de la carretera, especialmente en los lugares oscurecidos por árboles o "
+"edificios. Es más adecuado para áreas con baja urbanización y puede fallar "
+"en ciudades donde hay carreteras anchas con aceras y cruces complejos. "
+"Extraemos la línea central de la carretera para disminuir el desorden y "
+"optimizar la red de carreteras extraída, y luego las líneas de la carretera "
+"se inflan nuevamente a un objeto poligonal."
+
+#: ../userguides/roads_model.rst:9 e0a877d778ea40838931a7b33c659a1d
+msgid "In version 1.1 we added the road graph postprocessing:"
+msgstr ""
+"En la versión 1.1 agregamos el posprocesamiento del gráfico de carreteras:"
+
+#: ../userguides/roads_model.rst:11 5fe53cf72ba241dcb2855f7c45905771
+msgid "geometry simplification;"
+msgstr "simplificación de la geometría;"
+
+#: ../userguides/roads_model.rst:12 9bc05d4d62d648d69e1ab8b5ebccdbd9
+msgid "merging of the gaps;"
+msgstr "fusión de las brechas;"
+
+#: ../userguides/roads_model.rst:13 48f0e27f02204a1f94855e79c89cd5c5
+msgid "removal of double edges;"
+msgstr "eliminación de dobles bordes;"
+
+#: ../userguides/roads_model.rst:14 76416510fefc409593a0346b19d9cfcd
+msgid "removal of detached and too short segments;"
+msgstr "eliminación de segmentos desprendidos y demasiado cortos;"
+
+#: ../userguides/roads_model.rst:16 0dec5e3e029a4801968b99bd4445f3ce
+msgid "**Processing results samples**"
+msgstr "**Muestras de resultados de procesamiento**"
+
+#: ../userguides/roads_model.rst:24 ../userguides/roads_model.rst:32
+#: 71ac96f13ca54f37ba07af8cbc768196 c09520f007bf4e8f9ceeb268789d818b
+msgid "Processing result of roads model"
+msgstr "Resultado del procesamiento del modelo de carreteras."
+
+#: ../userguides/roads_model.rst:24 b63be9aba6db42c3b57daa040cc824de
+msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+msgstr "Condiciones óptimas para el modelo: territorio rural/suburbano, Rusia"
+
+#: ../userguides/roads_model.rst:32 5dc5727b778b44d4aa4f7e4d96b2a1f3
+msgid "More complex environment - urban territory in Prague, Czech Republic"
+msgstr "Entorno más complejo: territorio urbano en Praga, República Checa"
