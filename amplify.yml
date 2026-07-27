@@ -4,22 +4,22 @@ frontend:
     # IMPORTANT - Please verify your build commands
     build:
       commands:
-        - yum -y install libjpeg-turbo-devel # IMPORTANT - required for pillow!
-        - pip3 install -r requirements.txt
-        - rm -rf build/docs/
-        - make -e BUILDDIR="build/docs/en" html
-        - make -e BUILDDIR="build/docs/ru" SPHINXOPTS="-D language=ru" html
-        - make -e BUILDDIR="build/docs/es" SPHINXOPTS="-D language=es" html
-        - make -e BUILDDIR="build/docs/zh" SPHINXOPTS="-D language=zh" html
-        # Copy language builds into the English root so they are served
-        # at /ru/, /es/, /zh/ (matching the URL layout in conf.py)
-        - cp -r build/docs/ru/html build/docs/en/html/ru
-        - cp -r build/docs/es/html build/docs/en/html/es
-        - cp -r build/docs/zh/html build/docs/en/html/zh
+      - yum -y install libjpeg-turbo-devel # IMPORTANT - required for pillow!
+      - pip3 install -r requirements.txt
+      - rm -rf build/docs/
+      - make -e BUILDDIR="build/docs/en" html
+      - make -e BUILDDIR="build/docs/ru" SPHINXOPTS="-D language=ru" html
+      - make -e BUILDDIR="build/docs/es" SPHINXOPTS="-D language=es" html
+      - make -e BUILDDIR="build/docs/zh" SPHINXOPTS="-D language=zh" html
+      # Copy language builds into the English root so they are served
+      # at /ru/, /es/, /zh/ (matching the URL layout in conf.py)
+      - cp -r build/docs/ru/html build/docs/en/html/ru
+      - cp -r build/docs/es/html build/docs/en/html/es
+      - cp -r build/docs/zh/html build/docs/en/html/zh
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: build/docs/en/html/
     files:
-      - '**/*'
+    - '**/*'
   cache:
     paths: []
