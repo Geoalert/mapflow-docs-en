@@ -627,3 +627,7 @@ msgstr ""
 #: ../userguides/buildings_model.rst:2
 msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
 msgstr "Extrae tejados y huellas de edificios a partir de imágenes satelitales de alta resolución. Clasificación por tipo, regularización, simplificación y estimación de altura."
+
+#: ../userguides/buildings_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

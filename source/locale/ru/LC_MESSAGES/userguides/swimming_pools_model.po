@@ -109,3 +109,7 @@ msgstr "`Читать далее О варианты использования 
 #: ../userguides/swimming_pools_model.rst:2
 msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
 msgstr "Распознавание и классификация бассейнов на аэрофотоснимках высокого разрешения (зум 19). Бенчмарк F1 выше 0,95. Кастомная модель."
+
+#: ../userguides/swimming_pools_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."

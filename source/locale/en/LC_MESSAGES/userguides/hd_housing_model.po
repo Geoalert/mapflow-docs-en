@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/hd_housing_model.rst:1 719144e15bc74361ab237d4d89b12a13
+#: ../userguides/hd_housing_model.rst:1 7793a0d1a8924aa6a8f2759fd4f5e518
 msgid ""
 "Detect building roofs in terraced and densely built areas typical of the "
 "Middle East and Africa. Available as a custom Mapflow model on request."
@@ -60,5 +60,12 @@ msgstr ""
 msgid ""
 "High-density buildings model, instance segmentation and post-processing "
 "with grid options"
+msgstr ""
+
+#: ../userguides/hd_housing_model.rst:26 70e8393e2574440590a65df6ea9ed88d
+msgid ""
+"Looking to run this in production? See the `model catalog and deployment "
+"options <https://mapflow.ai/models>`_, or `request a custom model "
+"<https://mapflow.ai/custom-models>`_."
 msgstr ""
 

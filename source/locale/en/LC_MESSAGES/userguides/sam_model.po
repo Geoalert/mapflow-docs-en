@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/sam_model.rst:1 b28ca9755b714472a5047dc71c62392a
+#: ../userguides/sam_model.rst:1 8e7e8ac5735a410db0711e9a4ee87de3
 msgid ""
 "Segment Anything adapted for large-scale satellite imagery workflows in "
 "Mapflow. Universal segmentation, available as a custom model on request."
@@ -159,6 +159,13 @@ msgid ""
 "current plugin’s design. Yet if you work in QGIS and want to try SAM "
 "there — send us a request and we will connect corresponding workflow "
 "scenarios with all zoom options specified."
+msgstr ""
+
+#: ../userguides/sam_model.rst:92 dddf5e38872f474e8409e5e3e609d1fd
+msgid ""
+"Looking to run this in production? See the `model catalog and deployment "
+"options <https://mapflow.ai/models>`_, or `request a custom model "
+"<https://mapflow.ai/custom-models>`_."
 msgstr ""
 
 #~ msgid "✨ Segment anything (CUSTOM)"

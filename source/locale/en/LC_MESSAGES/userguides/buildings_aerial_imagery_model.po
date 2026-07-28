@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/buildings_aerial_imagery_model.rst:1
-#: 6b96fea408934009af51663ac389eddf
+#: bfc31ffa44f242069698406afde7bfde
 msgid ""
 "Extract small buildings and detailed outlines from 15-10 cm aerial "
 "imagery. Best for rural and suburban areas; available as a custom model "
@@ -116,6 +116,14 @@ msgstr ""
 msgid ""
 "Small objects that have been missed by default :ref:`Buildings model` but"
 " detected using an aerial image with the Buildings (Aerial imagery)"
+msgstr ""
+
+#: ../userguides/buildings_aerial_imagery_model.rst:46
+#: 62082640f7cd4962bb140749a7a1db77
+msgid ""
+"Looking to run this in production? See the `model catalog and deployment "
+"options <https://mapflow.ai/models>`_, or `request a custom model "
+"<https://mapflow.ai/custom-models>`_."
 msgstr ""
 
 #~ msgid ""

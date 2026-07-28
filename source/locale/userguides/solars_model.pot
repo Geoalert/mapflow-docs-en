@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/solars_model.rst:1
-#: 15df9714d87d49e88fe7e1fc84c27fc6
+#: 6c8ff9358f07418eb8d6b8967bc00bc7
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr ""
 
@@ -89,4 +89,9 @@ msgstr ""
 #: ../userguides/solars_model.rst:None
 #: 450ca36acfe34840b250ff7e06d1f347
 msgid "Processing result of solars model"
+msgstr ""
+
+#: ../userguides/solars_model.rst:37
+#: fed68b6657484ef89e143b6eb92e1796
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/forest_model.rst:1
-#: 9d822bd5e6704acab4e8502537dc8d85
+#: 959aabd5450e426cb802096aa76d5a30
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
 msgstr ""
 
@@ -491,4 +491,9 @@ msgstr ""
 #: ../userguides/forest_model.rst:151
 #: 190808dcd5294e0f9738e9a53783cf26
 msgid "📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays."
+msgstr ""
+
+#: ../userguides/forest_model.rst:156
+#: fff06ff955ba4b8db7a9689e9a651e88
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

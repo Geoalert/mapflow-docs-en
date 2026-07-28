@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/roads_model.rst:1
-#: 068a871dbb994d9fa4686b3b98915364
+#: d427bdef9b7d465693badb766a3226f8
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 
@@ -81,4 +81,9 @@ msgstr ""
 #: ../userguides/roads_model.rst:35
 #: 5dc5727b778b44d4aa4f7e4d96b2a1f3
 msgid "More complex environment - urban territory in Prague, Czech Republic"
+msgstr ""
+
+#: ../userguides/roads_model.rst:39
+#: 28c98aea7f68414ba5bb9faa04b916e4
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

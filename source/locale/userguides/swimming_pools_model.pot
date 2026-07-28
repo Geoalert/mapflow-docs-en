@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/swimming_pools_model.rst:1
-#: 9036e379119f495f96e6f0bfec326b22
+#: 80ebe68651944f69910be7c8a86c2049
 msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
 msgstr ""
 
@@ -94,4 +94,9 @@ msgstr ""
 #: ../userguides/swimming_pools_model.rst:34
 #: 4cb7e477f85743bab71df05dc73d67c0
 msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:38
+#: 50f47b593a144acda977416d6a374109
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

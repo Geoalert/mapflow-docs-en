@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/combo_model.rst:1
-#: 35e3ab73215b4c25867b19cf1ffb72a7
+#: 16bf4a2a62f14547984ed9da038db00e
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 
@@ -39,4 +39,9 @@ msgstr ""
 #: ../userguides/combo_model.rst:16
 #: 2f6c52f7b768459db31022e8c7dea484
 msgid "Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models."
+msgstr ""
+
+#: ../userguides/combo_model.rst:20
+#: fd68272783fb41ccbc394f9d1f8212c3
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

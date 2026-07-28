@@ -118,3 +118,7 @@ msgstr ""
 #: ../userguides/hd_housing_model.rst:2
 msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
 msgstr "Распознавание крыш зданий в плотной и террасной застройке, характерной для Ближнего Востока и Африки. Доступно как кастомная модель по запросу."
+
+#: ../userguides/hd_housing_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."

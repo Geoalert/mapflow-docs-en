@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgid "AI-Mapping Models"
 msgstr ""
 
 #: ../userguides/pipelines.rst:15
-#: 07b3042f22e04bd2a6dbca2520b4d5c4
+#: bf254dbb4c0a4b199b4da6ba916fd038
 msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
 msgstr ""
 
@@ -721,8 +721,31 @@ msgstr ""
 msgid "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the area-by-area breakdown of both the global and satellite sets, including comparison with the previous version and prediction-vs-ground-truth overlays."
 msgstr ""
 
-#: ../userguides/pipelines.rst:196
-#: cd3b89f202744919ae5d428386a38622
+#: ../userguides/buildings_model.rst:182
+#: ../userguides/forest_model.rst:156
+#: ../userguides/roads_model.rst:39
+#: ../userguides/combo_model.rst:20
+#: ../userguides/construction_model.rst:20
+#: ../userguides/hd_housing_model.rst:26
+#: ../userguides/agriculture_fields_model.rst:31
+#: ../userguides/sam_model.rst:92
+#: ../userguides/swimming_pools_model.rst:38
+#: ../userguides/solars_model.rst:37
+#: a2a5d27a09414ea5b7d5946d1980c0ea
+#: 8d55bd25aacb42018572c19d95b52241
+#: f8f293279bd548ebb0f2784feb861956
+#: 66959043fa1a4eb38cfd23dde14419d1
+#: 974882e0813743e68f5814daf716478d
+#: 22f2820ce4ce4c1db4b3bbfb89ba5389
+#: d9d7c14b1ebc4f07bc1f904b28de6960
+#: eb2081f18747457586a5bf35d4e974a1
+#: 9134ece01ddd4be59061ce74d70ea397
+#: 7acfa0e84ed2466fbd856d97b1a5d19d
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr ""
+
+#: ../userguides/pipelines.rst:200
+#: 561b5125ce31484d9d1393492f921770
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
 msgstr ""
 
@@ -1095,8 +1118,8 @@ msgstr ""
 msgid "📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays."
 msgstr ""
 
-#: ../userguides/pipelines.rst:351
-#: cb7cac3298a04f8db220cb744d3cad1c
+#: ../userguides/pipelines.rst:359
+#: 406bb0e8739c482db99935dc3070e982
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 
@@ -1157,8 +1180,8 @@ msgstr ""
 msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr ""
 
-#: ../userguides/pipelines.rst:389
-#: 55bf9d5fa39e471d93c0ec0fe7174ab4
+#: ../userguides/pipelines.rst:401
+#: 6d93fe9a8f984ff094cc6479997c484d
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 
@@ -1258,8 +1281,8 @@ msgstr ""
 msgid "Below is the list of custom models created for specific use cases and available in Mapflow by request (to be updated)."
 msgstr ""
 
-#: ../userguides/pipelines.rst:456
-#: c7a4cebad48c4923b7fb3b4c116e38c9
+#: ../userguides/pipelines.rst:472
+#: 5420605a5b664c4183ecebf29cdbcb24
 msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
 msgstr ""
 
@@ -1278,8 +1301,8 @@ msgstr ""
 msgid "Processing result sample for a rapidly developing area with construction sites"
 msgstr ""
 
-#: ../userguides/pipelines.rst:475
-#: 9c0d6e9749634c36a1ced33a3a33fb3c
+#: ../userguides/pipelines.rst:495
+#: b0372a0a0e73449499c94e40e11bdaa8
 msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
 msgstr ""
 
@@ -1315,8 +1338,8 @@ msgstr ""
 msgid "High-density buildings model, instance segmentation and post-processing with grid options"
 msgstr ""
 
-#: ../userguides/pipelines.rst:500
-#: ef3de50a135c4b5ba56979b09efd6fca
+#: ../userguides/pipelines.rst:524
+#: 04e5a8c2882543e396e07480533944d3
 msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
 msgstr ""
 
@@ -1352,8 +1375,8 @@ msgstr ""
 msgid "Processing result sample for Asia (Northern India)"
 msgstr ""
 
-#: ../userguides/pipelines.rst:530
-#: 3a8bf93f118f4a2293158b9a47bd8df9
+#: ../userguides/pipelines.rst:558
+#: 12b3eee9e617409d80b2e1434a44308d
 msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
 msgstr ""
 
@@ -1492,8 +1515,8 @@ msgstr ""
 msgid "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified."
 msgstr ""
 
-#: ../userguides/pipelines.rst:621
-#: 1b5e6390763440d598f8accec170f374
+#: ../userguides/pipelines.rst:653
+#: 395d948b208d4e519f08154409ed53a7
 msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
 msgstr ""
 
@@ -1574,8 +1597,8 @@ msgstr ""
 msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
 msgstr ""
 
-#: ../userguides/pipelines.rst:660
-#: a14abc78dd554979a295d261a728da1d
+#: ../userguides/pipelines.rst:696
+#: 4d28c10fbc8c4d11b750397e4ae75a84
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr ""
 

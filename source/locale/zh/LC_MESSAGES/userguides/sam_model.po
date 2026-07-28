@@ -166,3 +166,7 @@ msgstr ""
 #: ../userguides/sam_model.rst:2
 msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
 msgstr "将 Segment Anything 适配到 Mapflow 的大规模卫星影像工作流。通用分割能力，按需提供。"
+
+#: ../userguides/sam_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"

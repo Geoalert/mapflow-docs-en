@@ -116,3 +116,7 @@ msgstr "默认情况下遗漏的小物体：参考：“建筑物模型”，但
 #: ../userguides/buildings_aerial_imagery_model.rst:2
 msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
 msgstr "从 15-10 厘米航空影像中提取小型建筑及精细轮廓。适用于乡村和郊区，按需提供。"
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"

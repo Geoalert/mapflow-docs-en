@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/swimming_pools_model.rst:1 9036e379119f495f96e6f0bfec326b22
+#: ../userguides/swimming_pools_model.rst:1 953ea31f88304652a70396918960becf
 msgid ""
 "Detect and classify swimming pools in high-resolution aerial imagery at "
 "zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
@@ -91,6 +91,13 @@ msgid ""
 "case-"
 "b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ "
 "about the use cases and the model application"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:38 50f47b593a144acda977416d6a374109
+msgid ""
+"Looking to run this in production? See the `model catalog and deployment "
+"options <https://mapflow.ai/models>`_, or `request a custom model "
+"<https://mapflow.ai/custom-models>`_."
 msgstr ""
 
 #~ msgid "|:whale:| Swimming pools (CUSTOM)"

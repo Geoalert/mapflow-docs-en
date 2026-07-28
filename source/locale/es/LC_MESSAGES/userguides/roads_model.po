@@ -89,3 +89,7 @@ msgstr "Entorno más complejo: territorio urbano en Praga, República Checa"
 #: ../userguides/roads_model.rst:2
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr "Extrae redes viales de imágenes satelitales de 0,3-0,5 m. El aprendizaje multitarea mejora la conectividad donde las vías quedan ocultas por árboles o edificios."
+
+#: ../userguides/roads_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

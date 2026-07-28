@@ -46,3 +46,7 @@ msgstr ""
 #: ../userguides/combo_model.rst:2
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr "Ejecuta la detección de edificios, carreteras y bosque en un solo flujo de Mapflow y obtén un único GeoJSON con topología corregida."
+
+#: ../userguides/combo_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

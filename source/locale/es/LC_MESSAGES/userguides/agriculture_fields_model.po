@@ -71,3 +71,7 @@ msgstr "Muestra de resultados de procesamiento para Asia (norte de la India)"
 #: ../userguides/agriculture_fields_model.rst:2
 msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
 msgstr "Segmenta parcelas agrícolas y delimita sus bordes en imágenes de 1-1,2 m. Entrenado para Europa y Rusia; disponible como modelo personalizado."
+
+#: ../userguides/agriculture_fields_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

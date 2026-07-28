@@ -173,3 +173,7 @@ msgstr ""
 #: ../userguides/buildings_aerial_imagery_model.rst:2
 msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
 msgstr "Извлечение небольших зданий и детальных контуров с аэрофотоснимков 15-10 см. Лучше всего для сельской и пригородной застройки; по запросу."
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."

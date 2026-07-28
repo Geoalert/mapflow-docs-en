@@ -79,3 +79,7 @@ msgstr "更复杂的环境——捷克共和国布拉格的城市领土"
 #: ../userguides/roads_model.rst:2
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr "从 0.3-0.5 米卫星影像中提取道路网络。多任务学习提升了被树木或建筑遮挡路段的掩膜连通性。"
+
+#: ../userguides/roads_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"

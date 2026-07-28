@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:1 6c0049d71c9e47eabe75939d5aff9cd9
+#: ../userguides/construction_model.rst:1 89a6ef3009ac4940aeabce5d88578962
 msgid ""
 "Detect construction sites and buildings under construction in satellite "
 "imagery. Available as a custom Mapflow model on request."
@@ -45,6 +45,13 @@ msgstr ""
 msgid ""
 "Processing result sample for a rapidly developing area with construction "
 "sites"
+msgstr ""
+
+#: ../userguides/construction_model.rst:20 d50c5ac86e954f7c929a97ffec004223
+msgid ""
+"Looking to run this in production? See the `model catalog and deployment "
+"options <https://mapflow.ai/models>`_, or `request a custom model "
+"<https://mapflow.ai/custom-models>`_."
 msgstr ""
 
 #~ msgid "🏗️ Constructions"

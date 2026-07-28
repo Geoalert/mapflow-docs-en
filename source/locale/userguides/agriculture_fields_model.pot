@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/agriculture_fields_model.rst:1
-#: 51d9f084442141caae4d3c11f726f128
+#: 95bf47aa5cb4438499d6e5964a8cb07a
 msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
 msgstr ""
 
@@ -51,4 +51,9 @@ msgstr ""
 #: ../userguides/agriculture_fields_model.rst:27
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
 msgid "Processing result sample for Asia (Northern India)"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:31
+#: ee1be0415a8040f5ac286f5544b1d5a3
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

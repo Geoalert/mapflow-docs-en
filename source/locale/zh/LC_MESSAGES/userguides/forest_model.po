@@ -439,3 +439,7 @@ msgstr ""
 #: ../userguides/forest_model.rst:2
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
 msgstr "从 0.6-0.3 米卫星影像中识别森林、树木与灌木植被，涵盖稀疏林地、灌木丛、小片树群和狭长林带。"
+
+#: ../userguides/forest_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"

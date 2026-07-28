@@ -84,3 +84,7 @@ msgstr "太阳模型处理结果"
 #: ../userguides/solars_model.rst:2
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr "从航空影像（缩放级别 19-21）中识别屋顶和地面光伏组件。基准 F1 高于 0.87，按需提供。"
+
+#: ../userguides/solars_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"

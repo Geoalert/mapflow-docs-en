@@ -67,3 +67,7 @@ msgstr ""
 #: ../userguides/construction_model.rst:2
 msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
 msgstr "Распознавание строительных площадок и зданий на стадии строительства на спутниковых снимках. Доступно как кастомная модель по запросу."
+
+#: ../userguides/construction_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."

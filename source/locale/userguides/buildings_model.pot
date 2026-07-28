@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:26+0300\n"
+"POT-Creation-Date: 2026-07-28 14:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/buildings_model.rst:1
-#: 12c771f4edc34fb2b14e905eb9ada278
+#: 539661fcab844cbc9bad5862a2b13c48
 msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
 msgstr ""
 
@@ -658,4 +658,9 @@ msgstr ""
 #: ../userguides/buildings_model.rst:174
 #: 389e6623e1ee454ab72b932b16d3cb0d
 msgid "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the area-by-area breakdown of both the global and satellite sets, including comparison with the previous version and prediction-vs-ground-truth overlays."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:182
+#: ec285f66af7d4f64b5c3cc754eda3690
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
 msgstr ""

@@ -86,3 +86,7 @@ msgstr "Результат обработки модели солнечных б
 #: ../userguides/solars_model.rst:2
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr "Распознавание солнечных панелей на крышах и на земле по аэрофотоснимкам (зум 19-21). Бенчмарк F1 выше 0,87. Доступно по запросу."
+
+#: ../userguides/solars_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."

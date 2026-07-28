@@ -50,3 +50,7 @@ msgstr ""
 #: ../userguides/construction_model.rst:2
 msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
 msgstr "Detecta obras y edificios en construcción en imágenes satelitales. Disponible como modelo personalizado de Mapflow bajo petición."
+
+#: ../userguides/construction_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

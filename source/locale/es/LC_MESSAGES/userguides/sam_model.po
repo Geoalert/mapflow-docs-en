@@ -190,3 +190,7 @@ msgstr ""
 #: ../userguides/sam_model.rst:2
 msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
 msgstr "Segment Anything adaptado a flujos de trabajo de imágenes satelitales a gran escala en Mapflow. Segmentación universal, bajo petición."
+
+#: ../userguides/sam_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."

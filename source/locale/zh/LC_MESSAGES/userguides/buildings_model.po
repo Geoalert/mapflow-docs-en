@@ -586,3 +586,7 @@ msgstr ""
 #: ../userguides/buildings_model.rst:2
 msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
 msgstr "从高分辨率卫星影像中提取建筑物屋顶与轮廓。支持建筑类型分类、规则化、简化和高度估算。"
+
+#: ../userguides/buildings_model.rst
+msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"
