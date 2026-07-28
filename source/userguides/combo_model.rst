@@ -14,3 +14,7 @@ This pipeline combines Buildings, Forest and Roads in a single workflow and retu
    :class: with-border no-scaled-link
    
    Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models.
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

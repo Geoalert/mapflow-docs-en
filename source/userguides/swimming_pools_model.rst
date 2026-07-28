@@ -32,3 +32,7 @@ Swimming pools detection and classification. The model is trained on the high re
    :class: with-border no-scaled-link
 
 `Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

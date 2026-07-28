@@ -14,3 +14,7 @@ This model outlines the areas in the satellite image that contain construction s
    :class: with-border no-scaled-link
    
    Processing result sample for a rapidly developing area with construction sites
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

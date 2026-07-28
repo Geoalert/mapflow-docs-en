@@ -31,3 +31,7 @@ Solar panels is a model trained for detecton of Photovoltaic elements using aeri
    :width: 15cm
    :class: with-border no-scaled-link
 
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

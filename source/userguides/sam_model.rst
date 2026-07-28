@@ -86,3 +86,7 @@ Depending on the input resolution, the SAM model will interpret and generate dif
    ❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified.
 
 
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

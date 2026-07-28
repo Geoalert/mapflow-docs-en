@@ -20,3 +20,7 @@ Processing result sample for dense urban development area (Tunisia, Africa):
    :class: with-border no-scaled-link
    
    High-density buildings model, instance segmentation and post-processing with grid options
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

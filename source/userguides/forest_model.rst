@@ -150,3 +150,7 @@ Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*
 
     📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the
     area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays.
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

@@ -40,3 +40,7 @@ This model is specifically designed to be used on a high resolution aerial image
     :class: with-border no-scaled-link
 
     Small objects that have been missed by default :ref:`Buildings model` but detected using an aerial image with the Buildings (Aerial imagery)
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.

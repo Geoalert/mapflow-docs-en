@@ -25,3 +25,7 @@ Model for fields segmentation allows to detect the agricultural fields and delin
    :class: with-border no-scaled-link
    
    Processing result sample for Asia (Northern India)
+
+.. tip::
+
+   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
