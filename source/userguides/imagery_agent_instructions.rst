@@ -76,7 +76,7 @@ If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), the age
 
 3. Guide the upload:
 
-   - **Web app:** On the **My Imagery** page, the user creates a mosaic, uploads a GeoTIFF into it, and waits until the image status becomes *Ready*. Then they click **Use in new processing**, select a project (or create one with **+ New project**), and draw or upload an AOI (or click **Use Image Extent**). Users clicks **"Save"** to continue with the AI model parameters and starts processing. See :ref:`My imagery main` for the full workflow.
+   - **Web app:** On the **My Imagery** page, the user creates a mosaic, uploads a GeoTIFF into it, and waits until the image status becomes *Ready*. Then they click **"Use in new processing"** button, select a project (or create one with **"+ New project"**), and draw or upload an AOI (or click **"Use Image Extent"**). Users clicks **"Save"** to continue with the AI model parameters and starts processing. See :ref:`My imagery main` for the full workflow.
    - **API (Data API):** Create a mosaic → upload image to the mosaic → reference the mosaic/image IDs in ``sourceParams.myImagery`` when creating a processing.
 
      .. code-block:: json

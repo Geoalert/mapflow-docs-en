@@ -59,9 +59,9 @@ The basic scenario of working with "My imagery" in Mapflow Web:
 
 1. **Upload your images** – drag GeoTIFF files into the Upload area (or click to browse). If no mosaic is selected in the table, a new mosaic is created automatically and the files are uploaded into it. To upload into an existing mosaic, select it in the list first. You can also create an empty mosaic in advance with **"+ Create mosaic"**.
 2. **Wait until the images are ready** – each image gets a status: *In progress* while uploading and preprocessing, *Ready* when it can be used, *Failed* if something went wrong.
-3. **Start a processing** – click **Use in new processing** on the selected mosaic (or image), then pick an existing project or create a new one with **+ New project**.
-4. **Set the processing area** – click **Use Image Extent** to process the entire image. You can also draw an AOI on the map, or upload a GeoJSON file to process a specific part of the image.
-5. Click **"Save"** to continue with the processing settings: choose the AI model, configure its parameters, and run the processing!
+3. **Start a processing** – click **"Use in new processing"** button on the selected mosaic (or image), then pick an existing project or create a new one with **"+ New project"**.
+4. **Set the processing area** – click **"Use Image Extent"** to process the entire image. You can also draw an AOI on the map, or upload a GeoJSON file to process a specific part of the image.
+5. Click **"Save"** button to continue with the processing settings: choose the AI model, configure its parameters, and run the processing!
 
 My Imagery main page
 ~~~~~~~~~~~~~~~~~~~~
