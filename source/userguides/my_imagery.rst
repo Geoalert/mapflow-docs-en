@@ -48,10 +48,23 @@ The basic scenario of working with "My imagery" service is as follows:
 "My imagery" Mapflow Web
 -------------------------
 
-The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image.
+The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image. Open the page from the main menu of the Web app (see the interface overview in :doc:`get_started`).
+
+A **mosaic** is a collection of georeferenced images organized for processing and preview. Mosaics are useful when you work with multiple aerial images covering one area.
+
+Typical workflow
+~~~~~~~~~~~~~~~~~~
+
+The basic scenario of working with "My imagery" in Mapflow Web:
+
+1. **Upload your images** – drag GeoTIFF files into the Upload area (or click to browse). If no mosaic is selected in the table, a new mosaic is created automatically and the files are uploaded into it. To upload into an existing mosaic, select it in the list first. You can also create an empty mosaic in advance with **"+ Create mosaic"**.
+2. **Wait until the images are ready** – each image gets a status: *In progress* while uploading and preprocessing, *Ready* when it can be used, *Failed* if something went wrong.
+3. **Start a processing** – click **Use in new processing** on the selected mosaic (or image), then pick an existing project or create a new one with **+ New project**.
+4. **Set the processing area** – click **Use Image Extent** to process the entire image. You can also draw an AOI on the map, or upload a GeoJSON file to process a specific part of the image.
+5. Click **"Save"** to continue with the processing settings: choose the AI model, configure its parameters, and run the processing!
 
 My Imagery main page
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/my_imagery/my_imagery_steps.gif
          :align: center
@@ -60,9 +73,11 @@ My Imagery main page
 
 |
 
+The page consists of the following elements:
+
 1. **Storage** – check how much of your storage is used (used / total). When the limit is running out, you can free up space by deleting unused data, or extend your limit by switching to one of the `Premium plans <https://mapflow.ai/pricing>`_.
 2. **Create mosaic** – create a new mosaic (image collection) to group related images together.
-3. **Upload area** – drop GeoTIFFs (or click to browse) to upload them into the selected mosaic. 
+3. **Upload area** – drop GeoTIFFs (or click to browse) to upload them into the selected mosaic.
 
 .. note::
      See :ref:`Requirements for using the platform <Upload restrictions>` for supported formats and limits.
@@ -74,7 +89,7 @@ My Imagery main page
      Each mosaic and image has its own status. The table lists all your mosaics, each with a unique UUID, and can be searched by name, and sorted by name, creation date, size, and status.
 
 Use in new processing
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Selecting **Use in new processing** opens a dialog where you choose the project to start the processing in. Pick an existing project from the list, or create a new one with **+ New project**.
 
@@ -86,7 +101,7 @@ Selecting **Use in new processing** opens a dialog where you choose the project 
 |
 
 Preview and AOI
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 You can preview your image on the map and set the processing area: upload a GeoJSON/GeoTIFF, draw the area on the map, or click **Use Image Extent** to use the image boundaries. See :ref:`Select AOI` for details on drawing and uploading an AOI.
 
