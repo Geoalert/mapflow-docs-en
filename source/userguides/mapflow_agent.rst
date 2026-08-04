@@ -132,7 +132,7 @@ When the user gives the agent a point location or a small geometry, the agent ca
 Uploading an image
 ^^^^^^^^^^^^^^^^^^^
 
-The agent can accept an image upload from the user and use it as an input for processing. Drop an image into the chat window, and the agent will store it in your :ref:`my-imagery` collection and select it for the processing:
+The agent can accept an image upload from the user and use it as an input for processing. Drop an image into the chat window, and the agent will store it in your :ref:`My Imagery <My imagery main>` collection and select it for the processing:
 
 .. figure:: _static/agent/agent_upload_x2.gif
   :alt: Agent handling an image upload
