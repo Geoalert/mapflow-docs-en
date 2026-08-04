@@ -78,6 +78,8 @@ The agent has access to a fixed set of tools that correspond to specific Mapflow
      - Launches the processing run after the user confirms the parameters and cost.
    * - ``get_processing``
      - Polls and reports the status of a running processing so the user is kept up to date.
+   * - ``upload_image``
+     - Uploads an image to be stored in the user's My Imagery collection and used as an input for processing.
 
 
 Example interaction
@@ -111,8 +113,11 @@ A typical conversation with the agent follows the pattern below. The agent's too
           [start_processing, get_processing → status: IN_PROGRESS]
 
 
+Usage examples
+--------------
+
 Buffering an AOI
------------------
+^^^^^^^^^^^^^^^^
 
 When the user gives the agent a point location or a small geometry, the agent can expand it into a usable AOI with ``buffer_aoi``. The animation below shows the agent creating a buffer around a location:
 
@@ -124,6 +129,18 @@ When the user gives the agent a point location or a small geometry, the agent ca
 
 |
 
+Uploading an image
+^^^^^^^^^^^^^^^^^^^
+
+The agent can accept an image upload from the user and use it as an input for processing. Drop an image into the chat window, and the agent will store it in your :ref:`my-imagery` collection and select it for the processing:
+
+.. figure:: _static/agent/agent_upload_x2.gif
+  :alt: Agent handling an image upload
+  :align: center
+  :width: 16cm
+  :class: with-border
+
+|
 
 Related guides
 ---------------
