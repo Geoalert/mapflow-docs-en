@@ -2,7 +2,7 @@
 1 Processing name,Name of your processing
 2 Area,The area to be processed. This layer is automatically displayed in the drop-down list from the list of QGIS vector layers.
 3 Data source,"Base imagery to be processed. By default Mapbox is selected, in the drop-down list you can also select satellite images of the commercial providers. You can open your image through the additional options button."
-3* Zoom,Selecting the zoom for the Data source used. The zoom selector is available for all providers (for Imagery Search and My imagery the zoom is derived from the imagery itself)
+3* Zoom,"Selecting the zoom for the Data source used. Applies to basemap-style providers (e.g. Mapbox, ArcGIS mosaics, user-defined sources); not applied to My imagery and optical-type imagery from the search."
 3* Show preview,"A preview of your data source or, if it is not available, an OpenStreetMap basemap"
 4 AI Model,"Processing type. In the drop-down list, you can select the following processing types (default list of processing scenarios): Building Detection, Roads Detection, Forest Detection, Forest Detection With Heights, Construction Detection, Fields Detection."
 4* Your balance,Remaining area available for processing
