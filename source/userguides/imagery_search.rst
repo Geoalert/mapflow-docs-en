@@ -267,7 +267,7 @@ You can add a new AOI to an existing search, modify the geometry, or delete area
 |
 
 Using Mapflow Imagery Search in QGIS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Switch to the tab "Imagery Search". To start the search, set the dates and the product type filters ("Mosaic" – Imagery basemaps like ArcGIS or Global mosaic and/or "Images" - Satellite imagery archives)
 2. Set additional filters like a minimum intersection with your area of analysis.
@@ -291,3 +291,159 @@ Using Mapflow Imagery Search in QGIS
 
 .. seealso::
    👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery Search in Mapflow Web and QGIS plugin.
+
+Planned Search in QGIS
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Planned Search** is a recurring background search. You define the search area and parameters once, and Mapflow keeps looking for new imagery over that area - you will be notified when new images are found. The search runs in the background, so you can keep working with the plugin in the meantime, review the results at any time and start processing directly from them.
+
+Creating a planned search
+""""""""""""""""""""""""""
+
+1. Switch to the **Imagery Search** tab and set the area of interest: draw it on the map or select an existing polygon layer (for example, a GeoJSON file loaded into QGIS). If the layer has a ``name`` attribute, it will be used as the AOI name. AOI names can also be assigned or changed later.
+2. Set the search parameters: date range, cloud cover, off-nadir angle, minimum intersection, product types and providers.
+3. Specify the search name in the **Processing name** field.
+4. Open the **Search** button menu and choose **Plan search**.
+
+.. figure:: _static/planned_search_menu.png
+         :align: center
+         :class: with-border
+         :width: 18cm
+
+|
+
+The planned search is created and starts running in the background. It will keep looking for new imagery over the selected areas, and you will be notified when results are ready.
+
+The planned search appears in the **Processing** table with the workflow **"Planned"**. Its status reflects the search state:
+
+* **Searching** – the initial search is in progress;
+* **Created / Updated** – the search is active and being checked for new imagery (the number of new images, e.g. *Updated (3)*, is shown when there are any);
+* **Inactive** – the search is paused;
+* **Failed** – the search failed and can be restarted.
+
+.. figure:: _static/planned_search_table.png
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+.. note::
+   If the area of interest is too large for an immediate search, clicking **Search** will prompt you to create a planned search instead - the search area would take too long to process synchronously. Confirm with **Plan Search**, and the planned search will be created and run in the background.
+
+  .. figure:: _static/planned_search_prompt.png
+           :align: center
+           :class: with-border
+           :width: 11cm
+
+Opening a planned search
+"""""""""""""""""""""""""
+
+.. |right_arrow| image:: ../api/_static/qgis/right_arrow.png
+    :width: 0.7cm
+    :class: no-scaled-link
+
+Select the planned search in the **Processing** table and click the |right_arrow| navigation button (or double-click the row). The plugin enters the planned search view: the table now shows the search AOIs, each followed by the processings that were launched for it, and the **"No AOI"** group for processings not linked to any area.
+
+.. figure:: _static/planned_search_aois.png
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+The AOI rows show the aggregate status of their processings (*OK (n)*, *In progress*, *Failed*). On the map, the planned search is displayed in a dedicated group in the Layers panel — each AOI and its processings are grouped together, and processings not tied to any AOI appear on the map when you click them.
+
+.. figure:: _static/planned_search_map.png
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+Viewing the search results
+""""""""""""""""""""""""""""
+
+Open the planned search and switch to the **Imagery Search** tab. The table shows the images found for **all** AOIs of the planned search. To display results only for specific areas, select the corresponding AOI rows in the processings table - the results are updated automatically.
+
+New images are marked with the **(!)** sign. You can mark the selected new images as seen with the **Seen** button, or mark all of them with **Seen all** - the label will disappear.
+
+.. figure:: _static/planned_search_results.png
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+You can also adjust the search criteria of the existing planned search: change the filters (dates, cloud cover, off-nadir angle, intersection, providers) on the **Imagery Search** tab and click **Update search** — the new parameters are saved to the planned search, and the results are re-fetched with them. The results can be sorted by clicking the column headers.
+
+Running processing from the search results
+""""""""""""""""""""""""""""""""""""""""""""""
+
+Select one or several images in the results table and click **Start planned processing** - the processing will be launched from the selected imagery, linked to this planned search. The new processing appears in the processings table grouped under the AOI it intersects, and its footprint is displayed on the map.
+
+.. figure:: _static/planned_search_run_processing.gif
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+Managing the search AOIs
+""""""""""""""""""""""""""
+
+Select an AOI row and open the options menu (the "..." button next to *View results*):
+
+* **Rename AOI** – assign a new name to the area;
+* **Delete AOI** – remove the area from the search;
+* **Add AOI from layer…** – add new areas from polygon layers in your QGIS project (for example, a GeoJSON file);
+* **Draw AOI on the map** – draw a new area with the QGIS add-feature tool and save it;
+* **Update selected AOI** – edit the geometry of the area right on the map (move the vertices, then click **Save AOI**);
+* **Exclude from search** – remove the already processed area from the search AOI (available on a processing row): the footprint of the processing is subtracted from every AOI it intersects, so this area will no longer be searched for new imagery.
+
+.. figure:: _static/planned_search_aoi_menu.png
+         :align: center
+         :class: with-border
+         :width: 13cm
+
+|
+
+After any AOI change the search is updated, and the search results are synchronized accordingly. Take a look at AOI management in action:
+
+.. figure:: _static/planned_search_edit_aoi.gif
+         :align: center
+         :class: with-border
+         :width: 16cm
+
+|
+
+.. note::
+   **Exclude from search** is a convenient way to gradually free up the search from already processed areas whose search results you no longer need.
+
+  .. figure:: _static/planned_search_exclude.gif
+           :align: center
+           :class: with-border
+           :width: 13cm
+
+Pausing, resuming and restarting a planned search
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Select the planned search in the **Processing** table and open the options menu:
+
+* **Pause** – stops the background search: no more updates on newly found images, but the search results remain available and you can still run processing from them;
+* **Resume** – activates the paused search again;
+* **Restart** – re-runs the search that failed.
+
+.. figure:: _static/planned_search_menu_actions.png
+         :align: center
+         :class: with-border
+         :width: 13cm
+
+|
+
+Planned search limits
+"""""""""""""""""""""""""
+
+* If the search area is too large for an immediate search, you will be prompted to create a planned search automatically (see above).
+* On the free plan you cannot create a planned search larger than **1000 km²**.
+* On the free plan you can have up to **2 active** planned searches. If you exceed this limit, new searches can still be created, but they will be added in a **paused** state. Upgrade your plan to resume them and create new active searches.

@@ -99,6 +99,8 @@ The main window contains 5 tabs:
 
 This tab is divided into two parts. First, you will see a list of your projects. Here you can create, edit, and delete projects using the buttons at the bottom of the panel. Various sorting options and a search for a project by name are also available.
 
+Each project in the list is accompanied by its **State** column, which combines the counts of **succeeded** processings, **failed** processings and **planned** processings (Planned searches) using separate icons.
+
 .. figure:: _static/qgis/project_tab.png
          :alt: View of the project tab
          :align: center
@@ -201,10 +203,12 @@ In some cases, a button will appear next to the **Data provider**. You can use i
 2. Imagery search
 ~~~~~~~~~~~~~~~~~~~
 
+.. SCREENSHOT NEEDED: re-capture the Imagery Search tab to include the new "Off-Nadir" two-boundary slider in the "Additional filters" area
+
 .. figure:: _static/qgis/imagery_search_tab.png
          :alt: View of the imagery search tab
          :align: center
-         :width: 18cm
+         :width: 16cm
          :class: with-border
 
 |
@@ -227,6 +231,8 @@ In some cases, a button will appear next to the **Data provider**. You can use i
      - Use to set the minimum intersection rate between the image and the area of interest.
    * - Cloud cover
      - Use to set the minimum percentage of image cloudiness.
+   * - Off-Nadir
+     - Use the two-boundary slider to show only images within the selected off-nadir angle range (0–30°). Images outside the range are hidden from the results.
    * - Providers
      - Here you can select which providers will be searched.
    * - "Search only..."
@@ -435,6 +441,16 @@ Besides, you can create a new vector layer or add existing AOI into QGIS project
          :align: center
          :width: 15cm
          :class: with-border no-scaled-link
+
+.. note::
+   Before starting, the plugin checks the **area limits of your plan**: the bounding box of each AOI and the total processing area are verified, and if the limit is exceeded the *Start processing* button is blocked.
+
+   .. figure:: _static/qgis/bbox_limit.png
+            :align: center
+            :class: with-border
+            :width: 11cm
+
+            \* Dash line is the actual AOI bbox
 
 
 Use of commercial satellite imagery providers
