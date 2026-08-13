@@ -210,7 +210,7 @@ This tab allows you to select from:
 
 - Imagery providers
 - Custom URL
-- Historical data
+- Imagery Search
 
 .. _Imagery providers:
 
@@ -263,8 +263,8 @@ Here you can select one of the default providers that are available in Mapflow, 
 ..  * Set source image coordinate reference system (EPSG:3857 or EPSG:3395);
 ..  * Set the scale (Zoom), which will be processed. All Mapflow models have their recommended input resolution (see on the page :doc:`Model description <pipelines>`), but sometimes it can be useful to play around with the scales and compare the results;
 
-3.3 Historical data (Imagery Search)
-"""""""""""""""""""""""""""""""""""""
+3.3 Imagery Search
+""""""""""""""""""""""""""""""""""""""
 
 "Imagery search" allows Mapflow users to search for available satellite imagery over their area of analysis.
 It's powered by Mapflow API providing access to the global satellite data providers through our partners. 

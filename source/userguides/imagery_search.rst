@@ -22,7 +22,7 @@ Imagery providers supported for the account-based integration and search:
 .. _imagery-search-web:
 
 Using Imagery Search in Mapflow WEB
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/historical_data_tab.jpg
   :alt: Imagery search tab
@@ -77,14 +77,48 @@ Imagery provider types:
     If you try to use the image from the provider that is not connected to your account, you will see the corresponding warning *"The provider is not available for your account, you need to change the plan"*. 
     You need to subscribe to Mapflow Premium to be able to order commercial data providers. 
 
+.. _my-imagery-in-search:
 
-NEW! Scheduled Search updates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NEW! Search your own imagery (My Imagery)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the global satellite data providers, the Imagery Search also looks through your own imagery: the images and mosaics you uploaded to :ref:`My Imagery <My imagery main>`. You don't need to switch anywhere - your own data is searched automatically along with the external providers every time you click **Search Imagery**.
+
+.. figure:: _static/my_imagery_search_results.png
+  :alt: My Imagery in search results
+  :align: center
+  :width: 19cm
+  :class: with-border
+
+  Your imagery → right in the search results!
+
+To use it:
+
+1. Draw or upload the AOI that covers your imagery (see :ref:`Select AOI`).
+2. Set the search parameters as usual and click **Search Imagery**.
+3. In the results table, your own data is marked in the **Source** column:
+
+    - 🖼️ **My Image** - a single image uploaded to a mosaic;
+    - 🧩 **My Mosaic** - a whole mosaic (collection of images).
+
+.. note::
+   Your uploaded imagery usually has no acquisition metadata (date, cloud cover, off-nadir angle, resolution). Such cells are shown as "**-**" in the table, and the **Clouds** / **Off-Nadir** / **AOI/Scene intersection** filters do not hide your own imagery even if you tighten them.
+
+.. note::
+   Only the imagery with the *Ready* status is searchable. Images that are still uploading (*In progress*) or failed are not shown in the search results.
+
+You can select a "My Image" / "My Mosaic" result, preview it on the map and start the processing from it exactly like from any other search result:
+
+1. Click the row in the results table to select the image.
+2. Click **Save** and proceed to the processing settings - the selected imagery will be used as the source for the processing.
+
+Scheduled Search updates in Mapflow WEB
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
 
 How to create a scheduled search
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Draw or upload the areas of interest from the GeoJSON file, select all or only the necessary ones in the table. If your GeoJSON features contain the property "name", the AOI names will be automatically loaded into the table. You can also manually assign the aoi name in the edit mode (the "Edit" button in the AOI menu).
 
@@ -155,7 +189,7 @@ How to create a scheduled search
 |
 
 Viewing background search results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. |alert| image:: _static/alert_icon.png
   :width: 0.5cm
@@ -180,7 +214,7 @@ Now a background search will be launched in Mapflow and you will be notified whe
 
 
 Processings <> Scheduled Search
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Processing is launched in the same way as from :ref:`instant search <imagery-search-web>`:
 
@@ -216,7 +250,7 @@ Last one can be useful if you are already satisfied with the processed part of t
 
 
 Main operations with Scheduled Search
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/templates_menu.png
   :alt: Search menu
@@ -242,7 +276,7 @@ Main operations with Scheduled Search
 - **Delete** - Permanently deletes the search
 
 Modifying the AOI search
-~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can add a new AOI to an existing search, modify the geometry, or delete areas that have already been processed. After any AOI changes, you will need to confirm these changes. The search will be updated, and the **results will be synchronized** accordingly.
 
@@ -293,12 +327,12 @@ Using Mapflow Imagery Search in QGIS
    👉 See :ref:`Mapflow <> QGIS` for more information on how to use Imagery Search in Mapflow Web and QGIS plugin.
 
 Planned Search in QGIS
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 **Planned Search** is a recurring background search. You define the search area and parameters once, and Mapflow keeps looking for new imagery over that area - you will be notified when new images are found. The search runs in the background, so you can keep working with the plugin in the meantime, review the results at any time and start processing directly from them.
 
 Creating a planned search
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Switch to the **Imagery Search** tab and set the area of interest: draw it on the map or select an existing polygon layer (for example, a GeoJSON file loaded into QGIS). If the layer has a ``name`` attribute, it will be used as the AOI name. AOI names can also be assigned or changed later.
 2. Set the search parameters: date range, cloud cover, off-nadir angle, minimum intersection, product types and providers.
@@ -337,7 +371,7 @@ The planned search appears in the **Processing** table with the workflow **"Plan
            :width: 11cm
 
 Opening a planned search
-"""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. |right_arrow| image:: ../api/_static/qgis/right_arrow.png
     :width: 0.7cm
@@ -362,7 +396,7 @@ The AOI rows show the aggregate status of their processings (*OK (n)*, *In progr
 |
 
 Viewing the search results
-""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Open the planned search and switch to the **Imagery Search** tab. The table shows the images found for **all** AOIs of the planned search. To display results only for specific areas, select the corresponding AOI rows in the processings table - the results are updated automatically.
 
@@ -378,7 +412,7 @@ New images are marked with the **(!)** sign. You can mark the selected new image
 You can also adjust the search criteria of the existing planned search: change the filters (dates, cloud cover, off-nadir angle, intersection, providers) on the **Imagery Search** tab and click **Update search** — the new parameters are saved to the planned search, and the results are re-fetched with them. The results can be sorted by clicking the column headers.
 
 Running processing from the search results
-""""""""""""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Select one or several images in the results table and click **Start planned processing** - the processing will be launched from the selected imagery, linked to this planned search. The new processing appears in the processings table grouped under the AOI it intersects, and its footprint is displayed on the map.
 
@@ -390,7 +424,7 @@ Select one or several images in the results table and click **Start planned proc
 |
 
 Managing the search AOIs
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Select an AOI row and open the options menu (the "..." button next to *View results*):
 
@@ -426,7 +460,7 @@ After any AOI change the search is updated, and the search results are synchroni
            :width: 13cm
 
 Pausing, resuming and restarting a planned search
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Select the planned search in the **Processing** table and open the options menu:
 
@@ -442,7 +476,7 @@ Select the planned search in the **Processing** table and open the options menu:
 |
 
 Planned search limits
-"""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^
 
 * If the search area is too large for an immediate search, you will be prompted to create a planned search automatically (see above).
 * On the free plan you cannot create a planned search larger than **1000 km²**.

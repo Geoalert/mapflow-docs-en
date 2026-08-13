@@ -9,14 +9,14 @@ My Imagery & Data Providers
      1. **My imagery** – upload your own images to the Mapflow platform and use them for processing with Mapflow models.
      2. **Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox, ArcGIS, etc., are enabled in Mapflow for instant use. You can use them with default models.
      3. **Custom URL** – you can set your own XYZ or TMS layers, including custom data providers like :ref:`Nearmap <Nearmap_>`, etc. This is available in Mapflow Web, API and QGIS plugin.
-     4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place your order to get the images from our partners.
+     4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place your order to get the images from our partners. The search also looks through your own uploaded imagery, see :ref:`"Search your own imagery (My Imagery)" <my-imagery-in-search>` section.
 
 .. note::
      ❗️ You can use the tool called *My imagery* in :ref:`Mapflow Web <My imagery main>`, :ref:`Mapflow QGIS plugin <My imagery qgis>`, and :ref:`API <Data API>`.
 
 
 "My imagery" in QGIS
-----------------------
+---------------------
 
 "My imagery" allows you to collect images in separate *Imagery collections*. Using this service, users can easily manage their data collections, reuse images for the next processings and analysis with Mapflow models.
 
@@ -45,8 +45,8 @@ The basic scenario of working with "My imagery" service is as follows:
      Read how to use it in detail in :ref:`Mapflow QGIS plugin <My imagery qgis>`.
 
 
-"My imagery" Mapflow Web
--------------------------
+"My imagery" in Mapflow Web
+----------------------------
 
 The **My Imagery** page in Mapflow Web lets you manage your imagery collections (*mosaics*): create new collections, upload your own GeoTIFFs, preview them, monitor storage, and start a processing directly from an uploaded image. Open the page from the main menu of the Web app (see the interface overview in :doc:`get_started`).
 
