@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-08-06 13:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -570,3 +570,351 @@ msgid ""
 msgstr ""
 "👉 Consulte :ref:`Mapflow <> QGIS` para obtener más información sobre cómo "
 "usar la búsqueda de imágenes en Mapflow Web y el complemento QGIS."
+
+#: ../userguides/imagery_search.rst:296 6477415c91104bccb2fc39d3a833536a
+msgid "Planned Search in QGIS"
+msgstr "Búsqueda planificada en QGIS"
+
+#: ../userguides/imagery_search.rst:298 82d13ebca2444ad1a73adb37873ea9fc
+msgid ""
+"**Planned Search** is a recurring background search. You define the search "
+"area and parameters once, and Mapflow keeps looking for new imagery over "
+"that area - you will be notified when new images are found. The search runs "
+"in the background, so you can keep working with the plugin in the meantime, "
+"review the results at any time and start processing directly from them."
+msgstr ""
+"**Búsqueda planificada** es una búsqueda recurrente en segundo plano. Usted "
+"define el área de búsqueda y los parámetros una vez, y Mapflow sigue "
+"buscando nuevas imágenes en esa área; se le notificará cuando se encuentren "
+"nuevas imágenes. La búsqueda se ejecuta en segundo plano, por lo que puedes "
+"seguir trabajando con el complemento mientras tanto, revisar los resultados "
+"en cualquier momento y comenzar a procesar directamente desde ellos."
+
+#: ../userguides/imagery_search.rst:301 769a9dc1d95c4095a35ae69c49e1b798
+#, fuzzy
+msgid "Creating a planned search"
+msgstr "Cómo crear una búsqueda programada"
+
+#: ../userguides/imagery_search.rst:303 72238d6e8b32448ab13fb55a0cb3b1df
+msgid ""
+"Switch to the **Imagery Search** tab and set the area of interest: draw it "
+"on the map or select an existing polygon layer (for example, a GeoJSON file "
+"loaded into QGIS). If the layer has a ``name`` attribute, it will be used as"
+" the AOI name. AOI names can also be assigned or changed later."
+msgstr ""
+"Cambie a la pestaña **Búsqueda de imágenes** y establezca el área de "
+"interés: dibújela en el mapa o seleccione una capa de polígono existente "
+"(por ejemplo, un archivo GeoJSON cargado en QGIS). Si la capa tiene un "
+"atributo ``nombre``, se utilizará como nombre de AOI. Los nombres de las AOI"
+" también se pueden asignar o cambiar más adelante."
+
+#: ../userguides/imagery_search.rst:304 c1c8145ada2c4c599cdeaa83bee631dd
+msgid ""
+"Set the search parameters: date range, cloud cover, off-nadir angle, minimum"
+" intersection, product types and providers."
+msgstr ""
+"Establezca los parámetros de búsqueda: rango de fechas, cobertura de nubes, "
+"ángulo fuera del nadir, intersección mínima, tipos de productos y "
+"proveedores."
+
+#: ../userguides/imagery_search.rst:305 5cbb3705804447d5a6826f087fa5380e
+msgid "Specify the search name in the **Processing name** field."
+msgstr ""
+"Especifique el nombre de la búsqueda en el campo **Nombre de "
+"procesamiento**."
+
+#: ../userguides/imagery_search.rst:306 79cadbcfdda3457198feae9ce1a6abd2
+msgid "Open the **Search** button menu and choose **Plan search**."
+msgstr "Abra el menú del botón **Buscar** y elija **Planificar búsqueda**."
+
+#: ../userguides/imagery_search.rst:315 2298439f93324f9eb08f3b85fdcc42df
+msgid ""
+"The planned search is created and starts running in the background. It will "
+"keep looking for new imagery over the selected areas, and you will be "
+"notified when results are ready."
+msgstr ""
+"La búsqueda planificada se crea y comienza a ejecutarse en segundo plano. "
+"Seguirá buscando nuevas imágenes en las áreas seleccionadas y se le "
+"notificará cuando los resultados estén listos."
+
+#: ../userguides/imagery_search.rst:317 1871362899244b53b7a5f771130f0aea
+msgid ""
+"The planned search appears in the **Processing** table with the workflow "
+"**\"Planned\"**. Its status reflects the search state:"
+msgstr ""
+"La búsqueda planificada aparece en la tabla **Procesando** con el flujo de "
+"trabajo **\"Planificado\"**. Su estado refleja el estado de búsqueda:"
+
+#: ../userguides/imagery_search.rst:319 3aef5aaa0cc8456ea442dd56e3324e21
+msgid "**Searching** – the initial search is in progress;"
+msgstr "**Buscando**: la búsqueda inicial está en curso;"
+
+#: ../userguides/imagery_search.rst:320 0611c493ed4f434f94eaab32e4c86eb9
+msgid ""
+"**Created / Updated** – the search is active and being checked for new "
+"imagery (the number of new images, e.g. *Updated (3)*, is shown when there "
+"are any);"
+msgstr ""
+"**Creado/Actualizado**: la búsqueda está activa y se está verificando si hay"
+" nuevas imágenes (el número de imágenes nuevas, por ejemplo, *Actualizado "
+"(3)*, se muestra cuando hay alguna);"
+
+#: ../userguides/imagery_search.rst:321 8a289820dda646e09b2ba1b56907369f
+msgid "**Inactive** – the search is paused;"
+msgstr "**Inactivo** – la búsqueda está en pausa;"
+
+#: ../userguides/imagery_search.rst:322 b95632e4c5b44132b52d8a62b1f3bd3e
+msgid "**Failed** – the search failed and can be restarted."
+msgstr "**Error**: la búsqueda falló y se puede reiniciar."
+
+#: ../userguides/imagery_search.rst:332 d565dbb27b744a1c9b1a996a997fce30
+msgid ""
+"If the area of interest is too large for an immediate search, clicking "
+"**Search** will prompt you to create a planned search instead - the search "
+"area would take too long to process synchronously. Confirm with **Plan "
+"Search**, and the planned search will be created and run in the background."
+msgstr ""
+"Si el área de interés es demasiado grande para una búsqueda inmediata, al "
+"hacer clic en **Buscar** se le pedirá que cree una búsqueda planificada; el "
+"área de búsqueda tardaría demasiado en procesarse sincrónicamente. Confirme "
+"con **Planificar búsqueda** y la búsqueda planificada se creará y ejecutará "
+"en segundo plano."
+
+#: ../userguides/imagery_search.rst:340 2db6c7fbd260458389db35d150861d73
+#, fuzzy
+msgid "Opening a planned search"
+msgstr "Abrir una búsqueda programada"
+
+#: ../userguides/imagery_search.rst:342 2cba16d216394df38d291411ee9355b0
+#: 4e3287d9d4f7458fbd3926fbc619092a
+msgid "right_arrow"
+msgstr "flecha_derecha"
+
+#: ../userguides/imagery_search.rst:346 61d673abc81446eb8e2960709f97f008
+msgid ""
+"Select the planned search in the **Processing** table and click the "
+"|right_arrow| navigation button (or double-click the row). The plugin enters"
+" the planned search view: the table now shows the search AOIs, each followed"
+" by the processings that were launched for it, and the **\"No AOI\"** group "
+"for processings not linked to any area."
+msgstr ""
+"Seleccione la búsqueda planificada en la tabla **Procesando** y haga clic en"
+" la |flecha_derecha| botón de navegación (o haga doble clic en la fila). El "
+"complemento ingresa a la vista de búsqueda planificada: la tabla ahora "
+"muestra las AOI de búsqueda, cada una seguida de los procesamientos que se "
+"iniciaron para ella, y el grupo **\"Sin AOI\"** para los procesamientos no "
+"vinculados a ningún área."
+
+#: ../userguides/imagery_search.rst:355 882ff9ac48ef498389774bc69315e26c
+msgid ""
+"The AOI rows show the aggregate status of their processings (*OK (n)*, *In "
+"progress*, *Failed*). On the map, the planned search is displayed in a "
+"dedicated group in the Layers panel — each AOI and its processings are "
+"grouped together, and processings not tied to any AOI appear on the map when"
+" you click them."
+msgstr ""
+"Las filas AOI muestran el estado agregado de sus procesamientos (*OK (n)*, "
+"*En curso*, *Error*). En el mapa, la búsqueda planificada se muestra en un "
+"grupo dedicado en el panel Capas: cada AOI y sus procesamientos se agrupan, "
+"y los procesamientos que no están vinculados a ninguna AOI aparecen en el "
+"mapa cuando hace clic en ellos."
+
+#: ../userguides/imagery_search.rst:365 ceef41280df94044a940023e5fdff5a3
+#, fuzzy
+msgid "Viewing the search results"
+msgstr "Ver resultados de búsqueda en segundo plano"
+
+#: ../userguides/imagery_search.rst:367 dd0c7f3f16354c97b93b15727c364622
+msgid ""
+"Open the planned search and switch to the **Imagery Search** tab. The table "
+"shows the images found for **all** AOIs of the planned search. To display "
+"results only for specific areas, select the corresponding AOI rows in the "
+"processings table - the results are updated automatically."
+msgstr ""
+"Abra la búsqueda planificada y cambie a la pestaña **Búsqueda de imágenes**."
+" La tabla muestra las imágenes encontradas para **todas** las AOI de la "
+"búsqueda planificada. Para mostrar resultados solo para áreas específicas, "
+"seleccione las filas AOI correspondientes en la tabla de procesamientos; los"
+" resultados se actualizan automáticamente."
+
+#: ../userguides/imagery_search.rst:369 e68d1e6438794d74b208e1791eb55ce0
+msgid ""
+"New images are marked with the **(!)** sign. You can mark the selected new "
+"images as seen with the **Seen** button, or mark all of them with **Seen "
+"all** - the label will disappear."
+msgstr ""
+"Las imágenes nuevas están marcadas con el signo **(!)**. Puede marcar las "
+"nuevas imágenes seleccionadas como se ven con el botón **Visto**, o "
+"marcarlas todas con **Visto todo**; la etiqueta desaparecerá."
+
+#: ../userguides/imagery_search.rst:378 ae6ab374a8734704a718d4b8ad0ba8ae
+msgid ""
+"You can also adjust the search criteria of the existing planned search: "
+"change the filters (dates, cloud cover, off-nadir angle, intersection, "
+"providers) on the **Imagery Search** tab and click **Update search** — the "
+"new parameters are saved to the planned search, and the results are re-"
+"fetched with them. The results can be sorted by clicking the column headers."
+msgstr ""
+"También puede ajustar los criterios de búsqueda de la búsqueda planificada "
+"existente: cambie los filtros (fechas, cobertura de nubes, ángulo fuera del "
+"nadir, intersección, proveedores) en la pestaña **Búsqueda de imágenes** y "
+"haga clic en **Actualizar búsqueda**: los nuevos parámetros se guardan en la"
+" búsqueda planificada y los resultados se recuperan con ellos. Los "
+"resultados se pueden ordenar haciendo clic en los encabezados de las "
+"columnas."
+
+#: ../userguides/imagery_search.rst:381 83ad1a89549b44dab60d4eb14074e2f6
+msgid "Running processing from the search results"
+msgstr "Ejecución del procesamiento desde los resultados de la búsqueda"
+
+#: ../userguides/imagery_search.rst:383 b898485191274626868165a6eba70f76
+msgid ""
+"Select one or several images in the results table and click **Start planned "
+"processing** - the processing will be launched from the selected imagery, "
+"linked to this planned search. The new processing appears in the processings"
+" table grouped under the AOI it intersects, and its footprint is displayed "
+"on the map."
+msgstr ""
+"Seleccione una o varias imágenes en la tabla de resultados y haga clic en "
+"**Iniciar procesamiento planificado**: el procesamiento se iniciará a partir"
+" de las imágenes seleccionadas, vinculadas a esta búsqueda planificada. El "
+"nuevo procesamiento aparece en la tabla de procesamientos agrupado bajo el "
+"AOI que cruza y su huella se muestra en el mapa."
+
+#: ../userguides/imagery_search.rst:393 4bfc5cc342544525ba9f6ca1d63be4f4
+#, fuzzy
+msgid "Managing the search AOIs"
+msgstr "Pestaña de búsqueda de imágenes"
+
+#: ../userguides/imagery_search.rst:395 850e9dd2d5694f10beb82649c5ac3f58
+msgid ""
+"Select an AOI row and open the options menu (the \"...\" button next to "
+"*View results*):"
+msgstr ""
+"Seleccione una fila AOI y abra el menú de opciones (el botón \"...\" junto a"
+" *Ver resultados*):"
+
+#: ../userguides/imagery_search.rst:397 d7e2bbea92644303a16913bbff30df8d
+msgid "**Rename AOI** – assign a new name to the area;"
+msgstr "**Cambiar nombre de AOI**: asigna un nuevo nombre al área;"
+
+#: ../userguides/imagery_search.rst:398 9c826092dd2444a6876ad6b258dcecf5
+msgid "**Delete AOI** – remove the area from the search;"
+msgstr "**Eliminar AOI**: elimina el área de la búsqueda;"
+
+#: ../userguides/imagery_search.rst:399 e7354a7e8df9440c860c1412aebdaf29
+msgid ""
+"**Add AOI from layer…** – add new areas from polygon layers in your QGIS "
+"project (for example, a GeoJSON file);"
+msgstr ""
+"**Agregar AOI desde capa…** – agregue nuevas áreas desde capas de polígonos "
+"en su proyecto QGIS (por ejemplo, un archivo GeoJSON);"
+
+#: ../userguides/imagery_search.rst:400 8f46792a9889416e8cef54975a861b1a
+msgid ""
+"**Draw AOI on the map** – draw a new area with the QGIS add-feature tool and"
+" save it;"
+msgstr ""
+"**Dibujar AOI en el mapa**: dibuja una nueva área con la herramienta de "
+"funciones adicionales de QGIS y guárdala;"
+
+#: ../userguides/imagery_search.rst:401 536888b85e4742a3b3dfbd9723c2c5a9
+msgid ""
+"**Update selected AOI** – edit the geometry of the area right on the map "
+"(move the vertices, then click **Save AOI**);"
+msgstr ""
+"**Actualizar AOI seleccionada**: edite la geometría del área directamente en"
+" el mapa (mueva los vértices, luego haga clic en **Guardar AOI**);"
+
+#: ../userguides/imagery_search.rst:402 e1a1960d9a8840a1b1a66c126b85e8c4
+msgid ""
+"**Exclude from search** – remove the already processed area from the search "
+"AOI (available on a processing row): the footprint of the processing is "
+"subtracted from every AOI it intersects, so this area will no longer be "
+"searched for new imagery."
+msgstr ""
+"**Excluir de la búsqueda**: elimina el área ya procesada del AOI de búsqueda"
+" (disponible en una fila de procesamiento): la huella del procesamiento se "
+"resta de cada AOI que cruza, por lo que ya no se buscarán nuevas imágenes en"
+" esta área."
+
+#: ../userguides/imagery_search.rst:411 75297dd945ba4fbeb9c2847d5856f6ff
+msgid ""
+"After any AOI change the search is updated, and the search results are "
+"synchronized accordingly. Take a look at AOI management in action:"
+msgstr ""
+"Después de cualquier cambio de AOI, la búsqueda se actualiza y los "
+"resultados de la búsqueda se sincronizan en consecuencia. Eche un vistazo a "
+"la gestión de AOI en acción:"
+
+#: ../userguides/imagery_search.rst:421 1741e7e7d25a452a8cdf2a08b65f4b29
+msgid ""
+"**Exclude from search** is a convenient way to gradually free up the search "
+"from already processed areas whose search results you no longer need."
+msgstr ""
+"**Excluir de la búsqueda** es una manera conveniente de liberar gradualmente"
+" la búsqueda de áreas ya procesadas cuyos resultados de búsqueda ya no "
+"necesita."
+
+#: ../userguides/imagery_search.rst:429 a619d9ad3f8f4ca7af3fb96b47f0d882
+msgid "Pausing, resuming and restarting a planned search"
+msgstr "Pausar, reanudar y reiniciar una búsqueda planificada"
+
+#: ../userguides/imagery_search.rst:431 b4e27ed1e6af4b368595c8b30fd2cf21
+msgid ""
+"Select the planned search in the **Processing** table and open the options "
+"menu:"
+msgstr ""
+"Seleccione la búsqueda planificada en la tabla **Procesamiento** y abra el "
+"menú de opciones:"
+
+#: ../userguides/imagery_search.rst:433 fbbecca2e8744041bd1d241ac4a61293
+msgid ""
+"**Pause** – stops the background search: no more updates on newly found "
+"images, but the search results remain available and you can still run "
+"processing from them;"
+msgstr ""
+"**Pausa**: detiene la búsqueda en segundo plano: no hay más actualizaciones "
+"sobre las imágenes recién encontradas, pero los resultados de la búsqueda "
+"permanecen disponibles y aún puedes ejecutar el procesamiento desde ellos;"
+
+#: ../userguides/imagery_search.rst:434 bc7d572787d640878c9a33af4fcee3aa
+msgid "**Resume** – activates the paused search again;"
+msgstr "**Reanudar** – activa nuevamente la búsqueda pausada;"
+
+#: ../userguides/imagery_search.rst:435 a6f062d6c1834241a1e848d86c92e6a6
+msgid "**Restart** – re-runs the search that failed."
+msgstr "**Reiniciar**: vuelve a ejecutar la búsqueda que falló."
+
+#: ../userguides/imagery_search.rst:445 849c7d60116345f19bb1b0ca52e4701d
+#, fuzzy
+msgid "Planned search limits"
+msgstr "Resultados de búsqueda de imágenes"
+
+#: ../userguides/imagery_search.rst:447 7e4e0203039e480cb0c323ae759937b0
+msgid ""
+"If the search area is too large for an immediate search, you will be "
+"prompted to create a planned search automatically (see above)."
+msgstr ""
+"Si el área de búsqueda es demasiado grande para una búsqueda inmediata, se "
+"le pedirá que cree una búsqueda planificada automáticamente (ver arriba)."
+
+#: ../userguides/imagery_search.rst:448 d4a8a0515cc240619386e37ecf9b3d7e
+msgid ""
+"On the free plan you cannot create a planned search larger than **1000 "
+"km²**."
+msgstr ""
+"En el plan gratuito no puedes crear una búsqueda planificada de más de "
+"**1000 km²**."
+
+#: ../userguides/imagery_search.rst:449 65b458d6eb204b6d8d561a0ffae32004
+msgid ""
+"On the free plan you can have up to **2 active** planned searches. If you "
+"exceed this limit, new searches can still be created, but they will be added"
+" in a **paused** state. Upgrade your plan to resume them and create new "
+"active searches."
+msgstr ""
+"En el plan gratuito puedes tener hasta **2 búsquedas planificadas activas**."
+" Si excede este límite, aún se podrán crear nuevas búsquedas, pero se "
+"agregarán en estado **en pausa**. Actualiza tu plan para reanudarlas y crear"
+" nuevas búsquedas activas."

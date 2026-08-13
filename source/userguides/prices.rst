@@ -11,12 +11,19 @@ How to top up your balance
 In order to top up your balance go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.
 You will be asked to pay online.
 
-.. image:: _static/topup.png
-   :alt: Top up your balance
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-|
+.. note::
+   Depending on your planned project scope, you can either subscribe to the Mapflow Premium plan or buy credits with pay-as-you-go pricing. You can also contact sales to switch to a custom plan if you have a large-scale project. Note, that the expiration date is displayed in your account profile in the corresponding plan.
+   If you cancel your Premium subscription or it's expired, your account is downgraded to Pay-as-you-go.
+
+   .. image:: _static/billing_plans.jpg
+      :alt: Top up your balance
+      :align: center
+      :width: 25cm
+
+   1. Top up your balance with credits
+   2. Subscribe to the Mapflow Premium or Starter plan
+   3. Expiration date of your subscription plan
+
 
 .. _credits:
 

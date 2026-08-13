@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-06 13:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -292,11 +292,23 @@ msgstr ""
 "Опрашивает и сообщает о состоянии выполняемой обработки, чтобы пользователь "
 "был в курсе событий."
 
-#: ../userguides/mapflow_agent.rst:84 6101b71940484f76b12eb4ad27bb850d
+#: ../userguides/mapflow_agent.rst:81 fd4dc9428d2c40c0bcbbb38cc43684b9
+msgid "``upload_image``"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:82 cf615ba5baf1460f8e075d2cd9b5bf90
+msgid ""
+"Uploads an image to be stored in the user's My Imagery collection and used "
+"as an input for processing."
+msgstr ""
+"Загружает изображение, которое будет сохранено в пользовательской коллекции "
+"«Мои изображения» и использовано в качестве входных данных для обработки."
+
+#: ../userguides/mapflow_agent.rst:86 6101b71940484f76b12eb4ad27bb850d
 msgid "Example interaction"
 msgstr "Пример взаимодействия"
 
-#: ../userguides/mapflow_agent.rst:86 628a7dd132cf470489cb855fc8fc738f
+#: ../userguides/mapflow_agent.rst:88 628a7dd132cf470489cb855fc8fc738f
 msgid ""
 "A typical conversation with the agent follows the pattern below. The agent's"
 " tool calls are noted in italics for illustration only — they are not "
@@ -306,11 +318,15 @@ msgstr ""
 "инструментов агента выделены курсивом только для иллюстрации — они не видны "
 "в пользовательском интерфейсе чата."
 
-#: ../userguides/mapflow_agent.rst:115 1716c9c5cf034203a5c4351d32e03769
+#: ../userguides/mapflow_agent.rst:117 5e54baac06394303ac77ffe9d3d89be0
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/mapflow_agent.rst:120 1716c9c5cf034203a5c4351d32e03769
 msgid "Buffering an AOI"
 msgstr "Буферизация AOI"
 
-#: ../userguides/mapflow_agent.rst:117 136a459b86dc4131a90891b1d5459256
+#: ../userguides/mapflow_agent.rst:122 136a459b86dc4131a90891b1d5459256
 msgid ""
 "When the user gives the agent a point location or a small geometry, the "
 "agent can expand it into a usable AOI with ``buffer_aoi``. The animation "
@@ -324,20 +340,36 @@ msgstr ""
 msgid "Agent creating a buffer around an AOI"
 msgstr "Агент создает буфер вокруг AOI"
 
-#: ../userguides/mapflow_agent.rst:129 1b8ce3c55dbf409bbcfbf5df91c29999
+#: ../userguides/mapflow_agent.rst:133 070a93ce6c5a495b97d992228b0a0131
+msgid "Uploading an image"
+msgstr "Загрузка изображения"
+
+#: ../userguides/mapflow_agent.rst:135 f41fc0f86b24439d883bddd42640c0cb
+msgid ""
+"The agent can accept an image upload from the user and use it as an input "
+"for processing. Drop an image into the chat window, and the agent will store"
+" it in your :ref:`My Imagery <My imagery main>` collection and select it for"
+" the processing:"
+msgstr ""
+
+#: 1a15129cf12c4a93a753572c3feaaf15
+msgid "Agent handling an image upload"
+msgstr ""
+
+#: ../userguides/mapflow_agent.rst:146 1b8ce3c55dbf409bbcfbf5df91c29999
 msgid "Related guides"
 msgstr "Связанные руководства"
 
-#: ../userguides/mapflow_agent.rst:131 d155d87bad2a4eddaed9bb3c0d431564
+#: ../userguides/mapflow_agent.rst:148 d155d87bad2a4eddaed9bb3c0d431564
 msgid ""
 ":ref:`imagery-agent-instructions` — the detailed decision logic the agent "
 "applies when searching for and recommending imagery."
 msgstr ""
 
-#: ../userguides/mapflow_agent.rst:132 199f8769adf74cfbbab4c26846e5f19c
+#: ../userguides/mapflow_agent.rst:149 199f8769adf74cfbbab4c26846e5f19c
 msgid ":doc:`get_started` — manual project and processing creation."
 msgstr ""
 
-#: ../userguides/mapflow_agent.rst:133 59597e16acbe43dba7cbcf25f4184a76
+#: ../userguides/mapflow_agent.rst:150 59597e16acbe43dba7cbcf25f4184a76
 msgid ":doc:`pipelines` — overview of available AI models and workflows."
 msgstr ""

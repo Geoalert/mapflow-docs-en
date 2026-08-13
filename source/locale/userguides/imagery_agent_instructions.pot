@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-08-06 13:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,8 +142,8 @@ msgid "Guide the upload:"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:79
-#: 770e81a4584a47318787aa7c6169497e
-msgid "**Web app:** The user uploads a GeoTIFF file, then draws or uploads an AOI (or uses \"Use Image Extent\")."
+#: 0c87756b4a9c4072919c6f3a0411aeb0
+msgid "**Web app:** On the **My Imagery** page, the user creates a mosaic, uploads a GeoTIFF into it, and waits until the image status becomes *Ready*. Then they click **\"Use in new processing\"** button, select a project (or create one with **\"+ New project\"**), and draw or upload an AOI (or click **\"Use Image Extent\"**). Users clicks **\"Save\"** to continue with the AI model parameters and starts processing. See :ref:`My imagery main` for the full workflow."
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:80

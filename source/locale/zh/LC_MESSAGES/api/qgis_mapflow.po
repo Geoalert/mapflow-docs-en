@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-06 13:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -166,7 +166,7 @@ msgid "# Name of the field / button"
 msgstr "# 字段/按钮的名称"
 
 #: ../api/_static/qgis/processing_controls_panel.csv:1
-#: ../api/qgis_mapflow.rst:217 ../api/qgis_mapflow.rst:565
+#: ../api/qgis_mapflow.rst:221 ../api/qgis_mapflow.rst:581
 #: 0b516d258b91401c9476f83df55f4361 3e36d4b55d84426f84809f4683f97fdb
 msgid "Description"
 msgstr "描述"
@@ -212,11 +212,13 @@ msgid "3* Zoom"
 msgstr "3* 变焦"
 
 #: ../api/_static/qgis/processing_controls_panel.csv:1
-#: abfad0e4d0b34524a03e6c1e392011ee
+#: 207a69ce94494f97bff576a6795b7870
 msgid ""
-"Selecting the zoom for the Data source used (currently not available in the "
-"public version)"
-msgstr "选择所使用的数据源的缩放（当前在公共版本中不可用）"
+"Selecting the zoom for the Data source used. Applies to basemap-style "
+"providers (e.g. Mapbox, ArcGIS mosaics, user-defined sources); not applied "
+"to My imagery and optical-type imagery from the search."
+msgstr ""
+"选择所使用的数据源的缩放。适用于底图样式提供程序（例如 Mapbox、ArcGIS 马赛克、用户定义源）；不适用于搜索中的“我的图像”和光学类型图像。"
 
 #: ../api/_static/qgis/processing_controls_panel.csv:1
 #: 5597f305ce93466380c9a2f68e3bebdd
@@ -322,44 +324,51 @@ msgid ""
 "project by name are also available."
 msgstr "该选项卡分为两部分。首先，您将看到您的项目列表。您可以在此处使用面板底部的按钮创建、编辑和删除项目。还提供各种排序选项和按名称搜索项目。"
 
-#: ../api/qgis_mapflow.rst:108 f33fdf90f36e4ec39a0545f5961a4290
+#: ../api/qgis_mapflow.rst:102 1d12028d5f744e0590ac8dbc9f1d54a9
+msgid ""
+"Each project in the list is accompanied by its **State** column, which "
+"combines the counts of **succeeded** processings, **failed** processings and"
+" **planned** processings (Planned searches) using separate icons."
+msgstr "列表中的每个项目都附有其**状态**列，该列使用单独的图标组合了**成功**处理、**失败**处理和**计划**处理（计划搜索）的计数。"
+
+#: ../api/qgis_mapflow.rst:110 f33fdf90f36e4ec39a0545f5961a4290
 msgid "View of the project tab"
 msgstr "项目选项卡的视图"
 
-#: ../api/qgis_mapflow.rst:108 e45a576e33ac409ca3b83b23269e71e7
+#: ../api/qgis_mapflow.rst:110 e45a576e33ac409ca3b83b23269e71e7
 msgid "Project tab"
 msgstr "项目选项卡"
 
-#: ../api/qgis_mapflow.rst:110 0c817341366e42dbbc9c2e5d2f2a3837
+#: ../api/qgis_mapflow.rst:112 0c817341366e42dbbc9c2e5d2f2a3837
 msgid "right_arrow"
 msgstr "右箭头"
 
-#: ../api/qgis_mapflow.rst:114 0c817341366e42dbbc9c2e5d2f2a3837
+#: ../api/qgis_mapflow.rst:116 0c817341366e42dbbc9c2e5d2f2a3837
 msgid "left_arrow"
 msgstr "左箭头"
 
-#: ../api/qgis_mapflow.rst:118 014163db74f44bf38fccfe15e5fb5e69
+#: ../api/qgis_mapflow.rst:120 014163db74f44bf38fccfe15e5fb5e69
 msgid ""
 "To go to the processing of the selected project, you need to double-click on"
 " it or select the project and click on |right_arrow|. To return to the list "
 "of projects, click |left_arrow|."
 msgstr "要转到所选项目的处理，您需要双击该项目或选择该项目并单击 |right_arrow|。要返回项目列表，请单击 |left_arrow|。"
 
-#: ../api/qgis_mapflow.rst:121 bb7f465d22924c98ab8ebcf688948b3f
+#: ../api/qgis_mapflow.rst:123 bb7f465d22924c98ab8ebcf688948b3f
 msgid ""
 "Since plugin version 3.3.0, the processing :ref:`API v2.0 <processing-"
 "api-v2>` is used."
 msgstr "从插件版本 3.3.0 开始，使用处理 API v2.0 <processing-api-v2>`。"
 
-#: ../api/qgis_mapflow.rst:129 22ac1897eefb42728d4095c0922c6f40
+#: ../api/qgis_mapflow.rst:131 22ac1897eefb42728d4095c0922c6f40
 msgid "View of the processing tab"
 msgstr "处理选项卡视图"
 
-#: ../api/qgis_mapflow.rst:129 e6eb23d7ff6d46e194719eba82285b21
+#: ../api/qgis_mapflow.rst:131 e6eb23d7ff6d46e194719eba82285b21
 msgid "Processing tab"
 msgstr "加工选项卡"
 
-#: ../api/qgis_mapflow.rst:131 299dca3c272843d290ce32ffd2521992
+#: ../api/qgis_mapflow.rst:133 299dca3c272843d290ce32ffd2521992
 msgid ""
 "To view the processing results, click on the \"View results\" button or "
 "double-click on the processing name in the table. You can manage the "
@@ -369,7 +378,7 @@ msgid ""
 msgstr ""
 "要查看处理结果，请单击“查看结果”按钮或双击表中的处理名称。您可以使用底部面板菜单中的选项和按钮（删除、重命名、保存结果等）来管理处理。面板顶部可以按名称处理过滤器。"
 
-#: ../api/qgis_mapflow.rst:134 5c9de0e9398341f388a4409b1f9f8843
+#: ../api/qgis_mapflow.rst:136 5c9de0e9398341f388a4409b1f9f8843
 msgid ""
 "Just like in Mapflow WEB, you can duplicate the selected processing and run "
 "a copy of it with the same parameters via \"Duplicate\" buttonThe duplicated"
@@ -379,20 +388,20 @@ msgstr ""
 "就像在 Mapflow WEB 中一样，您可以通过“复制”按钮复制所选处理并使用相同的参数运行其副本。复制的处理将具有新的唯一 "
 "ID，但名称将与原始处理相同。您可以使用“重命名”按钮对其进行重命名。"
 
-#: ../api/qgis_mapflow.rst:137 8e0fbe654ffb4a1a99e68b68a68bd541
+#: ../api/qgis_mapflow.rst:139 8e0fbe654ffb4a1a99e68b68a68bd541
 msgid ""
 "If the processing fails, you can restart it using the \"Restart\" button "
 "after the issue is supposed to be resolved (The button is displayed in the "
 "menu only if the selected processing is in a FAILED status)."
 msgstr "如果处理失败，您可以在问题解决后使用“重新启动”按钮重新启动它（仅当所选处理处于“失败”状态时，该按钮才会显示在菜单中）。"
 
-#: ../api/qgis_mapflow.rst:140 55f660e4903941029d8629b2d4ee41f5
+#: ../api/qgis_mapflow.rst:142 55f660e4903941029d8629b2d4ee41f5
 msgid ""
 "⬇️ To download the processing results, you can double-click on the completed"
 " processing in the list."
 msgstr "⬇️ 要下载处理结果，可以双击列表中已完成的处理。"
 
-#: ../api/qgis_mapflow.rst:143 91b23ce02d7046dba0e975fbb461e190
+#: ../api/qgis_mapflow.rst:145 91b23ce02d7046dba0e975fbb461e190
 msgid ""
 "⬇️ By default the processing results are downloadable as vector tiles for "
 "faster preview.  To download the processing results as a file you have to "
@@ -400,7 +409,7 @@ msgid ""
 msgstr ""
 "⬇️ 默认情况下，处理结果可以作为矢量图块下载，以便更快地预览。  要将处理结果下载为文件，您必须选择此选项：设置 - “将结果保存为本地矢量文件”"
 
-#: ../api/qgis_mapflow.rst:145 36603e1c11e34a9eacc36c18e83dcbfa
+#: ../api/qgis_mapflow.rst:147 36603e1c11e34a9eacc36c18e83dcbfa
 msgid ""
 "To view detailed information about a processing, click \"See details\". The "
 "window that opens will display the processing's **Name**, **ID** and "
@@ -413,15 +422,15 @@ msgstr ""
 "**数据提供者**、**模型** 和 "
 "**模型选项**。在某些情况下，**数据提供者**旁边会出现一个按钮。您可以使用它直接转到数据源，例如，转到“我的图像”集合或特定图像。"
 
-#: ../api/qgis_mapflow.rst:154 2523273a789c43e98d42e9211b5af442
+#: ../api/qgis_mapflow.rst:156 2523273a789c43e98d42e9211b5af442
 msgid "View of the see details window"
 msgstr "查看详细信息窗口的视图"
 
-#: ../api/qgis_mapflow.rst:154 d40260fd1ca4447889f6438a899c6027
+#: ../api/qgis_mapflow.rst:156 d40260fd1ca4447889f6438a899c6027
 msgid "Processing details"
 msgstr "加工细节"
 
-#: ../api/qgis_mapflow.rst:202 ac0168b8ec4e437887dc099e68339081
+#: ../api/qgis_mapflow.rst:204 ac0168b8ec4e437887dc099e68339081
 msgid "2. Imagery search"
 msgstr "2.图像搜索"
 
@@ -429,117 +438,127 @@ msgstr "2.图像搜索"
 msgid "View of the imagery search tab"
 msgstr "图像搜索选项卡的视图"
 
-#: ../api/qgis_mapflow.rst:216 ../api/qgis_mapflow.rst:564
+#: ../api/qgis_mapflow.rst:220 ../api/qgis_mapflow.rst:580
 #: dacf3e4e2c5945e48d4944bd00cca9e7
 msgid "Name of the field / button"
 msgstr "字段/按钮的名称"
 
-#: ../api/qgis_mapflow.rst:218 3d0dcd5ec3874ec7b32e513f1bb2fd4c
+#: ../api/qgis_mapflow.rst:222 3d0dcd5ec3874ec7b32e513f1bb2fd4c
 msgid "Period of time (From...To)"
 msgstr "时间段（从...到）"
 
-#: ../api/qgis_mapflow.rst:219 d21cf942d25a4857bc97dd5ed1204079
+#: ../api/qgis_mapflow.rst:223 d21cf942d25a4857bc97dd5ed1204079
 msgid "The images will be provided for the specified time period."
 msgstr "将在指定时间段内提供图像。"
 
-#: ../api/qgis_mapflow.rst:220 fe6705f23ec4470199948af95ffacc03
+#: ../api/qgis_mapflow.rst:224 fe6705f23ec4470199948af95ffacc03
 msgid "Mosaic"
 msgstr "马赛克"
 
-#: ../api/qgis_mapflow.rst:221 aaa66d7b26e641599211485c0a3e3c3b
+#: ../api/qgis_mapflow.rst:225 aaa66d7b26e641599211485c0a3e3c3b
 msgid ""
 "The search will be performed only for providers with the \"Mosaic\" type "
 "(ArcGIS World Imagery, Global mosaic 2022)."
 msgstr "仅对“Mosaic”类型的提供者执行搜索（ArcGIS World Imagery、Globalmosaic 2022）。"
 
-#: ../api/qgis_mapflow.rst:222 3d2520264bdb4c0aa3a6ab7dc5c515e4
+#: ../api/qgis_mapflow.rst:226 3d2520264bdb4c0aa3a6ab7dc5c515e4
 msgid "Image"
 msgstr "图像"
 
-#: ../api/qgis_mapflow.rst:223 66b5a7daf6404a33bf7eb7ca2bbd3d43
+#: ../api/qgis_mapflow.rst:227 66b5a7daf6404a33bf7eb7ca2bbd3d43
 msgid ""
 "The search will be performed only for providers with the \"Image\" type "
 "(Orbview)."
 msgstr "仅对“图像”类型 (Orbview) 的提供者执行搜索。"
 
-#: ../api/qgis_mapflow.rst:224 1ade205820ad4d359f4138b8843f17b8
+#: ../api/qgis_mapflow.rst:228 1ade205820ad4d359f4138b8843f17b8
 msgid "Search"
 msgstr "搜索"
 
-#: ../api/qgis_mapflow.rst:225 aec87ab4e40b43278ebc1d5f2eb69906
+#: ../api/qgis_mapflow.rst:229 aec87ab4e40b43278ebc1d5f2eb69906
 msgid ""
 "Use to collect metadata for the selected area. After clicking it, a list "
 "will be shown with all images intersecting your area."
 msgstr "用于收集选定区域的元数据。单击它后，将显示一个列表，其中包含与您所在区域相交的所有图像。"
 
-#: ../api/qgis_mapflow.rst:226 cd1d4834359c4c878b06c93bf0051930
+#: ../api/qgis_mapflow.rst:230 cd1d4834359c4c878b06c93bf0051930
 msgid "Min intersection"
 msgstr "最小交叉路口"
 
-#: ../api/qgis_mapflow.rst:227 281f7cf58c7d4ccb9c1a97ed86217c56
+#: ../api/qgis_mapflow.rst:231 281f7cf58c7d4ccb9c1a97ed86217c56
 msgid ""
 "Use to set the minimum intersection rate between the image and the area of "
 "interest."
 msgstr "用于设置图像和感兴趣区域之间的最小交叉率。"
 
-#: ../api/qgis_mapflow.rst:228 52d8701fe4bc40f38f2eab4cac7e8588
+#: ../api/qgis_mapflow.rst:232 52d8701fe4bc40f38f2eab4cac7e8588
 msgid "Cloud cover"
 msgstr "云层覆盖"
 
-#: ../api/qgis_mapflow.rst:229 03a0f734913a4605bd144a30b94612ba
+#: ../api/qgis_mapflow.rst:233 03a0f734913a4605bd144a30b94612ba
 msgid "Use to set the minimum percentage of image cloudiness."
 msgstr "用于设置图像浑浊度的最小百分比。"
 
-#: ../api/qgis_mapflow.rst:230 294d2c379ee044edb804b7ca2793b01f
+#: ../api/qgis_mapflow.rst:234 8d9a8b99afb24cd3835fefc423f231e8
+msgid "Off-Nadir"
+msgstr "离最低点"
+
+#: ../api/qgis_mapflow.rst:235 9836e66a43f84ff3a803d711f309f7a4
+msgid ""
+"Use the two-boundary slider to show only images within the selected off-"
+"nadir angle range (0–30°). Images outside the range are hidden from the "
+"results."
+msgstr "使用两边界滑块仅显示所选偏离最低点角度范围 (0–30°) 内的图像。范围之外的图像将从结果中隐藏。"
+
+#: ../api/qgis_mapflow.rst:236 294d2c379ee044edb804b7ca2793b01f
 msgid "Providers"
 msgstr "供应商"
 
-#: ../api/qgis_mapflow.rst:231 4fbd1f2cf9da4769aa53a9830c1fa089
+#: ../api/qgis_mapflow.rst:237 4fbd1f2cf9da4769aa53a9830c1fa089
 msgid "Here you can select which providers will be searched."
 msgstr "您可以在此处选择要搜索的提供商。"
 
-#: ../api/qgis_mapflow.rst:232 bbfd9e5c52c445c9a6f8a31596ca1194
+#: ../api/qgis_mapflow.rst:238 bbfd9e5c52c445c9a6f8a31596ca1194
 msgid "\"Search only...\""
 msgstr "“仅搜索……”"
 
-#: ../api/qgis_mapflow.rst:233 366e5cd9a77540688085e6b48962e97b
+#: ../api/qgis_mapflow.rst:239 366e5cd9a77540688085e6b48962e97b
 msgid ""
 "The search results will show only those providers that are connected to your"
 " account."
 msgstr "搜索结果将仅显示那些连接到您帐户的提供商。"
 
-#: ../api/qgis_mapflow.rst:234 1924f4cd078d4b70881a5f434fff3b8f
+#: ../api/qgis_mapflow.rst:240 1924f4cd078d4b70881a5f434fff3b8f
 msgid "Preview"
 msgstr "预览"
 
-#: ../api/qgis_mapflow.rst:235 c45596aa526f4e26914af9beba4e7811
+#: ../api/qgis_mapflow.rst:241 c45596aa526f4e26914af9beba4e7811
 msgid ""
 "Click this column to preview the specified satellite imagery by geospatial "
 "provider."
 msgstr "单击此列可预览地理空间提供商指定的卫星图像。"
 
-#: ../api/qgis_mapflow.rst:236 c726b1bd851640fab864d4a1e40411e6
+#: ../api/qgis_mapflow.rst:242 c726b1bd851640fab864d4a1e40411e6
 msgid "Clear"
 msgstr "清除"
 
-#: ../api/qgis_mapflow.rst:237 fa34d267c2104679a745ca372b7cbd52
+#: ../api/qgis_mapflow.rst:243 fa34d267c2104679a745ca372b7cbd52
 msgid "Deletes all search results from the table."
 msgstr "从表中删除所有搜索结果。"
 
-#: ../api/qgis_mapflow.rst:240 7d4e3b15393a482aa0f28c624919fea6
+#: ../api/qgis_mapflow.rst:246 7d4e3b15393a482aa0f28c624919fea6
 msgid "Read more about :ref:`Imagery search <Imagery search  main>`."
 msgstr "阅读有关 :ref:`图像搜索 <图像搜索主>` 的更多信息。"
 
-#: ../api/qgis_mapflow.rst:244 6f47d343c3724f88b5ccbfec4117871d
+#: ../api/qgis_mapflow.rst:250 6f47d343c3724f88b5ccbfec4117871d
 msgid "How to preview the search results"
 msgstr "如何预览搜索结果"
 
-#: ../api/qgis_mapflow.rst:246 5be96d45e08c42dbaa12dbc6a2c11527
-#: b825e05c1796423bbd471a806933c9b2
+#: ../api/qgis_mapflow.rst:252 5be96d45e08c42dbaa12dbc6a2c11527
 msgid "preview"
 msgstr "预览"
 
-#: ../api/qgis_mapflow.rst:249 dba3e8fca765463a892ea2d96cebd4ef
+#: ../api/qgis_mapflow.rst:255 dba3e8fca765463a892ea2d96cebd4ef
 msgid ""
 "Imagery search provides the ability to preview search results with a double-"
 "click on a row in a table. You cannot open previews of certain specific "
@@ -550,21 +569,21 @@ msgstr ""
 "图像搜索提供了通过双击表中的行来预览搜索结果的功能。您无法打开某些数据源（例如 ArcGIS World "
 "Imagery）的某些特定部分的预览，但您可以启用整个源的预览！为此，请在左侧控制面板中选择所需的提供程序，然后单击“预览”按钮|预览|。"
 
-#: ../api/qgis_mapflow.rst:261 cde378e059fb42a7a3a88f15d38e28f6
+#: ../api/qgis_mapflow.rst:267 cde378e059fb42a7a3a88f15d38e28f6
 msgid "3. My imagery"
 msgstr "3.我的意象"
 
-#: ../api/qgis_mapflow.rst:263 5bcd35be60314ba7ac5abaa15f5fa6bf
+#: ../api/qgis_mapflow.rst:269 5bcd35be60314ba7ac5abaa15f5fa6bf
 msgid ""
 "To upload you images and process multiple images in a one shot you can use "
 "\"My imagery\" tool available in Mapflow QGIS."
 msgstr "要上传图像并一次性处理多个图像，您可以使用 Mapflow QGIS 中提供的“我的图像”工具。"
 
-#: ../api/qgis_mapflow.rst:265 7f844827135842c5b3403ca3ed261267
+#: ../api/qgis_mapflow.rst:271 7f844827135842c5b3403ca3ed261267
 msgid "**The main scenario of working with My imagery in QGIS:**"
 msgstr "**在 QGIS 中使用“我的影像”的主要场景：**"
 
-#: ../api/qgis_mapflow.rst:274 1d8a841de12c4a42b9dbabfa9d0c8aa9
+#: ../api/qgis_mapflow.rst:280 1d8a841de12c4a42b9dbabfa9d0c8aa9
 msgid "**Main interface:**"
 msgstr "**主界面：**"
 
@@ -572,64 +591,64 @@ msgstr "**主界面：**"
 msgid "My imagery main"
 msgstr "我的图像主要"
 
-#: ../api/qgis_mapflow.rst:285 8e3799680eeb40cfa12ca4bc2b000f94
+#: ../api/qgis_mapflow.rst:291 8e3799680eeb40cfa12ca4bc2b000f94
 msgid "How to run the processing using My imagery"
 msgstr "如何使用“我的图像”运行处理"
 
-#: ../api/qgis_mapflow.rst:287 8a566e5297934e9aa0bf9bc329151b4d
+#: ../api/qgis_mapflow.rst:293 8a566e5297934e9aa0bf9bc329151b4d
 msgid ""
 "Create the Imagery collection by clicking \"Add collection\" (You can upload"
 " your image to it instantly or do it in the next step.);"
 msgstr "通过单击“添加集合”创建图像集合（您可以立即将图像上传到其中或在下一步中执行。）；"
 
-#: ../api/qgis_mapflow.rst:288 2f9a21bf7eba48bcb286b0f5269c47db
+#: ../api/qgis_mapflow.rst:294 2f9a21bf7eba48bcb286b0f5269c47db
 msgid ""
 "Upload your images into collection, click \"+\" on selected collection and "
 "choose the way of uploading - you can choose from the file on your device or"
 " from QGIS raster layer;"
 msgstr "将您的图像上传到集合中，在所选集合上单击“+”并选择上传方式 - 您可以从设备上的文件或QGIS栅格图层中选择；"
 
-#: ../api/qgis_mapflow.rst:289 c4f607dcec294ae684c1d175fad0f30f
+#: ../api/qgis_mapflow.rst:295 c4f607dcec294ae684c1d175fad0f30f
 msgid ""
 "Now you can preview the whole Imagery collection (QGIS tile layer will be "
 "added);"
 msgstr "现在您可以预览整个图像集合（将添加 QGIS 平铺图层）；"
 
-#: ../api/qgis_mapflow.rst:290 a06c5f4badb4444bbe011278686c18a6
+#: ../api/qgis_mapflow.rst:296 a06c5f4badb4444bbe011278686c18a6
 msgid ""
 "See the uploaded images and preview them one at a time (QGIS tile layer will"
 " be added):"
 msgstr "查看上传的图像并一次预览它们（将添加 QGIS 平铺图层）："
 
-#: ../api/qgis_mapflow.rst:299 0c013f7258e8449dad2f1e637ba64b1a
+#: ../api/qgis_mapflow.rst:305 0c013f7258e8449dad2f1e637ba64b1a
 msgid ""
 "To run the processing, select the collection or a single image you need. "
 "Choose custom AOI or collection/image extent through the \"+\" button;"
 msgstr "要运行处理，请选择所需的集合或单个图像。通过“+”按钮选择自定义 AOI 或集合/图像范围；"
 
-#: ../api/qgis_mapflow.rst:302 d1caeec6ac7a490e94c23f989fd3aae9
+#: ../api/qgis_mapflow.rst:308 d1caeec6ac7a490e94c23f989fd3aae9
 msgid "Selecting Collection or Image extent as a processing AOI:"
 msgstr "选择集合或图像范围作为处理 AOI："
 
-#: ../api/qgis_mapflow.rst:315 df4c6240577a406ab0c560bfeff99d4b
+#: ../api/qgis_mapflow.rst:321 df4c6240577a406ab0c560bfeff99d4b
 msgid "Example of processing by Imagery collection"
 msgstr "图像采集处理示例"
 
-#: ../api/qgis_mapflow.rst:319 1661e713f3524efc8afb8c721cf57e91
+#: ../api/qgis_mapflow.rst:325 1661e713f3524efc8afb8c721cf57e91
 msgid "Click \"Start processing\"."
 msgstr "单击“开始处理”。"
 
-#: ../api/qgis_mapflow.rst:322 9e34e23e147b4d4db389d5847d3c8734
+#: ../api/qgis_mapflow.rst:328 9e34e23e147b4d4db389d5847d3c8734
 msgid ""
 "You can delete your images from the Imagery collections one at a time or "
 "using multiselect:"
 msgstr "您可以从图像集合中一次删除一张图像或使用多项选择："
 
-#: ../api/qgis_mapflow.rst:332 7da59e60d37c494993dc159727085cc6
+#: ../api/qgis_mapflow.rst:338 7da59e60d37c494993dc159727085cc6
 msgid "You can rename images in your Imagery collections:"
 msgstr "您可以重命名图像集合中的图像："
 
-#: ../api/qgis_mapflow.rst:344 39f0ad214b0f42dc83199fcc8fb7fba7
+#: ../api/qgis_mapflow.rst:350 39f0ad214b0f42dc83199fcc8fb7fba7
 msgid "4. Settings"
 msgstr "4. 设置"
 
@@ -637,27 +656,27 @@ msgstr "4. 设置"
 msgid "View of the settings tab"
 msgstr "设置选项卡的视图"
 
-#: ../api/qgis_mapflow.rst:378 d048b27fbe994337bbd026556479a570
+#: ../api/qgis_mapflow.rst:384 d048b27fbe994337bbd026556479a570
 msgid "This tab allows you to manage many of the plugin's components:"
 msgstr "此选项卡允许您管理许多插件的组件："
 
-#: ../api/qgis_mapflow.rst:380 25b639fb847340dc834c595244fbcc55
+#: ../api/qgis_mapflow.rst:386 25b639fb847340dc834c595244fbcc55
 msgid "**Add, edit, and delete data sources;**"
 msgstr "**添加、编辑和删除数据源；**"
 
-#: ../api/qgis_mapflow.rst:381 e6f025f6bf734a43b0c6cd7e865b4010
+#: ../api/qgis_mapflow.rst:387 e6f025f6bf734a43b0c6cd7e865b4010
 msgid "**Configure columns in Processing and Imagery search tables;**"
 msgstr "**配置处理和图像搜索表中的列；**"
 
-#: ../api/qgis_mapflow.rst:382 6d15ea9f0cbb4fbbb5723c50c41404f5
+#: ../api/qgis_mapflow.rst:388 6d15ea9f0cbb4fbbb5723c50c41404f5
 msgid "**Сonfigure how the processing results will be uploaded to QGIS;**"
 msgstr "**配置如何将处理结果上传至QGIS；**"
 
-#: ../api/qgis_mapflow.rst:384 020e7048a90046a0ab58874a8f76e52e
+#: ../api/qgis_mapflow.rst:390 020e7048a90046a0ab58874a8f76e52e
 msgid "There are two ways:"
 msgstr "有两种方法："
 
-#: ../api/qgis_mapflow.rst:386 cd3568925f484b0c8b357c4a60147d5a
+#: ../api/qgis_mapflow.rst:392 cd3568925f484b0c8b357c4a60147d5a
 msgid ""
 "``view result as a vector layer`` - This is streaming vector tiles directly "
 "from our server, which allows you to view results of the processings without"
@@ -665,75 +684,75 @@ msgid ""
 msgstr ""
 "“以矢量图层形式查看结果” - 这是直接从我们的服务器流式传输矢量图块，它允许您查看处理结果而无需下载完整的结果文件，因此对于大型处理来说会更快。"
 
-#: ../api/qgis_mapflow.rst:388 1f0dc9c27822479689623ca95ff703b0
+#: ../api/qgis_mapflow.rst:394 1f0dc9c27822479689623ca95ff703b0
 msgid ""
 "``save local gpkg file to view results`` - Saving local gpkg files on your "
 "disk for further loading as QGIS layers."
 msgstr "``保存本地 gpkg 文件以查看结果`` - 将本地 gpkg 文件保存在磁盘上，以便进一步加载为 QGIS 图层。"
 
-#: ../api/qgis_mapflow.rst:390 ccdbed13322548f6aed3f7e6b57144d2
+#: ../api/qgis_mapflow.rst:396 ccdbed13322548f6aed3f7e6b57144d2
 msgid ""
 "**Enable or disable parameter confirmation before starting processing.**"
 msgstr "**开始处理之前启用或禁用参数确认。**"
 
-#: ../api/qgis_mapflow.rst:398 672c623757e745398c2ca9b4a68b389b
+#: ../api/qgis_mapflow.rst:404 672c623757e745398c2ca9b4a68b389b
 msgid "View of the processing confirmation"
 msgstr "查看处理确认信息"
 
-#: ../api/qgis_mapflow.rst:398 ce3753bd0c804927b91eb3d9b8d7f4b8
+#: ../api/qgis_mapflow.rst:404 ce3753bd0c804927b91eb3d9b8d7f4b8
 msgid ""
 "After clicking \"Start processing\", a confirmation of the parameters will "
 "appear"
 msgstr "单击“开始处理”后，将出现参数确认信息"
 
-#: ../api/qgis_mapflow.rst:406 776afc6f714441e395810a145e193440
+#: ../api/qgis_mapflow.rst:412 776afc6f714441e395810a145e193440
 msgid "This tab also contains *Output directory* button."
 msgstr "此选项卡还包含*输出目录*按钮。"
 
-#: ../api/qgis_mapflow.rst:408 56eca6e031de495cae7409f57c791423
+#: ../api/qgis_mapflow.rst:414 56eca6e031de495cae7409f57c791423
 msgid ""
 "*Output directory* - set up where the processing results will be loaded on "
 "your local disk If the ``save local gpkg file to view result`` option is "
 "selected."
 msgstr "*输出目录* - 如果选择了“保存本地 gpkg 文件以查看结果”选项，则设置处理结果将加载到本地磁盘上的位置。"
 
-#: ../api/qgis_mapflow.rst:413 181a4e8be4614719a804ad5d63337500
+#: ../api/qgis_mapflow.rst:419 181a4e8be4614719a804ad5d63337500
 msgid "5. Help"
 msgstr "5. 帮助"
 
-#: ../api/qgis_mapflow.rst:415 d776d41a6e174056be185dfaa2973b3c
+#: ../api/qgis_mapflow.rst:421 d776d41a6e174056be185dfaa2973b3c
 msgid "The tab contains all useful links to the plugin documentation."
 msgstr "该选项卡包含插件文档的所有有用链接。"
 
-#: ../api/qgis_mapflow.rst:419 3fafb722e5d440ae8903534ac6e48e03
+#: ../api/qgis_mapflow.rst:425 3fafb722e5d440ae8903534ac6e48e03
 msgid "How to run the processing"
 msgstr "如何运行处理"
 
-#: ../api/qgis_mapflow.rst:421 eb8d737e53c74bbf90eb432dc6bbfda6
+#: ../api/qgis_mapflow.rst:427 eb8d737e53c74bbf90eb432dc6bbfda6
 msgid ""
 "To start the processing you need to add the Polygon **Area of Interest** "
 "(AOI)."
 msgstr "要开始处理，您需要添加多边形 **感兴趣区域** (AOI)。"
 
-#: ../api/qgis_mapflow.rst:423 045afbb06b9c4843850a8eea437d3761
+#: ../api/qgis_mapflow.rst:429 045afbb06b9c4843850a8eea437d3761
 msgid "The plugin has several built-in options for creating AOI."
 msgstr "该插件有几个用于创建 AOI 的内置选项。"
 
-#: ../api/qgis_mapflow.rst:425 5ced68303c2b4941ae2e4083b156f52d
+#: ../api/qgis_mapflow.rst:431 5ced68303c2b4941ae2e4083b156f52d
 msgid "Draw AOI at the map;"
 msgstr "在地图上绘制AOI；"
 
-#: ../api/qgis_mapflow.rst:427 d6756907bb1a49998f7e53dfb2f50c10
+#: ../api/qgis_mapflow.rst:433 d6756907bb1a49998f7e53dfb2f50c10
 msgid ""
 "Use imagery extent (Imagery collection or Image extent will be used if the "
 "processing is started by My imagery);"
 msgstr "使用影像范围（如果通过“我的影像”启动处理，则将使用影像集合或影像范围）；"
 
-#: ../api/qgis_mapflow.rst:429 52079c91985545efbcee4e449d262384
+#: ../api/qgis_mapflow.rst:435 52079c91985545efbcee4e449d262384
 msgid "Create new AOI from the map canvas extent using the \"+\" button."
 msgstr "使用“+”按钮从地图画布范围创建新的 AOI。"
 
-#: ../api/qgis_mapflow.rst:431 5296a02e279844999d52f265135bc144
+#: ../api/qgis_mapflow.rst:437 5296a02e279844999d52f265135bc144
 msgid ""
 "Besides, you can create a new vector layer or add existing AOI into QGIS "
 "project. If the vector layer consists of several polygons select one of "
@@ -744,11 +763,22 @@ msgstr "此外，您可以创建新的矢量图层或将现有的 AOI 添加到 
 msgid "View of the aoi"
 msgstr "苍井空的景色"
 
-#: ../api/qgis_mapflow.rst:441 acd3fcf96fde42308dda1f1f4fd1db3b
+#: ../api/qgis_mapflow.rst:446 44b491688b9142689214f4b654a81cd8
+msgid ""
+"Before starting, the plugin checks the **area limits of your plan**: the "
+"bounding box of each AOI and the total processing area are verified, and if "
+"the limit is exceeded the *Start processing* button is blocked."
+msgstr "在开始之前，该插件会检查您的计划的**区域限制：验证每个 AOI 的边界框和总处理区域，如果超出限制，则会阻止 *开始处理* 按钮。"
+
+#: ../api/qgis_mapflow.rst:453 508b0abe4c9b4aa595f2ad0220a2dba8
+msgid "\\* Dash line is the actual AOI bbox"
+msgstr "\\* 虚线是实际的 AOI bbox"
+
+#: ../api/qgis_mapflow.rst:457 acd3fcf96fde42308dda1f1f4fd1db3b
 msgid "Use of commercial satellite imagery providers"
 msgstr "使用商业卫星图像提供商"
 
-#: ../api/qgis_mapflow.rst:444 7ad91ad2db8c439a986f392f5cfba777
+#: ../api/qgis_mapflow.rst:460 7ad91ad2db8c439a986f392f5cfba777
 msgid "How to search for specific images in the 🌏 Global mosaic"
 msgstr "如何在🌏全局马赛克中搜索特定图像"
 
@@ -829,11 +859,11 @@ msgid ""
 "Source: 🌏 ArcGIS World Imagery**."
 msgstr "要对整个分析区域运行处理 - 只需清除选择并使用 **数据源：🌏 全球镶嵌 2022** 或 **数据源：🌏 ArcGIS 世界影像**。"
 
-#: ../api/qgis_mapflow.rst:451 0f93e99c2edd4739a494df6a4bbaa47e
+#: ../api/qgis_mapflow.rst:467 0f93e99c2edd4739a494df6a4bbaa47e
 msgid "How to connect to Maxar"
 msgstr "如何连接到 Maxar"
 
-#: ../api/qgis_mapflow.rst:454 f981a49f802640aba8b08ffcc304d6ba
+#: ../api/qgis_mapflow.rst:470 f981a49f802640aba8b08ffcc304d6ba
 msgid ""
 "SecureWatch (new name - ) is a service that provides global access to high-"
 "resolution satellite images and imagery basemaps from the world leader in "
@@ -848,33 +878,33 @@ msgstr ""
 " cm 至1 m 范围内变化。所有图像都附有元数据，包括有关采集日期和时间、云层覆盖等的信息。在我们的应用程序中，我们实现了特殊接口来连接到此服务并通过"
 " Mapflow 的处理管道使用图像。"
 
-#: ../api/qgis_mapflow.rst:457 1432e364b55f4a46a4fb7086e8203f0c
+#: ../api/qgis_mapflow.rst:473 1432e364b55f4a46a4fb7086e8203f0c
 msgid "**Use of embedded Maxar SecureWatch for image processing by Mapflow**"
 msgstr "**使用嵌入式 Maxar SecureWatch 通过 Mapflow 进行图像处理**"
 
-#: ../api/qgis_mapflow.rst:459 9ef08413fb014e4ea231a0d18eb93d3a
+#: ../api/qgis_mapflow.rst:475 9ef08413fb014e4ea231a0d18eb93d3a
 msgid ""
 "In the *Settings -- Add or edit imagery providers* select the type *Maxar "
 "WTS*, switch to the *Imagery search* tab."
 msgstr "在*设置 -- 添加或编辑图像提供者*中，选择类型*Maxar WTS*，切换到*图像搜索*选项卡。"
 
-#: ../api/qgis_mapflow.rst:461 12ff993512ba49f099bab6dc54c85d88
+#: ../api/qgis_mapflow.rst:477 12ff993512ba49f099bab6dc54c85d88
 msgid "**Maxar preview**"
 msgstr "**麦克萨预览**"
 
-#: ../api/qgis_mapflow.rst:463 d2c7e203d53442d88acd91354c5c01c0
+#: ../api/qgis_mapflow.rst:479 d2c7e203d53442d88acd91354c5c01c0
 msgid ""
 "Select your AOI in the Area drop-down list and click on the *Search "
 "imagery*."
 msgstr "在区域下拉列表中选择您的 AOI，然后单击“搜索图像”。"
 
-#: ../api/qgis_mapflow.rst:464 eb5f9cf504ee4aa7abc29174d876b7a0
+#: ../api/qgis_mapflow.rst:480 eb5f9cf504ee4aa7abc29174d876b7a0
 msgid ""
 "Double click on the selected image in the search results (or click Preview "
 "button) to add it on the map."
 msgstr "双击搜索结果中选定的图像（或单击预览按钮）将其添加到地图上。"
 
-#: ../api/qgis_mapflow.rst:467 2cbb0d0bcecf44f5824d003bcfeeebaa
+#: ../api/qgis_mapflow.rst:483 2cbb0d0bcecf44f5824d003bcfeeebaa
 msgid ""
 "In the free tariff plan the *Max zoom* is limited up to 12 and the "
 "processing cannot be started using SecureWatch. If you want to use this data"
@@ -886,7 +916,7 @@ msgstr ""
 "<https://mapflow.ai/pricing>”资费计划或“写信给我们 "
 "<https://geoalert.io/#contacts>”以获取报价。"
 
-#: ../api/qgis_mapflow.rst:471 f897012aa1e64ce18585c1b333a1a324
+#: ../api/qgis_mapflow.rst:487 f897012aa1e64ce18585c1b333a1a324
 msgid "**Using your SecureWatch account for image processing by the Mapflow**"
 msgstr "**使用您的 SecureWatch 帐户通过 Mapflow 进行图像处理**"
 
@@ -894,15 +924,15 @@ msgstr "**使用您的 SecureWatch 帐户通过 Mapflow 进行图像处理**"
 msgid "View of the providers tab"
 msgstr "提供商选项卡的视图"
 
-#: ../api/qgis_mapflow.rst:482 01ca35d0e6d54631b57d0d26fa9cbad7
+#: ../api/qgis_mapflow.rst:498 01ca35d0e6d54631b57d0d26fa9cbad7
 msgid "Click *+* button and choose Maxar WMTS option in the dropdown list;"
 msgstr "单击**按钮并在下拉列表中选择Maxar WMTS选项；"
 
-#: ../api/qgis_mapflow.rst:484 287f99830f1c499b9b25e2d91e6a9e40
+#: ../api/qgis_mapflow.rst:500 287f99830f1c499b9b25e2d91e6a9e40
 msgid "Enter *Login / Password* from your Maxar SecureWatch account;"
 msgstr "输入您的 Maxar SecureWatch 帐户的*登录名/密码*；"
 
-#: ../api/qgis_mapflow.rst:486 8848a7e8fc834cb694bb78669e44dc9c
+#: ../api/qgis_mapflow.rst:502 8848a7e8fc834cb694bb78669e44dc9c
 msgid ""
 "Enter WMTS URL link for Maxar Secure Watch (`SecureWatch "
 "<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-"
@@ -912,19 +942,19 @@ msgstr ""
 "<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-end-"
 "session>`_ - 登录 - Securewatch - 使用 - Web 服务 - WMTS）"
 
-#: ../api/qgis_mapflow.rst:488 4b1675aa3dec40e8a044c9a93ace3af4
+#: ../api/qgis_mapflow.rst:504 4b1675aa3dec40e8a044c9a93ace3af4
 msgid "Optional: specify the coordinate system (default epsg:3857);"
 msgstr "可选：指定坐标系（默认epsg：3857）；"
 
-#: ../api/qgis_mapflow.rst:490 7f1c5250c5b3459e94da7eafc40ea8d3
+#: ../api/qgis_mapflow.rst:506 7f1c5250c5b3459e94da7eafc40ea8d3
 msgid "Optional: Check *Save login and password*"
 msgstr "可选：选中*保存登录名和密码*"
 
-#: ../api/qgis_mapflow.rst:494 ba37aab2a4894c20a8c0d2e2f243e9d3
+#: ../api/qgis_mapflow.rst:510 ba37aab2a4894c20a8c0d2e2f243e9d3
 msgid "How to find Maxar WMTS URL:"
 msgstr "如何查找 Maxar WMTS URL："
 
-#: ../api/qgis_mapflow.rst:496 b2c311a101fd406cb22bfc292cdb2011
+#: ../api/qgis_mapflow.rst:512 b2c311a101fd406cb22bfc292cdb2011
 msgid ""
 "Go to `SecureWatch "
 "<https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-"
@@ -933,11 +963,11 @@ msgstr ""
 "转到“SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-"
 "from-ending-session>”_并登录。"
 
-#: ../api/qgis_mapflow.rst:498 f5d4cd981dca4a6abdd4a0e7a4de1ef2
+#: ../api/qgis_mapflow.rst:514 f5d4cd981dca4a6abdd4a0e7a4de1ef2
 msgid "In the upper menu select **Use With** >> **Web Services** >> **WMTS**"
 msgstr "在上方菜单中选择 **使用** >> **Web 服务** >> **WMTS**"
 
-#: ../api/qgis_mapflow.rst:500 4e1db5d1c9dd49d0bd444ac313438b13
+#: ../api/qgis_mapflow.rst:516 4e1db5d1c9dd49d0bd444ac313438b13
 msgid "Copy the WMTS (or TMS) url."
 msgstr "复制 WMTS（或 TMS）URL。"
 
@@ -945,7 +975,7 @@ msgstr "复制 WMTS（或 TMS）URL。"
 msgid "Your user profile in SecureWatch"
 msgstr "您在 SecureWatch 中的用户个人资料"
 
-#: ../api/qgis_mapflow.rst:508 1b60f0f21e094c0e8a5fba3cabeae8fc
+#: ../api/qgis_mapflow.rst:524 1b60f0f21e094c0e8a5fba3cabeae8fc
 msgid ""
 "The **Connect ID** is different for each product you have in your "
 "SecureWatch subscription. Therefore, initially choose the one you want. To "
@@ -956,40 +986,40 @@ msgstr ""
 "都不同。因此，首先选择您想要的。为此，请打开“用户配置文件”菜单，然后在标题栏中选择两个建议马赛克（**Vivid** 和 "
 "**SecureWatch**）中所需的。"
 
-#: ../api/qgis_mapflow.rst:511 a5148ed16fee42a5a307942b8740fb0b
+#: ../api/qgis_mapflow.rst:527 a5148ed16fee42a5a307942b8740fb0b
 msgid "Click *Preview*."
 msgstr "单击*预览*。"
 
-#: ../api/qgis_mapflow.rst:513 837ed25e5e4748b6977399821ea7cf22
+#: ../api/qgis_mapflow.rst:529 837ed25e5e4748b6977399821ea7cf22
 msgid ""
 "Now the Maxar layer is available for preview in your raster layers list and "
 "for the AI-mapping processing using Mapflow."
 msgstr "现在，Maxar 图层可在栅格图层列表中预览，并可使用 Mapflow 进行 AI 制图处理。"
 
-#: ../api/qgis_mapflow.rst:517 624ab51f0052456fbdce46e0eb3f4721
+#: ../api/qgis_mapflow.rst:533 624ab51f0052456fbdce46e0eb3f4721
 msgid ""
 "How to find and process the image by Feature ID using Maxar SecureWatch"
 msgstr "如何使用 Maxar SecureWatch 按功能 ID 查找和处理图像"
 
-#: ../api/qgis_mapflow.rst:519 0797172912df4ae99fa43d16a0cd0987
+#: ../api/qgis_mapflow.rst:535 0797172912df4ae99fa43d16a0cd0987
 msgid "You can use SW to discover available images for you area of interest."
 msgstr "您可以使用 SW 来发现您感兴趣的区域的可用图像。"
 
-#: ../api/qgis_mapflow.rst:521 89fbecd0b6c141ab8e620792ee8c77f1
+#: ../api/qgis_mapflow.rst:537 89fbecd0b6c141ab8e620792ee8c77f1
 msgid "Go to the *Providers* tab."
 msgstr "转到*提供商*选项卡。"
 
-#: ../api/qgis_mapflow.rst:522 b9a873af0d824ca7b0cd26f707c6e148
+#: ../api/qgis_mapflow.rst:538 b9a873af0d824ca7b0cd26f707c6e148
 msgid "Select Maxar SecureWatch from the dropdown list."
 msgstr "从下拉列表中选择 Maxar SecureWatch。"
 
-#: ../api/qgis_mapflow.rst:523 7180c071f2044ce68f76a0d16e77163b
+#: ../api/qgis_mapflow.rst:539 7180c071f2044ce68f76a0d16e77163b
 msgid ""
 "In the *Maxar SecureWatch imagery Catalog* select the vector layer "
 "containing the boundary of your area of interest."
 msgstr "在*Maxar SecureWatch 图像目录*中，选择包含您感兴趣区域边界的矢量图层。"
 
-#: ../api/qgis_mapflow.rst:526 f26c839c14a9424597983eba1d9106f8
+#: ../api/qgis_mapflow.rst:542 f26c839c14a9424597983eba1d9106f8
 msgid ""
 "To define the imagery search area you can create the new polygon (*Layer -> "
 "Create layer -> ...*, select *Polygon* as a geometry type, add polygon using"
@@ -1009,7 +1039,7 @@ msgstr ""
 msgid "Get specific image from SW"
 msgstr "从SW获取具体图像"
 
-#: ../api/qgis_mapflow.rst:534 7894fe77a349439f93a70bc32fb59b71
+#: ../api/qgis_mapflow.rst:550 7894fe77a349439f93a70bc32fb59b71
 msgid ""
 "*Search imagery*, to view meta-data of all available images intesecting your"
 " AOI. You can apply search filters and specify the period for which you "
@@ -1018,7 +1048,7 @@ msgid ""
 msgstr ""
 "*搜索图像*，查看与您的 AOI 相交的所有可用图像的元数据。您可以应用搜索过滤器并指定您希望接收图像的时间段。这将有助于形成具有必要参数的图像目录。"
 
-#: ../api/qgis_mapflow.rst:535 4560d48f070843a281844d1b2991d1f6
+#: ../api/qgis_mapflow.rst:551 4560d48f070843a281844d1b2991d1f6
 msgid ""
 "Select the prteferable image from the imagery catalog or use the WFS "
 "generated vector layer (*Maxar SW metadata*) to search through more "
@@ -1029,29 +1059,29 @@ msgstr ""
 "从影像目录中选择首选影像或使用 WFS 生成的矢量图层（*Maxar SW "
 "元数据*）来搜索更多属性。如果您想提前处理特定图像，请在插件顶部的字段中插入您的图像 ID，这样可以更轻松地在图像目录中查找该图像。"
 
-#: ../api/qgis_mapflow.rst:538 e5b3676ee75447eda0908bbcad293cea
+#: ../api/qgis_mapflow.rst:554 e5b3676ee75447eda0908bbcad293cea
 msgid ""
 "Imagery metadata is saved in the form of vector layer. You can interact with"
 " its Attribute Table by searching through all attributes."
 msgstr "影像元数据以矢量图层的形式保存。您可以通过搜索所有属性来与其属性表进行交互。"
 
-#: ../api/qgis_mapflow.rst:540 ac915012704b48c7aeb10b90d65f2f4f
+#: ../api/qgis_mapflow.rst:556 ac915012704b48c7aeb10b90d65f2f4f
 msgid ""
 "Click *Preview* to view the selected image in the form of new raster layer "
 "(or double-clicking on the row in the table)."
 msgstr "单击“预览”以新栅格图层的形式查看所选图像（或双击表中的行）。"
 
-#: ../api/qgis_mapflow.rst:543 04ab3a81844b4c99ac4c602cabffb5d9
+#: ../api/qgis_mapflow.rst:559 04ab3a81844b4c99ac4c602cabffb5d9
 msgid ""
 "\"max zoom 12\" checkbox is active to prevent the paid streaming on the side"
 " of Maxar SecureWatch."
 msgstr "“最大缩放 12”复选框处于活动状态，可防止 Maxar SecureWatch 一侧的付费流媒体。"
 
-#: ../api/qgis_mapflow.rst:547 ec7f8ca90cc94b8f9c54cb69b2215391
+#: ../api/qgis_mapflow.rst:563 ec7f8ca90cc94b8f9c54cb69b2215391
 msgid "How to use other imagery services"
 msgstr "如何使用其他影像服务"
 
-#: ../api/qgis_mapflow.rst:549 b09e790295574aa49b53b4406f63ece9
+#: ../api/qgis_mapflow.rst:565 b09e790295574aa49b53b4406f63ece9
 msgid ""
 "Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter "
 "the relevant data in the opened window (2). Click the *Preview* (3) the "
@@ -1060,7 +1090,7 @@ msgstr ""
 "转到插件，在 *Providers* 选项卡上单击 *Add* (1) 并在打开的窗口 (2) 中输入相关数据。单击*预览* (3) 图像，- "
 "您必须处于正确的缩放和坐标才能查看图像。"
 
-#: ../api/qgis_mapflow.rst:551 74f0abd2f698454881745b156fb47142
+#: ../api/qgis_mapflow.rst:567 74f0abd2f698454881745b156fb47142
 msgid ""
 "To start processing using this data source, go to the *Processing* tab, fill"
 " in all fields of processing parameters, click *Start processing*."
@@ -1070,27 +1100,27 @@ msgstr "要使用此数据源开始处理，请转到*处理*选项卡，填写�
 msgid "Custom imagery source"
 msgstr "自定义图像源"
 
-#: ../api/qgis_mapflow.rst:566 82f016a0549744f3b9447b2583e98f5e
+#: ../api/qgis_mapflow.rst:582 82f016a0549744f3b9447b2583e98f5e
 msgid "Name"
 msgstr "姓名"
 
-#: ../api/qgis_mapflow.rst:567 63ae8ed64876422e936480e6346c0de2
+#: ../api/qgis_mapflow.rst:583 63ae8ed64876422e936480e6346c0de2
 msgid "Name of other imagery data provider"
 msgstr "其他影像数据提供者名称"
 
-#: ../api/qgis_mapflow.rst:568 c0eea43548c64cc099b8981ad834cfc6
+#: ../api/qgis_mapflow.rst:584 c0eea43548c64cc099b8981ad834cfc6
 msgid "URL"
 msgstr "网址"
 
-#: ../api/qgis_mapflow.rst:569 fa931527c0d4469383b7db85e3dc638a
+#: ../api/qgis_mapflow.rst:585 fa931527c0d4469383b7db85e3dc638a
 msgid "URL of the imagery data provider"
 msgstr "图像数据提供者的 URL"
 
-#: ../api/qgis_mapflow.rst:570 f24e3f7d3dde435fa978e327dd2fcfa9
+#: ../api/qgis_mapflow.rst:586 f24e3f7d3dde435fa978e327dd2fcfa9
 msgid "Type"
 msgstr "类型"
 
-#: ../api/qgis_mapflow.rst:571 454b7fa150a749538e04a0c50459347a
+#: ../api/qgis_mapflow.rst:587 454b7fa150a749538e04a0c50459347a
 msgid ""
 "Data source type. You can enter your custom imagery source URL in one of the"
 " following formats: `XYZ <https://en.wikipedia.org/wiki/Tiled_web_map>`_, "
@@ -1107,38 +1137,38 @@ msgstr ""
 "<https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-"
 "system>`_。所有格式均代表通过 HTTP 获取地理参考图像的最广泛使用的协议。"
 
-#: ../api/qgis_mapflow.rst:575 4e5d7607b4c440b0a56b067d07f576ed
+#: ../api/qgis_mapflow.rst:591 4e5d7607b4c440b0a56b067d07f576ed
 msgid ""
 "You can define your own source of data in XYZ format. The example: "
 "``https://your_site.xyz/{z}/{x}/{y}``"
 msgstr "您可以以 XYZ 格式定义自己的数据源。示例：``https://your_site.xyz/{z}/{x}/{y}``"
 
-#: ../api/qgis_mapflow.rst:580 f7b897b092f44f4181b9cc9335daab41
+#: ../api/qgis_mapflow.rst:596 f7b897b092f44f4181b9cc9335daab41
 msgid "Check for more imagery sources connections in the UserGuide How To:"
 msgstr "在用户指南中检查更多图像源连接："
 
-#: ../api/qgis_mapflow.rst:582 a7633e8d353747abba6356acde353ed4
+#: ../api/qgis_mapflow.rst:598 a7633e8d353747abba6356acde353ed4
 msgid "How to connect to :ref:`Openaerialmap <oae>`"
 msgstr "如何连接到:ref:`Openaerialmap <oae>`"
 
-#: ../api/qgis_mapflow.rst:584 3fc037a194b24f228a50d438e6901447
+#: ../api/qgis_mapflow.rst:600 3fc037a194b24f228a50d438e6901447
 msgid "How to connect to :ref:`Nearmap <Nearmap_>`"
 msgstr "如何连接到:ref:`Nearmap <Nearmap_>`"
 
-#: ../api/qgis_mapflow.rst:586 2d6b5abc096d4aaeb6e7385e56dbcd9e
+#: ../api/qgis_mapflow.rst:602 2d6b5abc096d4aaeb6e7385e56dbcd9e
 msgid "How to connect to :ref:`Maxar Imagery <Maxar SecureWatch>`"
 msgstr "如何连接到:ref:`Maxar Imagery <Maxar SecureWatch>`"
 
-#: ../api/qgis_mapflow.rst:590 c4cac305c2b4484cb9589cccd967e169
+#: ../api/qgis_mapflow.rst:606 c4cac305c2b4484cb9589cccd967e169
 msgid "How to upload your image"
 msgstr "如何上传您的图片"
 
-#: ../api/qgis_mapflow.rst:592 f926dafd8ee541c5a7fa143440637cbf
+#: ../api/qgis_mapflow.rst:608 f926dafd8ee541c5a7fa143440637cbf
 msgid ""
 "You can upload your own GeoTIFF using :ref:`My Imagery <My Imagery qgis>`."
 msgstr "您可以使用:ref:`My Imagery <My Imagery qgis>` 上传您自己的 GeoTIFF。"
 
-#: ../api/qgis_mapflow.rst:597 2cc610b29f39496f82bf5970045d951b
+#: ../api/qgis_mapflow.rst:613 2cc610b29f39496f82bf5970045d951b
 msgid ""
 "Please, follow the requirements specified on the page with "
 ":doc:`../userguides/reference` when uploading your own images to the Mapflow"
@@ -1148,11 +1178,11 @@ msgstr ""
 "将您自己的图像上传到 Mapflow 平台时，请遵循 :doc:`../userguides/reference` "
 "页面上指定的要求。如果您在上传数据时收到错误消息，请检查说明:doc:`../userguides/howto`。"
 
-#: ../api/qgis_mapflow.rst:599 6894b7b5fcd144eb889fb28533f4bcec
+#: ../api/qgis_mapflow.rst:615 6894b7b5fcd144eb889fb28533f4bcec
 msgid "**Check the data type**"
 msgstr "**检查数据类型**"
 
-#: ../api/qgis_mapflow.rst:600 ff422c99b5cf484bac8b1913b5782184
+#: ../api/qgis_mapflow.rst:616 ff422c99b5cf484bac8b1913b5782184
 msgid ""
 "Your data is supposed to be automatically converted into RGB, 8bit. To "
 "preprocess your data locally before uploading it to Mapflow you can use the "
@@ -1162,11 +1192,11 @@ msgstr ""
 "您的数据应该自动转换为 RGB、8 位。要在将数据上传到 Mapflow 之前在本地对其进行预处理，您可以使用“预处理脚本 "
 "<https://github.com/Geoalert/mapflow_data_preprocessor/>”_"
 
-#: ../api/qgis_mapflow.rst:601 a0ea2639a9ac4cbaafb8ccbf70134748
+#: ../api/qgis_mapflow.rst:617 a0ea2639a9ac4cbaafb8ccbf70134748
 msgid "**Check the image size**"
 msgstr "**检查图像尺寸**"
 
-#: ../api/qgis_mapflow.rst:602 7a0006281a044a44bc9d5c65cf791cb5
+#: ../api/qgis_mapflow.rst:618 7a0006281a044a44bc9d5c65cf791cb5
 msgid ""
 "Both sides image dimension must not exceed 65535x65535 pixels. If you have "
 "larger images you should either cut them in smaller chunks or switch to the "
@@ -1175,46 +1205,46 @@ msgstr ""
 "双面图像尺寸不得超过 65535x65535 像素。如果您有较大的图像，您应该将它们切成较小的块或切换到“Mapflow Premium "
 "<https://geoalert.io/#contacts>”_。"
 
-#: ../api/qgis_mapflow.rst:603 e4c17cd19fda41248741fbabdc65be2d
+#: ../api/qgis_mapflow.rst:619 e4c17cd19fda41248741fbabdc65be2d
 msgid "**Check the number of channels**"
 msgstr "**检查频道数量**"
 
-#: ../api/qgis_mapflow.rst:604 5cc7cfc2079746479fcc750f1db58552
+#: ../api/qgis_mapflow.rst:620 5cc7cfc2079746479fcc750f1db58552
 msgid ""
 "Normally, the Mapflow processes 3-bands RGB rendered images. Mapflow "
 "platform can also process single-band (panchromatic) imagery, but the  "
 "quality of the result may be worse than expected."
 msgstr "通常，Mapflow 处理 3 波段 RGB 渲染图像。 Mapflow平台还可以处理单波段（全色）图像，但结果的质量可能比预期的要差。"
 
-#: ../api/qgis_mapflow.rst:605 dc2233aa9f7d46b2bccd16f17999f790
+#: ../api/qgis_mapflow.rst:621 dc2233aa9f7d46b2bccd16f17999f790
 msgid "**Check the projection and georeference**"
 msgstr "**检查投影和地理参考**"
 
-#: ../api/qgis_mapflow.rst:606 7cd6678991294176b125920f27e42fa5
+#: ../api/qgis_mapflow.rst:622 7cd6678991294176b125920f27e42fa5
 msgid ""
 "Make sure that your imagery is georeferenced in geographic or projected "
 "coordinate system."
 msgstr "确保您的图像在地理或投影坐标系中进行地理参考。"
 
-#: ../api/qgis_mapflow.rst:607 f18124cc346e48319d5d219b075078eb
+#: ../api/qgis_mapflow.rst:623 f18124cc346e48319d5d219b075078eb
 msgid "**Check the resolution**"
 msgstr "**检查分辨率**"
 
-#: ../api/qgis_mapflow.rst:608 c2ac1021634540009797f2699fb38a6b
+#: ../api/qgis_mapflow.rst:624 c2ac1021634540009797f2699fb38a6b
 msgid ""
 "The resolution restrictions vary for different models, see "
 ":ref:`Model_requirements`"
 msgstr "不同型号的分辨率限制有所不同，请参阅:ref:`Model_requirements`"
 
-#: ../api/qgis_mapflow.rst:613 c6a793aa39ee45d3b40542fb179a24c6
+#: ../api/qgis_mapflow.rst:629 c6a793aa39ee45d3b40542fb179a24c6
 msgid "Work with results"
 msgstr "注重结果"
 
-#: ../api/qgis_mapflow.rst:616 5385253be26d458299833dd2ce75029a
+#: ../api/qgis_mapflow.rst:632 5385253be26d458299833dd2ce75029a
 msgid "View the results"
 msgstr "查看结果"
 
-#: ../api/qgis_mapflow.rst:618 a6fa87f4dd4e4c2ea709d100e24e0fce
+#: ../api/qgis_mapflow.rst:634 a6fa87f4dd4e4c2ea709d100e24e0fce
 #, python-format
 msgid ""
 "The processing results that are 100% complete can be downloaded as a vector "
@@ -1222,7 +1252,7 @@ msgid ""
 "automatically added as layer to QGIS workspace."
 msgstr "100% 完成的处理结果可以作为矢量文件下载到本地目录或作为矢量图块流式传输，并自动作为图层添加到 QGIS 工作区。"
 
-#: ../api/qgis_mapflow.rst:620 72fdf82ba1fa4dcbb7dc80ea189a3e3a
+#: ../api/qgis_mapflow.rst:636 72fdf82ba1fa4dcbb7dc80ea189a3e3a
 msgid ""
 "Double click on the processing name in the :ref:`Processing "
 "<Project/Processing>` table or select it and push the button \"View "
@@ -1233,18 +1263,18 @@ msgstr ""
 "双击处理 <项目/处理> 表中的处理名称，或选择它并按下“查看结果”按钮。该图层将出现在图层面板（QGIS --> 视图 --> 面板 --> "
 "图层）中的“Mapflow”文件夹中。您可以像使用 QGIS 中的常用矢量图层一样进一步使用它。"
 
-#: ../api/qgis_mapflow.rst:625 46b503e542ca4a678c61c109f3d3120b
+#: ../api/qgis_mapflow.rst:641 46b503e542ca4a678c61c109f3d3120b
 msgid ""
 "If the default AI model is used, the plugin automatically assigns predefined"
 " styles to the vector layer. For all custom models / pipelines the single "
 "default style is assigned. You can always change it."
 msgstr "如果使用默认的AI模型，插件会自动将预定义的样式分配给矢量图层。对于所有自定义模型/管道，分配单一默认样式。您随时可以更改它。"
 
-#: ../api/qgis_mapflow.rst:628 aca27d49a31b476894d3f06f7f6afa18
+#: ../api/qgis_mapflow.rst:644 aca27d49a31b476894d3f06f7f6afa18
 msgid "Save results"
 msgstr "保存结果"
 
-#: ../api/qgis_mapflow.rst:629 edf2e1e36de74ca18c7c0622812da716
+#: ../api/qgis_mapflow.rst:645 edf2e1e36de74ca18c7c0622812da716
 #, python-format
 msgid ""
 "The processing results, which are 100% complete, can be downloaded in "
@@ -1252,17 +1282,17 @@ msgid ""
 "output directory in the window that appears and name the file to be saved."
 msgstr "100% 完整的处理结果可以以 GeoJSON 格式下载，为此，请单击“保存结果”按钮，在出现的窗口中选择输出目录并命名要保存的文件。"
 
-#: ../api/qgis_mapflow.rst:632 f1cf7b50e3de4f2ea11c4ca67e0bcd9e
+#: ../api/qgis_mapflow.rst:648 f1cf7b50e3de4f2ea11c4ca67e0bcd9e
 msgid "Delete the processing"
 msgstr "删除处理"
 
-#: ../api/qgis_mapflow.rst:634 a7f5976b2cc24c998717a35bc6c10d12
+#: ../api/qgis_mapflow.rst:650 a7f5976b2cc24c998717a35bc6c10d12
 msgid ""
 "To delete the processing - select it in the list, click the button "
 "\"Delete\" and confirm."
 msgstr "要删除处理 - 在列表中选择它，单击“删除”按钮并确认。"
 
-#: ../api/qgis_mapflow.rst:637 bc56a7dd770f4acd95ff7fe10e1813eb
+#: ../api/qgis_mapflow.rst:653 bc56a7dd770f4acd95ff7fe10e1813eb
 msgid ""
 "The processing cannot be restored by user. Before the permanent deletion the"
 " data backup is **temporarily stored** on the Mapflow server in case of "
@@ -1271,17 +1301,17 @@ msgid ""
 msgstr ""
 "用户无法恢复该处理。在永久删除之前，数据备份**临时存储**在Mapflow服务器上，以备紧急情况使用。因此，如果您错误地删除了结果并希望我们恢复处理，请立即将您的请求发送给支持人员。"
 
-#: ../api/qgis_mapflow.rst:641 838ef2bb54de4e9b92a54d34f5e3fef7
+#: ../api/qgis_mapflow.rst:657 838ef2bb54de4e9b92a54d34f5e3fef7
 msgid "Review the results*"
 msgstr "查看结果*"
 
-#: ../api/qgis_mapflow.rst:644 970d078c374841f3bdd367b3953cd8fa
+#: ../api/qgis_mapflow.rst:660 970d078c374841f3bdd367b3953cd8fa
 msgid ""
 "❗️ This option is available for the limited number of Mapflow customers who "
 "have signed up for the enterprise support"
 msgstr "❗️ 此选项适用于已注册企业支持的有限数量的 Mapflow 客户"
 
-#: ../api/qgis_mapflow.rst:646 181537c7341446329e645f6972b6faaa
+#: ../api/qgis_mapflow.rst:662 181537c7341446329e645f6972b6faaa
 msgid ""
 "If activated, every completed processing comes with the status **\"Review "
 "required\"**. The user can either accept the result or request the review, "
@@ -1290,28 +1320,28 @@ msgid ""
 msgstr ""
 "如果激活，每个已完成的处理都会带有**“需要审核”**状态。用户可以接受结果或请求审核，以便支持人员可以重新处理它并获得更好的结果，直到满足要求。请求对结果进行**审查**："
 
-#: ../api/qgis_mapflow.rst:651 237f50824db44c448862fa042e2b3b1b
+#: ../api/qgis_mapflow.rst:667 237f50824db44c448862fa042e2b3b1b
 msgid ""
 "Select the processing with the Status **\"Review required\"** and click the "
 "\"Review\" button"
 msgstr "选择状态**“需要审核”**的处理，然后单击“审核”按钮"
 
-#: ../api/qgis_mapflow.rst:653 003fc5f785a54664be37ba5f07b49bf8
+#: ../api/qgis_mapflow.rst:669 003fc5f785a54664be37ba5f07b49bf8
 msgid "Provide comments in the Review dialogue:"
 msgstr "在评论对话框中提供评论："
 
-#: ../api/qgis_mapflow.rst:656 2f0318b9a9234ca28ce6b3e3de07f73f
+#: ../api/qgis_mapflow.rst:672 2f0318b9a9234ca28ce6b3e3de07f73f
 msgid "Add your comment on why and what you want us to make a review"
 msgstr "添加您的评论，说明您希望我们进行审核的原因和内容"
 
-#: ../api/qgis_mapflow.rst:657 7e18d901501b4dc9aca4e8b5bcbfcc95
+#: ../api/qgis_mapflow.rst:673 7e18d901501b4dc9aca4e8b5bcbfcc95
 msgid ""
 "*Optionally* Add the polygon area, highlighting the objects that are not "
 "correctly processed, weren't identified correctly, etc – it will help us to "
 "pay attention to the specific issues"
 msgstr "*可选*添加多边形区域，突出显示未正确处理、未正确识别的对象等 - 这将帮助我们关注具体问题"
 
-#: ../api/qgis_mapflow.rst:658 9af87cd242684097bc65dae264298144
+#: ../api/qgis_mapflow.rst:674 9af87cd242684097bc65dae264298144
 msgid "The processing Status will change to **\"In review\"**"
 msgstr "处理状态将更改为 **“审核中”**"
 
@@ -1320,25 +1350,25 @@ msgstr "处理状态将更改为 **“审核中”**"
 msgid "Upload TIF, select from list"
 msgstr "上传 TIF，从列表中选择"
 
-#: ../api/qgis_mapflow.rst:666 8f164121f5634d9685eeb02bde87ec7f
+#: ../api/qgis_mapflow.rst:682 8f164121f5634d9685eeb02bde87ec7f
 msgid "Select AOI and request a Review"
 msgstr "选择 AOI 并请求审核"
 
-#: ../api/qgis_mapflow.rst:668 8477e7bb259549e5ae67e6c807a59e2f
+#: ../api/qgis_mapflow.rst:684 8477e7bb259549e5ae67e6c807a59e2f
 msgid ""
 "As soon as Review is done on our side the Status will change back to "
 "**\"Review required\"**. Accept the results or return to the #1"
 msgstr "一旦我们完成审核，状态将更改回**“需要审核”**。接受结果或返回#1"
 
-#: ../api/qgis_mapflow.rst:677 dd9453f127104acea0531ccdf23105c1
+#: ../api/qgis_mapflow.rst:693 dd9453f127104acea0531ccdf23105c1
 msgid "Accept the results when Review is done"
 msgstr "审核完成后接受结果"
 
-#: ../api/qgis_mapflow.rst:681 9f599a8515954f719f818b4d1a891a49
+#: ../api/qgis_mapflow.rst:697 9f599a8515954f719f818b4d1a891a49
 msgid "Proxy-settings"
 msgstr "代理设置"
 
-#: ../api/qgis_mapflow.rst:683 a834e404cb1d4364a3d9f873636ecc98
+#: ../api/qgis_mapflow.rst:699 a834e404cb1d4364a3d9f873636ecc98
 msgid ""
 "If you are behind a firewall, go to *QGIS* -> *Preferences* -> *Network* and"
 " will please adjust the proxy settings for plugin connection."
@@ -1347,3 +1377,8 @@ msgstr "如果您位于防火墙后面，请进入 *QGIS* -> *首选项* -> *网
 #: ../api/qgis_mapflow.rst a7921e1b34cd4549ae9c683dacea1585
 msgid "Proxy settings"
 msgstr "代理设置"
+
+#~ msgid ""
+#~ "Selecting the zoom for the Data source used (currently not available in the "
+#~ "public version)"
+#~ msgstr "选择所使用的数据源的缩放（当前在公共版本中不可用）"

@@ -8,7 +8,7 @@ My Imagery & Data Providers
 
      1. **My imagery** – upload your own images to the Mapflow platform and use them for processing with Mapflow models.
      2. **Imagery basemaps** – external :ref:`imagery providers`, such as Mapbox, ArcGIS, etc., are enabled in Mapflow for instant use. You can use them with default models.
-     3. **Custom URL** – you can set your own XYZ or TMS layers, including commercial ones like :ref:`Nearmap <Nearmap_>`, :ref:`Maxar <Maxar Securewatch>`, etc. This is available in Mapflow Web, API and QGIS plugin.
+     3. **Custom URL** – you can set your own XYZ or TMS layers, including custom data providers like :ref:`Nearmap <Nearmap_>`, etc. This is available in Mapflow Web, API and QGIS plugin.
      4. **Imagery Search** – search for the historical commercial imagery in Mapflow Web and QGIS plugin and place your order to get the images from our partners.
 
 .. note::
