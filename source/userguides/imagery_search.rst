@@ -11,7 +11,6 @@ Imagery providers available for the search and (NEW!) ordering:
 
 Imagery providers supported for the account-based integration and search:
     * ArcGIS World Imagery
-    * :ref:`Maxar secureWatch / MGP <Maxar SecureWatch>`
 
 .. seealso::
     Read more about how to use :ref:`Imagery providers` with Mapflow.

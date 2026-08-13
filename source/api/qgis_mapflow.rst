@@ -463,103 +463,103 @@ How to search for specific images in the 🌏 Global mosaic
 
 .. _Maxar SecureWatch:
 
-How to connect to Maxar
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. How to connect to Maxar
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
- SecureWatch (new name - ) is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
-
-
-* **Use of embedded Maxar SecureWatch for image processing by Mapflow**
-
-   In the *Settings -- Add or edit imagery providers* select the type *Maxar WTS*, switch to the *Imagery search* tab.
-
-* **Maxar preview**
-
-  1. Select your AOI in the Area drop-down list and click on the *Search imagery*.
-  2. Double click on the selected image in the search results (or click Preview button) to add it on the map.
-
-.. important:: 
-   In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote.
+.. .. note::
+..  SecureWatch (new name - ) is a service that provides global access to high-resolution satellite images and imagery basemaps from the world leader in remote sensing, MAXAR, through the subscription model. The spatial resolution of images varies in the range from 30 cm to 1 m. All images are accompanied by metadata, including information about the acquisition date and time, cloud cover etc. In our application we implemented the special interface to connect to this service and use imagery via Mapflow's processings pipelines.
 
 
+.. * **Use of embedded Maxar SecureWatch for image processing by Mapflow**
 
-* **Using your SecureWatch account for image processing by the Mapflow**
+..    In the *Settings -- Add or edit imagery providers* select the type *Maxar WTS*, switch to the *Imagery search* tab.
 
-.. figure:: _static/qgis/addnewprovider.png
-         :alt: View of the providers tab
-         :align: center
-         :width: 10cm
-         :class: with-border no-scaled-link 
+.. * **Maxar preview**
 
-|
+..   1. Select your AOI in the Area drop-down list and click on the *Search imagery*.
+..   2. Double click on the selected image in the search results (or click Preview button) to add it on the map.
 
-
-   1. Click *+* button and choose Maxar WMTS option in the dropdown list;
-
-   2.  Enter *Login / Password* from your Maxar SecureWatch account;
-
-   3.  Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)
-
-   4.  Optional: specify the coordinate system (default epsg:3857);
-
-   5.  Optional: Check *Save login and password*
+.. .. important:: 
+..    In the free tariff plan the *Max zoom* is limited up to 12 and the processing cannot be started using SecureWatch. If you want to use this data provider - you have to switch to the `Premium <https://mapflow.ai/pricing>`_ tariff plan or `write to us <https://geoalert.io/#contacts>`_ to get a quote.
 
 
-  .. hint::
-       How to find Maxar WMTS URL:
 
-      1. Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login.
+.. * **Using your SecureWatch account for image processing by the Mapflow**
 
-      2. In the upper menu select **Use With** >> **Web Services** >> **WMTS**
+.. .. figure:: _static/qgis/addnewprovider.png
+..          :alt: View of the providers tab
+..          :align: center
+..          :width: 10cm
+..          :class: with-border no-scaled-link 
 
-      3. Copy the WMTS (or TMS) url.
+.. |
 
-        .. figure:: _static/qgis/SecureWatch_user_profile.png
-         :alt: Your user profile in SecureWatch
-         :align: center
-         :width: 15cm
-         :class: with-border no-scaled-link 
 
-        The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
+..    1. Click *+* button and choose Maxar WMTS option in the dropdown list;
+
+..    2.  Enter *Login / Password* from your Maxar SecureWatch account;
+
+..    3.  Enter WMTS URL link for Maxar Secure Watch (`SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ - Login - Securewatch - Use with - Web Services - WMTS)
+
+..    4.  Optional: specify the coordinate system (default epsg:3857);
+
+..    5.  Optional: Check *Save login and password*
+
+
+..   .. hint::
+..        How to find Maxar WMTS URL:
+
+..       1. Go to `SecureWatch <https://securewatch.digitalglobe.com/myDigitalGlobe/logout-from-ended-session>`_ and login.
+
+..       2. In the upper menu select **Use With** >> **Web Services** >> **WMTS**
+
+..       3. Copy the WMTS (or TMS) url.
+
+..         .. figure:: _static/qgis/SecureWatch_user_profile.png
+..          :alt: Your user profile in SecureWatch
+..          :align: center
+..          :width: 15cm
+..          :class: with-border no-scaled-link 
+
+..         The **Connect ID** is different for each product you have in your SecureWatch subscription. Therefore, initially choose the one you want. To do this, open the *User Profile* menu and in the title bar select the required of the two suggested mosaics (**Vivid** and **SecureWatch**).
      
 
-  4. Click *Preview*. 
+..   4. Click *Preview*. 
      
-Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
+.. Now the Maxar layer is available for preview in your raster layers list and for the AI-mapping processing using Mapflow.
 
 
-How to find and process the image by Feature ID using Maxar SecureWatch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. How to find and process the image by Feature ID using Maxar SecureWatch
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use SW to discover available images for you area of interest.
+.. You can use SW to discover available images for you area of interest.
 
-1. Go to the *Providers* tab.
-2. Select Maxar SecureWatch from the dropdown list.
-3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
+.. 1. Go to the *Providers* tab.
+.. 2. Select Maxar SecureWatch from the dropdown list.
+.. 3. In the *Maxar SecureWatch imagery Catalog* select the vector layer containing the boundary of your area of interest.
 
-.. note::
-    To define the imagery search area you can create the new polygon (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
-    Alternatively, you can check the option "use canvas extent".
+.. .. note::
+..     To define the imagery search area you can create the new polygon (*Layer -> Create layer -> ...*, select *Polygon* as a geometry type, add polygon using the tool *Add polygon feature*) or upload it from the file with coordinates. If there is more than one polygon in the file, select with the tool *Select object(s)* the polygon you need. For more information on creating and working with vector layers, see the `QGIS User Guide <https://docs.qgis.org/3.16/en/docs/training_manual/create_vector_data/create_new_vector.html>`_.
+..     Alternatively, you can check the option "use canvas extent".
 
-     .. figure:: _static/qgis/add_SW_WFS.png
-         :alt: Get specific image from SW
-         :align: center
-         :width: 15cm
+..      .. figure:: _static/qgis/add_SW_WFS.png
+..          :alt: Get specific image from SW
+..          :align: center
+..          :width: 15cm
 
-4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
-5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
+.. 4. *Search imagery*, to view meta-data of all available images intesecting your AOI. You can apply search filters and specify the period for which you would like to receive images. This will help in forming an imagery catalog with the necessary parameters.
+.. 5. Select the prteferable image from the imagery catalog or use the WFS generated vector layer (*Maxar SW metadata*) to search through more attributes. If you want to process a specific image in advance, insert your image ID in the field on the top of the plugin, this will make it easier to find the image in the imagery catalog.
 
-.. note::
-    Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.
+.. .. note::
+..     Imagery metadata is saved in the form of vector layer. You can interact with its Attribute Table by searching through all attributes.
 
-6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
+.. 6. Click *Preview* to view the selected image in the form of new raster layer (or double-clicking on the row in the table).
 
-.. attention::
-    "max zoom 12" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch.
+.. .. attention::
+..     "max zoom 12" checkbox is active to prevent the paid streaming on the side of Maxar SecureWatch.
      
 
-How to use other imagery services
+How to add custom imagery providers
 ------------------------------------
 
 Go to the plugin, on the *Providers* tab click on the *Add* (1) and enter the relevant data in the opened window (2). Click the *Preview* (3) the image, - you must be at the correct zoom and coordinates to see the image.
