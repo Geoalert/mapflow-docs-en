@@ -111,12 +111,12 @@ You can select a "My Image" / "My Mosaic" result, preview it on the map and star
 1. Click the row in the results table to select the image.
 2. Click **Save** and proceed to the processing settings - the selected imagery will be used as the source for the processing.
 
-Scheduled Search updates in Mapflow WEB
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Planned Search in Mapflow WEB
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are not satisfied with the current search results or you want to get new images updates without repeating the search manually, this service will do the job.
 
-How to create a scheduled search
+How to create a planned search
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Draw or upload the areas of interest from the GeoJSON file, select all or only the necessary ones in the table. If your GeoJSON features contain the property "name", the AOI names will be automatically loaded into the table. You can also manually assign the aoi name in the edit mode (the "Edit" button in the AOI menu).
@@ -212,12 +212,12 @@ Now a background search will be launched in Mapflow and you will be notified whe
   - If your search consists of multiple AOIs and you're interested in specific ones, you can select them in the "Upload GeoJSON or GeoTIFF file..." section → Now results will only be displayed for the selected AOIs. Also, you can select/deselect AOI by clicking on the map, the results table will be updated automatically.
 
 
-Processings <> Scheduled Search
+Processings <> Planned Search
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Processing is launched in the same way as from :ref:`instant search <imagery-search-web>`:
 
-- Open a scheduled search
+- Open a planned search
 - Select the desired image and click "Save"
 - Select the necessary parameters and start the processing!
 
@@ -248,7 +248,7 @@ Last one can be useful if you are already satisfied with the processed part of t
 |
 
 
-Main operations with Scheduled Search
+Main operations with Planned Search
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/templates_menu.png

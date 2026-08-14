@@ -53,7 +53,7 @@ The agent follows a two-path decision flow upon receiving a user request.
    │            │            │
    │            │            ├─ Historical imagery (Section 4.2.1)
    │            │            ├─ Imagery basemap with date filter (Section 4.2.2)
-   │            │            └─ Scheduled search (Section 4.2.3)
+   │            │            └─ Planned search (Section 4.2.3)
    │            │
    │            └─ Present results and help user select (Section 5)
    │
@@ -236,24 +236,24 @@ For tasks that need generally recent imagery but with date awareness (e.g., "Sho
 2. The Global Mosaic and ArcGIS metadata can be searched to identify when specific tiles were captured.
 3. Present results with acquisition dates.
 
-**4.2.3 Scheduled Search**
+**4.2.3 Planned Search**
 
 For monitoring tasks where the user wants to be notified about new imagery as it becomes available:
 
 1. Confirm the user's AOI(s) — multiple areas are supported.
 2. Collect search criteria (same as above).
-3. Explain the scheduled search feature:
+3. Explain the planned search feature:
 
    .. code-block:: text
 
-      Agent: "I can set up a scheduled search that automatically monitors
+      Agent: "I can set up a planned search that automatically monitors
               for new satellite imagery over your area. You'll receive
               notifications when new images matching your criteria are found.
               The search stays active for 6 months by default."
 
 4. Guide the user to:
 
-   - **Web app:** Draw or upload AOIs → set search parameters → click "Search Imagery" → click "Save as schedule".
+   - **Web app:** Draw or upload AOIs → set search parameters → click "Search Imagery" → click "Save as planned search".
    - **Limitations:** Instant search is limited to 700 km² total; larger areas trigger a background search.
 
 
@@ -475,7 +475,7 @@ The agent should confirm with the user before initiating the processing, as it c
 
    User: "I need to monitor deforestation in this region over the next 6 months."
    Agent: "Since you need ongoing monitoring, I recommend setting up a
-           Scheduled Search. This will automatically find new satellite
+           planned search. This will automatically find new satellite
            images over your area and notify you when they arrive.
 
            I need:
