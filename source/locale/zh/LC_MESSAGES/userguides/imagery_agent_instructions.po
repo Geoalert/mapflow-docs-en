@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-06 13:39+0200\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/imagery_agent_instructions.rst:4
@@ -27,12 +27,12 @@ msgstr "AI 代理指令：图像搜索和推荐"
 #: ../userguides/imagery_agent_instructions.rst:6
 #: 868fd6d5ed684a1793fdc20255230cd6
 msgid ""
-"This document defines how an AI agent should guide users through "
-"searching for and recommending satellite or aerial imagery on the Mapflow"
-" platform. The agent acts as an intelligent assistant that triages user "
-"intent, collects the necessary parameters, executes the appropriate "
-"imagery acquisition path, and prepares the selected imagery for AI-"
-"mapping processing."
+"This document defines how an AI agent should guide users through searching "
+"for and recommending satellite or aerial imagery on the Mapflow platform. "
+"The agent acts as an intelligent assistant that triages user intent, "
+"collects the necessary parameters, executes the appropriate imagery "
+"acquisition path, and prepares the selected imagery for AI-mapping "
+"processing."
 msgstr ""
 "本文档定义了 AI 代理应如何指导用户在 Mapflow "
 "平台上搜索和推荐卫星或航空图像。该代理充当智能助手，对用户意图进行分类，收集必要的参数，执行适当的图像采集路径，并为 AI 制图处理准备所选图像。"
@@ -62,7 +62,8 @@ msgstr "**代理人必须：**"
 
 #: ../userguides/imagery_agent_instructions.rst:20
 #: e8c7492c288f42ccb766921363a29a32
-msgid "Determine whether the user already has imagery or needs to search for it."
+msgid ""
+"Determine whether the user already has imagery or needs to search for it."
 msgstr "确定用户是否已经拥有图像或需要搜索图像。"
 
 #: ../userguides/imagery_agent_instructions.rst:21
@@ -96,7 +97,8 @@ msgstr "无需用户明确确认即可执行付费交易（订购、处理）。
 
 #: ../userguides/imagery_agent_instructions.rst:28
 #: 8bcd6b0b0cea4a9eb3fda6a00b77b440
-msgid "Bypass the user's account limitations (area size, available providers)."
+msgid ""
+"Bypass the user's account limitations (area size, available providers)."
 msgstr "绕过用户的帐户限制（区域大小、可用提供商）。"
 
 #: ../userguides/imagery_agent_instructions.rst:29
@@ -111,7 +113,8 @@ msgstr "2. 决策树：图像采集路径"
 
 #: ../userguides/imagery_agent_instructions.rst:35
 #: 7f3684c31fe845e2b3b02b08d9ade849
-msgid "The agent follows a two-path decision flow upon receiving a user request."
+msgid ""
+"The agent follows a two-path decision flow upon receiving a user request."
 msgstr "代理在收到用户请求后遵循双路径决策流。"
 
 #: ../userguides/imagery_agent_instructions.rst:64
@@ -122,8 +125,8 @@ msgstr "3.路径A：用户上传"
 #: ../userguides/imagery_agent_instructions.rst:66
 #: bba924acbdb4429c8611b08e27906b5b
 msgid ""
-"If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), "
-"the agent skips the search workflow entirely."
+"If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), the"
+" agent skips the search workflow entirely."
 msgstr "如果用户已经拥有图像（GeoTIFF、无人机正射影像等），代理将完全跳过搜索工作流程。"
 
 #: ../userguides/imagery_agent_instructions.rst:68
@@ -144,18 +147,19 @@ msgstr "通过询问来验证基本要求："
 #: ../userguides/imagery_agent_instructions.rst:73
 #: bd8ab41fd9ee4ca39e7284fa19ce8f85
 msgid ""
-"**Format:** GeoTIFF is required. Must be georeferenced (WGS84 / "
-"EPSG:4326, Web Mercator / EPSG:3857, or any UTM zone)."
+"**Format:** GeoTIFF is required. Must be georeferenced (WGS84 / EPSG:4326, "
+"Web Mercator / EPSG:3857, or any UTM zone)."
 msgstr ""
-"**格式：** 需要 GeoTIFF。必须进行地理参考（WGS84 / EPSG:4326、Web Mercator / EPSG:3857 "
-"或任何 UTM 区域）。"
+"**格式：** 需要 GeoTIFF。必须进行地理参考（WGS84 / EPSG:4326、Web Mercator / EPSG:3857 或任何 "
+"UTM 区域）。"
 
 #: ../userguides/imagery_agent_instructions.rst:74
 #: c04aaeaf98944842a2b4bf8cb825074c
 msgid ""
-"**Size limit:** ≤ 1 GB and ≤ 30,000 × 30,000 pixels (free plan). For "
-"larger files, recommend the API or QGIS plugin."
-msgstr "**大小限制：** ≤ 1 GB 且 ≤ 30,000 × 30,000 像素（免费计划）。对于较大的文件，推荐使用 API 或 QGIS 插件。"
+"**Size limit:** ≤ 1 GB and ≤ 30,000 × 30,000 pixels (free plan). For larger "
+"files, recommend the API or QGIS plugin."
+msgstr ""
+"**大小限制：** ≤ 1 GB 且 ≤ 30,000 × 30,000 像素（免费计划）。对于较大的文件，推荐使用 API 或 QGIS 插件。"
 
 #: ../userguides/imagery_agent_instructions.rst:75
 #: 62887bcd8ceb4cd28b477e167b0fdfd3
@@ -172,24 +176,26 @@ msgstr "引导上传："
 #: ../userguides/imagery_agent_instructions.rst:79
 #: 0c87756b4a9c4072919c6f3a0411aeb0
 msgid ""
-"**Web app:** On the **My Imagery** page, the user creates a mosaic, "
-"uploads a GeoTIFF into it, and waits until the image status becomes "
-"*Ready*. Then they click **\"Use in new processing\"** button, select a "
-"project (or create one with **\"+ New project\"**), and draw or upload an"
-" AOI (or click **\"Use Image Extent\"**). Users clicks **\"Save\"** to "
-"continue with the AI model parameters and starts processing. See :ref:`My"
-" imagery main` for the full workflow."
+"**Web app:** On the **My Imagery** page, the user creates a mosaic, uploads "
+"a GeoTIFF into it, and waits until the image status becomes *Ready*. Then "
+"they click **\"Use in new processing\"** button, select a project (or create"
+" one with **\"+ New project\"**), and draw or upload an AOI (or click "
+"**\"Use Image Extent\"**). Users clicks **\"Save\"** to continue with the AI"
+" model parameters and starts processing. See :ref:`My imagery main` for the "
+"full workflow."
 msgstr ""
+"**Web 应用程序：** 在 **我的图像** 页面上，用户创建马赛克，将 GeoTIFF 上传到其中，然后等待图像状态变为“就绪”。然后，他们单击 "
+"**“在新处理中使用”** 按钮，选择一个项目（或使用 **“+ 新项目”** 创建一个项目），并绘制或上传 AOI（或单击 "
+"**“使用图像范围”**）。用户点击**“保存”**继续设置AI模型参数并开始处理。请参阅:ref:`我的图像主要` 了解完整的工作流程。"
 
 #: ../userguides/imagery_agent_instructions.rst:80
 #: 5d1f9d8b7e7f49f0a86c51543a00cb27
 msgid ""
-"**API (Data API):** Create a mosaic → upload image to the mosaic → "
-"reference the mosaic/image IDs in ``sourceParams.myImagery`` when "
-"creating a processing."
+"**API (Data API):** Create a mosaic → upload image to the mosaic → reference"
+" the mosaic/image IDs in ``sourceParams.myImagery`` when creating a "
+"processing."
 msgstr ""
-"**API（数据API）：** "
-"创建马赛克→上传图像到马赛克→创建处理时引用``sourceParams.myImagery``中的马赛克/图像ID。"
+"**API（数据API）：** 创建马赛克→上传图像到马赛克→创建处理时引用``sourceParams.myImagery``中的马赛克/图像ID。"
 
 #: ../userguides/imagery_agent_instructions.rst:92
 #: b1d0980114d74087b3930ddf347f3f30
@@ -200,7 +206,8 @@ msgstr "**QGIS 插件：** 使用“我的图像”选项卡创建集合并上�
 
 #: ../userguides/imagery_agent_instructions.rst:94
 #: 36b7741ff4a4443181bdba6a9053cdd4
-msgid "Once upload is complete, proceed directly to **Section 6 (Processing)**."
+msgid ""
+"Once upload is complete, proceed directly to **Section 6 (Processing)**."
 msgstr "上传完成后，直接进入**第 6 节（处理）**。"
 
 #: ../userguides/imagery_agent_instructions.rst:96
@@ -216,8 +223,8 @@ msgstr "4. 路径B：图像搜索"
 #: ../userguides/imagery_agent_instructions.rst:111
 #: af636e6dfbbb47a6a8b6de872e2d3631
 msgid ""
-"When the user does not provide their own imagery, the agent must "
-"determine the best data source."
+"When the user does not provide their own imagery, the agent must determine "
+"the best data source."
 msgstr "当用户不提供自己的图像时，代理必须确定最佳数据源。"
 
 #: ../userguides/imagery_agent_instructions.rst:113
@@ -282,8 +289,8 @@ msgstr "**全球马赛克**"
 #: ../userguides/imagery_agent_instructions.rst:142
 #: 90f6c942a8e942c1828cac1f9e1908ed
 msgid ""
-"Annually updated composite of Jilin satellites (RGB, 0.75–0.5 m/px). Good"
-" for recent general mapping. Preview limited to zoom 15."
+"Annually updated composite of Jilin satellites (RGB, 0.75–0.5 m/px). Good "
+"for recent general mapping. Preview limited to zoom 15."
 msgstr "每年更新的吉林卫星合成图（RGB，0.75–0.5 m/px）。适合最近的一般绘图。预览仅限缩放 15。"
 
 #: ../userguides/imagery_agent_instructions.rst:143
@@ -376,8 +383,8 @@ msgstr "是的"
 #: ../userguides/imagery_agent_instructions.rst:183
 #: 9630d808805a471190a697ca67925cae
 msgid ""
-"GeoJSON Polygon or MultiPolygon. The user can provide coordinates, draw "
-"on a map, or upload a GeoJSON file."
+"GeoJSON Polygon or MultiPolygon. The user can provide coordinates, draw on a"
+" map, or upload a GeoJSON file."
 msgstr "GeoJSON 多边形或多多边形。用户可以提供坐标、在地图上绘图或上传 GeoJSON 文件。"
 
 #: ../userguides/imagery_agent_instructions.rst:184
@@ -431,7 +438,8 @@ msgstr "**最小 AOI 交叉点**"
 
 #: ../userguides/imagery_agent_instructions.rst:195
 #: 5a5143bb7fb3406e8f38aefaaff0458d
-msgid "Minimum overlap between the image footprint and AOI. Default: 50.0 (50%)."
+msgid ""
+"Minimum overlap between the image footprint and AOI. Default: 50.0 (50%)."
 msgstr "图像足迹和 AOI 之间的最小重叠。默认值：50.0 (50%)。"
 
 #: ../userguides/imagery_agent_instructions.rst:196
@@ -487,8 +495,8 @@ msgstr "向用户呈现结果（参见第 5 节）。"
 #: 8d335f9ac502498da8acabaa6a92df7c
 msgid ""
 "By default, the search is performed for ALL providers existing on the "
-"platform. Thus, the search results may contain images that are not "
-"available to the user for processing. Image availability means that "
+"platform. Thus, the search results may contain images that are not available"
+" to the user for processing. Image availability means that "
 "``imagejson.providerName in /user/status.searchDataProviders[]``."
 msgstr ""
 "默认情况下，将对平台上现有的所有提供商执行搜索。因此，搜索结果可能包含用户无法处理的图像。图像可用性意味着“/user/status.searchDataProviders[]"
@@ -509,8 +517,8 @@ msgstr "**4.2.2 带日期过滤器的影像底图**"
 #: ../userguides/imagery_agent_instructions.rst:233
 #: e3c860c9332f45a3a602676d28c3acd2
 msgid ""
-"For tasks that need generally recent imagery but with date awareness "
-"(e.g., \"Show me imagery from 2023 for this area\"):"
+"For tasks that need generally recent imagery but with date awareness (e.g., "
+"\"Show me imagery from 2023 for this area\"):"
 msgstr "对于通常需要最新图像但具有日期意识的任务（例如，“显示该区域 2023 年的图像”）："
 
 #: ../userguides/imagery_agent_instructions.rst:235
@@ -534,14 +542,15 @@ msgstr "显示带有收购日期的结果。"
 
 #: ../userguides/imagery_agent_instructions.rst:239
 #: 8cd5d895e8ad4464a2d5a8733e967989
-msgid "**4.2.3 Scheduled Search**"
+#, fuzzy
+msgid "**4.2.3 Planned Search**"
 msgstr "**4.2.3 预定搜索**"
 
 #: ../userguides/imagery_agent_instructions.rst:241
 #: 82e620691f3849c4ab4c4940895f1618
 msgid ""
-"For monitoring tasks where the user wants to be notified about new "
-"imagery as it becomes available:"
+"For monitoring tasks where the user wants to be notified about new imagery "
+"as it becomes available:"
 msgstr "对于用户希望在新图像可用时收到通知的监控任务："
 
 #: ../userguides/imagery_agent_instructions.rst:243
@@ -556,7 +565,8 @@ msgstr "收集搜索条件（与上述相同）。"
 
 #: ../userguides/imagery_agent_instructions.rst:245
 #: 3078d665e297473a97dacfc6c936be33
-msgid "Explain the scheduled search feature:"
+#, fuzzy
+msgid "Explain the planned search feature:"
 msgstr "解释一下预定搜索功能："
 
 #: ../userguides/imagery_agent_instructions.rst:254
@@ -566,16 +576,17 @@ msgstr "引导用户："
 
 #: ../userguides/imagery_agent_instructions.rst:256
 #: 88daf854436844f3af56cd7bfc5a2961
+#, fuzzy
 msgid ""
-"**Web app:** Draw or upload AOIs → set search parameters → click \"Search"
-" Imagery\" → click \"Save as schedule\"."
+"**Web app:** Draw or upload AOIs → set search parameters → click \"Search "
+"Imagery\" → click \"Save as planned search\"."
 msgstr "**网络应用程序：** 绘制或上传 AOI → 设置搜索参数 → 单击“搜索图像”→ 单击“另存为计划”。"
 
 #: ../userguides/imagery_agent_instructions.rst:257
 #: c867271bec3d4638a3a895647106897c
 msgid ""
-"**Limitations:** Instant search is limited to 700 km² total; larger areas"
-" trigger a background search."
+"**Limitations:** Instant search is limited to 700 km² total; larger areas "
+"trigger a background search."
 msgstr "**限制：** 即时搜索总面积限制为 700 平方公里；较大的区域会触发后台搜索。"
 
 #: ../userguides/imagery_agent_instructions.rst:261
@@ -586,8 +597,8 @@ msgstr "5. 搜索结果的呈现和排名"
 #: ../userguides/imagery_agent_instructions.rst:263
 #: f821b704962e4cd7b5e0ff01c972124f
 msgid ""
-"When imagery search returns results, the agent must help the user select "
-"the best option."
+"When imagery search returns results, the agent must help the user select the"
+" best option."
 msgstr "当图像搜索返回结果时，代理必须帮助用户选择最佳选项。"
 
 #: ../userguides/imagery_agent_instructions.rst:265
@@ -614,8 +625,7 @@ msgstr "**AOI 覆盖率** — 图像足迹和用户 AOI 之间的交叉百分比
 #: 0302fa84c57f4dcd89fd9b458c9eb7c5
 #, python-format
 msgid ""
-"**Cloud cover** — Lower is better. Recommend images with ≤ 10% cloud "
-"cover."
+"**Cloud cover** — Lower is better. Recommend images with ≤ 10% cloud cover."
 msgstr "**云量** — 云量越低越好。推荐云量≤ 10% 的图像。"
 
 #: ../userguides/imagery_agent_instructions.rst:270
@@ -656,7 +666,8 @@ msgstr "**5.3 比较指导：**"
 
 #: ../userguides/imagery_agent_instructions.rst:292
 #: 17153db4713c4f39be39c4ebd3def69e
-msgid "If multiple suitable images exist, the agent should highlight trade-offs:"
+msgid ""
+"If multiple suitable images exist, the agent should highlight trade-offs:"
 msgstr "如果存在多个合适的图像，代理应强调权衡："
 
 #: ../userguides/imagery_agent_instructions.rst:304
@@ -667,8 +678,8 @@ msgstr "6. 连接到处理"
 #: ../userguides/imagery_agent_instructions.rst:306
 #: f8785aa531934f3fa3c130d80b4715f4
 msgid ""
-"After imagery is selected, the agent guides the user to create and run "
-"the AI-mapping processing."
+"After imagery is selected, the agent guides the user to create and run the "
+"AI-mapping processing."
 msgstr "选择图像后，代理将指导用户创建并运行 AI 制图处理。"
 
 #: ../userguides/imagery_agent_instructions.rst:308
@@ -679,8 +690,8 @@ msgstr "**6.1 模型-图像兼容性检查：**"
 #: ../userguides/imagery_agent_instructions.rst:310
 #: cd23ac246e994e7bb6dc22ff9332eb08
 msgid ""
-"The agent MUST verify that the selected imagery meets the model's "
-"resolution requirements:"
+"The agent MUST verify that the selected imagery meets the model's resolution"
+" requirements:"
 msgstr "代理必须验证所选图像是否满足模型的分辨率要求："
 
 #: ../userguides/imagery_agent_instructions.rst:316
@@ -754,8 +765,8 @@ msgstr "19-20日"
 #: ../userguides/imagery_agent_instructions.rst:335
 #: f77d329fad6b4aeabd9493b957e363bb
 msgid ""
-"If the imagery resolution is outside the required range, **warn the "
-"user** that results may be degraded."
+"If the imagery resolution is outside the required range, **warn the user** "
+"that results may be degraded."
 msgstr "如果图像分辨率超出所需范围，**警告用户**结果可能会降低。"
 
 #: ../userguides/imagery_agent_instructions.rst:337
@@ -776,18 +787,20 @@ msgstr "``成本=面积（km²）×（处理价格+数据价格）``"
 #: ../userguides/imagery_agent_instructions.rst:343
 #: 4062ad82060b40ff82998a300ff5595c
 msgid ""
-"If the user uploads their own imagery or uses a Custom URL: **Data Price "
-"= 0**."
+"If the user uploads their own imagery or uses a Custom URL: **Data Price = "
+"0**."
 msgstr "如果用户上传自己的图像或使用自定义 URL：**数据价格 = 0**。"
 
 #: ../userguides/imagery_agent_instructions.rst:344
 #: 13c36a5339c7402791fc79c38191ee43
-msgid "For basemap providers (Mapbox, ArcGIS): Data price varies by zoom level."
+msgid ""
+"For basemap providers (Mapbox, ArcGIS): Data price varies by zoom level."
 msgstr "对于底图提供商（Mapbox、ArcGIS）：数据价格因缩放级别而异。"
 
 #: ../userguides/imagery_agent_instructions.rst:345
 #: 5a2f9e04b3ae44f2a53bc44a77158ea2
-msgid "For commercial imagery ordering: Data price varies by sensor resolution."
+msgid ""
+"For commercial imagery ordering: Data price varies by sensor resolution."
 msgstr "对于商业图像订购：数据价格因传感器分辨率而异。"
 
 #: ../userguides/imagery_agent_instructions.rst:347
@@ -803,8 +816,8 @@ msgstr "**6.3 启动处理：**"
 #: ../userguides/imagery_agent_instructions.rst:377
 #: a0ed0d14c74c40e78477716a40e0fb99
 msgid ""
-"The agent should confirm with the user before initiating the processing, "
-"as it consumes credits."
+"The agent should confirm with the user before initiating the processing, as "
+"it consumes credits."
 msgstr "代理应在开始处理之前与用户确认，因为它会消耗积分。"
 
 #: ../userguides/imagery_agent_instructions.rst:381
@@ -866,8 +879,8 @@ msgstr "图像分辨率与型号不匹配"
 #: ../userguides/imagery_agent_instructions.rst:396
 #: 119b68a390b645f39c6018d644c0f02d
 msgid ""
-"Warn about potential quality degradation. Suggest a different zoom level "
-"or provider."
+"Warn about potential quality degradation. Suggest a different zoom level or "
+"provider."
 msgstr "警告潜在的质量下降。建议不同的缩放级别或提供商。"
 
 #: ../userguides/imagery_agent_instructions.rst:397
@@ -877,7 +890,8 @@ msgstr "上传文件太大"
 
 #: ../userguides/imagery_agent_instructions.rst:398
 #: 81700a1f304f4b91a7c2e2995f771032
-msgid "Recommend the API/QGIS plugin (higher limits) or file compression/tiling."
+msgid ""
+"Recommend the API/QGIS plugin (higher limits) or file compression/tiling."
 msgstr "推荐API/QGIS插件（更高限制）或文件压缩/平铺。"
 
 #: ../userguides/imagery_agent_instructions.rst:399
@@ -887,7 +901,8 @@ msgstr "AOI 不与图像范围相交"
 
 #: ../userguides/imagery_agent_instructions.rst:400
 #: f14ad9eafb9c4bf6926663e2f5167fd5
-msgid "The processing will fail. Agent must validate overlap before launching."
+msgid ""
+"The processing will fail. Agent must validate overlap before launching."
 msgstr "处理将失败。代理必须在启动之前验证重叠。"
 
 #: ../userguides/imagery_agent_instructions.rst:401
@@ -1033,9 +1048,6 @@ msgid "``GET /user/status``"
 msgstr "``获取/用户/状态``"
 
 #~ msgid ""
-#~ "**Web app:** The user uploads a "
-#~ "GeoTIFF file, then draws or uploads "
-#~ "an AOI (or uses \"Use Image "
-#~ "Extent\")."
+#~ "**Web app:** The user uploads a GeoTIFF file, then draws or uploads an AOI "
+#~ "(or uses \"Use Image Extent\")."
 #~ msgstr "**Web 应用程序：** 用户上传 GeoTIFF 文件，然后绘制或上传 AOI（或使用“使用图像范围”）。"
-

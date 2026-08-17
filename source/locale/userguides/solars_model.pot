@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/solars_model.rst:1
-#: 6c8ff9358f07418eb8d6b8967bc00bc7
+#: ff8f6b8f51b0455ababb4dbf8fd0cc79
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: 2024-10-04 15:52+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -48,15 +48,47 @@ msgstr ""
 "<https://app.mapflow.ai/account/balance>`_ и выберите один из вариантов. Вам"
 " будет предложено оплатить онлайн."
 
-#: ab96ece7e1f645f6bc0dc5951795fa04
+#: ../userguides/prices.rst:15 0f576f8a512e412996bee8cd0d57f7e2
+msgid ""
+"Depending on your planned project scope, you can either subscribe to the "
+"Mapflow Premium plan or buy credits with pay-as-you-go pricing. You can also"
+" contact sales to switch to a custom plan if you have a large-scale project."
+" Note, that the expiration date is displayed in your account profile in the "
+"corresponding plan. If you cancel your Premium subscription or it's expired,"
+" your account is downgraded to Pay-as-you-go."
+msgstr ""
+"В зависимости от запланированного объема проекта вы можете либо подписаться "
+"на план Mapflow Premium, либо купить кредиты с оплатой по мере "
+"использования. Вы также можете связаться с отделом продаж, чтобы перейти на "
+"индивидуальный план, если у вас крупномасштабный проект. Обратите внимание, "
+"что дата истечения срока действия отображается в профиле вашей учетной "
+"записи в соответствующем плане. Если вы отмените подписку Premium или срок "
+"ее действия истек, уровень вашей учетной записи будет понижен до оплаты по "
+"мере использования."
+
+#: ../userguides/prices.rst ab96ece7e1f645f6bc0dc5951795fa04
 msgid "Top up your balance"
 msgstr "Пополнить баланс"
 
-#: ../userguides/prices.rst:24 7861eb396b79436c9ad2f4d74822690c
+#: ../userguides/prices.rst:23 11253a3b2fd246c99992cc3e24f19d82
+#, fuzzy
+msgid "Top up your balance with credits"
+msgstr "Пополнить баланс"
+
+#: ../userguides/prices.rst:24 615240fabdcc4f3db4ab2e899dac67e2
+msgid "Subscribe to the Mapflow Premium or Starter plan"
+msgstr "Подпишитесь на план Mapflow Premium или Starter."
+
+#: ../userguides/prices.rst:25 a7097eb3753140cf89d2c6d8340d48ce
+#, fuzzy
+msgid "Expiration date of your subscription plan"
+msgstr "Планы подписки Mapflow"
+
+#: ../userguides/prices.rst:31 7861eb396b79436c9ad2f4d74822690c
 msgid "Mapflow credits"
 msgstr "Mapflow - кредиты"
 
-#: ../userguides/prices.rst:26 5161a80d6f3740c9b6759da9cce0a643
+#: ../userguides/prices.rst:33 5161a80d6f3740c9b6759da9cce0a643
 msgid ""
 "Cost of processing makes the sum of **data cost** and **processing cost** "
 "given the requested area:"
@@ -64,11 +96,11 @@ msgstr ""
 "Стоимость обработки состоит из **стоимости данных** и **стоимости "
 "обработки** с учетом запрашиваемой области:"
 
-#: ../userguides/prices.rst:28 7efb8f14aa6c4326ab962af05c25580c
+#: ../userguides/prices.rst:35 7efb8f14aa6c4326ab962af05c25580c
 msgid "``Cost = Area * (Processing Price + Data Price)``"
 msgstr "``Стоимость = Площадь * (Стоимость обработки + Стоимость данных)``"
 
-#: ../userguides/prices.rst:30 ee9384e4331f4e3e996d468860eff73e
+#: ../userguides/prices.rst:37 ee9384e4331f4e3e996d468860eff73e
 msgid ""
 "The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
 "discount depending on the number of credits you buy:"
@@ -76,27 +108,27 @@ msgstr ""
 "Цена в кредитах рассчитывается как: 1 Кредит = 0.1$ с прогрессивной скидкой "
 "в зависимости от количества купленных кредитов:"
 
-#: ../userguides/prices.rst:37 9a2e4994be8942efbc4205e80a22136a
+#: ../userguides/prices.rst:44 9a2e4994be8942efbc4205e80a22136a
 msgid "Mapflow Credits"
 msgstr "Mapflow - кредиты"
 
-#: ../userguides/prices.rst:38 5442b1dc7b404ab0b214c7ace0caa853
+#: ../userguides/prices.rst:45 5442b1dc7b404ab0b214c7ace0caa853
 msgid "500"
 msgstr ""
 
-#: ../userguides/prices.rst:39 fa0590c0077242f8ae033aa3d0fc5d7a
+#: ../userguides/prices.rst:46 fa0590c0077242f8ae033aa3d0fc5d7a
 msgid "1000"
 msgstr ""
 
-#: ../userguides/prices.rst:40 d8fa54932ae44fb6a5c77f56c1f9239b
+#: ../userguides/prices.rst:47 d8fa54932ae44fb6a5c77f56c1f9239b
 msgid "10000"
 msgstr ""
 
-#: ../userguides/prices.rst:41 945a4c84f4aa43e0911ba727eb0a0bd5
+#: ../userguides/prices.rst:48 945a4c84f4aa43e0911ba727eb0a0bd5
 msgid "You pay"
 msgstr "Вы платите"
 
-#: ../userguides/prices.rst:42 583226eb229b4bde86af24d7a3b66277
+#: ../userguides/prices.rst:49 583226eb229b4bde86af24d7a3b66277
 msgid "$50"
 msgstr "50 долларов США"
 
@@ -116,7 +148,7 @@ msgstr ""
 msgid "$800"
 msgstr "800 долларов США"
 
-#: ../userguides/prices.rst:48 10dff56d00314de99d04987be01680ec
+#: ../userguides/prices.rst:55 10dff56d00314de99d04987be01680ec
 msgid ""
 "All prices below are given in Mapflow credits. Mapflow Web also provides a "
 "transparent price breakdown in the processing pipeline."
@@ -124,7 +156,7 @@ msgstr ""
 "В Mapflow Web вам показывается стоимость каждого выбранного блока пайплайна "
 "обработки."
 
-#: ../userguides/prices.rst:51 fdb8eaeb61ea485f897d907375313683
+#: ../userguides/prices.rst:58 fdb8eaeb61ea485f897d907375313683
 msgid ""
 "All the processings having an area less than 1 sq.km are rounded up to 1 "
 "sq.km before price calculation!"
@@ -132,26 +164,28 @@ msgstr ""
 "Все обработки площадью менее 1 кв.км перед расчетом цены округляются до 1 "
 "кв.км!"
 
-#: ../userguides/prices.rst:52 1bee67275852401c9ebb5a36fa6e0aed
+#: ../userguides/prices.rst:59 1bee67275852401c9ebb5a36fa6e0aed
 msgid ""
 "Total processing cost is rounded up to the nearest integer number of credits"
 msgstr ""
 "Общая стоимость обработки округляется до ближайшего целого числа кредитов"
 
-#: ../userguides/prices.rst:58 2a2ebf27fafb41f6a70ea7d9a3cdaf00
+#: ../userguides/prices.rst:65 2a2ebf27fafb41f6a70ea7d9a3cdaf00
 msgid "Mapflow subscription plans"
 msgstr "Планы подписки Mapflow"
 
-#: ../userguides/prices.rst:60 d7948db10d24484abe2be01c4b454de5
+#: ../userguides/prices.rst:67 d7948db10d24484abe2be01c4b454de5
+#, fuzzy
 msgid ""
 "Currently Mapflow provides two pricing models: pay-as-you-go and "
-"subscription plans. Currently the only plan **\"Mapflow Premium\"** is "
-"available. It includes a monthly subscription fee and a package of credits. "
-"The subscription fee is charged monthly, the credits are valid for 12 "
-"months. It enables some premium options like custom area size, use of any "
-"custom model that you have access to, priority support, and the use of "
-"commercial satellite data providers. Check the `Mapflow pricing page "
-"<https://mapflow.ai/pricing>`_ for details of the subscription."
+"subscription plans. Currently the plans **\"Mapflow Premium\"** and "
+"**\"Mapflow Starter\"** are available. It includes a monthly subscription "
+"fee and a package of credits. The subscription fee is charged monthly, the "
+"credits are valid for 12 months. It enables some premium options like custom"
+" area size, use of any custom model that you have access to, priority "
+"support, and the use of commercial satellite data providers. Check the "
+"`Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the "
+"subscription."
 msgstr ""
 "В настоящее время Mapflow предлагает две модели оплаты: по факту "
 "использования и подписки. Единственный доступный план — **\"Mapflow "
@@ -162,31 +196,31 @@ msgstr ""
 "доступ к коммерческим поставщикам спутниковых данных. Подробности на "
 "странице `Mapflow pricing <https://mapflow.ai/pricing>`_."
 
-#: f74d8a6c8174461aa6608c61fa538593
-msgid "Mapflow Premium"
-msgstr "Mapflow Premium"
-
 #: ../userguides/prices.rst:71 102ae20ba41a4adfa6385085f561ac93
+#, fuzzy
 msgid ""
-"Using the Mapflow Premium one can buy additional credits with pay-as-you-go "
-"pricing."
+"Using the Mapflow subscription plan one can buy additional credits with pay-"
+"as-you-go pricing."
 msgstr ""
 "Пользователи Mapflow Premium могут приобретать дополнительные кредиты по "
 "цене по факту использования."
 
 #: ../userguides/prices.rst:72 22e82c112f624183be452ec90c6377d4
+#, fuzzy
 msgid ""
 "To activate the subscription, go to your `account profile - Balance "
-"<https://app.mapflow.ai/account/balance>`_ and choose the Mapflow Premium "
-"plan."
+"<https://app.mapflow.ai/account/balance>`_ and choose the Mapflow "
+"subscription plan."
 msgstr ""
 "Чтобы активировать подписку, перейдите в `профиль — Баланс "
 "<https://app.mapflow.ai/account/balance>`_ и выберите план Mapflow Premium."
 
 #: ../userguides/prices.rst:73 6b7ecec13d2447b0b33a416c8f1a58ae
+#, fuzzy
 msgid ""
 "To deactivate the subscription, go to your `account profile - Balance "
-"<https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow Premium."
+"<https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow "
+"subscription plan."
 msgstr ""
 "Чтобы деактивировать подписку, перейдите в `профиль — Баланс "
 "<https://app.mapflow.ai/account/balance>`_ и отключите Mapflow Premium."
@@ -450,8 +484,7 @@ msgid "180"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1
-#: 58fc22c9a0ac4a5a8cf29a975105a1cb 93cd845612f34a9ea70db3a43ae3617e
-#: b6cef1e581d54f1784678929657eb6a5
+#: 58fc22c9a0ac4a5a8cf29a975105a1cb b6cef1e581d54f1784678929657eb6a5
 msgid "--"
 msgstr ""
 
@@ -727,3 +760,6 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 
 #~ msgid "Water | Landuse | Roads | Buildings"
 #~ msgstr "Вода | Землепользование | Дороги | Здания"
+
+#~ msgid "Mapflow Premium"
+#~ msgstr "Mapflow Premium"

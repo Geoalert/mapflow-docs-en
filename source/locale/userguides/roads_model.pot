@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/roads_model.rst:1
-#: d427bdef9b7d465693badb766a3226f8
+#: 830abda79a4c41849fc2b29a57b86e4d
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 

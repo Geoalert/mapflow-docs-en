@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -166,10 +166,15 @@ msgid "Guide the upload:"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:79
-#: 770e81a4584a47318787aa7c6169497e
+#: 0c87756b4a9c4072919c6f3a0411aeb0
 msgid ""
-"**Web app:** The user uploads a GeoTIFF file, then draws or uploads an "
-"AOI (or uses \"Use Image Extent\")."
+"**Web app:** On the **My Imagery** page, the user creates a mosaic, "
+"uploads a GeoTIFF into it, and waits until the image status becomes "
+"*Ready*. Then they click **\"Use in new processing\"** button, select a "
+"project (or create one with **\"+ New project\"**), and draw or upload an"
+" AOI (or click **\"Use Image Extent\"**). Users clicks **\"Save\"** to "
+"continue with the AI model parameters and starts processing. See :ref:`My"
+" imagery main` for the full workflow."
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:80
@@ -521,7 +526,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:239
 #: 8cd5d895e8ad4464a2d5a8733e967989
-msgid "**4.2.3 Scheduled Search**"
+msgid "**4.2.3 Planned Search**"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:241
@@ -543,7 +548,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:245
 #: 3078d665e297473a97dacfc6c936be33
-msgid "Explain the scheduled search feature:"
+msgid "Explain the planned search feature:"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:254
@@ -555,7 +560,7 @@ msgstr ""
 #: 88daf854436844f3af56cd7bfc5a2961
 msgid ""
 "**Web app:** Draw or upload AOIs → set search parameters → click \"Search"
-" Imagery\" → click \"Save as schedule\"."
+" Imagery\" → click \"Save as planned search\"."
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:257
@@ -1018,4 +1023,24 @@ msgstr ""
 #: aea4a84e784e4241aa15bff4eee25b38
 msgid "``GET /user/status``"
 msgstr ""
+
+#~ msgid ""
+#~ "**Web app:** The user uploads a "
+#~ "GeoTIFF file, then draws or uploads "
+#~ "an AOI (or uses \"Use Image "
+#~ "Extent\")."
+#~ msgstr ""
+
+#~ msgid "**4.2.3 Scheduled Search**"
+#~ msgstr ""
+
+#~ msgid "Explain the scheduled search feature:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Web app:** Draw or upload AOIs →"
+#~ " set search parameters → click "
+#~ "\"Search Imagery\" → click \"Save as "
+#~ "schedule\"."
+#~ msgstr ""
 

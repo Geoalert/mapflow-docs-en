@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgid "AI-Mapping Models"
 msgstr ""
 
 #: ../userguides/pipelines.rst:15
-#: bf254dbb4c0a4b199b4da6ba916fd038
+#: c3d3a816ae464ade8aedef23262d5aa7
 msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
 msgstr ""
 
@@ -745,7 +745,7 @@ msgid "Looking to run this in production? See the `model catalog and deployment 
 msgstr ""
 
 #: ../userguides/pipelines.rst:200
-#: 561b5125ce31484d9d1393492f921770
+#: ad15abe16a194f1f9347cc08c1f923e9
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
 msgstr ""
 
@@ -1119,7 +1119,7 @@ msgid "📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-0
 msgstr ""
 
 #: ../userguides/pipelines.rst:359
-#: 406bb0e8739c482db99935dc3070e982
+#: e91ffc31fe984a2d9e20f3059b291d20
 msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 
@@ -1181,7 +1181,7 @@ msgid "More complex environment - urban territory in Prague, Czech Republic"
 msgstr ""
 
 #: ../userguides/pipelines.rst:401
-#: 6d93fe9a8f984ff094cc6479997c484d
+#: f04ddc0758554b718da0129b4415c932
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 
@@ -1282,7 +1282,7 @@ msgid "Below is the list of custom models created for specific use cases and ava
 msgstr ""
 
 #: ../userguides/pipelines.rst:472
-#: 5420605a5b664c4183ecebf29cdbcb24
+#: 55043e4c6e6442218b5c49cf1295177b
 msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
 msgstr ""
 
@@ -1302,7 +1302,7 @@ msgid "Processing result sample for a rapidly developing area with construction 
 msgstr ""
 
 #: ../userguides/pipelines.rst:495
-#: b0372a0a0e73449499c94e40e11bdaa8
+#: 33e9790b7e74473aa09e09a8f1908778
 msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
 msgstr ""
 
@@ -1339,7 +1339,7 @@ msgid "High-density buildings model, instance segmentation and post-processing w
 msgstr ""
 
 #: ../userguides/pipelines.rst:524
-#: 04e5a8c2882543e396e07480533944d3
+#: 7070f4f797114ac1989895646eaad76b
 msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
 msgstr ""
 
@@ -1376,7 +1376,7 @@ msgid "Processing result sample for Asia (Northern India)"
 msgstr ""
 
 #: ../userguides/pipelines.rst:558
-#: 12b3eee9e617409d80b2e1434a44308d
+#: e3892131d02c4153b9dd0d68d2c75569
 msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
 msgstr ""
 
@@ -1516,7 +1516,7 @@ msgid "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapfl
 msgstr ""
 
 #: ../userguides/pipelines.rst:653
-#: 395d948b208d4e519f08154409ed53a7
+#: 44be278edf5447a88d0c8c37d3410724
 msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
 msgstr ""
 
@@ -1598,7 +1598,7 @@ msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-
 msgstr ""
 
 #: ../userguides/pipelines.rst:696
-#: 4d28c10fbc8c4d11b750397e4ae75a84
+#: 1104587b33b34e01bb42ed561837f1ea
 msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
 msgstr ""
 

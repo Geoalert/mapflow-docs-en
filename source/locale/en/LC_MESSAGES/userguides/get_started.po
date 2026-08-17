@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -351,8 +351,8 @@ msgstr ""
 msgid "Custom URL"
 msgstr ""
 
-#: ../userguides/get_started.rst:213 ddaee46fb5a6431799899f30b6105b0a
-msgid "Historical data"
+#: ../userguides/get_started.rst:213 de59e4b2d2a44b4dae28ba6f95b9a8bd
+msgid "Imagery Search"
 msgstr ""
 
 #: ../userguides/get_started.rst:218 bbd9aad3804341afb3e5c7ab00b1fc77
@@ -433,7 +433,7 @@ msgid "Add on map to preview."
 msgstr ""
 
 #: ../userguides/get_started.rst:267 de59e4b2d2a44b4dae28ba6f95b9a8bd
-msgid "3.3 Historical data (Imagery Search)"
+msgid "3.3 Imagery Search"
 msgstr ""
 
 #: ../userguides/get_started.rst:269 128111eaf0e04c61943d72c4904e521e
@@ -1043,5 +1043,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Both sides image dimensions must not exceed 30.000x30.000 pixels"
+#~ msgstr ""
+
+#~ msgid "Historical data"
+#~ msgstr ""
+
+#~ msgid "3.3 Historical data (Imagery Search)"
 #~ msgstr ""
 

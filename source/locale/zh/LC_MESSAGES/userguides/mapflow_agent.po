@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2026-08-06 13:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/mapflow_agent.rst:4 d099444837d24569855dba259d257bde
@@ -25,13 +25,12 @@ msgstr "Mapflow AI 代理"
 
 #: ../userguides/mapflow_agent.rst:6 b23286cff7a540f39eb65420b2c767e4
 msgid ""
-"The **Mapflow AI Agent** is an intelligent assistant built into the "
-"Mapflow web app. It guides you through the full AI-mapping workflow — "
-"from defining an area of interest to running a processing — using "
-"natural-language conversation. The agent collects parameters, recommends "
-"models and imagery sources, estimates cost, and launches the processing "
-"on your behalf, while always asking for your confirmation before spending"
-" credits."
+"The **Mapflow AI Agent** is an intelligent assistant built into the Mapflow "
+"web app. It guides you through the full AI-mapping workflow — from defining "
+"an area of interest to running a processing — using natural-language "
+"conversation. The agent collects parameters, recommends models and imagery "
+"sources, estimates cost, and launches the processing on your behalf, while "
+"always asking for your confirmation before spending credits."
 msgstr ""
 "**Mapflow AI Agent** 是 Mapflow Web "
 "应用程序中内置的智能助手。它使用自然语言对话指导您完成完整的人工智能绘图工作流程——从定义感兴趣的区域到运行处理。代理会收集参数、推荐模型和图像来源、估算成本并代表您启动处理，同时在花费积分之前始终要求您确认。"
@@ -56,10 +55,10 @@ msgstr "**步骤 1. 仪表板**"
 
 #: ../userguides/mapflow_agent.rst:20 ba697a76e6f1456aae2683bb51b27613
 msgid ""
-"Open the Mapflow `dashboard <https://app.mapflow.ai>`_. The dashboard "
-"lists all of your projects and is the starting point for any new mapping "
-"task."
-msgstr "打开 Mapflow `仪表板 <https://app.mapflow.ai>`_。仪表板列出了您的所有项目，并且是任何新映射任务的起点。"
+"Open the Mapflow `dashboard <https://app.mapflow.ai>`_. The dashboard lists "
+"all of your projects and is the starting point for any new mapping task."
+msgstr ""
+"打开 Mapflow `仪表板 <https://app.mapflow.ai>`_。仪表板列出了您的所有项目，并且是任何新映射任务的起点。"
 
 #: ../userguides/mapflow_agent.rst:22 7dfec1f2ca0b4b9bb1ae17ca5de66fcd
 msgid "**Step 2. Create project**"
@@ -68,8 +67,8 @@ msgstr "**步骤2.创建项目**"
 #: ../userguides/mapflow_agent.rst:24 89b86bfcda884972b880cc99f515c161
 msgid ""
 "Click **Create project** to open the *New project* dialog. Set a name, "
-"optionally customize the icon and color, and add a description that "
-"explains what you want to map."
+"optionally customize the icon and color, and add a description that explains"
+" what you want to map."
 msgstr "单击“**创建项目**”以打开“*新建项目*”对话框。设置名称，可以选择自定义图标和颜色，并添加说明来解释您想要映射的内容。"
 
 #: ../userguides/mapflow_agent.rst:26 56a7b77a74c747e5acf74757587e0049
@@ -78,11 +77,11 @@ msgstr "**步骤 3. 使用 AI Agent 创建项目**"
 
 #: ../userguides/mapflow_agent.rst:28 7a16185cc9a242138601f1efab9b00b1
 msgid ""
-"Instead of configuring the project manually, click **Create project with "
-"AI Agent**. The agent reads the project description as your initial "
-"request and starts a conversation to gather everything needed to run a "
-"processing."
-msgstr "单击 **使用 AI Agent 创建项目**，而不是手动配置项目。代理会读取项目描述作为您的初始请求，并开始对话以收集运行处理所需的所有信息。"
+"Instead of configuring the project manually, click **Create project with AI "
+"Agent**. The agent reads the project description as your initial request and"
+" starts a conversation to gather everything needed to run a processing."
+msgstr ""
+"单击 **使用 AI Agent 创建项目**，而不是手动配置项目。代理会读取项目描述作为您的初始请求，并开始对话以收集运行处理所需的所有信息。"
 
 #: 7d9d2bea33d24e4d96050133838438d9
 msgid "Create project with AI Agent"
@@ -91,8 +90,8 @@ msgstr "使用AI Agent创建项目"
 #: ../userguides/mapflow_agent.rst:38 60e3eacffda54295b048b97712d756ae
 msgid ""
 "From this point the agent drives the workflow: it clarifies your intent, "
-"proposes a model, helps you define an AOI, finds suitable imagery, "
-"estimates cost, and runs the processing once you confirm."
+"proposes a model, helps you define an AOI, finds suitable imagery, estimates"
+" cost, and runs the processing once you confirm."
 msgstr "从这一点开始，代理驱动工作流程：它阐明您的意图，提出模型，帮助您定义 AOI，找到合适的图像，估计成本，并在您确认后运行处理。"
 
 #: ../userguides/mapflow_agent.rst:41 d36cb3fb42d94980bbda4854181bde92
@@ -128,8 +127,8 @@ msgstr ""
 
 #: ../userguides/mapflow_agent.rst:56 b63a5f9367b54b84b1dc554782b2df2d
 msgid ""
-"Answers questions about Mapflow features, models, pricing, and "
-"limitations using the official Mapflow documentation as a source."
+"Answers questions about Mapflow features, models, pricing, and limitations "
+"using the official Mapflow documentation as a source."
 msgstr "使用官方 Mapflow 文档作为来源，回答有关 Mapflow 功能、模型、定价和限制的问题。"
 
 #: ../userguides/mapflow_agent.rst:57 2d7add4395db455ca8f7ffb6dbd0eb3b
@@ -148,8 +147,8 @@ msgstr "``列表模型``"
 
 #: ../userguides/mapflow_agent.rst:60 564c4b385c5e4d6c818173e2e3d364bb
 msgid ""
-"Lists the AI models available to your account and recommends the one that"
-" fits your task."
+"Lists the AI models available to your account and recommends the one that "
+"fits your task."
 msgstr "列出您的账户可用的 AI 模型，并推荐适合您任务的模型。"
 
 #: ../userguides/mapflow_agent.rst:61 365e642049b5486aa1c279ca5958f266
@@ -168,8 +167,8 @@ msgstr "``获取地理边界``"
 
 #: ../userguides/mapflow_agent.rst:64 5e46dbeba162423e9edb19f61e3eb939
 msgid ""
-"Resolves a toponym (place name) into a geographic boundary. Useful when "
-"the user references an area by name rather than coordinates."
+"Resolves a toponym (place name) into a geographic boundary. Useful when the "
+"user references an area by name rather than coordinates."
 msgstr "将地名（地名）解析为地理边界。当用户通过名称而不是坐标引用区域时很有用。"
 
 #: ../userguides/mapflow_agent.rst:65 c2f3b265bcac47dc95816974c3d2e27f
@@ -185,7 +184,8 @@ msgid "``buffer_aoi``"
 msgstr ""
 
 #: ../userguides/mapflow_agent.rst:68 6d231fb5223540c0a4a200f5a07380dc
-msgid "Creates a buffer zone of a given radius around an AOI or a point location."
+msgid ""
+"Creates a buffer zone of a given radius around an AOI or a point location."
 msgstr "在 AOI 或点位置周围创建给定半径的缓冲区。"
 
 #: ../userguides/mapflow_agent.rst:69 c1c53c9e11124431aa8500e5e7254659
@@ -194,8 +194,8 @@ msgstr ""
 
 #: ../userguides/mapflow_agent.rst:70 bfb8209768684796a3ee42db36553fbb
 msgid ""
-"Lists the imagery sources (basemaps and commercial providers) available "
-"to the user and recommends a default."
+"Lists the imagery sources (basemaps and commercial providers) available to "
+"the user and recommends a default."
 msgstr "列出用户可用的图像源（底图和商业提供商）并建议默认值。"
 
 #: ../userguides/mapflow_agent.rst:71 91f44a9600e54b9fafac7a949649b0f2
@@ -204,8 +204,8 @@ msgstr "``搜索图像目录``"
 
 #: ../userguides/mapflow_agent.rst:72 4e1bfea5026d4fd8b20f21bacdf2c1aa
 msgid ""
-"Searches both basemaps and commercial catalogs for images matching the "
-"AOI, date range, cloud cover, and resolution criteria."
+"Searches both basemaps and commercial catalogs for images matching the AOI, "
+"date range, cloud cover, and resolution criteria."
 msgstr "在底图和商业目录中搜索与 AOI、日期范围、云量和分辨率标准匹配的图像。"
 
 #: ../userguides/mapflow_agent.rst:73 e3c91d68d18f46a99663edb4f62ace54
@@ -222,8 +222,8 @@ msgstr "``计算成本``"
 
 #: ../userguides/mapflow_agent.rst:76 7785bff5fed34f82876ace66680e09b6
 msgid ""
-"Estimates the processing cost in credits based on the selected model, "
-"AOI, and data source."
+"Estimates the processing cost in credits based on the selected model, AOI, "
+"and data source."
 msgstr "根据所选模型、AOI 和数据源估算处理成本（以学分为单位）。"
 
 #: ../userguides/mapflow_agent.rst:77 b2226ff626644604bf61cb775661df2e
@@ -232,8 +232,7 @@ msgstr "``开始处理``"
 
 #: ../userguides/mapflow_agent.rst:78 21f43fcdf09541de877d73487bfc6193
 msgid ""
-"Launches the processing run after the user confirms the parameters and "
-"cost."
+"Launches the processing run after the user confirms the parameters and cost."
 msgstr "用户确认参数和成本后启动处理运行。"
 
 #: ../userguides/mapflow_agent.rst:79 f458d8cce48f4481b6c86928317a22de
@@ -242,8 +241,8 @@ msgstr "``获取处理``"
 
 #: ../userguides/mapflow_agent.rst:80 0124977f5e1d4905951389c99dceedd7
 msgid ""
-"Polls and reports the status of a running processing so the user is kept "
-"up to date."
+"Polls and reports the status of a running processing so the user is kept up "
+"to date."
 msgstr "轮询并报告正在运行的处理的状态，以便用户随时了解最新情况。"
 
 #: ../userguides/mapflow_agent.rst:81 fd4dc9428d2c40c0bcbbb38cc43684b9
@@ -253,9 +252,9 @@ msgstr "``保存所选图像``"
 
 #: ../userguides/mapflow_agent.rst:82 cf615ba5baf1460f8e075d2cd9b5bf90
 msgid ""
-"Uploads an image to be stored in the user's My Imagery collection and "
-"used as an input for processing."
-msgstr ""
+"Uploads an image to be stored in the user's My Imagery collection and used "
+"as an input for processing."
+msgstr "上传要存储在用户的“我的图像”集合中的图像，并用作处理的输入。"
 
 #: ../userguides/mapflow_agent.rst:86 6101b71940484f76b12eb4ad27bb850d
 msgid "Example interaction"
@@ -263,14 +262,14 @@ msgstr "交互示例"
 
 #: ../userguides/mapflow_agent.rst:88 628a7dd132cf470489cb855fc8fc738f
 msgid ""
-"A typical conversation with the agent follows the pattern below. The "
-"agent's tool calls are noted in italics for illustration only — they are "
-"not visible in the chat UI."
+"A typical conversation with the agent follows the pattern below. The agent's"
+" tool calls are noted in italics for illustration only — they are not "
+"visible in the chat UI."
 msgstr "与代理的典型对话遵循以下模式。代理的工具调用以斜体表示，仅供说明之用 - 它们在聊天 UI 中不可见。"
 
 #: ../userguides/mapflow_agent.rst:117 5e54baac06394303ac77ffe9d3d89be0
 msgid "Usage examples"
-msgstr ""
+msgstr "使用示例"
 
 #: ../userguides/mapflow_agent.rst:120 1716c9c5cf034203a5c4351d32e03769
 msgid "Buffering an AOI"
@@ -282,8 +281,7 @@ msgid ""
 "agent can expand it into a usable AOI with ``buffer_aoi``. The animation "
 "below shows the agent creating a buffer around a location:"
 msgstr ""
-"当用户给代理一个点位置或一个小几何图形时，代理可以使用“buffer_aoi”将其扩展为可用的 "
-"AOI。下面的动画显示了代理在某个位置周围创建缓冲区："
+"当用户给代理一个点位置或一个小几何图形时，代理可以使用“buffer_aoi”将其扩展为可用的 AOI。下面的动画显示了代理在某个位置周围创建缓冲区："
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent creating a buffer around an AOI"
@@ -291,19 +289,21 @@ msgstr "代理在 AOI 周围创建缓冲区"
 
 #: ../userguides/mapflow_agent.rst:133 070a93ce6c5a495b97d992228b0a0131
 msgid "Uploading an image"
-msgstr ""
+msgstr "上传图片"
 
 #: ../userguides/mapflow_agent.rst:135 f41fc0f86b24439d883bddd42640c0cb
 msgid ""
-"The agent can accept an image upload from the user and use it as an input"
-" for processing. Drop an image into the chat window, and the agent will "
-"store it in your :ref:`My Imagery <My imagery main>` collection and "
-"select it for the processing:"
+"The agent can accept an image upload from the user and use it as an input "
+"for processing. Drop an image into the chat window, and the agent will store"
+" it in your :ref:`My Imagery <My imagery main>` collection and select it for"
+" the processing:"
 msgstr ""
+"代理可以接受用户上传的图像并将其用作处理的输入。将图像放入聊天窗口中，代理会将其存储在您的 My Imagery <My imagery main>` "
+"集合中，并选择它进行处理："
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent handling an image upload"
-msgstr ""
+msgstr "处理图像上传的代理"
 
 #: ../userguides/mapflow_agent.rst:146 1b8ce3c55dbf409bbcfbf5df91c29999
 msgid "Related guides"
@@ -311,8 +311,8 @@ msgstr "相关指南"
 
 #: ../userguides/mapflow_agent.rst:148 d155d87bad2a4eddaed9bb3c0d431564
 msgid ""
-":ref:`imagery-agent-instructions` — the detailed decision logic the agent"
-" applies when searching for and recommending imagery."
+":ref:`imagery-agent-instructions` — the detailed decision logic the agent "
+"applies when searching for and recommending imagery."
 msgstr ""
 
 #: ../userguides/mapflow_agent.rst:149 199f8769adf74cfbbab4c26846e5f19c
@@ -322,4 +322,3 @@ msgstr ""
 #: ../userguides/mapflow_agent.rst:150 59597e16acbe43dba7cbcf25f4184a76
 msgid ":doc:`pipelines` — overview of available AI models and workflows."
 msgstr ""
-

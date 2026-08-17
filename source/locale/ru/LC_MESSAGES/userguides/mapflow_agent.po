@@ -351,10 +351,14 @@ msgid ""
 " it in your :ref:`My Imagery <My imagery main>` collection and select it for"
 " the processing:"
 msgstr ""
+"Агент может принять загрузку изображения от пользователя и использовать ее в"
+" качестве входных данных для обработки. Перетащите изображение в окно чата, "
+"и агент сохранит его в вашей коллекции :ref:`My Imagery <My imagery main>` и"
+" выберет для обработки:"
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent handling an image upload"
-msgstr ""
+msgstr "Агент, обрабатывающий загрузку изображений"
 
 #: ../userguides/mapflow_agent.rst:146 1b8ce3c55dbf409bbcfbf5df91c29999
 msgid "Related guides"

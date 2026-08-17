@@ -8,39 +8,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-06 13:39+0200\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/imagery_agent_instructions.rst:4
 #: ef430fcb2ad945188da0565369e277cb
 msgid "AI Agent Instructions: Imagery Search & Recommendation"
-msgstr ""
-"Instrucciones para el agente de IA: búsqueda y recomendación de imágenes"
+msgstr "Instrucciones para el agente de IA: búsqueda y recomendación de imágenes"
 
 #: ../userguides/imagery_agent_instructions.rst:6
 #: 868fd6d5ed684a1793fdc20255230cd6
 msgid ""
-"This document defines how an AI agent should guide users through searching "
-"for and recommending satellite or aerial imagery on the Mapflow platform. "
-"The agent acts as an intelligent assistant that triages user intent, "
-"collects the necessary parameters, executes the appropriate imagery "
-"acquisition path, and prepares the selected imagery for AI-mapping "
-"processing."
+"This document defines how an AI agent should guide users through "
+"searching for and recommending satellite or aerial imagery on the Mapflow"
+" platform. The agent acts as an intelligent assistant that triages user "
+"intent, collects the necessary parameters, executes the appropriate "
+"imagery acquisition path, and prepares the selected imagery for AI-"
+"mapping processing."
 msgstr ""
-"Este documento define cómo un agente de IA debe guiar a los usuarios en la "
-"búsqueda y recomendación de imágenes aéreas o satelitales en la plataforma "
-"Mapflow. El agente actúa como un asistente inteligente que clasifica la "
-"intención del usuario, recopila los parámetros necesarios, ejecuta la ruta "
-"de adquisición de imágenes adecuada y prepara las imágenes seleccionadas "
-"para el procesamiento de mapas de IA."
+"Este documento define cómo un agente de IA debe guiar a los usuarios en "
+"la búsqueda y recomendación de imágenes aéreas o satelitales en la "
+"plataforma Mapflow. El agente actúa como un asistente inteligente que "
+"clasifica la intención del usuario, recopila los parámetros necesarios, "
+"ejecuta la ruta de adquisición de imágenes adecuada y prepara las "
+"imágenes seleccionadas para el procesamiento de mapas de IA."
 
 #: ../userguides/imagery_agent_instructions.rst:11
 #: 427116213d0145eb9f72c8d2358e5192
@@ -59,9 +58,10 @@ msgid ""
 "(building detection, forest mapping, road extraction, etc.) but need to "
 "acquire the right imagery first."
 msgstr ""
-"El agente ayuda a los usuarios que desean ejecutar análisis geoespaciales "
-"impulsados ​​por IA (detección de edificios, mapeo forestal, extracción de "
-"carreteras, etc.) pero primero necesitan adquirir las imágenes correctas."
+"El agente ayuda a los usuarios que desean ejecutar análisis geoespaciales"
+" impulsados ​​por IA (detección de edificios, mapeo forestal, extracción "
+"de carreteras, etc.) pero primero necesitan adquirir las imágenes "
+"correctas."
 
 #: ../userguides/imagery_agent_instructions.rst:18
 #: d04d8e01e3054a12865a713e6d15ad8a
@@ -70,8 +70,7 @@ msgstr "**El agente DEBE:**"
 
 #: ../userguides/imagery_agent_instructions.rst:20
 #: e8c7492c288f42ccb766921363a29a32
-msgid ""
-"Determine whether the user already has imagery or needs to search for it."
+msgid "Determine whether the user already has imagery or needs to search for it."
 msgstr "Determine si el usuario ya tiene imágenes o necesita buscarlas."
 
 #: ../userguides/imagery_agent_instructions.rst:21
@@ -80,15 +79,15 @@ msgid ""
 "When a search is required, gather all necessary parameters through "
 "clarifying questions."
 msgstr ""
-"Cuando se requiera una búsqueda, recopile todos los parámetros necesarios "
-"mediante preguntas aclaratorias."
+"Cuando se requiera una búsqueda, recopile todos los parámetros necesarios"
+" mediante preguntas aclaratorias."
 
 #: ../userguides/imagery_agent_instructions.rst:22
 #: 7ff4939cda284bfb988790409e2244c2
 msgid "Recommend imagery options ranked by relevance to the user's task."
 msgstr ""
-"Recomendar opciones de imágenes clasificadas por relevancia para la tarea "
-"del usuario."
+"Recomendar opciones de imágenes clasificadas por relevancia para la tarea"
+" del usuario."
 
 #: ../userguides/imagery_agent_instructions.rst:23
 #: 982cd7ab29e44f0cb9d2f1a1305f92b0
@@ -113,8 +112,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:28
 #: 8bcd6b0b0cea4a9eb3fda6a00b77b440
-msgid ""
-"Bypass the user's account limitations (area size, available providers)."
+msgid "Bypass the user's account limitations (area size, available providers)."
 msgstr ""
 "Evite las limitaciones de la cuenta del usuario (tamaño del área, "
 "proveedores disponibles)."
@@ -131,11 +129,10 @@ msgstr "2. Árbol de decisión: rutas de adquisición de imágenes"
 
 #: ../userguides/imagery_agent_instructions.rst:35
 #: 7f3684c31fe845e2b3b02b08d9ade849
-msgid ""
-"The agent follows a two-path decision flow upon receiving a user request."
+msgid "The agent follows a two-path decision flow upon receiving a user request."
 msgstr ""
-"El agente sigue un flujo de decisión de dos caminos al recibir una solicitud"
-" de usuario."
+"El agente sigue un flujo de decisión de dos caminos al recibir una "
+"solicitud de usuario."
 
 #: ../userguides/imagery_agent_instructions.rst:64
 #: 20cdcf143a1f417b835b672049d256f1
@@ -145,8 +142,8 @@ msgstr "3. Ruta A: Carga de usuario"
 #: ../userguides/imagery_agent_instructions.rst:66
 #: bba924acbdb4429c8611b08e27906b5b
 msgid ""
-"If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), the"
-" agent skips the search workflow entirely."
+"If the user already possesses imagery (GeoTIFF, drone orthophoto, etc.), "
+"the agent skips the search workflow entirely."
 msgstr ""
 "Si el usuario ya posee imágenes (GeoTIFF, ortofoto de drones, etc.), el "
 "agente se salta por completo el flujo de trabajo de búsqueda."
@@ -159,8 +156,7 @@ msgstr "**3.1 Acciones del agente:**"
 #: ../userguides/imagery_agent_instructions.rst:70
 #: decb6cb28a1541c395efdc5db957ec6b
 msgid "Confirm the user intends to upload their own image."
-msgstr ""
-"Confirme que el usuario tiene la intención de cargar su propia imagen."
+msgstr "Confirme que el usuario tiene la intención de cargar su propia imagen."
 
 #: ../userguides/imagery_agent_instructions.rst:71
 #: 2761c93b24d849c684952350cc351a3b
@@ -170,8 +166,8 @@ msgstr "Valide los requisitos básicos preguntando:"
 #: ../userguides/imagery_agent_instructions.rst:73
 #: bd8ab41fd9ee4ca39e7284fa19ce8f85
 msgid ""
-"**Format:** GeoTIFF is required. Must be georeferenced (WGS84 / EPSG:4326, "
-"Web Mercator / EPSG:3857, or any UTM zone)."
+"**Format:** GeoTIFF is required. Must be georeferenced (WGS84 / "
+"EPSG:4326, Web Mercator / EPSG:3857, or any UTM zone)."
 msgstr ""
 "**Formato:** Se requiere GeoTIFF. Debe estar georreferenciado (WGS84 / "
 "EPSG:4326, Web Mercator / EPSG:3857, o cualquier zona UTM)."
@@ -179,11 +175,11 @@ msgstr ""
 #: ../userguides/imagery_agent_instructions.rst:74
 #: c04aaeaf98944842a2b4bf8cb825074c
 msgid ""
-"**Size limit:** ≤ 1 GB and ≤ 30,000 × 30,000 pixels (free plan). For larger "
-"files, recommend the API or QGIS plugin."
+"**Size limit:** ≤ 1 GB and ≤ 30,000 × 30,000 pixels (free plan). For "
+"larger files, recommend the API or QGIS plugin."
 msgstr ""
-"**Límite de tamaño:** ≤ 1 GB y ≤ 30.000 × 30.000 píxeles (plan gratuito). "
-"Para archivos más grandes, recomiende el complemento API o QGIS."
+"**Límite de tamaño:** ≤ 1 GB y ≤ 30.000 × 30.000 píxeles (plan gratuito)."
+" Para archivos más grandes, recomiende el complemento API o QGIS."
 
 #: ../userguides/imagery_agent_instructions.rst:75
 #: 62887bcd8ceb4cd28b477e167b0fdfd3
@@ -191,8 +187,8 @@ msgid ""
 "**Bands:** RGB is preferred. RGBa and single-band (panchromatic) are "
 "accepted but with reduced quality."
 msgstr ""
-"**Bandas:** Se prefiere RGB. Se aceptan RGBa y monobanda (pancromático) pero"
-" con calidad reducida."
+"**Bandas:** Se prefiere RGB. Se aceptan RGBa y monobanda (pancromático) "
+"pero con calidad reducida."
 
 #: ../userguides/imagery_agent_instructions.rst:77
 #: 957d6acdfec64a68b03f1f688ef5359b
@@ -202,33 +198,34 @@ msgstr "Guíe la carga:"
 #: ../userguides/imagery_agent_instructions.rst:79
 #: 0c87756b4a9c4072919c6f3a0411aeb0
 msgid ""
-"**Web app:** On the **My Imagery** page, the user creates a mosaic, uploads "
-"a GeoTIFF into it, and waits until the image status becomes *Ready*. Then "
-"they click **\"Use in new processing\"** button, select a project (or create"
-" one with **\"+ New project\"**), and draw or upload an AOI (or click "
-"**\"Use Image Extent\"**). Users clicks **\"Save\"** to continue with the AI"
-" model parameters and starts processing. See :ref:`My imagery main` for the "
-"full workflow."
+"**Web app:** On the **My Imagery** page, the user creates a mosaic, "
+"uploads a GeoTIFF into it, and waits until the image status becomes "
+"*Ready*. Then they click **\"Use in new processing\"** button, select a "
+"project (or create one with **\"+ New project\"**), and draw or upload an"
+" AOI (or click **\"Use Image Extent\"**). Users clicks **\"Save\"** to "
+"continue with the AI model parameters and starts processing. See :ref:`My"
+" imagery main` for the full workflow."
 msgstr ""
 "**Aplicación web:** En la página **Mis imágenes**, el usuario crea un "
-"mosaico, carga un GeoTIFF en él y espera hasta que el estado de la imagen "
-"sea *Listo*. Luego hacen clic en el botón **\"Usar en nuevo "
+"mosaico, carga un GeoTIFF en él y espera hasta que el estado de la imagen"
+" sea *Listo*. Luego hacen clic en el botón **\"Usar en nuevo "
 "procesamiento\"**, seleccionan un proyecto (o crean uno con **\"+ Nuevo "
-"proyecto\"**) y dibujan o cargan un AOI (o hacen clic en **\"Usar extensión "
-"de imagen\"**). Los usuarios hacen clic en **\"Guardar\"** para continuar "
-"con los parámetros del modelo de IA y comenzar a procesar. Consulte "
-":ref:`Mis imágenes principales` para conocer el flujo de trabajo completo."
+"proyecto\"**) y dibujan o cargan un AOI (o hacen clic en **\"Usar "
+"extensión de imagen\"**). Los usuarios hacen clic en **\"Guardar\"** para"
+" continuar con los parámetros del modelo de IA y comenzar a procesar. "
+"Consulte :ref:`Mis imágenes principales` para conocer el flujo de trabajo"
+" completo."
 
 #: ../userguides/imagery_agent_instructions.rst:80
 #: 5d1f9d8b7e7f49f0a86c51543a00cb27
 msgid ""
-"**API (Data API):** Create a mosaic → upload image to the mosaic → reference"
-" the mosaic/image IDs in ``sourceParams.myImagery`` when creating a "
-"processing."
+"**API (Data API):** Create a mosaic → upload image to the mosaic → "
+"reference the mosaic/image IDs in ``sourceParams.myImagery`` when "
+"creating a processing."
 msgstr ""
-"**API (API de datos):** Cree un mosaico → cargue una imagen en el mosaico → "
-"haga referencia a los ID del mosaico/imagen en ``sourceParams.myImagery`` al"
-" crear un procesamiento."
+"**API (API de datos):** Cree un mosaico → cargue una imagen en el mosaico"
+" → haga referencia a los ID del mosaico/imagen en "
+"``sourceParams.myImagery`` al crear un procesamiento."
 
 #: ../userguides/imagery_agent_instructions.rst:92
 #: b1d0980114d74087b3930ddf347f3f30
@@ -241,11 +238,10 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:94
 #: 36b7741ff4a4443181bdba6a9053cdd4
-msgid ""
-"Once upload is complete, proceed directly to **Section 6 (Processing)**."
+msgid "Once upload is complete, proceed directly to **Section 6 (Processing)**."
 msgstr ""
-"Una vez que se complete la carga, continúe directamente con la **Sección 6 "
-"(Procesamiento)**."
+"Una vez que se complete la carga, continúe directamente con la **Sección "
+"6 (Procesamiento)**."
 
 #: ../userguides/imagery_agent_instructions.rst:96
 #: 9437f5a80e9648c484734020f0caa092
@@ -260,8 +256,8 @@ msgstr "4. Ruta B: Búsqueda de imágenes"
 #: ../userguides/imagery_agent_instructions.rst:111
 #: af636e6dfbbb47a6a8b6de872e2d3631
 msgid ""
-"When the user does not provide their own imagery, the agent must determine "
-"the best data source."
+"When the user does not provide their own imagery, the agent must "
+"determine the best data source."
 msgstr ""
 "Cuando el usuario no proporciona sus propias imágenes, el agente debe "
 "determinar la mejor fuente de datos."
@@ -270,7 +266,8 @@ msgstr ""
 #: 5d8ec350ff04498e8b65f36f82518ec0
 msgid "**4.0 Key clarifying question — Is the date of imagery important?**"
 msgstr ""
-"**4.0 Pregunta aclaratoria clave: ¿Es importante la fecha de las imágenes?**"
+"**4.0 Pregunta aclaratoria clave: ¿Es importante la fecha de las "
+"imágenes?**"
 
 #: ../userguides/imagery_agent_instructions.rst:115
 #: 8e12607d90f14600973be4a2e7ab68b6
@@ -293,8 +290,8 @@ msgid ""
 "When the user needs a general-purpose, up-to-date satellite background "
 "(e.g., \"I just want to map buildings in this area\"):"
 msgstr ""
-"Cuando el usuario necesita un fondo satelital actualizado y de uso general "
-"(por ejemplo, \"Solo quiero mapear edificios en esta área\"):"
+"Cuando el usuario necesita un fondo satelital actualizado y de uso "
+"general (por ejemplo, \"Solo quiero mapear edificios en esta área\"):"
 
 #: ../userguides/imagery_agent_instructions.rst:131
 #: 8e52865e8d974ca99143bc0a74ec47c2
@@ -333,11 +330,12 @@ msgstr "**Mosaico global**"
 #: ../userguides/imagery_agent_instructions.rst:142
 #: 90f6c942a8e942c1828cac1f9e1908ed
 msgid ""
-"Annually updated composite of Jilin satellites (RGB, 0.75–0.5 m/px). Good "
-"for recent general mapping. Preview limited to zoom 15."
+"Annually updated composite of Jilin satellites (RGB, 0.75–0.5 m/px). Good"
+" for recent general mapping. Preview limited to zoom 15."
 msgstr ""
 "Compuesto actualizado anualmente de los satélites Jilin (RGB, 0,75–0,5 "
-"m/px). Bueno para mapeo general reciente. Vista previa limitada al zoom 15."
+"m/px). Bueno para mapeo general reciente. Vista previa limitada al zoom "
+"15."
 
 #: ../userguides/imagery_agent_instructions.rst:143
 #: 9aa537677c924abf8352d01c2b2bbeb8
@@ -351,7 +349,8 @@ msgid ""
 "cycle. Metadata searchable by location."
 msgstr ""
 "Cobertura global de resolución alta a media (alojada en ESRI). Ciclo de "
-"actualización de 1 a 5 años. Metadatos que se pueden buscar por ubicación."
+"actualización de 1 a 5 años. Metadatos que se pueden buscar por "
+"ubicación."
 
 #: ../userguides/imagery_agent_instructions.rst:146
 #: 01d21007651c4ca29b4e21b520195bd4
@@ -393,8 +392,8 @@ msgid ""
 "When the user needs imagery from a specific time period, the agent must "
 "collect search parameters."
 msgstr ""
-"Cuando el usuario necesita imágenes de un período de tiempo específico, el "
-"agente debe recopilar parámetros de búsqueda."
+"Cuando el usuario necesita imágenes de un período de tiempo específico, "
+"el agente debe recopilar parámetros de búsqueda."
 
 #: ../userguides/imagery_agent_instructions.rst:170
 #: bf229299904f4a248c84801ba2cca2cb
@@ -435,11 +434,11 @@ msgstr "Sí"
 #: ../userguides/imagery_agent_instructions.rst:183
 #: 9630d808805a471190a697ca67925cae
 msgid ""
-"GeoJSON Polygon or MultiPolygon. The user can provide coordinates, draw on a"
-" map, or upload a GeoJSON file."
+"GeoJSON Polygon or MultiPolygon. The user can provide coordinates, draw "
+"on a map, or upload a GeoJSON file."
 msgstr ""
-"GeoJSON Polígono o MultiPolígono. El usuario puede proporcionar coordenadas,"
-" dibujar en un mapa o cargar un archivo GeoJSON."
+"GeoJSON Polígono o MultiPolígono. El usuario puede proporcionar "
+"coordenadas, dibujar en un mapa o cargar un archivo GeoJSON."
 
 #: ../userguides/imagery_agent_instructions.rst:184
 #: b38233e848b64eaf83bb9d3abe758f02
@@ -483,8 +482,7 @@ msgstr "Opcional"
 #: ../userguides/imagery_agent_instructions.rst:192
 #: 961bc76989e54be4a3098c29da5c58cc
 msgid "Lower values = more vertical (nadir) imagery = less distortion."
-msgstr ""
-"Valores más bajos = más imágenes verticales (nadir) = menos distorsión."
+msgstr "Valores más bajos = más imágenes verticales (nadir) = menos distorsión."
 
 #: ../userguides/imagery_agent_instructions.rst:193
 #: 18bed717c01b446aa794bcf5881325a2
@@ -493,8 +491,7 @@ msgstr "**Intersección AOI mínima**"
 
 #: ../userguides/imagery_agent_instructions.rst:195
 #: 5a5143bb7fb3406e8f38aefaaff0458d
-msgid ""
-"Minimum overlap between the image footprint and AOI. Default: 50.0 (50%)."
+msgid "Minimum overlap between the image footprint and AOI. Default: 50.0 (50%)."
 msgstr ""
 "Superposición mínima entre la huella de la imagen y el AOI. Valor "
 "predeterminado: 50,0 (50%)."
@@ -510,8 +507,8 @@ msgid ""
 "``maxResolution`` in m/px. Should match the AI model requirements (see "
 "Section 6)."
 msgstr ""
-"``maxResolution`` en m/px. Debe coincidir con los requisitos del modelo de "
-"IA (consulte la Sección 6)."
+"``maxResolution`` en m/px. Debe coincidir con los requisitos del modelo "
+"de IA (consulte la Sección 6)."
 
 #: ../userguides/imagery_agent_instructions.rst:199
 #: 5f42ce13820b43128b2da6d089b6e9a7
@@ -556,15 +553,15 @@ msgstr "Presentar los resultados al usuario (ver Sección 5)."
 #: 8d335f9ac502498da8acabaa6a92df7c
 msgid ""
 "By default, the search is performed for ALL providers existing on the "
-"platform. Thus, the search results may contain images that are not available"
-" to the user for processing. Image availability means that "
+"platform. Thus, the search results may contain images that are not "
+"available to the user for processing. Image availability means that "
 "``imagejson.providerName in /user/status.searchDataProviders[]``."
 msgstr ""
-"Por defecto, la búsqueda se realiza para TODOS los proveedores existentes en"
-" la plataforma. Por lo tanto, los resultados de la búsqueda pueden contener "
-"imágenes que no están disponibles para que el usuario las procese. La "
-"disponibilidad de la imagen significa que ``imagejson.providerName en "
-"/user/status.searchDataProviders[]``."
+"Por defecto, la búsqueda se realiza para TODOS los proveedores existentes"
+" en la plataforma. Por lo tanto, los resultados de la búsqueda pueden "
+"contener imágenes que no están disponibles para que el usuario las "
+"procese. La disponibilidad de la imagen significa que "
+"``imagejson.providerName en /user/status.searchDataProviders[]``."
 
 #: ../userguides/imagery_agent_instructions.rst:229
 #: 39fac08118eb4316b8fa5288ba673fc1
@@ -584,12 +581,12 @@ msgstr "**4.2.2 Mapa base de imágenes con filtro de fecha**"
 #: ../userguides/imagery_agent_instructions.rst:233
 #: e3c860c9332f45a3a602676d28c3acd2
 msgid ""
-"For tasks that need generally recent imagery but with date awareness (e.g., "
-"\"Show me imagery from 2023 for this area\"):"
+"For tasks that need generally recent imagery but with date awareness "
+"(e.g., \"Show me imagery from 2023 for this area\"):"
 msgstr ""
 "Para tareas que generalmente necesitan imágenes recientes pero con "
-"reconocimiento de fecha (por ejemplo, \"Muéstrame imágenes de 2023 para esta"
-" área\"):"
+"reconocimiento de fecha (por ejemplo, \"Muéstrame imágenes de 2023 para "
+"esta área\"):"
 
 #: ../userguides/imagery_agent_instructions.rst:235
 #: dcb65f5bb23f4068b9108637858736ed
@@ -597,7 +594,8 @@ msgid ""
 "Search mosaics (``productTypes: [\"MOSAIC\"]``) filtered by the AOI and "
 "date."
 msgstr ""
-"Busque mosaicos (``productTypes: [\"MOSAIC\"]``) filtrados por AOI y fecha."
+"Busque mosaicos (``productTypes: [\"MOSAIC\"]``) filtrados por AOI y "
+"fecha."
 
 #: ../userguides/imagery_agent_instructions.rst:236
 #: a8a7eda93de44a3d980eabf6a45d81fd
@@ -605,8 +603,8 @@ msgid ""
 "The Global Mosaic and ArcGIS metadata can be searched to identify when "
 "specific tiles were captured."
 msgstr ""
-"Se pueden buscar metadatos de Global Mosaic y ArcGIS para identificar cuándo"
-" se capturaron mosaicos específicos."
+"Se pueden buscar metadatos de Global Mosaic y ArcGIS para identificar "
+"cuándo se capturaron mosaicos específicos."
 
 #: ../userguides/imagery_agent_instructions.rst:237
 #: 569b990fc0a147058b337e1e5ebaa6fd
@@ -615,17 +613,18 @@ msgstr "Presentar resultados con fechas de adquisición."
 
 #: ../userguides/imagery_agent_instructions.rst:239
 #: 8cd5d895e8ad4464a2d5a8733e967989
-msgid "**4.2.3 Scheduled Search**"
+#, fuzzy
+msgid "**4.2.3 Planned Search**"
 msgstr "**4.2.3 Búsqueda programada**"
 
 #: ../userguides/imagery_agent_instructions.rst:241
 #: 82e620691f3849c4ab4c4940895f1618
 msgid ""
-"For monitoring tasks where the user wants to be notified about new imagery "
-"as it becomes available:"
+"For monitoring tasks where the user wants to be notified about new "
+"imagery as it becomes available:"
 msgstr ""
-"Para tareas de monitoreo en las que el usuario desea recibir notificaciones "
-"sobre nuevas imágenes a medida que estén disponibles:"
+"Para tareas de monitoreo en las que el usuario desea recibir "
+"notificaciones sobre nuevas imágenes a medida que estén disponibles:"
 
 #: ../userguides/imagery_agent_instructions.rst:243
 #: 364728ad9729491ea99a5cc3f0e427f6
@@ -639,7 +638,8 @@ msgstr "Recopile criterios de búsqueda (igual que arriba)."
 
 #: ../userguides/imagery_agent_instructions.rst:245
 #: 3078d665e297473a97dacfc6c936be33
-msgid "Explain the scheduled search feature:"
+#, fuzzy
+msgid "Explain the planned search feature:"
 msgstr "Explique la función de búsqueda programada:"
 
 #: ../userguides/imagery_agent_instructions.rst:254
@@ -649,22 +649,23 @@ msgstr "Guíe al usuario a:"
 
 #: ../userguides/imagery_agent_instructions.rst:256
 #: 88daf854436844f3af56cd7bfc5a2961
+#, fuzzy
 msgid ""
-"**Web app:** Draw or upload AOIs → set search parameters → click \"Search "
-"Imagery\" → click \"Save as schedule\"."
+"**Web app:** Draw or upload AOIs → set search parameters → click \"Search"
+" Imagery\" → click \"Save as planned search\"."
 msgstr ""
 "**Aplicación web:** Dibuje o cargue AOI → establezca los parámetros de "
-"búsqueda → haga clic en \"Buscar imágenes\" → haga clic en \"Guardar como "
-"programación\"."
+"búsqueda → haga clic en \"Buscar imágenes\" → haga clic en \"Guardar como"
+" programación\"."
 
 #: ../userguides/imagery_agent_instructions.rst:257
 #: c867271bec3d4638a3a895647106897c
 msgid ""
-"**Limitations:** Instant search is limited to 700 km² total; larger areas "
-"trigger a background search."
+"**Limitations:** Instant search is limited to 700 km² total; larger areas"
+" trigger a background search."
 msgstr ""
-"**Limitaciones:** La búsqueda instantánea está limitada a 700 km² en total; "
-"las áreas más grandes desencadenan una búsqueda en segundo plano."
+"**Limitaciones:** La búsqueda instantánea está limitada a 700 km² en "
+"total; las áreas más grandes desencadenan una búsqueda en segundo plano."
 
 #: ../userguides/imagery_agent_instructions.rst:261
 #: 52dfe659e5ab47ef98d6d06ec50e1383
@@ -674,11 +675,11 @@ msgstr "5. Presentar y clasificar los resultados de la búsqueda"
 #: ../userguides/imagery_agent_instructions.rst:263
 #: f821b704962e4cd7b5e0ff01c972124f
 msgid ""
-"When imagery search returns results, the agent must help the user select the"
-" best option."
+"When imagery search returns results, the agent must help the user select "
+"the best option."
 msgstr ""
-"Cuando la búsqueda de imágenes arroja resultados, el agente debe ayudar al "
-"usuario a seleccionar la mejor opción."
+"Cuando la búsqueda de imágenes arroja resultados, el agente debe ayudar "
+"al usuario a seleccionar la mejor opción."
 
 #: ../userguides/imagery_agent_instructions.rst:265
 #: 1ea66d17e57640d1b79d094a3d9fc394
@@ -693,8 +694,9 @@ msgid ""
 "without a plan upgrade."
 msgstr ""
 "**Disponibilidad del proveedor**: priorice los proveedores a los que el "
-"usuario tiene acceso (\"Disponible para mí\"). Las imágenes de proveedores "
-"no disponibles no se pueden utilizar sin una actualización del plan."
+"usuario tiene acceso (\"Disponible para mí\"). Las imágenes de "
+"proveedores no disponibles no se pueden utilizar sin una actualización "
+"del plan."
 
 #: ../userguides/imagery_agent_instructions.rst:268
 #: 438d4963939d42059ec62aa71f3e12ed
@@ -702,17 +704,18 @@ msgid ""
 "**AOI coverage** — Higher intersection percentage between the image "
 "footprint and the user's AOI is better."
 msgstr ""
-"**Cobertura de AOI**: un mayor porcentaje de intersección entre la huella de"
-" la imagen y el AOI del usuario es mejor."
+"**Cobertura de AOI**: un mayor porcentaje de intersección entre la huella"
+" de la imagen y el AOI del usuario es mejor."
 
 #: ../userguides/imagery_agent_instructions.rst:269
 #: 0302fa84c57f4dcd89fd9b458c9eb7c5
 #, python-format
 msgid ""
-"**Cloud cover** — Lower is better. Recommend images with ≤ 10% cloud cover."
+"**Cloud cover** — Lower is better. Recommend images with ≤ 10% cloud "
+"cover."
 msgstr ""
-"**Cubierta de nubes**: cuanto más bajo, mejor. Recomendar imágenes con ≤ 10%"
-" de nubosidad."
+"**Cubierta de nubes**: cuanto más bajo, mejor. Recomendar imágenes con ≤ "
+"10% de nubosidad."
 
 #: ../userguides/imagery_agent_instructions.rst:270
 #: 8994c553faf1481194f0a916a8635e3f
@@ -720,8 +723,8 @@ msgid ""
 "**Recency** — More recent images are generally preferred unless the user "
 "specified a historical date."
 msgstr ""
-"**Reciente**: generalmente se prefieren las imágenes más recientes, a menos "
-"que el usuario haya especificado una fecha histórica."
+"**Reciente**: generalmente se prefieren las imágenes más recientes, a "
+"menos que el usuario haya especificado una fecha histórica."
 
 #: ../userguides/imagery_agent_instructions.rst:271
 #: 926ccdd20bce4c9facf9fdb2208a30cf
@@ -738,8 +741,8 @@ msgid ""
 "**Resolution** — Must meet the minimum requirements for the intended AI "
 "model."
 msgstr ""
-"**Resolución**: debe cumplir con los requisitos mínimos para el modelo de IA"
-" previsto."
+"**Resolución**: debe cumplir con los requisitos mínimos para el modelo de"
+" IA previsto."
 
 #: ../userguides/imagery_agent_instructions.rst:274
 #: 7bba6a7916c844179a95c424041173d8
@@ -758,8 +761,7 @@ msgstr "**5.3 Guía de comparación:**"
 
 #: ../userguides/imagery_agent_instructions.rst:292
 #: 17153db4713c4f39be39c4ebd3def69e
-msgid ""
-"If multiple suitable images exist, the agent should highlight trade-offs:"
+msgid "If multiple suitable images exist, the agent should highlight trade-offs:"
 msgstr ""
 "Si existen varias imágenes adecuadas, el agente debe resaltar las "
 "compensaciones:"
@@ -772,11 +774,11 @@ msgstr "6. Conexión al procesamiento"
 #: ../userguides/imagery_agent_instructions.rst:306
 #: f8785aa531934f3fa3c130d80b4715f4
 msgid ""
-"After imagery is selected, the agent guides the user to create and run the "
-"AI-mapping processing."
+"After imagery is selected, the agent guides the user to create and run "
+"the AI-mapping processing."
 msgstr ""
-"Una vez seleccionadas las imágenes, el agente guía al usuario para crear y "
-"ejecutar el procesamiento de mapeo de IA."
+"Una vez seleccionadas las imágenes, el agente guía al usuario para crear "
+"y ejecutar el procesamiento de mapeo de IA."
 
 #: ../userguides/imagery_agent_instructions.rst:308
 #: 677e6783b1494735bff9339632ddcb7e
@@ -786,8 +788,8 @@ msgstr "**6.1 Verificación de compatibilidad entre modelo e imágenes:**"
 #: ../userguides/imagery_agent_instructions.rst:310
 #: cd23ac246e994e7bb6dc22ff9332eb08
 msgid ""
-"The agent MUST verify that the selected imagery meets the model's resolution"
-" requirements:"
+"The agent MUST verify that the selected imagery meets the model's "
+"resolution requirements:"
 msgstr ""
 "El agente DEBE verificar que las imágenes seleccionadas cumplan con los "
 "requisitos de resolución del modelo:"
@@ -863,11 +865,11 @@ msgstr ""
 #: ../userguides/imagery_agent_instructions.rst:335
 #: f77d329fad6b4aeabd9493b957e363bb
 msgid ""
-"If the imagery resolution is outside the required range, **warn the user** "
-"that results may be degraded."
+"If the imagery resolution is outside the required range, **warn the "
+"user** that results may be degraded."
 msgstr ""
-"Si la resolución de las imágenes está fuera del rango requerido, **advierta "
-"al usuario** que los resultados pueden degradarse."
+"Si la resolución de las imágenes está fuera del rango requerido, "
+"**advierta al usuario** que los resultados pueden degradarse."
 
 #: ../userguides/imagery_agent_instructions.rst:337
 #: 3d153872a3de4ceda57e048197d280e1
@@ -887,27 +889,25 @@ msgstr "``Costo = Área (km²) × (Precio de procesamiento + Precio de datos)``"
 #: ../userguides/imagery_agent_instructions.rst:343
 #: 4062ad82060b40ff82998a300ff5595c
 msgid ""
-"If the user uploads their own imagery or uses a Custom URL: **Data Price = "
-"0**."
+"If the user uploads their own imagery or uses a Custom URL: **Data Price "
+"= 0**."
 msgstr ""
 "Si el usuario sube sus propias imágenes o utiliza una URL personalizada: "
 "**Precio de datos = 0**."
 
 #: ../userguides/imagery_agent_instructions.rst:344
 #: 13c36a5339c7402791fc79c38191ee43
-msgid ""
-"For basemap providers (Mapbox, ArcGIS): Data price varies by zoom level."
+msgid "For basemap providers (Mapbox, ArcGIS): Data price varies by zoom level."
 msgstr ""
 "Para proveedores de mapas base (Mapbox, ArcGIS): el precio de los datos "
 "varía según el nivel de zoom."
 
 #: ../userguides/imagery_agent_instructions.rst:345
 #: 5a2f9e04b3ae44f2a53bc44a77158ea2
-msgid ""
-"For commercial imagery ordering: Data price varies by sensor resolution."
+msgid "For commercial imagery ordering: Data price varies by sensor resolution."
 msgstr ""
-"Para pedidos de imágenes comerciales: el precio de los datos varía según la "
-"resolución del sensor."
+"Para pedidos de imágenes comerciales: el precio de los datos varía según "
+"la resolución del sensor."
 
 #: ../userguides/imagery_agent_instructions.rst:347
 #: bb8f6a54a12a430fbb3bf74366e8c76e
@@ -922,11 +922,11 @@ msgstr "**6.3 Inicio del tratamiento:**"
 #: ../userguides/imagery_agent_instructions.rst:377
 #: a0ed0d14c74c40e78477716a40e0fb99
 msgid ""
-"The agent should confirm with the user before initiating the processing, as "
-"it consumes credits."
+"The agent should confirm with the user before initiating the processing, "
+"as it consumes credits."
 msgstr ""
-"El agente debe confirmar con el usuario antes de iniciar el procesamiento, "
-"ya que consume créditos."
+"El agente debe confirmar con el usuario antes de iniciar el "
+"procesamiento, ya que consume créditos."
 
 #: ../userguides/imagery_agent_instructions.rst:381
 #: 26d25bf586c24a31b967f1acc275e6dd
@@ -954,9 +954,9 @@ msgid ""
 "Suggest broadening the date range, increasing cloud cover threshold, or "
 "reducing the AOI. If monitoring is needed, recommend a Scheduled Search."
 msgstr ""
-"Sugiera ampliar el rango de fechas, aumentar el umbral de cobertura de nubes"
-" o reducir el AOI. Si es necesario realizar un seguimiento, recomiende una "
-"búsqueda programada."
+"Sugiera ampliar el rango de fechas, aumentar el umbral de cobertura de "
+"nubes o reducir el AOI. Si es necesario realizar un seguimiento, "
+"recomiende una búsqueda programada."
 
 #: ../userguides/imagery_agent_instructions.rst:391
 #: fae188c9b465482f9299110231ce3e9c
@@ -969,8 +969,8 @@ msgid ""
 "Free plan: max 25 km² (by bounding box). Inform the user and suggest "
 "splitting the area or upgrading to Premium."
 msgstr ""
-"Plan gratuito: máximo 25 km² (por cuadro delimitador). Informar al usuario y"
-" sugerirle dividir el área o actualizar a Premium."
+"Plan gratuito: máximo 25 km² (por cuadro delimitador). Informar al "
+"usuario y sugerirle dividir el área o actualizar a Premium."
 
 #: ../userguides/imagery_agent_instructions.rst:393
 #: e0669baee5774bbab24d083041858f2b
@@ -994,11 +994,11 @@ msgstr "La resolución de la imagen no coincide con el modelo."
 #: ../userguides/imagery_agent_instructions.rst:396
 #: 119b68a390b645f39c6018d644c0f02d
 msgid ""
-"Warn about potential quality degradation. Suggest a different zoom level or "
-"provider."
+"Warn about potential quality degradation. Suggest a different zoom level "
+"or provider."
 msgstr ""
-"Advertir sobre una posible degradación de la calidad. Sugiera un nivel de "
-"zoom o proveedor diferente."
+"Advertir sobre una posible degradación de la calidad. Sugiera un nivel de"
+" zoom o proveedor diferente."
 
 #: ../userguides/imagery_agent_instructions.rst:397
 #: 2281f069b3814906ab587820a648b14e
@@ -1007,8 +1007,7 @@ msgstr "Subir archivo demasiado grande"
 
 #: ../userguides/imagery_agent_instructions.rst:398
 #: 81700a1f304f4b91a7c2e2995f771032
-msgid ""
-"Recommend the API/QGIS plugin (higher limits) or file compression/tiling."
+msgid "Recommend the API/QGIS plugin (higher limits) or file compression/tiling."
 msgstr ""
 "Recomiende el complemento API/QGIS (límites más altos) o la "
 "compresión/mosaico de archivos."
@@ -1020,11 +1019,10 @@ msgstr "AOI no intersecta la extensión de la imagen"
 
 #: ../userguides/imagery_agent_instructions.rst:400
 #: f14ad9eafb9c4bf6926663e2f5167fd5
-msgid ""
-"The processing will fail. Agent must validate overlap before launching."
+msgid "The processing will fail. Agent must validate overlap before launching."
 msgstr ""
-"El procesamiento fallará. El agente debe validar la superposición antes del "
-"lanzamiento."
+"El procesamiento fallará. El agente debe validar la superposición antes "
+"del lanzamiento."
 
 #: ../userguides/imagery_agent_instructions.rst:401
 #: 73acd2944e4f4db9ad2627210d1b0848
@@ -1037,8 +1035,8 @@ msgid ""
 "Ask clarifying questions — never assume critical parameters like date or "
 "area."
 msgstr ""
-"Haga preguntas aclaratorias; nunca asuma parámetros críticos como la fecha o"
-" el área."
+"Haga preguntas aclaratorias; nunca asuma parámetros críticos como la "
+"fecha o el área."
 
 #: ../userguides/imagery_agent_instructions.rst:406
 #: a1d339bd861540468f2ea00867775032
@@ -1171,8 +1169,13 @@ msgid "``GET /user/status``"
 msgstr "``GET /usuario/estado``"
 
 #~ msgid ""
-#~ "**Web app:** The user uploads a GeoTIFF file, then draws or uploads an AOI "
-#~ "(or uses \"Use Image Extent\")."
+#~ "**Web app:** The user uploads a "
+#~ "GeoTIFF file, then draws or uploads "
+#~ "an AOI (or uses \"Use Image "
+#~ "Extent\")."
 #~ msgstr ""
-#~ "**Aplicación web:** El usuario carga un archivo GeoTIFF, luego dibuja o "
-#~ "carga un AOI (o usa \"Usar extensión de imagen\")."
+#~ "**Aplicación web:** El usuario carga un"
+#~ " archivo GeoTIFF, luego dibuja o "
+#~ "carga un AOI (o usa \"Usar "
+#~ "extensión de imagen\")."
+

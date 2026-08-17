@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/get_started.rst:2 7eeb99db1ed944a8984bc7c7a869acf7
@@ -25,36 +25,37 @@ msgstr "Mapflow - 开始"
 
 #: ../userguides/get_started.rst:4 f9db616a864147bba982a1814caa204c
 msgid ""
-"Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using your "
-"email. You can also use Google account to login. Mapflow processes imagery "
-"and extracts vector objects from it. So as a user, you start processing "
-"runs, or as we would call it, **AI-mapping**."
+"Go to `Mapflow <https://app.mapflow.ai>`_ and register or login using "
+"your email. You can also use Google account to login. Mapflow processes "
+"imagery and extracts vector objects from it. So as a user, you start "
+"processing runs, or as we would call it, **AI-mapping**."
 msgstr ""
 "转到“Mapflow <https://app.mapflow.ai>”_并使用您的电子邮件注册或登录。您也可以使用Google帐户登录。 "
 "Mapflow 处理图像并从中提取矢量对象。因此，作为用户，您开始处理运行，或者我们称之为 **AI 映射**。"
 
 #: ../userguides/get_started.rst:7 6aed7751af134e2d96eae3b2a41a08c4
 msgid ""
-"Upon the registration, the *Default* project will be created automatically "
-"and you will be redirected to the main dashboard:"
+"Upon the registration, the *Default* project will be created "
+"automatically and you will be redirected to the main dashboard:"
 msgstr "注册后，*默认*项目将自动创建，您将被重定向到主仪表板："
 
 #: ../userguides/get_started.rst:15 13668ee6c72a420095d1be77f231d0eb
 msgid ""
-"You can create as many projects as you want to organise your work and share "
-"the project access with your coworkers."
+"You can create as many projects as you want to organise your work and "
+"share the project access with your coworkers."
 msgstr "您可以根据需要创建任意数量的项目来组织工作并与同事共享项目访问权限。"
 
 #: ../userguides/get_started.rst:18 96040cb8ac2944039902daa6c1731de9
 msgid ""
-"See about the Mapflow :ref:`Team accounts` to collaborate with other users. "
-"👈"
+"See about the Mapflow :ref:`Team accounts` to collaborate with other "
+"users. 👈"
 msgstr "请参阅 Mapflow:ref:`团队帐户` 以与其他用户协作。 👈"
 
 #: ../userguides/get_started.rst:20 4edbfab75a5942d8a57a5e739449ea84
 msgid ""
-"When starting a new project, you can set a name, customize icons, and modify"
-" a list of available AI-mapping workflows that are enabled in your project."
+"When starting a new project, you can set a name, customize icons, and "
+"modify a list of available AI-mapping workflows that are enabled in your "
+"project."
 msgstr "启动新项目时，您可以设置名称、自定义图标以及修改项目中启用的可用 AI 制图工作流程列表。"
 
 #: 0a53055cebc54d7992c34388fc4a3a30 a05b5a1d599b44c38d02325f90d89de7
@@ -63,8 +64,8 @@ msgstr "UI Mapflow – 运行流程"
 
 #: ../userguides/get_started.rst:31 3797b532bfda4419bf69a95567f63786
 msgid ""
-"If your account is upgraded to the Premium or Custom – you might be able to "
-"customize your project mapping workflows and some of their options."
+"If your account is upgraded to the Premium or Custom – you might be able "
+"to customize your project mapping workflows and some of their options."
 msgstr "如果您的帐户升级到高级版或自定义版，您也许能够自定义项目映射工作流程及其一些选项。"
 
 #: ../userguides/get_started.rst:34 a210912e693d4b4db2aa727f2111736f
@@ -73,7 +74,8 @@ msgstr "术语表"
 
 #: ../userguides/get_started.rst:35 ade47e15ba054b90940d1aa17bb1be68
 msgid ""
-"Processing – a single execution of an AI model on a specific geographic area"
+"Processing – a single execution of an AI model on a specific geographic "
+"area"
 msgstr "处理——人工智能模型在特定地理区域的单次执行"
 
 #: ../userguides/get_started.rst:36 84a5d4496ec841e98e3c10e70cd4280e
@@ -126,11 +128,11 @@ msgstr "3. 账单历史"
 
 #: ../userguides/get_started.rst:59 097df26de0fb4b748a3e7796d9e9297a
 msgid ""
-"Here you can see your processing history with the details. If you are a Team"
-" account owner, you can search through the history of the entire team "
-"processing runs. Use filters to sort by date and processing status. To "
-"filter by the custom parameters like user email or processing name - start "
-"typing in the search input."
+"Here you can see your processing history with the details. If you are a "
+"Team account owner, you can search through the history of the entire team"
+" processing runs. Use filters to sort by date and processing status. To "
+"filter by the custom parameters like user email or processing name - "
+"start typing in the search input."
 msgstr ""
 "在这里您可以查看您的处理历史记录和详细信息。如果您是团队帐户所有者，您可以搜索整个团队处理运行的历史记录。使用过滤器按日期和处理状态排序。要按自定义参数（例如用户电子邮件或处理名称）进行过滤"
 " - 开始输入搜索输入。"
@@ -174,8 +176,7 @@ msgid "How to run your AI mapping workflow in Web app"
 msgstr "如何在 Web 应用程序中运行 AI 制图工作流程"
 
 #: ../userguides/get_started.rst:92 fb7cf1ff933741e88b9ffdaa8081e5d4
-msgid ""
-"Mapflow is designed to be intuitive. Here is our step-by-step user guide:"
+msgid "Mapflow is designed to be intuitive. Here is our step-by-step user guide:"
 msgstr "Mapflow 的设计非常直观。这是我们的分步用户指南："
 
 #: ../userguides/get_started.rst:103 d07d9370bc194934be3c839c26dc8608
@@ -184,15 +185,15 @@ msgstr "1. 创建项目"
 
 #: ../userguides/get_started.rst:105 24996123c5a44a469f880c3458c6a509
 msgid ""
-"You can use the Default project created upon registration or create a new "
-"one. To create a new project, click the \"Create project\" button and fill "
-"in the project name and description."
+"You can use the Default project created upon registration or create a new"
+" one. To create a new project, click the \"Create project\" button and "
+"fill in the project name and description."
 msgstr "您可以使用注册时创建的默认项目或创建一个新项目。要创建新项目，请单击“创建项目”按钮并填写项目名称和描述。"
 
 #: ../userguides/get_started.rst:108 46394d583af240368b358a10d35da2ba
 msgid ""
-"You can manage a set of models linked to a project (click the |edit| button "
-"on the project card):"
+"You can manage a set of models linked to a project (click the |edit| "
+"button on the project card):"
 msgstr "您可以管理链接到项目的一组模型（单击项目卡上的|编辑|按钮）："
 
 #: ../userguides/get_started.rst:310 bee7faf1895d4675af39aa68231a8056
@@ -223,20 +224,20 @@ msgstr "选择兴趣区"
 
 #: ../userguides/get_started.rst:141 a484e1d3fce342659ff81552636c7c5a
 msgid ""
-"The user can draw the area using *Draw rectangle* / *Draw polygon* tool or "
-"upload it in GeoJSON format (draw and upload, as well as view the data "
-"structure, follow this link - `geojson.io <http://geojson.io/>`_)."
+"The user can draw the area using *Draw rectangle* / *Draw polygon* tool "
+"or upload it in GeoJSON format (draw and upload, as well as view the data"
+" structure, follow this link - `geojson.io <http://geojson.io/>`_)."
 msgstr ""
 "用户可以使用*绘制矩形* / *绘制多边形*工具绘制区域或以GeoJSON格式上传（绘制和上传，以及查看数据结构，请点击此链接 - "
 "`geojson.io <http://geojson.io/>`_）。"
 
 #: ../userguides/get_started.rst:144 e2aec70ce78342869ac7fb677ed73d7a
 msgid ""
-"Note that max limit of total area is **25 km²** for the free plan. The area "
-"limit is calculated not by the polygon, but by the **Bounding Box** (`Bbox "
-"<https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). Therefore, in this "
-"example a warning ``MAX BBOX 25 KM²`` appears in the example below (bounding"
-" box is highlighted):"
+"Note that max limit of total area is **25 km²** for the free plan. The "
+"area limit is calculated not by the polygon, but by the **Bounding Box** "
+"(`Bbox <https://en.wikipedia.org/wiki/Minimum_bounding_box>`_). "
+"Therefore, in this example a warning ``MAX BBOX 25 KM²`` appears in the "
+"example below (bounding box is highlighted):"
 msgstr ""
 "请注意，免费计划的总面积最大限制为 **25 平方公里**。面积限制不是由多边形计算，而是由 **Bounding Box** (`Bbox "
 "<https://en.wikipedia.org/wiki/Minimum_bounding_box>`_) "
@@ -272,10 +273,10 @@ msgstr "目前，在处理之前无法预览上传的图像，您只能看到其
 
 #: ../userguides/get_started.rst:170 c7cb02bef3454410ad00bdd930d6a7e9
 msgid ""
-"The processing AOI must be located in the area of this extent, otherwise the"
-" area will be cut off by the extent boundaries. The processing area is "
-"calculated by the intersection of the image extent and the AOI. If the AOI "
-"doesn't intersect the image boundaries the error will pop up."
+"The processing AOI must be located in the area of this extent, otherwise "
+"the area will be cut off by the extent boundaries. The processing area is"
+" calculated by the intersection of the image extent and the AOI. If the "
+"AOI doesn't intersect the image boundaries the error will pop up."
 msgstr ""
 "处理 AOI 必须位于该范围的区域内，否则该区域将被范围边界切断。处理区域通过图像范围与 AOI 的交集来计算。如果 AOI "
 "不与图像边界相交，则会弹出错误。"
@@ -294,28 +295,29 @@ msgstr "双面图像尺寸不得超过 65535x65535 像素"
 
 #: ../userguides/get_started.rst:176 e075bc72f3084576b46f51dbfeefae54
 msgid ""
-"The image must be georeferenced and the CRS must be one of: - WGS84 (EPSG: "
-"4326) - Web mercator (EPSG: 3857) - `UTM "
+"The image must be georeferenced and the CRS must be one of: - WGS84 "
+"(EPSG: 4326) - Web mercator (EPSG: 3857) - `UTM "
 "<https://proj.org/operations/projections/utm.html?highlight=utm>`_ (any "
 "zone)"
 msgstr ""
-"图像必须经过地理参考，并且 CRS 必须是以下之一： - WGS84 (EPSG: 4326) - Web Mercator (EPSG: 3857) "
-"- `UTM "
+"图像必须经过地理参考，并且 CRS 必须是以下之一： - WGS84 (EPSG: 4326) - Web Mercator (EPSG: "
+"3857) - `UTM "
 "<https://proj.org/operations/projections/utm.html?highlight=utm>`_（任何区域）"
 
 #: ../userguides/get_started.rst:183 ead77c93c48e4599a2b0d062039c3fca
 msgid ""
-"If your image doesn't meet the params above, we suggest to use :doc:`Mapflow"
-" API <../api/processing_api>` / :doc:`QGIS plugin <../api/qgis_mapflow>` "
-"which have more capabilities. There you can also use our new :ref:`My "
-"imagery main` tool for storing and processing multiple images. Mapflow "
-"supports RGB imagery and also process single-band (panchromatic) imagery, "
-"but the AI models are not tuned for such kind of data, so the quality of the"
-" result may be worse than expected."
+"If your image doesn't meet the params above, we suggest to use "
+":doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS plugin "
+"<../api/qgis_mapflow>` which have more capabilities. There you can also "
+"use our new :ref:`My imagery main` tool for storing and processing "
+"multiple images. Mapflow supports RGB imagery and also process single-"
+"band (panchromatic) imagery, but the AI models are not tuned for such "
+"kind of data, so the quality of the result may be worse than expected."
 msgstr ""
-"如果您的图像不符合上述参数，我们建议使用 :doc:`Mapflow API <../api/processing_api>` / :doc:`QGIS"
-" 插件 <../api/qgis_mapflow>` 具有更多功能。您还可以使用我们新的 My imagery main 工具来存储和处理多个图像。 "
-"Mapflow 支持 RGB 图像，还可以处理单波段（全色）图像，但 AI 模型未针对此类数据进行调整，因此结果的质量可能比预期差。"
+"如果您的图像不符合上述参数，我们建议使用 :doc:`Mapflow API <../api/processing_api>` / "
+":doc:`QGIS 插件 <../api/qgis_mapflow>` 具有更多功能。您还可以使用我们新的 My imagery main "
+"工具来存储和处理多个图像。 Mapflow 支持 RGB 图像，还可以处理单波段（全色）图像，但 AI "
+"模型未针对此类数据进行调整，因此结果的质量可能比预期差。"
 
 #: ../userguides/get_started.rst:186 3876aa5020fa4ae5ac081b57f8d349ed
 msgid "2.3 Choose from My Imagery"
@@ -324,8 +326,8 @@ msgstr "2.3 从我的图像中选择"
 #: ../userguides/get_started.rst:187 6555c16e35664ea1a2edd2d8adbb5eea
 msgid ""
 "Instead of uploading a new file, you can reuse images you have already "
-"uploaded. Click **Choose from My Imagery** to open the picker and select a "
-"previously created mosaic or a single image as the source for the "
+"uploaded. Click **Choose from My Imagery** to open the picker and select "
+"a previously created mosaic or a single image as the source for the "
 "processing."
 msgstr "您可以重复使用已上传的图像，而不是上传新文件。单击 **从我的图像中选择** 打开选取器并选择之前创建的马赛克或单个图像作为处理源。"
 
@@ -337,16 +339,15 @@ msgstr "从我的图像中选择"
 msgid ""
 "In the **Pick from My Imagery** dialog you can search your mosaics and "
 "images by name, sort them by creation date or size, preview the selected "
-"mosaic, and check its status. Select a mosaic and click **Use this mosaic** "
-"to set it as the imagery source. You can also create a new mosaic or upload "
-"images directly from this dialog."
+"mosaic, and check its status. Select a mosaic and click **Use this "
+"mosaic** to set it as the imagery source. You can also create a new "
+"mosaic or upload images directly from this dialog."
 msgstr ""
 "在 **从我的图像中选取** "
 "对话框中，您可以按名称搜索马赛克和图像、按创建日期或大小对它们进行排序、预览所选马赛克并检查其状态。选择一个马赛克，然后单击“**使用此马赛克**”将其设置为图像源。您还可以创建新的马赛克或直接从此对话框上传图像。"
 
 #: ../userguides/get_started.rst:200 4ab1047f7c0e42678d54278db7b2df77
-msgid ""
-"Read more about managing your uploaded imagery in :ref:`My imagery main`."
+msgid "Read more about managing your uploaded imagery in :ref:`My imagery main`."
 msgstr "在 :ref:`我的图像 main` 中了解有关管理上传图像的更多信息。"
 
 #: ../userguides/get_started.rst:204 d07d9370bc194934be3c839c26dc8608
@@ -370,9 +371,10 @@ msgstr "图像提供者"
 msgid "Custom URL"
 msgstr "自定义网址"
 
-#: ../userguides/get_started.rst:213 ddaee46fb5a6431799899f30b6105b0a
-msgid "Historical data"
-msgstr "史料"
+#: ../userguides/get_started.rst:213 de59e4b2d2a44b4dae28ba6f95b9a8bd
+#, fuzzy
+msgid "Imagery Search"
+msgstr "图像搜索选项卡"
 
 #: ../userguides/get_started.rst:218 bbd9aad3804341afb3e5c7ab00b1fc77
 msgid "3.1 Imagery providers"
@@ -386,9 +388,9 @@ msgstr "您可以在此处选择 Mapflow 中可用的默认提供程序之一，
 
 #: ../userguides/get_started.rst:230 2266bd5cd8b34f148351639e4d74e96e
 msgid ""
-"`Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider of "
-"global high resolution satellite imagery. The date of the image and updates "
-"cannot be chosen."
+"`Mapbox Satellite <https://mapbox.com/maps/s satellite>`_ is a provider "
+"of global high resolution satellite imagery. The date of the image and "
+"updates cannot be chosen."
 msgstr ""
 "`Mapbox Satellite <https://mapbox.com/maps/s Satellite>`_ "
 "是全球高分辨率卫星图像的提供商。无法选择图像和更新的日期。"
@@ -396,8 +398,8 @@ msgstr ""
 #: ../userguides/get_started.rst:232 fc5d9f2ed7c14c0c98302cecf96a511a
 msgid ""
 "**\"Global mosaic\"** is a pilot version of mosaic of high res imagery "
-"(0.75–0.5 m/px) for year 2022. The preview is limited to zoom 15. Limited "
-"coverage for some countries. The mosaic is planned to be updated on a "
+"(0.75–0.5 m/px) for year 2022. The preview is limited to zoom 15. Limited"
+" coverage for some countries. The mosaic is planned to be updated on a "
 "regular basis."
 msgstr ""
 "**“全球马赛克”** 是 2022 年高分辨率图像马赛克 (0.75–0.5 m/px) 的试点版本。预览仅限于缩放 "
@@ -407,9 +409,9 @@ msgstr ""
 msgid ""
 "`ArcGIS World Imagery "
 "<https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_"
-" is a provider of the global coverage composed of high and medium resolution"
-" satellite imagery and aerial imagery, hosted by ESRI. The frequency of "
-"updating images is 1-5 years depending on the territory."
+" is a provider of the global coverage composed of high and medium "
+"resolution satellite imagery and aerial imagery, hosted by ESRI. The "
+"frequency of updating images is 1-5 years depending on the territory."
 msgstr ""
 "`ArcGIS World Imagery "
 "<https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952>`_"
@@ -419,18 +421,17 @@ msgstr ""
 msgid ""
 "You can search the ArcGIS World Imagery metadata (date, zoom level) by "
 "location. To do this, use the Mapflow :ref:`Imagery search` tool in QGIS."
-msgstr ""
-"您可以按位置搜索 ArcGIS World Imagery 元数据（日期、缩放级别）。为此，请使用 QGIS 中的 Mapflow 图像搜索工具。"
+msgstr "您可以按位置搜索 ArcGIS World Imagery 元数据（日期、缩放级别）。为此，请使用 QGIS 中的 Mapflow 图像搜索工具。"
 
 #: ../userguides/get_started.rst:242 cf493a4e02e245d7aa185e9abda746bc
 msgid ""
 "Data providers are the TMS / XYZ data streaming services that can be "
 "connected to Mapflow to enable instant imagery analysis and AI mapping. "
-"Under the Mapflow commercial plans, we provide commercial providers access, "
-"historical imagery and updates on specific terms. We are continuously "
-"working on adding more commercial providers. For more details about the "
-"Imagery providers cost, see :ref:`Mapflow subscription plans <subscription-"
-"plans>`."
+"Under the Mapflow commercial plans, we provide commercial providers "
+"access, historical imagery and updates on specific terms. We are "
+"continuously working on adding more commercial providers. For more "
+"details about the Imagery providers cost, see :ref:`Mapflow subscription "
+"plans <subscription-plans>`."
 msgstr ""
 "数据提供者是 TMS / XYZ 数据流服务，可以连接到 Mapflow 以实现即时图像分析和 AI 绘图。根据 Mapflow "
 "商业计划，我们为商业提供商提供访问权限、历史图像和特定条款的更新。我们正在不断努力增加更多的商业提供商。有关图像提供商成本的更多详细信息，请参阅:ref:`Mapflow"
@@ -442,22 +443,22 @@ msgstr "3.2 自定义网址"
 
 #: ../userguides/get_started.rst:258 359a28f61e204b5ea81e32aeea0dcc05
 msgid ""
-"Specify the XYZ link to the source of the images. The link is automatically "
-"checked for validity (for example, :ref:`Openaerialmap <Openaerialmap>` - "
-"``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``);"
+"Specify the XYZ link to the source of the images. The link is "
+"automatically checked for validity (for example, :ref:`Openaerialmap "
+"<Openaerialmap>` - ``https://apps.kontur.io/raster-"
+"tiler/oam/mosaic/{z}/{x}/{y}.png``);"
 msgstr ""
 "指定图像源的 XYZ 链接。自动检查链接的有效性（例如，:ref:`Openaerialmap <Openaerialmap>` - "
 "``https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png``）；"
 
 #: ../userguides/get_started.rst:259 eadefe40ed5f49f788abafdd18411126
 msgid ""
-"When adding you custom tile service it might be needed to define Y position:"
-" XYZ (top left), TMS/WMTS (bottom left);"
+"When adding you custom tile service it might be needed to define Y "
+"position: XYZ (top left), TMS/WMTS (bottom left);"
 msgstr "添加自定义图块服务时，可能需要定义 Y 位置：XYZ（左上）、TMS/WMTS（左下）；"
 
 #: ../userguides/get_started.rst:260 b8dcc3cd23a446d8a3ddc92eba6589a5
-msgid ""
-"Provide your authorization data for the desired source (Login + Password);"
+msgid "Provide your authorization data for the desired source (Login + Password);"
 msgstr "提供您所需来源的授权数据（登录名+密码）；"
 
 #: ../userguides/get_started.rst:261 a123227a234c4dd69873c508bf40ac9a
@@ -465,22 +466,24 @@ msgid "Add on map to preview."
 msgstr "添加到地图上进行预览。"
 
 #: ../userguides/get_started.rst:267 de59e4b2d2a44b4dae28ba6f95b9a8bd
-msgid "3.3 Historical data (Imagery Search)"
-msgstr "3.3 历史数据（图像搜索）"
+#, fuzzy
+msgid "3.3 Imagery Search"
+msgstr "图像搜索选项卡"
 
 #: ../userguides/get_started.rst:269 128111eaf0e04c61943d72c4904e521e
 msgid ""
-"\"Imagery search\" allows Mapflow users to search for available satellite "
-"imagery over their area of analysis. It's powered by Mapflow API providing "
-"access to the global satellite data providers through our partners."
+"\"Imagery search\" allows Mapflow users to search for available satellite"
+" imagery over their area of analysis. It's powered by Mapflow API "
+"providing access to the global satellite data providers through our "
+"partners."
 msgstr ""
 "“图像搜索”允许 Mapflow 用户搜索其分析区域内的可用卫星图像。它由 Mapflow API "
 "提供支持，可通过我们的合作伙伴提供对全球卫星数据提供商的访问。"
 
 #: ../userguides/get_started.rst:273 7c6f9900dafb4a6dafd2e31451a08dee
 msgid ""
-"👉 See :ref:`Imagery search <Imagery search  main>` for more information and "
-"guides."
+"👉 See :ref:`Imagery search <Imagery search  main>` for more information "
+"and guides."
 msgstr "👉 请参阅:ref:`图像搜索 <图像搜索主>` 了解更多信息和指南。"
 
 #: ../userguides/get_started.rst bd42a0e225f74903b2e35d3d033e1ccb
@@ -492,8 +495,7 @@ msgid "4. AI model"
 msgstr "4. 人工智能模型"
 
 #: ../userguides/get_started.rst:285 aef58fd76c0f44a4b57647b0b1e4ba1e
-msgid ""
-"Select one of the AI models (see :doc:`Model description <pipelines>`)."
+msgid "Select one of the AI models (see :doc:`Model description <pipelines>`)."
 msgstr "选择一个 AI 模型（请参阅:doc:`模型描述 <pipelines>`）。"
 
 #: ../userguides/get_started.rst 6cfffb1fa2a44a2cb351771b4ac306bb
@@ -507,18 +509,18 @@ msgstr "建议"
 
 #: ../userguides/get_started.rst:299 41c3932e987e473ba283ddca04b29771
 msgid ""
-"If your data source is Data provider (Imagery basemap), after selecting the "
-"model, the recommended zoom level for it will be set **automatically**. Note"
-" that you can always select any zoom level and check its availability with "
-"the \"Suggest\" |suggest| button."
+"If your data source is Data provider (Imagery basemap), after selecting "
+"the model, the recommended zoom level for it will be set "
+"**automatically**. Note that you can always select any zoom level and "
+"check its availability with the \"Suggest\" |suggest| button."
 msgstr ""
 "如果您的数据源是数据提供者（影像底图），选择模型后，将自动设置推荐的缩放级别。请注意，您始终可以选择任何缩放级别并使用“建议” |建议| "
 "检查其可用性。按钮。"
 
 #: ../userguides/get_started.rst:302 4b7b43a8642c456b8af0eee4a21061c5
 msgid ""
-"If the recommended zoom is unavailable, you can start the processing using "
-"lower zoom level, but the result may be less accurate."
+"If the recommended zoom is unavailable, you can start the processing "
+"using lower zoom level, but the result may be less accurate."
 msgstr "如果推荐的缩放不可用，您可以使用较低的缩放级别开始处理，但结果可能不太准确。"
 
 #: ../userguides/get_started.rst:316 276350edc51741e886c22866f6b822c9
@@ -547,9 +549,9 @@ msgstr ""
 
 #: ../userguides/get_started.rst:323 4fb23314dd2a484185e4d824cfbddb85
 msgid ""
-"*Merge with OSM* - compare the results with the buildings in OpenStreetMap "
-"and, if a sufficient overlap has been found, use the ones from the OSM "
-"instead."
+"*Merge with OSM* - compare the results with the buildings in "
+"OpenStreetMap and, if a sufficient overlap has been found, use the ones "
+"from the OSM instead."
 msgstr "*与 OSM 合并* - 将结果与 OpenStreetMap 中的建筑物进行比较，如果发现足够的重叠，则使用 OSM 中的建筑物。"
 
 #: ../userguides/get_started.rst:324 837a228a6124479aa1fa8e29b252555e
@@ -575,14 +577,14 @@ msgstr "AI模型“🌲森林”："
 
 #: ../userguides/get_started.rst:331 e242ebd34fd948d2ba848c393e183bfd
 msgid ""
-"*Heights* - classifies vegetation by height classes: by default 0-4 m for "
-"shrub (\"low vegetation\"), 4-10 m for regular forest (\"medium forest\"), "
-"10+ m for area with tall trees (\"high forest\"). Classification is done per"
-" vegetated area, and not per single tree (see :ref:`Forest Mapping classes "
-"<forest_classes>`)."
+"*Heights* - classifies vegetation by height classes: by default 0-4 m for"
+" shrub (\"low vegetation\"), 4-10 m for regular forest (\"medium "
+"forest\"), 10+ m for area with tall trees (\"high forest\"). "
+"Classification is done per vegetated area, and not per single tree (see "
+":ref:`Forest Mapping classes <forest_classes>`)."
 msgstr ""
-"*高度* - 按高度等级对植被进行分类：默认情况下，灌木丛为 0-4 m（“低植被”），普通森林（“中型森林”）为 4-10 m，高树木区域为 10+ "
-"m（“高森林”）。分类是按植被区域进行的，而不是按单个树进行的（请参阅：ref:`森林映射类 <forest_classes>`）。"
+"*高度* - 按高度等级对植被进行分类：默认情况下，灌木丛为 0-4 m（“低植被”），普通森林（“中型森林”）为 4-10 m，高树木区域为 "
+"10+ m（“高森林”）。分类是按植被区域进行的，而不是按单个树进行的（请参阅：ref:`森林映射类 <forest_classes>`）。"
 
 #: ../userguides/get_started.rst:332 4684dd97082d41c0a48319957c5d67b3
 msgid ""
@@ -596,8 +598,9 @@ msgstr "5. 运行处理"
 
 #: ../userguides/get_started.rst:337 381fa97394ac4e50b8e38b1e397fc1e0
 msgid ""
-"At this step, you can set the name of your processing or use the initially "
-"generated one (the button allows you to generate variants of the name)."
+"At this step, you can set the name of your processing or use the "
+"initially generated one (the button allows you to generate variants of "
+"the name)."
 msgstr "在此步骤中，您可以设置处理的名称或使用最初生成的名称（该按钮允许您生成名称的变体）。"
 
 #: ../userguides/get_started.rst:339 b0932771eaf94a7790f0a2ed556ae161
@@ -612,10 +615,10 @@ msgstr "“清除选择”将清除先前选择的加工参数。"
 
 #: ../userguides/get_started.rst:344 cf0be5ea4ea84371ba659f7d798306e7
 msgid ""
-"Once you have selected the model and the processing parameters, you will see"
-" the total cost of your processing counted in Mapflow credits. Upon "
-"registration, you receive 250 credits for free for testing the platform (See"
-" :ref:`Mapflow credits <credits>`)."
+"Once you have selected the model and the processing parameters, you will "
+"see the total cost of your processing counted in Mapflow credits. Upon "
+"registration, you receive 250 credits for free for testing the platform "
+"(See :ref:`Mapflow credits <credits>`)."
 msgstr ""
 "选择模型和处理参数后，您将看到计算在 Mapflow 积分中的总处理成本。注册后，您将免费获得 250 "
 "个积分，用于测试平台（请参阅：ref:`Mapflow 积分 <credits>`）。"
@@ -626,9 +629,10 @@ msgstr "6.查看结果"
 
 #: ../userguides/get_started.rst:350 2f6658705b7a4a9499aaac7e429aa294
 msgid ""
-"In the \"Processing history\" you see the progress of processing as well as "
-"view and get the processing results. Each running processing displays the "
-"selected model, the status, the creation date and the processing cost."
+"In the \"Processing history\" you see the progress of processing as well "
+"as view and get the processing results. Each running processing displays "
+"the selected model, the status, the creation date and the processing "
+"cost."
 msgstr "在“处理历史记录”中，您可以看到处理进度以及查看和获取处理结果。每个正在运行的处理都会显示所选模型、状态、创建日期和处理成本。"
 
 #: ../userguides/get_started.rst:354 7b551f33f0f94da38d21ca912f7eeb6a
@@ -637,9 +641,9 @@ msgstr "6.1 在地图上查看"
 
 #: ../userguides/get_started.rst:356 b9e8bf51b3454dd1b1faefc843a21af8
 msgid ""
-"After the successful processing completion, the card can be opened to view "
-"more detailed information about the processing parameters - AI Model, Post-"
-"processing, Area, Data Source."
+"After the successful processing completion, the card can be opened to "
+"view more detailed information about the processing parameters - AI "
+"Model, Post-processing, Area, Data Source."
 msgstr "处理成功完成后，可以打开卡片查看有关处理参数的更详细信息 - AI 模型、后处理、面积、数据源。"
 
 #: ../userguides/get_started.rst 77c9fd233f1247948170554e2680046f
@@ -648,8 +652,8 @@ msgstr "加工卡"
 
 #: ../userguides/get_started.rst:365 ec8c56bb87ec4c37b56f6f00d727838b
 msgid ""
-"Click the \"View on the Map\" to quickly view the processing result on the "
-"built-in interactive map."
+"Click the \"View on the Map\" to quickly view the processing result on "
+"the built-in interactive map."
 msgstr "点击“在地图上查看”，可以在内置的交互式地图上快速查看处理结果。"
 
 #: ../userguides/get_started.rst:368 80bbfd524baa42f9ae45d88e5afd1c85
@@ -658,15 +662,15 @@ msgstr "6.2 特征属性和多层"
 
 #: ../userguides/get_started.rst:370 7611ac12c8544dc399576f4ebd6e159b
 msgid ""
-"Depending on the model and the options applied the extracted features might "
-"contain the semantic information that is written in the feature properties "
-"in GeoJSON."
+"Depending on the model and the options applied the extracted features "
+"might contain the semantic information that is written in the feature "
+"properties in GeoJSON."
 msgstr "根据模型和应用的选项，提取的特征可能包含以 GeoJSON 的特征属性写入的语义信息。"
 
 #: ../userguides/get_started.rst:372 6961068b852f4218a13bd6aa0d899d81
 msgid ""
-"E.g. \"Buildings\" model with \"regularization\" and \"classification\" by "
-"building typology options:"
+"E.g. \"Buildings\" model with \"regularization\" and \"classification\" "
+"by building typology options:"
 msgstr "例如。通过建筑类型选项进行“正则化”和“分类”的“建筑”模型："
 
 #: ../userguides/get_started.rst 2cefb438c5524f5f920bb31298fb513e
@@ -703,8 +707,8 @@ msgstr "形状类型"
 
 #: ../userguides/get_started.rst:392 1a23da2cb5fe473f88c20982b314e00d
 msgid ""
-"The geometry primitive depending on the polygonization algorithm that's been"
-" applied to the feature mask"
+"The geometry primitive depending on the polygonization algorithm that's "
+"been applied to the feature mask"
 msgstr "几何基元取决于应用于特征掩模的多边形算法"
 
 #: ../userguides/get_started.rst:393 339799d1cbed4532827c32ea1e305f2a
@@ -722,8 +726,8 @@ msgstr "简化分数"
 #: ../userguides/get_started.rst:396 051c621b8f034d719ff64c5fab740a4c
 msgid ""
 "The score is counted by the intersection of the pixel feature and "
-"polygonized feature. The higher score - the closer polygonized feature to "
-"the pixel one."
+"polygonized feature. The higher score - the closer polygonized feature to"
+" the pixel one."
 msgstr "分数是通过像素特征和多边形特征的交集来计算的。分数越高 - 多边形特征越接近像素特征。"
 
 #: ../userguides/get_started.rst:400 de52b75cc07e48d3b8b7d151df179337
@@ -732,9 +736,9 @@ msgstr "6.3 层切换和图例"
 
 #: ../userguides/get_started.rst:402 c3b3b80cbd2641c582cd811dcaa7fe4d
 msgid ""
-"You can switch the layers to preview on the map. Click the \"sandwich\" (☰) "
-"button on the top right corner of the map and extend the dialogue with the "
-"map legend."
+"You can switch the layers to preview on the map. Click the \"sandwich\" "
+"(☰) button on the top right corner of the map and extend the dialogue "
+"with the map legend."
 msgstr "您可以切换图层以在地图上预览。单击地图右上角的“三明治”(☰) 按钮并扩展与地图图例的对话。"
 
 #: ../userguides/get_started.rst:404 50f76c38c4ca4e838ca4423a755d4679
@@ -753,9 +757,9 @@ msgstr "6.4 对处理进行评分"
 
 #: ../userguides/get_started.rst:421 847bb6f051ef45edb412da8774facbdd
 msgid ""
-"We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment is "
-"important for further improvement of the Mapflow AI models. We review all "
-"the user's feedback and get back to you if any issues."
+"We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment "
+"is important for further improvement of the Mapflow AI models. We review "
+"all the user's feedback and get back to you if any issues."
 msgstr ""
 "我们鼓励您对处理结果进行评分。 ⭐️⭐️⭐️ 您的评估对于进一步改进 Mapflow AI "
 "模型非常重要。我们会审核所有用户的反馈，并在出现任何问题时与您联系。"
@@ -770,8 +774,8 @@ msgstr "6.5 分享结果"
 
 #: ../userguides/get_started.rst:427 d432eb359f7a4d898e844279236ee95e
 msgid ""
-"You can share your project with the external users for the view-only access."
-" Go to the Project -- Share and enter the Mapflow user's email."
+"You can share your project with the external users for the view-only "
+"access. Go to the Project -- Share and enter the Mapflow user's email."
 msgstr "您可以与外部用户共享您的项目以进行仅查看访问。转到项目 - 共享并输入 Mapflow 用户的电子邮件。"
 
 #: 99932f5d76e04c8eba8bcbe5c1286e26
@@ -780,8 +784,8 @@ msgstr "外部共享项目"
 
 #: ../userguides/get_started.rst:438 28feb64b19ef49edae85fd8c5f639e59
 msgid ""
-"To upgrade project sharing rights and provide your collaborators with the "
-"editor's access you need to switch to the :ref:`Team accounts`"
+"To upgrade project sharing rights and provide your collaborators with the"
+" editor's access you need to switch to the :ref:`Team accounts`"
 msgstr "要升级项目共享权限并为您的协作者提供编辑器访问权限，您需要切换到:ref:`团队帐户`"
 
 #: ../userguides/get_started.rst:442 0195bf4eaed14fb1a9ed7d3527556ae7
@@ -845,9 +849,10 @@ msgstr ""
 
 #: ../userguides/get_started.rst:497 ccb55bd1805a45c9ba6fedc27f93c272
 msgid ""
-"You must follow the requirements specified with :ref:`Model_requirements` "
-"when uploading your own images for processing through the API of the Mapflow"
-" platform. Send a request using data preprocessing to help@geoalert.io."
+"You must follow the requirements specified with :ref:`Model_requirements`"
+" when uploading your own images for processing through the API of the "
+"Mapflow platform. Send a request using data preprocessing to "
+"help@geoalert.io."
 msgstr ""
 "通过 Mapflow 平台的 API 上传您自己的图像进行处理时，您必须遵循 Model_requirements "
 "指定的要求。使用数据预处理将请求发送至help@geoalert.io。"
@@ -855,3 +860,10 @@ msgstr ""
 #: ../userguides/get_started.rst ac167f2676e34f56b41355536536d857
 msgid "Preview map"
 msgstr "预览地图"
+
+#~ msgid "Historical data"
+#~ msgstr "史料"
+
+#~ msgid "3.3 Historical data (Imagery Search)"
+#~ msgstr "3.3 历史数据（图像搜索）"
+

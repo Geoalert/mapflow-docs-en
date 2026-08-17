@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/agriculture_fields_model.rst:1
-#: 95bf47aa5cb4438499d6e5964a8cb07a
+#: 513b97f028cb455aa564943bd345089f
 msgid "Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model."
 msgstr ""
 

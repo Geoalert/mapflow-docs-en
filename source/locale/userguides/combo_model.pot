@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/combo_model.rst:1
-#: 16bf4a2a62f14547984ed9da038db00e
+#: a21ad9d1c5fa428c895c53c8e78891e0
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 

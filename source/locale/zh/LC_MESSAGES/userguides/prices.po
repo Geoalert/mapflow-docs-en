@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -45,51 +45,77 @@ msgstr ""
 "为了充值您的余额，请转到“您的 Mapflow 个人资料 <https://app.mapflow.ai/account/balance>”_ "
 "并选择一个选项。您将被要求在线付款。"
 
-#: ab96ece7e1f645f6bc0dc5951795fa04
+#: ../userguides/prices.rst:15 0f576f8a512e412996bee8cd0d57f7e2
+msgid ""
+"Depending on your planned project scope, you can either subscribe to the "
+"Mapflow Premium plan or buy credits with pay-as-you-go pricing. You can also"
+" contact sales to switch to a custom plan if you have a large-scale project."
+" Note, that the expiration date is displayed in your account profile in the "
+"corresponding plan. If you cancel your Premium subscription or it's expired,"
+" your account is downgraded to Pay-as-you-go."
+msgstr ""
+"根据您计划的项目范围，您可以订阅 Mapflow Premium "
+"计划或按即用即付定价购买积分。如果您有大型项目，您还可以联系销售人员切换到定制计划。请注意，到期日期显示在相应计划的帐户资料中。如果您取消高级订阅或订阅已过期，您的帐户将降级为即用即付。"
+
+#: ../userguides/prices.rst ab96ece7e1f645f6bc0dc5951795fa04
 msgid "Top up your balance"
 msgstr "充值您的余额"
 
-#: ../userguides/prices.rst:24 7861eb396b79436c9ad2f4d74822690c
+#: ../userguides/prices.rst:23 11253a3b2fd246c99992cc3e24f19d82
+#, fuzzy
+msgid "Top up your balance with credits"
+msgstr "充值您的余额"
+
+#: ../userguides/prices.rst:24 615240fabdcc4f3db4ab2e899dac67e2
+msgid "Subscribe to the Mapflow Premium or Starter plan"
+msgstr "订阅 Mapflow Premium 或 Starter 计划"
+
+#: ../userguides/prices.rst:25 a7097eb3753140cf89d2c6d8340d48ce
+#, fuzzy
+msgid "Expiration date of your subscription plan"
+msgstr "Mapflow 订阅计划"
+
+#: ../userguides/prices.rst:31 7861eb396b79436c9ad2f4d74822690c
 msgid "Mapflow credits"
 msgstr "地图流积分"
 
-#: ../userguides/prices.rst:26 5161a80d6f3740c9b6759da9cce0a643
+#: ../userguides/prices.rst:33 5161a80d6f3740c9b6759da9cce0a643
 msgid ""
 "Cost of processing makes the sum of **data cost** and **processing cost** "
 "given the requested area:"
 msgstr "处理成本是给定请求区域的**数据成本**和**处理成本**的总和："
 
-#: ../userguides/prices.rst:28 7efb8f14aa6c4326ab962af05c25580c
+#: ../userguides/prices.rst:35 7efb8f14aa6c4326ab962af05c25580c
 msgid "``Cost = Area * (Processing Price + Data Price)``"
 msgstr "``成本=面积*（处理价格+数据价格）``"
 
-#: ../userguides/prices.rst:30 ee9384e4331f4e3e996d468860eff73e
+#: ../userguides/prices.rst:37 ee9384e4331f4e3e996d468860eff73e
 msgid ""
 "The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
 "discount depending on the number of credits you buy:"
 msgstr "积分价格计算为：1 个积分 = 0.1 美元，累进折扣取决于您购买的积分数量："
 
-#: ../userguides/prices.rst:37 9a2e4994be8942efbc4205e80a22136a
+#: ../userguides/prices.rst:44 9a2e4994be8942efbc4205e80a22136a
 msgid "Mapflow Credits"
 msgstr "地图流积分"
 
-#: ../userguides/prices.rst:38 5442b1dc7b404ab0b214c7ace0caa853
+#: ../userguides/prices.rst:45 5442b1dc7b404ab0b214c7ace0caa853
 msgid "500"
 msgstr ""
 
-#: ../userguides/prices.rst:39 fa0590c0077242f8ae033aa3d0fc5d7a
+#: ../userguides/prices.rst:46 fa0590c0077242f8ae033aa3d0fc5d7a
 msgid "1000"
 msgstr ""
 
-#: ../userguides/prices.rst:40 d8fa54932ae44fb6a5c77f56c1f9239b
+#: ../userguides/prices.rst:47 d8fa54932ae44fb6a5c77f56c1f9239b
 msgid "10000"
 msgstr ""
 
-#: ../userguides/prices.rst:41 945a4c84f4aa43e0911ba727eb0a0bd5
+#: ../userguides/prices.rst:48 945a4c84f4aa43e0911ba727eb0a0bd5
 msgid "You pay"
 msgstr "你付钱"
 
-#: ../userguides/prices.rst:42 583226eb229b4bde86af24d7a3b66277
+#: ../userguides/prices.rst:49 583226eb229b4bde86af24d7a3b66277
 msgid "$50"
 msgstr "50 美元"
 
@@ -109,66 +135,68 @@ msgstr ""
 msgid "$800"
 msgstr "800 美元"
 
-#: ../userguides/prices.rst:48 10dff56d00314de99d04987be01680ec
+#: ../userguides/prices.rst:55 10dff56d00314de99d04987be01680ec
 msgid ""
 "All prices below are given in Mapflow credits. Mapflow Web also provides a "
 "transparent price breakdown in the processing pipeline."
 msgstr "以下所有价格均以 Mapflow 积分形式给出。 Mapflow Web 还在处理流程中提供透明的价格细分。"
 
-#: ../userguides/prices.rst:51 fdb8eaeb61ea485f897d907375313683
+#: ../userguides/prices.rst:58 fdb8eaeb61ea485f897d907375313683
 msgid ""
 "All the processings having an area less than 1 sq.km are rounded up to 1 "
 "sq.km before price calculation!"
 msgstr "所有面积小于1平方公里的加工区在计算价格前均四舍五入至1平方公里！"
 
-#: ../userguides/prices.rst:52 1bee67275852401c9ebb5a36fa6e0aed
+#: ../userguides/prices.rst:59 1bee67275852401c9ebb5a36fa6e0aed
 msgid ""
 "Total processing cost is rounded up to the nearest integer number of credits"
 msgstr "总处理成本向上舍入到最接近的积分整数"
 
-#: ../userguides/prices.rst:58 2a2ebf27fafb41f6a70ea7d9a3cdaf00
+#: ../userguides/prices.rst:65 2a2ebf27fafb41f6a70ea7d9a3cdaf00
 msgid "Mapflow subscription plans"
 msgstr "Mapflow 订阅计划"
 
-#: ../userguides/prices.rst:60 d7948db10d24484abe2be01c4b454de5
+#: ../userguides/prices.rst:67 d7948db10d24484abe2be01c4b454de5
+#, fuzzy
 msgid ""
 "Currently Mapflow provides two pricing models: pay-as-you-go and "
-"subscription plans. Currently the only plan **\"Mapflow Premium\"** is "
-"available. It includes a monthly subscription fee and a package of credits. "
-"The subscription fee is charged monthly, the credits are valid for 12 "
-"months. It enables some premium options like custom area size, use of any "
-"custom model that you have access to, priority support, and the use of "
-"commercial satellite data providers. Check the `Mapflow pricing page "
-"<https://mapflow.ai/pricing>`_ for details of the subscription."
+"subscription plans. Currently the plans **\"Mapflow Premium\"** and "
+"**\"Mapflow Starter\"** are available. It includes a monthly subscription "
+"fee and a package of credits. The subscription fee is charged monthly, the "
+"credits are valid for 12 months. It enables some premium options like custom"
+" area size, use of any custom model that you have access to, priority "
+"support, and the use of commercial satellite data providers. Check the "
+"`Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the "
+"subscription."
 msgstr ""
 "目前Mapflow提供两种定价模式：即用即付和订阅计划。目前唯一可用的计划**“Mapflow "
 "Premium”**。它包括每月的订阅费和一套积分。订阅费按月收取，积分有效期为 12 "
 "个月。它支持一些高级选项，例如自定义区域大小、使用您有权访问的任何自定义模型、优先支持以及使用商业卫星数据提供商。查看“Mapflow 定价页面 "
 "<https://mapflow.ai/pricing>”了解订阅的详细信息。"
 
-#: f74d8a6c8174461aa6608c61fa538593
-msgid "Mapflow Premium"
-msgstr "Mapflow 高级版"
-
 #: ../userguides/prices.rst:71 102ae20ba41a4adfa6385085f561ac93
+#, fuzzy
 msgid ""
-"Using the Mapflow Premium one can buy additional credits with pay-as-you-go "
-"pricing."
+"Using the Mapflow subscription plan one can buy additional credits with pay-"
+"as-you-go pricing."
 msgstr "使用 Mapflow Premium，您可以按即用即付定价购买额外的积分。"
 
 #: ../userguides/prices.rst:72 22e82c112f624183be452ec90c6377d4
+#, fuzzy
 msgid ""
 "To activate the subscription, go to your `account profile - Balance "
-"<https://app.mapflow.ai/account/balance>`_ and choose the Mapflow Premium "
-"plan."
+"<https://app.mapflow.ai/account/balance>`_ and choose the Mapflow "
+"subscription plan."
 msgstr ""
 "要激活订阅，请转到您的“帐户配置文件 - 余额 <https://app.mapflow.ai/account/balance>”_ 并选择 "
 "Mapflow Premium 计划。"
 
 #: ../userguides/prices.rst:73 6b7ecec13d2447b0b33a416c8f1a58ae
+#, fuzzy
 msgid ""
 "To deactivate the subscription, go to your `account profile - Balance "
-"<https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow Premium."
+"<https://app.mapflow.ai/account/balance>`_ and turn off the Mapflow "
+"subscription plan."
 msgstr ""
 "要停用订阅，请转到您的“帐户配置文件 - 余额 <https://app.mapflow.ai/account/balance>”_ 并关闭 "
 "Mapflow Premium。"
@@ -415,8 +443,7 @@ msgid "180"
 msgstr ""
 
 #: ../userguides/_static/csv/data_prices.csv:1
-#: 58fc22c9a0ac4a5a8cf29a975105a1cb 93cd845612f34a9ea70db3a43ae3617e
-#: b6cef1e581d54f1784678929657eb6a5
+#: 58fc22c9a0ac4a5a8cf29a975105a1cb b6cef1e581d54f1784678929657eb6a5
 msgid "--"
 msgstr ""
 
@@ -469,3 +496,6 @@ msgstr "面积四舍五入为1平方公里，用户的数据费用为0，因此�
 #: ../userguides/prices.rst:131 ed083982b601466eaef322f390d8296a
 msgid "``Cost = 1 * (8 + 2) = 10 credits``"
 msgstr "``成本 = 1 * (8 + 2) = 10 学分``"
+
+#~ msgid "Mapflow Premium"
+#~ msgstr "Mapflow 高级版"

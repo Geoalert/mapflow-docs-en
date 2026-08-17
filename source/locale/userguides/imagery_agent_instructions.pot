@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-06 13:39+0200\n"
+"POT-Creation-Date: 2026-08-14 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:239
 #: 8cd5d895e8ad4464a2d5a8733e967989
-msgid "**4.2.3 Scheduled Search**"
+msgid "**4.2.3 Planned Search**"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:241
@@ -481,7 +481,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:245
 #: 3078d665e297473a97dacfc6c936be33
-msgid "Explain the scheduled search feature:"
+msgid "Explain the planned search feature:"
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:254
@@ -491,7 +491,7 @@ msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:256
 #: 88daf854436844f3af56cd7bfc5a2961
-msgid "**Web app:** Draw or upload AOIs → set search parameters → click \"Search Imagery\" → click \"Save as schedule\"."
+msgid "**Web app:** Draw or upload AOIs → set search parameters → click \"Search Imagery\" → click \"Save as planned search\"."
 msgstr ""
 
 #: ../userguides/imagery_agent_instructions.rst:257

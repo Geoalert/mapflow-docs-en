@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:53+0300\n"
+"POT-Creation-Date: 2026-08-14 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/forest_model.rst:1
-#: 959aabd5450e426cb802096aa76d5a30
+#: 0a47e13d98534269884ad2113f5f7266
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines."
 msgstr ""
 
