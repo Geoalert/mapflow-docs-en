@@ -37,7 +37,7 @@ features, the list of the output layers and the processed area:
          :alt: Dataset ready - features detected
          :align: center
          :width: 18cm
-         :class: with-border
+         :class: no-scaled-link
 
 |
 
