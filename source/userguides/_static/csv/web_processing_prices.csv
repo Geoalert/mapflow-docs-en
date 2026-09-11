@@ -1,9 +1,7 @@
 Model, Base price, Options
 Buildings, 10,  "| Classification: 0
-| Heights estimation: 10
-| Merge with Opensteeetmap: 0
-| Align with roads: 0
-| Height Estimation: 10"
+| Building Height estimation: 10
+| Merge with Opensteeetmap: 0"
 [multi] Buildings + Roads + Forest, 23,  "| Buildings Height estimation: 10 
 | Forest Height estimation: 10
 | Tree crowns: 10"

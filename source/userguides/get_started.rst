@@ -344,6 +344,8 @@ The "Clear Selection" will clear the previously selected processing parameters.
    Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits. Upon registration, you receive 250 credits for free for testing the platform (See :ref:`Mapflow credits <credits>`).
 
 
+.. _View the results:
+
 6. View the results
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -363,6 +365,8 @@ After the successful processing completion, the card can be opened to view more 
 
 
 Click the "View on the Map" to quickly view the processing result on the built-in interactive map.
+
+.. include:: results_summary.rst
 
 6.2 Feature attributes and multilayers
 """""""""""""""""""""""""""""""""""""""""
@@ -410,7 +414,25 @@ E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
      :class: with-border
 
 
-6.4 Rate the processing
+6.4 Results summary (statistics)
+""""""""""""""""""""""""""""""""""
+
+Every completed processing opens with an instant summary of what the model found: the total number of
+detected features and the figures per output layer - building counts, road length, area by category.
+You can download the numbers as CSV or ask the Mapflow Agent about them.
+
+ .. figure:: _static/statistics/results_summary_panel.png
+     :alt: Processing results summary
+     :align: center
+     :width: 18cm
+     :class: with-border
+
+|
+
+.. note::
+  Read more in the :doc:`Results Summary (Statistics) <results_summary>` user guide.
+
+6.5 Rate the processing
 """"""""""""""""""""""""
 
 .. important::
@@ -421,7 +443,7 @@ E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
      :width: 15cm
      :class: with-border
 
-6.5 Share the results
+6.6 Share the results
 """""""""""""""""""""
 
 You can share your project with the external users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email.
