@@ -414,23 +414,6 @@ E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
      :class: with-border
 
 
-6.4 Results summary (statistics)
-""""""""""""""""""""""""""""""""""
-
-Every completed processing opens with an instant summary of what the model found: the total number of
-detected features and the figures per output layer - building counts, road length, area by category.
-You can download the numbers as CSV or ask the Mapflow Agent about them.
-
- .. figure:: _static/statistics/results_summary_panel.png
-     :alt: Processing results summary
-     :align: center
-     :width: 18cm
-     :class: with-border
-
-|
-
-.. note::
-  Read more in the :doc:`Results Summary (Statistics) <results_summary>` user guide.
 
 6.5 Rate the processing
 """"""""""""""""""""""""

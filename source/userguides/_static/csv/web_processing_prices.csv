@@ -1,8 +1,8 @@
 Model, Base price, Options
 Buildings, 10,  "| Classification: 0
-| Building Height estimation: 10
+| Building Heights estimation: 10
 | Merge with Opensteeetmap: 0"
-[multi] Buildings + Roads + Forest, 23,  "| Buildings Height estimation: 10 
+[multi] Buildings + Roads + Forest, 23,  "| Building Heights estimation: 10 
 | Forest Height estimation: 10
 | Tree crowns: 10"
 Forest and trees, 8, "| Forest Height estimation: 10
