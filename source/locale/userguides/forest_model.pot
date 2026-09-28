@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/forest_model.rst:1
-#: 7d40b2b83e8249118c21ec7f1646b828
+#: 84e5c56d29354f6ebca8f00366a1cb84
 msgid "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines, with height classes and tree crowns."
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../userguides/forest_model.rst:10
 #: 97cd7525a18645158352c5419b165cc5
-msgid "0.6–0.3 m imagery (zoom 18–19) taken in the growing season. Leafless or snow-covered trees are not detected."
+msgid "0.6–0.15 m imagery (zoom 18–20) taken in the growing season. Leafless or snow-covered trees are not detected."
 msgstr ""
 
 #: ../userguides/forest_model.rst:10
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../userguides/forest_model.rst:10
 #: ae825a458246451b95411dc7fbc40169
-msgid "0.6–0.3 m / z18–19"
+msgid "0.6–0.15 m / z18–20"
 msgstr ""
 
 #: ../userguides/forest_model.rst:11
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../userguides/forest_model.rst:22
 #: 8c871b36996b4ebfb1e27f563977deef
-msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ""
 
 #: ../userguides/forest_model.rst:22

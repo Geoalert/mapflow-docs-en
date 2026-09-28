@@ -1,5 +1,5 @@
 .. meta::
-   :description: Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request.
+   :description: Extract small buildings and detailed outlines from 10-5 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request.
 
 .. rst-class:: mf-page
 

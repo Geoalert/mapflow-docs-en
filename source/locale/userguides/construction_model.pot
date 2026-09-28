@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/construction_model.rst:1
-#: fa43f8c87b8c4adebb99673a72904e3e
+#: 61a418cd903446dd8486545a009612e2
 msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../userguides/construction_model.rst:10
 #: f2f7494243fc4211beb2cac0828ed2aa
-msgid "High-resolution satellite imagery of fast-developing areas."
+msgid "0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas."
 msgstr ""
 
 #: ../userguides/construction_model.rst:10
@@ -129,6 +129,16 @@ msgstr ""
 #: ../userguides/construction_model.rst:10
 #: 33b6ea8d734a44e7bf7f4526503293ae
 msgid "Segmentation"
+msgstr ""
+
+#: ../userguides/construction_model.rst:0
+#: b28a98443b0649a19eb3f51c88f51e3e
+msgid "GSD / zoom"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10
+#: 934db30bda204b91bb90f9986284cbd4
+msgid "0.6–0.3 m / z18"
 msgstr ""
 
 #: ../userguides/construction_model.rst:12

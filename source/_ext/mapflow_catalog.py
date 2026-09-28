@@ -23,6 +23,7 @@ Directives
 ``.. mf-scenario-cards:: <id>`` cards for the scenarios of one model
 ``.. mf-scenario:: <id>``       compact hero for one scenario (an option of a model)
 ``.. mf-cta::``                 "Need a different object?" call to action
+``.. mf-requirements-table::``  imagery requirements of every model (zoom, GSD)
 
 Roles
 -----
@@ -36,6 +37,7 @@ Set ``MF_CATALOG_DUMP=1`` to print the generated reStructuredText.
 
 import json
 import os
+import re
 import shutil
 
 from docutils import nodes
@@ -97,6 +99,30 @@ def _validate(data, srcdir):
     for s in data["scenarios"]:
         if s["model"] not in data["_models"]:
             logger.warning("models.json: scenario %s points to unknown model %s", s["id"], s["model"])
+    _validate_requirements(data)
+
+
+def _validate_requirements(data):
+    """Keep the zoom and resolution shown on model pages in line with ``requirements``.
+
+    ``requirements`` mirrors the requirements of the platform configs
+    (awesome-configs/configs/default and configs/customer); see
+    sync_model_requirements.py.
+    """
+    for kind, items in (("model", data["models"]), ("scenario", data["scenarios"])):
+        for item in items:
+            rec = (item.get("requirements") or {}).get("recommended") or {}
+            zoom = fmt_zoom(rec.get("zoom"))
+            if zoom and item.get("zoom") and item["zoom"] != zoom:
+                logger.warning("models.json: %s %s shows zoom %s, but its requirements recommend %s",
+                               kind, item["id"], item["zoom"], zoom)
+            shown = (item.get("specs") or {}).get("resolution") or ""
+            gsd = rec.get("gsd")
+            if gsd and " m" in shown:
+                values = {float(v) for v in re.findall(r"\d+(?:\.\d+)?", shown.split(" m")[0])}
+                if values != {float(v) for v in gsd}:
+                    logger.warning("models.json: %s %s shows resolution %r, but its requirements recommend %s m",
+                                   kind, item["id"], shown, fmt_gsd(gsd))
 
 
 def available_icons(srcdir):
@@ -179,6 +205,27 @@ def meta_line(model, per_km2, zoom):
 
 def chip(icon, text):
     return ":mf-chip:`{}|{}`".format(icon or "", esc(text))
+
+
+def fmt_zoom(pair):
+    """[18, 20] -> '18–20', [19, 19] -> '19'."""
+    if not pair:
+        return None
+    lo, hi = pair
+    return str(lo) if lo == hi else "{}–{}".format(lo, hi)
+
+
+def fmt_gsd(pair):
+    """GSD range in m/px, coarse to fine like on the model pages: [0.3, 0.6] -> '0.6–0.3'."""
+    if not pair:
+        return None
+
+    def num(v):
+        text = "%g" % v
+        return text if "." in text else text + ".0"
+
+    fine, coarse = min(pair), max(pair)
+    return num(fine) if fine == coarse else "{}–{}".format(num(coarse), num(fine))
 
 
 # ------------------------------------------------------------- rst writer --
@@ -532,6 +579,64 @@ class CallToAction(CatalogDirective):
 
 # ------------------------------------------------------ gallery headings --
 
+class RequirementsTable(CatalogDirective):
+    """Imagery requirements of every model, built from ``requirements`` in the catalog.
+
+    Model names are ``:doc:`` links, so each language build shows the
+    translated page title. Scenarios with their own recommendation (for
+    example tree crowns) get an extra row under their model.
+    """
+    wrapper_class = "mf-requirements"
+    HEADER = ("Model", "Recommended zoom", "Recommended GSD m/px",
+              "Required zoom range", "Required GSD range, m/px")
+
+    @staticmethod
+    def cells(label, rec, req):
+        rec, req = rec or {}, req or {}
+        min_zoom = req.get("min_zoom")
+        return [
+            label,
+            fmt_zoom(rec.get("zoom")) or "—",
+            fmt_gsd(rec.get("gsd")) or "—",
+            "≥ {}".format(min_zoom) if min_zoom is not None else "—",
+            fmt_gsd(req.get("gsd")) or "—",
+        ]
+
+    def build(self, rst):
+        cat = self.catalog
+        rows, unpublished = [], False
+        for m in cat["models"]:
+            req = m.get("requirements")
+            if req is None:
+                continue
+            label = ":doc:`/{}`".format(m["doc"])
+            if not req.get("config"):
+                label += " †"
+                unpublished = True
+            rows.append(self.cells(label, req.get("recommended"), req.get("required")))
+            for sid in m.get("scenarios", []):
+                s = cat["_scenarios"][sid]
+                sreq = s.get("requirements")
+                if sreq:
+                    label = "↳ :ref:`{} <scenario-{}>`".format(esc(s.get("option") or s["title"]), sid)
+                    rows.append(self.cells(label, sreq.get("recommended"),
+                                           sreq.get("required") or req.get("required")))
+
+        rst.add(".. list-table::")
+        rst.add("   :header-rows: 1")
+        rst.add("   :widths: 36 16 16 16 16")
+        rst.add("   :class: mf-req-table")
+        rst.blank()
+        for row in [list(self.HEADER)] + rows:
+            for i, cell in enumerate(row):
+                rst.add(("   * - " if i == 0 else "     - ") + cell)
+        rst.blank()
+        if unpublished:
+            rst.para("† Custom model with no published configuration: the values come from its "
+                     "model page, and the exact limits are set when the model is connected to your account.",
+                     "mf-caption")
+
+
 class mf_heading(nodes.rubric):
     """A real <h2> that is not a section, so it stays out of the sidebar TOC."""
 
@@ -658,6 +763,7 @@ def setup(app):
     app.add_directive("mf-scenario", Scenario)
     app.add_directive("mf-cta", CallToAction)
     app.add_directive("mf-heading", Heading)
+    app.add_directive("mf-requirements-table", RequirementsTable)
     other = (visit_mf_heading_other, depart_mf_heading_other)
     app.add_node(mf_heading, html=(visit_mf_heading_html, depart_mf_heading_html),
                  latex=other, text=other, man=other, texinfo=other)

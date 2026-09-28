@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/pipelines.rst:1 7e0ffbe93cbd43c38c00fdf179e62efd
+#: ../userguides/pipelines.rst:1 157d305413e64fb680f8171a04632d60
 msgid ""
 "Mapflow AI-mapping models for buildings, forest, roads and more: what each "
 "model returns, the imagery it needs and what it costs."
@@ -105,8 +105,8 @@ msgid "Roof outline of every building in your area, as editable polygons."
 msgstr "区域内每栋建筑物的屋顶轮廓，以可编辑多边形输出。"
 
 #: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
-msgstr ":mf-icon:`credits` 10 积分/km² + 影像 · 缩放级别 19"
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
+msgstr ":mf-icon:`credits` 10 积分/km² + 影像 · 缩放级别 18"
 
 #: ../userguides/pipelines.rst:32 207608bb5acc4a70a2c9a898e61277ab
 msgid "Tree and shrub cover mask over a residential area"
@@ -125,8 +125,8 @@ msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr "所有树木和灌木覆盖，细至小片树丛和成排树木。"
 
 #: ../userguides/pipelines.rst:32 9114b40b7c6c402a99d321bc7c6a2940
-msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
-msgstr ":mf-icon:`credits` 8 积分/km² + 影像 · 缩放级别 18–19"
+msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
+msgstr ":mf-icon:`credits` 8 积分/km² + 影像 · 缩放级别 18–20"
 
 #: ../userguides/pipelines.rst:32 959d1044f78441588efa798945bd9fd1
 msgid "Road network polygons over a suburban area"
@@ -146,8 +146,8 @@ msgid "A connected road network with gaps merged and short stubs removed."
 msgstr "连通的道路网络，已合并断口并移除短小残段。"
 
 #: ../userguides/pipelines.rst:32 85eaa0ce7b0c43f2a1cac39c03f91869
-msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18–19"
-msgstr ":mf-icon:`credits` 5 积分/km² + 影像 · 缩放级别 18–19"
+msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18"
+msgstr ":mf-icon:`credits` 5 积分/km² + 影像 · 缩放级别 18"
 
 #: ../userguides/pipelines.rst:32 5086f21c1b2e43d9910d6e59976bceca
 msgid "Buildings, roads and forest layers over a dense urban area"
@@ -161,9 +161,9 @@ msgstr "建筑物 + 道路 + 森林"
 msgid "Buildings, roads and forest together, with topology corrected."
 msgstr "一次提取建筑物、道路和森林，并已校正拓扑。"
 
-#: ../userguides/pipelines.rst:32 3eff18e4195e461eb98700cb13073e36
-msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 18–19"
-msgstr ":mf-icon:`credits` 23 积分/km² + 影像 · 缩放级别 18–19"
+#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
+msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 19"
+msgstr ":mf-icon:`credits` 23 积分/km² + 影像 · 缩放级别 19"
 
 #: ../userguides/pipelines.rst:32 be4fe34ba5f343bab2a3c72de4ee7ac5
 msgid "OpenStreetMap buildings and roads over imagery"
@@ -255,9 +255,8 @@ msgid "Outlines of construction sites and buildings under construction."
 msgstr "建筑工地和在建建筑物的轮廓。"
 
 #: ../userguides/pipelines.rst:47 0b7001a723f5469ea8904d6128be7c31
-#: 4cffce6ec9e748f19942820cf2ed4731 c2c5c840a3534744bcd8dbf43af8d8a6
-msgid ":mf-icon:`credits` On request"
-msgstr ":mf-icon:`credits` 需申请"
+msgid ":mf-icon:`credits` On request · zoom 18"
+msgstr ":mf-icon:`credits` 需申请 · 缩放级别 18"
 
 #: ../userguides/pipelines.rst:47 d92f8b99b6af458ebfd8fa402b8169f9
 msgid "Dense housing blocks split into individual houses"
@@ -270,6 +269,11 @@ msgstr "高密度住宅"
 #: ../userguides/pipelines.rst:47 23561488861c41f083fa9ab132967260
 msgid "Terraced and tightly packed blocks divided into individual houses."
 msgstr "将联排及紧密排列的街区拆分为单栋房屋。"
+
+#: ../userguides/pipelines.rst:47 4cffce6ec9e748f19942820cf2ed4731
+#: c2c5c840a3534744bcd8dbf43af8d8a6
+msgid ":mf-icon:`credits` On request"
+msgstr ":mf-icon:`credits` 需申请"
 
 #: ../userguides/pipelines.rst:47 3b0cf3df588d4556aef22c8bb05d10a1
 msgid "Detailed building outlines on 10 cm aerial imagery"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/custom_pipelines.rst:1 3b21a9271c2348739e32634f3716642d
+#: ../userguides/custom_pipelines.rst:1 565c807a27e5419682cd5b14bbd38442
 msgid ""
 "Custom Mapflow AI models trained for specific objects and imagery, and "
 "connected to your account on request."
@@ -79,10 +79,9 @@ msgstr ":mf-chip:`buildings|建筑物` :mf-warn:`需申请`"
 msgid "Outlines of construction sites and buildings under construction."
 msgstr "建筑工地和在建建筑物的轮廓。"
 
-#: ../userguides/custom_pipelines.rst:24 20d773fe213a4b83b0711a6e5debfff0
-#: 28530094dabc490789316803694d6f34 80f03f2129ec417a9f0ef1835bccaff2
-msgid ":mf-icon:`credits` On request"
-msgstr ":mf-icon:`credits` 需申请"
+#: ../userguides/custom_pipelines.rst:24 28530094dabc490789316803694d6f34
+msgid ":mf-icon:`credits` On request · zoom 18"
+msgstr ":mf-icon:`credits` 需申请 · 缩放级别 18"
 
 #: ../userguides/custom_pipelines.rst:24 b96c7ff469ee48f19778e5e8ef7c96fd
 msgid "Dense housing blocks split into individual houses"
@@ -95,6 +94,11 @@ msgstr "高密度住宅"
 #: ../userguides/custom_pipelines.rst:24 c71f8dcc60134445be5e2f0350e54eec
 msgid "Terraced and tightly packed blocks divided into individual houses."
 msgstr "将联排及紧密排列的街区拆分为单栋房屋。"
+
+#: ../userguides/custom_pipelines.rst:24 20d773fe213a4b83b0711a6e5debfff0
+#: 80f03f2129ec417a9f0ef1835bccaff2
+msgid ":mf-icon:`credits` On request"
+msgstr ":mf-icon:`credits` 需申请"
 
 #: ../userguides/custom_pipelines.rst:24 698845e37cd9483d9d159494e70a0ad0
 msgid "Detailed building outlines on 10 cm aerial imagery"

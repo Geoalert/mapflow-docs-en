@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/custom_pipelines.rst:1 3b21a9271c2348739e32634f3716642d
+#: ../userguides/custom_pipelines.rst:1 565c807a27e5419682cd5b14bbd38442
 msgid ""
 "Custom Mapflow AI models trained for specific objects and imagery, and "
 "connected to your account on request."
@@ -91,10 +91,9 @@ msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
 msgid "Outlines of construction sites and buildings under construction."
 msgstr "Контуры строительных площадок и строящихся зданий."
 
-#: ../userguides/custom_pipelines.rst:24 20d773fe213a4b83b0711a6e5debfff0
-#: 28530094dabc490789316803694d6f34 80f03f2129ec417a9f0ef1835bccaff2
-msgid ":mf-icon:`credits` On request"
-msgstr ":mf-icon:`credits` По запросу"
+#: ../userguides/custom_pipelines.rst:24 28530094dabc490789316803694d6f34
+msgid ":mf-icon:`credits` On request · zoom 18"
+msgstr ":mf-icon:`credits` По запросу · зум 18"
 
 #: ../userguides/custom_pipelines.rst:24 b96c7ff469ee48f19778e5e8ef7c96fd
 msgid "Dense housing blocks split into individual houses"
@@ -107,6 +106,11 @@ msgstr "Плотная застройка"
 #: ../userguides/custom_pipelines.rst:24 c71f8dcc60134445be5e2f0350e54eec
 msgid "Terraced and tightly packed blocks divided into individual houses."
 msgstr "Блокированная и плотная застройка, разделённая на отдельные дома."
+
+#: ../userguides/custom_pipelines.rst:24 20d773fe213a4b83b0711a6e5debfff0
+#: 80f03f2129ec417a9f0ef1835bccaff2
+msgid ":mf-icon:`credits` On request"
+msgstr ":mf-icon:`credits` По запросу"
 
 #: ../userguides/custom_pipelines.rst:24 698845e37cd9483d9d159494e70a0ad0
 msgid "Detailed building outlines on 10 cm aerial imagery"

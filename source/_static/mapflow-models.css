@@ -629,3 +629,15 @@ html.writer-html5 .rst-content dl.field-list.mf-specs > dd p {
 .rst-content .mf-page .attention,
 .rst-content .mf-page .caution { background: var(--mf-warn-bg); border-color: var(--mf-warn-border); }
 .rst-content .mf-page .warning .admonition-title { color: var(--mf-warn-fg); }
+
+/* ---- Model requirements table (reference.rst, .. mf-requirements-table::) ---- */
+html.writer-html5 .rst-content table.mf-req-table thead,
+html.writer-html5 .rst-content table.mf-req-table th,
+html.writer-html5 .rst-content table.mf-req-table td:first-child {
+  white-space: normal;
+}
+html.writer-html5 .rst-content table.mf-req-table th { vertical-align: bottom; }
+html.writer-html5 table.mf-req-table td:not(:first-child) {
+  font-variant-numeric: tabular-nums;
+}
+.rst-content .mf-requirements p.mf-caption { font-size: 13px; line-height: 18px; color: var(--mf-muted, #6b7280); }

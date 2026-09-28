@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/forest_model.rst:1 4654eaeb05e744e1a76af29eeb1d5624
+#: ../userguides/forest_model.rst:1 84e5c56d29354f6ebca8f00366a1cb84
 msgid ""
 "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite "
 "imagery. Covers sparse forest, shrubland, small tree groups and narrow "
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../userguides/forest_model.rst:10 97cd7525a18645158352c5419b165cc5
 msgid ""
-"0.6–0.3 m imagery (zoom 18–19) taken in the growing season. Leafless or "
+"0.6–0.15 m imagery (zoom 18–20) taken in the growing season. Leafless or "
 "snow-covered trees are not detected."
 msgstr ""
 
@@ -146,7 +146,7 @@ msgid "GSD / zoom"
 msgstr ""
 
 #: ../userguides/forest_model.rst:10 ae825a458246451b95411dc7fbc40169
-msgid "0.6–0.3 m / z18–19"
+msgid "0.6–0.15 m / z18–20"
 msgstr ""
 
 #: ../userguides/forest_model.rst:11 7c7fbe9acfa845df854e1f40bf0bab2c
@@ -180,7 +180,7 @@ msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr ""
 
 #: ../userguides/forest_model.rst:22 8c871b36996b4ebfb1e27f563977deef
-msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ""
 
 #: ../userguides/forest_model.rst ../userguides/forest_model.rst:22
@@ -897,5 +897,17 @@ msgstr ""
 #~ " options <https://mapflow.ai/models>`_, or "
 #~ "`request a custom model <https://mapflow.ai"
 #~ "/custom-models>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "0.6–0.3 m imagery (zoom 18–19) taken "
+#~ "in the growing season. Leafless or "
+#~ "snow-covered trees are not detected."
+#~ msgstr ""
+
+#~ msgid "0.6–0.3 m / z18–19"
+#~ msgstr ""
+
+#~ msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
 #~ msgstr ""
 

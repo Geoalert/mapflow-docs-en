@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/buildings_model.rst:1 ee4eeed6c1cb4393babd0f3fe648e162
+#: ../userguides/buildings_model.rst:1 a71a7cd974514e9aae5dd6418307043b
 msgid ""
 "Extract building rooftops and footprints from high-resolution satellite and "
 "aerial imagery. Building types, simplification, OpenStreetMap merge and "
@@ -57,12 +57,13 @@ msgstr "Стоимость"
 msgid "10 credits per km² + imagery"
 msgstr "10 кредитов за км² + снимки"
 
-#: ../userguides/buildings_model.rst:12 35bdf9a619904f2086b59c3f05351fac
+#: ../userguides/buildings_model.rst:12 ../userguides/buildings_model.rst:27
+#: 0b4e38a33b424a578a0926b0a80fa814 35bdf9a619904f2086b59c3f05351fac
 msgid ""
-"Example: 10 km² on Mapbox zoom 19 ≈ 190 credits. Your own imagery costs "
+"Example: 10 km² on Mapbox zoom 18 ≈ 130 credits. Your own imagery costs "
 "nothing."
 msgstr ""
-"Пример: 10 км² на Mapbox с зумом 19 ≈ 190 кредитов. Ваши собственные снимки "
+"Пример: 10 км² на Mapbox с зумом 18 ≈ 130 кредитов. Ваши собственные снимки "
 "бесплатны."
 
 #: ../userguides/buildings_model.rst:12 26041829693a44f3b71d403e367bd818
@@ -95,9 +96,9 @@ msgstr "Лучше всего работает с"
 
 #: ../userguides/buildings_model.rst:12 ../userguides/buildings_model.rst:27
 #: 175a9345ae774c6daaee4ed8b5db11ba 28cfe42b4b7f40e9ada731c158e70c88
-msgid "Aerial or satellite imagery at 0.3 m per pixel (zoom 19)."
+msgid "Aerial or satellite imagery at 0.6–0.3 m per pixel (zoom 18)."
 msgstr ""
-"Аэрофото или спутниковые снимки с разрешением 0,3 м на пиксель (зум 19)."
+"Аэрофото или спутниковые снимки с разрешением 0,6–0,3 м на пиксель (зум 18)."
 
 #: ../userguides/buildings_model.rst:12 ../userguides/buildings_model.rst:27
 #: ../userguides/buildings_model.rst:36 06a11691275845c5a62aa77f89f9a708
@@ -160,8 +161,8 @@ msgid "GSD / zoom"
 msgstr "GSD / зум"
 
 #: ../userguides/buildings_model.rst:12 f6dc9e712b354aa8bee15b844e0c6484
-msgid "0.3 m / z19"
-msgstr "0,3 м/з19"
+msgid "0.6–0.3 m / z18"
+msgstr "0,6–0,3 м / z18"
 
 #: ../userguides/buildings_model.rst:14 0f6d3040a6174838a6bb3351c5598f45
 msgid "Scenarios with this model"
@@ -188,9 +189,10 @@ msgid "Roof outline of every building in your area, as editable polygons."
 msgstr ""
 "Контур крыши каждого здания в вашей области в виде редактируемых полигонов."
 
-#: ../userguides/buildings_model.rst:20 74d88507099348bbbc36b3c5d58f6388
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
-msgstr ":mf-icon:`credits` 10 кр./км² + снимки · зум 19"
+#: ../userguides/buildings_model.rst:20 02c00d89751c466baef6ace5f7a49fd2
+#: 74d88507099348bbbc36b3c5d58f6388
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
+msgstr ":mf-icon:`credits` 10 кр./км² + снимки · зум 18"
 
 #: ../userguides/buildings_model.rst ../userguides/buildings_model.rst:20
 #: 4d57c20c1d21413c94b64d7fb5b81cf2 bff358b9280343c4a1c9ba7786adfc1f
@@ -210,10 +212,6 @@ msgstr ":mf-badge:`+ Типы зданий`"
 msgid "Every building polygon carries a type, ready to filter and style."
 msgstr ""
 "Каждый полигон здания получает тип — его можно фильтровать и оформлять."
-
-#: ../userguides/buildings_model.rst:20 02c00d89751c466baef6ace5f7a49fd2
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
-msgstr ":mf-icon:`credits` 10 кр./км² + снимки · зум 18"
 
 #: ../userguides/buildings_model.rst ../userguides/buildings_model.rst:20
 #: 01ae376f90ca40fb9b820b2e50ec6b6b 8862e86ba98d4599bd5f1fd87dd1307e
@@ -235,20 +233,12 @@ msgid ""
 msgstr "Высота каждого здания; контур перенесён с крыши на уровень земли."
 
 #: ../userguides/buildings_model.rst:20 db506c8f8ffa44d9babbc5742090feca
-msgid ":mf-icon:`credits` 20 cr/km² + imagery · zoom 19"
-msgstr ":mf-icon:`credits` 20 кр./км² + снимки · зум 19"
+msgid ":mf-icon:`credits` 20 cr/km² + imagery · zoom 18"
+msgstr ":mf-icon:`credits` 20 кр./км² + снимки · зум 18"
 
 #: ../userguides/buildings_model.rst:27 abe9eee3f5c74e0b97d31be9cc696c68
 msgid ":mf-chip:`buildings|Buildings` :mf-badge:`+ Building types`"
 msgstr ":mf-chip:`buildings|Здания` :mf-badge:`+ Типы зданий`"
-
-#: ../userguides/buildings_model.rst:27 0b4e38a33b424a578a0926b0a80fa814
-msgid ""
-"Example: 10 km² on Mapbox zoom 18 ≈ 130 credits. Your own imagery costs "
-"nothing."
-msgstr ""
-"Пример: 10 км² на Mapbox с зумом 18 ≈ 130 кредитов. Ваши собственные снимки "
-"бесплатны."
 
 #: ../userguides/buildings_model.rst:27 82cf7d2806484ffab0879f991de0c0e0
 msgid ""
@@ -292,10 +282,10 @@ msgstr "20 кредитов за км² + снимки"
 
 #: ../userguides/buildings_model.rst:36 448dec42183e420fa666ff684a807803
 msgid ""
-"Example: 10 km² on Mapbox zoom 19 ≈ 290 credits. Your own imagery costs "
+"Example: 10 km² on Mapbox zoom 18 ≈ 230 credits. Your own imagery costs "
 "nothing."
 msgstr ""
-"Пример: 10 км² на Mapbox с зумом 19 ≈ 290 кредитов. Ваши собственные снимки "
+"Пример: 10 км² на Mapbox с зумом 18 ≈ 230 кредитов. Ваши собственные снимки "
 "бесплатны."
 
 #: ../userguides/buildings_model.rst:36 956fa65da444493f98ae84ae33fb6fb7
@@ -316,10 +306,10 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:36 d9fdd4e000814a40a6cfd1520477cb8f
 msgid ""
-"0.3 m imagery (zoom 19) with visible shadows. Helps most on oblique imagery,"
-" where roofs look shifted."
+"0.6–0.3 m imagery (zoom 18) with visible shadows. Helps most on oblique "
+"imagery, where roofs look shifted."
 msgstr ""
-"Снимки 0,3 м (зум 19) с видимыми тенями. Особенно полезно на наклонных "
+"Снимки 0,6–0,3 м (зум 18) с видимыми тенями. Особенно полезно на наклонных "
 "снимках, где крыши выглядят смещёнными."
 
 #: ../userguides/buildings_model.rst:36 1d22a930bb85437abc936d1fb12790a0
@@ -1169,3 +1159,20 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
 #~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
 #~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid ""
+#~ "Example: 10 km² on Mapbox zoom 19 ≈ 190 credits. Your own imagery costs "
+#~ "nothing."
+#~ msgstr ""
+#~ "Пример: 10 км² на Mapbox с зумом 19 ≈ 190 кредитов. Ваши собственные снимки "
+#~ "бесплатны."
+
+#~ msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+#~ msgstr ":mf-icon:`credits` 10 кр./км² + снимки · зум 19"
+
+#~ msgid ""
+#~ "Example: 10 km² on Mapbox zoom 19 ≈ 290 credits. Your own imagery costs "
+#~ "nothing."
+#~ msgstr ""
+#~ "Пример: 10 км² на Mapbox с зумом 19 ≈ 290 кредитов. Ваши собственные снимки "
+#~ "бесплатны."

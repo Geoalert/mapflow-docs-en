@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/custom_pipelines.rst:1
-#: 15c9ae35570e4dd7adc2fecdcc68778c
+#: 565c807a27e5419682cd5b14bbd38442
 msgid "Custom Mapflow AI models trained for specific objects and imagery, and connected to your account on request."
 msgstr ""
 
@@ -85,12 +85,8 @@ msgid "Outlines of construction sites and buildings under construction."
 msgstr ""
 
 #: ../userguides/custom_pipelines.rst:24
-#: ../userguides/custom_pipelines.rst:24
-#: ../userguides/custom_pipelines.rst:24
 #: 28530094dabc490789316803694d6f34
-#: 20d773fe213a4b83b0711a6e5debfff0
-#: 80f03f2129ec417a9f0ef1835bccaff2
-msgid ":mf-icon:`credits` On request"
+msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ""
 
 #: ../userguides/custom_pipelines.rst:24
@@ -106,6 +102,13 @@ msgstr ""
 #: ../userguides/custom_pipelines.rst:24
 #: c71f8dcc60134445be5e2f0350e54eec
 msgid "Terraced and tightly packed blocks divided into individual houses."
+msgstr ""
+
+#: ../userguides/custom_pipelines.rst:24
+#: ../userguides/custom_pipelines.rst:24
+#: 20d773fe213a4b83b0711a6e5debfff0
+#: 80f03f2129ec417a9f0ef1835bccaff2
+msgid ":mf-icon:`credits` On request"
 msgstr ""
 
 #: ../userguides/custom_pipelines.rst:24

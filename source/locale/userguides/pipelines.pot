@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/pipelines.rst:1
-#: 7e0ffbe93cbd43c38c00fdf179e62efd
+#: 157d305413e64fb680f8171a04632d60
 msgid "Mapflow AI-mapping models for buildings, forest, roads and more: what each model returns, the imagery it needs and what it costs."
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../userguides/pipelines.rst:32
 #: b0a5055b2c554b16b3b4cfc479e67585
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32
@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../userguides/pipelines.rst:32
 #: 9114b40b7c6c402a99d321bc7c6a2940
-msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../userguides/pipelines.rst:32
 #: 85eaa0ce7b0c43f2a1cac39c03f91869
-msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32
@@ -184,8 +184,8 @@ msgid "Buildings, roads and forest together, with topology corrected."
 msgstr ""
 
 #: ../userguides/pipelines.rst:32
-#: 3eff18e4195e461eb98700cb13073e36
-msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 18–19"
+#: b0a5055b2c554b16b3b4cfc479e67585
+msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 19"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32
@@ -299,12 +299,8 @@ msgid "Outlines of construction sites and buildings under construction."
 msgstr ""
 
 #: ../userguides/pipelines.rst:47
-#: ../userguides/pipelines.rst:47
-#: ../userguides/pipelines.rst:47
 #: 0b7001a723f5469ea8904d6128be7c31
-#: c2c5c840a3534744bcd8dbf43af8d8a6
-#: 4cffce6ec9e748f19942820cf2ed4731
-msgid ":mf-icon:`credits` On request"
+msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:47
@@ -320,6 +316,13 @@ msgstr ""
 #: ../userguides/pipelines.rst:47
 #: 23561488861c41f083fa9ab132967260
 msgid "Terraced and tightly packed blocks divided into individual houses."
+msgstr ""
+
+#: ../userguides/pipelines.rst:47
+#: ../userguides/pipelines.rst:47
+#: c2c5c840a3534744bcd8dbf43af8d8a6
+#: 4cffce6ec9e748f19942820cf2ed4731
+msgid ":mf-icon:`credits` On request"
 msgstr ""
 
 #: ../userguides/pipelines.rst:47

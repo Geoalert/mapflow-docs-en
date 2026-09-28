@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/combo_model.rst:1
-#: 11e5eb94f4044561a540be1ca1af4f6b
+#: 5aa9f1b3a7d14c1383967012beac6d3e
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../userguides/combo_model.rst:10
 #: 97fcb6615bc243b8b1e4d58e7330c436
-msgid "Example: 10 km² on Mapbox zoom 18 ≈ 260 credits."
+msgid "Example: 10 km² on Mapbox zoom 19 ≈ 320 credits."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../userguides/combo_model.rst:10
 #: b02052ccf5684432b4a7a64ef60f3bfb
-msgid "0.5–0.3 m imagery (zoom 18–19)."
+msgid "0.6–0.3 m imagery (zoom 19)."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../userguides/combo_model.rst:10
 #: a321875b7add4f7a8331d506fedf0d12
-msgid "0.5–0.3 m / z18–19"
+msgid "0.6–0.3 m / z19"
 msgstr ""
 
 #: ../userguides/combo_model.rst:12

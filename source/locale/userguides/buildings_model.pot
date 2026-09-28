@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/buildings_model.rst:1
-#: 5792a915b3e440628cdc803e4e4a90cb
+#: a71a7cd974514e9aae5dd6418307043b
 msgid "Extract building rooftops and footprints from high-resolution satellite and aerial imagery. Building types, simplification, OpenStreetMap merge and height estimation."
 msgstr ""
 
@@ -60,8 +60,10 @@ msgid "10 credits per km² + imagery"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
 #: 35bdf9a619904f2086b59c3f05351fac
-msgid "Example: 10 km² on Mapbox zoom 19 ≈ 190 credits. Your own imagery costs nothing."
+#: 0b4e38a33b424a578a0926b0a80fa814
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 130 credits. Your own imagery costs nothing."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:12
@@ -96,7 +98,7 @@ msgstr ""
 #: ../userguides/buildings_model.rst:27
 #: 175a9345ae774c6daaee4ed8b5db11ba
 #: 28cfe42b4b7f40e9ada731c158e70c88
-msgid "Aerial or satellite imagery at 0.3 m per pixel (zoom 19)."
+msgid "Aerial or satellite imagery at 0.6–0.3 m per pixel (zoom 18)."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:12
@@ -175,7 +177,7 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:12
 #: f6dc9e712b354aa8bee15b844e0c6484
-msgid "0.3 m / z19"
+msgid "0.6–0.3 m / z18"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:14
@@ -204,8 +206,10 @@ msgid "Roof outline of every building in your area, as editable polygons."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:20
+#: ../userguides/buildings_model.rst:20
 #: 74d88507099348bbbc36b3c5d58f6388
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+#: 02c00d89751c466baef6ace5f7a49fd2
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:20
@@ -230,11 +234,6 @@ msgstr ""
 #: ../userguides/buildings_model.rst:20
 #: e0bd553f509c488b9c7b5efa993960e6
 msgid "Every building polygon carries a type, ready to filter and style."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:20
-#: 02c00d89751c466baef6ace5f7a49fd2
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:20
@@ -263,17 +262,12 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:20
 #: db506c8f8ffa44d9babbc5742090feca
-msgid ":mf-icon:`credits` 20 cr/km² + imagery · zoom 19"
+msgid ":mf-icon:`credits` 20 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:27
 #: abe9eee3f5c74e0b97d31be9cc696c68
 msgid ":mf-chip:`buildings|Buildings` :mf-badge:`+ Building types`"
-msgstr ""
-
-#: ../userguides/buildings_model.rst:27
-#: 0b4e38a33b424a578a0926b0a80fa814
-msgid "Example: 10 km² on Mapbox zoom 18 ≈ 130 credits. Your own imagery costs nothing."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:27
@@ -318,7 +312,7 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:36
 #: 448dec42183e420fa666ff684a807803
-msgid "Example: 10 km² on Mapbox zoom 19 ≈ 290 credits. Your own imagery costs nothing."
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 230 credits. Your own imagery costs nothing."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:36
@@ -333,7 +327,7 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:36
 #: d9fdd4e000814a40a6cfd1520477cb8f
-msgid "0.3 m imagery (zoom 19) with visible shadows. Helps most on oblique imagery, where roofs look shifted."
+msgid "0.6–0.3 m imagery (zoom 18) with visible shadows. Helps most on oblique imagery, where roofs look shifted."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:36

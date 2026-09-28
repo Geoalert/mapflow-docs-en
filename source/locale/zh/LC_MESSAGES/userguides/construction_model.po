@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:1 669a90e1adec40768c6e40795b3fe760
+#: ../userguides/construction_model.rst:1 61a418cd903446dd8486545a009612e2
 msgid ""
 "Detect construction sites and buildings under construction in satellite "
 "imagery. Available as a custom Mapflow model on request."
@@ -72,8 +72,8 @@ msgid "Works best with"
 msgstr "最佳适用影像"
 
 #: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
-msgid "High-resolution satellite imagery of fast-developing areas."
-msgstr "快速发展区域的高分辨率卫星影像。"
+msgid "0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas."
+msgstr "快速发展区域的 0.6–0.3 米卫星影像（缩放级别 18）。"
 
 #: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
 msgid "Usage examples"
@@ -114,6 +114,14 @@ msgstr "方法"
 #: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
 msgid "Segmentation"
 msgstr "分割"
+
+#: ../userguides/construction_model.rst b28a98443b0649a19eb3f51c88f51e3e
+msgid "GSD / zoom"
+msgstr "GSD / 缩放级别"
+
+#: ../userguides/construction_model.rst:10 934db30bda204b91bb90f9986284cbd4
+msgid "0.6–0.3 m / z18"
+msgstr "0.6–0.3 m / z18"
 
 #: ../userguides/construction_model.rst:12 c579a9af539b4ded8662fe0c644576f6
 msgid "Sample results"

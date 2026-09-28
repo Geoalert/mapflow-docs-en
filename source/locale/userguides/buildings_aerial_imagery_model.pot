@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/buildings_aerial_imagery_model.rst:1
-#: fc118b86610f4762a82f2e1feae9c7b1
-msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
+#: 4628e5551d814de49b58646653311f48
+msgid "Extract small buildings and detailed outlines from 10-5 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
 msgstr ""
 
 #: ../userguides/buildings_aerial_imagery_model.rst:7
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../userguides/buildings_aerial_imagery_model.rst:10
 #: 217786122dd54438b79b5480fdea6092
-msgid "Aerial imagery at 15–10 cm (zoom 20–21) of low-rise areas."
+msgid "Aerial imagery at 10–5 cm (zoom 20–21) of low-rise areas."
 msgstr ""
 
 #: ../userguides/buildings_aerial_imagery_model.rst:10
@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../userguides/buildings_aerial_imagery_model.rst:10
 #: e0cc29bb12434f059e22c1b3fa055203
-msgid "0.15–0.1 m / z20–21"
+msgid "0.1–0.05 m / z20–21"
 msgstr ""
 
 #: ../userguides/buildings_aerial_imagery_model.rst:0

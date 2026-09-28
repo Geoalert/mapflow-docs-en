@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/pipelines.rst:1 7e0ffbe93cbd43c38c00fdf179e62efd
+#: ../userguides/pipelines.rst:1 157d305413e64fb680f8171a04632d60
 msgid ""
 "Mapflow AI-mapping models for buildings, forest, roads and more: what "
 "each model returns, the imagery it needs and what it costs."
@@ -102,7 +102,7 @@ msgid "Roof outline of every building in your area, as editable polygons."
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
-msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 207608bb5acc4a70a2c9a898e61277ab
@@ -122,7 +122,7 @@ msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 9114b40b7c6c402a99d321bc7c6a2940
-msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 959d1044f78441588efa798945bd9fd1
@@ -143,7 +143,7 @@ msgid "A connected road network with gaps merged and short stubs removed."
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 85eaa0ce7b0c43f2a1cac39c03f91869
-msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18–19"
+msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 5086f21c1b2e43d9910d6e59976bceca
@@ -158,8 +158,8 @@ msgstr ""
 msgid "Buildings, roads and forest together, with topology corrected."
 msgstr ""
 
-#: ../userguides/pipelines.rst:32 3eff18e4195e461eb98700cb13073e36
-msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 18–19"
+#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
+msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 19"
 msgstr ""
 
 #: ../userguides/pipelines.rst:32 be4fe34ba5f343bab2a3c72de4ee7ac5
@@ -251,8 +251,7 @@ msgid "Outlines of construction sites and buildings under construction."
 msgstr ""
 
 #: ../userguides/pipelines.rst:47 0b7001a723f5469ea8904d6128be7c31
-#: 4cffce6ec9e748f19942820cf2ed4731 c2c5c840a3534744bcd8dbf43af8d8a6
-msgid ":mf-icon:`credits` On request"
+msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ""
 
 #: ../userguides/pipelines.rst:47 d92f8b99b6af458ebfd8fa402b8169f9
@@ -265,6 +264,11 @@ msgstr ""
 
 #: ../userguides/pipelines.rst:47 23561488861c41f083fa9ab132967260
 msgid "Terraced and tightly packed blocks divided into individual houses."
+msgstr ""
+
+#: ../userguides/pipelines.rst:47 4cffce6ec9e748f19942820cf2ed4731
+#: c2c5c840a3534744bcd8dbf43af8d8a6
+msgid ":mf-icon:`credits` On request"
 msgstr ""
 
 #: ../userguides/pipelines.rst:47 3b0cf3df588d4556aef22c8bb05d10a1
@@ -1941,5 +1945,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":mf-chip:`uav|Any model`"
+#~ msgstr ""
+
+#~ msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+#~ msgstr ""
+
+#~ msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–19"
+#~ msgstr ""
+
+#~ msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18–19"
+#~ msgstr ""
+
+#~ msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 18–19"
 #~ msgstr ""
 

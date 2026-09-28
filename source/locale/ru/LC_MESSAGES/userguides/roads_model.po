@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,13 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/roads_model.rst:1 c7f3dd61c84f460180237b6e5a160fa9
+#: ../userguides/roads_model.rst:1 9c5d45570a474d258fd8216965e9af07
 msgid ""
-"Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning "
+"Extract road networks from 0.6-0.3 m satellite imagery. Multi-task learning "
 "improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
-"Извлечение дорожной сети со снимков 0,3-0,5 м. Multi-task обучение улучшает "
-"связность маски там, где дороги закрыты деревьями или зданиями."
+"Извлечение дорожной сети со спутниковых снимков 0,6-0,3 м. Multi-task "
+"обучение улучшает связность маски там, где дороги закрыты деревьями или "
+"зданиями."
 
 #: ../userguides/roads_model.rst:7 fe34fee8bdb64421bf8abe65c2448eab
 msgid "Roads"
@@ -84,11 +85,12 @@ msgstr "Лучше всего работает с"
 
 #: ../userguides/roads_model.rst:10 12bfcb98139d409590094a7dcc8710da
 msgid ""
-"Rural and suburban areas with 0.5–0.3 m imagery. Dense city centres with "
-"wide sidewalks and complex crossings are harder."
+"Rural and suburban areas with 0.6–0.3 m imagery (zoom 18). Dense city "
+"centres with wide sidewalks and complex crossings are harder."
 msgstr ""
-"Сельские и пригородные территории на снимках 0,5–0,3 м. Плотные центры "
-"городов с широкими тротуарами и сложными перекрёстками даются труднее."
+"Сельские и пригородные территории на снимках 0,6–0,3 м (зум 18). Плотные "
+"центры городов с широкими тротуарами и сложными перекрёстками даются "
+"труднее."
 
 #: ../userguides/roads_model.rst:10 d8f15d032892441ca9ff02ec081cdf62
 msgid "Usage examples"
@@ -148,8 +150,8 @@ msgid "GSD / zoom"
 msgstr "GSD / зум"
 
 #: ../userguides/roads_model.rst:10 c39d120e506641d4aae7c4ce2b132900
-msgid "0.5–0.3 m / z18–19"
-msgstr "0.5–0.3 m / z18–19"
+msgid "0.6–0.3 m / z18"
+msgstr "0,6–0,3 м / z18"
 
 #: ../userguides/roads_model.rst:12 1825fd795b92483d918fee061abcad0a
 msgid "How it works"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/combo_model.rst:1 ffc33d9d30fe463397e2a0668d914650
+#: ../userguides/combo_model.rst:1 5aa9f1b3a7d14c1383967012beac6d3e
 msgid ""
 "Run Buildings, Roads and Forest detection in a single Mapflow workflow and "
 "get one topology-corrected GeoJSON output."
@@ -53,8 +53,8 @@ msgid "23 credits per km² + imagery"
 msgstr "23 кредита за км² + снимки"
 
 #: ../userguides/combo_model.rst:10 97fcb6615bc243b8b1e4d58e7330c436
-msgid "Example: 10 km² on Mapbox zoom 18 ≈ 260 credits."
-msgstr "Пример: 10 км² на Mapbox с зумом 18 ≈ 260 кредитов."
+msgid "Example: 10 km² on Mapbox zoom 19 ≈ 320 credits."
+msgstr "Пример: 10 км² на Mapbox с зумом 19 ≈ 320 кредитов."
 
 #: ../userguides/combo_model.rst:10 8902cbd857b34a08b37e74fa3a1ed4ea
 msgid ""
@@ -80,8 +80,8 @@ msgid "Works best with"
 msgstr "Лучше всего работает с"
 
 #: ../userguides/combo_model.rst:10 b02052ccf5684432b4a7a64ef60f3bfb
-msgid "0.5–0.3 m imagery (zoom 18–19)."
-msgstr "Снимки 0,5–0,3 м (зум 18–19)."
+msgid "0.6–0.3 m imagery (zoom 19)."
+msgstr "Снимки 0,6–0,3 м (зум 19)."
 
 #: ../userguides/combo_model.rst:10 e40de6d3b1014ec29da10dd9233e2fc1
 msgid "Usage examples"
@@ -124,8 +124,8 @@ msgid "GSD / zoom"
 msgstr "GSD / зум"
 
 #: ../userguides/combo_model.rst:10 a321875b7add4f7a8331d506fedf0d12
-msgid "0.5–0.3 m / z18–19"
-msgstr "0.5–0.3 m / z18–19"
+msgid "0.6–0.3 m / z19"
+msgstr "0,6–0,3 м / z19"
 
 #: ../userguides/combo_model.rst:12 3f32b3f6a8934495a6db695cdaab6b83
 msgid "Options"

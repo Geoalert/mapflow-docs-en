@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/roads_model.rst:1
-#: 42908db52fb54d51b1bce3902a35b907
-msgid "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
+#: 9c5d45570a474d258fd8216965e9af07
+msgid "Extract road networks from 0.6-0.3 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 
 #: ../userguides/roads_model.rst:7
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../userguides/roads_model.rst:10
 #: 12bfcb98139d409590094a7dcc8710da
-msgid "Rural and suburban areas with 0.5–0.3 m imagery. Dense city centres with wide sidewalks and complex crossings are harder."
+msgid "Rural and suburban areas with 0.6–0.3 m imagery (zoom 18). Dense city centres with wide sidewalks and complex crossings are harder."
 msgstr ""
 
 #: ../userguides/roads_model.rst:10
@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../userguides/roads_model.rst:10
 #: c39d120e506641d4aae7c4ce2b132900
-msgid "0.5–0.3 m / z18–19"
+msgid "0.6–0.3 m / z18"
 msgstr ""
 
 #: ../userguides/roads_model.rst:12
