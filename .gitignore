@@ -7,5 +7,6 @@ _build
 .vscode
 .idea
 *.mo
+claude_design
 # written into the gettext output dir by sphinx-design
 source/locale/_sphinx_design_static/
