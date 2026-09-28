@@ -100,7 +100,9 @@ msgid ""
 "processing) without an explicit confirmation from you. See :ref:`imagery-"
 "agent-instructions` for the detailed decision logic the agent uses when "
 "searching for imagery."
-msgstr "未经您明确确认，代理绝不会执行付费操作（订购图像、开始处理）。有关代理在搜索图像时使用的详细决策逻辑，请参阅图像代理指令。"
+msgstr ""
+"未经您明确确认，代理绝不会执行付费操作（订购影像、启动处理）。有关代理搜索影像时使用的详细决策逻辑，请参阅 :ref:`imagery-agent-"
+"instructions`。"
 
 #: ../userguides/mapflow_agent.rst:45 2bf192c61d534eb4add15b62bb6283b0
 msgid "Agent toolset"
@@ -281,7 +283,8 @@ msgid ""
 "agent can expand it into a usable AOI with ``buffer_aoi``. The animation "
 "below shows the agent creating a buffer around a location:"
 msgstr ""
-"当用户给代理一个点位置或一个小几何图形时，代理可以使用“buffer_aoi”将其扩展为可用的 AOI。下面的动画显示了代理在某个位置周围创建缓冲区："
+"当用户给代理一个点位置或一个小几何图形时，代理可以使用“``buffer_aoi``”将其扩展为可用的 "
+"AOI。下面的动画显示了代理在某个位置周围创建缓冲区："
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent creating a buffer around an AOI"
@@ -298,8 +301,8 @@ msgid ""
 " it in your :ref:`My Imagery <My imagery main>` collection and select it for"
 " the processing:"
 msgstr ""
-"代理可以接受用户上传的图像并将其用作处理的输入。将图像放入聊天窗口中，代理会将其存储在您的 My Imagery <My imagery main>` "
-"集合中，并选择它进行处理："
+"代理可以接收用户上传的影像并将其用作处理输入。将影像拖入聊天窗口，代理会将其存储到您的 :ref:`My Imagery <My imagery "
+"main>` 集合中，并选中它进行处理："
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent handling an image upload"

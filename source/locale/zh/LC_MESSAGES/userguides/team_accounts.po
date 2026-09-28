@@ -106,7 +106,7 @@ msgstr "1. 团队余额 2. 个人余额 3. 团队成员余额（剩余）"
 msgid ""
 "The Admin directly controls each member's **Balance** - the remaining amount"
 " available for the member to spend."
-msgstr "管理员直接控制每个会员的**余额** - 可供会员消费的剩余金额。"
+msgstr "管理员直接控制每个会员的\\ **余额** - 可供会员消费的剩余金额。"
 
 #: ../userguides/team_accounts.rst:63 41d9da7b719e4ac08e500d2e315f474b
 msgid ""
@@ -138,8 +138,8 @@ msgid ""
 "needed. Go to the `Projects <https://app.mapflow.ai/en/projects>`_. Click on"
 " a dot menu icon in a project card -- Share."
 msgstr ""
-"您可以与团队中的任何人共享您的项目，并根据需要分配他的角色。转到“项目 "
-"<https://app.mapflow.ai/en/projects>”_。单击项目卡中的点菜单图标 - 共享。"
+"您可以与团队中的任何人共享您的项目，并根据需要分配他的角色。转到\\ `项目 "
+"<https://app.mapflow.ai/en/projects>`_。单击项目卡中的点菜单图标 - 共享。"
 
 #: 552a99022642454596b16478ae66f4a6 e6edc7bbd9c140bd859189e54e6b5d59
 msgid "Share project"

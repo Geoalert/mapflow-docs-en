@@ -230,8 +230,8 @@ msgid ""
 "``inferenceParams``. v1 uses a flat ``params`` map and is maintained for "
 "backward compatibility."
 msgstr ""
-"**推荐使用v2 API。**它使用结构化的``sourceParams``和``inferenceParams``。 v1 "
-"使用平面“params”映射并进行维护以实现向后兼容性。"
+"**推荐使用v2 API。**\\ 它使用结构化的\\ ``sourceParams``\\ 和\\ ``inferenceParams``。 v1 "
+"使用平面“``params``”映射并进行维护以实现向后兼容性。"
 
 #: ../api/api_reference.rst:100 1f2abd4f340b4d96924dbab68733bfd7
 msgid "Create processing (v2)"
@@ -289,7 +289,7 @@ msgstr "目的"
 
 #: ../api/api_reference.rst:133 e990cb26b4f142b8b137653581f6cc1c
 msgid "Imagery source configuration (see :ref:`source-params`)"
-msgstr "图像源配置（请参阅：ref:`source-params`）"
+msgstr "影像源配置（参见 :ref:`source-params`）"
 
 #: ../api/api_reference.rst:134 106275b525a54e0db90d23329ba81ab8
 msgid "``params.inferenceParams``"
@@ -314,7 +314,7 @@ msgstr "大批"
 
 #: ../api/api_reference.rst:141 2e3dc9b6d8de40889517bb963fa59599
 msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
-msgstr "启用/禁用工作流程步骤（请参阅：ref:`workflow-blocks`）"
+msgstr "启用/禁用工作流步骤（参见 :ref:`workflow-blocks`）"
 
 #: ../api/api_reference.rst:145 6d58111c25bc41bfb7f535312a5b768b
 msgid "Processing description"
@@ -360,7 +360,7 @@ msgstr "处理UUID（路径参数）"
 msgid ""
 "**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, "
 "``FAILED``, ``CANCELLED``"
-msgstr "**状态值：**``未处理``、``IN_PROGRESS``、``正在等待``、``确定``、``失败``、``已取消``"
+msgstr "**状态值：**\\ ``未处理``、``IN_PROGRESS``、``正在等待``、``确定``、``失败``、``已取消``"
 
 #: ../api/api_reference.rst:250 c4376d508870467c8bb8164e4b3cc150
 msgid "List processings (v2)"
@@ -392,7 +392,7 @@ msgstr "计算成本 (v2)"
 
 #: ../api/api_reference.rst:288 0b1094af7d0044789db7d6d59a942c5d
 msgid "**POST** ``/processing/cost/v2``"
-msgstr "**POST**``/处理/成本/v2``"
+msgstr "**POST**\\ ``/处理/成本/v2``"
 
 #: ../api/api_reference.rst:290 463c4a3aa837498ab9407dd819580398
 msgid "Estimates processing cost before running."
@@ -441,7 +441,7 @@ msgstr "启用的工作流程块"
 
 #: ../api/api_reference.rst:322 66a3b51e6e6b48d5b9a56e73badbed32
 msgid "*Provide either ``geometry`` or ``areaSqKm`` (or both)."
-msgstr "*提供“几何图形”或“面积SqKm”（或两者）。"
+msgstr "\\*请提供 ``geometry`` 或 ``areaSqKm``\\ （或两者都提供）。"
 
 #: ../api/api_reference.rst:346 4b4253542ed64808afd3ec6a0c94c47d
 msgid "Download results"
@@ -463,7 +463,7 @@ msgstr "**查询参数：**"
 
 #: ../api/api_reference.rst:354 4c93071706054d788116d1905673611e
 msgid "``aoiId`` (optional) — Filter results to specific AOI"
-msgstr "``aoiId``（可选）- 将结果过滤到特定的 AOI"
+msgstr "``aoiId``\\ （可选）- 将结果过滤到特定的 AOI"
 
 #: ../api/api_reference.rst:356 ../api/api_reference.rst:376
 #: 3ee36782496749e1ad6abd05999b50bc f20bf4161df7495b97de5d0c244091e3
@@ -484,7 +484,7 @@ msgstr "按特定 AOI 将处理结果下载为 GeoJSON。"
 
 #: ../api/api_reference.rst:374 d0a8445ea8144a3f987a74239ca742ec
 msgid "``aoiId`` (required) - AOI ID used to filter results"
-msgstr "``aoiId``（必需）- 用于过滤结果的 AOI ID"
+msgstr "``aoiId``\\ （必需）- 用于过滤结果的 AOI ID"
 
 #: ../api/api_reference.rst:386 659ef027b22d46bca3927388b1d4e43b
 msgid "Processing management"
@@ -604,7 +604,7 @@ msgstr "数据来源"
 msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
-msgstr "“sourceParams”对象指定从哪里获取图像。选择一个选项："
+msgstr "“``sourceParams``”对象指定从哪里获取图像。选择一个选项："
 
 #: ../api/api_reference.rst:498 1290281072c843569fcce0c0cae9985f
 msgid "Default Data Provider"
@@ -642,7 +642,7 @@ msgstr "我的意象"
 
 #: ../api/api_reference.rst:528 f41c2a9d2f634e82a5636b603a58a3a4
 msgid "Use imagery uploaded via :ref:`Data API`."
-msgstr "使用通过 Data API 上传的图像。"
+msgstr "使用通过 :ref:`Data API` 上传的影像。"
 
 #: ../api/api_reference.rst:530 0532b7c0e67144cd94dcd1b1cefe653a
 msgid "**Single image:**"
@@ -674,7 +674,7 @@ msgstr "``源类型``"
 
 #: ../api/api_reference.rst:603 888560c8bb5f4351aea74211ee3bed1b
 msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
-msgstr "“XYZ”、“TMS”、“QUADKEY”、“SENTINEL_L2A”、“LOCAL”"
+msgstr "“``XYZ``”、“``TMS``”、“``QUADKEY``”、“``SENTINEL_L2A``”、“``LOCAL``”"
 
 #: ../api/api_reference.rst:604 ../api/api_reference.rst:836
 #: 602c8f8d9dbb49489052855b91f1a3fd
@@ -719,11 +719,11 @@ msgstr "上传自定义图像"
 
 #: ../api/api_reference.rst:626 62702a0ae3364997981ad49cab660035
 msgid "Use :ref:`Data API` to create a mosaic and upload images"
-msgstr "使用 Data API 创建马赛克并上传图像"
+msgstr "使用 :ref:`Data API` 创建镶嵌图并上传影像"
 
 #: ../api/api_reference.rst:627 98d8185bda18472a9546fe1e0388da8d
 msgid "Reference uploaded images in ``sourceParams.myImagery.imageIds``"
-msgstr "在``sourceParams.myImagery.imageIds``中引用上传的图像"
+msgstr "在\\ ``sourceParams.myImagery.imageIds``\\ 中引用上传的图像"
 
 #: ../api/api_reference.rst:644 d4f22ac975ac45bcb6fa580c0eae8fb4
 msgid "Data API"
@@ -740,7 +740,7 @@ msgid ""
 "images covering an area or batching large orthomaps for optimized cloud "
 "storage."
 msgstr ""
-"**马赛克**是为处理和预览而组织的地理参考图像的集合。当处理覆盖一个区域的多个航拍图像或批处理大型正射图以优化云存储时，马赛克会很有帮助。"
+"**马赛克**\\ 是为处理和预览而组织的地理参考图像的集合。当处理覆盖一个区域的多个航拍图像或批处理大型正射图以优化云存储时，马赛克会很有帮助。"
 
 #: ../api/api_reference.rst:653 78d10b8dfde943b4b65caf957923db7c
 msgid "Create Mosaic"
@@ -851,7 +851,7 @@ msgstr "内容类型：``multipart/form-data``"
 
 #: ../api/api_reference.rst:778 950e9f7a785f4195808314071f0f396b
 msgid "Body: ``file`` field with image file"
-msgstr "正文：带有图像文件的“file”字段"
+msgstr "正文：带有图像文件的“``file``”字段"
 
 #: ../api/api_reference.rst:803 d6aba39010444b2ebf5a44985d9c1d5f
 msgid "Create Mosaic and Upload Image"
@@ -909,7 +909,7 @@ msgstr "删除马赛克及其所有链接的图像。"
 msgid ""
 "This action is **irreversible**. All images linked to the mosaic will be "
 "permanently deleted."
-msgstr "此操作**不可逆转**。所有链接到马赛克的图像都将被永久删除。"
+msgstr "此操作\\ **不可逆转**。所有链接到马赛克的图像都将被永久删除。"
 
 #: ../api/api_reference.rst:912 03f1fad01d2e45f8bd98abf17e8704b2
 msgid "Images"
@@ -1140,7 +1140,7 @@ msgstr "``排序依据``"
 
 #: ../api/api_reference.rst:1120 732a1174a4844d7093168a222bc19eb0
 msgid "Sort field (e.g., ``ACQUISITION_DATE``)"
-msgstr "排序字段（例如“ACQUISITION_DATE”）"
+msgstr "排序字段（例如“``ACQUISITION_DATE``”）"
 
 #: ../api/api_reference.rst:1121 fd20374da87b44deb3818bda29090390
 msgid "``sortOrder``"
@@ -1176,7 +1176,7 @@ msgstr "``产品类型``"
 
 #: ../api/api_reference.rst:1136 79ce51708eb544db8261f534263752c7
 msgid "Filter by product types ``[\"IMAGE\" and/or \"MOSAIC\"]``"
-msgstr "按产品类型过滤``[“图像”和/或“马赛克”]``"
+msgstr "按产品类型过滤\\ ``[“图像”和/或“马赛克”]``"
 
 #: ../api/api_reference.rst:1139 02f11e6e0303404fac65178fb28f97c7
 msgid "Search area size is limited by your account's AOI limit."
@@ -1202,12 +1202,12 @@ msgstr "在处理中使用搜索结果"
 msgid ""
 "To run processing with imagery from search results, use the "
 "``imagerySearch`` source parameter:"
-msgstr "要对搜索结果中的图像进行处理，请使用“imagerySearch”源参数："
+msgstr "要对搜索结果中的图像进行处理，请使用“``imagerySearch``”源参数："
 
 #: ../api/api_reference.rst:1239 b835d904fc9a4244a2e564783bad59e7
 msgid ""
 "See :doc:`Processing API <processing_api>` for complete processing workflow."
-msgstr "请参阅:doc:`处理 API <processing_api>` 了解完整的处理工作流程。"
+msgstr "请参阅\\ :doc:`处理 API <processing_api>` 了解完整的处理工作流程。"
 
 #: ../api/api_reference.rst:1243 ccf9bce2ab1a4c29862789dfa59d86f4
 msgid "Product Types"
@@ -1264,7 +1264,7 @@ msgstr "通过启用/禁用可选工作流程步骤来自定义处理。"
 #: ../api/api_reference.rst:1288 98a03e829b8f4923984af40fe2c2ccd2
 msgid ""
 "Available blocks vary by model. Retrieve options via ``GET /user/status``."
-msgstr "可用模块因型号而异。通过“GET /user/status”检索选项。"
+msgstr "可用模块因型号而异。通过“``GET /user/status``”检索选项。"
 
 #: ../api/api_reference.rst:1294 21bc210f6fca4e7d88dd0d42f61c84af
 msgid "AI Models"
@@ -1367,7 +1367,7 @@ msgstr "施工现场检测"
 msgid ""
 "See :doc:`model descriptions <../userguides/pipelines>` for detailed "
 "requirements."
-msgstr "请参阅:doc:`模型描述 <../userguides/pipelines>` 了解详细要求。"
+msgstr "请参阅\\ :doc:`模型描述 <../userguides/pipelines>` 了解详细要求。"
 
 #: ../api/api_reference.rst:1335 6ce2c328faac4582afce958310095f71
 msgid "Status Codes"
@@ -1415,7 +1415,7 @@ msgstr "``失败``"
 
 #: ../api/api_reference.rst:1352 56ed383dd4b042c9909268d0c976acb1
 msgid "Processing failed (check ``messages`` field)"
-msgstr "处理失败（检查``messages``字段）"
+msgstr "处理失败（检查\\ ``messages``\\ 字段）"
 
 #: ../api/api_reference.rst:1353 1911f7c067c24098883a05e5d0e3d68c
 msgid "``CANCELLED``"
@@ -1475,7 +1475,7 @@ msgstr "错误信息"
 msgid ""
 "For detailed error codes and troubleshooting, see :doc:`Error Messages "
 "<error_messages>`."
-msgstr "有关详细的错误代码和故障排除，请参阅:doc:`错误消息 <error_messages>`。"
+msgstr "有关详细的错误代码和故障排除，请参阅\\ :doc:`错误消息 <error_messages>`。"
 
 #: ../api/api_reference.rst:1383 fe664d72783e436fa6e90de93b328a5b
 msgid "Common errors:"
@@ -1503,19 +1503,19 @@ msgstr "最佳实践"
 msgid ""
 "**Check cost before running** — Use ``/processing/cost/v2`` to estimate "
 "credits"
-msgstr "**运行前检查成本** — 使用``/processing/cost/v2`` 来估计信用"
+msgstr "**运行前检查成本** — 使用\\ ``/processing/cost/v2`` 来估计信用"
 
 #: ../api/api_reference.rst:1396 f24374cbd7ba436c8906074ca949a237
 msgid ""
 "**Poll status efficiently** — Check status every 30-60 seconds for "
 "``IN_PROGRESS`` processings"
-msgstr "**高效轮询状态** — 每 30-60 秒检查一次“IN_PROGRESS”处理的状态"
+msgstr "**高效轮询状态** — 每 30-60 秒检查一次“``IN_PROGRESS``”处理的状态"
 
 #: ../api/api_reference.rst:1397 7866faebe9714de195e2198e87e05b50
 msgid ""
 "**Handle errors gracefully** — Check ``messages`` field in failed "
 "processings"
-msgstr "**优雅地处理错误** - 检查失败处理中的“messages”字段"
+msgstr "**优雅地处理错误** - 检查失败处理中的“``messages``”字段"
 
 #: ../api/api_reference.rst:1398 70ab0a22ef5d44328b04ed02590603f6
 msgid ""

@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../userguides/oauth2_setup.rst:1 1f56ef4e983f4f6cae1b90788474f009
 msgid "**1. Select the** ``Use OAuth2`` **option in the login window**"
-msgstr "**1.选择**``使用 OAuth2`` **登录窗口中的选项**"
+msgstr "**1.选择**\\ ``使用 OAuth2`` **登录窗口中的选项**"
 
 #: 1009685e6a7f439b9ee203eeac9b5c5b
 msgid "OAuth login window"
@@ -38,12 +38,13 @@ msgid ""
 "password>`_ - qgis feature to ensure the security of sensitive information "
 "storage."
 msgstr ""
-"系统会提示您设置新的`主认证密码<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
+"系统会提示您设置新的\\ `主认证密码 "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
 "password>`_ - qgis功能确保敏感信息存储的安全。"
 
 #: ../userguides/oauth2_setup.rst:22 2699c0e9c05745e2b7834dd87767c0b3
 msgid "**3. Click** ``Log in`` **button**"
-msgstr "**3.单击**``登录``**按钮**"
+msgstr "**3.单击**\\ ``登录``\\ **按钮**"
 
 #: ../userguides/oauth2_setup.rst:24 55ddb0bf606b46a1950f5e8ab7c6df85
 msgid ""
@@ -53,7 +54,7 @@ msgstr "在执行后续步骤之前，您将收到以下消息：**重新启动*
 
 #: ../userguides/oauth2_setup.rst:33 293b8e688fbc47dabe88f0f8a19696f1
 msgid "**4. After restarting QGIS, click** ``Log in``"
-msgstr "**4.重启QGIS后，点击**``登录``"
+msgstr "**4.重启QGIS后，点击**\\ ``登录``"
 
 #: ../userguides/oauth2_setup.rst:35 3b370c149b404e6a891cb51af19c1f6c
 msgid ""
@@ -84,4 +85,6 @@ msgid ""
 "If you have problems with authorization, you can delete the current "
 "authentication config by going to ``Settings -> Options -> Authentication``,"
 " select the config and remove it:"
-msgstr "如果您遇到授权问题，可以通过转到“设置 -> 选项 -> 身份验证”来删除当前的身份验证配置，选择该配置并将其删除："
+msgstr ""
+"如果遇到授权问题，可以转到 ``Settings -> Options -> "
+"Authentication``，选择该配置并将其删除，从而删除当前的身份验证配置："

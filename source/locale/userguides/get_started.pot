@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 10:03+0200\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -553,22 +553,22 @@ msgstr ""
 msgid "Once you have selected the model and the processing parameters, you will see the total cost of your processing counted in Mapflow credits. Upon registration, you receive 250 credits for free for testing the platform (See :ref:`Mapflow credits <credits>`)."
 msgstr ""
 
-#: ../userguides/get_started.rst:348
+#: ../userguides/get_started.rst:350
 #: d4488055bc404c83a17d07390242edc7
 msgid "6. View the results"
 msgstr ""
 
-#: ../userguides/get_started.rst:350
+#: ../userguides/get_started.rst:352
 #: 2f6658705b7a4a9499aaac7e429aa294
 msgid "In the \"Processing history\" you see the progress of processing as well as view and get the processing results. Each running processing displays the selected model, the status, the creation date and the processing cost."
 msgstr ""
 
-#: ../userguides/get_started.rst:354
+#: ../userguides/get_started.rst:356
 #: 7b551f33f0f94da38d21ca912f7eeb6a
 msgid "6.1 View on the map"
 msgstr ""
 
-#: ../userguides/get_started.rst:356
+#: ../userguides/get_started.rst:358
 #: b9e8bf51b3454dd1b1faefc843a21af8
 msgid "After the successful processing completion, the card can be opened to view more detailed information about the processing parameters - AI Model, Post-processing, Area, Data Source."
 msgstr ""
@@ -578,22 +578,234 @@ msgstr ""
 msgid "Processing card"
 msgstr ""
 
-#: ../userguides/get_started.rst:365
+#: ../userguides/get_started.rst:367
 #: ec8c56bb87ec4c37b56f6f00d727838b
 msgid "Click the \"View on the Map\" to quickly view the processing result on the built-in interactive map."
 msgstr ""
 
-#: ../userguides/get_started.rst:368
+#: ../userguides/get_started.rst:372
+#: 56f33977d6c04a42b35c1c09d3e20307
+msgid "Read the Mapflow processing results summary - feature counts, areas and lengths per layer, CSV export and questions to the Mapflow Agent."
+msgstr ""
+
+#: ../userguides/results_summary.rst:7
+#: 95846677197845bc8f37e240c5e40083
+msgid "Results Summary (Statistics)"
+msgstr ""
+
+#: ../userguides/results_summary.rst:9
+#: 07a2f64dd7b94e4488b99bfdc85dd366
+msgid "Getting a vector layer is only part of the imagery analysis workflow. The next question is usually: *what did the model actually find?*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:12
+#: ec8409b0e3e74e1483ea22fcbb1d80da
+msgid "Every completed processing in Mapflow Web opens with an instant **summary** of its results – the number of detected features and their totals (area, length, counts) per output layer. The summary is calculated for the whole processing AOI, regardless of what is currently visible on the map."
+msgstr ""
+
+#: ../userguides/results_summary.rst:None
+#: 99932f5d76e04c8eba8bcbe5c1286e26
+msgid "Processing results with the summary panel"
+msgstr ""
+
+#: ../userguides/results_summary.rst:25
+#: 4a9ec01e85be4559bbb61c9687fe7c5d
+msgid "The service is powered by the **Statistics API** and is available for every default Mapflow model. Custom-model workflows include basic statistics, and their summaries can be customized as well (see :doc:`custom_pipelines`)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:31
+#: 2213f3965e4d4c039fda2a03b825ba11
+msgid "The summary panel"
+msgstr ""
+
+#: ../userguides/results_summary.rst:33
+#: f04b5afa325c4d4ba2913986a3fec4c9
+msgid "When the processing is finished, the panel appears above the map with the total number of detected features, the list of the output layers and the processed area:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:None
+#: 99932f5d76e04c8eba8bcbe5c1286e26
+msgid "Dataset ready - features detected"
+msgstr ""
+
+#: ../userguides/results_summary.rst:44
+#: abc9e41a165b4c4990100919895b3eda
+msgid "The panel contains:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:46
+#: 3159822379b64670804ee71067f3549e
+msgid "**Header** – the status of the dataset and the total number of detected features, e.g. *\"Dataset ready – 11,206 features detected\"*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:48
+#: ff2b85fba41f4974adcee7c0cfa9ef61
+msgid "**Subtitle** – the output layers included in the processing and the size of the processed area, e.g. *\"crown · building · forest · roads · waterbodies over 1.00 km²\"*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:50
+#: 9e73b82c9e2b4329b45afc2154e39cf7
+msgid "**Per-layer statistics** – one entry per layer, colored as the layer on the map, with the feature count and the corresponding total (area or length)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:52
+#: 4a654bb4e24a4149b8c678cb9d1d7954
+msgid "**Zoom hint** – tells you whether all the results are currently rendered on the map. At a low zoom level the map may display a part of the features, while the statistics are always counted for the whole result."
+msgstr ""
+
+#: ../userguides/results_summary.rst:55
+#: b18c4bdf999540f0af6b337c53579876
+msgid "**Actions** – :ref:`Download CSV <statistics csv>` and :ref:`Ask about these results <statistics agent>`."
+msgstr ""
+
+#: ../userguides/results_summary.rst:57
+#: ../userguides/results_summary.rst:57
+#: ac167f2676e34f56b41355536536d857
+#: ac167f2676e34f56b41355536536d857
+msgid "stats_button"
+msgstr ""
+
+#: ../userguides/results_summary.rst:61
+#: 582ecf55b3694e268e27e334db8c183e
+msgid "If you closed the panel, or opened an earlier processing, you can bring the summary back with the **statistics** button |stats_button| in the toolbar under the map."
+msgstr ""
+
+#: ../userguides/results_summary.rst:66
+#: 47f3b0aeab974ec4b10bcadc5139cca4
+msgid "What each model reports"
+msgstr ""
+
+#: ../userguides/results_summary.rst:68
+#: 22fd98b2ce554b6a9f99d0760911d7f4
+msgid "Each model highlights the statistics that matter for its output:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:74
+#: ade0cacf558a4d489f62f361ced19364
+msgid "MODEL"
+msgstr ""
+
+#: ../userguides/results_summary.rst:75
+#: 571b40c8c0d9478b8dec6f33ffad3837
+msgid "STATISTICS"
+msgstr ""
+
+#: ../userguides/results_summary.rst:76
+#: e5852ca216a7429f8dcdafc495aacef3
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../userguides/results_summary.rst:77
+#: e46d7867b3474f6e8fa1ffb8f53b2ca5
+msgid "Number of buildings and their total area. With the *Classification* option applied, the counts are also given by building type (see :ref:`Building Mapping classes <buildings_classes>`)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:79
+#: 9e3120c0e1bf471a8c951f26c4c14421
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../userguides/results_summary.rst:80
+#: 32cf8d167ada4b4aa706980419536a9f
+msgid "Total length of the extracted road network."
+msgstr ""
+
+#: ../userguides/results_summary.rst:81
+#: 13d0e054b99040d48cab53029a559a46
+msgid "🌲 Forest and trees"
+msgstr ""
+
+#: ../userguides/results_summary.rst:82
+#: ef003f5cc68b4196b67b6cb6288461ff
+msgid "Total vegetation area. With the *Tree crowns* option applied, the number of the extracted crowns is reported as well."
+msgstr ""
+
+#: ../userguides/results_summary.rst:84
+#: 2df490a5e99b4b1f9f78072dd3e7e7fe
+msgid "🌍 Land use"
+msgstr ""
+
+#: ../userguides/results_summary.rst:85
+#: 6fe643386a10421cae5baee3a8c27593
+msgid "Area per land use category."
+msgstr ""
+
+#: ../userguides/results_summary.rst:86
+#: 3543ae077ee44f619280c394b49473c7
+msgid "💧 Water bodies"
+msgstr ""
+
+#: ../userguides/results_summary.rst:87
+#: 92d158faa3b74987888f2a4a27b38413
+msgid "Number of the water bodies and their total area (the layer is added by the *Water* post-processing option)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:88
+#: cafa85c5624b4476a3b76ab744191ad0
+msgid "[multi] models"
+msgstr ""
+
+#: ../userguides/results_summary.rst:89
+#: 17f0b73c4a29436db2b1e6eca085eecf
+msgid "One entry per output layer, e.g. *crown*, *building*, *forest*, *roads*, *waterbodies*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:95
+#: ce986ba2d7a0496b8acb696f60874a53
+msgid "Download the statistics as CSV"
+msgstr ""
+
+#: ../userguides/results_summary.rst:97
+#: ae393662fee84ad3b8bfdc6bec1f98e7
+msgid "Click **\"Download CSV\"** in the summary panel to save the numbers as a table – one row per layer or class, with the counts and the totals. Use it to attach the figures to a report, or to compare several processings of the same area."
+msgstr ""
+
+#: ../userguides/results_summary.rst:102
+#: 59e42de045464ce68f6dd1454c296469
+msgid "PDF reports will be available soon."
+msgstr ""
+
+#: ../userguides/results_summary.rst:108
+#: f60b0f638a1e4fa793fe3b58e113ae8f
+msgid "Ask the Mapflow Agent about the results"
+msgstr ""
+
+#: ../userguides/results_summary.rst:110
+#: 8983e6767bdc473e88c6f1c718669d44
+msgid "Click **\"Ask about these results\"** to continue in the :doc:`Mapflow Agent <mapflow_agent>` chat. The Agent instantly receives the structured statistics of the processing, so you can ask it to explain the numbers, compare the layers, or estimate the values you need, e.g.:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:114
+#: fd5b2db9a71a423987aad188a14c360e
+msgid "*\"How much of the area is covered by vegetation?\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:115
+#: 279ca80938ae447ab79e3b5e02b58a50
+msgid "*\"What is the average building footprint here?\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:116
+#: 55f6be82cffe42459df266f26b9e492f
+msgid "*\"Summarize the results for a report.\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:119
+#: cb1de53b0d194785a9670503e941e9ca
+msgid ":ref:`View the results <View the results>` in the Get started guide, and the :doc:`Mapflow Agent <mapflow_agent>` user guide."
+msgstr ""
+
+#: ../userguides/get_started.rst:372
 #: 80bbfd524baa42f9ae45d88e5afd1c85
 msgid "6.2 Feature attributes and multilayers"
 msgstr ""
 
-#: ../userguides/get_started.rst:370
+#: ../userguides/get_started.rst:374
 #: 7611ac12c8544dc399576f4ebd6e159b
 msgid "Depending on the model and the options applied the extracted features might contain the semantic information that is written in the feature properties in GeoJSON."
 msgstr ""
 
-#: ../userguides/get_started.rst:372
+#: ../userguides/get_started.rst:376
 #: 6961068b852f4218a13bd6aa0d899d81
 msgid "E.g. \"Buildings\" model with \"regularization\" and \"classification\" by building typology options:"
 msgstr ""
@@ -603,77 +815,77 @@ msgstr ""
 msgid "Preview results"
 msgstr ""
 
-#: ../userguides/get_started.rst:385
+#: ../userguides/get_started.rst:389
 #: 6cec9c66f15b475fa9bcab1d05a5cf76
 msgid "PROPERTY"
 msgstr ""
 
-#: ../userguides/get_started.rst:386
+#: ../userguides/get_started.rst:390
 #: fa70666b69474c838922a05a5c14d380
 msgid "DESCRIPTION"
 msgstr ""
 
-#: ../userguides/get_started.rst:387
+#: ../userguides/get_started.rst:391
 #: 1bf6951c56184503b5ebe44c6610f43e
 msgid "Area"
 msgstr ""
 
-#: ../userguides/get_started.rst:388
+#: ../userguides/get_started.rst:392
 #: def8e65766b94fefadc6558aa9ad1b63
 msgid "Feature area in meters"
 msgstr ""
 
-#: ../userguides/get_started.rst:389
+#: ../userguides/get_started.rst:393
 #: 75d1962c79204cdfab9243608d77c9fc
 msgid "Class_id"
 msgstr ""
 
-#: ../userguides/get_started.rst:390
+#: ../userguides/get_started.rst:394
 #: e5852ca216a7429f8dcdafc495aacef3
 msgid "Buildings typology"
 msgstr ""
 
-#: ../userguides/get_started.rst:391
+#: ../userguides/get_started.rst:395
 #: 6f7e5a24cf3b41bfaddfff35f4bd06b7
 msgid "Shape_type"
 msgstr ""
 
-#: ../userguides/get_started.rst:392
+#: ../userguides/get_started.rst:396
 #: 1a23da2cb5fe473f88c20982b314e00d
 msgid "The geometry primitive depending on the polygonization algorithm that's been applied to the feature mask"
 msgstr ""
 
-#: ../userguides/get_started.rst:393
+#: ../userguides/get_started.rst:397
 #: 339799d1cbed4532827c32ea1e305f2a
 msgid "Processing_date"
 msgstr ""
 
-#: ../userguides/get_started.rst:394
+#: ../userguides/get_started.rst:398
 #: eb46b064a52e4a47b415613e098d3a59
 msgid "The date of the processing completion"
 msgstr ""
 
-#: ../userguides/get_started.rst:395
+#: ../userguides/get_started.rst:399
 #: 8c8c7aa94d544329be1995d34a8f5125
 msgid "Simplification_score"
 msgstr ""
 
-#: ../userguides/get_started.rst:396
+#: ../userguides/get_started.rst:400
 #: 051c621b8f034d719ff64c5fab740a4c
 msgid "The score is counted by the intersection of the pixel feature and polygonized feature. The higher score - the closer polygonized feature to the pixel one."
 msgstr ""
 
-#: ../userguides/get_started.rst:400
+#: ../userguides/get_started.rst:404
 #: de52b75cc07e48d3b8b7d151df179337
 msgid "6.3 Layer Switching & Legend"
 msgstr ""
 
-#: ../userguides/get_started.rst:402
+#: ../userguides/get_started.rst:406
 #: c3b3b80cbd2641c582cd811dcaa7fe4d
 msgid "You can switch the layers to preview on the map. Click the \"sandwich\" (☰) button on the top right corner of the map and extend the dialogue with the map legend."
 msgstr ""
 
-#: ../userguides/get_started.rst:404
+#: ../userguides/get_started.rst:408
 #: 50f76c38c4ca4e838ca4423a755d4679
 msgid "E.g. \"[multi] Buildings + Roads + Forest\" model results with different layers:"
 msgstr ""
@@ -683,12 +895,12 @@ msgstr ""
 msgid "Layers view on the map"
 msgstr ""
 
-#: ../userguides/get_started.rst:414
+#: ../userguides/get_started.rst:419
 #: 9e4f8cfbe9dc461ba13d1c22acfd63b7
-msgid "6.4 Rate the processing"
+msgid "6.5 Rate the processing"
 msgstr ""
 
-#: ../userguides/get_started.rst:421
+#: ../userguides/get_started.rst:426
 #: 847bb6f051ef45edb412da8774facbdd
 msgid "We encourage you to rate the processing results. ⭐️⭐️⭐️ Your assessment is important for further improvement of the Mapflow AI models. We review all the user's feedback and get back to you if any issues."
 msgstr ""
@@ -698,12 +910,12 @@ msgstr ""
 msgid "Rate your processing"
 msgstr ""
 
-#: ../userguides/get_started.rst:425
+#: ../userguides/get_started.rst:430
 #: ab83a180dc2442518ee07f34a7e1e337
-msgid "6.5 Share the results"
+msgid "6.6 Share the results"
 msgstr ""
 
-#: ../userguides/get_started.rst:427
+#: ../userguides/get_started.rst:432
 #: d432eb359f7a4d898e844279236ee95e
 msgid "You can share your project with the external users for the view-only access. Go to the Project -- Share and enter the Mapflow user's email."
 msgstr ""
@@ -713,17 +925,17 @@ msgstr ""
 msgid "Share project externally"
 msgstr ""
 
-#: ../userguides/get_started.rst:438
+#: ../userguides/get_started.rst:443
 #: 28feb64b19ef49edae85fd8c5f639e59
 msgid "To upgrade project sharing rights and provide your collaborators with the editor's access you need to switch to the :ref:`Team accounts`"
 msgstr ""
 
-#: ../userguides/get_started.rst:442
+#: ../userguides/get_started.rst:447
 #: 0195bf4eaed14fb1a9ed7d3527556ae7
 msgid "7. Use the processing results"
 msgstr ""
 
-#: ../userguides/get_started.rst:444
+#: ../userguides/get_started.rst:449
 #: 50c7c67fac754161848005d4717139c4
 msgid "The Processing menu includes the items as follows:"
 msgstr ""
@@ -733,47 +945,47 @@ msgstr ""
 msgid "Additional parameters"
 msgstr ""
 
-#: ../userguides/get_started.rst:453
+#: ../userguides/get_started.rst:458
 #: 1c0624cf45294eb89c39d508da663d4c
 msgid "Click \"Duplicate\" on an existing processing to use its parameters as a starting point for a new one (on restart with the same parameters, new processing is started)."
 msgstr ""
 
-#: ../userguides/get_started.rst:454
+#: ../userguides/get_started.rst:459
 #: 71d45c66fe6945f597c655ed2d99c8be
 msgid "Click \"Source details\" on the existing processing to view information about source details and AOI."
 msgstr ""
 
-#: ../userguides/get_started.rst:457
+#: ../userguides/get_started.rst:462
 #: c88e43d1b49d48ea9a90c191c46a5ba3
 msgid "If you want to duplicate processing to change some params, like choosing another AI mapping model for the same AOI - use Duplicate"
 msgstr ""
 
-#: ../userguides/get_started.rst:460
+#: ../userguides/get_started.rst:465
 #: 1291b6840cc24dda9a6c895783cba2fe
 msgid "7.1 Download GeoJSON"
 msgstr ""
 
-#: ../userguides/get_started.rst:462
+#: ../userguides/get_started.rst:467
 #: 470375d7043a4ca9b95fa46022ddde92
 msgid "Allows to download results as a file in GeoJSON format."
 msgstr ""
 
-#: ../userguides/get_started.rst:465
+#: ../userguides/get_started.rst:470
 #: a982b3426383432e88801e47bb895833
 msgid "This option is not available in the free plan. Only paying users (see `pricing <https://mapflow.ai/pricing>`_) can use this option."
 msgstr ""
 
-#: ../userguides/get_started.rst:491
+#: ../userguides/get_started.rst:496
 #: 133116ee0f9a4c5e9e7d655dcbef47bf
 msgid "Working with API"
 msgstr ""
 
-#: ../userguides/get_started.rst:493
+#: ../userguides/get_started.rst:498
 #: ec0f76423d524d50836f34ac16f25742
 msgid "Mapflow provides a REST API which, for example, allows you to query for currently running flows and fetch the results. If you are developing an application and want to use our API, - check out :doc:`../api/processing_api`."
 msgstr ""
 
-#: ../userguides/get_started.rst:497
+#: ../userguides/get_started.rst:502
 #: ccb55bd1805a45c9ba6fedc27f93c272
 msgid "You must follow the requirements specified with :ref:`Model_requirements` when uploading your own images for processing through the API of the Mapflow platform. Send a request using data preprocessing to help@geoalert.io."
 msgstr ""

@@ -5,8 +5,8 @@
 
 .. rst-class:: mf-page mf-index
 
-AI-Mapping Models
-*****************
+AI-Mapping Models ✨
+********************
 
 .. rst-class:: mf-lede
 
@@ -18,7 +18,7 @@ the imagery it needs and what it costs.
 
 * :ref:`Data requirements <Model_requirements>`
 * :doc:`Pricing <prices>`
-* `Request a custom model <https://mapflow.ai/custom-models>`__
+* `Request a custom model <https://mapflow.ai/contacts>`__
 
 .. mf-heading:: Popular tasks
 

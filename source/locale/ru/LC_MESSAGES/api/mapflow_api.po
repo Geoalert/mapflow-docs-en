@@ -57,10 +57,10 @@ msgid ""
 "Auth** parameters like in the example:"
 msgstr ""
 "Для доступа из внешних приложений, таких как :doc:`плагин для QGIS "
-"<../api/qgis_mapflow>`, вам необходимо получить **API token**. Пользователи "
-"могут зарегистрироваться и получить токен по адресу "
-"https://app.mapflow.ai/account/api. Токен должен быть передан в **Basic "
-"Auth** параметрах, как в примере:"
+"<../api/qgis_mapflow>`, нужен **API-токен**. Зарегистрироваться и получить "
+"токен можно по адресу `https://app.mapflow.ai/account/api "
+"<https://app.mapflow.ai/account/api>`_. Токен передаётся в параметрах "
+"**Basic Auth**, как в примере:"
 
 #: ../userguides/mapflow_auth.rst:17 5e4ba405ef2140219dd4f77c4a182d9e
 msgid ""
@@ -194,7 +194,7 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**Следующие шаги:** Изучите :ref:`доступные модели <Требования к модели>`, "
+"**Следующие шаги:** Изучите :ref:`доступные модели <Model requirements>`, "
 "загрузите :ref:`пользовательские изображения <upload-images>` или "
 "просмотрите :ref:`полный справочник по API <api-reference>`."
 
@@ -466,7 +466,7 @@ msgid ""
 "backward compatibility."
 msgstr ""
 "**Рекомендуется API v2.** Он использует структурированные ``sourceParams`` и"
-" ``inferenceParams``. Версия 1 использует плоскую карту параметров и "
+" ``inferenceParams``. Версия 1 использует плоскую карту ``params`` и "
 "поддерживается для обратной совместимости."
 
 #: ../api/api_reference.rst:100 18b70f3c082c4c4ab78f405f4695c6f7
@@ -878,7 +878,7 @@ msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
 msgstr ""
-"Объект sourceParams указывает, где получить изображения. Выберите один "
+"Объект ``sourceParams`` указывает, где получить изображения. Выберите один "
 "вариант:"
 
 #: ../api/api_reference.rst:498 b4a1ea35cab24551baea1c54537b8298
@@ -901,7 +901,7 @@ msgstr "``имя_провайдера``"
 
 #: ../api/api_reference.rst:520 5ea6174b16f64dd6bd73a454a9c80c1a
 msgid "Provider name: ``Mapbox``, ``arcgis_world_imagery``, etc."
-msgstr "Имя провайдера: Mapbox, arcgis_world_imagery и т. д."
+msgstr "Имя провайдера: ``Mapbox``, ``arcgis_world_imagery`` и т. д."
 
 #: ../api/api_reference.rst:521 ../api/api_reference.rst:607
 #: 7acf4080529a42fe954643d7e504721c
@@ -1319,7 +1319,7 @@ msgstr "Получить использование хранилища"
 
 #: ../api/api_reference.rst:1023 d25cce7503844d2b994a95c14b8cff4b
 msgid "``GET /rasters/memory``"
-msgstr "`` ПОЛУЧИТЬ /растры/память``"
+msgstr "``GET /rasters/memory``"
 
 #: ../api/api_reference.rst:1025 f6b68e1595ae406b80e2268ad9b4a6cc
 msgid "Returns current storage usage and limits for your account."
@@ -1522,7 +1522,7 @@ msgid ""
 "``imagerySearch`` source parameter:"
 msgstr ""
 "Чтобы запустить обработку изображений из результатов поиска, используйте "
-"исходный параметр imagerySearch:"
+"исходный параметр ``imagerySearch``:"
 
 #: ../api/api_reference.rst:1239 920dc295c21e4e1a8fffcbe9f84e7e4f
 msgid ""
@@ -1596,7 +1596,7 @@ msgid ""
 "Available blocks vary by model. Retrieve options via ``GET /user/status``."
 msgstr ""
 "Доступные блоки различаются в зависимости от модели. Получите параметры "
-"через GET /user/status."
+"через ``GET /user/status``."
 
 #: ../api/api_reference.rst:1294 3654228e597a4b8bb5ef8fa7617e69be
 msgid "AI Models"

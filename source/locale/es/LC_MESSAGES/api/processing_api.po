@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../api/processing_api.rst:4 a1f42c44ef00408794733650b24da125
 msgid "Mapflow Processing API"
-msgstr "API de procesamiento de flujo de mapas"
+msgstr "API de procesamiento de Mapflow"
 
 #: ../api/processing_api.rst:6 e98a0505f85747b5b92a3203d3731478
 msgid ""
@@ -100,6 +100,6 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**Próximos pasos:** Explore :ref:`modelos disponibles <Requisitos del "
-"modelo>`, cargue :ref:`imágenes personalizadas <upload-images>` o revise la "
+"**Próximos pasos:** Explore :ref:`modelos disponibles <Model requirements>`,"
+" cargue :ref:`imágenes personalizadas <upload-images>` o revise la "
 ":ref:`referencia completa de API <api-reference>`."

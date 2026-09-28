@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -19,38 +19,158 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:2 09224f89b3e94f21afb8932830d53179
-msgid "🏗️ Constructions (CUSTOM)"
-msgstr "🏗️ Construcciones (PERSONALIZADAS)"
-
-#: ../userguides/construction_model.rst:4 a8196ae0a39c4d77832953be94beac9d
+#: ../userguides/construction_model.rst:1 669a90e1adec40768c6e40795b3fe760
 msgid ""
-"This model outlines the areas in the satellite image that contain "
-"construction sites and buildings under construction. The current model "
-"dataset is limited to some countries and the work of extending it is in "
-"progress."
+"Detect construction sites and buildings under construction in satellite "
+"imagery. Available as a custom Mapflow model on request."
 msgstr ""
-"Este modelo describe las áreas en la imagen de satélite que contienen sitios"
-" de construcción y edificios en construcción. El conjunto de datos del "
-"modelo actual está limitado a algunos países y se está trabajando para "
-"ampliarlo."
+"Detecta obras y edificios en construcción en imágenes satelitales. "
+"Disponible como modelo personalizado de Mapflow bajo petición."
 
-#: ../userguides/construction_model.rst:13 984d57d812af43f986df97872d32c754
-msgid "Processing result of construction model"
-msgstr "Resultado del procesamiento del modelo de construcción."
+#: ../userguides/construction_model.rst:7 09224f89b3e94f21afb8932830d53179
+msgid "Constructions"
+msgstr "Construcciones"
 
-#: ../userguides/construction_model.rst:13 f9a1c355f4944bc2a31c5047e39269f7
+#: ../userguides/construction_model.rst:10 822ede19ed9641909c355d4915f5ed31
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Edificios` :mf-warn:`Bajo pedido`"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction site outlines in a fast-developing area"
+msgstr "Contornos de obras en una zona de rápido desarrollo"
+
+#: ../userguides/construction_model.rst:10 0c38d3ba531648239238c1cf497547ba
+msgid "Example result: construction sites in a fast-developing area."
+msgstr "Resultado de ejemplo: obras en una zona de rápido desarrollo."
+
+#: ../userguides/construction_model.rst:10 8a8f05a38064459e9ba2687196c9dcd0
+msgid "Cost"
+msgstr "Costo"
+
+#: ../userguides/construction_model.rst:10 fbf35d3dd4804b9aaa8d6e02021678b2
+msgid "Priced per project"
+msgstr "Precio por proyecto"
+
+#: ../userguides/construction_model.rst:10 51cd959941114d9189bc5dfa5608ca23
+msgid "Request access and we connect the model to your account."
+msgstr "Solicite acceso y conectamos el modelo a su cuenta."
+
+#: ../userguides/construction_model.rst:10 a8196ae0a39c4d77832953be94beac9d
 msgid ""
-"Processing result sample for a rapidly developing area with construction "
-"sites"
+"Outlines areas that contain construction sites and buildings under "
+"construction. Available for selected countries; coverage is growing."
 msgstr ""
-"Muestra de resultados de procesamiento para un área en rápido desarrollo con"
-" sitios de construcción"
+"Delimita las áreas que contienen obras y edificios en construcción. "
+"Disponible para países seleccionados; la cobertura sigue creciendo."
 
-#: ../userguides/construction_model.rst:2
-msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
-msgstr "Detecta obras y edificios en construcción en imágenes satelitales. Disponible como modelo personalizado de Mapflow bajo petición."
+#: ../userguides/construction_model.rst:10 0abd9a2cd8d842018332f2a9a57f4815
+msgid "What you get"
+msgstr "Qué obtiene"
 
-#: ../userguides/construction_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."
+#: ../userguides/construction_model.rst:10 09224f89b3e94f21afb8932830d53179
+msgid "Construction site polygons."
+msgstr "Polígonos de obras en construcción."
+
+#: ../userguides/construction_model.rst:10 fd5b36d2a82148748e64a70f2dd4b4ab
+msgid "Works best with"
+msgstr "Funciona mejor con"
+
+#: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
+msgid "High-resolution satellite imagery of fast-developing areas."
+msgstr ""
+"Imágenes satelitales de alta resolución de zonas de rápido desarrollo."
+
+#: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
+msgid "Usage examples"
+msgstr "Ejemplos de uso"
+
+#: ../userguides/construction_model.rst:10 0fb201c342c9433ea8177b0c1fb091fb
+msgid "Track new development for permits and taxes"
+msgstr "Seguir nuevas construcciones para permisos e impuestos"
+
+#: ../userguides/construction_model.rst:10 12440fbd9d83456c9927f64715a39024
+msgid "Monitor progress on large projects"
+msgstr "Supervisar el avance de grandes proyectos"
+
+#: ../userguides/construction_model.rst:10 65ceaf156a464eea9024ca3a08f61263
+msgid "Flag unplanned construction"
+msgstr "Detectar construcciones no planificadas"
+
+#: ../userguides/construction_model.rst:10 65bf4ebb1ba546798d29e4d0a6df79f2
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Solicitar acceso <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:10 438b1e121d274dd1bab45490c3071c49
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Cómo funcionan los modelos personalizados "
+"</userguides/custom_pipelines>`"
+
+#: ../userguides/construction_model.rst 877a732b651248f0a72eb89c7b466b2e
+msgid "Geo domain"
+msgstr "Dominio geográfico"
+
+#: ../userguides/construction_model.rst:10 64c99bc7df9040e783ecb90917296098
+msgid "Selected countries"
+msgstr "Países seleccionados"
+
+#: ../userguides/construction_model.rst 526e47a0d4834f938c84d08ab7a2da70
+msgid "Method"
+msgstr "Método"
+
+#: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
+msgid "Segmentation"
+msgstr "Segmentación"
+
+#: ../userguides/construction_model.rst:12 c579a9af539b4ded8662fe0c644576f6
+msgid "Sample results"
+msgstr "Resultados de ejemplo"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction sites detected in a fast-developing area"
+msgstr "Obras detectadas en una zona de rápido desarrollo"
+
+#: ../userguides/construction_model.rst:20 f9a1c355f4944bc2a31c5047e39269f7
+msgid "A rapidly developing area with construction sites"
+msgstr "Una zona de rápido desarrollo con obras en construcción"
+
+#: ../userguides/construction_model.rst:23 2032c47d3781429bbc8a5a1229fd0c8b
+msgid "Need a different object?"
+msgstr "¿Necesita otro tipo de objeto?"
+
+#: ../userguides/construction_model.rst:23 9aad72c3d5ef4bcb9021029127febd06
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Entrenamos modelos personalizados con sus imágenes y clases, y los "
+"conectamos a su cuenta de Mapflow."
+
+#: ../userguides/construction_model.rst:23 d6e3c1a6369c4e3ebb06e6ca4268f943
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:23 d50c5ac86e954f7c929a97ffec004223
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Catálogo de modelos y opciones de despliegue <https://mapflow.ai/models>`__"
+
+#: ../userguides/construction_model.rst:23 6e8ad1a3cd6342638c472fb28bbffe6e
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
+
+#~ msgid "Processing result of construction model"
+#~ msgstr "Resultado del procesamiento del modelo de construcción."
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones "
+#~ "de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo "
+#~ "personalizado <https://mapflow.ai/es/custom-models>`_."
+
+#~ msgid ":mf-chip:`crane|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

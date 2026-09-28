@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../api/processing_api.rst:4 a1f42c44ef00408794733650b24da125
 msgid "Mapflow Processing API"
-msgstr "地图流处理 API"
+msgstr "Mapflow 处理 API"
 
 #: ../api/processing_api.rst:6 e98a0505f85747b5b92a3203d3731478
 msgid ""
@@ -36,8 +36,8 @@ msgid ""
 "`Mapflow.ai <https://app.mapflow.ai/>`_. API calls consume your Mapflow "
 "credits."
 msgstr ""
-"通过 API 创建的项目和处理与“Mapflow.ai <https://app.mapflow.ai/>”**同步**。 API 调用会消耗您的 "
-"Mapflow 积分。"
+"通过 API 创建的项目和处理与\\ `Mapflow.ai <https://app.mapflow.ai/>`_\\ **同步**。API "
+"调用会消耗您的 Mapflow 积分。"
 
 #: ../api/processing_api.rst:12 0d7c93edcfa04620b0744733cd595f24
 msgid "Base URL"
@@ -52,12 +52,13 @@ msgid ""
 "All API requests require an API token. Generate yours in `profile settings "
 "<https://app.mapflow.ai/account>`_."
 msgstr ""
-"所有 API 请求都需要 API 令牌。在“配置文件设置 <https://app.mapflow.ai/account>”中生成您的配置文件设置。"
+"所有 API 请求都需要 API 令牌。在\\ `配置文件设置 <https://app.mapflow.ai/account>`_\\ "
+"中生成您的配置文件设置。"
 
 #: ../api/processing_api.rst:29 5963f91223dd42c68a0120c611ec7df0
 msgid ""
 "See :doc:`authorization guide <../userguides/mapflow_auth>` for details."
-msgstr "有关详细信息，请参阅:doc:`授权指南 <../userguides/mapflow_auth>`。"
+msgstr "有关详细信息，请参阅\\ :doc:`授权指南 <../userguides/mapflow_auth>`。"
 
 #: ../api/processing_api.rst:33 ec6a95e9077948c5bb1cf53ad6f60a37
 msgid "Quick Start"
@@ -93,5 +94,5 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**后续步骤：** 探索可用模型 <模型要求>`，上传自定义图像 <upload-images>`，或查看:ref:`完整 API 参考 <api-"
-"reference>`。"
+"**后续步骤：** 查看 :ref:`可用模型 <Model requirements>`，上传 :ref:`自定义影像 <upload-"
+"images>`，或查阅 :ref:`完整 API 参考 <api-reference>`。"

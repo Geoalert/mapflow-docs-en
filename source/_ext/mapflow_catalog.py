@@ -42,13 +42,16 @@ from docutils import nodes
 from docutils import utils
 from docutils.parsers.rst import directives
 from docutils.statemachine import StringList
+from sphinx import addnodes
 from sphinx.util import logging
 from sphinx.util.docutils import SphinxDirective
 
 logger = logging.getLogger(__name__)
 
 CATALOG_PATH = os.path.join("_data", "models.json")
+ICON_CSS = "mapflow-icons.css"
 IMAGE_DIR = "/_static/models/"
+ICON_DIR = "_static/models/icons/"
 
 _cache = {}
 
@@ -73,6 +76,16 @@ def load_catalog(srcdir):
 
 def _validate(data, srcdir):
     img_root = os.path.join(srcdir, IMAGE_DIR.strip("/"))
+    icons = available_icons(srcdir)
+    for kind in ("categories", "models", "workflows"):
+        for item in data.get(kind, []):
+            name = item.get("icon")
+            if name and name not in icons:
+                logger.warning("models.json: %s %s uses icon %r, but %s%s.svg does not exist",
+                               kind[:-1], item["id"], name, ICON_DIR, name)
+    for c in data["categories"]:
+        if not c.get("icon"):
+            logger.warning("models.json: category %s has no icon", c["id"])
     for m in data["models"]:
         if m["category"] not in data["_categories"]:
             logger.warning("models.json: model %s has unknown category %s", m["id"], m["category"])
@@ -84,6 +97,19 @@ def _validate(data, srcdir):
     for s in data["scenarios"]:
         if s["model"] not in data["_models"]:
             logger.warning("models.json: scenario %s points to unknown model %s", s["id"], s["model"])
+
+
+def available_icons(srcdir):
+    folder = os.path.join(srcdir, ICON_DIR)
+    return {f[:-4] for f in os.listdir(folder) if f.endswith(".svg")} if os.path.isdir(folder) else set()
+
+
+def category_icon(cat, category_id):
+    return cat["_categories"][category_id].get("icon")
+
+
+def model_icon(cat, model):
+    return model.get("icon") or category_icon(cat, model["category"])
 
 
 # ------------------------------------------------------------- formatting --
@@ -313,7 +339,7 @@ class ModelGallery(CatalogDirective):
             if m["availability"] not in wanted:
                 continue
             category = cat["_categories"][m["category"]]
-            chips = [chip(m.get("icon") or category.get("icon"), category["label"])]
+            chips = [chip(category.get("icon"), category["label"])]
             if m["availability"] == "custom":
                 chips.append(":mf-warn:`On request`")
             elif m["availability"] == "no-ai":
@@ -347,7 +373,7 @@ class WorkflowGallery(CatalogDirective):
                         ":class-body: mf-card-body", ":class-title: mf-card-title"):
                 rst.add(opt)
             rst.blank()
-            rst.para(":mf-chip:`uav|Any model`", "mf-card-chips")
+            rst.para(chip(category_icon(self.catalog, w["category"]), "Any model"), "mf-card-chips")
             rst.para(esc(w["summary"]), "mf-card-desc")
             rst.para(":mf-icon:`credits` " + esc(w["meta"]), "mf-card-meta")
             rst.close()
@@ -396,7 +422,7 @@ class ModelHero(CatalogDirective):
         m = self.lookup("_models", self.arguments[0])
         category = cat["_categories"][m["category"]]
 
-        chips = [chip(m.get("icon") or category.get("icon"), category["label"])]
+        chips = [chip(category.get("icon"), category["label"])]
         chips.append({
             "default": ":mf-badge:`Default model`",
             "custom": ":mf-warn:`On request`",
@@ -445,7 +471,7 @@ class ScenarioCards(CatalogDirective):
                 link, link_type = "scenario-" + s["id"], "ref"
                 image, alt = img(s["image"]), s.get("image_alt")
             else:
-                chips = [chip(m.get("icon"), "Default run")]
+                chips = [chip(model_icon(cat, m), "Default run")]
                 link, link_type = "/" + m["doc"], "doc"
                 image, alt = img(m["image"]), m.get("image_alt")
             self.card(
@@ -471,7 +497,7 @@ class Scenario(CatalogDirective):
         cat = self.catalog
         s = self.lookup("_scenarios", self.arguments[0])
         m = cat["_models"][s["model"]]
-        rst.para(" ".join([chip(m.get("icon"), m["name"]),
+        rst.para(" ".join([chip(model_icon(cat, m), m["name"]),
                            ":mf-badge:`+ {}`".format(esc(s["option"]))]), "mf-chips")
         per_km2 = scenario_price(cat, s)
         self.hero(
@@ -570,7 +596,50 @@ def _chip_role(kind):
     return role
 
 
+# --------------------------------------------------------- card link names --
+
+def translate_card_links(app, doctree):
+    """Name each card's link after its (already translated) title.
+
+    sphinx-design takes the accessible link name from the ``:link-alt:`` option,
+    which gettext never sees, so translated builds would read English link names
+    to screen readers. By ``doctree-read`` the title is translated; copy it over.
+    """
+    for card in doctree.traverse(nodes.container):
+        if "mf-card" not in card.get("classes", []):
+            continue
+        titles = [n for n in card.traverse(nodes.Element) if "sd-card-title" in n.get("classes", [])]
+        if not titles:
+            continue
+        name = titles[0].astext().strip()
+        for link in card.traverse(lambda n: isinstance(n, (addnodes.pending_xref, nodes.reference))
+                                  and "sd-stretched-link" in n.get("classes", [])):
+            for inline in link.traverse(nodes.inline):
+                inline.clear()
+                inline += nodes.Text(name)
+                break
+
+
 # ------------------------------------------------------------- publishing --
+
+def write_icon_css(app, exception):
+    """One rule per SVG in _static/models/icons: .mf-ico-<name> and .mf-tile-<name>.
+
+    Adding an icon = drop <name>.svg into the folder and use "icon": "<name>"
+    in models.json. The stylesheet is referenced from every page (see setup).
+    """
+    if exception or app.builder.format != "html":
+        return
+    rules = []
+    for name in sorted(available_icons(app.srcdir)):
+        url = "models/icons/{}.svg".format(name)
+        rules.append(".mf-ico-{0} {{ --mf-ico: url({1}); }}\n.mf-tile-{0} {{ --mf-tile-icon: url({1}); }}".format(name, url))
+    out = os.path.join(app.outdir, "_static", ICON_CSS)
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w", encoding="utf-8") as fh:
+        fh.write("/* Generated by mapflow_catalog.py from _static/models/icons. Do not edit. */\n")
+        fh.write("\n".join(rules) + "\n")
+
 
 def copy_catalog(app, exception):
     """Publish the catalog next to the HTML so other projects can fetch it."""
@@ -596,5 +665,8 @@ def setup(app):
     app.add_role("mf-chip", _chip_role("plain"))
     app.add_role("mf-badge", _chip_role("info"))
     app.add_role("mf-warn", _chip_role("warn"))
+    app.connect("doctree-read", translate_card_links)
     app.connect("build-finished", copy_catalog)
+    app.connect("build-finished", write_icon_css)
+    app.add_css_file(ICON_CSS)
     return {"version": "0.1", "parallel_read_safe": True, "parallel_write_safe": True}

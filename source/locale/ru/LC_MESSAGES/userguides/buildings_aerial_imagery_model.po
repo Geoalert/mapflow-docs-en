@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-24 16:39+0200\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,106 +19,227 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:2
-#: ad21c33066004295ad152b5cdd754420
-msgid "🏠⭐️ Buildings (Aerial) (CUSTOM)"
-msgstr "🏠⭐️ Здания (Воздушные) (ПОЛЬЗОВАТЕЛЬСКИЕ)"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:4
-#: c783e23a4e5c4490814f30bb65aaf58d
+#: ../userguides/buildings_aerial_imagery_model.rst:1
+#: d48d96755564422eb76d40b71eb47f21
 msgid ""
-"This model has been deprecated as default one and moved to custom as its "
-"geodomain application is limited. it's available by request."
+"Extract small buildings and detailed outlines from 15-10 cm aerial imagery. "
+"Best for rural and suburban areas; available as a custom model on request."
 msgstr ""
-"Эта модель устарела как модель по умолчанию и переведена в пользовательскую,"
-" поскольку ее применение в геодомене ограничено. он доступен по запросу."
+"Извлечение небольших зданий и детальных контуров с аэрофотоснимков 15-10 см."
+" Лучше всего для сельской и пригородной застройки; по запросу."
 
 #: ../userguides/buildings_aerial_imagery_model.rst:7
-#: dd83c14a064241b08bd34dfec0aaa3ca
-msgid ""
-"This model is specifically designed to be used on a high resolution aerial "
-"imagery (15-10cm per pixel) for extraction of small buildings and detailed "
-"structure outlines. It is best suited for rural and suburban residential "
-"areas. We do not recommend using this model in areas with high-dense urban "
-"buildings. Use :doc:`Buildings model <buildings_model>` instead, even for "
-"aerial imagery."
-msgstr ""
-"Эта модель специально разработана для использования на аэрофотоснимках "
-"высокого разрешения (15-10 см на пиксель) для выделения небольших зданий и "
-"детальных контуров сооружений. Лучше всего он подходит для загородных и "
-"загородных жилых районов. Мы не рекомендуем использовать данную модель в "
-"районах с высокой плотностью городской застройки. Вместо этого используйте "
-":doc:`Модель зданий <building_model>`, даже для аэрофотоснимков."
-
-#: ../userguides/buildings_aerial_imagery_model.rst:13
-#: 65851e45683d47baadc7d689e93d2bee
-msgid "Model name"
-msgstr "Название модели"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:14
-#: a2dc793d7d914098809c0592019db2f8
-msgid "Model type"
-msgstr "Тип модели"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:15
-#: e18941e9303942f29499b835f45c5be4
-msgid "Zoom level"
-msgstr "Уровень масштабирования"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:16
-#: ed0a9303032c4cbbb0dd7cc39a576387
-msgid "F1 (testing)"
-msgstr "F1 (тестирование)"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:17
-#: 9f4e3e9b2d5246e992e843300a7e8b2a
-msgid "Geo domain"
-msgstr "Геодомен"
-
-#: ../userguides/buildings_aerial_imagery_model.rst:18
 #: 09fd168b4e564baab85d35f21924b268
 msgid "Buildings (Aerial)"
 msgstr "Здания (с воздуха)"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:19
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 28a900a6714640698cb79f0eaed7b0f7
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: 67e2b887c0e74bf2b782afe6adba4905
+msgid "Detailed building outlines on 10 cm aerial imagery"
+msgstr "Детальные контуры зданий на аэроснимке 10 см"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 7400b61eb3f34d00b6e628db7be27620
+msgid "Example result: rural residential area at 10 cm."
+msgstr "Пример результата: сельская жилая застройка при разрешении 10 см."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 263947b514bd44ffb06411f54a901600
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 36916d76253b442796b9d3613650890b
+msgid "Priced per project"
+msgstr "Цена рассчитывается для проекта"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: fa8d46ef71ef41dea74db119be325093
+msgid "Request access and we connect the model to your account."
+msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: dd83c14a064241b08bd34dfec0aaa3ca
+msgid ""
+"Built for very high-resolution aerial imagery (15–10 cm per pixel) to "
+"extract small buildings and detailed outlines. Best in rural and suburban "
+"residential areas; for dense cities use the Buildings model, even on aerial "
+"imagery."
+msgstr ""
+"Создана для аэрофото очень высокого разрешения (15–10 см на пиксель), чтобы "
+"извлекать небольшие здания и детальные контуры. Лучше всего работает в "
+"сельской и пригородной жилой застройке; для плотных городов используйте "
+"модель «Здания», даже на аэрофото."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 8c7fbe14ed6548a9aeb26535d29456d0
+msgid "What you get"
+msgstr "Что вы получите"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: afeaf487edf14bcba85b4ab47d5c260a
+msgid "Detailed building polygons."
+msgstr "Детальные полигоны зданий."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 292a3cfe97aa45f4995728d61324f708
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 217786122dd54438b79b5480fdea6092
+msgid "Aerial imagery at 15–10 cm (zoom 20–21) of low-rise areas."
+msgstr "Аэрофото 15–10 см (зум 20–21) малоэтажной застройки."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 1f824a9fa2b74f28b53dd013eabd1f86
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 8fe545b2ba6f4035869c2541b47d400c
+msgid "Map sheds and outbuildings on a drone survey"
+msgstr "Картировать сараи и хозпостройки по съёмке с дрона"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: ebd52c8bfe044b50b75835dfbe16ffd0
+msgid "Capture detailed outlines for cadastre updates"
+msgstr "Получать детальные контуры для обновления кадастра"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 0912eaa8e6c0491ba2de2fa0ce2621ac
+msgid "Map rural settlements from a municipal flight"
+msgstr "Картировать сельские населённые пункты по муниципальной аэросъёмке"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: be84b3f1fe1f42fdb2dd82347cc62e3a
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 4f108a444c3c48bb8652ee50508131b7
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: 9f4e3e9b2d5246e992e843300a7e8b2a
+msgid "Geo domain"
+msgstr "Геодомен"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: 6119b093652c4c5b89053d09e17738f7
+msgid "Low-rise, rural"
+msgstr "Малоэтажная, сельская застройка"
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: 310ee5134f8541eca93185d15c6b5f8c
+msgid "Method"
+msgstr "Метод"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
 #: 98f4963088f84d78a36d9afad0ed0692
 msgid "Instance segmentation"
 msgstr "Сегментация экземпляров"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:20
-#: 6c71c9d0cf92444c8b1defc17939d298
-msgid "zoom 20-21"
-msgstr "масштаб 20-21"
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: e538732b14c64a04b7f11ff321d1f7af
+msgid "GSD / zoom"
+msgstr "GSD / зум"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:21
+#: ../userguides/buildings_aerial_imagery_model.rst:10
+#: e0cc29bb12434f059e22c1b3fa055203
+msgid "0.15–0.1 m / z20–21"
+msgstr "0.15–0.1 m / z20–21"
+
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: 35a2454c2cc04663ae5318c72ecb0d58
+msgid "Test score"
+msgstr "Оценка на тестах"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:10
 #: 0b614fefd00244edb7df4cdb0b6d7241
-msgid "> 0.82"
-msgstr "> 0,82"
+msgid "F1 > 0.82"
+msgstr "F1 > 0.82"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:22
-#: 6119b093652c4c5b89053d09e17738f7
-msgid "urban pattern: low-rise - rural"
-msgstr "городская схема: малоэтажная - сельская"
+#: ../userguides/buildings_aerial_imagery_model.rst:12
+#: dd83c14a064241b08bd34dfec0aaa3ca
+msgid ""
+"This model is no longer a default model because it fits a narrow range of "
+"areas. It is available on request. For dense cities, use the :doc:`Buildings"
+" model <buildings_model>`, even on aerial imagery."
+msgstr ""
+"Эта модель больше не входит в число моделей по умолчанию, так как подходит "
+"для узкого круга территорий. Она доступна по запросу. Для плотных городов "
+"используйте :doc:`модель «Здания» <buildings_model>`, даже на аэрофото."
 
-#: ../userguides/buildings_aerial_imagery_model.rst:31
-#: ../userguides/buildings_aerial_imagery_model.rst:39
-#: 7ea6b78c4029430180acf2fbabaa3fc5 db10e628e66c44a58a3b0b9f769cab0e
-msgid "Processing result of Buildings (Aerial) model"
-msgstr "Результат обработки модели зданий (аэрофотоснимок)"
+#: ../userguides/buildings_aerial_imagery_model.rst:16
+#: a649a04e1908401fbcdd9d189443aa79
+msgid "Sample results"
+msgstr "Примеры результатов"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:31
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: db10e628e66c44a58a3b0b9f769cab0e
+msgid "Buildings (Aerial) result in a rural residential area"
+msgstr "Результат модели «Здания (аэрофото)» в сельской жилой застройке"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:24
 #: 178e01759f2c4c0f845eaa69e8def37c
-msgid "Processing example – rural residential area"
-msgstr "Пример обработки – сельский жилой массив"
+msgid "Rural residential area"
+msgstr "Сельская жилая застройка"
 
-#: ../userguides/buildings_aerial_imagery_model.rst:39
+#: ../userguides/buildings_aerial_imagery_model.rst
+#: 7ea6b78c4029430180acf2fbabaa3fc5
+msgid ""
+"Small buildings found by Buildings (Aerial) and missed by the default model"
+msgstr ""
+"Небольшие здания, найденные моделью «Здания (аэрофото)» и пропущенные "
+"моделью по умолчанию"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:30
 #: 18cb0a1bbc2a407da33c4099aa8c8183
 msgid ""
-"Small objects that have been missed by default :ref:`Buildings model` but "
-"detected using an aerial image with the Buildings (Aerial imagery)"
+"Small objects missed by the default :ref:`Buildings model` and found by "
+"Buildings (Aerial)"
 msgstr ""
-"Небольшие объекты, которые по умолчанию пропущены :ref:`Модель зданий`, но "
-"обнаружены с помощью аэрофотоснимков со зданиями (Аэрофотоснимки)"
+"Небольшие объекты, пропущенные моделью по умолчанию :ref:`Buildings model` и"
+" найденные моделью «Здания (аэрофото)»"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:33
+#: 566b983a7f004f84ac5e790deb1979da
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:33
+#: 6256ad9c4e0f4583a552091c33ade197
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/buildings_aerial_imagery_model.rst:33
+#: 38e0322176934addaa57f9d273339a2a
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:33
+#: 62082640f7cd4962bb140749a7a1db77
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/buildings_aerial_imagery_model.rst:33
+#: 5e9dac6b71944bd083c1da348f8e05b4
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid ""
 #~ "This model is specifically designed to make use of very high resolution "
@@ -170,10 +291,57 @@ msgstr ""
 #~ "geodomain application is limited. it's available by request."
 #~ msgstr ""
 
-#: ../userguides/buildings_aerial_imagery_model.rst:2
-msgid "Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request."
-msgstr "Извлечение небольших зданий и детальных контуров с аэрофотоснимков 15-10 см. Лучше всего для сельской и пригородной застройки; по запросу."
+#~ msgid "🏠⭐️ Buildings (Aerial) (CUSTOM)"
+#~ msgstr "🏠⭐️ Здания (Воздушные) (ПОЛЬЗОВАТЕЛЬСКИЕ)"
 
-#: ../userguides/buildings_aerial_imagery_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#~ msgid ""
+#~ "This model has been deprecated as default one and moved to custom as its "
+#~ "geodomain application is limited. it's available by request."
+#~ msgstr ""
+#~ "Эта модель устарела как модель по умолчанию и переведена в пользовательскую,"
+#~ " поскольку ее применение в геодомене ограничено. он доступен по запросу."
+
+#~ msgid ""
+#~ "This model is specifically designed to be used on a high resolution aerial "
+#~ "imagery (15-10cm per pixel) for extraction of small buildings and detailed "
+#~ "structure outlines. It is best suited for rural and suburban residential "
+#~ "areas. We do not recommend using this model in areas with high-dense urban "
+#~ "buildings. Use :doc:`Buildings model <buildings_model>` instead, even for "
+#~ "aerial imagery."
+#~ msgstr ""
+#~ "Эта модель специально разработана для использования на аэрофотоснимках "
+#~ "высокого разрешения (15-10 см на пиксель) для выделения небольших зданий и "
+#~ "детальных контуров сооружений. Лучше всего он подходит для загородных и "
+#~ "загородных жилых районов. Мы не рекомендуем использовать данную модель в "
+#~ "районах с высокой плотностью городской застройки. Вместо этого используйте "
+#~ ":doc:`Модель зданий <building_model>`, даже для аэрофотоснимков."
+
+#~ msgid "Model name"
+#~ msgstr "Название модели"
+
+#~ msgid "Model type"
+#~ msgstr "Тип модели"
+
+#~ msgid "Zoom level"
+#~ msgstr "Уровень масштабирования"
+
+#~ msgid "F1 (testing)"
+#~ msgstr "F1 (тестирование)"
+
+#~ msgid "zoom 20-21"
+#~ msgstr "масштаб 20-21"
+
+#~ msgid "Processing result of Buildings (Aerial) model"
+#~ msgstr "Результат обработки модели зданий (аэрофотоснимок)"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
+#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
+#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid ":mf-chip:`uav|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

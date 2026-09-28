@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../userguides/results_summary.rst:1
+#: 2dd397f8d0ee4086b44d2fe7e865e4a3
+msgid "Read the Mapflow processing results summary - feature counts, areas and lengths per layer, CSV export and questions to the Mapflow Agent."
+msgstr ""
+
+#: ../userguides/results_summary.rst:7
+#: 64c8c5e2631a4108b48a79998857e91c
+msgid "Results Summary (Statistics)"
+msgstr ""
+
+#: ../userguides/results_summary.rst:9
+#: 3e1a70ab028a4c73accb53f7252e465c
+msgid "Getting a vector layer is only part of the imagery analysis workflow. The next question is usually: *what did the model actually find?*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:12
+#: 1b495bad2d7043baade5d75d93ca971e
+msgid "Every completed processing in Mapflow Web opens with an instant **summary** of its results – the number of detected features and their totals (area, length, counts) per output layer. The summary is calculated for the whole processing AOI, regardless of what is currently visible on the map."
+msgstr ""
+
+#: ../userguides/results_summary.rst:None
+#: b05383cbf4fe437fb23a80b180b23945
+msgid "Processing results with the summary panel"
+msgstr ""
+
+#: ../userguides/results_summary.rst:25
+#: 2e8a3c4263c4403da5c8cdaea5782a2b
+msgid "The service is powered by the **Statistics API** and is available for every default Mapflow model. Custom-model workflows include basic statistics, and their summaries can be customized as well (see :doc:`custom_pipelines`)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:31
+#: 7c5876ecfd694cbeb16e44be015490bb
+msgid "The summary panel"
+msgstr ""
+
+#: ../userguides/results_summary.rst:33
+#: 0c5f5514f3644666a509e983072487c5
+msgid "When the processing is finished, the panel appears above the map with the total number of detected features, the list of the output layers and the processed area:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:None
+#: 2136415f274643519583f847729a08b4
+msgid "Dataset ready - features detected"
+msgstr ""
+
+#: ../userguides/results_summary.rst:44
+#: 53d006d4780b45a582a022ce077dfa5b
+msgid "The panel contains:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:46
+#: db994f3760404056a4e76162691411e0
+msgid "**Header** – the status of the dataset and the total number of detected features, e.g. *\"Dataset ready – 11,206 features detected\"*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:48
+#: da789eebd82b4ad99336f60484df4234
+msgid "**Subtitle** – the output layers included in the processing and the size of the processed area, e.g. *\"crown · building · forest · roads · waterbodies over 1.00 km²\"*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:50
+#: b4ee0b5120244d11ad21deb0a767fdb9
+msgid "**Per-layer statistics** – one entry per layer, colored as the layer on the map, with the feature count and the corresponding total (area or length)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:52
+#: 19d159e4a98b4e78b227b0a2dcaf9988
+msgid "**Zoom hint** – tells you whether all the results are currently rendered on the map. At a low zoom level the map may display a part of the features, while the statistics are always counted for the whole result."
+msgstr ""
+
+#: ../userguides/results_summary.rst:55
+#: 7a22e0c4ea4f4b97828eb3e67349f1b4
+msgid "**Actions** – :ref:`Download CSV <statistics csv>` and :ref:`Ask about these results <statistics agent>`."
+msgstr ""
+
+#: ../userguides/results_summary.rst:57
+#: ../userguides/results_summary.rst:57
+#: 9cc359b2cc7e4dc2887b6211f9fe45b3
+#: d474f2758ad04b56983de56ad1647e7a
+msgid "stats_button"
+msgstr ""
+
+#: ../userguides/results_summary.rst:61
+#: dec8538c40814388a4ad59a16abf0057
+msgid "If you closed the panel, or opened an earlier processing, you can bring the summary back with the **statistics** button |stats_button| in the toolbar under the map."
+msgstr ""
+
+#: ../userguides/results_summary.rst:66
+#: 1571e43bce59466783d047cc2c72c5e8
+msgid "What each model reports"
+msgstr ""
+
+#: ../userguides/results_summary.rst:68
+#: 3178f4db08f64dbcbc05af296dccd696
+msgid "Each model highlights the statistics that matter for its output:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:74
+#: a72ae441ff4246c1a806a77642e4eea2
+msgid "MODEL"
+msgstr ""
+
+#: ../userguides/results_summary.rst:75
+#: 8a027d2925f14fd2a61d2a035d647f2f
+msgid "STATISTICS"
+msgstr ""
+
+#: ../userguides/results_summary.rst:76
+#: e9ed4cbb829d435591aef5ac85554df2
+msgid "🏠 Buildings"
+msgstr ""
+
+#: ../userguides/results_summary.rst:77
+#: f3e8ac03f824429fae76fd40c3feb402
+msgid "Number of buildings and their total area. With the *Classification* option applied, the counts are also given by building type (see :ref:`Building Mapping classes <buildings_classes>`)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:79
+#: 0a57e1748e5643ff92cea55fd9c3691f
+msgid "🚗 Roads"
+msgstr ""
+
+#: ../userguides/results_summary.rst:80
+#: a248b0117cc94465b66c5d19dac735ae
+msgid "Total length of the extracted road network."
+msgstr ""
+
+#: ../userguides/results_summary.rst:81
+#: 189b3fca5fe44afaad9b59b677b3b6f2
+msgid "🌲 Forest and trees"
+msgstr ""
+
+#: ../userguides/results_summary.rst:82
+#: 232cdb848c124799aa95daaf0eac511c
+msgid "Total vegetation area. With the *Tree crowns* option applied, the number of the extracted crowns is reported as well."
+msgstr ""
+
+#: ../userguides/results_summary.rst:84
+#: 0c4eefd7f8b1493b9d730a845e91ea78
+msgid "🌍 Land use"
+msgstr ""
+
+#: ../userguides/results_summary.rst:85
+#: adacb131871e452da0538c9b6821c6cd
+msgid "Area per land use category."
+msgstr ""
+
+#: ../userguides/results_summary.rst:86
+#: 52279bc6e714459b95a12deff016903c
+msgid "💧 Water bodies"
+msgstr ""
+
+#: ../userguides/results_summary.rst:87
+#: a73be39e5d4b4a9d9e8059e0684967d6
+msgid "Number of the water bodies and their total area (the layer is added by the *Water* post-processing option)."
+msgstr ""
+
+#: ../userguides/results_summary.rst:88
+#: c4918cb10eb14cc884514ed82b7b8685
+msgid "[multi] models"
+msgstr ""
+
+#: ../userguides/results_summary.rst:89
+#: a0edc69a3b354fefa21e3c12fa6746f5
+msgid "One entry per output layer, e.g. *crown*, *building*, *forest*, *roads*, *waterbodies*."
+msgstr ""
+
+#: ../userguides/results_summary.rst:95
+#: 21b364e7b17b494287b2d973219c1fce
+msgid "Download the statistics as CSV"
+msgstr ""
+
+#: ../userguides/results_summary.rst:97
+#: 7d8dbc6c0ac646eead719b25e85d4cc6
+msgid "Click **\"Download CSV\"** in the summary panel to save the numbers as a table – one row per layer or class, with the counts and the totals. Use it to attach the figures to a report, or to compare several processings of the same area."
+msgstr ""
+
+#: ../userguides/results_summary.rst:102
+#: 884966e58dca457a9183b7d2c58fa313
+msgid "PDF reports will be available soon."
+msgstr ""
+
+#: ../userguides/results_summary.rst:108
+#: dfc935841f634eabad4a79cc5afb78db
+msgid "Ask the Mapflow Agent about the results"
+msgstr ""
+
+#: ../userguides/results_summary.rst:110
+#: b8a345bff1d3447488a6ef74dc9db28f
+msgid "Click **\"Ask about these results\"** to continue in the :doc:`Mapflow Agent <mapflow_agent>` chat. The Agent instantly receives the structured statistics of the processing, so you can ask it to explain the numbers, compare the layers, or estimate the values you need, e.g.:"
+msgstr ""
+
+#: ../userguides/results_summary.rst:114
+#: ca0439d7c21f47eca5da9f34831b7597
+msgid "*\"How much of the area is covered by vegetation?\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:115
+#: 8849d51c87d841258f3e05f1a870cb2d
+msgid "*\"What is the average building footprint here?\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:116
+#: 625ae093f1e2422d860ab2ca5caf5dcb
+msgid "*\"Summarize the results for a report.\"*"
+msgstr ""
+
+#: ../userguides/results_summary.rst:119
+#: 6c1caeb206e348af9757d44fd6fecd9a
+msgid ":ref:`View the results <View the results>` in the Get started guide, and the :doc:`Mapflow Agent <mapflow_agent>` user guide."
+msgstr ""

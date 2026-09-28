@@ -8,7 +8,9 @@
     "custom_models": "https://mapflow.ai/custom-models",
     "pricing": "https://mapflow.ai/pricing",
     "website_models": "https://mapflow.ai/models",
-    "docs": "https://docs.mapflow.ai/"
+    "docs": "https://docs.mapflow.ai/",
+    "images": "https://docs.mapflow.ai/_static/models/",
+    "icons": "https://docs.mapflow.ai/_static/models/icons/"
   },
 
   "imagery_prices": {
@@ -28,8 +30,9 @@
     {"id": "buildings",  "label": "Buildings",            "icon": "buildings"},
     {"id": "vegetation", "label": "Trees and vegetation", "icon": "forest"},
     {"id": "roads",      "label": "Roads and base maps",  "icon": "road"},
-    {"id": "imagery",    "label": "Your imagery",         "icon": "uav"},
-    {"id": "other",      "label": "Other objects",        "icon": "sam"}
+    {"id": "imagery",    "label": "Your imagery",         "icon": "image"},
+    {"id": "other",      "label": "Other objects",        "icon": "sam"},
+    {"id": "agriculture", "label": "Crop fields",         "icon": "agro"}
   ],
 
   "models": [
@@ -282,7 +285,7 @@
     {
       "id": "agriculture-fields",
       "name": "Agriculture fields",
-      "category": "vegetation",
+      "category": "agriculture",
       "availability": "custom",
       "icon": "tractor",
       "doc": "userguides/agriculture_fields_model",
@@ -342,8 +345,8 @@
       "description": "Runs the Buildings model with classification switched on, so each roof polygon gets a building class. Classification adds no extra cost.",
       "output": "Building polygons with a class attribute.",
       "best_with": "Aerial or satellite imagery at 0.3 m per pixel (zoom 19).",
-      "zoom": "19",
-      "price": {"option_per_km2": 0, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
+      "zoom": "18",
+      "price": {"option_per_km2": 0, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
       "uses": [
         "Compare residential and non-residential stock by district",
         "Pull industrial and commercial sites into their own layer",
@@ -420,7 +423,7 @@
       "id": "own-imagery",
       "title": "Map your drone or aerial orthophoto",
       "category": "imagery",
-      "tile": "uav",
+      "tile": "image",
       "doc": "userguides/my_imagery",
       "summary": "Run any model on your own GeoTIFF or a raster layer already in QGIS.",
       "meta": "Model price only · your GeoTIFF"

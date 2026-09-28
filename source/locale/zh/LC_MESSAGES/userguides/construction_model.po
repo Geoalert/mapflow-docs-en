@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,32 +19,146 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:2 09224f89b3e94f21afb8932830d53179
-msgid "🏗️ Constructions (CUSTOM)"
-msgstr "🏗️ 结构（定制）"
-
-#: ../userguides/construction_model.rst:4 a8196ae0a39c4d77832953be94beac9d
+#: ../userguides/construction_model.rst:1 669a90e1adec40768c6e40795b3fe760
 msgid ""
-"This model outlines the areas in the satellite image that contain "
-"construction sites and buildings under construction. The current model "
-"dataset is limited to some countries and the work of extending it is in "
-"progress."
-msgstr "该模型概述了卫星图像中包含建筑工地和在建建筑物的区域。当前的模型数据集仅限于某些国家，扩展工作正在进行中。"
-
-#: ../userguides/construction_model.rst:13 984d57d812af43f986df97872d32c754
-msgid "Processing result of construction model"
-msgstr "施工模型处理结果"
-
-#: ../userguides/construction_model.rst:13 f9a1c355f4944bc2a31c5047e39269f7
-msgid ""
-"Processing result sample for a rapidly developing area with construction "
-"sites"
-msgstr "快速发展的建筑工地区域的处理结果样本"
-
-#: ../userguides/construction_model.rst:2
-msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
+"Detect construction sites and buildings under construction in satellite "
+"imagery. Available as a custom Mapflow model on request."
 msgstr "识别卫星影像中的施工场地与在建建筑。可作为 Mapflow 定制模型按需提供。"
 
-#: ../userguides/construction_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"
+#: ../userguides/construction_model.rst:7 09224f89b3e94f21afb8932830d53179
+msgid "Constructions"
+msgstr "在建工程"
+
+#: ../userguides/construction_model.rst:10 822ede19ed9641909c355d4915f5ed31
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|建筑物` :mf-warn:`需申请`"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction site outlines in a fast-developing area"
+msgstr "快速发展区域的建筑工地轮廓"
+
+#: ../userguides/construction_model.rst:10 0c38d3ba531648239238c1cf497547ba
+msgid "Example result: construction sites in a fast-developing area."
+msgstr "示例结果：快速发展区域的建筑工地。"
+
+#: ../userguides/construction_model.rst:10 8a8f05a38064459e9ba2687196c9dcd0
+msgid "Cost"
+msgstr "费用"
+
+#: ../userguides/construction_model.rst:10 fbf35d3dd4804b9aaa8d6e02021678b2
+msgid "Priced per project"
+msgstr "按项目定价"
+
+#: ../userguides/construction_model.rst:10 51cd959941114d9189bc5dfa5608ca23
+msgid "Request access and we connect the model to your account."
+msgstr "申请访问后，我们会将模型接入您的账户。"
+
+#: ../userguides/construction_model.rst:10 a8196ae0a39c4d77832953be94beac9d
+msgid ""
+"Outlines areas that contain construction sites and buildings under "
+"construction. Available for selected countries; coverage is growing."
+msgstr "勾画包含建筑工地和在建建筑物的区域。目前仅支持部分国家，覆盖范围持续扩大。"
+
+#: ../userguides/construction_model.rst:10 0abd9a2cd8d842018332f2a9a57f4815
+msgid "What you get"
+msgstr "输出结果"
+
+#: ../userguides/construction_model.rst:10 09224f89b3e94f21afb8932830d53179
+msgid "Construction site polygons."
+msgstr "建筑工地多边形。"
+
+#: ../userguides/construction_model.rst:10 fd5b36d2a82148748e64a70f2dd4b4ab
+msgid "Works best with"
+msgstr "最佳适用影像"
+
+#: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
+msgid "High-resolution satellite imagery of fast-developing areas."
+msgstr "快速发展区域的高分辨率卫星影像。"
+
+#: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
+msgid "Usage examples"
+msgstr "使用示例"
+
+#: ../userguides/construction_model.rst:10 0fb201c342c9433ea8177b0c1fb091fb
+msgid "Track new development for permits and taxes"
+msgstr "跟踪新建项目，用于许可和税务管理"
+
+#: ../userguides/construction_model.rst:10 12440fbd9d83456c9927f64715a39024
+msgid "Monitor progress on large projects"
+msgstr "监测大型项目进度"
+
+#: ../userguides/construction_model.rst:10 65ceaf156a464eea9024ca3a08f61263
+msgid "Flag unplanned construction"
+msgstr "标记违规建设"
+
+#: ../userguides/construction_model.rst:10 65bf4ebb1ba546798d29e4d0a6df79f2
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`申请访问 <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:10 438b1e121d274dd1bab45490c3071c49
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ":doc:`定制模型的工作方式 </userguides/custom_pipelines>`"
+
+#: ../userguides/construction_model.rst 877a732b651248f0a72eb89c7b466b2e
+msgid "Geo domain"
+msgstr "地理范围"
+
+#: ../userguides/construction_model.rst:10 64c99bc7df9040e783ecb90917296098
+msgid "Selected countries"
+msgstr "部分国家"
+
+#: ../userguides/construction_model.rst 526e47a0d4834f938c84d08ab7a2da70
+msgid "Method"
+msgstr "方法"
+
+#: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
+msgid "Segmentation"
+msgstr "分割"
+
+#: ../userguides/construction_model.rst:12 c579a9af539b4ded8662fe0c644576f6
+msgid "Sample results"
+msgstr "示例结果"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction sites detected in a fast-developing area"
+msgstr "在快速发展区域检测到的建筑工地"
+
+#: ../userguides/construction_model.rst:20 f9a1c355f4944bc2a31c5047e39269f7
+msgid "A rapidly developing area with construction sites"
+msgstr "有建筑工地的快速发展区域"
+
+#: ../userguides/construction_model.rst:23 2032c47d3781429bbc8a5a1229fd0c8b
+msgid "Need a different object?"
+msgstr "需要识别其他对象？"
+
+#: ../userguides/construction_model.rst:23 9aad72c3d5ef4bcb9021029127febd06
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr "我们可基于您的影像和类别训练定制模型，并将其接入您的 Mapflow 账户。"
+
+#: ../userguides/construction_model.rst:23 d6e3c1a6369c4e3ebb06e6ca4268f943
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr "`申请定制模型 <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:23 d50c5ac86e954f7c929a97ffec004223
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr "`模型目录和部署选项 <https://mapflow.ai/models>`__"
+
+#: ../userguides/construction_model.rst:23 6e8ad1a3cd6342638c472fb28bbffe6e
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
+
+#~ msgid "Processing result of construction model"
+#~ msgstr "施工模型处理结果"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 "
+#~ "<https://mapflow.ai/zh/custom-models>`_。"
+
+#~ msgid ":mf-chip:`crane|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

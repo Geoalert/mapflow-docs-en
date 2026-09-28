@@ -81,14 +81,7 @@
   mask: var(--mf-ico) center / contain no-repeat;
   vertical-align: -3px;
 }
-.mf-ico-buildings { --mf-ico: url(models/icons/buildings.svg); }
-.mf-ico-cityscape { --mf-ico: url(models/icons/cityscape.svg); }
-.mf-ico-crane     { --mf-ico: url(models/icons/crane.svg); }
-.mf-ico-forest    { --mf-ico: url(models/icons/forest.svg); }
-.mf-ico-road      { --mf-ico: url(models/icons/road.svg); }
-.mf-ico-tractor   { --mf-ico: url(models/icons/tractor.svg); }
-.mf-ico-uav       { --mf-ico: url(models/icons/uav.svg); }
-.mf-ico-sam       { --mf-ico: url(models/icons/sam.svg); }
+/* per-icon rules (.mf-ico-<name>, .mf-tile-<name>) are generated into mapflow-icons.css */
 .mf-ico-credits   { --mf-ico: var(--mf-i-credits); width: 14px; height: 14px; vertical-align: -2px; }
 
 /* --------------------------------------------------------------- chips -- */
@@ -230,7 +223,6 @@
   mask: var(--mf-tile-icon) center / 60px 60px no-repeat;
   pointer-events: none;
 }
-.mf-tile-uav    { --mf-tile-icon: url(models/icons/uav.svg); }
 .mf-tile-search { --mf-tile-icon: var(--mf-i-search); }
 
 /* ---------------------------------------------------------- task chips -- */

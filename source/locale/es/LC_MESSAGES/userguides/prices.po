@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 10:03+0200\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "Planes de suscripción de flujo de mapas"
 
 #: ../userguides/prices.rst:31 7861eb396b79436c9ad2f4d74822690c
 msgid "Mapflow credits"
-msgstr "Créditos de flujo de mapas"
+msgstr "Créditos de Mapflow"
 
 #: ../userguides/prices.rst:33 5161a80d6f3740c9b6759da9cce0a643
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../userguides/prices.rst:44 9a2e4994be8942efbc4205e80a22136a
 msgid "Mapflow Credits"
-msgstr "Créditos de flujo de mapas"
+msgstr "Créditos de Mapflow"
 
 #: ../userguides/prices.rst:45 5442b1dc7b404ab0b214c7ace0caa853
 msgid "500"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../userguides/prices.rst:65 2a2ebf27fafb41f6a70ea7d9a3cdaf00
 msgid "Mapflow subscription plans"
-msgstr "Planes de suscripción de flujo de mapas"
+msgstr "Planes de suscripción de Mapflow"
 
 #: ../userguides/prices.rst:67 d7948db10d24484abe2be01c4b454de5
 #, fuzzy
@@ -241,7 +241,7 @@ msgstr "Costos del modelo"
 
 #: ../userguides/prices.rst:84 8879ac4f05d6485a9a40173c3122265e
 msgid "Default Mapflow models"
-msgstr "Modelos de flujo de mapas predeterminados"
+msgstr "Modelos de Mapflow predeterminados"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
 #: 3672583e6359459f8540496768e7eaed
@@ -249,8 +249,9 @@ msgid "Model"
 msgstr "Modelo"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 0726200f68d6488a8d013539a82f4032
-msgid "Base price"
+#: 11a8ed697b634494924f06ae0f749e05
+#, fuzzy
+msgid "Base price · credits"
 msgstr "Precio base"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -275,23 +276,14 @@ msgstr "Clasificación: 0"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Heights estimation: 10"
-msgstr "Estimación de alturas: 10"
+#, fuzzy
+msgid "Building Heights estimation: 10"
+msgstr "Estimación de altura de edificios: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 84a985b6fe4e435b992e2faae4addee6
 msgid "Merge with Opensteeetmap: 0"
 msgstr "Fusionarse con Opensteeetmap: 0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 84a985b6fe4e435b992e2faae4addee6
-msgid "Align with roads: 0"
-msgstr "Alinear con carreteras: 0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height Estimation: 10"
-msgstr "Estimación de altura: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
 #: 3474a3dfd955485bb08524d47f27293f
@@ -302,11 +294,6 @@ msgstr "[multi] Edificios + Carreteras + Bosque"
 #: 2d496ce9e6d441898218dd662bc56c1e
 msgid "23"
 msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Buildings Height estimation: 10"
-msgstr "Estimación de altura de edificios: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
@@ -543,3 +530,12 @@ msgstr "``Costo = 1 * (8 + 2) = 10 créditos``"
 
 #~ msgid "Mapflow Premium"
 #~ msgstr "flujo de mapas prémium"
+
+#~ msgid "Heights estimation: 10"
+#~ msgstr "Estimación de alturas: 10"
+
+#~ msgid "Align with roads: 0"
+#~ msgstr "Alinear con carreteras: 0"
+
+#~ msgid "Height Estimation: 10"
+#~ msgstr "Estimación de altura: 10"

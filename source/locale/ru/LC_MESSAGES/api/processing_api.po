@@ -98,7 +98,7 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**Следующие шаги:** Изучите :ref:`доступные модели <Требования к модели>`, "
+"**Следующие шаги:** Изучите :ref:`доступные модели <Model requirements>`, "
 "загрузите :ref:`пользовательские изображения <upload-images>` или "
 "просмотрите :ref:`полный справочник по API <api-reference>`."
 

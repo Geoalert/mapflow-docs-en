@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:46+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,74 +19,246 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/roads_model.rst:1 47cafe0e406e409697684edd991654f7
+#: ../userguides/roads_model.rst:1 c7f3dd61c84f460180237b6e5a160fa9
 msgid ""
 "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task "
 "learning improves mask connectivity where roads are obscured by trees or "
 "buildings."
 msgstr ""
 
-#: ../userguides/roads_model.rst:5 fe34fee8bdb64421bf8abe65c2448eab
-msgid "🚗 Roads"
+#: ../userguides/roads_model.rst:7 fe34fee8bdb64421bf8abe65c2448eab
+msgid "Roads"
 msgstr ""
 
-#: ../userguides/roads_model.rst:7 d4e3d0f3235a48b283d8dc2536ac56b4
-msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+#: ../userguides/roads_model.rst:10 22dcaaeb17c040e785622c3fd58cba2c
+msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
 msgstr ""
 
-#: ../userguides/roads_model.rst:9 33f015cd5e8b45f180b1297a05fb4c5e
+#: ../userguides/roads_model.rst ade88b76e3e74ef5a191666991cf47e8
+msgid "Road network polygons over a suburban area"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 c2e0d8468a81454b983cd04f98525171
+msgid "Example result: road polygons built from a cleaned centreline network."
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 296d833aa3de4b54abc1eff71abd9ad2
+msgid "Cost"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 eda8b3e0ba5f4141aa10f1c5a64fe2e8
+msgid "5 credits per km² + imagery"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 ccdd2e4db1a74fecaabb86f4628921d7
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 80 credits."
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 d47a684e5d4f48a282ecc4af5374e962
 msgid ""
-"The model is trained primarily for rural and suburban areas. Multi-task "
-"learning is applied in order to improve the road mask connectivity, "
-"especially in the spots obscured by trees or buildings. Best suited for "
-"areas with low urbanization, and can fail in cities where wide roads with"
-" sidewalks and complex crossroads are present. We extract the road "
-"central line in order to decrease the clutter and optimize the extracted "
-"road network, and then the road lines are inflated back to polygonal "
-"object."
+"Finds road centrelines, cleans the graph (simplifies geometry, merges "
+"gaps, removes double edges and short detached pieces) and turns it back "
+"into road polygons. Multi-task learning keeps the network connected where"
+" trees or buildings hide the road."
 msgstr ""
 
-#: ../userguides/roads_model.rst:12 e0a877d778ea40838931a7b33c659a1d
-msgid "In version 1.1 we added the road graph postprocessing:"
+#: ../userguides/roads_model.rst:10 a831cf0b9be84c58afb2f73d5ba14243
+msgid "What you get"
 msgstr ""
 
-#: ../userguides/roads_model.rst:14 5fe53cf72ba241dcb2855f7c45905771
+#: ../userguides/roads_model.rst:10 93b54d96f5444652b53e0dd71ae60bcc
+msgid "Road polygons built from a cleaned centreline network."
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 9ce1aa04c3584a3d9533d498b1d9a09c
+msgid "Works best with"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 12bfcb98139d409590094a7dcc8710da
+msgid ""
+"Rural and suburban areas with 0.5–0.3 m imagery. Dense city centres with "
+"wide sidewalks and complex crossings are harder."
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 d8f15d032892441ca9ff02ec081cdf62
+msgid "Usage examples"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 32e21eb2660c404eab30e7ee2e040f3c
+msgid "Map access roads and tracks for rural planning"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 0d3a285f2a1b40479222b306a6b1b9d2
+msgid "Add forestry and field tracks missing from OSM"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 5c0c0321f84f4c4d9d3e648ab5da1df4
+msgid "Check the street network in new suburbs"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 9eb55662fc974b05964b40642548fcca
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 d433705a3dde4540adbf14e376ecb25f
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 eaa373d596c34106a13cc925ac0f3ce0
+msgid ":doc:`Pricing </userguides/prices>`"
+msgstr ""
+
+#: ../userguides/roads_model.rst a57d29598f974d16a7289e6819e88bd7
+msgid "Version"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 29d87923fb37407faa49a258da28fdd1
+msgid "1.1"
+msgstr ""
+
+#: ../userguides/roads_model.rst b8633a870df5422b8bdc6207054ef9df
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 dcc398a54a7d47cf94a0c3e34f7e791d
+msgid "Global, best in rural and suburban areas"
+msgstr ""
+
+#: ../userguides/roads_model.rst 9348409feeac4454beb59ca4b99cdc3f
+msgid "Method"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 e0a877d778ea40838931a7b33c659a1d
+msgid "Segmentation + graph post-processing"
+msgstr ""
+
+#: ../userguides/roads_model.rst 8ba8eff8533149fe9559b4b01f38fbf6
+msgid "GSD / zoom"
+msgstr ""
+
+#: ../userguides/roads_model.rst:10 c39d120e506641d4aae7c4ce2b132900
+msgid "0.5–0.3 m / z18–19"
+msgstr ""
+
+#: ../userguides/roads_model.rst:12 1825fd795b92483d918fee061abcad0a
+msgid "How it works"
+msgstr ""
+
+#: ../userguides/roads_model.rst:14 33f015cd5e8b45f180b1297a05fb4c5e
+msgid ""
+"The model is trained mostly on rural and suburban areas. Multi-task "
+"learning keeps the road mask connected where trees or buildings hide the "
+"road. It can fail in cities with wide roads, sidewalks and complex "
+"crossings."
+msgstr ""
+
+#: ../userguides/roads_model.rst:18 f2d85ef8cb91468e8380f98b278bfd78
+msgid ""
+"The model extracts road centrelines to reduce clutter, cleans the "
+"network, then inflates the lines back into road polygons. Since version "
+"1.1 the road graph is post-processed:"
+msgstr ""
+
+#: ../userguides/roads_model.rst:21 5fe53cf72ba241dcb2855f7c45905771
 msgid "geometry simplification;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:15 9bc05d4d62d648d69e1ab8b5ebccdbd9
-msgid "merging of the gaps;"
+#: ../userguides/roads_model.rst:22 9bc05d4d62d648d69e1ab8b5ebccdbd9
+msgid "merging of gaps;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:16 48f0e27f02204a1f94855e79c89cd5c5
+#: ../userguides/roads_model.rst:23 48f0e27f02204a1f94855e79c89cd5c5
 msgid "removal of double edges;"
 msgstr ""
 
-#: ../userguides/roads_model.rst:17 76416510fefc409593a0346b19d9cfcd
-msgid "removal of detached and too short segments;"
+#: ../userguides/roads_model.rst:24 76416510fefc409593a0346b19d9cfcd
+msgid "removal of detached and too short segments."
 msgstr ""
 
-#: ../userguides/roads_model.rst:19 0dec5e3e029a4801968b99bd4445f3ce
-msgid "**Processing results samples**"
+#: ../userguides/roads_model.rst:27 61c5901a3dfd494896f26e5d77c950f4
+msgid "Sample results"
 msgstr ""
 
-#: ../userguides/roads_model.rst:27 ../userguides/roads_model.rst:35
-#: 71ac96f13ca54f37ba07af8cbc768196 c09520f007bf4e8f9ceeb268789d818b
-msgid "Processing result of roads model"
+#: ../userguides/roads_model.rst 71ac96f13ca54f37ba07af8cbc768196
+msgid "Roads model result in a complex urban environment"
 msgstr ""
 
-#: ../userguides/roads_model.rst:27 b63be9aba6db42c3b57daa040cc824de
-msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+#: ../userguides/roads_model.rst:35 d19bdf990581493ca45d2f5ab972815a
+msgid "Complex urban environment: New Town, Kolkata Metropolitan Area, India"
 msgstr ""
 
-#: ../userguides/roads_model.rst:35 5dc5727b778b44d4aa4f7e4d96b2a1f3
-msgid "More complex environment - urban territory in Prague, Czech Republic"
+#: ../userguides/roads_model.rst:38 3bd03864721d41a5b71a378bbcd96c69
+msgid "Need a different object?"
 msgstr ""
 
-#: ../userguides/roads_model.rst:39 28c98aea7f68414ba5bb9faa04b916e4
+#: ../userguides/roads_model.rst:38 fe4b3396bce4425c94e461df628288f0
 msgid ""
-"Looking to run this in production? See the `model catalog and deployment "
-"options <https://mapflow.ai/models>`_, or `request a custom model "
-"<https://mapflow.ai/custom-models>`_."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr ""
+
+#: ../userguides/roads_model.rst:38 ff23e208a9664edb854357ecda60a4cb
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/roads_model.rst:38 28c98aea7f68414ba5bb9faa04b916e4
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+
+#: ../userguides/roads_model.rst:38 2291bb7f87d14fc6935c1a228bf9fc8b
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ""
+
+#~ msgid "🚗 Roads"
+#~ msgstr ""
+
+#~ msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The model is trained primarily for "
+#~ "rural and suburban areas. Multi-task "
+#~ "learning is applied in order to "
+#~ "improve the road mask connectivity, "
+#~ "especially in the spots obscured by "
+#~ "trees or buildings. Best suited for "
+#~ "areas with low urbanization, and can "
+#~ "fail in cities where wide roads "
+#~ "with sidewalks and complex crossroads "
+#~ "are present. We extract the road "
+#~ "central line in order to decrease "
+#~ "the clutter and optimize the extracted"
+#~ " road network, and then the road "
+#~ "lines are inflated back to polygonal "
+#~ "object."
+#~ msgstr ""
+
+#~ msgid "In version 1.1 we added the road graph postprocessing:"
+#~ msgstr ""
+
+#~ msgid "merging of the gaps;"
+#~ msgstr ""
+
+#~ msgid "removal of detached and too short segments;"
+#~ msgstr ""
+
+#~ msgid "**Processing results samples**"
+#~ msgstr ""
+
+#~ msgid "Processing result of roads model"
+#~ msgstr ""
+
+#~ msgid "Optimal conditions for the model: rural/suburban territory, Russia"
+#~ msgstr ""
+
+#~ msgid "More complex environment - urban territory in Prague, Czech Republic"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
+#~ msgstr ""
 

@@ -228,7 +228,7 @@ msgid ""
 "Draw or upload the AOI that covers your imagery (see :ref:`Select AOI`)."
 msgstr ""
 "Нарисуйте или загрузите область интереса, которая покрывает ваше изображение"
-" (см. :ref:`Выбор области интереса`)."
+" (см. :ref:`Select AOI`)."
 
 #: ../userguides/imagery_search.rst:97 ddacbe07c07b489a81eb046100e88efa
 #, fuzzy

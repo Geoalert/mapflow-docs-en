@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "如何使用 OAuth2 登录"
 
 #: ../userguides/oauth2_setup.rst:1 b6b5052ff05b40819d63081c9a15edca
 msgid "**1. Select the** ``Use OAuth2`` **option in the login window**"
-msgstr "**1.选择**``使用 OAuth2`` **登录窗口中的选项**"
+msgstr "**1.选择**\\ ``使用 OAuth2`` **登录窗口中的选项**"
 
 #: b50c7fc37c5241548b7f58ed40acfd7a
 msgid "OAuth login window"
@@ -46,12 +46,13 @@ msgid ""
 "password>`_ - qgis feature to ensure the security of sensitive information "
 "storage."
 msgstr ""
-"系统会提示您设置新的`主认证密码<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
+"系统会提示您设置新的\\ `主认证密码 "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/auth_system/auth_overview.html#master-"
 "password>`_ - qgis功能确保敏感信息存储的安全。"
 
 #: ../userguides/oauth2_setup.rst:22 53a8034bff114704afa6c321ec2f1017
 msgid "**3. Click** ``Log in`` **button**"
-msgstr "**3.单击**``登录``**按钮**"
+msgstr "**3.单击**\\ ``登录``\\ **按钮**"
 
 #: ../userguides/oauth2_setup.rst:24 c21e36bcd5b04faab1547ca8f06ca04e
 msgid ""
@@ -61,7 +62,7 @@ msgstr "在执行后续步骤之前，您将收到以下消息：**重新启动*
 
 #: ../userguides/oauth2_setup.rst:33 e3bc44bb26a44732bac50ad2d2e12fbd
 msgid "**4. After restarting QGIS, click** ``Log in``"
-msgstr "**4.重启QGIS后，点击**``登录``"
+msgstr "**4.重启QGIS后，点击**\\ ``登录``"
 
 #: ../userguides/oauth2_setup.rst:35 1e6ca85106ab4be5ad0511736b0b6c0d
 msgid ""
@@ -92,7 +93,9 @@ msgid ""
 "If you have problems with authorization, you can delete the current "
 "authentication config by going to ``Settings -> Options -> Authentication``,"
 " select the config and remove it:"
-msgstr "如果您遇到授权问题，可以通过转到“设置 -> 选项 -> 身份验证”来删除当前的身份验证配置，选择该配置并将其删除："
+msgstr ""
+"如果遇到授权问题，可以转到 ``Settings -> Options -> "
+"Authentication``，选择该配置并将其删除，从而删除当前的身份验证配置："
 
 #: ../userguides/qgis_plugin.rst:2 682597ddea574e50ac33250fbfd09fe8
 msgid "How to use the Mapflow <> QGIS plugin"
@@ -147,8 +150,8 @@ msgid ""
 "`Mapflow.ai <https://app.mapflow.ai/>`_. After that, by clicking on the "
 "user, you need to go to Settings and select the API tab."
 msgstr ""
-"将打开一个窗口，您必须在其中快速免费注册“Mapflow.ai "
-"<https://app.mapflow.ai/>”。之后，通过单击用户，您需要转到“设置”并选择“API”选项卡。"
+"将打开一个窗口，您必须在其中快速免费注册\\ `Mapflow.ai "
+"<https://app.mapflow.ai/>`_。之后，通过单击用户，您需要转到“设置”并选择“API”选项卡。"
 
 #: ../userguides/qgis_plugin.rst:42 68771988e2ba43409fa914c4786c73fd
 msgid ""
@@ -246,9 +249,9 @@ msgid ""
 "plugin's capabilities, as well as various options for data sources, are "
 "discussed in the documentation for :ref:`Mapflow <> QGIS`."
 msgstr ""
-"在本快速教程中，我们了解了借助 QGIS 的 Mapflow "
-"插件检测遥感图像中的对象的主要选项。除了建筑物和森林植被之​​外，还有用于识别道路或建筑工地的模型。 Mapflow <> QGIS "
-"的文档中讨论了该插件功能的更广泛概述以及数据源的各种选项。"
+"在本快速教程中，我们介绍了借助 QGIS 的 Mapflow "
+"插件在遥感影像中检测对象的主要选项。除建筑物和森林植被外，还有用于识别道路或建筑工地的模型。有关插件功能的更全面概述以及各种数据源选项，请参阅 "
+":ref:`Mapflow <> QGIS` 文档。"
 
 #: ../userguides/howto.rst:57 24c6de11b3ea4d48bc154f16e2efe338
 msgid "How to process your own UAV images with Mapflow"
@@ -349,7 +352,9 @@ msgid ""
 "Please, consider the requirements for :ref:`AI Models <Model requirements>` "
 "when uploading your own images. Contact us if you have difficulties to "
 "handle a large dataset or your file size exceeds our limits."
-msgstr "上传您自己的图像时，请考虑 AI 模型 <模型要求> 的要求。如果您在处理大型数据集时遇到困难或您的文件大小超出了我们的限制，请联系我们。"
+msgstr ""
+"上传您自己的影像时，请参考 :ref:`AI 模型 <Model requirements>` "
+"的要求。如果处理大型数据集有困难，或文件大小超出限制，请联系我们。"
 
 #: ../userguides/howto.rst:115 a14a8b4b3a98458cae250886b7108a39
 msgid "How to use external data providers in Mapflow"
@@ -495,9 +500,9 @@ msgid ""
 "<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ for preparing "
 "your image for Mapflow processing."
 msgstr ""
-"通常无人机图像是以 16 或 8 位的 GeoTIFF 形式提供的 RGB 合成图像。 Mapflow 端的数据类型将自动转换为 8 "
-"位。或者：使用`预处理脚本 <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ "
-"准备图像以进行 Mapflow 处理。"
+"通常无人机图像是以 16 或 8 位的 GeoTIFF 形式提供的 RGB 合成图像。 Mapflow 端的数据类型将自动转换为 8 位。或者：使用\\"
+" `预处理脚本 <https://github.com/Geoalert/mapflow_data_preprocessor/>`_ 准备图像以进行 "
+"Mapflow 处理。"
 
 #: ../userguides/howto.rst:199 8beb9a0ce28242ce9d31ebe490f0aa95
 msgid ""
@@ -527,141 +532,25 @@ msgstr "如果您有更多提示要与社区分享或者有更多问题，请告
 msgid "**Run the flow!**"
 msgstr "**运行流程！**"
 
-#: ../userguides/howto.rst:218 aa597238baeb4184aa477dd809bb32b6
-msgid "How to view results using Kepler.gl"
-msgstr "如何使用 Kepler.gl 查看结果"
-
-#: ../userguides/howto.rst:220 38762e63853c4871ac1fd8e2475b350d
-msgid ""
-"**Kepler.gl** is an open source tool designed for geospatial data analysis. "
-"It is a simple yet powerful for displaying and exploring geodatasets."
-msgstr "**Kepler.gl** 是一款专为地理空间数据分析而设计的开源工具。它简单但功能强大，用于显示和探索地理数据集。"
-
-#: ../userguides/howto.rst:222 a3de9ed3623d4f2db6ba383dc650fd45
-msgid ""
-"To view the processing results in the Mapflow, select the required "
-"processing and press the button *\"Open in kepler.gl\"*."
-msgstr "要在 Mapflow 中查看处理结果，请选择所需的处理并按按钮“在 kepler.gl 中打开”*。"
-
-#: ../userguides/howto.rst:225 1f8cffaeccb341419c687337563bd561
-msgid ""
-"You can share your processing view in Kepler by copying the open URL (right "
-"click on *\"Open in kepler.gl\"* --> Copy Link Address)"
-msgstr ""
-"您可以通过复制打开的 URL 在 Kepler 中共享您的处理视图（右键单击 *“在 kepler.gl 中打开”* --> 复制链接地址）"
-
-#: ../userguides/howto.rst:227 fa4981677fa44e13802af6aee55f4d56
-msgid ""
-"Using the Kepler you can change the visual properties of data, set filters, "
-"and choose a background map."
-msgstr "使用开普勒，您可以更改数据的视觉属性、设置过滤器并选择背景地图。"
-
-#: ../userguides/howto.rst:231 eeeffec4c50b4f9996a4f2ecdc5f4e78
-msgid "Layers tab"
-msgstr "图层选项卡"
-
-#: ../userguides/howto.rst:233 b6d27d2c201c458d977e36ff836318c5
-msgid ""
-"Click on the layer name to bring up the *Layer settings* from the drop-down "
-"menu. To hide all data, click on the *eye* icon."
-msgstr "单击图层名称，从下拉菜单中调出*图层设置*。要隐藏所有数据，请单击*眼睛*图标。"
-
-#: 8dc9e838a445431687e565b9e9c573ad
-msgid "View layer settings"
-msgstr "查看图层设置"
-
-#: ../userguides/howto.rst:242 667e77adb5ad47edac82c68101ab81dc
-msgid ""
-"These settings allow you to choose a more suitable type of received data:"
-msgstr "这些设置允许您选择更合适的接收数据类型："
-
-#: ../userguides/howto.rst:244 d73830aac1504b3a8a597d9804036fa2
-msgid ""
-"*Fill color.* You can choose any color from the palette for polygons, and "
-"also hide the display of data by changing the position of the slider. You "
-"can change the transparency of polygons (property *Opacity*) in the "
-"additional settings of this function."
-msgstr ""
-"*填充颜色。*您可以从多边形调色板中选择任何颜色，还可以通过更改滑块的位置来隐藏数据的显示。您可以在此功能的附加设置中更改多边形的透明度（属性*不透明度*）。"
-
-#: ../userguides/howto.rst:245 3f411a3975aa4d67b22cc9f6aabbe832
-msgid ""
-"*Stroke color.* You can choose any color from the palette for outlining "
-"polygons, as well as completely remove the stroke. You can change the "
-"transparency of the stroke (property *Opacity*) In the additional settings "
-"of this function."
-msgstr ""
-"*描边颜色。*您可以从调色板中选择任何颜色来勾勒多边形，也可以完全删除描边。您可以在此功能的附加设置中更改笔划的透明度（属性*不透明度*）。"
-
-#: ../userguides/howto.rst:246 ef972037197644d08668d77bbb90a65e
-msgid "*Stroke width.* Controls the thickness of the stroke."
-msgstr "*笔划宽度。* 控制笔划的粗细。"
-
-#: ../userguides/howto.rst:247 5c786a886e7b4362ac01608a58a35b19
-msgid ""
-"*Height.* Allows you to view data with heights in 3D format. Set the desired"
-" coefficient and select the attribute of the layer with heights."
-msgstr "*高度。* 允许您以 3D 格式查看高度数据。设置所需的系数并选择具有高度的图层的属性。"
-
-#: 668cafc339b949a9b04846b1f47043ef
-msgid "3D buildings"
-msgstr "3D建筑"
-
-#: ../userguides/howto.rst:257 77a3fea78de4400d9dc7dda6eb0b61f0
-msgid "Filters tab"
-msgstr "过滤器选项卡"
-
-#: ../userguides/howto.rst:259 d7f2b2cbc2af4d10b557a2b9bbb73392
-msgid ""
-"This tab allows you to add a filter of interest by a specific attribute of "
-"the layer (as in this case, the filter is set by classes with different "
-"typology of buildings)."
-msgstr "此选项卡允许您按图层的特定属性添加感兴趣的过滤器（在本例中，过滤器是按具有不同建筑物类型的类设置的）。"
-
-#: e813d64e76834aa79f1fbe84e9985e79
-msgid "Filter panel"
-msgstr "过滤面板"
-
-#: ../userguides/howto.rst:269 e4c1d73b87934db8b595741edaf95ca9
-msgid "Interaction tab"
-msgstr "互动选项卡"
-
-#: ../userguides/howto.rst:271 8482a2f9443c4fa4a9fc028a9b3e9203
-msgid ""
-"You can select or remove attributes that will be visible in the menu that "
-"appears when you hover over an object. It is also possible to turn on the "
-"panel indicating longitude and latitude."
-msgstr "您可以选择或删除将鼠标悬停在对象上时出现的菜单中可见的属性。也可以打开显示经度和纬度的面板。"
-
-#: 141cb249d93946899ad4285f0c8b70fc
-msgid "Interaction panel"
-msgstr "互动面板"
-
-#: ../userguides/howto.rst:282 b3cfb673c0fc4c658ae1a8e2bd57739e
-msgid "Base map tab"
-msgstr "底图选项卡"
-
-#: ../userguides/howto.rst:284 a7dc3d95bebb44efa86e012c7b4e1b87
-msgid ""
-"Here you can choose the styles of the map, as well as choose to display its "
-"various layers."
-msgstr "在这里您可以选择地图的样式，以及选择显示其各个图层。"
-
 #: ../userguides/howto.rst:288 d20d6a5948e44ee1a164bb42b02e7c56
 msgid "How to run Mapflow on external infrastructure"
 msgstr "如何在外部基础设施上运行 Mapflow"
 
-#: ../userguides/howto.rst:290 68329b56acb74cb596fa1b803a7ccbe6
+#: ../userguides/howto.rst:291 68329b56acb74cb596fa1b803a7ccbe6
 msgid ""
 "Currently, you have to contact us if you have a request to run Mapflow (as a"
 " platform or as a separate imagery analysis workflows) on external "
-"infrastructure. However, we partner with cloud integrators to conduct "
-"projects for their clients."
+"infrastructure. We run private instances on AWS to provide customers with "
+"the fully managed and secure environment, independent on the public "
+"instances load and queues."
 msgstr ""
-"目前，如果您请求在外部基础设施上运行 "
-"Mapflow（作为平台或作为单独的图像分析工作流程），则必须联系我们。然而，我们与云集成商合作，为他们的客户开展项目。"
 
-#: ../userguides/howto.rst:294 5e15b44a93c349e896565ffa96dbb41c
+#: ../userguides/howto.rst:293 f192e3bec59c4ba5818196d77c916c0d
+msgid ""
+"We also partner with cloud integrators to set up projects for their clients."
+msgstr ""
+
+#: ../userguides/howto.rst:296 5e15b44a93c349e896565ffa96dbb41c
 msgid "How to run Mapflow using Geocloud"
 msgstr "如何使用 Geocloud 运行 Mapflow"
 
@@ -670,24 +559,24 @@ msgstr "如何使用 Geocloud 运行 Mapflow"
 msgid "create app"
 msgstr "创建应用程序"
 
-#: ../userguides/howto.rst:304 d4b60875058e4cf6998a0f9c5dcedede
+#: ../userguides/howto.rst:306 d4b60875058e4cf6998a0f9c5dcedede
 msgid ""
 "We conduct a `PoC project with Geocloud.work "
 "<https://www.geocloud.work/software/geoalert>`_ who enable to work remotely "
 "with the licensed geospatial software."
 msgstr ""
-"我们与 Geocloud.work <https://www.geocloud.work/software/geoalert> 开展了一个“PoC "
-"项目”，该项目能够使用许可的地理空间软件进行远程工作。"
+"我们与 Geocloud.work 开展了一个\\ `PoC 项目 "
+"<https://www.geocloud.work/software/geoalert>`_，该项目能够使用许可的地理空间软件进行远程工作。"
 
-#: ../userguides/howto.rst:306 a2a3815befe845fc95bd034755d12c5f
+#: ../userguides/howto.rst:308 a2a3815befe845fc95bd034755d12c5f
 msgid "The generic workflow with Geocloud is as follows:"
 msgstr "Geocloud 的一般工作流程如下："
 
-#: ../userguides/howto.rst:308 39c4c3bf798c4b899c7eacfb66622d86
+#: ../userguides/howto.rst:310 39c4c3bf798c4b899c7eacfb66622d86
 msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
 msgstr "在 Geocloud 创建帐户并运行应用程序“QGIS-Mapflow”。"
 
-#: ../userguides/howto.rst:310 0db8afbb7c6d48818e3ad767610d81be
+#: ../userguides/howto.rst:312 0db8afbb7c6d48818e3ad767610d81be
 msgid ""
 "It runs the virtual machine with minimum requirements for QGIS with a "
 "preinstalled Mapflow plugin. Note that you have to run consequently the "
@@ -695,21 +584,21 @@ msgid ""
 "remote desktop."
 msgstr "它运行虚拟机，对 QGIS 具有最低要求，并预装了 Mapflow 插件。请注意，您必须同时运行存储和桌面才能通过远程桌面连接到虚拟机。"
 
-#: ../userguides/howto.rst:313 c2256184c3da47beabc785ccb5929cdb
+#: ../userguides/howto.rst:315 c2256184c3da47beabc785ccb5929cdb
 msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
 msgstr "单击桌面工作区中的“QGIS-Mapflow”图标来运行 QGIS"
 
-#: ../userguides/howto.rst:323 173db4b26f5b47169091a6bf146eb7dc
+#: ../userguides/howto.rst:325 173db4b26f5b47169091a6bf146eb7dc
 msgid "Run the plugin by clicking on the icon in the toolbar"
 msgstr "单击工具栏中的图标运行插件"
 
-#: ../userguides/howto.rst:334 9d88d3ab2b8641c889be8c52b8c050fb
+#: ../userguides/howto.rst:336 9d88d3ab2b8641c889be8c52b8c050fb
 msgid ""
 "❗️ To enable Mapflow oAuth login use the master password for QGIS which is "
 "set to 123456"
 msgstr "❗️ 要启用 Mapflow oAuth 登录，请使用 QGIS 的主密码，该密码设置为 123456"
 
-#: ../userguides/howto.rst:337 d163f343642f4b53b2d5b32940af5726
+#: ../userguides/howto.rst:339 d163f343642f4b53b2d5b32940af5726
 msgid ""
 "After you click  the \"Login\" button you will be redirected to the Mapflow "
 "login page in the browser. Use your existing `Mapflow.ai "
@@ -718,17 +607,17 @@ msgid ""
 "OAuth\" checkbox) with your Mapflow `Token "
 "<https://app.mapflow.ai/account/api>`_."
 msgstr ""
-"单击“登录”按钮后，您将在浏览器中重定向到 Mapflow 登录页面。使用您现有的“Mapflow.ai "
-"<https://app.mapflow.ai>”_登录名和密码或创建一个新帐户来开始使用该插件。您还可以将基本身份验证（禁用“使用 "
+"单击“登录”按钮后，您将在浏览器中重定向到 Mapflow 登录页面。使用您现有的\\ `Mapflow.ai "
+"<https://app.mapflow.ai>`_\\ 登录名和密码或创建一个新帐户来开始使用该插件。您还可以将基本身份验证（禁用“使用 "
 "OAuth”复选框）与 Mapflow `令牌 <https://app.mapflow.ai/account/api>`_ 结合使用。"
 
-#: ../userguides/howto.rst:340 4f458b8ce07e42fabe022ebb7c8eb1a3
+#: ../userguides/howto.rst:342 4f458b8ce07e42fabe022ebb7c8eb1a3
 msgid ""
 "You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in"
 " Geocloud."
-msgstr "您已准备好在 Geocloud 中使用:doc:`Mapflow – QGIS </userguides/qgis_plugin>`。"
+msgstr "您已准备好在 Geocloud 中使用\\ :doc:`Mapflow – QGIS </userguides/qgis_plugin>`。"
 
-#: ../userguides/howto.rst:343 34b56bc211774f7893a296f22b7302f9
+#: ../userguides/howto.rst:345 34b56bc211774f7893a296f22b7302f9
 msgid ""
 "Note that you pay only for the up time in Geocloud. You spend your regular "
 "credits for Mapflow (you get 250 credits for free upon the registration). "
@@ -742,7 +631,7 @@ msgstr ""
 "中的存储/计算机有两种价格 - *已停止* 和 *正在运行*。当存储/计算机停止时，将应用停止价格。工作价格在工作模式下适用。 👉👉 您可以在 "
 "Mapflow 中进行一些长期计算时停止计算机，以减少花费。"
 
-#: ../userguides/howto.rst:348 bc16cc0dfec74800b8d59252443b7dd2
+#: ../userguides/howto.rst:350 bc16cc0dfec74800b8d59252443b7dd2
 msgid "How to check images metadata in the 🌏 Global mosaic"
 msgstr "如何检查🌏全局马赛克中的图像元数据"
 
@@ -770,7 +659,7 @@ msgstr ""
 msgid ""
 "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
 "metadata and run the analysis:"
-msgstr "如何使用 Mapflow – QGIS <qgis_plugin>` 搜索马赛克的元数据并运行分析："
+msgstr "如何使用 :doc:`Mapflow – QGIS <qgis_plugin>` 搜索镶嵌图的元数据并运行分析："
 
 #: ../userguides/search_mosaic.rst:9 3c5d023a7a7b462a9d34e6b9fd446e26
 msgid "Switch to the Tab \"Imagery Search\""
@@ -823,10 +712,117 @@ msgid ""
 "Source: 🌏 ArcGIS World Imagery**."
 msgstr "要对整个分析区域运行处理 - 只需清除选择并使用 **数据源：🌏 全球镶嵌 2022** 或 **数据源：🌏 ArcGIS 世界影像**。"
 
-#: ../userguides/howto.rst:354 fbc715ecfe6f484e8b36008ad1b342ae
+#: ../userguides/howto.rst:356 fbc715ecfe6f484e8b36008ad1b342ae
 msgid "How to run bulk processing using Mapflow API"
 msgstr "如何使用 Mapflow API 运行批量处理"
 
-#: ../userguides/howto.rst:357 1bb56a25f27647728f6c07de96193fc4
+#: ../userguides/howto.rst:359 1bb56a25f27647728f6c07de96193fc4
 msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
 msgstr "✍️ 查看有关 :doc:`Mapflow API 使用案例 <use_API>` 的更多用户指南"
+
+#~ msgid "How to view results using Kepler.gl"
+#~ msgstr "如何使用 Kepler.gl 查看结果"
+
+#~ msgid ""
+#~ "**Kepler.gl** is an open source tool designed for geospatial data analysis. "
+#~ "It is a simple yet powerful for displaying and exploring geodatasets."
+#~ msgstr "**Kepler.gl** 是一款专为地理空间数据分析而设计的开源工具。它简单但功能强大，用于显示和探索地理数据集。"
+
+#~ msgid ""
+#~ "To view the processing results in the Mapflow, select the required "
+#~ "processing and press the button *\"Open in kepler.gl\"*."
+#~ msgstr "要在 Mapflow 中查看处理结果，请选择所需的处理并按按钮“在 kepler.gl 中打开”*。"
+
+#~ msgid ""
+#~ "You can share your processing view in Kepler by copying the open URL (right "
+#~ "click on *\"Open in kepler.gl\"* --> Copy Link Address)"
+#~ msgstr ""
+#~ "您可以通过复制打开的 URL 在 Kepler 中共享您的处理视图（右键单击 *“在 kepler.gl 中打开”* --> 复制链接地址）"
+
+#~ msgid ""
+#~ "Using the Kepler you can change the visual properties of data, set filters, "
+#~ "and choose a background map."
+#~ msgstr "使用开普勒，您可以更改数据的视觉属性、设置过滤器并选择背景地图。"
+
+#~ msgid "Layers tab"
+#~ msgstr "图层选项卡"
+
+#~ msgid ""
+#~ "Click on the layer name to bring up the *Layer settings* from the drop-down "
+#~ "menu. To hide all data, click on the *eye* icon."
+#~ msgstr "单击图层名称，从下拉菜单中调出*图层设置*。要隐藏所有数据，请单击*眼睛*图标。"
+
+#~ msgid "View layer settings"
+#~ msgstr "查看图层设置"
+
+#~ msgid ""
+#~ "These settings allow you to choose a more suitable type of received data:"
+#~ msgstr "这些设置允许您选择更合适的接收数据类型："
+
+#~ msgid ""
+#~ "*Fill color.* You can choose any color from the palette for polygons, and "
+#~ "also hide the display of data by changing the position of the slider. You "
+#~ "can change the transparency of polygons (property *Opacity*) in the "
+#~ "additional settings of this function."
+#~ msgstr ""
+#~ "*填充颜色。*您可以从多边形调色板中选择任何颜色，还可以通过更改滑块的位置来隐藏数据的显示。您可以在此功能的附加设置中更改多边形的透明度（属性*不透明度*）。"
+
+#~ msgid ""
+#~ "*Stroke color.* You can choose any color from the palette for outlining "
+#~ "polygons, as well as completely remove the stroke. You can change the "
+#~ "transparency of the stroke (property *Opacity*) In the additional settings "
+#~ "of this function."
+#~ msgstr ""
+#~ "*描边颜色。*您可以从调色板中选择任何颜色来勾勒多边形，也可以完全删除描边。您可以在此功能的附加设置中更改笔划的透明度（属性*不透明度*）。"
+
+#~ msgid "*Stroke width.* Controls the thickness of the stroke."
+#~ msgstr "*笔划宽度。* 控制笔划的粗细。"
+
+#~ msgid ""
+#~ "*Height.* Allows you to view data with heights in 3D format. Set the desired"
+#~ " coefficient and select the attribute of the layer with heights."
+#~ msgstr "*高度。* 允许您以 3D 格式查看高度数据。设置所需的系数并选择具有高度的图层的属性。"
+
+#~ msgid "3D buildings"
+#~ msgstr "3D建筑"
+
+#~ msgid "Filters tab"
+#~ msgstr "过滤器选项卡"
+
+#~ msgid ""
+#~ "This tab allows you to add a filter of interest by a specific attribute of "
+#~ "the layer (as in this case, the filter is set by classes with different "
+#~ "typology of buildings)."
+#~ msgstr "此选项卡允许您按图层的特定属性添加感兴趣的过滤器（在本例中，过滤器是按具有不同建筑物类型的类设置的）。"
+
+#~ msgid "Filter panel"
+#~ msgstr "过滤面板"
+
+#~ msgid "Interaction tab"
+#~ msgstr "互动选项卡"
+
+#~ msgid ""
+#~ "You can select or remove attributes that will be visible in the menu that "
+#~ "appears when you hover over an object. It is also possible to turn on the "
+#~ "panel indicating longitude and latitude."
+#~ msgstr "您可以选择或删除将鼠标悬停在对象上时出现的菜单中可见的属性。也可以打开显示经度和纬度的面板。"
+
+#~ msgid "Interaction panel"
+#~ msgstr "互动面板"
+
+#~ msgid "Base map tab"
+#~ msgstr "底图选项卡"
+
+#~ msgid ""
+#~ "Here you can choose the styles of the map, as well as choose to display its "
+#~ "various layers."
+#~ msgstr "在这里您可以选择地图的样式，以及选择显示其各个图层。"
+
+#~ msgid ""
+#~ "Currently, you have to contact us if you have a request to run Mapflow (as a"
+#~ " platform or as a separate imagery analysis workflows) on external "
+#~ "infrastructure. However, we partner with cloud integrators to conduct "
+#~ "projects for their clients."
+#~ msgstr ""
+#~ "目前，如果您请求在外部基础设施上运行 "
+#~ "Mapflow（作为平台或作为单独的图像分析工作流程），则必须联系我们。然而，我们与云集成商合作，为他们的客户开展项目。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,50 +19,189 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/open-data.rst:2 5be42f95f69b4b2394205327b9d5ecc9
-msgid "Download Open Data"
-msgstr "下载开放数据"
-
-#: ../userguides/open-data.rst:4 dd74e28321ae4a2da6b1456d9fc812e0
+#: ../userguides/open-data.rst:1 34a0c9ac075b4554a0a7df59585002af
 msgid ""
-"In Mapflow, you can download open mapping data from OpenStreetMap and "
-"Overture Maps. This pipeline **does not use any AI model**. It is designed "
-"to support your mapping projects with community-maintained open data."
+"Download OpenStreetMap and Overture Maps data for your area in Mapflow, with"
+" no AI model involved."
+msgstr "在 Mapflow 中下载您所在区域的 OpenStreetMap 和 Overture Maps 数据，不使用 AI 模型。"
+
+#: ../userguides/open-data.rst:7 5be42f95f69b4b2394205327b9d5ecc9
+msgid "Open Data"
+msgstr "开放数据"
+
+#: ../userguides/open-data.rst:10 68918ae21f8047038f14a823d06a2139
+msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`No AI model`"
+msgstr ":mf-chip:`road|道路和底图` :mf-badge:`无 AI 模型`"
+
+#: ../userguides/open-data.rst abbcbc8a5d684e44b3675d01118a2315
+msgid "OpenStreetMap buildings and roads over imagery"
+msgstr "叠加在影像上的 OpenStreetMap 建筑物和道路"
+
+#: ../userguides/open-data.rst:10 e350dc8ac9d8451caddef098764d0cdd
+msgid "Example result: OpenStreetMap and Overture layers for the area."
+msgstr "示例结果：该区域的 OpenStreetMap 和 Overture 图层。"
+
+#: ../userguides/open-data.rst:10 6b2a3673e7f944acb190cfefe65ad32f
+msgid "Cost"
+msgstr "费用"
+
+#: ../userguides/open-data.rst:10 cca762e8a5ff41989c9df3cced2e3f50
+msgid "Shown before you run"
+msgstr "运行前显示"
+
+#: ../userguides/open-data.rst:10 672e2e6cd03c46d49a91eb940ac70f5b
+msgid "No AI model is used. You still pick imagery as a visual reference."
+msgstr "不使用 AI 模型，但仍需选择影像作为视觉参考。"
+
+#: ../userguides/open-data.rst:10 dd74e28321ae4a2da6b1456d9fc812e0
+msgid ""
+"Downloads the classes you choose from OpenStreetMap and Overture Maps for "
+"your area, so you can check coverage before running AI, or fill gaps after."
+msgstr "下载您所选类别的 OpenStreetMap 和 Overture Maps 数据，便于在运行 AI 前检查覆盖情况，或在之后补全缺漏。"
+
+#: ../userguides/open-data.rst:10 9913f390de3940ef93dea803ef1d09f9
+msgid "What you get"
+msgstr "输出结果"
+
+#: ../userguides/open-data.rst:10 799ea589b77048849c6c409c5f543d81
+msgid "Vector layers for each class you select."
+msgstr "每个所选类别对应一个矢量图层。"
+
+#: ../userguides/open-data.rst:10 6542782b7e614aa0aeca7d87cd8e84ad
+msgid "Works best with"
+msgstr "最佳适用影像"
+
+#: ../userguides/open-data.rst:10 a2991db8acca45c5ad807e5d54686ced
+msgid ""
+"Any area. Quality depends on how complete open data is there, and it may not"
+" line up exactly with the imagery."
+msgstr "任意区域。质量取决于该地开放数据的完整程度，且可能与影像不完全对齐。"
+
+#: ../userguides/open-data.rst:10 0ed2ecaf156e4e40bb7d83d68fa9deb0
+msgid "Usage examples"
+msgstr "使用示例"
+
+#: ../userguides/open-data.rst:10 f4ba056926c04f37ba8ca5ce1b60c281
+msgid "Check OSM completeness before paying for AI mapping"
+msgstr "在为 AI 制图付费前检查 OSM 的完整性"
+
+#: ../userguides/open-data.rst:10 db4bc2269ab04807b5b8d9d519c952a9
+msgid "Combine open data with AI results"
+msgstr "将开放数据与 AI 结果结合"
+
+#: ../userguides/open-data.rst:10 1078dd2335a14a6ab0fdc8caece2ab93
+msgid "Add context layers to a project in one step"
+msgstr "一步为项目添加背景图层"
+
+#: ../userguides/open-data.rst:10 025b68a0322d4a9c90a46b2e3025bbf9
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr "`在 Mapflow Web 中运行 <https://app.mapflow.ai>`__"
+
+#: ../userguides/open-data.rst:10 267f5ac6ee454625bc8937a384411ec0
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ":doc:`在 QGIS 中使用 </api/qgis_mapflow>`"
+
+#: ../userguides/open-data.rst:10 04387aae42d94a838162094b6ce4df6c
+msgid ":doc:`Pricing </userguides/prices>`"
+msgstr ":doc:`价格 </userguides/prices>`"
+
+#: ../userguides/open-data.rst f88b423e53e44e709c2a49d669de81ff
+msgid "Method"
+msgstr "方法"
+
+#: ../userguides/open-data.rst:10 8baaa8611d4d4e3ba639fc3ea14eedea
+msgid "No AI model: OpenStreetMap + Overture Maps"
+msgstr "无 AI 模型：OpenStreetMap + Overture Maps"
+
+#: ../userguides/open-data.rst:12 5be42f95f69b4b2394205327b9d5ecc9
+msgid "How to run it"
+msgstr "如何运行"
+
+#: ../userguides/open-data.rst:14 8a8a40b509194c2090ad600bd2c3d431
+msgid ""
+"Select one or more classes and run the workflow. You select an image source "
+"the same way as for AI-mapping models. The image is only a visual reference,"
+" so you can decide whether the data needs edits or a Mapflow model run to "
+"complete it."
 msgstr ""
-"在 Mapflow 中，您可以从 OpenStreetMap 和 Overture Maps "
-"下载开放地图数据。该管道**不使用任何人工智能模型**。它旨在通过社区维护的开放数据支持您的测绘项目。"
+"选择一个或多个类别并运行工作流。影像源的选择方式与 AI 制图模型相同。影像仅作为视觉参考，便于您判断数据是否需要编辑，或需要运行 Mapflow "
+"模型来补全。"
 
-#: ../userguides/open-data.rst:7 dc8a7b8093544085a495d6fa78d9ec94
-msgid "Select one or more semantic classes and run the workflow."
-msgstr "选择一个或多个语义类并运行工作流。"
+#: ../userguides/open-data.rst abbcbc8a5d684e44b3675d01118a2315
+msgid "Choosing classes for the Open Data workflow"
+msgstr "为开放数据工作流选择类别"
 
-#: ../userguides/open-data.rst:9 aadb95e31a50457da76052db7d58593a
-msgid "**Run the pipeline**"
-msgstr "**运行管道**"
+#: ../userguides/open-data.rst:24 dc8a7b8093544085a495d6fa78d9ec94
+msgid "Choose the classes and run the workflow"
+msgstr "选择类别并运行工作流"
 
-#: 41a75f3d14444e56a37adfa9e439a737 abbcbc8a5d684e44b3675d01118a2315
-msgid "Example result of the Open Data pipeline"
-msgstr "开放数据管道的示例结果"
+#: ../userguides/open-data.rst 41a75f3d14444e56a37adfa9e439a737
+msgid "Open Data results with the image preview"
+msgstr "带影像预览的开放数据结果"
 
-#: ../userguides/open-data.rst:17 ede15de5f0124f84a86ca56121554b3c
-msgid "**Get the results and the image preview (in Web app or QGIS project)**"
-msgstr "**获取结果和图像预览（在Web应用程序或QGIS项目中）**"
+#: ../userguides/open-data.rst:30 ede15de5f0124f84a86ca56121554b3c
+msgid "Results and the image preview, in Mapflow Web or QGIS"
+msgstr "在 Mapflow Web 或 QGIS 中查看结果和影像预览"
 
-#: ../userguides/open-data.rst:26 05f87c412fa2435b8e898a2edcfe7b3c
+#: ../userguides/open-data.rst:33 05f87c412fa2435b8e898a2edcfe7b3c
 msgid ""
-"Results depend on the availability and completeness of open mapping data in "
-"your area of interest. You can use it alongside AI-mapping results as a "
-"complementary source."
-msgstr "结果取决于您感兴趣的区域中开放地图数据的可用性和完整性。您可以将其与 AI 绘图结果一起用作补充来源。"
+"Results depend on how complete open mapping data is in your area. The data "
+"comes from an external source, so it may not line up exactly with the image."
+" Use it alongside AI-mapping results as a complementary source."
+msgstr "结果取决于您所在区域开放地图数据的完整程度。数据来自外部来源，可能与影像不完全对齐。请将其作为补充来源，与 AI 制图结果结合使用。"
 
-#: ../userguides/open-data.rst:29 8a8a40b509194c2090ad600bd2c3d431
+#: ../userguides/open-data.rst:37 606de6d209674efb9cb1ed7cb2392173
+msgid "Need a different object?"
+msgstr "需要识别其他对象？"
+
+#: ../userguides/open-data.rst:37 bf0a771be0c94ad6bf8c7e3ae2e94c15
 msgid ""
-"You have to select an image source the same way as for AI-mapping pipelines."
-" Note that the results may not be well aligned with the image, because the "
-"data comes from an external open data source. The image is provided only for"
-" visual reference, so you can decide whether you need to apply edits or run "
-"a Mapflow model to complement the results."
-msgstr ""
-"您必须以与 AI "
-"映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行 "
-"Mapflow 模型来补充结果。"
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr "我们可基于您的影像和类别训练定制模型，并将其接入您的 Mapflow 账户。"
+
+#: ../userguides/open-data.rst:37 e0266ea2db3743dcbb67f0977c70a61a
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr "`申请定制模型 <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/open-data.rst:37 cc718c43e2404d03afb33a74e0d2710e
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr "`模型目录和部署选项 <https://mapflow.ai/models>`__"
+
+#: ../userguides/open-data.rst:37 12996555973b4b23be4af42a2db8d91a
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
+
+#~ msgid "Download Open Data"
+#~ msgstr "下载开放数据"
+
+#~ msgid ""
+#~ "In Mapflow, you can download open mapping data from OpenStreetMap and "
+#~ "Overture Maps. This pipeline **does not use any AI model**. It is designed "
+#~ "to support your mapping projects with community-maintained open data."
+#~ msgstr ""
+#~ "在 Mapflow 中，您可以从 OpenStreetMap 和 Overture Maps "
+#~ "下载开放地图数据。该管道**不使用任何人工智能模型**。它旨在通过社区维护的开放数据支持您的测绘项目。"
+
+#~ msgid "**Run the pipeline**"
+#~ msgstr "**运行管道**"
+
+#~ msgid "Example result of the Open Data pipeline"
+#~ msgstr "开放数据管道的示例结果"
+
+#~ msgid ""
+#~ "Results depend on the availability and completeness of open mapping data in "
+#~ "your area of interest. You can use it alongside AI-mapping results as a "
+#~ "complementary source."
+#~ msgstr "结果取决于您感兴趣的区域中开放地图数据的可用性和完整性。您可以将其与 AI 绘图结果一起用作补充来源。"
+
+#~ msgid ""
+#~ "You have to select an image source the same way as for AI-mapping pipelines."
+#~ " Note that the results may not be well aligned with the image, because the "
+#~ "data comes from an external open data source. The image is provided only for"
+#~ " visual reference, so you can decide whether you need to apply edits or run "
+#~ "a Mapflow model to complement the results."
+#~ msgstr ""
+#~ "您必须以与 AI "
+#~ "映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行 "
+#~ "Mapflow 模型来补充结果。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 21:22+0200\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -19,30 +19,189 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/combo_model.rst:2 4985226c50c94eb897da9e2a8f528161
-msgid "[multi] Buildings + Roads + Forest"
-msgstr "[多]建筑物+道路+森林"
-
-#: ../userguides/combo_model.rst:4 a114478755a84a25a1be94e3e7d1f056
+#: ../userguides/combo_model.rst:1 ffc33d9d30fe463397e2a0668d914650
 msgid ""
-"This pipeline combines Buildings, Forest and Roads in a single workflow and "
-"returns the topology-corrected GeoJSON output."
-msgstr "该管道将​​建筑物、森林和道路组合在一个工作流程中，并返回经过拓扑校正的 GeoJSON 输出。"
-
-#: ../userguides/combo_model.rst:13 3ba4ad1797fd4e26a492eb9e3025a969
-msgid "Processing result of construction model"
-msgstr "施工模型处理结果"
-
-#: ../userguides/combo_model.rst:13 2f6c52f7b768459db31022e8c7dea484
-msgid ""
-"Processing result sample for a combined scenario featuring Buidlings, Roads "
-"and Forest models."
-msgstr "以建筑物、道路和森林模型为特征的组合场景的处理结果示例。"
-
-#: ../userguides/combo_model.rst:2
-msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
+"Run Buildings, Roads and Forest detection in a single Mapflow workflow and "
+"get one topology-corrected GeoJSON output."
 msgstr "在一个 Mapflow 工作流中同时运行建筑物、道路和森林识别，输出经拓扑校正的统一 GeoJSON。"
 
-#: ../userguides/combo_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 <https://mapflow.ai/zh/custom-models>`_。"
+#: ../userguides/combo_model.rst:7 4985226c50c94eb897da9e2a8f528161
+msgid "Buildings + Roads + Forest"
+msgstr "建筑物 + 道路 + 森林"
+
+#: ../userguides/combo_model.rst:10 d5c37daa72d14ffbb92d02e412a6cd2e
+msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
+msgstr ":mf-chip:`road|道路和底图` :mf-badge:`默认模型`"
+
+#: ../userguides/combo_model.rst 4e8a2594a8e04cbba036545f58b1fd50
+msgid "Buildings, roads and forest layers over a dense urban area"
+msgstr "密集城区的建筑物、道路和森林图层"
+
+#: ../userguides/combo_model.rst:10 39bdb717d22441a9b5fa762bec10ebd7
+msgid "Example result: buildings, roads and forest from one run."
+msgstr "示例结果：一次运行得到的建筑物、道路和森林。"
+
+#: ../userguides/combo_model.rst:10 2df26b0f9ce14887a1928a155da592de
+msgid "Cost"
+msgstr "费用"
+
+#: ../userguides/combo_model.rst:10 4b45226e04f44da3b2c5c3ac15ac05a2
+msgid "23 credits per km² + imagery"
+msgstr "每 km² 23 积分 + 影像"
+
+#: ../userguides/combo_model.rst:10 97fcb6615bc243b8b1e4d58e7330c436
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 260 credits."
+msgstr "示例：Mapbox 缩放级别 18 下 10 km² ≈ 260 积分。"
+
+#: ../userguides/combo_model.rst:10 8902cbd857b34a08b37e74fa3a1ed4ea
+msgid ""
+"Runs the Buildings, Roads and Forest models as one workflow and returns a "
+"single topology-corrected result, so the layers do not overlap. It costs "
+"less than running the three models one by one."
+msgstr "将建筑物、道路和森林模型作为一个工作流运行，返回拓扑已校正的单一结果，使各图层互不重叠。费用低于分别运行三个模型。"
+
+#: ../userguides/combo_model.rst:10 c6e4f6e43cc6467c83599729b4a7e054
+msgid "What you get"
+msgstr "输出结果"
+
+#: ../userguides/combo_model.rst:10 f182b9708b1b46a1a395846f2fd0c461
+msgid "Buildings, roads and forest from one run, as separate styled layers."
+msgstr "一次运行得到建筑物、道路和森林，分别输出为带样式的独立图层。"
+
+#: ../userguides/combo_model.rst:10 f19f2d31dfea46bdb5524d23572c1b4b
+msgid "Works best with"
+msgstr "最佳适用影像"
+
+#: ../userguides/combo_model.rst:10 b02052ccf5684432b4a7a64ef60f3bfb
+msgid "0.5–0.3 m imagery (zoom 18–19)."
+msgstr "0.5–0.3 米影像（缩放级别 18–19）。"
+
+#: ../userguides/combo_model.rst:10 e40de6d3b1014ec29da10dd9233e2fc1
+msgid "Usage examples"
+msgstr "使用示例"
+
+#: ../userguides/combo_model.rst:10 39159de326d0423bb2e4da0e919a69e1
+msgid "Start a base map where no vector data exists"
+msgstr "在没有矢量数据的地区建立底图"
+
+#: ../userguides/combo_model.rst:10 d949f5326bc944ad9b27bedd2560404e
+msgid "Get a land-use overview before a site visit"
+msgstr "实地考察前了解土地利用概况"
+
+#: ../userguides/combo_model.rst:10 f475a53f654549a8a23438090c2cb1c3
+msgid "Create a reference layer for disaster response"
+msgstr "为灾害响应创建参考图层"
+
+#: ../userguides/combo_model.rst:10 e0cd835c9c9a47cd8dcdb1b2e182b5a8
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr "`在 Mapflow Web 中运行 <https://app.mapflow.ai>`__"
+
+#: ../userguides/combo_model.rst:10 73d5d8bef68343bbaadfe311c69cdb1b
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ":doc:`在 QGIS 中使用 </api/qgis_mapflow>`"
+
+#: ../userguides/combo_model.rst:10 ebfd0044869646d98775c5c34a5672e6
+msgid ":doc:`Pricing </userguides/prices>`"
+msgstr ":doc:`价格 </userguides/prices>`"
+
+#: ../userguides/combo_model.rst 2669d214fe32499f97172de412d8e531
+msgid "Method"
+msgstr "方法"
+
+#: ../userguides/combo_model.rst:10 92fa7f2f22f34df5bf8a7a90c3b45528
+msgid "Buildings, Roads and Forest + topology correction"
+msgstr "建筑物、道路和森林 + 拓扑校正"
+
+#: ../userguides/combo_model.rst f369b8765c254e1484aad6db7f88beec
+msgid "GSD / zoom"
+msgstr "GSD / 缩放级别"
+
+#: ../userguides/combo_model.rst:10 a321875b7add4f7a8331d506fedf0d12
+msgid "0.5–0.3 m / z18–19"
+msgstr "0.5–0.3 m / z18–19"
+
+#: ../userguides/combo_model.rst:12 3f32b3f6a8934495a6db695cdaab6b83
+msgid "Options"
+msgstr "选项"
+
+#: ../userguides/combo_model.rst:14 048ad47b715e4020885f83544f258790
+msgid ""
+"The combined workflow takes the options of its models. See :doc:`pricing "
+"<prices>` for option costs."
+msgstr "组合工作流沿用各模型的选项。选项费用请参阅 :doc:`价格 <prices>`。"
+
+#: ../userguides/combo_model.rst:19 1db3c420d81142bdb21383053378a69b
+msgid "Building types, Merge with OpenStreetMap, Building height estimation"
+msgstr "建筑类型、与 OpenStreetMap 合并、建筑高度估算"
+
+#: ../userguides/combo_model.rst:19 3ac3de428e8648d1a2280cf570c07456
+msgid ""
+"The same options as the :doc:`Buildings model <buildings_model>`. They apply"
+" to the building layer only."
+msgstr "与 :doc:`建筑物模型 <buildings_model>` 的选项相同，仅作用于建筑物图层。"
+
+#: ../userguides/combo_model.rst:22 a36c1bd4bf2a410d95dec7234ef29355
+msgid "Forest height classes, Tree crowns"
+msgstr "森林高度分级、树冠"
+
+#: ../userguides/combo_model.rst:22 6d912c27d7484e6a944369868ce54279
+msgid "The same options as the :doc:`Forest and trees model <forest_model>`."
+msgstr "与 :doc:`森林和树木模型 <forest_model>` 的选项相同。"
+
+#: ../userguides/combo_model.rst:25 318923d098a84d2bbdf9f2a911349b4c
+msgid "Sample results"
+msgstr "示例结果"
+
+#: ../userguides/combo_model.rst 3ba4ad1797fd4e26a492eb9e3025a969
+msgid "Combined Buildings, Roads and Forest result"
+msgstr "建筑物、道路和森林的组合结果"
+
+#: ../userguides/combo_model.rst:33 cebdd5ca915243649ca43bdf6e4913e9
+msgid "Buildings, roads and forest from one run"
+msgstr "一次运行得到的建筑物、道路和森林"
+
+#: ../userguides/combo_model.rst:36 c95ce5ac8301429b9ea3eacaf3ffbb2e
+msgid "Need a different object?"
+msgstr "需要识别其他对象？"
+
+#: ../userguides/combo_model.rst:36 a060f2f042fb4cc8b1b7943433915c9a
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr "我们可基于您的影像和类别训练定制模型，并将其接入您的 Mapflow 账户。"
+
+#: ../userguides/combo_model.rst:36 ba859d3e26c241c29b2429940232eda4
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr "`申请定制模型 <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/combo_model.rst:36 fd68272783fb41ccbc394f9d1f8212c3
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr "`模型目录和部署选项 <https://mapflow.ai/models>`__"
+
+#: ../userguides/combo_model.rst:36 f65a2b846e584df1a539914da0443285
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
+
+#~ msgid ""
+#~ "This pipeline combines Buildings, Forest and Roads in a single workflow and "
+#~ "returns the topology-corrected GeoJSON output."
+#~ msgstr "该管道将​​建筑物、森林和道路组合在一个工作流程中，并返回经过拓扑校正的 GeoJSON 输出。"
+
+#~ msgid "Processing result of construction model"
+#~ msgstr "施工模型处理结果"
+
+#~ msgid ""
+#~ "Processing result sample for a combined scenario featuring Buidlings, Roads "
+#~ "and Forest models."
+#~ msgstr "以建筑物、道路和森林模型为特征的组合场景的处理结果示例。"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 "
+#~ "<https://mapflow.ai/zh/custom-models>`_。"
+
+#~ msgid ":mf-chip:`cityscape|Roads and base maps` :mf-badge:`Default model`"
+#~ msgstr ""

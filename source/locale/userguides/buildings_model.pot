@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 18:57+0200\n"
+"POT-Creation-Date: 2026-09-28 18:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/buildings_model.rst:1
-#: 591d1f3936614de1aefb1d330cab2f25
-msgid "Extract building rooftops and footprints from high-resolution satellite imagery. Type classification, regularization, simplification and height estimation."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:7
-#: 0e9efb1a1615416fb8b534e24734e6da
-msgid "🏠 Buildings"
+#: 5792a915b3e440628cdc803e4e4a90cb
+msgid "Extract building rooftops and footprints from high-resolution satellite and aerial imagery. Building types, simplification, OpenStreetMap merge and height estimation."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:9
-#: 72ec300b703246069f8dd2a0fb2afa95
-msgid "Extracting of rooftops of buildings from imagery of high resolution. High performance deep learning model is trained to detect the buildings roofs."
+#: 0e9efb1a1615416fb8b534e24734e6da
+msgid "Buildings"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:12
-#: cce744ffa8484f5a9a3ea4867f559c4b
-msgid "**Model tags** |:label:|"
+#: 4b8481747a594a639c0e4056c28c8ccb
+msgid ":mf-chip:`buildings|Buildings` :mf-badge:`Default model`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:0
+#: ../userguides/buildings_model.rst:20
+#: 0dcc3500d6b344369e3e9cb18ba0ba2b
+#: 793bdf6343c34dbb9b35da93699754ce
+msgid "Building roof polygons over a suburban area"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: e016e05098ee4f718364cef053b8a05c
+msgid "Example result: one polygon per building roof."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: ../userguides/buildings_model.rst:36
+#: fe3d1202bd384e5dadf3cae0a04f7b9d
+#: 5328dbfae69a4bdeb48cdad9c1f3176d
+#: 490a0689919f4234ad62a9e63a2e08a0
+msgid "Cost"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: adeee236e1d744a2896832e1866a934b
+#: 1fb20fedf3bb46dfaf936e12a94207f4
+msgid "10 credits per km² + imagery"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 35bdf9a619904f2086b59c3f05351fac
+msgid "Example: 10 km² on Mapbox zoom 19 ≈ 190 credits. Your own imagery costs nothing."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 26041829693a44f3b71d403e367bd818
+msgid "Finds building roofs on high-resolution imagery and returns one polygon per building. Objects under 20 m² are dropped to keep the layer clean. Building types, heights and cleaner shapes are options you switch on when you start a run."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: ../userguides/buildings_model.rst:36
+#: 558d9b4540a740428ef8dd419eddfeac
+#: 95d6fd9299854ef488e3dbcc340ba810
+#: a1d45f764cf349ed99b73a5606e5423a
+msgid "What you get"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 15fba5e4ad654ec5ad8e0f40b797b5ed
+msgid "A polygon layer of building roofs."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: ../userguides/buildings_model.rst:36
+#: d81488e3f8764617861d628e45d31668
+#: 813129e8ef0d4fa8b7666238e060ff00
+#: 957b8554e9ee4a9ab55c32407ad2e4fd
+msgid "Works best with"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: 175a9345ae774c6daaee4ed8b5db11ba
+#: 28cfe42b4b7f40e9ada731c158e70c88
+msgid "Aerial or satellite imagery at 0.3 m per pixel (zoom 19)."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: ../userguides/buildings_model.rst:27
+#: ../userguides/buildings_model.rst:36
+#: 686b5318e63443148279da43131d105c
+#: f8b5da1a3a094904852b3afbf332081c
+#: 06a11691275845c5a62aa77f89f9a708
+msgid "Usage examples"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: f4a63f1ac3034a8db516152394cac220
+msgid "Refresh a municipal building layer before a field survey"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 6900df0b0eaa44d09015626241277130
+msgid "Count structures in a settlement for planning or emergency response"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: fe4df5d5bea6445c96feca1b01c6f330
+msgid "Find parcels with new or missing buildings"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 725a901e3b6b46dc91d61629be46211b
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: aee7b4973d944a18b994fa04363b603e
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:12
+#: 3f62c0af6e8c47b89039ea67450d34cc
+msgid ":doc:`Pricing </userguides/prices>`"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:0
@@ -41,626 +143,839 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:14
+#: ../userguides/buildings_model.rst:12
 #: f222918798544ea5b4f9521c1ed33733
 msgid "2026-07-06"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:0
 #: 3a153cc0e9aa4b7c86f93308b34055b6
-msgid "Geo Domain"
+msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:15
+#: ../userguides/buildings_model.rst:12
 #: d7ff9d3e6a4c4134bcbc2d156df68835
 msgid "Global"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:0
 #: 49f1b3ee9413415cad5a791bfb1201bc
-msgid "Model method"
+msgid "Method"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:16
+#: ../userguides/buildings_model.rst:12
 #: 6bd5705f0b294b2ab7adf35cfd835246
 msgid "Segmentation"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:0
 #: 049bc42012a34476a34d22ef80c2af39
-msgid "GSD / Map Zoom"
+msgid "GSD / zoom"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:17
+#: ../userguides/buildings_model.rst:12
 #: f6dc9e712b354aa8bee15b844e0c6484
 msgid "0.3 m / z19"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:19
-#: 7512bea9e93d4c9486dc994c6a6c1d7e
-msgid "*Note:* The building predictions with area less than 20 sq.m. are removed to avoid clutter"
+#: ../userguides/buildings_model.rst:14
+#: 0f6d3040a6174838a6bb3351c5598f45
+msgid "Scenarios with this model"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:21
-#: 45029b362cfe406480a144a39136a427
-msgid "The model does not extract the footprints directly, because they are not clearly visible in the images, but it can obtain them, just like human cartographers, by moving the roof to the bottom of the wall (see Additional options)."
+#: ../userguides/buildings_model.rst:16
+#: c3a6ace3b16e4a2988c8bacd244c4ab1
+msgid "Each scenario is the Buildings model with one option switched on. Choose options in the run form of Mapflow Web or the QGIS plugin."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:23
-#: f28d799dc9dd40b595e9e50d102bdd92
-msgid "**Additional options:**"
+#: ../userguides/buildings_model.rst:20
+#: 3053ae5f55fb4968bc58c2006c17a232
+msgid "Map every building"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:25
-#: 3ea4e4e49e85440784c8ba217e1e247d
-msgid "**Classification by types of buildings** – typology of buildings is represented by the main classes (see :ref:`reference <buildings_classes>`)."
+#: ../userguides/buildings_model.rst:20
+#: b17e73dccb1f4c2f87f52cf663cb9695
+msgid ":mf-chip:`buildings|Default run`"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:26
-#: 48355fbfb1ff4b808c87039f4a0beca4
-msgid "**Regularization** - the algorithm corrects the irregularities of the contours of our model. The irregular geometries are replaced with rectangles, circles or arbitary polygons with 90 degree angles, which fits better to the original shape. This option produces much more map-friendly shapes which look better, but some original mask accuracy can be lost."
+#: ../userguides/buildings_model.rst:20
+#: 31319d5562e7487383119be5162488b7
+msgid "Roof outline of every building in your area, as editable polygons."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: 74d88507099348bbbc36b3c5d58f6388
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 19"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: ../userguides/buildings_model.rst:0
+#: bff358b9280343c4a1c9ba7786adfc1f
+#: 4d57c20c1d21413c94b64d7fb5b81cf2
+msgid "Building polygons coloured by building type"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: ../userguides/buildings_model.rst:24
+#: 52ff9db6c3744c95983faf9164a49b7e
+#: afdde6cbf1784b10ac2d3467e8ac170b
+msgid "Sort buildings by type"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: e906688f46ea4f6c9b1cdf64ce6b1cdc
+msgid ":mf-badge:`+ Building types`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: e0bd553f509c488b9c7b5efa993960e6
+msgid "Every building polygon carries a type, ready to filter and style."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: 02c00d89751c466baef6ace5f7a49fd2
+msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: ../userguides/buildings_model.rst:0
+#: 8862e86ba98d4599bd5f1fd87dd1307e
+#: 01ae376f90ca40fb9b820b2e50ec6b6b
+msgid "Building footprints extruded by estimated height"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: ../userguides/buildings_model.rst:33
+#: 1b8e651afcd248f0b04dad3695d72131
+#: 8b541631e2ea41a68cdeabf3bf09eb90
+msgid "Building heights and 3D footprints"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: 49f022826bb34a4faf66eb1a5411554e
+msgid ":mf-badge:`+ Heights (beta)`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: c698ae548ba946d1950d1e80e0e93096
+msgid "A height for each building, with the outline moved from roof to ground."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:20
+#: db506c8f8ffa44d9babbc5742090feca
+msgid ":mf-icon:`credits` 20 cr/km² + imagery · zoom 19"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:27
-#: 7efb953cd14846d3970b8329d6cbb717
-msgid "**Simplification** - simplifies the building shape, staying close to the original mask, adjusted for curve and complex shapes. More approximated shapes, but less right angles."
+#: abe9eee3f5c74e0b97d31be9cc696c68
+msgid ":mf-chip:`buildings|Buildings` :mf-badge:`+ Building types`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: 0b4e38a33b424a578a0926b0a80fa814
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 130 credits. Your own imagery costs nothing."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: 82cf7d2806484ffab0879f991de0c0e0
+msgid "Runs the Buildings model with classification switched on, so each roof polygon gets a building class. Classification adds no extra cost."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: 6e4a4ca83bdc4061b4791cc339d28f43
+msgid "Building polygons with a class attribute."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: d2711a1c37634c0c8600f7a2102113af
+msgid "Compare residential and non-residential stock by district"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: 30e68d23d7284276becb45db8f5a84fb
+msgid "Pull industrial and commercial sites into their own layer"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:27
+#: e157e08d55aa425aba565c568d732d43
+msgid "Feed zoning and land-use analysis with fresh data"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:28
-#: dfbd5c6e9fb54aed8f12cc506833d3b4
-msgid "**Merge with OSM** - some of the areas have great coverage of OpenStreetMap data, and if you prefer human-annotated data, you can select this option.In this case, we check for each building whether it has a good corresponding object in OSM (Jaccard index) and if there is one, we replace our result with OSM polygon. This makes the result not based on the image, so the buildings can be shifted from actual positions. Also the corrected buildings are rotated to align with the nearest roads downloaded from OSM."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:29
-#: 956fa65da444493f98ae84ae33fb6fb7
-msgid "**Height Estimation (beta)** – feature leverages a dedicated regression-based model that infers height using visual indicators such as shadow length and visible wall segments. The result is what is termed **3D building footprints** where the building's countour is projected to ground level instead of the roof outline. This is especially useful for oblique imagery, where roofs often appear shifted."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:33
-#: 71ec1e517e5d48efbdfedddfbc9b0072
-msgid "Benchmarks - segmentation"
+#: 3ea4e4e49e85440784c8ba217e1e247d
+msgid "The full list of types is in the :ref:`building classes reference <buildings_classes>`."
 msgstr ""
 
 #: ../userguides/buildings_model.rst:36
+#: 85968fb5730b4260a61460fa4a39bd71
+msgid ":mf-chip:`buildings|Buildings` :mf-badge:`+ Heights (beta)`"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 73e69e3b0a4a4fd2af0606fdde866b55
+msgid "20 credits per km² + imagery"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 448dec42183e420fa666ff684a807803
+msgid "Example: 10 km² on Mapbox zoom 19 ≈ 290 credits. Your own imagery costs nothing."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 956fa65da444493f98ae84ae33fb6fb7
+msgid "Adds a height model that reads shadow length and visible walls. The result is a 3D footprint: the building contour projected to ground level instead of the roof outline."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 0a3970a62d244785b23d1a55addf91f4
+msgid "Footprint polygons with a height attribute, ready for the QGIS 3D map view."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: d9fdd4e000814a40a6cfd1520477cb8f
+msgid "0.3 m imagery (zoom 19) with visible shadows. Helps most on oblique imagery, where roofs look shifted."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 1d22a930bb85437abc936d1fb12790a0
+msgid "Extrude buildings in the QGIS 3D map view"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: be50933505fd41c2a9cd36ff049982ce
+msgid "Estimate floor area and building volume"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:36
+#: 4e2e40c1e26741ef810de74d26761158
+msgid "Screen areas for shade and line-of-sight studies"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:37
+#: 45029b362cfe406480a144a39136a427
+msgid "The model does not see footprints directly, because walls hide them in the image. Like a cartographer, it moves the roof outline down to the bottom of the wall."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:41
+#: 30dc7ca849ff4ab6975b79c1d8f1cf70
+msgid "All options"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:46
+#: 0e9efb1a1615416fb8b534e24734e6da
+msgid "Building types"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:46
+#: 3ea4e4e49e85440784c8ba217e1e247d
+msgid "Assigns every building one of the main classes (see :ref:`reference <buildings_classes>`). No extra cost."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:51
+#: 6bd5705f0b294b2ab7adf35cfd835246
+msgid "Regularization"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:49
+#: 48355fbfb1ff4b808c87039f4a0beca4
+msgid "Corrects irregular contours. Shapes are replaced with rectangles, circles or polygons with 90° angles that fit the original shape. The result is more map-friendly, but some of the original mask accuracy can be lost."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:55
+#: 30dc7ca849ff4ab6975b79c1d8f1cf70
+msgid "Simplification"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:54
+#: 7efb953cd14846d3970b8329d6cbb717
+msgid "Simplifies the building shape while staying close to the original mask, including curved and complex shapes. Fewer right angles than regularization."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:60
+#: 77e5155b02ae48a0a8bc356b95fb6b95
+msgid "Merge with OpenStreetMap"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:58
+#: a092eb556965423683af0a132c3d8f55
+msgid "Where OpenStreetMap coverage is good, each building that has a matching OSM object (Jaccard index) is replaced with the OSM polygon, and rotated to align with the nearest OSM road. The result is then no longer based on the image, so buildings can be shifted from their actual position."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:65
+#: c3ff27ed906e4af58a245050f3c988d6
+msgid "Height estimation (beta)"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:63
+#: 956fa65da444493f98ae84ae33fb6fb7
+msgid "A regression model estimates height from visual cues such as shadow length and visible walls, and returns 3D footprints: the contour projected to ground level instead of the roof outline. Most useful on oblique imagery, where roofs appear shifted. +10 credits per km²."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:68
+#: 7512bea9e93d4c9486dc994c6a6c1d7e
+msgid "Buildings smaller than 20 m² are removed from the result to avoid clutter."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:73
+#: 71ec1e517e5d48efbdfedddfbc9b0072
+msgid "Benchmarks"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:75
+#: cd672bb2c4384e1e8274c9066f247591
+msgid "**Buildings v.2026-07-06** (Global, segmentation, 0.3 m / z19) was evaluated against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union of the predicted and ground-truth building masks, and F1, precision and recall are computed on the overlapping mask area."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:0
 #: dc5de10ac5894ddf93dbc598b4a665a9
 msgid "Aerial imagery"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:38
-#: cd672bb2c4384e1e8274c9066f247591
-msgid "Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m / z19). The model was evaluated on a global validation set of 7 areas of interest (AOI) against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union of the predicted and ground-truth building masks, and F1 / Precision / Recall are computed on the overlapping mask area."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:48
-#: ../userguides/buildings_model.rst:127
+#: ../userguides/buildings_model.rst:87
+#: ../userguides/buildings_model.rst:162
 #: 30dc7ca849ff4ab6975b79c1d8f1cf70
 #: 30dc7ca849ff4ab6975b79c1d8f1cf70
 msgid "AOI (location)"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:49
-#: ../userguides/buildings_model.rst:128
+#: ../userguides/buildings_model.rst:88
+#: ../userguides/buildings_model.rst:163
 #: e30e1bb09c9543a99147fc921cd3dd13
 #: e30e1bb09c9543a99147fc921cd3dd13
 msgid "Predicted features"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:50
-#: ../userguides/buildings_model.rst:129
+#: ../userguides/buildings_model.rst:89
+#: ../userguides/buildings_model.rst:164
 #: 9a39b0168bcf471896d5db5fc267afee
 #: 9a39b0168bcf471896d5db5fc267afee
 msgid "IoU"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:51
-#: ../userguides/buildings_model.rst:130
+#: ../userguides/buildings_model.rst:90
+#: ../userguides/buildings_model.rst:165
 #: 15beed923a35477ea08611fb879bfeee
 #: 15beed923a35477ea08611fb879bfeee
 msgid "F1"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:52
-#: ../userguides/buildings_model.rst:131
+#: ../userguides/buildings_model.rst:91
+#: ../userguides/buildings_model.rst:166
 #: 49f1b3ee9413415cad5a791bfb1201bc
 #: 49f1b3ee9413415cad5a791bfb1201bc
 msgid "Precision"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:53
-#: ../userguides/buildings_model.rst:132
+#: ../userguides/buildings_model.rst:92
+#: ../userguides/buildings_model.rst:167
 #: 02ce01c7ac7342c7a57139412b6336bf
 #: 02ce01c7ac7342c7a57139412b6336bf
 msgid "Recall"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:54
+#: ../userguides/buildings_model.rst:93
 #: 0da87e633917479e947cf5a0ffd4e701
 msgid "United States — Fort Myers"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:55
+#: ../userguides/buildings_model.rst:94
 #: a88ca456a01e4db58974a5d282994739
 msgid "65"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:56
-#: ../userguides/buildings_model.rst:138
+#: ../userguides/buildings_model.rst:95
+#: ../userguides/buildings_model.rst:173
 #: f9deb117878d41a6bd13fa1fddc1af7c
 #: f9deb117878d41a6bd13fa1fddc1af7c
 msgid "0.907"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:57
+#: ../userguides/buildings_model.rst:96
 #: a354d9b5c26f4030a648e6b3c876c91e
 msgid "**0.951**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:58
+#: ../userguides/buildings_model.rst:97
 #: e1309f8c6e254576a151bee9303d9317
 msgid "0.983"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:59
+#: ../userguides/buildings_model.rst:98
 #: 67367150266148f2ab0c9249dc108219
 msgid "0.921"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:60
+#: ../userguides/buildings_model.rst:99
 #: d76dd50a88bf468bb810f1584ee40623
 msgid "United States — Phoenix"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:61
+#: ../userguides/buildings_model.rst:100
 #: 9f089833854644a380d7d00cbbcacad0
 msgid "47"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:62
-#: ../userguides/buildings_model.rst:83
+#: ../userguides/buildings_model.rst:101
+#: ../userguides/buildings_model.rst:122
 #: cfe828b1be644215b713b57293fa6bc8
 #: cfe828b1be644215b713b57293fa6bc8
 msgid "0.903"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:63
+#: ../userguides/buildings_model.rst:102
 #: 1a95e6ab451d421ba2fb0669e0dc6107
 msgid "**0.949**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:64
+#: ../userguides/buildings_model.rst:103
 #: d8df6e83fad74e96bc186bf9cb505cab
 msgid "0.944"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:65
+#: ../userguides/buildings_model.rst:104
 #: 5a6e4398c9744a31970d98fcfb20f873
 msgid "0.953"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:66
+#: ../userguides/buildings_model.rst:105
 #: 2c68ec22c87149808221b70bdb2dd5bf
 msgid "Canada — Rigaud"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:67
+#: ../userguides/buildings_model.rst:106
 #: 18379e676e644557911293fdacb0e088
 msgid "103"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:68
+#: ../userguides/buildings_model.rst:107
 #: ec62425c263e447c86700dd8002cbb2e
 msgid "0.870"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:69
+#: ../userguides/buildings_model.rst:108
 #: 0c684ab3a1d8430eac071074ce01d145
 msgid "**0.930**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:70
+#: ../userguides/buildings_model.rst:109
 #: fafdf162375c4e35aecfd42ee18e32bd
 msgid "0.934"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:71
+#: ../userguides/buildings_model.rst:110
 #: b1c2898cb7aa4a73971b96ceb717e78c
 msgid "0.927"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:72
+#: ../userguides/buildings_model.rst:111
 #: 5f9df7351e5a4f9ab21512f11257e579
 msgid "Australia — Adelaide"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:73
+#: ../userguides/buildings_model.rst:112
 #: 00a6a58699264047b9d550348c0665a5
 msgid "92"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:74
+#: ../userguides/buildings_model.rst:113
 #: ef6b32441bab4d96829d1e84e8d4687b
 msgid "0.868"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:75
-#: ../userguides/buildings_model.rst:81
+#: ../userguides/buildings_model.rst:114
+#: ../userguides/buildings_model.rst:120
 #: 2ceba2a13edb4024bf69943b20656762
 #: 2ceba2a13edb4024bf69943b20656762
 msgid "**0.929**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:76
+#: ../userguides/buildings_model.rst:115
 #: 6904b2a23dcc43a69229171adc679433
 msgid "0.914"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:77
+#: ../userguides/buildings_model.rst:116
 #: 68186c1a4c854f75916f05175c7310b5
 msgid "0.945"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:78
+#: ../userguides/buildings_model.rst:117
 #: 2c2a0f407f2a45d4928b9680bdd87670
 msgid "New Zealand — Lower Hutt"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:79
+#: ../userguides/buildings_model.rst:118
 #: 4a77d4400a874a04a1a7be035355e920
 msgid "106"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:80
-#: ../userguides/buildings_model.rst:106
+#: ../userguides/buildings_model.rst:119
+#: ../userguides/buildings_model.rst:145
 #: d1b6db7c9a3445399adb39eafd5b2cf3
 #: d1b6db7c9a3445399adb39eafd5b2cf3
 msgid "0.867"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:82
+#: ../userguides/buildings_model.rst:121
 #: 0ab7fd57fdb045a6b49a0498b84cd0b0
 msgid "0.956"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:84
+#: ../userguides/buildings_model.rst:123
 #: 1409c04cf4784f1a8cd4df64b934eb7e
 msgid "New Zealand — Wellington"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:85
+#: ../userguides/buildings_model.rst:124
 #: d1b4eb60192c4162892f804161c449a1
 msgid "76"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:86
+#: ../userguides/buildings_model.rst:125
 #: f8c80cf8dd0c44b398b9b55c6cb1d1ae
 msgid "0.838"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:87
+#: ../userguides/buildings_model.rst:126
 #: 95af0ddc224047598b0ef5e2c6865a9d
 msgid "**0.912**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:88
+#: ../userguides/buildings_model.rst:127
 #: 1de630e3e22d442db57bb9561e29356d
 msgid "0.900"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:89
+#: ../userguides/buildings_model.rst:128
 #: 823f76d52151465091f4b3957a9f0638
 msgid "0.924"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:90
+#: ../userguides/buildings_model.rst:129
 #: abe0495bc6ab467985ce45795bb5d9c2
 msgid "United Kingdom — London"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:91
+#: ../userguides/buildings_model.rst:130
 #: ae4e28304e634b08be816a1598288f6b
 msgid "68"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:92
-#: ../userguides/buildings_model.rst:110
+#: ../userguides/buildings_model.rst:131
+#: ../userguides/buildings_model.rst:149
 #: 40a9541eb1484e4caf34e7ecdffcebd0
 #: 40a9541eb1484e4caf34e7ecdffcebd0
 msgid "0.813"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:93
+#: ../userguides/buildings_model.rst:132
 #: 36da6237e7e94060ad0a4821cdf211ec
 msgid "**0.897**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:94
+#: ../userguides/buildings_model.rst:133
 #: 2623e853f4394bf3a671c953abd9afc6
 msgid "0.873"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:95
+#: ../userguides/buildings_model.rst:134
 #: a54e385e64c443e382deba7abdb7b916
 msgid "0.922"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:96
+#: ../userguides/buildings_model.rst:135
 #: f7ec7a6601e64ce6be29d2870eca45b0
 msgid "Côte d'Ivoire — Bangolo"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:97
+#: ../userguides/buildings_model.rst:136
 #: 64f931fd03d348009365af1ebc935738
 msgid "102"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:98
+#: ../userguides/buildings_model.rst:137
 #: 55d95795a4204a528bd53505fdcf6a06
 msgid "0.663"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:99
+#: ../userguides/buildings_model.rst:138
 #: 0d241e054eb544f1b9699f030cad028d
 msgid "**0.797**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:100
+#: ../userguides/buildings_model.rst:139
 #: e46b3c8ca84d45698a3a6e389178859b
 msgid "0.844"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:101
+#: ../userguides/buildings_model.rst:140
 #: e8286c16b189421ca26e8023e3001c75
 msgid "0.755"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:102
+#: ../userguides/buildings_model.rst:141
 #: 1ec35eb6e93a4d4c84c84a985e6e7dc1
 msgid "South Africa — Worcester"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:103
+#: ../userguides/buildings_model.rst:142
 #: 7575f33c2cec4648ad1d4a39f79d0d96
 msgid "156"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:104
+#: ../userguides/buildings_model.rst:143
 #: 93224c8635bb4f24883b021696b0759b
 msgid "0.592"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:105
+#: ../userguides/buildings_model.rst:144
 #: bb4446d2a4ab4e7497160eb28513227d
 msgid "**0.744**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:107
+#: ../userguides/buildings_model.rst:146
 #: 92efc2b850914eb68110a1a2efaf8835
 msgid "0.651"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:108
+#: ../userguides/buildings_model.rst:147
 #: 93f0bb9830964a0995c77f79f2f4272e
 msgid "**Aerial (mean of 9 AOIs)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:109
+#: ../userguides/buildings_model.rst:148
 #: 7facff6aa1b14a669b32cd7eba569f66
 msgid "815"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:111
+#: ../userguides/buildings_model.rst:150
 #: a125c08a3a8a4d0ba46c675e3d2b052a
 msgid "**0.893**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:112
+#: ../userguides/buildings_model.rst:151
 #: 6d3fdab074a54599aae8ead423999a7b
 msgid "0.913"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:113
+#: ../userguides/buildings_model.rst:152
 #: 3ac69d7003dc4b46b58751d2c72b1e3c
 msgid "0.878"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:115
+#: ../userguides/buildings_model.rst:154
 #: c000fa5963ea4cf48ae8ff934df46ba2
 msgid "*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-13.*"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:118
+#: ../userguides/buildings_model.rst:0
 #: 5609fcee1b374134ada4014a06b9674f
 msgid "Satellite imagery"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:120
-#: 29b8c2804add44ec986ad9fb06e81364
-msgid "Additional validation of **🏠 Buildings v.2026-07-06** on satellite imagery across 5 dense urban areas of interest."
-msgstr ""
-
-#: ../userguides/buildings_model.rst:133
+#: ../userguides/buildings_model.rst:168
 #: 9edc48bf78104e9d99477eba2ccdc684
 msgid "Russia — Ufa"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:134
+#: ../userguides/buildings_model.rst:169
 #: a3581f2b87e244a4971d42c4f3f83e88
 msgid "426"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:135
+#: ../userguides/buildings_model.rst:170
 #: fac5fd5a0f7d4b67a9f39cf9d62a5b2b
 msgid "0.821"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:136
+#: ../userguides/buildings_model.rst:171
 #: af31523bfb5441d2b2eb6420e638436d
 msgid "**0.902**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:137
+#: ../userguides/buildings_model.rst:172
 #: db582fd02b2b4a5180bf685b3d2424c2
 msgid "0.897"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:139
+#: ../userguides/buildings_model.rst:174
 #: e3861f0a267c4946bc1a17ce1793acfd
 msgid "Saudi Arabia — Riyadh"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:140
+#: ../userguides/buildings_model.rst:175
 #: 807b98817490442ea9d0272d8b782163
 msgid "225"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:141
+#: ../userguides/buildings_model.rst:176
 #: 2b673fcf8946484ab92311ff017abde4
 msgid "0.817"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:142
+#: ../userguides/buildings_model.rst:177
 #: ff1c6d1051064da3b81fa486b727322c
 msgid "**0.899**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:143
+#: ../userguides/buildings_model.rst:178
 #: 2431bd5508454ff2831314ab6e95a3ce
 msgid "0.920"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:144
-#: ../userguides/buildings_model.rst:167
+#: ../userguides/buildings_model.rst:179
+#: ../userguides/buildings_model.rst:202
 #: 00dbff06d65e4a409776e961ce86c8ca
 #: 00dbff06d65e4a409776e961ce86c8ca
 msgid "0.879"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:145
+#: ../userguides/buildings_model.rst:180
 #: 6ef2af50e09d4693b12c4c5823fdd051
 msgid "India — Bangalore"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:146
+#: ../userguides/buildings_model.rst:181
 #: 726eeb91a2cf40ec8c6ac73b45bae5c1
 msgid "508"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:147
+#: ../userguides/buildings_model.rst:182
 #: 6d2c50d088bf4ea0a9ee713d61095cbf
 msgid "0.779"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:148
+#: ../userguides/buildings_model.rst:183
 #: 130fef7454144396b0a0d30311ab80cb
 msgid "**0.876**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:149
+#: ../userguides/buildings_model.rst:184
 #: e76d348afd1145c8b88ac26a220251bb
 msgid "0.859"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:150
+#: ../userguides/buildings_model.rst:185
 #: 4698a8eaa34b4d8bb960bf0af0f3cbbe
 msgid "0.894"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:151
+#: ../userguides/buildings_model.rst:186
 #: ae8c52fa5a954be083532bc7ff30437c
 msgid "India — Thane"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:152
+#: ../userguides/buildings_model.rst:187
 #: 39f7ce98dea84a11b4ccb93e414a65e7
 msgid "429"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:153
+#: ../userguides/buildings_model.rst:188
 #: 867d58839e3c4e1595ac1c43f4574878
 msgid "0.768"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:154
+#: ../userguides/buildings_model.rst:189
 #: b611141d1d2e40d8b1113953f45653f9
 msgid "**0.869**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:155
+#: ../userguides/buildings_model.rst:190
 #: dd2b928e92774719bb5f47a576123f2c
 msgid "0.889"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:156
+#: ../userguides/buildings_model.rst:191
 #: 35d7664a43b947c2aa38b7b06606b056
 msgid "0.849"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:157
+#: ../userguides/buildings_model.rst:192
 #: 99be4050db564187816b6582b31e5c2b
 msgid "United Arab Emirates — Abu Dhabi"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:158
+#: ../userguides/buildings_model.rst:193
 #: 9aefc3a1ca934a368ff8de52cf2c14d0
 msgid "142"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:159
+#: ../userguides/buildings_model.rst:194
 #: 78730449ed21429f84602910e0c6262e
 msgid "0.751"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:160
+#: ../userguides/buildings_model.rst:195
 #: f55566f1898a43a282b94ef4137d6900
 msgid "**0.858**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:161
+#: ../userguides/buildings_model.rst:196
 #: 632f7a5b84c04e7aa454fa47ee3f0ea5
 msgid "0.828"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:162
+#: ../userguides/buildings_model.rst:197
 #: a0d003c721a540ce9310513c07250d71
 msgid "0.890"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:163
+#: ../userguides/buildings_model.rst:198
 #: d0df84a16e9549eda2078075854e4444
 msgid "**Satellite (mean of 5 AOIs)**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:164
+#: ../userguides/buildings_model.rst:199
 #: 2853ee1ebefd468fbba185f15e73c887
 msgid "1730"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:165
+#: ../userguides/buildings_model.rst:200
 #: 0d8c8f7e13d74dedba78ee7c50ffb3ae
 msgid "0.787"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:166
+#: ../userguides/buildings_model.rst:201
 #: 639ab2fd99c945fe96214edc0de86fd2
 msgid "**0.881**"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:168
+#: ../userguides/buildings_model.rst:203
 #: d5a1d9dce25142bc88f56e0178010b33
 msgid "0.884"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:170
+#: ../userguides/buildings_model.rst:205
 #: eff38a84b5f64493a783c2709076c5cd
 msgid "*Area-based IoU / F1 / Precision / Recall measured against ground-truth building masks; evaluation run 2026-06-16.*"
 msgstr ""
 
-#: ../userguides/buildings_model.rst:174
+#: ../userguides/buildings_model.rst:209
 #: 389e6623e1ee454ab72b932b16d3cb0d
-msgid "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the area-by-area breakdown of both the global and satellite sets, including comparison with the previous version and prediction-vs-ground-truth overlays."
+msgid "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for the area-by-area breakdown of both sets, the comparison with the previous version and prediction-vs-ground-truth overlays."
 msgstr ""
 
-#: ../userguides/buildings_model.rst:182
+#: ../userguides/buildings_model.rst:214
+#: 49c508074e07454baf359adaee2d92dd
+msgid "Need a different object?"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:214
+#: 149226acdb554339a39dba56fa5d3f68
+msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
+msgstr ""
+
+#: ../userguides/buildings_model.rst:214
+#: 215bf3503c88459d862687100edc56f4
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:214
 #: ec285f66af7d4f64b5c3cc754eda3690
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+
+#: ../userguides/buildings_model.rst:214
+#: 1264e848a67a48f0a950e6ef416da061
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

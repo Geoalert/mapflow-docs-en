@@ -43,7 +43,7 @@ msgstr ""
 msgid ""
 "How to use :doc:`Mapflow – QGIS <qgis_plugin>` to search for mosaic's "
 "metadata and run the analysis:"
-msgstr "如何使用 Mapflow – QGIS <qgis_plugin>` 搜索马赛克的元数据并运行分析："
+msgstr "如何使用 :doc:`Mapflow – QGIS <qgis_plugin>` 搜索镶嵌图的元数据并运行分析："
 
 #: ../userguides/search_mosaic.rst:9 72e231c8784b473d85692d73068c8210
 msgid "Switch to the Tab \"Imagery Search\""

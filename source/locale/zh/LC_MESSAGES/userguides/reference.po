@@ -50,7 +50,9 @@ msgid ""
 "<https://github.com/Geoalert/mapflow_data_preprocessor/>`_ or other tools to"
 " translate it to the appropriate format;"
 msgstr ""
-"您上传的图像将以“Uint8”格式进行预处理。如果您的图像不是这种类型，并且您想在上传到Mapflow服务器之前手动预览它，请使用我们的`图像预处理脚本<https://github.com/Geoalert/mapflow_data_preprocessor/>`_或其他工具将其转换为适当的格式；"
+"您上传的图像将以“Uint8”格式进行预处理。如果您的图像不是这种类型，并且您想在上传到Mapflow服务器之前手动预览它，请使用我们的\\ "
+"`图像预处理脚本 <https://github.com/Geoalert/mapflow_data_preprocessor/>`_\\ "
+"或其他工具将其转换为适当的格式；"
 
 #: ../userguides/reference.rst:19 0af9b610d2064603981271c54406a890
 msgid ""
@@ -62,7 +64,7 @@ msgstr "您的图像必须在地理或投影坐标系、椭球WGS84中进行地�
 msgid ""
 "The default limit for file size is ``1 Gb`` for free users. If you have a "
 "bigger file – reduce its size or consider switching to the paid plan;"
-msgstr "对于免费用户，文件大小的默认限制为“1 Gb”。如果您有更大的文件 - 减小其大小或考虑切换到付费计划；"
+msgstr "对于免费用户，文件大小的默认限制为“``1 Gb``”。如果您有更大的文件 - 减小其大小或考虑切换到付费计划；"
 
 #: ../userguides/reference.rst:21 6d269757a47e41e6ad25c53bfb04d929
 msgid "Your image should be RGB composite, RGBa or Singleband;"
@@ -70,17 +72,17 @@ msgstr "您的图像应该是 RGB 复合、RGBa 或 Singleband；"
 
 #: ../userguides/reference.rst:22 73cbf3a8a5824f14ad7e78e99feb52dc
 msgid "Maximum image dimensions: ``65535 px`` per side;"
-msgstr "最大图像尺寸：每边``65535 px``；"
+msgstr "最大图像尺寸：每边\\ ``65535 px``；"
 
 #: ../userguides/reference.rst:23 bd7270211f38474fbacfe2c892684cf4
 msgid "Pixel size must not exceed ``20 m/px``;"
-msgstr "像素大小不得超过“20 m/px”；"
+msgstr "像素大小不得超过“``20 m/px``”；"
 
 #: ../userguides/reference.rst:24 a3d81ba2ca6d4550a5fb054548b4ca68
 msgid ""
 "Images with a pixel size less than ``10 cm/px`` will be resampled to this "
 "resolution;"
-msgstr "像素大小小于“10 cm/px”的图像将被重新采样到该分辨率；"
+msgstr "像素大小小于“``10 cm/px``”的图像将被重新采样到该分辨率；"
 
 #: ../userguides/reference.rst:25 9d707483b96a4e7881f30018945f9227
 msgid "All images within a collection must have the same number of bands;"
@@ -96,7 +98,7 @@ msgstr "上传的图像将被重新投影和重新采样，以匹配集合中其
 msgid ""
 "Each Mapflow model has its recommendations for the spatial resolution of the"
 " input data, see :ref:`Model_requirements` below."
-msgstr "每个 Mapflow 模型都有其对输入数据的空间分辨率的建议，请参阅下面的模型要求。"
+msgstr "每个 Mapflow 模型都有针对输入数据空间分辨率的建议，请参阅下方的 :ref:`Model_requirements`。"
 
 #: ../userguides/reference.rst:29 59980564e9034f84871d833133bbf48f
 msgid ""
@@ -106,7 +108,7 @@ msgid ""
 " description <../api/error_messages>`."
 msgstr ""
 "如果不符合任何要求，系统会报告错误。如果您使用 Mapflow Web 或 Mapflow QGIS "
-"插件，错误消息将显示在用户界面中。有关更多详细信息，请参阅:doc:`错误描述 <../api/error_messages>`。"
+"插件，错误消息将显示在用户界面中。有关更多详细信息，请参阅\\ :doc:`错误描述 <../api/error_messages>`。"
 
 #: ../userguides/reference.rst:36 6a0f362d3bf3470ab0310ea28af5474a
 msgid "Model requirements"
@@ -122,7 +124,7 @@ msgstr "下表列出了输入图像空间分辨率的模型要求。"
 msgid ""
 "**\"Required\"** means that the imagery with resolution outside of this "
 "range will be rejected from processing and the request will fail."
-msgstr "**“必需”**表示分辨率超出此范围的图像将被拒绝处理，并且请求将失败。"
+msgstr "**“必需”**\\ 表示分辨率超出此范围的图像将被拒绝处理，并且请求将失败。"
 
 #: ../userguides/reference.rst:43 9bbb67d8ebb94e798a0ec32c3bd73629
 msgid ""
@@ -133,7 +135,8 @@ msgid ""
 "upsampled, but the results will not be so good as for recommended "
 "resolution."
 msgstr ""
-"**“推荐”**表示该模型专门适合该空间分辨率。任何更高分辨率的图像在处理之前都会被下采样，因此上传更高分辨率的图像没有任何利润。较低分辨率的图像（如果满足“要求”部分）将被上采样，但结果不会像建议的分辨率那么好。"
+"**“推荐”**\\ "
+"表示该模型专门适合该空间分辨率。任何更高分辨率的图像在处理之前都会被下采样，因此上传更高分辨率的图像没有任何利润。较低分辨率的图像（如果满足“要求”部分）将被上采样，但结果不会像建议的分辨率那么好。"
 
 #: ../userguides/reference.rst:48 15160e9aae8643efb2b48770354b91a0
 msgid ""
@@ -142,15 +145,17 @@ msgid ""
 "correspond to what you see as \"pixel size\" if your image's coordinate "
 "system differs."
 msgstr ""
-"GSD 在“UTM 坐标系 "
-"<https://proj4.org/en/9.2/operations/projections/utm.html>”中指定，如果图像的坐标系不同，则可能与您所看到的“像素大小”不对应。"
+"GSD 在\\ `UTM 坐标系 "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_\\ "
+"中指定，如果图像的坐标系不同，则可能与您所看到的“像素大小”不对应。"
 
 #: ../userguides/reference.rst:51 428a50fb844b49078588537fe6482d68
 msgid ""
 "`Learn more <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_  about zoom "
 "and spatial resolution of imagery basemaps."
 msgstr ""
-"`了解更多<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_有关影像底图的缩放和空间分辨率的信息。"
+"`了解更多 <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_\\ "
+"有关影像底图的缩放和空间分辨率的信息。"
 
 #: ../userguides/reference.rst:57 dc36ea07d5da47d5ae9fd463a5eab123
 msgid "Model"

@@ -175,7 +175,7 @@ msgid ""
 "system differs."
 msgstr ""
 "GSD se especifica en el `sistema de coordenadas UTM "
-"<https://proj4.org/en/9.2/operaciones/projections/utm.html>`_ y puede no "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_ y puede no "
 "corresponder a lo que ve como \"tamaño de píxel\" si el sistema de "
 "coordenadas de su imagen es diferente."
 

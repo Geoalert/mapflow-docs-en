@@ -65,11 +65,11 @@ msgstr "Comenzando con Mapflow"
 
 #: ../index.rst:31 313c9a7d3e314b02912f3f8e5d7e8367
 msgid "Mapflow Services"
-msgstr "Servicios de flujo de mapas"
+msgstr "Servicios de Mapflow"
 
 #: ../index.rst:44 a07ea00bfe6a4ade974f6b32cf939591
 msgid "Mapflow API"
-msgstr "API de flujo de mapas"
+msgstr "API de Mapflow"
 
 #: ../index.rst:55 6b4e7667195c420dbac69a3362d96bf8
 msgid "Use with GIS..."

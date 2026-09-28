@@ -190,7 +190,7 @@ msgstr ""
 "Una vez que haya hecho su elección, asegúrese de que la fila de la imagen "
 "esté seleccionada en la tabla, vaya a *pestaña Procesamiento*; escriba un "
 "nombre para su procesamiento, seleccione *\"Campos Sentinel-2\"* en la lista"
-" desplegable *Modelo de flujo de mapa* y verifique que su capa AOI esté "
+" desplegable *Modelo de Mapflow* y verifique que su capa AOI esté "
 "seleccionada como *Área* y que la *Fuente de imágenes* esté configurada en "
 "*Sentinel-2*; Si todo se ve bien, presione *Iniciar procesamiento*."
 

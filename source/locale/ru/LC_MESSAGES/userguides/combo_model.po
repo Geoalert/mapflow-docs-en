@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,34 +19,209 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/combo_model.rst:2 4985226c50c94eb897da9e2a8f528161
-msgid "[multi] Buildings + Roads + Forest"
-msgstr "[мульти] Здания + Дороги + Лес"
-
-#: ../userguides/combo_model.rst:4 a114478755a84a25a1be94e3e7d1f056
+#: ../userguides/combo_model.rst:1 ffc33d9d30fe463397e2a0668d914650
 msgid ""
-"This pipeline combines Buildings, Forest and Roads in a single workflow and "
-"returns the topology-corrected GeoJSON output."
+"Run Buildings, Roads and Forest detection in a single Mapflow workflow and "
+"get one topology-corrected GeoJSON output."
 msgstr ""
-"Этот конвейер объединяет здания, леса и дороги в единый рабочий процесс и "
-"возвращает выходные данные GeoJSON с корректировкой топологии."
+"Запустите распознавание зданий, дорог и леса в одном рабочем процессе "
+"Mapflow и получите единый GeoJSON с исправленной топологией."
 
-#: ../userguides/combo_model.rst:13 3ba4ad1797fd4e26a492eb9e3025a969
-msgid "Processing result of construction model"
-msgstr "Результат обработки модели построения"
+#: ../userguides/combo_model.rst:7 4985226c50c94eb897da9e2a8f528161
+msgid "Buildings + Roads + Forest"
+msgstr "Здания + Дороги + Лес"
 
-#: ../userguides/combo_model.rst:13 2f6c52f7b768459db31022e8c7dea484
+#: ../userguides/combo_model.rst:10 d5c37daa72d14ffbb92d02e412a6cd2e
+msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
+msgstr ""
+":mf-chip:`road|Дороги и базовые карты` :mf-badge:`Модель по умолчанию`"
+
+#: ../userguides/combo_model.rst 4e8a2594a8e04cbba036545f58b1fd50
+msgid "Buildings, roads and forest layers over a dense urban area"
+msgstr "Слои зданий, дорог и леса в плотной городской застройке"
+
+#: ../userguides/combo_model.rst:10 39bdb717d22441a9b5fa762bec10ebd7
+msgid "Example result: buildings, roads and forest from one run."
+msgstr "Пример результата: здания, дороги и лес за один запуск."
+
+#: ../userguides/combo_model.rst:10 2df26b0f9ce14887a1928a155da592de
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/combo_model.rst:10 4b45226e04f44da3b2c5c3ac15ac05a2
+msgid "23 credits per km² + imagery"
+msgstr "23 кредита за км² + снимки"
+
+#: ../userguides/combo_model.rst:10 97fcb6615bc243b8b1e4d58e7330c436
+msgid "Example: 10 km² on Mapbox zoom 18 ≈ 260 credits."
+msgstr "Пример: 10 км² на Mapbox с зумом 18 ≈ 260 кредитов."
+
+#: ../userguides/combo_model.rst:10 8902cbd857b34a08b37e74fa3a1ed4ea
 msgid ""
-"Processing result sample for a combined scenario featuring Buidlings, Roads "
-"and Forest models."
+"Runs the Buildings, Roads and Forest models as one workflow and returns a "
+"single topology-corrected result, so the layers do not overlap. It costs "
+"less than running the three models one by one."
 msgstr ""
-"Образец результатов обработки для комбинированного сценария с моделями "
-"зданий, дорог и леса."
+"Запускает модели «Здания», «Дороги» и «Лес» как один процесс и возвращает "
+"единый результат с исправленной топологией, чтобы слои не перекрывались. Это"
+" дешевле, чем запускать три модели по отдельности."
 
-#: ../userguides/combo_model.rst:2
-msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
-msgstr "Запустите распознавание зданий, дорог и леса в одном рабочем процессе Mapflow и получите единый GeoJSON с исправленной топологией."
+#: ../userguides/combo_model.rst:10 c6e4f6e43cc6467c83599729b4a7e054
+msgid "What you get"
+msgstr "Что вы получите"
 
-#: ../userguides/combo_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#: ../userguides/combo_model.rst:10 f182b9708b1b46a1a395846f2fd0c461
+msgid "Buildings, roads and forest from one run, as separate styled layers."
+msgstr ""
+"Здания, дороги и лес за один запуск в виде отдельных оформленных слоёв."
+
+#: ../userguides/combo_model.rst:10 f19f2d31dfea46bdb5524d23572c1b4b
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/combo_model.rst:10 b02052ccf5684432b4a7a64ef60f3bfb
+msgid "0.5–0.3 m imagery (zoom 18–19)."
+msgstr "Снимки 0,5–0,3 м (зум 18–19)."
+
+#: ../userguides/combo_model.rst:10 e40de6d3b1014ec29da10dd9233e2fc1
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/combo_model.rst:10 39159de326d0423bb2e4da0e919a69e1
+msgid "Start a base map where no vector data exists"
+msgstr "Создать базовую карту там, где нет векторных данных"
+
+#: ../userguides/combo_model.rst:10 d949f5326bc944ad9b27bedd2560404e
+msgid "Get a land-use overview before a site visit"
+msgstr "Получить обзор землепользования перед выездом на объект"
+
+#: ../userguides/combo_model.rst:10 f475a53f654549a8a23438090c2cb1c3
+msgid "Create a reference layer for disaster response"
+msgstr "Создать опорный слой для реагирования на стихийные бедствия"
+
+#: ../userguides/combo_model.rst:10 e0cd835c9c9a47cd8dcdb1b2e182b5a8
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr "`Запустить в Mapflow Web <https://app.mapflow.ai>`__"
+
+#: ../userguides/combo_model.rst:10 73d5d8bef68343bbaadfe311c69cdb1b
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ":doc:`Использовать в QGIS </api/qgis_mapflow>`"
+
+#: ../userguides/combo_model.rst:10 ebfd0044869646d98775c5c34a5672e6
+msgid ":doc:`Pricing </userguides/prices>`"
+msgstr ":doc:`Цены </userguides/prices>`"
+
+#: ../userguides/combo_model.rst 2669d214fe32499f97172de412d8e531
+msgid "Method"
+msgstr "Метод"
+
+#: ../userguides/combo_model.rst:10 92fa7f2f22f34df5bf8a7a90c3b45528
+msgid "Buildings, Roads and Forest + topology correction"
+msgstr "Здания, дороги и лес + исправление топологии"
+
+#: ../userguides/combo_model.rst f369b8765c254e1484aad6db7f88beec
+msgid "GSD / zoom"
+msgstr "GSD / зум"
+
+#: ../userguides/combo_model.rst:10 a321875b7add4f7a8331d506fedf0d12
+msgid "0.5–0.3 m / z18–19"
+msgstr "0.5–0.3 m / z18–19"
+
+#: ../userguides/combo_model.rst:12 3f32b3f6a8934495a6db695cdaab6b83
+msgid "Options"
+msgstr "Опции"
+
+#: ../userguides/combo_model.rst:14 048ad47b715e4020885f83544f258790
+msgid ""
+"The combined workflow takes the options of its models. See :doc:`pricing "
+"<prices>` for option costs."
+msgstr ""
+"Объединённый процесс использует опции входящих в него моделей. Стоимость "
+"опций — на странице :doc:`цен <prices>`."
+
+#: ../userguides/combo_model.rst:19 1db3c420d81142bdb21383053378a69b
+msgid "Building types, Merge with OpenStreetMap, Building height estimation"
+msgstr "Типы зданий, объединение с OpenStreetMap, оценка высоты зданий"
+
+#: ../userguides/combo_model.rst:19 3ac3de428e8648d1a2280cf570c07456
+msgid ""
+"The same options as the :doc:`Buildings model <buildings_model>`. They apply"
+" to the building layer only."
+msgstr ""
+"Те же опции, что и у :doc:`модели «Здания» <buildings_model>`. Они "
+"применяются только к слою зданий."
+
+#: ../userguides/combo_model.rst:22 a36c1bd4bf2a410d95dec7234ef29355
+msgid "Forest height classes, Tree crowns"
+msgstr "Классы высоты леса, кроны деревьев"
+
+#: ../userguides/combo_model.rst:22 6d912c27d7484e6a944369868ce54279
+msgid "The same options as the :doc:`Forest and trees model <forest_model>`."
+msgstr "Те же опции, что и у :doc:`модели «Лес и деревья» <forest_model>`."
+
+#: ../userguides/combo_model.rst:25 318923d098a84d2bbdf9f2a911349b4c
+msgid "Sample results"
+msgstr "Примеры результатов"
+
+#: ../userguides/combo_model.rst 3ba4ad1797fd4e26a492eb9e3025a969
+msgid "Combined Buildings, Roads and Forest result"
+msgstr "Совмещённый результат: здания, дороги и лес"
+
+#: ../userguides/combo_model.rst:33 cebdd5ca915243649ca43bdf6e4913e9
+msgid "Buildings, roads and forest from one run"
+msgstr "Здания, дороги и лес за один запуск"
+
+#: ../userguides/combo_model.rst:36 c95ce5ac8301429b9ea3eacaf3ffbb2e
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/combo_model.rst:36 a060f2f042fb4cc8b1b7943433915c9a
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/combo_model.rst:36 ba859d3e26c241c29b2429940232eda4
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/combo_model.rst:36 fd68272783fb41ccbc394f9d1f8212c3
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/combo_model.rst:36 f65a2b846e584df1a539914da0443285
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
+
+#~ msgid ""
+#~ "This pipeline combines Buildings, Forest and Roads in a single workflow and "
+#~ "returns the topology-corrected GeoJSON output."
+#~ msgstr ""
+#~ "Этот конвейер объединяет здания, леса и дороги в единый рабочий процесс и "
+#~ "возвращает выходные данные GeoJSON с корректировкой топологии."
+
+#~ msgid "Processing result of construction model"
+#~ msgstr "Результат обработки модели построения"
+
+#~ msgid ""
+#~ "Processing result sample for a combined scenario featuring Buidlings, Roads "
+#~ "and Forest models."
+#~ msgstr ""
+#~ "Образец результатов обработки для комбинированного сценария с моделями "
+#~ "зданий, дорог и леса."
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
+#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
+#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid ":mf-chip:`cityscape|Roads and base maps` :mf-badge:`Default model`"
+#~ msgstr ""

@@ -13,7 +13,7 @@ Sample results
 
 .. container:: mf-figures
 
-   .. figure:: _static/processing_result/custom_models/swmp.webp
+   .. figure:: _static/processing_result/custom_models/swmp_arizona.jpg
       :alt: Swimming pools detected and classified
       :class: no-scaled-link
 

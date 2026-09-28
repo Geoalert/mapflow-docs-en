@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 10:03+0200\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -33,8 +33,8 @@ msgid ""
 "Mapflow AI. You can always buy more credits in your `account profile "
 "<https://app.mapflow.ai/account/balance>`_."
 msgstr ""
-"每个用户都可以获得 **250** 积分的免费余额来开始使用 Mapflow AI。您随时可以在“帐户资料 "
-"<https://app.mapflow.ai/account/balance>”中购买更多积分。"
+"每个用户都可以获得 **250** 积分的免费余额来开始使用 Mapflow AI。您随时可以在\\ `帐户资料 "
+"<https://app.mapflow.ai/account/balance>`_\\ 中购买更多积分。"
 
 #: ../userguides/prices.rst:11 4a1faf408e5443dd8fd35f33c07ac429
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "<https://app.mapflow.ai/account/balance>`_ and choose one of the options. "
 "You will be asked to pay online."
 msgstr ""
-"为了充值您的余额，请转到“您的 Mapflow 个人资料 <https://app.mapflow.ai/account/balance>”_ "
+"为了充值您的余额，请转到\\ `您的 Mapflow 个人资料 <https://app.mapflow.ai/account/balance>`_ "
 "并选择一个选项。您将被要求在线付款。"
 
 #: ../userguides/prices.rst:15 0f576f8a512e412996bee8cd0d57f7e2
@@ -77,13 +77,13 @@ msgstr "Mapflow 订阅计划"
 
 #: ../userguides/prices.rst:31 7861eb396b79436c9ad2f4d74822690c
 msgid "Mapflow credits"
-msgstr "地图流积分"
+msgstr "Mapflow 积分"
 
 #: ../userguides/prices.rst:33 5161a80d6f3740c9b6759da9cce0a643
 msgid ""
 "Cost of processing makes the sum of **data cost** and **processing cost** "
 "given the requested area:"
-msgstr "处理成本是给定请求区域的**数据成本**和**处理成本**的总和："
+msgstr "处理成本是给定请求区域的\\ **数据成本**\\ 和\\ **处理成本**\\ 的总和："
 
 #: ../userguides/prices.rst:35 7efb8f14aa6c4326ab962af05c25580c
 msgid "``Cost = Area * (Processing Price + Data Price)``"
@@ -97,7 +97,7 @@ msgstr "积分价格计算为：1 个积分 = 0.1 美元，累进折扣取决于
 
 #: ../userguides/prices.rst:44 9a2e4994be8942efbc4205e80a22136a
 msgid "Mapflow Credits"
-msgstr "地图流积分"
+msgstr "Mapflow 积分"
 
 #: ../userguides/prices.rst:45 5442b1dc7b404ab0b214c7ace0caa853
 msgid "500"
@@ -207,8 +207,8 @@ msgid ""
 "consider using Mapflow on a large scale, check `Mapflow Custom "
 "<https://mapflow.ai/pricing>`_ and contact sales."
 msgstr ""
-"如果您想购买定制套餐或使用其他付款方式，或考虑大规模使用 Mapflow，请选中“Mapflow 定制 "
-"<https://mapflow.ai/pricing>”并联系销售人员。"
+"如果您想购买定制套餐或使用其他付款方式，或考虑大规模使用 Mapflow，请选中\\ `Mapflow 定制 "
+"<https://mapflow.ai/pricing>`_\\ 并联系销售人员。"
 
 #: ../userguides/prices.rst:81 11e9831c0d0f40b397edb49c0b33c208
 msgid "Model costs"
@@ -224,8 +224,9 @@ msgid "Model"
 msgstr "模型"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 0726200f68d6488a8d013539a82f4032
-msgid "Base price"
+#: 11a8ed697b634494924f06ae0f749e05
+#, fuzzy
+msgid "Base price · credits"
 msgstr "基价"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -250,23 +251,14 @@ msgstr "分类： 0"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Heights estimation: 10"
-msgstr "高度估计：10"
+#, fuzzy
+msgid "Building Heights estimation: 10"
+msgstr "建筑物高度估计：10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 84a985b6fe4e435b992e2faae4addee6
 msgid "Merge with Opensteeetmap: 0"
 msgstr "与 Opensteeetmap 合并：0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 84a985b6fe4e435b992e2faae4addee6
-msgid "Align with roads: 0"
-msgstr "与道路对齐：0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height Estimation: 10"
-msgstr "身高估计：10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
 #: 3474a3dfd955485bb08524d47f27293f
@@ -277,11 +269,6 @@ msgstr "[多]建筑物+道路+森林"
 #: 2d496ce9e6d441898218dd662bc56c1e
 msgid "23"
 msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Buildings Height estimation: 10"
-msgstr "建筑物高度估计：10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
@@ -331,8 +318,8 @@ msgid ""
 "discount, please share your project requirements (contact "
 "sales@geoalert.io)."
 msgstr ""
-"如果您想要具有另一组选项的自定义模型，请考虑申请“Mapflow Custom "
-"<https://mapflow.ai/contacts>”_。定制模型的定价因项目范围而异。要获取报价并应用折扣，请分享您的项目要求（联系 "
+"如果您想要具有另一组选项的自定义模型，请考虑申请\\ `Mapflow Custom "
+"<https://mapflow.ai/contacts>`_。定制模型的定价因项目范围而异。要获取报价并应用折扣，请分享您的项目要求（联系 "
 "sales@geoalert.io）。"
 
 #: ../userguides/prices.rst:96 0383f00fe6d04e37aa635ee55cb74dff
@@ -356,9 +343,8 @@ msgid ""
 "level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) -"
 " if you change the zoom, the price is automatically recalculated."
 msgstr ""
-"使用默认影像底图（Mapbox、Arcgis World Imagery）时，价格从一分钟起。 1 "
-"积分，具体取决于型号和缩放级别（“什么是缩放？<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_”）-"
-" 如果您更改缩放，价格会自动重新计算。"
+"使用默认影像底图（Mapbox、Arcgis World Imagery）时，价格最低为 1 积分，具体取决于模型和缩放级别（`什么是缩放？ "
+"<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_）——如果您更改缩放级别，价格会自动重新计算。"
 
 #: ../userguides/prices.rst:106 131e0773d7b24e09be473000db0b2044
 msgid "Imagery ordering costs"
@@ -499,3 +485,12 @@ msgstr "``成本 = 1 * (8 + 2) = 10 学分``"
 
 #~ msgid "Mapflow Premium"
 #~ msgstr "Mapflow 高级版"
+
+#~ msgid "Heights estimation: 10"
+#~ msgstr "高度估计：10"
+
+#~ msgid "Align with roads: 0"
+#~ msgstr "与道路对齐：0"
+
+#~ msgid "Height Estimation: 10"
+#~ msgstr "身高估计：10"

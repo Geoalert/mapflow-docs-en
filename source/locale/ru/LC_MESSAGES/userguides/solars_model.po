@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,74 +19,186 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/solars_model.rst:2 17cfb2853d2242b488abc322e685e95b
-msgid "|:sunny:| Solar panels (CUSTOM)"
-msgstr "|:солнечно:| Солнечные панели (КАСТОМ)"
-
-#: ../userguides/solars_model.rst:5 b62da0b1c2904a49930b3a59057d527f
-msgid "This model is available by request."
-msgstr "Данная модель доступна по запросу."
-
-#: ../userguides/solars_model.rst:7 bf6b55f73e8c418780cf54fb029c37f3
+#: ../userguides/solars_model.rst:1 545951091c12438494bd1e5130ecc552
 msgid ""
-"Solar panels is a model trained for detecton of Photovoltaic elements using "
-"aerial imagery (working zoom levels 19-21). It's capable of detection PV "
-"elements both on the rooftops and on the ground. The testing benchmark score"
-" is ``F1 > 0.87``."
+"Detect photovoltaic panels on rooftops and on the ground from aerial imagery"
+" at zoom 19-21. Available as a custom model on request."
 msgstr ""
-"Солнечные панели — это модель, обученная для обнаружения фотоэлектрических "
-"элементов с помощью аэрофотоснимков (рабочие уровни масштабирования 19–21). "
-"Он способен обнаруживать фотоэлектрические элементы как на крышах, так и на "
-"земле. Оценка тестового теста: F1 > 0,87."
+"Обнаружение фотоэлектрических панелей на крышах и на земле по аэрофото с "
+"зумом 19–21. Доступна как пользовательская модель по запросу."
 
-#: ../userguides/solars_model.rst:14 fb5c4af210a04626aff481e8034fb815
-msgid "Model name"
-msgstr "Название модели"
-
-#: ../userguides/solars_model.rst:15 01b066ba5d6d4eb0b8f70df2caa8f54b
-msgid "Model type"
-msgstr "Тип модели"
-
-#: ../userguides/solars_model.rst:16 66231bb651344a4ab7ad58cfa7613139
-msgid "Zoom level"
-msgstr "Уровень масштабирования"
-
-#: ../userguides/solars_model.rst:17 415c29f671654b70a641728dd85f9fda
-msgid "F1 (testing)"
-msgstr "F1 (тестирование)"
-
-#: ../userguides/solars_model.rst:18 abfcf8483f7b40d49d5201a1b87fa86d
-msgid "Geo domain"
-msgstr "Геодомен"
-
-#: ../userguides/solars_model.rst:19 59ae86fb5ccb4a02a03d1d926cce59b9
+#: ../userguides/solars_model.rst:7 59ae86fb5ccb4a02a03d1d926cce59b9
 msgid "Solar panels"
 msgstr "Солнечные панели"
 
-#: ../userguides/solars_model.rst:20 fbe965acf3524b2e88f0ea26ed97eb9d
-msgid "Detector + segmentator"
-msgstr "Детектор + сегментатор"
+#: ../userguides/solars_model.rst:10 f27a2103bb454add834ed14d4e21e6c2
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
 
-#: ../userguides/solars_model.rst:21 933896804b2c415d9206970c0c4ba5c9
-msgid "zoom 19-21"
-msgstr "масштаб 19-21"
+#: ../userguides/solars_model.rst 450ca36acfe34840b250ff7e06d1f347
+msgid "Detected rooftop solar panels"
+msgstr "Обнаруженные солнечные панели на крышах"
 
-#: ../userguides/solars_model.rst:22 f261f0b976ea4ef694f52dc8cba1991d
-msgid "pixelwise > 0.77"
-msgstr "попиксельно > 0,77"
+#: ../userguides/solars_model.rst:10 ad7c8ba5ae8245eba4b4efc59d529941
+msgid "Example result: rooftop and ground-mounted panels."
+msgstr "Пример результата: панели на крышах и наземные панели."
 
-#: ../userguides/solars_model.rst:23 fdc97b98bce944e280bfe4ef8325a10d
+#: ../userguides/solars_model.rst:10 1779767bd2534ff18c88e5bc1f2595dc
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/solars_model.rst:10 897a6f6c4c76429a86511dbb6ff8efa1
+msgid "Priced per project"
+msgstr "Цена рассчитывается для проекта"
+
+#: ../userguides/solars_model.rst:10 6342357d34ff4ffcb619fa389825e0aa
+msgid "Request access and we connect the model to your account."
+msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
+
+#: ../userguides/solars_model.rst:10 d73fd2bc5f934f0d8729bff864ea6023
+msgid ""
+"A detection and segmentation model for photovoltaic panels, trained on "
+"aerial imagery. It finds panels on rooftops and in solar farms."
+msgstr ""
+"Модель детекции и сегментации фотоэлектрических панелей, обученная на "
+"аэрофото. Находит панели на крышах и на солнечных электростанциях."
+
+#: ../userguides/solars_model.rst:10 edbeaf494193492089e098ab2e241b6f
+msgid "What you get"
+msgstr "Что вы получите"
+
+#: ../userguides/solars_model.rst:10 17cfb2853d2242b488abc322e685e95b
+msgid "Solar panel polygons."
+msgstr "Полигоны солнечных панелей."
+
+#: ../userguides/solars_model.rst:10 b89c1169c5f44d50b882774303514376
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/solars_model.rst:10 426920ceb3d1462cb2e62e69688d18e1
+msgid "Aerial imagery at zoom 19–21."
+msgstr "Аэрофото с зумом 19–21."
+
+#: ../userguides/solars_model.rst:10 74f5a6e97ba347d6867972fdd75d28bc
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/solars_model.rst:10 55c56f50c2f34e2593e0f59116980771
+msgid "Inventory rooftop solar in a municipality"
+msgstr "Провести инвентаризацию солнечных панелей на крышах в муниципалитете"
+
+#: ../userguides/solars_model.rst:10 de0212add3d5478aa8f33ed339558130
+msgid "Monitor solar farm build-out"
+msgstr "Отслеживать строительство солнечных электростанций"
+
+#: ../userguides/solars_model.rst:10 11dd593441864751917e8780736368d8
+msgid "Estimate installed panel area for grid planning"
+msgstr "Оценить площадь установленных панелей для планирования сетей"
+
+#: ../userguides/solars_model.rst:10 db1789ac1e24465f9b38df1368202f2a
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/solars_model.rst:10 77c00a09ff2c428ca22429eafa8cda1e
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
+
+#: ../userguides/solars_model.rst abfcf8483f7b40d49d5201a1b87fa86d
+msgid "Geo domain"
+msgstr "Геодомен"
+
+#: ../userguides/solars_model.rst:10 fdc97b98bce944e280bfe4ef8325a10d
 msgid "Global"
 msgstr "Глобальный"
 
-#: 450ca36acfe34840b250ff7e06d1f347
-msgid "Processing result of solars model"
-msgstr "Результат обработки модели солнечных батарей"
+#: ../userguides/solars_model.rst 30b6a5e625ee416b922aa708c2509a34
+msgid "Method"
+msgstr "Метод"
 
-#: ../userguides/solars_model.rst:2
-msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Benchmark F1 above 0.87. Available on request."
-msgstr "Распознавание солнечных панелей на крышах и на земле по аэрофотоснимкам (зум 19-21). Бенчмарк F1 выше 0,87. Доступно по запросу."
+#: ../userguides/solars_model.rst:10 fbe965acf3524b2e88f0ea26ed97eb9d
+msgid "Detector + segmentation"
+msgstr "Детектор + сегментация"
 
-#: ../userguides/solars_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#: ../userguides/solars_model.rst 30336f5b22c64832aaf926d98e9f8b4b
+msgid "GSD / zoom"
+msgstr "GSD / зум"
+
+#: ../userguides/solars_model.rst:10 933896804b2c415d9206970c0c4ba5c9
+msgid "z19–21"
+msgstr "z19–21"
+
+#: ../userguides/solars_model.rst 901391c1cd154c359e37bf804090bb19
+msgid "Test score"
+msgstr "Оценка на тестах"
+
+#: ../userguides/solars_model.rst:10 f261f0b976ea4ef694f52dc8cba1991d
+msgid "Pixel-wise F1 > 0.77"
+msgstr "Попиксельный F1 > 0,77"
+
+#: ../userguides/solars_model.rst:12 db5c2a290c1a4d3b904bad0bcee16209
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/solars_model.rst:12 dcb9d6fdb35e43f9995bd9ffbd88bddf
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/solars_model.rst:12 3e370c31c883496baac95c4b6a2ef24d
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/solars_model.rst:12 fed68b6657484ef89e143b6eb92e1796
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/solars_model.rst:12 567776dad5fe49879b533e36ff2d2233
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
+
+#~ msgid "|:sunny:| Solar panels (CUSTOM)"
+#~ msgstr "|:солнечно:| Солнечные панели (КАСТОМ)"
+
+#~ msgid "This model is available by request."
+#~ msgstr "Данная модель доступна по запросу."
+
+#~ msgid ""
+#~ "Solar panels is a model trained for detecton of Photovoltaic elements using "
+#~ "aerial imagery (working zoom levels 19-21). It's capable of detection PV "
+#~ "elements both on the rooftops and on the ground. The testing benchmark score"
+#~ " is ``F1 > 0.87``."
+#~ msgstr ""
+#~ "Солнечные панели — это модель, обученная для обнаружения фотоэлектрических "
+#~ "элементов с помощью аэрофотоснимков (рабочие уровни масштабирования 19–21). "
+#~ "Он способен обнаруживать фотоэлектрические элементы как на крышах, так и на "
+#~ "земле. Оценка тестового теста: F1 > 0,87."
+
+#~ msgid "Model name"
+#~ msgstr "Название модели"
+
+#~ msgid "Model type"
+#~ msgstr "Тип модели"
+
+#~ msgid "Zoom level"
+#~ msgstr "Уровень масштабирования"
+
+#~ msgid "F1 (testing)"
+#~ msgstr "F1 (тестирование)"
+
+#~ msgid "Processing result of solars model"
+#~ msgstr "Результат обработки модели солнечных батарей"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
+#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
+#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."

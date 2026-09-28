@@ -231,7 +231,7 @@ msgid ""
 "backward compatibility."
 msgstr ""
 "**Рекомендуется API v2.** Он использует структурированные ``sourceParams`` и"
-" ``inferenceParams``. Версия 1 использует плоскую карту параметров и "
+" ``inferenceParams``. Версия 1 использует плоскую карту ``params`` и "
 "поддерживается для обратной совместимости."
 
 #: ../api/api_reference.rst:100 1f2abd4f340b4d96924dbab68733bfd7
@@ -616,7 +616,7 @@ msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
 msgstr ""
-"Объект sourceParams указывает, где получить изображения. Выберите один "
+"Объект ``sourceParams`` указывает, где получить изображения. Выберите один "
 "вариант:"
 
 #: ../api/api_reference.rst:498 1290281072c843569fcce0c0cae9985f
@@ -638,7 +638,7 @@ msgstr "``имя_провайдера``"
 
 #: ../api/api_reference.rst:520 1b36abf35f6746ce8b469353f578908f
 msgid "Provider name: ``Mapbox``, ``arcgis_world_imagery``, etc."
-msgstr "Имя провайдера: Mapbox, arcgis_world_imagery и т. д."
+msgstr "Имя провайдера: ``Mapbox``, ``arcgis_world_imagery`` и т. д."
 
 #: ../api/api_reference.rst:521 ../api/api_reference.rst:607
 #: ba35bbf72b0e4aa5a97cc7286bc89768
@@ -1035,7 +1035,7 @@ msgstr "Получить использование хранилища"
 
 #: ../api/api_reference.rst:1023 8497bfded64a47678bfc3c4f1c85bc31
 msgid "``GET /rasters/memory``"
-msgstr "`` ПОЛУЧИТЬ /растры/память``"
+msgstr "``GET /rasters/memory``"
 
 #: ../api/api_reference.rst:1025 3472cc76c0c04b14be97c1798d667a90
 msgid "Returns current storage usage and limits for your account."
@@ -1236,7 +1236,7 @@ msgid ""
 "``imagerySearch`` source parameter:"
 msgstr ""
 "Чтобы запустить обработку изображений из результатов поиска, используйте "
-"исходный параметр imagerySearch:"
+"исходный параметр ``imagerySearch``:"
 
 #: ../api/api_reference.rst:1239 b835d904fc9a4244a2e564783bad59e7
 msgid ""
@@ -1308,7 +1308,7 @@ msgid ""
 "Available blocks vary by model. Retrieve options via ``GET /user/status``."
 msgstr ""
 "Доступные блоки различаются в зависимости от модели. Получите параметры "
-"через GET /user/status."
+"через ``GET /user/status``."
 
 #: ../api/api_reference.rst:1294 21bc210f6fca4e7d88dd0d42f61c84af
 msgid "AI Models"

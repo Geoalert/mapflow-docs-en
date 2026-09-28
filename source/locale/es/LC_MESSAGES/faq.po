@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../faq.rst:2 fccbd9b56df6484fb2ab381bb122cd46
 msgid "Mapflow FAQ"
-msgstr "Preguntas frecuentes sobre flujo de mapas"
+msgstr "Preguntas frecuentes sobre Mapflow"
 
 #: ../faq.rst:5 c57a95b0b12242008860c0d3069c6f24
 msgid "Payment"
@@ -132,7 +132,7 @@ msgstr ""
 "imágenes de Maxar. Estas imágenes tienen una resolución espacial de 0,5 m, "
 "la precisión de georreferenciación es de unos 3-5 my la antigüedad no supera"
 " los dos años. Puede encontrar una lista completa de las especificaciones de"
-" imágenes satelitales de Maxar :descargar:`aquí "
+" imágenes satelitales de Maxar :download:`aquí "
 "<userguides/_static/_downloads/imagery-basemaps.pdf>`. Puede acceder a "
 "**ArcGIS World Imagery**, que es una cobertura global compuesta de imágenes "
 "satelitales e imágenes aéreas de alta y media resolución, alojadas en ESRI. "
@@ -350,8 +350,8 @@ msgid ""
 "requirements>`."
 msgstr ""
 "Sus datos de entrada deben cumplir con los :ref:`Requisitos de modelos de "
-"Mapflow <Requisitos de modelo>` y los :ref:`requisitos de carga de archivos "
-"<Requisitos de carga>`."
+"Mapflow <Model requirements>` y los :ref:`requisitos de carga de archivos "
+"<Upload requirements>`."
 
 #: ../faq.rst:92 8ff66fe96a5b4834ad8f6e29410720e7
 msgid "**How to delete my account?**"

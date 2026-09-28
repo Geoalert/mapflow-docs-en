@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:46+0300\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,41 +19,168 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:1 89a6ef3009ac4940aeabce5d88578962
+#: ../userguides/construction_model.rst:1 669a90e1adec40768c6e40795b3fe760
 msgid ""
 "Detect construction sites and buildings under construction in satellite "
 "imagery. Available as a custom Mapflow model on request."
 msgstr ""
 
-#: ../userguides/construction_model.rst:5 09224f89b3e94f21afb8932830d53179
-msgid "🏗️ Constructions (CUSTOM)"
+#: ../userguides/construction_model.rst:7 09224f89b3e94f21afb8932830d53179
+msgid "Constructions"
 msgstr ""
 
-#: ../userguides/construction_model.rst:7 a8196ae0a39c4d77832953be94beac9d
+#: ../userguides/construction_model.rst:10 822ede19ed9641909c355d4915f5ed31
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ""
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction site outlines in a fast-developing area"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 0c38d3ba531648239238c1cf497547ba
+msgid "Example result: construction sites in a fast-developing area."
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 8a8f05a38064459e9ba2687196c9dcd0
+msgid "Cost"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 fbf35d3dd4804b9aaa8d6e02021678b2
+msgid "Priced per project"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 51cd959941114d9189bc5dfa5608ca23
+msgid "Request access and we connect the model to your account."
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 a8196ae0a39c4d77832953be94beac9d
 msgid ""
-"This model outlines the areas in the satellite image that contain "
-"construction sites and buildings under construction. The current model "
-"dataset is limited to some countries and the work of extending it is in "
-"progress."
+"Outlines areas that contain construction sites and buildings under "
+"construction. Available for selected countries; coverage is growing."
 msgstr ""
 
-#: ../userguides/construction_model.rst:16 984d57d812af43f986df97872d32c754
-msgid "Processing result of construction model"
+#: ../userguides/construction_model.rst:10 0abd9a2cd8d842018332f2a9a57f4815
+msgid "What you get"
 msgstr ""
 
-#: ../userguides/construction_model.rst:16 f9a1c355f4944bc2a31c5047e39269f7
+#: ../userguides/construction_model.rst:10 09224f89b3e94f21afb8932830d53179
+msgid "Construction site polygons."
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 fd5b36d2a82148748e64a70f2dd4b4ab
+msgid "Works best with"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
+msgid "High-resolution satellite imagery of fast-developing areas."
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
+msgid "Usage examples"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 0fb201c342c9433ea8177b0c1fb091fb
+msgid "Track new development for permits and taxes"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 12440fbd9d83456c9927f64715a39024
+msgid "Monitor progress on large projects"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 65ceaf156a464eea9024ca3a08f61263
+msgid "Flag unplanned construction"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 65bf4ebb1ba546798d29e4d0a6df79f2
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 438b1e121d274dd1bab45490c3071c49
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+
+#: ../userguides/construction_model.rst 877a732b651248f0a72eb89c7b466b2e
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 64c99bc7df9040e783ecb90917296098
+msgid "Selected countries"
+msgstr ""
+
+#: ../userguides/construction_model.rst 526e47a0d4834f938c84d08ab7a2da70
+msgid "Method"
+msgstr ""
+
+#: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
+msgid "Segmentation"
+msgstr ""
+
+#: ../userguides/construction_model.rst:12 c579a9af539b4ded8662fe0c644576f6
+msgid "Sample results"
+msgstr ""
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction sites detected in a fast-developing area"
+msgstr ""
+
+#: ../userguides/construction_model.rst:20 f9a1c355f4944bc2a31c5047e39269f7
+msgid "A rapidly developing area with construction sites"
+msgstr ""
+
+#: ../userguides/construction_model.rst:23 2032c47d3781429bbc8a5a1229fd0c8b
+msgid "Need a different object?"
+msgstr ""
+
+#: ../userguides/construction_model.rst:23 9aad72c3d5ef4bcb9021029127febd06
 msgid ""
-"Processing result sample for a rapidly developing area with construction "
-"sites"
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr ""
 
-#: ../userguides/construction_model.rst:20 d50c5ac86e954f7c929a97ffec004223
-msgid ""
-"Looking to run this in production? See the `model catalog and deployment "
-"options <https://mapflow.ai/models>`_, or `request a custom model "
-"<https://mapflow.ai/custom-models>`_."
+#: ../userguides/construction_model.rst:23 d6e3c1a6369c4e3ebb06e6ca4268f943
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/construction_model.rst:23 d50c5ac86e954f7c929a97ffec004223
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+
+#: ../userguides/construction_model.rst:23 6e8ad1a3cd6342638c472fb28bbffe6e
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""
 
 #~ msgid "🏗️ Constructions"
+#~ msgstr ""
+
+#~ msgid "🏗️ Constructions (CUSTOM)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model outlines the areas in "
+#~ "the satellite image that contain "
+#~ "construction sites and buildings under "
+#~ "construction. The current model dataset "
+#~ "is limited to some countries and "
+#~ "the work of extending it is in "
+#~ "progress."
+#~ msgstr ""
+
+#~ msgid "Processing result of construction model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Processing result sample for a rapidly"
+#~ " developing area with construction sites"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
+#~ msgstr ""
+
+#~ msgid ":mf-chip:`crane|Buildings` :mf-warn:`On request`"
 #~ msgstr ""
 
