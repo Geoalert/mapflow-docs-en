@@ -18,21 +18,13 @@ In version 1.1 we added the road graph postprocessing:
 
 **Processing results samples**
 
-.. figure:: _static/processing_result/roads_model_6.webp
+.. figure:: _static/processing_result/roads_model_india.jpg
    :alt: Processing result of roads model
    :align: center
    :width: 15cm
    :class: with-border no-scaled-link
    
-   Optimal conditions for the model: rural/suburban territory, Russia
-
-.. figure:: _static/processing_result/roads_model_9.webp
-   :alt: Processing result of roads model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   More complex environment - urban territory in Prague, Czech Republic
+   Complex urban environment - New Town, Kolkata Metropolitan Area, India
 
 .. tip::
 
