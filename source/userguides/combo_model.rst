@@ -1,20 +1,35 @@
 .. meta::
    :description: Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output.
 
-[multi] Buildings + Roads + Forest
-=====================================
+.. rst-class:: mf-page
 
-This pipeline combines Buildings, Forest and Roads in a single workflow and returns the topology-corrected GeoJSON output. 
+Buildings + Roads + Forest
+==========================
 
+.. mf-model-hero:: multi
 
-.. figure:: _static/processing_result/landuse_model.jpg
-   :alt: Processing result of construction model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Processing result sample for a combined scenario featuring Buidlings, Roads and Forest models.
+Options
+-------
 
-.. tip::
+The combined workflow takes the options of its models. See :doc:`pricing <prices>` for option costs.
 
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+.. rst-class:: mf-options
+
+Building types, Merge with OpenStreetMap, Building height estimation
+   The same options as the :doc:`Buildings model <buildings_model>`. They apply to the building layer only.
+
+Forest height classes, Tree crowns
+   The same options as the :doc:`Forest and trees model <forest_model>`.
+
+Sample results
+--------------
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/landuse_model.jpg
+      :alt: Combined Buildings, Roads and Forest result
+      :class: no-scaled-link
+
+      Buildings, roads and forest from one run
+
+.. mf-cta::

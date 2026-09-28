@@ -1,30 +1,36 @@
-Download Open Data
-====================
+.. meta::
+   :description: Download OpenStreetMap and Overture Maps data for your area in Mapflow, with no AI model involved.
 
-In Mapflow, you can download open mapping data from OpenStreetMap and Overture Maps.
-This pipeline **does not use any AI model**. It is designed to support your mapping projects with community-maintained open data.
+.. rst-class:: mf-page
 
-Select one or more semantic classes and run the workflow.
+Open Data
+=========
 
-**Run the pipeline**
+.. mf-model-hero:: open-data
 
-.. figure:: _static/processing_result/open-data.jpg
-   :alt: Example result of the Open Data pipeline
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-|
-**Get the results and the image preview (in Web app or QGIS project)**
+How to run it
+-------------
 
-.. figure:: _static/processing_result/open-data-results.jpg
-   :alt: Example result of the Open Data pipeline
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-|
+Select one or more classes and run the workflow. You select an image source the same way as
+for AI-mapping models. The image is only a visual reference, so you can decide whether the data
+needs edits or a Mapflow model run to complete it.
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/open-data.jpg
+      :alt: Choosing classes for the Open Data workflow
+      :class: no-scaled-link
+
+      Choose the classes and run the workflow
+
+   .. figure:: _static/processing_result/open-data-results.jpg
+      :alt: Open Data results with the image preview
+      :class: no-scaled-link
+
+      Results and the image preview, in Mapflow Web or QGIS
+
 .. warning::
-    Results depend on the availability and completeness of open mapping data in your area of interest. You can use it alongside AI-mapping results as a complementary source.
+   Results depend on how complete open mapping data is in your area. The data comes from an external
+   source, so it may not line up exactly with the image. Use it alongside AI-mapping results as a complementary source.
 
-.. note::
-    You have to select an image source the same way as for AI-mapping pipelines.
-    Note that the results may not be well aligned with the image, because the data comes from an external open data source. The image is provided only for visual reference, so you can decide whether you need to apply edits or run a Mapflow model to complement the results.
+.. mf-cta::

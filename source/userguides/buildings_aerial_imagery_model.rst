@@ -1,46 +1,32 @@
 .. meta::
    :description: Extract small buildings and detailed outlines from 15-10 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request.
 
-🏠⭐️ Buildings (Aerial) (CUSTOM)
----------------------------------
+.. rst-class:: mf-page
+
+Buildings (Aerial)
+==================
+
+.. mf-model-hero:: buildings-aerial
+
 .. note::
-   This model has been deprecated as default one and moved to custom as its geodomain application is limited. it's available by request.
+   This model is no longer a default model because it fits a narrow range of areas. It is available on request.
+   For dense cities, use the :doc:`Buildings model <buildings_model>`, even on aerial imagery.
 
+Sample results
+--------------
 
-This model is specifically designed to be used on a high resolution aerial imagery (15-10cm per pixel) for extraction of small buildings and detailed structure outlines. It is best suited for rural and suburban residential areas. We do not recommend using this model in areas with high-dense urban buildings. Use :doc:`Buildings model <buildings_model>` instead, even for aerial imagery.
+.. container:: mf-figures
 
-.. list-table::
-   :widths: 15 30 15 5 15
-   :header-rows: 1
+   .. figure:: _static/processing_result/aerial_model_1.jpg
+      :alt: Buildings (Aerial) result in a rural residential area
+      :class: no-scaled-link
 
-   * - Model name
-     - Model type
-     - Zoom level
-     - F1 (testing)
-     - Geo domain
-   * - Buildings (Aerial)
-     - Instance segmentation
-     - zoom 20-21
-     - > 0.82
-     - urban pattern: low-rise - rural 
+      Rural residential area
 
+   .. figure:: _static/processing_result/aerial_model_2.jpg
+      :alt: Small buildings found by Buildings (Aerial) and missed by the default model
+      :class: no-scaled-link
 
-.. figure:: _static/processing_result/aerial_model_1.jpg
-    :alt: Processing result of Buildings (Aerial) model
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
+      Small objects missed by the default :ref:`Buildings model` and found by Buildings (Aerial)
 
-    Processing example – rural residential area
-
-.. figure:: _static/processing_result/aerial_model_2.jpg
-    :alt: Processing result of Buildings (Aerial) model
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
-
-    Small objects that have been missed by default :ref:`Buildings model` but detected using an aerial image with the Buildings (Aerial imagery)
-
-.. tip::
-
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+.. mf-cta::

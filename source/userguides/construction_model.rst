@@ -1,20 +1,22 @@
 .. meta::
    :description: Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request.
 
-🏗️ Constructions (CUSTOM)
-----------------------------
+.. rst-class:: mf-page
 
-This model outlines the areas in the satellite image that contain construction sites and buildings under construction. The current model dataset is limited to some countries and the work of extending it is in progress.
+Constructions
+=============
 
+.. mf-model-hero:: constructions
 
-.. figure:: _static/processing_result/construction_model.jpg
-   :alt: Processing result of construction model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Processing result sample for a rapidly developing area with construction sites
+Sample results
+--------------
 
-.. tip::
+.. container:: mf-figures
 
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+   .. figure:: _static/processing_result/construction_model.jpg
+      :alt: Construction sites detected in a fast-developing area
+      :class: no-scaled-link
+
+      A rapidly developing area with construction sites
+
+.. mf-cta::

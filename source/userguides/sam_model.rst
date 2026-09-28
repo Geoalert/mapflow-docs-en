@@ -1,11 +1,18 @@
 .. meta::
    :description: Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request.
 
-✨ Segment Anything v1 (CUSTOM)
---------------------------------
+.. rst-class:: mf-page
+
+Segment Anything
+================
+
+.. mf-model-hero:: segment-anything
 
 .. note::
-   This model has been deprecated as default one and moved to custom. it's available only by request.
+   This model is no longer a default model. It is available on request.
+
+How it works
+------------
 
 The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model: 
 
@@ -83,10 +90,6 @@ Depending on the input resolution, the SAM model will interpret and generate dif
    E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to small similar-pattern objects, requires some manual filtering of the model's output. 
 
 .. note::
-   ❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified.
+   SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified.
 
-
-
-.. tip::
-
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+.. mf-cta::

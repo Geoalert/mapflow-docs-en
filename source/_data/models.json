@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-28",
+  "about": "Single source for Mapflow AI models and scenarios. Read by the docs (source/_ext/mapflow_catalog.py), published with every docs build at /models.json for the website, Mapflow Web and the QGIS plugin. Prices must match awesome-configs/configs/default.",
+
+  "links": {
+    "web_app": "https://app.mapflow.ai",
+    "custom_models": "https://mapflow.ai/custom-models",
+    "pricing": "https://mapflow.ai/pricing",
+    "website_models": "https://mapflow.ai/models",
+    "docs": "https://docs.mapflow.ai/"
+  },
+
+  "imagery_prices": {
+    "_note": "Credits per km² for basemaps, by zoom. Mirrors userguides/_static/csv/data_prices.csv.",
+    "Mapbox": {"17": 1, "18": 3, "19": 9}
+  },
+
+  "labels": {
+    "version": "Version",
+    "geo_domain": "Geo domain",
+    "method": "Method",
+    "resolution": "GSD / zoom",
+    "score": "Test score"
+  },
+
+  "categories": [
+    {"id": "buildings",  "label": "Buildings",            "icon": "buildings"},
+    {"id": "vegetation", "label": "Trees and vegetation", "icon": "forest"},
+    {"id": "roads",      "label": "Roads and base maps",  "icon": "road"},
+    {"id": "imagery",    "label": "Your imagery",         "icon": "uav"},
+    {"id": "other",      "label": "Other objects",        "icon": "sam"}
+  ],
+
+  "models": [
+    {
+      "id": "buildings",
+      "name": "Buildings",
+      "platform_name": "🏠 Buildings",
+      "category": "buildings",
+      "availability": "default",
+      "icon": "buildings",
+      "doc": "userguides/buildings_model",
+      "image": "buildings.jpg",
+      "image_alt": "Building roof polygons over a suburban area",
+      "caption": "Example result: one polygon per building roof.",
+      "summary": "Roof outline of every building in your area, as editable polygons.",
+      "description": "Finds building roofs on high-resolution imagery and returns one polygon per building. Objects under 20 m² are dropped to keep the layer clean. Building types, heights and cleaner shapes are options you switch on when you start a run.",
+      "output": "A polygon layer of building roofs.",
+      "best_with": "Aerial or satellite imagery at 0.3 m per pixel (zoom 19).",
+      "zoom": "19",
+      "specs": {"version": "2026-07-06", "geo_domain": "Global", "method": "Segmentation", "resolution": "0.3 m / z19"},
+      "price": {"per_km2": 10, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}, "note": "Your own imagery costs nothing."},
+      "uses": [
+        "Refresh a municipal building layer before a field survey",
+        "Count structures in a settlement for planning or emergency response",
+        "Find parcels with new or missing buildings"
+      ],
+      "scenarios": ["buildings", "building-types", "building-heights"]
+    },
+    {
+      "id": "forest",
+      "name": "Forest and trees",
+      "platform_name": "🌲 Forest and trees",
+      "category": "vegetation",
+      "availability": "default",
+      "icon": "forest",
+      "doc": "userguides/forest_model",
+      "image": "forest.jpg",
+      "image_alt": "Tree and shrub cover mask over a residential area",
+      "caption": "Example result: tree and shrub cover mask.",
+      "summary": "All tree and shrub cover, down to small groups and tree lines.",
+      "description": "Segments every area covered by trees and shrubs, including sparse forest and shrubland. It works in most environments, cities included. Height classes and individual tree crowns are options you switch on when you start a run.",
+      "output": "A polygon layer of tree and shrub cover.",
+      "best_with": "0.6–0.3 m imagery (zoom 18–19) taken in the growing season. Leafless or snow-covered trees are not detected.",
+      "zoom": "18–19",
+      "specs": {"version": "2026-07-03", "geo_domain": "Global", "method": "Segmentation", "resolution": "0.6–0.3 m / z18–19"},
+      "price": {"per_km2": 8, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
+      "uses": [
+        "Measure canopy cover per district or parcel",
+        "Compare two dates to find cleared forest",
+        "Build a green-space inventory for a city"
+      ],
+      "scenarios": ["forest", "vegetation-height", "tree-crowns"]
+    },
+    {
+      "id": "roads",
+      "name": "Roads",
+      "platform_name": "🚗 Roads",
+      "category": "roads",
+      "availability": "default",
+      "icon": "road",
+      "doc": "userguides/roads_model",
+      "image": "roads.jpg",
+      "image_alt": "Road network polygons over a suburban area",
+      "caption": "Example result: road polygons built from a cleaned centreline network.",
+      "summary": "A connected road network with gaps merged and short stubs removed.",
+      "description": "Finds road centrelines, cleans the graph (simplifies geometry, merges gaps, removes double edges and short detached pieces) and turns it back into road polygons. Multi-task learning keeps the network connected where trees or buildings hide the road.",
+      "output": "Road polygons built from a cleaned centreline network.",
+      "best_with": "Rural and suburban areas with 0.5–0.3 m imagery. Dense city centres with wide sidewalks and complex crossings are harder.",
+      "zoom": "18–19",
+      "specs": {"version": "1.1", "geo_domain": "Global, best in rural and suburban areas", "method": "Segmentation + graph post-processing", "resolution": "0.5–0.3 m / z18–19"},
+      "price": {"per_km2": 5, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
+      "uses": [
+        "Map access roads and tracks for rural planning",
+        "Add forestry and field tracks missing from OSM",
+        "Check the street network in new suburbs"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "multi",
+      "name": "Buildings + Roads + Forest",
+      "platform_name": "[multi] Buildings + Roads + Forest",
+      "category": "roads",
+      "availability": "default",
+      "icon": "cityscape",
+      "doc": "userguides/combo_model",
+      "image": "multi.jpg",
+      "image_alt": "Buildings, roads and forest layers over a dense urban area",
+      "caption": "Example result: buildings, roads and forest from one run.",
+      "summary": "Buildings, roads and forest together, with topology corrected.",
+      "description": "Runs the Buildings, Roads and Forest models as one workflow and returns a single topology-corrected result, so the layers do not overlap. It costs less than running the three models one by one.",
+      "output": "Buildings, roads and forest from one run, as separate styled layers.",
+      "best_with": "0.5–0.3 m imagery (zoom 18–19).",
+      "zoom": "18–19",
+      "specs": {"method": "Buildings, Roads and Forest + topology correction", "resolution": "0.5–0.3 m / z18–19"},
+      "price": {"per_km2": 23, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
+      "uses": [
+        "Start a base map where no vector data exists",
+        "Get a land-use overview before a site visit",
+        "Create a reference layer for disaster response"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "open-data",
+      "name": "Open data",
+      "platform_name": "Download Open Data",
+      "category": "roads",
+      "availability": "no-ai",
+      "icon": null,
+      "doc": "userguides/open-data",
+      "image": "open-data.jpg",
+      "image_alt": "OpenStreetMap buildings and roads over imagery",
+      "caption": "Example result: OpenStreetMap and Overture layers for the area.",
+      "summary": "OpenStreetMap and Overture data for your area, with no AI model involved.",
+      "description": "Downloads the classes you choose from OpenStreetMap and Overture Maps for your area, so you can check coverage before running AI, or fill gaps after.",
+      "output": "Vector layers for each class you select.",
+      "best_with": "Any area. Quality depends on how complete open data is there, and it may not line up exactly with the imagery.",
+      "zoom": null,
+      "specs": {"method": "No AI model: OpenStreetMap + Overture Maps"},
+      "price": {"per_km2": null, "label": "Shown before you run", "note": "No AI model is used. You still pick imagery as a visual reference."},
+      "uses": [
+        "Check OSM completeness before paying for AI mapping",
+        "Combine open data with AI results",
+        "Add context layers to a project in one step"
+      ],
+      "scenarios": []
+    },
+
+    {
+      "id": "constructions",
+      "name": "Constructions",
+      "category": "buildings",
+      "availability": "custom",
+      "icon": "crane",
+      "doc": "userguides/construction_model",
+      "image": "constructions.jpg",
+      "image_alt": "Construction site outlines in a fast-developing area",
+      "caption": "Example result: construction sites in a fast-developing area.",
+      "summary": "Outlines of construction sites and buildings under construction.",
+      "description": "Outlines areas that contain construction sites and buildings under construction. Available for selected countries; coverage is growing.",
+      "output": "Construction site polygons.",
+      "best_with": "High-resolution satellite imagery of fast-developing areas.",
+      "zoom": null,
+      "specs": {"method": "Segmentation", "geo_domain": "Selected countries"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Track new development for permits and taxes",
+        "Monitor progress on large projects",
+        "Flag unplanned construction"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "high-density-housing",
+      "name": "High-density housing",
+      "category": "buildings",
+      "availability": "custom",
+      "icon": "cityscape",
+      "doc": "userguides/hd_housing_model",
+      "image": "high-density-housing.jpg",
+      "image_alt": "Dense housing blocks split into individual houses",
+      "caption": "Example result: dense blocks split into houses (Tunisia).",
+      "summary": "Terraced and tightly packed blocks divided into individual houses.",
+      "description": "Segments dense building blocks as a whole, then divides each block into individual houses from roof markers, using a grid or Voronoi split. Built for terraced and densely built areas common in the Middle East and parts of Africa.",
+      "output": "Individual house polygons within dense blocks.",
+      "best_with": "High-resolution imagery of terraced or densely built areas.",
+      "zoom": null,
+      "specs": {"method": "Instance segmentation + block split", "geo_domain": "Middle East, Africa"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Count dwellings in dense urban areas",
+        "Support census and address mapping",
+        "Plan services in informal settlements"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "buildings-aerial",
+      "name": "Buildings (Aerial)",
+      "category": "buildings",
+      "availability": "custom",
+      "icon": "uav",
+      "doc": "userguides/buildings_aerial_imagery_model",
+      "image": "buildings-aerial.jpg",
+      "image_alt": "Detailed building outlines on 10 cm aerial imagery",
+      "caption": "Example result: rural residential area at 10 cm.",
+      "summary": "Small buildings and detailed outlines from 15–10 cm aerial imagery.",
+      "description": "Built for very high-resolution aerial imagery (15–10 cm per pixel) to extract small buildings and detailed outlines. Best in rural and suburban residential areas; for dense cities use the Buildings model, even on aerial imagery.",
+      "output": "Detailed building polygons.",
+      "best_with": "Aerial imagery at 15–10 cm (zoom 20–21) of low-rise areas.",
+      "zoom": "20–21",
+      "specs": {"method": "Instance segmentation", "geo_domain": "Low-rise, rural", "resolution": "0.15–0.1 m / z20–21", "score": "F1 > 0.82"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Map sheds and outbuildings on a drone survey",
+        "Capture detailed outlines for cadastre updates",
+        "Map rural settlements from a municipal flight"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "solar-panels",
+      "name": "Solar panels",
+      "category": "buildings",
+      "availability": "custom",
+      "icon": null,
+      "doc": "userguides/solars_model",
+      "image": "solar-panels.jpg",
+      "image_alt": "Detected rooftop solar panels",
+      "caption": "Example result: rooftop and ground-mounted panels.",
+      "summary": "Photovoltaic panels on rooftops and on the ground.",
+      "description": "A detection and segmentation model for photovoltaic panels, trained on aerial imagery. It finds panels on rooftops and in solar farms.",
+      "output": "Solar panel polygons.",
+      "best_with": "Aerial imagery at zoom 19–21.",
+      "zoom": "19–21",
+      "specs": {"method": "Detector + segmentation", "geo_domain": "Global", "resolution": "z19–21", "score": "Pixel-wise F1 > 0.77"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Inventory rooftop solar in a municipality",
+        "Monitor solar farm build-out",
+        "Estimate installed panel area for grid planning"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "swimming-pools",
+      "name": "Swimming pools",
+      "category": "buildings",
+      "availability": "custom",
+      "icon": null,
+      "doc": "userguides/swimming_pools_model",
+      "image": "swimming-pools.jpg",
+      "image_alt": "Detected swimming pools in a residential area",
+      "caption": "Example result: pools detected and classified.",
+      "summary": "Swimming pools detected and classified from aerial imagery.",
+      "description": "Detects and classifies swimming pools on high-resolution aerial imagery, with a test score above F1 0.95.",
+      "output": "Swimming pool polygons with a class.",
+      "best_with": "Aerial imagery at zoom 19–20.",
+      "zoom": "19–20",
+      "specs": {"method": "Detector + classification", "geo_domain": "Global", "resolution": "z19–20", "score": "F1 > 0.95"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Keep property records and tax rolls up to date",
+        "Plan water use and inspections",
+        "Enrich insurance and real-estate data"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "agriculture-fields",
+      "name": "Agriculture fields",
+      "category": "vegetation",
+      "availability": "custom",
+      "icon": "tractor",
+      "doc": "userguides/agriculture_fields_model",
+      "image": "agriculture-fields.jpg",
+      "image_alt": "Field boundaries delineated over farmland",
+      "caption": "Example result: field boundaries in Belgium.",
+      "summary": "Field boundaries separated by tree lines, roads or crop stage.",
+      "description": "Detects agricultural fields and separates neighbouring fields where a visible boundary exists. Tuned for larger fields in Europe with active vegetation; small and terraced fields are harder.",
+      "output": "Field boundary polygons.",
+      "best_with": "1–1.2 m imagery in the growing season.",
+      "zoom": null,
+      "specs": {"method": "Segmentation", "geo_domain": "Europe", "resolution": "1.2–1 m"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Build field boundaries for farm management",
+        "Estimate cultivated area per region",
+        "Prepare parcels for crop monitoring"
+      ],
+      "scenarios": []
+    },
+    {
+      "id": "segment-anything",
+      "name": "Segment Anything",
+      "category": "other",
+      "availability": "custom",
+      "icon": "sam",
+      "doc": "userguides/sam_model",
+      "image": "segment-anything.jpg",
+      "image_alt": "Segment Anything polygons over farmland",
+      "caption": "Example result: SAM at zoom 16.",
+      "summary": "Universal segmentation. The zoom level decides what you get.",
+      "description": "Meta's universal segmentation model, adapted to Mapflow workflows. Zoom 14 outlines land use, large fields and water; zoom 16 small fields and large buildings; zoom 18 farms and groups of trees; zoom 19 and up houses, trees and vehicles.",
+      "output": "Polygons of whatever stands out at the chosen zoom.",
+      "best_with": "Any RGB imagery. Choose the zoom in the run form.",
+      "zoom": "14–20",
+      "specs": {"method": "Universal segmentation", "geo_domain": "Global", "resolution": "z14–20"},
+      "price": {"per_km2": null},
+      "uses": [
+        "Outline objects no standard model covers",
+        "Pre-segment imagery for manual labelling",
+        "Explore a new area before choosing a model"
+      ],
+      "scenarios": []
+    }
+  ],
+
+  "scenarios": [
+    {"id": "buildings", "model": "buildings", "title": "Map every building", "summary": "Roof outline of every building in your area, as editable polygons.", "popular": true},
+    {
+      "id": "building-types",
+      "model": "buildings",
+      "option": "Building types",
+      "title": "Sort buildings by type",
+      "image": "building-types.jpg",
+      "image_alt": "Building polygons coloured by building type",
+      "summary": "Every building polygon carries a type, ready to filter and style.",
+      "description": "Runs the Buildings model with classification switched on, so each roof polygon gets a building class. Classification adds no extra cost.",
+      "output": "Building polygons with a class attribute.",
+      "best_with": "Aerial or satellite imagery at 0.3 m per pixel (zoom 19).",
+      "zoom": "19",
+      "price": {"option_per_km2": 0, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
+      "uses": [
+        "Compare residential and non-residential stock by district",
+        "Pull industrial and commercial sites into their own layer",
+        "Feed zoning and land-use analysis with fresh data"
+      ]
+    },
+    {
+      "id": "building-heights",
+      "model": "buildings",
+      "option": "Heights (beta)",
+      "title": "Building heights and 3D footprints",
+      "image": "building-heights.jpg",
+      "image_alt": "Building footprints extruded by estimated height",
+      "summary": "A height for each building, with the outline moved from roof to ground.",
+      "description": "Adds a height model that reads shadow length and visible walls. The result is a 3D footprint: the building contour projected to ground level instead of the roof outline.",
+      "output": "Footprint polygons with a height attribute, ready for the QGIS 3D map view.",
+      "best_with": "0.3 m imagery (zoom 19) with visible shadows. Helps most on oblique imagery, where roofs look shifted.",
+      "zoom": "19",
+      "price": {"option_per_km2": 10, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
+      "uses": [
+        "Extrude buildings in the QGIS 3D map view",
+        "Estimate floor area and building volume",
+        "Screen areas for shade and line-of-sight studies"
+      ]
+    },
+    {"id": "forest", "model": "forest", "title": "Map forest and tree cover", "summary": "All tree and shrub cover, down to small groups and tree lines.", "popular": true},
+    {
+      "id": "vegetation-height",
+      "model": "forest",
+      "option": "Height classes",
+      "title": "Vegetation height along power lines",
+      "image": "vegetation-height.jpg",
+      "image_alt": "Vegetation height classes inside a power line corridor",
+      "summary": "Vegetation split into shrubs, 4–10 m forest and forest over 10 m.",
+      "description": "Runs the forest model with height estimation. Vegetation is classed as shrubs under 4 m, forest from 4 to 10 m and forest over 10 m, which is what vegetation managers need near power lines.",
+      "output": "Vegetation polygons with a height class.",
+      "best_with": "0.6–0.3 m imagery (zoom 18–19) taken in the growing season.",
+      "zoom": "18–19",
+      "price": {"option_per_km2": 10, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
+      "uses": [
+        "Prioritise clearance work in power line corridors",
+        "Plan right-of-way maintenance by height class",
+        "Screen vegetation along roads and railways"
+      ],
+      "tip": "Buffer your line layer in QGIS (Vector › Geoprocessing › Buffer) and use the buffer as the area, so you pay only for the corridor.",
+      "popular": true
+    },
+    {
+      "id": "tree-crowns",
+      "model": "forest",
+      "option": "Tree crowns",
+      "title": "Count individual trees",
+      "image": "tree-crowns.jpg",
+      "image_alt": "A point for every tree crown on a golf course",
+      "summary": "A point for every tree crown, free-standing trees included.",
+      "description": "Extracts tree crowns from forest and from single trees, as points with a crown radius or as crown polygons.",
+      "output": "Tree crown points with a radius, or crown polygons.",
+      "best_with": "0.3 m imagery (zoom 19) to separate individual trees.",
+      "zoom": "19",
+      "price": {"option_per_km2": 5, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
+      "uses": [
+        "Street-tree and park inventories",
+        "Count trees in orchards and plantations",
+        "Track tree loss on a construction site"
+      ],
+      "popular": true
+    },
+    {"id": "roads", "model": "roads", "title": "Extract the road network", "summary": "A connected road network with gaps merged and short stubs removed.", "popular": true},
+    {"id": "multi", "model": "multi", "title": "Base map in one run", "summary": "Buildings, roads and forest together, with topology corrected.", "popular": true}
+  ],
+
+  "workflows": [
+    {
+      "id": "own-imagery",
+      "title": "Map your drone or aerial orthophoto",
+      "category": "imagery",
+      "tile": "uav",
+      "doc": "userguides/my_imagery",
+      "summary": "Run any model on your own GeoTIFF or a raster layer already in QGIS.",
+      "meta": "Model price only · your GeoTIFF"
+    },
+    {
+      "id": "imagery-search",
+      "title": "Find a fresh image, then map it",
+      "category": "imagery",
+      "tile": "search",
+      "doc": "userguides/imagery_search",
+      "summary": "Search satellite catalogs by date, cloud and angle, then map the image you pick.",
+      "meta": "Model + imagery price · recent changes"
+    }
+  ]
+}

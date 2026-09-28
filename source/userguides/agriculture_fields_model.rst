@@ -1,31 +1,40 @@
 .. meta::
    :description: Segment agricultural fields and delineate field boundaries from 1-1.2 m satellite imagery. Trained for Europe and Russia; available as a custom model.
 
-|:tractor:| Agriculture fields (CUSTOM)
------------------------------------------
+.. rst-class:: mf-page
 
-.. warning::
-   This model has been deprecated as default one and moved to custom. it's available by request.
+Agriculture fields
+==================
 
-Model for fields segmentation allows to detect the agricultural fields and delineate the nearby fields from each other, if there is a visual boundary (forest line, road, different crop stage). The model is trained on the high resolution data (1-1.2 m), primarily for Europe, Russia. It performs better with larger fields with active vegetation. Smaller and terrace fields (typical for Asia) are delineated not so good. Fields without vegetation, especially in winter period, are not target class.
+.. mf-model-hero:: agriculture-fields
 
+.. note::
+   This model is no longer a default model. It is available on request.
 
-.. figure:: _static/processing_result/agriculture_fields_5.jpg
-   :alt: Processing result of agriculture fields model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Processing result sample for Europe (Belgium)
+How it works
+------------
 
-.. figure:: _static/processing_result/agriculture_fields_11.jpg
-   :alt: Processing result of agriculture fields model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Processing result sample for Asia (Northern India)
+The model detects agricultural fields and separates neighbouring fields where there is a visible
+boundary: a forest line, a road or a different crop stage. It is trained on 1–1.2 m imagery,
+mostly of Europe and Russia, and works best on larger fields with active vegetation.
+Small and terraced fields, typical for Asia, are delineated less well. Fields without vegetation,
+especially in winter, are not the target class.
 
-.. tip::
+Sample results
+--------------
 
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/agriculture_fields_5.jpg
+      :alt: Agriculture fields result in Belgium
+      :class: no-scaled-link
+
+      Europe (Belgium)
+
+   .. figure:: _static/processing_result/agriculture_fields_11.jpg
+      :alt: Agriculture fields result in Northern India
+      :class: no-scaled-link
+
+      Asia (Northern India)
+
+.. mf-cta::
