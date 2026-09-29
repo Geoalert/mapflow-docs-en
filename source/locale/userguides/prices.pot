@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 10:03+0200\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,8 +192,8 @@ msgid "Model"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 0726200f68d6488a8d013539a82f4032
-msgid "Base price"
+#: 11a8ed697b634494924f06ae0f749e05
+msgid "Base price · credits"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -217,23 +217,15 @@ msgid "Classification: 0"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
+#: ../userguides/_static/csv/web_processing_prices.csv:0
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Heights estimation: 10"
+#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
+msgid "Building Heights estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
 #: 84a985b6fe4e435b992e2faae4addee6
 msgid "Merge with Opensteeetmap: 0"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:0
-#: 84a985b6fe4e435b992e2faae4addee6
-msgid "Align with roads: 0"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:0
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height Estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -244,11 +236,6 @@ msgstr ""
 #: ../userguides/_static/csv/web_processing_prices.csv:1
 #: 2d496ce9e6d441898218dd662bc56c1e
 msgid "23"
-msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv:0
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Buildings Height estimation: 10"
 msgstr ""
 
 #: ../userguides/_static/csv/web_processing_prices.csv:0
@@ -412,11 +399,11 @@ msgstr ""
 #: ../userguides/_static/csv/data_prices.csv:1
 #: ../userguides/_static/csv/data_prices.csv:1
 #: 58fc22c9a0ac4a5a8cf29a975105a1cb
+#: 58fc22c9a0ac4a5a8cf29a975105a1cb
 #: b6cef1e581d54f1784678929657eb6a5
 #: b6cef1e581d54f1784678929657eb6a5
 #: b6cef1e581d54f1784678929657eb6a5
 #: 58fc22c9a0ac4a5a8cf29a975105a1cb
-#: b6cef1e581d54f1784678929657eb6a5
 msgid "--"
 msgstr ""
 

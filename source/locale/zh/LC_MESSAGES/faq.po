@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../faq.rst:2 fccbd9b56df6484fb2ab381bb122cd46
 msgid "Mapflow FAQ"
-msgstr "地图流常见问题解答"
+msgstr "Mapflow 常见问题解答"
 
 #: ../faq.rst:5 c57a95b0b12242008860c0d3069c6f24
 msgid "Payment"
@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "服务成本以传统单位“积分”确定，其中 1 个积分等于 0.1 "
 "美元（根据您购买的积分数量应用累进折扣）。要进行付款，请转到个人帐户的“设置”，或单击余额图标并选择所需的积分数量（50 美元、90 美元或 800 "
-"美元）。请参阅:doc:`Mapflow 价格 </userguides/prices>`。"
+"美元）。请参阅\\ :doc:`Mapflow 价格 </userguides/prices>`。"
 
 #: ../faq.rst:10 af4c0c4d0cb842689e19a84128296cce
 msgid ""
@@ -56,8 +56,8 @@ msgid ""
 "Contact our `sales <https://geoalert.io/#contacts>`_ to send your inquiry "
 "and get the quotation."
 msgstr ""
-"查看我们的“企业商业计划 "
-"<https://mapflow.ai/pricing>”。请联系我们的销售人员<https://geoalert.io/#contacts>`_发送您的询问并获取报价。"
+"查看我们面向企业的\\ `商业计划 <https://mapflow.ai/pricing>`_。请联系我们的\\ `销售人员 "
+"<https://geoalert.io/#contacts>`_\\ 发送您的询问并获取报价。"
 
 #: ../faq.rst:14 a1d5a60a814349c49fc30e6dffb0313b
 msgid "**What if I'm not satisfied with the output? Do you make a refund?**"
@@ -106,14 +106,14 @@ msgid ""
 " by request. Preview is limited to zoom 15. Restricted access to the images "
 "of some countries, including China."
 msgstr ""
-"我们支持 RGB、RGBa 和单波段（全色）图像作为输入数据。请注意，模型针对 RGB "
-"进行了优化，因此单波段结果的质量可能较低。默认情况下，Mapflow 使用“Mapbox Satellite "
-"<https://www.mapbox.com/maps/satellite>”_ 卫星马赛克，主要由 Maxar "
-"的图像组成。这些图像的空间分辨率为0.5m，地理配准精度约为3-5m，年龄不超过两年。 Maxar "
-"卫星图像规格的完整列表可在此处找到：下载：<userguides/_static/_downloads/imagery-"
-"basemaps.pdf>`。您可以访问 **ArcGIS World Imagery** – 这是由 ESRI "
-"托管的高分辨率和中分辨率卫星图像和航空图像组成的全球覆盖范围。 **“全球马赛克”** – 高分辨率图像马赛克 (0.75–0.5 m/px) "
-"的试点版本将于 2022 年推出，但可根据要求提供更新。预览仅限缩放15。限制访问某些国家/地区的图像，包括中国。"
+"我们支持 RGB、RGBa 和单波段（全色）影像作为输入数据。请注意，模型针对 RGB "
+"进行了优化，因此单波段结果的质量可能较低。默认情况下，Mapflow 使用 `Mapbox Satellite "
+"<https://www.mapbox.com/maps/satellite>`_ 卫星镶嵌图，主要由 Maxar 影像组成。这些影像的空间分辨率为 "
+"0.5 米，地理配准精度约为 3–5 米，拍摄时间不超过两年。Maxar 卫星影像规格的完整列表可在 :download:`此处 "
+"<userguides/_static/_downloads/imagery-basemaps.pdf>` 找到。您还可以使用 **ArcGIS "
+"World Imagery**，这是由 ESRI "
+"托管、由高分辨率和中分辨率卫星影像及航空影像组成的全球覆盖数据。**“全球镶嵌图”**：高分辨率影像（0.75–0.5 米/像素）镶嵌图的试点版本对应 "
+"2022 年，可应要求提供更新。预览仅限缩放级别 15。部分国家（包括中国）的影像访问受限。"
 
 #: ../faq.rst:32 8190c9a634b2460e960e2e3006c002e9
 msgid "**Can I choose another satellite mosaic?**"
@@ -207,8 +207,8 @@ msgid ""
 "requirements the validation can be provided by request, contact our `sales "
 "<https://geoalert.io/#contacts>`_."
 msgstr ""
-"大多数情况下，我们提供服务并根据项目需求进行合理的定制（模型微调）。但是，根据项目要求，可以根据请求提供验证，请联系我们的“销售人员 "
-"<https://geoalert.io/#contacts>”。"
+"大多数情况下，我们提供服务并根据项目需求进行合理的定制（模型微调）。但是，根据项目要求，可以根据请求提供验证，请联系我们的\\ `销售人员 "
+"<https://geoalert.io/#contacts>`_。"
 
 #: ../faq.rst:67 fa3f4acc0b8c49eebdeac0c8ba449e4d
 msgid "Projects and processings"
@@ -242,7 +242,7 @@ msgid ""
 "parameters, to do this, click **source details**."
 msgstr ""
 "该项目可以让您在不花费 Credits 的情况下熟悉 Mapflow "
-"的功能。在处理历史记录中，您可以查看并检查结果。还可以查看所选的处理参数，为此，请单击**源详细信息**。"
+"的功能。在处理历史记录中，您可以查看并检查结果。还可以查看所选的处理参数，为此，请单击\\ **源详细信息**。"
 
 #: ../faq.rst:77 30bbf8b36265407c9469272dd8fb9fb1
 msgid "**Are there any restrictions on the processing area?**"
@@ -283,7 +283,9 @@ msgid ""
 "Your input data must meet the :ref:`Mapflow models requirements <Model "
 "requirements>` and the :ref:`files upload requirements <Upload "
 "requirements>`."
-msgstr "您的输入数据必须满足:ref:`Mapflow 模型要求 <模型要求>` 和:ref:`文件上传要求 <上传要求>`。"
+msgstr ""
+"您的输入数据必须满足\\ :ref:`Mapflow 模型要求 <Model requirements>` 和\\ :ref:`文件上传要求 "
+"<Upload requirements>`。"
 
 #: ../faq.rst:92 8ff66fe96a5b4834ad8f6e29410720e7
 msgid "**How to delete my account?**"
@@ -335,8 +337,8 @@ msgid ""
 "authorization parameter. You can `obtain an API token in your personal "
 "Mapflow profile <https://app.mapflow.ai/account/api>`_."
 msgstr ""
-"API 令牌在使用 Mapflow 平台资源的外部应用程序中用作密码。它作为基本身份验证授权参数传递。您可以“在您的个人 Mapflow 配置文件 "
-"<https://app.mapflow.ai/account/api> 中获取 API 令牌”_。"
+"API 令牌在使用 Mapflow 平台资源的外部应用程序中用作密码。它作为基本身份验证授权参数传递。您可以\\ `在您的个人 Mapflow "
+"配置文件中获取 API 令牌 <https://app.mapflow.ai/account/api>`_。"
 
 #: ../faq.rst:112 1033ba15664a42d89c31017efee2079c
 msgid "**I have another question, where can I ask it?**"

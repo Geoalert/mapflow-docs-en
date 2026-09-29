@@ -65,8 +65,8 @@ msgid ""
 "Open the Mapflow `dashboard <https://app.mapflow.ai>`_. The dashboard lists "
 "all of your projects and is the starting point for any new mapping task."
 msgstr ""
-"Abra el panel de Mapflow <https://app.mapflow.ai>`_. El panel enumera todos "
-"sus proyectos y es el punto de partida para cualquier nueva tarea de mapeo."
+"Abra el `panel de Mapflow <https://app.mapflow.ai>`_. El panel enumera todos"
+" sus proyectos y es el punto de partida para cualquier nueva tarea de mapeo."
 
 #: ../userguides/mapflow_agent.rst:22 7dfec1f2ca0b4b9bb1ae17ca5de66fcd
 msgid "**Step 2. Create project**"
@@ -361,8 +361,8 @@ msgid ""
 msgstr ""
 "El agente puede aceptar la carga de una imagen del usuario y utilizarla como"
 " entrada para el procesamiento. Suelte una imagen en la ventana de chat y el"
-" agente la almacenará en su colección :ref:`Mis imágenes <Mis imágenes "
-"principal>` y la seleccionará para el procesamiento:"
+" agente la almacenará en su colección :ref:`Mis imágenes <My imagery main>` "
+"y la seleccionará para el procesamiento:"
 
 #: 1a15129cf12c4a93a753572c3feaaf15
 msgid "Agent handling an image upload"

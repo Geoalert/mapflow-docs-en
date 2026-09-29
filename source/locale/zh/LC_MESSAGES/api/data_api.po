@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../api/data_api.rst:4 2c12540174a446c7b2ec5875f6b621e9
 msgid "Mapflow Data API"
-msgstr "地图流数据 API"
+msgstr "Mapflow 数据 API"
 
 #: ../api/data_api.rst:6 d854c3103b9e475cb08f4fafc082660b
 msgid ""
@@ -30,8 +30,8 @@ msgid ""
 "imagery for AI-powered analysis with the :doc:`Processing API "
 "<processing_api>`."
 msgstr ""
-"Mapflow Data API 使您能够管理自定义图像、将其组织成马赛克以及从外部提供商搜索卫星图像。通过处理 API "
-"<processing_api>` 使用您的图像进行 AI 支持的分析。"
+"Mapflow Data API 可用于管理自定义影像、将其组织为镶嵌图，以及从外部提供商搜索卫星影像。可通过 :doc:`Processing API"
+" <processing_api>` 使用您的影像进行 AI 分析。"
 
 #: ../api/data_api.rst 5f46bfa9d0d6423ebd3a857e84d2321d
 msgid "Postman Collection"
@@ -43,8 +43,9 @@ msgid ""
 "<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_ for "
 "interactive API testing."
 msgstr ""
-"尝试我们的“Postman Collection "
-"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>”_进行交互式 API 测试。"
+"尝试我们的\\ `Postman Collection "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_\\ 进行交互式 API "
+"测试。"
 
 #: ../api/data_api.rst:18 d4d6062252e941d0b21b44a7262b0e8c
 msgid "Base URL"
@@ -59,12 +60,13 @@ msgid ""
 "All API requests require an API token. Generate yours in `profile settings "
 "<https://app.mapflow.ai/account>`_."
 msgstr ""
-"所有 API 请求都需要 API 令牌。在“配置文件设置 <https://app.mapflow.ai/account>”中生成您的配置文件设置。"
+"所有 API 请求都需要 API 令牌。在\\ `配置文件设置 <https://app.mapflow.ai/account>`_\\ "
+"中生成您的配置文件设置。"
 
 #: ../api/data_api.rst:35 19cd0b6292684b95ac7aaf6e5d20cd45
 msgid ""
 "See :doc:`authorization guide <../userguides/mapflow_auth>` for details."
-msgstr "有关详细信息，请参阅:doc:`授权指南 <../userguides/mapflow_auth>`。"
+msgstr "有关详细信息，请参阅\\ :doc:`授权指南 <../userguides/mapflow_auth>`。"
 
 #: ../api/data_api.rst:39 4af923502d15482d9218074a7bd6c9ac
 msgid "Quick Start"
@@ -100,11 +102,11 @@ msgid ""
 "manage :ref:`storage limits <storage-management>`, or review the "
 ":ref:`complete API reference <api-reference>`."
 msgstr ""
-"**后续步骤：** 探索:ref:`卫星图像搜索 <imagery-search>`、管理:ref:`存储限制 <storage-"
-"management>`，或查看:ref:`完整的 API 参考 <api-reference>`。"
+"**后续步骤：** 探索\\ :ref:`卫星图像搜索 <imagery-search>`、管理\\ :ref:`存储限制 <storage-"
+"management>`，或查看\\ :ref:`完整的 API 参考 <api-reference>`。"
 
 #: ../api/data_api.rst:87 e4070aae4c9b46219b58032e93236043
 msgid ""
 "For complete API reference documentation including all endpoints, "
 "parameters, and examples, see :ref:`api-reference`."
-msgstr "有关完整的 API 参考文档（包括所有端点、参数和示例），请参阅 api-reference。"
+msgstr "包含所有端点、参数和示例的完整 API 参考文档，请参阅 :ref:`api-reference`。"

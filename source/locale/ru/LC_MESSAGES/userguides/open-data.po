@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 12:52+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,63 +19,217 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/open-data.rst:2 8ccccd43c0f94e28a969c6c949f6fe2c
-msgid "Download Open Data"
-msgstr "Скачать открытые данные"
-
-#: ../../source/userguides/open-data.rst:4 7646bfdcf9db4dc2b40ee0781021fb6d
+#: ../userguides/open-data.rst:1 34a0c9ac075b4554a0a7df59585002af
 msgid ""
-"In Mapflow, you can download open mapping data from OpenStreetMap and "
-"Overture Maps. This pipeline **does not use any AI model**. It is designed "
-"to support your mapping projects with community-maintained open data."
+"Download OpenStreetMap and Overture Maps data for your area in Mapflow, with"
+" no AI model involved."
 msgstr ""
-"В Mapflow вы можете загрузить открытые картографические данные из "
-"OpenStreetMap и Overture Maps. Этот конвейер **не использует модели "
-"искусственного интеллекта**. Он предназначен для поддержки ваших "
-"картографических проектов с помощью открытых данных, поддерживаемых "
-"сообществом."
+"Загрузка данных OpenStreetMap и Overture Maps для вашей области в Mapflow "
+"без ИИ-модели."
 
-#: ../../source/userguides/open-data.rst:7 80ed4f7c997942718acf5a52c11cc7c8
-msgid "Select one or more semantic classes and run the workflow."
+#: ../userguides/open-data.rst:7 5be42f95f69b4b2394205327b9d5ecc9
+msgid "Open Data"
+msgstr "Открытые данные"
+
+#: ../userguides/open-data.rst:10 68918ae21f8047038f14a823d06a2139
+msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`No AI model`"
+msgstr ":mf-chip:`road|Дороги и базовые карты` :mf-badge:`Без ИИ-модели`"
+
+#: ../userguides/open-data.rst abbcbc8a5d684e44b3675d01118a2315
+msgid "OpenStreetMap buildings and roads over imagery"
+msgstr "Здания и дороги OpenStreetMap поверх снимка"
+
+#: ../userguides/open-data.rst:10 e350dc8ac9d8451caddef098764d0cdd
+msgid "Example result: OpenStreetMap and Overture layers for the area."
+msgstr "Пример результата: слои OpenStreetMap и Overture для области."
+
+#: ../userguides/open-data.rst:10 6b2a3673e7f944acb190cfefe65ad32f
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/open-data.rst:10 cca762e8a5ff41989c9df3cced2e3f50
+msgid "Shown before you run"
+msgstr "Показывается перед запуском"
+
+#: ../userguides/open-data.rst:10 672e2e6cd03c46d49a91eb940ac70f5b
+msgid "No AI model is used. You still pick imagery as a visual reference."
 msgstr ""
-"Выберите один или несколько семантических классов и запустите рабочий "
-"процесс."
+"ИИ-модель не используется. Снимок вы всё равно выбираете — как визуальную "
+"подложку."
 
-#: ../../source/userguides/open-data.rst:9 ef1e647da7ea467aa63613a33635ae60
-msgid "**Run the pipeline**"
-msgstr "**Запустите конвейер**"
-
-#: 3efb927e6705450ab78c183836b21b2c 6f759bb33fad43c2bc5a72a6cd61ee2d
-msgid "Example result of the Open Data pipeline"
-msgstr "Пример результата конвейера открытых данных"
-
-#: ../../source/userguides/open-data.rst:17 715f5bafa20a4c67ab59a68e14d90c1c
-msgid "**Get the results and the image preview (in Web app or QGIS project)**"
-msgstr ""
-"**Получите результаты и предварительный просмотр изображения (в веб-"
-"приложении или проекте QGIS)**"
-
-#: ../../source/userguides/open-data.rst:26 e043208df65f4f8abc063249b286ffaa
+#: ../userguides/open-data.rst:10 dd74e28321ae4a2da6b1456d9fc812e0
 msgid ""
-"Results depend on the availability and completeness of open mapping data in "
-"your area of interest. You can use it alongside AI-mapping results as a "
-"complementary source."
+"Downloads the classes you choose from OpenStreetMap and Overture Maps for "
+"your area, so you can check coverage before running AI, or fill gaps after."
 msgstr ""
-"Результаты зависят от наличия и полноты открытых картографических данных в "
-"интересующей вас области. Вы можете использовать его вместе с результатами "
-"AI-картографии в качестве дополнительного источника."
+"Загружает выбранные классы из OpenStreetMap и Overture Maps для вашей "
+"области, чтобы вы могли проверить покрытие до запуска ИИ или заполнить "
+"пробелы после."
 
-#: ../../source/userguides/open-data.rst:29 9dc0d7f85e1c4958a9355fa4d4baea72
+#: ../userguides/open-data.rst:10 9913f390de3940ef93dea803ef1d09f9
+msgid "What you get"
+msgstr "Что вы получите"
+
+#: ../userguides/open-data.rst:10 799ea589b77048849c6c409c5f543d81
+msgid "Vector layers for each class you select."
+msgstr "Векторные слои для каждого выбранного класса."
+
+#: ../userguides/open-data.rst:10 6542782b7e614aa0aeca7d87cd8e84ad
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/open-data.rst:10 a2991db8acca45c5ad807e5d54686ced
 msgid ""
-"You have to select an image source the same way as for AI-mapping pipelines."
-" Note that the results may not be well aligned with the image, because the "
-"data comes from an external open data source. The image is provided only for"
-" visual reference, so you can decide whether you need to apply edits or run "
-"a Mapflow model to complement the results."
+"Any area. Quality depends on how complete open data is there, and it may not"
+" line up exactly with the imagery."
 msgstr ""
-"Вам необходимо выбрать источник изображения так же, как и для конвейеров AI-"
-"сопоставления. Обратите внимание, что результаты могут не совпадать с "
-"изображением, поскольку данные поступают из внешнего открытого источника "
-"данных. Изображение предоставлено только для визуального ознакомления, "
-"поэтому вы можете решить, нужно ли вам применить изменения или запустить "
-"модель Mapflow, чтобы дополнить результаты."
+"Любая территория. Качество зависит от полноты открытых данных в ней, и "
+"данные могут не совпадать точно со снимком."
+
+#: ../userguides/open-data.rst:10 0ed2ecaf156e4e40bb7d83d68fa9deb0
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/open-data.rst:10 f4ba056926c04f37ba8ca5ce1b60c281
+msgid "Check OSM completeness before paying for AI mapping"
+msgstr "Проверить полноту OSM, прежде чем платить за ИИ-картографирование"
+
+#: ../userguides/open-data.rst:10 db4bc2269ab04807b5b8d9d519c952a9
+msgid "Combine open data with AI results"
+msgstr "Объединить открытые данные с результатами ИИ"
+
+#: ../userguides/open-data.rst:10 1078dd2335a14a6ab0fdc8caece2ab93
+msgid "Add context layers to a project in one step"
+msgstr "Добавить в проект контекстные слои за один шаг"
+
+#: ../userguides/open-data.rst:10 025b68a0322d4a9c90a46b2e3025bbf9
+msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
+msgstr "`Запустить в Mapflow Web <https://app.mapflow.ai>`__"
+
+#: ../userguides/open-data.rst:10 267f5ac6ee454625bc8937a384411ec0
+msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
+msgstr ":doc:`Использовать в QGIS </api/qgis_mapflow>`"
+
+#: ../userguides/open-data.rst:10 04387aae42d94a838162094b6ce4df6c
+msgid ":doc:`Pricing </userguides/prices>`"
+msgstr ":doc:`Цены </userguides/prices>`"
+
+#: ../userguides/open-data.rst f88b423e53e44e709c2a49d669de81ff
+msgid "Method"
+msgstr "Метод"
+
+#: ../userguides/open-data.rst:10 8baaa8611d4d4e3ba639fc3ea14eedea
+msgid "No AI model: OpenStreetMap + Overture Maps"
+msgstr "Без ИИ-модели: OpenStreetMap + Overture Maps"
+
+#: ../userguides/open-data.rst:12 5be42f95f69b4b2394205327b9d5ecc9
+msgid "How to run it"
+msgstr "Как запустить"
+
+#: ../userguides/open-data.rst:14 8a8a40b509194c2090ad600bd2c3d431
+msgid ""
+"Select one or more classes and run the workflow. You select an image source "
+"the same way as for AI-mapping models. The image is only a visual reference,"
+" so you can decide whether the data needs edits or a Mapflow model run to "
+"complete it."
+msgstr ""
+"Выберите один или несколько классов и запустите процесс. Источник снимков "
+"выбирается так же, как для моделей ИИ-картографирования. Снимок служит "
+"только визуальной подложкой: по нему вы решаете, нужно ли править данные или"
+" дополнить их запуском модели Mapflow."
+
+#: ../userguides/open-data.rst abbcbc8a5d684e44b3675d01118a2315
+msgid "Choosing classes for the Open Data workflow"
+msgstr "Выбор классов для процесса «Открытые данные»"
+
+#: ../userguides/open-data.rst:24 dc8a7b8093544085a495d6fa78d9ec94
+msgid "Choose the classes and run the workflow"
+msgstr "Выберите классы и запустите процесс"
+
+#: ../userguides/open-data.rst 41a75f3d14444e56a37adfa9e439a737
+msgid "Open Data results with the image preview"
+msgstr "Результаты «Открытых данных» с предпросмотром снимка"
+
+#: ../userguides/open-data.rst:30 ede15de5f0124f84a86ca56121554b3c
+msgid "Results and the image preview, in Mapflow Web or QGIS"
+msgstr "Результаты и предпросмотр снимка в Mapflow Web или QGIS"
+
+#: ../userguides/open-data.rst:33 05f87c412fa2435b8e898a2edcfe7b3c
+msgid ""
+"Results depend on how complete open mapping data is in your area. The data "
+"comes from an external source, so it may not line up exactly with the image."
+" Use it alongside AI-mapping results as a complementary source."
+msgstr ""
+"Результат зависит от полноты открытых картографических данных в вашей "
+"области. Данные берутся из внешнего источника, поэтому могут не совпадать "
+"точно со снимком. Используйте их вместе с результатами ИИ-картографирования "
+"как дополнительный источник."
+
+#: ../userguides/open-data.rst:37 606de6d209674efb9cb1ed7cb2392173
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/open-data.rst:37 bf0a771be0c94ad6bf8c7e3ae2e94c15
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/open-data.rst:37 e0266ea2db3743dcbb67f0977c70a61a
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/open-data.rst:37 cc718c43e2404d03afb33a74e0d2710e
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/open-data.rst:37 12996555973b4b23be4af42a2db8d91a
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
+
+#~ msgid "Download Open Data"
+#~ msgstr "Скачать открытые данные"
+
+#~ msgid ""
+#~ "In Mapflow, you can download open mapping data from OpenStreetMap and "
+#~ "Overture Maps. This pipeline **does not use any AI model**. It is designed "
+#~ "to support your mapping projects with community-maintained open data."
+#~ msgstr ""
+#~ "В Mapflow вы можете загрузить открытые картографические данные из "
+#~ "OpenStreetMap и Overture Maps. Этот конвейер **не использует модели "
+#~ "искусственного интеллекта**. Он предназначен для поддержки ваших "
+#~ "картографических проектов с помощью открытых данных, поддерживаемых "
+#~ "сообществом."
+
+#~ msgid "**Run the pipeline**"
+#~ msgstr "**Запустите конвейер**"
+
+#~ msgid "Example result of the Open Data pipeline"
+#~ msgstr "Пример результата конвейера открытых данных"
+
+#~ msgid ""
+#~ "Results depend on the availability and completeness of open mapping data in "
+#~ "your area of interest. You can use it alongside AI-mapping results as a "
+#~ "complementary source."
+#~ msgstr ""
+#~ "Результаты зависят от наличия и полноты открытых картографических данных в "
+#~ "интересующей вас области. Вы можете использовать его вместе с результатами "
+#~ "AI-картографии в качестве дополнительного источника."
+
+#~ msgid ""
+#~ "You have to select an image source the same way as for AI-mapping pipelines."
+#~ " Note that the results may not be well aligned with the image, because the "
+#~ "data comes from an external open data source. The image is provided only for"
+#~ " visual reference, so you can decide whether you need to apply edits or run "
+#~ "a Mapflow model to complement the results."
+#~ msgstr ""
+#~ "Вам необходимо выбрать источник изображения так же, как и для конвейеров AI-"
+#~ "сопоставления. Обратите внимание, что результаты могут не совпадать с "
+#~ "изображением, поскольку данные поступают из внешнего открытого источника "
+#~ "данных. Изображение предоставлено только для визуального ознакомления, "
+#~ "поэтому вы можете решить, нужно ли вам применить изменения или запустить "
+#~ "модель Mapflow, чтобы дополнить результаты."

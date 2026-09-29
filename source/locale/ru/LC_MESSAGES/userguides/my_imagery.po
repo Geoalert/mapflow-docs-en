@@ -39,9 +39,9 @@ msgid ""
 "ArcGIS, etc., are enabled in Mapflow for instant use. You can use them with "
 "default models."
 msgstr ""
-"**Базовые карты изображений** — внешние :ref:`поставщики изображений`, такие"
-" как Mapbox, ArcGIS и т. д., включены в Mapflow для мгновенного "
-"использования. Вы можете использовать их с моделями по умолчанию."
+"**Базовые карты изображений** — внешние :ref:`imagery providers`, такие как "
+"Mapbox, ArcGIS и т. д., включены в Mapflow для мгновенного использования. Вы"
+" можете использовать их с моделями по умолчанию."
 
 #: ../userguides/my_imagery.rst:11 260a762a0e9b4f49ab83f3553c962f92
 #, fuzzy
@@ -154,7 +154,7 @@ msgid ""
 "for using the platform <Upload restrictions>`."
 msgstr ""
 "Основные ограничения и ограничения на загрузку изображений перечислены в "
-":ref:`Требованиях к использованию платформы <Ограничения на загрузку>`."
+":ref:`Требованиях к использованию платформы <Upload restrictions>`."
 
 #: ../userguides/my_imagery.rst:45 3feb20ae41f84da59b3737cb8b08521e
 msgid ""
@@ -298,7 +298,7 @@ msgid ""
 "See :ref:`Requirements for using the platform <Upload restrictions>` for "
 "supported formats and limits."
 msgstr ""
-"См. :ref:`Требования к использованию платформы <Ограничения загрузки>` для "
+"См. :ref:`Требования к использованию платформы <Upload restrictions>` для "
 "получения информации о поддерживаемых форматах и ​​ограничениях."
 
 #: ../userguides/my_imagery.rst:85 a7cad2a8fe1c4c299b53a53bfb614b3e
@@ -356,7 +356,7 @@ msgstr ""
 "Вы можете просмотреть свое изображение на карте и установить область "
 "обработки: загрузите GeoJSON/GeoTIFF, нарисуйте область на карте или нажмите"
 " **Использовать экстент изображения**, чтобы использовать границы "
-"изображения. См. :ref:`Выбор AOI` для получения подробной информации о "
+"изображения. См. :ref:`Select AOI` для получения подробной информации о "
 "рисовании и загрузке AOI."
 
 #: ../userguides/imagery_search.rst:4 3615056dd1464ba2a1df3ca44c961015
@@ -401,8 +401,7 @@ msgstr "Изображения мира ArcGIS"
 #: ../userguides/imagery_search.rst:16 c3bd149c15274903b9c99be18e28cc27
 msgid "Read more about how to use :ref:`Imagery providers` with Mapflow."
 msgstr ""
-"Узнайте больше о том, как использовать :ref:`Поставщики изображений` с "
-"Mapflow."
+"Узнайте больше о том, как использовать :ref:`Imagery providers` с Mapflow."
 
 #: ../userguides/imagery_search.rst:19 16336dd0d31a448d89b6088f161ac051
 msgid ""
@@ -531,9 +530,9 @@ msgid ""
 "change the plan\"*. You need to subscribe to Mapflow Premium to be able to "
 "order commercial data providers."
 msgstr ""
-"👆️️️️️️ Вы можете начать обработку только у доступных провайдеров («доступно"
-" для меня»**). Если вы попытаетесь использовать изображение от провайдера, "
-"не подключенного к вашему аккаунту, вы увидите соответствующее "
+"👆️️️️️️ Вы можете начать обработку только у доступных провайдеров "
+"(**«доступно для меня»**). Если вы попытаетесь использовать изображение от "
+"провайдера, не подключенного к вашему аккаунту, вы увидите соответствующее "
 "предупреждение *\"Провайдер недоступен для вашего аккаунта, необходимо "
 "сменить план\"*. Вам необходимо подписаться на Mapflow Premium, чтобы иметь "
 "возможность заказывать поставщиков коммерческих данных."
@@ -576,7 +575,7 @@ msgid ""
 "Draw or upload the AOI that covers your imagery (see :ref:`Select AOI`)."
 msgstr ""
 "Нарисуйте или загрузите область интереса, которая покрывает ваше изображение"
-" (см. :ref:`Выбор области интереса`)."
+" (см. :ref:`Select AOI`)."
 
 #: ../userguides/imagery_search.rst:97 1dfe68c4a5374e0aaa740e44cdbcc1bc
 #, fuzzy

@@ -31,9 +31,9 @@ msgid ""
 "<https://app.mapflow.ai/account/api>`_. Token must be passed in the **Basic "
 "Auth** parameters like in the example:"
 msgstr ""
-"要从外部应用程序访问，例如:doc:`QGIS 插件 <../api/qgis_mapflow>`，您需要获取 **API "
-"令牌**。用户可以在`https://app.mapflow.ai/account/api "
-"<https://app.mapflow.ai/account/api>`_注册并获取令牌。令牌必须在 **Basic Auth** "
+"要从外部应用程序访问，例如\\ :doc:`QGIS 插件 <../api/qgis_mapflow>`，您需要获取 **API "
+"令牌**。用户可以在\\ `https://app.mapflow.ai/account/api "
+"<https://app.mapflow.ai/account/api>`_\\ 注册并获取令牌。令牌必须在 **Basic Auth** "
 "参数中传递，如示例所示："
 
 #: ../userguides/mapflow_auth.rst:17 e4ba77a4306f4de6bec0f75d4deb0919
@@ -46,7 +46,8 @@ msgid ""
 "You can decode it `with base64 decoder <https://www.base64decoder.io/>`_ to "
 "use in Basic Auth form"
 msgstr ""
-"您可以使用 base64 解码器 <https://www.base64decoder.io/>`_ 对其进行解码，以在基本身份验证表单中使用"
+"您可以\\ `使用 base64 解码器 <https://www.base64decoder.io/>`_\\ "
+"对其进行解码，以在基本身份验证表单中使用"
 
 #: ../userguides/mapflow_auth.rst:21 0367d0cea4944d6096aa4ea46d0bf4a0
 msgid "Make sure you save the token, otherwise you will need to reissue it."
@@ -61,13 +62,13 @@ msgid ""
 "Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a new"
 " account or sign in using your Google account."
 msgstr ""
-"打开 Web 应用程序“Mapflow <https://app.mapflow.ai>”_。注册新帐户或使用您的 Google 帐户登录。"
+"打开 Web 应用程序\\ `Mapflow <https://app.mapflow.ai>`_。注册新帐户或使用您的 Google 帐户登录。"
 
 #: ../userguides/mapflow_auth.rst:28 b2c12e581068450a867d28b4f2d9336f
 msgid ""
 "Go to `user profile settings <https://app.mapflow.ai/account>`_ to generate "
 "a new API token."
-msgstr "转到“用户配置文件设置 <https://app.mapflow.ai/account>”_ 以生成新的 API 令牌。"
+msgstr "转到\\ `用户配置文件设置 <https://app.mapflow.ai/account>`_ 以生成新的 API 令牌。"
 
 #: cc43016f81ff4a7192e87928580c178f
 msgid "Preview map"

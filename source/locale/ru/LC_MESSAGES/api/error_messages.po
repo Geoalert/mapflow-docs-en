@@ -28,7 +28,7 @@ msgid ""
 "List of messages and params that can be found in the ``messages`` section in"
 " case of the failed processings"
 msgstr ""
-"Список сообщений и параметров, которые можно найти в разделе «сообщения» в "
+"Список сообщений и параметров, которые можно найти в разделе ``messages`` в "
 "случае неудачной обработки."
 
 #: ../../source/api/_static/csv/errors.csv:1

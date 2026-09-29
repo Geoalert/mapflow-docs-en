@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -175,7 +175,7 @@ msgid ""
 "system differs."
 msgstr ""
 "GSD se especifica en el `sistema de coordenadas UTM "
-"<https://proj4.org/en/9.2/operaciones/projections/utm.html>`_ y puede no "
+"<https://proj4.org/en/9.2/operations/projections/utm.html>`_ y puede no "
 "corresponder a lo que ve como \"tamaño de píxel\" si el sistema de "
 "coordenadas de su imagen es diferente."
 
@@ -187,160 +187,200 @@ msgstr ""
 "`Obtenga más información <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
 " sobre el zoom y la resolución espacial de mapas base de imágenes."
 
-#: ../userguides/reference.rst:57 dc36ea07d5da47d5ae9fd463a5eab123
+#: ../userguides/reference.rst:54 dc36ea07d5da47d5ae9fd463a5eab123
 msgid "Model"
 msgstr "Modelo"
 
-#: ../forest/_static/csv/classes_forest.csv:1 ../userguides/reference.rst:58
-#: 017e0214c468436f8e6936a4f3017578
-msgid "Description"
-msgstr "Descripción"
-
-#: ../userguides/reference.rst:59 4871b0079f4e465faa9bdb4930b51d21
+#: ../userguides/reference.rst:54 4871b0079f4e465faa9bdb4930b51d21
 msgid "Recommended zoom"
 msgstr "Zoom recomendado"
 
-#: ../userguides/reference.rst:60 3c5363c5d9134724843c96b08ffefee0
+#: ../userguides/reference.rst:54 3c5363c5d9134724843c96b08ffefee0
 msgid "Recommended GSD m/px"
 msgstr "GSD recomendado m/px"
 
-#: ../userguides/reference.rst:61 7a75f560034b41e5986cf6fa3e763ef4
+#: ../userguides/reference.rst:54 7a75f560034b41e5986cf6fa3e763ef4
 msgid "Required zoom range"
 msgstr "Rango de zoom requerido"
 
-#: ../userguides/reference.rst:62 24870554e6624ffd8fcef5174363cd39
+#: ../userguides/reference.rst:54 24870554e6624ffd8fcef5174363cd39
 msgid "Required GSD range, m/px"
 msgstr "Rango GSD requerido, m/px"
 
-#: ../userguides/reference.rst:63 d0761e5e99e4445bb393ec4f6001cb95
-msgid "Buildings"
-msgstr "Edificios"
-
-#: ../userguides/reference.rst:64 6da3a33c13194489870434b398e352b0
-msgid ""
-"Extract roof contours, with optional classification, simplification and "
-"height estimation"
+#: ../userguides/reference.rst:54 10988a853c6c475282acd7943ee7f7ae
+msgid ":doc:`/userguides/buildings_model`"
 msgstr ""
-"Extraiga los contornos del techo, con clasificación, simplificación y "
-"estimación de altura opcionales."
 
-#: ../userguides/reference.rst:65 ../userguides/reference.rst:71
-#: ../userguides/reference.rst:77 ../userguides/reference.rst:89
-#: ../userguides/reference.rst:95 99abd99bdbc240fda0823989bb6d9437
+#: ../userguides/reference.rst:54 99abd99bdbc240fda0823989bb6d9437
 msgid "18"
 msgstr ""
 
-#: ../userguides/reference.rst:66 ../userguides/reference.rst:72
-#: ../userguides/reference.rst:78 ../userguides/reference.rst:90
-#: ../userguides/reference.rst:96 ffec1d83479f44b9aaf0b9ba5d766984
-msgid "0.5"
-msgstr "0,5"
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "0.6–0.3"
+msgstr "0,6–0,3"
 
-#: ../userguides/reference.rst:67 18aef36b4ff24fa097ff43d5ceb3f46e
-msgid "17 – 19"
+#: ../userguides/reference.rst:54 3cfde9101e5f4b12a1a859e82fb4b7ea
+#: 3ee02ccff85840e7837ff1598024c5f4 acf0165361824badb58a92c2b3ee3734
+#: bb80a608a15a42aa972caecc932dd244 c49fb1885004468ca3dc0dba8b794fe5
+#: d3ac2d706a2347e08d709bb7c3f97072
+msgid "≥ 17"
 msgstr ""
 
-#: ../userguides/reference.rst:68 8e3892be7823430390d6f5f692093ecb
-msgid "1.5 - 0.3"
-msgstr "1,5 - 0,3"
+#: ../userguides/reference.rst:54 3e7dd225002d4f49a0547be82f7159e6
+msgid "1.2–0.07"
+msgstr "1,2–0,07"
 
-#: ../userguides/reference.rst:69 c812536a072f400cb22eae20d425a6aa
-msgid "Forest"
-msgstr "Bosque"
-
-#: ../userguides/reference.rst:70 f5a1edf3e3b14204a6c1e618c0db618c
-msgid ""
-"Extract segmentation masks of forested areas from high-resolution RGB images"
-msgstr ""
-"Extraiga máscaras de segmentación de áreas boscosas a partir de imágenes RGB"
-" de alta resolución"
-
-#: ../userguides/reference.rst:73 ../userguides/reference.rst:79
-#: 715871bd14134dccb0aed7645ddf33e6
-msgid "18 - 20"
+#: ../userguides/reference.rst:54 0dddfc4c5b234a38b3ccf8eb05ed29c9
+msgid ":doc:`/userguides/forest_model`"
 msgstr ""
 
-#: ../userguides/reference.rst:74 ../userguides/reference.rst:80
-#: 8e3892be7823430390d6f5f692093ecb
-msgid "0.75 - 0.15"
-msgstr "0,75 - 0,15"
-
-#: ../userguides/reference.rst:75 93ac081e6c334b2399681c335ead91c1
-msgid "Forest Heights"
-msgstr "alturas del bosque"
-
-#: ../userguides/reference.rst:76 629cb40023ec4f4abde84c7ecfb49de6
-msgid ""
-"Classiy masks of forested areas by height classes based on predefined "
-"thresholds"
+#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
+msgid "18–20"
 msgstr ""
-"Máscaras clásicas de áreas boscosas por clases de altura basadas en umbrales"
-" predefinidos"
 
-#: ../userguides/reference.rst:81 aa29a02ec448416db2186af5dfd92e9b
-msgid "Tree crowns"
-msgstr "copas de arboles"
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "0.6–0.15"
+msgstr "0,6–0,15"
 
-#: ../userguides/reference.rst:82 629cb40023ec4f4abde84c7ecfb49de6
-msgid ""
-"Extract segmentation masks of tree crowns. Optionally converts to points or "
-"polygons."
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "2.0–0.05"
+msgstr "2,0–0,05"
+
+#: ../userguides/reference.rst:54 b50b0499bdf44949bd649ff0554ff96c
+msgid "↳ :ref:`Height classes <scenario-vegetation-height>`"
+msgstr "↳ :ref:`Clases de altura <scenario-vegetation-height>`"
+
+#: ../userguides/reference.rst:54 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "18–19"
 msgstr ""
-"Extraer máscaras de segmentación de copas de árboles. Opcionalmente se "
-"convierte en puntos o polígonos."
 
-#: ../userguides/reference.rst:83 37d14ab7d71243709ebbb7eab1c7c44e
+#: ../userguides/reference.rst:54 70d801ac55a04b37aabafe0e7ca8025a
+msgid "↳ :ref:`Tree crowns <scenario-tree-crowns>`"
+msgstr "↳ :ref:`Copas de árboles <scenario-tree-crowns>`"
+
+#: ../userguides/reference.rst:54 37d14ab7d71243709ebbb7eab1c7c44e
 msgid "19"
 msgstr ""
 
-#: ../userguides/reference.rst:84 85a7035ac95f4e5dbd70e2b60cbad143
+#: ../userguides/reference.rst:54 85a7035ac95f4e5dbd70e2b60cbad143
 msgid "0.3"
+msgstr "0,3"
+
+#: ../userguides/reference.rst:54 a15916f81d834f5ba627aac861643794
+msgid ":doc:`/userguides/roads_model`"
 msgstr ""
 
-#: ../userguides/reference.rst:85 715871bd14134dccb0aed7645ddf33e6
-msgid "19 - 20"
+#: ../userguides/reference.rst:54 3f1da78ca00645c08a9d7083d6a2dac5
+msgid ":doc:`/userguides/combo_model`"
 msgstr ""
 
-#: ../userguides/reference.rst:86 8e3892be7823430390d6f5f692093ecb
-msgid "0.3 - 0.15"
-msgstr "0,3 - 0,15"
-
-#: ../userguides/reference.rst:87 6f7a4a2a3c194d7aa2486580edc72f66
-msgid "Roads"
-msgstr "Carreteras"
-
-#: ../userguides/reference.rst:88 d023093fab1645c9a2b84ebe3f54033c
-msgid "Extract road mask from high-resolution satellite imagery"
-msgstr ""
-"Extraiga la máscara de la carretera a partir de imágenes satelitales de alta"
-" resolución"
-
-#: ../userguides/reference.rst:91 ../userguides/reference.rst:97
-#: 18aef36b4ff24fa097ff43d5ceb3f46e
-msgid "17 – 18"
+#: ../userguides/reference.rst:54 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "≥ 18"
 msgstr ""
 
-#: ../userguides/reference.rst:92 3e7dd225002d4f49a0547be82f7159e6
-msgid "1.2 - 0.1"
-msgstr "1,2 - 0,1"
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "0.75–0.07"
+msgstr "0,75–0,07"
 
-#: ../userguides/reference.rst:93 e3d2def6fd754882b1a2a4b65be1d4d6
-msgid "Constructions"
-msgstr "Construcciones"
+#: ../userguides/reference.rst:54 0111ebebee384d30ae9c333e5bb5f7f7
+msgid ":doc:`/userguides/open-data`"
+msgstr ""
 
-#: ../userguides/reference.rst:94 b8cad69b9592428d995bcff421a5f12e
+#: ../userguides/reference.rst:54 44ccccbbe0134dfa9b2000a34cfa198e
+msgid "≥ 14"
+msgstr ""
+
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "1.5–0.1"
+msgstr "1,5–0,1"
+
+#: ../userguides/reference.rst:54 3f0148d354964022b7e7250169c4779a
+msgid ":doc:`/userguides/construction_model`"
+msgstr ""
+
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "2.0–0.07"
+msgstr "2,0–0,07"
+
+#: ../userguides/reference.rst:54 0a9007f3338a45d29bc13cb160ebdef2
+msgid ":doc:`/userguides/hd_housing_model` †"
+msgstr ""
+
+#: ../userguides/reference.rst:54 016af26677a9486b860423325ccfe2d0
+#: 05f0a73d5524457499745330ddb43379 0679695a516845a0a19e93245a4ddf1a
+#: 09e6a29816a7425c9d6cd85018c466d4 2066bb1b72c94a609f620093cd07e0ce
+#: 2c2f07476bcb4c25ab3fa69dfe6f9535 6a26c4c2290a4b44b2b2d4ad397c934e
+#: 6f3fd4c122f944f18211fa94f6b195bf 7351cb975ba848278a0e1c45b6080ca1
+#: 7470a2e480d94482b5ffb8fe32b0cffc 798719ff23704f6da6366b9ea17c382c
+#: a7cf75196a7740c3af699328c00e7474 b4ed9ca73f814e8bb888ebc4bd2d6c33
+#: b8c9460884a64c53a632c7811f7982cf d75ebaff27e64b2d9b285085fb7b6de7
+#: ee6357a0406d4723a403533542a3aac6
+msgid "—"
+msgstr ""
+
+#: ../userguides/reference.rst:54 041041c12f2b4b3dbf854c0bba4845a4
+msgid ":doc:`/userguides/buildings_aerial_imagery_model`"
+msgstr ""
+
+#: ../userguides/reference.rst:54 258f87787f0d46fba101817809b769f8
+msgid "20–21"
+msgstr ""
+
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "0.1–0.05"
+msgstr "0,1–0,05"
+
+#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
+msgid "≥ 20"
+msgstr ""
+
+#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
+msgid "0.4–0.02"
+msgstr "0,4–0,02"
+
+#: ../userguides/reference.rst:54 6ebaab87abe64ac4a1a0cadfbfc2ad5a
+msgid ":doc:`/userguides/solars_model` †"
+msgstr ""
+
+#: ../userguides/reference.rst:54 18aef36b4ff24fa097ff43d5ceb3f46e
+msgid "19–21"
+msgstr ""
+
+#: ../userguides/reference.rst:54 4c774948d69b44c49857d93ccb762397
+msgid ":doc:`/userguides/swimming_pools_model` †"
+msgstr ""
+
+#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
+msgid "19–20"
+msgstr ""
+
+#: ../userguides/reference.rst:54 c1e8284264904593985374486f7bb52b
+msgid ":doc:`/userguides/agriculture_fields_model` †"
+msgstr ""
+
+#: ../userguides/reference.rst:54 3e7dd225002d4f49a0547be82f7159e6
+msgid "1.2–1.0"
+msgstr "1,2–1,0"
+
+#: ../userguides/reference.rst:54 d55422e9210d4449bed290eff7036d5d
+msgid ":doc:`/userguides/sam_model` †"
+msgstr ""
+
+#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
+msgid "14–20"
+msgstr ""
+
+#: ../userguides/reference.rst:54 6cf80416e5c848da9b455b196602f6f2
 msgid ""
-"The model highlights areas in the satellite image that contain construction "
-"sites and buildings under construction"
+"† Custom model with no published configuration: the values come from its "
+"model page, and the exact limits are set when the model is connected to your"
+" account."
 msgstr ""
-"El modelo resalta áreas en la imagen de satélite que contienen sitios de "
-"construcción y edificios en construcción."
+"† Modelo personalizado sin configuración publicada: los valores provienen de"
+" su página de modelo, y los límites exactos se fijan al conectar el modelo a"
+" su cuenta."
 
-#: ../userguides/reference.rst:98 8e3892be7823430390d6f5f692093ecb
-msgid "2.0 - 0.5"
-msgstr "2,0 - 0,5"
-
-#: ../userguides/reference.rst:100 9346e7a98e1741aa951f20d72e662ade
+#: ../userguides/reference.rst:55 9346e7a98e1741aa951f20d72e662ade
 msgid ""
 "\\* Mapflow.ai can also process single-band (panchromatic) imagery, but the "
 "NN models are not tuned for such kind of data, so the quality of the result "
@@ -350,11 +390,11 @@ msgstr ""
 "(pancromáticas), pero los modelos NN no están ajustados para ese tipo de "
 "datos, por lo que la calidad del resultado puede ser peor de lo esperado."
 
-#: ../userguides/reference.rst:103 91ba185f524848e196f2abe2f3fec0e8
+#: ../userguides/reference.rst:58 91ba185f524848e196f2abe2f3fec0e8
 msgid "Forest mapping classes"
 msgstr "clases de mapeo forestal"
 
-#: ../userguides/reference.rst:105 a9d8c8583be147e8bd3c9be04a9b9a2f
+#: ../userguides/reference.rst:60 a9d8c8583be147e8bd3c9be04a9b9a2f
 msgid ""
 "Here is presented a list of classes for the Forest vegetation Mapping Model."
 " There are two options for forest semantic classification:"
@@ -362,7 +402,7 @@ msgstr ""
 "Aquí se presenta una lista de clases para el Modelo de Mapeo de Vegetación "
 "Forestal. Hay dos opciones para la clasificación semántica forestal:"
 
-#: ../userguides/reference.rst:108 8b0b795a3004426e891aa26c42011ee1
+#: ../userguides/reference.rst:63 8b0b795a3004426e891aa26c42011ee1
 msgid ""
 "Classification by heights – classification of the areas of vegetation and "
 "shrub vegetation by height classes according to the specified thresholds: "
@@ -377,7 +417,7 @@ msgstr ""
 "propiedades. Los umbrales de altura son valores personalizables en el "
 "proceso de procesamiento."
 
-#: ../userguides/reference.rst:110 fef8351b8c2a43f8aaa6a14049473ba1
+#: ../userguides/reference.rst:65 fef8351b8c2a43f8aaa6a14049473ba1
 msgid ""
 "Classification by overgrowth density – classification of the area of "
 "vegetation and shrub vegetation into classes according to the density and "
@@ -395,6 +435,10 @@ msgstr ""
 #: ../forest/_static/csv/classes_forest.csv:1 ebdf0667b1204659a08d79f55f88f965
 msgid "DENSITY"
 msgstr "DENSIDAD"
+
+#: ../forest/_static/csv/classes_forest.csv:1 017e0214c468436f8e6936a4f3017578
+msgid "Description"
+msgstr "Descripción"
 
 #: ../forest/_static/csv/classes_forest.csv:1 645f1e175ed044bea41705a6e9eeb5c0
 msgid "00m-04m"
@@ -424,7 +468,7 @@ msgstr ""
 msgid "high forest"
 msgstr "bosque alto"
 
-#: ../userguides/reference.rst:126 91ba185f524848e196f2abe2f3fec0e8
+#: ../userguides/reference.rst:81 91ba185f524848e196f2abe2f3fec0e8
 msgid "Buildings mapping classes"
 msgstr "Clases de mapeo de edificios."
 
@@ -518,11 +562,11 @@ msgstr "Otros edificios no residenciales"
 msgid "Garages, transformer boxes, small hangars, etc."
 msgstr "Garajes, cajas de transformadores, pequeños hangares, etc."
 
-#: ../userguides/reference.rst:138 8ed18833de6c4c5dbaca79383ce74a36
+#: ../userguides/reference.rst:93 8ed18833de6c4c5dbaca79383ce74a36
 msgid "Buildings Mapping visualization with ArcGIS Online, Carto, etc"
 msgstr "Visualización de mapas de edificios con ArcGIS Online, Carto, etc."
 
-#: ../userguides/reference.rst:140 1e23a906bb2643c392e51b7cb6b42154
+#: ../userguides/reference.rst:95 1e23a906bb2643c392e51b7cb6b42154
 msgid ""
 "Mapflow Web easily processes imagery and extracts vector objects that can be"
 " downloaded in **GeoJSON** format. We recommend using GeoJSON since it is a "
@@ -536,7 +580,7 @@ msgstr ""
 "nativa con marcos de mapeo web (por ejemplo, Leaflet o Mapbox) y software "
 "SIG como QGIS o ArcGIS Suite."
 
-#: ../userguides/reference.rst:144 0dff6bf97d03450a8737af466934f1b8
+#: ../userguides/reference.rst:99 0dff6bf97d03450a8737af466934f1b8
 msgid ""
 "GeoJSON is an open standard format designed for representing simple "
 "geographical features, along with their non-spatial attributes. It is based "
@@ -555,18 +599,18 @@ msgstr ""
 "resultados de procesamiento almacenados en GeoJSON. Puede descargar o “Abrir"
 " con **geojson.io**”."
 
-#: ../userguides/reference.rst:153 ../userguides/reference.rst:170
-#: ../userguides/reference.rst:178 5221f7a675e64d50bf230d74c695a288
+#: ../userguides/reference.rst:108 ../userguides/reference.rst:125
+#: ../userguides/reference.rst:133 5221f7a675e64d50bf230d74c695a288
 #: 6ac8bf29c9c74ec0a886158a70be959b 7eea1e37824b4f328351672b820fb26a
 #: f0bc3385b7154a4dace44621d56cea7b
 msgid "Interaction panel"
 msgstr "Panel de interacción"
 
-#: ../userguides/reference.rst:153 37fc7a12e9b24e9b856b205b29a5b923
+#: ../userguides/reference.rst:108 37fc7a12e9b24e9b856b205b29a5b923
 msgid "Open with geojson.io"
 msgstr "Abrir con geojson.io"
 
-#: ../userguides/reference.rst:156 09bcbf7bcaef481897d108b6907d8c89
+#: ../userguides/reference.rst:111 09bcbf7bcaef481897d108b6907d8c89
 msgid ""
 "`Geojson.io <https://geojson.io>`_ allows you to view and save the results "
 "in a different format (CSV, KML, TopoJSON, WKT, Shapefile). Click “Save” and"
@@ -576,7 +620,7 @@ msgstr ""
 "en un formato diferente (CSV, KML, TopoJSON, WKT, Shapefile). Haga clic en "
 "\"Guardar\" y seleccione el formato en la barra de menú."
 
-#: ../userguides/reference.rst:163 18fd334e174e41a4829fefa760e60ed2
+#: ../userguides/reference.rst:118 18fd334e174e41a4829fefa760e60ed2
 msgid ""
 "Using GeoJSON allows you to use only drag&drop to visualize Mapflow output "
 "results in numerous Web-GIS without converting data formats. `See this video"
@@ -589,10 +633,85 @@ msgstr ""
 "cómo cargar y aplicar estilo a los resultados de clasificación de un "
 "edificio con ArcGIS en línea, Carto y Evergis en línea."
 
-#: ../userguides/reference.rst:170 a1795a3d38494572b3ac5240c92dc165
+#: ../userguides/reference.rst:125 a1795a3d38494572b3ac5240c92dc165
 msgid "Building footprints in ArcGIS online"
 msgstr "Construyendo huellas en ArcGIS en línea"
 
-#: ../userguides/reference.rst:178 f9cfe14fc85b4c94919956cf00655d32
+#: ../userguides/reference.rst:133 f9cfe14fc85b4c94919956cf00655d32
 msgid "Building footprints in Carto"
 msgstr "Construyendo huellas en Carto"
+
+#~ msgid "Buildings"
+#~ msgstr "Edificios"
+
+#~ msgid ""
+#~ "Extract roof contours, with optional classification, simplification and "
+#~ "height estimation"
+#~ msgstr ""
+#~ "Extraiga los contornos del techo, con clasificación, simplificación y "
+#~ "estimación de altura opcionales."
+
+#~ msgid "0.5"
+#~ msgstr "0,5"
+
+#~ msgid "17 – 19"
+#~ msgstr ""
+
+#~ msgid "Forest"
+#~ msgstr "Bosque"
+
+#~ msgid ""
+#~ "Extract segmentation masks of forested areas from high-resolution RGB images"
+#~ msgstr ""
+#~ "Extraiga máscaras de segmentación de áreas boscosas a partir de imágenes RGB"
+#~ " de alta resolución"
+
+#~ msgid "18 - 20"
+#~ msgstr ""
+
+#~ msgid "Forest Heights"
+#~ msgstr "alturas del bosque"
+
+#~ msgid ""
+#~ "Classiy masks of forested areas by height classes based on predefined "
+#~ "thresholds"
+#~ msgstr ""
+#~ "Máscaras clásicas de áreas boscosas por clases de altura basadas en umbrales"
+#~ " predefinidos"
+
+#~ msgid "Tree crowns"
+#~ msgstr "copas de arboles"
+
+#~ msgid ""
+#~ "Extract segmentation masks of tree crowns. Optionally converts to points or "
+#~ "polygons."
+#~ msgstr ""
+#~ "Extraer máscaras de segmentación de copas de árboles. Opcionalmente se "
+#~ "convierte en puntos o polígonos."
+
+#~ msgid "19 - 20"
+#~ msgstr ""
+
+#~ msgid "Roads"
+#~ msgstr "Carreteras"
+
+#~ msgid "Extract road mask from high-resolution satellite imagery"
+#~ msgstr ""
+#~ "Extraiga la máscara de la carretera a partir de imágenes satelitales de alta"
+#~ " resolución"
+
+#~ msgid "17 – 18"
+#~ msgstr ""
+
+#~ msgid "1.2 - 0.1"
+#~ msgstr "1,2 - 0,1"
+
+#~ msgid "Constructions"
+#~ msgstr "Construcciones"
+
+#~ msgid ""
+#~ "The model highlights areas in the satellite image that contain construction "
+#~ "sites and buildings under construction"
+#~ msgstr ""
+#~ "El modelo resalta áreas en la imagen de satélite que contienen sitios de "
+#~ "construcción y edificios en construcción."

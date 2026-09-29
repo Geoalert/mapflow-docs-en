@@ -1,82 +1,100 @@
 .. meta::
-   :description: Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines.
+   :description: Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. Covers sparse forest, shrubland, small tree groups and narrow tree lines, with height classes and tree crowns.
 
-🌲 Forest and trees
-====================
+.. rst-class:: mf-page
 
-The model is trained on high-resolution data (0.6-0.3m) for different areas and climate zones.
+Forest and trees
+================
 
-The result includes all areas covered with tree and shrub vegetation, including sparse forest and shrublands.
+.. mf-model-hero:: forest
 
-Model resolution allows to detect small group of trees and narrow tree lines.
+The model is trained on 0.6–0.3 m imagery from different regions and climate zones. Its resolution
+is enough to find small groups of trees and narrow tree lines. Use imagery from the growing season:
+leafless trees and snow-covered vegetation are not the target class.
 
-The model is robust to region change, and performs well in most environments, including urban. The image should be taken in active vegetation period, because leafless trees or vegetation covered with snow are not the target class.
+Scenarios with this model
+-------------------------
 
-**Latest model tags** |:label:|
+Each scenario is the Forest and trees model with one option switched on.
+Choose options in the run form of Mapflow Web or the QGIS plugin.
 
-:Version: 2026-07-03
-:Geo Domain: Global
-:Model method: Segmentation
-:GSD / Map Zoom: 0.6–0.3 m / z18–19
+.. mf-scenario-cards:: forest
 
+.. _scenario-vegetation-height:
 
-.. figure:: _static/processing_result/forest_model_3.jpg
-   :alt: Processing result of forest model
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
-   
-   Sample of processing results for solid **Forest** mask
+Vegetation height along power lines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Additional options:**
-
-* *Height estimation* – forest mask classification by height classes
-* *Tree crown polygons* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as polygons
-* *Tree crown points* - extracts tree crowns from forest vegetation as well as free-standing trees, provides them as points
-
-.. important::
-   We recommend using the **Tree crown** options with 0.3m resolution imagery (~ 19 zoom) for the best results in case you need to detect individual trees.
+.. mf-scenario:: vegetation-height
 
 .. _forest_classes:
 
 .. note::
-   Forest Height classification follows the following classes:
+   Height classes:
 
-   * Shrubs lower than 4 meters;
-   * Forest from 4 to 10 meters high;
-   * Forest more than 10 meters high;
+   * shrubs lower than 4 m;
+   * forest from 4 to 10 m;
+   * forest higher than 10 m.
 
-   This classification is used as a decision support for the vegetation management in powerline zones, etc. See the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be customized depending on the requirements.
+   The classes support vegetation management in power line corridors and similar zones,
+   see the `professional solutions by Geoalert <https://geoalert.io/solutions/power>`_.
+   The thresholds can be customized for your requirements.
 
+.. _scenario-tree-crowns:
 
-**Processing results samples**
+Count individual trees
+~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/processing_result/output-crowns.gif
-   :alt: Processing result of forest model (Tree crowns, points)
-   :align: center
-   :width: 15cm
-   :class: with-border
-   
-   Sample of results for **Tree crowns, points**
+.. mf-scenario:: tree-crowns
 
+.. important::
+   Use 0.3 m imagery (about zoom 19) with the **Tree crowns** options when you need individual trees.
 
-.. figure:: _static/processing_result/forest_w_heights_model.jpg
-   :alt: Processing result of forest model (Heights)
-   :align: center
-   :width: 15cm
-   :class: with-border no-scaled-link
+All options
+-----------
 
-   Sample of results for **Forest with heights** mask (raster output)
+.. rst-class:: mf-options
 
+Height estimation
+   Classifies the forest mask by height: shrubs under 4 m, forest 4–10 m, forest over 10 m.
 
-Benchmarks - segmentation
-----------------------------
+Tree crown polygons
+   Extracts tree crowns from forest and from free-standing trees, as polygons.
 
-Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation).
-The model was evaluated on a validation set of 6 areas of interest (AOI) against
-manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union
-of the predicted and ground-truth vegetation masks, and F1 / Precision / Recall are
-computed on the overlapping mask area.
+Tree crown points
+   Extracts tree crowns from forest and from free-standing trees, as points with a crown radius.
+
+Sample results
+--------------
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/forest_model_3.jpg
+      :alt: Forest model result: solid forest mask
+      :class: no-scaled-link
+
+      Solid **forest** mask
+
+   .. figure:: _static/processing_result/output-crowns.gif
+      :alt: Forest model result: tree crowns as points
+
+      **Tree crowns**, points
+
+   .. figure:: _static/processing_result/forest_w_heights_model.jpg
+      :alt: Forest model result: forest with height classes
+      :class: no-scaled-link
+
+      **Forest with heights** (raster output)
+
+.. _forest_benchmarks:
+
+Benchmarks
+----------
+
+**Forest and trees v.2026-07-03** (Global, segmentation) was evaluated on 8 areas of interest
+against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union
+of the predicted and ground-truth vegetation masks, and F1, precision and recall are computed
+on the overlapping mask area.
 
 .. list-table::
    :widths: 32 14 12 14 14 14
@@ -149,8 +167,6 @@ Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*
 .. seealso::
 
     📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the
-    area-by-area breakdown, including comparison with the previous version and prediction-vs-ground-truth overlays.
+    area-by-area breakdown, the comparison with the previous version and prediction-vs-ground-truth overlays.
 
-.. tip::
-
-   Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_.
+.. mf-cta::

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -19,59 +19,210 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/hd_housing_model.rst:2 e0a588b4ee9a45dbabfc8829a774af68
-msgid "🏘 High-density housing (CUSTOM)"
-msgstr "🏘 Vivienda de alta densidad (PERSONALIZADA)"
-
-#: ../userguides/hd_housing_model.rst:5 378ab28571e5445cb05d0282553813a8
+#: ../userguides/hd_housing_model.rst:1 9c370629a217454782cdda4728caec64
 msgid ""
-"This model has been deprecated as default one and moved to custom. it's "
-"available only by request."
+"Detect building roofs in terraced and densely built areas typical of the "
+"Middle East and Africa. Available as a custom Mapflow model on request."
 msgstr ""
-"Este modelo ha quedado obsoleto como modelo predeterminado y se ha movido a "
-"personalizado. está disponible sólo a pedido."
+"Detecta tejados en zonas de vivienda densa o adosada, típicas de Oriente "
+"Medio y África. Disponible como modelo personalizado bajo petición."
 
-#: ../userguides/hd_housing_model.rst:8 ed21d0f4c57346fab1e1169c542b559b
+#: ../userguides/hd_housing_model.rst:7 e0a588b4ee9a45dbabfc8829a774af68
+msgid "High-density housing"
+msgstr "Vivienda de alta densidad"
+
+#: ../userguides/hd_housing_model.rst:10 a1f260c5c39742a79bff303cc26328a3
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Edificios` :mf-warn:`Bajo pedido`"
+
+#: ../userguides/hd_housing_model.rst 9f50f9dc6160494a973f422af7568d36
+msgid "Dense housing blocks split into individual houses"
+msgstr "Manzanas de vivienda densa divididas en casas individuales"
+
+#: ../userguides/hd_housing_model.rst:10 424996b426d54e88912bd5c8447004be
+msgid "Example result: dense blocks split into houses (Tunisia)."
+msgstr "Resultado de ejemplo: manzanas densas divididas en casas (Túnez)."
+
+#: ../userguides/hd_housing_model.rst:10 175cc14a67764aed98af1a42b3bce2a4
+msgid "Cost"
+msgstr "Costo"
+
+#: ../userguides/hd_housing_model.rst:10 c23e19f17bf640478f47b36dbf3d7ffb
+msgid "Priced per project"
+msgstr "Precio por proyecto"
+
+#: ../userguides/hd_housing_model.rst:10 597dee1f317f486680a2dcf45f9e59bb
+msgid "Request access and we connect the model to your account."
+msgstr "Solicite acceso y conectamos el modelo a su cuenta."
+
+#: ../userguides/hd_housing_model.rst:10 7191a767a7434a49b35358e89497cc3d
 msgid ""
-"The “high-density housing” AI model is designed for areas with terraced or "
-"otherwise densely built buildings, common in the Middle East, parts of "
-"Africa, etc. This model, just like the regular building model, detects the "
-"building roofs. Firstly, the building blocks are segmented as a whole, and "
-"then each block is attempted to be devided into individual houses based on "
-"the detection of individual roof markers with rectangular grid or Voronoi "
-"diagram."
+"Segments dense building blocks as a whole, then divides each block into "
+"individual houses from roof markers, using a grid or Voronoi split. Built "
+"for terraced and densely built areas common in the Middle East and parts of "
+"Africa."
 msgstr ""
-"El modelo de IA de “viviendas de alta densidad” está diseñado para áreas con"
-" terrazas o edificios densamente construidos, comunes en Medio Oriente, "
-"partes de África, etc. Este modelo, al igual que el modelo de construcción "
-"normal, detecta los techos de los edificios. En primer lugar, los bloques de"
-" construcción se segmentan como un todo y luego se intenta dividir cada "
-"bloque en casas individuales basándose en la detección de marcadores de "
-"techo individuales con una cuadrícula rectangular o un diagrama de Voronoi."
+"Segmenta las manzanas densas como un todo y luego divide cada manzana en "
+"casas individuales a partir de marcadores de techo, con una cuadrícula o una"
+" división de Voronoi. Pensado para zonas adosadas y densamente construidas, "
+"habituales en Oriente Medio y partes de África."
 
-#: ../userguides/hd_housing_model.rst:11 9b9d96f2103646aeae9d3f43b9d33ff2
+#: ../userguides/hd_housing_model.rst:10 59e4b56822a943208184a8f6f7629f06
+msgid "What you get"
+msgstr "Qué obtiene"
+
+#: ../userguides/hd_housing_model.rst:10 d9660fd47fd445ac86f752f1fe426c91
+msgid "Individual house polygons within dense blocks."
+msgstr "Polígonos de casas individuales dentro de manzanas densas."
+
+#: ../userguides/hd_housing_model.rst:10 744e3e071b104256b6235d42fe398c45
+msgid "Works best with"
+msgstr "Funciona mejor con"
+
+#: ../userguides/hd_housing_model.rst:10 f807dd6ffeac411ab53a3289cab2b93e
+msgid "High-resolution imagery of terraced or densely built areas."
+msgstr ""
+"Imágenes de alta resolución de zonas adosadas o densamente construidas."
+
+#: ../userguides/hd_housing_model.rst:10 63bcc448ed394605a3ffdd09bc32927d
+msgid "Usage examples"
+msgstr "Ejemplos de uso"
+
+#: ../userguides/hd_housing_model.rst:10 9bbc57f041b24f0cb25af1f4d0a61be2
+msgid "Count dwellings in dense urban areas"
+msgstr "Contar viviendas en zonas urbanas densas"
+
+#: ../userguides/hd_housing_model.rst:10 3d62223b14714752b21a076bb7d38051
+msgid "Support census and address mapping"
+msgstr "Apoyar censos y el mapeo de direcciones"
+
+#: ../userguides/hd_housing_model.rst:10 6eece004bd0a475e96ef0fd9069f4984
+msgid "Plan services in informal settlements"
+msgstr "Planificar servicios en asentamientos informales"
+
+#: ../userguides/hd_housing_model.rst:10 8fe1f1766ea34652a99a4e14686bed7d
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Solicitar acceso <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/hd_housing_model.rst:10 24bc64e069024c73ae4c01c1c81aa81a
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Cómo funcionan los modelos personalizados "
+"</userguides/custom_pipelines>`"
+
+#: ../userguides/hd_housing_model.rst 75a0567471ff4a6d85bb5fdb992f6dba
+msgid "Geo domain"
+msgstr "Dominio geográfico"
+
+#: ../userguides/hd_housing_model.rst:10 692376868be544ba806918a88217316b
+msgid "Middle East, Africa"
+msgstr "Oriente Medio, África"
+
+#: ../userguides/hd_housing_model.rst eacceee509d74facaf95a106c17307a3
+msgid "Method"
+msgstr "Método"
+
+#: ../userguides/hd_housing_model.rst:10 9300a51bf510462b86778c832ce24383
+msgid "Instance segmentation + block split"
+msgstr "Segmentación de instancias + división de manzanas"
+
+#: ../userguides/hd_housing_model.rst:12 378ab28571e5445cb05d0282553813a8
+msgid "This model is no longer a default model. It is available on request."
+msgstr ""
+"Este modelo ya no es un modelo predeterminado. Está disponible bajo pedido."
+
+#: ../userguides/hd_housing_model.rst:15 d69d2ee2cc6c4e06a9cf7b7bc8ea861a
+msgid "How it works"
+msgstr "Cómo funciona"
+
+#: ../userguides/hd_housing_model.rst:17 ed21d0f4c57346fab1e1169c542b559b
 msgid ""
-"Processing result sample for dense urban development area (Tunisia, Africa):"
+"Like the regular Buildings model, this model detects building roofs. It "
+"first segments building blocks as a whole, then tries to split each block "
+"into individual houses from roof markers, with a rectangular grid or a "
+"Voronoi diagram."
 msgstr ""
-"Muestra de resultados del procesamiento para una zona de desarrollo urbano "
-"denso (Túnez, África):"
+"Como el modelo Edificios habitual, este modelo detecta techos de edificios. "
+"Primero segmenta las manzanas como un todo y luego intenta dividir cada "
+"manzana en casas individuales a partir de marcadores de techo, con una "
+"cuadrícula rectangular o un diagrama de Voronoi."
 
-#: ../userguides/hd_housing_model.rst:19 6d6e843631384a6cb869f069a5740eae
-msgid "Processing result of high-density housing model"
-msgstr "Resultado del procesamiento del modelo de vivienda de alta densidad."
+#: ../userguides/hd_housing_model.rst:22 b116d9b78f984e5897e05cb3b06ede0b
+msgid "Sample results"
+msgstr "Resultados de ejemplo"
 
-#: ../userguides/hd_housing_model.rst:19 9b836d1247a846caa18e51b86de87546
+#: ../userguides/hd_housing_model.rst 6d6e843631384a6cb869f069a5740eae
+msgid "High-density housing result in Tunisia"
+msgstr "Resultado de vivienda de alta densidad en Túnez"
+
+#: ../userguides/hd_housing_model.rst:30 9b836d1247a846caa18e51b86de87546
 msgid ""
-"High-density buildings model, instance segmentation and post-processing with"
-" grid options"
+"Dense urban development (Tunisia): instance segmentation and grid post-"
+"processing"
 msgstr ""
-"Modelo de edificios de alta densidad, segmentación de instancias y "
-"posprocesamiento con opciones de cuadrícula"
+"Desarrollo urbano denso (Túnez): segmentación de instancias y posprocesado "
+"con cuadrícula"
 
-#: ../userguides/hd_housing_model.rst:2
-msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
-msgstr "Detecta tejados en zonas de vivienda densa o adosada, típicas de Oriente Medio y África. Disponible como modelo personalizado bajo petición."
+#: ../userguides/hd_housing_model.rst:33 43a6087485d947ed9ffb1755742ba341
+msgid "Need a different object?"
+msgstr "¿Necesita otro tipo de objeto?"
 
-#: ../userguides/hd_housing_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."
+#: ../userguides/hd_housing_model.rst:33 39c09d25edf0487e9d860e0e2c2b6ce5
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Entrenamos modelos personalizados con sus imágenes y clases, y los "
+"conectamos a su cuenta de Mapflow."
+
+#: ../userguides/hd_housing_model.rst:33 e64ee47267a74c67a744322fd751bd8f
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/hd_housing_model.rst:33 70e8393e2574440590a65df6ea9ed88d
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Catálogo de modelos y opciones de despliegue <https://mapflow.ai/models>`__"
+
+#: ../userguides/hd_housing_model.rst:33 72d7f673a2c8405dac81cc5d65464e4f
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
+
+#~ msgid ""
+#~ "The “high-density housing” AI model is designed for areas with terraced or "
+#~ "otherwise densely built buildings, common in the Middle East, parts of "
+#~ "Africa, etc. This model, just like the regular building model, detects the "
+#~ "building roofs. Firstly, the building blocks are segmented as a whole, and "
+#~ "then each block is attempted to be devided into individual houses based on "
+#~ "the detection of individual roof markers with rectangular grid or Voronoi "
+#~ "diagram."
+#~ msgstr ""
+#~ "El modelo de IA de “viviendas de alta densidad” está diseñado para áreas con"
+#~ " terrazas o edificios densamente construidos, comunes en Medio Oriente, "
+#~ "partes de África, etc. Este modelo, al igual que el modelo de construcción "
+#~ "normal, detecta los techos de los edificios. En primer lugar, los bloques de"
+#~ " construcción se segmentan como un todo y luego se intenta dividir cada "
+#~ "bloque en casas individuales basándose en la detección de marcadores de "
+#~ "techo individuales con una cuadrícula rectangular o un diagrama de Voronoi."
+
+#~ msgid ""
+#~ "Processing result sample for dense urban development area (Tunisia, Africa):"
+#~ msgstr ""
+#~ "Muestra de resultados del procesamiento para una zona de desarrollo urbano "
+#~ "denso (Túnez, África):"
+
+#~ msgid "Processing result of high-density housing model"
+#~ msgstr "Resultado del procesamiento del modelo de vivienda de alta densidad."
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones "
+#~ "de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo "
+#~ "personalizado <https://mapflow.ai/es/custom-models>`_."
+
+#~ msgid ":mf-chip:`cityscape|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

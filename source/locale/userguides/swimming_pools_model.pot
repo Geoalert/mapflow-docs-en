@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 18:57+0200\n"
+"POT-Creation-Date: 2026-09-28 18:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,86 +17,181 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/swimming_pools_model.rst:1
-#: bbb37808fb3748ebad0d6d24ff221ecc
+#: 887cae9556b249ba9256766308e3c946
 msgid "Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:5
-#: 717aedd2962945cfae86f77dcdb879d1
-msgid "Swimming pools (CUSTOM)"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:8
-#: cd9fa636d798420686d37b280318cdd1
-msgid "This model is available by request."
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:10
-#: 5cab1a69b16a452f88b3b996be25cc09
-msgid "Swimming pools detection and classification. The model is trained on the high resolution aerial imagery (working zoom level 19). The testing benchmark score is ``F1 > 0.95``."
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:17
-#: 8a0d0fb69fac4af69415e064b55418cb
-msgid "Model name"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:18
-#: 9b6e88df2ce3409d84d0ea18d59aacc9
-msgid "Model type"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:19
-#: 96604481a0bf4176b93ea538fab4ca50
-msgid "Zoom level"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:20
-#: 04ad57d117ae4e03a26bfce189fb5366
-msgid "F1 (testing)"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:21
-#: a2bd6eef33954ad79d70f200e0425c6f
-msgid "Geo domain"
-msgstr ""
-
-#: ../userguides/swimming_pools_model.rst:22
+#: ../userguides/swimming_pools_model.rst:7
 #: 6866c366ff824742a6ff24483dfbbb62
 msgid "Swimming pools"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:23
-#: 8e0846502d8142919faac9d67f9d355e
-msgid "Detector + classification"
+#: ../userguides/swimming_pools_model.rst:10
+#: a4fd7c304ea34ebcbabaa496844a3c43
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:24
-#: 9c7ce87bf2e8474a852a680c2bdafa79
-msgid "zoom 19-20"
+#: ../userguides/swimming_pools_model.rst:0
+#: d2cf7118b23744dfa19ed2d5428a93f9
+msgid "Detected swimming pools in a residential area"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:25
-#: 21733af8cbb944eb9582e03a48482654
-msgid "> 0.95"
+#: ../userguides/swimming_pools_model.rst:10
+#: a6cc0f55c2764a8a83c061711d3c8ffe
+msgid "Example result: pools detected and classified."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:26
+#: ../userguides/swimming_pools_model.rst:10
+#: e0733344775f43c2b6fe3d57bcd64aff
+msgid "Cost"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 21f580c2b61e468fae143da5f491bde5
+msgid "Priced per project"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 0ce2f36e76894b78ae81469544ed794a
+msgid "Request access and we connect the model to your account."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 5cab1a69b16a452f88b3b996be25cc09
+msgid "Detects and classifies swimming pools on high-resolution aerial imagery, with a test score above F1 0.95."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 3d334a3f73fb49e9b405cdc956738e9f
+msgid "What you get"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: dee0cd2b77a24633a73affa627516b54
+msgid "Swimming pool polygons with a class."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 33ccada616674f20b70be1c34439e7f9
+msgid "Works best with"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 7219a74a4d8248348b412ae713c25a4c
+msgid "Aerial imagery at zoom 19–20."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 6472a42f1b964cc882ac0c68d088cf54
+msgid "Usage examples"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 908a895960c243a5b3f9857989e21086
+msgid "Keep property records and tax rolls up to date"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: ebc80badb83e4c45a4940d29473a2a33
+msgid "Plan water use and inspections"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: cc19b3594c2b4e7d957566000ec9b9d6
+msgid "Enrich insurance and real-estate data"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: c42aa16e7f8240ef9cbf0356c1b834a5
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: bcd88e924ccc47d5af1bbfb88568333b
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:0
+#: a2bd6eef33954ad79d70f200e0425c6f
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
 #: d21689380626445db37d815b4338ece4
 msgid "Global"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:None
+#: ../userguides/swimming_pools_model.rst:0
+#: d9c357f69b8244f389bd1502c0a019fc
+msgid "Method"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 8e0846502d8142919faac9d67f9d355e
+msgid "Detector + classification"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:0
+#: 95241961f8404ac3b465eb16b9ebce86
+msgid "GSD / zoom"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 9c7ce87bf2e8474a852a680c2bdafa79
+msgid "z19–20"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:0
+#: 9aad6b6dc2ca4c858a128c010cc840e3
+msgid "Test score"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:10
+#: 21733af8cbb944eb9582e03a48482654
+msgid "F1 > 0.95"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:12
+#: eb3e56a348c049c3b371483343e44696
+msgid "Sample results"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:0
 #: d2cf7118b23744dfa19ed2d5428a93f9
-msgid "Processing result of construction model"
+msgid "Swimming pools detected and classified"
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:34
+#: ../userguides/swimming_pools_model.rst:20
+#: a17d474d81db4251b0d6962d60b1fef1
+msgid "Pools detected and classified on aerial imagery"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:22
 #: 4cb7e477f85743bab71df05dc73d67c0
-msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and the model application"
+msgid "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and how the model was built."
 msgstr ""
 
-#: ../userguides/swimming_pools_model.rst:38
+#: ../userguides/swimming_pools_model.rst:25
+#: 58f1f8382f5b4c61a2d8604e37905a15
+msgid "Need a different object?"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:25
+#: 50b38fdc2bd04b128f77e25ef9ec0111
+msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:25
+#: b5005ada22114182ad29ca569f46cb16
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:25
 #: 50f47b593a144acda977416d6a374109
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+
+#: ../userguides/swimming_pools_model.rst:25
+#: d58b2b70f94e4eb7b85f3ee3944da1a1
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

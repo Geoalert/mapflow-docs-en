@@ -62,8 +62,7 @@ msgstr "Imágenes del mundo de ArcGIS"
 
 #: ../userguides/imagery_search.rst:16 d83667ae85e34914b0493cc0287038ee
 msgid "Read more about how to use :ref:`Imagery providers` with Mapflow."
-msgstr ""
-"Lea más sobre cómo utilizar :ref:`Proveedores de imágenes` con Mapflow."
+msgstr "Lea más sobre cómo utilizar :ref:`Imagery providers` con Mapflow."
 
 #: ../userguides/imagery_search.rst:19 0983997bc3b04d5f9f7858bb104c092a
 msgid ""
@@ -233,8 +232,7 @@ msgstr "Para usarlo:"
 #: ../userguides/imagery_search.rst:96 e0d3e8afecc74147a9ec345ffb19e6e6
 msgid ""
 "Draw or upload the AOI that covers your imagery (see :ref:`Select AOI`)."
-msgstr ""
-"Dibuja o carga el AOI que cubre tus imágenes (ver :ref:`Seleccionar AOI`)."
+msgstr "Dibuja o carga el AOI que cubre tus imágenes (ver :ref:`Select AOI`)."
 
 #: ../userguides/imagery_search.rst:97 ddacbe07c07b489a81eb046100e88efa
 #, fuzzy
@@ -440,7 +438,7 @@ msgid ""
 "The search card shows the label |alert| of the **new image** found. Clicking"
 " on an image in the results table will remove the label."
 msgstr ""
-"La tarjeta de búsqueda muestra la etiqueta |alerta| de la **nueva imagen** "
+"La tarjeta de búsqueda muestra la etiqueta |alert| de la **nueva imagen** "
 "encontrada. Al hacer clic en una imagen en la tabla de resultados se "
 "eliminará la etiqueta."
 
@@ -481,7 +479,7 @@ msgid ""
 "<imagery-search-web>`:"
 msgstr ""
 "El procesamiento se inicia de la misma manera que desde :ref:`búsqueda "
-"instantánea <búsqueda-de-imagenes-web>`:"
+"instantánea <imagery-search-web>`:"
 
 #: ../userguides/imagery_search.rst:220 2db6c7fbd260458389db35d150861d73
 #, fuzzy
@@ -804,7 +802,7 @@ msgid ""
 "for processings not linked to any area."
 msgstr ""
 "Seleccione la búsqueda planificada en la tabla **Procesando** y haga clic en"
-" la |flecha_derecha| botón de navegación (o haga doble clic en la fila). El "
+" la |right_arrow| botón de navegación (o haga doble clic en la fila). El "
 "complemento ingresa a la vista de búsqueda planificada: la tabla ahora "
 "muestra las AOI de búsqueda, cada una seguida de los procesamientos que se "
 "iniciaron para ella, y el grupo **\"Sin AOI\"** para los procesamientos no "

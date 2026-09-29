@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 23:11+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -19,19 +19,130 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/sam_model.rst:2 78a8410184fc4b028659ed163cda731b
-msgid "✨ Segment Anything v1 (CUSTOM)"
-msgstr "✨ Segmentar cualquier cosa v1 (PERSONALIZADO)"
-
-#: ../userguides/sam_model.rst:5 58b51a35fc074d43b9e7d5f357703864
+#: ../userguides/sam_model.rst:1 8ac8aa159e6e443aa7cdaa22e481e7c8
 msgid ""
-"This model has been deprecated as default one and moved to custom. it's "
-"available only by request."
+"Segment Anything adapted for large-scale satellite imagery workflows in "
+"Mapflow. Universal segmentation, available as a custom model on request."
 msgstr ""
-"Este modelo ha quedado obsoleto como modelo predeterminado y se ha movido a "
-"personalizado. está disponible sólo a pedido."
+"Segment Anything adaptado a flujos de trabajo de imágenes satelitales a gran"
+" escala en Mapflow. Segmentación universal, bajo petición."
 
-#: ../userguides/sam_model.rst:7 f868cee71aec417a84bb07f19617b7c2
+#: ../userguides/sam_model.rst:7 78a8410184fc4b028659ed163cda731b
+msgid "Segment Anything"
+msgstr "Segment Anything"
+
+#: ../userguides/sam_model.rst:10 56c2de87c9774255914b3c69b32c5fc1
+msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
+msgstr ":mf-chip:`sam|Otros objetos` :mf-warn:`Bajo pedido`"
+
+#: ../userguides/sam_model.rst e0c47f96ede04a1bb0567c6880dd620d
+msgid "Segment Anything polygons over farmland"
+msgstr "Polígonos de Segment Anything sobre tierras de cultivo"
+
+#: ../userguides/sam_model.rst:10 4d1cb58b355d4f32b7a2140717217945
+msgid "Example result: SAM at zoom 16."
+msgstr "Resultado de ejemplo: SAM con zoom 16."
+
+#: ../userguides/sam_model.rst:10 49b6631f78244a96acfb79801c9fda78
+msgid "Cost"
+msgstr "Costo"
+
+#: ../userguides/sam_model.rst:10 6805cd1a558e45a28f2037ce39ad3788
+msgid "Priced per project"
+msgstr "Precio por proyecto"
+
+#: ../userguides/sam_model.rst:10 80ee3fd12863433887f4d7a66cc3e885
+msgid "Request access and we connect the model to your account."
+msgstr "Solicite acceso y conectamos el modelo a su cuenta."
+
+#: ../userguides/sam_model.rst:10 5c9a9546b3124a9da158f2726c8e78c5
+msgid ""
+"Meta's universal segmentation model, adapted to Mapflow workflows. Zoom 14 "
+"outlines land use, large fields and water; zoom 16 small fields and large "
+"buildings; zoom 18 farms and groups of trees; zoom 19 and up houses, trees "
+"and vehicles."
+msgstr ""
+"El modelo de segmentación universal de Meta, adaptado a los flujos de "
+"trabajo de Mapflow. El zoom 14 delimita usos del suelo, campos grandes y "
+"agua; el zoom 16, campos pequeños y edificios grandes; el zoom 18, granjas y"
+" grupos de árboles; el zoom 19 y superiores, casas, árboles y vehículos."
+
+#: ../userguides/sam_model.rst:10 4200c06652da404f8b2118aa1e597f88
+msgid "What you get"
+msgstr "Qué obtiene"
+
+#: ../userguides/sam_model.rst:10 c063d6e95e7b4480abad3565616ca80b
+msgid "Polygons of whatever stands out at the chosen zoom."
+msgstr "Polígonos de todo lo que destaque con el zoom elegido."
+
+#: ../userguides/sam_model.rst:10 2966f1f6d77746a3b1723a01827fbca5
+msgid "Works best with"
+msgstr "Funciona mejor con"
+
+#: ../userguides/sam_model.rst:10 8f8225e15da040c8961c9d2c45a8c61e
+msgid "Any RGB imagery. Choose the zoom in the run form."
+msgstr "Cualquier imagen RGB. Elija el zoom en el formulario de ejecución."
+
+#: ../userguides/sam_model.rst:10 a895b6f5c2544d7bbdf41dbc170377e4
+msgid "Usage examples"
+msgstr "Ejemplos de uso"
+
+#: ../userguides/sam_model.rst:10 46549cb52aca4611be5ab7b0dd6fba6b
+msgid "Outline objects no standard model covers"
+msgstr "Delimitar objetos que ningún modelo estándar cubre"
+
+#: ../userguides/sam_model.rst:10 bdc6c7b168b04cf0b9e7e9bf7993b60b
+msgid "Pre-segment imagery for manual labelling"
+msgstr "Presegmentar imágenes para el etiquetado manual"
+
+#: ../userguides/sam_model.rst:10 df2ffe7f13bc46499da919bbdac8271e
+msgid "Explore a new area before choosing a model"
+msgstr "Explorar un área nueva antes de elegir un modelo"
+
+#: ../userguides/sam_model.rst:10 d0a6c3fd97114b2fb244358204bf69d5
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Solicitar acceso <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/sam_model.rst:10 56bf53cf76ea47028136e1c86e1b9b68
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Cómo funcionan los modelos personalizados "
+"</userguides/custom_pipelines>`"
+
+#: ../userguides/sam_model.rst 745a537e9e374dae8590b59e2f634b4d
+msgid "Geo domain"
+msgstr "Dominio geográfico"
+
+#: ../userguides/sam_model.rst:10 32ea07207e904e2d8a15717acb9f034d
+msgid "Global"
+msgstr "Global"
+
+#: ../userguides/sam_model.rst 5651d364984d47ffa57a1021917a14b3
+msgid "Method"
+msgstr "Método"
+
+#: ../userguides/sam_model.rst:10 d4a73e172a0047dab050eb0965a3fb09
+msgid "Universal segmentation"
+msgstr "Segmentación universal"
+
+#: ../userguides/sam_model.rst e4e173178cb744e582952ec819790c60
+msgid "GSD / zoom"
+msgstr "GSD / zoom"
+
+#: ../userguides/sam_model.rst:10 c451e676fb37415abb56d39e7a37c013
+msgid "z14–20"
+msgstr "z14–20"
+
+#: ../userguides/sam_model.rst:12 58b51a35fc074d43b9e7d5f357703864
+msgid "This model is no longer a default model. It is available on request."
+msgstr ""
+"Este modelo ya no es un modelo predeterminado. Está disponible bajo pedido."
+
+#: ../userguides/sam_model.rst:15 acfcf98d774248debdca19d6ff9c406a
+msgid "How it works"
+msgstr "Cómo funciona"
+
+#: ../userguides/sam_model.rst:17 f868cee71aec417a84bb07f19617b7c2
 msgid ""
 "The “Segment Anything” (originaly introduced by Meta as *universal "
 "segmentation model*) is available as yet another experimental model in "
@@ -44,11 +155,11 @@ msgstr ""
 " para usarlo a escala. Existen los mismos pasos necesarios para iniciar este"
 " modelo:"
 
-#: ../userguides/sam_model.rst:9 cb7edc0b11364c28b86b19054c0a3362
+#: ../userguides/sam_model.rst:19 cb7edc0b11364c28b86b19054c0a3362
 msgid "Select your data source"
 msgstr "Seleccione su fuente de datos"
 
-#: ../userguides/sam_model.rst:10 03761c13c4bb48da9c0b0e199f998613
+#: ../userguides/sam_model.rst:20 03761c13c4bb48da9c0b0e199f998613
 msgid ""
 "Select your geographical area - either polygon, GeoJSON file, or your image "
 "extent"
@@ -56,11 +167,11 @@ msgstr ""
 "Seleccione su área geográfica: ya sea un polígono, un archivo GeoJSON o la "
 "extensión de su imagen"
 
-#: ../userguides/sam_model.rst:12 a149f9c487624d87814f8e8594e3de49
+#: ../userguides/sam_model.rst:22 a149f9c487624d87814f8e8594e3de49
 msgid "Yet there is one difference in the model workflow:"
 msgstr "Sin embargo, hay una diferencia en el flujo de trabajo del modelo:"
 
-#: ../userguides/sam_model.rst:14 156a0bc4e02c40839410608835a18948
+#: ../userguides/sam_model.rst:24 156a0bc4e02c40839410608835a18948
 msgid ""
 "if you run this model using GTIFF file — the original resolution of the "
 "image will be used"
@@ -68,7 +179,7 @@ msgstr ""
 "si ejecuta este modelo utilizando un archivo GTIFF — se utilizará la "
 "resolución original de la imagen"
 
-#: ../userguides/sam_model.rst:15 318708d28b9a47e3b05462179a628b9f
+#: ../userguides/sam_model.rst:25 318708d28b9a47e3b05462179a628b9f
 msgid ""
 "if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need"
 " to select the Zoom level (image resolution) from the model options which "
@@ -78,16 +189,16 @@ msgstr ""
 "Satellite) — debe seleccionar el nivel de zoom (resolución de imagen) de las"
 " opciones del modelo que se utilizará para la entrada"
 
-#: ../userguides/sam_model.rst:47 ../userguides/sam_model.rst:55
-#: ../userguides/sam_model.rst:63 ../userguides/sam_model.rst:72
-#: ../userguides/sam_model.rst:80 11e5e41b661d4399b6c1a49abfe58892
+#: ../userguides/sam_model.rst:57 ../userguides/sam_model.rst:65
+#: ../userguides/sam_model.rst:73 ../userguides/sam_model.rst:82
+#: ../userguides/sam_model.rst:90 11e5e41b661d4399b6c1a49abfe58892
 #: 41c19f3942ac4afaa942181325becdcb c691d633804046ff9c842ced60a3b016
 #: e0c47f96ede04a1bb0567c6880dd620d e7c5e44f077e44ccb3d88ac41962577d
 #: f9c3772596ad48f8b1d68d41242e225b
 msgid "SAM options - zoom levels"
 msgstr "Opciones de SAM: niveles de zoom"
 
-#: ../userguides/sam_model.rst:24 fd0e75bd1fa04950bf4c093cd2fce84a
+#: ../userguides/sam_model.rst:34 fd0e75bd1fa04950bf4c093cd2fce84a
 msgid ""
 "Depending on the input resolution, the SAM model will interpret and generate"
 " different results. It can be empirically classified by mapping classes "
@@ -97,61 +208,61 @@ msgstr ""
 "generará diferentes resultados. Se puede clasificar empíricamente por clases"
 " de mapeo dependiendo de los niveles de zoom de la siguiente manera:"
 
-#: ../userguides/sam_model.rst:30 64c4077918c94304bd555b0519c6786c
+#: ../userguides/sam_model.rst:40 64c4077918c94304bd555b0519c6786c
 msgid "ZOOM LEVELS"
 msgstr "NIVELES DE AMPLIACIÓN"
 
-#: ../userguides/sam_model.rst:31 c973b18c61944e61be2dc02350eea590
+#: ../userguides/sam_model.rst:41 c973b18c61944e61be2dc02350eea590
 msgid "SEMANTIC OBJECTS"
 msgstr "OBJETOS SEMÁNTICOS"
 
-#: ../userguides/sam_model.rst:32 516198fb6b04446fb423a4a067f1fbc5
+#: ../userguides/sam_model.rst:42 516198fb6b04446fb423a4a067f1fbc5
 msgid "14"
-msgstr ""
+msgstr "14"
 
-#: ../userguides/sam_model.rst:33 9c8cc24a100643f7845502faaf4be53c
+#: ../userguides/sam_model.rst:43 9c8cc24a100643f7845502faaf4be53c
 msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
 msgstr ""
 "Uso de la tierra, grandes campos agrícolas, bosques, parques, campos, "
 "cuerpos de agua"
 
-#: ../userguides/sam_model.rst:34 1db16cb459ea47cc8dfb7bf3436c9fea
+#: ../userguides/sam_model.rst:44 1db16cb459ea47cc8dfb7bf3436c9fea
 msgid "16"
-msgstr ""
+msgstr "16"
 
-#: ../userguides/sam_model.rst:35 3adbc1a8c9c347369821128236fd1429
+#: ../userguides/sam_model.rst:45 3adbc1a8c9c347369821128236fd1429
 msgid "Small fields, large buildings, lawns, plots"
 msgstr "Campos pequeños, edificios grandes, césped, parcelas."
 
-#: ../userguides/sam_model.rst:36 cd33043e99114118b09af6146596e8b2
+#: ../userguides/sam_model.rst:46 cd33043e99114118b09af6146596e8b2
 msgid "18"
-msgstr ""
+msgstr "18"
 
-#: ../userguides/sam_model.rst:37 d190db48ba104cfa90a4087a1bb35b18
+#: ../userguides/sam_model.rst:47 d190db48ba104cfa90a4087a1bb35b18
 msgid "Farms, buildings, groups of trees, etc."
 msgstr "Fincas, edificios, grupos de árboles, etc."
 
-#: ../userguides/sam_model.rst:38 00f54fca3c9f43a2a0da70c318ea673c
+#: ../userguides/sam_model.rst:48 00f54fca3c9f43a2a0da70c318ea673c
 msgid "19+"
-msgstr ""
+msgstr "19+"
 
-#: ../userguides/sam_model.rst:39 bbe2625a48274f1f82b5170e17836b62
+#: ../userguides/sam_model.rst:49 bbe2625a48274f1f82b5170e17836b62
 msgid "Houses, trees, vehicles, roof structures, etc."
 msgstr "Casas, árboles, vehículos, estructuras de techos, etc."
 
-#: ../userguides/sam_model.rst:47 2c6d8222c63a4565a5764049cbeb2ac1
+#: ../userguides/sam_model.rst:57 2c6d8222c63a4565a5764049cbeb2ac1
 msgid "E.g. Result – SAM (zoom 14)"
 msgstr "P.ej. Resultado – SAM (zoom 14)"
 
-#: ../userguides/sam_model.rst:55 4d1cb58b355d4f32b7a2140717217945
+#: ../userguides/sam_model.rst:65 4d1cb58b355d4f32b7a2140717217945
 msgid "E.g. Result – SAM (zoom 16)"
 msgstr "P.ej. Resultado – SAM (zoom 16)"
 
-#: ../userguides/sam_model.rst:63 cb9036b2bbf04a8e88aa87e5fab7ad73
+#: ../userguides/sam_model.rst:73 cb9036b2bbf04a8e88aa87e5fab7ad73
 msgid "E.g. Result – SAM (zoom 18)"
 msgstr "P.ej. Resultado – SAM (zoom 18)"
 
-#: ../userguides/sam_model.rst:72 401ffa32832b453b9324f2456e32ebb6
+#: ../userguides/sam_model.rst:82 401ffa32832b453b9324f2456e32ebb6
 msgid ""
 "E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons "
 "are not very accurate and some target objects are missing, but the overall "
@@ -162,7 +273,7 @@ msgstr ""
 "pero el resultado general es relevante y puede usarse para un mapeo más "
 "preciso."
 
-#: ../userguides/sam_model.rst:80 9bd6ad95ec684ef1a788b45c2402adb6
+#: ../userguides/sam_model.rst:90 9bd6ad95ec684ef1a788b45c2402adb6
 msgid ""
 "E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to "
 "small similar-pattern objects, requires some manual filtering of the model's"
@@ -172,25 +283,51 @@ msgstr ""
 " objetos pequeños con patrones similares, requiere cierto filtrado manual de"
 " la salida del modelo."
 
-#: ../userguides/sam_model.rst:83 7a8cc7ad9d104ef785d758b71ae4276d
+#: ../userguides/sam_model.rst:93 7a8cc7ad9d104ef785d758b71ae4276d
 msgid ""
-"❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
-"list of default models, as the zoom options are not enabled in the current "
+"SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list "
+"of default models, as the zoom options are not enabled in the current "
 "plugin’s design. Yet if you work in QGIS and want to try SAM there — send us"
 " a request and we will connect corresponding workflow scenarios with all "
 "zoom options specified."
 msgstr ""
-"❗️ SAM no se proporciona en :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
-"lista de modelos predeterminados, ya que las opciones de zoom no están "
-"habilitadas en el diseño del complemento actual. Sin embargo, si trabaja en "
-"QGIS y desea probar SAM allí, envíenos una solicitud y conectaremos los "
-"escenarios de flujo de trabajo correspondientes con todas las opciones de "
-"zoom especificadas."
+"SAM no figura en la lista de modelos predeterminados de :doc:`Mapflow para "
+"QGIS <../../api/qgis_mapflow>`, porque las opciones de zoom no están "
+"habilitadas en el diseño actual del complemento. Si trabaja en QGIS y quiere"
+" probar SAM allí, envíenos una solicitud y conectaremos los escenarios de "
+"flujo de trabajo correspondientes con todas las opciones de zoom."
 
-#: ../userguides/sam_model.rst:2
-msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
-msgstr "Segment Anything adaptado a flujos de trabajo de imágenes satelitales a gran escala en Mapflow. Segmentación universal, bajo petición."
+#: ../userguides/sam_model.rst:96 f31ab6e4381543688e8a171040e48fb1
+msgid "Need a different object?"
+msgstr "¿Necesita otro tipo de objeto?"
 
-#: ../userguides/sam_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo personalizado <https://mapflow.ai/es/custom-models>`_."
+#: ../userguides/sam_model.rst:96 eb95ebb2e7af462c88d35c064ea35e7e
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Entrenamos modelos personalizados con sus imágenes y clases, y los "
+"conectamos a su cuenta de Mapflow."
+
+#: ../userguides/sam_model.rst:96 1e3ef4de15e046efbb9dbc41cbec8524
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/sam_model.rst:96 dddf5e38872f474e8409e5e3e609d1fd
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Catálogo de modelos y opciones de despliegue <https://mapflow.ai/models>`__"
+
+#: ../userguides/sam_model.rst:96 1a2a5ed824c94e7d9de02e36746c1c75
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "¿Quieres llevarlo a producción? Consulta el `catálogo de modelos y opciones "
+#~ "de despliegue <https://mapflow.ai/es/models>`_ o `solicita un modelo "
+#~ "personalizado <https://mapflow.ai/es/custom-models>`_."

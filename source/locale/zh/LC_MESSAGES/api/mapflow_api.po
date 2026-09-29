@@ -21,15 +21,15 @@ msgstr ""
 
 #: ../api/mapflow_api.rst:4 ddf104945a5945559b7f7c96d509b35f
 msgid "Mapflow API"
-msgstr "地图流API"
+msgstr "Mapflow API"
 
 #: ../api/mapflow_api.rst:12 65d612feadbc4d1e9df0fabdc7b07319
 msgid ""
 "Read documentation and see examples also in this `Postman collection for API"
 " <https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_."
 msgstr ""
-"阅读文档并查看此“Postman API 集合 "
-"<https://documenter.getpostman.com/view/5400715/TzmCiu5h>”中的示例。"
+"阅读文档并查看此\\ `Postman API 集合 "
+"<https://documenter.getpostman.com/view/5400715/TzmCiu5h>`_\\ 中的示例。"
 
 #: ../api/mapflow_api.rst 87c8f3dfa13449ec8d118dce75b379dc
 msgid "Python cli"
@@ -40,7 +40,7 @@ msgid ""
 "Download and install Mapflow python CLI to query API and run scripts "
 "`Mapflow CLI Tool <https://github.com/Geoalert/mapflow-api-scripts>`_."
 msgstr ""
-"下载并安装 Mapflow python CLI 以查询 API 并运行脚本`Mapflow CLI Tool "
+"下载并安装 Mapflow python CLI 以查询 API 并运行脚本\\ `Mapflow CLI Tool "
 "<https://github.com/Geoalert/mapflow-api-scripts>`_。"
 
 #: ../userguides/mapflow_auth.rst:4 ea8d9e45a0be4cd0acebc7a4f82f7d74
@@ -55,9 +55,9 @@ msgid ""
 "<https://app.mapflow.ai/account/api>`_. Token must be passed in the **Basic "
 "Auth** parameters like in the example:"
 msgstr ""
-"要从外部应用程序访问，例如:doc:`QGIS 插件 <../api/qgis_mapflow>`，您需要获取 **API "
-"令牌**。用户可以在`https://app.mapflow.ai/account/api "
-"<https://app.mapflow.ai/account/api>`_注册并获取令牌。令牌必须在 **Basic Auth** "
+"要从外部应用程序访问，例如\\ :doc:`QGIS 插件 <../api/qgis_mapflow>`，您需要获取 **API "
+"令牌**。用户可以在\\ `https://app.mapflow.ai/account/api "
+"<https://app.mapflow.ai/account/api>`_\\ 注册并获取令牌。令牌必须在 **Basic Auth** "
 "参数中传递，如示例所示："
 
 #: ../userguides/mapflow_auth.rst:17 5e4ba405ef2140219dd4f77c4a182d9e
@@ -70,7 +70,8 @@ msgid ""
 "You can decode it `with base64 decoder <https://www.base64decoder.io/>`_ to "
 "use in Basic Auth form"
 msgstr ""
-"您可以使用 base64 解码器 <https://www.base64decoder.io/>`_ 对其进行解码，以在基本身份验证表单中使用"
+"您可以\\ `使用 base64 解码器 <https://www.base64decoder.io/>`_\\ "
+"对其进行解码，以在基本身份验证表单中使用"
 
 #: ../userguides/mapflow_auth.rst:21 9561ba0813e744578c892ce80daba593
 msgid "Make sure you save the token, otherwise you will need to reissue it."
@@ -85,13 +86,13 @@ msgid ""
 "Open the web application `Mapflow <https://app.mapflow.ai>`_. Register a new"
 " account or sign in using your Google account."
 msgstr ""
-"打开 Web 应用程序“Mapflow <https://app.mapflow.ai>”_。注册新帐户或使用您的 Google 帐户登录。"
+"打开 Web 应用程序\\ `Mapflow <https://app.mapflow.ai>`_。注册新帐户或使用您的 Google 帐户登录。"
 
 #: ../userguides/mapflow_auth.rst:28 1157b2310a984d9a9ccd33466d42a148
 msgid ""
 "Go to `user profile settings <https://app.mapflow.ai/account>`_ to generate "
 "a new API token."
-msgstr "转到“用户配置文件设置 <https://app.mapflow.ai/account>”_ 以生成新的 API 令牌。"
+msgstr "转到\\ `用户配置文件设置 <https://app.mapflow.ai/account>`_ 以生成新的 API 令牌。"
 
 #: 35ac8d770de74e079a2f81cc171bba8e
 msgid "Preview map"
@@ -99,7 +100,7 @@ msgstr "预览地图"
 
 #: ../api/processing_api.rst:4 03398d44ae754d3cb2dce4db981a7750
 msgid "Mapflow Processing API"
-msgstr "地图流处理 API"
+msgstr "Mapflow 处理 API"
 
 #: ../api/processing_api.rst:6 6ab351c9bd384dc486a7aeeefe631578
 msgid ""
@@ -114,8 +115,8 @@ msgid ""
 "`Mapflow.ai <https://app.mapflow.ai/>`_. API calls consume your Mapflow "
 "credits."
 msgstr ""
-"通过 API 创建的项目和处理与“Mapflow.ai <https://app.mapflow.ai/>”**同步**。 API 调用会消耗您的 "
-"Mapflow 积分。"
+"通过 API 创建的项目和处理与\\ `Mapflow.ai <https://app.mapflow.ai/>`_\\ **同步**。API "
+"调用会消耗您的 Mapflow 积分。"
 
 #: ../api/data_api.rst:18 ../api/processing_api.rst:12
 #: 18c668a76bee4679847567e7b465e477 3477e7b6ef974db383f6555ca16ca5dd
@@ -133,13 +134,14 @@ msgid ""
 "All API requests require an API token. Generate yours in `profile settings "
 "<https://app.mapflow.ai/account>`_."
 msgstr ""
-"所有 API 请求都需要 API 令牌。在“配置文件设置 <https://app.mapflow.ai/account>”中生成您的配置文件设置。"
+"所有 API 请求都需要 API 令牌。在\\ `配置文件设置 <https://app.mapflow.ai/account>`_\\ "
+"中生成您的配置文件设置。"
 
 #: ../api/data_api.rst:35 ../api/processing_api.rst:29
 #: 4392d3d01f4b481f9ba0b95e57e32531 cd9fe8eeabb74f5ea1ae1a790316c214
 msgid ""
 "See :doc:`authorization guide <../userguides/mapflow_auth>` for details."
-msgstr "有关详细信息，请参阅:doc:`授权指南 <../userguides/mapflow_auth>`。"
+msgstr "有关详细信息，请参阅\\ :doc:`授权指南 <../userguides/mapflow_auth>`。"
 
 #: ../api/data_api.rst:39 ../api/processing_api.rst:33
 #: 46d4760b44c6400aa13c0599edafc063 b0c9cb334bf34fdba4259f7be6362f94
@@ -176,12 +178,12 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**后续步骤：** 探索可用模型 <模型要求>`，上传自定义图像 <upload-images>`，或查看:ref:`完整 API 参考 <api-"
-"reference>`。"
+"**后续步骤：** 查看 :ref:`可用模型 <Model requirements>`，上传 :ref:`自定义影像 <upload-"
+"images>`，或查阅 :ref:`完整 API 参考 <api-reference>`。"
 
 #: ../api/data_api.rst:4 95a02487808a411db1ec460a442693de
 msgid "Mapflow Data API"
-msgstr "地图流数据 API"
+msgstr "Mapflow 数据 API"
 
 #: ../api/data_api.rst:6 fde5209ce1bc42a5b33d718fa56cbca8
 msgid ""
@@ -190,8 +192,8 @@ msgid ""
 "imagery for AI-powered analysis with the :doc:`Processing API "
 "<processing_api>`."
 msgstr ""
-"Mapflow Data API 使您能够管理自定义图像、将其组织成马赛克以及从外部提供商搜索卫星图像。通过处理 API "
-"<processing_api>` 使用您的图像进行 AI 支持的分析。"
+"Mapflow Data API 可用于管理自定义影像、将其组织为镶嵌图，以及从外部提供商搜索卫星影像。可通过 :doc:`Processing API"
+" <processing_api>` 使用您的影像进行 AI 分析。"
 
 #: ../api/data_api.rst 52305195325240fc98b0bf64cc365380
 msgid "Postman Collection"
@@ -203,8 +205,9 @@ msgid ""
 "<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_ for "
 "interactive API testing."
 msgstr ""
-"尝试我们的“Postman Collection "
-"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>”_进行交互式 API 测试。"
+"尝试我们的\\ `Postman Collection "
+"<https://documenter.getpostman.com/view/5400715/2s935hS7ky>`_\\ 进行交互式 API "
+"测试。"
 
 #: ../api/data_api.rst:41 8f103f33ce344474adcc13f87ead9ac9
 msgid "**Upload and process your imagery in 3 steps:**"
@@ -236,14 +239,14 @@ msgid ""
 "manage :ref:`storage limits <storage-management>`, or review the "
 ":ref:`complete API reference <api-reference>`."
 msgstr ""
-"**后续步骤：** 探索:ref:`卫星图像搜索 <imagery-search>`、管理:ref:`存储限制 <storage-"
-"management>`，或查看:ref:`完整的 API 参考 <api-reference>`。"
+"**后续步骤：** 探索\\ :ref:`卫星图像搜索 <imagery-search>`、管理\\ :ref:`存储限制 <storage-"
+"management>`，或查看\\ :ref:`完整的 API 参考 <api-reference>`。"
 
 #: ../api/data_api.rst:87 27620dfcc4264eac913f0896fc7e07e2
 msgid ""
 "For complete API reference documentation including all endpoints, "
 "parameters, and examples, see :ref:`api-reference`."
-msgstr "有关完整的 API 参考文档（包括所有端点、参数和示例），请参阅 api-reference。"
+msgstr "包含所有端点、参数和示例的完整 API 参考文档，请参阅 :ref:`api-reference`。"
 
 #: ../api/api_reference.rst:4 d9a208e6633045898d4bb37f25b42cc4
 msgid "API Reference"
@@ -430,8 +433,8 @@ msgid ""
 "``inferenceParams``. v1 uses a flat ``params`` map and is maintained for "
 "backward compatibility."
 msgstr ""
-"**推荐使用v2 API。**它使用结构化的``sourceParams``和``inferenceParams``。 v1 "
-"使用平面“params”映射并进行维护以实现向后兼容性。"
+"**推荐使用v2 API。**\\ 它使用结构化的\\ ``sourceParams``\\ 和\\ ``inferenceParams``。 v1 "
+"使用平面“``params``”映射并进行维护以实现向后兼容性。"
 
 #: ../api/api_reference.rst:100 18b70f3c082c4c4ab78f405f4695c6f7
 msgid "Create processing (v2)"
@@ -487,7 +490,7 @@ msgstr "目的"
 
 #: ../api/api_reference.rst:133 cb905209dfe4421188036efb85e34711
 msgid "Imagery source configuration (see :ref:`source-params`)"
-msgstr "图像源配置（请参阅：ref:`source-params`）"
+msgstr "影像源配置（参见 :ref:`source-params`）"
 
 #: ../api/api_reference.rst:134 c8b6663c4d62498393c4f92b7421c79b
 msgid "``params.inferenceParams``"
@@ -511,7 +514,7 @@ msgstr "大批"
 
 #: ../api/api_reference.rst:141 05655827a4de4d77a62cacf55b8d8018
 msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
-msgstr "启用/禁用工作流程步骤（请参阅：ref:`workflow-blocks`）"
+msgstr "启用/禁用工作流步骤（参见 :ref:`workflow-blocks`）"
 
 #: ../api/api_reference.rst:145 115a41027458497ea2281bc3a608b386
 msgid "Processing description"
@@ -557,7 +560,7 @@ msgstr "处理UUID（路径参数）"
 msgid ""
 "**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, "
 "``FAILED``, ``CANCELLED``"
-msgstr "**状态值：**``未处理``、``IN_PROGRESS``、``正在等待``、``确定``、``失败``、``已取消``"
+msgstr "**状态值：**\\ ``未处理``、``IN_PROGRESS``、``正在等待``、``确定``、``失败``、``已取消``"
 
 #: ../api/api_reference.rst:250 c3fd917e2d024137aaa8af98e0ecce76
 msgid "List processings (v2)"
@@ -589,7 +592,7 @@ msgstr "计算成本 (v2)"
 
 #: ../api/api_reference.rst:288 bad81dbc558844829135cc53e7a0a5af
 msgid "**POST** ``/processing/cost/v2``"
-msgstr "**POST**``/处理/成本/v2``"
+msgstr "**POST**\\ ``/处理/成本/v2``"
 
 #: ../api/api_reference.rst:290 8ba2942b5d774844bd583453efc6091e
 msgid "Estimates processing cost before running."
@@ -638,7 +641,7 @@ msgstr "启用的工作流程块"
 
 #: ../api/api_reference.rst:322 7dae5a5c4a6c409b8d3ab27bae2b7b8b
 msgid "*Provide either ``geometry`` or ``areaSqKm`` (or both)."
-msgstr "*提供“几何图形”或“面积SqKm”（或两者）。"
+msgstr "\\*请提供 ``geometry`` 或 ``areaSqKm``\\ （或两者都提供）。"
 
 #: ../api/api_reference.rst:346 68efd2617c394e7e82688fccb3005f73
 msgid "Download results"
@@ -659,7 +662,7 @@ msgstr "**查询参数：**"
 
 #: ../api/api_reference.rst:354 100c9dbfadbd408a9a145edae273b531
 msgid "``aoiId`` (optional) — Filter results to specific AOI"
-msgstr "``aoiId``（可选）- 将结果过滤到特定的 AOI"
+msgstr "``aoiId``\\ （可选）- 将结果过滤到特定的 AOI"
 
 #: ../api/api_reference.rst:356 ../api/api_reference.rst:376
 #: 301077f9716748858f82419dfcd90e1d 76eef52eafa44c4791d0b20f5ca9c34c
@@ -680,7 +683,7 @@ msgstr "按特定 AOI 将处理结果下载为 GeoJSON。"
 
 #: ../api/api_reference.rst:374 c0b16272ce7b4105ac79aaca73d2f6ac
 msgid "``aoiId`` (required) - AOI ID used to filter results"
-msgstr "``aoiId``（必需）- 用于过滤结果的 AOI ID"
+msgstr "``aoiId``\\ （必需）- 用于过滤结果的 AOI ID"
 
 #: ../api/api_reference.rst:386 792faf5db85141dbb265f75e4a045a1b
 msgid "Processing management"
@@ -800,7 +803,7 @@ msgstr "数据来源"
 msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
-msgstr "“sourceParams”对象指定从哪里获取图像。选择一个选项："
+msgstr "“``sourceParams``”对象指定从哪里获取图像。选择一个选项："
 
 #: ../api/api_reference.rst:498 b4a1ea35cab24551baea1c54537b8298
 msgid "Default Data Provider"
@@ -838,7 +841,7 @@ msgstr "我的意象"
 
 #: ../api/api_reference.rst:528 14695a3ed6444e47bbcdd16bce218d80
 msgid "Use imagery uploaded via :ref:`Data API`."
-msgstr "使用通过 Data API 上传的图像。"
+msgstr "使用通过 :ref:`Data API` 上传的影像。"
 
 #: ../api/api_reference.rst:530 76eef52eafa44c4791d0b20f5ca9c34c
 msgid "**Single image:**"
@@ -870,7 +873,7 @@ msgstr "``源类型``"
 
 #: ../api/api_reference.rst:603 4f8180401bdf48a6b69cc707c88cb631
 msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
-msgstr "“XYZ”、“TMS”、“QUADKEY”、“SENTINEL_L2A”、“LOCAL”"
+msgstr "“``XYZ``”、“``TMS``”、“``QUADKEY``”、“``SENTINEL_L2A``”、“``LOCAL``”"
 
 #: ../api/api_reference.rst:604 ../api/api_reference.rst:836
 #: dcc3c736e29f4d919fcbb6864e4e5da5
@@ -915,11 +918,11 @@ msgstr "上传自定义图像"
 
 #: ../api/api_reference.rst:626 b8c45e9d03ac448e8838c219ec308f49
 msgid "Use :ref:`Data API` to create a mosaic and upload images"
-msgstr "使用 Data API 创建马赛克并上传图像"
+msgstr "使用 :ref:`Data API` 创建镶嵌图并上传影像"
 
 #: ../api/api_reference.rst:627 f450044f8e39485599adb505061ad14a
 msgid "Reference uploaded images in ``sourceParams.myImagery.imageIds``"
-msgstr "在``sourceParams.myImagery.imageIds``中引用上传的图像"
+msgstr "在\\ ``sourceParams.myImagery.imageIds``\\ 中引用上传的图像"
 
 #: ../api/api_reference.rst:644 95a02487808a411db1ec460a442693de
 msgid "Data API"
@@ -936,7 +939,7 @@ msgid ""
 "images covering an area or batching large orthomaps for optimized cloud "
 "storage."
 msgstr ""
-"**马赛克**是为处理和预览而组织的地理参考图像的集合。当处理覆盖一个区域的多个航拍图像或批处理大型正射图以优化云存储时，马赛克会很有帮助。"
+"**马赛克**\\ 是为处理和预览而组织的地理参考图像的集合。当处理覆盖一个区域的多个航拍图像或批处理大型正射图以优化云存储时，马赛克会很有帮助。"
 
 #: ../api/api_reference.rst:653 f370319d8667409e9f2284f2b99fc62b
 msgid "Create Mosaic"
@@ -1047,7 +1050,7 @@ msgstr "内容类型：``multipart/form-data``"
 
 #: ../api/api_reference.rst:778 4aeb6a0f31134dcaa4f9d561e67e29ce
 msgid "Body: ``file`` field with image file"
-msgstr "正文：带有图像文件的“file”字段"
+msgstr "正文：带有图像文件的“``file``”字段"
 
 #: ../api/api_reference.rst:803 80ba9e43207c4cff9b3aa1d9ed28f3af
 msgid "Create Mosaic and Upload Image"
@@ -1105,7 +1108,7 @@ msgstr "删除马赛克及其所有链接的图像。"
 msgid ""
 "This action is **irreversible**. All images linked to the mosaic will be "
 "permanently deleted."
-msgstr "此操作**不可逆转**。所有链接到马赛克的图像都将被永久删除。"
+msgstr "此操作\\ **不可逆转**。所有链接到马赛克的图像都将被永久删除。"
 
 #: ../api/api_reference.rst:912 d6cb77c2ad2a48789b855382ae238f74
 msgid "Images"
@@ -1336,7 +1339,7 @@ msgstr "``排序依据``"
 
 #: ../api/api_reference.rst:1120 7c5f9b18a1734331bb3ca425d5f42181
 msgid "Sort field (e.g., ``ACQUISITION_DATE``)"
-msgstr "排序字段（例如“ACQUISITION_DATE”）"
+msgstr "排序字段（例如“``ACQUISITION_DATE``”）"
 
 #: ../api/api_reference.rst:1121 e44b366e1a154d1ab3f94db28c3accb3
 msgid "``sortOrder``"
@@ -1372,7 +1375,7 @@ msgstr "``产品类型``"
 
 #: ../api/api_reference.rst:1136 20dc377e88a24af6924502a43a4b5cc8
 msgid "Filter by product types ``[\"IMAGE\" and/or \"MOSAIC\"]``"
-msgstr "按产品类型过滤``[“图像”和/或“马赛克”]``"
+msgstr "按产品类型过滤\\ ``[“图像”和/或“马赛克”]``"
 
 #: ../api/api_reference.rst:1139 36ef68cb1d6f49328034043b34421280
 msgid "Search area size is limited by your account's AOI limit."
@@ -1398,12 +1401,12 @@ msgstr "在处理中使用搜索结果"
 msgid ""
 "To run processing with imagery from search results, use the "
 "``imagerySearch`` source parameter:"
-msgstr "要对搜索结果中的图像进行处理，请使用“imagerySearch”源参数："
+msgstr "要对搜索结果中的图像进行处理，请使用“``imagerySearch``”源参数："
 
 #: ../api/api_reference.rst:1239 920dc295c21e4e1a8fffcbe9f84e7e4f
 msgid ""
 "See :doc:`Processing API <processing_api>` for complete processing workflow."
-msgstr "请参阅:doc:`处理 API <processing_api>` 了解完整的处理工作流程。"
+msgstr "请参阅\\ :doc:`处理 API <processing_api>` 了解完整的处理工作流程。"
 
 #: ../api/api_reference.rst:1243 b59b0d4d51ff4b5494ebff0b365f1140
 msgid "Product Types"
@@ -1460,7 +1463,7 @@ msgstr "通过启用/禁用可选工作流程步骤来自定义处理。"
 #: ../api/api_reference.rst:1288 84647f439b1e41feb3a06e7fc0ca4d70
 msgid ""
 "Available blocks vary by model. Retrieve options via ``GET /user/status``."
-msgstr "可用模块因型号而异。通过“GET /user/status”检索选项。"
+msgstr "可用模块因型号而异。通过“``GET /user/status``”检索选项。"
 
 #: ../api/api_reference.rst:1294 3654228e597a4b8bb5ef8fa7617e69be
 msgid "AI Models"
@@ -1563,7 +1566,7 @@ msgstr "施工现场检测"
 msgid ""
 "See :doc:`model descriptions <../userguides/pipelines>` for detailed "
 "requirements."
-msgstr "有关详细要求，请参阅:doc:`模型描述 <../userguides/pipelines>`。"
+msgstr "有关详细要求，请参阅\\ :doc:`模型描述 <../userguides/pipelines>`。"
 
 #: ../api/api_reference.rst:1335 1e1fa47ef2b64fefac03ec3379dc4fa4
 msgid "Status Codes"
@@ -1611,7 +1614,7 @@ msgstr "``失败``"
 
 #: ../api/api_reference.rst:1352 f2ca60bde8294b88b801b7f10eeecc51
 msgid "Processing failed (check ``messages`` field)"
-msgstr "处理失败（检查``messages``字段）"
+msgstr "处理失败（检查\\ ``messages``\\ 字段）"
 
 #: ../api/api_reference.rst:1353 a4b07e132ed140be82027067a49c4ba1
 msgid "``CANCELLED``"
@@ -1671,7 +1674,7 @@ msgstr "错误信息"
 msgid ""
 "For detailed error codes and troubleshooting, see :doc:`Error Messages "
 "<error_messages>`."
-msgstr "有关详细的错误代码和故障排除，请参阅:doc:`错误消息 <error_messages>`。"
+msgstr "有关详细的错误代码和故障排除，请参阅\\ :doc:`错误消息 <error_messages>`。"
 
 #: ../api/api_reference.rst:1383 ccb9cdae2d064112ac74cae131e763a8
 msgid "Common errors:"
@@ -1699,19 +1702,19 @@ msgstr "最佳实践"
 msgid ""
 "**Check cost before running** — Use ``/processing/cost/v2`` to estimate "
 "credits"
-msgstr "**运行前检查成本** — 使用``/processing/cost/v2`` 来估计信用"
+msgstr "**运行前检查成本** — 使用\\ ``/processing/cost/v2`` 来估计信用"
 
 #: ../api/api_reference.rst:1396 4856cd17ad274e2e82ebd2c41fd6ed4b
 msgid ""
 "**Poll status efficiently** — Check status every 30-60 seconds for "
 "``IN_PROGRESS`` processings"
-msgstr "**高效轮询状态** — 每 30-60 秒检查一次“IN_PROGRESS”处理的状态"
+msgstr "**高效轮询状态** — 每 30-60 秒检查一次“``IN_PROGRESS``”处理的状态"
 
 #: ../api/api_reference.rst:1397 8479bf1afa964f3a862d95e9187bd9d3
 msgid ""
 "**Handle errors gracefully** — Check ``messages`` field in failed "
 "processings"
-msgstr "**优雅地处理错误** - 检查失败处理中的“messages”字段"
+msgstr "**优雅地处理错误** - 检查失败处理中的“``messages``”字段"
 
 #: ../api/api_reference.rst:1398 dae57516c4ac4b72ac8116497f77dc58
 msgid ""

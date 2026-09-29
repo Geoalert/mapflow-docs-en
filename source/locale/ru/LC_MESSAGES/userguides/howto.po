@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: 2024-10-04 15:45+0700\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
@@ -433,7 +433,7 @@ msgid ""
 "when uploading your own images. Contact us if you have difficulties to "
 "handle a large dataset or your file size exceeds our limits."
 msgstr ""
-"Пожалуйста, учитывайте требования к :ref:`Моделям AI <Требования к модели>` "
+"Пожалуйста, учитывайте требования к :ref:`Моделям AI <Model requirements>` "
 "при загрузке собственных изображений. Свяжитесь с нами, если у вас возникли "
 "трудности с обработкой большого набора данных или размер вашего файла "
 "превышает наши ограничения."
@@ -648,170 +648,25 @@ msgstr ""
 msgid "**Run the flow!**"
 msgstr "**Запустите обработку!**"
 
-#: ../userguides/howto.rst:218 aa597238baeb4184aa477dd809bb32b6
-msgid "How to view results using Kepler.gl"
-msgstr "Как просматривать результаты с помощью Kepler.gl"
-
-#: ../userguides/howto.rst:220 38762e63853c4871ac1fd8e2475b350d
-msgid ""
-"**Kepler.gl** is an open source tool designed for geospatial data analysis. "
-"It is a simple yet powerful for displaying and exploring geodatasets."
-msgstr ""
-"**Kepler.gl** — это инструмент с открытым исходным кодом, предназначенный "
-"для анализа геопространственных данных. Это простой, но мощный инструмент "
-"для отображения и изучения наборов геоданных."
-
-#: ../userguides/howto.rst:222 a3de9ed3623d4f2db6ba383dc650fd45
-msgid ""
-"To view the processing results in the Mapflow, select the required "
-"processing and press the button *\"Open in kepler.gl\"*."
-msgstr ""
-"Чтобы просмотреть результаты обработки в Mapflow, выберите нужную обработку "
-"и нажмите кнопку *\"Открыть в kepler.gl\"*."
-
-#: ../userguides/howto.rst:225 1f8cffaeccb341419c687337563bd561
-msgid ""
-"You can share your processing view in Kepler by copying the open URL (right "
-"click on *\"Open in kepler.gl\"* --> Copy Link Address)"
-msgstr ""
-"Вы можете поделиться своим представлением обработки в Kepler, скопировав "
-"открытый URL-адрес (щелкните правой кнопкой мыши * «Открыть в kepler.gl» * "
-"-> Копировать адрес ссылки)."
-
-#: ../userguides/howto.rst:227 fa4981677fa44e13802af6aee55f4d56
-msgid ""
-"Using the Kepler you can change the visual properties of data, set filters, "
-"and choose a background map."
-msgstr ""
-"С помощью Кеплера вы можете изменять визуальные свойства данных, "
-"устанавливать фильтры и выбирать фоновую карту."
-
-#: ../userguides/howto.rst:231 eeeffec4c50b4f9996a4f2ecdc5f4e78
-msgid "Layers tab"
-msgstr "Вкладка Layers"
-
-#: ../userguides/howto.rst:233 b6d27d2c201c458d977e36ff836318c5
-msgid ""
-"Click on the layer name to bring up the *Layer settings* from the drop-down "
-"menu. To hide all data, click on the *eye* icon."
-msgstr ""
-"Нажмите на имя слоя, чтобы открыть *Настройки слоя* из раскрывающегося меню."
-" Чтобы скрыть все данные, нажмите на значок *глаза*."
-
-#: 8dc9e838a445431687e565b9e9c573ad
-msgid "View layer settings"
-msgstr "Настройки слоя"
-
-#: ../userguides/howto.rst:242 667e77adb5ad47edac82c68101ab81dc
-msgid ""
-"These settings allow you to choose a more suitable type of received data:"
-msgstr ""
-"Эти настройки позволяют выбрать более подходящий тип получаемых данных:"
-
-#: ../userguides/howto.rst:244 d73830aac1504b3a8a597d9804036fa2
-msgid ""
-"*Fill color.* You can choose any color from the palette for polygons, and "
-"also hide the display of data by changing the position of the slider. You "
-"can change the transparency of polygons (property *Opacity*) in the "
-"additional settings of this function."
-msgstr ""
-"*Цвет заливки.* Вы можете выбрать любой цвет из палитры для полигонов, а "
-"также скрыть отображение данных, изменив положение ползунка. Изменить "
-"прозрачность полигонов (свойство *Opacity*) можно в дополнительных "
-"настройках этой функции."
-
-#: ../userguides/howto.rst:245 3f411a3975aa4d67b22cc9f6aabbe832
-msgid ""
-"*Stroke color.* You can choose any color from the palette for outlining "
-"polygons, as well as completely remove the stroke. You can change the "
-"transparency of the stroke (property *Opacity*) In the additional settings "
-"of this function."
-msgstr ""
-"*Цвет обводки.* Вы можете выбрать любой цвет из палитры для обводки "
-"полигонов, а также полностью убрать обводку. Изменить прозрачность обводки "
-"можно (свойство *Opacity*) в дополнительных настройках этой функции."
-
-#: ../userguides/howto.rst:246 ef972037197644d08668d77bbb90a65e
-msgid "*Stroke width.* Controls the thickness of the stroke."
-msgstr "*Ширина обводки.* Управляет толщиной обводки."
-
-#: ../userguides/howto.rst:247 5c786a886e7b4362ac01608a58a35b19
-msgid ""
-"*Height.* Allows you to view data with heights in 3D format. Set the desired"
-" coefficient and select the attribute of the layer with heights."
-msgstr ""
-"*Высота.* Позволяет просматривать данные о высоте в формате 3D. Установите "
-"нужный коэффициент и выберите атрибут слоя с высотами."
-
-#: 668cafc339b949a9b04846b1f47043ef
-msgid "3D buildings"
-msgstr "Здания в 3D"
-
-#: ../userguides/howto.rst:257 77a3fea78de4400d9dc7dda6eb0b61f0
-msgid "Filters tab"
-msgstr "Вкладка Filters"
-
-#: ../userguides/howto.rst:259 d7f2b2cbc2af4d10b557a2b9bbb73392
-msgid ""
-"This tab allows you to add a filter of interest by a specific attribute of "
-"the layer (as in this case, the filter is set by classes with different "
-"typology of buildings)."
-msgstr ""
-"Эта вкладка позволяет добавить интересующий фильтр по определенному атрибуту"
-" слоя (в данном случае фильтр задается по классам с разной типологией "
-"зданий)."
-
-#: e813d64e76834aa79f1fbe84e9985e79
-msgid "Filter panel"
-msgstr "Панель фильтров"
-
-#: ../userguides/howto.rst:269 e4c1d73b87934db8b595741edaf95ca9
-msgid "Interaction tab"
-msgstr "Вкладка Interaction"
-
-#: ../userguides/howto.rst:271 8482a2f9443c4fa4a9fc028a9b3e9203
-msgid ""
-"You can select or remove attributes that will be visible in the menu that "
-"appears when you hover over an object. It is also possible to turn on the "
-"panel indicating longitude and latitude."
-msgstr ""
-"Вы можете выбрать или удалить атрибуты, которые будут видны в меню, которое "
-"появляется при наведении курсора на объект. Также есть возможность включить "
-"панель с указанием долготы и широты."
-
-#: 141cb249d93946899ad4285f0c8b70fc
-msgid "Interaction panel"
-msgstr "Панель взаимодействия"
-
-#: ../userguides/howto.rst:282 b3cfb673c0fc4c658ae1a8e2bd57739e
-msgid "Base map tab"
-msgstr "Вкладка Base map"
-
-#: ../userguides/howto.rst:284 a7dc3d95bebb44efa86e012c7b4e1b87
-msgid ""
-"Here you can choose the styles of the map, as well as choose to display its "
-"various layers."
-msgstr ""
-"Здесь вы можете выбрать стили карты, а также выбрать отображение различных "
-"ее слоев."
-
 #: ../userguides/howto.rst:288 d20d6a5948e44ee1a164bb42b02e7c56
 msgid "How to run Mapflow on external infrastructure"
 msgstr "Как запустить Mapflow на внешней инфраструктуре"
 
-#: ../userguides/howto.rst:290 68329b56acb74cb596fa1b803a7ccbe6
+#: ../userguides/howto.rst:291 68329b56acb74cb596fa1b803a7ccbe6
 msgid ""
 "Currently, you have to contact us if you have a request to run Mapflow (as a"
 " platform or as a separate imagery analysis workflows) on external "
-"infrastructure. However, we partner with cloud integrators to conduct "
-"projects for their clients."
+"infrastructure. We run private instances on AWS to provide customers with "
+"the fully managed and secure environment, independent on the public "
+"instances load and queues."
 msgstr ""
-"В настоящее время вам необходимо связаться с нами, если у вас есть запрос на"
-" запуск Mapflow (в качестве платформы или отдельного рабочего процесса "
-"анализа изображений) во внешней инфраструктуре. Однако мы сотрудничаем с "
-"облачными интеграторами для реализации проектов для их клиентов."
 
-#: ../userguides/howto.rst:294 5e15b44a93c349e896565ffa96dbb41c
+#: ../userguides/howto.rst:293 f192e3bec59c4ba5818196d77c916c0d
+msgid ""
+"We also partner with cloud integrators to set up projects for their clients."
+msgstr ""
+
+#: ../userguides/howto.rst:296 5e15b44a93c349e896565ffa96dbb41c
 msgid "How to run Mapflow using Geocloud"
 msgstr "Как запустить Mapflow с помощью Geocloud"
 
@@ -820,7 +675,7 @@ msgstr "Как запустить Mapflow с помощью Geocloud"
 msgid "create app"
 msgstr "создать приложение"
 
-#: ../userguides/howto.rst:304 d4b60875058e4cf6998a0f9c5dcedede
+#: ../userguides/howto.rst:306 d4b60875058e4cf6998a0f9c5dcedede
 msgid ""
 "We conduct a `PoC project with Geocloud.work "
 "<https://www.geocloud.work/software/geoalert>`_ who enable to work remotely "
@@ -830,16 +685,16 @@ msgstr ""
 "<https://www.geocloud.work/software/geoalert>`_, который позволяет удаленно "
 "работать с лицензионным геопространственным программным обеспечением."
 
-#: ../userguides/howto.rst:306 a2a3815befe845fc95bd034755d12c5f
+#: ../userguides/howto.rst:308 a2a3815befe845fc95bd034755d12c5f
 msgid "The generic workflow with Geocloud is as follows:"
 msgstr "Общий рабочий процесс с Geocloud:"
 
-#: ../userguides/howto.rst:308 39c4c3bf798c4b899c7eacfb66622d86
+#: ../userguides/howto.rst:310 39c4c3bf798c4b899c7eacfb66622d86
 msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
 msgstr ""
 "Создайте учетную запись в Geocloud и запустите приложение «QGIS-Mapflow»."
 
-#: ../userguides/howto.rst:310 0db8afbb7c6d48818e3ad767610d81be
+#: ../userguides/howto.rst:312 0db8afbb7c6d48818e3ad767610d81be
 msgid ""
 "It runs the virtual machine with minimum requirements for QGIS with a "
 "preinstalled Mapflow plugin. Note that you have to run consequently the "
@@ -851,17 +706,17 @@ msgstr ""
 "последовательно запустить Хранилище и Рабочий стол, чтобы подключиться к "
 "виртуальной машине с помощью удаленного рабочего стола."
 
-#: ../userguides/howto.rst:313 c2256184c3da47beabc785ccb5929cdb
+#: ../userguides/howto.rst:315 c2256184c3da47beabc785ccb5929cdb
 msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
 msgstr ""
 "Запустите QGIS, щелкнув значок «QGIS-Mapflow» в рабочей области рабочего "
 "стола."
 
-#: ../userguides/howto.rst:323 173db4b26f5b47169091a6bf146eb7dc
+#: ../userguides/howto.rst:325 173db4b26f5b47169091a6bf146eb7dc
 msgid "Run the plugin by clicking on the icon in the toolbar"
 msgstr "Запустите плагин, нажав на значок на панели инструментов."
 
-#: ../userguides/howto.rst:334 9d88d3ab2b8641c889be8c52b8c050fb
+#: ../userguides/howto.rst:336 9d88d3ab2b8641c889be8c52b8c050fb
 msgid ""
 "❗️ To enable Mapflow oAuth login use the master password for QGIS which is "
 "set to 123456"
@@ -869,7 +724,7 @@ msgstr ""
 "❗️ Чтобы включить вход в Mapflow oAuth, используйте главный пароль для QGIS,"
 " который установлен на 123456."
 
-#: ../userguides/howto.rst:337 d163f343642f4b53b2d5b32940af5726
+#: ../userguides/howto.rst:339 d163f343642f4b53b2d5b32940af5726
 msgid ""
 "After you click  the \"Login\" button you will be redirected to the Mapflow "
 "login page in the browser. Use your existing `Mapflow.ai "
@@ -879,13 +734,13 @@ msgid ""
 "<https://app.mapflow.ai/account/api>`_."
 msgstr ""
 "После нажатия кнопки «Войти» вы будете перенаправлены на страницу входа в "
-"Mapflow в браузере. Используйте существующие логин и пароль Mapflow.ai "
+"Mapflow в браузере. Используйте существующие логин и пароль `Mapflow.ai "
 "<https://app.mapflow.ai>`_ или создайте новую учетную запись, чтобы начать "
 "работу с плагином. Вы также можете использовать базовую аутентификацию "
-"(отключите флажок «Использовать OAuth») с вашим токеном Mapflow "
+"(отключите флажок «Использовать OAuth») с вашим `токеном Mapflow "
 "<https://app.mapflow.ai/account/api>`_."
 
-#: ../userguides/howto.rst:340 4f458b8ce07e42fabe022ebb7c8eb1a3
+#: ../userguides/howto.rst:342 4f458b8ce07e42fabe022ebb7c8eb1a3
 msgid ""
 "You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in"
 " Geocloud."
@@ -893,7 +748,7 @@ msgstr ""
 "Все готово для использования :doc:`Mapflow – QGIS </userguides/qgis_plugin>`"
 " в Geocloud."
 
-#: ../userguides/howto.rst:343 34b56bc211774f7893a296f22b7302f9
+#: ../userguides/howto.rst:345 34b56bc211774f7893a296f22b7302f9
 msgid ""
 "Note that you pay only for the up time in Geocloud. You spend your regular "
 "credits for Mapflow (you get 250 credits for free upon the registration). "
@@ -911,7 +766,7 @@ msgstr ""
 "находится в рабочем режиме. 👉👉 Вы можете остановить свой компьютер, выполняя"
 " длительные вычисления в Mapflow, чтобы тратить меньше."
 
-#: ../userguides/howto.rst:348 bc16cc0dfec74800b8d59252443b7dd2
+#: ../userguides/howto.rst:350 bc16cc0dfec74800b8d59252443b7dd2
 msgid "How to check images metadata in the 🌏 Global mosaic"
 msgstr "Как проверить метаданные снимков в 🌏 Глобальной мозаике"
 
@@ -1014,11 +869,11 @@ msgstr ""
 "и используйте **Источник данных: 🌏 Глобальная мозаика 2022** или **Источник "
 "данных: 🌏 ArcGIS World Imagery**."
 
-#: ../userguides/howto.rst:354 fbc715ecfe6f484e8b36008ad1b342ae
+#: ../userguides/howto.rst:356 fbc715ecfe6f484e8b36008ad1b342ae
 msgid "How to run bulk processing using Mapflow API"
 msgstr "Как запустить пакетную обработку с помощью Mapflow API"
 
-#: ../userguides/howto.rst:357 1bb56a25f27647728f6c07de96193fc4
+#: ../userguides/howto.rst:359 1bb56a25f27647728f6c07de96193fc4
 msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
 msgstr ""
 "✍️ Подробнее см. в :doc:`руководстве по использованию Mapflow API <use_API>`"
@@ -1165,3 +1020,139 @@ msgstr ""
 #~ "default). All raster layers loaded in your QGIS (1) are visible in the drop-"
 #~ "down list (2) and can be selected for upload."
 #~ msgstr ""
+
+#~ msgid "How to view results using Kepler.gl"
+#~ msgstr "Как просматривать результаты с помощью Kepler.gl"
+
+#~ msgid ""
+#~ "**Kepler.gl** is an open source tool designed for geospatial data analysis. "
+#~ "It is a simple yet powerful for displaying and exploring geodatasets."
+#~ msgstr ""
+#~ "**Kepler.gl** — это инструмент с открытым исходным кодом, предназначенный "
+#~ "для анализа геопространственных данных. Это простой, но мощный инструмент "
+#~ "для отображения и изучения наборов геоданных."
+
+#~ msgid ""
+#~ "To view the processing results in the Mapflow, select the required "
+#~ "processing and press the button *\"Open in kepler.gl\"*."
+#~ msgstr ""
+#~ "Чтобы просмотреть результаты обработки в Mapflow, выберите нужную обработку "
+#~ "и нажмите кнопку *\"Открыть в kepler.gl\"*."
+
+#~ msgid ""
+#~ "You can share your processing view in Kepler by copying the open URL (right "
+#~ "click on *\"Open in kepler.gl\"* --> Copy Link Address)"
+#~ msgstr ""
+#~ "Вы можете поделиться своим представлением обработки в Kepler, скопировав "
+#~ "открытый URL-адрес (щелкните правой кнопкой мыши * «Открыть в kepler.gl» * "
+#~ "-> Копировать адрес ссылки)."
+
+#~ msgid ""
+#~ "Using the Kepler you can change the visual properties of data, set filters, "
+#~ "and choose a background map."
+#~ msgstr ""
+#~ "С помощью Кеплера вы можете изменять визуальные свойства данных, "
+#~ "устанавливать фильтры и выбирать фоновую карту."
+
+#~ msgid "Layers tab"
+#~ msgstr "Вкладка Layers"
+
+#~ msgid ""
+#~ "Click on the layer name to bring up the *Layer settings* from the drop-down "
+#~ "menu. To hide all data, click on the *eye* icon."
+#~ msgstr ""
+#~ "Нажмите на имя слоя, чтобы открыть *Настройки слоя* из раскрывающегося меню."
+#~ " Чтобы скрыть все данные, нажмите на значок *глаза*."
+
+#~ msgid "View layer settings"
+#~ msgstr "Настройки слоя"
+
+#~ msgid ""
+#~ "These settings allow you to choose a more suitable type of received data:"
+#~ msgstr ""
+#~ "Эти настройки позволяют выбрать более подходящий тип получаемых данных:"
+
+#~ msgid ""
+#~ "*Fill color.* You can choose any color from the palette for polygons, and "
+#~ "also hide the display of data by changing the position of the slider. You "
+#~ "can change the transparency of polygons (property *Opacity*) in the "
+#~ "additional settings of this function."
+#~ msgstr ""
+#~ "*Цвет заливки.* Вы можете выбрать любой цвет из палитры для полигонов, а "
+#~ "также скрыть отображение данных, изменив положение ползунка. Изменить "
+#~ "прозрачность полигонов (свойство *Opacity*) можно в дополнительных "
+#~ "настройках этой функции."
+
+#~ msgid ""
+#~ "*Stroke color.* You can choose any color from the palette for outlining "
+#~ "polygons, as well as completely remove the stroke. You can change the "
+#~ "transparency of the stroke (property *Opacity*) In the additional settings "
+#~ "of this function."
+#~ msgstr ""
+#~ "*Цвет обводки.* Вы можете выбрать любой цвет из палитры для обводки "
+#~ "полигонов, а также полностью убрать обводку. Изменить прозрачность обводки "
+#~ "можно (свойство *Opacity*) в дополнительных настройках этой функции."
+
+#~ msgid "*Stroke width.* Controls the thickness of the stroke."
+#~ msgstr "*Ширина обводки.* Управляет толщиной обводки."
+
+#~ msgid ""
+#~ "*Height.* Allows you to view data with heights in 3D format. Set the desired"
+#~ " coefficient and select the attribute of the layer with heights."
+#~ msgstr ""
+#~ "*Высота.* Позволяет просматривать данные о высоте в формате 3D. Установите "
+#~ "нужный коэффициент и выберите атрибут слоя с высотами."
+
+#~ msgid "3D buildings"
+#~ msgstr "Здания в 3D"
+
+#~ msgid "Filters tab"
+#~ msgstr "Вкладка Filters"
+
+#~ msgid ""
+#~ "This tab allows you to add a filter of interest by a specific attribute of "
+#~ "the layer (as in this case, the filter is set by classes with different "
+#~ "typology of buildings)."
+#~ msgstr ""
+#~ "Эта вкладка позволяет добавить интересующий фильтр по определенному атрибуту"
+#~ " слоя (в данном случае фильтр задается по классам с разной типологией "
+#~ "зданий)."
+
+#~ msgid "Filter panel"
+#~ msgstr "Панель фильтров"
+
+#~ msgid "Interaction tab"
+#~ msgstr "Вкладка Interaction"
+
+#~ msgid ""
+#~ "You can select or remove attributes that will be visible in the menu that "
+#~ "appears when you hover over an object. It is also possible to turn on the "
+#~ "panel indicating longitude and latitude."
+#~ msgstr ""
+#~ "Вы можете выбрать или удалить атрибуты, которые будут видны в меню, которое "
+#~ "появляется при наведении курсора на объект. Также есть возможность включить "
+#~ "панель с указанием долготы и широты."
+
+#~ msgid "Interaction panel"
+#~ msgstr "Панель взаимодействия"
+
+#~ msgid "Base map tab"
+#~ msgstr "Вкладка Base map"
+
+#~ msgid ""
+#~ "Here you can choose the styles of the map, as well as choose to display its "
+#~ "various layers."
+#~ msgstr ""
+#~ "Здесь вы можете выбрать стили карты, а также выбрать отображение различных "
+#~ "ее слоев."
+
+#~ msgid ""
+#~ "Currently, you have to contact us if you have a request to run Mapflow (as a"
+#~ " platform or as a separate imagery analysis workflows) on external "
+#~ "infrastructure. However, we partner with cloud integrators to conduct "
+#~ "projects for their clients."
+#~ msgstr ""
+#~ "В настоящее время вам необходимо связаться с нами, если у вас есть запрос на"
+#~ " запуск Mapflow (в качестве платформы или отдельного рабочего процесса "
+#~ "анализа изображений) во внешней инфраструктуре. Однако мы сотрудничаем с "
+#~ "облачными интеграторами для реализации проектов для их клиентов."

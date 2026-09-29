@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 14:46+0300\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,58 +20,246 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/agriculture_fields_model.rst:1
-#: 9d997bd5c9dd47c2aed754a85a9e7c13
+#: 4d29c1de17b44d4d9780a471f2766d7d
 msgid ""
 "Segment agricultural fields and delineate field boundaries from 1-1.2 m "
 "satellite imagery. Trained for Europe and Russia; available as a custom "
 "model."
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:5
+#: ../userguides/agriculture_fields_model.rst:7
 #: e9be83259ab24179b174949aa8768a5b
-msgid "|:tractor:| Agriculture fields (CUSTOM)"
-msgstr ""
-
-#: ../userguides/agriculture_fields_model.rst:8
-#: 9a4debb51e504ee387e688c0b928b403
-msgid ""
-"This model has been deprecated as default one and moved to custom. it's "
-"available by request."
+msgid "Agriculture fields"
 msgstr ""
 
 #: ../userguides/agriculture_fields_model.rst:10
+#: 8926baa165bf470b8d700f72a67a11ee
+msgid ":mf-chip:`agro|Crop fields` :mf-warn:`On request`"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst fc924937d07c40dc8ae00a47082c06f2
+msgid "Field boundaries delineated over farmland"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: d75ad0a513a347d8bcd4d644ada84b90
+msgid "Example result: field boundaries in Belgium."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 1cd52a6a85b547b78fdb6ae6e208f100
+msgid "Cost"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 7d8bdf5a903943d7b371d663c8c7a19e
+msgid "Priced per project"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 89be21b6ef204c4880f336864e7a2fca
+msgid "Request access and we connect the model to your account."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 80832dccbc4f4ca08041a7caa05d4d53
+msgid ""
+"Detects agricultural fields and separates neighbouring fields where a "
+"visible boundary exists. Tuned for larger fields in Europe with active "
+"vegetation; small and terraced fields are harder."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: e5217b5f1c53440c8170350636b7cf57
+msgid "What you get"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 6a843ef19e9e493681769c2721ae0ead
+msgid "Field boundary polygons."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 4b97c6c56ccb47a8a92ad4c0aade30ef
+msgid "Works best with"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 8d911a1e1b6643159d34969405039a5a
+msgid "1–1.2 m imagery in the growing season."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 2df3b19196394f60994ef09262c31f49
+msgid "Usage examples"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 2588f75c58b148629f8d70ca51cdbfb6
+msgid "Build field boundaries for farm management"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: d3d63076f3a94dfcaca40f85a7eb57b8
+msgid "Estimate cultivated area per region"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: fa2a1ec29e2b401590ace749d1863a54
+msgid "Prepare parcels for crop monitoring"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 6f5d96546bdc49f69b0f09570f73e80d
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: c686fb06f09c4a2181b59f8f5046ad5d
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst 4001ebeb82f6434d9d14130e1b7bf02b
+msgid "Geo domain"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 7116a814263f48b3a23e1b303d463fee
+msgid "Europe"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst 3a3b23ba59b64187ab7c1006c98c97ca
+msgid "Method"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: 9a8eb55d14384835a5c3ab6b99561e7b
+msgid "Segmentation"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst dd3a0fdf6fa44ac4a82c9cdac9d29f04
+msgid "GSD / zoom"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:10
+#: e2d362e3945c4be5900ec39f54325d1f
+msgid "1.2–1 m"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:12
+#: 9a4debb51e504ee387e688c0b928b403
+msgid "This model is no longer a default model. It is available on request."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:15
+#: 344f36c1d9d34a7fb8be55b366e14354
+msgid "How it works"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:17
 #: 05ffb415721c48e6a2b34be5f43d93ee
 msgid ""
-"Model for fields segmentation allows to detect the agricultural fields "
-"and delineate the nearby fields from each other, if there is a visual "
-"boundary (forest line, road, different crop stage). The model is trained "
-"on the high resolution data (1-1.2 m), primarily for Europe, Russia. It "
-"performs better with larger fields with active vegetation. Smaller and "
-"terrace fields (typical for Asia) are delineated not so good. Fields "
-"without vegetation, especially in winter period, are not target class."
+"The model detects agricultural fields and separates neighbouring fields "
+"where there is a visible boundary: a forest line, a road or a different "
+"crop stage. It is trained on 1–1.2 m imagery, mostly of Europe and "
+"Russia, and works best on larger fields with active vegetation. Small and"
+" terraced fields, typical for Asia, are delineated less well. Fields "
+"without vegetation, especially in winter, are not the target class."
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:19
-#: ../userguides/agriculture_fields_model.rst:27
-#: 9f7fae5c119f4822b13e76ecc050f42e fc924937d07c40dc8ae00a47082c06f2
-msgid "Processing result of agriculture fields model"
+#: ../userguides/agriculture_fields_model.rst:24
+#: c0f0ce91054048cdacc9f038b6dfcf10
+msgid "Sample results"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:19
+#: ../userguides/agriculture_fields_model.rst fc924937d07c40dc8ae00a47082c06f2
+msgid "Agriculture fields result in Belgium"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:32
 #: d75ad0a513a347d8bcd4d644ada84b90
-msgid "Processing result sample for Europe (Belgium)"
+msgid "Europe (Belgium)"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:27
+#: ../userguides/agriculture_fields_model.rst 9f7fae5c119f4822b13e76ecc050f42e
+msgid "Agriculture fields result in Northern India"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:38
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
-msgid "Processing result sample for Asia (Northern India)"
+msgid "Asia (Northern India)"
 msgstr ""
 
-#: ../userguides/agriculture_fields_model.rst:31
-#: ee1be0415a8040f5ac286f5544b1d5a3
-msgid ""
-"Looking to run this in production? See the `model catalog and deployment "
-"options <https://mapflow.ai/models>`_, or `request a custom model "
-"<https://mapflow.ai/custom-models>`_."
+#: ../userguides/agriculture_fields_model.rst:41
+#: 9ac6c4ea4d3446edbf147762a6e77d56
+msgid "Need a different object?"
 msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:41
+#: 0e0a282ff5a749678200761e39eef47a
+msgid ""
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:41
+#: d7d6930bc78946189fdc99578a7a7cb5
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:41
+#: ee1be0415a8040f5ac286f5544b1d5a3
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+
+#: ../userguides/agriculture_fields_model.rst:41
+#: a62f6591e8004599af7d29f7edc32984
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ""
+
+#~ msgid "|:tractor:| Agriculture fields (CUSTOM)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This model has been deprecated as "
+#~ "default one and moved to custom. "
+#~ "it's available by request."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Model for fields segmentation allows to"
+#~ " detect the agricultural fields and "
+#~ "delineate the nearby fields from each"
+#~ " other, if there is a visual "
+#~ "boundary (forest line, road, different "
+#~ "crop stage). The model is trained "
+#~ "on the high resolution data (1-1.2 "
+#~ "m), primarily for Europe, Russia. It "
+#~ "performs better with larger fields with"
+#~ " active vegetation. Smaller and terrace "
+#~ "fields (typical for Asia) are delineated"
+#~ " not so good. Fields without "
+#~ "vegetation, especially in winter period, "
+#~ "are not target class."
+#~ msgstr ""
+
+#~ msgid "Processing result of agriculture fields model"
+#~ msgstr ""
+
+#~ msgid "Processing result sample for Europe (Belgium)"
+#~ msgstr ""
+
+#~ msgid "Processing result sample for Asia (Northern India)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
+#~ msgstr ""
+
+#~ msgid ":mf-chip:`tractor|Crop fields` :mf-warn:`On request`"
+#~ msgstr ""
 

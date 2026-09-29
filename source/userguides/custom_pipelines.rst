@@ -1,12 +1,38 @@
-Custom Models
-==================
+.. meta::
+   :description: Custom Mapflow AI models trained for specific objects and imagery, and connected to your account on request.
 
-There are several options of model customization in Mapflow. 
+.. rst-class:: mf-page mf-index
 
-1. You request access to a specific model based on your use case and data, and we train it for you and connect it to Mapflow.
+Custom models
+=============
 
-2. You choose one of the pre-trained models that are not included in the standard Mapflow pipelines and test it with your data or on your area to decide if it's applicable or requires additional training.
+.. rst-class:: mf-lede
 
-3. You train your own model with custom data and request our support to connect it to your account to leverage your model with the Mapflow workflow engine.
+Custom models are trained for specific objects and imagery. They run in the same Mapflow
+workflows as the default models once we connect them to your account.
 
-Below is the list of custom models created for specific use cases and available in Mapflow by request (to be updated).
+There are three ways to get one:
+
+1. **Request a model we already have.** Pick one below and we connect it to your account.
+2. **Test a pre-trained model.** Try a model that is not in the standard list on your area
+   and decide whether it fits or needs more training.
+3. **Bring your own model.** Train it on your data and we connect it to the Mapflow workflow engine.
+
+.. mf-heading:: Available on request
+
+.. mf-model-gallery::
+   :availability: custom
+
+.. mf-cta::
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   construction_model
+   hd_housing_model
+   buildings_aerial_imagery_model
+   solars_model
+   swimming_pools_model
+   agriculture_fields_model
+   sam_model

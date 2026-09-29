@@ -36,3 +36,5 @@ sphinxnotes-strike==1.2
 urllib3==1.26.7
 zipp==3.6.0
 sphinx-autobuild
+sphinx-design==0.4.1
+

@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../userguides/oauth2_setup.rst:22 2699c0e9c05745e2b7834dd87767c0b3
 msgid "**3. Click** ``Log in`` **button**"
-msgstr "**3. Haga clic en el botón ** ``Iniciar sesión`` ****"
+msgstr "**3. Haga clic en el botón** ``Iniciar sesión``"
 
 #: ../userguides/oauth2_setup.rst:24 55ddb0bf606b46a1950f5e8ab7c6df85
 msgid ""
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../userguides/oauth2_setup.rst:33 293b8e688fbc47dabe88f0f8a19696f1
 msgid "**4. After restarting QGIS, click** ``Log in``"
-msgstr "**4. Después de reiniciar QGIS, haga clic en ** ``Iniciar sesión``"
+msgstr "**4. Después de reiniciar QGIS, haga clic en** ``Iniciar sesión``"
 
 #: ../userguides/oauth2_setup.rst:35 3b370c149b404e6a891cb51af19c1f6c
 msgid ""

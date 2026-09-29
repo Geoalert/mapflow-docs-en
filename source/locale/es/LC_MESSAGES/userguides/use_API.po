@@ -104,7 +104,7 @@ msgstr "Ejemplo de respuesta:"
 
 #: ../userguides/use_API.rst:77 df2122e613494dad96f8703e87da8212
 msgid "See more in :ref:`Projects - API`"
-msgstr "Ver más en :ref:`Proyectos - API`"
+msgstr "Ver más en :ref:`Projects - API`"
 
 #: ../userguides/use_API.rst:80 065468f5943c4a44aa5e01769b8b7448
 msgid "Prepare AOIs for the processings"

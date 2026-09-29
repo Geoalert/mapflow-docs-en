@@ -6,17 +6,18 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mapflow\n"
+"Project-Id-Version:  Mapflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 10:03+0200\n"
+"POT-Creation-Date: 2026-09-28 14:22+0200\n"
 "PO-Revision-Date: 2024-10-04 15:52+0700\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: ru\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/prices.rst:2 7ac423499cea44dba62887aa834e3cc8
@@ -34,37 +35,38 @@ msgid ""
 "Mapflow AI. You can always buy more credits in your `account profile "
 "<https://app.mapflow.ai/account/balance>`_."
 msgstr ""
-"Каждый пользователь получает стартовый баланс в размере **250** кредитов, "
-"чтобы начать работу с Mapflow AI. Вы всегда можете приобрести больше в своем"
-" `профиле учетной записи <https://app.mapflow.ai/account/balance>`_."
+"Каждый пользователь получает стартовый баланс в размере **250** кредитов,"
+" чтобы начать работу с Mapflow AI. Вы всегда можете приобрести больше в "
+"своем `профиле учетной записи <https://app.mapflow.ai/account/balance>`_."
 
 #: ../userguides/prices.rst:11 4a1faf408e5443dd8fd35f33c07ac429
 msgid ""
 "In order to top up your balance go to `your Mapflow profile "
-"<https://app.mapflow.ai/account/balance>`_ and choose one of the options. "
-"You will be asked to pay online."
+"<https://app.mapflow.ai/account/balance>`_ and choose one of the options."
+" You will be asked to pay online."
 msgstr ""
 "Чтобы пополнить баланс, перейдите в `свой профиль Mapflow "
-"<https://app.mapflow.ai/account/balance>`_ и выберите один из вариантов. Вам"
-" будет предложено оплатить онлайн."
+"<https://app.mapflow.ai/account/balance>`_ и выберите один из вариантов. "
+"Вам будет предложено оплатить онлайн."
 
 #: ../userguides/prices.rst:15 0f576f8a512e412996bee8cd0d57f7e2
 msgid ""
 "Depending on your planned project scope, you can either subscribe to the "
-"Mapflow Premium plan or buy credits with pay-as-you-go pricing. You can also"
-" contact sales to switch to a custom plan if you have a large-scale project."
-" Note, that the expiration date is displayed in your account profile in the "
-"corresponding plan. If you cancel your Premium subscription or it's expired,"
-" your account is downgraded to Pay-as-you-go."
+"Mapflow Premium plan or buy credits with pay-as-you-go pricing. You can "
+"also contact sales to switch to a custom plan if you have a large-scale "
+"project. Note, that the expiration date is displayed in your account "
+"profile in the corresponding plan. If you cancel your Premium "
+"subscription or it's expired, your account is downgraded to Pay-as-you-"
+"go."
 msgstr ""
-"В зависимости от запланированного объема проекта вы можете либо подписаться "
-"на план Mapflow Premium, либо купить кредиты с оплатой по мере "
-"использования. Вы также можете связаться с отделом продаж, чтобы перейти на "
-"индивидуальный план, если у вас крупномасштабный проект. Обратите внимание, "
-"что дата истечения срока действия отображается в профиле вашей учетной "
-"записи в соответствующем плане. Если вы отмените подписку Premium или срок "
-"ее действия истек, уровень вашей учетной записи будет понижен до оплаты по "
-"мере использования."
+"В зависимости от запланированного объема проекта вы можете либо "
+"подписаться на план Mapflow Premium, либо купить кредиты с оплатой по "
+"мере использования. Вы также можете связаться с отделом продаж, чтобы "
+"перейти на индивидуальный план, если у вас крупномасштабный проект. "
+"Обратите внимание, что дата истечения срока действия отображается в "
+"профиле вашей учетной записи в соответствующем плане. Если вы отмените "
+"подписку Premium или срок ее действия истек, уровень вашей учетной записи"
+" будет понижен до оплаты по мере использования."
 
 #: ../userguides/prices.rst ab96ece7e1f645f6bc0dc5951795fa04
 msgid "Top up your balance"
@@ -90,8 +92,8 @@ msgstr "Mapflow - кредиты"
 
 #: ../userguides/prices.rst:33 5161a80d6f3740c9b6759da9cce0a643
 msgid ""
-"Cost of processing makes the sum of **data cost** and **processing cost** "
-"given the requested area:"
+"Cost of processing makes the sum of **data cost** and **processing cost**"
+" given the requested area:"
 msgstr ""
 "Стоимость обработки состоит из **стоимости данных** и **стоимости "
 "обработки** с учетом запрашиваемой области:"
@@ -105,8 +107,8 @@ msgid ""
 "The price in credits is counted as: 1 Credit = 0.1$ with the progressive "
 "discount depending on the number of credits you buy:"
 msgstr ""
-"Цена в кредитах рассчитывается как: 1 Кредит = 0.1$ с прогрессивной скидкой "
-"в зависимости от количества купленных кредитов:"
+"Цена в кредитах рассчитывается как: 1 Кредит = 0.1$ с прогрессивной "
+"скидкой в зависимости от количества купленных кредитов:"
 
 #: ../userguides/prices.rst:44 9a2e4994be8942efbc4205e80a22136a
 msgid "Mapflow Credits"
@@ -150,25 +152,25 @@ msgstr "800 долларов США"
 
 #: ../userguides/prices.rst:55 10dff56d00314de99d04987be01680ec
 msgid ""
-"All prices below are given in Mapflow credits. Mapflow Web also provides a "
-"transparent price breakdown in the processing pipeline."
+"All prices below are given in Mapflow credits. Mapflow Web also provides "
+"a transparent price breakdown in the processing pipeline."
 msgstr ""
-"В Mapflow Web вам показывается стоимость каждого выбранного блока пайплайна "
-"обработки."
+"В Mapflow Web вам показывается стоимость каждого выбранного блока "
+"пайплайна обработки."
 
 #: ../userguides/prices.rst:58 fdb8eaeb61ea485f897d907375313683
 msgid ""
 "All the processings having an area less than 1 sq.km are rounded up to 1 "
 "sq.km before price calculation!"
 msgstr ""
-"Все обработки площадью менее 1 кв.км перед расчетом цены округляются до 1 "
-"кв.км!"
+"Все обработки площадью менее 1 кв.км перед расчетом цены округляются до 1"
+" кв.км!"
 
 #: ../userguides/prices.rst:59 1bee67275852401c9ebb5a36fa6e0aed
 msgid ""
-"Total processing cost is rounded up to the nearest integer number of credits"
-msgstr ""
-"Общая стоимость обработки округляется до ближайшего целого числа кредитов"
+"Total processing cost is rounded up to the nearest integer number of "
+"credits"
+msgstr "Общая стоимость обработки округляется до ближайшего целого числа кредитов"
 
 #: ../userguides/prices.rst:65 2a2ebf27fafb41f6a70ea7d9a3cdaf00
 msgid "Mapflow subscription plans"
@@ -179,28 +181,28 @@ msgstr "Планы подписки Mapflow"
 msgid ""
 "Currently Mapflow provides two pricing models: pay-as-you-go and "
 "subscription plans. Currently the plans **\"Mapflow Premium\"** and "
-"**\"Mapflow Starter\"** are available. It includes a monthly subscription "
-"fee and a package of credits. The subscription fee is charged monthly, the "
-"credits are valid for 12 months. It enables some premium options like custom"
-" area size, use of any custom model that you have access to, priority "
-"support, and the use of commercial satellite data providers. Check the "
-"`Mapflow pricing page <https://mapflow.ai/pricing>`_ for details of the "
-"subscription."
+"**\"Mapflow Starter\"** are available. It includes a monthly subscription"
+" fee and a package of credits. The subscription fee is charged monthly, "
+"the credits are valid for 12 months. It enables some premium options like"
+" custom area size, use of any custom model that you have access to, "
+"priority support, and the use of commercial satellite data providers. "
+"Check the `Mapflow pricing page <https://mapflow.ai/pricing>`_ for "
+"details of the subscription."
 msgstr ""
 "В настоящее время Mapflow предлагает две модели оплаты: по факту "
 "использования и подписки. Единственный доступный план — **\"Mapflow "
-"Premium\"»**. Он включает ежемесячную плату за подписку и пакет кредитов. "
-"Ежемесячная плата списывается каждый месяц, кредиты действительны 12 "
+"Premium\"»**. Он включает ежемесячную плату за подписку и пакет кредитов."
+" Ежемесячная плата списывается каждый месяц, кредиты действительны 12 "
 "месяцев. План включает премиум-возможности: произвольный размер области, "
-"любые пользовательские модели с правами доступа, приоритетная поддержка и "
-"доступ к коммерческим поставщикам спутниковых данных. Подробности на "
+"любые пользовательские модели с правами доступа, приоритетная поддержка и"
+" доступ к коммерческим поставщикам спутниковых данных. Подробности на "
 "странице `Mapflow pricing <https://mapflow.ai/pricing>`_."
 
 #: ../userguides/prices.rst:71 102ae20ba41a4adfa6385085f561ac93
 #, fuzzy
 msgid ""
-"Using the Mapflow subscription plan one can buy additional credits with pay-"
-"as-you-go pricing."
+"Using the Mapflow subscription plan one can buy additional credits with "
+"pay-as-you-go pricing."
 msgstr ""
 "Пользователи Mapflow Premium могут приобретать дополнительные кредиты по "
 "цене по факту использования."
@@ -213,7 +215,8 @@ msgid ""
 "subscription plan."
 msgstr ""
 "Чтобы активировать подписку, перейдите в `профиль — Баланс "
-"<https://app.mapflow.ai/account/balance>`_ и выберите план Mapflow Premium."
+"<https://app.mapflow.ai/account/balance>`_ и выберите план Mapflow "
+"Premium."
 
 #: ../userguides/prices.rst:73 6b7ecec13d2447b0b33a416c8f1a58ae
 #, fuzzy
@@ -233,8 +236,8 @@ msgid ""
 msgstr ""
 "Если вы хотите приобрести пакет по индивидуальным условиям, использовать "
 "другой способ оплаты или использовать Mapflow в крупном масштабе, "
-"ознакомьтесь с `Mapflow Custom <https://mapflow.ai/pricing>`_ и свяжитесь с "
-"отделом продаж."
+"ознакомьтесь с `Mapflow Custom <https://mapflow.ai/pricing>`_ и свяжитесь"
+" с отделом продаж."
 
 #: ../userguides/prices.rst:81 11e9831c0d0f40b397edb49c0b33c208
 msgid "Model costs"
@@ -250,8 +253,9 @@ msgid "Model"
 msgstr "Модель"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
-#: 0726200f68d6488a8d013539a82f4032
-msgid "Base price"
+#: 11a8ed697b634494924f06ae0f749e05
+#, fuzzy
+msgid "Base price · credits"
 msgstr "Базовая цена"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
@@ -277,23 +281,13 @@ msgstr "Классификация: 0"
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
 #, fuzzy
-msgid "Heights estimation: 10"
+msgid "Building Heights estimation: 10"
 msgstr "Оценка высоты: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 84a985b6fe4e435b992e2faae4addee6
 msgid "Merge with Opensteeetmap: 0"
 msgstr "Склейка с OpenSteeetMap: 0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 84a985b6fe4e435b992e2faae4addee6
-msgid "Align with roads: 0"
-msgstr "Выравнивание по дорогам: 0"
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-msgid "Height Estimation: 10"
-msgstr "Оценка высоты: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv:1
 #: 3474a3dfd955485bb08524d47f27293f
@@ -304,12 +298,6 @@ msgstr "[мульти] Здания + Дороги + Лес"
 #: 2d496ce9e6d441898218dd662bc56c1e
 msgid "23"
 msgstr ""
-
-#: ../userguides/_static/csv/web_processing_prices.csv
-#: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
-#, fuzzy
-msgid "Buildings Height estimation: 10"
-msgstr "Оценка высоты: 10"
 
 #: ../userguides/_static/csv/web_processing_prices.csv
 #: 1c6cb1cb3fed4cc9a66bee7fc3bfde49
@@ -356,16 +344,16 @@ msgstr ""
 #: ../userguides/prices.rst:93 98cdc97c7d0b41d3b1a937731c73e992
 msgid ""
 "If you want to have a custom model with another set of options, consider "
-"applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Pricing for "
-"custom models varies by project scope. To get the quotation and apply the "
-"discount, please share your project requirements (contact "
+"applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Pricing for"
+" custom models varies by project scope. To get the quotation and apply "
+"the discount, please share your project requirements (contact "
 "sales@geoalert.io)."
 msgstr ""
 "Если вам нужна пользовательская модель с индивидуальным набором опций, "
 "рассмотрите `Mapflow Custom <https://mapflow.ai/contacts>`_. Стоимость "
 "пользовательских моделей зависит от объёма проекта. Для получения "
-"коммерческого предложения и обсуждения скидки, свяжитесь с нами по адресу "
-"sales@geoalert.io."
+"коммерческого предложения и обсуждения скидки, свяжитесь с нами по адресу"
+" sales@geoalert.io."
 
 #: ../userguides/prices.rst:96 0383f00fe6d04e37aa635ee55cb74dff
 msgid "Data costs"
@@ -373,11 +361,11 @@ msgstr "Стоимость данных"
 
 #: ../userguides/prices.rst:99 809dff0273f949f5b1f5273327b2cbb7
 msgid ""
-"If you are using your own imagery, GeoTIFF or Custom URL, the data cost is "
-"always 0 credits."
+"If you are using your own imagery, GeoTIFF or Custom URL, the data cost "
+"is always 0 credits."
 msgstr ""
-"Если вы используете собственные снимки, GeoTIFF или пользовательский URL, "
-"стоимость данных всегда равна 0 кредитов."
+"Если вы используете собственные снимки, GeoTIFF или пользовательский URL,"
+" стоимость данных всегда равна 0 кредитов."
 
 #: ../userguides/prices.rst:102 9477e4cc1ef64606b17251892588f6a5
 msgid "Imagery basemap costs"
@@ -386,9 +374,10 @@ msgstr "Стоимость базовых карт снимков"
 #: ../userguides/prices.rst:103 56c9dbb67c2244c194849fafa806668b
 msgid ""
 "When using default imagery basemaps (Mapbox, Arcgis World Imagery), the "
-"price starts from a min. of 1 credit, depending on the model and the zoom "
-"level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) -"
-" if you change the zoom, the price is automatically recalculated."
+"price starts from a min. of 1 credit, depending on the model and the zoom"
+" level (`What is zoom? "
+"<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if you change the "
+"zoom, the price is automatically recalculated."
 msgstr ""
 "При использовании базовых карт (Mapbox, ArcGIS World Imagery) цена "
 "начинается от 1 кредита в зависимости от модели и уровня масштаба (`Что "
@@ -402,109 +391,93 @@ msgstr "Стоимость заказа снимков"
 #: ../userguides/prices.rst:107 d5da58ca1b03439ab991738d40850c9f
 msgid ""
 "If you are using commercial providers and order the new image, the cost "
-"varies depending on the resolution of the satellite sensor. We partner with "
-"streaming data providers, which means you don't have to deal with price "
-"lists and files over FTP; instead, you can search for imagery that better "
-"meets your date and area requirements. Zoom level is fixed and changing it "
-"is not possible for the imagery ordering."
+"varies depending on the resolution of the satellite sensor. We partner "
+"with streaming data providers, which means you don't have to deal with "
+"price lists and files over FTP; instead, you can search for imagery that "
+"better meets your date and area requirements. Zoom level is fixed and "
+"changing it is not possible for the imagery ordering."
 msgstr ""
 "Если вы используете коммерческих поставщиков и заказываете новый снимок, "
 "стоимость зависит от разрешения спутникового сенсора. Мы работаем с "
-"поставщиками потоковых данных, поэтому вам не нужно работать с прайс-листами"
-" и файлами через FTP — вместо этого можно искать снимки, подходящие по дате "
-"и территории. Уровень зума фиксирован и не может быть изменён при заказе "
-"снимков."
+"поставщиками потоковых данных, поэтому вам не нужно работать с "
+"прайс-листами и файлами через FTP — вместо этого можно искать снимки, "
+"подходящие по дате и территории. Уровень зума фиксирован и не может быть "
+"изменён при заказе снимков."
 
 #: ../userguides/prices.rst:109 20d4f8d348674e38a3d77cf38e03df7d
 msgid ""
-"See the data prices and the corresponding resolution of the imagery sensors "
-"in the table below."
+"See the data prices and the corresponding resolution of the imagery "
+"sensors in the table below."
 msgstr ""
-"См. цены на данные и соответствующее разрешение сенсоров снимков в таблице "
-"ниже."
+"См. цены на данные и соответствующее разрешение сенсоров снимков в "
+"таблице ниже."
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 4e589d92400b4d72a3b13a116f39fe6d
+#: ../userguides/_static/csv/data_prices.csv:1 4e589d92400b4d72a3b13a116f39fe6d
 msgid "Data Provider"
 msgstr "Поставщик данных"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 9ef1d9d0c328426ebf2cd379adc486e1
+#: ../userguides/_static/csv/data_prices.csv:1 9ef1d9d0c328426ebf2cd379adc486e1
 msgid "19 zoom"
 msgstr "19 зум"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 413174cab31c4433a1f0949d87413c02
+#: ../userguides/_static/csv/data_prices.csv:1 413174cab31c4433a1f0949d87413c02
 msgid "18 zoom"
 msgstr "18 зум"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 69131cea61934330b04b06995518d4d3
+#: ../userguides/_static/csv/data_prices.csv:1 69131cea61934330b04b06995518d4d3
 msgid "17 zoom"
 msgstr "17 зум"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 8236c2dda6f24c95a1acd49455d25a9f
+#: ../userguides/_static/csv/data_prices.csv:1 8236c2dda6f24c95a1acd49455d25a9f
 msgid "Mapbox"
 msgstr "Картбокс"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 141121f730e14bcabd9e4bd7ceaaa460
+#: ../userguides/_static/csv/data_prices.csv:1 141121f730e14bcabd9e4bd7ceaaa460
 msgid "9"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 410e48152d484f2db32cf12366b7fdda
+#: ../userguides/_static/csv/data_prices.csv:1 410e48152d484f2db32cf12366b7fdda
 msgid "3"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 1e0c034a39214e119de5f2b34c5e4a5c
+#: ../userguides/_static/csv/data_prices.csv:1 1e0c034a39214e119de5f2b34c5e4a5c
 msgid "1"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 19488055bcbd43e1816fb944bdd1beea
+#: ../userguides/_static/csv/data_prices.csv:1 19488055bcbd43e1816fb944bdd1beea
 msgid "ArcGIS World Imagery"
 msgstr "Изображения мира ArcGIS"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 04aa49b7179e42d8bc029e3eef59b072
+#: ../userguides/_static/csv/data_prices.csv:1 04aa49b7179e42d8bc029e3eef59b072
 msgid "Global mosaic 2022"
 msgstr "Глобальная мозаика 2022"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 8952b27351974702b69abf2c51554b75
+#: ../userguides/_static/csv/data_prices.csv:1 8952b27351974702b69abf2c51554b75
 msgid "Commercial 0.3m"
 msgstr "Коммерческий 0,3м"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: cbb496bf09b745678f6bb068cb63941a
+#: ../userguides/_static/csv/data_prices.csv:1 cbb496bf09b745678f6bb068cb63941a
 msgid "180"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 58fc22c9a0ac4a5a8cf29a975105a1cb b6cef1e581d54f1784678929657eb6a5
+#: ../userguides/_static/csv/data_prices.csv:1 58fc22c9a0ac4a5a8cf29a975105a1cb
+#: b6cef1e581d54f1784678929657eb6a5
 msgid "--"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 40bab5abed8c4cdf86a0b147338ee8fc
+#: ../userguides/_static/csv/data_prices.csv:1 40bab5abed8c4cdf86a0b147338ee8fc
 msgid "Commercial 0.5m"
 msgstr "Коммерческий 0,5м"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: afe4824adf794f1d8f25460bb2081044
+#: ../userguides/_static/csv/data_prices.csv:1 afe4824adf794f1d8f25460bb2081044
 msgid "60"
 msgstr ""
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: 4d8aa2595b324206aeacd45df041e36e
+#: ../userguides/_static/csv/data_prices.csv:1 4d8aa2595b324206aeacd45df041e36e
 msgid "Commercial 0.7m"
 msgstr "Коммерческий 0,7м"
 
-#: ../userguides/_static/csv/data_prices.csv:1
-#: c681e015651e416d9bee4d772f041d99
+#: ../userguides/_static/csv/data_prices.csv:1 c681e015651e416d9bee4d772f041d99
 msgid "15"
 msgstr ""
 
@@ -526,16 +499,16 @@ msgstr "``Стоимость = 3,3 * (8 + 60) = 224 кредита``"
 
 #: ../userguides/prices.rst:127 69d105be736c47c780bcc59d7a823c65
 msgid ""
-"*I want to process 0.01 sq.km of My imagery using the Buildings model and "
-"applying the Simplification option.*"
+"*I want to process 0.01 sq.km of My imagery using the Buildings model and"
+" applying the Simplification option.*"
 msgstr ""
-"*Хочу обработать 0,01 кв.км моих снимков с моделью Buildings, применив опцию"
-" Симплификации.*"
+"*Хочу обработать 0,01 кв.км моих снимков с моделью Buildings, применив "
+"опцию Симплификации.*"
 
 #: ../userguides/prices.rst:129 09846d41ec76487f800d9bed7e15bb75
 msgid ""
-"Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost will "
-"be:"
+"Area is rounded up to 1 sq.km, the user's data cost is 0, so the cost "
+"will be:"
 msgstr ""
 "Площадь округляется до 1 кв.км, стоимость данных пользователя равна 0, "
 "поэтому стоимость будет:"
@@ -551,31 +524,47 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr "Mapflow-QGIS / API стоимость моделей"
 
 #~ msgid ""
-#~ "Mapflow-QGIS plugin has a slightly different set of models, and you cannot "
-#~ "choose the model options. All models are launched with postprocessing "
-#~ "options **turned ON**. If you want to customize your workflow, for example "
-#~ "to have a basic model with another set of options, consider applying for "
-#~ "`Mapflow Premium plan <https://mapflow.ai/pricing>`_. Also, Mapflow QGIS "
-#~ "provides access to paid imagery services, so the cost calculation is a bit "
-#~ "more complex."
+#~ "Mapflow-QGIS plugin has a slightly "
+#~ "different set of models, and you "
+#~ "cannot choose the model options. All "
+#~ "models are launched with postprocessing "
+#~ "options **turned ON**. If you want "
+#~ "to customize your workflow, for example"
+#~ " to have a basic model with "
+#~ "another set of options, consider "
+#~ "applying for `Mapflow Premium plan "
+#~ "<https://mapflow.ai/pricing>`_. Also, Mapflow QGIS"
+#~ " provides access to paid imagery "
+#~ "services, so the cost calculation is "
+#~ "a bit more complex."
 #~ msgstr ""
-#~ "Плагин Mapflow-QGIS имеет немного другой набор моделей, и вы не можете "
-#~ "выбрать параметры модели. Модели запускаются с **активированными** "
-#~ "параметрами постобработки. Если вы хотите настроить свой рабочий процесс, "
-#~ "например, чтобы иметь базовую модель с другим набором опций, рассмотрите "
-#~ "возможность перехода на Mapflow Premium <https://mapflow.ai/pricing>`_. "
-#~ "Кроме того, Mapflow QGIS предоставляет доступ к платным сервисам "
-#~ "изображений, поэтому расчет стоимости немного сложнее."
+#~ "Плагин Mapflow-QGIS имеет немного другой"
+#~ " набор моделей, и вы не можете "
+#~ "выбрать параметры модели. Модели запускаются"
+#~ " с **активированными** параметрами постобработки."
+#~ " Если вы хотите настроить свой "
+#~ "рабочий процесс, например, чтобы иметь "
+#~ "базовую модель с другим набором опций,"
+#~ " рассмотрите возможность перехода на "
+#~ "Mapflow Premium <https://mapflow.ai/pricing>`_. "
+#~ "Кроме того, Mapflow QGIS предоставляет "
+#~ "доступ к платным сервисам изображений, "
+#~ "поэтому расчет стоимости немного сложнее."
 
 #~ msgid "Processing price"
 #~ msgstr "Стоимость обработки"
 
 #~ msgid ""
-#~ "As all the model options are turned on for Mapflow QGIS, processing cost is "
-#~ "the same as in Mapflow Web with the options, where it's applicable:"
+#~ "As all the model options are "
+#~ "turned on for Mapflow QGIS, processing"
+#~ " cost is the same as in Mapflow"
+#~ " Web with the options, where it's "
+#~ "applicable:"
 #~ msgstr ""
-#~ "Поскольку все параметры модели включены для Mapflow QGIS, стоимость "
-#~ "обработки такая же, как и в Mapflow Web с активными параметрами, где это "
+#~ "Поскольку все параметры модели включены "
+#~ "для Mapflow QGIS, стоимость обработки "
+#~ "такая же, как и в Mapflow Web "
+#~ "с активными параметрами, где это "
 #~ "применимо:"
 
 #~ msgid "Total price"
@@ -609,13 +598,19 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr "Плотная застройка"
 
 #~ msgid ""
-#~ "*I want to process 3.4 sq.km of Maxar SecureWatch data at 18 zoom (35 "
-#~ "credits per sq.km) with Buildings model (13 credits per sq.km).* ``Cost = "
-#~ "3.4*(13+35) = 163.2 => 164 credits``"
+#~ "*I want to process 3.4 sq.km of"
+#~ " Maxar SecureWatch data at 18 zoom"
+#~ " (35 credits per sq.km) with "
+#~ "Buildings model (13 credits per sq.km).*"
+#~ " ``Cost = 3.4*(13+35) = 163.2 => "
+#~ "164 credits``"
 #~ msgstr ""
-#~ "*Я хочу обработать 3,4 кв. км данных Maxar SecureWatch на 18 зуме (35 "
-#~ "кредитов / кв. км) с моделью зданий (13 кредитов / кв. км).* ``Стоимость = "
-#~ "3,4*(13+35) = 163,2 => 164 кредита``"
+#~ "*Я хочу обработать 3,4 кв. км "
+#~ "данных Maxar SecureWatch на 18 зуме "
+#~ "(35 кредитов / кв. км) с моделью"
+#~ " зданий (13 кредитов / кв. км).* "
+#~ "``Стоимость = 3,4*(13+35) = 163,2 => "
+#~ "164 кредита``"
 
 #~ msgid "Top up you balance"
 #~ msgstr "Пополнить баланс"
@@ -624,12 +619,17 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Most default models work at 18 zoom. The exceptions are Fields high-res "
-#~ "model (17 zoom) and Segment-anything that has an optional zoom. `What is "
-#~ "zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
+#~ "Most default models work at 18 "
+#~ "zoom. The exceptions are Fields high-"
+#~ "res model (17 zoom) and Segment-"
+#~ "anything that has an optional zoom. "
+#~ "`What is zoom? "
+#~ "<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
 #~ msgstr ""
-#~ "Большинство моделей по умолчанию работают с зумом 18. Исключение составляют "
-#~ "модель Fields (hi-res) (17 масштаб) и Segment-anything, которая имеет выбор "
+#~ "Большинство моделей по умолчанию работают "
+#~ "с зумом 18. Исключение составляют модель"
+#~ " Fields (hi-res) (17 масштаб) и "
+#~ "Segment-anything, которая имеет выбор "
 #~ "масштабов. `Что такое зум? "
 #~ "<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_"
 
@@ -649,34 +649,51 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr "Классификация по Высотам: 20"
 
 #~ msgid ""
-#~ "If you want to have a custom model with another set of options, consider "
-#~ "applying for `Mapflow Premium plan <https://mapflow.ai/pricing>`_."
+#~ "If you want to have a custom "
+#~ "model with another set of options, "
+#~ "consider applying for `Mapflow Premium "
+#~ "plan <https://mapflow.ai/pricing>`_."
 #~ msgstr ""
-#~ "Если вы хотите купить определенное количество кредитов, использовать другой "
-#~ "способ оплаты или рассмотреть возможность использования Mapflow в больших "
-#~ "масштабах, проверьте `Коммерческие планы Mapflow "
+#~ "Если вы хотите купить определенное "
+#~ "количество кредитов, использовать другой "
+#~ "способ оплаты или рассмотреть возможность "
+#~ "использования Mapflow в больших масштабах, "
+#~ "проверьте `Коммерческие планы Mapflow "
 #~ "<https://mapflow.ai/pricing>`_."
 
 #~ msgid "Data price"
 #~ msgstr "Стоимость данных"
 
 #~ msgid ""
-#~ "When using default data providers (Mapbox, Arcgis Satellite), your own TMS, "
-#~ "or your uploaded imagery the price is zero. If you are using connected "
-#~ "commercial providers (\"Global mosaic\" and others that might be available),"
-#~ " the cost of the data depends on the zoom level. We partner with streaming "
-#~ "data providers, which means that the cost of the service depends on the paid"
-#~ " traffic – therefore we quote the prices depending on the imagery resolution"
-#~ " for a more accurate and flexible pricing model."
+#~ "When using default data providers "
+#~ "(Mapbox, Arcgis Satellite), your own "
+#~ "TMS, or your uploaded imagery the "
+#~ "price is zero. If you are using"
+#~ " connected commercial providers (\"Global "
+#~ "mosaic\" and others that might be "
+#~ "available), the cost of the data "
+#~ "depends on the zoom level. We "
+#~ "partner with streaming data providers, "
+#~ "which means that the cost of the"
+#~ " service depends on the paid traffic"
+#~ " – therefore we quote the prices "
+#~ "depending on the imagery resolution for"
+#~ " a more accurate and flexible pricing"
+#~ " model."
 #~ msgstr ""
-#~ "При использовании поставщиков данных по умолчанию (Mapbox, Arcgis "
-#~ "Satellite), собственного источника TMS или загруженных изображений цена "
-#~ "равна нулю. Если вы используете коммерческих поставщиков (\"Global mosaic\" "
-#~ "и другие, которые могут быть доступны), стоимость данных зависит от уровня "
-#~ "масштабирования. Мы сотрудничаем с поставщиками данных, а это означает, что "
-#~ "стоимость услуги зависит от платного трафика, поэтому мы масштабируем цены в"
-#~ " зависимости от разрешения изображения для более точной модели "
-#~ "ценообразования."
+#~ "При использовании поставщиков данных по "
+#~ "умолчанию (Mapbox, Arcgis Satellite), "
+#~ "собственного источника TMS или загруженных "
+#~ "изображений цена равна нулю. Если вы "
+#~ "используете коммерческих поставщиков (\"Global "
+#~ "mosaic\" и другие, которые могут быть"
+#~ " доступны), стоимость данных зависит от "
+#~ "уровня масштабирования. Мы сотрудничаем с "
+#~ "поставщиками данных, а это означает, что"
+#~ " стоимость услуги зависит от платного "
+#~ "трафика, поэтому мы масштабируем цены в"
+#~ " зависимости от разрешения изображения для"
+#~ " более точной модели ценообразования."
 
 #~ msgid "16 zoom"
 #~ msgstr ""
@@ -700,14 +717,22 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Currently Mapflow provides two pricing models: pay-as-you-go and "
-#~ "subscription plans. Currently the only plan **\"Mapflow Premium\"** is "
-#~ "available. It includes a monthly subscription fee and a package of credits. "
-#~ "The subscription fee is charged monthly, the credits are valid for 12 "
-#~ "months. It enables some premium options like custom area size, use of the "
-#~ "any custom model that you have access to, priority support, and the use of "
-#~ "commercial satellite data providers. Check the `Mapflow pricing page "
-#~ "<https://mapflow.ai/pricing>`_ for details of the subscription."
+#~ "Currently Mapflow provides two pricing "
+#~ "models: pay-as-you-go and "
+#~ "subscription plans. Currently the only "
+#~ "plan **\"Mapflow Premium\"** is available. "
+#~ "It includes a monthly subscription fee"
+#~ " and a package of credits. The "
+#~ "subscription fee is charged monthly, the"
+#~ " credits are valid for 12 months. "
+#~ "It enables some premium options like "
+#~ "custom area size, use of the any"
+#~ " custom model that you have access"
+#~ " to, priority support, and the use"
+#~ " of commercial satellite data providers."
+#~ " Check the `Mapflow pricing page "
+#~ "<https://mapflow.ai/pricing>`_ for details of "
+#~ "the subscription."
 #~ msgstr ""
 
 #~ msgid "Model"
@@ -717,7 +742,7 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr "Высоты зданий: 20"
 
 #~ msgid "Align with roads: 0"
-#~ msgstr ""
+#~ msgstr "Выравнивание по дорогам: 0"
 
 #~ msgid "Height estimates: 10"
 #~ msgstr "Высоты зданий: 20"
@@ -726,18 +751,26 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "If you want to have a custom model with another set of options, consider "
-#~ "applying for `Mapflow Custom <https://mapflow.ai/contacts>`_. Custom model "
-#~ "pricing depends on the complexity of the task and the total project size. To"
-#~ " get the quotation and apply the discount, please share your project "
-#~ "requirements."
+#~ "If you want to have a custom "
+#~ "model with another set of options, "
+#~ "consider applying for `Mapflow Custom "
+#~ "<https://mapflow.ai/contacts>`_. Custom model "
+#~ "pricing depends on the complexity of "
+#~ "the task and the total project "
+#~ "size. To get the quotation and "
+#~ "apply the discount, please share your"
+#~ " project requirements."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "When using default imagery basemaps (Mapbox, Arcgis WorldView Imagery), the "
-#~ "price starts from a min. of 1 credit, depending on the model and the zoom "
-#~ "level (`What is zoom? <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) -"
-#~ " if you change the zoom, the price is automatically recalculated."
+#~ "When using default imagery basemaps "
+#~ "(Mapbox, Arcgis WorldView Imagery), the "
+#~ "price starts from a min. of 1 "
+#~ "credit, depending on the model and "
+#~ "the zoom level (`What is zoom? "
+#~ "<https://wiki.openstreetmap.org/wiki/Zoom_levels>`_) - if"
+#~ " you change the zoom, the price "
+#~ "is automatically recalculated."
 #~ msgstr ""
 
 #~ msgid "ArcGIS WorldView"
@@ -763,3 +796,10 @@ msgstr "``Стоимость = 1 * (8 + 2) = 10 кредитов``"
 
 #~ msgid "Mapflow Premium"
 #~ msgstr "Mapflow Premium"
+
+#~ msgid "Heights estimation: 10"
+#~ msgstr "Оценка высоты: 10"
+
+#~ msgid "Height Estimation: 10"
+#~ msgstr "Оценка высоты: 10"
+

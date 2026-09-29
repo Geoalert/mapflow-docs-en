@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 12:52+0300\n"
+"POT-Creation-Date: 2026-09-28 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,37 +19,153 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/userguides/construction_model.rst:2
-#: c4431a6684ac45318f1b96694cbfa7cb
-msgid "🏗️ Constructions (CUSTOM)"
-msgstr "🏗️ Конструкции (КАСТОМ)"
-
-#: ../../source/userguides/construction_model.rst:4
-#: bc94c0e66642482b9b0fddfc855b5e9b
+#: ../userguides/construction_model.rst:1 61a418cd903446dd8486545a009612e2
 msgid ""
-"This model outlines the areas in the satellite image that contain "
-"construction sites and buildings under construction. The current model "
-"dataset is limited to some countries and the work of extending it is in "
-"progress."
+"Detect construction sites and buildings under construction in satellite "
+"imagery. Available as a custom Mapflow model on request."
 msgstr ""
-"Эта модель выделяет на спутниковом изображении области, на которых "
-"расположены строительные площадки и строящиеся здания. Текущий набор данных "
-"модели ограничен некоторыми странами, и работа по его расширению "
-"продолжается."
+"Распознавание строительных площадок и зданий на стадии строительства на "
+"спутниковых снимках. Доступно как кастомная модель по запросу."
 
-#: ../../source/userguides/construction_model.rst:13
-#: ee0f0810c3d546a88187e503419c4bae
-msgid "Processing result of construction model"
-msgstr "Результат обработки модели построения"
+#: ../userguides/construction_model.rst:7 09224f89b3e94f21afb8932830d53179
+msgid "Constructions"
+msgstr "Стройки"
 
-#: ../../source/userguides/construction_model.rst:13
-#: 229d177d95244f8e981163513f5fd666
+#: ../userguides/construction_model.rst:10 822ede19ed9641909c355d4915f5ed31
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction site outlines in a fast-developing area"
+msgstr "Контуры строительных площадок в быстро развивающемся районе"
+
+#: ../userguides/construction_model.rst:10 0c38d3ba531648239238c1cf497547ba
+msgid "Example result: construction sites in a fast-developing area."
+msgstr "Пример результата: стройплощадки в быстро развивающемся районе."
+
+#: ../userguides/construction_model.rst:10 8a8f05a38064459e9ba2687196c9dcd0
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/construction_model.rst:10 fbf35d3dd4804b9aaa8d6e02021678b2
+msgid "Priced per project"
+msgstr "Цена рассчитывается для проекта"
+
+#: ../userguides/construction_model.rst:10 51cd959941114d9189bc5dfa5608ca23
+msgid "Request access and we connect the model to your account."
+msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
+
+#: ../userguides/construction_model.rst:10 a8196ae0a39c4d77832953be94beac9d
 msgid ""
-"Processing result sample for a rapidly developing area with construction "
-"sites"
+"Outlines areas that contain construction sites and buildings under "
+"construction. Available for selected countries; coverage is growing."
 msgstr ""
-"Выборка результатов обработки для быстроразвивающегося региона со "
-"строительными площадками"
+"Выделяет территории со строительными площадками и строящимися зданиями. "
+"Доступна для отдельных стран; покрытие расширяется."
+
+#: ../userguides/construction_model.rst:10 0abd9a2cd8d842018332f2a9a57f4815
+msgid "What you get"
+msgstr "Что вы получите"
+
+#: ../userguides/construction_model.rst:10 09224f89b3e94f21afb8932830d53179
+msgid "Construction site polygons."
+msgstr "Полигоны строительных площадок."
+
+#: ../userguides/construction_model.rst:10 fd5b36d2a82148748e64a70f2dd4b4ab
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
+msgid "0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas."
+msgstr ""
+"Спутниковые снимки 0,6–0,3 м (зум 18) быстро развивающихся территорий."
+
+#: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/construction_model.rst:10 0fb201c342c9433ea8177b0c1fb091fb
+msgid "Track new development for permits and taxes"
+msgstr "Отслеживать новое строительство для разрешений и налогов"
+
+#: ../userguides/construction_model.rst:10 12440fbd9d83456c9927f64715a39024
+msgid "Monitor progress on large projects"
+msgstr "Контролировать ход крупных проектов"
+
+#: ../userguides/construction_model.rst:10 65ceaf156a464eea9024ca3a08f61263
+msgid "Flag unplanned construction"
+msgstr "Выявлять самовольное строительство"
+
+#: ../userguides/construction_model.rst:10 65bf4ebb1ba546798d29e4d0a6df79f2
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:10 438b1e121d274dd1bab45490c3071c49
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
+
+#: ../userguides/construction_model.rst 877a732b651248f0a72eb89c7b466b2e
+msgid "Geo domain"
+msgstr "Географический охват"
+
+#: ../userguides/construction_model.rst:10 64c99bc7df9040e783ecb90917296098
+msgid "Selected countries"
+msgstr "Отдельные страны"
+
+#: ../userguides/construction_model.rst 526e47a0d4834f938c84d08ab7a2da70
+msgid "Method"
+msgstr "Метод"
+
+#: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
+msgid "Segmentation"
+msgstr "Сегментация"
+
+#: ../userguides/construction_model.rst b28a98443b0649a19eb3f51c88f51e3e
+msgid "GSD / zoom"
+msgstr "GSD / зум"
+
+#: ../userguides/construction_model.rst:10 934db30bda204b91bb90f9986284cbd4
+msgid "0.6–0.3 m / z18"
+msgstr "0,6–0,3 м / z18"
+
+#: ../userguides/construction_model.rst:12 c579a9af539b4ded8662fe0c644576f6
+msgid "Sample results"
+msgstr "Примеры результатов"
+
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
+msgid "Construction sites detected in a fast-developing area"
+msgstr "Стройплощадки, обнаруженные в быстро развивающемся районе"
+
+#: ../userguides/construction_model.rst:20 f9a1c355f4944bc2a31c5047e39269f7
+msgid "A rapidly developing area with construction sites"
+msgstr "Быстро развивающийся район со стройплощадками"
+
+#: ../userguides/construction_model.rst:23 2032c47d3781429bbc8a5a1229fd0c8b
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/construction_model.rst:23 9aad72c3d5ef4bcb9021029127febd06
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/construction_model.rst:23 d6e3c1a6369c4e3ebb06e6ca4268f943
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/construction_model.rst:23 d50c5ac86e954f7c929a97ffec004223
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/construction_model.rst:23 6e8ad1a3cd6342638c472fb28bbffe6e
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid ""
 #~ "This model outlines the areas in the satellite image that contain "
@@ -64,10 +180,17 @@ msgstr ""
 #~ msgid "🏗️ Constructions"
 #~ msgstr ""
 
-#: ../userguides/construction_model.rst:2
-msgid "Detect construction sites and buildings under construction in satellite imagery. Available as a custom Mapflow model on request."
-msgstr "Распознавание строительных площадок и зданий на стадии строительства на спутниковых снимках. Доступно как кастомная модель по запросу."
+#~ msgid "Processing result of construction model"
+#~ msgstr "Результат обработки модели построения"
 
-#: ../userguides/construction_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
+#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
+#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid ":mf-chip:`crane|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

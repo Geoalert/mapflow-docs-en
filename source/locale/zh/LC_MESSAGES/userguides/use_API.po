@@ -36,9 +36,9 @@ msgid ""
 "and we want to extract features like \"buildings\" with Mapflow processing "
 "API."
 msgstr ""
-"如果您有多个多边形需要处理或更新，使用 Web 或 GIS 用户工具将它们一一上传可能会很无聊。在这种情况下，您最好考虑使用 "
-"Mapflow:ref:`Processing API`。在此示例中，假设我们有一个指示人口稠密地点边界的多边形列表，并且我们希望使用 Mapflow "
-"处理 API 提取“建筑物”等特征。"
+"如果您有多个多边形需要处理或更新，使用 Web 或 GIS 用户工具将它们一一上传可能会很无聊。在这种情况下，您最好考虑使用 Mapflow\\ "
+":ref:`Processing API`。在此示例中，假设我们有一个指示人口稠密地点边界的多边形列表，并且我们希望使用 Mapflow 处理 API "
+"提取“建筑物”等特征。"
 
 #: ../userguides/use_API.rst:10 ceec4f9eb3b247df951abb459eeb7bef
 msgid ""
@@ -93,7 +93,7 @@ msgstr "响应示例："
 
 #: ../userguides/use_API.rst:77 df2122e613494dad96f8703e87da8212
 msgid "See more in :ref:`Projects - API`"
-msgstr "查看更多内容：ref:`项目 - API`"
+msgstr "更多内容请参阅 :ref:`Projects - API`"
 
 #: ../userguides/use_API.rst:80 065468f5943c4a44aa5e01769b8b7448
 msgid "Prepare AOIs for the processings"
@@ -118,7 +118,7 @@ msgid ""
 " to define the processing. The \"name\" is optional yet it's more convenient"
 " to work with the results afterwards."
 msgstr ""
-"让我们检查一下是否从文件中创建了数据数组，并按名称显示所有功能。在下一步中，我们将使用“name”属性来定义处理。 "
+"让我们检查一下是否从文件中创建了数据数组，并按名称显示所有功能。在下一步中，我们将使用“``name``”属性来定义处理。 "
 "“名称”是可选的，但之后使用结果会更方便。"
 
 #: ../userguides/use_API.rst:97 52f5a39d3b6f4a3abb28ffa1bb5a4e2a

@@ -63,7 +63,7 @@ msgstr "Запрос функций с помощью службы http"
 
 #: ../../source/api/um_api.rst:22
 msgid "The endpoint is: ``https://urban-mapping.geoalert.io/geojson``."
-msgstr "Конечная точка: https://urban-mapping.geoalert.io/geojson."
+msgstr "Конечная точка: ``https://urban-mapping.geoalert.io/geojson``."
 
 #: ../../source/api/um_api.rst:25
 msgid ""
@@ -92,11 +92,11 @@ msgid ""
 "querying features by a complex polygon, which doesn't fit into ``GET`` "
 "request limits."
 msgstr ""
-"Также поддерживаются запросы POST (с тем же URL-адресом конечной точки). "
-"Затем в теле запроса указывается ``Bbox`` или ``polygon``. Остальные "
-"параметры запроса работают так же, как запросы GET. Эта опция может быть "
-"полезна для запроса объектов по сложному многоугольнику, который не "
-"вписывается в ограничения запроса GET."
+"Также поддерживаются запросы ``POST`` (с тем же URL конечной точки). В этом "
+"случае ``Bbox`` или ``polygon`` передаётся в теле запроса. Остальные "
+"параметры работают так же, как в запросах ``GET``. Это удобно для запроса "
+"объектов по сложному полигону, который не укладывается в ограничения запроса"
+" ``GET``."
 
 #: ../../source/api/um_api.rst:38
 msgid "**Request example** (default projection, polygon, returns centroids):"

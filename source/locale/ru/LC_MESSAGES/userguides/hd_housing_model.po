@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 22:24+0200\n"
+"POT-Creation-Date: 2026-09-28 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,54 +19,175 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/hd_housing_model.rst:2 e0a588b4ee9a45dbabfc8829a774af68
-msgid "🏘 High-density housing (CUSTOM)"
-msgstr "🏘 Жилье повышенной плотности (КАСТОМ)"
-
-#: ../userguides/hd_housing_model.rst:4 378ab28571e5445cb05d0282553813a8
+#: ../userguides/hd_housing_model.rst:1 9c370629a217454782cdda4728caec64
 msgid ""
-"This model has been deprecated as default one and moved to custom. it's "
-"available only by request."
+"Detect building roofs in terraced and densely built areas typical of the "
+"Middle East and Africa. Available as a custom Mapflow model on request."
 msgstr ""
-"Эта модель устарела как модель по умолчанию и переведена в пользовательскую."
-" он доступен только по запросу."
+"Распознавание крыш зданий в плотной и террасной застройке, характерной для "
+"Ближнего Востока и Африки. Доступно как кастомная модель по запросу."
 
-#: ../userguides/hd_housing_model.rst:7 ed21d0f4c57346fab1e1169c542b559b
+#: ../userguides/hd_housing_model.rst:7 e0a588b4ee9a45dbabfc8829a774af68
+msgid "High-density housing"
+msgstr "Плотная застройка"
+
+#: ../userguides/hd_housing_model.rst:10 a1f260c5c39742a79bff303cc26328a3
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
+
+#: ../userguides/hd_housing_model.rst 9f50f9dc6160494a973f422af7568d36
+msgid "Dense housing blocks split into individual houses"
+msgstr "Кварталы плотной застройки, разделённые на отдельные дома"
+
+#: ../userguides/hd_housing_model.rst:10 424996b426d54e88912bd5c8447004be
+msgid "Example result: dense blocks split into houses (Tunisia)."
+msgstr "Пример результата: плотные кварталы, разделённые на дома (Тунис)."
+
+#: ../userguides/hd_housing_model.rst:10 175cc14a67764aed98af1a42b3bce2a4
+msgid "Cost"
+msgstr "Стоимость"
+
+#: ../userguides/hd_housing_model.rst:10 c23e19f17bf640478f47b36dbf3d7ffb
+msgid "Priced per project"
+msgstr "Цена рассчитывается для проекта"
+
+#: ../userguides/hd_housing_model.rst:10 597dee1f317f486680a2dcf45f9e59bb
+msgid "Request access and we connect the model to your account."
+msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
+
+#: ../userguides/hd_housing_model.rst:10 7191a767a7434a49b35358e89497cc3d
 msgid ""
-"The “high-density housing” AI model is designed for areas with terraced or "
-"otherwise densely built buildings, common in the Middle East, parts of "
-"Africa, etc. This model, just like the regular building model, detects the "
-"building roofs. Firstly, the building blocks are segmented as a whole, and "
-"then each block is attempted to be devided into individual houses based on "
-"the detection of individual roof markers with rectangular grid or Voronoi "
-"diagram."
+"Segments dense building blocks as a whole, then divides each block into "
+"individual houses from roof markers, using a grid or Voronoi split. Built "
+"for terraced and densely built areas common in the Middle East and parts of "
+"Africa."
 msgstr ""
-"Модель искусственного интеллекта «высокая плотность застройки» предназначена"
-" для территорий с террасами или иным образом плотно построенными зданиями, "
-"распространенными на Ближнем Востоке, в некоторых частях Африки и т. д. Эта "
-"модель, как и обычная модель здания, обнаруживает крыши зданий. Сначала "
-"строительные блоки сегментируются целиком, а затем каждый блок пытается "
-"разделить на отдельные дома на основе обнаружения отдельных маркеров крыши с"
-" помощью прямоугольной сетки или диаграммы Вороного."
+"Сегментирует плотные кварталы целиком, затем делит каждый квартал на "
+"отдельные дома по маркерам крыш с помощью сетки или диаграммы Вороного. "
+"Создана для блокированной и плотной застройки, типичной для Ближнего Востока"
+" и некоторых районов Африки."
 
-#: ../userguides/hd_housing_model.rst:10 9b9d96f2103646aeae9d3f43b9d33ff2
+#: ../userguides/hd_housing_model.rst:10 59e4b56822a943208184a8f6f7629f06
+msgid "What you get"
+msgstr "Что вы получите"
+
+#: ../userguides/hd_housing_model.rst:10 d9660fd47fd445ac86f752f1fe426c91
+msgid "Individual house polygons within dense blocks."
+msgstr "Полигоны отдельных домов внутри плотных кварталов."
+
+#: ../userguides/hd_housing_model.rst:10 744e3e071b104256b6235d42fe398c45
+msgid "Works best with"
+msgstr "Лучше всего работает с"
+
+#: ../userguides/hd_housing_model.rst:10 f807dd6ffeac411ab53a3289cab2b93e
+msgid "High-resolution imagery of terraced or densely built areas."
+msgstr ""
+"Снимки высокого разрешения районов блокированной или плотной застройки."
+
+#: ../userguides/hd_housing_model.rst:10 63bcc448ed394605a3ffdd09bc32927d
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: ../userguides/hd_housing_model.rst:10 9bbc57f041b24f0cb25af1f4d0a61be2
+msgid "Count dwellings in dense urban areas"
+msgstr "Подсчитать жилища в плотной городской застройке"
+
+#: ../userguides/hd_housing_model.rst:10 3d62223b14714752b21a076bb7d38051
+msgid "Support census and address mapping"
+msgstr "Поддержать перепись и адресное картографирование"
+
+#: ../userguides/hd_housing_model.rst:10 6eece004bd0a475e96ef0fd9069f4984
+msgid "Plan services in informal settlements"
+msgstr "Планировать услуги в неформальных поселениях"
+
+#: ../userguides/hd_housing_model.rst:10 8fe1f1766ea34652a99a4e14686bed7d
+msgid "`Request access <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/hd_housing_model.rst:10 24bc64e069024c73ae4c01c1c81aa81a
+msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
+msgstr ""
+":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
+
+#: ../userguides/hd_housing_model.rst 75a0567471ff4a6d85bb5fdb992f6dba
+msgid "Geo domain"
+msgstr "Географический охват"
+
+#: ../userguides/hd_housing_model.rst:10 692376868be544ba806918a88217316b
+msgid "Middle East, Africa"
+msgstr "Ближний Восток, Африка"
+
+#: ../userguides/hd_housing_model.rst eacceee509d74facaf95a106c17307a3
+msgid "Method"
+msgstr "Метод"
+
+#: ../userguides/hd_housing_model.rst:10 9300a51bf510462b86778c832ce24383
+msgid "Instance segmentation + block split"
+msgstr "Сегментация экземпляров + разделение кварталов"
+
+#: ../userguides/hd_housing_model.rst:12 378ab28571e5445cb05d0282553813a8
+msgid "This model is no longer a default model. It is available on request."
+msgstr ""
+"Эта модель больше не входит в число моделей по умолчанию. Она доступна по "
+"запросу."
+
+#: ../userguides/hd_housing_model.rst:15 d69d2ee2cc6c4e06a9cf7b7bc8ea861a
+msgid "How it works"
+msgstr "Как это работает"
+
+#: ../userguides/hd_housing_model.rst:17 ed21d0f4c57346fab1e1169c542b559b
 msgid ""
-"Processing result sample for dense urban development area (Tunisia, Africa):"
+"Like the regular Buildings model, this model detects building roofs. It "
+"first segments building blocks as a whole, then tries to split each block "
+"into individual houses from roof markers, with a rectangular grid or a "
+"Voronoi diagram."
 msgstr ""
-"Пример результата обработки для территории с плотной городской застройкой "
-"(Тунис, Африка):"
+"Как и обычная модель «Здания», эта модель находит крыши зданий. Сначала она "
+"сегментирует кварталы целиком, а затем пытается разделить каждый квартал на "
+"отдельные дома по маркерам крыш с помощью прямоугольной сетки или диаграммы "
+"Вороного."
 
-#: ../userguides/hd_housing_model.rst:18 6d6e843631384a6cb869f069a5740eae
-msgid "Processing result of high-density housing model"
-msgstr "Результат обработки модели застройки высокой плотности"
+#: ../userguides/hd_housing_model.rst:22 b116d9b78f984e5897e05cb3b06ede0b
+msgid "Sample results"
+msgstr "Примеры результатов"
 
-#: ../userguides/hd_housing_model.rst:18 9b836d1247a846caa18e51b86de87546
+#: ../userguides/hd_housing_model.rst 6d6e843631384a6cb869f069a5740eae
+msgid "High-density housing result in Tunisia"
+msgstr "Результат модели плотной застройки в Тунисе"
+
+#: ../userguides/hd_housing_model.rst:30 9b836d1247a846caa18e51b86de87546
 msgid ""
-"High-density buildings model, instance segmentation and post-processing with"
-" grid options"
+"Dense urban development (Tunisia): instance segmentation and grid post-"
+"processing"
 msgstr ""
-"Модель зданий высокой плотности, сегментация экземпляров и постобработка с "
-"опциями сетки"
+"Плотная городская застройка (Тунис): сегментация экземпляров и постобработка"
+" сеткой"
+
+#: ../userguides/hd_housing_model.rst:33 43a6087485d947ed9ffb1755742ba341
+msgid "Need a different object?"
+msgstr "Нужен другой объект?"
+
+#: ../userguides/hd_housing_model.rst:33 39c09d25edf0487e9d860e0e2c2b6ce5
+msgid ""
+"We train custom models on your imagery and classes, and connect them to your"
+" Mapflow account."
+msgstr ""
+"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
+"их к вашему аккаунту Mapflow."
+
+#: ../userguides/hd_housing_model.rst:33 e64ee47267a74c67a744322fd751bd8f
+msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
+msgstr ""
+"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+
+#: ../userguides/hd_housing_model.rst:33 70e8393e2574440590a65df6ea9ed88d
+msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
+msgstr ""
+"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+
+#: ../userguides/hd_housing_model.rst:33 72d7f673a2c8405dac81cc5d65464e4f
+msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
+msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid ""
 #~ "Firstly, the building blocks are segmented as a whole, and then each block "
@@ -115,10 +236,40 @@ msgstr ""
 #~ "options"
 #~ msgstr ""
 
-#: ../userguides/hd_housing_model.rst:2
-msgid "Detect building roofs in terraced and densely built areas typical of the Middle East and Africa. Available as a custom Mapflow model on request."
-msgstr "Распознавание крыш зданий в плотной и террасной застройке, характерной для Ближнего Востока и Африки. Доступно как кастомная модель по запросу."
+#~ msgid ""
+#~ "The “high-density housing” AI model is designed for areas with terraced or "
+#~ "otherwise densely built buildings, common in the Middle East, parts of "
+#~ "Africa, etc. This model, just like the regular building model, detects the "
+#~ "building roofs. Firstly, the building blocks are segmented as a whole, and "
+#~ "then each block is attempted to be devided into individual houses based on "
+#~ "the detection of individual roof markers with rectangular grid or Voronoi "
+#~ "diagram."
+#~ msgstr ""
+#~ "Модель искусственного интеллекта «высокая плотность застройки» предназначена"
+#~ " для территорий с террасами или иным образом плотно построенными зданиями, "
+#~ "распространенными на Ближнем Востоке, в некоторых частях Африки и т. д. Эта "
+#~ "модель, как и обычная модель здания, обнаруживает крыши зданий. Сначала "
+#~ "строительные блоки сегментируются целиком, а затем каждый блок пытается "
+#~ "разделить на отдельные дома на основе обнаружения отдельных маркеров крыши с"
+#~ " помощью прямоугольной сетки или диаграммы Вороного."
 
-#: ../userguides/hd_housing_model.rst
-msgid "Looking to run this in production? See the `model catalog and deployment options <https://mapflow.ai/models>`_, or `request a custom model <https://mapflow.ai/custom-models>`_."
-msgstr "Хотите использовать модель в production? Смотрите `каталог моделей и варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#~ msgid ""
+#~ "Processing result sample for dense urban development area (Tunisia, Africa):"
+#~ msgstr ""
+#~ "Пример результата обработки для территории с плотной городской застройкой "
+#~ "(Тунис, Африка):"
+
+#~ msgid "Processing result of high-density housing model"
+#~ msgstr "Результат обработки модели застройки высокой плотности"
+
+#~ msgid ""
+#~ "Looking to run this in production? See the `model catalog and deployment "
+#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
+#~ "<https://mapflow.ai/custom-models>`_."
+#~ msgstr ""
+#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
+#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
+#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid ":mf-chip:`cityscape|Buildings` :mf-warn:`On request`"
+#~ msgstr ""

@@ -186,7 +186,8 @@ msgid ""
 msgstr ""
 "**Web 应用程序：** 在 **我的图像** 页面上，用户创建马赛克，将 GeoTIFF 上传到其中，然后等待图像状态变为“就绪”。然后，他们单击 "
 "**“在新处理中使用”** 按钮，选择一个项目（或使用 **“+ 新项目”** 创建一个项目），并绘制或上传 AOI（或单击 "
-"**“使用图像范围”**）。用户点击**“保存”**继续设置AI模型参数并开始处理。请参阅:ref:`我的图像主要` 了解完整的工作流程。"
+"**“使用图像范围”**）。用户点击\\ **“保存”**\\ 继续设置AI模型参数并开始处理。请参阅\\ :ref:`My imagery main`"
+" 了解完整的工作流程。"
 
 #: ../userguides/imagery_agent_instructions.rst:80
 #: 5d1f9d8b7e7f49f0a86c51543a00cb27
@@ -195,7 +196,8 @@ msgid ""
 " the mosaic/image IDs in ``sourceParams.myImagery`` when creating a "
 "processing."
 msgstr ""
-"**API（数据API）：** 创建马赛克→上传图像到马赛克→创建处理时引用``sourceParams.myImagery``中的马赛克/图像ID。"
+"**API（数据API）：** 创建马赛克→上传图像到马赛克→创建处理时引用\\ ``sourceParams.myImagery``\\ "
+"中的马赛克/图像ID。"
 
 #: ../userguides/imagery_agent_instructions.rst:92
 #: b1d0980114d74087b3930ddf347f3f30
@@ -208,7 +210,7 @@ msgstr "**QGIS 插件：** 使用“我的图像”选项卡创建集合并上�
 #: 36b7741ff4a4443181bdba6a9053cdd4
 msgid ""
 "Once upload is complete, proceed directly to **Section 6 (Processing)**."
-msgstr "上传完成后，直接进入**第 6 节（处理）**。"
+msgstr "上传完成后，直接进入\\ **第 6 节（处理）**。"
 
 #: ../userguides/imagery_agent_instructions.rst:96
 #: 9437f5a80e9648c484734020f0caa092
@@ -325,12 +327,12 @@ msgstr "根据任务和位置建议最合适的底图提供商。"
 #: ../userguides/imagery_agent_instructions.rst:150
 #: b2b6771db87d4966b275ac45b4e550f2
 msgid "Set the ``sourceParams`` accordingly:"
-msgstr "相应地设置“sourceParams”："
+msgstr "相应地设置“``sourceParams``”："
 
 #: ../userguides/imagery_agent_instructions.rst:163
 #: 3a95e3370ae246d69bf598df2ba687b3
 msgid "Proceed to **Section 6 (Processing)**."
-msgstr "继续**第 6 节（处理）**。"
+msgstr "继续\\ **第 6 节（处理）**。"
 
 #: ../userguides/imagery_agent_instructions.rst:166
 #: 37b057a0ded04d41830560a056969321
@@ -395,7 +397,7 @@ msgstr "**日期范围**"
 #: ../userguides/imagery_agent_instructions.rst:186
 #: 50f6a34042514545abab37d28c9fa282
 msgid "``acquisitionDateFrom`` and ``acquisitionDateTo`` in ISO 8601 format."
-msgstr "ISO 8601 格式的``acquisitionDateFrom`` 和``acquisitionDateTo``。"
+msgstr "ISO 8601 格式的\\ ``acquisitionDateFrom`` 和\\ ``acquisitionDateTo``。"
 
 #: ../userguides/imagery_agent_instructions.rst:187
 #: 8c98875688fa4380bae89205aea01ed3
@@ -452,7 +454,7 @@ msgstr "**解决**"
 msgid ""
 "``maxResolution`` in m/px. Should match the AI model requirements (see "
 "Section 6)."
-msgstr "“最大分辨率”，单位为米/像素。应符合 AI 模型要求（参见第 6 节）。"
+msgstr "``maxResolution``，单位为米/像素。应符合 AI 模型要求（参见第 6 节）。"
 
 #: ../userguides/imagery_agent_instructions.rst:199
 #: 5f42ce13820b43128b2da6d089b6e9a7
@@ -462,7 +464,7 @@ msgstr "**产品类型**"
 #: ../userguides/imagery_agent_instructions.rst:201
 #: 6187f1a6fbe5401e8fae0494665a6158
 msgid "``IMAGE`` (single capture) or ``MOSAIC`` (pre-composed layer)."
-msgstr "“IMAGE”（单次捕捉）或“MOSAIC”（预合成层）。"
+msgstr "“``IMAGE``”（单次捕捉）或“``MOSAIC``”（预合成层）。"
 
 #: ../userguides/imagery_agent_instructions.rst:203
 #: e7e2f681583e4d1b937791d2149b7847
@@ -499,15 +501,15 @@ msgid ""
 " to the user for processing. Image availability means that "
 "``imagejson.providerName in /user/status.searchDataProviders[]``."
 msgstr ""
-"默认情况下，将对平台上现有的所有提供商执行搜索。因此，搜索结果可能包含用户无法处理的图像。图像可用性意味着“/user/status.searchDataProviders[]"
-" 中的 imagejson.providerName”。"
+"默认情况下，会在平台上所有现有提供商中执行搜索。因此，搜索结果可能包含用户无法用于处理的影像。影像可用性指 "
+"``imagejson.providerName in /user/status.searchDataProviders[]``。"
 
 #: ../userguides/imagery_agent_instructions.rst:229
 #: 39fac08118eb4316b8fa5288ba673fc1
 msgid ""
 "``\"hideUnavailable\": true`` filter can be provided to ensure that the "
 "results include only images available for processing."
-msgstr "可以提供``“hideUnavailable”：true``过滤器以确保结果仅包含可用于处理的图像。"
+msgstr "可以提供\\ ``“hideUnavailable”：true``\\ 过滤器以确保结果仅包含可用于处理的图像。"
 
 #: ../userguides/imagery_agent_instructions.rst:231
 #: 06feba12472a4526b8621c64953102e9
@@ -767,7 +769,7 @@ msgstr "19-20日"
 msgid ""
 "If the imagery resolution is outside the required range, **warn the user** "
 "that results may be degraded."
-msgstr "如果图像分辨率超出所需范围，**警告用户**结果可能会降低。"
+msgstr "如果图像分辨率超出所需范围，**警告用户**\\ 结果可能会降低。"
 
 #: ../userguides/imagery_agent_instructions.rst:337
 #: 3d153872a3de4ceda57e048197d280e1

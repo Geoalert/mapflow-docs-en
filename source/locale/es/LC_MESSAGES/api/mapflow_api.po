@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../api/mapflow_api.rst:4 ddf104945a5945559b7f7c96d509b35f
 msgid "Mapflow API"
-msgstr "API de flujo de mapas"
+msgstr "API de Mapflow"
 
 #: ../api/mapflow_api.rst:12 65d612feadbc4d1e9df0fabdc7b07319
 msgid ""
@@ -108,7 +108,7 @@ msgstr "Vista previa del mapa"
 
 #: ../api/processing_api.rst:4 03398d44ae754d3cb2dce4db981a7750
 msgid "Mapflow Processing API"
-msgstr "API de procesamiento de flujo de mapas"
+msgstr "API de procesamiento de Mapflow"
 
 #: ../api/processing_api.rst:6 6ab351c9bd384dc486a7aeeefe631578
 msgid ""
@@ -192,13 +192,13 @@ msgid ""
 " :ref:`custom imagery <upload-images>`, or review the :ref:`complete API "
 "reference <api-reference>`."
 msgstr ""
-"**Próximos pasos:** Explore :ref:`modelos disponibles <Requisitos del "
-"modelo>`, cargue :ref:`imágenes personalizadas <upload-images>` o revise la "
+"**Próximos pasos:** Explore :ref:`modelos disponibles <Model requirements>`,"
+" cargue :ref:`imágenes personalizadas <upload-images>` o revise la "
 ":ref:`referencia completa de API <api-reference>`."
 
 #: ../api/data_api.rst:4 95a02487808a411db1ec460a442693de
 msgid "Mapflow Data API"
-msgstr "API de datos de flujo de mapas"
+msgstr "API de datos de Mapflow"
 
 #: ../api/data_api.rst:6 fde5209ce1bc42a5b33d718fa56cbca8
 msgid ""
@@ -256,9 +256,9 @@ msgid ""
 "manage :ref:`storage limits <storage-management>`, or review the "
 ":ref:`complete API reference <api-reference>`."
 msgstr ""
-"**Próximos pasos:** Explore :ref:`búsqueda de imágenes satelitales <búsqueda"
-" de imágenes>`, administre :ref:`límites de almacenamiento <storage-"
-"management>` o revise la :ref:`referencia API completa <api-reference>`."
+"**Próximos pasos:** Explore :ref:`búsqueda de imágenes satelitales <imagery-"
+"search>`, administre :ref:`límites de almacenamiento <storage-management>` o"
+" revise la :ref:`referencia API completa <api-reference>`."
 
 #: ../api/data_api.rst:87 27620dfcc4264eac913f0896fc7e07e2
 msgid ""
