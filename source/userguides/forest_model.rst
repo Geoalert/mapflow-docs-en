@@ -91,10 +91,10 @@ Sample results
 Benchmarks
 ----------
 
-**Forest and trees v.2026-07-03** (Global, segmentation) was evaluated on 8 areas of interest
+**Forest and trees v.2026-09-10** (Global, segmentation) was evaluated on 8 areas of interest
 against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union
 of the predicted and ground-truth vegetation masks, and F1, precision and recall are computed
-on the overlapping mask area.
+on the overlapping mask area. The **v.2026-09-10** update refines tree-crown extraction results.
 
 .. list-table::
    :widths: 32 14 12 14 14 14
@@ -161,12 +161,12 @@ on the overlapping mask area.
      - 0.837
      - 0.868
 
-*Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; evaluation run 2026-07-03.
+*Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; segmentation evaluation run 2026-07-03 (unchanged in v.2026-09-10).
 Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*
 
 .. seealso::
 
-    📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the
+    📊 See :doc:`per-location segmentation benchmark details (v.2026-09-10) <forest_benchmark_2026-07-03>` for the
     area-by-area breakdown, the comparison with the previous version and prediction-vs-ground-truth overlays.
 
 
@@ -295,7 +295,21 @@ focus for the next iteration.*
 
 .. seealso::
 
-    📊 See :doc:`per-location crown benchmark details <forest_crown_benchmark_2026-09-10>` for the
+    📊 See :doc:`per-location tree-crown benchmark details (v.2026-09-10) <forest_crown_benchmark_2026-09-10>` for the
     area-by-area breakdown, the comparison with v.2026-07-03 and prediction-vs-ground-truth overlays.
+
+
+Benchmarks - canopy height (CHM)
+--------------------------------
+
+The **Height estimation** output (Canopy Height Model, CHM) is benchmarked against lidar-derived
+ground truth on 5 m hexagons (max aggregation). The current model **CHM v.2026-08-31** reduces the
+mean absolute height error from **4.70 m to 3.24 m** (**−31%**) versus **CHM v.2026-07-03** across 38
+areas of interest, with the largest gains in tall, structurally complex forest.
+
+.. seealso::
+
+    📊 See :doc:`canopy-height (CHM) benchmark details (v.2026-08-31) <forest_chm_benchmark_2026-08-31>` for
+    the most-improved sample per country, with lidar ground truth and prediction-vs-lidar error maps.
 
 .. mf-cta::

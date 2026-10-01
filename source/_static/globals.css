@@ -156,3 +156,66 @@ img.logo {
 .language-selector-bottom select option {
   color: #002245;
 }
+
+/* ============================================================
+   Prominent "See also" call-outs (benchmark links, cross-refs)
+   ============================================================ */
+.rst-content .admonition.seealso {
+  position: relative;
+  background: linear-gradient(135deg, #f5f2ff 0%, #eaf2ff 100%);
+  border: 1px solid #cdd6f5;
+  border-left: 6px solid #7c3aed;
+  border-radius: 10px;
+  padding: 16px 20px 16px 18px;
+  margin: 24px 0;
+  box-shadow: 0 2px 12px rgba(99, 70, 230, 0.10);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.rst-content .admonition.seealso:hover {
+  box-shadow: 0 8px 24px rgba(99, 70, 230, 0.20);
+  transform: translateY(-2px);
+}
+
+.rst-content .admonition.seealso > .admonition-title {
+  background: transparent;
+  color: #6d28d9;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0 0 6px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* replace the default theme icon with a glowing accent dot */
+.rst-content .admonition.seealso > .admonition-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7c3aed;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.18);
+  font: inherit;
+}
+
+.rst-content .admonition.seealso > p:not(.admonition-title) {
+  font-size: 14.5px;
+  color: #334155;
+  margin: 0;
+}
+
+.rst-content .admonition.seealso a {
+  font-weight: 700;
+  color: #6d28d9;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(109, 40, 217, 0.35);
+}
+
+.rst-content .admonition.seealso a:hover {
+  border-bottom-color: #6d28d9;
+}

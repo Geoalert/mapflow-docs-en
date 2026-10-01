@@ -5,17 +5,17 @@
 .. role:: raw-html(raw)
    :format: html
 
-🌲 Forest and trees v.2026-07-03 — per-location benchmark
+🌲 Forest and trees v.2026-09-10 — per-location benchmark
 ================================================================
 
-This page details the validation of the **🌲 Forest and trees v.2026-07-03** segmentation model
+This page details the validation of the **🌲 Forest and trees v.2026-09-10** segmentation model
 on 8 areas of interest (AOI), compared against the **previous version v.2025-06-14**. For each AOI the two prediction masks are shown side by
 side; click any image to open it full size, and use the ← / → arrow keys to browse
 between them.
 
 All metrics are area-based: **IoU** is the intersection-over-union of the predicted and
 ground-truth vegetation masks, and **F1 / Precision / Recall** are computed on the
-overlapping mask area. Evaluation run: 2026-07-03.
+overlapping mask area. The segmentation output is unchanged from v.2026-07-03 (the v.2026-09-10 update refines crown extraction), so these per-location figures carry over. Segmentation evaluation run: 2026-07-03.
 
 .. raw:: html
 
@@ -56,7 +56,7 @@ overlapping mask area. Evaluation run: 2026-07-03.
    })();
    </script>
 
-**Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **v.2025-06-14**
+**Mask colour legend:** :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**  ·  :raw-html:`<span class="mchip" style="background:#2878ff"></span>` **v.2025-06-14**
 
 
 Philippines — Balanga
@@ -71,7 +71,7 @@ Philippines — Balanga
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.806**
      - **0.892**
      - 0.864
@@ -85,7 +85,7 @@ Philippines — Balanga
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Balanga_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Balanga_new.jpg" data-cap="v.2026-07-03 — Philippines — Balanga" alt="v.2026-07-03 — Philippines — Balanga" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Balanga_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Balanga_new.jpg" data-cap="v.2026-09-10 — Philippines — Balanga" alt="v.2026-09-10 — Philippines — Balanga" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Balanga_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Balanga_old.jpg" data-cap="v.2025-06-14 — Philippines — Balanga" alt="v.2025-06-14 — Philippines — Balanga" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -102,7 +102,7 @@ Spain — Velilla de San Antonio
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.784**
      - **0.879**
      - 0.894
@@ -116,7 +116,7 @@ Spain — Velilla de San Antonio
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Velilla_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Velilla_new.jpg" data-cap="v.2026-07-03 — Spain — Velilla de San Antonio" alt="v.2026-07-03 — Spain — Velilla de San Antonio" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Velilla_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Velilla_new.jpg" data-cap="v.2026-09-10 — Spain — Velilla de San Antonio" alt="v.2026-09-10 — Spain — Velilla de San Antonio" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Velilla_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Velilla_old.jpg" data-cap="v.2025-06-14 — Spain — Velilla de San Antonio" alt="v.2025-06-14 — Spain — Velilla de San Antonio" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -133,7 +133,7 @@ Spain — Madrid
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.813**
      - **0.897**
      - 0.880
@@ -147,7 +147,7 @@ Spain — Madrid
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Madrid_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Madrid_new.jpg" data-cap="v.2026-07-03 — Spain — Madrid" alt="v.2026-07-03 — Spain — Madrid" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Madrid_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Madrid_new.jpg" data-cap="v.2026-09-10 — Spain — Madrid" alt="v.2026-09-10 — Spain — Madrid" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Madrid_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Madrid_old.jpg" data-cap="v.2025-06-14 — Spain — Madrid" alt="v.2025-06-14 — Spain — Madrid" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -164,7 +164,7 @@ Italy — Crotone
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.862**
      - **0.926**
      - 0.944
@@ -178,7 +178,7 @@ Italy — Crotone
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Crotone_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Crotone_new.jpg" data-cap="v.2026-07-03 — Italy — Crotone" alt="v.2026-07-03 — Italy — Crotone" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Crotone_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Crotone_new.jpg" data-cap="v.2026-09-10 — Italy — Crotone" alt="v.2026-09-10 — Italy — Crotone" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Crotone_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Crotone_old.jpg" data-cap="v.2025-06-14 — Italy — Crotone" alt="v.2025-06-14 — Italy — Crotone" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -195,7 +195,7 @@ Spain — Rus
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.617**
      - **0.763**
      - 0.699
@@ -209,7 +209,7 @@ Spain — Rus
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Rus_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Rus_new.jpg" data-cap="v.2026-07-03 — Spain — Rus" alt="v.2026-07-03 — Spain — Rus" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Rus_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Rus_new.jpg" data-cap="v.2026-09-10 — Spain — Rus" alt="v.2026-09-10 — Spain — Rus" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Rus_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Rus_old.jpg" data-cap="v.2025-06-14 — Spain — Rus" alt="v.2025-06-14 — Spain — Rus" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -226,7 +226,7 @@ Spain — Cuenca
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.763**
      - **0.865**
      - 0.859
@@ -240,7 +240,7 @@ Spain — Cuenca
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Cuenca_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Cuenca_new.jpg" data-cap="v.2026-07-03 — Spain — Cuenca" alt="v.2026-07-03 — Spain — Cuenca" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Cuenca_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Cuenca_new.jpg" data-cap="v.2026-09-10 — Spain — Cuenca" alt="v.2026-09-10 — Spain — Cuenca" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Cuenca_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Cuenca_old.jpg" data-cap="v.2025-06-14 — Spain — Cuenca" alt="v.2025-06-14 — Spain — Cuenca" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -257,7 +257,7 @@ Argentina — La Banda
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.576**
      - **0.731**
      - 0.653
@@ -271,7 +271,7 @@ Argentina — La Banda
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-cap="v.2026-07-03 — Argentina — La Banda" alt="v.2026-07-03 — Argentina — La Banda" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/LaBanda_new.jpg" data-cap="v.2026-09-10 — Argentina — La Banda" alt="v.2026-09-10 — Argentina — La Banda" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/LaBanda_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/LaBanda_old.jpg" data-cap="v.2025-06-14 — Argentina — La Banda" alt="v.2025-06-14 — Argentina — La Banda" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -288,7 +288,7 @@ Uzbekistan — Tashkent
      - F1
      - Precision
      - Recall
-   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-07-03**
+   * - :raw-html:`<span class="mchip" style="background:#ff5028"></span>` **v.2026-09-10**
      - **0.730**
      - **0.844**
      - 0.905
@@ -302,7 +302,7 @@ Uzbekistan — Tashkent
 .. raw:: html
 
    <div class="bench-row">
-     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-cap="v.2026-07-03 — Uzbekistan — Tashkent" alt="v.2026-07-03 — Uzbekistan — Tashkent" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-07-03</figcaption></figure>
+     <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Tashkent_new.jpg" data-cap="v.2026-09-10 — Uzbekistan — Tashkent" alt="v.2026-09-10 — Uzbekistan — Tashkent" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#ff5028"></span>v.2026-09-10</figcaption></figure>
      <figure class="bench-fig"><img class="bench-img" src="../_static/benchmarks/forest_2026-07-03/Tashkent_old.jpg" data-full="../_static/benchmarks/forest_2026-07-03/Tashkent_old.jpg" data-cap="v.2025-06-14 — Uzbekistan — Tashkent" alt="v.2025-06-14 — Uzbekistan — Tashkent" loading="lazy"><figcaption class="bench-cap"><span class="mchip" style="background:#2878ff"></span>v.2025-06-14</figcaption></figure>
    </div>
 
@@ -310,10 +310,10 @@ Uzbekistan — Tashkent
 Summary
 -------
 
-**v.2026-07-03** improves substantially over the previous **v.2025-06-14** across all 8 AOIs. Mean
+**v.2026-09-10** improves substantially over the previous **v.2025-06-14** across all 8 AOIs. Mean
 area-based **F1 rises from 0.513 to 0.850** and **IoU from 0.396 to 0.744**, driven by a
 large recall gain (0.407 → **0.868**). The previous version was highly conservative —
 mean precision 0.955, but it missed most vegetation and collapsed on several AOIs
-(e.g. Velilla de San Antonio F1 0.015, Rus F1 0.108, La Banda F1 0.378). v.2026-07-03 keeps
+(e.g. Velilla de San Antonio F1 0.015, Rus F1 0.108, La Banda F1 0.378). v.2026-09-10 keeps
 precision high (0.837) while recovering the missed canopy, and leads on F1 in every
 location.
