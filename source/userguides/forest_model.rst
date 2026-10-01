@@ -91,10 +91,10 @@ Sample results
 Benchmarks
 ----------
 
-**Forest and trees v.2026-07-03** (Global, segmentation) was evaluated on 8 areas of interest
+**Forest and trees v.2026-09-10** (Global, segmentation) was evaluated on 8 areas of interest
 against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union
 of the predicted and ground-truth vegetation masks, and F1, precision and recall are computed
-on the overlapping mask area.
+on the overlapping mask area. The **v.2026-09-10** update refines tree-crown extraction results.
 
 .. list-table::
    :widths: 32 14 12 14 14 14
@@ -161,12 +161,155 @@ on the overlapping mask area.
      - 0.837
      - 0.868
 
-*Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; evaluation run 2026-07-03.
+*Area-based IoU / F1 / Precision / Recall measured against ground-truth vegetation masks; segmentation evaluation run 2026-07-03 (unchanged in v.2026-09-10).
 Compared with the previous version v.2025-06-14 (mean F1 0.513, IoU 0.396).*
 
 .. seealso::
 
-    📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` for the
+    📊 See :doc:`per-location segmentation benchmark details (v.2026-09-10) <forest_benchmark_2026-07-03>` for the
     area-by-area breakdown, the comparison with the previous version and prediction-vs-ground-truth overlays.
+
+
+Benchmarks - tree crowns
+----------------------------
+
+Latest update — **🌲 Forest and trees v.2026-09-10** (tree crown polygons).
+The crown-polygon output was evaluated on 7 areas of interest (AOI) against manually
+annotated ground truth. Metrics are area-based on the crown masks: IoU is the
+intersection-over-union of the predicted and ground-truth crown masks, and
+F1 / Precision / Recall are computed on the overlapping mask area.
+
+.. list-table::
+   :widths: 32 14 12 14 14 14
+   :header-rows: 1
+
+   * - AOI (location)
+     - Predicted crowns
+     - IoU
+     - F1
+     - Precision
+     - Recall
+   * - Italy — Crotone
+     - 254
+     - 0.842
+     - **0.914**
+     - 0.930
+     - 0.898
+   * - Spain — Madrid
+     - 398
+     - 0.823
+     - **0.903**
+     - 0.907
+     - 0.899
+   * - Philippines — Balanga
+     - 309
+     - 0.780
+     - **0.876**
+     - 0.849
+     - 0.904
+   * - Spain — Cuenca
+     - 433
+     - 0.732
+     - **0.846**
+     - 0.875
+     - 0.818
+   * - Spain — Velilla de San Antonio
+     - 1134
+     - 0.694
+     - **0.819**
+     - 0.855
+     - 0.786
+   * - Spain — Rus
+     - 239
+     - 0.689
+     - **0.816**
+     - 0.759
+     - 0.883
+   * - Argentina — La Banda
+     - 111
+     - 0.624
+     - **0.769**
+     - 0.700
+     - 0.852
+   * - **Global (mean of 7 AOIs)**
+     - 2878
+     - 0.741
+     - **0.849**
+     - 0.839
+     - 0.863
+
+*Area-based IoU / F1 / Precision / Recall measured on tree-crown polygon masks; evaluation run 2026-10-01.
+Compared with the previous version v.2026-07-03 (mean F1 0.824, IoU 0.706).*
+
+**Tree count accuracy.** For tree-counting use cases we also track how closely the number
+of detected crown polygons matches the ground-truth crown count. Relative count error is
+``|detected − ground truth| / ground truth``.
+
+.. list-table::
+   :widths: 32 14 22 22
+   :header-rows: 1
+
+   * - AOI (location)
+     - GT crowns
+     - v.2026-09-10 detected (count err)
+     - v.2026-07-03 detected (count err)
+   * - Italy — Crotone
+     - 327
+     - 254 (22.3%)
+     - 254 (22.3%)
+   * - Spain — Madrid
+     - 478
+     - 398 (**16.7%**)
+     - 368 (23.0%)
+   * - Philippines — Balanga
+     - 193
+     - 309 (60.1%)
+     - 220 (**14.0%**)
+   * - Spain — Cuenca
+     - 321
+     - 433 (34.9%)
+     - 409 (**27.4%**)
+   * - Spain — Velilla de San Antonio
+     - 1212
+     - 1134 (**6.4%**)
+     - 1070 (11.7%)
+   * - Spain — Rus
+     - 258
+     - 239 (7.4%)
+     - 249 (**3.5%**)
+   * - Argentina — La Banda
+     - 125
+     - 111 (**11.2%**)
+     - 83 (33.6%)
+   * - **Mean count error (7 AOIs)**
+     -
+     - 22.7%
+     - **19.4%**
+
+*Ground-truth crown counts from the updated report (2026-10-01). v.2026-09-10 is substantially closer
+to the true count where the previous model under-detected (La Banda, Madrid, Velilla de San Antonio),
+but it over-segments dense canopy at Balanga and Cuenca — producing more crowns than ground truth — so
+its mean relative count error (22.7%) is slightly above v.2026-07-03 (19.4%). Mask-overlap accuracy
+(IoU / F1) still favours v.2026-09-10 in those areas. Reducing over-segmentation in dense canopy is the
+focus for the next iteration.*
+
+.. seealso::
+
+    📊 See :doc:`per-location tree-crown benchmark details (v.2026-09-10) <forest_crown_benchmark_2026-09-10>` for the
+    area-by-area breakdown, the comparison with v.2026-07-03 and prediction-vs-ground-truth overlays.
+
+
+Benchmarks - canopy height (CHM)
+--------------------------------
+
+The **Height estimation** output (Canopy Height Model, CHM) is benchmarked against lidar-derived
+ground truth on 5 m hexagons (max aggregation). The current model **CHM v.2026-08-31** reduces the
+mean absolute height error from **4.70 m to 3.24 m** (**−31%**) versus **CHM v.2026-07-03** across 38
+areas of interest, with the largest gains in tall, structurally complex forest.
+
+.. seealso::
+
+    📊 See :doc:`canopy-height (CHM) benchmark details (v.2026-08-31) <forest_chm_benchmark_2026-08-31>` for
+    the most-improved sample per country, with lidar ground truth and prediction-vs-lidar error maps.
 
 .. mf-cta::
