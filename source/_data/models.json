@@ -29,10 +29,12 @@
   "categories": [
     {"id": "buildings",  "label": "Buildings",            "icon": "buildings"},
     {"id": "vegetation", "label": "Trees and vegetation", "icon": "forest"},
-    {"id": "roads",      "label": "Roads",  "icon": "road"},
+    {"id": "roads",      "label": "Roads",                "icon": "road"},
+    {"id": "basemaps",   "label": "Basemaps",             "icon": "road"},
     {"id": "imagery",    "label": "Your imagery",         "icon": "image"},
     {"id": "other",      "label": "Other objects",        "icon": "sam"},
-    {"id": "agriculture", "label": "Crop fields",         "icon": "agro"}
+    {"id": "agriculture", "label": "Crop fields",         "icon": "agro"},
+    {"id": "real-estate", "label": "Real estate",         "icon": "buildings"}
   ],
 
   "models": [
@@ -118,7 +120,7 @@
       "id": "multi",
       "name": "Buildings + Roads + Forest",
       "platform_name": "[multi] Buildings + Roads + Forest",
-      "category": "roads",
+      "category": "basemaps",
       "availability": "default",
       "icon": "cityscape",
       "doc": "userguides/combo_model",
@@ -144,7 +146,7 @@
       "id": "open-data",
       "name": "Open data",
       "platform_name": "Download Open Data",
-      "category": "roads",
+      "category": "basemaps",
       "availability": "no-ai",
       "icon": null,
       "doc": "userguides/open-data",
@@ -170,7 +172,7 @@
     {
       "id": "constructions",
       "name": "Constructions",
-      "category": "buildings",
+      "category": "other",
       "availability": "custom",
       "icon": "crane",
       "doc": "userguides/construction_model",
@@ -245,7 +247,7 @@
     {
       "id": "solar-panels",
       "name": "Solar panels",
-      "category": "buildings",
+      "category": "other",
       "availability": "custom",
       "icon": null,
       "doc": "userguides/solars_model",
@@ -270,7 +272,7 @@
     {
       "id": "swimming-pools",
       "name": "Swimming pools",
-      "category": "buildings",
+      "category": "real-estate",
       "availability": "custom",
       "icon": null,
       "doc": "userguides/swimming_pools_model",
