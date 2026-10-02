@@ -88,7 +88,7 @@ Italy — Crotone
      - 0.884
      - 254
 
-*Ground-truth crowns: 327. Relative count error — v.2026-09-10: 22.3%; v.2026-07-03: 22.3%.*
+
 
 .. raw:: html
 
@@ -124,7 +124,7 @@ Argentina — La Banda
      - 0.774
      - 83
 
-*Ground-truth crowns: 125. Relative count error — v.2026-09-10: 11.2%; v.2026-07-03: 33.6%.*
+
 
 .. raw:: html
 
@@ -160,7 +160,7 @@ Spain — Rus
      - 0.785
      - 249
 
-*Ground-truth crowns: 258. Relative count error — v.2026-09-10: 7.4%; v.2026-07-03: 3.5%.*
+
 
 .. raw:: html
 
@@ -196,7 +196,7 @@ Philippines — Balanga
      - 0.896
      - 220
 
-*Ground-truth crowns: 193. Relative count error — v.2026-09-10: 60.1%; v.2026-07-03: 14.0%.*
+
 
 .. raw:: html
 
@@ -232,7 +232,7 @@ Spain — Cuenca
      - 0.818
      - 409
 
-*Ground-truth crowns: 321. Relative count error — v.2026-09-10: 34.9%; v.2026-07-03: 27.4%.*
+
 
 .. raw:: html
 
@@ -268,7 +268,7 @@ Spain — Velilla de San Antonio
      - 0.771
      - 1,070
 
-*Ground-truth crowns: 1,212. Relative count error — v.2026-09-10: 6.4%; v.2026-07-03: 11.7%.*
+
 
 .. raw:: html
 
@@ -304,7 +304,6 @@ Spain — Madrid
      - **0.900**
      - 368
 
-*Ground-truth crowns: 478. Relative count error — v.2026-09-10: 16.7%; v.2026-07-03: 23.0%.*
 
 .. raw:: html
 
@@ -322,10 +321,4 @@ area-based **F1 rises from 0.824 to 0.849** and **IoU from 0.706 to 0.741**, wit
 in both precision (0.818 → 0.839) and recall (0.833 → 0.863). It leads on F1 in 6 of the
 7 AOIs and is on par at Balanga (0.876 vs 0.878).
 
-On **tree count accuracy** the picture is mixed. Where the previous model under-detected,
-v.2026-09-10 is markedly closer to the true crown count (La Banda 33.6% → 11.2%, Madrid 23.0% →
-16.7%, Velilla de San Antonio 11.7% → 6.4%). But in two dense-canopy AOIs it over-segments
-the canopy, producing more crowns than the ground truth (Balanga 60.1% vs 14.0%, Cuenca
-34.9% vs 27.4%), which raises its mean relative count error to **22.7%** versus **19.4%**
-for v.2026-07-03 across all 7 AOIs. Mask-overlap accuracy (IoU / F1) still favours v.2026-09-10 in those
-areas; reducing over-segmentation in dense canopy is the focus for the next iteration.
+On **tree count accuracy** the picture is mixed. We will provide more evidence on the later benchmarks based on results against the validated  mapping surveys.

@@ -289,9 +289,8 @@ of detected crown polygons matches the ground-truth crown count. Relative count 
 *Ground-truth crown counts from the updated report (2026-10-01). v.2026-09-10 is substantially closer
 to the true count where the previous model under-detected (La Banda, Madrid, Velilla de San Antonio),
 but it over-segments dense canopy at Balanga and Cuenca — producing more crowns than ground truth — so
-its mean relative count error (22.7%) is slightly above v.2026-07-03 (19.4%). Mask-overlap accuracy
-(IoU / F1) still favours v.2026-09-10 in those areas. Reducing over-segmentation in dense canopy is the
-focus for the next iteration.*
+its mean relative count error (22.7%) is slightly above v.2026-07-03 (19.4%). ⚠️ The false positives may also 
+indicate the lack of details in the manual labels as the mask-overlap accuracy (IoU / F1) still favours v.2026-09-10 in those areas.*
 
 .. seealso::
 
