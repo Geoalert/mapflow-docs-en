@@ -71,17 +71,12 @@ To filter by the custom parameters like user email or processing name - start ty
 .. note::
     You can export billing history as CSV.
 
-4. Team
-^^^^^^^^^^^^^
-Create and manage your :ref:`Team accounts`.
-
-
-5. My Imagery
+4. My Imagery
 ^^^^^^^^^^^^^^^^^^^^^
 
 Manage your :ref:`imagery collections <My imagery main>` that you can currently use in the :ref:`Mapflow QGIS plugin <My imagery qgis>`.
 
-6. API
+5. API
 ^^^^^^^^^^^
 Obtain or reset your :ref:`Mapflow API` token.
 

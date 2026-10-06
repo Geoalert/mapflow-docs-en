@@ -1,76 +1,93 @@
-
 .. _Team accounts:
 
 Team accounts
 ==============
 
-Users can switch to a Team account to invite collaborators, share projects and manage team balance.
+A Team lets you work together with your coworkers: invite them, share projects and spend credits from one shared balance.
 
-Once the Team is created, the creator (Team Admin) can invite new members and assign their balance. The Team profile is accessible to all Team members, but only the Team Admin can manage it (assign balance, update, or delete the Team).
+Open **Team** in the main menu on the left (sidebar).
 
 .. note::
-   We highly encourage you to switch to the Team account if you are looking forward to working with other coworkers and managing multiple projects. Feel free to contact our support, so we can assist you in setting up a Team workflow.
+   We highly encourage you to use a Team if you work with other coworkers and manage multiple projects. Feel free to contact our support, so we can assist you in setting up a Team workflow.
 
 
-Create a new Team
-------------------
+How it works
+-------------
 
-To create a new Team enter the name and start inviting new members by their email.
+There are two roles in a Team:
 
-.. image:: _static/team/create_team.jpg
-   :alt: create a team
+* **Admin** – invites users and manages the Team balance. The Admin's balance is the Team's balance.
+* **User** – joins the Team by invitation and spends the Team's credits.
+
+
+Invite team members
+--------------------
+
+1. Enter the user's email in **Invite team members**.
+2. Click **Send invite**. The user receives the invitation by email.
+3. Until the user accepts it, they are shown in the members list as **Pending invitation**.
+
+.. image:: _static/team/team_invite.jpg
+   :alt: Invite team members
    :align: center
-   :width: 15cm
-|
-
-
-Inviting new team members
----------------------------
-
-Switch to the tab **Invitations**. Enter user email associated with his Mapflow account.
-If user is not registered at Mapflow, he will get an invitation by email and will be able to join the Team following the registration.
-
-.. image:: _static/team/team_invitations.jpg
-   :alt: Invite users to team
-   :align: center
-   :width: 15cm
+   :width: 16cm
    :class: with-border no-scaled-link
+
 |
 
 .. note::
-   As a Team admin, you will see all the invitations sent and may revoke them. As a Team member, you will see only your invitations to the Team. 
+   If the user is not registered at Mapflow yet, they can join the Team after signing up.
 
 
-Managing Team balance
--------------------------
+Join a Team
+------------
 
-As soon as one creates a Team, his credit balance becomes the Team balance and is available for assignment to Team members, including the Team Admin himself.
-This means the Admin has to distribute the team balance among all members, including himself.
+1. The invited user sees the invitation at the top of the **Team** page.
+2. Click **Accept** to join the Team, or **Decline** to reject the invitation.
 
-.. image:: _static/team/team_balance.png
-      :alt: create a team
-      :align: center
-      :width: 18cm
-
-
-.. centered::
-   1. Team balance
-   2. Personal balance
-   3. Team member's Balance (remaining)
-
-The Admin directly controls each member's **Balance** - the remaining amount available for the member to spend.
-
-When assigning balance, keep in mind that when a team is created, its balance is entirely allocated to the Owner's balance. Therefore, you must first reduce the Owner's balance to free up "Unallocated credits" before you can assign balance to other team members. See below for how this works in practice:
-
-.. image:: _static/team/team_limits_update.gif
-   :alt: team balance
+.. image:: _static/team/team_join.jpg
+   :alt: Accept the invitation to the Team
    :align: center
-   :width: 19cm
+   :width: 16cm
+   :class: with-border no-scaled-link
 
 |
 
+After joining the Team:
+
+* You spend the Team's credits.
+* Your personal balance stays untouched.
+* You can't create your own Team as long as you stay in this one.
+
+
+Manage Team balance
+--------------------
+
+The Admin manages the balance of the whole Team:
+
+* **Add credits** (**+**) – move credits from the Admin's balance to a user.
+* **Withdraw credits** (**-**) – take credits back from a user to the Admin's balance.
+
+.. image:: _static/team/team_credits.jpg
+   :alt: Add or withdraw member's credits
+   :align: center
+   :width: 16cm
+   :class: with-border no-scaled-link
+
+|
+
+At the top of the page you can see:
+
+* **Credits left** – credits remaining in the Team. Click **+** to top up the Team balance.
+* **Credits used** – credits spent by the Team.
+* **Members** – number of Team members.
+
+The members list shows each member's role, credits **Used** and credits **Left**.
+
+Both your Team balance and personal balance are displayed in the header.
+
 .. note::
-   If your Team account is switched to area-based billing, the only difference is that the balance is assigned in sq. km.
+   If your Team account is switched to area-based billing, the only difference is that the balance is managed in sq. km.
 
 
 Project sharing in the Team
