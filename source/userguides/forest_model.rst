@@ -88,8 +88,8 @@ Sample results
 
 .. _forest_benchmarks:
 
-Benchmarks
-----------
+📊 Benchmarks
+-------------
 
 **Forest and trees v.2026-09-10** (Global, segmentation) was evaluated on 8 areas of interest
 against manually annotated ground truth. Metrics are area-based: IoU is the intersection-over-union

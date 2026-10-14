@@ -69,8 +69,8 @@ Height estimation (beta)
 
 .. _buildings_benchmarks:
 
-Benchmarks
-----------
+📊 Benchmarks
+--------------
 
 **Buildings v.2026-07-06** (Global, segmentation, 0.3 m / z19) was evaluated against manually
 annotated ground truth. Metrics are area-based: IoU is the intersection-over-union of the predicted
