@@ -409,6 +409,26 @@ E.g. "[multi] Buildings + Roads + Forest" model results with different layers:
      :class: with-border
 
 
+.. _AOI navigation:
+
+6.4 Navigate through the AOIs
+""""""""""""""""""""""""""""""
+
+While you're viewing the processing results ("View on the map"), the processing card lists all the AOIs of the processing with their names and areas. From there you can:
+
+* **iterate through the list of AOIs** – use the ``<`` ``>`` arrows under the table (e.g. *1 of 10*) to move from one area to the next; the map zooms to the selected AOI. To jump to a specific area, use **"Zoom to AOI"** in its menu;
+* **edit AOI names** – open the AOI menu (``...``) and select **"Rename AOI"**;
+* **download each area's geometry and results** – select **"Export AOI geometry"** or **"Export AOI results"** in the same menu.
+
+This is especially useful when you processed many AOIs in a single run.
+
+.. figure:: _static/processing_result/aoi_actions.gif
+     :alt: Navigate through the AOIs, rename and export them
+     :align: center
+     :width: 18cm
+     :class: with-border
+|
+
 
 6.5 Rate the processing
 """"""""""""""""""""""""
