@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,191 +17,191 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/combo_model.rst:1
-#: 5aa9f1b3a7d14c1383967012beac6d3e
+#: cd113a0c8ec24e53848e22180aa011b2
 msgid "Run Buildings, Roads and Forest detection in a single Mapflow workflow and get one topology-corrected GeoJSON output."
 msgstr ""
 
 #: ../userguides/combo_model.rst:7
-#: 4985226c50c94eb897da9e2a8f528161
+#: 5afedb14f1e6430e99dcbd1aea88e9ed
 msgid "Buildings + Roads + Forest"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: d5c37daa72d14ffbb92d02e412a6cd2e
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
+#: 8bb522a2f92048c0b8c06696e3cb818d
+msgid ":mf-chip:`road|Basemaps` :mf-badge:`Default model`"
 msgstr ""
 
 #: ../userguides/combo_model.rst:0
-#: 4e8a2594a8e04cbba036545f58b1fd50
+#: 91fcd0eb785843b89e611b5df332477f
 msgid "Buildings, roads and forest layers over a dense urban area"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 39bdb717d22441a9b5fa762bec10ebd7
+#: 3c784fcfb7da45f29328850a47c565f9
 msgid "Example result: buildings, roads and forest from one run."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 2df26b0f9ce14887a1928a155da592de
+#: 9d866b45043f4d52b0afc19f0dac35ce
 msgid "Cost"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 4b45226e04f44da3b2c5c3ac15ac05a2
+#: 21cc204e070b4ad19fd848ab3ca5b551
 msgid "23 credits per km² + imagery"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 97fcb6615bc243b8b1e4d58e7330c436
+#: ba4bbf865b2e4ef2a48561dba88e75eb
 msgid "Example: 10 km² on Mapbox zoom 19 ≈ 320 credits."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 8902cbd857b34a08b37e74fa3a1ed4ea
+#: 28d499a1b74a41d8a5b46d7e3f5aa666
 msgid "Runs the Buildings, Roads and Forest models as one workflow and returns a single topology-corrected result, so the layers do not overlap. It costs less than running the three models one by one."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: c6e4f6e43cc6467c83599729b4a7e054
+#: 1d50dd0e9294464fbb0f5cceb6faeadd
 msgid "What you get"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: f182b9708b1b46a1a395846f2fd0c461
+#: 9b6f6318646445749c166d15c3f21da3
 msgid "Buildings, roads and forest from one run, as separate styled layers."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: f19f2d31dfea46bdb5524d23572c1b4b
+#: cd25ccfaf975456fb0d2556c43dc5baf
 msgid "Works best with"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: b02052ccf5684432b4a7a64ef60f3bfb
+#: 5c28ec339e37495ea78d407dbd570c9f
 msgid "0.6–0.3 m imagery (zoom 19)."
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: e40de6d3b1014ec29da10dd9233e2fc1
+#: 1cebe33cc85347cea1bfdc59fd0dd9f3
 msgid "Usage examples"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 39159de326d0423bb2e4da0e919a69e1
+#: 28714a18c7304bc397121d701df87f12
 msgid "Start a base map where no vector data exists"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: d949f5326bc944ad9b27bedd2560404e
+#: 77ab8d0290ef490687bdae704f2df844
 msgid "Get a land-use overview before a site visit"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: f475a53f654549a8a23438090c2cb1c3
+#: 929d88df69a94444be92490acf8919bf
 msgid "Create a reference layer for disaster response"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: e0cd835c9c9a47cd8dcdb1b2e182b5a8
+#: 85867a948c954e1f949342f1683db2d5
 msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 73d5d8bef68343bbaadfe311c69cdb1b
+#: c2e8391456734af5b3d34565f0c93bf0
 msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: ebfd0044869646d98775c5c34a5672e6
+#: aacf173e105d4f3685c4dab31ca468d6
 msgid ":doc:`Pricing </userguides/prices>`"
 msgstr ""
 
 #: ../userguides/combo_model.rst:0
-#: 2669d214fe32499f97172de412d8e531
+#: 2a13d446be3b4f42b66a7e5abdda29fc
 msgid "Method"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: 92fa7f2f22f34df5bf8a7a90c3b45528
+#: f2602ee2c69043948ed7b490bbdc549e
 msgid "Buildings, Roads and Forest + topology correction"
 msgstr ""
 
 #: ../userguides/combo_model.rst:0
-#: f369b8765c254e1484aad6db7f88beec
+#: 72e1ae7243ca4ac09d3de0dd70c87a2d
 msgid "GSD / zoom"
 msgstr ""
 
 #: ../userguides/combo_model.rst:10
-#: a321875b7add4f7a8331d506fedf0d12
+#: ceb6ceb40f244bd0b6a4290a80b7fe35
 msgid "0.6–0.3 m / z19"
 msgstr ""
 
 #: ../userguides/combo_model.rst:12
-#: 3f32b3f6a8934495a6db695cdaab6b83
+#: 75dc3f7ae8854c018feecef126ba0996
 msgid "Options"
 msgstr ""
 
 #: ../userguides/combo_model.rst:14
-#: 048ad47b715e4020885f83544f258790
+#: 7ff3f935892141d18b2d47c59574dde0
 msgid "The combined workflow takes the options of its models. See :doc:`pricing <prices>` for option costs."
 msgstr ""
 
 #: ../userguides/combo_model.rst:19
-#: 1db3c420d81142bdb21383053378a69b
+#: b11ec51aa7bf4c9581ad7ac8c7d1b41b
 msgid "Building types, Merge with OpenStreetMap, Building height estimation"
 msgstr ""
 
 #: ../userguides/combo_model.rst:19
-#: 3ac3de428e8648d1a2280cf570c07456
+#: 7023bee9b1b241a293118c8d9154a20f
 msgid "The same options as the :doc:`Buildings model <buildings_model>`. They apply to the building layer only."
 msgstr ""
 
 #: ../userguides/combo_model.rst:22
-#: a36c1bd4bf2a410d95dec7234ef29355
+#: 87074d767609475c9456e17f1e321113
 msgid "Forest height classes, Tree crowns"
 msgstr ""
 
 #: ../userguides/combo_model.rst:22
-#: 6d912c27d7484e6a944369868ce54279
+#: 17c1bd092b194bc2a53964c3d52eee1d
 msgid "The same options as the :doc:`Forest and trees model <forest_model>`."
 msgstr ""
 
 #: ../userguides/combo_model.rst:25
-#: 318923d098a84d2bbdf9f2a911349b4c
+#: 17def08b49a8412fad965ef233865c0e
 msgid "Sample results"
 msgstr ""
 
 #: ../userguides/combo_model.rst:0
-#: 3ba4ad1797fd4e26a492eb9e3025a969
+#: c2de06b04c3e417ea55c424a5aab19bc
 msgid "Combined Buildings, Roads and Forest result"
 msgstr ""
 
 #: ../userguides/combo_model.rst:33
-#: cebdd5ca915243649ca43bdf6e4913e9
+#: 909f0183c67a4f80b57fea0966171657
 msgid "Buildings, roads and forest from one run"
 msgstr ""
 
 #: ../userguides/combo_model.rst:36
-#: c95ce5ac8301429b9ea3eacaf3ffbb2e
+#: 0728ad5839764d37999416df4a13acc7
 msgid "Need a different object?"
 msgstr ""
 
 #: ../userguides/combo_model.rst:36
-#: a060f2f042fb4cc8b1b7943433915c9a
+#: a9ec2e69ccf44e27930384d63ea56237
 msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
 msgstr ""
 
 #: ../userguides/combo_model.rst:36
-#: ba859d3e26c241c29b2429940232eda4
+#: 5af17412fa1148428d5bdee278085e43
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
 #: ../userguides/combo_model.rst:36
-#: fd68272783fb41ccbc394f9d1f8212c3
+#: 37bfc2ddb64c48d29dd80b66405a12b8
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
 #: ../userguides/combo_model.rst:36
-#: f65a2b846e584df1a539914da0443285
+#: d6740b8da17e490aa5dc88228429b261
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

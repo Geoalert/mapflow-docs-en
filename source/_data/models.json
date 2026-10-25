@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-09-28",
-  "about": "Single source for Mapflow AI models and scenarios. Read by the docs (source/_ext/mapflow_catalog.py), published with every docs build at /models.json for the website, Mapflow Web and the QGIS plugin. Prices must match awesome-configs/configs/default.",
+  "about": "Single source for Mapflow AI models and scenarios. Read by the docs (source/_ext/mapflow_catalog.py), published with every docs build at /models.json for the website, Mapflow Web and the QGIS plugin. Prices, platform names and imagery requirements must match awesome-configs/configs/production.",
 
   "links": {
     "web_app": "https://app.mapflow.ai",
@@ -55,7 +55,7 @@
       "best_with": "Aerial or satellite imagery at 0.6–0.3 m per pixel (zoom 18).",
       "zoom": "18",
       "specs": {"version": "2026-07-06", "geo_domain": "Global", "method": "Segmentation", "resolution": "0.6–0.3 m / z18"},
-      "requirements": {"config": "default/🏠 Buildings", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 1.2]}},
+      "requirements": {"config": "production/default/🏠 Buildings", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 1.2]}},
       "price": {"per_km2": 10, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}, "note": "Your own imagery costs nothing."},
       "uses": [
         "Refresh a municipal building layer before a field survey",
@@ -81,7 +81,7 @@
       "best_with": "0.6–0.15 m imagery (zoom 18–20) taken in the growing season. Leafless or snow-covered trees are not detected.",
       "zoom": "18–20",
       "specs": {"version": "2026-07-03", "geo_domain": "Global", "method": "Segmentation", "resolution": "0.6–0.15 m / z18–20"},
-      "requirements": {"config": "default/🌲 Forest and trees", "recommended": {"zoom": [18, 20], "gsd": [0.15, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.05, 2.0]}},
+      "requirements": {"config": "production/default/🌲 Forest and trees", "recommended": {"zoom": [18, 20], "gsd": [0.15, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.05, 2.0]}},
       "price": {"per_km2": 8, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
       "uses": [
         "Measure canopy cover per district or parcel",
@@ -107,7 +107,7 @@
       "best_with": "Rural and suburban areas with 0.6–0.3 m imagery (zoom 18). Dense city centres with wide sidewalks and complex crossings are harder.",
       "zoom": "18",
       "specs": {"version": "1.1", "geo_domain": "Global, best in rural and suburban areas", "method": "Segmentation + graph post-processing", "resolution": "0.6–0.3 m / z18"},
-      "requirements": {"config": "default/🚗 Roads", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 1.2]}},
+      "requirements": {"config": "production/default/🚗 Roads", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 1.2]}},
       "price": {"per_km2": 5, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
       "uses": [
         "Map access roads and tracks for rural planning",
@@ -133,7 +133,7 @@
       "best_with": "0.6–0.3 m imagery (zoom 19).",
       "zoom": "19",
       "specs": {"method": "Buildings, Roads and Forest + topology correction", "resolution": "0.6–0.3 m / z19"},
-      "requirements": {"config": "default/[multi] Buildings + Roads + Forest", "recommended": {"zoom": [19, 19], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 18, "gsd": [0.07, 0.75]}},
+      "requirements": {"config": "production/default/[multi] Buildings + Roads + Forest", "recommended": {"zoom": [19, 19], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 18, "gsd": [0.07, 0.75]}},
       "price": {"per_km2": 23, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
       "uses": [
         "Start a base map where no vector data exists",
@@ -159,7 +159,7 @@
       "best_with": "Any area. Quality depends on how complete open data is there, and it may not line up exactly with the imagery.",
       "zoom": null,
       "specs": {"method": "No AI model: OpenStreetMap + Overture Maps"},
-      "requirements": {"config": "default/Download Open Data", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 14, "gsd": [0.1, 1.5]}},
+      "requirements": {"config": "production/default/Download Open Data", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 14, "gsd": [0.1, 1.5]}},
       "price": {"per_km2": null, "label": "Shown before you run", "note": "No AI model is used. You still pick imagery as a visual reference."},
       "uses": [
         "Check OSM completeness before paying for AI mapping",
@@ -185,7 +185,7 @@
       "best_with": "0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas.",
       "zoom": "18",
       "specs": {"method": "Segmentation", "geo_domain": "Selected countries", "resolution": "0.6–0.3 m / z18"},
-      "requirements": {"config": "customer/vridhi home finance/[custom] Construction sites (VHF)", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 2.0]}},
+      "requirements": {"config": "production/customer/vridhi home finance/[custom] Construction sites (VHF)", "recommended": {"zoom": [18, 18], "gsd": [0.3, 0.6]}, "required": {"min_zoom": 17, "gsd": [0.07, 2.0]}},
       "price": {"per_km2": null},
       "uses": [
         "Track new development for permits and taxes",
@@ -235,7 +235,7 @@
       "best_with": "Aerial imagery at 10–5 cm (zoom 20–21) of low-rise areas.",
       "zoom": "20–21",
       "specs": {"method": "Instance segmentation", "geo_domain": "Low-rise, rural", "resolution": "0.1–0.05 m / z20–21", "score": "F1 > 0.82"},
-      "requirements": {"config": "customer/fabio@gaussgeo.com.br/aero_v1", "recommended": {"zoom": [20, 21], "gsd": [0.05, 0.1]}, "required": {"min_zoom": 20, "gsd": [0.02, 0.4]}},
+      "requirements": {"config": "production/customer/fabio@gaussgeo.com.br/aero_v1", "recommended": {"zoom": [20, 21], "gsd": [0.05, 0.1]}, "required": {"min_zoom": 20, "gsd": [0.02, 0.4]}},
       "price": {"per_km2": null},
       "uses": [
         "Map sheds and outbuildings on a drone survey",
@@ -399,7 +399,7 @@
       "output": "Vegetation polygons with a height class.",
       "best_with": "0.6–0.3 m imagery (zoom 18–19) taken in the growing season.",
       "zoom": "18–19",
-      "requirements": {"config": "default/🌲 Forest and trees", "recommended": {"zoom": [18, 19], "gsd": [0.3, 0.6]}, "note": "From the workflow description; the workflow requirements apply."},
+      "requirements": {"config": "production/default/🌲 Forest and trees", "recommended": {"zoom": [18, 19], "gsd": [0.3, 0.6]}, "note": "From the workflow description; the workflow requirements apply."},
       "price": {"option_per_km2": 10, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 18}},
       "uses": [
         "Prioritise clearance work in power line corridors",
@@ -421,7 +421,7 @@
       "output": "Tree crown points with a radius, or crown polygons.",
       "best_with": "0.3 m imagery (zoom 19) to separate individual trees.",
       "zoom": "19",
-      "requirements": {"config": "default/🌲 Forest and trees", "recommended": {"zoom": [19, 19], "gsd": [0.3, 0.3]}, "note": "From the CrownsPolygons/CrownsPoints block description; the workflow requirements apply."},
+      "requirements": {"config": "production/default/🌲 Forest and trees", "recommended": {"zoom": [19, 19], "gsd": [0.3, 0.3]}, "note": "From the CrownsPolygons/CrownsPoints block description; the workflow requirements apply."},
       "price": {"option_per_km2": 5, "example": {"area_km2": 10, "imagery": "Mapbox", "zoom": 19}},
       "uses": [
         "Street-tree and park inventories",

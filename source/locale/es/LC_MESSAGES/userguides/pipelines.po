@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/pipelines.rst:1 157d305413e64fb680f8171a04632d60
+#: ../userguides/pipelines.rst:1 0eb83319df8f4b2ca2ee2cb97167471b
 msgid ""
 "Mapflow AI-mapping models for buildings, forest, roads and more: what each "
 "model returns, the imagery it needs and what it costs."
@@ -27,11 +27,11 @@ msgstr ""
 "Modelos de mapeo con IA de Mapflow para edificios, bosques, carreteras y "
 "más: qué devuelve cada modelo, qué imágenes necesita y cuánto cuesta."
 
-#: ../userguides/pipelines.rst:9 209bb75c382247eea2b3ed81848f8f75
+#: ../userguides/pipelines.rst:9 97eaba75bf5b414b9cd3d3c33083be26
 msgid "AI-Mapping Models ✨"
 msgstr "Modelos de mapeo con IA ✨"
 
-#: ../userguides/pipelines.rst:13 3ca9bbeee8e44eaca2fa9ec66f7a605d
+#: ../userguides/pipelines.rst:13 f3949c86d0c24f03909b07dba4a35d1c
 msgid ""
 "Mapflow models find buildings, trees, roads and other objects in satellite, "
 "aerial and drone imagery, and return them as editable vector layers. Open a "
@@ -42,169 +42,172 @@ msgstr ""
 "capas vectoriales editables. Abra un modelo para ver qué devuelve, qué "
 "imágenes necesita y cuánto cuesta."
 
-#: ../userguides/pipelines.rst:19 58c7d16c7a8b4e1b9ff5249371e085cc
+#: ../userguides/pipelines.rst:19 f8233bc4f329420e91fa59299acd6f16
 msgid ":ref:`Data requirements <Model_requirements>`"
 msgstr ":ref:`Requisitos de datos <Model_requirements>`"
 
-#: ../userguides/pipelines.rst:20 2bf080c10ae049f4a9dc2260874fc0ae
+#: ../userguides/pipelines.rst:20 4cd5b722c82340eab85ba66aee7dec21
 msgid ":doc:`Pricing <prices>`"
 msgstr ":doc:`Precios <prices>`"
 
-#: ../userguides/pipelines.rst:21 35c3837bdfb649238a676addab2adc54
+#: ../userguides/pipelines.rst:21 4800a3750f0b4f50bd7dd49c19173f68
 msgid "`Request a custom model <https://mapflow.ai/contacts>`__"
 msgstr "`Solicitar un modelo personalizado <https://mapflow.ai/contacts>`__"
 
-#: ../userguides/pipelines.rst:23 7750f4edd9ea489e9e75a8885a27099b
+#: ../userguides/pipelines.rst:23 d9cfadf5dd91400ab860ecde5aec1b06
 msgid "Popular tasks"
 msgstr "Tareas populares"
 
-#: ../userguides/pipelines.rst:26 69b2df71bf21478e8d666846df8782ab
+#: ../userguides/pipelines.rst:26 d3302e185aee4f8fad51a35380ec947a
 msgid ":doc:`Map every building </userguides/buildings_model>`"
 msgstr ":doc:`Mapear todos los edificios </userguides/buildings_model>`"
 
-#: ../userguides/pipelines.rst:26 4e78ce137f104b4bb06609fd559f7913
+#: ../userguides/pipelines.rst:26 8d7a35a3b69c4ee18c2d3c4d87ef5bdc
 msgid ":doc:`Map forest and tree cover </userguides/forest_model>`"
 msgstr ":doc:`Mapear bosques y cobertura arbórea </userguides/forest_model>`"
 
-#: ../userguides/pipelines.rst:26 8748a6a540504480ac44f68c0483ccf6
+#: ../userguides/pipelines.rst:26 a9176b53db9a4ba6ac7efbf42b0dd38b
 msgid ""
 ":ref:`Vegetation height along power lines <scenario-vegetation-height>`"
 msgstr ""
 ":ref:`Altura de la vegetación a lo largo de líneas eléctricas <scenario-"
 "vegetation-height>`"
 
-#: ../userguides/pipelines.rst:26 d258bcc694f24096902027a2af8316b4
+#: ../userguides/pipelines.rst:26 c0cbd145752643ffb800ffd85ac295a7
 msgid ":ref:`Count individual trees <scenario-tree-crowns>`"
 msgstr ":ref:`Contar árboles individuales <scenario-tree-crowns>`"
 
-#: ../userguides/pipelines.rst:26 8876bd6b9b344e43938a01bf938aff02
+#: ../userguides/pipelines.rst:26 df6bfc31e0f14c27931b9c43c366d483
 msgid ":doc:`Extract the road network </userguides/roads_model>`"
 msgstr ":doc:`Extraer la red de carreteras </userguides/roads_model>`"
 
-#: ../userguides/pipelines.rst:26 f1bde89ae5d74c71b7344dc3632a69c9
+#: ../userguides/pipelines.rst:26 fec4abbcf65646bda62cb559d526d3e7
 msgid ":doc:`Base map in one run </userguides/combo_model>`"
 msgstr ":doc:`Mapa base en una sola ejecución </userguides/combo_model>`"
 
-#: ../userguides/pipelines.rst:27 209bb75c382247eea2b3ed81848f8f75
+#: ../userguides/pipelines.rst:27 a3dcaa266b614147a8794ed627d35f48
 msgid "Default models"
 msgstr "Modelos predeterminados"
 
-#: ../userguides/pipelines.rst:29 7c767eb343e24bdb835b78cd637596df
+#: ../userguides/pipelines.rst:29 ef9cd8461a484cf5b59d5ef35589228f
 msgid ""
 "Available to every account in Mapflow Web, the QGIS plugin and the API."
 msgstr ""
 "Disponibles para todas las cuentas en Mapflow Web, el complemento de QGIS y "
 "la API."
 
-#: ../userguides/pipelines.rst:32 1738c523d29a457cab0507aa17bc422e
+#: ../userguides/pipelines.rst:32 ab6c2dfe549647749df2654dab310a61
 msgid "Building roof polygons over a suburban area"
 msgstr "Polígonos de techos de edificios en una zona suburbana"
 
-#: ../userguides/pipelines.rst:32 8f2869779336479b9358a8bf0585d1cb
-msgid "Buildings"
-msgstr "Edificios"
+#: ../userguides/pipelines.rst:32 4ba080488469475a8f4b941170164ce4
+msgid "🏠 Buildings"
+msgstr "🏠 Buildings"
 
-#: ../userguides/pipelines.rst:32 31d3e4e83e4648f589ee166a87199399
+#: ../userguides/pipelines.rst:32 b1cc68ceb4f24b2ebf6798c66d893e4b
 msgid ":mf-chip:`buildings|Buildings`"
 msgstr ":mf-chip:`buildings|Edificios`"
 
-#: ../userguides/pipelines.rst:32 b31a981302e946bf87077823423b5f8d
+#: ../userguides/pipelines.rst:32 5e59b9ae2af44aaba16d0f70945f358b
 msgid "Roof outline of every building in your area, as editable polygons."
 msgstr ""
 "El contorno del techo de cada edificio de su área, como polígonos editables."
 
-#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
+#: ../userguides/pipelines.rst:32 bc52312df53243f8a9e8bda750693700
 msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ":mf-icon:`credits` 10 cr/km² + imágenes · zoom 18"
 
-#: ../userguides/pipelines.rst:32 207608bb5acc4a70a2c9a898e61277ab
+#: ../userguides/pipelines.rst:32 e5e44474008a4a90ac7ca7036a17aea3
 msgid "Tree and shrub cover mask over a residential area"
 msgstr "Máscara de cobertura de árboles y arbustos en una zona residencial"
 
-#: ../userguides/pipelines.rst:32 e4dfb81c967b467b92a7ef9f01d0854f
-msgid "Forest and trees"
-msgstr "Bosques y árboles"
+#: ../userguides/pipelines.rst:32 8a414d148d7145e9aaf53047779f866f
+msgid "🌲 Forest and trees"
+msgstr "🌲 Forest and trees"
 
-#: ../userguides/pipelines.rst:32 107f77229293425698c7e877147ecbb9
+#: ../userguides/pipelines.rst:32 975d29ec31f0482da225c72b759a8e34
 msgid ":mf-chip:`forest|Trees and vegetation`"
 msgstr ":mf-chip:`forest|Árboles y vegetación`"
 
-#: ../userguides/pipelines.rst:32 ee1e178868414c8dab751febad32f873
+#: ../userguides/pipelines.rst:32 6a062a7752cb40f4be63c94ea05be94b
 msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr ""
 "Toda la cobertura de árboles y arbustos, incluso pequeños grupos e hileras "
 "de árboles."
 
-#: ../userguides/pipelines.rst:32 9114b40b7c6c402a99d321bc7c6a2940
+#: ../userguides/pipelines.rst:32 c2f8d48b14524f05a241c4fdc044dd32
 msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ":mf-icon:`credits` 8 cr/km² + imágenes · zoom 18–20"
 
-#: ../userguides/pipelines.rst:32 959d1044f78441588efa798945bd9fd1
+#: ../userguides/pipelines.rst:32 3b36d7d70ace424ebfabd6f666e5cb85
 msgid "Road network polygons over a suburban area"
 msgstr "Polígonos de la red de carreteras en una zona suburbana"
 
-#: ../userguides/pipelines.rst:32 40daa56bee7141c2a510b4df4b283b9e
-msgid "Roads"
-msgstr "Carreteras"
+#: ../userguides/pipelines.rst:32 2eb0f10a34604589a2d507220e426990
+msgid "🚗 Roads"
+msgstr "🚗 Roads"
 
-#: ../userguides/pipelines.rst:32 09dd33887ab547fda39f361cd74c6ddd
-#: 228ea0e5e0cd412e88c600759b8fed17
-msgid ":mf-chip:`road|Roads and base maps`"
-msgstr ":mf-chip:`road|Carreteras y mapas base`"
+#: ../userguides/pipelines.rst:32 8d1c4765a147490a84b0ee030bcc4aa6
+msgid ":mf-chip:`road|Roads`"
+msgstr ":mf-chip:`road|Carreteras`"
 
-#: ../userguides/pipelines.rst:32 5a5fb1ebb9624b9e8713ddee934cece0
+#: ../userguides/pipelines.rst:32 31b144500a524af18c506999230062d0
 msgid "A connected road network with gaps merged and short stubs removed."
 msgstr ""
 "Una red de carreteras conectada, con los huecos unidos y los tramos cortos "
 "eliminados."
 
-#: ../userguides/pipelines.rst:32 85eaa0ce7b0c43f2a1cac39c03f91869
+#: ../userguides/pipelines.rst:32 de5a2cf6449a409999c825074c6352e8
 msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18"
 msgstr ":mf-icon:`credits` 5 cr/km² + imágenes · zoom 18"
 
-#: ../userguides/pipelines.rst:32 5086f21c1b2e43d9910d6e59976bceca
+#: ../userguides/pipelines.rst:32 745ca2e937044d81bdf258feb3c764ae
 msgid "Buildings, roads and forest layers over a dense urban area"
 msgstr "Capas de edificios, carreteras y bosques en una zona urbana densa"
 
-#: ../userguides/pipelines.rst:32 383b1c85932c4ac4b056ae0a095c1605
-msgid "Buildings + Roads + Forest"
-msgstr "Edificios + Carreteras + Bosques"
+#: ../userguides/pipelines.rst:32 132046849108438daa06dacbda5d1ad2
+msgid "[multi] Buildings + Roads + Forest"
+msgstr "[multi] Buildings + Roads + Forest"
 
-#: ../userguides/pipelines.rst:32 ab774faf67e440f099e46a1b9ef373b6
+#: ../userguides/pipelines.rst:32 89106b2728bc45208761b0037c5dbd58
+msgid ":mf-chip:`road|Basemaps`"
+msgstr ":mf-chip:`road|Mapas base`"
+
+#: ../userguides/pipelines.rst:32 0ed51624b9af440ba012919e16b30b58
 msgid "Buildings, roads and forest together, with topology corrected."
 msgstr "Edificios, carreteras y bosques juntos, con la topología corregida."
 
-#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
+#: ../userguides/pipelines.rst:32 d56fce42c4d2403282ab4d55cbd19cfb
 msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 19"
 msgstr ":mf-icon:`credits` 23 cr/km² + imágenes · zoom 19"
 
-#: ../userguides/pipelines.rst:32 be4fe34ba5f343bab2a3c72de4ee7ac5
+#: ../userguides/pipelines.rst:32 88af5159d9f24dc39419b812e22130db
 msgid "OpenStreetMap buildings and roads over imagery"
 msgstr "Edificios y carreteras de OpenStreetMap sobre imágenes"
 
-#: ../userguides/pipelines.rst:32 b71789cef782434ebd59be990a79db5b
-msgid "Open data"
-msgstr "Datos abiertos"
+#: ../userguides/pipelines.rst:32 b0424862eba44583875002e4f16e6a8e
+msgid "Download Open Data"
+msgstr "Download Open Data"
 
-#: ../userguides/pipelines.rst:32 d12d252eea314c0fa468105fca206cc7
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`No AI model`"
-msgstr ":mf-chip:`road|Carreteras y mapas base` :mf-badge:`Sin modelo de IA`"
+#: ../userguides/pipelines.rst:32 68743299c60e4e92acf32f3c600bac2a
+msgid ":mf-chip:`road|Basemaps` :mf-badge:`No AI model`"
+msgstr ":mf-chip:`road|Mapas base` :mf-badge:`Sin modelo de IA`"
 
-#: ../userguides/pipelines.rst:32 64ffc25c9e854c69b5b6995510374d08
+#: ../userguides/pipelines.rst:32 b86712a706c54800a9170fc8c78aa65b
 msgid ""
 "OpenStreetMap and Overture data for your area, with no AI model involved."
 msgstr ""
 "Datos de OpenStreetMap y Overture para su área, sin ningún modelo de IA."
 
-#: ../userguides/pipelines.rst:32 03b7a9fc804b41f49249e40d8039c0e8
+#: ../userguides/pipelines.rst:32 0a310113b2724413b343c54880d304cb
 msgid ":mf-icon:`credits` Shown before you run"
 msgstr ":mf-icon:`credits` Se muestra antes de ejecutar"
 
-#: ../userguides/pipelines.rst:34 683c41987f81406f907c3b2fc2ae8a19
+#: ../userguides/pipelines.rst:34 316d09b509fc45fbb67a7da60d5245d8
 msgid "Bring your own imagery"
 msgstr "Use sus propias imágenes"
 
-#: ../userguides/pipelines.rst:36 87048502e738420fa6bf898c29aab94f
+#: ../userguides/pipelines.rst:36 1389a75138d54993a568667b82a2013e
 msgid ""
 "Every model runs on imagery you upload, a raster already in your QGIS "
 "project, or a fresh image from the satellite catalog."
@@ -213,30 +216,30 @@ msgstr ""
 "que ya esté en su proyecto de QGIS o con una imagen reciente del catálogo "
 "satelital."
 
-#: ../userguides/pipelines.rst:40 73e427b42e064cceb16ccb5e3cd21ec7
+#: ../userguides/pipelines.rst:40 61e9a990d592473a9b93c4feeb8a748b
 msgid "Map your drone or aerial orthophoto"
 msgstr "Mapee su ortofoto de dron o aérea"
 
-#: ../userguides/pipelines.rst:40 0a170f6ec54c45d4aa4d1b0d6bd7224c
-#: 4cc104feaf6144bdbc12ccd05c02b303
+#: ../userguides/pipelines.rst:40 8665612ca6d84fa8bc84160649a6c0ce
+#: e75964dd969a4ff8bdd663e077babe27
 msgid ":mf-chip:`image|Any model`"
 msgstr ":mf-chip:`image|Cualquier modelo`"
 
-#: ../userguides/pipelines.rst:40 f4fbcd0182ca4d41a64709d1894a2ddb
+#: ../userguides/pipelines.rst:40 f592947e01854599a1055634fd1a2130
 msgid "Run any model on your own GeoTIFF or a raster layer already in QGIS."
 msgstr ""
 "Ejecute cualquier modelo sobre su propio GeoTIFF o sobre una capa ráster que"
 " ya tenga en QGIS."
 
-#: ../userguides/pipelines.rst:40 268559bd963d43d9997d666f0aab8a14
+#: ../userguides/pipelines.rst:40 c0b70ca41ddd421d93c8c915a579989a
 msgid ":mf-icon:`credits` Model price only · your GeoTIFF"
 msgstr ":mf-icon:`credits` Solo el precio del modelo · su GeoTIFF"
 
-#: ../userguides/pipelines.rst:40 845e698456c34330a80e735f73e4b8c3
+#: ../userguides/pipelines.rst:40 4a002f6db9e3462498a43ed9da9fdef7
 msgid "Find a fresh image, then map it"
 msgstr "Encuentre una imagen reciente y mapéela"
 
-#: ../userguides/pipelines.rst:40 770b58c98c90443c9715ad7b9e00012c
+#: ../userguides/pipelines.rst:40 3b426f786b4b429f927e05f247f301c0
 msgid ""
 "Search satellite catalogs by date, cloud and angle, then map the image you "
 "pick."
@@ -244,15 +247,15 @@ msgstr ""
 "Busque en catálogos satelitales por fecha, nubosidad y ángulo, y luego mapee"
 " la imagen que elija."
 
-#: ../userguides/pipelines.rst:40 fb1c6013351b46358973d9f243e13924
+#: ../userguides/pipelines.rst:40 7e0d82eb7e324968998e8a68b41eb28f
 msgid ":mf-icon:`credits` Model + imagery price · recent changes"
 msgstr ":mf-icon:`credits` Precio del modelo + imágenes · cambios recientes"
 
-#: ../userguides/pipelines.rst:41 3dcbc7f940ec46e0961988a6fc73c9ab
+#: ../userguides/pipelines.rst:41 6e5f6128b073483ba8df90d24ae3bdd0
 msgid "Custom models"
 msgstr "Modelos personalizados"
 
-#: ../userguides/pipelines.rst:43 e1149ac397204e5baf541461ae0d4c18
+#: ../userguides/pipelines.rst:43 1ea3aac2b6234fb1ae899316bf315c57
 msgid ""
 "Trained for specific use cases. We connect them to your account on request. "
 "See :doc:`how custom models work <custom_pipelines>`."
@@ -261,137 +264,142 @@ msgstr ""
 "pedido. Consulte :doc:`cómo funcionan los modelos personalizados "
 "<custom_pipelines>`."
 
-#: ../userguides/pipelines.rst:47 f5d98d37bf7e46658c73f6f352b19d34
+#: ../userguides/pipelines.rst:47 3d059883a5ad4fd59987fd71989a4191
 msgid "Construction site outlines in a fast-developing area"
 msgstr "Contornos de obras en una zona de rápido desarrollo"
 
-#: ../userguides/pipelines.rst:47 9eef9aaf1cee440cb46b6b626ae26a8c
+#: ../userguides/pipelines.rst:47 9c79b97ac0194efbbd102e9196d3bb17
 msgid "Constructions"
 msgstr "Construcciones"
 
-#: ../userguides/pipelines.rst:47 4dd727bef2ed4f1aadc03dd8c41c70e0
-#: 91de1662b0094dc083df8bcf9bcbd0c8 f738daa9e1ef455a949a3839c4ebfb44
-msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
-msgstr ":mf-chip:`buildings|Edificios` :mf-warn:`Bajo pedido`"
+#: ../userguides/pipelines.rst:47 5ca792e1a6034e0d81cbebd78f9bbfd5
+#: 82336f0196aa4d6eb9af9da22b93245a d66fa69244064648846624e04df8e7f4
+msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
+msgstr ":mf-chip:`sam|Otros objetos` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/pipelines.rst:47 94583438c82a40b29c7cef9d46cfbde2
+#: ../userguides/pipelines.rst:47 a87290e84f2e4296b09d578fd0de4f86
 msgid "Outlines of construction sites and buildings under construction."
 msgstr "Contornos de obras y de edificios en construcción."
 
-#: ../userguides/pipelines.rst:47 0b7001a723f5469ea8904d6128be7c31
+#: ../userguides/pipelines.rst:47 225190e99018454a913176e2003e0aa0
 msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 18"
 
-#: ../userguides/pipelines.rst:47 d92f8b99b6af458ebfd8fa402b8169f9
+#: ../userguides/pipelines.rst:47 94c6cd08dd954908ac9172fd7e66dcec
 msgid "Dense housing blocks split into individual houses"
 msgstr "Manzanas de vivienda densa divididas en casas individuales"
 
-#: ../userguides/pipelines.rst:47 4365d2f69e904b2db440bd0c40f4d286
+#: ../userguides/pipelines.rst:47 c6c83e5bc6dd4a42bab0da5c4ec93826
 msgid "High-density housing"
 msgstr "Vivienda de alta densidad"
 
-#: ../userguides/pipelines.rst:47 23561488861c41f083fa9ab132967260
+#: ../userguides/pipelines.rst:47 2f77801b3585400dba9141933c3cf390
+#: 6e52d1d405794018a5eec762c8842746
+msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Edificios` :mf-warn:`Bajo pedido`"
+
+#: ../userguides/pipelines.rst:47 8c80c85cf3f243db9178dba7685678b2
 msgid "Terraced and tightly packed blocks divided into individual houses."
 msgstr "Manzanas adosadas y muy compactas, divididas en casas individuales."
 
-#: ../userguides/pipelines.rst:47 4cffce6ec9e748f19942820cf2ed4731
-#: c2c5c840a3534744bcd8dbf43af8d8a6
+#: ../userguides/pipelines.rst:47 1827a5a43e314bd5b9f380115e75187d
+#: 573fa8933dc045a78b38cf1705cd0807
 msgid ":mf-icon:`credits` On request"
 msgstr ":mf-icon:`credits` Bajo pedido"
 
-#: ../userguides/pipelines.rst:47 3b0cf3df588d4556aef22c8bb05d10a1
+#: ../userguides/pipelines.rst:47 f51c5a1bc4cd45f185376b08dca1d6ed
 msgid "Detailed building outlines on 10 cm aerial imagery"
 msgstr "Contornos detallados de edificios en imágenes aéreas de 10 cm"
 
-#: ../userguides/pipelines.rst:47 1bd4b9b8374e450cbfbfb74c7fdb34f1
+#: ../userguides/pipelines.rst:47 7a62fd33fea544a7b37364c5ce231859
 msgid "Buildings (Aerial)"
 msgstr "Edificios (aéreo)"
 
-#: ../userguides/pipelines.rst:47 7ff0f02331f94b6ca4cd00b5d178faa0
+#: ../userguides/pipelines.rst:47 9461c9a490a349bb94fe4e4e87cb47e8
 msgid "Small buildings and detailed outlines from 15–10 cm aerial imagery."
 msgstr ""
 "Edificios pequeños y contornos detallados a partir de imágenes aéreas de "
 "15–10 cm."
 
-#: ../userguides/pipelines.rst:47 d0d6c12a0e534c1bbffcd4d948ba916c
+#: ../userguides/pipelines.rst:47 d3e2bcc863b0479eb0c6832e3c906f97
 msgid ":mf-icon:`credits` On request · zoom 20–21"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 20–21"
 
-#: ../userguides/pipelines.rst:47 78be5712c7dc4ea588d19664b0a22f59
+#: ../userguides/pipelines.rst:47 824f03b4e07f4f2f8ccb3bab606d4a8d
 msgid "Detected rooftop solar panels"
 msgstr "Paneles solares detectados en techos"
 
-#: ../userguides/pipelines.rst:47 7750f4edd9ea489e9e75a8885a27099b
+#: ../userguides/pipelines.rst:47 db642fc4b8054516a03fe341c3d30541
 msgid "Solar panels"
 msgstr "Paneles solares"
 
-#: ../userguides/pipelines.rst:47 bee3fb31742d45999bb544c9884e4e61
+#: ../userguides/pipelines.rst:47 71780ee181344c2cbd550fa25343eb1c
 msgid "Photovoltaic panels on rooftops and on the ground."
 msgstr "Paneles fotovoltaicos en techos y en el suelo."
 
-#: ../userguides/pipelines.rst:47 9dd8c90b63bf42dc815c8dc57b527a91
+#: ../userguides/pipelines.rst:47 d88df4f2f1ef42d4abf1a8c41d38e2c0
 msgid ":mf-icon:`credits` On request · zoom 19–21"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 19–21"
 
-#: ../userguides/pipelines.rst:47 9bcd725799aa492cb07693b3c4e08c80
+#: ../userguides/pipelines.rst:47 dd58a71332824429942a054fbf3bc6d2
 msgid "Detected swimming pools in a residential area"
 msgstr "Piscinas detectadas en una zona residencial"
 
-#: ../userguides/pipelines.rst:47 f631a2080ee04cd383abebab1ace6423
+#: ../userguides/pipelines.rst:47 49af18752d8b4f86a4d6ac59eec78635
 msgid "Swimming pools"
-msgstr "piscinas"
+msgstr "Piscinas"
 
-#: ../userguides/pipelines.rst:47 8bc0b8b003384b5d8752f8720436076f
+#: ../userguides/pipelines.rst:47 bdf9b48ae6b64de6b885d1c1465e67f4
+msgid ":mf-chip:`buildings|Real estate` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Bienes raíces` :mf-warn:`Bajo pedido`"
+
+#: ../userguides/pipelines.rst:47 05fee9127e3f49c7968c7b0092a23cc0
 msgid "Swimming pools detected and classified from aerial imagery."
 msgstr "Piscinas detectadas y clasificadas a partir de imágenes aéreas."
 
-#: ../userguides/pipelines.rst:47 ee3fdd66a92744439d83498e13c57d7b
+#: ../userguides/pipelines.rst:47 73583bef4d784129ba7ca20144e5160f
 msgid ":mf-icon:`credits` On request · zoom 19–20"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 19–20"
 
-#: ../userguides/pipelines.rst:47 3ff2ad9096694de3a5ea245e87506df2
+#: ../userguides/pipelines.rst:47 dd57d0190f434e3d98058c7ba0272e05
 msgid "Field boundaries delineated over farmland"
 msgstr "Límites de parcelas trazados sobre tierras de cultivo"
 
-#: ../userguides/pipelines.rst:47 92ad435be8a2412c81777dc4f5baa8bb
+#: ../userguides/pipelines.rst:47 8d4489d323fc4b19a0fc30f9be4e9825
 msgid "Agriculture fields"
 msgstr "Campos agrícolas"
 
-#: ../userguides/pipelines.rst:47 687ffa26f1234988b75bf84736999dd9
+#: ../userguides/pipelines.rst:47 4ec44dfc9514488288437ccb201e38eb
 msgid ":mf-chip:`agro|Crop fields` :mf-warn:`On request`"
 msgstr ":mf-chip:`agro|Campos de cultivo` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/pipelines.rst:47 0a8e38e095d34afaa1bcde054edc2383
+#: ../userguides/pipelines.rst:47 d1a2883b9183438b8bfa32c32e6092c8
 msgid "Field boundaries separated by tree lines, roads or crop stage."
 msgstr ""
 "Límites de campos separados por hileras de árboles, caminos o etapa del "
 "cultivo."
 
-#: ../userguides/pipelines.rst:47 d223edbf2c294bf19fcf60fb3a7ab31d
+#: ../userguides/pipelines.rst:47 4270ae7728b24c099b230ce60e37f7af
 msgid "Segment Anything polygons over farmland"
 msgstr "Polígonos de Segment Anything sobre tierras de cultivo"
 
-#: ../userguides/pipelines.rst:47 57b7a0dc645648ee96d2052dc456ccb6
+#: ../userguides/pipelines.rst:47 9caef506fb044049880aaeb51833f6a6
 msgid "Segment Anything"
 msgstr "Segment Anything"
 
-#: ../userguides/pipelines.rst:47 a462b29212be474ea1d515daa37e75f4
-msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
-msgstr ":mf-chip:`sam|Otros objetos` :mf-warn:`Bajo pedido`"
-
-#: ../userguides/pipelines.rst:47 b3a5faa4d4a845988a53c7cecd4ad430
+#: ../userguides/pipelines.rst:47 053beda89aaf49a396c45af0849aaae5
 msgid "Universal segmentation. The zoom level decides what you get."
 msgstr "Segmentación universal. El nivel de zoom determina lo que obtiene."
 
-#: ../userguides/pipelines.rst:47 e7f6f9a01e8c46a7a90e6fa1277fdf12
+#: ../userguides/pipelines.rst:47 fb1bc8d30d8c4f2f9475f20a54c3ec25
 msgid ":mf-icon:`credits` On request · zoom 14–20"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 14–20"
 
-#: ../userguides/pipelines.rst:50 71a63350fb084388b78450c1afcf203b
+#: ../userguides/pipelines.rst:50 80b88ad580a942638157097222bab8e7
 msgid "Need a different object?"
 msgstr "¿Necesita otro tipo de objeto?"
 
-#: ../userguides/pipelines.rst:50 2c96dfbab69148058bbf1bc6dfd75f5e
+#: ../userguides/pipelines.rst:50 2cb445332d9d43d5a3e121236fab43a6
 msgid ""
 "We train custom models on your imagery and classes, and connect them to your"
 " Mapflow account."
@@ -399,17 +407,17 @@ msgstr ""
 "Entrenamos modelos personalizados con sus imágenes y clases, y los "
 "conectamos a su cuenta de Mapflow."
 
-#: ../userguides/pipelines.rst:50 dadfefb6e9064531b8afa719f6b10829
+#: ../userguides/pipelines.rst:50 75ba501c0840451d908169138d6ceaf0
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 "`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/pipelines.rst:50 a2a5d27a09414ea5b7d5946d1980c0ea
+#: ../userguides/pipelines.rst:50 188c192cdaef42aa9139fd3deed88a88
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 "`Catálogo de modelos y opciones de despliegue <https://mapflow.ai/models>`__"
 
-#: ../userguides/pipelines.rst:50 3357a7c0762242649e558248b3fc32aa
+#: ../userguides/pipelines.rst:50 69a3c6a73296460ea81b4008a450a106
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
 
@@ -1736,3 +1744,6 @@ msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
 
 #~ msgid ":mf-chip:`tractor|Crop fields` :mf-warn:`On request`"
 #~ msgstr ""
+
+#~ msgid "Open data"
+#~ msgstr "Datos abiertos"

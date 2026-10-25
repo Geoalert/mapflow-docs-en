@@ -393,7 +393,9 @@ class ModelGallery(CatalogDirective):
                 chips.append(":mf-badge:`No AI model`")
             self.card(
                 rst,
-                title=m["name"],
+                # The gallery shows the WD name users pick in Mapflow (awesome-configs
+                # folder name, e.g. "🏠 Buildings"); custom models fall back to "name".
+                title=m.get("platform_name") or m["name"],
                 image=img(m["image"]),
                 alt=m.get("image_alt"),
                 link="/" + m["doc"],

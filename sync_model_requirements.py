@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Check (or update) imagery requirements in source/_data/models.json.
+"""Check (or update) platform names and imagery requirements in source/_data/models.json.
 
-The source of truth is the platform configs in the awesome-configs repo:
-``configs/default`` and ``configs/customer``. Each model in models.json names
-its config folder in ``requirements.config``; this script reads that config's
+The source of truth is the production configs in the awesome-configs repo:
+``configs/production/default`` and ``configs/production/customer``. Each model in
+models.json names its config folder in ``requirements.config``
+(e.g. ``production/default/🏠 Buildings``); this script reads that config's
 requirements (``requirements_file`` from inference.yml, or requirements.yml
 next to it) and compares them with the catalog.
+
+It also checks names: the folder name of a WD is its name in Mapflow, so every
+default model's ``platform_name`` must equal its folder name, and every WD in
+``production/default`` should be in the catalog. The models gallery shows
+``platform_name``.
 
     python3 sync_model_requirements.py                       # report drift, exit 1 if any
     python3 sync_model_requirements.py --write               # update "requirements" lines
@@ -81,6 +87,27 @@ def main():
         text = fh.read()
     catalog = json.loads(text)
     drift = 0
+
+    # names ---------------------------------------------------------------
+    default_dir = os.path.join(args.configs, "configs", "production", "default")
+    platform_wds = sorted(d for d in os.listdir(default_dir)
+                          if os.path.isdir(os.path.join(default_dir, d))) if os.path.isdir(default_dir) else []
+    if not platform_wds:
+        print("ERROR no WDs found in %s" % default_dir)
+        drift += 1
+    for model in catalog["models"]:
+        config = (model.get("requirements") or {}).get("config") or ""
+        if config.startswith("production/default/"):
+            folder = config.split("/", 2)[2]
+            if model.get("platform_name") != folder:
+                drift += 1
+                print("NAME  %-22s platform_name %r, but the WD is %r" % (
+                    model["id"], model.get("platform_name"), folder))
+    listed = {m.get("platform_name") for m in catalog["models"]}
+    for wd in platform_wds:
+        if wd not in listed:
+            drift += 1
+            print("NEW   %-22s default WD in production is not in the catalog" % wd)
     for model in catalog["models"]:
         current = model.get("requirements") or {}
         config = current.get("config")

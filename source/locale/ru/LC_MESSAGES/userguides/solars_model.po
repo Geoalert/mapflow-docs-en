@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/solars_model.rst:1 545951091c12438494bd1e5130ecc552
+#: ../userguides/solars_model.rst:1 c342f9e2849c43dabbe65d5a058e3ac7
 msgid ""
 "Detect photovoltaic panels on rooftops and on the ground from aerial imagery"
 " at zoom 19-21. Available as a custom model on request."
@@ -27,35 +27,35 @@ msgstr ""
 "Обнаружение фотоэлектрических панелей на крышах и на земле по аэрофото с "
 "зумом 19–21. Доступна как пользовательская модель по запросу."
 
-#: ../userguides/solars_model.rst:7 59ae86fb5ccb4a02a03d1d926cce59b9
+#: ../userguides/solars_model.rst:7 09ea2f86bec3432ea0789c6cdcc185bd
 msgid "Solar panels"
 msgstr "Солнечные панели"
 
-#: ../userguides/solars_model.rst:10 f27a2103bb454add834ed14d4e21e6c2
-msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
-msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
+#: ../userguides/solars_model.rst:10 746a196e97b245bead40ea53fc49dca1
+msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
+msgstr ":mf-chip:`sam|Другие объекты` :mf-warn:`По запросу`"
 
-#: ../userguides/solars_model.rst 450ca36acfe34840b250ff7e06d1f347
+#: ../userguides/solars_model.rst 854600cbec984953998976fbe10b6c38
 msgid "Detected rooftop solar panels"
 msgstr "Обнаруженные солнечные панели на крышах"
 
-#: ../userguides/solars_model.rst:10 ad7c8ba5ae8245eba4b4efc59d529941
+#: ../userguides/solars_model.rst:10 4393c23fc8d040b48d29b62e19294366
 msgid "Example result: rooftop and ground-mounted panels."
 msgstr "Пример результата: панели на крышах и наземные панели."
 
-#: ../userguides/solars_model.rst:10 1779767bd2534ff18c88e5bc1f2595dc
+#: ../userguides/solars_model.rst:10 9119c95a1c7d487eb885c2c216e977f5
 msgid "Cost"
 msgstr "Стоимость"
 
-#: ../userguides/solars_model.rst:10 897a6f6c4c76429a86511dbb6ff8efa1
+#: ../userguides/solars_model.rst:10 7cf1a5475fa9426ba867ec1f2c0e9d35
 msgid "Priced per project"
 msgstr "Цена рассчитывается для проекта"
 
-#: ../userguides/solars_model.rst:10 6342357d34ff4ffcb619fa389825e0aa
+#: ../userguides/solars_model.rst:10 7b0f7e192ac548969a37d93a10875d40
 msgid "Request access and we connect the model to your account."
 msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
 
-#: ../userguides/solars_model.rst:10 d73fd2bc5f934f0d8729bff864ea6023
+#: ../userguides/solars_model.rst:10 0f257cb351ee41e3a35889dd169809df
 msgid ""
 "A detection and segmentation model for photovoltaic panels, trained on "
 "aerial imagery. It finds panels on rooftops and in solar farms."
@@ -63,84 +63,84 @@ msgstr ""
 "Модель детекции и сегментации фотоэлектрических панелей, обученная на "
 "аэрофото. Находит панели на крышах и на солнечных электростанциях."
 
-#: ../userguides/solars_model.rst:10 edbeaf494193492089e098ab2e241b6f
+#: ../userguides/solars_model.rst:10 fde0fa14795d4ba5af55ef6da516fbc1
 msgid "What you get"
 msgstr "Что вы получите"
 
-#: ../userguides/solars_model.rst:10 17cfb2853d2242b488abc322e685e95b
+#: ../userguides/solars_model.rst:10 cf7cad7ce1944ed0b55fc1f91d442ea3
 msgid "Solar panel polygons."
 msgstr "Полигоны солнечных панелей."
 
-#: ../userguides/solars_model.rst:10 b89c1169c5f44d50b882774303514376
+#: ../userguides/solars_model.rst:10 ca63e33cc4ec478cb48c88e0f4680e4f
 msgid "Works best with"
 msgstr "Лучше всего работает с"
 
-#: ../userguides/solars_model.rst:10 426920ceb3d1462cb2e62e69688d18e1
+#: ../userguides/solars_model.rst:10 566c8dbd28c04a08927de00b30957fa6
 msgid "Aerial imagery at zoom 19–21."
 msgstr "Аэрофото с зумом 19–21."
 
-#: ../userguides/solars_model.rst:10 74f5a6e97ba347d6867972fdd75d28bc
+#: ../userguides/solars_model.rst:10 94ce5fde4c4b4472942189185d84b6dd
 msgid "Usage examples"
 msgstr "Примеры использования"
 
-#: ../userguides/solars_model.rst:10 55c56f50c2f34e2593e0f59116980771
+#: ../userguides/solars_model.rst:10 517e46898f064e3fb5163a52bae170e1
 msgid "Inventory rooftop solar in a municipality"
 msgstr "Провести инвентаризацию солнечных панелей на крышах в муниципалитете"
 
-#: ../userguides/solars_model.rst:10 de0212add3d5478aa8f33ed339558130
+#: ../userguides/solars_model.rst:10 f5c34444066f4300879897479c76311a
 msgid "Monitor solar farm build-out"
 msgstr "Отслеживать строительство солнечных электростанций"
 
-#: ../userguides/solars_model.rst:10 11dd593441864751917e8780736368d8
+#: ../userguides/solars_model.rst:10 745f28d353a244bcb51694abeda18ee8
 msgid "Estimate installed panel area for grid planning"
 msgstr "Оценить площадь установленных панелей для планирования сетей"
 
-#: ../userguides/solars_model.rst:10 db1789ac1e24465f9b38df1368202f2a
+#: ../userguides/solars_model.rst:10 040bb42a7ee742119ee7193cb94e326d
 msgid "`Request access <https://mapflow.ai/custom-models>`__"
 msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/solars_model.rst:10 77c00a09ff2c428ca22429eafa8cda1e
+#: ../userguides/solars_model.rst:10 04e710fede66436e9adc7ab8c9873a20
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
 msgstr ""
 ":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
 
-#: ../userguides/solars_model.rst abfcf8483f7b40d49d5201a1b87fa86d
+#: ../userguides/solars_model.rst a0cb58a9e97a4cbb8e7904ee50530d27
 msgid "Geo domain"
 msgstr "Геодомен"
 
-#: ../userguides/solars_model.rst:10 fdc97b98bce944e280bfe4ef8325a10d
+#: ../userguides/solars_model.rst:10 8936e37072c947c7859bdbc526998878
 msgid "Global"
 msgstr "Глобальный"
 
-#: ../userguides/solars_model.rst 30b6a5e625ee416b922aa708c2509a34
+#: ../userguides/solars_model.rst e3bc403f3b294293b40222752a446297
 msgid "Method"
 msgstr "Метод"
 
-#: ../userguides/solars_model.rst:10 fbe965acf3524b2e88f0ea26ed97eb9d
+#: ../userguides/solars_model.rst:10 18381ca2b4cb4f33b9506d8fe5d4e54e
 msgid "Detector + segmentation"
 msgstr "Детектор + сегментация"
 
-#: ../userguides/solars_model.rst 30336f5b22c64832aaf926d98e9f8b4b
+#: ../userguides/solars_model.rst b52428f137634338bba0b984d0931687
 msgid "GSD / zoom"
 msgstr "GSD / зум"
 
-#: ../userguides/solars_model.rst:10 933896804b2c415d9206970c0c4ba5c9
+#: ../userguides/solars_model.rst:10 4cd34c7c21924d58aac32f645995dc8b
 msgid "z19–21"
 msgstr "z19–21"
 
-#: ../userguides/solars_model.rst 901391c1cd154c359e37bf804090bb19
+#: ../userguides/solars_model.rst 5644be9bf4684ade93910d42ee65ccd3
 msgid "Test score"
 msgstr "Оценка на тестах"
 
-#: ../userguides/solars_model.rst:10 f261f0b976ea4ef694f52dc8cba1991d
+#: ../userguides/solars_model.rst:10 a9c0955d144b4166bac60d8f21eff632
 msgid "Pixel-wise F1 > 0.77"
 msgstr "Попиксельный F1 > 0,77"
 
-#: ../userguides/solars_model.rst:12 db5c2a290c1a4d3b904bad0bcee16209
+#: ../userguides/solars_model.rst:12 7366a88fd273433ea083acf7c7058cbf
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/solars_model.rst:12 dcb9d6fdb35e43f9995bd9ffbd88bddf
+#: ../userguides/solars_model.rst:12 82bc47a75184416381098ce36c62cefe
 msgid ""
 "We train custom models on your imagery and classes, and connect them to your"
 " Mapflow account."
@@ -148,17 +148,17 @@ msgstr ""
 "Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
 "их к вашему аккаунту Mapflow."
 
-#: ../userguides/solars_model.rst:12 3e370c31c883496baac95c4b6a2ef24d
+#: ../userguides/solars_model.rst:12 346492affa9e4eb99260d6be5cfe0a0d
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/solars_model.rst:12 fed68b6657484ef89e143b6eb92e1796
+#: ../userguides/solars_model.rst:12 7b937edebeeb4578aa636589abb30fb6
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/solars_model.rst:12 567776dad5fe49879b533e36ff2d2233
+#: ../userguides/solars_model.rst:12 cff374444fc842ca9ca535d2711fd0b8
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 

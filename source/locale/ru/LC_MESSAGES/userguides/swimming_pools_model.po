@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/swimming_pools_model.rst:1 955b5494b3314ddf83de3bf2f3926e36
+#: ../userguides/swimming_pools_model.rst:1 24821e75fb8c41aeb58ff581184feb06
 msgid ""
 "Detect and classify swimming pools in high-resolution aerial imagery at zoom"
 " level 19. Benchmark F1 above 0.95. Available as a custom model."
@@ -27,35 +27,35 @@ msgstr ""
 "Распознавание и классификация бассейнов на аэрофотоснимках высокого "
 "разрешения (зум 19). Бенчмарк F1 выше 0,95. Кастомная модель."
 
-#: ../userguides/swimming_pools_model.rst:7 6866c366ff824742a6ff24483dfbbb62
+#: ../userguides/swimming_pools_model.rst:7 27bb756a932c4b2eb24760f4a89f8509
 msgid "Swimming pools"
 msgstr "Бассейны"
 
-#: ../userguides/swimming_pools_model.rst:10 a4fd7c304ea34ebcbabaa496844a3c43
-msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
-msgstr ":mf-chip:`buildings|Здания` :mf-warn:`По запросу`"
+#: ../userguides/swimming_pools_model.rst:10 68294b5265cf48e6a1799497bcddadf6
+msgid ":mf-chip:`buildings|Real estate` :mf-warn:`On request`"
+msgstr ":mf-chip:`buildings|Недвижимость` :mf-warn:`По запросу`"
 
-#: ../userguides/swimming_pools_model.rst d2cf7118b23744dfa19ed2d5428a93f9
+#: ../userguides/swimming_pools_model.rst 66331e00edb74e75b1cbe6648a8f3417
 msgid "Detected swimming pools in a residential area"
 msgstr "Обнаруженные бассейны в жилом районе"
 
-#: ../userguides/swimming_pools_model.rst:10 a6cc0f55c2764a8a83c061711d3c8ffe
+#: ../userguides/swimming_pools_model.rst:10 dfde62800a8e4aeeb8d1a8831a214579
 msgid "Example result: pools detected and classified."
 msgstr "Пример результата: обнаруженные и классифицированные бассейны."
 
-#: ../userguides/swimming_pools_model.rst:10 e0733344775f43c2b6fe3d57bcd64aff
+#: ../userguides/swimming_pools_model.rst:10 1c485890dc5b48408c9212df0e59b607
 msgid "Cost"
 msgstr "Стоимость"
 
-#: ../userguides/swimming_pools_model.rst:10 21f580c2b61e468fae143da5f491bde5
+#: ../userguides/swimming_pools_model.rst:10 f1a4d4b2e6b34675832339df886c238b
 msgid "Priced per project"
 msgstr "Цена рассчитывается для проекта"
 
-#: ../userguides/swimming_pools_model.rst:10 0ce2f36e76894b78ae81469544ed794a
+#: ../userguides/swimming_pools_model.rst:10 ed688fca7cf04ead84ff3bfb5fc0a4a2
 msgid "Request access and we connect the model to your account."
 msgstr "Запросите доступ, и мы подключим модель к вашему аккаунту."
 
-#: ../userguides/swimming_pools_model.rst:10 5cab1a69b16a452f88b3b996be25cc09
+#: ../userguides/swimming_pools_model.rst:10 7301d75eba39463982fbe839bda8c630
 msgid ""
 "Detects and classifies swimming pools on high-resolution aerial imagery, "
 "with a test score above F1 0.95."
@@ -63,93 +63,93 @@ msgstr ""
 "Обнаруживает и классифицирует бассейны на аэрофото высокого разрешения; "
 "оценка на тестах — F1 выше 0,95."
 
-#: ../userguides/swimming_pools_model.rst:10 3d334a3f73fb49e9b405cdc956738e9f
+#: ../userguides/swimming_pools_model.rst:10 d0f096dd67714249ba9308b01108e34d
 msgid "What you get"
 msgstr "Что вы получите"
 
-#: ../userguides/swimming_pools_model.rst:10 dee0cd2b77a24633a73affa627516b54
+#: ../userguides/swimming_pools_model.rst:10 a5ebeffda7ee40729548dc761cfbbb55
 msgid "Swimming pool polygons with a class."
 msgstr "Полигоны бассейнов с классом."
 
-#: ../userguides/swimming_pools_model.rst:10 33ccada616674f20b70be1c34439e7f9
+#: ../userguides/swimming_pools_model.rst:10 3295c2ab8e01449fb438b2f8ca121326
 msgid "Works best with"
 msgstr "Лучше всего работает с"
 
-#: ../userguides/swimming_pools_model.rst:10 7219a74a4d8248348b412ae713c25a4c
+#: ../userguides/swimming_pools_model.rst:10 9fa6b9f4f718462e89966726a5e51ed9
 msgid "Aerial imagery at zoom 19–20."
 msgstr "Аэрофото с зумом 19–20."
 
-#: ../userguides/swimming_pools_model.rst:10 6472a42f1b964cc882ac0c68d088cf54
+#: ../userguides/swimming_pools_model.rst:10 051c3ad904ad4d22b6ec749cdf4ba0d3
 msgid "Usage examples"
 msgstr "Примеры использования"
 
-#: ../userguides/swimming_pools_model.rst:10 908a895960c243a5b3f9857989e21086
+#: ../userguides/swimming_pools_model.rst:10 26cd3ad95985493ab8908e800432cdca
 msgid "Keep property records and tax rolls up to date"
 msgstr ""
 "Поддерживать в актуальном состоянии реестры недвижимости и налоговые списки"
 
-#: ../userguides/swimming_pools_model.rst:10 ebc80badb83e4c45a4940d29473a2a33
+#: ../userguides/swimming_pools_model.rst:10 eac80fdeb9a84b5886face1d98cba51e
 msgid "Plan water use and inspections"
 msgstr "Планировать водопользование и проверки"
 
-#: ../userguides/swimming_pools_model.rst:10 cc19b3594c2b4e7d957566000ec9b9d6
+#: ../userguides/swimming_pools_model.rst:10 7ebbfe9b6e684fbaa8a317b2ced29ed8
 msgid "Enrich insurance and real-estate data"
 msgstr "Обогатить данные для страхования и рынка недвижимости"
 
-#: ../userguides/swimming_pools_model.rst:10 c42aa16e7f8240ef9cbf0356c1b834a5
+#: ../userguides/swimming_pools_model.rst:10 669e33d57d1d42ebbec82f57e4626c6c
 msgid "`Request access <https://mapflow.ai/custom-models>`__"
 msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/swimming_pools_model.rst:10 bcd88e924ccc47d5af1bbfb88568333b
+#: ../userguides/swimming_pools_model.rst:10 969d8e9149254073abacf5459d064b5e
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
 msgstr ""
 ":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
 
-#: ../userguides/swimming_pools_model.rst a2bd6eef33954ad79d70f200e0425c6f
+#: ../userguides/swimming_pools_model.rst c7dc6180315047d4b79ab72ec5bf6609
 msgid "Geo domain"
 msgstr "Геодомен"
 
-#: ../userguides/swimming_pools_model.rst:10 d21689380626445db37d815b4338ece4
+#: ../userguides/swimming_pools_model.rst:10 62c7bc129ad44413a730ac0f8560e6f5
 msgid "Global"
 msgstr "Глобальный"
 
-#: ../userguides/swimming_pools_model.rst d9c357f69b8244f389bd1502c0a019fc
+#: ../userguides/swimming_pools_model.rst a00560a35b5040e18ddfeb3e998acda9
 msgid "Method"
 msgstr "Метод"
 
-#: ../userguides/swimming_pools_model.rst:10 8e0846502d8142919faac9d67f9d355e
+#: ../userguides/swimming_pools_model.rst:10 4f94138d0feb49049a9168afcae39ac5
 msgid "Detector + classification"
 msgstr "Детектор + классификация"
 
-#: ../userguides/swimming_pools_model.rst 95241961f8404ac3b465eb16b9ebce86
+#: ../userguides/swimming_pools_model.rst 1f0c7fb86979435bbe540f01b66edc12
 msgid "GSD / zoom"
 msgstr "GSD / зум"
 
-#: ../userguides/swimming_pools_model.rst:10 9c7ce87bf2e8474a852a680c2bdafa79
+#: ../userguides/swimming_pools_model.rst:10 fbd72205923342629caad49de0240b72
 msgid "z19–20"
 msgstr "z19–20"
 
-#: ../userguides/swimming_pools_model.rst 9aad6b6dc2ca4c858a128c010cc840e3
+#: ../userguides/swimming_pools_model.rst 7c43555755c446e9a088355db72b95a7
 msgid "Test score"
 msgstr "Оценка на тестах"
 
-#: ../userguides/swimming_pools_model.rst:10 21733af8cbb944eb9582e03a48482654
+#: ../userguides/swimming_pools_model.rst:10 fe911bfb3f444a9cadd0c95f38f82316
 msgid "F1 > 0.95"
 msgstr "F1 > 0.95"
 
-#: ../userguides/swimming_pools_model.rst:12 eb3e56a348c049c3b371483343e44696
+#: ../userguides/swimming_pools_model.rst:12 4dc7441e134d4644b78fe07af2dfac78
 msgid "Sample results"
 msgstr "Примеры результатов"
 
-#: ../userguides/swimming_pools_model.rst d2cf7118b23744dfa19ed2d5428a93f9
+#: ../userguides/swimming_pools_model.rst db6bb45fe7514b54902c7133a9c97a48
 msgid "Swimming pools detected and classified"
 msgstr "Обнаруженные и классифицированные бассейны"
 
-#: ../userguides/swimming_pools_model.rst:20 a17d474d81db4251b0d6962d60b1fef1
+#: ../userguides/swimming_pools_model.rst:20 0709d19a3bec439fb459016bdd00709f
 msgid "Pools detected and classified on aerial imagery"
 msgstr "Бассейны, обнаруженные и классифицированные на аэрофото"
 
-#: ../userguides/swimming_pools_model.rst:22 4cb7e477f85743bab71df05dc73d67c0
+#: ../userguides/swimming_pools_model.rst:22 0c737f65c3f049848f2a616b863d0570
 msgid ""
 "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-"
 "approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-"
@@ -161,11 +161,11 @@ msgstr ""
 "case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_"
 " о сценариях использования и о том, как создавалась модель."
 
-#: ../userguides/swimming_pools_model.rst:25 58f1f8382f5b4c61a2d8604e37905a15
+#: ../userguides/swimming_pools_model.rst:25 42cf760926064867a54fbab995eedcfb
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/swimming_pools_model.rst:25 50b38fdc2bd04b128f77e25ef9ec0111
+#: ../userguides/swimming_pools_model.rst:25 217dd21f67e044d9a1b7a328d2032a0c
 msgid ""
 "We train custom models on your imagery and classes, and connect them to your"
 " Mapflow account."
@@ -173,17 +173,17 @@ msgstr ""
 "Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
 "их к вашему аккаунту Mapflow."
 
-#: ../userguides/swimming_pools_model.rst:25 b5005ada22114182ad29ca569f46cb16
+#: ../userguides/swimming_pools_model.rst:25 ed8745fb6e0f4596a0c9c6a3ffed1493
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/swimming_pools_model.rst:25 50f47b593a144acda977416d6a374109
+#: ../userguides/swimming_pools_model.rst:25 3395d66b4148474b8c50093bc6fbd13e
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/swimming_pools_model.rst:25 d58b2b70f94e4eb7b85f3ee3944da1a1
+#: ../userguides/swimming_pools_model.rst:25 4b2e28cdbca243569bb4f86c2c725313
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 

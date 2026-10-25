@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/combo_model.rst:1 5aa9f1b3a7d14c1383967012beac6d3e
+#: ../userguides/combo_model.rst:1 cd113a0c8ec24e53848e22180aa011b2
 msgid ""
 "Run Buildings, Roads and Forest detection in a single Mapflow workflow and "
 "get one topology-corrected GeoJSON output."
@@ -27,36 +27,35 @@ msgstr ""
 "Запустите распознавание зданий, дорог и леса в одном рабочем процессе "
 "Mapflow и получите единый GeoJSON с исправленной топологией."
 
-#: ../userguides/combo_model.rst:7 4985226c50c94eb897da9e2a8f528161
+#: ../userguides/combo_model.rst:7 5afedb14f1e6430e99dcbd1aea88e9ed
 msgid "Buildings + Roads + Forest"
 msgstr "Здания + Дороги + Лес"
 
-#: ../userguides/combo_model.rst:10 d5c37daa72d14ffbb92d02e412a6cd2e
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
-msgstr ""
-":mf-chip:`road|Дороги и базовые карты` :mf-badge:`Модель по умолчанию`"
+#: ../userguides/combo_model.rst:10 8bb522a2f92048c0b8c06696e3cb818d
+msgid ":mf-chip:`road|Basemaps` :mf-badge:`Default model`"
+msgstr ":mf-chip:`road|Базовые карты` :mf-badge:`Модель по умолчанию`"
 
-#: ../userguides/combo_model.rst 4e8a2594a8e04cbba036545f58b1fd50
+#: ../userguides/combo_model.rst 91fcd0eb785843b89e611b5df332477f
 msgid "Buildings, roads and forest layers over a dense urban area"
 msgstr "Слои зданий, дорог и леса в плотной городской застройке"
 
-#: ../userguides/combo_model.rst:10 39bdb717d22441a9b5fa762bec10ebd7
+#: ../userguides/combo_model.rst:10 3c784fcfb7da45f29328850a47c565f9
 msgid "Example result: buildings, roads and forest from one run."
 msgstr "Пример результата: здания, дороги и лес за один запуск."
 
-#: ../userguides/combo_model.rst:10 2df26b0f9ce14887a1928a155da592de
+#: ../userguides/combo_model.rst:10 9d866b45043f4d52b0afc19f0dac35ce
 msgid "Cost"
 msgstr "Стоимость"
 
-#: ../userguides/combo_model.rst:10 4b45226e04f44da3b2c5c3ac15ac05a2
+#: ../userguides/combo_model.rst:10 21cc204e070b4ad19fd848ab3ca5b551
 msgid "23 credits per km² + imagery"
 msgstr "23 кредита за км² + снимки"
 
-#: ../userguides/combo_model.rst:10 97fcb6615bc243b8b1e4d58e7330c436
+#: ../userguides/combo_model.rst:10 ba4bbf865b2e4ef2a48561dba88e75eb
 msgid "Example: 10 km² on Mapbox zoom 19 ≈ 320 credits."
 msgstr "Пример: 10 км² на Mapbox с зумом 19 ≈ 320 кредитов."
 
-#: ../userguides/combo_model.rst:10 8902cbd857b34a08b37e74fa3a1ed4ea
+#: ../userguides/combo_model.rst:10 28d499a1b74a41d8a5b46d7e3f5aa666
 msgid ""
 "Runs the Buildings, Roads and Forest models as one workflow and returns a "
 "single topology-corrected result, so the layers do not overlap. It costs "
@@ -66,72 +65,72 @@ msgstr ""
 "единый результат с исправленной топологией, чтобы слои не перекрывались. Это"
 " дешевле, чем запускать три модели по отдельности."
 
-#: ../userguides/combo_model.rst:10 c6e4f6e43cc6467c83599729b4a7e054
+#: ../userguides/combo_model.rst:10 1d50dd0e9294464fbb0f5cceb6faeadd
 msgid "What you get"
 msgstr "Что вы получите"
 
-#: ../userguides/combo_model.rst:10 f182b9708b1b46a1a395846f2fd0c461
+#: ../userguides/combo_model.rst:10 9b6f6318646445749c166d15c3f21da3
 msgid "Buildings, roads and forest from one run, as separate styled layers."
 msgstr ""
 "Здания, дороги и лес за один запуск в виде отдельных оформленных слоёв."
 
-#: ../userguides/combo_model.rst:10 f19f2d31dfea46bdb5524d23572c1b4b
+#: ../userguides/combo_model.rst:10 cd25ccfaf975456fb0d2556c43dc5baf
 msgid "Works best with"
 msgstr "Лучше всего работает с"
 
-#: ../userguides/combo_model.rst:10 b02052ccf5684432b4a7a64ef60f3bfb
+#: ../userguides/combo_model.rst:10 5c28ec339e37495ea78d407dbd570c9f
 msgid "0.6–0.3 m imagery (zoom 19)."
 msgstr "Снимки 0,6–0,3 м (зум 19)."
 
-#: ../userguides/combo_model.rst:10 e40de6d3b1014ec29da10dd9233e2fc1
+#: ../userguides/combo_model.rst:10 1cebe33cc85347cea1bfdc59fd0dd9f3
 msgid "Usage examples"
 msgstr "Примеры использования"
 
-#: ../userguides/combo_model.rst:10 39159de326d0423bb2e4da0e919a69e1
+#: ../userguides/combo_model.rst:10 28714a18c7304bc397121d701df87f12
 msgid "Start a base map where no vector data exists"
 msgstr "Создать базовую карту там, где нет векторных данных"
 
-#: ../userguides/combo_model.rst:10 d949f5326bc944ad9b27bedd2560404e
+#: ../userguides/combo_model.rst:10 77ab8d0290ef490687bdae704f2df844
 msgid "Get a land-use overview before a site visit"
 msgstr "Получить обзор землепользования перед выездом на объект"
 
-#: ../userguides/combo_model.rst:10 f475a53f654549a8a23438090c2cb1c3
+#: ../userguides/combo_model.rst:10 929d88df69a94444be92490acf8919bf
 msgid "Create a reference layer for disaster response"
 msgstr "Создать опорный слой для реагирования на стихийные бедствия"
 
-#: ../userguides/combo_model.rst:10 e0cd835c9c9a47cd8dcdb1b2e182b5a8
+#: ../userguides/combo_model.rst:10 85867a948c954e1f949342f1683db2d5
 msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
 msgstr "`Запустить в Mapflow Web <https://app.mapflow.ai>`__"
 
-#: ../userguides/combo_model.rst:10 73d5d8bef68343bbaadfe311c69cdb1b
+#: ../userguides/combo_model.rst:10 c2e8391456734af5b3d34565f0c93bf0
 msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
 msgstr ":doc:`Использовать в QGIS </api/qgis_mapflow>`"
 
-#: ../userguides/combo_model.rst:10 ebfd0044869646d98775c5c34a5672e6
+#: ../userguides/combo_model.rst:10 aacf173e105d4f3685c4dab31ca468d6
 msgid ":doc:`Pricing </userguides/prices>`"
 msgstr ":doc:`Цены </userguides/prices>`"
 
-#: ../userguides/combo_model.rst 2669d214fe32499f97172de412d8e531
+#: ../userguides/combo_model.rst 2a13d446be3b4f42b66a7e5abdda29fc
 msgid "Method"
 msgstr "Метод"
 
-#: ../userguides/combo_model.rst:10 92fa7f2f22f34df5bf8a7a90c3b45528
+#: ../userguides/combo_model.rst:10 f2602ee2c69043948ed7b490bbdc549e
 msgid "Buildings, Roads and Forest + topology correction"
 msgstr "Здания, дороги и лес + исправление топологии"
 
-#: ../userguides/combo_model.rst f369b8765c254e1484aad6db7f88beec
+#: ../userguides/combo_model.rst 72e1ae7243ca4ac09d3de0dd70c87a2d
 msgid "GSD / zoom"
 msgstr "GSD / зум"
 
-#: ../userguides/combo_model.rst:10 a321875b7add4f7a8331d506fedf0d12
+#: ../userguides/combo_model.rst:10 ceb6ceb40f244bd0b6a4290a80b7fe35
 msgid "0.6–0.3 m / z19"
 msgstr "0,6–0,3 м / z19"
 
-#: ../userguides/combo_model.rst:12 3f32b3f6a8934495a6db695cdaab6b83
+#: ../userguides/combo_model.rst:12 75dc3f7ae8854c018feecef126ba0996
 msgid "Options"
 msgstr "Опции"
 
-#: ../userguides/combo_model.rst:14 048ad47b715e4020885f83544f258790
+#: ../userguides/combo_model.rst:14 7ff3f935892141d18b2d47c59574dde0
 msgid ""
 "The combined workflow takes the options of its models. See :doc:`pricing "
 "<prices>` for option costs."
@@ -139,11 +138,11 @@ msgstr ""
 "Объединённый процесс использует опции входящих в него моделей. Стоимость "
 "опций — на странице :doc:`цен <prices>`."
 
-#: ../userguides/combo_model.rst:19 1db3c420d81142bdb21383053378a69b
+#: ../userguides/combo_model.rst:19 b11ec51aa7bf4c9581ad7ac8c7d1b41b
 msgid "Building types, Merge with OpenStreetMap, Building height estimation"
 msgstr "Типы зданий, объединение с OpenStreetMap, оценка высоты зданий"
 
-#: ../userguides/combo_model.rst:19 3ac3de428e8648d1a2280cf570c07456
+#: ../userguides/combo_model.rst:19 7023bee9b1b241a293118c8d9154a20f
 msgid ""
 "The same options as the :doc:`Buildings model <buildings_model>`. They apply"
 " to the building layer only."
@@ -151,31 +150,31 @@ msgstr ""
 "Те же опции, что и у :doc:`модели «Здания» <buildings_model>`. Они "
 "применяются только к слою зданий."
 
-#: ../userguides/combo_model.rst:22 a36c1bd4bf2a410d95dec7234ef29355
+#: ../userguides/combo_model.rst:22 87074d767609475c9456e17f1e321113
 msgid "Forest height classes, Tree crowns"
 msgstr "Классы высоты леса, кроны деревьев"
 
-#: ../userguides/combo_model.rst:22 6d912c27d7484e6a944369868ce54279
+#: ../userguides/combo_model.rst:22 17c1bd092b194bc2a53964c3d52eee1d
 msgid "The same options as the :doc:`Forest and trees model <forest_model>`."
 msgstr "Те же опции, что и у :doc:`модели «Лес и деревья» <forest_model>`."
 
-#: ../userguides/combo_model.rst:25 318923d098a84d2bbdf9f2a911349b4c
+#: ../userguides/combo_model.rst:25 17def08b49a8412fad965ef233865c0e
 msgid "Sample results"
 msgstr "Примеры результатов"
 
-#: ../userguides/combo_model.rst 3ba4ad1797fd4e26a492eb9e3025a969
+#: ../userguides/combo_model.rst c2de06b04c3e417ea55c424a5aab19bc
 msgid "Combined Buildings, Roads and Forest result"
 msgstr "Совмещённый результат: здания, дороги и лес"
 
-#: ../userguides/combo_model.rst:33 cebdd5ca915243649ca43bdf6e4913e9
+#: ../userguides/combo_model.rst:33 909f0183c67a4f80b57fea0966171657
 msgid "Buildings, roads and forest from one run"
 msgstr "Здания, дороги и лес за один запуск"
 
-#: ../userguides/combo_model.rst:36 c95ce5ac8301429b9ea3eacaf3ffbb2e
+#: ../userguides/combo_model.rst:36 0728ad5839764d37999416df4a13acc7
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/combo_model.rst:36 a060f2f042fb4cc8b1b7943433915c9a
+#: ../userguides/combo_model.rst:36 a9ec2e69ccf44e27930384d63ea56237
 msgid ""
 "We train custom models on your imagery and classes, and connect them to your"
 " Mapflow account."
@@ -183,17 +182,17 @@ msgstr ""
 "Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
 "их к вашему аккаунту Mapflow."
 
-#: ../userguides/combo_model.rst:36 ba859d3e26c241c29b2429940232eda4
+#: ../userguides/combo_model.rst:36 5af17412fa1148428d5bdee278085e43
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/combo_model.rst:36 fd68272783fb41ccbc394f9d1f8212c3
+#: ../userguides/combo_model.rst:36 37bfc2ddb64c48d29dd80b66405a12b8
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/combo_model.rst:36 f65a2b846e584df1a539914da0443285
+#: ../userguides/combo_model.rst:36 d6740b8da17e490aa5dc88228429b261
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 

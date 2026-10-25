@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-10-25 13:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,171 +17,171 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/open-data.rst:1
-#: ee76500cef324ada9d5903e21e6cd09f
+#: 4d977818c4cc422cb023147ef73ad588
 msgid "Download OpenStreetMap and Overture Maps data for your area in Mapflow, with no AI model involved."
 msgstr ""
 
 #: ../userguides/open-data.rst:7
-#: 5be42f95f69b4b2394205327b9d5ecc9
+#: 117f7c2e7a724aa9a9b7a9ca17a3e301
 msgid "Open Data"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 68918ae21f8047038f14a823d06a2139
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`No AI model`"
+#: 0b8cfaf87c5846759a5f3750faf3ddf9
+msgid ":mf-chip:`road|Basemaps` :mf-badge:`No AI model`"
 msgstr ""
 
 #: ../userguides/open-data.rst:0
-#: abbcbc8a5d684e44b3675d01118a2315
+#: 29cbe55eb3c44a75a141ceeedc0025b5
 msgid "OpenStreetMap buildings and roads over imagery"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: e350dc8ac9d8451caddef098764d0cdd
+#: ff9903a8a9204dbda602be206e809527
 msgid "Example result: OpenStreetMap and Overture layers for the area."
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 6b2a3673e7f944acb190cfefe65ad32f
+#: 97257ace8ba24fc7bf66e39aad5e4484
 msgid "Cost"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: cca762e8a5ff41989c9df3cced2e3f50
+#: ddd9004b19a64ce6b4582ccebf9e7c2c
 msgid "Shown before you run"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 672e2e6cd03c46d49a91eb940ac70f5b
+#: 83227e2cdb2548a5b1c817724bfead54
 msgid "No AI model is used. You still pick imagery as a visual reference."
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: dd74e28321ae4a2da6b1456d9fc812e0
+#: e371327219be40bba667185210ac9ecf
 msgid "Downloads the classes you choose from OpenStreetMap and Overture Maps for your area, so you can check coverage before running AI, or fill gaps after."
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 9913f390de3940ef93dea803ef1d09f9
+#: 4f02d485bee64564be2f328fc13ed871
 msgid "What you get"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 799ea589b77048849c6c409c5f543d81
+#: 4026749d0e3a48d3a22b73074b794583
 msgid "Vector layers for each class you select."
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 6542782b7e614aa0aeca7d87cd8e84ad
+#: a62e349c4e1945ae8fb77c1471d7d7ad
 msgid "Works best with"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: a2991db8acca45c5ad807e5d54686ced
+#: f0dfc7b1bf314f8b94d23d0acd5d7bdd
 msgid "Any area. Quality depends on how complete open data is there, and it may not line up exactly with the imagery."
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 0ed2ecaf156e4e40bb7d83d68fa9deb0
+#: 63410db8751042219e5ddac0607a06e1
 msgid "Usage examples"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: f4ba056926c04f37ba8ca5ce1b60c281
+#: 04f498a9b82948048584bafcd37291b2
 msgid "Check OSM completeness before paying for AI mapping"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: db4bc2269ab04807b5b8d9d519c952a9
+#: 14dd433d6f87494eaaf0f10cd307aa15
 msgid "Combine open data with AI results"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 1078dd2335a14a6ab0fdc8caece2ab93
+#: a98f3afce18b40b2b13220ad54afe1f9
 msgid "Add context layers to a project in one step"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 025b68a0322d4a9c90a46b2e3025bbf9
+#: 696a09ec158d455692acd0a12e36747d
 msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 267f5ac6ee454625bc8937a384411ec0
+#: b0fdc6e760de4b8aaa1878760f76ee9e
 msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 04387aae42d94a838162094b6ce4df6c
+#: 60178453dc414be28e09164378ba4265
 msgid ":doc:`Pricing </userguides/prices>`"
 msgstr ""
 
 #: ../userguides/open-data.rst:0
-#: f88b423e53e44e709c2a49d669de81ff
+#: 4f05a36224df41ae9fd3516eb176c2cd
 msgid "Method"
 msgstr ""
 
 #: ../userguides/open-data.rst:10
-#: 8baaa8611d4d4e3ba639fc3ea14eedea
+#: fbe3463340c34561bfdae4a605488ced
 msgid "No AI model: OpenStreetMap + Overture Maps"
 msgstr ""
 
 #: ../userguides/open-data.rst:12
-#: 5be42f95f69b4b2394205327b9d5ecc9
+#: 1a1554ff53c84f7fba3e0d395144377a
 msgid "How to run it"
 msgstr ""
 
 #: ../userguides/open-data.rst:14
-#: 8a8a40b509194c2090ad600bd2c3d431
+#: 8205bb9a0d3440318980d048d64f4b80
 msgid "Select one or more classes and run the workflow. You select an image source the same way as for AI-mapping models. The image is only a visual reference, so you can decide whether the data needs edits or a Mapflow model run to complete it."
 msgstr ""
 
 #: ../userguides/open-data.rst:0
-#: abbcbc8a5d684e44b3675d01118a2315
+#: c9e72d00340e4f07b8a8f12ba864c82a
 msgid "Choosing classes for the Open Data workflow"
 msgstr ""
 
 #: ../userguides/open-data.rst:24
-#: dc8a7b8093544085a495d6fa78d9ec94
+#: d45bb69b8491434287d431eb188fa2eb
 msgid "Choose the classes and run the workflow"
 msgstr ""
 
 #: ../userguides/open-data.rst:0
-#: 41a75f3d14444e56a37adfa9e439a737
+#: 645f325731f846129ce8dfab55aa70b9
 msgid "Open Data results with the image preview"
 msgstr ""
 
 #: ../userguides/open-data.rst:30
-#: ede15de5f0124f84a86ca56121554b3c
+#: 6727bfa237df462da5eb9adc160c0299
 msgid "Results and the image preview, in Mapflow Web or QGIS"
 msgstr ""
 
 #: ../userguides/open-data.rst:33
-#: 05f87c412fa2435b8e898a2edcfe7b3c
+#: bad3aa2082d842e6bd096bfbe0f2a1cd
 msgid "Results depend on how complete open mapping data is in your area. The data comes from an external source, so it may not line up exactly with the image. Use it alongside AI-mapping results as a complementary source."
 msgstr ""
 
 #: ../userguides/open-data.rst:37
-#: 606de6d209674efb9cb1ed7cb2392173
+#: cedf14f83d2947e6a56554a7345633b4
 msgid "Need a different object?"
 msgstr ""
 
 #: ../userguides/open-data.rst:37
-#: bf0a771be0c94ad6bf8c7e3ae2e94c15
+#: 22dd9e883bc643599252831c5f5051c6
 msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
 msgstr ""
 
 #: ../userguides/open-data.rst:37
-#: e0266ea2db3743dcbb67f0977c70a61a
+#: 7db70a6d2c654bb09cc59999fab13800
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
 #: ../userguides/open-data.rst:37
-#: cc718c43e2404d03afb33a74e0d2710e
+#: 3064d2aa7279494d88745972db2cf7cd
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
 #: ../userguides/open-data.rst:37
-#: 12996555973b4b23be4af42a2db8d91a
+#: ab39b733696843e4bc1e71bb6a44fb7b
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""
