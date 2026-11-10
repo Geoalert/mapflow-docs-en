@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 13:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,161 +17,176 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/solars_model.rst:1
-#: c342f9e2849c43dabbe65d5a058e3ac7
-msgid "Detect photovoltaic panels on rooftops and on the ground from aerial imagery at zoom 19-21. Available as a custom model on request."
+#: 7b74a8d22b754125846a5b8e576e4bcd
+msgid "Detects solar panels from aerial imagery. Useful for monitoring solar energy installations and urban planning. Requires high-resolution aerial imagery for accurate detection."
 msgstr ""
 
 #: ../userguides/solars_model.rst:7
-#: 09ea2f86bec3432ea0789c6cdcc185bd
+#: 59ae86fb5ccb4a02a03d1d926cce59b9
 msgid "Solar panels"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 746a196e97b245bead40ea53fc49dca1
+#: f27a2103bb454add834ed14d4e21e6c2
 msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
 msgstr ""
 
 #: ../userguides/solars_model.rst:0
-#: 854600cbec984953998976fbe10b6c38
+#: 450ca36acfe34840b250ff7e06d1f347
 msgid "Detected rooftop solar panels"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 4393c23fc8d040b48d29b62e19294366
+#: ad7c8ba5ae8245eba4b4efc59d529941
 msgid "Example result: rooftop and ground-mounted panels."
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 9119c95a1c7d487eb885c2c216e977f5
+#: 1779767bd2534ff18c88e5bc1f2595dc
 msgid "Cost"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 7cf1a5475fa9426ba867ec1f2c0e9d35
+#: 897a6f6c4c76429a86511dbb6ff8efa1
 msgid "Priced per project"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 7b0f7e192ac548969a37d93a10875d40
+#: 6342357d34ff4ffcb619fa389825e0aa
 msgid "Request access and we connect the model to your account."
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 0f257cb351ee41e3a35889dd169809df
+#: d73fd2bc5f934f0d8729bff864ea6023
 msgid "A detection and segmentation model for photovoltaic panels, trained on aerial imagery. It finds panels on rooftops and in solar farms."
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: fde0fa14795d4ba5af55ef6da516fbc1
+#: edbeaf494193492089e098ab2e241b6f
 msgid "What you get"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: cf7cad7ce1944ed0b55fc1f91d442ea3
+#: 17cfb2853d2242b488abc322e685e95b
 msgid "Solar panel polygons."
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: ca63e33cc4ec478cb48c88e0f4680e4f
+#: b89c1169c5f44d50b882774303514376
 msgid "Works best with"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 566c8dbd28c04a08927de00b30957fa6
+#: 426920ceb3d1462cb2e62e69688d18e1
 msgid "Aerial imagery at zoom 19–21."
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 94ce5fde4c4b4472942189185d84b6dd
+#: 74f5a6e97ba347d6867972fdd75d28bc
 msgid "Usage examples"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 517e46898f064e3fb5163a52bae170e1
+#: 55c56f50c2f34e2593e0f59116980771
 msgid "Inventory rooftop solar in a municipality"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: f5c34444066f4300879897479c76311a
+#: de0212add3d5478aa8f33ed339558130
 msgid "Monitor solar farm build-out"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 745f28d353a244bcb51694abeda18ee8
+#: 11dd593441864751917e8780736368d8
 msgid "Estimate installed panel area for grid planning"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 040bb42a7ee742119ee7193cb94e326d
+#: db1789ac1e24465f9b38df1368202f2a
 msgid "`Request access <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 04e710fede66436e9adc7ab8c9873a20
+#: 77c00a09ff2c428ca22429eafa8cda1e
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
 msgstr ""
 
 #: ../userguides/solars_model.rst:0
-#: a0cb58a9e97a4cbb8e7904ee50530d27
+#: abfcf8483f7b40d49d5201a1b87fa86d
 msgid "Geo domain"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 8936e37072c947c7859bdbc526998878
+#: fdc97b98bce944e280bfe4ef8325a10d
 msgid "Global"
 msgstr ""
 
 #: ../userguides/solars_model.rst:0
-#: e3bc403f3b294293b40222752a446297
+#: 30b6a5e625ee416b922aa708c2509a34
 msgid "Method"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 18381ca2b4cb4f33b9506d8fe5d4e54e
+#: fbe965acf3524b2e88f0ea26ed97eb9d
 msgid "Detector + segmentation"
 msgstr ""
 
 #: ../userguides/solars_model.rst:0
-#: b52428f137634338bba0b984d0931687
+#: 30336f5b22c64832aaf926d98e9f8b4b
 msgid "GSD / zoom"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: 4cd34c7c21924d58aac32f645995dc8b
+#: 933896804b2c415d9206970c0c4ba5c9
 msgid "z19–21"
 msgstr ""
 
 #: ../userguides/solars_model.rst:0
-#: 5644be9bf4684ade93910d42ee65ccd3
+#: 901391c1cd154c359e37bf804090bb19
 msgid "Test score"
 msgstr ""
 
 #: ../userguides/solars_model.rst:10
-#: a9c0955d144b4166bac60d8f21eff632
+#: f261f0b976ea4ef694f52dc8cba1991d
 msgid "Pixel-wise F1 > 0.77"
 msgstr ""
 
 #: ../userguides/solars_model.rst:12
-#: 7366a88fd273433ea083acf7c7058cbf
+#: 032180097045453594fa8038d664998b
+msgid "How it works"
+msgstr ""
+
+#: ../userguides/solars_model.rst:14
+#: 91b15a2bef7d4056847e3a91919d059d
+msgid "The model combines detection and segmentation to find photovoltaic panels on rooftops and in solar farms and outline them as polygons. It is trained on aerial imagery and needs high-resolution aerial imagery at zoom 19–21 for accurate detection. The test score is a pixel-wise F1 above 0.77."
+msgstr ""
+
+#: ../userguides/solars_model.rst:19
+#: 36bf6d88ae8e4bdabb8cc18bbfb7715b
+msgid "Use it to monitor solar energy installations and for urban planning."
+msgstr ""
+
+#: ../userguides/solars_model.rst:22
+#: db5c2a290c1a4d3b904bad0bcee16209
 msgid "Need a different object?"
 msgstr ""
 
-#: ../userguides/solars_model.rst:12
-#: 82bc47a75184416381098ce36c62cefe
+#: ../userguides/solars_model.rst:22
+#: dcb9d6fdb35e43f9995bd9ffbd88bddf
 msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
 msgstr ""
 
-#: ../userguides/solars_model.rst:12
-#: 346492affa9e4eb99260d6be5cfe0a0d
+#: ../userguides/solars_model.rst:22
+#: 3e370c31c883496baac95c4b6a2ef24d
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/solars_model.rst:12
-#: 7b937edebeeb4578aa636589abb30fb6
+#: ../userguides/solars_model.rst:22
+#: fed68b6657484ef89e143b6eb92e1796
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
-#: ../userguides/solars_model.rst:12
-#: cff374444fc842ca9ca535d2711fd0b8
+#: ../userguides/solars_model.rst:22
+#: 567776dad5fe49879b533e36ff2d2233
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

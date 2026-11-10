@@ -23,17 +23,17 @@ msgstr ""
 msgid ""
 "Read the Mapflow processing results summary - feature counts, areas and "
 "lengths per layer, CSV export and questions to the Mapflow Agent."
-msgstr ""
+msgstr "阅读 Mapflow 处理结果摘要：各图层的要素数量、面积和长度，CSV 导出，以及向 Mapflow 代理提问。"
 
 #: ../userguides/results_summary.rst:7 64c8c5e2631a4108b48a79998857e91c
 msgid "Results Summary (Statistics)"
-msgstr ""
+msgstr "结果摘要（统计）"
 
 #: ../userguides/results_summary.rst:9 3e1a70ab028a4c73accb53f7252e465c
 msgid ""
 "Getting a vector layer is only part of the imagery analysis workflow. The"
 " next question is usually: *what did the model actually find?*"
-msgstr ""
+msgstr "获取矢量图层只是影像分析工作流程的一部分。接下来的问题通常是：*模型究竟发现了什么？*"
 
 #: ../userguides/results_summary.rst:12 1b495bad2d7043baade5d75d93ca971e
 msgid ""
@@ -43,10 +43,12 @@ msgid ""
 " for the whole processing AOI, regardless of what is currently visible on"
 " the map."
 msgstr ""
+"Mapflow Web 中每个已完成的处理在打开时都会立即显示其结果的 "
+"**摘要**：每个输出图层检测到的要素数量及其总计（面积、长度、数量）。摘要针对整个处理 AOI 计算，与地图上当前可见的内容无关。"
 
 #: b05383cbf4fe437fb23a80b180b23945
 msgid "Processing results with the summary panel"
-msgstr ""
+msgstr "带有摘要面板的处理结果"
 
 #: ../userguides/results_summary.rst:25 2e8a3c4263c4403da5c8cdaea5782a2b
 msgid ""
@@ -55,31 +57,33 @@ msgid ""
 "statistics, and their summaries can be customized as well (see "
 ":doc:`custom_pipelines`)."
 msgstr ""
+"该服务由 **Statistics API** 提供支持，适用于所有默认的 Mapflow "
+"模型。自定义模型工作流包含基础统计信息，其摘要也可以自定义（请参阅 :doc:`custom_pipelines`）。"
 
 #: ../userguides/results_summary.rst:31 7c5876ecfd694cbeb16e44be015490bb
 msgid "The summary panel"
-msgstr ""
+msgstr "摘要面板"
 
 #: ../userguides/results_summary.rst:33 0c5f5514f3644666a509e983072487c5
 msgid ""
 "When the processing is finished, the panel appears above the map with the"
 " total number of detected features, the list of the output layers and the"
 " processed area:"
-msgstr ""
+msgstr "处理完成后，地图上方会出现该面板，显示检测到的要素总数、输出图层列表以及已处理的面积："
 
 #: 2136415f274643519583f847729a08b4
 msgid "Dataset ready - features detected"
-msgstr ""
+msgstr "数据集已就绪 - 已检测到要素"
 
 #: ../userguides/results_summary.rst:44 53d006d4780b45a582a022ce077dfa5b
 msgid "The panel contains:"
-msgstr ""
+msgstr "面板包含："
 
 #: ../userguides/results_summary.rst:46 db994f3760404056a4e76162691411e0
 msgid ""
 "**Header** – the status of the dataset and the total number of detected "
 "features, e.g. *\"Dataset ready – 11,206 features detected\"*."
-msgstr ""
+msgstr "**标题** – 数据集的状态和检测到的要素总数，例如 *“数据集已就绪 – 已检测到 11,206 个要素”*。"
 
 #: ../userguides/results_summary.rst:48 da789eebd82b4ad99336f60484df4234
 msgid ""
@@ -87,58 +91,62 @@ msgid ""
 "of the processed area, e.g. *\"crown · building · forest · roads · "
 "waterbodies over 1.00 km²\"*."
 msgstr ""
+"**副标题** – 处理中包含的输出图层以及已处理区域的面积，例如 *“crown · building · forest · roads · "
+"waterbodies，面积 1.00 km²”*。"
 
 #: ../userguides/results_summary.rst:50 b4ee0b5120244d11ad21deb0a767fdb9
 msgid ""
 "**Per-layer statistics** – one entry per layer, colored as the layer on "
 "the map, with the feature count and the corresponding total (area or "
 "length)."
-msgstr ""
+msgstr "**各图层统计** – 每个图层一条记录，颜色与该图层在地图上的颜色一致，显示要素数量及相应的总计（面积或长度）。"
 
 #: ../userguides/results_summary.rst:52 19d159e4a98b4e78b227b0a2dcaf9988
 msgid ""
 "**Zoom hint** – tells you whether all the results are currently rendered "
 "on the map. At a low zoom level the map may display a part of the "
 "features, while the statistics are always counted for the whole result."
-msgstr ""
+msgstr "**缩放提示** – 告诉您所有结果当前是否都已在地图上渲染。在较低的缩放级别下，地图可能只显示部分要素，而统计数据始终针对完整结果计算。"
 
 #: ../userguides/results_summary.rst:55 7a22e0c4ea4f4b97828eb3e67349f1b4
 msgid ""
 "**Actions** – :ref:`Download CSV <statistics csv>` and :ref:`Ask about "
 "these results <statistics agent>`."
 msgstr ""
+"**操作** – :ref:`下载 CSV <statistics csv>` 和 :ref:`询问这些结果 <statistics "
+"agent>`。"
 
 #: ../userguides/results_summary.rst:57 9cc359b2cc7e4dc2887b6211f9fe45b3
 #: d474f2758ad04b56983de56ad1647e7a
 msgid "stats_button"
-msgstr ""
+msgstr "stats_button"
 
 #: ../userguides/results_summary.rst:61 dec8538c40814388a4ad59a16abf0057
 msgid ""
 "If you closed the panel, or opened an earlier processing, you can bring "
 "the summary back with the **statistics** button |stats_button| in the "
 "toolbar under the map."
-msgstr ""
+msgstr "如果您关闭了面板，或打开了较早的处理，可以使用地图下方工具栏中的 **统计** 按钮 |stats_button| 重新显示摘要。"
 
 #: ../userguides/results_summary.rst:66 1571e43bce59466783d047cc2c72c5e8
 msgid "What each model reports"
-msgstr ""
+msgstr "各模型提供的统计信息"
 
 #: ../userguides/results_summary.rst:68 3178f4db08f64dbcbc05af296dccd696
 msgid "Each model highlights the statistics that matter for its output:"
-msgstr ""
+msgstr "每个模型都会突出显示与其输出相关的统计信息："
 
 #: ../userguides/results_summary.rst:74 a72ae441ff4246c1a806a77642e4eea2
 msgid "MODEL"
-msgstr ""
+msgstr "模型"
 
 #: ../userguides/results_summary.rst:75 8a027d2925f14fd2a61d2a035d647f2f
 msgid "STATISTICS"
-msgstr ""
+msgstr "统计信息"
 
 #: ../userguides/results_summary.rst:76 e9ed4cbb829d435591aef5ac85554df2
 msgid "🏠 Buildings"
-msgstr ""
+msgstr "🏠 Buildings"
 
 #: ../userguides/results_summary.rst:77 f3e8ac03f824429fae76fd40c3feb402
 msgid ""
@@ -146,56 +154,58 @@ msgid ""
 "option applied, the counts are also given by building type (see "
 ":ref:`Building Mapping classes <buildings_classes>`)."
 msgstr ""
+"建筑物数量及其总面积。应用 *分类* 选项后，还会按建筑物类型给出数量（请参阅 :ref:`建筑物测绘类别 "
+"<buildings_classes>`）。"
 
 #: ../userguides/results_summary.rst:79 0a57e1748e5643ff92cea55fd9c3691f
 msgid "🚗 Roads"
-msgstr ""
+msgstr "🚗 Roads"
 
 #: ../userguides/results_summary.rst:80 a248b0117cc94465b66c5d19dac735ae
 msgid "Total length of the extracted road network."
-msgstr ""
+msgstr "提取的道路网络的总长度。"
 
 #: ../userguides/results_summary.rst:81 189b3fca5fe44afaad9b59b677b3b6f2
 msgid "🌲 Forest and trees"
-msgstr ""
+msgstr "🌲 Forest and trees"
 
 #: ../userguides/results_summary.rst:82 232cdb848c124799aa95daaf0eac511c
 msgid ""
 "Total vegetation area. With the *Tree crowns* option applied, the number "
 "of the extracted crowns is reported as well."
-msgstr ""
+msgstr "植被总面积。应用 *树冠* 选项后，还会报告提取的树冠数量。"
 
 #: ../userguides/results_summary.rst:84 0c4eefd7f8b1493b9d730a845e91ea78
 msgid "🌍 Land use"
-msgstr ""
+msgstr "🌍 Land use"
 
 #: ../userguides/results_summary.rst:85 adacb131871e452da0538c9b6821c6cd
 msgid "Area per land use category."
-msgstr ""
+msgstr "各土地利用类别的面积。"
 
 #: ../userguides/results_summary.rst:86 52279bc6e714459b95a12deff016903c
 msgid "💧 Water bodies"
-msgstr ""
+msgstr "💧 Water bodies"
 
 #: ../userguides/results_summary.rst:87 a73be39e5d4b4a9d9e8059e0684967d6
 msgid ""
 "Number of the water bodies and their total area (the layer is added by "
 "the *Water* post-processing option)."
-msgstr ""
+msgstr "水体数量及其总面积（该图层由 *水体* 后处理选项添加）。"
 
 #: ../userguides/results_summary.rst:88 c4918cb10eb14cc884514ed82b7b8685
 msgid "[multi] models"
-msgstr ""
+msgstr "[multi] 模型"
 
 #: ../userguides/results_summary.rst:89 a0edc69a3b354fefa21e3c12fa6746f5
 msgid ""
 "One entry per output layer, e.g. *crown*, *building*, *forest*, *roads*, "
 "*waterbodies*."
-msgstr ""
+msgstr "每个输出图层一条记录，例如 *crown*、*building*、*forest*、*roads*、*waterbodies*。"
 
 #: ../userguides/results_summary.rst:95 21b364e7b17b494287b2d973219c1fce
 msgid "Download the statistics as CSV"
-msgstr ""
+msgstr "将统计数据下载为 CSV"
 
 #: ../userguides/results_summary.rst:97 7d8dbc6c0ac646eead719b25e85d4cc6
 msgid ""
@@ -204,14 +214,16 @@ msgid ""
 "it to attach the figures to a report, or to compare several processings "
 "of the same area."
 msgstr ""
+"单击摘要面板中的 **“下载 "
+"CSV”**，将这些数字保存为表格——每个图层或类别一行，包含数量和总计。您可以用它将数据附加到报告中，或比较同一区域的多次处理结果。"
 
 #: ../userguides/results_summary.rst:102 884966e58dca457a9183b7d2c58fa313
 msgid "PDF reports will be available soon."
-msgstr ""
+msgstr "PDF 报告即将推出。"
 
 #: ../userguides/results_summary.rst:108 dfc935841f634eabad4a79cc5afb78db
 msgid "Ask the Mapflow Agent about the results"
-msgstr ""
+msgstr "向 Mapflow 代理询问结果"
 
 #: ../userguides/results_summary.rst:110 b8a345bff1d3447488a6ef74dc9db28f
 msgid ""
@@ -220,22 +232,26 @@ msgid ""
 "statistics of the processing, so you can ask it to explain the numbers, "
 "compare the layers, or estimate the values you need, e.g.:"
 msgstr ""
+"单击 **“询问这些结果”**，即可在 :doc:`Mapflow 代理 <mapflow_agent>` "
+"聊天中继续。代理会立即获得该处理的结构化统计数据，因此您可以让它解释这些数字、比较各图层，或估算您需要的数值，例如："
 
 #: ../userguides/results_summary.rst:114 ca0439d7c21f47eca5da9f34831b7597
 msgid "*\"How much of the area is covered by vegetation?\"*"
-msgstr ""
+msgstr "*“该区域有多少面积被植被覆盖？”*"
 
 #: ../userguides/results_summary.rst:115 8849d51c87d841258f3e05f1a870cb2d
 msgid "*\"What is the average building footprint here?\"*"
-msgstr ""
+msgstr "*“这里建筑物的平均占地面积是多少？”*"
 
 #: ../userguides/results_summary.rst:116 625ae093f1e2422d860ab2ca5caf5dcb
 msgid "*\"Summarize the results for a report.\"*"
-msgstr ""
+msgstr "*“为报告总结这些结果。”*"
 
 #: ../userguides/results_summary.rst:119 6c1caeb206e348af9757d44fd6fecd9a
 msgid ""
 ":ref:`View the results <View the results>` in the Get started guide, and "
 "the :doc:`Mapflow Agent <mapflow_agent>` user guide."
 msgstr ""
+"入门指南中的 :ref:`查看结果 <View the results>`，以及 :doc:`Mapflow 代理 "
+"<mapflow_agent>` 用户指南。"
 

@@ -8,26 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/forest_model.rst:1 84e5c56d29354f6ebca8f00366a1cb84
+#: ../userguides/forest_model.rst:1 7724c6a67dbd4f4aad5499d488ae4250
 msgid ""
-"Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. "
-"Covers sparse forest, shrubland, small tree groups and narrow tree lines, "
-"with height classes and tree crowns."
+"Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite "
+"imagery. Covers sparse forest, shrubland, small tree groups and narrow "
+"tree lines, with height classes and tree crowns."
 msgstr ""
-"Обнаружение леса, деревьев и кустарников по спутниковым снимкам 0,6–0,3 м. "
-"Включает разреженный лес, кустарники, небольшие группы деревьев и узкие "
-"лесополосы, а также классы высоты и кроны деревьев."
+"Обнаружение леса, деревьев и кустарников по спутниковым снимкам 0,6–0,3 "
+"м. Включает разреженный лес, кустарники, небольшие группы деревьев и "
+"узкие лесополосы, а также классы высоты и кроны деревьев."
 
 #: ../userguides/forest_model.rst:7 ef8a0d2d657b47868521384a8ac52da2
 msgid "Forest and trees"
@@ -35,8 +36,7 @@ msgstr "Лес и деревья"
 
 #: ../userguides/forest_model.rst:10 8bb28462412b454a8176836eab15ce87
 msgid ":mf-chip:`forest|Trees and vegetation` :mf-badge:`Default model`"
-msgstr ""
-":mf-chip:`forest|Деревья и растительность` :mf-badge:`Модель по умолчанию`"
+msgstr ":mf-chip:`forest|Деревья и растительность` :mf-badge:`Модель по умолчанию`"
 
 #: ../userguides/forest_model.rst ../userguides/forest_model.rst:22
 #: 95398d9c580147de9518414e4d93bdfe e216684fb7334d0aabde3a11e8f094dd
@@ -63,14 +63,15 @@ msgstr "Пример: 10 км² на Mapbox с зумом 18 ≈ 110 креди�
 
 #: ../userguides/forest_model.rst:10 4df59dbf60c04f4aafab9e93f312be6a
 msgid ""
-"Segments every area covered by trees and shrubs, including sparse forest and"
-" shrubland. It works in most environments, cities included. Height classes "
-"and individual tree crowns are options you switch on when you start a run."
+"Segments every area covered by trees and shrubs, including sparse forest "
+"and shrubland. It works in most environments, cities included. Height "
+"classes and individual tree crowns are options you switch on when you "
+"start a run."
 msgstr ""
 "Сегментирует все участки, покрытые деревьями и кустарниками, включая "
-"разреженный лес и кустарники. Работает в большинстве условий, в том числе в "
-"городах. Классы высоты и отдельные кроны деревьев включаются как опции при "
-"запуске."
+"разреженный лес и кустарники. Работает в большинстве условий, в том числе"
+" в городах. Классы высоты и отдельные кроны деревьев включаются как опции"
+" при запуске."
 
 #: ../userguides/forest_model.rst:10 ../userguides/forest_model.rst:29
 #: ../userguides/forest_model.rst:49 02a1238ec5124d1bbc7b6750bb150d31
@@ -93,8 +94,8 @@ msgid ""
 "0.6–0.15 m imagery (zoom 18–20) taken in the growing season. Leafless or "
 "snow-covered trees are not detected."
 msgstr ""
-"Снимки 0,6–0,15 м (зум 18–20), сделанные в вегетационный период. Деревья без"
-" листвы или под снегом не распознаются."
+"Снимки 0,6–0,15 м (зум 18–20), сделанные в вегетационный период. Деревья "
+"без листвы или под снегом не распознаются."
 
 #: ../userguides/forest_model.rst:10 ../userguides/forest_model.rst:29
 #: ../userguides/forest_model.rst:49 a51d63793a2d4a9db26e3b03dea018d2
@@ -160,15 +161,15 @@ msgstr "0,6–0,15 м / z18–20"
 
 #: ../userguides/forest_model.rst:11 7c7fbe9acfa845df854e1f40bf0bab2c
 msgid ""
-"The model is trained on 0.6–0.3 m imagery from different regions and climate"
-" zones. Its resolution is enough to find small groups of trees and narrow "
-"tree lines. Use imagery from the growing season: leafless trees and snow-"
-"covered vegetation are not the target class."
+"The model is trained on 0.6–0.3 m imagery from different regions and "
+"climate zones. Its resolution is enough to find small groups of trees and"
+" narrow tree lines. Use imagery from the growing season: leafless trees "
+"and snow-covered vegetation are not the target class."
 msgstr ""
-"Модель обучена на снимках 0,6–0,3 м из разных регионов и климатических зон. "
-"Её разрешения достаточно, чтобы находить небольшие группы деревьев и узкие "
-"лесополосы. Используйте снимки вегетационного периода: деревья без листвы и "
-"растительность под снегом не являются целевым классом."
+"Модель обучена на снимках 0,6–0,3 м из разных регионов и климатических "
+"зон. Её разрешения достаточно, чтобы находить небольшие группы деревьев и"
+" узкие лесополосы. Используйте снимки вегетационного периода: деревья без"
+" листвы и растительность под снегом не являются целевым классом."
 
 #: ../userguides/forest_model.rst:16 21bf335755794449b78fbb9267ddd5f0
 msgid "Scenarios with this model"
@@ -193,8 +194,8 @@ msgstr ":mf-chip:`forest|Запуск по умолчанию`"
 #: ../userguides/forest_model.rst:22 08c47df95b294bf1ad3976857cb34411
 msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr ""
-"Весь древесный и кустарниковый покров, вплоть до небольших групп деревьев и "
-"лесополос."
+"Весь древесный и кустарниковый покров, вплоть до небольших групп деревьев"
+" и лесополос."
 
 #: ../userguides/forest_model.rst:22 8c871b36996b4ebfb1e27f563977deef
 msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
@@ -259,12 +260,12 @@ msgstr "Пример: 10 км² на Mapbox с зумом 18 ≈ 210 креди�
 #: ../userguides/forest_model.rst:29 dfc6e4df7fb1495784517764250c6e8a
 msgid ""
 "Runs the forest model with height estimation. Vegetation is classed as "
-"shrubs under 4 m, forest from 4 to 10 m and forest over 10 m, which is what "
-"vegetation managers need near power lines."
+"shrubs under 4 m, forest from 4 to 10 m and forest over 10 m, which is "
+"what vegetation managers need near power lines."
 msgstr ""
-"Запускает модель леса с оценкой высоты. Растительность делится на кустарники"
-" ниже 4 м, лес от 4 до 10 м и лес выше 10 м — именно это нужно специалистам "
-"по обслуживанию охранных зон ЛЭП."
+"Запускает модель леса с оценкой высоты. Растительность делится на "
+"кустарники ниже 4 м, лес от 4 до 10 м и лес выше 10 м — именно это нужно "
+"специалистам по обслуживанию охранных зон ЛЭП."
 
 #: ../userguides/forest_model.rst:29 4f52ac1affd04b63b9ca54ceb1d30af5
 msgid "Vegetation polygons with a height class."
@@ -288,12 +289,12 @@ msgstr "Проверить растительность вдоль автомо�
 
 #: ../userguides/forest_model.rst:29 3b7134f28be040349a5a682609851454
 msgid ""
-"**Tip.** Buffer your line layer in QGIS (Vector › Geoprocessing › Buffer) "
-"and use the buffer as the area, so you pay only for the corridor."
+"**Tip.** Buffer your line layer in QGIS (Vector › Geoprocessing › Buffer)"
+" and use the buffer as the area, so you pay only for the corridor."
 msgstr ""
-"**Совет.** Постройте буфер вокруг слоя линий в QGIS (Вектор › Геообработка ›"
-" Буфер) и используйте его как область обработки — так вы платите только за "
-"коридор."
+"**Совет.** Постройте буфер вокруг слоя линий в QGIS (Вектор › "
+"Геообработка › Буфер) и используйте его как область обработки — так вы "
+"платите только за коридор."
 
 #: ../userguides/forest_model.rst:33 c87d3d9818ed4b6ea8e9fd9dd3b04d32
 msgid "Height classes:"
@@ -315,8 +316,8 @@ msgstr "лес выше 10 м."
 msgid ""
 "The classes support vegetation management in power line corridors and "
 "similar zones, see the `professional solutions by Geoalert "
-"<https://geoalert.io/solutions/power>`_. The thresholds can be customized "
-"for your requirements."
+"<https://geoalert.io/solutions/power>`_. The thresholds can be customized"
+" for your requirements."
 msgstr ""
 "Классы помогают управлять растительностью в охранных зонах ЛЭП и похожих "
 "зонах, см. `профессиональные решения Geoalert "
@@ -340,8 +341,8 @@ msgid ""
 "Extracts tree crowns from forest and from single trees, as points with a "
 "crown radius or as crown polygons."
 msgstr ""
-"Извлекает кроны деревьев в лесу и отдельных деревьев в виде точек с радиусом"
-" кроны или в виде полигонов крон."
+"Извлекает кроны деревьев в лесу и отдельных деревьев в виде точек с "
+"радиусом кроны или в виде полигонов крон."
 
 #: ../userguides/forest_model.rst:49 9e9565f0333e4df7bf1574ec99cba381
 msgid "Tree crown points with a radius, or crown polygons."
@@ -365,8 +366,8 @@ msgstr "Отслеживание вырубки деревьев на строй
 
 #: ../userguides/forest_model.rst:51 e9a33d4637db4713831c9f5111cbc77d
 msgid ""
-"Use 0.3 m imagery (about zoom 19) with the **Tree crowns** options when you "
-"need individual trees."
+"Use 0.3 m imagery (about zoom 19) with the **Tree crowns** options when "
+"you need individual trees."
 msgstr ""
 "Используйте снимки 0,3 м (примерно зум 19) с опциями **Кроны деревьев**, "
 "если нужны отдельные деревья."
@@ -384,8 +385,8 @@ msgid ""
 "Classifies the forest mask by height: shrubs under 4 m, forest 4–10 m, "
 "forest over 10 m."
 msgstr ""
-"Классифицирует маску леса по высоте: кустарники ниже 4 м, лес 4–10 м, лес "
-"выше 10 м."
+"Классифицирует маску леса по высоте: кустарники ниже 4 м, лес 4–10 м, лес"
+" выше 10 м."
 
 #: ../userguides/forest_model.rst:62 e2ba9e1fce154084a7f911488d2529e0
 msgid "Tree crown polygons"
@@ -393,7 +394,8 @@ msgstr "Полигоны крон деревьев"
 
 #: ../userguides/forest_model.rst:62 e57aa913cd344b558b7b2740f92ffd43
 msgid ""
-"Extracts tree crowns from forest and from free-standing trees, as polygons."
+"Extracts tree crowns from forest and from free-standing trees, as "
+"polygons."
 msgstr ""
 "Извлекает кроны деревьев в лесу и отдельно стоящих деревьев в виде "
 "полигонов."
@@ -407,8 +409,8 @@ msgid ""
 "Extracts tree crowns from forest and from free-standing trees, as points "
 "with a crown radius."
 msgstr ""
-"Извлекает кроны деревьев в лесу и отдельно стоящих деревьев в виде точек с "
-"радиусом кроны."
+"Извлекает кроны деревьев в лесу и отдельно стоящих деревьев в виде точек "
+"с радиусом кроны."
 
 #: ../userguides/forest_model.rst:68 7679dd1c201b4d4ebbe0dfd89e50bd05
 msgid "Sample results"
@@ -439,24 +441,28 @@ msgid "**Forest with heights** (raster output)"
 msgstr "**Лес с высотами** (растровый результат)"
 
 #: ../userguides/forest_model.rst:92 da98215d1727476f82c60af932239339
-msgid "Benchmarks"
-msgstr "Бенчмарки"
+msgid "📊 Benchmarks"
+msgstr "📊 Бенчмарки"
 
 #: ../userguides/forest_model.rst:94 88db2e2e2b74425287e9c357d8f10bcc
 msgid ""
-"**Forest and trees v.2026-07-03** (Global, segmentation) was evaluated on 8 "
-"areas of interest against manually annotated ground truth. Metrics are area-"
-"based: IoU is the intersection-over-union of the predicted and ground-truth "
-"vegetation masks, and F1, precision and recall are computed on the "
-"overlapping mask area."
+"**Forest and trees v.2026-09-10** (Global, segmentation) was evaluated on"
+" 8 areas of interest against manually annotated ground truth. Metrics are"
+" area-based: IoU is the intersection-over-union of the predicted and "
+"ground-truth vegetation masks, and F1, precision and recall are computed "
+"on the overlapping mask area. The **v.2026-09-10** update refines tree-"
+"crown extraction results."
 msgstr ""
-"**Forest and trees v.2026-07-03** (глобальная, сегментация) оценена на 8 "
-"территориях по вручную размеченной эталонной разметке. Метрики площадные: "
-"IoU — отношение пересечения к объединению предсказанных и эталонных масок "
-"растительности; F1, precision и recall рассчитаны по площади перекрытия "
-"масок."
+"**Forest and trees v.2026-09-10** (глобальная, сегментация) оценена на 8 "
+"областях интереса по эталонной разметке, выполненной вручную. Метрики "
+"площадные: IoU — отношение пересечения к объединению предсказанных и "
+"эталонных масок растительности; F1, точность (precision) и полнота "
+"(recall) рассчитаны по площади перекрытия масок. Обновление "
+"**v.2026-09-10** улучшает результаты извлечения крон деревьев."
 
-#: ../userguides/forest_model.rst:103 931091c35778498791a41e6bf0e1fba0
+#: ../userguides/forest_model.rst:103 ../userguides/forest_model.rst:186
+#: ../userguides/forest_model.rst:252 13112d7a7aa34772bbba43cedc8de992
+#: 931091c35778498791a41e6bf0e1fba0 dd8859dd1b93400db66f56a0e30002db
 msgid "AOI (location)"
 msgstr "АОИ (местоположение)"
 
@@ -464,27 +470,34 @@ msgstr "АОИ (местоположение)"
 msgid "Predicted features"
 msgstr "Прогнозируемые функции"
 
-#: ../userguides/forest_model.rst:105 e39c1017252b4b9f843162e498809754
+#: ../userguides/forest_model.rst:105 ../userguides/forest_model.rst:188
+#: bdb0f2d799ae47b3b174ba899664a82b e39c1017252b4b9f843162e498809754
 msgid "IoU"
 msgstr "долг"
 
-#: ../userguides/forest_model.rst:106 a239b59c68984d5c8651de032682ecdd
+#: ../userguides/forest_model.rst:106 ../userguides/forest_model.rst:189
+#: 376163296cb44265a138316bb74172cb a239b59c68984d5c8651de032682ecdd
 msgid "F1"
 msgstr "Ф1"
 
-#: ../userguides/forest_model.rst:107 087557134a94490bb32c3e6b2d05905e
+#: ../userguides/forest_model.rst:107 ../userguides/forest_model.rst:190
+#: 087557134a94490bb32c3e6b2d05905e 664b048a064743078f5efd8aac53c1ca
 msgid "Precision"
 msgstr "Точность"
 
-#: ../userguides/forest_model.rst:108 cb2673707e2d479e85c5a2847396c947
+#: ../userguides/forest_model.rst:108 ../userguides/forest_model.rst:191
+#: 2d3a4fbe063c4e87bfd2eb18542cb5f5 cb2673707e2d479e85c5a2847396c947
 msgid "Recall"
 msgstr "Отзывать"
 
-#: ../userguides/forest_model.rst:109 28fa524ba668491595eb76a1793ab052
+#: ../userguides/forest_model.rst:109 ../userguides/forest_model.rst:192
+#: ../userguides/forest_model.rst:256 28fa524ba668491595eb76a1793ab052
+#: 65cdcbc5568442b9b9f6a678d071823f a9f7200bbd19433e8a39c09c52d78da7
 msgid "Italy — Crotone"
 msgstr "Италия — Кротоне"
 
-#: ../userguides/forest_model.rst:110 7e3e2a84c41e415a8437bf8744d15308
+#: ../userguides/forest_model.rst:110 ../userguides/forest_model.rst:193
+#: 071826317926455eafb484264329a21b 7e3e2a84c41e415a8437bf8744d15308
 msgid "254"
 msgstr "254"
 
@@ -504,7 +517,9 @@ msgstr "0,944"
 msgid "0.909"
 msgstr "0,909"
 
-#: ../userguides/forest_model.rst:115 b0736056b324411e840e7476ef28fbe2
+#: ../userguides/forest_model.rst:115 ../userguides/forest_model.rst:198
+#: ../userguides/forest_model.rst:260 8ac829ed7bee4c2d96c345ae34230cf1
+#: b0736056b324411e840e7476ef28fbe2 ee35d1345e974a74af65f67f607de911
 msgid "Spain — Madrid"
 msgstr "Испания — Мадрид"
 
@@ -528,7 +543,9 @@ msgstr "0,880"
 msgid "0.915"
 msgstr "0,915"
 
-#: ../userguides/forest_model.rst:121 33e3ba3e0c3945178fd434916e6ce6b2
+#: ../userguides/forest_model.rst:121 ../userguides/forest_model.rst:204
+#: ../userguides/forest_model.rst:264 33e3ba3e0c3945178fd434916e6ce6b2
+#: 97c497f5f5f54a64b1042ccbb6ecaeb5 fe729599d22d4845a04758bd0d63ab86
 msgid "Philippines — Balanga"
 msgstr "Филиппины — Баланга"
 
@@ -553,7 +570,9 @@ msgstr "0,864"
 msgid "0.923"
 msgstr "0,923"
 
-#: ../userguides/forest_model.rst:127 04228b4dbe984e929b842ad46e54260c
+#: ../userguides/forest_model.rst:127 ../userguides/forest_model.rst:216
+#: ../userguides/forest_model.rst:272 04228b4dbe984e929b842ad46e54260c
+#: 14a2f0a6a97b469a85d48577a57479ea 3db8e181f4ea497a97b78ae7a46ec368
 msgid "Spain — Velilla de San Antonio"
 msgstr "Испания — Велилья де Сан Антонио"
 
@@ -573,7 +592,9 @@ msgstr "**0,879**"
 msgid "0.894"
 msgstr "0,894"
 
-#: ../userguides/forest_model.rst:133 bce3f5f1fdee4d00b57e1bc85cd74dc9
+#: ../userguides/forest_model.rst:133 ../userguides/forest_model.rst:210
+#: ../userguides/forest_model.rst:268 43bd6522e13b43d19e3cd120bf0afbef
+#: 643c1d0b011a47c1919ddfd98a0d855e bce3f5f1fdee4d00b57e1bc85cd74dc9
 msgid "Spain — Cuenca"
 msgstr "Испания — Куэнка"
 
@@ -621,7 +642,9 @@ msgstr "0,905"
 msgid "0.791"
 msgstr "0,791"
 
-#: ../userguides/forest_model.rst:145 8216753bf9a14f33b5ba16c44a113e3d
+#: ../userguides/forest_model.rst:145 ../userguides/forest_model.rst:222
+#: ../userguides/forest_model.rst:276 4af68abef3ad4b4a8ec591448f9f3713
+#: 8216753bf9a14f33b5ba16c44a113e3d 901a38b2e5cd44a3ac2681f5ee364973
 msgid "Spain — Rus"
 msgstr "Испания — Русь"
 
@@ -645,7 +668,9 @@ msgstr "0,699"
 msgid "0.841"
 msgstr "0,841"
 
-#: ../userguides/forest_model.rst:151 ca240164337046be9665a2ee88abf3d8
+#: ../userguides/forest_model.rst:151 ../userguides/forest_model.rst:228
+#: ../userguides/forest_model.rst:280 03f62afc8f624c6c9b0c6e099839e650
+#: aa04550257814cdea3a0115bf58eb320 ca240164337046be9665a2ee88abf3d8
 msgid "Argentina — La Banda"
 msgstr "Аргентина — Ла Банда"
 
@@ -696,57 +721,435 @@ msgstr "0,868"
 #: ../userguides/forest_model.rst:164 7145397c266f4871a53e9f2e7f17d3a0
 msgid ""
 "*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
-"vegetation masks; evaluation run 2026-07-03. Compared with the previous "
-"version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
+"vegetation masks; segmentation evaluation run 2026-07-03 (unchanged in "
+"v.2026-09-10). Compared with the previous version v.2025-06-14 (mean F1 "
+"0.513, IoU 0.396).*"
 msgstr ""
-"*IoU / F1 / Precision / Recall на основе площади измеряется по наземным "
-"маскам растительности; оценочный запуск 3 июля 2026 г. По сравнению с "
-"предыдущей версией v.2025-06-14 (среднее значение F1 0,513, IoU 0,396).*"
+"*Площадные IoU / F1 / Точность / Полнота относительно эталонных масок "
+"растительности; оценка сегментации проведена 2026-07-03 (в v.2026-09-10 "
+"без изменений). Сравнение с предыдущей версией v.2025-06-14 (среднее F1 "
+"0,513, IoU 0,396).*"
 
 #: ../userguides/forest_model.rst:169 190808dcd5294e0f9738e9a53783cf26
 msgid ""
-"📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` "
-"for the area-by-area breakdown, the comparison with the previous version and"
-" prediction-vs-ground-truth overlays."
+"📊 See :doc:`per-location segmentation benchmark details (v.2026-09-10) "
+"<forest_benchmark_2026-07-03>` for the area-by-area breakdown, the "
+"comparison with the previous version and prediction-vs-ground-truth "
+"overlays."
 msgstr ""
-"📊 Подробности по каждой локации — в :doc:`детальных результатах бенчмарка "
-"<forest_benchmark_2026-07-03>`: разбивка по территориям, сравнение с "
-"предыдущей версией и наложения «предсказание / эталон»."
+"📊 Подробности по каждой локации — в :doc:`детальных результатах бенчмарка"
+" сегментации (v.2026-09-10) <forest_benchmark_2026-07-03>`: разбивка по "
+"территориям, сравнение с предыдущей версией и наложения «предсказание / "
+"эталон»."
 
-#: ../userguides/forest_model.rst:173 15886d627166489d8bc268aba232cbbc
+#: ../userguides/forest_model.rst:174 bbce86c919d44e9b8bb993fd9a3dc7ed
+msgid "Benchmarks - tree crowns"
+msgstr "Бенчмарки – кроны деревьев"
+
+#: ../userguides/forest_model.rst:176 88db2e2e2b74425287e9c357d8f10bcc
+msgid ""
+"Latest update — **🌲 Forest and trees v.2026-09-10** (tree crown "
+"polygons). The crown-polygon output was evaluated on 7 areas of interest "
+"(AOI) against manually annotated ground truth. Metrics are area-based on "
+"the crown masks: IoU is the intersection-over-union of the predicted and "
+"ground-truth crown masks, and F1 / Precision / Recall are computed on the"
+" overlapping mask area."
+msgstr ""
+"Последнее обновление — **🌲 Forest and trees v.2026-09-10** (полигоны крон"
+" деревьев). Результат в виде полигонов крон оценён на 7 областях интереса"
+" (AOI) по эталонной разметке, выполненной вручную. Метрики рассчитываются"
+" по площади масок крон: IoU — отношение пересечения к объединению "
+"предсказанных и эталонных масок крон, а F1 / Точность / Полнота "
+"вычисляются по площади перекрытия масок."
+
+#: ../userguides/forest_model.rst:187 69ee36f45da6475bb2168d974ad19ad2
+msgid "Predicted crowns"
+msgstr "Предсказанные кроны"
+
+#: ../userguides/forest_model.rst:194 c2a12748dd0d4fd6b69aa5def8ffd455
+msgid "0.842"
+msgstr "0,842"
+
+#: ../userguides/forest_model.rst:195 987411bbe02a4e32b248db8e449f822b
+msgid "**0.914**"
+msgstr "**0,914**"
+
+#: ../userguides/forest_model.rst:196 90c31a449d1346e0b51a73a5e0654376
+msgid "0.930"
+msgstr "0,930"
+
+#: ../userguides/forest_model.rst:197 d8f6643ce4b9444aadd1e6736c3f6108
+msgid "0.898"
+msgstr "0,898"
+
+#: ../userguides/forest_model.rst:199 7f4d4d5e3f794433a3ddc30c6943dcc1
+msgid "398"
+msgstr "398"
+
+#: ../userguides/forest_model.rst:200 7d7e62458fe246dca3187d6dfb595628
+msgid "0.823"
+msgstr "0,823"
+
+#: ../userguides/forest_model.rst:201 325b91fe6c35422eb66dbc990463d6a7
+msgid "**0.903**"
+msgstr "**0,903**"
+
+#: ../userguides/forest_model.rst:202 910521e8bfda4e06bdc90a3b59bf7c78
+msgid "0.907"
+msgstr "0,907"
+
+#: ../userguides/forest_model.rst:203 f43567e68e06444e87c5c93a70ffe072
+msgid "0.899"
+msgstr "0,899"
+
+#: ../userguides/forest_model.rst:205 a3d99ce94b454b9caf3d83fb36022d93
+msgid "309"
+msgstr "309"
+
+#: ../userguides/forest_model.rst:206 81c889e5592c4debbdd4d92b228fe033
+msgid "0.780"
+msgstr "0,780"
+
+#: ../userguides/forest_model.rst:207 c2226e81c3a046469d01e613dba540c5
+msgid "**0.876**"
+msgstr "**0,876**"
+
+#: ../userguides/forest_model.rst:208 7c7e65622bd04bb289c99b9ee80bf0e1
+msgid "0.849"
+msgstr "0,849"
+
+#: ../userguides/forest_model.rst:209 5a2bf75c89dd418f87d9dce4ab457a6e
+msgid "0.904"
+msgstr "0,904"
+
+#: ../userguides/forest_model.rst:211 2cd64b532cc24c3b8367573f0e0a89cc
+msgid "433"
+msgstr "433"
+
+#: ../userguides/forest_model.rst:212 9b0098658716408dba8c879d5c2ddbff
+msgid "0.732"
+msgstr "0,732"
+
+#: ../userguides/forest_model.rst:213 a3ddec1dcc164c59810035461ea295e9
+msgid "**0.846**"
+msgstr "**0,846**"
+
+#: ../userguides/forest_model.rst:214 5f235c9ab2cb4db09957cd41dee21288
+msgid "0.875"
+msgstr "0,875"
+
+#: ../userguides/forest_model.rst:215 1ac2eba32cbc4f548443eceaeb84a44a
+msgid "0.818"
+msgstr "0,818"
+
+#: ../userguides/forest_model.rst:217 eee3c9fd959c47beb1243c3143bbe407
+msgid "1134"
+msgstr "1134"
+
+#: ../userguides/forest_model.rst:218 674be4c8b7e94c8084547027e7765aa9
+msgid "0.694"
+msgstr "0,694"
+
+#: ../userguides/forest_model.rst:219 d70680e628974dd7bbffa47751841a53
+msgid "**0.819**"
+msgstr "**0,819**"
+
+#: ../userguides/forest_model.rst:220 36b4d6080b944f1aab8f0a4c15b1859c
+msgid "0.855"
+msgstr "0,855"
+
+#: ../userguides/forest_model.rst:221 af973698f5a94c78b8700cc365e2e21a
+msgid "0.786"
+msgstr "0,786"
+
+#: ../userguides/forest_model.rst:223 5462c89553be44d3b26733fc7ea6d2e4
+msgid "239"
+msgstr "239"
+
+#: ../userguides/forest_model.rst:224 6a9bd262fced4874b94184ba4ce2fdb8
+msgid "0.689"
+msgstr "0,689"
+
+#: ../userguides/forest_model.rst:225 a89c7713920e4d82868e59ac9f6a7ef8
+msgid "**0.816**"
+msgstr "**0,816**"
+
+#: ../userguides/forest_model.rst:226 b3582ac66c704ec2bf22f3dacd2d3991
+msgid "0.759"
+msgstr "0,759"
+
+#: ../userguides/forest_model.rst:227 dc77c9cc7bc2453eb3d745ccd9f4e5b8
+msgid "0.883"
+msgstr "0,883"
+
+#: ../userguides/forest_model.rst:229 406944c8bc944e808809459bba6ad064
+msgid "111"
+msgstr "111"
+
+#: ../userguides/forest_model.rst:230 bdf70b73d7844945bbed0e543544f8c3
+msgid "0.624"
+msgstr "0,624"
+
+#: ../userguides/forest_model.rst:231 37c2a7656dd24f1685d96b1bfa9ad516
+msgid "**0.769**"
+msgstr "**0,769**"
+
+#: ../userguides/forest_model.rst:232 3d2246ea2d7c41ca9a6836aff3b69c33
+msgid "0.700"
+msgstr "0,700"
+
+#: ../userguides/forest_model.rst:233 e7d0af8e310949f49c2df2fa33a983af
+msgid "0.852"
+msgstr "0,852"
+
+#: ../userguides/forest_model.rst:234 c437d8980c5e4990b02d59ed0d9813db
+msgid "**Global (mean of 7 AOIs)**"
+msgstr "**Глобально (среднее по 7 AOI)**"
+
+#: ../userguides/forest_model.rst:235 18db58b7aa7e4c139d4db5b48253688e
+msgid "2878"
+msgstr "2878"
+
+#: ../userguides/forest_model.rst:236 e61645a33dfb484b855b317cb1338bf4
+msgid "0.741"
+msgstr "0,741"
+
+#: ../userguides/forest_model.rst:237 a15af68d9fcc4fb49b463f86114d6f74
+msgid "**0.849**"
+msgstr "**0,849**"
+
+#: ../userguides/forest_model.rst:238 ecd6a457f74f4e4ca0eef7cb107133c1
+msgid "0.839"
+msgstr "0,839"
+
+#: ../userguides/forest_model.rst:239 770f51d78ae44afaaef9d005a7d0027e
+msgid "0.863"
+msgstr "0,863"
+
+#: ../userguides/forest_model.rst:241 7145397c266f4871a53e9f2e7f17d3a0
+msgid ""
+"*Area-based IoU / F1 / Precision / Recall measured on tree-crown polygon "
+"masks; evaluation run 2026-10-01. Compared with the previous version "
+"v.2026-07-03 (mean F1 0.824, IoU 0.706).*"
+msgstr ""
+"*Площадные IoU / F1 / Точность / Полнота, измеренные на масках полигонов "
+"крон деревьев; оценка проведена 2026-10-01. Сравнение с предыдущей "
+"версией v.2026-07-03 (среднее F1 0,824, IoU 0,706).*"
+
+#: ../userguides/forest_model.rst:244 e68ed0c00a4548769661f8232cbd85cf
+msgid ""
+"**Tree count accuracy.** For tree-counting use cases we also track how "
+"closely the number of detected crown polygons matches the ground-truth "
+"crown count. Relative count error is ``|detected − ground truth| / ground"
+" truth``."
+msgstr ""
+"**Точность подсчёта деревьев.** Для задач подсчёта деревьев мы также "
+"отслеживаем, насколько число обнаруженных полигонов крон совпадает с "
+"эталонным числом крон. Относительная ошибка подсчёта: ``|detected − "
+"ground truth| / ground truth``."
+
+#: ../userguides/forest_model.rst:253 c853cbe59e6545c5bfdbe7be3c79b67c
+msgid "GT crowns"
+msgstr "Эталонные кроны"
+
+#: ../userguides/forest_model.rst:254 84b7b99b54cd4df2b88c1cf3463626bb
+msgid "v.2026-09-10 detected (count err)"
+msgstr "v.2026-09-10: обнаружено (ошибка подсчёта)"
+
+#: ../userguides/forest_model.rst:255 821c7b4b368e45a5ad3eb02ac86f677f
+msgid "v.2026-07-03 detected (count err)"
+msgstr "v.2026-07-03: обнаружено (ошибка подсчёта)"
+
+#: ../userguides/forest_model.rst:257 7e510f697a974aef92d00aec8cd8816f
+msgid "327"
+msgstr "327"
+
+#: ../userguides/forest_model.rst:258 ../userguides/forest_model.rst:259
+#: 0d493c59fff548438ace50bc25c3ff9f eaf32f0bb3c0479e818eff717dac81a7
+msgid "254 (22.3%)"
+msgstr "254 (22.3%)"
+
+#: ../userguides/forest_model.rst:261 8efbfb2c8ff5488fbd02309b421b955b
+msgid "478"
+msgstr "478"
+
+#: ../userguides/forest_model.rst:262 9ed1a551449343f0824d2a7fd35adc13
+msgid "398 (**16.7%**)"
+msgstr "398 (**16.7%**)"
+
+#: ../userguides/forest_model.rst:263 9c92d0e3bd0546339f797a45b0ebabea
+msgid "368 (23.0%)"
+msgstr "368 (23.0%)"
+
+#: ../userguides/forest_model.rst:265 13d4c31623f140808e3f0118962156fe
+msgid "193"
+msgstr "193"
+
+#: ../userguides/forest_model.rst:266 012c3725923a4aeabfac9a75879f7ae3
+msgid "309 (60.1%)"
+msgstr "309 (60.1%)"
+
+#: ../userguides/forest_model.rst:267 2e8f473b061543d3ad23937f88cbf9c7
+msgid "220 (**14.0%**)"
+msgstr "220 (**14.0%**)"
+
+#: ../userguides/forest_model.rst:269 652ebd4bcef64b91bdeccf62c5a71c89
+msgid "321"
+msgstr "321"
+
+#: ../userguides/forest_model.rst:270 ea290b59035d46c7977d6c162642d0b0
+msgid "433 (34.9%)"
+msgstr "433 (34.9%)"
+
+#: ../userguides/forest_model.rst:271 49b7901754f3481292bc2f7d58ce2ef9
+msgid "409 (**27.4%**)"
+msgstr "409 (**27.4%**)"
+
+#: ../userguides/forest_model.rst:273 f54524d96aa64af2aec8c9507f2b8f10
+msgid "1212"
+msgstr "1212"
+
+#: ../userguides/forest_model.rst:274 0c23b2b0b4624db6bbf2d576011c3383
+msgid "1134 (**6.4%**)"
+msgstr "1134 (**6.4%**)"
+
+#: ../userguides/forest_model.rst:275 eeb67f47f468429ea2f2e3f936d4c7d9
+msgid "1070 (11.7%)"
+msgstr "1070 (11.7%)"
+
+#: ../userguides/forest_model.rst:277 f0b39d054c4942b0aec720805c520dbb
+msgid "258"
+msgstr "258"
+
+#: ../userguides/forest_model.rst:278 0122e7842e0b42bb9e3688069b53f955
+msgid "239 (7.4%)"
+msgstr "239 (7.4%)"
+
+#: ../userguides/forest_model.rst:279 c3c9d0bc26664ea7948af4fa7a4c792f
+msgid "249 (**3.5%**)"
+msgstr "249 (**3.5%**)"
+
+#: ../userguides/forest_model.rst:281 75132d0ddeae446ab3bfd45fafe1977c
+msgid "125"
+msgstr "125"
+
+#: ../userguides/forest_model.rst:282 da05fde798d64a74a291b3863f0d1d13
+msgid "111 (**11.2%**)"
+msgstr "111 (**11.2%**)"
+
+#: ../userguides/forest_model.rst:283 7a36b7160c99414fa793eab75b766e96
+msgid "83 (33.6%)"
+msgstr "83 (33.6%)"
+
+#: ../userguides/forest_model.rst:284 25511cfc4a9844faaac625e6790934f1
+msgid "**Mean count error (7 AOIs)**"
+msgstr "**Средняя ошибка подсчёта (7 AOI)**"
+
+#: ../userguides/forest_model.rst:286 049656007c484d699ad3454a6e53bbc8
+msgid "22.7%"
+msgstr "22,7%"
+
+#: ../userguides/forest_model.rst:287 8350e33c6a4a49c7a8d3d41eadac3134
+msgid "**19.4%**"
+msgstr "**19,4%**"
+
+#: ../userguides/forest_model.rst:289 24a52941aa944053bd0b0eaf8118e761
+msgid ""
+"*Ground-truth crown counts from the updated report (2026-10-01). "
+"v.2026-09-10 is substantially closer to the true count where the previous"
+" model under-detected (La Banda, Madrid, Velilla de San Antonio), but it "
+"over-segments dense canopy at Balanga and Cuenca — producing more crowns "
+"than ground truth — so its mean relative count error (22.7%) is slightly "
+"above v.2026-07-03 (19.4%). ⚠️ The false positives may also indicate the "
+"lack of details in the manual labels as the mask-overlap accuracy (IoU / "
+"F1) still favours v.2026-09-10 in those areas.*"
+msgstr ""
+"*Эталонное число крон — по обновлённому отчёту (2026-10-01). v.2026-09-10"
+" заметно ближе к истинному числу там, где предыдущая модель "
+"недообнаруживала кроны (Ла Банда, Мадрид, Велилья-де-Сан-Антонио), но "
+"избыточно сегментирует густой полог в Баланге и Куэнке, выдавая больше "
+"крон, чем в эталоне, поэтому её средняя относительная ошибка подсчёта "
+"(22,7%) немного выше, чем у v.2026-07-03 (19,4%). ⚠️ Ложные срабатывания "
+"могут также указывать на недостаточную детализацию ручной разметки, "
+"поскольку точность по перекрытию масок (IoU / F1) в этих областях "
+"по-прежнему выше у v.2026-09-10.*"
+
+#: ../userguides/forest_model.rst:297 190808dcd5294e0f9738e9a53783cf26
+msgid ""
+"📊 See :doc:`per-location tree-crown benchmark details (v.2026-09-10) "
+"<forest_crown_benchmark_2026-09-10>` for the area-by-area breakdown, the "
+"comparison with v.2026-07-03 and prediction-vs-ground-truth overlays."
+msgstr ""
+"📊 Подробности по каждой локации — в :doc:`детальных результатах бенчмарка"
+" крон деревьев (v.2026-09-10) <forest_crown_benchmark_2026-09-10>`: "
+"разбивка по территориям, сравнение с v.2026-07-03 и наложения "
+"«предсказание / эталон»."
+
+#: ../userguides/forest_model.rst:302 66629c16479b4ef488288d5025a354cd
+msgid "Benchmarks - canopy height (CHM)"
+msgstr "Бенчмарки – высота полога (CHM)"
+
+#: ../userguides/forest_model.rst:304 ade4ea58f9f9487a81929199064f1c46
+msgid ""
+"The **Height estimation** output (Canopy Height Model, CHM) is "
+"benchmarked against lidar-derived ground truth on 5 m hexagons (max "
+"aggregation). The current model **CHM v.2026-08-31** reduces the mean "
+"absolute height error from **4.70 m to 3.24 m** (**−31%**) versus **CHM "
+"v.2026-07-03** across 38 areas of interest, with the largest gains in "
+"tall, structurally complex forest."
+msgstr ""
+"Результат опции **Оценка высоты** (модель высоты полога, Canopy Height "
+"Model, CHM) сравнивается с эталонными данными лидара на гексагонах 5 м "
+"(агрегация по максимуму). Текущая модель **CHM v.2026-08-31** снижает "
+"среднюю абсолютную ошибку высоты с **4,70 м до 3,24 м** (**−31%**) по "
+"сравнению с **CHM v.2026-07-03** на 38 областях интереса; наибольший "
+"выигрыш — в высоком, структурно сложном лесу."
+
+#: ../userguides/forest_model.rst:311 190808dcd5294e0f9738e9a53783cf26
+msgid ""
+"📊 See :doc:`canopy-height (CHM) benchmark details (v.2026-08-31) "
+"<forest_chm_benchmark_2026-08-31>` for the most-improved sample per "
+"country, with lidar ground truth and prediction-vs-lidar error maps."
+msgstr ""
+"📊 Подробности — в :doc:`детальных результатах бенчмарка высоты полога "
+"(CHM, v.2026-08-31) <forest_chm_benchmark_2026-08-31>`: наиболее "
+"улучшившийся участок по каждой стране с эталонными данными лидара и "
+"картами ошибок «предсказание / лидар»."
+
+#: ../userguides/forest_model.rst:315 15886d627166489d8bc268aba232cbbc
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/forest_model.rst:173 ba548dfceb4d473d97d66653e6145e6a
+#: ../userguides/forest_model.rst:315 ba548dfceb4d473d97d66653e6145e6a
 msgid ""
-"We train custom models on your imagery and classes, and connect them to your"
-" Mapflow account."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr ""
-"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
-"их к вашему аккаунту Mapflow."
+"Мы обучаем пользовательские модели на ваших снимках и классах и "
+"подключаем их к вашему аккаунту Mapflow."
 
-#: ../userguides/forest_model.rst:173 6a1d464d7d6c478392e44d50db1b3783
+#: ../userguides/forest_model.rst:315 6a1d464d7d6c478392e44d50db1b3783
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
-msgstr ""
-"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/forest_model.rst:173 fff06ff955ba4b8db7a9689e9a651e88
+#: ../userguides/forest_model.rst:315 fff06ff955ba4b8db7a9689e9a651e88
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
-msgstr ""
-"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+msgstr "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/forest_model.rst:173 71f57fa2d9d544cb8af30dde20e7e328
+#: ../userguides/forest_model.rst:315 71f57fa2d9d544cb8af30dde20e7e328
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid ""
-#~ "Model resolution allows to detect large individual trees and narrow tree "
+#~ "Model resolution allows to detect large"
+#~ " individual trees and narrow tree "
 #~ "lines."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "This model can be used to spped up trees detection and area estimation in "
-#~ "forest inventory assessment."
+#~ "This model can be used to spped"
+#~ " up trees detection and area "
+#~ "estimation in forest inventory assessment."
 #~ msgstr ""
 
 #~ msgid "**Processing results samples**"
@@ -756,41 +1159,53 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Forest Segmentation. The model is trained on high-resolution data (0.6 m) "
-#~ "for different areas and climate zones."
+#~ "Forest Segmentation. The model is "
+#~ "trained on high-resolution data (0.6 "
+#~ "m) for different areas and climate "
+#~ "zones."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The model is robust to region change, and performs well in most "
-#~ "environments, including urban. The image should be taken in active "
-#~ "vegetation period, because leafless trees or vegetation covered with snow "
-#~ "are not target class."
+#~ "The model is robust to region "
+#~ "change, and performs well in most "
+#~ "environments, including urban. The image "
+#~ "should be taken in active vegetation "
+#~ "period, because leafless trees or "
+#~ "vegetation covered with snow are not "
+#~ "target class."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "This model can be used to speed up trees detection and area estimation in "
-#~ "forest inventory assessment."
+#~ "This model can be used to speed"
+#~ " up trees detection and area "
+#~ "estimation in forest inventory assessment."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "*Tree crowns* - extracts tree crowns from dense forest cover as well as "
-#~ "free-standing trees."
+#~ "*Tree crowns* - extracts tree crowns "
+#~ "from dense forest cover as well as"
+#~ " free-standing trees."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "*Heights* – Forest Segmentation follows the usual forest segmentation model,"
-#~ " with additional separation of forest height classes."
+#~ "*Heights* – Forest Segmentation follows "
+#~ "the usual forest segmentation model, "
+#~ "with additional separation of forest "
+#~ "height classes."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Additionally we use models for density and height estimation, dividing the "
-#~ "forested area into the following classes:"
+#~ "Additionally we use models for density"
+#~ " and height estimation, dividing the "
+#~ "forested area into the following "
+#~ "classes:"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "This model can be used as a decision support for the forest growth clearing."
-#~ " See the `professional solutions by Geoalert "
-#~ "<https://geoalert.io/solutions/power>`_"
+#~ "This model can be used as a "
+#~ "decision support for the forest growth"
+#~ " clearing. See the `professional solutions"
+#~ " by Geoalert <https://geoalert.io/solutions/power>`_"
 #~ msgstr ""
 
 #~ msgid "Processing result of forest model (Tree crowns)"
@@ -800,36 +1215,47 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The model is trained on high-resolution data (0.6-0.3m) for different areas "
-#~ "and climate zones."
+#~ "The model is trained on high-"
+#~ "resolution data (0.6-0.3m) for different "
+#~ "areas and climate zones."
 #~ msgstr ""
-#~ "Модель обучается на данных высокого разрешения (0,6-0,3 м) для разных "
+#~ "Модель обучается на данных высокого "
+#~ "разрешения (0,6-0,3 м) для разных "
 #~ "территорий и климатических зон."
 
 #~ msgid ""
-#~ "The result includes all areas covered with tree and shrub vegetation, "
+#~ "The result includes all areas covered"
+#~ " with tree and shrub vegetation, "
 #~ "including sparse forest and shrublands."
 #~ msgstr ""
-#~ "В результате учитываются все площади, покрытые древесно-кустарниковой "
-#~ "растительностью, включая редколесья и кустарники."
+#~ "В результате учитываются все площади, "
+#~ "покрытые древесно-кустарниковой растительностью, "
+#~ "включая редколесья и кустарники."
 
 #~ msgid ""
-#~ "Model resolution allows to detect small group of trees and narrow tree "
+#~ "Model resolution allows to detect small"
+#~ " group of trees and narrow tree "
 #~ "lines."
 #~ msgstr ""
-#~ "Разрешение модели позволяет обнаруживать небольшие группы деревьев и узкие "
-#~ "линии деревьев."
+#~ "Разрешение модели позволяет обнаруживать "
+#~ "небольшие группы деревьев и узкие линии"
+#~ " деревьев."
 
 #~ msgid ""
-#~ "The model is robust to region change, and performs well in most "
-#~ "environments, including urban. The image should be taken in active "
-#~ "vegetation period, because leafless trees or vegetation covered with snow "
-#~ "are not the target class."
+#~ "The model is robust to region "
+#~ "change, and performs well in most "
+#~ "environments, including urban. The image "
+#~ "should be taken in active vegetation "
+#~ "period, because leafless trees or "
+#~ "vegetation covered with snow are not "
+#~ "the target class."
 #~ msgstr ""
-#~ "Модель устойчива к изменению региона и хорошо работает в большинстве "
-#~ "условий, включая городские. Снимок следует делать в период активной "
-#~ "вегетации, поскольку голые деревья или растительность, покрытая снегом, не "
-#~ "являются целевым классом."
+#~ "Модель устойчива к изменению региона и"
+#~ " хорошо работает в большинстве условий, "
+#~ "включая городские. Снимок следует делать "
+#~ "в период активной вегетации, поскольку "
+#~ "голые деревья или растительность, покрытая "
+#~ "снегом, не являются целевым классом."
 
 #~ msgid "**Latest model tags** |:label:|"
 #~ msgstr "**Теги последних моделей** |:label:|"
@@ -847,13 +1273,17 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ msgstr "*Оценка высоты* – классификация масок леса по классам высоты."
 
 #~ msgid ""
-#~ "We recommend using the **Tree crown** options with 0.3m resolution imagery "
-#~ "(~ 19 zoom) for the best results in case you need to detect individual "
-#~ "trees."
+#~ "We recommend using the **Tree crown**"
+#~ " options with 0.3m resolution imagery "
+#~ "(~ 19 zoom) for the best results"
+#~ " in case you need to detect "
+#~ "individual trees."
 #~ msgstr ""
-#~ "Мы рекомендуем использовать опцию **Крона дерева** со снимками с разрешением"
-#~ " 0,3 м (увеличение ~ 19) для достижения наилучших результатов в случае, если"
-#~ " вам нужно обнаружить отдельные деревья."
+#~ "Мы рекомендуем использовать опцию **Крона "
+#~ "дерева** со снимками с разрешением 0,3"
+#~ " м (увеличение ~ 19) для достижения"
+#~ " наилучших результатов в случае, если "
+#~ "вам нужно обнаружить отдельные деревья."
 
 #~ msgid "Forest Height classification follows the following classes:"
 #~ msgstr "Классификация высоты леса включает следующие классы:"
@@ -868,24 +1298,40 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ msgstr "Бенчмарки – сегментация"
 
 #~ msgid ""
-#~ "Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation). "
-#~ "The model was evaluated on a validation set of 6 areas of interest (AOI) "
-#~ "against manually annotated ground truth. Metrics are area-based: IoU is the "
-#~ "intersection-over-union of the predicted and ground-truth vegetation masks, "
-#~ "and F1 / Precision / Recall are computed on the overlapping mask area."
+#~ "Latest update — **🌲 Forest and "
+#~ "trees v.2026-07-03** (Global, Segmentation). "
+#~ "The model was evaluated on a "
+#~ "validation set of 6 areas of "
+#~ "interest (AOI) against manually annotated "
+#~ "ground truth. Metrics are area-based:"
+#~ " IoU is the intersection-over-union"
+#~ " of the predicted and ground-truth"
+#~ " vegetation masks, and F1 / Precision"
+#~ " / Recall are computed on the "
+#~ "overlapping mask area."
 #~ msgstr ""
-#~ "Последнее обновление — **🌲 Лес и деревья v.03.07.2026** (Глобальное, "
-#~ "Сегментация). Модель оценивалась на проверочном наборе из 6 областей "
-#~ "интереса (AOI) по сравнению с аннотированными вручную фактическими данными. "
-#~ "Метрики основаны на площади: IoU — это пересечение-объединение "
-#~ "прогнозируемых и фактических масок растительности, а F1 / Precision / Recall"
-#~ " вычисляются на перекрывающейся области маски."
+#~ "Последнее обновление — **🌲 Лес и "
+#~ "деревья v.03.07.2026** (Глобальное, Сегментация)."
+#~ " Модель оценивалась на проверочном наборе"
+#~ " из 6 областей интереса (AOI) по "
+#~ "сравнению с аннотированными вручную "
+#~ "фактическими данными. Метрики основаны на "
+#~ "площади: IoU — это пересечение-объединение "
+#~ "прогнозируемых и фактических масок "
+#~ "растительности, а F1 / Precision / "
+#~ "Recall вычисляются на перекрывающейся области"
+#~ " маски."
 
 #~ msgid ""
-#~ "Looking to run this in production? See the `model catalog and deployment "
-#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
-#~ "<https://mapflow.ai/custom-models>`_."
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
 #~ msgstr ""
-#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
-#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
-#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#~ "Хотите использовать модель в production? "
+#~ "Смотрите `каталог моделей и варианты "
+#~ "развёртывания <https://mapflow.ai/ru/models>`_ или "
+#~ "`закажите кастомную модель <https://mapflow.ai/ru"
+#~ "/custom-models>`_."
+

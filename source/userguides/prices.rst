@@ -5,7 +5,8 @@ How to top up your balance
 --------------------------
 
 .. note::
-   Each user gets the free balance of **250** credits to get started with Mapflow AI.
+   **Free plan:** each user gets the free balance of **250** credits to get started with Mapflow AI.
+   There is **one free account per person and per organisation**.
    You can always buy more credits in your `account profile <https://app.mapflow.ai/account/balance>`_.
 
 In order to top up your balance go to `your Mapflow profile <https://app.mapflow.ai/account/balance>`_ and choose one of the options.

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Detect and classify swimming pools in high-resolution aerial imagery at zoom level 19. Benchmark F1 above 0.95. Available as a custom model.
+   :description: Detects swimming pools from aerial imagery. Useful for urban planning and real estate analysis. Requires high-resolution aerial or satellite imagery. Note, detection accuracy may vary depending on geographic location, test before large-scale use.
 
 .. rst-class:: mf-page
 
@@ -7,6 +7,17 @@ Swimming pools
 ==============
 
 .. mf-model-hero:: swimming-pools
+
+How it works
+------------
+
+The model combines detection and classification: it finds swimming pools and assigns each
+pool a class. It returns pool polygons with the class as an attribute, with a test score
+above F1 0.95. It needs high-resolution imagery, ideally aerial imagery at zoom 19–20.
+
+Use it for urban planning and real estate analysis, for example to keep property records
+up to date. Accuracy can vary by region, so test the model on a small area before
+you run it at scale.
 
 Sample results
 --------------
@@ -18,7 +29,5 @@ Sample results
       :class: no-scaled-link
 
       Pools detected and classified on aerial imagery
-
-`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_ about the use cases and how the model was built.
 
 .. mf-cta::

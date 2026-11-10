@@ -328,9 +328,6 @@ The agent MUST verify that the selected imagery meets the model's resolution req
    * - 🏗️ Construction
      - 0.5 m/px
      - 17–18
-   * - 🏠 Buildings (Aerial)
-     - 0.1 m/px
-     - 19–20
 
 If the imagery resolution is outside the required range, **warn the user** that results may be degraded.
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-28",
-  "about": "Single source for Mapflow AI models and scenarios. Read by the docs (source/_ext/mapflow_catalog.py), published with every docs build at /models.json for the website, Mapflow Web and the QGIS plugin. Prices, platform names and imagery requirements must match awesome-configs/configs/production.",
+  "updated": "2026-11-10",
+  "about": "Single source for Mapflow AI models and scenarios. Read by the docs (source/_ext/mapflow_catalog.py), published with every docs build at /models.json for the website, Mapflow Web and the QGIS plugin. Prices, platform names and imagery requirements must match awesome-configs/configs/production. Models with \"hidden\": true keep their pages but are left out of model lists.",
 
   "links": {
     "web_app": "https://app.mapflow.ai",
@@ -148,7 +148,7 @@
       "platform_name": "Download Open Data",
       "category": "basemaps",
       "availability": "no-ai",
-      "icon": null,
+      "icon": "openstreetmap",
       "doc": "userguides/open-data",
       "image": "open-data.jpg",
       "image_alt": "OpenStreetMap buildings and roads over imagery",
@@ -195,52 +195,27 @@
       "scenarios": []
     },
     {
-      "id": "high-density-housing",
-      "name": "High-density housing",
+      "id": "built-up-areas",
+      "name": "Built-up areas",
       "category": "buildings",
       "availability": "custom",
       "icon": "cityscape",
       "doc": "userguides/hd_housing_model",
       "image": "high-density-housing.jpg",
-      "image_alt": "Dense housing blocks split into individual houses",
-      "caption": "Example result: dense blocks split into houses (Tunisia).",
-      "summary": "Terraced and tightly packed blocks divided into individual houses.",
-      "description": "Segments dense building blocks as a whole, then divides each block into individual houses from roof markers, using a grid or Voronoi split. Built for terraced and densely built areas common in the Middle East and parts of Africa.",
-      "output": "Individual house polygons within dense blocks.",
-      "best_with": "High-resolution imagery of terraced or densely built areas.",
+      "image_alt": "Built-up urban blocks outlined over a dense city",
+      "caption": "Example result: built-up blocks in a dense city (Tunisia).",
+      "summary": "Built-up areas as whole urban blocks, without individual buildings.",
+      "description": "Detects built-up areas from satellite imagery without the details of individual buildings. It segments urban blocks as a whole, a fast and low-cost way to monitor urban development and analyse land use.",
+      "output": "Built-up area polygons.",
+      "best_with": "High-resolution satellite imagery.",
       "zoom": null,
-      "specs": {"method": "Instance segmentation + block split", "geo_domain": "Middle East, Africa"},
+      "specs": {"method": "Segmentation", "geo_domain": "Middle East, Africa"},
       "requirements": {"config": null, "recommended": {}, "note": "No configuration in default or customer; limits are set when the model is connected."},
       "price": {"per_km2": null},
       "uses": [
-        "Count dwellings in dense urban areas",
-        "Support census and address mapping",
+        "Track urban growth between two dates",
+        "Analyse land use across a city or region",
         "Plan services in informal settlements"
-      ],
-      "scenarios": []
-    },
-    {
-      "id": "buildings-aerial",
-      "name": "Buildings (Aerial)",
-      "category": "buildings",
-      "availability": "custom",
-      "icon": "uav",
-      "doc": "userguides/buildings_aerial_imagery_model",
-      "image": "buildings-aerial.jpg",
-      "image_alt": "Detailed building outlines on 10 cm aerial imagery",
-      "caption": "Example result: rural residential area at 10 cm.",
-      "summary": "Small buildings and detailed outlines from 15–10 cm aerial imagery.",
-      "description": "Built for very high-resolution aerial imagery (15–10 cm per pixel) to extract small buildings and detailed outlines. Best in rural and suburban residential areas; for dense cities use the Buildings model, even on aerial imagery.",
-      "output": "Detailed building polygons.",
-      "best_with": "Aerial imagery at 10–5 cm (zoom 20–21) of low-rise areas.",
-      "zoom": "20–21",
-      "specs": {"method": "Instance segmentation", "geo_domain": "Low-rise, rural", "resolution": "0.1–0.05 m / z20–21", "score": "F1 > 0.82"},
-      "requirements": {"config": "production/customer/fabio@gaussgeo.com.br/aero_v1", "recommended": {"zoom": [20, 21], "gsd": [0.05, 0.1]}, "required": {"min_zoom": 20, "gsd": [0.02, 0.4]}},
-      "price": {"per_km2": null},
-      "uses": [
-        "Map sheds and outbuildings on a drone survey",
-        "Capture detailed outlines for cadastre updates",
-        "Map rural settlements from a municipal flight"
       ],
       "scenarios": []
     },
@@ -316,31 +291,6 @@
         "Build field boundaries for farm management",
         "Estimate cultivated area per region",
         "Prepare parcels for crop monitoring"
-      ],
-      "scenarios": []
-    },
-    {
-      "id": "segment-anything",
-      "name": "Segment Anything",
-      "category": "other",
-      "availability": "custom",
-      "icon": "sam",
-      "doc": "userguides/sam_model",
-      "image": "segment-anything.jpg",
-      "image_alt": "Segment Anything polygons over farmland",
-      "caption": "Example result: SAM at zoom 16.",
-      "summary": "Universal segmentation. The zoom level decides what you get.",
-      "description": "Meta's universal segmentation model, adapted to Mapflow workflows. Zoom 14 outlines land use, large fields and water; zoom 16 small fields and large buildings; zoom 18 farms and groups of trees; zoom 19 and up houses, trees and vehicles.",
-      "output": "Polygons of whatever stands out at the chosen zoom.",
-      "best_with": "Any RGB imagery. Choose the zoom in the run form.",
-      "zoom": "14–20",
-      "specs": {"method": "Universal segmentation", "geo_domain": "Global", "resolution": "z14–20"},
-      "requirements": {"config": null, "recommended": {"zoom": [14, 20]}, "note": "No configuration in default or customer; zoom is chosen in the run form."},
-      "price": {"per_km2": null},
-      "uses": [
-        "Outline objects no standard model covers",
-        "Pre-segment imagery for manual labelling",
-        "Explore a new area before choosing a model"
       ],
       "scenarios": []
     }

@@ -16,7 +16,8 @@ in place. Nothing is emitted as raw HTML, so:
 
 Directives
 ----------
-``.. mf-model-gallery::``      grid of model cards  (``:availability: default|custom``)
+``.. mf-model-gallery::``      grid of model cards  (``:availability: default|custom``);
+                               models with ``"hidden": true`` are left out
 ``.. mf-workflow-gallery::``   grid of "bring your own imagery" tiles
 ``.. mf-task-links::``         popular scenarios as link chips
 ``.. mf-model-hero:: <id>``     chips, hero (image, cost, facts, uses, actions), specs
@@ -383,7 +384,7 @@ class ModelGallery(CatalogDirective):
         wanted = [a.strip() for a in self.options.get("availability", "default").split(",")]
         rst.open(".. container:: mf-grid")
         for m in cat["models"]:
-            if m["availability"] not in wanted:
+            if m["availability"] not in wanted or m.get("hidden"):
                 continue
             category = cat["_categories"][m["category"]]
             chips = [chip(category.get("icon"), category["label"])]
@@ -609,7 +610,7 @@ class RequirementsTable(CatalogDirective):
         rows, unpublished = [], False
         for m in cat["models"]:
             req = m.get("requirements")
-            if req is None:
+            if req is None or m.get("hidden"):
                 continue
             label = ":doc:`/{}`".format(m["doc"])
             if not req.get("config"):

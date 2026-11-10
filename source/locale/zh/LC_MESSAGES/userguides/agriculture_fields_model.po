@@ -8,24 +8,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/agriculture_fields_model.rst:1
-#: 4d29c1de17b44d4d9780a471f2766d7d
+#: 5fa0d055e40d44a18642980c20311138
 msgid ""
 "Segment agricultural fields and delineate field boundaries from 1-1.2 m "
 "satellite imagery. Trained for Europe and Russia; available as a custom "
-"model."
-msgstr "从 1-1.2 米卫星影像中分割农田并勾勒地块边界。针对欧洲和俄罗斯训练，可作为定制模型提供。"
+"model. Note: current model coverage is limited to specific geographic "
+"regions, test before taking it onto a large scale. Primary use cases: "
+"precision agriculture, crop fields delineation, land use analysis."
+msgstr ""
+"基于 1–1.2 "
+"米卫星影像分割农田并勾画田块边界。针对欧洲和俄罗斯训练；以定制模型形式提供。注意：模型目前仅覆盖部分地理区域，大规模使用前请先进行测试。主要用途：精准农业、农田边界勾画、土地利用分析。"
 
 #: ../userguides/agriculture_fields_model.rst:7
 #: e9be83259ab24179b174949aa8768a5b
@@ -160,16 +164,24 @@ msgstr "工作原理"
 #: 05ffb415721c48e6a2b34be5f43d93ee
 msgid ""
 "The model detects agricultural fields and separates neighbouring fields "
-"where there is a visible boundary: a forest line, a road or a different crop"
-" stage. It is trained on 1–1.2 m imagery, mostly of Europe and Russia, and "
-"works best on larger fields with active vegetation. Small and terraced "
-"fields, typical for Asia, are delineated less well. Fields without "
-"vegetation, especially in winter, are not the target class."
+"where there is a visible boundary: a forest line, a road or a different "
+"crop stage. It is trained on 1–1.2 m imagery, mostly of Eastern Europe, "
+"and works best on larger fields with active vegetation. Small and "
+"terraced fields, typical for Asia, are delineated less well. Fields "
+"without vegetation, especially in winter, are not the target class."
 msgstr ""
 "该模型识别农田，并在存在可见边界（林带、道路或不同作物生长阶段）处分隔相邻田块。它基于 1–1.2 "
-"米影像训练，主要覆盖欧洲和俄罗斯，在植被活跃的大块农田上效果最佳。亚洲常见的小块田和梯田勾绘效果较差。无植被的田块（尤其是冬季）不属于目标类别。"
+"米影像训练，主要覆盖东欧，在植被活跃的大块农田上效果最佳。亚洲常见的小块田和梯田勾绘效果较差。无植被的田块（尤其是冬季）不属于目标类别。"
 
-#: ../userguides/agriculture_fields_model.rst:24
+#: ../userguides/agriculture_fields_model.rst:23
+#: b1695668cc10466c90e761367009f636
+msgid ""
+"Use it for precision agriculture, crop field delineation and land use "
+"analysis. Coverage is limited to specific regions, so test the model on a"
+" small area before you run it at scale."
+msgstr "可用于精准农业、农田边界勾画和土地利用分析。覆盖范围仅限部分地区，大规模运行前请先在小范围区域内测试模型。"
+
+#: ../userguides/agriculture_fields_model.rst:27
 #: c0f0ce91054048cdacc9f038b6dfcf10
 msgid "Sample results"
 msgstr "示例结果"
@@ -178,7 +190,7 @@ msgstr "示例结果"
 msgid "Agriculture fields result in Belgium"
 msgstr "比利时的农田模型结果"
 
-#: ../userguides/agriculture_fields_model.rst:32
+#: ../userguides/agriculture_fields_model.rst:35
 #: d75ad0a513a347d8bcd4d644ada84b90
 msgid "Europe (Belgium)"
 msgstr "欧洲（比利时）"
@@ -187,46 +199,53 @@ msgstr "欧洲（比利时）"
 msgid "Agriculture fields result in Northern India"
 msgstr "印度北部的农田模型结果"
 
-#: ../userguides/agriculture_fields_model.rst:38
+#: ../userguides/agriculture_fields_model.rst:41
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
 msgid "Asia (Northern India)"
 msgstr "亚洲（印度北部）"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: 9ac6c4ea4d3446edbf147762a6e77d56
 msgid "Need a different object?"
 msgstr "需要识别其他对象？"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: 0e0a282ff5a749678200761e39eef47a
 msgid ""
-"We train custom models on your imagery and classes, and connect them to your"
-" Mapflow account."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr "我们可基于您的影像和类别训练定制模型，并将其接入您的 Mapflow 账户。"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: d7d6930bc78946189fdc99578a7a7cb5
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr "`申请定制模型 <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: ee1be0415a8040f5ac286f5544b1d5a3
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr "`模型目录和部署选项 <https://mapflow.ai/models>`__"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: a62f6591e8004599af7d29f7edc32984
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 
 #~ msgid ""
-#~ "Model for fields segmentation allows to detect the agricultural fields and "
-#~ "delineate the nearby fields from each other, if there is a visual boundary "
-#~ "(forest line, road, different crop stage). The model is trained on the high "
-#~ "resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
-#~ "with larger fields with active vegetation. Smaller and terrace fields "
-#~ "(typical for Asia) are delineated not so good. Fields without vegetation, "
-#~ "especially in winter period, are not target class."
+#~ "Model for fields segmentation allows to"
+#~ " detect the agricultural fields and "
+#~ "delineate the nearby fields from each"
+#~ " other, if there is a visual "
+#~ "boundary (forest line, road, different "
+#~ "crop stage). The model is trained "
+#~ "on the high resolution data (1-1.2 "
+#~ "m), primarily for Europe, Russia. It "
+#~ "performs better with larger fields with"
+#~ " active vegetation. Smaller and terrace "
+#~ "fields (typical for Asia) are delineated"
+#~ " not so good. Fields without "
+#~ "vegetation, especially in winter period, "
+#~ "are not target class."
 #~ msgstr ""
 #~ "如果存在视觉边界（林线、道路、不同作物阶段），田地分割模型可以检测农田并相互划分附近的田地。该模型基于高分辨率数据（1-1.2 "
 #~ "m）进行训练，主要针对欧洲、俄罗斯。它在植被活跃的较大田地中表现更好。较小的梯田（亚洲典型）的轮廓不太好。没有植被的田地，特别是在冬季，不属于目标类别。"
@@ -241,12 +260,23 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "亚洲（印度北部）的处理结果样本"
 
 #~ msgid ""
-#~ "Looking to run this in production? See the `model catalog and deployment "
-#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
-#~ "<https://mapflow.ai/custom-models>`_."
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
 #~ msgstr ""
-#~ "想在生产环境中使用？请查看 `模型目录与部署方式 <https://mapflow.ai/zh/models>`_，或 `申请定制模型 "
+#~ "想在生产环境中使用？请查看 `模型目录与部署方式 "
+#~ "<https://mapflow.ai/zh/models>`_，或 `申请定制模型 "
 #~ "<https://mapflow.ai/zh/custom-models>`_。"
 
 #~ msgid ":mf-chip:`tractor|Crop fields` :mf-warn:`On request`"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Segment agricultural fields and delineate "
+#~ "field boundaries from 1-1.2 m satellite"
+#~ " imagery. Trained for Europe and "
+#~ "Russia; available as a custom model."
+#~ msgstr "从 1-1.2 米卫星影像中分割农田并勾勒地块边界。针对欧洲和俄罗斯训练，可作为定制模型提供。"
+

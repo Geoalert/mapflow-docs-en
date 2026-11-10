@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -265,35 +265,12 @@ msgid ":doc:`/userguides/hd_housing_model` †"
 msgstr ""
 
 #: ../userguides/reference.rst:54 016af26677a9486b860423325ccfe2d0
-#: 05f0a73d5524457499745330ddb43379 0679695a516845a0a19e93245a4ddf1a
-#: 09e6a29816a7425c9d6cd85018c466d4 2066bb1b72c94a609f620093cd07e0ce
+#: 0679695a516845a0a19e93245a4ddf1a 09e6a29816a7425c9d6cd85018c466d4
 #: 2c2f07476bcb4c25ab3fa69dfe6f9535 6a26c4c2290a4b44b2b2d4ad397c934e
 #: 6f3fd4c122f944f18211fa94f6b195bf 7351cb975ba848278a0e1c45b6080ca1
-#: 7470a2e480d94482b5ffb8fe32b0cffc 798719ff23704f6da6366b9ea17c382c
-#: a7cf75196a7740c3af699328c00e7474 b4ed9ca73f814e8bb888ebc4bd2d6c33
-#: b8c9460884a64c53a632c7811f7982cf d75ebaff27e64b2d9b285085fb7b6de7
-#: ee6357a0406d4723a403533542a3aac6
+#: 7470a2e480d94482b5ffb8fe32b0cffc a7cf75196a7740c3af699328c00e7474
+#: d75ebaff27e64b2d9b285085fb7b6de7
 msgid "—"
-msgstr ""
-
-#: ../userguides/reference.rst:54 041041c12f2b4b3dbf854c0bba4845a4
-msgid ":doc:`/userguides/buildings_aerial_imagery_model`"
-msgstr ""
-
-#: ../userguides/reference.rst:54 258f87787f0d46fba101817809b769f8
-msgid "20–21"
-msgstr ""
-
-#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
-msgid "0.1–0.05"
-msgstr ""
-
-#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
-msgid "≥ 20"
-msgstr ""
-
-#: ../userguides/reference.rst:54 8e3892be7823430390d6f5f692093ecb
-msgid "0.4–0.02"
 msgstr ""
 
 #: ../userguides/reference.rst:54 6ebaab87abe64ac4a1a0cadfbfc2ad5a
@@ -318,14 +295,6 @@ msgstr ""
 
 #: ../userguides/reference.rst:54 3e7dd225002d4f49a0547be82f7159e6
 msgid "1.2–1.0"
-msgstr ""
-
-#: ../userguides/reference.rst:54 d55422e9210d4449bed290eff7036d5d
-msgid ":doc:`/userguides/sam_model` †"
-msgstr ""
-
-#: ../userguides/reference.rst:54 715871bd14134dccb0aed7645ddf33e6
-msgid "14–20"
 msgstr ""
 
 #: ../userguides/reference.rst:54 6cf80416e5c848da9b455b196602f6f2
@@ -783,5 +752,26 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "2.0 - 0.5"
+#~ msgstr ""
+
+#~ msgid ":doc:`/userguides/buildings_aerial_imagery_model`"
+#~ msgstr ""
+
+#~ msgid "20–21"
+#~ msgstr ""
+
+#~ msgid "0.1–0.05"
+#~ msgstr ""
+
+#~ msgid "≥ 20"
+#~ msgstr ""
+
+#~ msgid "0.4–0.02"
+#~ msgstr ""
+
+#~ msgid ":doc:`/userguides/sam_model` †"
+#~ msgstr ""
+
+#~ msgid "14–20"
 #~ msgstr ""
 

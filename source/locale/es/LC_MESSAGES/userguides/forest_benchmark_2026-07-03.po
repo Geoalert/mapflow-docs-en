@@ -8,60 +8,68 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 13:09+0300\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:9
 #: 0b9006dc10d541d9a6c47d6116d19e9d
-msgid "🌲 Forest and trees v.2026-07-03 — per-location benchmark"
-msgstr "🌲 Bosques y árboles v.2026-07-03: punto de referencia por ubicación"
+msgid "🌲 Forest and trees v.2026-09-10 — per-location benchmark"
+msgstr "🌲 Forest and trees v.2026-09-10 — prueba de rendimiento por ubicación"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:11
 #: 1c8883f0dc4a4138a544c3e4b6a97a0f
 msgid ""
-"This page details the validation of the **🌲 Forest and trees v.2026-07-03** "
-"segmentation model on 8 areas of interest (AOI), compared against the "
-"**previous version v.2025-06-14**. For each AOI the two prediction masks are"
-" shown side by side; click any image to open it full size, and use the ← / →"
-" arrow keys to browse between them."
+"This page details the validation of the **🌲 Forest and trees "
+"v.2026-09-10** segmentation model on 8 areas of interest (AOI), compared "
+"against the **previous version v.2025-06-14**. For each AOI the two "
+"prediction masks are shown side by side; click any image to open it full "
+"size, and use the ← / → arrow keys to browse between them."
 msgstr ""
-"Esta página detalla la validación del modelo de segmentación **🌲 Bosques y "
-"árboles v.2026-07-03** en 8 áreas de interés (AOI), en comparación con la "
-"**versión anterior v.2025-06-14**. Para cada AOI, las dos máscaras de "
-"predicción se muestran una al lado de la otra; haga clic en cualquier imagen"
-" para abrirla en tamaño completo y use las teclas de flecha ← / → para "
-"navegar entre ellas."
+"Esta página detalla la validación del modelo de segmentación **🌲 Forest "
+"and trees v.2026-09-10** en 8 áreas de interés (AOI), en comparación con "
+"la **versión anterior v.2025-06-14**. Para cada AOI, las dos máscaras de "
+"predicción se muestran una al lado de la otra; haga clic en cualquier "
+"imagen para abrirla a tamaño completo y use las teclas de flecha ← / → "
+"para navegar entre ellas."
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:16
-#: 0beaf78e1ce1495396cb27bc363d2ce7
+#: da5f7f4365654784b3c5f05d3558c824
 msgid ""
-"All metrics are area-based: **IoU** is the intersection-over-union of the "
-"predicted and ground-truth vegetation masks, and **F1 / Precision / Recall**"
-" are computed on the overlapping mask area. Evaluation run: 2026-07-03."
+"All metrics are area-based: **IoU** is the intersection-over-union of the"
+" predicted and ground-truth vegetation masks, and **F1 / Precision / "
+"Recall** are computed on the overlapping mask area. The segmentation "
+"output is unchanged from v.2026-07-03 (the v.2026-09-10 update refines "
+"crown extraction), so these per-location figures carry over. Segmentation"
+" evaluation run: 2026-07-03."
 msgstr ""
-"Todas las métricas se basan en el área: **IoU** es la intersección sobre la "
-"unión de las máscaras de vegetación predichas y reales, y "
-"**F1/Precisión/Recuperación** se calculan en el área de la máscara "
-"superpuesta. Ejecución de evaluación: 2026-07-03."
+"Todas las métricas se basan en el área: **IoU** es la intersección sobre "
+"la unión de las máscaras de vegetación predichas y de verdad de campo, y "
+"**F1 / Precisión / Exhaustividad** se calculan sobre el área de máscara "
+"superpuesta. La salida de segmentación no cambia respecto a v.2026-07-03 "
+"(la actualización v.2026-09-10 mejora la extracción de copas), por lo que"
+" estas cifras por ubicación siguen siendo válidas. Ejecución de "
+"evaluación de la segmentación: 2026-07-03."
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:59
 #: beebc140172742a6929e082226be7d1d
 msgid ""
 "**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-03**  ·  :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-06-14**"
+"style=\"background:#ff5028\"></span>` **v.2026-09-10**  ·  :raw-"
+"html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"**v.2025-06-14**"
 msgstr ""
 "**Leyenda del color de la máscara:** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-03** · :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-06-14**"
+"style=\"background:#ff5028\"></span>` **v.2026-09-10**  ·  :raw-"
+"html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"**v.2025-06-14**"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:63
 #: 09952c9fb3454b47bd2f2912a4e73414
@@ -111,7 +119,7 @@ msgstr "pagaré"
 #: 703b51036ef34d0fb22660c0eb3f27d7 98802956dd6540d7a906d1a9ed2de11d
 #: d3b0591efee842c8b015756d59889c86 ead05e3789d84234a40c2506e502041f
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:72
 #: ../userguides/forest_benchmark_2026-07-03.rst:103
@@ -157,8 +165,10 @@ msgstr "Recordar"
 #: fe42070afbe441c6b19d65b62459ae3d fee7b950983e4937b2cedd3b64ea21c0
 msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
-"**v.2026-07-03**"
+"**v.2026-09-10**"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-09-10**"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:75
 #: 55a79562fcda48caaa2566f068821758
@@ -173,7 +183,7 @@ msgstr "**0,892**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:77
 #: 2f9537177cff4fcb9537f88fa674acc6
 msgid "0.864"
-msgstr ""
+msgstr "0,864"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:78
 #: 69b934402bee46f3bd4ae2c3c6a866f5
@@ -196,16 +206,18 @@ msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
 "v.2025-06-14"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2025-06-14"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:80
 #: 777e25d8e45c401bbfaed48d83a5752b
 msgid "0.593"
-msgstr ""
+msgstr "0,593"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:81
 #: 01219c26d1614566aadbdee6ca72c8da
 msgid "0.745"
-msgstr ""
+msgstr "0,745"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:82
 #: 3b514b532b4b4d8a9b598e21cd577815
@@ -246,7 +258,7 @@ msgstr "**0,864**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:114
 #: 019f9b34e5d5491cada862e518969754 318d266b6d474ef89652727cd0c00781
 msgid "0.008"
-msgstr ""
+msgstr "0,008"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:112
 #: cb0f61746a8742e9af2146976ab50a3f
@@ -276,7 +288,7 @@ msgstr "**0,897**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:139
 #: 7f5bade07e8a4d80a928b77ae52f4ef8
 msgid "0.880"
-msgstr ""
+msgstr "0,880"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:140
 #: 81e37d45355b438c8ab6c11f63c391e5
@@ -301,7 +313,7 @@ msgstr "**0,973**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:145
 #: 720fa1cf07164dd0b20258cd920f0e45
 msgid "0.453"
-msgstr ""
+msgstr "0,453"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:156
 #: 29abf497477b4aeb8d147d072e254508
@@ -321,7 +333,7 @@ msgstr "**0,926**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:170
 #: cce29c566c434af182ab735beda07767
 msgid "0.944"
-msgstr ""
+msgstr "0,944"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:171
 #: 41b6d4dc9f264169abc8347b351970c8
@@ -331,12 +343,12 @@ msgstr "**0,909**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:173
 #: f27f5992424d4e6381e7480d10752f37
 msgid "0.803"
-msgstr ""
+msgstr "0,803"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:174
 #: 1359b0612abc48d0b1c15fb04ce813c4
 msgid "0.890"
-msgstr ""
+msgstr "0,890"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:175
 #: 5989ab0fd5174c908466d753729b74d9
@@ -346,7 +358,7 @@ msgstr "**0,988**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:176
 #: ad0f4c233e3541d7b3498301b79850eb
 msgid "0.811"
-msgstr ""
+msgstr "0,811"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:187
 #: 0bac3dbecf044d41b528d76f556afb4b
@@ -378,12 +390,12 @@ msgstr "**0,841**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:207
 #: 8d3e655939a84c78b0fdf64c00a0700c 9196a7fcbc0144ed842406955ca20e10
 msgid "0.057"
-msgstr ""
+msgstr "0,057"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:205
 #: c8e4f5a2e76549d288f113f16644b1f1
 msgid "0.108"
-msgstr ""
+msgstr "0,108"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:206
 #: 8b81f463c8584e08a557e74c92d9008c
@@ -433,7 +445,7 @@ msgstr "0,492"
 #: ../userguides/forest_benchmark_2026-07-03.rst:249
 #: 006f571f0f4d4485a308332e029e0db0
 msgid "Argentina — La Banda"
-msgstr ""
+msgstr "Argentina — La Banda"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:261
 #: 0981eaf8b67e468a8a6a3f10c3f16add
@@ -458,7 +470,7 @@ msgstr "**0,829**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:266
 #: 2804e594d8b44bd483e636632a0367b8
 msgid "0.233"
-msgstr ""
+msgstr "0,233"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:267
 #: 04afb23582ae462da9ca0a46f82af676
@@ -473,7 +485,7 @@ msgstr "**0,958**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:269
 #: a6f6d20351014bc489024464c9a4c0d8
 msgid "0.235"
-msgstr ""
+msgstr "0,235"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:280
 #: bd98f09957c34720a469c68de31674a8
@@ -493,7 +505,7 @@ msgstr "**0,844**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:294
 #: 628bd28bff20480dbf8b2026365c6c82
 msgid "0.905"
-msgstr ""
+msgstr "0,905"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:295
 #: fc669f24d7e74d6aa8ca168d59168a07
@@ -503,7 +515,7 @@ msgstr "**0,791**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:297
 #: 864779f5d89c430e8678e7293a5a5790
 msgid "0.568"
-msgstr ""
+msgstr "0,568"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:298
 #: 3c1dd998421a4abca4d6399f0e448413
@@ -518,7 +530,7 @@ msgstr "**0,981**"
 #: ../userguides/forest_benchmark_2026-07-03.rst:300
 #: 96c3d1a162bd44ee95c5f4312f10559a
 msgid "0.574"
-msgstr ""
+msgstr "0,574"
 
 #: ../userguides/forest_benchmark_2026-07-03.rst:311
 #: 048d4007047d4fcdb205ec6cf8f9d101
@@ -528,20 +540,27 @@ msgstr "Resumen"
 #: ../userguides/forest_benchmark_2026-07-03.rst:313
 #: 54a2a4be1ff64eb1b894d9898b1f1464
 msgid ""
-"**v.2026-07-03** improves substantially over the previous **v.2025-06-14** "
-"across all 8 AOIs. Mean area-based **F1 rises from 0.513 to 0.850** and "
-"**IoU from 0.396 to 0.744**, driven by a large recall gain (0.407 → "
-"**0.868**). The previous version was highly conservative — mean precision "
-"0.955, but it missed most vegetation and collapsed on several AOIs (e.g. "
-"Velilla de San Antonio F1 0.015, Rus F1 0.108, La Banda F1 0.378). "
-"v.2026-07-03 keeps precision high (0.837) while recovering the missed "
-"canopy, and leads on F1 in every location."
+"**v.2026-09-10** improves substantially over the previous "
+"**v.2025-06-14** across all 8 AOIs. Mean area-based **F1 rises from 0.513"
+" to 0.850** and **IoU from 0.396 to 0.744**, driven by a large recall "
+"gain (0.407 → **0.868**). The previous version was highly conservative — "
+"mean precision 0.955, but it missed most vegetation and collapsed on "
+"several AOIs (e.g. Velilla de San Antonio F1 0.015, Rus F1 0.108, La "
+"Banda F1 0.378). v.2026-09-10 keeps precision high (0.837) while "
+"recovering the missed canopy, and leads on F1 in every location."
 msgstr ""
-"**v.2026-07-03** mejora sustancialmente con respecto a la **v.2025-06-14** "
-"anterior en las 8 AOI. El **F1 medio basado en área aumenta de 0,513 a "
-"0,850** y el **IoU de 0,396 a 0,744**, impulsado por una gran ganancia de "
-"recuperación (0,407 → **0,868**). La versión anterior era muy conservadora: "
-"precisión media de 0,955, pero omitió la mayor parte de la vegetación y "
-"colapsó en varias AOI (por ejemplo, Velilla de San Antonio F1 0,015, Rus F1 "
-"0,108, La Banda F1 0,378). v.2026-07-03 mantiene una precisión alta (0,837) "
-"mientras recupera el dosel perdido y lidera la F1 en todos los lugares."
+"**v.2026-09-10** mejora sustancialmente con respecto a la "
+"**v.2025-06-14** anterior en las 8 AOI. El **F1 medio basado en área "
+"aumenta de 0,513 a 0,850** y el **IoU de 0,396 a 0,744**, impulsado por "
+"una gran ganancia de exhaustividad (0,407 → **0,868**). La versión "
+"anterior era muy conservadora: precisión media de 0,955, pero omitía la "
+"mayor parte de la vegetación y fallaba en varias AOI (p. ej., Velilla de "
+"San Antonio F1 0,015, Rus F1 0,108, La Banda F1 0,378). v.2026-09-10 "
+"mantiene una precisión alta (0,837) mientras recupera el dosel omitido, y"
+" obtiene el mejor F1 en todas las ubicaciones."
+
+#~ msgid ""
+#~ ":raw-html:`<span class=\"mchip\" "
+#~ "style=\"background:#ff5028\"></span>` **v.2026-07-03**"
+#~ msgstr ""
+

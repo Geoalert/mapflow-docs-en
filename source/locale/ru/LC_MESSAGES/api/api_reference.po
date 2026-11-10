@@ -11,12 +11,13 @@ msgstr ""
 "POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../api/api_reference.rst:4 4cffff63494e4307b9f375fa77882568
@@ -197,7 +198,7 @@ msgstr "Обновить проект"
 
 #: ../api/api_reference.rst:57 9d7df920b74f4d62aaebbcac554a4cf7
 msgid "**PUT** ``/projects/{projectId}``"
-msgstr ""
+msgstr "**PUT** ``/projects/{projectId}``"
 
 #: ../api/api_reference.rst:59 defbc36659f1437599108ad760cdecdb
 msgid "Updates project name and/or description."
@@ -206,7 +207,7 @@ msgstr "Обновляет имя и/или описание проекта."
 #: ../api/api_reference.rst:69 ../api/api_reference.rst:118
 #: 57d4d8c43305472f8b7150b4d91148f0 63f0ee263285435091c4424933618e27
 msgid "``projectId``"
-msgstr ""
+msgstr "``projectId``"
 
 #: ../api/api_reference.rst:72 7990f0956d3646de8fee7b99ad33e453
 msgid "Project UUID (path parameter)"
@@ -230,9 +231,9 @@ msgid ""
 "``inferenceParams``. v1 uses a flat ``params`` map and is maintained for "
 "backward compatibility."
 msgstr ""
-"**Рекомендуется API v2.** Он использует структурированные ``sourceParams`` и"
-" ``inferenceParams``. Версия 1 использует плоскую карту ``params`` и "
-"поддерживается для обратной совместимости."
+"**Рекомендуется API v2.** Он использует структурированные "
+"``sourceParams`` и ``inferenceParams``. Версия 1 использует плоскую карту"
+" ``params`` и поддерживается для обратной совместимости."
 
 #: ../api/api_reference.rst:100 1f2abd4f340b4d96924dbab68733bfd7
 msgid "Create processing (v2)"
@@ -240,7 +241,7 @@ msgstr "Создать обработку (v2)"
 
 #: ../api/api_reference.rst:102 caf6dff18600459bad30dbf1e381ac46
 msgid "**POST** ``/processings/v2``"
-msgstr ""
+msgstr "**POST** ``/processings/v2``"
 
 #: ../api/api_reference.rst:104 f635700eae354015b8fdb6e485235768
 msgid "Creates and runs an imagery analysis processing."
@@ -261,7 +262,8 @@ msgstr "``wdId`` или ``wdName``"
 #: ../api/api_reference.rst:125 33a3d48e523d43d2a927a36c7e246b51
 msgid "Workflow definition ID or name (e.g., \"🏠 Buildings\")"
 msgstr ""
-"Идентификатор или имя определения рабочего процесса (например, «🏠 Здания»)."
+"Идентификатор или имя определения рабочего процесса (например, «🏠 "
+"Здания»)."
 
 #: ../api/api_reference.rst:126 ../api/api_reference.rst:304
 #: 499d4b7500084a83b2d20db4c7a45700 f27eb58de575440dbbedeb22333dc908
@@ -271,7 +273,7 @@ msgstr "``геометрия``"
 #: ../api/api_reference.rst:127 ../api/api_reference.rst:305
 #: de494c7841db4105b15753b04a59a89f e8ea77b882544e339beb92f34a560b39
 msgid "GeoJSON"
-msgstr ""
+msgstr "GeoJSON"
 
 #: ../api/api_reference.rst:129 f4750708e24c46d4ad49c8124f9a2025
 msgid "Area of interest (Polygon or MultiPolygon)"
@@ -279,7 +281,7 @@ msgstr "Область интереса (Многоугольник или Му�
 
 #: ../api/api_reference.rst:130 2f099d3fae9e4523b6643b60315a3382
 msgid "``params.sourceParams``"
-msgstr ""
+msgstr "``params.sourceParams``"
 
 #: ../api/api_reference.rst:131 ../api/api_reference.rst:135
 #: ../api/api_reference.rst:147 ../api/api_reference.rst:313
@@ -295,7 +297,7 @@ msgstr "Конфигурация источника изображений (см
 
 #: ../api/api_reference.rst:134 106275b525a54e0db90d23329ba81ab8
 msgid "``params.inferenceParams``"
-msgstr ""
+msgstr "``params.inferenceParams``"
 
 #: ../api/api_reference.rst:137 c711e3253fab49118d8cf019ae444276
 msgid "Model-specific parameters"
@@ -316,8 +318,7 @@ msgstr "множество"
 
 #: ../api/api_reference.rst:141 2e3dc9b6d8de40889517bb963fa59599
 msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
-msgstr ""
-"Включить/отключить этапы рабочего процесса (см. :ref:`workflow-blocks`)"
+msgstr "Включить/отключить этапы рабочего процесса (см. :ref:`workflow-blocks`)"
 
 #: ../api/api_reference.rst:145 6d58111c25bc41bfb7f535312a5b768b
 msgid "Processing description"
@@ -345,7 +346,7 @@ msgstr "Получить обработку (v2)"
 
 #: ../api/api_reference.rst:210 5c916d77a3924db38cdced52a0646bdf
 msgid "**GET** ``/processings/{processingId}/v2``"
-msgstr ""
+msgstr "**GET** ``/processings/{processingId}/v2``"
 
 #: ../api/api_reference.rst:212 020ffb9f631a4d9aa62001eb85409d9e
 msgid "Retrieves processing status and details."
@@ -361,8 +362,8 @@ msgstr "Обработка UUID (параметр пути)"
 
 #: ../api/api_reference.rst:246 3e09ea15426947fab93a9f53666ca9b4
 msgid ""
-"**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, "
-"``FAILED``, ``CANCELLED``"
+"**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, "
+"``OK``, ``FAILED``, ``CANCELLED``"
 msgstr ""
 "**Значения статуса:** ``UNPROCESSED``, ``IN_PROGRESS``, ``ОЖИДАНИЕ``, "
 "``ОК``, ``FAILED``, ``ОТМЕНЕН``"
@@ -373,7 +374,7 @@ msgstr "Обработка списка (v2)"
 
 #: ../api/api_reference.rst:252 104d1ccee32b4e7cb0d0176aaeb1c0d0
 msgid "**GET** ``/processings/v2``"
-msgstr ""
+msgstr "**GET** ``/processings/v2``"
 
 #: ../api/api_reference.rst:254 dad144cabb784a3f9b7308938e74c845
 msgid "Lists all user processings."
@@ -385,7 +386,7 @@ msgstr "Список обработок по проектам (v2)"
 
 #: ../api/api_reference.rst:280 483abb4a436448adaf933d10cb24e8b3
 msgid "**GET** ``/projects/{projectId}/processings/v2``"
-msgstr ""
+msgstr "**GET** ``/projects/{projectId}/processings/v2``"
 
 #: ../api/api_reference.rst:282 3fa631ffeac749009bb9fb1f4ab2681e
 msgid "Lists processings for a specific project."
@@ -397,7 +398,7 @@ msgstr "Рассчитать стоимость (v2)"
 
 #: ../api/api_reference.rst:288 0b1094af7d0044789db7d6d59a942c5d
 msgid "**POST** ``/processing/cost/v2``"
-msgstr ""
+msgstr "**POST** ``/processing/cost/v2``"
 
 #: ../api/api_reference.rst:290 463c4a3aa837498ab9407dd819580398
 msgid "Estimates processing cost before running."
@@ -405,7 +406,7 @@ msgstr "Оценивает стоимость обработки перед за
 
 #: ../api/api_reference.rst:300 d10c25c33ddc47c4a75037ee39805efa
 msgid "``wdId``"
-msgstr ""
+msgstr "``wdId``"
 
 #: ../api/api_reference.rst:303 29a5cad0d1f9483fb0be8cac91abf1eb
 msgid "Workflow definition ID"
@@ -454,7 +455,7 @@ msgstr "Скачать результаты"
 
 #: ../api/api_reference.rst:348 8ef0f0da97f9475c98cca4361e08f2ec
 msgid "**GET** ``/processings/{processingId}/result``"
-msgstr ""
+msgstr "**GET** ``/processings/{processingId}/result``"
 
 #: ../api/api_reference.rst:350 f37c269742d846bf93502b2a182e58b5
 msgid "Downloads processing results as GeoJSON."
@@ -468,8 +469,7 @@ msgstr "**Параметры запроса:**"
 
 #: ../api/api_reference.rst:354 4c93071706054d788116d1905673611e
 msgid "``aoiId`` (optional) — Filter results to specific AOI"
-msgstr ""
-"``aoiId`` (необязательно) — Фильтровать результаты по определенному AOI"
+msgstr "``aoiId`` (необязательно) — Фильтровать результаты по определенному AOI"
 
 #: ../api/api_reference.rst:356 ../api/api_reference.rst:376
 #: 3ee36782496749e1ad6abd05999b50bc f20bf4161df7495b97de5d0c244091e3
@@ -482,12 +482,11 @@ msgstr "Скачать результаты по AOI"
 
 #: ../api/api_reference.rst:368 712c1f16a7c04e7390a8972440a004b2
 msgid "**GET** ``/processings/{processingId}/result?aoiId={aoiId}``"
-msgstr ""
+msgstr "**GET** ``/processings/{processingId}/result?aoiId={aoiId}``"
 
 #: ../api/api_reference.rst:370 7d15aae61f3242efa448aae21f5b6d7b
 msgid "Downloads processing results as GeoJSON by specific AOI."
-msgstr ""
-"Загружает результаты обработки в формате GeoJSON по определенному AOI."
+msgstr "Загружает результаты обработки в формате GeoJSON по определенному AOI."
 
 #: ../api/api_reference.rst:374 d0a8445ea8144a3f987a74239ca742ec
 msgid "``aoiId`` (required) - AOI ID used to filter results"
@@ -517,7 +516,7 @@ msgstr "**Обработка обновления**"
 
 #: ../api/api_reference.rst:396 a5433b88a073470886c95549b7e78383
 msgid "``PUT /processings/{processingId}``"
-msgstr ""
+msgstr "``PUT /processings/{processingId}``"
 
 #: ../api/api_reference.rst:406 a5503bcb5da548079dfe736bd103de75
 msgid "**Delete processing**"
@@ -525,7 +524,7 @@ msgstr "**Удалить обработку**"
 
 #: ../api/api_reference.rst:408 782f03f1f1ea4d6f92e7528416b5119b
 msgid "``DELETE /processings/{processingId}``"
-msgstr ""
+msgstr "``DELETE /processings/{processingId}``"
 
 #: ../api/api_reference.rst:410 5b46d651483d421a90c98d35e1c06b2b
 msgid "Deletes processing and all child entities."
@@ -616,8 +615,8 @@ msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
 msgstr ""
-"Объект ``sourceParams`` указывает, где получить изображения. Выберите один "
-"вариант:"
+"Объект ``sourceParams`` указывает, где получить изображения. Выберите "
+"один вариант:"
 
 #: ../api/api_reference.rst:498 1290281072c843569fcce0c0cae9985f
 msgid "Default Data Provider"
@@ -683,11 +682,11 @@ msgstr "Используйте свой собственный сервис пл
 
 #: ../api/api_reference.rst:601 b88bbdd817d84a3db26b0bb5a610c836
 msgid "``sourceType``"
-msgstr ""
+msgstr "``sourceType``"
 
 #: ../api/api_reference.rst:603 888560c8bb5f4351aea74211ee3bed1b
 msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
-msgstr ""
+msgstr "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
 
 #: ../api/api_reference.rst:604 ../api/api_reference.rst:836
 #: 602c8f8d9dbb49489052855b91f1a3fd
@@ -704,7 +703,7 @@ msgstr "Уровень масштабирования"
 
 #: ../api/api_reference.rst:610 7eb4233fd6b24b18a539ee8e3d9a6781
 msgid "``crs``"
-msgstr ""
+msgstr "``crs``"
 
 #: ../api/api_reference.rst:612 f890183f304c41f49fd43611e28b32c1
 msgid "Coordinate reference system (e.g., ``EPSG:3857``)"
@@ -712,7 +711,7 @@ msgstr "Система координат (например, ``EPSG:3857``)"
 
 #: ../api/api_reference.rst:613 f43b4f8c73aa44a98b18e1a666c2b85d
 msgid "``rasterLogin``"
-msgstr ""
+msgstr "``rasterLogin``"
 
 #: ../api/api_reference.rst:615 58a0afe923514a26aa09024f8c4a1fb6
 msgid "Optional authentication username"
@@ -720,7 +719,7 @@ msgstr "Необязательное имя пользователя для ау
 
 #: ../api/api_reference.rst:616 04e480a9b70c40d59bdc522105e1fe8d
 msgid "``rasterPassword``"
-msgstr ""
+msgstr "``rasterPassword``"
 
 #: ../api/api_reference.rst:618 4536ea53e7814e65ad546dd4d616b79e
 msgid "Optional authentication password"
@@ -732,13 +731,11 @@ msgstr "Загрузка пользовательских изображений
 
 #: ../api/api_reference.rst:626 62702a0ae3364997981ad49cab660035
 msgid "Use :ref:`Data API` to create a mosaic and upload images"
-msgstr ""
-"Используйте :ref:`Data API` для создания мозаики и загрузки изображений."
+msgstr "Используйте :ref:`Data API` для создания мозаики и загрузки изображений."
 
 #: ../api/api_reference.rst:627 98d8185bda18472a9546fe1e0388da8d
 msgid "Reference uploaded images in ``sourceParams.myImagery.imageIds``"
-msgstr ""
-"Ссылка на загруженные изображения в ``sourceParams.myImagery.imageIds``"
+msgstr "Ссылка на загруженные изображения в ``sourceParams.myImagery.imageIds``"
 
 #: ../api/api_reference.rst:644 d4f22ac975ac45bcb6fa580c0eae8fb4
 msgid "Data API"
@@ -756,10 +753,10 @@ msgid ""
 "storage."
 msgstr ""
 "**Мозаика** – это коллекция изображений с географической привязкой, "
-"организованная для обработки и предварительного просмотра. Мозаика помогает "
-"при работе с несколькими аэрофотоснимками, охватывающими определенную "
-"территорию, или при группировании больших ортокарт для оптимизации облачного"
-" хранения."
+"организованная для обработки и предварительного просмотра. Мозаика "
+"помогает при работе с несколькими аэрофотоснимками, охватывающими "
+"определенную территорию, или при группировании больших ортокарт для "
+"оптимизации облачного хранения."
 
 #: ../api/api_reference.rst:653 78d10b8dfde943b4b65caf957923db7c
 msgid "Create Mosaic"
@@ -806,7 +803,7 @@ msgstr "Получить мозаику"
 
 #: ../api/api_reference.rst:705 21559d8071004dc798e10b17ba3e1ca0
 msgid "``GET /rasters/mosaic/{mosaic_id}``"
-msgstr ""
+msgstr "``GET /rasters/mosaic/{mosaic_id}``"
 
 #: ../api/api_reference.rst:707 581dfa2fc9264542a991dd67e39a7248
 msgid "Retrieves mosaic metadata by ID."
@@ -818,7 +815,7 @@ msgstr "Обновить мозаику"
 
 #: ../api/api_reference.rst:725 eeea29100bd24bba9c3e6c169ec919e6
 msgid "``PUT /rasters/mosaic/{mosaic_id}``"
-msgstr ""
+msgstr "``PUT /rasters/mosaic/{mosaic_id}``"
 
 #: ../api/api_reference.rst:727 a7eeb5de9e9f4699a714e5cb8b89d430
 msgid "Updates mosaic name and tags."
@@ -838,7 +835,7 @@ msgstr "Загрузить изображения в мозаику"
 
 #: ../api/api_reference.rst:764 097df8468f4f4a00bbdd9a7afdd583fd
 msgid "``POST /rasters/mosaic/{mosaic_id}/image``"
-msgstr ""
+msgstr "``POST /rasters/mosaic/{mosaic_id}/image``"
 
 #: ../api/api_reference.rst:766 987f8dd30cf7410d9dc7538ee98f3648
 msgid "Uploads georeferenced image files to an existing mosaic."
@@ -880,7 +877,7 @@ msgstr "Создайте мозаику и загрузите изображен
 
 #: ../api/api_reference.rst:805 f399fdab7e804cdca3a81e91066653a1
 msgid "``POST /rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}``"
-msgstr ""
+msgstr "``POST /rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}``"
 
 #: ../api/api_reference.rst:807 39796dd29e8a4b5fae454f4ce3d70778
 msgid "Creates a mosaic and uploads an image in a single request."
@@ -892,12 +889,11 @@ msgstr "Связать внешнее изображение с мозаикой
 
 #: ../api/api_reference.rst:822 ca0d76860d8344cb933c9e9386d14457
 msgid "``POST /rasters/mosaic/{mosaic_id}/link-image``"
-msgstr ""
+msgstr "``POST /rasters/mosaic/{mosaic_id}/link-image``"
 
 #: ../api/api_reference.rst:824 4bc6d2a6a5ce44d1b74af2862997953f
 msgid "Links an existing S3 image URL to a mosaic without uploading."
-msgstr ""
-"Связывает существующий URL-адрес изображения S3 с мозаикой без загрузки."
+msgstr "Связывает существующий URL-адрес изображения S3 с мозаикой без загрузки."
 
 #: ../api/api_reference.rst:839 57ee20b50e184e079e5fe0ee24488302
 msgid "S3 URL of the image file"
@@ -909,7 +905,7 @@ msgstr "Получить изображения в мозаике"
 
 #: ../api/api_reference.rst:865 e811203c96174d22b5a1578887aabb5e
 msgid "``GET /rasters/mosaic/{mosaic_id}/image``"
-msgstr ""
+msgstr "``GET /rasters/mosaic/{mosaic_id}/image``"
 
 #: ../api/api_reference.rst:867 4166403614f24bf282064bc1745cc93b
 msgid "Lists all images in a mosaic with metadata."
@@ -932,8 +928,8 @@ msgid ""
 "This action is **irreversible**. All images linked to the mosaic will be "
 "permanently deleted."
 msgstr ""
-"Это действие **необратимо**. Все изображения, связанные с мозаикой, будут "
-"удалены без возможности восстановления."
+"Это действие **необратимо**. Все изображения, связанные с мозаикой, будут"
+" удалены без возможности восстановления."
 
 #: ../api/api_reference.rst:912 03f1fad01d2e45f8bd98abf17e8704b2
 msgid "Images"
@@ -949,7 +945,7 @@ msgstr "Получить метаданные изображения"
 
 #: ../api/api_reference.rst:920 37e59661841b406891b99eb814a8fc9a
 msgid "``GET /rasters/image/{image_id}``"
-msgstr ""
+msgstr "``GET /rasters/image/{image_id}``"
 
 #: ../api/api_reference.rst:922 c7f2f0afa46e4f71afbce8359f027212
 msgid "Retrieves detailed metadata for a specific image."
@@ -961,7 +957,7 @@ msgstr "Обновить имя изображения"
 
 #: ../api/api_reference.rst:949 b234212e17ac41fcb1ca9fd6930d2451
 msgid "``PUT /rasters/image/{image_id}?name={new_name}``"
-msgstr ""
+msgstr "``PUT /rasters/image/{image_id}?name={new_name}``"
 
 #: ../api/api_reference.rst:951 88d6b9c8aba14db994f71b7d027af8f9
 msgid "Updates the display name of an image."
@@ -985,7 +981,7 @@ msgstr "Получить предварительный просмотр изо�
 
 #: ../api/api_reference.rst:979 a192a46be7da4eb4825684afcbc3e1a6
 msgid "``GET /rasters/image/{image_id}/preview/{size}``"
-msgstr ""
+msgstr "``GET /rasters/image/{image_id}/preview/{size}``"
 
 #: ../api/api_reference.rst:981 b877e4d87aeb434c821f680cc9a61806
 msgid "Retrieves a preview thumbnail of the image."
@@ -1040,8 +1036,8 @@ msgstr "``GET /rasters/memory``"
 #: ../api/api_reference.rst:1025 3472cc76c0c04b14be97c1798d667a90
 msgid "Returns current storage usage and limits for your account."
 msgstr ""
-"Возвращает текущее использование хранилища и ограничения для вашей учетной "
-"записи."
+"Возвращает текущее использование хранилища и ограничения для вашей "
+"учетной записи."
 
 #: ../api/api_reference.rst:1050 2d925840a1f84c7c999b1be8d9713185
 msgid "Imagery Catalog"
@@ -1049,9 +1045,9 @@ msgstr "Каталог изображений"
 
 #: ../api/api_reference.rst:1053 73f9a9d1282f431f80077b14b9967f91
 msgid ""
-"The Imagery Search API connects you to external satellite imagery providers."
-" Search results depend on providers linked to your account. Contact support "
-"to add provider access."
+"The Imagery Search API connects you to external satellite imagery "
+"providers. Search results depend on providers linked to your account. "
+"Contact support to add provider access."
 msgstr ""
 "API поиска изображений соединяет вас с внешними поставщиками спутниковых "
 "изображений. Результаты поиска зависят от поставщиков, связанных с вашей "
@@ -1071,8 +1067,8 @@ msgid ""
 "Searches satellite imagery from external providers by area and metadata "
 "filters."
 msgstr ""
-"Поиск спутниковых изображений от внешних поставщиков по площади и фильтрам "
-"метаданных."
+"Поиск спутниковых изображений от внешних поставщиков по площади и "
+"фильтрам метаданных."
 
 #: ../api/api_reference.rst:1073 3a794a8dd11a4d59b997ea8a465309b7
 msgid "``aoi``"
@@ -1084,7 +1080,7 @@ msgstr "GeoJSON Полигон или Мультиполигон"
 
 #: ../api/api_reference.rst:1077 12d79d93389843c390a9839a6d2f1979
 msgid "``acquisitionDateFrom``"
-msgstr ""
+msgstr "``acquisitionDateFrom``"
 
 #: ../api/api_reference.rst:1080 ../api/api_reference.rst:1084
 #: ee66c3155e684f4185b9ee50245f7ab6
@@ -1093,11 +1089,11 @@ msgstr "Дата и время в формате UTC (ISO 8601)"
 
 #: ../api/api_reference.rst:1081 db25e1f87c194c759cee2f571d2e8f39
 msgid "``acquisitionDateTo``"
-msgstr ""
+msgstr "``acquisitionDateTo``"
 
 #: ../api/api_reference.rst:1085 b69ed76103944eb3b3404b44cc0127a8
 msgid "``minResolution``"
-msgstr ""
+msgstr "``minResolution``"
 
 #: ../api/api_reference.rst:1086 ../api/api_reference.rst:1090
 #: ../api/api_reference.rst:1094 ../api/api_reference.rst:1098
@@ -1112,7 +1108,7 @@ msgstr "Минимальное разрешение (метры/пиксель)"
 
 #: ../api/api_reference.rst:1089 85e7f03e345743b8ab14f55c7ea41ae9
 msgid "``maxResolution``"
-msgstr ""
+msgstr "``maxResolution``"
 
 #: ../api/api_reference.rst:1092 d2a7c225faa14563b44f9c73ad4a7e1f
 msgid "Maximum resolution (meters/pixel)"
@@ -1120,7 +1116,7 @@ msgstr "Максимальное разрешение (метры/пиксель
 
 #: ../api/api_reference.rst:1093 43d027c6089d4ad09149214b4099452c
 msgid "``maxCloudCover``"
-msgstr ""
+msgstr "``maxCloudCover``"
 
 #: ../api/api_reference.rst:1096 8a93f7fe6e614299854310b011083de4
 msgid "Maximum cloud cover (0.0-100)"
@@ -1128,7 +1124,7 @@ msgstr "Максимальная облачность (0,0-100)"
 
 #: ../api/api_reference.rst:1097 bafac1f11c484d5ab2907ca058836412
 msgid "``minOffNadirAngle``"
-msgstr ""
+msgstr "``minOffNadirAngle``"
 
 #: ../api/api_reference.rst:1100 775dbd68724344e596b014b7a6f53d66
 msgid "Minimum off-nadir angle (degrees)"
@@ -1136,7 +1132,7 @@ msgstr "Минимальный угол отклонения от надира (
 
 #: ../api/api_reference.rst:1101 f92c9a67ffa64da6bf880b51d9259cfe
 msgid "``maxOffNadirAngle``"
-msgstr ""
+msgstr "``maxOffNadirAngle``"
 
 #: ../api/api_reference.rst:1104 6e0154eafce64bae84bf155bc655622a
 msgid "Maximum off-nadir angle (degrees)"
@@ -1144,7 +1140,7 @@ msgstr "Максимальный угол отклонения от надира
 
 #: ../api/api_reference.rst:1105 2c02ff722f7e49c5a4eacbf1672a8dc6
 msgid "``minAoiIntersectionPercent``"
-msgstr ""
+msgstr "``minAoiIntersectionPercent``"
 
 #: ../api/api_reference.rst:1108 d980f0fd00b84b388362b7db2208bf7f
 msgid "Minimum AOI overlap (0.0-100)"
@@ -1176,7 +1172,7 @@ msgstr "Поле сортировки (например, ``ACQUISITION_DATE``)"
 
 #: ../api/api_reference.rst:1121 fd20374da87b44deb3818bda29090390
 msgid "``sortOrder``"
-msgstr ""
+msgstr "``sortOrder``"
 
 #: ../api/api_reference.rst:1124 bb29241069dd4ef8844d2e3e34a263a1
 msgid "``ASC`` or ``DESC``"
@@ -1240,7 +1236,8 @@ msgstr ""
 
 #: ../api/api_reference.rst:1239 b835d904fc9a4244a2e564783bad59e7
 msgid ""
-"See :doc:`Processing API <processing_api>` for complete processing workflow."
+"See :doc:`Processing API <processing_api>` for complete processing "
+"workflow."
 msgstr ""
 "Полный рабочий процесс обработки см. в документе :doc:`Processing API "
 "<processing_api>`."
@@ -1255,11 +1252,11 @@ msgstr "**Сцена**"
 
 #: ../api/api_reference.rst:1252 83548557d94a4e80ad68c3dd6dadda8c
 msgid ""
-"Single satellite capture. Available for ordering by request. Contact support"
-" to order specific scenes."
+"Single satellite capture. Available for ordering by request. Contact "
+"support to order specific scenes."
 msgstr ""
-"Захват одного спутника. Доступен для заказа по запросу. Свяжитесь со службой"
-" поддержки, чтобы заказать конкретные сцены."
+"Захват одного спутника. Доступен для заказа по запросу. Свяжитесь со "
+"службой поддержки, чтобы заказать конкретные сцены."
 
 #: ../api/api_reference.rst:1253 8997dcab897c402aa651a664fd4c33ac
 msgid "**Mosaic**"
@@ -1267,8 +1264,8 @@ msgstr "**Мозаика**"
 
 #: ../api/api_reference.rst:1254 1af101de8c9e4085ae7bb944d37c2041
 msgid ""
-"Pre-processed imagery mosaic. Available for instant processing if provider "
-"is linked to your account."
+"Pre-processed imagery mosaic. Available for instant processing if "
+"provider is linked to your account."
 msgstr ""
 "Предварительно обработанная мозаика изображений. Доступно для мгновенной "
 "обработки, если провайдер привязан к вашей учетной записи."
@@ -1304,8 +1301,7 @@ msgstr ""
 "процесса."
 
 #: ../api/api_reference.rst:1288 98a03e829b8f4923984af40fe2c2ccd2
-msgid ""
-"Available blocks vary by model. Retrieve options via ``GET /user/status``."
+msgid "Available blocks vary by model. Retrieve options via ``GET /user/status``."
 msgstr ""
 "Доступные блоки различаются в зависимости от модели. Получите параметры "
 "через ``GET /user/status``."
@@ -1348,7 +1344,7 @@ msgstr "0,5 м/пиксель"
 #: ../api/api_reference.rst:1323 ../api/api_reference.rst:1328
 #: 08e2b0261c12494bb3c9a46ac46c6dd0
 msgid "17-18"
-msgstr ""
+msgstr "17-18"
 
 #: ../api/api_reference.rst:1309 5917e9aa12484e16b882ca375e562dda
 msgid "Simplification, Classification, OSM"
@@ -1368,7 +1364,7 @@ msgstr "0,1 м/пиксель"
 
 #: ../api/api_reference.rst:1313 6a033781dcee41428c6b5747d7ea852c
 msgid "19-20"
-msgstr ""
+msgstr "19-20"
 
 #: ../api/api_reference.rst:1314 f920664889454610b8e9a3faff341fea
 msgid "Simplification"
@@ -1397,7 +1393,7 @@ msgstr "Извлечение дорожной сети"
 #: ../api/api_reference.rst:1324 ../api/api_reference.rst:1329
 #: 6862c1bd02f842d8a4f5d11cab0a920f
 msgid "—"
-msgstr ""
+msgstr "—"
 
 #: ../api/api_reference.rst:1325 a7cb79a520a04192ba320f7fce6a610c
 msgid "🏗️ Construction"
@@ -1412,7 +1408,8 @@ msgid ""
 "See :doc:`model descriptions <../userguides/pipelines>` for detailed "
 "requirements."
 msgstr ""
-"Подробные требования см. в :doc:`описании модели <../userguides/pipelines>`."
+"Подробные требования см. в :doc:`описании модели "
+"<../userguides/pipelines>`."
 
 #: ../api/api_reference.rst:1335 6ce2c328faac4582afce958310095f71
 msgid "Status Codes"
@@ -1506,7 +1503,7 @@ msgstr "Кредиты возвращены"
 
 #: ../api/api_reference.rst:1374 2bf5f828202d4133943486232d6ead02
 msgid "``IN_REVIEW``"
-msgstr ""
+msgstr "``IN_REVIEW``"
 
 #: ../api/api_reference.rst:1375 b96d3be7f953431cb6d0cbe504d0663a
 msgid "Under review by team"
@@ -1530,8 +1527,8 @@ msgstr "Распространенные ошибки:"
 
 #: ../api/api_reference.rst:1385 e135c0097f5d4b8980545c473ca59452
 msgid ""
-"``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max 1.2 "
-"m/px)"
+"``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max "
+"1.2 m/px)"
 msgstr ""
 "``source-validator.PixelSizeTooHigh`` — слишком низкое разрешение "
 "изображения (максимум 1,2 м/пиксель)."
@@ -1553,16 +1550,16 @@ msgid ""
 "**Check cost before running** — Use ``/processing/cost/v2`` to estimate "
 "credits"
 msgstr ""
-"**Проверьте стоимость перед запуском** — используйте ``/processing/cost/v2``"
-" для оценки кредитов."
+"**Проверьте стоимость перед запуском** — используйте "
+"``/processing/cost/v2`` для оценки кредитов."
 
 #: ../api/api_reference.rst:1396 f24374cbd7ba436c8906074ca949a237
 msgid ""
 "**Poll status efficiently** — Check status every 30-60 seconds for "
 "``IN_PROGRESS`` processings"
 msgstr ""
-"**Эффективный опрос статуса** — Проверяйте статус каждые 30–60 секунд для "
-"обработки ``IN_PROGRESS``."
+"**Эффективный опрос статуса** — Проверяйте статус каждые 30–60 секунд для"
+" обработки ``IN_PROGRESS``."
 
 #: ../api/api_reference.rst:1397 7866faebe9714de195e2198e87e05b50
 msgid ""
@@ -1577,16 +1574,16 @@ msgid ""
 "**Use appropriate zoom levels** — Match zoom to model requirements "
 "(typically 17-18)"
 msgstr ""
-"**Используйте соответствующие уровни масштабирования** — подбирайте масштаб "
-"в соответствии с требованиями модели (обычно 17–18)."
+"**Используйте соответствующие уровни масштабирования** — подбирайте "
+"масштаб в соответствии с требованиями модели (обычно 17–18)."
 
 #: ../api/api_reference.rst:1399 84106774c20e4f4393c99ea135d02267
 msgid ""
 "**Validate geometry** — Ensure GeoJSON is valid and not too large (< 100 "
 "km²)"
 msgstr ""
-"**Проверка геометрии** – убедитесь, что GeoJSON действителен и не слишком "
-"велик (< 100 км²)."
+"**Проверка геометрии** – убедитесь, что GeoJSON действителен и не слишком"
+" велик (< 100 км²)."
 
 #: ../api/api_reference.rst:1400 21dc383f4ed444c58b26cedb3c220bf7
 msgid "**Organize with projects** — Group related processings in projects"
@@ -1597,8 +1594,8 @@ msgstr ""
 #: ../api/api_reference.rst:1401 2f1dcad88ed1427c9ce3c278361d2ae2
 msgid "**Store processing IDs** — Save IDs for later result retrieval"
 msgstr ""
-"**Сохранение идентификаторов обработки** – сохранение идентификаторов для "
-"последующего получения результатов."
+"**Сохранение идентификаторов обработки** – сохранение идентификаторов для"
+" последующего получения результатов."
 
 #: ../api/api_reference.rst:1404 4742acb50ebc4a9ab42384fa536f42bc
 msgid "Support"
@@ -1618,8 +1615,7 @@ msgstr "Одновременные обработки ограничены ур�
 
 #: ../api/api_reference.rst:1411 3ec35d2a367146f892ceae104343d6d5
 msgid "Contact support for high-volume use cases"
-msgstr ""
-"Свяжитесь со службой поддержки в случае большого объема использования."
+msgstr "Свяжитесь со службой поддержки в случае большого объема использования."
 
 #: ../api/api_reference.rst:1414 f2740c3a359847df8eb8ae6bba4f5179
 msgid "Get Help"
@@ -1636,3 +1632,4 @@ msgstr "Документация: https://docs.mapflow.ai."
 #: ../api/api_reference.rst:1418 ada6868acae140a78ada5af9226b42fe
 msgid "Web app: https://app.mapflow.ai"
 msgstr "Веб-приложение: https://app.mapflow.ai."
+

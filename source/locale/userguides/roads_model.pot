@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/roads_model.rst:1
-#: 9c5d45570a474d258fd8216965e9af07
+#: a03c9935496c48ff88c8ee7c5a9d22e4
 msgid "Extract road networks from 0.6-0.3 m satellite imagery. Multi-task learning improves mask connectivity where roads are obscured by trees or buildings."
 msgstr ""
 
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../userguides/roads_model.rst:10
 #: 22dcaaeb17c040e785622c3fd58cba2c
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
+msgid ":mf-chip:`road|Roads` :mf-badge:`Default model`"
 msgstr ""
 
 #: ../userguides/roads_model.rst:0
@@ -198,35 +198,302 @@ msgstr ""
 
 #: ../userguides/roads_model.rst:0
 #: 71ac96f13ca54f37ba07af8cbc768196
-msgid "Roads model result in a complex urban environment"
+msgid "Extracted road network over a regular grid city"
 msgstr ""
 
 #: ../userguides/roads_model.rst:35
-#: d19bdf990581493ca45d2f5ab972815a
-msgid "Complex urban environment: New Town, Kolkata Metropolitan Area, India"
+#: 87f555e1f2d44a5f9a6a1c393c918b5a
+msgid "Regular grid layout — Balcarce, Buenos Aires, Argentina"
 msgstr ""
 
-#: ../userguides/roads_model.rst:38
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "Extracted road network over a dense, irregular city"
+msgstr ""
+
+#: ../userguides/roads_model.rst:41
+#: 8acef394abc84a14898c4296fec75aa0
+msgid "Dense, irregular street network — India"
+msgstr ""
+
+#: ../userguides/roads_model.rst:45
+#: 020fba264fc641998189a68b0efa79e2
+msgid "Post-processing: road network vs. full surface area"
+msgstr ""
+
+#: ../userguides/roads_model.rst:47
+#: eb30123168f3476186054dee97a1f325
+msgid "By default, 🚗 **Roads** is delivered **post-processed**: the road mask is reduced to centrelines, cleaned (simplification, merging of gaps, removal of double, short and detached edges) and inflated back into tidy polygons — a connected, map-ready network for mapping and routing."
+msgstr ""
+
+#: ../userguides/roads_model.rst:51
+#: 300818e7013440c5b7099dab0946a436
+msgid "A **no post-processing** variant keeps the raw segmentation mask, which covers the full **road surface area** — wide roads, junctions and paved surfaces included. Because it captures total road coverage rather than a thin connected graph, it is intended for **land-use / land-cover classification**, where the share of surface occupied by roads matters more than network topology."
+msgstr ""
+
+#: ../userguides/roads_model.rst:56
+#: 5793cd44bbcf499daec7503f525fe079
+msgid "These visuals illustrate the difference on the same areas (they are not a benchmark). In each pair, 🟧 **🚗 Roads – no post-processing** (orange, full surface area) is shown next to 🟦 **🚗 Roads – post-processing** (blue, cleaned network)."
+msgstr ""
+
+#: ../userguides/roads_model.rst:61
+#: 2b8a3f86a739452c93ce08ee35f2d465
+msgid "**India — Haldwani**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – no post-processing — India — Haldwani"
+msgstr ""
+
+#: ../userguides/roads_model.rst:69
+#: ../userguides/roads_model.rst:86
+#: ../userguides/roads_model.rst:103
+#: ../userguides/roads_model.rst:120
+#: d2478d0f328d4a1b84665e30dbbfa29c
+#: 20553cf15eec475c9c70e1ac46ede58c
+#: d330b74edf084e75aa409f67ebab3af5
+#: 5af8028e07144b91852dd8cee34b1397
+msgid "🚗 Roads – no post-processing (full road surface area)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – post-processing — India — Haldwani"
+msgstr ""
+
+#: ../userguides/roads_model.rst:75
+#: ../userguides/roads_model.rst:92
+#: ../userguides/roads_model.rst:109
+#: ../userguides/roads_model.rst:126
+#: 3b7be91cb3a144988669c3100d8d78aa
+#: 592d432ed8fa49019a2074cacdf81772
+#: 80bddb883114406cbd905a6f8a3eeedf
+#: e1ae2d144b244a0a807fa02ab3357500
+msgid "🚗 Roads – post-processing (cleaned network)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:78
+#: 70775f0e67994cd385d9b55394884468
+msgid "**Germany — Berlin**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – no post-processing — Germany — Berlin"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – post-processing — Germany — Berlin"
+msgstr ""
+
+#: ../userguides/roads_model.rst:95
+#: ae7fcce25bd14213beb113b84ebb1056
+msgid "**Argentina — Balcarce**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – no post-processing — Argentina — Balcarce"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – post-processing — Argentina — Balcarce"
+msgstr ""
+
+#: ../userguides/roads_model.rst:112
+#: 46cb555ae8c64107a9f2e2f15f58268b
+msgid "**Lebanon — Beirut**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – no post-processing — Lebanon — Beirut"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "🚗 Roads – post-processing — Lebanon — Beirut"
+msgstr ""
+
+#: ../userguides/roads_model.rst:130
+#: da8999ee7e5c44bba17a89e0bf0ccedc
+msgid "📊 Benchmarks"
+msgstr ""
+
+#: ../userguides/roads_model.rst:132
+#: 23557b2ddda84f86bf8048dd2b01fa99
+msgid "We evaluated the update using open benchmark datasets, including `SpaceNet 3 Roads <https://spacenet.ai/spacenet-roads-dataset/>`_, supplemented with our own validation data across different urban environments."
+msgstr ""
+
+#: ../userguides/roads_model.rst:136
+#: 123a586d51a24a68a4ee74cfc5b931a8
+msgid "We focused on two complementary metrics:"
+msgstr ""
+
+#: ../userguides/roads_model.rst:138
+#: 135aaa5b55fa438d8dd46b006b312965
+msgid "**IoU (Intersection over Union)** measures how accurately the predicted road mask matches the actual road coverage. It tells us how well the model identifies roads and captures their spatial extent."
+msgstr ""
+
+#: ../userguides/roads_model.rst:141
+#: 8ad7e2d8c9154ce3a4dadb6c2b9783f0
+msgid "**Topology F1 (Topo-F1)** evaluates the connectivity of the extracted road network. This is particularly important for mapping and routing, where roads need to remain connected even when partially obscured by vegetation, buildings or shadows."
+msgstr ""
+
+#: ../userguides/roads_model.rst:145
+#: 36589015860645a5a8947f70ef36fde6
+msgid "**The new model improves both metrics across all seven validation datasets.** Compared with the original baseline, the average scores across these datasets increased significantly:"
+msgstr ""
+
+#: ../userguides/roads_model.rst:148
+#: 4a40e0cae0a644d6a62069677924746e
+msgid "**IoU: 0.386 → 0.599 (+55%)**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:149
+#: 5dc70683275b4795adf540b63615cd61
+msgid "**Topo-F1: 0.465 → 0.758 (+63%)**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "Roads IoU by validation dataset — baseline vs updated models"
+msgstr ""
+
+#: ../userguides/roads_model.rst:157
+#: 12e2e3448c1042069e1d76abde0fa85a
+msgid "IoU by validation dataset (higher is better)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:0
+#: 71ac96f13ca54f37ba07af8cbc768196
+msgid "Roads Topology F1 by validation dataset — baseline vs updated models"
+msgstr ""
+
+#: ../userguides/roads_model.rst:163
+#: e26ec95a1b164da5afa2472dc310dce0
+msgid "Topology F1 by validation dataset (higher is better)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:165
+#: a3f7fc383f4147d8b7688223e9841f2b
+msgid "Some of the most impressive improvements are in challenging urban environments:"
+msgstr ""
+
+#: ../userguides/roads_model.rst:171
+#: 3cca455997ec416e864a930738312ccc
+msgid "Validation area"
+msgstr ""
+
+#: ../userguides/roads_model.rst:172
+#: 2ee65e7b36e8451fa0a393e9bd129289
+msgid "IoU (before → after)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:173
+#: 283611bcf38e4af685f0bd06dd33753e
+msgid "Topo-F1 (before → after)"
+msgstr ""
+
+#: ../userguides/roads_model.rst:174
+#: 578239270ca54d62a39cec386f104b38
+msgid "Shanghai"
+msgstr ""
+
+#: ../userguides/roads_model.rst:175
+#: a8451ae79b644c23a86c83aec05c4fbb
+msgid "0.180 → **0.562**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:176
+#: 2e9975e4bb2f4ee39b80c8dabc057020
+msgid "0.171 → **0.717**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:177
+#: 02aac4121e5a478c84f6b19c4823b217
+msgid "Khartoum"
+msgstr ""
+
+#: ../userguides/roads_model.rst:178
+#: 59c65ec5ea254a19b1dd1c416ae71569
+msgid "0.277 → **0.584**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:179
+#: affc56f9671f46e5b3740296b8a11568
+msgid "0.224 → **0.735**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:180
+#: f61e5f4e49fd4af9b99ecbf6fac0526f
+msgid "India"
+msgstr ""
+
+#: ../userguides/roads_model.rst:181
+#: 30bb6d3c8b80420f8e7ec376ffa7ee1b
+msgid "0.344 → **0.551**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:182
+#: 307bde1d7b164bdba2ce0424a9575308
+msgid "0.245 → **0.637**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:183
+#: 10acab357b9d4140996125884d9135f9
+msgid "Las Vegas"
+msgstr ""
+
+#: ../userguides/roads_model.rst:184
+#: f0f4236956e44dae8d8be16895064cdd
+msgid "0.490 → **0.685**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:185
+#: 9e66b599ef82417e915fbe3e200f1d67
+msgid "0.668 → **0.882**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:187
+#: 4c14bb82eb3040f689d4891bc4e4792b
+msgid "**Why do both metrics matter?**"
+msgstr ""
+
+#: ../userguides/roads_model.rst:189
+#: fdc8615fd4e84aa3a3b58bacee5b46a1
+msgid "A road network may look connected but still miss substantial portions of the actual road coverage. Conversely, a model can accurately identify individual road segments but fail to connect them into a usable network."
+msgstr ""
+
+#: ../userguides/roads_model.rst:193
+#: 501612b6ed314bc6a0c16b0c0cc9c584
+msgid "The updated Roads model makes progress on both fronts: **more accurate road coverage and better-connected networks**. This is especially valuable in densely built-up areas with narrow streets, irregular layouts and frequent occlusions — precisely where automated road mapping remains challenging."
+msgstr ""
+
+#: ../userguides/roads_model.rst:198
 #: 3bd03864721d41a5b71a378bbcd96c69
 msgid "Need a different object?"
 msgstr ""
 
-#: ../userguides/roads_model.rst:38
+#: ../userguides/roads_model.rst:198
 #: fe4b3396bce4425c94e461df628288f0
 msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
 msgstr ""
 
-#: ../userguides/roads_model.rst:38
+#: ../userguides/roads_model.rst:198
 #: ff23e208a9664edb854357ecda60a4cb
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/roads_model.rst:38
+#: ../userguides/roads_model.rst:198
 #: 28c98aea7f68414ba5bb9faa04b916e4
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
-#: ../userguides/roads_model.rst:38
+#: ../userguides/roads_model.rst:198
 #: 2291bb7f87d14fc6935c1a228bf9fc8b
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

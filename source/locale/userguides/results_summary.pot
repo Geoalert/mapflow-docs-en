@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/results_summary.rst:1
-#: 2dd397f8d0ee4086b44d2fe7e865e4a3
+#: 4050c3f1a87f49c1afede7520e4731ad
 msgid "Read the Mapflow processing results summary - feature counts, areas and lengths per layer, CSV export and questions to the Mapflow Agent."
 msgstr ""
 

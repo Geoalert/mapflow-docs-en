@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2025-11-16 21:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../api/error_messages.rst:4 0c306d9f1cbe4cb2a332418e96d46ef9
@@ -25,8 +25,8 @@ msgstr "Mensajes de error en API"
 
 #: ../api/error_messages.rst:6 9380430ac3814f719e857e5ccf6795ad
 msgid ""
-"List of messages and params that can be found in the ``messages`` section in"
-" case of the failed processings"
+"List of messages and params that can be found in the ``messages`` section"
+" in case of the failed processings"
 msgstr ""
 "Lista de mensajes y parámetros que se pueden encontrar en la sección "
 "``mensajes`` en caso de procesamiento fallido"
@@ -54,8 +54,8 @@ msgstr "tipo_url"
 #: ../api/_static/csv/errors.csv:1 53a4e8387d684b2eb1a657906108e9d3
 msgid "Key ‘url’ in your request must be a string, got {url_type} instead."
 msgstr ""
-"La clave \"url\" en su solicitud debe ser una cadena; en su lugar, obtuvo "
-"{url_type}."
+"La clave \"url\" en su solicitud debe ser una cadena; en su lugar, obtuvo"
+" {url_type}."
 
 #: ../api/_static/csv/errors.csv:1 54fbb5f64ad7471f806be00ba6c62415
 msgid "source-validator.UrlMustBeLink"
@@ -71,7 +71,7 @@ msgstr "validador-fuente.UrlFormatInvalid"
 
 #: ../api/_static/csv/errors.csv:1 1c98f54035df4612bc590f1ecb45ae57
 msgid "parse_error_message"
-msgstr ""
+msgstr "parse_error_message"
 
 #: ../api/_static/csv/errors.csv:1 3136ed6c7ec948ee9888391e0853425d
 msgid ""
@@ -91,8 +91,7 @@ msgstr "zoom_actual"
 
 #: ../api/_static/csv/errors.csv:1 fc221c5f04fa483fb193fdb85ed060f6
 msgid "Zoom must be either empty, or integer, got {actual_zoom}"
-msgstr ""
-"El zoom debe estar vacío o ser un número entero, obtenido {actual_zoom}"
+msgstr "El zoom debe estar vacío o ser un número entero, obtenido {actual_zoom}"
 
 #: ../api/_static/csv/errors.csv:1 8729b730b50742d29e590966eb491246
 msgid "source-validator.InvalidZoomValue"
@@ -140,12 +139,13 @@ msgstr "URL"
 
 #: ../api/_static/csv/errors.csv:1 4a894addee6b41debcb45782bc6a9d15
 msgid ""
-"The specified basemap {url} is forbidden for processing because it contains "
-"a map, not satellite image. Our models are suited for satellite imagery."
+"The specified basemap {url} is forbidden for processing because it "
+"contains a map, not satellite image. Our models are suited for satellite "
+"imagery."
 msgstr ""
-"El mapa base especificado {url} está prohibido para su procesamiento porque "
-"contiene un mapa, no una imagen de satélite. Nuestros modelos son adecuados "
-"para imágenes de satélite."
+"El mapa base especificado {url} está prohibido para su procesamiento "
+"porque contiene un mapa, no una imagen de satélite. Nuestros modelos son "
+"adecuados para imágenes de satélite."
 
 #: ../api/_static/csv/errors.csv:1 731b8e51163646658415c56317193e03
 msgid "source-validator.ImageMetadataMustBeDict"
@@ -162,7 +162,8 @@ msgstr "validador de fuente.ImageMetadataKeyError"
 #: ../api/_static/csv/errors.csv:1 9da0657583c2494491f2019bdf37d364
 msgid "Image metadata must have keys: crs, transform, dtype, count"
 msgstr ""
-"Los metadatos de la imagen deben tener claves: crs, transform, dtype, count."
+"Los metadatos de la imagen deben tener claves: crs, transform, dtype, "
+"count."
 
 #: ../api/_static/csv/errors.csv:1 7665e0efa7b64b03b2d7852732a9fdec
 msgid "source-validator.S3URLError"
@@ -177,8 +178,8 @@ msgid ""
 "URL of the image at s3 storage must be a string starting with s3://, got "
 "{actual_s3_link}"
 msgstr ""
-"La URL de la imagen en el almacenamiento s3 debe ser una cadena que comience"
-" con s3://, obtuvo {actual_s3_link}"
+"La URL de la imagen en el almacenamiento s3 debe ser una cadena que "
+"comience con s3://, obtuvo {actual_s3_link}"
 
 #: ../api/_static/csv/errors.csv:1 ef3afbd9d0184f75b28d1a1b04769134
 msgid "source-validator.LocalRequestKeyError"
@@ -221,8 +222,8 @@ msgid ""
 "Image profile (metadata) must have keys {required_keys}, got profile "
 "{profile}"
 msgstr ""
-"El perfil de imagen (metadatos) debe tener claves {required_keys}, perfil "
-"obtenido {profile}"
+"El perfil de imagen (metadatos) debe tener claves {required_keys}, perfil"
+" obtenido {profile}"
 
 #: ../api/_static/csv/errors.csv:1 2e2815baf9c24360baca4126a1fd3809
 msgid "source-validator.DtypeNotAllowed"
@@ -269,8 +270,8 @@ msgid ""
 "Spatial resolution of you image is too low: pixel size is {actual_res}, "
 "minimum allowed pixel size is {min_res}"
 msgstr ""
-"La resolución espacial de su imagen es demasiado baja: el tamaño de píxel es"
-" {actual_res}, el tamaño de píxel mínimo permitido es {min_res}"
+"La resolución espacial de su imagen es demasiado baja: el tamaño de píxel"
+" es {actual_res}, el tamaño de píxel mínimo permitido es {min_res}"
 
 #: ../api/_static/csv/errors.csv:1 98a7709f08c34390bd72f2bee1f2cb9d
 msgid "source-validator.PixelSizeTooHigh"
@@ -285,8 +286,8 @@ msgid ""
 "Spatial resolution of you image is too high: pixel size is {actual_res}, "
 "maximum allowed pixel size is {max_res}"
 msgstr ""
-"La resolución espacial de su imagen es demasiado alta: el tamaño de píxel es"
-" {actual_res}, el tamaño de píxel máximo permitido es {max_res}"
+"La resolución espacial de su imagen es demasiado alta: el tamaño de píxel"
+" es {actual_res}, el tamaño de píxel máximo permitido es {max_res}"
 
 #: ../api/_static/csv/errors.csv:1 6861f358461c4ac8a9349429881102f0
 msgid "source-validator.ImageCheckError"
@@ -298,11 +299,11 @@ msgstr "check_param, mensaje, metadatos"
 
 #: ../api/_static/csv/errors.csv:1 de811c14a7844f38a8b82a733870fb83
 msgid ""
-"Error occurred during image {checked_param} check: {message}. Image metadata"
-" = {metadata}."
+"Error occurred during image {checked_param} check: {message}. Image "
+"metadata = {metadata}."
 msgstr ""
-"Se produjo un error durante la verificación de la imagen {checked_param}: "
-"{message}. Metadatos de imagen = {metadatos}."
+"Se produjo un error durante la verificación de la imagen {checked_param}:"
+" {message}. Metadatos de imagen = {metadatos}."
 
 #: ../api/_static/csv/errors.csv:1 7ef7927fc7864504bb1d59f2ca9a4e04
 msgid "source-validator.QuadkeyLinkFormatError"
@@ -323,8 +324,8 @@ msgstr "validador de fuente.SentinelInputStringKeyError"
 #: ../api/_static/csv/errors.csv:1 3a648b1e63384764bb852689d475bc59
 msgid "Sentinel_L2A request must contain field named ‘url’ with string value"
 msgstr ""
-"La solicitud Sentinel_L2A debe contener un campo denominado \"url\" con un "
-"valor de cadena"
+"La solicitud Sentinel_L2A debe contener un campo denominado \"url\" con "
+"un valor de cadena"
 
 #: ../api/_static/csv/errors.csv:1 1a13c1540af24ac2b5044dea0072f43c
 msgid "source-validator.SentinelInputStringFormatError"
@@ -355,8 +356,8 @@ msgid ""
 "Selected Sentinel-2 image cell is {actual_cell}, this model is for the "
 "cells: {allowed_cells}"
 msgstr ""
-"La celda de imagen de Sentinel-2 seleccionada es {actual_cell}, este modelo "
-"es para las celdas: {allowed_cells}"
+"La celda de imagen de Sentinel-2 seleccionada es {actual_cell}, este "
+"modelo es para las celdas: {allowed_cells}"
 
 #: ../api/_static/csv/errors.csv:1 c63facac8ae143c5a1593861c30b0ba5
 msgid "source-validator.AOINotInCell"
@@ -383,8 +384,8 @@ msgid ""
 "Selected Sentinel-2 image month is {actual_month}, this model is for: "
 "{allowed_months}"
 msgstr ""
-"El mes de la imagen Sentinel-2 seleccionada es {actual_month}, este modelo "
-"es para: {allowed_months}"
+"El mes de la imagen Sentinel-2 seleccionada es {actual_month}, este "
+"modelo es para: {allowed_months}"
 
 #: ../api/_static/csv/errors.csv:1 a9368176c62d4e47b279d97c1436c1ef
 msgid "source-validator.TMSLinkFormatError"
@@ -393,12 +394,12 @@ msgstr "validador-fuente.TMSLinkFormatError"
 #: ../api/_static/csv/errors.csv:1 5f178a78968d41b99c8084bfb8008e25
 msgid ""
 "You request TMS basemap link doesn’t match the format, it must be a link "
-"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start processing"
-" again."
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start "
+"processing again."
 msgstr ""
-"Su solicitud de enlace del mapa base de TMS no coincide con el formato, debe"
-" ser un enlace que contenga marcadores de posición '{x}', '{y}', '{z}', "
-"corríjalo y comience a procesar nuevamente."
+"Su solicitud de enlace del mapa base de TMS no coincide con el formato, "
+"debe ser un enlace que contenga marcadores de posición '{x}', '{y}', "
+"'{z}', corríjalo y comience a procesar nuevamente."
 
 #: ../api/_static/csv/errors.csv:1 23eb052a2fcd4ed2ac67699046591a04
 msgid "source-validator.RequirementsMustBeDict"
@@ -441,8 +442,7 @@ msgid "source_type, allowed_sources"
 msgstr "tipo_fuente, fuentes_permitidas"
 
 #: ../api/_static/csv/errors.csv:1 a29777145bc44f8a96a98a952e3849f7
-msgid ""
-"Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
 msgstr ""
 "El tipo de fuente {source_type} no está permitido. Utilice uno de: "
 "{allowed_sources}"
@@ -485,11 +485,11 @@ msgstr "validador-fuente.XYZLinkFormatError"
 
 #: ../api/_static/csv/errors.csv:1 9057026584df47efbc4e472e7f6d3185
 msgid ""
-"You XYZ basemap link doesn’t match the format, it must be a link containing "
-"‘{x}’, ‘{y}’, ‘{z}’ placeholders."
+"You XYZ basemap link doesn’t match the format, it must be a link "
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
 msgstr ""
-"El enlace de su mapa base XYZ no coincide con el formato; debe ser un enlace"
-" que contenga marcadores de posición '{x}', '{y}', '{z}'."
+"El enlace de su mapa base XYZ no coincide con el formato; debe ser un "
+"enlace que contenga marcadores de posición '{x}', '{y}', '{z}'."
 
 #: ../api/_static/csv/errors.csv:1 c4fd0ae04b7c40ada7e711137a192a5b
 msgid "source-validator.TaskMustContainAoi"
@@ -510,8 +510,8 @@ msgstr "validador de fuente.UnhandledException"
 #: ../api/_static/csv/errors.csv:1 1d855e1df4d244aeb1a98a538ffc335e
 #: 404ed0134912429db6fbddfda447583b
 msgid ""
-"Internal error in process of data source validation. We are working on the "
-"fix, our support will contact you."
+"Internal error in process of data source validation. We are working on "
+"the fix, our support will contact you."
 msgstr ""
 "Error interno en proceso de validación de fuente de datos. Estamos "
 "trabajando en la solución, nuestro soporte se comunicará con usted."
@@ -528,8 +528,8 @@ msgstr "cargador de datos.error interno"
 #: 299523a549734cd19f59354b792cf78b 53c216d6784c45ccb0d5f41a6867721f
 #: 6c1becb91aaa42d289c3873f144e2614 8a290b38b8184b64b7eebba24d4af891
 msgid ""
-"Internal error in process of loading data. We are working on the fix, our "
-"support will contact you."
+"Internal error in process of loading data. We are working on the fix, our"
+" support will contact you."
 msgstr ""
 "Error interno en proceso de carga de datos. Estamos trabajando en la "
 "solución, nuestro soporte se comunicará con usted."
@@ -551,8 +551,8 @@ msgid ""
 "Wrong source type {real_source_type}. Specify one of the allowed types "
 "{allowed_source_types}."
 msgstr ""
-"Tipo de fuente incorrecto {real_source_type}. Especifique uno de los tipos "
-"permitidos {allowed_source_types}."
+"Tipo de fuente incorrecto {real_source_type}. Especifique uno de los "
+"tipos permitidos {allowed_source_types}."
 
 #: ../api/_static/csv/errors.csv:1 35d479caad544f65931fe6e25fcfcef7
 msgid "dataloader.MemoryLimitExceeded"
@@ -580,8 +580,8 @@ msgstr "nombre_argumento, tipo_argumento, tipo_esperado"
 
 #: ../api/_static/csv/errors.csv:1 68e9e58beecf47ef8f449e7f90534e5f
 msgid ""
-"Dataloader argument {argument_name} has type {argument_type}, excpected to "
-"be {expected_type}"
+"Dataloader argument {argument_name} has type {argument_type}, excpected "
+"to be {expected_type}"
 msgstr ""
 "El argumento del cargador de datos {argument_name} tiene el tipo "
 "{argument_type}, se espera que sea {expected_type}"
@@ -599,8 +599,8 @@ msgid ""
 "Loaded tile has {real_nchannels} channels, required number is "
 "{expected_nchannels}"
 msgstr ""
-"El mosaico cargado tiene {real_nchannels} canales, el número requerido es "
-"{expected_nchannels}"
+"El mosaico cargado tiene {real_nchannels} canales, el número requerido es"
+" {expected_nchannels}"
 
 #: ../api/_static/csv/errors.csv:1 379007d2ed434337bcb42088d7f7c0eb
 msgid "dataloader.WrongTileSize"
@@ -611,8 +611,7 @@ msgid "expected_size, real_size"
 msgstr "tamaño_esperado, tamaño_real"
 
 #: ../api/_static/csv/errors.csv:1 d9bd0796047d48d68e55da65b2032ad6
-msgid ""
-"Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
 msgstr ""
 "El mosaico cargado tiene un tamaño {real_size}, el tamaño esperado del "
 "mosaico es {expected_size}"
@@ -630,8 +629,8 @@ msgid ""
 "Tile at location {tile_location} cannot be loaded, server response is "
 "{status}"
 msgstr ""
-"El mosaico en la ubicación {tile_location} no se puede cargar, la respuesta "
-"del servidor es {status}"
+"El mosaico en la ubicación {tile_location} no se puede cargar, la "
+"respuesta del servidor es {status}"
 
 #: ../api/_static/csv/errors.csv:1 569bc50bc4d842f1ac11efba604c3b64
 msgid "dataloader.CrsIsNotSupported"
@@ -651,11 +650,11 @@ msgstr "procesador-raster.internalError"
 
 #: ../api/_static/csv/errors.csv:1 0fbb80d464b54bcb85863b8ec18bb997
 msgid ""
-"Internal error in process of data preparation. We are working on the fix, "
-"our support will contact you."
+"Internal error in process of data preparation. We are working on the fix,"
+" our support will contact you."
 msgstr ""
-"Error interno en proceso de preparación de datos. Estamos trabajando en la "
-"solución, nuestro soporte se comunicará con usted."
+"Error interno en proceso de preparación de datos. Estamos trabajando en "
+"la solución, nuestro soporte se comunicará con usted."
 
 #: ../api/_static/csv/errors.csv:1 c4afbaba21bd401e84756ea3264b8262
 msgid "inference.internalError"
@@ -664,12 +663,13 @@ msgstr "inferencia.error interno"
 #: ../api/_static/csv/errors.csv:1 807f7b0e2da04d58b88c09126134b2af
 #: eceb65684e42457f84c8a02aac81ab28
 msgid ""
-"Internal error in process of data processing. We are working on the fix, our"
-" support will contact you"
+"Internal error in process of data processing. We are working on the fix, "
+"our support will contact you"
 msgstr ""
-"Error interno en proceso de procesamiento de datos. Estamos trabajando en la"
-" solución, nuestro soporte se comunicará con usted."
+"Error interno en proceso de procesamiento de datos. Estamos trabajando en"
+" la solución, nuestro soporte se comunicará con usted."
 
 #: ../api/_static/csv/errors.csv:1 cf92f64f718e4e78a2ba1bd3ddfa64fe
 msgid "vector-processor.internalError"
 msgstr "procesador-vectorial.error interno"
+

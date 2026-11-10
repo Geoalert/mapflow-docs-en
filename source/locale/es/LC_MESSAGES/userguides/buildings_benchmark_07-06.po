@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/buildings_benchmark_07-06.rst:9
@@ -29,43 +29,44 @@ msgstr "🏠 Edificios v.2026-07-06: punto de referencia por ubicación"
 msgid ""
 "This page details the validation of the **🏠 Buildings v.2026-07-06** "
 "segmentation model (Global domain, 0.3 m / z19) on 14 areas of interest "
-"(AOI), compared against the **previous version v.2025-12-10** (the current "
-"production 🏠 Buildings model). For each AOI the two prediction masks are "
-"shown side by side; click any image to open it full size, and use the ← / → "
-"arrow keys to browse between them."
+"(AOI), compared against the **previous version v.2025-12-10** (the "
+"current production 🏠 Buildings model). For each AOI the two prediction "
+"masks are shown side by side; click any image to open it full size, and "
+"use the ← / → arrow keys to browse between them."
 msgstr ""
-"Esta página detalla la validación del modelo de segmentación **🏠 Edificios "
-"v.2026-07-06** (dominio global, 0,3 m/z19) en 14 áreas de interés (AOI), en "
-"comparación con la **versión anterior v.2025-12-10** (el modelo de "
-"producción actual 🏠 Edificios). Para cada AOI, las dos máscaras de "
-"predicción se muestran una al lado de la otra; haga clic en cualquier imagen"
-" para abrirla en tamaño completo y use las teclas de flecha ← / → para "
-"navegar entre ellas."
+"Esta página detalla la validación del modelo de segmentación **🏠 "
+"Edificios v.2026-07-06** (dominio global, 0,3 m/z19) en 14 áreas de "
+"interés (AOI), en comparación con la **versión anterior v.2025-12-10** "
+"(el modelo de producción actual 🏠 Edificios). Para cada AOI, las dos "
+"máscaras de predicción se muestran una al lado de la otra; haga clic en "
+"cualquier imagen para abrirla en tamaño completo y use las teclas de "
+"flecha ← / → para navegar entre ellas."
 
 #: ../userguides/buildings_benchmark_07-06.rst:17
 #: 3aea2691c3b54ac7b301c0618297a5a5
 msgid ""
-"All metrics are area-based: **IoU** is the intersection-over-union of the "
-"predicted and ground-truth building masks, and **F1 / Precision / Recall** "
-"are computed on the overlapping mask area. Evaluation runs: 2026-06-13 "
-"(global set) and 2026-06-16 (satellite set)."
+"All metrics are area-based: **IoU** is the intersection-over-union of the"
+" predicted and ground-truth building masks, and **F1 / Precision / "
+"Recall** are computed on the overlapping mask area. Evaluation runs: "
+"2026-06-13 (global set) and 2026-06-16 (satellite set)."
 msgstr ""
-"Todas las métricas se basan en áreas: **IoU** es la intersección sobre la "
-"unión de las máscaras de construcción predichas y reales, y "
-"**F1/Precisión/Recuperación** se calculan en el área de máscara superpuesta."
-" Ejecuciones de evaluación: 2026-06-13 (conjunto global) y 2026-06-16 "
-"(conjunto satelital)."
+"Todas las métricas se basan en áreas: **IoU** es la intersección sobre la"
+" unión de las máscaras de construcción predichas y reales, y "
+"**F1/Precisión/Recuperación** se calculan en el área de máscara "
+"superpuesta. Ejecuciones de evaluación: 2026-06-13 (conjunto global) y "
+"2026-06-16 (conjunto satelital)."
 
 #: ../userguides/buildings_benchmark_07-06.rst:60
 #: 13a8c094d2774dd8b67450e3ce5fd34f
 msgid ""
 "**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-06**  ·  :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
+"style=\"background:#ff5028\"></span>` **v.2026-07-06**  ·  :raw-"
+"html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"**v.2025-12-10**"
 msgstr ""
 "**Leyenda del color de la máscara:** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-06** · :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
+"style=\"background:#ff5028\"></span>` **v.2026-07-06** · :raw-html:`<span"
+" class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:64
 #: e3163b94d7d24cc081bf2be8a5253c21
@@ -75,8 +76,8 @@ msgstr "Conjunto de validación de imágenes aéreas."
 #: ../userguides/buildings_benchmark_07-06.rst:66
 #: 3738fa1f3334466193560d97f4e54e5e
 msgid ""
-"Validation on the global set of 9 areas of interest (mixed urban / suburban "
-"/ rural)."
+"Validation on the global set of 9 areas of interest (mixed urban / "
+"suburban / rural)."
 msgstr ""
 "Validación sobre el conjunto global de 9 áreas de interés (mixta "
 "urbana/suburbana/rural)."
@@ -156,7 +157,7 @@ msgstr "pagaré"
 #: b2c684edd7234d08aa8eff540814917b c3fad920acd341f89dda4f5b6fda9d16
 #: e6d557a055ff40ce83bff7e7f165d831 eaf88b450f8f4ca29b51a8fd1997673a
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: ../userguides/buildings_benchmark_07-06.rst:79
 #: ../userguides/buildings_benchmark_07-06.rst:110
@@ -231,6 +232,8 @@ msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
 "**v.2026-07-06**"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-07-06**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:82
 #: ../userguides/buildings_benchmark_07-06.rst:494
@@ -278,26 +281,28 @@ msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
 "v.2025-12-10"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2025-12-10"
 
 #: ../userguides/buildings_benchmark_07-06.rst:87
 #: d984ba180af74969ab3477241384460c
 msgid "0.880"
-msgstr ""
+msgstr "0,880"
 
 #: ../userguides/buildings_benchmark_07-06.rst:88
 #: b4e8d2b3f55b4921bb49e431ef0941f2
 msgid "0.936"
-msgstr ""
+msgstr "0,936"
 
 #: ../userguides/buildings_benchmark_07-06.rst:89
 #: fa07105235744014ae920027cd240ff6
 msgid "0.974"
-msgstr ""
+msgstr "0,974"
 
 #: ../userguides/buildings_benchmark_07-06.rst:90
 #: 1d1a4aa199ad4a18b6b064816cf0875c
 msgid "0.901"
-msgstr ""
+msgstr "0,901"
 
 #: ../userguides/buildings_benchmark_07-06.rst:101
 #: 6459aa8075474ced94e959f2cd8de82e
@@ -333,18 +338,18 @@ msgstr "0,842"
 #: ../userguides/buildings_benchmark_07-06.rst:119
 #: 97c6f81cc1584b9bb28010c234bd627a
 msgid "0.914"
-msgstr ""
+msgstr "0,914"
 
 #: ../userguides/buildings_benchmark_07-06.rst:120
 #: a9c562426f424e2286d066df2e177f0c
 msgid "0.923"
-msgstr ""
+msgstr "0,923"
 
 #: ../userguides/buildings_benchmark_07-06.rst:121
 #: ../userguides/buildings_benchmark_07-06.rst:274
 #: b66df3b2e3ba498eb8431a07b369ec4e cb12c9394c734ca38bc075b4bbcfd61b
 msgid "0.907"
-msgstr ""
+msgstr "0,907"
 
 #: ../userguides/buildings_benchmark_07-06.rst:132
 #: c4620b22d85744c092ea05624db935f1
@@ -375,22 +380,22 @@ msgstr "**0,651**"
 #: ../userguides/buildings_benchmark_07-06.rst:149
 #: 86c261c8e7664613acce2de570bb49db
 msgid "0.385"
-msgstr ""
+msgstr "0,385"
 
 #: ../userguides/buildings_benchmark_07-06.rst:150
 #: 0b5ee93a96ad40919e85c5c041c70e46
 msgid "0.556"
-msgstr ""
+msgstr "0,556"
 
 #: ../userguides/buildings_benchmark_07-06.rst:151
 #: 51a81f1ec5f84499b7c10b57424b9c0b
 msgid "0.845"
-msgstr ""
+msgstr "0,845"
 
 #: ../userguides/buildings_benchmark_07-06.rst:152
 #: 955e88da9777475ebc8a2cbe8b72b382
 msgid "0.415"
-msgstr ""
+msgstr "0,415"
 
 #: ../userguides/buildings_benchmark_07-06.rst:163
 #: 5b8e250bbb954227b3059fcd760176fd
@@ -420,12 +425,12 @@ msgstr "**0,924**"
 #: ../userguides/buildings_benchmark_07-06.rst:180
 #: d4dc7e4e4a4641cd889d1100a5ce2c08
 msgid "0.790"
-msgstr ""
+msgstr "0,790"
 
 #: ../userguides/buildings_benchmark_07-06.rst:181
 #: 4ff26a0de8ad4ef38757da0253a242e8
 msgid "0.883"
-msgstr ""
+msgstr "0,883"
 
 #: ../userguides/buildings_benchmark_07-06.rst:182
 #: 4aea7250b0e74179a5968e379ec97f90
@@ -456,7 +461,7 @@ msgstr "**0,797**"
 #: ../userguides/buildings_benchmark_07-06.rst:243
 #: 06ae140e16034cb89362690c1536a721 fd805f74535442c180ba865170285066
 msgid "0.844"
-msgstr ""
+msgstr "0,844"
 
 #: ../userguides/buildings_benchmark_07-06.rst:209
 #: 11cbb2abb697416885789de8eb13ff77
@@ -507,12 +512,12 @@ msgstr "**0,922**"
 #: ../userguides/buildings_benchmark_07-06.rst:242
 #: e11b19ce25e14826a80b599c41697c0b
 msgid "0.730"
-msgstr ""
+msgstr "0,730"
 
 #: ../userguides/buildings_benchmark_07-06.rst:244
 #: 29173aee6fe0480db7deb339c99fd5f0
 msgid "0.800"
-msgstr ""
+msgstr "0,800"
 
 #: ../userguides/buildings_benchmark_07-06.rst:245
 #: 76891a1f445249da9e29a264c5007415
@@ -548,7 +553,7 @@ msgstr "**0,945**"
 #: ../userguides/buildings_benchmark_07-06.rst:273
 #: 5482ef8782094195b6009a2424f485c1
 msgid "0.830"
-msgstr ""
+msgstr "0,830"
 
 #: ../userguides/buildings_benchmark_07-06.rst:275
 #: 3028f9bf4c2c4376aaed7e4d7c8863bd
@@ -595,17 +600,17 @@ msgstr "0,847"
 #: ../userguides/buildings_benchmark_07-06.rst:305
 #: 410fbed6b6f5466da79a095d38e54e90
 msgid "0.917"
-msgstr ""
+msgstr "0,917"
 
 #: ../userguides/buildings_benchmark_07-06.rst:306
 #: 4a93dd16c8344320a59c783ae6f336b9
 msgid "0.902"
-msgstr ""
+msgstr "0,902"
 
 #: ../userguides/buildings_benchmark_07-06.rst:307
 #: a0c3e9f072704f0794a880bbe6e1c047
 msgid "0.933"
-msgstr ""
+msgstr "0,933"
 
 #: ../userguides/buildings_benchmark_07-06.rst:318
 #: 1c91b69323e04b9e8503497053572946
@@ -620,7 +625,7 @@ msgstr "**0,956**"
 #: ../userguides/buildings_benchmark_07-06.rst:335
 #: 74910cc92fff4a5097d262bfbdd9ce8b
 msgid "0.814"
-msgstr ""
+msgstr "0,814"
 
 #: ../userguides/buildings_benchmark_07-06.rst:336
 #: a62c37e21f774496b09730106dd4c352
@@ -630,7 +635,7 @@ msgstr "0,898"
 #: ../userguides/buildings_benchmark_07-06.rst:337
 #: 3178bcfc9d9d437bb9952cb996636c09
 msgid "0.931"
-msgstr ""
+msgstr "0,931"
 
 #: ../userguides/buildings_benchmark_07-06.rst:338
 #: f57e2b012c5b47b19003753100b59ebb
@@ -648,8 +653,8 @@ msgid ""
 "Validation on the global set of satellite imagery across 5 dense urban "
 "areas."
 msgstr ""
-"Validación del conjunto global de imágenes satelitales en 5 áreas urbanas "
-"densas."
+"Validación del conjunto global de imágenes satelitales en 5 áreas urbanas"
+" densas."
 
 #: ../userguides/buildings_benchmark_07-06.rst:355
 #: deedd411398249aa9e5043483c57f798
@@ -689,7 +694,7 @@ msgstr "0,835"
 #: ../userguides/buildings_benchmark_07-06.rst:374
 #: 149ab1d9e9474116b82b1e10875f9f33
 msgid "0.817"
-msgstr ""
+msgstr "0,817"
 
 #: ../userguides/buildings_benchmark_07-06.rst:375
 #: ace422486fc348d38abf0265e4fbb55f
@@ -699,7 +704,7 @@ msgstr "0,854"
 #: ../userguides/buildings_benchmark_07-06.rst:386
 #: f2da0b74f07548af9e3d1cb10d2f989c
 msgid "India — Bangalore"
-msgstr ""
+msgstr "India — Bangalore"
 
 #: ../userguides/buildings_benchmark_07-06.rst:398
 #: 756244f8397b4abdb680a0315feb1338
@@ -784,7 +789,7 @@ msgstr "**0,931**"
 #: ../userguides/buildings_benchmark_07-06.rst:448
 #: 06d2c1b124c342348a0f30b791683d69
 msgid "India — Thane"
-msgstr ""
+msgstr "India — Thane"
 
 #: ../userguides/buildings_benchmark_07-06.rst:460
 #: 2ac60db802b44358873f90f543662989
@@ -824,7 +829,7 @@ msgstr "0,871"
 #: ../userguides/buildings_benchmark_07-06.rst:468
 #: 91e668b605444a099ec4f1a6cb094963
 msgid "0.809"
-msgstr ""
+msgstr "0,809"
 
 #: ../userguides/buildings_benchmark_07-06.rst:479
 #: 9f200116375945d2b127e2b6be22730f
@@ -844,12 +849,12 @@ msgstr "**0,902**"
 #: ../userguides/buildings_benchmark_07-06.rst:496
 #: fd049cc9efd6422bb936e5b398a9fc11
 msgid "0.818"
-msgstr ""
+msgstr "0,818"
 
 #: ../userguides/buildings_benchmark_07-06.rst:497
 #: 35e9070bbc0b4ddabb32b5f8200b0e99
 msgid "0.900"
-msgstr ""
+msgstr "0,900"
 
 #: ../userguides/buildings_benchmark_07-06.rst:498
 #: 9c9029586d654bf8baf7c2f8ef8abe44
@@ -859,7 +864,7 @@ msgstr "0,897"
 #: ../userguides/buildings_benchmark_07-06.rst:499
 #: 847ad2a68cdb4322b19635f380f9c455
 msgid "0.903"
-msgstr ""
+msgstr "0,903"
 
 #: ../userguides/buildings_benchmark_07-06.rst:510
 #: 61c2021505174c20b46ceca4ddff5fec
@@ -871,16 +876,18 @@ msgstr "Resumen"
 msgid ""
 "**v.2026-07-06** leads the previous production model on F1 in **all 14 "
 "AOIs**. On the global validation set of aerial imagery (9 AOIs) the mean "
-"area-based F1 rises from 0.849 to **0.893** (IoU 0.751 → **0.813**); on the "
-"5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to "
+"area-based F1 rises from 0.849 to **0.893** (IoU 0.751 → **0.813**); on "
+"the 5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to "
 "**0.881** (IoU 0.729 → **0.787**), driven mainly by higher recall and "
 "precision in informal and high-density built-up areas such as Riyadh, "
 "Bangalore and Thane."
 msgstr ""
-"**v.2026-07-06** lidera el modelo de producción anterior en F1 en **los 14 "
-"AOI**. En el conjunto de validación global de imágenes aéreas (9 AOI), la F1"
-" media basada en área aumenta de 0,849 a **0,893** (IoU 0,751 → **0,813**); "
-"en las cinco AOI de imágenes satelitales de zonas urbanas densas, la media "
-"F1 aumenta de 0,842 a **0,881** (IoU 0,729 → **0,787**), impulsada "
-"principalmente por una mayor recuperación y precisión en áreas urbanizadas "
-"informales y de alta densidad como Riyadh, Bangalore y Thane."
+"**v.2026-07-06** lidera el modelo de producción anterior en F1 en **los "
+"14 AOI**. En el conjunto de validación global de imágenes aéreas (9 AOI),"
+" la F1 media basada en área aumenta de 0,849 a **0,893** (IoU 0,751 → "
+"**0,813**); en las cinco AOI de imágenes satelitales de zonas urbanas "
+"densas, la media F1 aumenta de 0,842 a **0,881** (IoU 0,729 → **0,787**),"
+" impulsada principalmente por una mayor recuperación y precisión en áreas"
+" urbanizadas informales y de alta densidad como Riyadh, Bangalore y "
+"Thane."
+

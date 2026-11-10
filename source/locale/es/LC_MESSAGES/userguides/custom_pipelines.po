@@ -8,60 +8,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 13:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/custom_pipelines.rst:1 620b9899fb474883a69469ce932d4029
+#: ../userguides/custom_pipelines.rst:1 514a03932bf945f0ae49b484baca9f7c
 msgid ""
 "Custom Mapflow AI models trained for specific objects and imagery, and "
 "connected to your account on request."
 msgstr ""
-"Modelos de IA personalizados de Mapflow, entrenados para objetos e imágenes "
-"específicos y conectados a su cuenta bajo pedido."
+"Modelos de IA personalizados de Mapflow, entrenados para objetos e "
+"imágenes específicos y conectados a su cuenta bajo pedido."
 
-#: ../userguides/custom_pipelines.rst:7 9c5b1d84c82e4beda4e45fea51fab731
+#: ../userguides/custom_pipelines.rst:7 7a748333d084461ca1ea2604e60025c7
 msgid "Custom models"
 msgstr "Modelos personalizados"
 
-#: ../userguides/custom_pipelines.rst:11 3e0b19de781543529b41acc860adcaaf
+#: ../userguides/custom_pipelines.rst:11 fd79caa5c4b944f2af4af598cb9b7166
 msgid ""
-"Custom models are trained for specific objects and imagery. They run in the "
-"same Mapflow workflows as the default models once we connect them to your "
-"account."
+"Custom models are trained for specific objects and imagery. They run in "
+"the same Mapflow workflows as the default models once we connect them to "
+"your account."
 msgstr ""
-"Los modelos personalizados se entrenan para objetos e imágenes específicos. "
-"Una vez conectados a su cuenta, funcionan en los mismos flujos de trabajo de"
-" Mapflow que los modelos predeterminados."
+"Los modelos personalizados se entrenan para objetos e imágenes "
+"específicos. Una vez conectados a su cuenta, funcionan en los mismos "
+"flujos de trabajo de Mapflow que los modelos predeterminados."
 
-#: ../userguides/custom_pipelines.rst:14 a8f835d066674331b8ea32ae6aa52383
+#: ../userguides/custom_pipelines.rst:14 dafab22eb17140b680671d1d2eadf98d
 msgid "There are three ways to get one:"
 msgstr "Hay tres formas de obtener uno:"
 
-#: ../userguides/custom_pipelines.rst:16 cd9632c107aa4d5492103ea1cf40d519
+#: ../userguides/custom_pipelines.rst:16 a86a1dbfee5d4a4682a9883770b3aeff
 msgid ""
 "**Request a model we already have.** Pick one below and we connect it to "
 "your account."
 msgstr ""
-"**Solicite un modelo que ya tenemos.** Elija uno de la lista y lo conectamos"
-" a su cuenta."
+"**Solicite un modelo que ya tenemos.** Elija uno de la lista y lo "
+"conectamos a su cuenta."
 
-#: ../userguides/custom_pipelines.rst:17 0914a763e08d4e53a93fe4c3730438b5
+#: ../userguides/custom_pipelines.rst:17 0e419f2ae0f34b339ff992c9abb85a25
 msgid ""
-"**Test a pre-trained model.** Try a model that is not in the standard list "
-"on your area and decide whether it fits or needs more training."
+"**Test a pre-trained model.** Try a model that is not in the standard "
+"list on your area and decide whether it fits or needs more training."
 msgstr ""
-"**Pruebe un modelo preentrenado.** Pruebe en su área un modelo que no está "
-"en la lista estándar y decida si le sirve o necesita más entrenamiento."
+"**Pruebe un modelo preentrenado.** Pruebe en su área un modelo que no "
+"está en la lista estándar y decida si le sirve o necesita más "
+"entrenamiento."
 
-#: ../userguides/custom_pipelines.rst:19 dbb57595155e4f828a54fa90c0a43e13
+#: ../userguides/custom_pipelines.rst:19 e382869bfeb94963bf928dbb42e87a26
 msgid ""
 "**Bring your own model.** Train it on your data and we connect it to the "
 "Mapflow workflow engine."
@@ -69,164 +70,130 @@ msgstr ""
 "**Traiga su propio modelo.** Entrénelo con sus datos y lo conectamos al "
 "motor de flujos de trabajo de Mapflow."
 
-#: ../userguides/custom_pipelines.rst:21 c4d98e7102b344a0bd11072737e133a5
+#: ../userguides/custom_pipelines.rst:21 a9739c25eddf4e4ca2b528e256425263
 msgid "Available on request"
 msgstr "Disponibles bajo pedido"
 
-#: ../userguides/custom_pipelines.rst:24 e4feb277475444b6b7a2873939082e1c
+#: ../userguides/custom_pipelines.rst:24 7cb55ba1c48d421a806efa1e93660108
 msgid "Construction site outlines in a fast-developing area"
 msgstr "Contornos de obras en una zona de rápido desarrollo"
 
-#: ../userguides/custom_pipelines.rst:24 f86c0cbfde1c4eb5a7d22e5d76bba82b
+#: ../userguides/custom_pipelines.rst:24 1b259846233d47dcac1240ec1d57e959
 msgid "Constructions"
 msgstr "Construcciones"
 
-#: ../userguides/custom_pipelines.rst:24 4e51916559d34976ac176f1ef5077e89
-#: 7e9da825f6b94d1db78fff58ec64b553 844fa088c5c24af68d024a6925bd0eb3
+#: ../userguides/custom_pipelines.rst:24 178edda7175a44d8ae5c7e51d520fb80
 msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
 msgstr ":mf-chip:`sam|Otros objetos` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/custom_pipelines.rst:24 cc1eb62bbff1446a85d284385ab8a2e3
+#: ../userguides/custom_pipelines.rst:24 72399d5166bb4567aef8823ee74952ce
 msgid "Outlines of construction sites and buildings under construction."
 msgstr "Contornos de obras y de edificios en construcción."
 
-#: ../userguides/custom_pipelines.rst:24 1f05c443af7b48e392a72f9c2902ea20
+#: ../userguides/custom_pipelines.rst:24 28530094dabc490789316803694d6f34
 msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 18"
 
-#: ../userguides/custom_pipelines.rst:24 dfe2847f14344ea6a5fdc253e384b1df
-msgid "Dense housing blocks split into individual houses"
-msgstr "Manzanas de vivienda densa divididas en casas individuales"
+#: ../userguides/custom_pipelines.rst:24 6d2a2a1445e648fab4042940e035fdf2
+msgid "Built-up urban blocks outlined over a dense city"
+msgstr "Manzanas urbanas edificadas delimitadas en una ciudad densa"
 
-#: ../userguides/custom_pipelines.rst:24 76dfe6c0d6da488981f9ff21ad1aa4d6
-msgid "High-density housing"
-msgstr "Vivienda de alta densidad"
+#: ../userguides/custom_pipelines.rst:24 7fc8f7a6a959417b928e35c6419c71d3
+msgid "Built-up areas"
+msgstr "Zonas urbanizadas"
 
-#: ../userguides/custom_pipelines.rst:24 26afbff1881e4d3caeda0bbe20144d9a
-#: 558d5acfe6f34e3abc3f507e91438f5d
+#: ../userguides/custom_pipelines.rst:24 5f840a60793643f0a46069c987537d5b
 msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
 msgstr ":mf-chip:`buildings|Edificios` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/custom_pipelines.rst:24 cc3ca490cb1c4dc2be17d2641e0ca0ff
-msgid "Terraced and tightly packed blocks divided into individual houses."
-msgstr "Manzanas adosadas y muy compactas, divididas en casas individuales."
+#: ../userguides/custom_pipelines.rst:24 2aa6866aabfa4600b7bbaf84d3d2ea00
+msgid "Built-up areas as whole urban blocks, without individual buildings."
+msgstr ""
+"Zonas urbanizadas como manzanas urbanas completas, sin edificios "
+"individuales."
 
-#: ../userguides/custom_pipelines.rst:24 02dc91388ccf437bb40eafb0dccda81a
-#: 03ff5c2e7f2b4d1baea82ead8877c631
+#: ../userguides/custom_pipelines.rst:24 20d773fe213a4b83b0711a6e5debfff0
+#: 80f03f2129ec417a9f0ef1835bccaff2
 msgid ":mf-icon:`credits` On request"
 msgstr ":mf-icon:`credits` Bajo pedido"
 
-#: ../userguides/custom_pipelines.rst:24 cfc1760af9494434a480605822174afb
-msgid "Detailed building outlines on 10 cm aerial imagery"
-msgstr "Contornos detallados de edificios en imágenes aéreas de 10 cm"
-
-#: ../userguides/custom_pipelines.rst:24 b1276808306443a298b9cfdfcf23d8e3
-msgid "Buildings (Aerial)"
-msgstr "Edificios (aéreo)"
-
-#: ../userguides/custom_pipelines.rst:24 762f0846e8c34baca70c09718cef2ed1
-msgid "Small buildings and detailed outlines from 15–10 cm aerial imagery."
-msgstr ""
-"Edificios pequeños y contornos detallados a partir de imágenes aéreas de "
-"15–10 cm."
-
-#: ../userguides/custom_pipelines.rst:24 53ee49ea288045b2b7461c2b2b62b023
-msgid ":mf-icon:`credits` On request · zoom 20–21"
-msgstr ":mf-icon:`credits` Bajo pedido · zoom 20–21"
-
-#: ../userguides/custom_pipelines.rst:24 e1925633f5b64f33a6e5beb85a5c8b40
+#: ../userguides/custom_pipelines.rst:24 a418866e96aa490bba0126813bf6fb9f
 msgid "Detected rooftop solar panels"
 msgstr "Paneles solares detectados en techos"
 
-#: ../userguides/custom_pipelines.rst:24 14ce5e612cee49759630b69f40f70690
+#: ../userguides/custom_pipelines.rst:24 b4443453a5d04e11afac5cc53b6f559d
 msgid "Solar panels"
 msgstr "Paneles solares"
 
-#: ../userguides/custom_pipelines.rst:24 2f08668282b5446ea2ebd32d996483e5
+#: ../userguides/custom_pipelines.rst:24 aeac8a98ffcb485d891a9d21d56f945d
 msgid "Photovoltaic panels on rooftops and on the ground."
 msgstr "Paneles fotovoltaicos en techos y en el suelo."
 
-#: ../userguides/custom_pipelines.rst:24 ffa6f47542b1484d966f1a7cd8178e03
+#: ../userguides/custom_pipelines.rst:24 f8d4d0f2b09d4f06bdf0b133ba91871a
 msgid ":mf-icon:`credits` On request · zoom 19–21"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 19–21"
 
-#: ../userguides/custom_pipelines.rst:24 7d2553a7f58e4378b1862f4ca8a43ee2
+#: ../userguides/custom_pipelines.rst:24 c5a3552e3d4c4373804cbf6ba25bf3da
 msgid "Detected swimming pools in a residential area"
 msgstr "Piscinas detectadas en una zona residencial"
 
-#: ../userguides/custom_pipelines.rst:24 ebd90756e37744c3a1215a7a2dff1880
+#: ../userguides/custom_pipelines.rst:24 f84e66b583e146d58cf4dc64530ad7e9
 msgid "Swimming pools"
 msgstr "Piscinas"
 
-#: ../userguides/custom_pipelines.rst:24 3d042325daa6433bb8bfa3d6a7373775
+#: ../userguides/custom_pipelines.rst:24 86ddd4007b7e4058bfae41e2de86461b
 msgid ":mf-chip:`buildings|Real estate` :mf-warn:`On request`"
 msgstr ":mf-chip:`buildings|Bienes raíces` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/custom_pipelines.rst:24 e8dddcdcae77468ba7ef98c7e0b93a26
+#: ../userguides/custom_pipelines.rst:24 b7d0aa1480b94b5aaf88ba29e73147b3
 msgid "Swimming pools detected and classified from aerial imagery."
 msgstr "Piscinas detectadas y clasificadas a partir de imágenes aéreas."
 
-#: ../userguides/custom_pipelines.rst:24 756f492b2b93404eae264d1ff9d0e279
+#: ../userguides/custom_pipelines.rst:24 da456b5372814747921add535ea780c6
 msgid ":mf-icon:`credits` On request · zoom 19–20"
 msgstr ":mf-icon:`credits` Bajo pedido · zoom 19–20"
 
-#: ../userguides/custom_pipelines.rst:24 9465fde597d84eaa9c74401fd3c575c8
+#: ../userguides/custom_pipelines.rst:24 5f8ecd912137441e9158893cbce66ef4
 msgid "Field boundaries delineated over farmland"
 msgstr "Límites de parcelas trazados sobre tierras de cultivo"
 
-#: ../userguides/custom_pipelines.rst:24 1f75d9004da040aa888b2967f037ed70
+#: ../userguides/custom_pipelines.rst:24 ce81022477ac4e10b5944b801316b305
 msgid "Agriculture fields"
 msgstr "Campos agrícolas"
 
-#: ../userguides/custom_pipelines.rst:24 12b862977fb4453f8397a80e0835ea59
+#: ../userguides/custom_pipelines.rst:24 b28742e01e104730a70826ef5d3102ca
 msgid ":mf-chip:`agro|Crop fields` :mf-warn:`On request`"
 msgstr ":mf-chip:`agro|Campos de cultivo` :mf-warn:`Bajo pedido`"
 
-#: ../userguides/custom_pipelines.rst:24 04545663db6b45bb9b7e9b0787d6888e
+#: ../userguides/custom_pipelines.rst:24 b070423a92c141e28a3ae74110506cc7
 msgid "Field boundaries separated by tree lines, roads or crop stage."
 msgstr ""
 "Límites de campos separados por hileras de árboles, caminos o etapa del "
 "cultivo."
 
-#: ../userguides/custom_pipelines.rst:24 0f703090469145a2b06e65adf94f9de0
-msgid "Segment Anything polygons over farmland"
-msgstr "Polígonos de Segment Anything sobre tierras de cultivo"
-
-#: ../userguides/custom_pipelines.rst:24 c6f798c391854a2a8b827bf8155a7c72
-msgid "Segment Anything"
-msgstr "Segment Anything"
-
-#: ../userguides/custom_pipelines.rst:24 58b6465fe9324f938ccc92cfba0db55d
-msgid "Universal segmentation. The zoom level decides what you get."
-msgstr "Segmentación universal. El nivel de zoom determina lo que obtiene."
-
-#: ../userguides/custom_pipelines.rst:24 c871c5766c5e438aba5cedc72cd86319
-msgid ":mf-icon:`credits` On request · zoom 14–20"
-msgstr ":mf-icon:`credits` Bajo pedido · zoom 14–20"
-
-#: ../userguides/custom_pipelines.rst:27 522689cdb1ea4edebd2b11f8e5840995
+#: ../userguides/custom_pipelines.rst:27 af4f0cb73d1f447d9c9a654496a87114
 msgid "Need a different object?"
 msgstr "¿Necesita otro tipo de objeto?"
 
-#: ../userguides/custom_pipelines.rst:27 194d100d55d1413588c690f0800cc842
+#: ../userguides/custom_pipelines.rst:27 e382869bfeb94963bf928dbb42e87a26
 msgid ""
-"We train custom models on your imagery and classes, and connect them to your"
-" Mapflow account."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr ""
 "Entrenamos modelos personalizados con sus imágenes y clases, y los "
 "conectamos a su cuenta de Mapflow."
 
-#: ../userguides/custom_pipelines.rst:27 61036cda3010456a94374bd65574db71
+#: ../userguides/custom_pipelines.rst:27 5966111f62cc4ca384dff1313e9a27dd
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
-msgstr ""
-"`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
+msgstr "`Solicitar un modelo personalizado <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/custom_pipelines.rst:27 188d793237804f3c94274bf2612dab45
+#: ../userguides/custom_pipelines.rst:27 e3afd5c4a6014926a6af1205d01859b0
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
-"`Catálogo de modelos y opciones de despliegue <https://mapflow.ai/models>`__"
+"`Catálogo de modelos y opciones de despliegue "
+"<https://mapflow.ai/models>`__"
 
-#: ../userguides/custom_pipelines.rst:27 a32e74ad6d22439b82047a5febe6ed81
+#: ../userguides/custom_pipelines.rst:27 bd330e49074a45b0ab8d23fe25670eec
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
 
@@ -234,27 +201,43 @@ msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
 #~ msgstr "Hay varias opciones de personalización del modelo en Mapflow."
 
 #~ msgid ""
-#~ "You request access to a specific model based on your use case and data, and "
-#~ "we train it for you and connect it to Mapflow."
+#~ "You request access to a specific "
+#~ "model based on your use case and"
+#~ " data, and we train it for you"
+#~ " and connect it to Mapflow."
 #~ msgstr ""
-#~ "Usted solicita acceso a un modelo específico según su caso de uso y sus "
-#~ "datos, lo capacitamos para usted y lo conectamos a Mapflow."
+#~ "Usted solicita acceso a un modelo "
+#~ "específico según su caso de uso y"
+#~ " sus datos, lo capacitamos para usted"
+#~ " y lo conectamos a Mapflow."
 
 #~ msgid ""
-#~ "You choose one of the pre-trained models that are not included in the "
-#~ "standard Mapflow pipelines and test it with your data or on your area to "
-#~ "decide if it's applicable or requires additional training."
+#~ "You choose one of the pre-trained"
+#~ " models that are not included in "
+#~ "the standard Mapflow pipelines and test"
+#~ " it with your data or on your"
+#~ " area to decide if it's applicable"
+#~ " or requires additional training."
 #~ msgstr ""
-#~ "Usted elige uno de los modelos previamente entrenados que no están incluidos"
-#~ " en los canales estándar de Mapflow y lo prueba con sus datos o en su área "
-#~ "para decidir si es aplicable o requiere capacitación adicional."
+#~ "Usted elige uno de los modelos "
+#~ "previamente entrenados que no están "
+#~ "incluidos en los canales estándar de "
+#~ "Mapflow y lo prueba con sus datos"
+#~ " o en su área para decidir si"
+#~ " es aplicable o requiere capacitación "
+#~ "adicional."
 
 #~ msgid ""
-#~ "Below is the list of custom models created for specific use cases and "
-#~ "available in Mapflow by request (to be updated)."
+#~ "Below is the list of custom models"
+#~ " created for specific use cases and"
+#~ " available in Mapflow by request (to"
+#~ " be updated)."
 #~ msgstr ""
-#~ "A continuación se muestra la lista de modelos personalizados creados para "
-#~ "casos de uso específicos y disponibles en Mapflow a pedido (por actualizar)."
+#~ "A continuación se muestra la lista "
+#~ "de modelos personalizados creados para "
+#~ "casos de uso específicos y disponibles"
+#~ " en Mapflow a pedido (por "
+#~ "actualizar)."
 
 #~ msgid ":mf-chip:`crane|Buildings` :mf-warn:`On request`"
 #~ msgstr ""
@@ -267,3 +250,40 @@ msgstr ":doc:`Todos los modelos de mapeo con IA </userguides/pipelines>`"
 
 #~ msgid ":mf-chip:`tractor|Crop fields` :mf-warn:`On request`"
 #~ msgstr ""
+
+#~ msgid "Dense housing blocks split into individual houses"
+#~ msgstr "Manzanas de vivienda densa divididas en casas individuales"
+
+#~ msgid "High-density housing"
+#~ msgstr "Vivienda de alta densidad"
+
+#~ msgid "Terraced and tightly packed blocks divided into individual houses."
+#~ msgstr "Manzanas adosadas y muy compactas, divididas en casas individuales."
+
+#~ msgid "Detailed building outlines on 10 cm aerial imagery"
+#~ msgstr "Contornos detallados de edificios en imágenes aéreas de 10 cm"
+
+#~ msgid "Buildings (Aerial)"
+#~ msgstr "Edificios (aéreo)"
+
+#~ msgid "Small buildings and detailed outlines from 15–10 cm aerial imagery."
+#~ msgstr ""
+#~ "Edificios pequeños y contornos detallados "
+#~ "a partir de imágenes aéreas de "
+#~ "15–10 cm."
+
+#~ msgid ":mf-icon:`credits` On request · zoom 20–21"
+#~ msgstr ":mf-icon:`credits` Bajo pedido · zoom 20–21"
+
+#~ msgid "Segment Anything polygons over farmland"
+#~ msgstr "Polígonos de Segment Anything sobre tierras de cultivo"
+
+#~ msgid "Segment Anything"
+#~ msgstr "Segment Anything"
+
+#~ msgid "Universal segmentation. The zoom level decides what you get."
+#~ msgstr "Segmentación universal. El nivel de zoom determina lo que obtiene."
+
+#~ msgid ":mf-icon:`credits` On request · zoom 14–20"
+#~ msgstr ":mf-icon:`credits` Bajo pedido · zoom 14–20"
+

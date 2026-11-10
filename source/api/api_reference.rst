@@ -1307,11 +1307,6 @@ AI Models
      - 0.5 m/px
      - 17-18
      - Simplification, Classification, OSM
-   * - 🏠 Buildings (Aerial)
-     - High-resolution aerial imagery (10 cm/px)
-     - 0.1 m/px
-     - 19-20
-     - Simplification
    * - 🌲 Forest
      - Tree cover detection
      - 0.5 m/px

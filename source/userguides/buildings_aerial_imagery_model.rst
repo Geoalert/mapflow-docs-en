@@ -1,3 +1,5 @@
+:orphan:
+
 .. meta::
    :description: Extract small buildings and detailed outlines from 10-5 cm aerial imagery. Best for rural and suburban areas; available as a custom model on request.
 

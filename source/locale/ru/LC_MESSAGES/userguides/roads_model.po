@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-11-02 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/roads_model.rst:1 9c5d45570a474d258fd8216965e9af07
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:1
+#: 3f2a4eb2dc004729ad249278f7482b09
 msgid ""
 "Extract road networks from 0.6-0.3 m satellite imagery. Multi-task learning "
 "improves mask connectivity where roads are obscured by trees or buildings."
@@ -28,38 +29,45 @@ msgstr ""
 "обучение улучшает связность маски там, где дороги закрыты деревьями или "
 "зданиями."
 
-#: ../userguides/roads_model.rst:7 fe34fee8bdb64421bf8abe65c2448eab
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:7
+#: 9c0f913b162c4c91aa71f24bef086a68
 msgid "Roads"
 msgstr "Дороги"
 
-#: ../userguides/roads_model.rst:10 22dcaaeb17c040e785622c3fd58cba2c
-msgid ":mf-chip:`road|Roads and base maps` :mf-badge:`Default model`"
-msgstr ""
-":mf-chip:`road|Дороги и базовые карты` :mf-badge:`Модель по умолчанию`"
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 1b3571c13e524a0c9d4de3e266dc5eb6
+msgid ":mf-chip:`road|Roads` :mf-badge:`Default model`"
+msgstr ":mf-chip:`road|Дороги` :mf-badge:`Модель по умолчанию`"
 
-#: ../userguides/roads_model.rst ade88b76e3e74ef5a191666991cf47e8
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 56607eec3c104e2098058b67911c7470
 msgid "Road network polygons over a suburban area"
 msgstr "Полигоны дорожной сети в пригородном районе"
 
-#: ../userguides/roads_model.rst:10 c2e0d8468a81454b983cd04f98525171
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 73ee69567ae747dabd4693402db9ae81
 msgid "Example result: road polygons built from a cleaned centreline network."
 msgstr ""
 "Пример результата: полигоны дорог, построенные по очищенной сети осевых "
 "линий."
 
-#: ../userguides/roads_model.rst:10 296d833aa3de4b54abc1eff71abd9ad2
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 23b69fa5e7c04dc8b1abfc8a2779e100
 msgid "Cost"
 msgstr "Стоимость"
 
-#: ../userguides/roads_model.rst:10 eda8b3e0ba5f4141aa10f1c5a64fe2e8
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 434e9d2170d94b538d21b45437fd286a
 msgid "5 credits per km² + imagery"
 msgstr "5 кредитов за км² + снимки"
 
-#: ../userguides/roads_model.rst:10 ccdd2e4db1a74fecaabb86f4628921d7
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 9d108b7902224e10b066642ea0f7f1b5
 msgid "Example: 10 km² on Mapbox zoom 18 ≈ 80 credits."
 msgstr "Пример: 10 км² на Mapbox с зумом 18 ≈ 80 кредитов."
 
-#: ../userguides/roads_model.rst:10 d47a684e5d4f48a282ecc4af5374e962
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: bc60f85927784217853b49c4f325b191
 msgid ""
 "Finds road centrelines, cleans the graph (simplifies geometry, merges gaps, "
 "removes double edges and short detached pieces) and turns it back into road "
@@ -71,19 +79,23 @@ msgstr ""
 "превращает его в полигоны дорог. Многозадачное обучение сохраняет связность "
 "сети там, где дорогу скрывают деревья или здания."
 
-#: ../userguides/roads_model.rst:10 a831cf0b9be84c58afb2f73d5ba14243
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 15f3448c54424f9fbf345b81a98bb989
 msgid "What you get"
 msgstr "Что вы получите"
 
-#: ../userguides/roads_model.rst:10 93b54d96f5444652b53e0dd71ae60bcc
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 1d7d83f5535e48ad954791cd690e6f74
 msgid "Road polygons built from a cleaned centreline network."
 msgstr "Полигоны дорог, построенные по очищенной сети осевых линий."
 
-#: ../userguides/roads_model.rst:10 9ce1aa04c3584a3d9533d498b1d9a09c
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 17943d44507342399f466547364b1044
 msgid "Works best with"
 msgstr "Лучше всего работает с"
 
-#: ../userguides/roads_model.rst:10 12bfcb98139d409590094a7dcc8710da
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 295bf2f105824863949665750112c02d
 msgid ""
 "Rural and suburban areas with 0.6–0.3 m imagery (zoom 18). Dense city "
 "centres with wide sidewalks and complex crossings are harder."
@@ -92,72 +104,89 @@ msgstr ""
 "центры городов с широкими тротуарами и сложными перекрёстками даются "
 "труднее."
 
-#: ../userguides/roads_model.rst:10 d8f15d032892441ca9ff02ec081cdf62
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 6a241f852762414791b99163e9c0c038
 msgid "Usage examples"
 msgstr "Примеры использования"
 
-#: ../userguides/roads_model.rst:10 32e21eb2660c404eab30e7ee2e040f3c
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: b164f981b3c348c2997b057b00701c04
 msgid "Map access roads and tracks for rural planning"
 msgstr ""
 "Картировать подъездные дороги и проезды для планирования сельских территорий"
 
-#: ../userguides/roads_model.rst:10 0d3a285f2a1b40479222b306a6b1b9d2
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 5aa1a40e85224b3184258a14b761d64e
 msgid "Add forestry and field tracks missing from OSM"
 msgstr "Добавить лесные и полевые дороги, которых нет в OSM"
 
-#: ../userguides/roads_model.rst:10 5c0c0321f84f4c4d9d3e648ab5da1df4
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 8d33a5f14da840e7a37c666196b9bdec
 msgid "Check the street network in new suburbs"
 msgstr "Проверить уличную сеть в новых пригородах"
 
-#: ../userguides/roads_model.rst:10 9eb55662fc974b05964b40642548fcca
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: ec4e14843a99496eace793ed484e477f
 msgid "`Run in Mapflow Web <https://app.mapflow.ai>`__"
 msgstr "`Запустить в Mapflow Web <https://app.mapflow.ai>`__"
 
-#: ../userguides/roads_model.rst:10 d433705a3dde4540adbf14e376ecb25f
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 53c690cc0caf484d8661f0ffa1788907
 msgid ":doc:`Use in QGIS </api/qgis_mapflow>`"
 msgstr ":doc:`Использовать в QGIS </api/qgis_mapflow>`"
 
-#: ../userguides/roads_model.rst:10 eaa373d596c34106a13cc925ac0f3ce0
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 6916a8857f5d4366ae475df95ac84a89
 msgid ":doc:`Pricing </userguides/prices>`"
 msgstr ":doc:`Цены </userguides/prices>`"
 
-#: ../userguides/roads_model.rst a57d29598f974d16a7289e6819e88bd7
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 0644199316f14713bf12179b0fcdab59
 msgid "Version"
 msgstr "Версия"
 
-#: ../userguides/roads_model.rst:10 29d87923fb37407faa49a258da28fdd1
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 86c56d51039a4f749cc1b837bd6f4562
 msgid "1.1"
 msgstr "1.1"
 
-#: ../userguides/roads_model.rst b8633a870df5422b8bdc6207054ef9df
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 9181fbef7a664a9c9dd4b8476c1c2069
 msgid "Geo domain"
 msgstr "Географический охват"
 
-#: ../userguides/roads_model.rst:10 dcc398a54a7d47cf94a0c3e34f7e791d
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 56ea297430784d73bc07b23fc708664c
 msgid "Global, best in rural and suburban areas"
 msgstr "Глобальная, лучше всего в сельской и пригородной местности"
 
-#: ../userguides/roads_model.rst 9348409feeac4454beb59ca4b99cdc3f
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: de2abf9cb02b4edfbeddad869e0381d2
 msgid "Method"
 msgstr "Метод"
 
-#: ../userguides/roads_model.rst:10 e0a877d778ea40838931a7b33c659a1d
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: 051da3b583cc4f5c91867617552304d4
 msgid "Segmentation + graph post-processing"
 msgstr "Сегментация + постобработка графа"
 
-#: ../userguides/roads_model.rst 8ba8eff8533149fe9559b4b01f38fbf6
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 20e04763a53f4b10ae526025adc93378
 msgid "GSD / zoom"
 msgstr "GSD / зум"
 
-#: ../userguides/roads_model.rst:10 c39d120e506641d4aae7c4ce2b132900
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:10
+#: d5f4f711906c4b08879c1e3552567bf3
 msgid "0.6–0.3 m / z18"
 msgstr "0,6–0,3 м / z18"
 
-#: ../userguides/roads_model.rst:12 1825fd795b92483d918fee061abcad0a
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:12
+#: 743983bdf7f94636a2f4fd76a37450ba
 msgid "How it works"
 msgstr "Как это работает"
 
-#: ../userguides/roads_model.rst:14 33f015cd5e8b45f180b1297a05fb4c5e
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:14
+#: 9ae6c4caaed04117b2e36e8dbdce4d5c
 msgid ""
 "The model is trained mostly on rural and suburban areas. Multi-task learning"
 " keeps the road mask connected where trees or buildings hide the road. It "
@@ -168,7 +197,8 @@ msgstr ""
 "скрывают деревья или здания. В городах с широкими дорогами, тротуарами и "
 "сложными перекрёстками модель может ошибаться."
 
-#: ../userguides/roads_model.rst:18 f2d85ef8cb91468e8380f98b278bfd78
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:18
+#: f8c4e9a37d424f8fac4df866bf033cc1
 msgid ""
 "The model extracts road centrelines to reduce clutter, cleans the network, "
 "then inflates the lines back into road polygons. Since version 1.1 the road "
@@ -178,39 +208,389 @@ msgstr ""
 "затем снова расширяет линии до полигонов дорог. Начиная с версии 1.1 граф "
 "дорог проходит постобработку:"
 
-#: ../userguides/roads_model.rst:21 5fe53cf72ba241dcb2855f7c45905771
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:21
+#: bf188eb0f1314c0a97e0df12cda32673
 msgid "geometry simplification;"
 msgstr "упрощение геометрии;"
 
-#: ../userguides/roads_model.rst:22 9bc05d4d62d648d69e1ab8b5ebccdbd9
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:22
+#: b12cfbfc81b0464195ab31e9e956a698
 msgid "merging of gaps;"
 msgstr "объединение разрывов;"
 
-#: ../userguides/roads_model.rst:23 48f0e27f02204a1f94855e79c89cd5c5
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:23
+#: 1d71522b9da44e748774b42eb98a9053
 msgid "removal of double edges;"
 msgstr "удаление двойных кромок;"
 
-#: ../userguides/roads_model.rst:24 76416510fefc409593a0346b19d9cfcd
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:24
+#: 8d0154787a064858bc123e47811f6ff7
 msgid "removal of detached and too short segments."
 msgstr "удаление оторванных и слишком коротких сегментов."
 
-#: ../userguides/roads_model.rst:27 61c5901a3dfd494896f26e5d77c950f4
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:27
+#: fd0e8eae1b4b4afe8e86d4260e65d14c
 msgid "Sample results"
 msgstr "Примеры результатов"
 
-#: ../userguides/roads_model.rst 71ac96f13ca54f37ba07af8cbc768196
-msgid "Roads model result in a complex urban environment"
-msgstr "Результат модели дорог в сложной городской среде"
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 86b6dce893344bcebe29853c1b2af6f6
+msgid "Extracted road network over a regular grid city"
+msgstr "Извлечённая дорожная сеть в городе с регулярной сеткой улиц"
 
-#: ../userguides/roads_model.rst:35 d19bdf990581493ca45d2f5ab972815a
-msgid "Complex urban environment: New Town, Kolkata Metropolitan Area, India"
-msgstr "Сложная городская среда: Нью-Таун, агломерация Калькутты, Индия"
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:35
+#: 6d6905e00dcb43ab96b2889a33344571
+msgid "Regular grid layout — Balcarce, Buenos Aires, Argentina"
+msgstr "Регулярная сетка улиц — Балькарсе, Буэнос-Айрес, Аргентина"
 
-#: ../userguides/roads_model.rst:38 3bd03864721d41a5b71a378bbcd96c69
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 7557fd63cbd54bfc8d0316970ecc7ad5
+msgid "Extracted road network over a dense, irregular city"
+msgstr "Извлечённая дорожная сеть в плотном городе с нерегулярной планировкой"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:41
+#: a8026c2f72474e908440f5a8ca7d7337
+msgid "Dense, irregular street network — India"
+msgstr "Плотная нерегулярная уличная сеть — Индия"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:45
+#: ec857adc282d4497abc572f11d28e9d4
+msgid "Post-processing: road network vs. full surface area"
+msgstr "Постобработка: дорожная сеть или полная площадь покрытия"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:47
+#: 0cb27c53d7694275a0f75d63483d6824
+msgid ""
+"By default, 🚗 **Roads** is delivered **post-processed**: the road mask is "
+"reduced to centrelines, cleaned (simplification, merging of gaps, removal of"
+" double, short and detached edges) and inflated back into tidy polygons — a "
+"connected, map-ready network for mapping and routing."
+msgstr ""
+"По умолчанию 🚗 **Дороги** выдаются **после постобработки**: маска дорог "
+"сводится к осевым линиям, очищается (упрощение геометрии, объединение "
+"разрывов, удаление двойных, коротких и оторванных сегментов) и снова "
+"расширяется в аккуратные полигоны — связная, готовая к использованию сеть "
+"для картографирования и маршрутизации."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:51
+#: 351229665ebb43299d73418cd5a0aa61
+msgid ""
+"A **no post-processing** variant keeps the raw segmentation mask, which "
+"covers the full **road surface area** — wide roads, junctions and paved "
+"surfaces included. Because it captures total road coverage rather than a "
+"thin connected graph, it is intended for **land-use / land-cover "
+"classification**, where the share of surface occupied by roads matters more "
+"than network topology."
+msgstr ""
+"Вариант **без постобработки** сохраняет исходную маску сегментации, которая "
+"покрывает всю **площадь дорожного покрытия** — включая широкие дороги, "
+"перекрёстки и мощёные участки. Поскольку он фиксирует полное покрытие дорог,"
+" а не тонкий связный граф, он предназначен для **классификации "
+"землепользования / земного покрова**, где доля поверхности, занятой "
+"дорогами, важнее топологии сети."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:56
+#: 2eeda96d0eb140f98d3999ac1b187830
+msgid ""
+"These visuals illustrate the difference on the same areas (they are not a "
+"benchmark). In each pair, 🟧 **🚗 Roads – no post-processing** (orange, full "
+"surface area) is shown next to 🟦 **🚗 Roads – post-processing** (blue, "
+"cleaned network)."
+msgstr ""
+"Эти иллюстрации показывают разницу на одних и тех же территориях (это не "
+"бенчмарк). В каждой паре 🟧 **🚗 Дороги – без постобработки** (оранжевый, "
+"полная площадь покрытия) показаны рядом с 🟦 **🚗 Дороги – с постобработкой** "
+"(синий, очищенная сеть)."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:61
+#: 6761e2fcfbf841a99975d34a0e1c45c6
+msgid "**India — Haldwani**"
+msgstr "**Индия — Халдвани**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 44c1b8011269459c8b1dcb5c9932450e
+msgid "🚗 Roads – no post-processing — India — Haldwani"
+msgstr "🚗 Дороги – без постобработки — Индия — Халдвани"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:69
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:86
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:103
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:120
+#: 05aead76f746437982a63f86318aa812 b610e7e0639345e89bacb966431ab6f3
+#: e401b855bfdf4077a2f038c7108bfa4e fb73e237c8f74a549349b69e2d825738
+msgid "🚗 Roads – no post-processing (full road surface area)"
+msgstr "🚗 Дороги – без постобработки (полная площадь дорожного покрытия)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 383914fa44d14a90b1abe1d14c5b02fb
+msgid "🚗 Roads – post-processing — India — Haldwani"
+msgstr "🚗 Дороги – с постобработкой — Индия — Халдвани"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:75
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:92
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:109
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:126
+#: 5afc1c612ada469f97ae10c08079eee9 6776ce06f26644f4853aef62825207ec
+#: 7cd8564b0d774c9ea4bed63dd9c32756 c3bf89c0218f4f51912d17aaed7f25b5
+msgid "🚗 Roads – post-processing (cleaned network)"
+msgstr "🚗 Дороги – с постобработкой (очищенная сеть)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:78
+#: 62e4d46ebb714e4f95063c62436df475
+msgid "**Germany — Berlin**"
+msgstr "**Германия — Берлин**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 3623285ee0434649a761f8374df3beef
+msgid "🚗 Roads – no post-processing — Germany — Berlin"
+msgstr "🚗 Дороги – без постобработки — Германия — Берлин"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: ef05c5e0c4dc4ce4bf90c57c41dd49b9
+msgid "🚗 Roads – post-processing — Germany — Berlin"
+msgstr "🚗 Дороги – с постобработкой — Германия — Берлин"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:95
+#: 97c2645ebf9b4e61b757695bbc20e73c
+msgid "**Argentina — Balcarce**"
+msgstr "**Аргентина — Балькарсе**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: a543b7464fa446d2a39ca4d8f40b89cc
+msgid "🚗 Roads – no post-processing — Argentina — Balcarce"
+msgstr "🚗 Дороги – без постобработки — Аргентина — Балькарсе"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 45c2688d0ac746de8d624368c97e1026
+msgid "🚗 Roads – post-processing — Argentina — Balcarce"
+msgstr "🚗 Дороги – с постобработкой — Аргентина — Балькарсе"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:112
+#: 2b40264e462b46ca87256c47c783e0f3
+msgid "**Lebanon — Beirut**"
+msgstr "**Ливан — Бейрут**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 22bf16a01c614151bfb90111ddef7bff
+msgid "🚗 Roads – no post-processing — Lebanon — Beirut"
+msgstr "🚗 Дороги – без постобработки — Ливан — Бейрут"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 142977b7938a4a618f236b9faa9c5dec
+msgid "🚗 Roads – post-processing — Lebanon — Beirut"
+msgstr "🚗 Дороги – с постобработкой — Ливан — Бейрут"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:130
+#: 5344841413df4e05932727868dc3ce7e
+msgid "📊 Benchmarks"
+msgstr "📊 Бенчмарки"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:132
+#: 364fb9d37a0344799bf16198aea00dff
+msgid ""
+"We evaluated the update using open benchmark datasets, including `SpaceNet 3"
+" Roads <https://spacenet.ai/spacenet-roads-dataset/>`_, supplemented with "
+"our own validation data across different urban environments."
+msgstr ""
+"Мы оценили обновление на открытых наборах данных для бенчмарков, включая "
+"`SpaceNet 3 Roads <https://spacenet.ai/spacenet-roads-dataset/>`_, дополнив "
+"их собственными данными валидации в различных городских средах."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:136
+#: 5506e347250f442f929b4ee693d5e28b
+msgid "We focused on two complementary metrics:"
+msgstr "Мы сосредоточились на двух взаимодополняющих метриках:"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:138
+#: d39dd1b7341c486fa3091cf8f8ab455a
+msgid ""
+"**IoU (Intersection over Union)** measures how accurately the predicted road"
+" mask matches the actual road coverage. It tells us how well the model "
+"identifies roads and captures their spatial extent."
+msgstr ""
+"**IoU (Intersection over Union)** измеряет, насколько точно прогнозируемая "
+"маска дорог совпадает с фактическим покрытием дорог. Она показывает, "
+"насколько хорошо модель распознаёт дороги и охватывает их пространственную "
+"протяжённость."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:141
+#: 8897778bbf6e4c5d83dc77285b4b4fd8
+msgid ""
+"**Topology F1 (Topo-F1)** evaluates the connectivity of the extracted road "
+"network. This is particularly important for mapping and routing, where roads"
+" need to remain connected even when partially obscured by vegetation, "
+"buildings or shadows."
+msgstr ""
+"**Topology F1 (Topo-F1)** оценивает связность извлечённой дорожной сети. Это"
+" особенно важно для картографирования и маршрутизации, где дороги должны "
+"оставаться связными даже при частичном перекрытии растительностью, зданиями "
+"или тенями."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:145
+#: afb83eab0d0d4fd18aa91988119da94f
+msgid ""
+"**The new model improves both metrics across all seven validation "
+"datasets.** Compared with the original baseline, the average scores across "
+"these datasets increased significantly:"
+msgstr ""
+"**Новая модель улучшает обе метрики на всех семи наборах данных для "
+"валидации.** По сравнению с исходной базовой моделью средние значения по "
+"этим наборам данных существенно выросли:"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:148
+#: f225f5302e7b4fb5abcdc480e68ab787
+msgid "**IoU: 0.386 → 0.599 (+55%)**"
+msgstr "**IoU: 0,386 → 0,599 (+55 %)**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:149
+#: 5cef2231ee214f4ba4a1d7d89cb881ab
+msgid "**Topo-F1: 0.465 → 0.758 (+63%)**"
+msgstr "**Topo-F1: 0,465 → 0,758 (+63 %)**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 4baf209c5a2747c586887da7c12780d7
+msgid "Roads IoU by validation dataset — baseline vs updated models"
+msgstr ""
+"IoU дорог по наборам данных валидации — базовая модель против обновлённых"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:157
+#: cf3af6d6cf614ce5aa513d6065faa821
+msgid "IoU by validation dataset (higher is better)"
+msgstr "IoU по наборам данных валидации (чем выше, тем лучше)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst
+#: 4dd9e77e40c34df68d9f48a2812ce496
+msgid "Roads Topology F1 by validation dataset — baseline vs updated models"
+msgstr ""
+"Topology F1 дорог по наборам данных валидации — базовая модель против "
+"обновлённых"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:163
+#: fc9f006eaf7f4c35bbd3d62f71cf3172
+msgid "Topology F1 by validation dataset (higher is better)"
+msgstr "Topology F1 по наборам данных валидации (чем выше, тем лучше)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:165
+#: 94787e4a379e44fea513d66710617e19
+msgid ""
+"Some of the most impressive improvements are in challenging urban "
+"environments:"
+msgstr ""
+"Некоторые из самых впечатляющих улучшений — в сложных городских условиях:"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:171
+#: 35ad069a84e24a2badca05147dc7d164
+msgid "Validation area"
+msgstr "Область валидации"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:172
+#: e71f85e80664490f9dd1d43e0ffd6848
+msgid "IoU (before → after)"
+msgstr "IoU (до → после)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:173
+#: 363e229083a04ba6a9ad49ccf9bad2a1
+msgid "Topo-F1 (before → after)"
+msgstr "Topo-F1 (до → после)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:174
+#: bd876760330e491ea9cb911af55aec70
+msgid "Shanghai"
+msgstr "Шанхай"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:175
+#: 0412023603f347d1aef4b5fb2b9ce1ad
+msgid "0.180 → **0.562**"
+msgstr "0,180 → **0,562**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:176
+#: 9c264769ac484ac9a6dbf1efc39724b9
+msgid "0.171 → **0.717**"
+msgstr "0,171 → **0,717**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:177
+#: 8948cbbf55084bc085dd86b2e9adb849
+msgid "Khartoum"
+msgstr "Хартум"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:178
+#: ac10d71d5be84affaa61c5f3fb27704e
+msgid "0.277 → **0.584**"
+msgstr "0,277 → **0,584**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:179
+#: 30eb435e15e3405c8032adc9b1349dee
+msgid "0.224 → **0.735**"
+msgstr "0,224 → **0,735**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:180
+#: bf563edbf21e47838ae261563b3ec5a5
+msgid "India"
+msgstr "Индия"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:181
+#: 03c55683c5c442d4b8d40cca60a2ce16
+msgid "0.344 → **0.551**"
+msgstr "0,344 → **0,551**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:182
+#: 347c8f4bbe404f8d81e462dc6356b6a0
+msgid "0.245 → **0.637**"
+msgstr "0,245 → **0,637**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:183
+#: e4ed29980f2744c08c1df0f73147778c
+msgid "Las Vegas"
+msgstr "Лас-Вегас"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:184
+#: 01e503ff499f42509907ea7a5b0717f8
+msgid "0.490 → **0.685**"
+msgstr "0,490 → **0,685**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:185
+#: 2201aa4e97ed484bb682157c856f5e39
+msgid "0.668 → **0.882**"
+msgstr "0,668 → **0,882**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:187
+#: f29bbfcd7a01494d97b372a0b2b73b20
+msgid "**Why do both metrics matter?**"
+msgstr "**Почему важны обе метрики?**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:189
+#: d3cf25da79924cb3b0aa835bc169f50d
+msgid ""
+"A road network may look connected but still miss substantial portions of the"
+" actual road coverage. Conversely, a model can accurately identify "
+"individual road segments but fail to connect them into a usable network."
+msgstr ""
+"Дорожная сеть может выглядеть связной, но при этом пропускать значительную "
+"часть фактического покрытия дорог. И наоборот, модель может точно "
+"распознавать отдельные сегменты дорог, но не соединять их в пригодную для "
+"использования сеть."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:193
+#: d20244f7f9c74811b27b05df97f994fc
+msgid ""
+"The updated Roads model makes progress on both fronts: **more accurate road "
+"coverage and better-connected networks**. This is especially valuable in "
+"densely built-up areas with narrow streets, irregular layouts and frequent "
+"occlusions — precisely where automated road mapping remains challenging."
+msgstr ""
+"Обновлённая модель Дороги продвигается по обоим направлениям: **более точное"
+" покрытие дорог и лучше связанные сети**. Это особенно ценно в плотно "
+"застроенных районах с узкими улицами, нерегулярной планировкой и частыми "
+"перекрытиями — именно там, где автоматическое картографирование дорог "
+"остаётся сложной задачей."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:198
+#: e130568e9fe64f28b986f59e5ae40215
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/roads_model.rst:38 fe4b3396bce4425c94e461df628288f0
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:198
+#: 6c537a1e5a2c44bead8172190171f8c7
 msgid ""
 "We train custom models on your imagery and classes, and connect them to your"
 " Mapflow account."
@@ -218,22 +598,25 @@ msgstr ""
 "Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
 "их к вашему аккаунту Mapflow."
 
-#: ../userguides/roads_model.rst:38 ff23e208a9664edb854357ecda60a4cb
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:198
+#: 03941c9f06b4481487964b2b9273062b
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/roads_model.rst:38 28c98aea7f68414ba5bb9faa04b916e4
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:198
+#: 941d2cab67c64573960dad60160ea9bd
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/roads_model.rst:38 2291bb7f87d14fc6935c1a228bf9fc8b
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/roads_model.rst:198
+#: 5ce188a778f84c8397c5101aec1e8cf6
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid "More complex environment - urban territory in Prague, Chech Republic"
-#~ msgstr ""
+#~ msgstr "Более сложная среда - городская территория в Праге, Чехия."
 
 #~ msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
 #~ msgstr "Модель сегментации дорог на снимках высокого разрешения (0,3–0,5 м)\\"
@@ -280,3 +663,9 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
 #~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
 #~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+
+#~ msgid "Roads model result in a complex urban environment"
+#~ msgstr "Результат модели дорог в сложной городской среде"
+
+#~ msgid "Complex urban environment: New Town, Kolkata Metropolitan Area, India"
+#~ msgstr "Сложная городская среда: Нью-Таун, агломерация Калькутты, Индия"

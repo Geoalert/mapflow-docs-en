@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:9
+#: 6ad73cccf59440849dfedceca125e8aa
+msgid "🌲 Canopy Height Model (CHM) — per-location benchmark (v.2026-08-31)"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:11
+#: 1de578d28ad0498eab8bf2308e1f6997
+msgid ""
+"This page details the **Canopy Height Model (CHM)** produced by the 🌲 "
+"Forest and trees **Height estimation** option. **CHM v.2026-08-31** is "
+"compared against **CHM v.2026-07-03** on the most-improved sample per "
+"country, using lidar-derived ground truth aggregated to 5 m hexagons (max"
+" height)."
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:15
+#: 719d3da77810427888ce1e79694f0e13
+msgid ""
+"The metric is the **mean absolute error (MAE)** of canopy height, in "
+"metres, against the lidar ground truth. Across 38 areas of interest, CHM "
+"v.2026-08-31 lowers the mean MAE from **4.70 m to 3.24 m (−31%)** versus "
+"CHM v.2026-07-03, with the largest gains in tall, structurally complex "
+"forest."
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:70
+#: 5df0f14c51eb4cdba37196f4de2441e5
+msgid "🇷🇺 Russia — RU_4"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:76
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:104
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:132
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:160
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:188
+#: 2058db37f23e4e629135ffb36074217a 5d4beab76a6f477092d33b3cdae75f8d
+#: 77215da0ec02486b841dcd59bd03f6c8 85339d1bb093471cbd4a99714c4d7da1
+#: a4243f7997ef421998b336e9a69157d5
+msgid "Model"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:77
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:105
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:133
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:161
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:189
+#: 16a73dfd4cef4eb996217babd1d81f79 1fb648cd34764889afd1bf9b3bef85d9
+#: 3e79adf87b6844eca960c7ae1db41fce 5b3468106dc44f2fb43cbc271bda59db
+#: c0a9cc28b62c4459a054de7c1758a581
+msgid "MAE (m) ↓"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:78
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:106
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:134
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:162
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:190
+#: 7a8aed12dbb34a1c950f1952f6a7dbb8 8e08b5bd07674b3aa0a5bcacab077d3c
+#: b87bdb655f0a49cbb0712c3ec37275ce e5d66980e3c04d2a8786afbdfed3cfbd
+#: f005575213bf4fb49c1cd8ec1582fe7f
+msgid "vs lidar GT"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:79
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:107
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:135
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:163
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:191
+#: 20d633a9df4d4dd4a9deefb320379372 2ba1eb685345449d834fbfbda5b89a53
+#: a65b2633d5884915a8704220249b261e e2d6d0533fc24d0eac9f7bc93266676a
+#: ec1ac77d7b9e49e9b63e864397cdef20
+msgid "**CHM v.2026-08-31**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:80
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:224
+#: 70395231d3a34a9085d9bb4e321b0731 a66d4d307a7c415ba292846dff45b1a8
+msgid "**2.73**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:81
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:109
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:137
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:165
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:193
+#: 0edce9545d6843c292f3de318b7a543a 2b2039392f6e420d9fea7ffbe1e699e9
+#: 5ff5c7204ef5443ba30f290a932dbb9c 6045b258d9134d0c9d2e72a410e9e95e
+#: d5d2f0e6e91e4bdd82b0a5f53a8ae1ab
+msgid "best"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:82
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:110
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:138
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:166
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:194
+#: 334a5eae50ff4e7193e54c3b3859678f 4abad31dae604805a562cb364f6556be
+#: 65e5d0d408884c529b99d1859593f886 b71de6ab2e4d465790a66ff7aca0c281
+#: d65861bcf6c04aba83b737893a77042c
+msgid "CHM v.2026-07-03"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:83
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:223
+#: 4e7bbebb3b7349bd86fc281f15a07d63 8e191102322a435e9c2465aacf230b58
+msgid "8.06"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:84
+#: 189f50cb178f46aaab8c541d50cabc05
+msgid "−5.33 m worse"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:94
+#: 50e3a5d82a074e509232a7cd8792e60b
+msgid ""
+"*20,980 ground-truth hexagons. Mean absolute height error reduced by 5.33"
+" m (−66%).*"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:98
+#: 5ecf7a9ef8f54765a5da41f7363bb4a2
+msgid "🇨🇭 Switzerland — SWISS_3"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:108
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:229
+#: aff4967fc0c14976934fd7073fd69ab0 ef8c2223146f4f94a306c077da49fb7e
+msgid "**3.36**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:111
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:228
+#: 6e31660b69ab4417933710d981a193dc c8300d296f424fad89c4a0b7285724c6
+msgid "7.78"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:112
+#: cf4e1066e8264fa7891df4d27ff229f6
+msgid "−4.42 m worse"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:122
+#: 81201696dc1a427f8fd794ae287b6bc6
+msgid ""
+"*1,740 ground-truth hexagons. Mean absolute height error reduced by 4.42 "
+"m (−57%).*"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:126
+#: 07896bcf8d5d4e0f88e6418bf725b419
+msgid "🇪🇪 Estonia — EST_473628"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:136
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:234
+#: 57290580645a482a97a060a01db86517 644d743dc4d0417c9ed5d40e75f51fbd
+msgid "**2.75**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:139
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:233
+#: d056baef882440e0a54d47c1a5ba9ff8 feaaba9d30574478af0827cf7f18e1f6
+msgid "5.42"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:140
+#: ca1e1e51209346a699da8447e16ee183
+msgid "−2.67 m worse"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:150
+#: 015b0702bff5494aaf25be2abf92fede
+msgid ""
+"*44,641 ground-truth hexagons. Mean absolute height error reduced by 2.67"
+" m (−49%).*"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:154
+#: d57d1964dbc2447b97257d3faf3e8b0d
+msgid "🇲🇽 Mexico — MEX_4"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:164
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:239
+#: e296077c245046f89bc40929c0f63fc3 ef16caa9fb3b40b4941c8a68c6f920c2
+msgid "**1.69**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:167
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:238
+#: 0fc5faf6110843d4888e28777d8c92df 9ad3f78bfde24c07ba2dbb4a6413196a
+msgid "2.93"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:168
+#: ad41630f5188441fa15ccb9a46b777e8
+msgid "−1.24 m worse"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:178
+#: 72ffa556c2ff4acc966f8589fce2ee05
+msgid ""
+"*18,248 ground-truth hexagons. Mean absolute height error reduced by 1.24"
+" m (−42%).*"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:182
+#: 85191fe7238648138b129a9d624c40f9
+msgid "🇩🇰 Denmark — DEN_5"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:192
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:244
+#: aa5d46b20b8543ad832eb9e4dc8c2482 d75d5c0c7deb45b7aeb27d520686be8e
+msgid "**2.20**"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:195
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:243
+#: 5aafe9d39b994755a39d168f8bd18db3 66713a4596a74ea4b9ff5cf0a93e8142
+msgid "2.67"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:196
+#: 06e3e94595ec44b2b51404772ece7ca7
+msgid "−0.47 m worse"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:206
+#: f74246f24f43442791f74d4612f4dddf
+msgid ""
+"*1,289 ground-truth hexagons. Mean absolute height error reduced by 0.47 "
+"m (−18%).*"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:210
+#: 4877a9e3fb0848b0909b2df40ae9510a
+msgid "Summary"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:216
+#: 87fbdd9d78744a4989f4f53e4e9e761b
+msgid "Country"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:217
+#: ee148a72688e4f5788992744c59ddcdf
+msgid "Sample"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:218
+#: 983baf9891a34bbcbea8311bba8d0f43
+msgid "CHM v.2026-07-03 MAE"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:219
+#: 640e51cdd5414645b6c4bca73ff1809d
+msgid "CHM v.2026-08-31 MAE"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:220
+#: 8b3e51ed87ae4313953c7909fe0c132c
+msgid "Improvement"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:221
+#: 58c2580b4e5a4b9aa43f7c1525f4b9b3
+msgid "🇷🇺 Russia"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:222
+#: c298505e5b3a4de3adddbcea8e019048
+msgid "RU_4"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:225
+#: 7501e8948395471da92a8e7938c33422
+msgid "−66%"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:226
+#: a27b1b92af4546f08c8e8a3ef9734c53
+msgid "🇨🇭 Switzerland"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:227
+#: ffd1d094322741668f86163fc7f8ec9c
+msgid "SWISS_3"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:230
+#: 84999e1352a04efe995f2c01f2668df4
+msgid "−57%"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:231
+#: 9343e4f51e6348cdb0e36bfad9a081a6
+msgid "🇪🇪 Estonia"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:232
+#: 68608aab8e5b4db694cb71ac6ab6e580
+msgid "EST_473628"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:235
+#: 6c19b946fb614467a1f25052e0b25299
+msgid "−49%"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:236
+#: 0a7bf28d72274dd48f46b06833bbd42c
+msgid "🇲🇽 Mexico"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:237
+#: 91aac577d8fe4fedbd6a8e8aa4f2c8bb
+msgid "MEX_4"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:240
+#: 62a4e5b299b4412ea1955a55e2626635
+msgid "−42%"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:241
+#: 2451b4da6ce5497cb23b93dd82fe066a
+msgid "🇩🇰 Denmark"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:242
+#: caede12284594fc3a48894474bc8ea62
+msgid "DEN_5"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:245
+#: b041650f05a64e6787634ad2db086feb
+msgid "−18%"
+msgstr ""
+
+#: ../userguides/forest_chm_benchmark_2026-08-31.rst:247
+#: 0d5a39d5ec654c658feac212be9b7aa5
+msgid ""
+"*Mean absolute canopy-height error vs lidar ground truth · 5 m hexagons, "
+"max aggregation · absolute-error ramp 0–15 m. The US sample is omitted (a"
+" single, highly generalised tile).*"
+msgstr ""
+

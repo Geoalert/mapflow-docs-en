@@ -1,0 +1,577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:9
+#: 977048c89e63458e89fa426f13510855
+msgid "🌲 Forest and trees v.2026-09-10 — tree crown benchmark"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:11
+#: 14ef0915e7ac4fc984a652b134b5709f
+msgid ""
+"This page details the validation of tree **crown polygons** produced by "
+"the **🌲 Forest and trees v.2026-09-10** model on 7 areas of interest "
+"(AOI), compared against the **previous version v.2026-07-03**. For each "
+"AOI the two crown-mask results are shown side by side; click any image to"
+" open it full size, and use the ← / → arrow keys to browse between them."
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:17
+#: 83c27157d4ce4490b6d5d9005eee52d7
+msgid ""
+"Metrics are area-based on the crown masks: **IoU** is the intersection-"
+"over-union of the predicted and ground-truth crown masks, and **F1 / "
+"Precision / Recall** are computed on the overlapping mask area. "
+"**Crowns** is the number of detected crown polygons; the ground-truth "
+"crown count and the relative count error are reported below each AOI (see"
+" also the *Tree count accuracy* table on the model page). Evaluation run:"
+" 2026-10-01."
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:62
+#: 7a7555180977497cacfcf2d058967933
+msgid ""
+"**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
+"style=\"background:#ff5028\"></span>` **v.2026-09-10**  ·  :raw-"
+"html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"**v.2026-07-03**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:66
+#: ae0f048893484b68b3de0d47b5e51523
+msgid "Italy — Crotone"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:72
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:108
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:144
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:180
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:216
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:252
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:288
+#: 127df644826f4a9cb69ebb293d8287d3 1424943ceb6c42f88ec4daec400f478d
+#: 648de7c9e0bd4f5cb186fde271bdabb7 7fbb7d7225bf49f6a7bf4f5195f1e5f9
+#: 80bef36019ea4bb9ac6b1dd37e7b2bc1 f79a935ebd354097a948def7096a6f49
+#: fd56c236304245a89e53a61a57f0653b
+msgid "Model"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:73
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:109
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:145
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:181
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:217
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:253
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:289
+#: 6638349ebd8f4ad49788d0b9d79c7e90 6666cd92caa3498fb933e439ea78648d
+#: a22560e6f76b494cb07c2076627e9a38 c4dd9cb21bd54af38fb9136db504cf1d
+#: c891d230f7b94626b631062319afe62c da29c11bd1244b748aa34324260eba16
+#: ffca7a8229a341afae02dc1387e4f0f7
+msgid "IoU"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:74
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:110
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:146
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:182
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:218
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:254
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:290
+#: 3c59b43ded504a4482a50cfcb1c9f028 3cdb72db07c24d4bbbf8865b896e50a7
+#: 5f897369a3e447cb93983bc30d9699f8 85271405dc554f49a3199b104e7e261d
+#: a3f3613f04d4424096fe52877feeea85 de66f2d2809648d8ae9f10209a249ad6
+#: fd9a57294df94e24b49f8d94b827cbab
+msgid "F1"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:75
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:111
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:147
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:183
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:219
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:255
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:291
+#: 5210c2cb0d2c4f328417770b59ab4ba8 69644dca56b8414987c9e2eb0f042440
+#: 7c984b3683124eb7af495d0fb0666532 ad13ac0717d94a8f9b2851a474b25766
+#: d7d75677313a4f709f63d7f45f4d6852 e5e671b9b0134771afad990b87d40fd9
+#: fc97a1f4197b46d98672546eb6040e6c
+msgid "Precision"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:76
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:112
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:148
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:184
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:220
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:256
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:292
+#: 316af135d6f64677bd40a69b1af4384c 6c04f95c38c34adc959ef9e21d6866e4
+#: 99b1098b4ad54932864cc551496d7fb6 b2b8ce1d0539440a9c737954b4fbb0f5
+#: bf2efbf806ac42bdba255a6b8a893f7b c8f79d70aac8483084cb574164e42e0c
+#: dd20b9bccfba4446acfd845daa5942c1
+msgid "Recall"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:77
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:113
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:149
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:185
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:221
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:257
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:293
+#: 2dcb48e00c1942d6a18ad0b82b56e850 69e89f19fdb04cc7b7c486c2cf813bce
+#: 6b0934a7d22c44b39c0dde1c201d6ed9 b3f35b3554b243fea018f13e853ce9cc
+#: d98e45325f6545b89109d3383afac1e7 ea0f031d50c846a98611f84e87d7ab80
+#: efe337616f06443e8562a4b808367318
+msgid "Crowns"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:78
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:114
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:150
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:186
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:222
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:258
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:294
+#: 0a9246e19e5c450bb330a721bae522ec 20336c40cfb447469a99e46169544381
+#: 21f88d6649754644b0aa9c42747a5bc3 4ae6d3b8f7744286b1772f3f20cc364e
+#: 58f390e29258486998a88807fc52d719 71fca2c2f9b3451cace8ee1b85ee7520
+#: 79cd193de419412ab679a424f5bb647e
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-09-10**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:79
+#: 9252c538b7334457877ef304f3dadd73
+msgid "**0.842**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:80
+#: 51cb7e4526aa433aa608d0abdc36307a
+msgid "**0.914**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:81
+#: d3bd11ad8119424aba98510e532d9825
+msgid "**0.930**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:82
+#: 0d65d143bc9b4f059b6383031650f3a1
+msgid "**0.898**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:83
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:89
+#: 8cd44440ff0d4762bc1309619f32322f 96e5ecf2dcad460ab1b1de1bb0b048f4
+msgid "254"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:84
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:120
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:156
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:192
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:228
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:264
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:300
+#: 2fb05f6a7a234a7894019d8c63ffec1a 60765519b0714196a0a5647ca5154f54
+#: 7ba9d27e25fe4934947b012865059fe3 bb791544b0a949e0b828f23c57317a7d
+#: db950b3c404141f08c49c353219b41a2 efae430bfcd3425cbe552778b743aeb9
+#: fd097ec1308b442c82ede7a79d9847d6
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2026-07-03"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:85
+#: dea71c0ce70846c999d1e028908ac75d
+msgid "0.825"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:86
+#: 95a523560e5840b9ad4f45a8ca074c36
+msgid "0.904"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:87
+#: eb9750ddeb254dc5aaca96d679767349
+msgid "0.925"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:88
+#: c1c3c22fbc864301ac8c2d75179b44cb
+msgid "0.884"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:102
+#: 20d53d6a255c41b0a915915054580b88
+msgid "Argentina — La Banda"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:115
+#: f3e9d7a9583848328074098ca42dbfc0
+msgid "**0.624**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:116
+#: 8e3a4a3dc1604155bdf2be61116bfc7a
+msgid "**0.769**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:117
+#: bf8da45947144957ad27ecdb1fceb30d
+msgid "**0.700**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:118
+#: f7f691913c34433db636e5b7beeedf74
+msgid "**0.852**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:119
+#: 417fae7109344deba3d635565bc1b889
+msgid "111"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:121
+#: d96dc5ab279b494b92c1fec2dd1fba16
+msgid "0.575"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:122
+#: 313dd6c062924796bfa93fbcb46a7d48
+msgid "0.730"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:123
+#: f455a98c85d94f2cb8acbdb2c05b3091
+msgid "0.691"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:124
+#: 14d7afdb31e64f89a2a5ba9955590409
+msgid "0.774"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:125
+#: bfbaccd998d44529a9d0c622f4c89b0b
+msgid "83"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:138
+#: cf2a2cd3244945f29d2cee9ff018f0c4
+msgid "Spain — Rus"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:151
+#: aeba5970fe734650a09715a6291dc5b3
+msgid "**0.689**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:152
+#: 1b7110a05aae47e38d36322f7033a4c7
+msgid "**0.816**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:153
+#: 89c96fb05c154e7db33e0e6364b45dd2
+msgid "**0.759**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:154
+#: b05f6f4642f048f4a2b24bad5b78f747
+msgid "**0.883**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:155
+#: ef13760651ef4d27bc8758d1ed14f4d8
+msgid "239"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:157
+#: d28ae0ff0f3844cdb568ff7a47a25c19
+msgid "0.567"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:158
+#: 35e838c34eb74a1bbeca95b13b55ac0b
+msgid "0.723"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:159
+#: 8b59500238ec4389ada2824b8f145c86
+msgid "0.671"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:160
+#: 217ec8c619b14d3581f32f0c8e939c0b
+msgid "0.785"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:161
+#: 884ea09f92514e8b8f6fb430c84c1d9a
+msgid "249"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:174
+#: 5a7f648a112d4389940e660edc47b3e3
+msgid "Philippines — Balanga"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:187
+#: ace69777294544ed9ac8b82124534e56
+msgid "0.780"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:188
+#: 8ea00f50186543faa28f4813c117b623
+msgid "0.876"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:189
+#: 66693f4fae8a43b3a2ed8474d05dee24
+msgid "0.849"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:190
+#: 16567a431e904caeaaae9418ce3e1478
+msgid "**0.904**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:191
+#: 24a04842735f4855826b962d4186e259
+msgid "309"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:193
+#: 5c143df0e5b349bbb51e10d43c9e7882
+msgid "**0.782**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:194
+#: c4b63a8e897d44ea8860f3667d82406c
+msgid "**0.878**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:195
+#: 55e6287e1fbd470893219fca90abd3c9
+msgid "**0.860**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:196
+#: 94d7f2743d2c42a3a6accf320537c6ff
+msgid "0.896"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:197
+#: 3ecc13cc41fc4217ab02013e4e81ec9a
+msgid "220"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:210
+#: 9404e07358e24b89a50a9a87d7c0abaf
+msgid "Spain — Cuenca"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:223
+#: 9ab2a3adbc16440d950633bf6ce079ce
+msgid "**0.732**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:224
+#: ecd0462167f34a7f863f146b51973594
+msgid "**0.846**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:225
+#: d1918be00a2e42ca8044649e49aa7e4c
+msgid "**0.875**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:226
+#: 1f8c52f5f01e46c794addd0e79aa40fb
+msgid "**0.818**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:227
+#: 08836a72caeb4d14a1e6bd18719b258d
+msgid "433"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:229
+#: 96303b849a114693af5178d1cb8140da
+msgid "0.728"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:230
+#: 112fa56666e04938983d448f61aa64d5
+msgid "0.842"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:231
+#: f74b06293b774b6187adc95ce18c85f8
+msgid "0.868"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:232
+#: 47eed992cc2f44df85aad3dfa29ac4b3
+msgid "0.818"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:233
+#: e5a5da2b07f343de965eba9a36e5b0b5
+msgid "409"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:246
+#: 9896f01570f74aa6a83f1194792769a1
+msgid "Spain — Velilla de San Antonio"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:259
+#: 5a3472ca8f2e403199b67e223aff39a8
+msgid "**0.694**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:260
+#: 49784544bd334521b72c52ccacea71b2
+msgid "**0.819**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:261
+#: 98a513df0bbc46fa9c169032ad80215b
+msgid "**0.855**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:262
+#: 4d192cdb7a3a41ef848993777645c350
+msgid "**0.786**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:263
+#: 0054efbfa4d0477bbb5c41c76cb8b849
+msgid "1,134"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:265
+#: 1152b1d3cf7a4a0789aa55a2279d0c95
+msgid "0.667"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:266
+#: e55ae97261194a9c8b49308c2df931a8
+msgid "0.800"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:267
+#: a6854679b8504c19b4bbde61d99520e1
+msgid "0.831"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:268
+#: 3d5aeafb0331482fa1b56f74180f0497
+msgid "0.771"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:269
+#: 1ea66274d70c4ed3a84a342214a2c269
+msgid "1,070"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:282
+#: 14cf06b292b24ab38e6f7a848899c274
+msgid "Spain — Madrid"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:295
+#: 77909ab4cbf344f18c3e8697c18f0cdc
+msgid "**0.823**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:296
+#: 5525e759b9564a5a96eb1f970bc3e0e5
+msgid "**0.903**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:297
+#: 2677d47d9f8c40deb17bf71baef90166
+msgid "**0.907**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:298
+#: b12cbe1b3f22493a9ded24628fba4bb1
+msgid "0.899"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:299
+#: b62d5b6a27f146d4aae0458e512bb649
+msgid "398"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:301
+#: 4e6444f8992e478d952246987f9f8cc7
+msgid "0.801"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:302
+#: 269adbd0d20341fc9ae0cd63f0856383
+msgid "0.889"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:303
+#: 5a2921cec93a4475983d45ffe1132f15
+msgid "0.879"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:304
+#: bd5f80d004bf4ccc9a878c0171c725fc
+msgid "**0.900**"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:305
+#: fdc4f158af6e44f4a7308a12ad28d806
+msgid "368"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:317
+#: 55151b9bb7d9487daea33604200a5d7e
+msgid "Summary"
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:319
+#: f81faafbcabc444c8339bf419c06143d
+msgid ""
+"For tree crown polygons, **v.2026-09-10** improves on **v.2026-07-03** "
+"across the 7 AOIs: mean area-based **F1 rises from 0.824 to 0.849** and "
+"**IoU from 0.706 to 0.741**, with gains in both precision (0.818 → 0.839)"
+" and recall (0.833 → 0.863). It leads on F1 in 6 of the 7 AOIs and is on "
+"par at Balanga (0.876 vs 0.878)."
+msgstr ""
+
+#: ../userguides/forest_crown_benchmark_2026-09-10.rst:324
+#: f84c366bbb2f45068173a1f0d728889a
+msgid ""
+"On **tree count accuracy** the picture is mixed. We will provide more "
+"evidence on the later benchmarks based on results against the validated  "
+"mapping surveys."
+msgstr ""
+

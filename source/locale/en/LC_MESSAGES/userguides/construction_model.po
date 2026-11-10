@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 13:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,141 +19,167 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/construction_model.rst:1 3d2144d445d5409fa7f7d4523f85ff95
+#: ../userguides/construction_model.rst:1 02cf827f6e814ca5ba2ffeaca5c48bf6
 msgid ""
-"Detect construction sites and buildings under construction in satellite "
-"imagery. Available as a custom Mapflow model on request."
+"Detects and outlines areas containing construction sites and buildings "
+"under construction from satellite imagery. Model identifies active "
+"construction activity including partially built structures and "
+"construction zones. Output is construction area polygons in GeoJSON "
+"format. Note: current model coverage is limited to specific geographic "
+"regions, test before taking it onto a large scale. Primary use cases: "
+"urban development monitoring, construction activity tracking, "
+"infrastructure project oversight, real estate development analysis."
 msgstr ""
 
-#: ../userguides/construction_model.rst:7 1aefbfd7133e475d841704de6345bf1f
+#: ../userguides/construction_model.rst:7 09224f89b3e94f21afb8932830d53179
 msgid "Constructions"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 d1cafe68430248a68206f14414a5133a
+#: ../userguides/construction_model.rst:10 822ede19ed9641909c355d4915f5ed31
 msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
 msgstr ""
 
-#: ../userguides/construction_model.rst b5e7ad470ab348749688c5e906fb56c1
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
 msgid "Construction site outlines in a fast-developing area"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 9e81820b9da0449d961ec197685fef60
+#: ../userguides/construction_model.rst:10 0c38d3ba531648239238c1cf497547ba
 msgid "Example result: construction sites in a fast-developing area."
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 8939e05d1e4d4c0eadf8866f129a7c6f
+#: ../userguides/construction_model.rst:10 8a8f05a38064459e9ba2687196c9dcd0
 msgid "Cost"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 cabc867d99e04232828c70925a67f08b
+#: ../userguides/construction_model.rst:10 fbf35d3dd4804b9aaa8d6e02021678b2
 msgid "Priced per project"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 8f23b50fc0d1493bb9fa2406afe1177d
+#: ../userguides/construction_model.rst:10 51cd959941114d9189bc5dfa5608ca23
 msgid "Request access and we connect the model to your account."
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 65fe658138814cae9f0d744e7e874f70
+#: ../userguides/construction_model.rst:10 a8196ae0a39c4d77832953be94beac9d
 msgid ""
 "Outlines areas that contain construction sites and buildings under "
 "construction. Available for selected countries; coverage is growing."
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 dc708c031bb64d5984a1582e199c7098
+#: ../userguides/construction_model.rst:10 0abd9a2cd8d842018332f2a9a57f4815
 msgid "What you get"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 7c503ee0656f4750849320748733c456
+#: ../userguides/construction_model.rst:10 09224f89b3e94f21afb8932830d53179
 msgid "Construction site polygons."
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 b04683c44c44431c94548a03c1a4a693
+#: ../userguides/construction_model.rst:10 fd5b36d2a82148748e64a70f2dd4b4ab
 msgid "Works best with"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 f78b69d1dce54a99850044c28a34d75e
+#: ../userguides/construction_model.rst:10 f2f7494243fc4211beb2cac0828ed2aa
 msgid "0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas."
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 7ade9d2aa8e24f798e4ad94609da06c4
+#: ../userguides/construction_model.rst:10 3df76ace48e446efac20944c4a34d5bf
 msgid "Usage examples"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 036e7c4601664e54a16fe09130cf115c
+#: ../userguides/construction_model.rst:10 0fb201c342c9433ea8177b0c1fb091fb
 msgid "Track new development for permits and taxes"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 99f433cd11cc4645a81bf6dbecd021e0
+#: ../userguides/construction_model.rst:10 12440fbd9d83456c9927f64715a39024
 msgid "Monitor progress on large projects"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 83dea4307701412c9ab84014ebf5627c
+#: ../userguides/construction_model.rst:10 65ceaf156a464eea9024ca3a08f61263
 msgid "Flag unplanned construction"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 bdc7793762c545a5b0161454f78c9510
+#: ../userguides/construction_model.rst:10 65bf4ebb1ba546798d29e4d0a6df79f2
 msgid "`Request access <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 89c43ec757bd42cba7d8ac7c32d339ff
+#: ../userguides/construction_model.rst:10 438b1e121d274dd1bab45490c3071c49
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
 msgstr ""
 
-#: ../userguides/construction_model.rst 78f95c0d9265417a8978c78460eb6b72
+#: ../userguides/construction_model.rst 877a732b651248f0a72eb89c7b466b2e
 msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 a953c8e3893b46bd95ec72da9dff86eb
+#: ../userguides/construction_model.rst:10 64c99bc7df9040e783ecb90917296098
 msgid "Selected countries"
 msgstr ""
 
-#: ../userguides/construction_model.rst 51c89db65a4c4463bab604c0bea6a331
+#: ../userguides/construction_model.rst 526e47a0d4834f938c84d08ab7a2da70
 msgid "Method"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 5e2ccf928e374d4084307a40e9fa6b58
+#: ../userguides/construction_model.rst:10 33b6ea8d734a44e7bf7f4526503293ae
 msgid "Segmentation"
 msgstr ""
 
-#: ../userguides/construction_model.rst 1ea707e8744e47838d486dd2e0cb36f6
+#: ../userguides/construction_model.rst b28a98443b0649a19eb3f51c88f51e3e
 msgid "GSD / zoom"
 msgstr ""
 
-#: ../userguides/construction_model.rst:10 376c0f173b2743da800b6f1363cb1dab
+#: ../userguides/construction_model.rst:10 934db30bda204b91bb90f9986284cbd4
 msgid "0.6–0.3 m / z18"
 msgstr ""
 
-#: ../userguides/construction_model.rst:12 93cfcb343184474ba6a5d82f7d1512ec
+#: ../userguides/construction_model.rst:12 753dd586e0254312a5f9dfbd43db7c31
+msgid "How it works"
+msgstr ""
+
+#: ../userguides/construction_model.rst:14 74b576ed814c4021a3893ae875093ab9
+msgid ""
+"The model outlines areas with active construction: construction sites, "
+"partially built structures and buildings under construction. It returns "
+"construction site polygons that you can download as GeoJSON. It works "
+"best on 0.6–0.3 m satellite imagery (zoom 18) of fast-developing areas."
+msgstr ""
+
+#: ../userguides/construction_model.rst:19 0654b9e8a88d4dc2be02163b70c63075
+msgid ""
+"Use it to monitor urban development, track construction activity, oversee"
+" infrastructure projects and analyse real estate development. Coverage is"
+" limited to selected countries, so test the model on a small area before "
+"you run it at scale."
+msgstr ""
+
+#: ../userguides/construction_model.rst:24 c579a9af539b4ded8662fe0c644576f6
 msgid "Sample results"
 msgstr ""
 
-#: ../userguides/construction_model.rst 9e3ac611871447d695db8306d2bbe6d2
+#: ../userguides/construction_model.rst 984d57d812af43f986df97872d32c754
 msgid "Construction sites detected in a fast-developing area"
 msgstr ""
 
-#: ../userguides/construction_model.rst:20 59cdc8c219194129bfb2552d2cf85443
+#: ../userguides/construction_model.rst:32 f9a1c355f4944bc2a31c5047e39269f7
 msgid "A rapidly developing area with construction sites"
 msgstr ""
 
-#: ../userguides/construction_model.rst:23 1d4f1d21bd5b43f4aec8b457ee4ff70f
+#: ../userguides/construction_model.rst:35 2032c47d3781429bbc8a5a1229fd0c8b
 msgid "Need a different object?"
 msgstr ""
 
-#: ../userguides/construction_model.rst:23 29dd1caedad64cf28e38ba2b9bce480a
+#: ../userguides/construction_model.rst:35 9aad72c3d5ef4bcb9021029127febd06
 msgid ""
 "We train custom models on your imagery and classes, and connect them to "
 "your Mapflow account."
 msgstr ""
 
-#: ../userguides/construction_model.rst:23 207022d450ab416b83cde0f04c7211c2
+#: ../userguides/construction_model.rst:35 d6e3c1a6369c4e3ebb06e6ca4268f943
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/construction_model.rst:23 1078c1d566e04b83a3e639f3bd42307d
+#: ../userguides/construction_model.rst:35 d50c5ac86e954f7c929a97ffec004223
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
-#: ../userguides/construction_model.rst:23 bccf67ff42f544b3ac27907fe275b7c9
+#: ../userguides/construction_model.rst:35 6e8ad1a3cd6342638c472fb28bbffe6e
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""
 
@@ -196,5 +222,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Detect construction sites and buildings "
+#~ "under construction in satellite imagery. "
+#~ "Available as a custom Mapflow model "
+#~ "on request."
 #~ msgstr ""
 

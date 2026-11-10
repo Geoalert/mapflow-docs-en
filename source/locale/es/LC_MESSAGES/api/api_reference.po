@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../api/api_reference.rst:4 4cffff63494e4307b9f375fa77882568
@@ -163,7 +163,7 @@ msgstr "``descripción``"
 #: bafa2c526d8147c08b7ca7ee513199de ca566965c016499ab4a0dcae2c4402ff
 #: cf6a8319ed6744d1ab396bb2166e787f
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../api/api_reference.rst:32 9dcf1e52c07c4c71be793e0a150ba906
 msgid "Project description"
@@ -230,9 +230,9 @@ msgid ""
 "``inferenceParams``. v1 uses a flat ``params`` map and is maintained for "
 "backward compatibility."
 msgstr ""
-"**Se recomienda la API v2.** Utiliza ``sourceParams`` e ``inferenceParams`` "
-"estructurados. v1 utiliza un mapa ``params`` plano y se mantiene para "
-"compatibilidad con versiones anteriores."
+"**Se recomienda la API v2.** Utiliza ``sourceParams`` e "
+"``inferenceParams`` estructurados. v1 utiliza un mapa ``params`` plano y "
+"se mantiene para compatibilidad con versiones anteriores."
 
 #: ../api/api_reference.rst:100 1f2abd4f340b4d96924dbab68733bfd7
 msgid "Create processing (v2)"
@@ -272,7 +272,7 @@ msgstr "``geometría``"
 #: ../api/api_reference.rst:127 ../api/api_reference.rst:305
 #: de494c7841db4105b15753b04a59a89f e8ea77b882544e339beb92f34a560b39
 msgid "GeoJSON"
-msgstr ""
+msgstr "GeoJSON"
 
 #: ../api/api_reference.rst:129 f4750708e24c46d4ad49c8124f9a2025
 msgid "Area of interest (Polygon or MultiPolygon)"
@@ -280,7 +280,7 @@ msgstr "Área de interés (polígono o multipolígono)"
 
 #: ../api/api_reference.rst:130 2f099d3fae9e4523b6643b60315a3382
 msgid "``params.sourceParams``"
-msgstr ""
+msgstr "``params.sourceParams``"
 
 #: ../api/api_reference.rst:131 ../api/api_reference.rst:135
 #: ../api/api_reference.rst:147 ../api/api_reference.rst:313
@@ -317,8 +317,7 @@ msgstr "formación"
 
 #: ../api/api_reference.rst:141 2e3dc9b6d8de40889517bb963fa59599
 msgid "Enable/disable workflow steps (see :ref:`workflow-blocks`)"
-msgstr ""
-"Activar/desactivar pasos del flujo de trabajo (ver :ref:`workflow-blocks`)"
+msgstr "Activar/desactivar pasos del flujo de trabajo (ver :ref:`workflow-blocks`)"
 
 #: ../api/api_reference.rst:145 6d58111c25bc41bfb7f535312a5b768b
 msgid "Processing description"
@@ -326,7 +325,7 @@ msgstr "Descripción del procesamiento"
 
 #: ../api/api_reference.rst:146 6679e7c84c254069aee0ead29eeb0884
 msgid "``meta``"
-msgstr ""
+msgstr "``meta``"
 
 #: ../api/api_reference.rst:149 c3be1aa82e3144fba5ebc9a25a108ff6
 msgid "Custom metadata"
@@ -362,8 +361,8 @@ msgstr "Procesamiento de UUID (parámetro de ruta)"
 
 #: ../api/api_reference.rst:246 3e09ea15426947fab93a9f53666ca9b4
 msgid ""
-"**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, ``OK``, "
-"``FAILED``, ``CANCELLED``"
+"**Status values:** ``UNPROCESSED``, ``IN_PROGRESS``, ``AWAITING``, "
+"``OK``, ``FAILED``, ``CANCELLED``"
 msgstr ""
 "**Valores de estado:** ``NO PROCESADO``, ``EN_PROGRESS``, ``EN ESPERA``, "
 "``OK``, ``FAILED``, ``CANCELADO``"
@@ -406,7 +405,7 @@ msgstr "Estima el costo de procesamiento antes de ejecutarlo."
 
 #: ../api/api_reference.rst:300 d10c25c33ddc47c4a75037ee39805efa
 msgid "``wdId``"
-msgstr ""
+msgstr "``wdId``"
 
 #: ../api/api_reference.rst:303 29a5cad0d1f9483fb0be8cac91abf1eb
 msgid "Workflow definition ID"
@@ -415,7 +414,7 @@ msgstr "ID de definición de flujo de trabajo"
 #: ../api/api_reference.rst:306 ../api/api_reference.rst:310
 #: 4e560b7fc4e14c7da31d5a7066c5f1ae 559dc8b439d04e95a4b2f9fe4374ec5b
 msgid "No*"
-msgstr ""
+msgstr "No*"
 
 #: ../api/api_reference.rst:307 a46bebf1db084a64a514e37e36d967ac
 msgid "Area of interest"
@@ -486,8 +485,7 @@ msgstr "**OBTENER** ``/procesamientos/{processingId}/result?aoiId={aoiId}``"
 
 #: ../api/api_reference.rst:370 7d15aae61f3242efa448aae21f5b6d7b
 msgid "Downloads processing results as GeoJSON by specific AOI."
-msgstr ""
-"Descarga los resultados del procesamiento como GeoJSON por AOI específica."
+msgstr "Descarga los resultados del procesamiento como GeoJSON por AOI específica."
 
 #: ../api/api_reference.rst:374 d0a8445ea8144a3f987a74239ca742ec
 msgid "``aoiId`` (required) - AOI ID used to filter results"
@@ -544,8 +542,8 @@ msgstr "**OBTENER** ``/usuario/estado``"
 #: ../api/api_reference.rst:421 aa5655dc019e41ef88c2fd5592690b44
 msgid "Returns account details, available models, and workflow definitions."
 msgstr ""
-"Devuelve detalles de la cuenta, modelos disponibles y definiciones de flujo "
-"de trabajo."
+"Devuelve detalles de la cuenta, modelos disponibles y definiciones de "
+"flujo de trabajo."
 
 #: ../api/api_reference.rst:445 f81af93c7d8c4a4c93487784e7283496
 msgid "Processing history"
@@ -614,8 +612,8 @@ msgid ""
 "The ``sourceParams`` object specifies where to get imagery. Choose one "
 "option:"
 msgstr ""
-"El objeto ``sourceParams`` especifica dónde obtener las imágenes. Elija una "
-"opción:"
+"El objeto ``sourceParams`` especifica dónde obtener las imágenes. Elija "
+"una opción:"
 
 #: ../api/api_reference.rst:498 1290281072c843569fcce0c0cae9985f
 msgid "Default Data Provider"
@@ -685,7 +683,7 @@ msgstr "``tipo de fuente``"
 
 #: ../api/api_reference.rst:603 888560c8bb5f4351aea74211ee3bed1b
 msgid "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
-msgstr ""
+msgstr "``XYZ``, ``TMS``, ``QUADKEY``, ``SENTINEL_L2A``, ``LOCAL``"
 
 #: ../api/api_reference.rst:604 ../api/api_reference.rst:836
 #: 602c8f8d9dbb49489052855b91f1a3fd
@@ -702,7 +700,7 @@ msgstr "Nivel de zoom"
 
 #: ../api/api_reference.rst:610 7eb4233fd6b24b18a539ee8e3d9a6781
 msgid "``crs``"
-msgstr ""
+msgstr "``crs``"
 
 #: ../api/api_reference.rst:612 f890183f304c41f49fd43611e28b32c1
 msgid "Coordinate reference system (e.g., ``EPSG:3857``)"
@@ -710,7 +708,7 @@ msgstr "Sistema de referencia de coordenadas (por ejemplo, ``EPSG:3857``)"
 
 #: ../api/api_reference.rst:613 f43b4f8c73aa44a98b18e1a666c2b85d
 msgid "``rasterLogin``"
-msgstr ""
+msgstr "``rasterLogin``"
 
 #: ../api/api_reference.rst:615 58a0afe923514a26aa09024f8c4a1fb6
 msgid "Optional authentication username"
@@ -753,10 +751,10 @@ msgid ""
 "images covering an area or batching large orthomaps for optimized cloud "
 "storage."
 msgstr ""
-"Un **mosaico** es una colección de imágenes georreferenciadas organizadas "
-"para su procesamiento y vista previa. Los mosaicos ayudan cuando se trabaja "
-"con múltiples imágenes aéreas que cubren un área o se agrupan ortomapas "
-"grandes para un almacenamiento optimizado en la nube."
+"Un **mosaico** es una colección de imágenes georreferenciadas organizadas"
+" para su procesamiento y vista previa. Los mosaicos ayudan cuando se "
+"trabaja con múltiples imágenes aéreas que cubren un área o se agrupan "
+"ortomapas grandes para un almacenamiento optimizado en la nube."
 
 #: ../api/api_reference.rst:653 78d10b8dfde943b4b65caf957923db7c
 msgid "Create Mosaic"
@@ -803,7 +801,7 @@ msgstr "Obtener mosaico"
 
 #: ../api/api_reference.rst:705 21559d8071004dc798e10b17ba3e1ca0
 msgid "``GET /rasters/mosaic/{mosaic_id}``"
-msgstr ""
+msgstr "``GET /rasters/mosaic/{mosaic_id}``"
 
 #: ../api/api_reference.rst:707 581dfa2fc9264542a991dd67e39a7248
 msgid "Retrieves mosaic metadata by ID."
@@ -815,7 +813,7 @@ msgstr "Actualizar mosaico"
 
 #: ../api/api_reference.rst:725 eeea29100bd24bba9c3e6c169ec919e6
 msgid "``PUT /rasters/mosaic/{mosaic_id}``"
-msgstr ""
+msgstr "``PUT /rasters/mosaic/{mosaic_id}``"
 
 #: ../api/api_reference.rst:727 a7eeb5de9e9f4699a714e5cb8b89d430
 msgid "Updates mosaic name and tags."
@@ -875,8 +873,7 @@ msgstr "Crear mosaico y cargar imagen"
 
 #: ../api/api_reference.rst:805 f399fdab7e804cdca3a81e91066653a1
 msgid "``POST /rasters/mosaic/image?name={name}&tags={tag1}&tags={tag2}``"
-msgstr ""
-"``POST /rásteres/mosaico/imagen?nombre={nombre}&tags={tag1}&tags={tag2}``"
+msgstr "``POST /rásteres/mosaico/imagen?nombre={nombre}&tags={tag1}&tags={tag2}``"
 
 #: ../api/api_reference.rst:807 39796dd29e8a4b5fae454f4ce3d70778
 msgid "Creates a mosaic and uploads an image in a single request."
@@ -904,7 +901,7 @@ msgstr "Obtener imágenes en mosaico"
 
 #: ../api/api_reference.rst:865 e811203c96174d22b5a1578887aabb5e
 msgid "``GET /rasters/mosaic/{mosaic_id}/image``"
-msgstr ""
+msgstr "``GET /rasters/mosaic/{mosaic_id}/image``"
 
 #: ../api/api_reference.rst:867 4166403614f24bf282064bc1745cc93b
 msgid "Lists all images in a mosaic with metadata."
@@ -927,8 +924,8 @@ msgid ""
 "This action is **irreversible**. All images linked to the mosaic will be "
 "permanently deleted."
 msgstr ""
-"Esta acción es **irreversible**. Todas las imágenes vinculadas al mosaico se"
-" eliminarán permanentemente."
+"Esta acción es **irreversible**. Todas las imágenes vinculadas al mosaico"
+" se eliminarán permanentemente."
 
 #: ../api/api_reference.rst:912 03f1fad01d2e45f8bd98abf17e8704b2
 msgid "Images"
@@ -944,7 +941,7 @@ msgstr "Obtener metadatos de imagen"
 
 #: ../api/api_reference.rst:920 37e59661841b406891b99eb814a8fc9a
 msgid "``GET /rasters/image/{image_id}``"
-msgstr ""
+msgstr "``GET /rasters/image/{image_id}``"
 
 #: ../api/api_reference.rst:922 c7f2f0afa46e4f71afbce8359f027212
 msgid "Retrieves detailed metadata for a specific image."
@@ -980,7 +977,7 @@ msgstr "Obtener vista previa de la imagen"
 
 #: ../api/api_reference.rst:979 a192a46be7da4eb4825684afcbc3e1a6
 msgid "``GET /rasters/image/{image_id}/preview/{size}``"
-msgstr ""
+msgstr "``GET /rasters/image/{image_id}/preview/{size}``"
 
 #: ../api/api_reference.rst:981 b877e4d87aeb434c821f680cc9a61806
 msgid "Retrieves a preview thumbnail of the image."
@@ -997,7 +994,7 @@ msgstr "Tamaño"
 #: ../api/api_reference.rst:991 ../api/api_reference.rst:1266
 #: 41f1c6bafc6c448e9c2f2fa87cd29afd
 msgid "``s``"
-msgstr ""
+msgstr "``s``"
 
 #: ../api/api_reference.rst:992 ecba6e0ee96f455d8b5654ead77a60fd
 msgid "Small preview (256×256 pixels)"
@@ -1006,7 +1003,7 @@ msgstr "Vista previa pequeña (256×256 píxeles)"
 #: ../api/api_reference.rst:993 ../api/api_reference.rst:1268
 #: 0dd9a413ed6c476587ac2145c4abd51b
 msgid "``l``"
-msgstr ""
+msgstr "``l``"
 
 #: ../api/api_reference.rst:994 8066ee9784074897894a0893b4550e2e
 msgid "Large preview (1024×1024 pixels)"
@@ -1042,14 +1039,14 @@ msgstr "Catálogo de imágenes"
 
 #: ../api/api_reference.rst:1053 73f9a9d1282f431f80077b14b9967f91
 msgid ""
-"The Imagery Search API connects you to external satellite imagery providers."
-" Search results depend on providers linked to your account. Contact support "
-"to add provider access."
+"The Imagery Search API connects you to external satellite imagery "
+"providers. Search results depend on providers linked to your account. "
+"Contact support to add provider access."
 msgstr ""
 "La API de búsqueda de imágenes lo conecta con proveedores externos de "
 "imágenes satelitales. Los resultados de la búsqueda dependen de los "
-"proveedores vinculados a su cuenta. Póngase en contacto con el soporte para "
-"agregar acceso de proveedor."
+"proveedores vinculados a su cuenta. Póngase en contacto con el soporte "
+"para agregar acceso de proveedor."
 
 #: ../api/api_reference.rst:1057 5ad2ffce56ed47c1976a5147e59cbd8f
 msgid "Search Available Imagery"
@@ -1069,7 +1066,7 @@ msgstr ""
 
 #: ../api/api_reference.rst:1073 3a794a8dd11a4d59b997ea8a465309b7
 msgid "``aoi``"
-msgstr ""
+msgstr "``aoi``"
 
 #: ../api/api_reference.rst:1076 e35233f945b640c6939e47d282f381ed
 msgid "GeoJSON Polygon or MultiPolygon"
@@ -1113,7 +1110,7 @@ msgstr "Resolución máxima (metros/píxel)"
 
 #: ../api/api_reference.rst:1093 43d027c6089d4ad09149214b4099452c
 msgid "``maxCloudCover``"
-msgstr ""
+msgstr "``maxCloudCover``"
 
 #: ../api/api_reference.rst:1096 8a93f7fe6e614299854310b011083de4
 msgid "Maximum cloud cover (0.0-100)"
@@ -1121,7 +1118,7 @@ msgstr "Nubosidad máxima (0,0-100)"
 
 #: ../api/api_reference.rst:1097 bafac1f11c484d5ab2907ca058836412
 msgid "``minOffNadirAngle``"
-msgstr ""
+msgstr "``minOffNadirAngle``"
 
 #: ../api/api_reference.rst:1100 775dbd68724344e596b014b7a6f53d66
 msgid "Minimum off-nadir angle (degrees)"
@@ -1129,7 +1126,7 @@ msgstr "Ángulo mínimo con respecto al nadir (grados)"
 
 #: ../api/api_reference.rst:1101 f92c9a67ffa64da6bf880b51d9259cfe
 msgid "``maxOffNadirAngle``"
-msgstr ""
+msgstr "``maxOffNadirAngle``"
 
 #: ../api/api_reference.rst:1104 6e0154eafce64bae84bf155bc655622a
 msgid "Maximum off-nadir angle (degrees)"
@@ -1206,7 +1203,8 @@ msgstr "Filtrar por tipos de producto ``[\"IMAGEN\" y/o \"MOSAICO\"]``"
 #: ../api/api_reference.rst:1139 02f11e6e0303404fac65178fb28f97c7
 msgid "Search area size is limited by your account's AOI limit."
 msgstr ""
-"El tamaño del área de búsqueda está limitado por el límite AOI de su cuenta."
+"El tamaño del área de búsqueda está limitado por el límite AOI de su "
+"cuenta."
 
 #: ../api/api_reference.rst:1164 f71629358f5a48149d32b5e2fec527c0
 msgid "**Response – Scene Product**"
@@ -1229,15 +1227,16 @@ msgid ""
 "To run processing with imagery from search results, use the "
 "``imagerySearch`` source parameter:"
 msgstr ""
-"Para ejecutar el procesamiento con imágenes de los resultados de búsqueda, "
-"utilice el parámetro fuente ``imagerySearch``:"
+"Para ejecutar el procesamiento con imágenes de los resultados de "
+"búsqueda, utilice el parámetro fuente ``imagerySearch``:"
 
 #: ../api/api_reference.rst:1239 b835d904fc9a4244a2e564783bad59e7
 msgid ""
-"See :doc:`Processing API <processing_api>` for complete processing workflow."
+"See :doc:`Processing API <processing_api>` for complete processing "
+"workflow."
 msgstr ""
-"Consulte :doc:`API de procesamiento <processing_api>` para conocer el flujo "
-"de trabajo de procesamiento completo."
+"Consulte :doc:`API de procesamiento <processing_api>` para conocer el "
+"flujo de trabajo de procesamiento completo."
 
 #: ../api/api_reference.rst:1243 ccf9bce2ab1a4c29862789dfa59d86f4
 msgid "Product Types"
@@ -1249,11 +1248,12 @@ msgstr "**Escena**"
 
 #: ../api/api_reference.rst:1252 83548557d94a4e80ad68c3dd6dadda8c
 msgid ""
-"Single satellite capture. Available for ordering by request. Contact support"
-" to order specific scenes."
+"Single satellite capture. Available for ordering by request. Contact "
+"support to order specific scenes."
 msgstr ""
-"Captura de un solo satélite. Disponible para realizar pedidos bajo petición."
-" Póngase en contacto con el soporte para solicitar escenas específicas."
+"Captura de un solo satélite. Disponible para realizar pedidos bajo "
+"petición. Póngase en contacto con el soporte para solicitar escenas "
+"específicas."
 
 #: ../api/api_reference.rst:1253 8997dcab897c402aa651a664fd4c33ac
 msgid "**Mosaic**"
@@ -1261,11 +1261,11 @@ msgstr "**Mosaico**"
 
 #: ../api/api_reference.rst:1254 1af101de8c9e4085ae7bb944d37c2041
 msgid ""
-"Pre-processed imagery mosaic. Available for instant processing if provider "
-"is linked to your account."
+"Pre-processed imagery mosaic. Available for instant processing if "
+"provider is linked to your account."
 msgstr ""
-"Mosaico de imágenes preprocesadas. Disponible para procesamiento instantáneo"
-" si el proveedor está vinculado a su cuenta."
+"Mosaico de imágenes preprocesadas. Disponible para procesamiento "
+"instantáneo si el proveedor está vinculado a su cuenta."
 
 #: ../api/api_reference.rst:1258 4d2eba86495f4fdd93cff947764c2393
 msgid "Preview Sizes"
@@ -1294,15 +1294,14 @@ msgstr "Bloques de flujo de trabajo"
 #: ../api/api_reference.rst:1277 359f676785c84a81b37b3c6f36065af6
 msgid "Customize processing by enabling/disabling optional workflow steps."
 msgstr ""
-"Personalice el procesamiento habilitando/deshabilitando pasos de flujo de "
-"trabajo opcionales."
+"Personalice el procesamiento habilitando/deshabilitando pasos de flujo de"
+" trabajo opcionales."
 
 #: ../api/api_reference.rst:1288 98a03e829b8f4923984af40fe2c2ccd2
-msgid ""
-"Available blocks vary by model. Retrieve options via ``GET /user/status``."
+msgid "Available blocks vary by model. Retrieve options via ``GET /user/status``."
 msgstr ""
-"Los bloques disponibles varían según el modelo. Recupera opciones a través "
-"de ``GET /user/status``."
+"Los bloques disponibles varían según el modelo. Recupera opciones a "
+"través de ``GET /user/status``."
 
 #: ../api/api_reference.rst:1294 21bc210f6fca4e7d88dd0d42f61c84af
 msgid "AI Models"
@@ -1318,7 +1317,7 @@ msgstr "Resolución"
 
 #: ../api/api_reference.rst:1303 e8beed2b3f734a458ed55f69d70af1ad
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: ../api/api_reference.rst:1304 a91dfbef711d421aa867ec9b49f955f8
 msgid "Optional Blocks"
@@ -1342,7 +1341,7 @@ msgstr "0,5 m/px"
 #: ../api/api_reference.rst:1323 ../api/api_reference.rst:1328
 #: 08e2b0261c12494bb3c9a46ac46c6dd0
 msgid "17-18"
-msgstr ""
+msgstr "17-18"
 
 #: ../api/api_reference.rst:1309 5917e9aa12484e16b882ca375e562dda
 msgid "Simplification, Classification, OSM"
@@ -1362,7 +1361,7 @@ msgstr "0,1 m/px"
 
 #: ../api/api_reference.rst:1313 6a033781dcee41428c6b5747d7ea852c
 msgid "19-20"
-msgstr ""
+msgstr "19-20"
 
 #: ../api/api_reference.rst:1314 f920664889454610b8e9a3faff341fea
 msgid "Simplification"
@@ -1391,7 +1390,7 @@ msgstr "Extracción de red vial"
 #: ../api/api_reference.rst:1324 ../api/api_reference.rst:1329
 #: 6862c1bd02f842d8a4f5d11cab0a920f
 msgid "—"
-msgstr ""
+msgstr "—"
 
 #: ../api/api_reference.rst:1325 a7cb79a520a04192ba320f7fce6a610c
 msgid "🏗️ Construction"
@@ -1516,8 +1515,8 @@ msgid ""
 "For detailed error codes and troubleshooting, see :doc:`Error Messages "
 "<error_messages>`."
 msgstr ""
-"Para obtener códigos de error detallados y solución de problemas, consulte "
-":doc:`Mensajes de error <error_messages>`."
+"Para obtener códigos de error detallados y solución de problemas, "
+"consulte :doc:`Mensajes de error <error_messages>`."
 
 #: ../api/api_reference.rst:1383 fe664d72783e436fa6e90de93b328a5b
 msgid "Common errors:"
@@ -1525,16 +1524,15 @@ msgstr "Errores comunes:"
 
 #: ../api/api_reference.rst:1385 e135c0097f5d4b8980545c473ca59452
 msgid ""
-"``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max 1.2 "
-"m/px)"
+"``source-validator.PixelSizeTooHigh`` — Imagery resolution too low (max "
+"1.2 m/px)"
 msgstr ""
 "``source-validator.PixelSizeTooHigh`` — Resolución de imágenes demasiado "
 "baja (máx. 1,2 m/px)"
 
 #: ../api/api_reference.rst:1386 15f3d1ea0e424566a97a9a6398b9bcde
 msgid "``source-validator.NoDataInAOI`` — No imagery available for AOI"
-msgstr ""
-"``source-validator.NoDataInAOI`` — No hay imágenes disponibles para AOI"
+msgstr "``source-validator.NoDataInAOI`` — No hay imágenes disponibles para AOI"
 
 #: ../api/api_reference.rst:1387 66ba7491a3974732b5c22ab16bea744a
 msgid "``geometry.Invalid`` — Invalid GeoJSON geometry"
@@ -1549,16 +1547,16 @@ msgid ""
 "**Check cost before running** — Use ``/processing/cost/v2`` to estimate "
 "credits"
 msgstr ""
-"**Verifique el costo antes de ejecutar**: use ``/processing/cost/v2`` para "
-"estimar los créditos."
+"**Verifique el costo antes de ejecutar**: use ``/processing/cost/v2`` "
+"para estimar los créditos."
 
 #: ../api/api_reference.rst:1396 f24374cbd7ba436c8906074ca949a237
 msgid ""
 "**Poll status efficiently** — Check status every 30-60 seconds for "
 "``IN_PROGRESS`` processings"
 msgstr ""
-"**Estado de encuesta de manera eficiente**: verifique el estado cada 30 a 60"
-" segundos para los procesamientos ``IN_PROGRESS``"
+"**Estado de encuesta de manera eficiente**: verifique el estado cada 30 a"
+" 60 segundos para los procesamientos ``IN_PROGRESS``"
 
 #: ../api/api_reference.rst:1397 7866faebe9714de195e2198e87e05b50
 msgid ""
@@ -1581,8 +1579,8 @@ msgid ""
 "**Validate geometry** — Ensure GeoJSON is valid and not too large (< 100 "
 "km²)"
 msgstr ""
-"**Validar geometría**: asegúrese de que GeoJSON sea válido y no demasiado "
-"grande (< 100 km²)"
+"**Validar geometría**: asegúrese de que GeoJSON sea válido y no demasiado"
+" grande (< 100 km²)"
 
 #: ../api/api_reference.rst:1400 21dc383f4ed444c58b26cedb3c220bf7
 msgid "**Organize with projects** — Group related processings in projects"
@@ -1631,3 +1629,4 @@ msgstr "Documentación: https://docs.mapflow.ai"
 #: ../api/api_reference.rst:1418 ada6868acae140a78ada5af9226b42fe
 msgid "Web app: https://app.mapflow.ai"
 msgstr "Aplicación web: https://app.mapflow.ai"
+

@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 15:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:9
+#: d676d4951ada499c9df6e728cb8c9696
+msgid "🌲 Canopy Height Model (CHM) — per-location benchmark (v.2026-08-31)"
+msgstr ""
+"🌲 Modelo de altura del dosel (CHM): punto de referencia por ubicación "
+"(v.2026-08-31)"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:11
+#: 31bcd8661e164151b48840e38ff5424f
+msgid ""
+"This page details the **Canopy Height Model (CHM)** produced by the 🌲 Forest"
+" and trees **Height estimation** option. **CHM v.2026-08-31** is compared "
+"against **CHM v.2026-07-03** on the most-improved sample per country, using "
+"lidar-derived ground truth aggregated to 5 m hexagons (max height)."
+msgstr ""
+"Esta página detalla el **modelo de altura del dosel (CHM)** que produce la "
+"opción **Estimación de altura** de 🌲 Bosques y árboles. Se compara **CHM "
+"v.2026-08-31** con **CHM v.2026-07-03** en la muestra con mayor mejora por "
+"país, utilizando verdad de campo derivada de lidar agregada en hexágonos de "
+"5 m (altura máxima)."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:15
+#: ec5f90791f034880b9f9f3fb3cef1acf
+msgid ""
+"The metric is the **mean absolute error (MAE)** of canopy height, in metres,"
+" against the lidar ground truth. Across 38 areas of interest, CHM "
+"v.2026-08-31 lowers the mean MAE from **4.70 m to 3.24 m (−31%)** versus CHM"
+" v.2026-07-03, with the largest gains in tall, structurally complex forest."
+msgstr ""
+"La métrica es el **error absoluto medio (MAE)** de la altura del dosel, en "
+"metros, frente a la verdad de campo lidar. En 38 áreas de interés, CHM "
+"v.2026-08-31 reduce el MAE medio de **4,70 m a 3,24 m (−31 %)** respecto a "
+"CHM v.2026-07-03, con las mayores mejoras en bosques altos y "
+"estructuralmente complejos."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:70
+#: b95940c1b7ff4e638d00c9a49fdc8841
+msgid "🇷🇺 Russia — RU_4"
+msgstr "🇷🇺 Rusia — RU_4"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:76
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:104
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:132
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:160
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:188
+#: 11d812010f1e486ab62331dad1d75b4b 30c9dd8b48b24e1492ee33961feb44dc
+#: 6d20dfff99714c1a8a988d723ede9210 75bc6be7c6ca4423a9897ab478518abb
+#: ac25bff856a2474082e2fbc21f15808c
+msgid "Model"
+msgstr "Modelo"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:77
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:105
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:133
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:161
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:189
+#: 576bc8d208bf4b1dae8fd3567e5c13a7 8944982b3b6c43a99567e6d98df76d1f
+#: 9cc300b339184fe0bb404217b0f262e7 b9f3ac0d605346c1ba4e5cbfab2fdba1
+#: cd360bbf14b84d978f0e04d7d0f274f4
+msgid "MAE (m) ↓"
+msgstr "MAE (m) ↓"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:78
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:106
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:134
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:162
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:190
+#: 60b317d8fc6e4ebfad532d5a84823c48 63d497392fe44cb4b6d3e61375634da5
+#: 8b7a34f8e2a24109a2f882760be270f7 c15160a629694ee1a62836f6bde9284e
+#: dfd2282e69294cf08da06c46c7b0ed8b
+msgid "vs lidar GT"
+msgstr "vs verdad de campo lidar"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:79
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:107
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:135
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:163
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:191
+#: 0c0fec3108bc416d9c8516261ddd795a 5588905081fb4d58bddcf0f9fcfe00b1
+#: 64555f2633704b7b918e218984c3511a 6e4f0c06f83f4c71b773f0d92c4967a5
+#: d2aac4e119b14c8c8dd9dbbf248b2c20
+msgid "**CHM v.2026-08-31**"
+msgstr "**CHM v.2026-08-31**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:80
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:224
+#: 578a50b2f4b54e459279a2d925d24d3e 94d721ed58b840f88d6809b4f94d7f98
+msgid "**2.73**"
+msgstr "**2,73**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:81
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:109
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:137
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:165
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:193
+#: 044d7368c21f4165a497e6a6f42f43e8 6b8d08f9622e4a8097dad1d827ed7204
+#: 6c4cb6507725486283e6d9303b8f8cf2 bb34d1702b654562b054ffedb0c842ad
+#: dc3c7dbb76d544c2bc899a033efe3258
+msgid "best"
+msgstr "mejor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:82
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:110
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:138
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:166
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:194
+#: 0dc18d344ce4431689b1728942a0c022 4dda5d3941ee46cf9f1427a0c8866a27
+#: 652e411caeaf455baf2b0ca6129ac513 9b2602bcdd63412bbcd7b21e90d4db37
+#: eefe0769e47d43a2a5b5912ec8f18995
+msgid "CHM v.2026-07-03"
+msgstr "CHM v.2026-07-03"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:83
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:223
+#: 4095aa62b6194d0989f4d780cb6d3c7c 723a2619d075401ba0ef8e6104d3bd52
+msgid "8.06"
+msgstr "8,06"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:84
+#: 12f70726e3814884a3ed560ede0c4210
+msgid "−5.33 m worse"
+msgstr "−5,33 m peor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:94
+#: 0ea519a3b11042d5a75ee2221517dc3f
+msgid ""
+"*20,980 ground-truth hexagons. Mean absolute height error reduced by 5.33 m "
+"(−66%).*"
+msgstr ""
+"*20 980 hexágonos de verdad de campo. El error absoluto medio de altura se "
+"redujo en 5,33 m (−66 %).*"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:98
+#: 4ea4f8274ae94221aed1f5d0845f2090
+msgid "🇨🇭 Switzerland — SWISS_3"
+msgstr "🇨🇭 Suiza — SWISS_3"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:108
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:229
+#: aa65b124d113488d80e9c27fe9fba260 e0c64bfc7f254e7caae5c8de15e79e11
+msgid "**3.36**"
+msgstr "**3,36**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:111
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:228
+#: 5486341d25494cb59d2219524db96b62 be89e726b2fd4666b221e6d72e8f09e9
+msgid "7.78"
+msgstr "7,78"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:112
+#: 766746226d83420583d0eacca8e4cc6d
+msgid "−4.42 m worse"
+msgstr "−4,42 m peor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:122
+#: 1c011a120a7249cbad4f9c1bc9acfd3c
+msgid ""
+"*1,740 ground-truth hexagons. Mean absolute height error reduced by 4.42 m "
+"(−57%).*"
+msgstr ""
+"*1 740 hexágonos de verdad de campo. El error absoluto medio de altura se "
+"redujo en 4,42 m (−57 %).*"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:126
+#: adf24e7e346a41aa8b3e99fcd2abd853
+msgid "🇪🇪 Estonia — EST_473628"
+msgstr "🇪🇪 Estonia — EST_473628"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:136
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:234
+#: 47cc2b8cdb3c4b82a0b753068d7bbe07 a8176afdaf644985a95cbce4834703ec
+msgid "**2.75**"
+msgstr "**2,75**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:139
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:233
+#: 1f1c08bda9ef4cd89cc2e43df8dc8b9c 75c1c8f97da84c60a2ecdee34c5056eb
+msgid "5.42"
+msgstr "5,42"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:140
+#: ec59ac49b56541b49aa2dcf7838694b5
+msgid "−2.67 m worse"
+msgstr "−2,67 m peor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:150
+#: 15014387aa16412b9f0326837a6e8af7
+msgid ""
+"*44,641 ground-truth hexagons. Mean absolute height error reduced by 2.67 m "
+"(−49%).*"
+msgstr ""
+"*44 641 hexágonos de verdad de campo. El error absoluto medio de altura se "
+"redujo en 2,67 m (−49 %).*"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:154
+#: 511157cb2ba04bc584de7ccdeb69973e
+msgid "🇲🇽 Mexico — MEX_4"
+msgstr "🇲🇽 México — MEX_4"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:164
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:239
+#: f67e3547851d40c6adce9fa930dc9ae4 fefb6f6d5f40483a9c6aec08b38119a7
+msgid "**1.69**"
+msgstr "**1,69**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:167
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:238
+#: 656db488b5754b7bab5029d15a7398c3 93773f5e836247de8aec45f646b5acef
+msgid "2.93"
+msgstr "2,93"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:168
+#: 90a0cf2be7b44050a757baa0a1ca98f2
+msgid "−1.24 m worse"
+msgstr "−1,24 m peor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:178
+#: f2c77aae3c434f7ab8d7e983f20abcb7
+msgid ""
+"*18,248 ground-truth hexagons. Mean absolute height error reduced by 1.24 m "
+"(−42%).*"
+msgstr ""
+"*18 248 hexágonos de verdad de campo. El error absoluto medio de altura se "
+"redujo en 1,24 m (−42 %).*"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:182
+#: 71236c0d453442908819261510df593a
+msgid "🇩🇰 Denmark — DEN_5"
+msgstr "🇩🇰 Dinamarca — DEN_5"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:192
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:244
+#: 2a6e07eb06b447a8864911587b7efb8c ea8f23b9e0764f37b92bf5645b55e518
+msgid "**2.20**"
+msgstr "**2,20**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:195
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:243
+#: d16a5ba8cc0a476d8724069de8f3b16e d91d5f41cb0d41aa8af70da246d86cf1
+msgid "2.67"
+msgstr "2,67"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:196
+#: c662f2a34d3d465396592d707527bd6c
+msgid "−0.47 m worse"
+msgstr "−0,47 m peor"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:206
+#: 201c8754df7e4740a82a2c35dfb518bb
+msgid ""
+"*1,289 ground-truth hexagons. Mean absolute height error reduced by 0.47 m "
+"(−18%).*"
+msgstr ""
+"*1 289 hexágonos de verdad de campo. El error absoluto medio de altura se "
+"redujo en 0,47 m (−18 %).*"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:210
+#: 0605567ee8824c78b6c14eaed4fe1ad7
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:216
+#: 7fc739ed5aa54aa39ac36a5d30a4163f
+msgid "Country"
+msgstr "País"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:217
+#: e12d8c73f2da4092b1aead129bab3f66
+msgid "Sample"
+msgstr "Muestra"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:218
+#: b448888531664933919fd58f0ce2b5c0
+msgid "CHM v.2026-07-03 MAE"
+msgstr "MAE CHM v.2026-07-03"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:219
+#: 88a570a9970147f1be620856b8f225a1
+msgid "CHM v.2026-08-31 MAE"
+msgstr "MAE CHM v.2026-08-31"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:220
+#: 11b33d096a9e41ee930af70bb45756ce
+msgid "Improvement"
+msgstr "Mejora"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:221
+#: 6d6cdcae75184d7488671692c8c85371
+msgid "🇷🇺 Russia"
+msgstr "🇷🇺 Rusia"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:222
+#: 1c4eb7151a3349afb8f4c91066eb3cea
+msgid "RU_4"
+msgstr "RU_4"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:225
+#: b4d6a53d826a4639bf9506aec00a7049
+msgid "−66%"
+msgstr "−66%"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:226
+#: 1cd0d232fc164baf9164004c5e14c6d7
+msgid "🇨🇭 Switzerland"
+msgstr "🇨🇭 Suiza"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:227
+#: 1c79b97f450a4f3f91381dbd4756b50d
+msgid "SWISS_3"
+msgstr "SWISS_3"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:230
+#: 14dbfc4d07ec49d8b54b9011dac8cff7
+msgid "−57%"
+msgstr "−57%"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:231
+#: e990702594c74374a46f8fbdd84f4529
+msgid "🇪🇪 Estonia"
+msgstr "🇪🇪 Estonia"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:232
+#: d237acc99e804f5a8afc782760e1d267
+msgid "EST_473628"
+msgstr "EST_473628"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:235
+#: 64ee10036d824f4db6744d75d088d77d
+msgid "−49%"
+msgstr "−49%"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:236
+#: ecf9b1d5070a4df2abf00cd70c726114
+msgid "🇲🇽 Mexico"
+msgstr "🇲🇽 México"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:237
+#: 5318a3be690547b291cfbea88cb6b63a
+msgid "MEX_4"
+msgstr "MEX_4"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:240
+#: ce746beb8a684c74b0ffe081942b8cb4
+msgid "−42%"
+msgstr "−42%"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:241
+#: 9a54a4afc25c4652a1dcf9321b2bedf9
+msgid "🇩🇰 Denmark"
+msgstr "🇩🇰 Dinamarca"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:242
+#: f1a4b724399c4685a8059541fc363a46
+msgid "DEN_5"
+msgstr "DEN_5"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:245
+#: e26ba3ff7f954eac8a24a644662bf396
+msgid "−18%"
+msgstr "−18%"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_chm_benchmark_2026-08-31.rst:247
+#: 4d88b5ef4fcc48feb2ac77cbf7487c3e
+msgid ""
+"*Mean absolute canopy-height error vs lidar ground truth · 5 m hexagons, max"
+" aggregation · absolute-error ramp 0–15 m. The US sample is omitted (a "
+"single, highly generalised tile).*"
+msgstr ""
+"*Error absoluto medio de la altura del dosel frente a la verdad de campo "
+"lidar · hexágonos de 5 m, agregación por máximo · rampa de error absoluto "
+"0–15 m. Se omite la muestra de EE. UU. (una única tesela muy generalizada).*"

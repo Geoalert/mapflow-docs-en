@@ -211,77 +211,7 @@ The same can be done using QGIS interface:
 
 Tell us if you have more tips to share with the community or if you have more questions – we are ready to help.
 
-**Run the flow!**
-
-
-.. How to view results using Kepler.gl
-.. -------------------------------------
-
-.. **Kepler.gl** is an open source tool designed for geospatial data analysis. It is a simple yet powerful for displaying and exploring geodatasets.
-
-.. To view the processing results in the Mapflow, select the required processing and press the button *"Open in kepler.gl"*.
-
-.. .. note ::
-..    You can share your processing view in Kepler by copying the open URL (right click on *"Open in kepler.gl"* --> Copy Link Address)
-
-.. Using the Kepler you can change the visual properties of data, set filters, and choose a background map.
-
-
-.. Layers tab
-.. ~~~~~~~~~~~~
-
-.. Click on the layer name to bring up the *Layer settings* from the drop-down menu. To hide all data, click on the *eye* icon.
-
-.. .. figure:: ../kepler/_static/view_layer_settings.webp
-..     :alt: View layer settings
-..     :align: center
-..     :width: 15cm
-
-.. |
-
-.. These settings allow you to choose a more suitable type of received data:
-
-.. * *Fill color.* You can choose any color from the palette for polygons, and also hide the display of data by changing the position of the slider. You can change the transparency of polygons (property *Opacity*) in the additional settings of this function.
-.. * *Stroke color.* You can choose any color from the palette for outlining polygons, as well as completely remove the stroke. You can change the transparency of the stroke (property *Opacity*) In the additional settings of this function.
-.. * *Stroke width.* Controls the thickness of the stroke.
-.. * *Height.* Allows you to view data with heights in 3D format. Set the desired coefficient and select the attribute of the layer with heights.
-
-.. .. figure:: ../kepler/_static/3D_buildings.webp
-..     :alt: 3D buildings
-..     :align: center
-..     :width: 15cm
-
-.. |
-
-.. Filters tab
-.. ~~~~~~~~~~~~~
-
-.. This tab allows you to add a filter of interest by a specific attribute of the layer (as in this case, the filter is set by classes with different typology of buildings).
-
-.. .. figure:: ../kepler/_static/filter_panel.webp
-..     :alt: Filter panel
-..     :align: center
-..     :width: 15cm
-
-.. |
-
-.. Interaction tab
-.. ~~~~~~~~~~~~~~~~~
-
-.. You can select or remove attributes that will be visible in the menu that appears when you hover over an object. It is also possible to turn on the panel indicating longitude and latitude.
-
-.. .. figure:: ../kepler/_static/interaction_panel.webp
-..     :alt: Interaction panel
-..     :align: center
-..     :width: 15cm
-..     :class: with-border no-scaled-link
-
-.. |
-
-.. Base map tab
-.. ~~~~~~~~~~~~~~
-
-.. Here you can choose the styles of the map, as well as choose to display its various layers.
+**Run the mapping flow!**
 
 
 How to run Mapflow on external infrastructure
@@ -291,59 +221,6 @@ How to run Mapflow on external infrastructure
     Currently, you have to contact us if you have a request to run Mapflow (as a platform or as a separate imagery analysis workflows) on external infrastructure. We run private instances on AWS to provide customers with the fully managed and secure environment, independent on the public instances load and queues.
 
 We also partner with cloud integrators to set up projects for their clients.
-
-How to run Mapflow using Geocloud
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: _static/geocloud/geocloud_logo.jpg
-    :alt: create app
-    :align: center
-    :width: 5cm
-    :class: no-scaled-link
-
-|
-
-We conduct a `PoC project with Geocloud.work <https://www.geocloud.work/software/geoalert>`_ who enable to work remotely with the licensed geospatial software.
-
-The generic workflow with Geocloud is as follows:
-
--  Create an account at Geocloud and run the app "QGIS-Mapflow". 
-
-It runs the virtual machine with minimum requirements for QGIS with a preinstalled Mapflow plugin.
-Note that you have to run consequently the Storage and the Desktop to get connected to the virtual machine with a remote desktop.
-
-- Run QGIS by clicking on the "QGIS-Mapflow" icon at the desktop workspace
-
-.. figure:: _static/geocloud/create_app.jpg
-    :alt: create app
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
-
-|
-
-- Run the plugin by clicking on the icon in the toolbar
-
-.. figure:: _static/geocloud/run_qgis.jpg
-    :alt: create app
-    :align: center
-    :width: 15cm
-    :class: with-border no-scaled-link
-
-|
-
-.. important::
-    ❗️ To enable Mapflow oAuth login use the master password for QGIS which is set to 123456
-
-.. note::
-    After you click  the "Login" button you will be redirected to the Mapflow login page in the browser. Use your existing `Mapflow.ai <https://app.mapflow.ai>`_ login and password or create a new account to start working with the plugin.
-    You can also use Basic auth (disable "Use OAuth" checkbox) with your Mapflow `Token <https://app.mapflow.ai/account/api>`_. 
-
-- You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>` in Geocloud.
-
-.. warning::
-    Note that you pay only for the up time in Geocloud. You spend your regular credits for Mapflow (you get 250 credits for free upon the registration).
-    There are two prices for Storage / Computer in Geocloud - *Stopped* and *Working*. The Stopped price is applied when Storage / Computer is stopped. The Working price is applied when it is in the working mode. 👉👉 You can stop your computer while doing some long-lasting calculations in Mapflow to spend less.
 
 
 How to check images metadata in the 🌏 Global mosaic

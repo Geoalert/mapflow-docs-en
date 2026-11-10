@@ -41,6 +41,91 @@ Sample results
       Dense, irregular street network — India
 
 
+Post-processing: road network vs. full surface area
+---------------------------------------------------
+
+By default, 🚗 **Roads** is delivered **post-processed**: the road mask is reduced to centrelines,
+cleaned (simplification, merging of gaps, removal of double, short and detached edges) and inflated
+back into tidy polygons — a connected, map-ready network for mapping and routing.
+
+A **no post-processing** variant keeps the raw segmentation mask, which covers the full **road
+surface area** — wide roads, junctions and paved surfaces included. Because it captures total road
+coverage rather than a thin connected graph, it is intended for **land-use / land-cover
+classification**, where the share of surface occupied by roads matters more than network topology.
+
+These visuals illustrate the difference on the same areas (they are not a benchmark). In each pair,
+🟧 **🚗 Roads – no post-processing** (orange, full surface area) is shown next to
+🟦 **🚗 Roads – post-processing** (blue, cleaned network).
+
+
+**India — Haldwani**
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/roads_postproc/Haldwani_nopost.jpg
+      :alt: 🚗 Roads – no post-processing — India — Haldwani
+      :class: no-scaled-link
+
+      🚗 Roads – no post-processing (full road surface area)
+
+   .. figure:: _static/processing_result/roads_postproc/Haldwani_post.jpg
+      :alt: 🚗 Roads – post-processing — India — Haldwani
+      :class: no-scaled-link
+
+      🚗 Roads – post-processing (cleaned network)
+
+
+**Germany — Berlin**
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/roads_postproc/Berlin_nopost.jpg
+      :alt: 🚗 Roads – no post-processing — Germany — Berlin
+      :class: no-scaled-link
+
+      🚗 Roads – no post-processing (full road surface area)
+
+   .. figure:: _static/processing_result/roads_postproc/Berlin_post.jpg
+      :alt: 🚗 Roads – post-processing — Germany — Berlin
+      :class: no-scaled-link
+
+      🚗 Roads – post-processing (cleaned network)
+
+
+**Argentina — Balcarce**
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/roads_postproc/Balcarce_nopost.jpg
+      :alt: 🚗 Roads – no post-processing — Argentina — Balcarce
+      :class: no-scaled-link
+
+      🚗 Roads – no post-processing (full road surface area)
+
+   .. figure:: _static/processing_result/roads_postproc/Balcarce_post.jpg
+      :alt: 🚗 Roads – post-processing — Argentina — Balcarce
+      :class: no-scaled-link
+
+      🚗 Roads – post-processing (cleaned network)
+
+
+**Lebanon — Beirut**
+
+.. container:: mf-figures
+
+   .. figure:: _static/processing_result/roads_postproc/Beirut_nopost.jpg
+      :alt: 🚗 Roads – no post-processing — Lebanon — Beirut
+      :class: no-scaled-link
+
+      🚗 Roads – no post-processing (full road surface area)
+
+   .. figure:: _static/processing_result/roads_postproc/Beirut_post.jpg
+      :alt: 🚗 Roads – post-processing — Lebanon — Beirut
+      :class: no-scaled-link
+
+      🚗 Roads – post-processing (cleaned network)
+
+
 📊 Benchmarks
 -------------
 

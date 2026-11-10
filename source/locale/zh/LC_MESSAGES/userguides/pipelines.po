@@ -8,414 +8,388 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 13:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../userguides/pipelines.rst:1 0eb83319df8f4b2ca2ee2cb97167471b
+#: ../userguides/pipelines.rst:1 66c1f7939c12482090a4cb13ccbb6fc9
 msgid ""
-"Mapflow AI-mapping models for buildings, forest, roads and more: what each "
-"model returns, the imagery it needs and what it costs."
+"Mapflow AI-mapping models for buildings, forest, roads and more: what "
+"each model returns, the imagery it needs and what it costs."
 msgstr "Mapflow AI 制图模型可识别建筑物、森林、道路等：每个模型输出什么、需要什么影像以及费用多少。"
 
-#: ../userguides/pipelines.rst:9 97eaba75bf5b414b9cd3d3c33083be26
+#: ../userguides/pipelines.rst:9 209bb75c382247eea2b3ed81848f8f75
 msgid "AI-Mapping Models ✨"
 msgstr "AI 制图模型 ✨"
 
-#: ../userguides/pipelines.rst:13 f3949c86d0c24f03909b07dba4a35d1c
+#: ../userguides/pipelines.rst:13 3ca9bbeee8e44eaca2fa9ec66f7a605d
 msgid ""
-"Mapflow models find buildings, trees, roads and other objects in satellite, "
-"aerial and drone imagery, and return them as editable vector layers. Open a "
-"model to see what it returns, the imagery it needs and what it costs."
+"Mapflow models find buildings, trees, roads and other objects in "
+"satellite, aerial and drone imagery, and return them as editable vector "
+"layers. Open a model to see what it returns, the imagery it needs and "
+"what it costs."
 msgstr ""
 "Mapflow "
 "模型可在卫星、航空和无人机影像中识别建筑物、树木、道路等对象，并以可编辑的矢量图层返回。打开某个模型，即可查看它的输出结果、所需影像以及费用。"
 
-#: ../userguides/pipelines.rst:19 f8233bc4f329420e91fa59299acd6f16
+#: ../userguides/pipelines.rst:19 58c7d16c7a8b4e1b9ff5249371e085cc
 msgid ":ref:`Data requirements <Model_requirements>`"
 msgstr ":ref:`数据要求 <Model_requirements>`"
 
-#: ../userguides/pipelines.rst:20 4cd5b722c82340eab85ba66aee7dec21
+#: ../userguides/pipelines.rst:20 2bf080c10ae049f4a9dc2260874fc0ae
 msgid ":doc:`Pricing <prices>`"
 msgstr ":doc:`价格 <prices>`"
 
-#: ../userguides/pipelines.rst:21 4800a3750f0b4f50bd7dd49c19173f68
+#: ../userguides/pipelines.rst:21 35c3837bdfb649238a676addab2adc54
 msgid "`Request a custom model <https://mapflow.ai/contacts>`__"
 msgstr "`申请定制模型 <https://mapflow.ai/contacts>`__"
 
-#: ../userguides/pipelines.rst:23 d9cfadf5dd91400ab860ecde5aec1b06
+#: ../userguides/pipelines.rst:23 7750f4edd9ea489e9e75a8885a27099b
 msgid "Popular tasks"
 msgstr "常用任务"
 
-#: ../userguides/pipelines.rst:26 d3302e185aee4f8fad51a35380ec947a
+#: ../userguides/pipelines.rst:26 69b2df71bf21478e8d666846df8782ab
 msgid ":doc:`Map every building </userguides/buildings_model>`"
 msgstr ":doc:`提取所有建筑物 </userguides/buildings_model>`"
 
-#: ../userguides/pipelines.rst:26 8d7a35a3b69c4ee18c2d3c4d87ef5bdc
+#: ../userguides/pipelines.rst:26 4e78ce137f104b4bb06609fd559f7913
 msgid ":doc:`Map forest and tree cover </userguides/forest_model>`"
 msgstr ":doc:`提取森林和树木覆盖 </userguides/forest_model>`"
 
-#: ../userguides/pipelines.rst:26 a9176b53db9a4ba6ac7efbf42b0dd38b
-msgid ""
-":ref:`Vegetation height along power lines <scenario-vegetation-height>`"
+#: ../userguides/pipelines.rst:26 8748a6a540504480ac44f68c0483ccf6
+msgid ":ref:`Vegetation height along power lines <scenario-vegetation-height>`"
 msgstr ":ref:`输电线路沿线植被高度 <scenario-vegetation-height>`"
 
-#: ../userguides/pipelines.rst:26 c0cbd145752643ffb800ffd85ac295a7
+#: ../userguides/pipelines.rst:26 d258bcc694f24096902027a2af8316b4
 msgid ":ref:`Count individual trees <scenario-tree-crowns>`"
 msgstr ":ref:`统计单棵树木 <scenario-tree-crowns>`"
 
-#: ../userguides/pipelines.rst:26 df6bfc31e0f14c27931b9c43c366d483
+#: ../userguides/pipelines.rst:26 8876bd6b9b344e43938a01bf938aff02
 msgid ":doc:`Extract the road network </userguides/roads_model>`"
 msgstr ":doc:`提取道路网络 </userguides/roads_model>`"
 
-#: ../userguides/pipelines.rst:26 fec4abbcf65646bda62cb559d526d3e7
+#: ../userguides/pipelines.rst:26 f1bde89ae5d74c71b7344dc3632a69c9
 msgid ":doc:`Base map in one run </userguides/combo_model>`"
 msgstr ":doc:`一次运行生成底图 </userguides/combo_model>`"
 
-#: ../userguides/pipelines.rst:27 a3dcaa266b614147a8794ed627d35f48
+#: ../userguides/pipelines.rst:27 209bb75c382247eea2b3ed81848f8f75
 msgid "Default models"
 msgstr "默认模型"
 
-#: ../userguides/pipelines.rst:29 ef9cd8461a484cf5b59d5ef35589228f
-msgid ""
-"Available to every account in Mapflow Web, the QGIS plugin and the API."
+#: ../userguides/pipelines.rst:29 7c767eb343e24bdb835b78cd637596df
+msgid "Available to every account in Mapflow Web, the QGIS plugin and the API."
 msgstr "所有账户均可在 Mapflow Web、QGIS 插件和 API 中使用。"
 
-#: ../userguides/pipelines.rst:32 ab6c2dfe549647749df2654dab310a61
+#: ../userguides/pipelines.rst:32 1738c523d29a457cab0507aa17bc422e
 msgid "Building roof polygons over a suburban area"
 msgstr "郊区的建筑物屋顶多边形"
 
-#: ../userguides/pipelines.rst:32 4ba080488469475a8f4b941170164ce4
+#: ../userguides/pipelines.rst:32 8f2869779336479b9358a8bf0585d1cb
 msgid "🏠 Buildings"
 msgstr "🏠 Buildings"
 
-#: ../userguides/pipelines.rst:32 b1cc68ceb4f24b2ebf6798c66d893e4b
+#: ../userguides/pipelines.rst:32 31d3e4e83e4648f589ee166a87199399
 msgid ":mf-chip:`buildings|Buildings`"
 msgstr ":mf-chip:`buildings|建筑物`"
 
-#: ../userguides/pipelines.rst:32 5e59b9ae2af44aaba16d0f70945f358b
+#: ../userguides/pipelines.rst:32 b31a981302e946bf87077823423b5f8d
 msgid "Roof outline of every building in your area, as editable polygons."
 msgstr "区域内每栋建筑物的屋顶轮廓，以可编辑多边形输出。"
 
-#: ../userguides/pipelines.rst:32 bc52312df53243f8a9e8bda750693700
+#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
 msgid ":mf-icon:`credits` 10 cr/km² + imagery · zoom 18"
 msgstr ":mf-icon:`credits` 10 积分/km² + 影像 · 缩放级别 18"
 
-#: ../userguides/pipelines.rst:32 e5e44474008a4a90ac7ca7036a17aea3
+#: ../userguides/pipelines.rst:32 207608bb5acc4a70a2c9a898e61277ab
 msgid "Tree and shrub cover mask over a residential area"
 msgstr "住宅区的树木和灌木覆盖掩膜"
 
-#: ../userguides/pipelines.rst:32 8a414d148d7145e9aaf53047779f866f
+#: ../userguides/pipelines.rst:32 e4dfb81c967b467b92a7ef9f01d0854f
 msgid "🌲 Forest and trees"
 msgstr "🌲 Forest and trees"
 
-#: ../userguides/pipelines.rst:32 975d29ec31f0482da225c72b759a8e34
+#: ../userguides/pipelines.rst:32 107f77229293425698c7e877147ecbb9
 msgid ":mf-chip:`forest|Trees and vegetation`"
 msgstr ":mf-chip:`forest|树木和植被`"
 
-#: ../userguides/pipelines.rst:32 6a062a7752cb40f4be63c94ea05be94b
+#: ../userguides/pipelines.rst:32 ee1e178868414c8dab751febad32f873
 msgid "All tree and shrub cover, down to small groups and tree lines."
 msgstr "所有树木和灌木覆盖，细至小片树丛和成排树木。"
 
-#: ../userguides/pipelines.rst:32 c2f8d48b14524f05a241c4fdc044dd32
+#: ../userguides/pipelines.rst:32 9114b40b7c6c402a99d321bc7c6a2940
 msgid ":mf-icon:`credits` 8 cr/km² + imagery · zoom 18–20"
 msgstr ":mf-icon:`credits` 8 积分/km² + 影像 · 缩放级别 18–20"
 
-#: ../userguides/pipelines.rst:32 3b36d7d70ace424ebfabd6f666e5cb85
+#: ../userguides/pipelines.rst:32 959d1044f78441588efa798945bd9fd1
 msgid "Road network polygons over a suburban area"
 msgstr "郊区的道路网络多边形"
 
-#: ../userguides/pipelines.rst:32 2eb0f10a34604589a2d507220e426990
+#: ../userguides/pipelines.rst:32 40daa56bee7141c2a510b4df4b283b9e
 msgid "🚗 Roads"
 msgstr "🚗 Roads"
 
-#: ../userguides/pipelines.rst:32 8d1c4765a147490a84b0ee030bcc4aa6
+#: ../userguides/pipelines.rst:32 228ea0e5e0cd412e88c600759b8fed17
 msgid ":mf-chip:`road|Roads`"
 msgstr ":mf-chip:`road|道路`"
 
-#: ../userguides/pipelines.rst:32 31b144500a524af18c506999230062d0
+#: ../userguides/pipelines.rst:32 5a5fb1ebb9624b9e8713ddee934cece0
 msgid "A connected road network with gaps merged and short stubs removed."
 msgstr "连通的道路网络，已合并断口并移除短小残段。"
 
-#: ../userguides/pipelines.rst:32 de5a2cf6449a409999c825074c6352e8
+#: ../userguides/pipelines.rst:32 85eaa0ce7b0c43f2a1cac39c03f91869
 msgid ":mf-icon:`credits` 5 cr/km² + imagery · zoom 18"
 msgstr ":mf-icon:`credits` 5 积分/km² + 影像 · 缩放级别 18"
 
-#: ../userguides/pipelines.rst:32 745ca2e937044d81bdf258feb3c764ae
+#: ../userguides/pipelines.rst:32 5086f21c1b2e43d9910d6e59976bceca
 msgid "Buildings, roads and forest layers over a dense urban area"
 msgstr "密集城区的建筑物、道路和森林图层"
 
-#: ../userguides/pipelines.rst:32 132046849108438daa06dacbda5d1ad2
+#: ../userguides/pipelines.rst:32 383b1c85932c4ac4b056ae0a095c1605
 msgid "[multi] Buildings + Roads + Forest"
 msgstr "[multi] Buildings + Roads + Forest"
 
-#: ../userguides/pipelines.rst:32 89106b2728bc45208761b0037c5dbd58
+#: ../userguides/pipelines.rst:32 09dd33887ab547fda39f361cd74c6ddd
 msgid ":mf-chip:`road|Basemaps`"
 msgstr ":mf-chip:`road|底图`"
 
-#: ../userguides/pipelines.rst:32 0ed51624b9af440ba012919e16b30b58
+#: ../userguides/pipelines.rst:32 ab774faf67e440f099e46a1b9ef373b6
 msgid "Buildings, roads and forest together, with topology corrected."
 msgstr "一次提取建筑物、道路和森林，并已校正拓扑。"
 
-#: ../userguides/pipelines.rst:32 d56fce42c4d2403282ab4d55cbd19cfb
+#: ../userguides/pipelines.rst:32 b0a5055b2c554b16b3b4cfc479e67585
 msgid ":mf-icon:`credits` 23 cr/km² + imagery · zoom 19"
 msgstr ":mf-icon:`credits` 23 积分/km² + 影像 · 缩放级别 19"
 
-#: ../userguides/pipelines.rst:32 88af5159d9f24dc39419b812e22130db
+#: ../userguides/pipelines.rst:32 be4fe34ba5f343bab2a3c72de4ee7ac5
 msgid "OpenStreetMap buildings and roads over imagery"
 msgstr "叠加在影像上的 OpenStreetMap 建筑物和道路"
 
-#: ../userguides/pipelines.rst:32 b0424862eba44583875002e4f16e6a8e
+#: ../userguides/pipelines.rst:32 1aecad1b845e40689a0f26a563097715
 msgid "Download Open Data"
 msgstr "Download Open Data"
 
-#: ../userguides/pipelines.rst:32 68743299c60e4e92acf32f3c600bac2a
+#: ../userguides/pipelines.rst:32 d12d252eea314c0fa468105fca206cc7
 msgid ":mf-chip:`road|Basemaps` :mf-badge:`No AI model`"
 msgstr ":mf-chip:`road|底图` :mf-badge:`无 AI 模型`"
 
-#: ../userguides/pipelines.rst:32 b86712a706c54800a9170fc8c78aa65b
-msgid ""
-"OpenStreetMap and Overture data for your area, with no AI model involved."
+#: ../userguides/pipelines.rst:32 64ffc25c9e854c69b5b6995510374d08
+msgid "OpenStreetMap and Overture data for your area, with no AI model involved."
 msgstr "获取您所在区域的 OpenStreetMap 和 Overture 数据，不使用 AI 模型。"
 
-#: ../userguides/pipelines.rst:32 0a310113b2724413b343c54880d304cb
+#: ../userguides/pipelines.rst:32 03b7a9fc804b41f49249e40d8039c0e8
 msgid ":mf-icon:`credits` Shown before you run"
 msgstr ":mf-icon:`credits` 运行前显示"
 
-#: ../userguides/pipelines.rst:34 316d09b509fc45fbb67a7da60d5245d8
+#: ../userguides/pipelines.rst:34 683c41987f81406f907c3b2fc2ae8a19
 msgid "Bring your own imagery"
 msgstr "使用您自己的影像"
 
-#: ../userguides/pipelines.rst:36 1389a75138d54993a568667b82a2013e
+#: ../userguides/pipelines.rst:36 87048502e738420fa6bf898c29aab94f
 msgid ""
 "Every model runs on imagery you upload, a raster already in your QGIS "
 "project, or a fresh image from the satellite catalog."
 msgstr "每个模型都可以处理您上传的影像、QGIS 项目中已有的栅格图层，或卫星目录中的最新影像。"
 
-#: ../userguides/pipelines.rst:40 61e9a990d592473a9b93c4feeb8a748b
+#: ../userguides/pipelines.rst:40 73e427b42e064cceb16ccb5e3cd21ec7
 msgid "Map your drone or aerial orthophoto"
 msgstr "处理您的无人机或航空正射影像"
 
-#: ../userguides/pipelines.rst:40 8665612ca6d84fa8bc84160649a6c0ce
-#: e75964dd969a4ff8bdd663e077babe27
+#: ../userguides/pipelines.rst:40 0a170f6ec54c45d4aa4d1b0d6bd7224c
+#: 4cc104feaf6144bdbc12ccd05c02b303
 msgid ":mf-chip:`image|Any model`"
 msgstr ":mf-chip:`image|任意模型`"
 
-#: ../userguides/pipelines.rst:40 f592947e01854599a1055634fd1a2130
+#: ../userguides/pipelines.rst:40 f4fbcd0182ca4d41a64709d1894a2ddb
 msgid "Run any model on your own GeoTIFF or a raster layer already in QGIS."
 msgstr "在您自己的 GeoTIFF 或 QGIS 中已有的栅格图层上运行任意模型。"
 
-#: ../userguides/pipelines.rst:40 c0b70ca41ddd421d93c8c915a579989a
+#: ../userguides/pipelines.rst:40 268559bd963d43d9997d666f0aab8a14
 msgid ":mf-icon:`credits` Model price only · your GeoTIFF"
 msgstr ":mf-icon:`credits` 仅收取模型费用 · 您的 GeoTIFF"
 
-#: ../userguides/pipelines.rst:40 4a002f6db9e3462498a43ed9da9fdef7
+#: ../userguides/pipelines.rst:40 845e698456c34330a80e735f73e4b8c3
 msgid "Find a fresh image, then map it"
 msgstr "查找最新影像并进行制图"
 
-#: ../userguides/pipelines.rst:40 3b426f786b4b429f927e05f247f301c0
+#: ../userguides/pipelines.rst:40 770b58c98c90443c9715ad7b9e00012c
 msgid ""
-"Search satellite catalogs by date, cloud and angle, then map the image you "
-"pick."
+"Search satellite catalogs by date, cloud and angle, then map the image "
+"you pick."
 msgstr "按日期、云量和拍摄角度搜索卫星目录，然后对选中的影像进行制图。"
 
-#: ../userguides/pipelines.rst:40 7e0d82eb7e324968998e8a68b41eb28f
+#: ../userguides/pipelines.rst:40 fb1c6013351b46358973d9f243e13924
 msgid ":mf-icon:`credits` Model + imagery price · recent changes"
 msgstr ":mf-icon:`credits` 模型 + 影像费用 · 近期变化"
 
-#: ../userguides/pipelines.rst:41 6e5f6128b073483ba8df90d24ae3bdd0
+#: ../userguides/pipelines.rst:41 3dcbc7f940ec46e0961988a6fc73c9ab
 msgid "Custom models"
 msgstr "定制模型"
 
-#: ../userguides/pipelines.rst:43 1ea3aac2b6234fb1ae899316bf315c57
+#: ../userguides/pipelines.rst:43 e1149ac397204e5baf541461ae0d4c18
 msgid ""
-"Trained for specific use cases. We connect them to your account on request. "
-"See :doc:`how custom models work <custom_pipelines>`."
+"Trained for specific use cases. We connect them to your account on "
+"request. See :doc:`how custom models work <custom_pipelines>`."
 msgstr "针对特定用例训练，可应要求接入您的账户。请参阅 :doc:`定制模型的工作方式 <custom_pipelines>`。"
 
-#: ../userguides/pipelines.rst:47 3d059883a5ad4fd59987fd71989a4191
+#: ../userguides/pipelines.rst:47 f5d98d37bf7e46658c73f6f352b19d34
 msgid "Construction site outlines in a fast-developing area"
 msgstr "快速发展区域的建筑工地轮廓"
 
-#: ../userguides/pipelines.rst:47 9c79b97ac0194efbbd102e9196d3bb17
+#: ../userguides/pipelines.rst:47 9eef9aaf1cee440cb46b6b626ae26a8c
 msgid "Constructions"
 msgstr "在建工程"
 
-#: ../userguides/pipelines.rst:47 5ca792e1a6034e0d81cbebd78f9bbfd5
-#: 82336f0196aa4d6eb9af9da22b93245a d66fa69244064648846624e04df8e7f4
+#: ../userguides/pipelines.rst:47 a462b29212be474ea1d515daa37e75f4
 msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
 msgstr ":mf-chip:`sam|其他对象` :mf-warn:`需申请`"
 
-#: ../userguides/pipelines.rst:47 a87290e84f2e4296b09d578fd0de4f86
+#: ../userguides/pipelines.rst:47 94583438c82a40b29c7cef9d46cfbde2
 msgid "Outlines of construction sites and buildings under construction."
 msgstr "建筑工地和在建建筑物的轮廓。"
 
-#: ../userguides/pipelines.rst:47 225190e99018454a913176e2003e0aa0
+#: ../userguides/pipelines.rst:47 0b7001a723f5469ea8904d6128be7c31
 msgid ":mf-icon:`credits` On request · zoom 18"
 msgstr ":mf-icon:`credits` 需申请 · 缩放级别 18"
 
-#: ../userguides/pipelines.rst:47 94c6cd08dd954908ac9172fd7e66dcec
-msgid "Dense housing blocks split into individual houses"
-msgstr "被拆分为单栋房屋的密集住宅街区"
+#: ../userguides/pipelines.rst:47 baef79568b734237862134c57e5054b5
+msgid "Built-up urban blocks outlined over a dense city"
+msgstr "密集城市中勾画出的建成街区"
 
-#: ../userguides/pipelines.rst:47 c6c83e5bc6dd4a42bab0da5c4ec93826
-msgid "High-density housing"
-msgstr "高密度住宅"
+#: ../userguides/pipelines.rst:47 1bd4b9b8374e450cbfbfb74c7fdb34f1
+msgid "Built-up areas"
+msgstr "建成区"
 
-#: ../userguides/pipelines.rst:47 2f77801b3585400dba9141933c3cf390
-#: 6e52d1d405794018a5eec762c8842746
+#: ../userguides/pipelines.rst:47 4dd727bef2ed4f1aadc03dd8c41c70e0
 msgid ":mf-chip:`buildings|Buildings` :mf-warn:`On request`"
 msgstr ":mf-chip:`buildings|建筑物` :mf-warn:`需申请`"
 
-#: ../userguides/pipelines.rst:47 8c80c85cf3f243db9178dba7685678b2
-msgid "Terraced and tightly packed blocks divided into individual houses."
-msgstr "将联排及紧密排列的街区拆分为单栋房屋。"
+#: ../userguides/pipelines.rst:47 b4ceb791b92a464b915ebc415a45777c
+msgid "Built-up areas as whole urban blocks, without individual buildings."
+msgstr "以整个城市街区呈现的建成区，不区分单栋建筑。"
 
-#: ../userguides/pipelines.rst:47 1827a5a43e314bd5b9f380115e75187d
-#: 573fa8933dc045a78b38cf1705cd0807
+#: ../userguides/pipelines.rst:47 4cffce6ec9e748f19942820cf2ed4731
+#: c2c5c840a3534744bcd8dbf43af8d8a6
 msgid ":mf-icon:`credits` On request"
 msgstr ":mf-icon:`credits` 需申请"
 
-#: ../userguides/pipelines.rst:47 f51c5a1bc4cd45f185376b08dca1d6ed
-msgid "Detailed building outlines on 10 cm aerial imagery"
-msgstr "10 厘米航空影像上的精细建筑轮廓"
-
-#: ../userguides/pipelines.rst:47 7a62fd33fea544a7b37364c5ce231859
-msgid "Buildings (Aerial)"
-msgstr "建筑物（航空）"
-
-#: ../userguides/pipelines.rst:47 9461c9a490a349bb94fe4e4e87cb47e8
-msgid "Small buildings and detailed outlines from 15–10 cm aerial imagery."
-msgstr "基于 15–10 厘米航空影像提取小型建筑和精细轮廓。"
-
-#: ../userguides/pipelines.rst:47 d3e2bcc863b0479eb0c6832e3c906f97
-msgid ":mf-icon:`credits` On request · zoom 20–21"
-msgstr ":mf-icon:`credits` 需申请 · 缩放级别 20–21"
-
-#: ../userguides/pipelines.rst:47 824f03b4e07f4f2f8ccb3bab606d4a8d
+#: ../userguides/pipelines.rst:47 78be5712c7dc4ea588d19664b0a22f59
 msgid "Detected rooftop solar panels"
 msgstr "检测到的屋顶太阳能板"
 
-#: ../userguides/pipelines.rst:47 db642fc4b8054516a03fe341c3d30541
+#: ../userguides/pipelines.rst:47 7750f4edd9ea489e9e75a8885a27099b
 msgid "Solar panels"
-msgstr "太阳能电池板"
+msgstr "太阳能板"
 
-#: ../userguides/pipelines.rst:47 71780ee181344c2cbd550fa25343eb1c
+#: ../userguides/pipelines.rst:47 bee3fb31742d45999bb544c9884e4e61
 msgid "Photovoltaic panels on rooftops and on the ground."
 msgstr "屋顶和地面上的光伏板。"
 
-#: ../userguides/pipelines.rst:47 d88df4f2f1ef42d4abf1a8c41d38e2c0
+#: ../userguides/pipelines.rst:47 9dd8c90b63bf42dc815c8dc57b527a91
 msgid ":mf-icon:`credits` On request · zoom 19–21"
 msgstr ":mf-icon:`credits` 需申请 · 缩放级别 19–21"
 
-#: ../userguides/pipelines.rst:47 dd58a71332824429942a054fbf3bc6d2
+#: ../userguides/pipelines.rst:47 9bcd725799aa492cb07693b3c4e08c80
 msgid "Detected swimming pools in a residential area"
 msgstr "住宅区中检测到的游泳池"
 
-#: ../userguides/pipelines.rst:47 49af18752d8b4f86a4d6ac59eec78635
+#: ../userguides/pipelines.rst:47 f631a2080ee04cd383abebab1ace6423
 msgid "Swimming pools"
 msgstr "游泳池"
 
-#: ../userguides/pipelines.rst:47 bdf9b48ae6b64de6b885d1c1465e67f4
+#: ../userguides/pipelines.rst:47 f738daa9e1ef455a949a3839c4ebfb44
 msgid ":mf-chip:`buildings|Real estate` :mf-warn:`On request`"
 msgstr ":mf-chip:`buildings|房地产` :mf-warn:`需申请`"
 
-#: ../userguides/pipelines.rst:47 05fee9127e3f49c7968c7b0092a23cc0
+#: ../userguides/pipelines.rst:47 8bc0b8b003384b5d8752f8720436076f
 msgid "Swimming pools detected and classified from aerial imagery."
 msgstr "基于航空影像检测并分类的游泳池。"
 
-#: ../userguides/pipelines.rst:47 73583bef4d784129ba7ca20144e5160f
+#: ../userguides/pipelines.rst:47 ee3fdd66a92744439d83498e13c57d7b
 msgid ":mf-icon:`credits` On request · zoom 19–20"
 msgstr ":mf-icon:`credits` 需申请 · 缩放级别 19–20"
 
-#: ../userguides/pipelines.rst:47 dd57d0190f434e3d98058c7ba0272e05
+#: ../userguides/pipelines.rst:47 3ff2ad9096694de3a5ea245e87506df2
 msgid "Field boundaries delineated over farmland"
 msgstr "农田上勾绘的田块边界"
 
-#: ../userguides/pipelines.rst:47 8d4489d323fc4b19a0fc30f9be4e9825
+#: ../userguides/pipelines.rst:47 92ad435be8a2412c81777dc4f5baa8bb
 msgid "Agriculture fields"
 msgstr "农田"
 
-#: ../userguides/pipelines.rst:47 4ec44dfc9514488288437ccb201e38eb
+#: ../userguides/pipelines.rst:47 687ffa26f1234988b75bf84736999dd9
 msgid ":mf-chip:`agro|Crop fields` :mf-warn:`On request`"
 msgstr ":mf-chip:`agro|农作物田块` :mf-warn:`需申请`"
 
-#: ../userguides/pipelines.rst:47 d1a2883b9183438b8bfa32c32e6092c8
+#: ../userguides/pipelines.rst:47 0a8e38e095d34afaa1bcde054edc2383
 msgid "Field boundaries separated by tree lines, roads or crop stage."
 msgstr "由林带、道路或作物生长阶段分隔的田块边界。"
 
-#: ../userguides/pipelines.rst:47 4270ae7728b24c099b230ce60e37f7af
-msgid "Segment Anything polygons over farmland"
-msgstr "农田上的 Segment Anything 多边形"
-
-#: ../userguides/pipelines.rst:47 9caef506fb044049880aaeb51833f6a6
-msgid "Segment Anything"
-msgstr "Segment Anything"
-
-#: ../userguides/pipelines.rst:47 053beda89aaf49a396c45af0849aaae5
-msgid "Universal segmentation. The zoom level decides what you get."
-msgstr "通用分割。输出内容取决于缩放级别。"
-
-#: ../userguides/pipelines.rst:47 fb1bc8d30d8c4f2f9475f20a54c3ec25
-msgid ":mf-icon:`credits` On request · zoom 14–20"
-msgstr ":mf-icon:`credits` 需申请 · 缩放级别 14–20"
-
-#: ../userguides/pipelines.rst:50 80b88ad580a942638157097222bab8e7
+#: ../userguides/pipelines.rst:50 71a63350fb084388b78450c1afcf203b
 msgid "Need a different object?"
 msgstr "需要识别其他对象？"
 
-#: ../userguides/pipelines.rst:50 2cb445332d9d43d5a3e121236fab43a6
+#: ../userguides/pipelines.rst:50 2c96dfbab69148058bbf1bc6dfd75f5e
 msgid ""
-"We train custom models on your imagery and classes, and connect them to your"
-" Mapflow account."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr "我们可基于您的影像和类别训练定制模型，并将其接入您的 Mapflow 账户。"
 
-#: ../userguides/pipelines.rst:50 75ba501c0840451d908169138d6ceaf0
+#: ../userguides/pipelines.rst:50 dadfefb6e9064531b8afa719f6b10829
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr "`申请定制模型 <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/pipelines.rst:50 188c192cdaef42aa9139fd3deed88a88
+#: ../userguides/pipelines.rst:50 a2a5d27a09414ea5b7d5946d1980c0ea
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr "`模型目录和部署选项 <https://mapflow.ai/models>`__"
 
-#: ../userguides/pipelines.rst:50 69a3c6a73296460ea81b4008a450a106
+#: ../userguides/pipelines.rst:50 3357a7c0762242649e558248b3fc32aa
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 
 #~ msgid ""
-#~ "The core of the Mapflow are the Mapping Models. Mapflow enables to detect "
-#~ "and extract features in satellite and aerial images powered by semantic "
-#~ "segmentation and other deep learning techniques. See :ref:`requirements "
-#~ "<Model_requirements>` page to better understand what data to use with each "
-#~ "model, and :doc:`price list <prices>` for breakdown of the processings "
-#~ "billing."
+#~ "The core of the Mapflow are the"
+#~ " Mapping Models. Mapflow enables to "
+#~ "detect and extract features in satellite"
+#~ " and aerial images powered by "
+#~ "semantic segmentation and other deep "
+#~ "learning techniques. See :ref:`requirements "
+#~ "<Model_requirements>` page to better "
+#~ "understand what data to use with "
+#~ "each model, and :doc:`price list "
+#~ "<prices>` for breakdown of the "
+#~ "processings billing."
 #~ msgstr ""
-#~ "Mapflow 的核心是映射模型。 Mapflow 能够检测和提取由语义分割和其他深度学习技术支持的卫星和航空图像中的特征。请参阅:ref:`要求 "
-#~ "<Model_requirements>` 页面，以更好地了解每个模型要使用哪些数据，并参阅:doc:`价目表 <prices>` "
-#~ "以了解处理计费的详细信息。"
+#~ "Mapflow 的核心是映射模型。 Mapflow "
+#~ "能够检测和提取由语义分割和其他深度学习技术支持的卫星和航空图像中的特征。请参阅:ref:`要求 "
+#~ "<Model_requirements>` 页面，以更好地了解每个模型要使用哪些数据，并参阅:doc:`价目表 "
+#~ "<prices>` 以了解处理计费的详细信息。"
 
 #~ msgid ""
-#~ "For the data requirements – see :ref:`Model_requirements`. For the breakdown"
-#~ " of the Mapflow processings billing – see :doc:`Mapflow pricing <prices>`."
-#~ msgstr ""
-#~ "有关数据要求 - 请参阅模型要求。有关 Mapflow 处理计费的详细信息 – 请参阅:doc:`Mapflow 定价 <prices>`。"
+#~ "For the data requirements – see "
+#~ ":ref:`Model_requirements`. For the breakdown "
+#~ "of the Mapflow processings billing – "
+#~ "see :doc:`Mapflow pricing <prices>`."
+#~ msgstr "有关数据要求 - 请参阅模型要求。有关 Mapflow 处理计费的详细信息 – 请参阅:doc:`Mapflow 定价 <prices>`。"
 
 #~ msgid ""
-#~ "Extract building rooftops and footprints from high-resolution satellite "
-#~ "imagery. Type classification, regularization, simplification and height "
-#~ "estimation."
+#~ "Extract building rooftops and footprints "
+#~ "from high-resolution satellite imagery. "
+#~ "Type classification, regularization, simplification"
+#~ " and height estimation."
 #~ msgstr "从高分辨率卫星图像中提取建筑物屋顶和足迹。类型分类、正则化、简化和高度估计。"
 
 #~ msgid ""
-#~ "Extracting of rooftops of buildings from imagery of high resolution. High "
-#~ "performance deep learning model is trained to detect the buildings roofs."
+#~ "Extracting of rooftops of buildings from"
+#~ " imagery of high resolution. High "
+#~ "performance deep learning model is "
+#~ "trained to detect the buildings roofs."
 #~ msgstr "从高分辨率图像中提取建筑物的屋顶。训练高性能深度学习模型来检测建筑物屋顶。"
 
 #~ msgid "**Model tags** |:label:|"
@@ -443,64 +417,92 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "0.3 m/z19"
 
 #~ msgid ""
-#~ "*Note:* The building predictions with area less than 20 sq.m. are removed to"
-#~ " avoid clutter"
+#~ "*Note:* The building predictions with "
+#~ "area less than 20 sq.m. are "
+#~ "removed to avoid clutter"
 #~ msgstr "*注：*面积小于20平方米的建筑预测。被删除以避免混乱"
 
 #~ msgid ""
-#~ "The model does not extract the footprints directly, because they are not "
-#~ "clearly visible in the images, but it can obtain them, just like human "
-#~ "cartographers, by moving the roof to the bottom of the wall (see Additional "
-#~ "options)."
+#~ "The model does not extract the "
+#~ "footprints directly, because they are "
+#~ "not clearly visible in the images, "
+#~ "but it can obtain them, just like"
+#~ " human cartographers, by moving the "
+#~ "roof to the bottom of the wall "
+#~ "(see Additional options)."
 #~ msgstr "该模型不会直接提取足迹，因为它们在图像中不清晰可见，但它可以像人类制图师一样，通过将屋顶移动到墙的底部来获取它们（请参阅其他选项）。"
 
 #~ msgid "**Additional options:**"
 #~ msgstr "**附加选项：**"
 
 #~ msgid ""
-#~ "**Classification by types of buildings** – typology of buildings is "
-#~ "represented by the main classes (see :ref:`reference <buildings_classes>`)."
+#~ "**Classification by types of buildings** "
+#~ "– typology of buildings is represented"
+#~ " by the main classes (see "
+#~ ":ref:`reference <buildings_classes>`)."
 #~ msgstr "**按建筑物类型分类** – 建筑物的类型由主要类别表示（参见：ref:`参考<buildings_classes>`）。"
 
 #~ msgid ""
-#~ "**Regularization** - the algorithm corrects the irregularities of the "
-#~ "contours of our model. The irregular geometries are replaced with "
-#~ "rectangles, circles or arbitary polygons with 90 degree angles, which fits "
-#~ "better to the original shape. This option produces much more map-friendly "
-#~ "shapes which look better, but some original mask accuracy can be lost."
+#~ "**Regularization** - the algorithm corrects"
+#~ " the irregularities of the contours "
+#~ "of our model. The irregular geometries"
+#~ " are replaced with rectangles, circles "
+#~ "or arbitary polygons with 90 degree "
+#~ "angles, which fits better to the "
+#~ "original shape. This option produces "
+#~ "much more map-friendly shapes which "
+#~ "look better, but some original mask "
+#~ "accuracy can be lost."
 #~ msgstr ""
 #~ "**正则化** - "
 #~ "该算法纠正模型轮廓的不规则性。不规则的几何形状被替换为矩形、圆形或90度角的任意多边形，更适合原始形状。此选项会生成更加适合地图的形状，看起来更好，但可能会丢失一些原始蒙版精度。"
 
 #~ msgid ""
-#~ "**Simplification** - simplifies the building shape, staying close to the "
-#~ "original mask, adjusted for curve and complex shapes. More approximated "
-#~ "shapes, but less right angles."
+#~ "**Simplification** - simplifies the building"
+#~ " shape, staying close to the original"
+#~ " mask, adjusted for curve and complex"
+#~ " shapes. More approximated shapes, but "
+#~ "less right angles."
 #~ msgstr "**简化** - 简化建筑形状，保持接近原始蒙版，针对曲线和复杂形状进行调整。形状更近似，但直角更少。"
 
 #~ msgid ""
-#~ "**Merge with OSM** - some of the areas have great coverage of OpenStreetMap "
-#~ "data, and if you prefer human-annotated data, you can select this option.In "
-#~ "this case, we check for each building whether it has a good corresponding "
-#~ "object in OSM (Jaccard index) and if there is one, we replace our result "
-#~ "with OSM polygon. This makes the result not based on the image, so the "
-#~ "buildings can be shifted from actual positions. Also the corrected buildings"
-#~ " are rotated to align with the nearest roads downloaded from OSM."
+#~ "**Merge with OSM** - some of the"
+#~ " areas have great coverage of "
+#~ "OpenStreetMap data, and if you prefer"
+#~ " human-annotated data, you can select"
+#~ " this option.In this case, we check"
+#~ " for each building whether it has "
+#~ "a good corresponding object in OSM "
+#~ "(Jaccard index) and if there is "
+#~ "one, we replace our result with "
+#~ "OSM polygon. This makes the result "
+#~ "not based on the image, so the "
+#~ "buildings can be shifted from actual "
+#~ "positions. Also the corrected buildings "
+#~ "are rotated to align with the "
+#~ "nearest roads downloaded from OSM."
 #~ msgstr ""
 #~ "**与 OSM 合并** - 某些区域的 OpenStreetMap "
 #~ "数据覆盖率很高，如果您更喜欢人工注释的数据，则可以选择此选项。在这种情况下，我们检查每个建筑物在 OSM（Jaccard "
 #~ "索引）中是否有良好的对应对象，如果有，我们将结果替换为 OSM "
-#~ "多边形。这使得结果不基于图像，因此建筑物可以从实际位置移动。此外，校正后的建筑物也会旋转，以与从 OSM 下载的最近的道路对齐。"
+#~ "多边形。这使得结果不基于图像，因此建筑物可以从实际位置移动。此外，校正后的建筑物也会旋转，以与从 OSM "
+#~ "下载的最近的道路对齐。"
 
 #~ msgid ""
-#~ "**Height Estimation (beta)** – feature leverages a dedicated regression-"
-#~ "based model that infers height using visual indicators such as shadow length"
-#~ " and visible wall segments. The result is what is termed **3D building "
-#~ "footprints** where the building's countour is projected to ground level "
-#~ "instead of the roof outline. This is especially useful for oblique imagery, "
+#~ "**Height Estimation (beta)** – feature "
+#~ "leverages a dedicated regression-based "
+#~ "model that infers height using visual"
+#~ " indicators such as shadow length and"
+#~ " visible wall segments. The result is"
+#~ " what is termed **3D building "
+#~ "footprints** where the building's countour "
+#~ "is projected to ground level instead "
+#~ "of the roof outline. This is "
+#~ "especially useful for oblique imagery, "
 #~ "where roofs often appear shifted."
 #~ msgstr ""
-#~ "**高度估计（测试版）** – 功能利用专用的基于回归的模型，该模型使用阴影长度和可见墙段等视觉指标来推断高度。结果就是所谓的 **3D "
+#~ "**高度估计（测试版）** – "
+#~ "功能利用专用的基于回归的模型，该模型使用阴影长度和可见墙段等视觉指标来推断高度。结果就是所谓的 **3D "
 #~ "建筑足迹**，其中建筑物的轮廓被投影到地面而不是屋顶轮廓。这对于屋顶经常出现移位的倾斜图像特别有用。"
 
 #~ msgid "Benchmarks - segmentation"
@@ -510,16 +512,22 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "航拍图像"
 
 #~ msgid ""
-#~ "Latest update — **🏠 Buildings v.2026-07-06** (Global, Segmentation, 0.3 m / "
-#~ "z19). The model was evaluated on a global validation set of 7 areas of "
-#~ "interest (AOI) against manually annotated ground truth. Metrics are area-"
-#~ "based: IoU is the intersection-over-union of the predicted and ground-truth "
-#~ "building masks, and F1 / Precision / Recall are computed on the overlapping "
-#~ "mask area."
+#~ "Latest update — **🏠 Buildings "
+#~ "v.2026-07-06** (Global, Segmentation, 0.3 m"
+#~ " / z19). The model was evaluated "
+#~ "on a global validation set of 7"
+#~ " areas of interest (AOI) against "
+#~ "manually annotated ground truth. Metrics "
+#~ "are area-based: IoU is the "
+#~ "intersection-over-union of the predicted"
+#~ " and ground-truth building masks, and"
+#~ " F1 / Precision / Recall are "
+#~ "computed on the overlapping mask area."
 #~ msgstr ""
-#~ "最新更新 — **🏠 Buildings v.2026-07-06**（全局，分段，0.3 m / z19）。该模型在 7 个感兴趣区域 (AOI) "
-#~ "的全局验证集上根据手动注释的真实情况进行评估。指标是基于区域的：IoU 是预测和真实建筑掩模的交并，并且 F1 / 精度 / "
-#~ "召回率是在重叠掩模区域上计算的。"
+#~ "最新更新 — **🏠 Buildings v.2026-07-06**（全局，分段，0.3"
+#~ " m / z19）。该模型在 7 个感兴趣区域 (AOI) "
+#~ "的全局验证集上根据手动注释的真实情况进行评估。指标是基于区域的：IoU 是预测和真实建筑掩模的交并，并且 F1"
+#~ " / 精度 / 召回率是在重叠掩模区域上计算的。"
 
 #~ msgid "AOI (location)"
 #~ msgstr "AOI（位置）"
@@ -708,16 +716,19 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
-#~ "building masks; evaluation run 2026-06-13.*"
+#~ "*Area-based IoU / F1 / Precision"
+#~ " / Recall measured against ground-"
+#~ "truth building masks; evaluation run "
+#~ "2026-06-13.*"
 #~ msgstr "*根据地面真实建筑掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行 2026-06-13.*"
 
 #~ msgid "Satellite imagery"
 #~ msgstr "卫星图像"
 
 #~ msgid ""
-#~ "Additional validation of **🏠 Buildings v.2026-07-06** on satellite imagery "
-#~ "across 5 dense urban areas of interest."
+#~ "Additional validation of **🏠 Buildings "
+#~ "v.2026-07-06** on satellite imagery across "
+#~ "5 dense urban areas of interest."
 #~ msgstr "在 5 个密集城市感兴趣区域的卫星图像上对 **🏠 Buildings v.2026-07-06** 进行额外验证。"
 
 #~ msgid "Russia — Ufa"
@@ -823,52 +834,67 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
-#~ "building masks; evaluation run 2026-06-16.*"
+#~ "*Area-based IoU / F1 / Precision"
+#~ " / Recall measured against ground-"
+#~ "truth building masks; evaluation run "
+#~ "2026-06-16.*"
 #~ msgstr "*根据地面真实建筑掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行 2026-06-16.*"
 
 #~ msgid ""
-#~ "📊 See :doc:`per-location benchmark details <buildings_benchmark_07-06>` for "
-#~ "the area-by-area breakdown of both the global and satellite sets, including "
-#~ "comparison with the previous version and prediction-vs-ground-truth "
-#~ "overlays."
+#~ "📊 See :doc:`per-location benchmark "
+#~ "details <buildings_benchmark_07-06>` for the "
+#~ "area-by-area breakdown of both the"
+#~ " global and satellite sets, including "
+#~ "comparison with the previous version and"
+#~ " prediction-vs-ground-truth overlays."
 #~ msgstr ""
 #~ "📊 请参阅:doc:`每个位置基准详细信息 "
 #~ "<buildings_benchmark_07-06>`，了解全球和卫星集的逐个区域细分，包括与先前版本的比较以及预测与地面实况叠加。"
 
 #~ msgid ""
-#~ "Looking to run this in production? See the `model catalog and deployment "
-#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
-#~ "<https://mapflow.ai/custom-models>`_."
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
 #~ msgstr ""
-#~ "想要在生产中运行它吗？请参阅“模型目录和部署选项 <https://mapflow.ai/models>”_，或“请求自定义模型 "
-#~ "<https://mapflow.ai/custom-models>”_。"
+#~ "想要在生产中运行它吗？请参阅“模型目录和部署选项 <https://mapflow.ai/models>”_，或“请求自定义模型"
+#~ " <https://mapflow.ai/custom-models>”_。"
 
 #~ msgid ""
-#~ "Detect forest, trees and shrub vegetation from 0.6-0.3 m satellite imagery. "
-#~ "Covers sparse forest, shrubland, small tree groups and narrow tree lines."
+#~ "Detect forest, trees and shrub "
+#~ "vegetation from 0.6-0.3 m satellite "
+#~ "imagery. Covers sparse forest, shrubland, "
+#~ "small tree groups and narrow tree "
+#~ "lines."
 #~ msgstr "从 0.6-0.3 m 卫星图像检测森林、树木和灌木植被。覆盖稀疏的森林、灌木丛、小乔木群和狭窄的林线。"
 
 #~ msgid ""
-#~ "The model is trained on high-resolution data (0.6-0.3m) for different areas "
-#~ "and climate zones."
+#~ "The model is trained on high-"
+#~ "resolution data (0.6-0.3m) for different "
+#~ "areas and climate zones."
 #~ msgstr "该模型根据不同地区和气候带的高分辨率数据（0.6-0.3m）进行训练。"
 
 #~ msgid ""
-#~ "The result includes all areas covered with tree and shrub vegetation, "
+#~ "The result includes all areas covered"
+#~ " with tree and shrub vegetation, "
 #~ "including sparse forest and shrublands."
 #~ msgstr "结果包括所有树木和灌木植被覆盖的区域，包括稀疏的森林和灌木丛。"
 
 #~ msgid ""
-#~ "Model resolution allows to detect small group of trees and narrow tree "
+#~ "Model resolution allows to detect small"
+#~ " group of trees and narrow tree "
 #~ "lines."
 #~ msgstr "模型分辨率允许检测小群树木和狭窄的树线。"
 
 #~ msgid ""
-#~ "The model is robust to region change, and performs well in most "
-#~ "environments, including urban. The image should be taken in active "
-#~ "vegetation period, because leafless trees or vegetation covered with snow "
-#~ "are not the target class."
+#~ "The model is robust to region "
+#~ "change, and performs well in most "
+#~ "environments, including urban. The image "
+#~ "should be taken in active vegetation "
+#~ "period, because leafless trees or "
+#~ "vegetation covered with snow are not "
+#~ "the target class."
 #~ msgstr "该模型对区域变化具有鲁棒性，并且在包括城市在内的大多数环境中表现良好。图像应在植被活跃时期拍摄，因为无叶树木或被雪覆盖的植被不是目标类别。"
 
 #~ msgid "**Latest model tags** |:label:|"
@@ -890,19 +916,25 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "*高度估计* – 按高度类别进行森林掩模分类"
 
 #~ msgid ""
-#~ "*Tree crown polygons* - extracts tree crowns from forest vegetation as well "
-#~ "as free-standing trees, provides them as polygons"
+#~ "*Tree crown polygons* - extracts tree"
+#~ " crowns from forest vegetation as "
+#~ "well as free-standing trees, provides"
+#~ " them as polygons"
 #~ msgstr "*树冠多边形* - 从森林植被以及独立树木中提取树冠，将其作为多边形提供"
 
 #~ msgid ""
-#~ "*Tree crown points* - extracts tree crowns from forest vegetation as well as"
-#~ " free-standing trees, provides them as points"
+#~ "*Tree crown points* - extracts tree "
+#~ "crowns from forest vegetation as well"
+#~ " as free-standing trees, provides "
+#~ "them as points"
 #~ msgstr "*树冠点* - 从森林植被以及独立树木中提取树冠，将其作为点提供"
 
 #~ msgid ""
-#~ "We recommend using the **Tree crown** options with 0.3m resolution imagery "
-#~ "(~ 19 zoom) for the best results in case you need to detect individual "
-#~ "trees."
+#~ "We recommend using the **Tree crown**"
+#~ " options with 0.3m resolution imagery "
+#~ "(~ 19 zoom) for the best results"
+#~ " in case you need to detect "
+#~ "individual trees."
 #~ msgstr "我们建议使用具有 0.3m 分辨率图像（约 19 倍变焦）的 **树冠** 选项，以便在您需要检测单棵树时获得最佳结果。"
 
 #~ msgid "Forest Height classification follows the following classes:"
@@ -918,10 +950,13 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "森林高度超过10米；"
 
 #~ msgid ""
-#~ "This classification is used as a decision support for the vegetation "
-#~ "management in powerline zones, etc. See the `professional solutions by "
-#~ "Geoalert <https://geoalert.io/solutions/power>`_. The tresholds can be "
-#~ "customized depending on the requirements."
+#~ "This classification is used as a "
+#~ "decision support for the vegetation "
+#~ "management in powerline zones, etc. See"
+#~ " the `professional solutions by Geoalert"
+#~ " <https://geoalert.io/solutions/power>`_. The tresholds"
+#~ " can be customized depending on the"
+#~ " requirements."
 #~ msgstr ""
 #~ "此分类用作电力线区域植被管理等的决策支持。请参阅“Geoalert "
 #~ "的专业解决方案<https://geoalert.io/solutions/power>”_。阈值可以根据要求定制。"
@@ -942,14 +977,22 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "**具有高度的森林**蒙版的结果示例（光栅输出）"
 
 #~ msgid ""
-#~ "Latest update — **🌲 Forest and trees v.2026-07-03** (Global, Segmentation). "
-#~ "The model was evaluated on a validation set of 6 areas of interest (AOI) "
-#~ "against manually annotated ground truth. Metrics are area-based: IoU is the "
-#~ "intersection-over-union of the predicted and ground-truth vegetation masks, "
-#~ "and F1 / Precision / Recall are computed on the overlapping mask area."
+#~ "Latest update — **🌲 Forest and "
+#~ "trees v.2026-07-03** (Global, Segmentation). "
+#~ "The model was evaluated on a "
+#~ "validation set of 6 areas of "
+#~ "interest (AOI) against manually annotated "
+#~ "ground truth. Metrics are area-based:"
+#~ " IoU is the intersection-over-union"
+#~ " of the predicted and ground-truth"
+#~ " vegetation masks, and F1 / Precision"
+#~ " / Recall are computed on the "
+#~ "overlapping mask area."
 #~ msgstr ""
-#~ "最新更新 — **🌲 森林和树木 v.2026-07-03**（全局，细分）。该模型根据手动注释的基本事实在 6 个感兴趣区域 (AOI) "
-#~ "的验证集上进行评估。指标是基于区域的：IoU 是预测植被掩模和地面真实植被掩模的交并，并且 F1 / 精度 / 召回率是在重叠掩模区域上计算的。"
+#~ "最新更新 — **🌲 森林和树木 "
+#~ "v.2026-07-03**（全局，细分）。该模型根据手动注释的基本事实在 6 个感兴趣区域 (AOI)"
+#~ " 的验证集上进行评估。指标是基于区域的：IoU 是预测植被掩模和地面真实植被掩模的交并，并且 F1 "
+#~ "/ 精度 / 召回率是在重叠掩模区域上计算的。"
 
 #~ msgid "Italy — Crotone"
 #~ msgstr "意大利 — 克罗托内"
@@ -1090,39 +1133,55 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "*Area-based IoU / F1 / Precision / Recall measured against ground-truth "
-#~ "vegetation masks; evaluation run 2026-07-03. Compared with the previous "
-#~ "version v.2025-06-14 (mean F1 0.513, IoU 0.396).*"
+#~ "*Area-based IoU / F1 / Precision"
+#~ " / Recall measured against ground-"
+#~ "truth vegetation masks; evaluation run "
+#~ "2026-07-03. Compared with the previous "
+#~ "version v.2025-06-14 (mean F1 0.513, IoU"
+#~ " 0.396).*"
 #~ msgstr ""
-#~ "*根据地面实况植被掩模测量的基于区域的 IoU / F1 / 精度 / 召回率；评估运行时间为 2026 年 7 月 3 日。与之前版本 "
-#~ "v.2025-06-14 相比（平均 F1 0.513，IoU 0.396）。*"
+#~ "*根据地面实况植被掩模测量的基于区域的 IoU / F1 / 精度 "
+#~ "/ 召回率；评估运行时间为 2026 年 7 月 3 "
+#~ "日。与之前版本 v.2025-06-14 相比（平均 F1 0.513，IoU "
+#~ "0.396）。*"
 
 #~ msgid ""
-#~ "📊 See :doc:`per-location benchmark details <forest_benchmark_2026-07-03>` "
-#~ "for the area-by-area breakdown, including comparison with the previous "
-#~ "version and prediction-vs-ground-truth overlays."
+#~ "📊 See :doc:`per-location benchmark "
+#~ "details <forest_benchmark_2026-07-03>` for the "
+#~ "area-by-area breakdown, including "
+#~ "comparison with the previous version and"
+#~ " prediction-vs-ground-truth overlays."
 #~ msgstr ""
-#~ "📊 请参阅 :doc:`每个位置基准详细信息 <forest_benchmark_2026-07-03>` "
-#~ "了解逐个区域的细分，包括与之前版本的比较以及预测与真实情况叠加。"
+#~ "📊 请参阅 :doc:`每个位置基准详细信息 "
+#~ "<forest_benchmark_2026-07-03>` 了解逐个区域的细分，包括与之前版本的比较以及预测与真实情况叠加。"
 
 #~ msgid ""
-#~ "Extract road networks from 0.3-0.5 m satellite imagery. Multi-task learning "
-#~ "improves mask connectivity where roads are obscured by trees or buildings."
+#~ "Extract road networks from 0.3-0.5 m "
+#~ "satellite imagery. Multi-task learning "
+#~ "improves mask connectivity where roads "
+#~ "are obscured by trees or buildings."
 #~ msgstr "从 0.3-0.5 m 卫星图像中提取道路网络。多任务学习可改善道路被树木或建筑物遮挡的情况下的掩模连接性。"
 
 #~ msgid "Model for road segmentation in high resolution imagery (0.3 - 0.5 m)\\"
 #~ msgstr "高分辨率图像中的道路分割模型 (0.3 - 0.5 m)\\"
 
 #~ msgid ""
-#~ "The model is trained primarily for rural and suburban areas. Multi-task "
-#~ "learning is applied in order to improve the road mask connectivity, "
-#~ "especially in the spots obscured by trees or buildings. Best suited for "
-#~ "areas with low urbanization, and can fail in cities where wide roads with "
-#~ "sidewalks and complex crossroads are present. We extract the road central "
-#~ "line in order to decrease the clutter and optimize the extracted road "
-#~ "network, and then the road lines are inflated back to polygonal object."
-#~ msgstr ""
-#~ "该模型主要针对农村和郊区进行训练。应用多任务学习是为了提高道路掩模的连通性，特别是在被树木或建筑物遮挡的地方。最适合城市化程度较低的地区，但在有宽阔的道路、人行道和复杂的十字路口的城市中可能会失败。我们提取道路中心线以减少混乱并优化提取的道路网络，然后将道路线膨胀回多边形对象。"
+#~ "The model is trained primarily for "
+#~ "rural and suburban areas. Multi-task "
+#~ "learning is applied in order to "
+#~ "improve the road mask connectivity, "
+#~ "especially in the spots obscured by "
+#~ "trees or buildings. Best suited for "
+#~ "areas with low urbanization, and can "
+#~ "fail in cities where wide roads "
+#~ "with sidewalks and complex crossroads "
+#~ "are present. We extract the road "
+#~ "central line in order to decrease "
+#~ "the clutter and optimize the extracted"
+#~ " road network, and then the road "
+#~ "lines are inflated back to polygonal "
+#~ "object."
+#~ msgstr "该模型主要针对农村和郊区进行训练。应用多任务学习是为了提高道路掩模的连通性，特别是在被树木或建筑物遮挡的地方。最适合城市化程度较低的地区，但在有宽阔的道路、人行道和复杂的十字路口的城市中可能会失败。我们提取道路中心线以减少混乱并优化提取的道路网络，然后将道路线膨胀回多边形对象。"
 
 #~ msgid "In version 1.1 we added the road graph postprocessing:"
 #~ msgstr "在1.1版本中我们添加了道路图后处理："
@@ -1149,32 +1208,42 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "更复杂的环境——捷克共和国布拉格的城市领土"
 
 #~ msgid ""
-#~ "Run Buildings, Roads and Forest detection in a single Mapflow workflow and "
-#~ "get one topology-corrected GeoJSON output."
+#~ "Run Buildings, Roads and Forest "
+#~ "detection in a single Mapflow workflow"
+#~ " and get one topology-corrected "
+#~ "GeoJSON output."
 #~ msgstr "该管道将​​建筑物、森林和道路组合在一个工作流程中，并返回经过拓扑校正的 GeoJSON 输出。"
 
 #~ msgid ""
-#~ "This pipeline combines Buildings, Forest and Roads in a single workflow and "
-#~ "returns the topology-corrected GeoJSON output."
+#~ "This pipeline combines Buildings, Forest "
+#~ "and Roads in a single workflow and"
+#~ " returns the topology-corrected GeoJSON "
+#~ "output."
 #~ msgstr "该管道将​​建筑物、森林和道路组合在一个工作流程中，并返回经过拓扑校正的 GeoJSON 输出。"
 
 #~ msgid "Processing result of construction model"
 #~ msgstr "施工模型处理结果"
 
 #~ msgid ""
-#~ "Processing result sample for a combined scenario featuring Buidlings, Roads "
-#~ "and Forest models."
+#~ "Processing result sample for a combined"
+#~ " scenario featuring Buidlings, Roads and"
+#~ " Forest models."
 #~ msgstr "以建筑物、道路和森林模型为特征的组合场景的处理结果示例。"
 
 #~ msgid "Download Open Data"
 #~ msgstr "下载开放数据"
 
 #~ msgid ""
-#~ "In Mapflow, you can download open mapping data from OpenStreetMap and "
-#~ "Overture Maps. This pipeline **does not use any AI model**. It is designed "
-#~ "to support your mapping projects with community-maintained open data."
+#~ "In Mapflow, you can download open "
+#~ "mapping data from OpenStreetMap and "
+#~ "Overture Maps. This pipeline **does not"
+#~ " use any AI model**. It is "
+#~ "designed to support your mapping "
+#~ "projects with community-maintained open "
+#~ "data."
 #~ msgstr ""
-#~ "在 Mapflow 中，您可以从 OpenStreetMap 和 Overture Maps "
+#~ "在 Mapflow 中，您可以从 OpenStreetMap 和 "
+#~ "Overture Maps "
 #~ "下载开放地图数据。该管道**不使用任何人工智能模型**。它旨在通过社区维护的开放数据支持您的测绘项目。"
 
 #~ msgid "Select one or more semantic classes and run the workflow."
@@ -1190,115 +1259,157 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "**获取结果和图像预览（在Web应用程序或QGIS项目中）**"
 
 #~ msgid ""
-#~ "Results depend on the availability and completeness of open mapping data in "
-#~ "your area of interest. You can use it alongside AI-mapping results as a "
-#~ "complementary source."
+#~ "Results depend on the availability and"
+#~ " completeness of open mapping data in"
+#~ " your area of interest. You can "
+#~ "use it alongside AI-mapping results "
+#~ "as a complementary source."
 #~ msgstr "结果取决于您感兴趣的区域中开放地图数据的可用性和完整性。您可以将其与 AI 绘图结果一起用作补充来源。"
 
 #~ msgid ""
-#~ "You have to select an image source the same way as for AI-mapping pipelines."
-#~ " Note that the results may not be well aligned with the image, because the "
-#~ "data comes from an external open data source. The image is provided only for"
-#~ " visual reference, so you can decide whether you need to apply edits or run "
-#~ "a Mapflow model to complement the results."
+#~ "You have to select an image source"
+#~ " the same way as for AI-mapping"
+#~ " pipelines. Note that the results may"
+#~ " not be well aligned with the "
+#~ "image, because the data comes from "
+#~ "an external open data source. The "
+#~ "image is provided only for visual "
+#~ "reference, so you can decide whether "
+#~ "you need to apply edits or run "
+#~ "a Mapflow model to complement the "
+#~ "results."
 #~ msgstr ""
 #~ "您必须以与 AI "
-#~ "映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行 "
-#~ "Mapflow 模型来补充结果。"
+#~ "映射管道相同的方式选择图像源。请注意，结果可能与图像不太一致，因为数据来自外部开放数据源。该图像仅供视觉参考，因此您可以决定是否需要应用编辑或运行"
+#~ " Mapflow 模型来补充结果。"
 
 #~ msgid "There are several options of model customization in Mapflow."
 #~ msgstr "Mapflow 中有多种模型定制选项。"
 
 #~ msgid ""
-#~ "You request access to a specific model based on your use case and data, and "
-#~ "we train it for you and connect it to Mapflow."
+#~ "You request access to a specific "
+#~ "model based on your use case and"
+#~ " data, and we train it for you"
+#~ " and connect it to Mapflow."
 #~ msgstr "您根据您的用例和数据请求访问特定模型，我们会为您进行训练并将其连接到 Mapflow。"
 
 #~ msgid ""
-#~ "You choose one of the pre-trained models that are not included in the "
-#~ "standard Mapflow pipelines and test it with your data or on your area to "
-#~ "decide if it's applicable or requires additional training."
+#~ "You choose one of the pre-trained"
+#~ " models that are not included in "
+#~ "the standard Mapflow pipelines and test"
+#~ " it with your data or on your"
+#~ " area to decide if it's applicable"
+#~ " or requires additional training."
 #~ msgstr "您选择标准 Mapflow 管道中未包含的预训练模型之一，并使用您的数据或在您的区域进行测试，以确定它是否适用或需要额外的培训。"
 
 #~ msgid ""
-#~ "You train your own model with custom data and request our support to connect"
-#~ " it to your account to leverage your model with the Mapflow workflow engine."
+#~ "You train your own model with "
+#~ "custom data and request our support "
+#~ "to connect it to your account to"
+#~ " leverage your model with the Mapflow"
+#~ " workflow engine."
 #~ msgstr "您使用自定义数据训练您自己的模型，并请求我们的支持将其连接到您的帐户，以便通过 Mapflow 工作流引擎利用您的模型。"
 
 #~ msgid ""
-#~ "Below is the list of custom models created for specific use cases and "
-#~ "available in Mapflow by request (to be updated)."
+#~ "Below is the list of custom models"
+#~ " created for specific use cases and"
+#~ " available in Mapflow by request (to"
+#~ " be updated)."
 #~ msgstr "以下是为特定用例创建的自定义模型列表，并可根据请求在 Mapflow 中使用（待更新）。"
 
 #~ msgid ""
-#~ "Detect construction sites and buildings under construction in satellite "
-#~ "imagery. Available as a custom Mapflow model on request."
+#~ "Detect construction sites and buildings "
+#~ "under construction in satellite imagery. "
+#~ "Available as a custom Mapflow model "
+#~ "on request."
 #~ msgstr "在卫星图像中检测建筑工地和在建建筑物。可根据要求作为定制 Mapflow 模型提供。"
 
 #~ msgid ""
-#~ "This model outlines the areas in the satellite image that contain "
-#~ "construction sites and buildings under construction. The current model "
-#~ "dataset is limited to some countries and the work of extending it is in "
+#~ "This model outlines the areas in "
+#~ "the satellite image that contain "
+#~ "construction sites and buildings under "
+#~ "construction. The current model dataset "
+#~ "is limited to some countries and "
+#~ "the work of extending it is in "
 #~ "progress."
 #~ msgstr "该模型概述了卫星图像中包含建筑工地和在建建筑物的区域。当前的模型数据集仅限于某些国家，扩展工作正在进行中。"
 
 #~ msgid ""
-#~ "Processing result sample for a rapidly developing area with construction "
-#~ "sites"
+#~ "Processing result sample for a rapidly"
+#~ " developing area with construction sites"
 #~ msgstr "快速发展的建筑工地区域的处理结果样本"
 
 #~ msgid ""
-#~ "Detect building roofs in terraced and densely built areas typical of the "
-#~ "Middle East and Africa. Available as a custom Mapflow model on request."
+#~ "Detect building roofs in terraced and"
+#~ " densely built areas typical of the"
+#~ " Middle East and Africa. Available as"
+#~ " a custom Mapflow model on request."
 #~ msgstr "检测中东和非洲典型的梯田和密集建筑区域的建筑屋顶。可根据要求作为定制 Mapflow 模型提供。"
 
 #~ msgid ""
-#~ "This model has been deprecated as default one and moved to custom. it's "
-#~ "available only by request."
+#~ "This model has been deprecated as "
+#~ "default one and moved to custom. "
+#~ "it's available only by request."
 #~ msgstr "此模型已被弃用作为默认模型并移至自定义模型。它只能根据要求提供。"
 
 #~ msgid ""
-#~ "The “high-density housing” AI model is designed for areas with terraced or "
-#~ "otherwise densely built buildings, common in the Middle East, parts of "
-#~ "Africa, etc. This model, just like the regular building model, detects the "
-#~ "building roofs. Firstly, the building blocks are segmented as a whole, and "
-#~ "then each block is attempted to be devided into individual houses based on "
-#~ "the detection of individual roof markers with rectangular grid or Voronoi "
-#~ "diagram."
-#~ msgstr ""
-#~ "“高密度住宅”AI模型是为有梯田或其他密集建筑的地区而设计的，常见于中东、非洲部分地区等。该模型与常规建筑模型一样，会检测建筑物的屋顶。首先，将建筑块作为一个整体进行分割，然后根据矩形网格或Voronoi图检测各个屋顶标记，尝试将每个块划分为单独的房屋。"
+#~ "The “high-density housing” AI model "
+#~ "is designed for areas with terraced "
+#~ "or otherwise densely built buildings, "
+#~ "common in the Middle East, parts "
+#~ "of Africa, etc. This model, just "
+#~ "like the regular building model, detects"
+#~ " the building roofs. Firstly, the "
+#~ "building blocks are segmented as a "
+#~ "whole, and then each block is "
+#~ "attempted to be devided into individual"
+#~ " houses based on the detection of "
+#~ "individual roof markers with rectangular "
+#~ "grid or Voronoi diagram."
+#~ msgstr "“高密度住宅”AI模型是为有梯田或其他密集建筑的地区而设计的，常见于中东、非洲部分地区等。该模型与常规建筑模型一样，会检测建筑物的屋顶。首先，将建筑块作为一个整体进行分割，然后根据矩形网格或Voronoi图检测各个屋顶标记，尝试将每个块划分为单独的房屋。"
 
 #~ msgid ""
-#~ "Processing result sample for dense urban development area (Tunisia, Africa):"
+#~ "Processing result sample for dense urban"
+#~ " development area (Tunisia, Africa):"
 #~ msgstr "密集城市发展区（突尼斯、非洲）的处理结果样本："
 
 #~ msgid "Processing result of high-density housing model"
 #~ msgstr "高密度住宅模型处理结果"
 
 #~ msgid ""
-#~ "High-density buildings model, instance segmentation and post-processing with"
-#~ " grid options"
+#~ "High-density buildings model, instance "
+#~ "segmentation and post-processing with "
+#~ "grid options"
 #~ msgstr "高密度建筑模型、实例分割和带有网格选项的后处理"
 
 #~ msgid ""
-#~ "Segment agricultural fields and delineate field boundaries from 1-1.2 m "
-#~ "satellite imagery. Trained for Europe and Russia; available as a custom "
-#~ "model."
+#~ "Segment agricultural fields and delineate "
+#~ "field boundaries from 1-1.2 m satellite"
+#~ " imagery. Trained for Europe and "
+#~ "Russia; available as a custom model."
 #~ msgstr "根据 1-1.2 m 卫星图像分割农田并划定农田边界。为欧洲和俄罗斯接受培训；可作为定制模型。"
 
 #~ msgid ""
-#~ "This model has been deprecated as default one and moved to custom. it's "
-#~ "available by request."
+#~ "This model has been deprecated as "
+#~ "default one and moved to custom. "
+#~ "it's available by request."
 #~ msgstr "此模型已被弃用作为默认模型并移至自定义模型。可根据要求提供。"
 
 #~ msgid ""
-#~ "Model for fields segmentation allows to detect the agricultural fields and "
-#~ "delineate the nearby fields from each other, if there is a visual boundary "
-#~ "(forest line, road, different crop stage). The model is trained on the high "
-#~ "resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
-#~ "with larger fields with active vegetation. Smaller and terrace fields "
-#~ "(typical for Asia) are delineated not so good. Fields without vegetation, "
-#~ "especially in winter period, are not target class."
+#~ "Model for fields segmentation allows to"
+#~ " detect the agricultural fields and "
+#~ "delineate the nearby fields from each"
+#~ " other, if there is a visual "
+#~ "boundary (forest line, road, different "
+#~ "crop stage). The model is trained "
+#~ "on the high resolution data (1-1.2 "
+#~ "m), primarily for Europe, Russia. It "
+#~ "performs better with larger fields with"
+#~ " active vegetation. Smaller and terrace "
+#~ "fields (typical for Asia) are delineated"
+#~ " not so good. Fields without "
+#~ "vegetation, especially in winter period, "
+#~ "are not target class."
 #~ msgstr ""
 #~ "如果存在视觉边界（林线、道路、不同作物阶段），田地分割模型可以检测农田并相互划分附近的田地。该模型基于高分辨率数据（1-1.2 "
 #~ "m）进行训练，主要针对欧洲、俄罗斯。它在植被活跃的较大田地中表现更好。较小的梯田（亚洲典型）的轮廓不太好。没有植被的田地，特别是在冬季，不属于目标类别。"
@@ -1313,53 +1424,68 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "亚洲（印度北部）的处理结果样本"
 
 #~ msgid ""
-#~ "Segment Anything adapted for large-scale satellite imagery workflows in "
-#~ "Mapflow. Universal segmentation, available as a custom model on request."
+#~ "Segment Anything adapted for large-scale"
+#~ " satellite imagery workflows in Mapflow."
+#~ " Universal segmentation, available as a "
+#~ "custom model on request."
 #~ msgstr "对适用于 Mapflow 中的大规模卫星图像工作流程的任何内容进行分段。通用细分，可根据要求作为定制模型提供。"
 
 #~ msgid "✨ Segment Anything v1 (CUSTOM)"
 #~ msgstr "✨ 分段任何内容 v1（自定义）"
 
 #~ msgid ""
-#~ "The “Segment Anything” (originaly introduced by Meta as *universal "
-#~ "segmentation model*) is available as yet another experimental model in "
-#~ "Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There "
-#~ "are the same steps required to launch this model:"
+#~ "The “Segment Anything” (originaly introduced"
+#~ " by Meta as *universal segmentation "
+#~ "model*) is available as yet another "
+#~ "experimental model in Mapflow. We "
+#~ "adjusted it to Mapflow workflows to "
+#~ "be used on a scale. There are "
+#~ "the same steps required to launch "
+#~ "this model:"
 #~ msgstr ""
-#~ "“Segment Anything”（最初由 Meta 作为 *通用分割模型* 引入）可作为 Mapflow 中的另一个实验模型。我们将其调整为 "
-#~ "Mapflow 工作流程，以便大规模使用。启动此模型需要执行相同的步骤："
+#~ "“Segment Anything”（最初由 Meta 作为 *通用分割模型* "
+#~ "引入）可作为 Mapflow 中的另一个实验模型。我们将其调整为 Mapflow "
+#~ "工作流程，以便大规模使用。启动此模型需要执行相同的步骤："
 
 #~ msgid "Select your data source"
 #~ msgstr "选择您的数据源"
 
 #~ msgid ""
-#~ "Select your geographical area - either polygon, GeoJSON file, or your image "
-#~ "extent"
+#~ "Select your geographical area - either"
+#~ " polygon, GeoJSON file, or your image"
+#~ " extent"
 #~ msgstr "选择您的地理区域 - 多边形、GeoJSON 文件或图像范围"
 
 #~ msgid "Yet there is one difference in the model workflow:"
 #~ msgstr "然而模型工作流程有一个区别："
 
 #~ msgid ""
-#~ "if you run this model using GTIFF file — the original resolution of the "
-#~ "image will be used"
+#~ "if you run this model using GTIFF"
+#~ " file — the original resolution of"
+#~ " the image will be used"
 #~ msgstr "如果您使用 GTIFF 文件运行此模型 — 将使用图像的原始分辨率"
 
 #~ msgid ""
-#~ "if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need"
-#~ " to select the Zoom level (image resolution) from the model options which "
-#~ "will be used for the input"
+#~ "if you run it via TMS (e.g. "
+#~ ":ref:`Imagery` like Mapbox Satellite) — "
+#~ "you need to select the Zoom level"
+#~ " (image resolution) from the model "
+#~ "options which will be used for the"
+#~ " input"
 #~ msgstr ""
-#~ "如果您通过 TMS 运行它（例如 :ref:`Imagery` 像 Mapbox "
-#~ "Satellite） — 您需要从模型选项中选择用于输入的缩放级别（图像分辨率）"
+#~ "如果您通过 TMS 运行它（例如 :ref:`Imagery` 像 Mapbox"
+#~ " Satellite） — 您需要从模型选项中选择用于输入的缩放级别（图像分辨率）"
 
 #~ msgid "SAM options - zoom levels"
 #~ msgstr "SAM 选项 - 缩放级别"
 
 #~ msgid ""
-#~ "Depending on the input resolution, the SAM model will interpret and generate"
-#~ " different results. It can be empirically classified by mapping classes "
-#~ "depending on the zoom levels as follows:"
+#~ "Depending on the input resolution, the"
+#~ " SAM model will interpret and "
+#~ "generate different results. It can be"
+#~ " empirically classified by mapping classes"
+#~ " depending on the zoom levels as "
+#~ "follows:"
 #~ msgstr "根据输入分辨率，SAM 模型将解释并生成不同的结果。可以根据缩放级别通过映射类对它进行经验分类，如下所示："
 
 #~ msgid "ZOOM LEVELS"
@@ -1402,32 +1528,45 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "例如。结果 – SAM（缩放 18）"
 
 #~ msgid ""
-#~ "E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons "
-#~ "are not very accurate and some target objects are missing, but the overall "
-#~ "result is relevant and can be used for more accurate mapping."
-#~ msgstr ""
-#~ "例如。结果 – 航空图像上的 SAM（变焦 20），单棵树。有些多边形不是很准确，有些目标对象丢失，但总体结果是相关的，可以用于更准确的映射。"
+#~ "E.g. Result – SAM on aerial "
+#~ "imagery (zoom 20), single trees. Some"
+#~ " polygons are not very accurate and"
+#~ " some target objects are missing, but"
+#~ " the overall result is relevant and"
+#~ " can be used for more accurate "
+#~ "mapping."
+#~ msgstr "例如。结果 – 航空图像上的 SAM（变焦 20），单棵树。有些多边形不是很准确，有些目标对象丢失，但总体结果是相关的，可以用于更准确的映射。"
 
 #~ msgid ""
-#~ "E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to "
-#~ "small similar-pattern objects, requires some manual filtering of the model's"
-#~ " output."
+#~ "E.g. Result – SAM on  aerial "
+#~ "imagery (zoom 20), containers. Applicable "
+#~ "to small similar-pattern objects, "
+#~ "requires some manual filtering of the"
+#~ " model's output."
 #~ msgstr "例如。结果 – 航空图像（变焦 20）、集装箱上的 SAM。适用于小型相似图案对象，需要对模型的输出进行一些手动过滤。"
 
 #~ msgid ""
-#~ "❗️ SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
-#~ "list of default models, as the zoom options are not enabled in the current "
-#~ "plugin’s design. Yet if you work in QGIS and want to try SAM there — send us"
-#~ " a request and we will connect corresponding workflow scenarios with all "
+#~ "❗️ SAM is not provided in "
+#~ ":doc:`Mapfow for QGIS <../../api/qgis_mapflow>` "
+#~ "list of default models, as the "
+#~ "zoom options are not enabled in "
+#~ "the current plugin’s design. Yet if "
+#~ "you work in QGIS and want to "
+#~ "try SAM there — send us a "
+#~ "request and we will connect "
+#~ "corresponding workflow scenarios with all "
 #~ "zoom options specified."
 #~ msgstr ""
-#~ "❗️ :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` 默认模型列表中未提供 "
-#~ "SAM，因为当前插件的设计中未启用缩放选项。然而，如果您在 QGIS 工作并想在那里尝试 SAM — "
-#~ "向我们发送请求，我们将使用指定的所有缩放选项连接相应的工作流程场景。"
+#~ "❗️ :doc:`Mapfow for QGIS "
+#~ "<../../api/qgis_mapflow>` 默认模型列表中未提供 "
+#~ "SAM，因为当前插件的设计中未启用缩放选项。然而，如果您在 QGIS 工作并想在那里尝试 SAM "
+#~ "— 向我们发送请求，我们将使用指定的所有缩放选项连接相应的工作流程场景。"
 
 #~ msgid ""
-#~ "Detect and classify swimming pools in high-resolution aerial imagery at zoom"
-#~ " level 19. Benchmark F1 above 0.95. Available as a custom model."
+#~ "Detect and classify swimming pools in"
+#~ " high-resolution aerial imagery at "
+#~ "zoom level 19. Benchmark F1 above "
+#~ "0.95. Available as a custom model."
 #~ msgstr "在缩放级别 19 的高分辨率航拍图像中检测和分类游泳池。基准 F1 高于 0.95。可作为定制型号提供。"
 
 #~ msgid "Swimming pools (CUSTOM)"
@@ -1437,9 +1576,11 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr "该型号可根据要求提供。"
 
 #~ msgid ""
-#~ "Swimming pools detection and classification. The model is trained on the "
-#~ "high resolution aerial imagery (working zoom level 19). The testing "
-#~ "benchmark score is ``F1 > 0.95``."
+#~ "Swimming pools detection and classification."
+#~ " The model is trained on the "
+#~ "high resolution aerial imagery (working "
+#~ "zoom level 19). The testing benchmark"
+#~ " score is ``F1 > 0.95``."
 #~ msgstr "游泳池检测和分类。该模型在高分辨率航空图像（工作缩放级别 19）上进行训练。测试基准分数为“F1 > 0.95”。"
 
 #~ msgid "Model name"
@@ -1467,31 +1608,41 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Read more <https://medium.com/geoalert-platform-urban-monitoring/how-we-"
-#~ "approached-a-foundational-model-and-ended-up-with-a-detector-a-real-use-"
-#~ "case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_"
-#~ " about the use cases and the model application"
+#~ "`Read more <https://medium.com/geoalert-platform-"
+#~ "urban-monitoring/how-we-approached-a"
+#~ "-foundational-model-and-ended-up-"
+#~ "with-a-detector-a-real-use-case-"
+#~ "b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_"
+#~ " about the use cases and the "
+#~ "model application"
 #~ msgstr ""
-#~ "`阅读更多<https://medium.com/geoalert-platform-urban-monitoring/how-we-"
-#~ "approached-a-foundational-model-and-ending-up-with-a- detector-a-real-use-"
-#~ "case-b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_用例和模型应用"
+#~ "`阅读更多<https://medium.com/geoalert-platform-urban-"
+#~ "monitoring/how-we-approached-a-foundational-"
+#~ "model-and-ending-up-with-a- detector-a"
+#~ "-real-use-case-"
+#~ "b754059650e8?source=friends_link&sk=e46d38b56760d47b8ad0cfa410c2f0dc>`_用例和模型应用"
 
 #~ msgid ""
-#~ "Detect photovoltaic panels on rooftops and on the ground from aerial imagery"
-#~ " at zoom 19-21. Benchmark F1 above 0.87. Available on request."
+#~ "Detect photovoltaic panels on rooftops "
+#~ "and on the ground from aerial "
+#~ "imagery at zoom 19-21. Benchmark F1 "
+#~ "above 0.87. Available on request."
 #~ msgstr "从变焦 19-21 的航空图像中检测屋顶和地面上的光伏板。基准F1高于0.87。可根据要求提供。"
 
 #~ msgid "|:sunny:| Solar panels (CUSTOM)"
 #~ msgstr "|:晴朗:|太阳能电池板（定制）"
 
 #~ msgid ""
-#~ "Solar panels is a model trained for detecton of Photovoltaic elements using "
-#~ "aerial imagery (working zoom levels 19-21). It's capable of detection PV "
-#~ "elements both on the rooftops and on the ground. The testing benchmark score"
-#~ " is ``F1 > 0.87``."
+#~ "Solar panels is a model trained "
+#~ "for detecton of Photovoltaic elements "
+#~ "using aerial imagery (working zoom "
+#~ "levels 19-21). It's capable of detection"
+#~ " PV elements both on the rooftops "
+#~ "and on the ground. The testing "
+#~ "benchmark score is ``F1 > 0.87``."
 #~ msgstr ""
-#~ "太阳能电池板是一个经过训练的模型，用于使用航空图像（工作缩放级别 19-21）检测光伏元件。它能够检测屋顶和地面上的光伏元件。测试基准分数为“F1 > "
-#~ "0.87”。"
+#~ "太阳能电池板是一个经过训练的模型，用于使用航空图像（工作缩放级别 "
+#~ "19-21）检测光伏元件。它能够检测屋顶和地面上的光伏元件。测试基准分数为“F1 > 0.87”。"
 
 #~ msgid "Detector + segmentator"
 #~ msgstr "探测器+分割器"
@@ -1522,3 +1673,37 @@ msgstr ":doc:`所有 AI 制图模型 </userguides/pipelines>`"
 
 #~ msgid "Open data"
 #~ msgstr "开放数据"
+
+#~ msgid "Dense housing blocks split into individual houses"
+#~ msgstr "被拆分为单栋房屋的密集住宅街区"
+
+#~ msgid "High-density housing"
+#~ msgstr "高密度住宅"
+
+#~ msgid "Terraced and tightly packed blocks divided into individual houses."
+#~ msgstr "将联排及紧密排列的街区拆分为单栋房屋。"
+
+#~ msgid "Detailed building outlines on 10 cm aerial imagery"
+#~ msgstr "10 厘米航空影像上的精细建筑轮廓"
+
+#~ msgid "Buildings (Aerial)"
+#~ msgstr "建筑物（航空）"
+
+#~ msgid "Small buildings and detailed outlines from 15–10 cm aerial imagery."
+#~ msgstr "基于 15–10 厘米航空影像提取小型建筑和精细轮廓。"
+
+#~ msgid ":mf-icon:`credits` On request · zoom 20–21"
+#~ msgstr ":mf-icon:`credits` 需申请 · 缩放级别 20–21"
+
+#~ msgid "Segment Anything polygons over farmland"
+#~ msgstr "农田上的 Segment Anything 多边形"
+
+#~ msgid "Segment Anything"
+#~ msgstr "Segment Anything"
+
+#~ msgid "Universal segmentation. The zoom level decides what you get."
+#~ msgstr "通用分割。输出内容取决于缩放级别。"
+
+#~ msgid ":mf-icon:`credits` On request · zoom 14–20"
+#~ msgstr ":mf-icon:`credits` 需申请 · 缩放级别 14–20"
+

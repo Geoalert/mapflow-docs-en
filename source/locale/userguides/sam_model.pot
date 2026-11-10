@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 18:50+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../userguides/sam_model.rst:1
-#: c7ff9cb2b9e4426ca9bbc4d009f5f6c6
+#: ../userguides/sam_model.rst:3
+#: c053d77b3abd412bbc1c8ecd84e272ec
 msgid "Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request."
 msgstr ""
 
-#: ../userguides/sam_model.rst:7
+#: ../userguides/sam_model.rst:9
 #: 78a8410184fc4b028659ed163cda731b
 msgid "Segment Anything"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 56c2de87c9774255914b3c69b32c5fc1
 msgid ":mf-chip:`sam|Other objects` :mf-warn:`On request`"
 msgstr ""
@@ -36,77 +36,77 @@ msgstr ""
 msgid "Segment Anything polygons over farmland"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 4d1cb58b355d4f32b7a2140717217945
 msgid "Example result: SAM at zoom 16."
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 49b6631f78244a96acfb79801c9fda78
 msgid "Cost"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 6805cd1a558e45a28f2037ce39ad3788
 msgid "Priced per project"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 80ee3fd12863433887f4d7a66cc3e885
 msgid "Request access and we connect the model to your account."
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 5c9a9546b3124a9da158f2726c8e78c5
 msgid "Meta's universal segmentation model, adapted to Mapflow workflows. Zoom 14 outlines land use, large fields and water; zoom 16 small fields and large buildings; zoom 18 farms and groups of trees; zoom 19 and up houses, trees and vehicles."
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 4200c06652da404f8b2118aa1e597f88
 msgid "What you get"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: c063d6e95e7b4480abad3565616ca80b
 msgid "Polygons of whatever stands out at the chosen zoom."
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 2966f1f6d77746a3b1723a01827fbca5
 msgid "Works best with"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 8f8225e15da040c8961c9d2c45a8c61e
 msgid "Any RGB imagery. Choose the zoom in the run form."
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: a895b6f5c2544d7bbdf41dbc170377e4
 msgid "Usage examples"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 46549cb52aca4611be5ab7b0dd6fba6b
 msgid "Outline objects no standard model covers"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: bdc6c7b168b04cf0b9e7e9bf7993b60b
 msgid "Pre-segment imagery for manual labelling"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: df2ffe7f13bc46499da919bbdac8271e
 msgid "Explore a new area before choosing a model"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: d0a6c3fd97114b2fb244358204bf69d5
 msgid "`Request access <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 56bf53cf76ea47028136e1c86e1b9b68
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
 msgstr ""
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Geo domain"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: 32ea07207e904e2d8a15717acb9f034d
 msgid "Global"
 msgstr ""
@@ -126,7 +126,7 @@ msgstr ""
 msgid "Method"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: d4a73e172a0047dab050eb0965a3fb09
 msgid "Universal segmentation"
 msgstr ""
@@ -136,57 +136,57 @@ msgstr ""
 msgid "GSD / zoom"
 msgstr ""
 
-#: ../userguides/sam_model.rst:10
+#: ../userguides/sam_model.rst:12
 #: c451e676fb37415abb56d39e7a37c013
 msgid "z14–20"
 msgstr ""
 
-#: ../userguides/sam_model.rst:12
+#: ../userguides/sam_model.rst:14
 #: 58b51a35fc074d43b9e7d5f357703864
 msgid "This model is no longer a default model. It is available on request."
 msgstr ""
 
-#: ../userguides/sam_model.rst:15
+#: ../userguides/sam_model.rst:17
 #: acfcf98d774248debdca19d6ff9c406a
 msgid "How it works"
 msgstr ""
 
-#: ../userguides/sam_model.rst:17
+#: ../userguides/sam_model.rst:19
 #: f868cee71aec417a84bb07f19617b7c2
 msgid "The “Segment Anything” (originaly introduced by Meta as *universal segmentation model*) is available as yet another experimental model in Mapflow. We adjusted it to Mapflow workflows to be used on a scale. There are the same steps required to launch this model:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:19
+#: ../userguides/sam_model.rst:21
 #: cb7edc0b11364c28b86b19054c0a3362
 msgid "Select your data source"
 msgstr ""
 
-#: ../userguides/sam_model.rst:20
+#: ../userguides/sam_model.rst:22
 #: 03761c13c4bb48da9c0b0e199f998613
 msgid "Select your geographical area - either polygon, GeoJSON file, or your image extent"
 msgstr ""
 
-#: ../userguides/sam_model.rst:22
+#: ../userguides/sam_model.rst:24
 #: a149f9c487624d87814f8e8594e3de49
 msgid "Yet there is one difference in the model workflow:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:24
+#: ../userguides/sam_model.rst:26
 #: 156a0bc4e02c40839410608835a18948
 msgid "if you run this model using GTIFF file — the original resolution of the image will be used"
 msgstr ""
 
-#: ../userguides/sam_model.rst:25
+#: ../userguides/sam_model.rst:27
 #: 318708d28b9a47e3b05462179a628b9f
 msgid "if you run it via TMS (e.g. :ref:`Imagery` like Mapbox Satellite) — you need to select the Zoom level (image resolution) from the model options which will be used for the input"
 msgstr ""
 
 #: ../userguides/sam_model.rst:None
-#: ../userguides/sam_model.rst:57
-#: ../userguides/sam_model.rst:65
-#: ../userguides/sam_model.rst:73
-#: ../userguides/sam_model.rst:82
-#: ../userguides/sam_model.rst:90
+#: ../userguides/sam_model.rst:59
+#: ../userguides/sam_model.rst:67
+#: ../userguides/sam_model.rst:75
+#: ../userguides/sam_model.rst:84
+#: ../userguides/sam_model.rst:92
 #: e0c47f96ede04a1bb0567c6880dd620d
 #: f9c3772596ad48f8b1d68d41242e225b
 #: 41c19f3942ac4afaa942181325becdcb
@@ -196,112 +196,112 @@ msgstr ""
 msgid "SAM options - zoom levels"
 msgstr ""
 
-#: ../userguides/sam_model.rst:34
+#: ../userguides/sam_model.rst:36
 #: fd0e75bd1fa04950bf4c093cd2fce84a
 msgid "Depending on the input resolution, the SAM model will interpret and generate different results. It can be empirically classified by mapping classes depending on the zoom levels as follows:"
 msgstr ""
 
-#: ../userguides/sam_model.rst:40
+#: ../userguides/sam_model.rst:42
 #: 64c4077918c94304bd555b0519c6786c
 msgid "ZOOM LEVELS"
 msgstr ""
 
-#: ../userguides/sam_model.rst:41
+#: ../userguides/sam_model.rst:43
 #: c973b18c61944e61be2dc02350eea590
 msgid "SEMANTIC OBJECTS"
 msgstr ""
 
-#: ../userguides/sam_model.rst:42
+#: ../userguides/sam_model.rst:44
 #: 516198fb6b04446fb423a4a067f1fbc5
 msgid "14"
 msgstr ""
 
-#: ../userguides/sam_model.rst:43
+#: ../userguides/sam_model.rst:45
 #: 9c8cc24a100643f7845502faaf4be53c
 msgid "Land use, large agri fields, forests, parks, fields, bodies of water"
 msgstr ""
 
-#: ../userguides/sam_model.rst:44
+#: ../userguides/sam_model.rst:46
 #: 1db16cb459ea47cc8dfb7bf3436c9fea
 msgid "16"
 msgstr ""
 
-#: ../userguides/sam_model.rst:45
+#: ../userguides/sam_model.rst:47
 #: 3adbc1a8c9c347369821128236fd1429
 msgid "Small fields, large buildings, lawns, plots"
 msgstr ""
 
-#: ../userguides/sam_model.rst:46
+#: ../userguides/sam_model.rst:48
 #: cd33043e99114118b09af6146596e8b2
 msgid "18"
 msgstr ""
 
-#: ../userguides/sam_model.rst:47
+#: ../userguides/sam_model.rst:49
 #: d190db48ba104cfa90a4087a1bb35b18
 msgid "Farms, buildings, groups of trees, etc."
 msgstr ""
 
-#: ../userguides/sam_model.rst:48
+#: ../userguides/sam_model.rst:50
 #: 00f54fca3c9f43a2a0da70c318ea673c
 msgid "19+"
 msgstr ""
 
-#: ../userguides/sam_model.rst:49
+#: ../userguides/sam_model.rst:51
 #: bbe2625a48274f1f82b5170e17836b62
 msgid "Houses, trees, vehicles, roof structures, etc."
 msgstr ""
 
-#: ../userguides/sam_model.rst:57
+#: ../userguides/sam_model.rst:59
 #: 2c6d8222c63a4565a5764049cbeb2ac1
 msgid "E.g. Result – SAM (zoom 14)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:65
+#: ../userguides/sam_model.rst:67
 #: 4d1cb58b355d4f32b7a2140717217945
 msgid "E.g. Result – SAM (zoom 16)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:73
+#: ../userguides/sam_model.rst:75
 #: cb9036b2bbf04a8e88aa87e5fab7ad73
 msgid "E.g. Result – SAM (zoom 18)"
 msgstr ""
 
-#: ../userguides/sam_model.rst:82
+#: ../userguides/sam_model.rst:84
 #: 401ffa32832b453b9324f2456e32ebb6
 msgid "E.g. Result – SAM on aerial imagery (zoom 20), single trees. Some polygons are not very accurate and some target objects are missing, but the overall result is relevant and can be used for more accurate mapping."
 msgstr ""
 
-#: ../userguides/sam_model.rst:90
+#: ../userguides/sam_model.rst:92
 #: 9bd6ad95ec684ef1a788b45c2402adb6
 msgid "E.g. Result – SAM on  aerial imagery (zoom 20), containers. Applicable to small similar-pattern objects, requires some manual filtering of the model's output."
 msgstr ""
 
-#: ../userguides/sam_model.rst:93
+#: ../userguides/sam_model.rst:95
 #: 7a8cc7ad9d104ef785d758b71ae4276d
 msgid "SAM is not provided in :doc:`Mapfow for QGIS <../../api/qgis_mapflow>` list of default models, as the zoom options are not enabled in the current plugin’s design. Yet if you work in QGIS and want to try SAM there — send us a request and we will connect corresponding workflow scenarios with all zoom options specified."
 msgstr ""
 
-#: ../userguides/sam_model.rst:96
+#: ../userguides/sam_model.rst:98
 #: f31ab6e4381543688e8a171040e48fb1
 msgid "Need a different object?"
 msgstr ""
 
-#: ../userguides/sam_model.rst:96
+#: ../userguides/sam_model.rst:98
 #: eb95ebb2e7af462c88d35c064ea35e7e
 msgid "We train custom models on your imagery and classes, and connect them to your Mapflow account."
 msgstr ""
 
-#: ../userguides/sam_model.rst:96
+#: ../userguides/sam_model.rst:98
 #: 1e3ef4de15e046efbb9dbc41cbec8524
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
 msgstr ""
 
-#: ../userguides/sam_model.rst:96
+#: ../userguides/sam_model.rst:98
 #: dddf5e38872f474e8409e5e3e609d1fd
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
 msgstr ""
 
-#: ../userguides/sam_model.rst:96
+#: ../userguides/sam_model.rst:98
 #: 1a2a5ed824c94e7d9de02e36746c1c75
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ""

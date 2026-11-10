@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2025-11-16 21:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../api/error_messages.rst:4 0c306d9f1cbe4cb2a332418e96d46ef9
@@ -25,8 +25,8 @@ msgstr "API 中的错误消息"
 
 #: ../api/error_messages.rst:6 9380430ac3814f719e857e5ccf6795ad
 msgid ""
-"List of messages and params that can be found in the ``messages`` section in"
-" case of the failed processings"
+"List of messages and params that can be found in the ``messages`` section"
+" in case of the failed processings"
 msgstr "处理失败时可以在“``messages``”部分找到的消息和参数列表"
 
 #: ../api/_static/csv/errors.csv:1 92c2bf5c02eb495c8f945d11fa880619
@@ -133,8 +133,9 @@ msgstr "网址"
 
 #: ../api/_static/csv/errors.csv:1 4a894addee6b41debcb45782bc6a9d15
 msgid ""
-"The specified basemap {url} is forbidden for processing because it contains "
-"a map, not satellite image. Our models are suited for satellite imagery."
+"The specified basemap {url} is forbidden for processing because it "
+"contains a map, not satellite image. Our models are suited for satellite "
+"imagery."
 msgstr "禁止处理指定的底图 {url}，因为它包含地图，而不是卫星图像。我们的模型适用于卫星图像。"
 
 #: ../api/_static/csv/errors.csv:1 731b8e51163646658415c56317193e03
@@ -229,7 +230,7 @@ msgstr "源验证器.NChannelsNotAllowed"
 
 #: ../api/_static/csv/errors.csv:1 2d90bd2ef8fb465cb75e12f78d3f0127
 msgid "required_nchannels, real_nchannels"
-msgstr ""
+msgstr "required_nchannels, real_nchannels"
 
 #: ../api/_static/csv/errors.csv:1 158b1906c4374de8a80b5f2f415c8fcc
 msgid ""
@@ -275,8 +276,8 @@ msgstr "check_param、消息、元数据"
 
 #: ../api/_static/csv/errors.csv:1 de811c14a7844f38a8b82a733870fb83
 msgid ""
-"Error occurred during image {checked_param} check: {message}. Image metadata"
-" = {metadata}."
+"Error occurred during image {checked_param} check: {message}. Image "
+"metadata = {metadata}."
 msgstr "图片 {checked_pa​​ram} 检查期间发生错误：{message}。图像元数据 = {元数据}。"
 
 #: ../api/_static/csv/errors.csv:1 7ef7927fc7864504bb1d59f2ca9a4e04
@@ -358,8 +359,8 @@ msgstr "源验证器.TMSLinkFormatError"
 #: ../api/_static/csv/errors.csv:1 5f178a78968d41b99c8084bfb8008e25
 msgid ""
 "You request TMS basemap link doesn’t match the format, it must be a link "
-"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start processing"
-" again."
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders, correct it and start "
+"processing again."
 msgstr "您请求的 TMS 底图链接与格式不匹配，它必须是包含‘{x}’、‘{y}’、‘{z}’占位符的链接，请更正并重新开始处理。"
 
 #: ../api/_static/csv/errors.csv:1 23eb052a2fcd4ed2ac67699046591a04
@@ -403,8 +404,7 @@ msgid "source_type, allowed_sources"
 msgstr "源类型、允许的源"
 
 #: ../api/_static/csv/errors.csv:1 a29777145bc44f8a96a98a952e3849f7
-msgid ""
-"Source type {source_type} is not allowed. Use one of: {allowed_sources}"
+msgid "Source type {source_type} is not allowed. Use one of: {allowed_sources}"
 msgstr "不允许源类型 {source_type}。使用以下之一：{allowed_sources}"
 
 #: ../api/_static/csv/errors.csv:1 2e714847fca4438d90b8675669c49ac1
@@ -441,8 +441,8 @@ msgstr "源验证器.XYZLinkFormatError"
 
 #: ../api/_static/csv/errors.csv:1 9057026584df47efbc4e472e7f6d3185
 msgid ""
-"You XYZ basemap link doesn’t match the format, it must be a link containing "
-"‘{x}’, ‘{y}’, ‘{z}’ placeholders."
+"You XYZ basemap link doesn’t match the format, it must be a link "
+"containing ‘{x}’, ‘{y}’, ‘{z}’ placeholders."
 msgstr "您的 XYZ 底图链接与格式不匹配，它必须是包含“{x}”、“{y}”、“{z}”占位符的链接。"
 
 #: ../api/_static/csv/errors.csv:1 c4fd0ae04b7c40ada7e711137a192a5b
@@ -462,8 +462,8 @@ msgstr "源验证器.UnhandledException"
 #: ../api/_static/csv/errors.csv:1 1d855e1df4d244aeb1a98a538ffc335e
 #: 404ed0134912429db6fbddfda447583b
 msgid ""
-"Internal error in process of data source validation. We are working on the "
-"fix, our support will contact you."
+"Internal error in process of data source validation. We are working on "
+"the fix, our support will contact you."
 msgstr "数据源验证过程中出现内部错误。我们正在努力修复，我们的支持人员将与您联系。"
 
 #: ../api/_static/csv/errors.csv:1 2541d9f53f0c403889956cd29f7da6ed
@@ -472,14 +472,14 @@ msgstr "源验证器.internalError"
 
 #: ../api/_static/csv/errors.csv:1 52d8a42c480948d880498a21bde3299e
 msgid "dataloader.internalError"
-msgstr ""
+msgstr "dataloader.internalError"
 
 #: ../api/_static/csv/errors.csv:1 0525cdfdc0cb436786998bd8c16a45c2
 #: 299523a549734cd19f59354b792cf78b 53c216d6784c45ccb0d5f41a6867721f
 #: 6c1becb91aaa42d289c3873f144e2614 8a290b38b8184b64b7eebba24d4af891
 msgid ""
-"Internal error in process of loading data. We are working on the fix, our "
-"support will contact you."
+"Internal error in process of loading data. We are working on the fix, our"
+" support will contact you."
 msgstr "加载数据过程中出现内部错误。我们正在努力修复，我们的支持人员将与您联系。"
 
 #: ../api/_static/csv/errors.csv:1 5a5d888462894a1da7a980a548fc8371
@@ -488,7 +488,7 @@ msgstr "数据加载器.内部错误"
 
 #: ../api/_static/csv/errors.csv:1 70270fa4f77d4545bd1e721b50b70ea8
 msgid "dataloader.UnknownSourceType"
-msgstr ""
+msgstr "dataloader.UnknownSourceType"
 
 #: ../api/_static/csv/errors.csv:1 ccf691e7402b4bada5c041fec4016ba6
 msgid "allowed_source_types, real_source_types"
@@ -502,7 +502,7 @@ msgstr "源类型 {real_source_type} 错误。指定允许的类型之一 {allow
 
 #: ../api/_static/csv/errors.csv:1 35d479caad544f65931fe6e25fcfcef7
 msgid "dataloader.MemoryLimitExceeded"
-msgstr ""
+msgstr "dataloader.MemoryLimitExceeded"
 
 #: ../api/_static/csv/errors.csv:1 e337b23c6d6d4e45bab4e99624c21286
 msgid "allowed_size, estimated_size"
@@ -516,7 +516,7 @@ msgstr "您的数据加载任务需要 {estimated_size} MB 内存，超出了允
 
 #: ../api/_static/csv/errors.csv:1 d9bcd4b6f7ae4ff6988f2024fd77a38f
 msgid "dataloader.LoaderArgsError"
-msgstr ""
+msgstr "dataloader.LoaderArgsError"
 
 #: ../api/_static/csv/errors.csv:1 9ac6b4a698074b56b4d5ba0d816047d0
 msgid "argument_name, argument_type, expected_type"
@@ -524,13 +524,13 @@ msgstr "参数名称、参数类型、预期类型"
 
 #: ../api/_static/csv/errors.csv:1 68e9e58beecf47ef8f449e7f90534e5f
 msgid ""
-"Dataloader argument {argument_name} has type {argument_type}, excpected to "
-"be {expected_type}"
+"Dataloader argument {argument_name} has type {argument_type}, excpected "
+"to be {expected_type}"
 msgstr "数据加载器参数 {argument_name} 的类型为 {argument_type}，预计为 {expected_type}"
 
 #: ../api/_static/csv/errors.csv:1 abd5aa6065024ca5acd26aec65903147
 msgid "dataloader.WrongChannelsNum"
-msgstr ""
+msgstr "dataloader.WrongChannelsNum"
 
 #: ../api/_static/csv/errors.csv:1 3d190f8e13714e59aeedf97c18f3af85
 msgid "expected_nchannels, real_nchannels"
@@ -544,20 +544,19 @@ msgstr "加载的图块有 {real_nchannels} 个频道，所需数量为 {expecte
 
 #: ../api/_static/csv/errors.csv:1 379007d2ed434337bcb42088d7f7c0eb
 msgid "dataloader.WrongTileSize"
-msgstr ""
+msgstr "dataloader.WrongTileSize"
 
 #: ../api/_static/csv/errors.csv:1 fd38bd344d5c448bb033ac6a64f98401
 msgid "expected_size, real_size"
 msgstr "预期大小、实际大小"
 
 #: ../api/_static/csv/errors.csv:1 d9bd0796047d48d68e55da65b2032ad6
-msgid ""
-"Loaded tile has size {real_size}, expected tile size is {expected_size}"
+msgid "Loaded tile has size {real_size}, expected tile size is {expected_size}"
 msgstr "加载的图块大小为 {real_size}，预期图块大小为 {expected_size}"
 
 #: ../api/_static/csv/errors.csv:1 31e08f464e4e4d898d8add9ebc2b6f1f
 msgid "dataloader.TileNotLoaded"
-msgstr ""
+msgstr "dataloader.TileNotLoaded"
 
 #: ../api/_static/csv/errors.csv:1 6bbfa32ff49d498fbdafea9e415bce7f
 msgid "tile_location, status"
@@ -571,15 +570,15 @@ msgstr "无法加载位置 {tile_location} 处的图块，服务器响应为 {st
 
 #: ../api/_static/csv/errors.csv:1 569bc50bc4d842f1ac11efba604c3b64
 msgid "dataloader.CrsIsNotSupported"
-msgstr ""
+msgstr "dataloader.CrsIsNotSupported"
 
 #: ../api/_static/csv/errors.csv:1 b08c3ade3c8848438cdff3a5cd82c399
 msgid "dataloader.MaploaderInternalError"
-msgstr ""
+msgstr "dataloader.MaploaderInternalError"
 
 #: ../api/_static/csv/errors.csv:1 80a60418868c4242972299e684bbc17c
 msgid "dataloader.SentinelLoaderInternalError"
-msgstr ""
+msgstr "dataloader.SentinelLoaderInternalError"
 
 #: ../api/_static/csv/errors.csv:1 14ffbba9fc444c829f55410367b31a7a
 msgid "raster-processor.internalError"
@@ -587,8 +586,8 @@ msgstr "光栅处理器.internalError"
 
 #: ../api/_static/csv/errors.csv:1 0fbb80d464b54bcb85863b8ec18bb997
 msgid ""
-"Internal error in process of data preparation. We are working on the fix, "
-"our support will contact you."
+"Internal error in process of data preparation. We are working on the fix,"
+" our support will contact you."
 msgstr "数据准备过程中出现内部错误。我们正在努力修复，我们的支持人员将与您联系。"
 
 #: ../api/_static/csv/errors.csv:1 c4afbaba21bd401e84756ea3264b8262
@@ -598,10 +597,11 @@ msgstr "推理.内部错误"
 #: ../api/_static/csv/errors.csv:1 807f7b0e2da04d58b88c09126134b2af
 #: eceb65684e42457f84c8a02aac81ab28
 msgid ""
-"Internal error in process of data processing. We are working on the fix, our"
-" support will contact you"
+"Internal error in process of data processing. We are working on the fix, "
+"our support will contact you"
 msgstr "数据处理过程中出现内部错误。我们正在努力修复，我们的支持人员将与您联系"
 
 #: ../api/_static/csv/errors.csv:1 cf92f64f718e4e78a2ba1bd3ddfa64fe
 msgid "vector-processor.internalError"
 msgstr "矢量处理器.internalError"
+

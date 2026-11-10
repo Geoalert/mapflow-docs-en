@@ -8,26 +8,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 12:33+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: 2024-04-19 13:20+0700\n"
 "Last-Translator: \n"
-"Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/agriculture_fields_model.rst:1
-#: 4d29c1de17b44d4d9780a471f2766d7d
+#: 5fa0d055e40d44a18642980c20311138
 msgid ""
 "Segment agricultural fields and delineate field boundaries from 1-1.2 m "
 "satellite imagery. Trained for Europe and Russia; available as a custom "
-"model."
+"model. Note: current model coverage is limited to specific geographic "
+"regions, test before taking it onto a large scale. Primary use cases: "
+"precision agriculture, crop fields delineation, land use analysis."
 msgstr ""
-"Сегментация сельскохозяйственных полей и выделение их границ на снимках "
-"1-1,2 м. Обучена для Европы и России; доступна как кастомная модель."
+"Сегментация сельскохозяйственных полей и выделение их границ по "
+"спутниковым снимкам 1–1,2 м. Обучена для Европы и России; доступна как "
+"пользовательская модель. Примечание: сейчас модель охватывает только "
+"отдельные регионы, поэтому протестируйте её перед масштабной обработкой. "
+"Основные сценарии: точное земледелие, выделение границ полей, анализ "
+"землепользования."
 
 #: ../userguides/agriculture_fields_model.rst:7
 #: e9be83259ab24179b174949aa8768a5b
@@ -70,8 +77,8 @@ msgid ""
 "visible boundary exists. Tuned for larger fields in Europe with active "
 "vegetation; small and terraced fields are harder."
 msgstr ""
-"Обнаруживает сельскохозяйственные поля и разделяет соседние поля там, где "
-"есть видимая граница. Настроена на крупные поля в Европе с активной "
+"Обнаруживает сельскохозяйственные поля и разделяет соседние поля там, где"
+" есть видимая граница. Настроена на крупные поля в Европе с активной "
 "вегетацией; мелкие и террасные поля даются труднее."
 
 #: ../userguides/agriculture_fields_model.rst:10
@@ -122,8 +129,7 @@ msgstr "`Запросить доступ <https://mapflow.ai/custom-models>`__"
 #: ../userguides/agriculture_fields_model.rst:10
 #: c686fb06f09c4a2181b59f8f5046ad5d
 msgid ":doc:`How custom models work </userguides/custom_pipelines>`"
-msgstr ""
-":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
+msgstr ":doc:`Как работают пользовательские модели </userguides/custom_pipelines>`"
 
 #: ../userguides/agriculture_fields_model.rst 4001ebeb82f6434d9d14130e1b7bf02b
 msgid "Geo domain"
@@ -156,8 +162,8 @@ msgstr "1.2–1 m"
 #: 9a4debb51e504ee387e688c0b928b403
 msgid "This model is no longer a default model. It is available on request."
 msgstr ""
-"Эта модель больше не входит в число моделей по умолчанию. Она доступна по "
-"запросу."
+"Эта модель больше не входит в число моделей по умолчанию. Она доступна по"
+" запросу."
 
 #: ../userguides/agriculture_fields_model.rst:15
 #: 344f36c1d9d34a7fb8be55b366e14354
@@ -168,20 +174,31 @@ msgstr "Как это работает"
 #: 05ffb415721c48e6a2b34be5f43d93ee
 msgid ""
 "The model detects agricultural fields and separates neighbouring fields "
-"where there is a visible boundary: a forest line, a road or a different crop"
-" stage. It is trained on 1–1.2 m imagery, mostly of Europe and Russia, and "
-"works best on larger fields with active vegetation. Small and terraced "
-"fields, typical for Asia, are delineated less well. Fields without "
-"vegetation, especially in winter, are not the target class."
+"where there is a visible boundary: a forest line, a road or a different "
+"crop stage. It is trained on 1–1.2 m imagery, mostly of Eastern Europe, "
+"and works best on larger fields with active vegetation. Small and "
+"terraced fields, typical for Asia, are delineated less well. Fields "
+"without vegetation, especially in winter, are not the target class."
 msgstr ""
-"Модель обнаруживает сельскохозяйственные поля и разделяет соседние поля там,"
-" где есть видимая граница: лесополоса, дорога или другая стадия роста "
-"культуры. Она обучена на снимках 1–1,2 м, в основном Европы и России, и "
-"лучше всего работает на крупных полях с активной вегетацией. Мелкие и "
-"террасные поля, типичные для Азии, выделяются хуже. Поля без растительности,"
-" особенно зимой, не являются целевым классом."
+"Модель обнаруживает сельскохозяйственные поля и разделяет соседние поля "
+"там, где есть видимая граница: лесополоса, дорога или другая стадия роста"
+" культуры. Она обучена на снимках 1–1,2 м, в основном Восточной Европы, и"
+" лучше всего работает на крупных полях с активной вегетацией. Мелкие и "
+"террасные поля, типичные для Азии, выделяются хуже. Поля без "
+"растительности, особенно зимой, не являются целевым классом."
 
-#: ../userguides/agriculture_fields_model.rst:24
+#: ../userguides/agriculture_fields_model.rst:23
+#: b1695668cc10466c90e761367009f636
+msgid ""
+"Use it for precision agriculture, crop field delineation and land use "
+"analysis. Coverage is limited to specific regions, so test the model on a"
+" small area before you run it at scale."
+msgstr ""
+"Используйте её для точного земледелия, выделения границ полей и анализа "
+"землепользования. Покрытие ограничено отдельными регионами, поэтому перед"
+" масштабной обработкой протестируйте модель на небольшой территории."
+
+#: ../userguides/agriculture_fields_model.rst:27
 #: c0f0ce91054048cdacc9f038b6dfcf10
 msgid "Sample results"
 msgstr "Примеры результатов"
@@ -190,7 +207,7 @@ msgstr "Примеры результатов"
 msgid "Agriculture fields result in Belgium"
 msgstr "Результат модели полей в Бельгии"
 
-#: ../userguides/agriculture_fields_model.rst:32
+#: ../userguides/agriculture_fields_model.rst:35
 #: d75ad0a513a347d8bcd4d644ada84b90
 msgid "Europe (Belgium)"
 msgstr "Европа (Бельгия)"
@@ -199,58 +216,70 @@ msgstr "Европа (Бельгия)"
 msgid "Agriculture fields result in Northern India"
 msgstr "Результат модели полей на севере Индии"
 
-#: ../userguides/agriculture_fields_model.rst:38
+#: ../userguides/agriculture_fields_model.rst:41
 #: bf95b73b90ae42a0bf7c86e6f6f71f69
 msgid "Asia (Northern India)"
 msgstr "Азия (Северная Индия)"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: 9ac6c4ea4d3446edbf147762a6e77d56
 msgid "Need a different object?"
 msgstr "Нужен другой объект?"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: 0e0a282ff5a749678200761e39eef47a
 msgid ""
-"We train custom models on your imagery and classes, and connect them to your"
-" Mapflow account."
+"We train custom models on your imagery and classes, and connect them to "
+"your Mapflow account."
 msgstr ""
-"Мы обучаем пользовательские модели на ваших снимках и классах и подключаем "
-"их к вашему аккаунту Mapflow."
+"Мы обучаем пользовательские модели на ваших снимках и классах и "
+"подключаем их к вашему аккаунту Mapflow."
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: d7d6930bc78946189fdc99578a7a7cb5
 msgid "`Request a custom model <https://mapflow.ai/custom-models>`__"
-msgstr ""
-"`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
+msgstr "`Запросить пользовательскую модель <https://mapflow.ai/custom-models>`__"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: ee1be0415a8040f5ac286f5544b1d5a3
 msgid "`Model catalog and deployment options <https://mapflow.ai/models>`__"
-msgstr ""
-"`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
+msgstr "`Каталог моделей и варианты развёртывания <https://mapflow.ai/models>`__"
 
-#: ../userguides/agriculture_fields_model.rst:41
+#: ../userguides/agriculture_fields_model.rst:44
 #: a62f6591e8004599af7d29f7edc32984
 msgid ":doc:`All AI-mapping models </userguides/pipelines>`"
 msgstr ":doc:`Все модели ИИ-картографирования </userguides/pipelines>`"
 
 #~ msgid ""
-#~ "Model for fields segmentation allows to detect the agricultural fields and "
-#~ "delineate the nearby fields from each other, if there is a visual boundary "
-#~ "(forest line, road, different crop stage). The model is trained on the high "
-#~ "resolution data (1-1.2 m), primarily for Europe, Russia. It performs better "
-#~ "with larger fields with active vegetation. Smaller and terrace fields "
-#~ "(typical for Asia) are delineated not so good. Fields without vegetation, "
-#~ "especially in winter period, are not target class."
+#~ "Model for fields segmentation allows to"
+#~ " detect the agricultural fields and "
+#~ "delineate the nearby fields from each"
+#~ " other, if there is a visual "
+#~ "boundary (forest line, road, different "
+#~ "crop stage). The model is trained "
+#~ "on the high resolution data (1-1.2 "
+#~ "m), primarily for Europe, Russia. It "
+#~ "performs better with larger fields with"
+#~ " active vegetation. Smaller and terrace "
+#~ "fields (typical for Asia) are delineated"
+#~ " not so good. Fields without "
+#~ "vegetation, especially in winter period, "
+#~ "are not target class."
 #~ msgstr ""
-#~ "Модель сегментации полей позволяет обнаруживать сельскохозяйственные поля и "
-#~ "отделять близлежащие поля друг от друга, если есть визуальная граница (линия"
-#~ " леса, дорога, разная стадия посева). Модель построена на данных с высоким "
-#~ "разрешением (1-1,2 м), в основном для Европы и России. Она лучше работает на"
-#~ " больших полях с активной растительностью. Поля меньшего размера и террасы "
-#~ "(типичные для Азии) очерчены не так хорошо. Поля без растительности, "
-#~ "особенно в зимний период, не относятся к целевому классу."
+#~ "Модель сегментации полей позволяет "
+#~ "обнаруживать сельскохозяйственные поля и "
+#~ "отделять близлежащие поля друг от друга,"
+#~ " если есть визуальная граница (линия "
+#~ "леса, дорога, разная стадия посева). "
+#~ "Модель построена на данных с высоким "
+#~ "разрешением (1-1,2 м), в основном для"
+#~ " Европы и России. Она лучше работает"
+#~ " на больших полях с активной "
+#~ "растительностью. Поля меньшего размера и "
+#~ "террасы (типичные для Азии) очерчены не"
+#~ " так хорошо. Поля без растительности, "
+#~ "особенно в зимний период, не относятся"
+#~ " к целевому классу."
 
 #~ msgid "Processing result of agriculture fields model"
 #~ msgstr "Результат обработки модели сельскохозяйственных полей"
@@ -262,13 +291,29 @@ msgstr ":doc:`Все модели ИИ-картографирования </user
 #~ msgstr "Образец результатов обработки для Азии (Северная Индия)"
 
 #~ msgid ""
-#~ "Looking to run this in production? See the `model catalog and deployment "
-#~ "options <https://mapflow.ai/models>`_, or `request a custom model "
-#~ "<https://mapflow.ai/custom-models>`_."
+#~ "Looking to run this in production? "
+#~ "See the `model catalog and deployment"
+#~ " options <https://mapflow.ai/models>`_, or "
+#~ "`request a custom model <https://mapflow.ai"
+#~ "/custom-models>`_."
 #~ msgstr ""
-#~ "Хотите использовать модель в production? Смотрите `каталог моделей и "
-#~ "варианты развёртывания <https://mapflow.ai/ru/models>`_ или `закажите "
-#~ "кастомную модель <https://mapflow.ai/ru/custom-models>`_."
+#~ "Хотите использовать модель в production? "
+#~ "Смотрите `каталог моделей и варианты "
+#~ "развёртывания <https://mapflow.ai/ru/models>`_ или "
+#~ "`закажите кастомную модель <https://mapflow.ai/ru"
+#~ "/custom-models>`_."
 
 #~ msgid ":mf-chip:`tractor|Crop fields` :mf-warn:`On request`"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Segment agricultural fields and delineate "
+#~ "field boundaries from 1-1.2 m satellite"
+#~ " imagery. Trained for Europe and "
+#~ "Russia; available as a custom model."
+#~ msgstr ""
+#~ "Сегментация сельскохозяйственных полей и "
+#~ "выделение их границ на снимках 1-1,2 "
+#~ "м. Обучена для Европы и России; "
+#~ "доступна как кастомная модель."
+

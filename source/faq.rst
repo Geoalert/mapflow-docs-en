@@ -17,6 +17,10 @@ Payment
 
     * For Paid Users: If you are on a corporate plan, we commit to meeting a specific level of accuracy. If the output does not meet these requirements, we will refund your credits according to our refund policy.
 
+**Can I create more than one free account?**
+
+    No. The Free plan allows one free account per person and per organisation. If you need more credits, top up your balance or switch to a paid plan (see :doc:`Mapflow prices </userguides/prices>`).
+
 .. _Satellite images:
 
 Satellite imagery
@@ -91,7 +95,7 @@ User data
 
 **How to delete my account?**
 
-    Currently you cannot delete your account right in the Mapflow web app. Please request us to delete your account by sending an email to help@geoalert.io or by prompting the Mapflow chatbot, and all your personal data will be completely removed.
+    You can delete your account at any time in your user profile in the Mapflow web app. Your account data is deleted along with it. Data you delete in the app, such as uploaded images and processing results, is archived for 24 hours so that we can restore it at your request if it was deleted by mistake; after that it is removed permanently. See the `Privacy Policy <https://mapflow.ai/privacy-policy.html>`_ for details.
 
 
 Support and other questions

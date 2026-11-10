@@ -1,3 +1,5 @@
+:orphan:
+
 .. meta::
    :description: Segment Anything adapted for large-scale satellite imagery workflows in Mapflow. Universal segmentation, available as a custom model on request.
 

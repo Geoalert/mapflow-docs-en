@@ -1,0 +1,603 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2025, Geoalert
+# This file is distributed under the same license as the Mapflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mapflow 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 15:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:9
+#: 5f4fb2d3991440eeaaa0c4287c02905d
+msgid "🌲 Forest and trees v.2026-09-10 — tree crown benchmark"
+msgstr ""
+"🌲 Bosques y árboles v.2026-09-10: punto de referencia de copas de árbol"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:11
+#: fab0ba8bfdcd4ce681213385f3237531
+msgid ""
+"This page details the validation of tree **crown polygons** produced by the "
+"**🌲 Forest and trees v.2026-09-10** model on 7 areas of interest (AOI), "
+"compared against the **previous version v.2026-07-03**. For each AOI the two"
+" crown-mask results are shown side by side; click any image to open it full "
+"size, and use the ← / → arrow keys to browse between them."
+msgstr ""
+"Esta página detalla la validación de los **polígonos de copa** de árbol que "
+"produce el modelo **🌲 Bosques y árboles v.2026-09-10** en 7 áreas de interés"
+" (AOI), en comparación con la **versión anterior v.2026-07-03**. Para cada "
+"AOI, los dos resultados de máscara de copa se muestran lado a lado; haga "
+"clic en cualquier imagen para abrirla a tamaño completo y use las teclas de "
+"flecha ← / → para navegar entre ellas."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:17
+#: 9fdc4843b97c4a318802ab114e53527c
+msgid ""
+"Metrics are area-based on the crown masks: **IoU** is the intersection-over-"
+"union of the predicted and ground-truth crown masks, and **F1 / Precision / "
+"Recall** are computed on the overlapping mask area. **Crowns** is the number"
+" of detected crown polygons; the ground-truth crown count and the relative "
+"count error are reported below each AOI (see also the *Tree count accuracy* "
+"table on the model page). Evaluation run: 2026-10-01."
+msgstr ""
+"Las métricas se basan en el área de las máscaras de copa: **IoU** es la "
+"intersección sobre la unión de las máscaras de copa predichas y de verdad de"
+" campo, y **F1 / Precisión / Exhaustividad** se calculan sobre el área de "
+"máscara superpuesta. **Copas** es el número de polígonos de copa detectados;"
+" el recuento de copas de verdad de campo y el error relativo de recuento se "
+"indican debajo de cada AOI (véase también la tabla *Precisión del recuento "
+"de árboles* en la página del modelo). Ejecución de evaluación: 2026-10-01."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:62
+#: 4f5b42ae45ae4553a16a36f47ba23326
+msgid ""
+"**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
+"style=\"background:#ff5028\"></span>` **v.2026-09-10**  ·  :raw-html:`<span "
+"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2026-07-03**"
+msgstr ""
+"**Leyenda del color de la máscara:** :raw-html:`<span class=\"mchip\" "
+"style=\"background:#ff5028\"></span>` **v.2026-09-10**  ·  :raw-html:`<span "
+"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2026-07-03**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:66
+#: cec07b037a9940008b99fc983aeddc12
+msgid "Italy — Crotone"
+msgstr "Italia — Crotona"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:72
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:108
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:144
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:180
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:216
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:252
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:288
+#: 00641e9d668a418da2617b017d1d601d 0d288648e6d74db28f905bec913d5bbc
+#: 1295473d72d545fb8f531499d59c2552 370e467f3a764f32a399533d02746dce
+#: 87b92e3e67fb41da9cb42fa405c476ff b6a7e7d664d2422abdb1a9af2235422f
+#: eb5509878c9b40b78c639ac070a71038
+msgid "Model"
+msgstr "Modelo"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:73
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:109
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:145
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:181
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:217
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:253
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:289
+#: 660b6e74dac944e99e8dcbc0651ff3ec 8bd228f390844faf893ce5b19583aa15
+#: 9ecf04e2d62b4c918e373d3aadb46030 a3bc58f8c22a4afca2a54a8ecd9737bc
+#: b449ecb20f204263983f9784247f3122 c2cdae2e45df4769b9163f24e395a574
+#: df3272f985144cef97cd1e86c4cad7ab
+msgid "IoU"
+msgstr "IoU"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:74
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:110
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:146
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:182
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:218
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:254
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:290
+#: 15b4ea36e4d64a3c8e27aa2967ecceba 2aa9c8932ecb432b992a3004c5bec60e
+#: 3610568e492b4753893aa079f21bf9c9 57fceb8959884879a409ecf776f6f46a
+#: 5fd7ad28b7cc499e9ca96a72df877e58 79df2a807057486291cb2f0c6f06203f
+#: fb451dfc7abe426bb4d008854896b565
+msgid "F1"
+msgstr "F1"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:75
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:111
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:147
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:183
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:219
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:255
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:291
+#: 0494b3c9113c41b5931f2efa47843101 0af924c476104530bbe4c8e0491b4253
+#: 2b94af4545ff4769b3318be68594c689 711ba10a945d4ba9818cddc0d77a57ef
+#: 86dac2ec9695491eae845473d5effabe ab4f2999a630424089984e81a9db5ddb
+#: d1cc44c0af624fb390a1e0d3cae284e3
+msgid "Precision"
+msgstr "Precisión"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:76
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:112
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:148
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:184
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:220
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:256
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:292
+#: 23de2a450247433aaf407cf602a54492 575ac7cc3a4a4fde9781594680980281
+#: 6d0489a04c824351aa91353a43b82ef3 a5447b790c0c4049bf8d9a82a3074a1f
+#: d59dda0579544b9b866cc0ffd3caad86 e612ec8de94449299a124b29e6da554e
+#: f8762729dff246d9843d4573599d1b61
+msgid "Recall"
+msgstr "Exhaustividad"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:77
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:113
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:149
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:185
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:221
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:257
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:293
+#: 22b0714856ad4ac0a7690aecfec12d86 2e79eb20174749ab9d5dcf36cb5f58bd
+#: a1a8e46cccd74cc78742ac5b1d604d4b a657313860f24c4ea12cbb4b6c282cb2
+#: e71e466cc91c465d8ba1d91143c59dce ec26a89d0f40472aac34b3c115d79740
+#: fcc0e2b412f84e64b4a68637785ec9a8
+msgid "Crowns"
+msgstr "Copas"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:78
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:114
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:150
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:186
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:222
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:258
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:294
+#: 10a7f574ee0b46e68d79753d66753a66 8a18ce9385a4493bb546d45f99ec9c60
+#: 9b02800f6a564c3c943a149933e4e9f7 9bf3068287d94dcba17ce6b0d0c49d48
+#: b76a0b4940444170a4057e143eb5686d bee62c44e2a748c3a37e504891d03ae6
+#: dbd94c8b0e7540a7a73797437ece85c8
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-09-10**"
+msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-09-10**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:79
+#: 1ce6478741ca475da2d18cc06275c315
+msgid "**0.842**"
+msgstr "**0,842**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:80
+#: a975cb47db5d44b98d3315fea934e99b
+msgid "**0.914**"
+msgstr "**0,914**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:81
+#: a3216171efc3497c8622383f072a6a74
+msgid "**0.930**"
+msgstr "**0,930**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:82
+#: 44cf9d9a4b414d44a03377623690b6ff
+msgid "**0.898**"
+msgstr "**0,898**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:83
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:89
+#: 349ab199d1034de8a024290baffd533b 88c4a1a804b945348ae30fa3f35d4bd8
+msgid "254"
+msgstr "254"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:84
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:120
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:156
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:192
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:228
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:264
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:300
+#: 2909f89533f24c54ae5b2d7b14ce828b 4e5712ef0ddd403fbc55f0c0e724fc8d
+#: 694607ee6a04479dbf1caf7ace76f748 727f56199651447b92bf807eaeac3f3f
+#: 744cf6a34c2045198c36162a8ac1fd72 7828857193f74615a2c9bfdbaf94ae0b
+#: 87a6e8d8cca54e69bbf26a555b5c43b8
+msgid ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2026-07-03"
+msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2026-07-03"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:85
+#: 0f290769e58043648cf65915705e0333
+msgid "0.825"
+msgstr "0,825"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:86
+#: 198f7588cd71408487adba4ded6468d1
+msgid "0.904"
+msgstr "0,904"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:87
+#: 495ed155946d4f5aa208e8f3c42c04aa
+msgid "0.925"
+msgstr "0,925"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:88
+#: 33bfc2c407cd419fbd9c9d46d55fc861
+msgid "0.884"
+msgstr "0,884"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:102
+#: a70f555c73fd41339162f9e1699f195b
+msgid "Argentina — La Banda"
+msgstr "Argentina — La Banda"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:115
+#: e612ca3af6754dcd8c0358b23f2e029c
+msgid "**0.624**"
+msgstr "**0,624**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:116
+#: 115934e51e5a49d997ddbb6a3548fca5
+msgid "**0.769**"
+msgstr "**0,769**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:117
+#: f78b260da48a4b10afb27ba541955104
+msgid "**0.700**"
+msgstr "**0,700**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:118
+#: b5f4137e7deb4b4fad4e99b303f9ceb5
+msgid "**0.852**"
+msgstr "**0,852**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:119
+#: 6e157369e19c41498859be1fbd19dc21
+msgid "111"
+msgstr "111"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:121
+#: f2136ded70e345e88e16e2f8d3bcfcc6
+msgid "0.575"
+msgstr "0,575"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:122
+#: 18f12c5ca9854e66b88ceca6ef325b2d
+msgid "0.730"
+msgstr "0,730"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:123
+#: 7abf04b160bb448aa8eb5c8b2d76ee36
+msgid "0.691"
+msgstr "0,691"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:124
+#: c5d66acc9f084b17b5d37b5fdcbfb64b
+msgid "0.774"
+msgstr "0,774"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:125
+#: 286fdf68cfc94292b9bb588ccd798027
+msgid "83"
+msgstr "83"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:138
+#: af9960906d054c6d838ae989e6eb7682
+msgid "Spain — Rus"
+msgstr "España — Rus"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:151
+#: b05fffc2d7c54280bbe30dc7543fac77
+msgid "**0.689**"
+msgstr "**0,689**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:152
+#: e5fc14c6e0f94c2b9ff39b9f57ab5b02
+msgid "**0.816**"
+msgstr "**0,816**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:153
+#: 9d3ef7740da04437b3ea23523bd5b037
+msgid "**0.759**"
+msgstr "**0,759**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:154
+#: e9cf9e683df44191a3bdb88a7986e921
+msgid "**0.883**"
+msgstr "**0,883**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:155
+#: 0d7c20f0b2244d7794b16b0fa4efa5fb
+msgid "239"
+msgstr "239"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:157
+#: dfa4c6d7c45a4b56b39702b0a2545c2a
+msgid "0.567"
+msgstr "0,567"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:158
+#: 547593c54b734893ba371e5260ec3a15
+msgid "0.723"
+msgstr "0,723"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:159
+#: 1a13103711d4459894ce74b2e62d3a60
+msgid "0.671"
+msgstr "0,671"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:160
+#: 2852cad9a379462da0063b4bc2cb7951
+msgid "0.785"
+msgstr "0,785"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:161
+#: 14a57a690cba42d49a5da7d751008598
+msgid "249"
+msgstr "249"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:174
+#: 96511ad5fc43493c8890487e61d32a7b
+msgid "Philippines — Balanga"
+msgstr "Filipinas — Balanga"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:187
+#: 635a971bf6be46e09631ab3806de21a3
+msgid "0.780"
+msgstr "0,780"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:188
+#: 3f571e0b89bd467eb494b2b02ffcae50
+msgid "0.876"
+msgstr "0,876"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:189
+#: 02d643c228f34338a594d40f27ba6b70
+msgid "0.849"
+msgstr "0,849"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:190
+#: a2ef893822a84141990b4c66d906fd22
+msgid "**0.904**"
+msgstr "**0,904**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:191
+#: 821655cff3874371b627970f8294fc52
+msgid "309"
+msgstr "309"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:193
+#: 21611796b748440883919eba4c6f419c
+msgid "**0.782**"
+msgstr "**0,782**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:194
+#: 4f82cbbf26704dda81ed6b9bd421fe4b
+msgid "**0.878**"
+msgstr "**0,878**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:195
+#: dffaefb2a19f44f68d8d3d99cfc23e92
+msgid "**0.860**"
+msgstr "**0,860**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:196
+#: 9068f4f4aeb94c7ba6aecebf689604c7
+msgid "0.896"
+msgstr "0,896"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:197
+#: 947d757886a44fdfac5a59fe809b2f58
+msgid "220"
+msgstr "220"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:210
+#: bc64c56d427845cdab752f4fc09f449a
+msgid "Spain — Cuenca"
+msgstr "España — Cuenca"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:223
+#: b26c68dfc59f4f15a85ce8c4058c5ed5
+msgid "**0.732**"
+msgstr "**0,732**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:224
+#: 7a5ec21467604f4b8953d7161f3851f5
+msgid "**0.846**"
+msgstr "**0,846**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:225
+#: bcc51eb07de84e49b88f8d14642bdcb9
+msgid "**0.875**"
+msgstr "**0,875**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:226
+#: 79c5b6e0965b4ead88945a10744ba73e
+msgid "**0.818**"
+msgstr "**0,818**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:227
+#: ce9961a660104726a042bd0b9ac22a4b
+msgid "433"
+msgstr "433"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:229
+#: b837dc5632d345589392f9ba15484f63
+msgid "0.728"
+msgstr "0,728"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:230
+#: 312dd1a16c6343c4b9a1a4b235ea07a3
+msgid "0.842"
+msgstr "0,842"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:231
+#: 7721ac1c636748158d59543ba1c7c584
+msgid "0.868"
+msgstr "0,868"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:232
+#: b22f1814b3a041c0829f33574852f3e9
+msgid "0.818"
+msgstr "0,818"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:233
+#: 710bade5a6304beda3cb53ee81253c2a
+msgid "409"
+msgstr "409"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:246
+#: ebea6685bd9d4f41bbc956702d3a8494
+msgid "Spain — Velilla de San Antonio"
+msgstr "España — Velilla de San Antonio"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:259
+#: 60a38cfe7b844d48a8ecafe6fd5e9b66
+msgid "**0.694**"
+msgstr "**0,694**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:260
+#: aaf0efb810c74ef38978f0e76bd15b8a
+msgid "**0.819**"
+msgstr "**0,819**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:261
+#: 2b0012fc98d64788a8f706dd35738617
+msgid "**0.855**"
+msgstr "**0,855**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:262
+#: 806e8af54f5a46ab960a3b0abca68262
+msgid "**0.786**"
+msgstr "**0,786**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:263
+#: 1cf71f976b3c4fc08513481023a4c33d
+msgid "1,134"
+msgstr "1 134"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:265
+#: 00acb3685997416d9060de80973c3254
+msgid "0.667"
+msgstr "0,667"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:266
+#: 78f6895a1f794e9692a3730c44462971
+msgid "0.800"
+msgstr "0,800"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:267
+#: 22535ddf2033400ba9e2a3c475ce6d8b
+msgid "0.831"
+msgstr "0,831"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:268
+#: 3a901c9d716c4405879db9f4292ef2d4
+msgid "0.771"
+msgstr "0,771"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:269
+#: ee906d330230468a8dd5c2caa16323df
+msgid "1,070"
+msgstr "1 070"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:282
+#: 3f8dc5e4753d411abb5cb94280270989
+msgid "Spain — Madrid"
+msgstr "España — Madrid"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:295
+#: 2de1cfe71c7f4571bc9ab2a428c07a19
+msgid "**0.823**"
+msgstr "**0,823**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:296
+#: 9fffc6961594444a93a6aa26dd71ba7a
+msgid "**0.903**"
+msgstr "**0,903**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:297
+#: b8a14d37ccd240fab68930e8e8fc03fd
+msgid "**0.907**"
+msgstr "**0,907**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:298
+#: 189acb6151a741148ecd733852d27ff4
+msgid "0.899"
+msgstr "0,899"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:299
+#: 0a78c2b109014bf08546787835f3e3a9
+msgid "398"
+msgstr "398"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:301
+#: 75590a74ecae4c82963fac2f603b152d
+msgid "0.801"
+msgstr "0,801"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:302
+#: 3062e3661d764f09b24773155f38836d
+msgid "0.889"
+msgstr "0,889"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:303
+#: 2eec481ed657441cab558ad96887352b
+msgid "0.879"
+msgstr "0,879"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:304
+#: 1e9125cf0fe14c36b39658d3ce809a68
+msgid "**0.900**"
+msgstr "**0,900**"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:305
+#: 09fb306d6cde43b69b48367fe588e975
+msgid "368"
+msgstr "368"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:317
+#: 93b172e4bd3b457ba044605e55c6c81b
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:319
+#: f56a6decf18d4dedafe4d97cd812b264
+msgid ""
+"For tree crown polygons, **v.2026-09-10** improves on **v.2026-07-03** "
+"across the 7 AOIs: mean area-based **F1 rises from 0.824 to 0.849** and "
+"**IoU from 0.706 to 0.741**, with gains in both precision (0.818 → 0.839) "
+"and recall (0.833 → 0.863). It leads on F1 in 6 of the 7 AOIs and is on par "
+"at Balanga (0.876 vs 0.878)."
+msgstr ""
+"Para los polígonos de copa de árbol, **v.2026-09-10** mejora sobre "
+"**v.2026-07-03** en las 7 AOI: la **F1** media basada en área **sube de "
+"0,824 a 0,849** y la **IoU de 0,706 a 0,741**, con mejoras tanto en "
+"precisión (0,818 → 0,839) como en exhaustividad (0,833 → 0,863). Lidera en "
+"F1 en 6 de las 7 AOI y queda a la par en Balanga (0,876 frente a 0,878)."
+
+#: ../../sessions/affectionate-great-noether/mnt/mapflow-docs-en/source/userguides/forest_crown_benchmark_2026-09-10.rst:324
+#: b0ddb49861284df08bf217062dcbd318
+msgid ""
+"On **tree count accuracy** the picture is mixed. We will provide more "
+"evidence on the later benchmarks based on results against the validated  "
+"mapping surveys."
+msgstr ""
+"En cuanto a la **precisión del recuento de árboles**, el panorama es mixto. "
+"Aportaremos más evidencia en los próximos puntos de referencia a partir de "
+"los resultados frente a los estudios de mapeo validados."

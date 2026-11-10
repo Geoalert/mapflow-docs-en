@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 14:22+0200\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -479,14 +479,14 @@ msgid ""
 msgstr ""
 
 #: ../userguides/howto.rst:214 04554ea483fc47b987ca4c7599d96618
-msgid "**Run the flow!**"
+msgid "**Run the mapping flow!**"
 msgstr ""
 
-#: ../userguides/howto.rst:288 d20d6a5948e44ee1a164bb42b02e7c56
+#: ../userguides/howto.rst:218 d20d6a5948e44ee1a164bb42b02e7c56
 msgid "How to run Mapflow on external infrastructure"
 msgstr ""
 
-#: ../userguides/howto.rst:291 68329b56acb74cb596fa1b803a7ccbe6
+#: ../userguides/howto.rst:221 68329b56acb74cb596fa1b803a7ccbe6
 msgid ""
 "Currently, you have to contact us if you have a request to run Mapflow "
 "(as a platform or as a separate imagery analysis workflows) on external "
@@ -495,86 +495,13 @@ msgid ""
 "instances load and queues."
 msgstr ""
 
-#: ../userguides/howto.rst:293 f192e3bec59c4ba5818196d77c916c0d
+#: ../userguides/howto.rst:223 f192e3bec59c4ba5818196d77c916c0d
 msgid ""
 "We also partner with cloud integrators to set up projects for their "
 "clients."
 msgstr ""
 
-#: ../userguides/howto.rst:296 5e15b44a93c349e896565ffa96dbb41c
-msgid "How to run Mapflow using Geocloud"
-msgstr ""
-
-#: 12047d331a9740cdbd9033bf9b0fc0d2 23963379bcf3427d8e766d622f1650b6
-#: 84b0db02e7f647ce845821ef5311bfb1
-msgid "create app"
-msgstr ""
-
-#: ../userguides/howto.rst:306 d4b60875058e4cf6998a0f9c5dcedede
-msgid ""
-"We conduct a `PoC project with Geocloud.work "
-"<https://www.geocloud.work/software/geoalert>`_ who enable to work "
-"remotely with the licensed geospatial software."
-msgstr ""
-
-#: ../userguides/howto.rst:308 a2a3815befe845fc95bd034755d12c5f
-msgid "The generic workflow with Geocloud is as follows:"
-msgstr ""
-
-#: ../userguides/howto.rst:310 39c4c3bf798c4b899c7eacfb66622d86
-msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
-msgstr ""
-
-#: ../userguides/howto.rst:312 0db8afbb7c6d48818e3ad767610d81be
-msgid ""
-"It runs the virtual machine with minimum requirements for QGIS with a "
-"preinstalled Mapflow plugin. Note that you have to run consequently the "
-"Storage and the Desktop to get connected to the virtual machine with a "
-"remote desktop."
-msgstr ""
-
-#: ../userguides/howto.rst:315 c2256184c3da47beabc785ccb5929cdb
-msgid "Run QGIS by clicking on the \"QGIS-Mapflow\" icon at the desktop workspace"
-msgstr ""
-
-#: ../userguides/howto.rst:325 173db4b26f5b47169091a6bf146eb7dc
-msgid "Run the plugin by clicking on the icon in the toolbar"
-msgstr ""
-
-#: ../userguides/howto.rst:336 9d88d3ab2b8641c889be8c52b8c050fb
-msgid ""
-"❗️ To enable Mapflow oAuth login use the master password for QGIS which "
-"is set to 123456"
-msgstr ""
-
-#: ../userguides/howto.rst:339 d163f343642f4b53b2d5b32940af5726
-msgid ""
-"After you click  the \"Login\" button you will be redirected to the "
-"Mapflow login page in the browser. Use your existing `Mapflow.ai "
-"<https://app.mapflow.ai>`_ login and password or create a new account to "
-"start working with the plugin. You can also use Basic auth (disable \"Use"
-" OAuth\" checkbox) with your Mapflow `Token "
-"<https://app.mapflow.ai/account/api>`_."
-msgstr ""
-
-#: ../userguides/howto.rst:342 4f458b8ce07e42fabe022ebb7c8eb1a3
-msgid ""
-"You are all set up to use :doc:`Mapflow – QGIS </userguides/qgis_plugin>`"
-" in Geocloud."
-msgstr ""
-
-#: ../userguides/howto.rst:345 34b56bc211774f7893a296f22b7302f9
-msgid ""
-"Note that you pay only for the up time in Geocloud. You spend your "
-"regular credits for Mapflow (you get 250 credits for free upon the "
-"registration). There are two prices for Storage / Computer in Geocloud - "
-"*Stopped* and *Working*. The Stopped price is applied when Storage / "
-"Computer is stopped. The Working price is applied when it is in the "
-"working mode. 👉👉 You can stop your computer while doing some long-lasting"
-" calculations in Mapflow to spend less."
-msgstr ""
-
-#: ../userguides/howto.rst:350 bc16cc0dfec74800b8d59252443b7dd2
+#: ../userguides/howto.rst:227 bc16cc0dfec74800b8d59252443b7dd2
 msgid "How to check images metadata in the 🌏 Global mosaic"
 msgstr ""
 
@@ -650,11 +577,11 @@ msgid ""
 " Source: 🌏 ArcGIS World Imagery**."
 msgstr ""
 
-#: ../userguides/howto.rst:356 fbc715ecfe6f484e8b36008ad1b342ae
+#: ../userguides/howto.rst:233 fbc715ecfe6f484e8b36008ad1b342ae
 msgid "How to run bulk processing using Mapflow API"
 msgstr ""
 
-#: ../userguides/howto.rst:359 1bb56a25f27647728f6c07de96193fc4
+#: ../userguides/howto.rst:236 1bb56a25f27647728f6c07de96193fc4
 msgid "✍️ Check more userguides on :doc:`Mapflow API use cases <use_API>`"
 msgstr ""
 
@@ -833,5 +760,88 @@ msgstr ""
 #~ "external infrastructure. However, we partner"
 #~ " with cloud integrators to conduct "
 #~ "projects for their clients."
+#~ msgstr ""
+
+#~ msgid "**Run the flow!**"
+#~ msgstr ""
+
+#~ msgid "How to run Mapflow using Geocloud"
+#~ msgstr ""
+
+#~ msgid "create app"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We conduct a `PoC project with "
+#~ "Geocloud.work <https://www.geocloud.work/software/geoalert>`_"
+#~ " who enable to work remotely with "
+#~ "the licensed geospatial software."
+#~ msgstr ""
+
+#~ msgid "The generic workflow with Geocloud is as follows:"
+#~ msgstr ""
+
+#~ msgid "Create an account at Geocloud and run the app \"QGIS-Mapflow\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It runs the virtual machine with "
+#~ "minimum requirements for QGIS with a "
+#~ "preinstalled Mapflow plugin. Note that "
+#~ "you have to run consequently the "
+#~ "Storage and the Desktop to get "
+#~ "connected to the virtual machine with"
+#~ " a remote desktop."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Run QGIS by clicking on the "
+#~ "\"QGIS-Mapflow\" icon at the desktop "
+#~ "workspace"
+#~ msgstr ""
+
+#~ msgid "Run the plugin by clicking on the icon in the toolbar"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "❗️ To enable Mapflow oAuth login "
+#~ "use the master password for QGIS "
+#~ "which is set to 123456"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you click  the \"Login\" button"
+#~ " you will be redirected to the "
+#~ "Mapflow login page in the browser. "
+#~ "Use your existing `Mapflow.ai "
+#~ "<https://app.mapflow.ai>`_ login and password "
+#~ "or create a new account to start"
+#~ " working with the plugin. You can "
+#~ "also use Basic auth (disable \"Use "
+#~ "OAuth\" checkbox) with your Mapflow "
+#~ "`Token <https://app.mapflow.ai/account/api>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You are all set up to use "
+#~ ":doc:`Mapflow – QGIS </userguides/qgis_plugin>` "
+#~ "in Geocloud."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that you pay only for the "
+#~ "up time in Geocloud. You spend "
+#~ "your regular credits for Mapflow (you"
+#~ " get 250 credits for free upon "
+#~ "the registration). There are two prices"
+#~ " for Storage / Computer in Geocloud"
+#~ " - *Stopped* and *Working*. The "
+#~ "Stopped price is applied when Storage"
+#~ " / Computer is stopped. The Working"
+#~ " price is applied when it is in"
+#~ " the working mode. 👉👉 You can "
+#~ "stop your computer while doing some "
+#~ "long-lasting calculations in Mapflow to"
+#~ " spend less."
 #~ msgstr ""
 

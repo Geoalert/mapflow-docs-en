@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2026-07-26 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../userguides/buildings_benchmark_07-06.rst:9
@@ -29,22 +29,22 @@ msgstr "🏠 Buildings v.2026-07-06 — 每个位置的基准"
 msgid ""
 "This page details the validation of the **🏠 Buildings v.2026-07-06** "
 "segmentation model (Global domain, 0.3 m / z19) on 14 areas of interest "
-"(AOI), compared against the **previous version v.2025-12-10** (the current "
-"production 🏠 Buildings model). For each AOI the two prediction masks are "
-"shown side by side; click any image to open it full size, and use the ← / → "
-"arrow keys to browse between them."
+"(AOI), compared against the **previous version v.2025-12-10** (the "
+"current production 🏠 Buildings model). For each AOI the two prediction "
+"masks are shown side by side; click any image to open it full size, and "
+"use the ← / → arrow keys to browse between them."
 msgstr ""
-"本页详细介绍了 **🏠 Buildings v.2026-07-06** 分割模型（全局域，0.3 m / z19）在 14 个感兴趣区域 (AOI) "
-"上的验证情况，与 **之前版本 v.2025-12-10**\\ （当前生产的 🏠 建筑模型）进行了比较。对于每个 "
+"本页详细介绍了 **🏠 Buildings v.2026-07-06** 分割模型（全局域，0.3 m / z19）在 14 个感兴趣区域 "
+"(AOI) 上的验证情况，与 **之前版本 v.2025-12-10**\\ （当前生产的 🏠 建筑模型）进行了比较。对于每个 "
 "AOI，两个预测掩模并排显示；单击任意图像将其打开为全尺寸，然后使用 ← / → 箭头键在它们之间浏览。"
 
 #: ../userguides/buildings_benchmark_07-06.rst:17
 #: 3aea2691c3b54ac7b301c0618297a5a5
 msgid ""
-"All metrics are area-based: **IoU** is the intersection-over-union of the "
-"predicted and ground-truth building masks, and **F1 / Precision / Recall** "
-"are computed on the overlapping mask area. Evaluation runs: 2026-06-13 "
-"(global set) and 2026-06-16 (satellite set)."
+"All metrics are area-based: **IoU** is the intersection-over-union of the"
+" predicted and ground-truth building masks, and **F1 / Precision / "
+"Recall** are computed on the overlapping mask area. Evaluation runs: "
+"2026-06-13 (global set) and 2026-06-16 (satellite set)."
 msgstr ""
 "所有指标都是基于区域的：**IoU** 是预测和真实建筑掩模的交集，并且 **F1 / 精度 / 召回率** "
 "在重叠掩模区域上计算。评估运行时间：2026年6月13日（全球集）和2026年6月16日（卫星集）。"
@@ -53,12 +53,13 @@ msgstr ""
 #: 13a8c094d2774dd8b67450e3ce5fd34f
 msgid ""
 "**Mask colour legend:** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-06**  ·  :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
+"style=\"background:#ff5028\"></span>` **v.2026-07-06**  ·  :raw-"
+"html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"**v.2025-12-10**"
 msgstr ""
 "**遮罩颜色图例：** :raw-html:`<span class=\"mchip\" "
-"style=\"background:#ff5028\"></span>` **v.2026-07-06** · :raw-html:`<span "
-"class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
+"style=\"background:#ff5028\"></span>` **v.2026-07-06** · :raw-html:`<span"
+" class=\"mchip\" style=\"background:#2878ff\"></span>` **v.2025-12-10**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:64
 #: e3163b94d7d24cc081bf2be8a5253c21
@@ -68,8 +69,8 @@ msgstr "航拍图像验证集"
 #: ../userguides/buildings_benchmark_07-06.rst:66
 #: 3738fa1f3334466193560d97f4e54e5e
 msgid ""
-"Validation on the global set of 9 areas of interest (mixed urban / suburban "
-"/ rural)."
+"Validation on the global set of 9 areas of interest (mixed urban / "
+"suburban / rural)."
 msgstr "对全球 9 个感兴趣区域（混合城市/郊区/农村）的验证。"
 
 #: ../userguides/buildings_benchmark_07-06.rst:70
@@ -147,7 +148,7 @@ msgstr "IOU"
 #: b2c684edd7234d08aa8eff540814917b c3fad920acd341f89dda4f5b6fda9d16
 #: e6d557a055ff40ce83bff7e7f165d831 eaf88b450f8f4ca29b51a8fd1997673a
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: ../userguides/buildings_benchmark_07-06.rst:79
 #: ../userguides/buildings_benchmark_07-06.rst:110
@@ -222,27 +223,29 @@ msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
 "**v.2026-07-06**"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#ff5028\"></span>` "
+"**v.2026-07-06**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:82
 #: ../userguides/buildings_benchmark_07-06.rst:494
 #: 1ff7b2a693b642649c760c43e21a7532 23f273af00a94f48b6600a1b9a09a483
 msgid "**0.907**"
-msgstr ""
+msgstr "**0.907**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:83
 #: 05f57bcf919b41b68ab3323d9a9f1a11
 msgid "**0.951**"
-msgstr ""
+msgstr "**0.951**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:84
 #: f2154e7b844340b9b2ce0c6a38c39dae
 msgid "**0.983**"
-msgstr ""
+msgstr "**0.983**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:85
 #: 084cb0fde3ee4d97b924f7d91bdd449e
 msgid "**0.921**"
-msgstr ""
+msgstr "**0.921**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:86
 #: ../userguides/buildings_benchmark_07-06.rst:117
@@ -269,26 +272,28 @@ msgid ""
 ":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
 "v.2025-12-10"
 msgstr ""
+":raw-html:`<span class=\"mchip\" style=\"background:#2878ff\"></span>` "
+"v.2025-12-10"
 
 #: ../userguides/buildings_benchmark_07-06.rst:87
 #: d984ba180af74969ab3477241384460c
 msgid "0.880"
-msgstr ""
+msgstr "0.880"
 
 #: ../userguides/buildings_benchmark_07-06.rst:88
 #: b4e8d2b3f55b4921bb49e431ef0941f2
 msgid "0.936"
-msgstr ""
+msgstr "0.936"
 
 #: ../userguides/buildings_benchmark_07-06.rst:89
 #: fa07105235744014ae920027cd240ff6
 msgid "0.974"
-msgstr ""
+msgstr "0.974"
 
 #: ../userguides/buildings_benchmark_07-06.rst:90
 #: 1d1a4aa199ad4a18b6b064816cf0875c
 msgid "0.901"
-msgstr ""
+msgstr "0.901"
 
 #: ../userguides/buildings_benchmark_07-06.rst:101
 #: 6459aa8075474ced94e959f2cd8de82e
@@ -298,44 +303,44 @@ msgstr "加拿大 — 里戈"
 #: ../userguides/buildings_benchmark_07-06.rst:113
 #: 4064a9edfb124e5899ebe1d0fcd6f902
 msgid "**0.870**"
-msgstr ""
+msgstr "**0.870**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:114
 #: 64127b775eb0486f9cc86615ef80b35f
 msgid "**0.930**"
-msgstr ""
+msgstr "**0.930**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:115
 #: 2c59ed828c0840529391b046a676626f
 msgid "**0.934**"
-msgstr ""
+msgstr "**0.934**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:116
 #: ../userguides/buildings_benchmark_07-06.rst:213
 #: e19cb3c81eee4d23b977e59b0803525a fe67d5442ec747c292c134e7613cf6e5
 msgid "**0.927**"
-msgstr ""
+msgstr "**0.927**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:118
 #: 8ebda0174232490ea1774331ae4bd2e1
 msgid "0.842"
-msgstr ""
+msgstr "0.842"
 
 #: ../userguides/buildings_benchmark_07-06.rst:119
 #: 97c6f81cc1584b9bb28010c234bd627a
 msgid "0.914"
-msgstr ""
+msgstr "0.914"
 
 #: ../userguides/buildings_benchmark_07-06.rst:120
 #: a9c562426f424e2286d066df2e177f0c
 msgid "0.923"
-msgstr ""
+msgstr "0.923"
 
 #: ../userguides/buildings_benchmark_07-06.rst:121
 #: ../userguides/buildings_benchmark_07-06.rst:274
 #: b66df3b2e3ba498eb8431a07b369ec4e cb12c9394c734ca38bc075b4bbcfd61b
 msgid "0.907"
-msgstr ""
+msgstr "0.907"
 
 #: ../userguides/buildings_benchmark_07-06.rst:132
 #: c4620b22d85744c092ea05624db935f1
@@ -345,43 +350,43 @@ msgstr "南非 — 伍斯特"
 #: ../userguides/buildings_benchmark_07-06.rst:144
 #: d19280b4f102419cba2bcc374dcfd6c4
 msgid "**0.592**"
-msgstr ""
+msgstr "**0.592**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:145
 #: 48bb7e7f28dd44dd98a86f42793a1fc0
 msgid "**0.744**"
-msgstr ""
+msgstr "**0.744**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:146
 #: ../userguides/buildings_benchmark_07-06.rst:330
 #: 426150dabfa949f8a67f13a6353a3af0 8e6d7d6abcea4839b422350ed3f2ad60
 msgid "**0.867**"
-msgstr ""
+msgstr "**0.867**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:147
 #: 786c4e4277df40389a74396916312d91
 msgid "**0.651**"
-msgstr ""
+msgstr "**0.651**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:149
 #: 86c261c8e7664613acce2de570bb49db
 msgid "0.385"
-msgstr ""
+msgstr "0.385"
 
 #: ../userguides/buildings_benchmark_07-06.rst:150
 #: 0b5ee93a96ad40919e85c5c041c70e46
 msgid "0.556"
-msgstr ""
+msgstr "0.556"
 
 #: ../userguides/buildings_benchmark_07-06.rst:151
 #: 51a81f1ec5f84499b7c10b57424b9c0b
 msgid "0.845"
-msgstr ""
+msgstr "0.845"
 
 #: ../userguides/buildings_benchmark_07-06.rst:152
 #: 955e88da9777475ebc8a2cbe8b72b382
 msgid "0.415"
-msgstr ""
+msgstr "0.415"
 
 #: ../userguides/buildings_benchmark_07-06.rst:163
 #: 5b8e250bbb954227b3059fcd760176fd
@@ -391,42 +396,42 @@ msgstr "新西兰 — 惠灵顿"
 #: ../userguides/buildings_benchmark_07-06.rst:175
 #: fd22e402748547639095eeae027b267b
 msgid "**0.838**"
-msgstr ""
+msgstr "**0.838**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:176
 #: 02ab4509c7fe4831a9b0ab6428f47811
 msgid "**0.912**"
-msgstr ""
+msgstr "**0.912**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:177
 #: 9aae5cac6d1b420881420dcda73366d5
 msgid "**0.900**"
-msgstr ""
+msgstr "**0.900**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:178
 #: 917b3613939846e8b5b827a50ba78d03
 msgid "**0.924**"
-msgstr ""
+msgstr "**0.924**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:180
 #: d4dc7e4e4a4641cd889d1100a5ce2c08
 msgid "0.790"
-msgstr ""
+msgstr "0.790"
 
 #: ../userguides/buildings_benchmark_07-06.rst:181
 #: 4ff26a0de8ad4ef38757da0253a242e8
 msgid "0.883"
-msgstr ""
+msgstr "0.883"
 
 #: ../userguides/buildings_benchmark_07-06.rst:182
 #: 4aea7250b0e74179a5968e379ec97f90
 msgid "0.888"
-msgstr ""
+msgstr "0.888"
 
 #: ../userguides/buildings_benchmark_07-06.rst:183
 #: c1c18916d99b482fa681f4e414d7b786
 msgid "0.878"
-msgstr ""
+msgstr "0.878"
 
 #: ../userguides/buildings_benchmark_07-06.rst:194
 #: df1ef9cc25b548b3b676e8a618701c3a
@@ -436,38 +441,38 @@ msgstr "科特迪瓦 — 班戈洛"
 #: ../userguides/buildings_benchmark_07-06.rst:206
 #: fb9425a8d3fb40e9979549db5c7fd6e7
 msgid "**0.663**"
-msgstr ""
+msgstr "**0.663**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:207
 #: 02e81220e6694bea9d93213cd6e00fc8
 msgid "**0.797**"
-msgstr ""
+msgstr "**0.797**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:208
 #: ../userguides/buildings_benchmark_07-06.rst:243
 #: 06ae140e16034cb89362690c1536a721 fd805f74535442c180ba865170285066
 msgid "0.844"
-msgstr ""
+msgstr "0.844"
 
 #: ../userguides/buildings_benchmark_07-06.rst:209
 #: 11cbb2abb697416885789de8eb13ff77
 msgid "**0.755**"
-msgstr ""
+msgstr "**0.755**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:211
 #: 5c8fbd6e455842bc95ee94c9595f8fa4
 msgid "0.642"
-msgstr ""
+msgstr "0.642"
 
 #: ../userguides/buildings_benchmark_07-06.rst:212
 #: 6c082735e46341d6ab915bd75812b09c
 msgid "0.782"
-msgstr ""
+msgstr "0.782"
 
 #: ../userguides/buildings_benchmark_07-06.rst:214
 #: aed18dc27a6d47629bca5b6ce008034e
 msgid "0.676"
-msgstr ""
+msgstr "0.676"
 
 #: ../userguides/buildings_benchmark_07-06.rst:225
 #: ae5c877b8ea14afd914f9fbb8495005c
@@ -477,38 +482,38 @@ msgstr "英国 — 伦敦"
 #: ../userguides/buildings_benchmark_07-06.rst:237
 #: 7d9a9198132a442f9a00f07d2b3be4be
 msgid "**0.813**"
-msgstr ""
+msgstr "**0.813**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:238
 #: ../userguides/buildings_benchmark_07-06.rst:493
 #: 61b39bacbfee4789b0591c31dce8f415 f844a81977804fbdaf45af1777949ebb
 msgid "**0.897**"
-msgstr ""
+msgstr "**0.897**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:239
 #: 541ee8bb97d64d899380a22f32ef13d7
 msgid "**0.873**"
-msgstr ""
+msgstr "**0.873**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:240
 #: b1352484bc6346f3b610303a66d35949
 msgid "**0.922**"
-msgstr ""
+msgstr "**0.922**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:242
 #: e11b19ce25e14826a80b599c41697c0b
 msgid "0.730"
-msgstr ""
+msgstr "0.730"
 
 #: ../userguides/buildings_benchmark_07-06.rst:244
 #: 29173aee6fe0480db7deb339c99fd5f0
 msgid "0.800"
-msgstr ""
+msgstr "0.800"
 
 #: ../userguides/buildings_benchmark_07-06.rst:245
 #: 76891a1f445249da9e29a264c5007415
 msgid "0.892"
-msgstr ""
+msgstr "0.892"
 
 #: ../userguides/buildings_benchmark_07-06.rst:256
 #: 98e29e4132584b308f8eeede189ec5c5
@@ -518,38 +523,38 @@ msgstr "澳大利亚 — 阿德莱德"
 #: ../userguides/buildings_benchmark_07-06.rst:268
 #: 5e714b2123d24b209fdaf6b9c2a6521d
 msgid "**0.868**"
-msgstr ""
+msgstr "**0.868**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:269
 #: ../userguides/buildings_benchmark_07-06.rst:331
 #: 158bfe6269b944cea884b82480d0ca7f 82328aa10f264841b0a5b596aedbd888
 msgid "**0.929**"
-msgstr ""
+msgstr "**0.929**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:270
 #: 8002d55b34af4560ada44763399c2e47
 msgid "**0.914**"
-msgstr ""
+msgstr "**0.914**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:271
 #: 1c2d8df6b62a492c8632a629d03cf245
 msgid "**0.945**"
-msgstr ""
+msgstr "**0.945**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:273
 #: 5482ef8782094195b6009a2424f485c1
 msgid "0.830"
-msgstr ""
+msgstr "0.830"
 
 #: ../userguides/buildings_benchmark_07-06.rst:275
 #: 3028f9bf4c2c4376aaed7e4d7c8863bd
 msgid "0.899"
-msgstr ""
+msgstr "0.899"
 
 #: ../userguides/buildings_benchmark_07-06.rst:276
 #: 38cf9e575ce94fc7b3a116eefa810b76
 msgid "0.915"
-msgstr ""
+msgstr "0.915"
 
 #: ../userguides/buildings_benchmark_07-06.rst:287
 #: af814d7230eb4387a16db974e1ff3021
@@ -560,43 +565,43 @@ msgstr "美国 — 菲尼克斯"
 #: ../userguides/buildings_benchmark_07-06.rst:333
 #: 8070305f98c04195a39551608fc11d13 84f0552f5ed64e74b2ebe4d41b231422
 msgid "**0.903**"
-msgstr ""
+msgstr "**0.903**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:300
 #: ce334370a8bf47148455ca85b201121a
 msgid "**0.949**"
-msgstr ""
+msgstr "**0.949**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:301
 #: dcbca3ec44714f1d9c31aca561db261a
 msgid "**0.944**"
-msgstr ""
+msgstr "**0.944**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:302
 #: 2d66a5cd72e5411fb00cb8a76d1193e0
 msgid "**0.953**"
-msgstr ""
+msgstr "**0.953**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:304
 #: ../userguides/buildings_benchmark_07-06.rst:404
 #: 47b0c79e9d524647abfd12e8447748cc b9f6c9b3e27f496186b565dbc058fed5
 msgid "0.847"
-msgstr ""
+msgstr "0.847"
 
 #: ../userguides/buildings_benchmark_07-06.rst:305
 #: 410fbed6b6f5466da79a095d38e54e90
 msgid "0.917"
-msgstr ""
+msgstr "0.917"
 
 #: ../userguides/buildings_benchmark_07-06.rst:306
 #: 4a93dd16c8344320a59c783ae6f336b9
 msgid "0.902"
-msgstr ""
+msgstr "0.902"
 
 #: ../userguides/buildings_benchmark_07-06.rst:307
 #: a0c3e9f072704f0794a880bbe6e1c047
 msgid "0.933"
-msgstr ""
+msgstr "0.933"
 
 #: ../userguides/buildings_benchmark_07-06.rst:318
 #: 1c91b69323e04b9e8503497053572946
@@ -606,27 +611,27 @@ msgstr "新西兰 — 下赫特"
 #: ../userguides/buildings_benchmark_07-06.rst:332
 #: f0a1a0a294f14e5199902bf42b80f0b0
 msgid "**0.956**"
-msgstr ""
+msgstr "**0.956**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:335
 #: 74910cc92fff4a5097d262bfbdd9ce8b
 msgid "0.814"
-msgstr ""
+msgstr "0.814"
 
 #: ../userguides/buildings_benchmark_07-06.rst:336
 #: a62c37e21f774496b09730106dd4c352
 msgid "0.898"
-msgstr ""
+msgstr "0.898"
 
 #: ../userguides/buildings_benchmark_07-06.rst:337
 #: 3178bcfc9d9d437bb9952cb996636c09
 msgid "0.931"
-msgstr ""
+msgstr "0.931"
 
 #: ../userguides/buildings_benchmark_07-06.rst:338
 #: f57e2b012c5b47b19003753100b59ebb
 msgid "0.867"
-msgstr ""
+msgstr "0.867"
 
 #: ../userguides/buildings_benchmark_07-06.rst:349
 #: cbc738cc5b0e416fac32b6de5184e3ae
@@ -648,42 +653,42 @@ msgstr "阿拉伯联合酋长国 — 阿布扎比"
 #: ../userguides/buildings_benchmark_07-06.rst:367
 #: 19751b57970641caa8096e4fa6bc5a6d
 msgid "**0.751**"
-msgstr ""
+msgstr "**0.751**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:368
 #: aef1ffab004f45d6889a7ce1e274d033
 msgid "**0.858**"
-msgstr ""
+msgstr "**0.858**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:369
 #: 5225d71f62c34c338adb14c6a0d8c2a7
 msgid "**0.828**"
-msgstr ""
+msgstr "**0.828**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:370
 #: a6e131fa6dd84d09a40aa96c6d4233fa
 msgid "**0.890**"
-msgstr ""
+msgstr "**0.890**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:372
 #: bdb081f26c554d09a1ff3cbbb1b554e7
 msgid "0.717"
-msgstr ""
+msgstr "0.717"
 
 #: ../userguides/buildings_benchmark_07-06.rst:373
 #: b412e0612ad84a0f9dfe1949668bd037
 msgid "0.835"
-msgstr ""
+msgstr "0.835"
 
 #: ../userguides/buildings_benchmark_07-06.rst:374
 #: 149ab1d9e9474116b82b1e10875f9f33
 msgid "0.817"
-msgstr ""
+msgstr "0.817"
 
 #: ../userguides/buildings_benchmark_07-06.rst:375
 #: ace422486fc348d38abf0265e4fbb55f
 msgid "0.854"
-msgstr ""
+msgstr "0.854"
 
 #: ../userguides/buildings_benchmark_07-06.rst:386
 #: f2da0b74f07548af9e3d1cb10d2f989c
@@ -693,37 +698,37 @@ msgstr "印度 — 班加罗尔"
 #: ../userguides/buildings_benchmark_07-06.rst:398
 #: 756244f8397b4abdb680a0315feb1338
 msgid "**0.779**"
-msgstr ""
+msgstr "**0.779**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:399
 #: 6285c824bcdb4e24a35dcd6452768647
 msgid "**0.876**"
-msgstr ""
+msgstr "**0.876**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:400
 #: 2794b0fb4f044803bea9902e0926f803
 msgid "**0.859**"
-msgstr ""
+msgstr "**0.859**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:401
 #: d8d8d40d085f4c18bd5919587102b067
 msgid "**0.894**"
-msgstr ""
+msgstr "**0.894**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:403
 #: cd9beb31c7c14076a027351c5afa73c4
 msgid "0.735"
-msgstr ""
+msgstr "0.735"
 
 #: ../userguides/buildings_benchmark_07-06.rst:405
 #: 2110f83f90184f99be484a62dc60abda
 msgid "0.848"
-msgstr ""
+msgstr "0.848"
 
 #: ../userguides/buildings_benchmark_07-06.rst:406
 #: 37234b447e8147efa3e9702381b0a488
 msgid "0.846"
-msgstr ""
+msgstr "0.846"
 
 #: ../userguides/buildings_benchmark_07-06.rst:417
 #: 2dfbfba294c54ebca4a7a322c8f0550b
@@ -733,42 +738,42 @@ msgstr "沙特阿拉伯 — 利雅得"
 #: ../userguides/buildings_benchmark_07-06.rst:429
 #: f9057eeaf26e490a9bb01cc9b075cd51
 msgid "**0.817**"
-msgstr ""
+msgstr "**0.817**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:430
 #: 2fcc53630c1a47f8a6e352c2f3622332
 msgid "**0.899**"
-msgstr ""
+msgstr "**0.899**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:431
 #: 8a64e0ad12d04dccba59919cb58011f5
 msgid "**0.920**"
-msgstr ""
+msgstr "**0.920**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:432
 #: 0ccd32370f194521990b665387782a03
 msgid "0.879"
-msgstr ""
+msgstr "0.879"
 
 #: ../userguides/buildings_benchmark_07-06.rst:434
 #: 2cdf94276bfe40e0bd545d58dd907af1
 msgid "0.654"
-msgstr ""
+msgstr "0.654"
 
 #: ../userguides/buildings_benchmark_07-06.rst:435
 #: 84bea025e1514748a4bef3cb07326ff1
 msgid "0.791"
-msgstr ""
+msgstr "0.791"
 
 #: ../userguides/buildings_benchmark_07-06.rst:436
 #: 8a7d75b1bcbd4705949d44de8191dd1a
 msgid "0.687"
-msgstr ""
+msgstr "0.687"
 
 #: ../userguides/buildings_benchmark_07-06.rst:437
 #: 1c0d356e2f144e919bcc8cc6e0e7ca36
 msgid "**0.931**"
-msgstr ""
+msgstr "**0.931**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:448
 #: 06d2c1b124c342348a0f30b791683d69
@@ -778,42 +783,42 @@ msgstr "印度 — 塔恩"
 #: ../userguides/buildings_benchmark_07-06.rst:460
 #: 2ac60db802b44358873f90f543662989
 msgid "**0.768**"
-msgstr ""
+msgstr "**0.768**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:461
 #: 6040deceb2d0402f9bcedc7044ec36b6
 msgid "**0.869**"
-msgstr ""
+msgstr "**0.869**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:462
 #: 94032ae577e24c03a80fa8383cabd083
 msgid "**0.889**"
-msgstr ""
+msgstr "**0.889**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:463
 #: 325fd1f541134207a2892ecfeb557654
 msgid "**0.849**"
-msgstr ""
+msgstr "**0.849**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:465
 #: 784b0a603cf54a1ab093adb48c77c778
 msgid "0.722"
-msgstr ""
+msgstr "0.722"
 
 #: ../userguides/buildings_benchmark_07-06.rst:466
 #: e831ab2387a3448a85f4823d64bf6390
 msgid "0.839"
-msgstr ""
+msgstr "0.839"
 
 #: ../userguides/buildings_benchmark_07-06.rst:467
 #: 5c0a0c2947fc49ff9ecab9212432d6cc
 msgid "0.871"
-msgstr ""
+msgstr "0.871"
 
 #: ../userguides/buildings_benchmark_07-06.rst:468
 #: 91e668b605444a099ec4f1a6cb094963
 msgid "0.809"
-msgstr ""
+msgstr "0.809"
 
 #: ../userguides/buildings_benchmark_07-06.rst:479
 #: 9f200116375945d2b127e2b6be22730f
@@ -823,32 +828,32 @@ msgstr "俄罗斯 — 乌法"
 #: ../userguides/buildings_benchmark_07-06.rst:491
 #: d0ebb3f4a4394acc92bdb8859d95d91c
 msgid "**0.821**"
-msgstr ""
+msgstr "**0.821**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:492
 #: f17d704e2fcc41da989a766472d74d9e
 msgid "**0.902**"
-msgstr ""
+msgstr "**0.902**"
 
 #: ../userguides/buildings_benchmark_07-06.rst:496
 #: fd049cc9efd6422bb936e5b398a9fc11
 msgid "0.818"
-msgstr ""
+msgstr "0.818"
 
 #: ../userguides/buildings_benchmark_07-06.rst:497
 #: 35e9070bbc0b4ddabb32b5f8200b0e99
 msgid "0.900"
-msgstr ""
+msgstr "0.900"
 
 #: ../userguides/buildings_benchmark_07-06.rst:498
 #: 9c9029586d654bf8baf7c2f8ef8abe44
 msgid "0.897"
-msgstr ""
+msgstr "0.897"
 
 #: ../userguides/buildings_benchmark_07-06.rst:499
 #: 847ad2a68cdb4322b19635f380f9c455
 msgid "0.903"
-msgstr ""
+msgstr "0.903"
 
 #: ../userguides/buildings_benchmark_07-06.rst:510
 #: 61c2021505174c20b46ceca4ddff5fec
@@ -860,8 +865,8 @@ msgstr "概括"
 msgid ""
 "**v.2026-07-06** leads the previous production model on F1 in **all 14 "
 "AOIs**. On the global validation set of aerial imagery (9 AOIs) the mean "
-"area-based F1 rises from 0.849 to **0.893** (IoU 0.751 → **0.813**); on the "
-"5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to "
+"area-based F1 rises from 0.849 to **0.893** (IoU 0.751 → **0.813**); on "
+"the 5 dense-urban satellite imagery AOIs the mean F1 rises from 0.842 to "
 "**0.881** (IoU 0.729 → **0.787**), driven mainly by higher recall and "
 "precision in informal and high-density built-up areas such as Riyadh, "
 "Bangalore and Thane."
@@ -870,3 +875,4 @@ msgstr ""
 "AOI）上，基于区域的平均 F1 从 0.849 上升至 **0.893**\\ （IoU 0.751 → **0.813**）；在 5 "
 "个密集城市卫星图像 AOI 上，平均 F1 从 0.842 上升至 **0.881**\\ （IoU 0.729 → "
 "**0.787**），这主要是由于利雅得、班加罗尔和塔那等非正规和高密度建成区的召回率和精确度更高。"
+

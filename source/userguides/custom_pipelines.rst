@@ -31,8 +31,6 @@ There are three ways to get one:
 
    construction_model
    hd_housing_model
-   buildings_aerial_imagery_model
    solars_model
    swimming_pools_model
    agriculture_fields_model
-   sam_model

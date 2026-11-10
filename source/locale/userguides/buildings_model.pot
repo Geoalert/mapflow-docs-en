@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mapflow 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:56+0000\n"
+"POT-Creation-Date: 2026-11-10 18:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../userguides/buildings_model.rst:1
-#: a71a7cd974514e9aae5dd6418307043b
+#: a91910a8ba764873a2e870536f99ff22
 msgid "Extract building rooftops and footprints from high-resolution satellite and aerial imagery. Building types, simplification, OpenStreetMap merge and height estimation."
 msgstr ""
 
@@ -412,7 +412,7 @@ msgstr ""
 
 #: ../userguides/buildings_model.rst:73
 #: 71ec1e517e5d48efbdfedddfbc9b0072
-msgid "Benchmarks"
+msgid "📊 Benchmarks"
 msgstr ""
 
 #: ../userguides/buildings_model.rst:75
