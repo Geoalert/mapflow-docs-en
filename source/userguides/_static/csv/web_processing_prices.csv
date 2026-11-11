@@ -4,8 +4,8 @@ Buildings, 10,  "| Classification: 0
 | Merge with Opensteeetmap: 0"
 [multi] Buildings + Roads + Forest, 23,  "| Building Heights estimation: 10 
 | Forest Height estimation: 10
-| Tree crowns: 10"
+| Tree crowns: 5"
 Forest and trees, 8, "| Forest Height estimation: 10
-| Crowns extraction: 10
+| Tree crowns: 5
 "
 Roads, 5, "\-"
